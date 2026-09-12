@@ -10,10 +10,21 @@
   html { background:#fff; }
   body { font-family:'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif; background:#fff; color:var(--ink2); color-scheme:light; font-size:12px; line-height:1.6; -webkit-font-smoothing:antialiased; }
   /* On screen (the website's document view) the @page print margins don't apply,
-     so give the sheet its own padding. Page-breaks show as a thin rule instead. */
+     so give the sheet its own padding AND a larger, comfortable reading size —
+     the 12px base is tuned for A4 print and reads too small on a monitor.
+     Page-breaks show as a thin rule instead of a new sheet. */
   @media screen {
-    body { padding:34px 40px; }
-    .page { padding-bottom:26px; margin-bottom:26px; border-bottom:1px solid var(--line2); }
+    body { font-size:14px; padding:44px 56px; }
+    h1 { font-size:38px; }
+    h2 { font-size:22px; }
+    .lead { font-size:16px; }
+    .intro { font-size:14px; }
+    p { margin-bottom:12px; }
+    table { font-size:13px; }
+    .stat .v { font-size:26px; }
+    .define p, .news .note, .news .h, .callout p, .tldr p { font-size:14px; }
+    .macro .m .chg { font-size:22px; }
+    .page { padding-bottom:30px; margin-bottom:30px; border-bottom:1px solid var(--line2); }
     .page:last-child { border-bottom:none; margin-bottom:0; }
   }
   .page { page-break-after:always; }
@@ -116,7 +127,7 @@
     </div>
     <h3>What's inside this report</h3>
     <table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><span class="mono">01</span></td><td><strong>Key terms</strong> — last price, mark price, divergence, volatility, explained simply</td></tr><tr><td><span class="mono">02</span></td><td><strong>Market overview</strong> — the day's biggest movers and the dangerous price gaps</td></tr><tr><td><span class="mono">03</span></td><td><strong>Whole-market context</strong> — BTC / ETH / SOL, a market chart, and the day's sourced news</td></tr><tr><td><span class="mono">04</span></td><td><strong>Every flagged coin</strong> — its story, a price-vs-mark chart, and the numbers</td></tr></tbody></table>
-    <div class="foot">Generated automatically at 2026-09-12 19:11:59 UTC. Source: Binance USD-M Futures public API (1-minute last-price and mark-price candles). Information only, not financial advice.</div>
+    <div class="foot">Generated automatically at 2026-09-12 19:24:02 UTC. Source: Binance USD-M Futures public API (1-minute last-price and mark-price candles). Information only, not financial advice.</div>
   </div>
   <div class="page">
     <div class="kicker">01 · Key terms</div>
