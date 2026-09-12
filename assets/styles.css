@@ -241,7 +241,14 @@ button { font-family: inherit; cursor: pointer; }
 .chip.muted { color: var(--text-2); background: var(--bg-3); }
 .chip .k { color: var(--text-3); font-weight: 600; }
 
-/* ── READING VIEW (the article) ───────────────────────────────────────────── */
+/* ── DOCUMENT VIEW (the full report as a paper sheet, Preview-style) ───────── */
+.docwrap { padding: 22px; display: flex; justify-content: center; }
+.doc-sheet { position: relative; width: 100%; max-width: 860px; background: #fff; border-radius: 12px; box-shadow: var(--sh-2); overflow: hidden; min-height: 300px; }
+.doc-loading { position: absolute; inset: 0; padding: 34px 40px; background: #fff; }
+.doc { width: 100%; border: 0; display: block; background: #fff; min-height: 300px; }
+@media (max-width: 860px) { .docwrap { padding: 10px; } }
+
+/* ── READING VIEW (legacy summary render — kept for fallback) ──────────────── */
 .reader { max-width: 780px; margin: 0 auto; padding: 30px 32px 80px; }
 .r-kicker { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-text); }
 .r-title { font-size: 30px; font-weight: 700; letter-spacing: -0.025em; margin: 4px 0 2px; }

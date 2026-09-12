@@ -35,63 +35,102 @@ function findChrome() {
 }
 
 const STYLE = `
-  @page { size: A4; margin: 16mm 14mm; }
+  @page { size: A4; margin: 15mm 14mm 16mm; }
+  :root {
+    --ink:#14181d; --ink2:#39414b; --muted:#6b727c; --faint:#9aa1ab;
+    --accent:#c2410c; --accent-ink:#9a3409; --accent-soft:#fbeee6; --accent-line:#eecab2;
+    --line:#e8eaee; --line2:#f0f2f5; --card:#f7f8fa;
+    --pos:#0f8a4f; --pos-soft:#e7f4ec; --neg:#c62b3f; --neg-soft:#fbe9eb; --amb:#b45309;
+  }
   * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family:'Segoe UI',Arial,sans-serif; color:#1c1c1c; font-size:12.5px; line-height:1.6; }
+  html { background:#fff; }
+  body { font-family:'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif; background:#fff; color:var(--ink2); color-scheme:light; font-size:12px; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  /* On screen (the website's document view) the @page print margins don't apply,
+     so give the sheet its own padding. Page-breaks show as a thin rule instead. */
+  @media screen {
+    body { padding:34px 40px; }
+    .page { padding-bottom:26px; margin-bottom:26px; border-bottom:1px solid var(--line2); }
+    .page:last-child { border-bottom:none; margin-bottom:0; }
+  }
   .page { page-break-after:always; }
   .page:last-child { page-break-after:auto; }
-  h1 { font-size:25px; font-weight:700; color:#0d1117; margin-bottom:2px; letter-spacing:-0.3px; }
-  .date { font-size:14px; color:#555; margin-bottom:18px; }
-  h2 { font-size:18px; font-weight:700; color:#0d1117; margin:24px 0 8px; padding-bottom:5px; border-bottom:2px solid #e3e5e9; }
-  h3 { font-size:14px; font-weight:700; color:#0d1117; margin:16px 0 6px; }
+  .mono { font-family:'SF Mono','Consolas','Liberation Mono',monospace; font-variant-numeric:tabular-nums; }
+  strong { color:var(--ink); font-weight:650; }
+
+  /* section header system — makes "what is what" obvious */
+  .kicker { font-size:9.5px; font-weight:700; letter-spacing:0.11em; text-transform:uppercase; color:var(--accent); display:flex; align-items:center; gap:8px; margin-bottom:5px; }
+  .kicker::before { content:""; width:16px; height:2px; background:var(--accent); border-radius:2px; }
+  h2 { font-size:19px; font-weight:700; color:var(--ink); letter-spacing:-0.02em; margin:0 0 4px; }
+  .intro { font-size:12px; color:var(--muted); margin:0 0 14px; max-width:62ch; }
+  h3 { font-size:11px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; color:var(--muted); margin:18px 0 8px; }
   p { margin-bottom:10px; }
-  .lead { font-size:14px; }
-  strong { color:#0d1117; }
-  .tldr { background:#eef4fb; border-left:5px solid #2f6fd0; border-radius:0 8px 8px 0; padding:14px 16px; margin:16px 0; }
-  .tldr h3 { margin-top:0; color:#1a4b91; }
-  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:16px 0; }
-  .stat { background:#f5f6f8; border-radius:8px; padding:12px 10px; text-align:center; }
-  .stat .v { font-size:20px; font-weight:700; color:#0d1117; }
-  .stat .v.red { color:#c0392b; }
-  .stat .v.amb { color:#9a6700; }
-  .stat .l { font-size:10px; color:#666; margin-top:3px; }
-  .define { background:#fbfbfc; border:1px solid #e7e9ed; border-radius:8px; padding:12px 14px; margin:10px 0; }
-  .define .term { font-weight:700; color:#0d1117; font-size:13.5px; }
-  .define .why { color:#7a5a00; background:#fdf7e8; border-radius:6px; padding:7px 10px; margin-top:7px; font-size:12px; }
-  table { width:100%; border-collapse:collapse; font-size:12px; margin:8px 0 14px; }
-  th { text-align:left; background:#eef0f3; color:#444; font-weight:700; padding:7px 9px; border-bottom:2px solid #d4d7dd; }
-  td { padding:6px 9px; border-bottom:1px solid #edeff2; }
-  tr:nth-child(even) td { background:#fafbfc; }
-  .mono { font-family:'Consolas',monospace; }
-  .red { color:#c0392b; font-weight:700; }
-  .amb { color:#9a6700; font-weight:700; }
-  .grn { color:#1a7a3c; font-weight:700; }
-  .callout { background:#fdecec; border-left:5px solid #c0392b; border-radius:0 8px 8px 0; padding:12px 14px; margin:14px 0; }
-  .callout h3 { color:#a02b1f; margin-top:0; }
-  .tag { display:inline-block; font-size:10.5px; font-weight:700; padding:2px 8px; border-radius:4px; background:#eef0f3; color:#444; margin-left:6px; vertical-align:middle; }
-  .tag.danger { background:#fde8e8; color:#c0392b; }
-  .src { font-size:10px; color:#aaa; }
-  .foot { margin-top:18px; padding-top:10px; border-top:1px solid #e3e5e9; font-size:10.5px; color:#888; }
-  .chart { width:100%; height:auto; margin:10px 0 6px; background:#fff; border:1px solid #eceef1; border-radius:8px; }
-  .chartcap { font-size:10.5px; color:#888; margin:0 0 14px; }
-  .news { list-style:none; margin:6px 0 8px; }
-  .news li { padding:9px 12px; border:1px solid #e7e9ed; border-left-width:5px; border-radius:0 8px 8px 0; margin-bottom:8px; background:#fbfbfc; }
-  .news li.bullish { border-left-color:#1a7a3c; }
-  .news li.bearish { border-left-color:#c0392b; }
-  .news li.neutral { border-left-color:#8a8f98; }
-  .news .h { font-weight:700; color:#0d1117; font-size:12.5px; }
-  .news .meta { font-size:10.5px; color:#777; margin-top:2px; }
-  .news .note { font-size:11.5px; color:#444; margin-top:4px; }
-  .pill { display:inline-block; font-size:9.5px; font-weight:700; padding:1px 7px; border-radius:10px; margin-right:6px; vertical-align:middle; }
-  .pill.bullish { background:#e6f4ea; color:#1a7a3c; }
-  .pill.bearish { background:#fdecec; color:#c0392b; }
-  .pill.neutral { background:#eef0f3; color:#555; }
-  .conf { font-size:9.5px; color:#999; }
-  .macro { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:14px 0; }
-  .macro .m { background:#f5f6f8; border-radius:8px; padding:11px 12px; }
-  .macro .m .sym { font-weight:700; font-size:13px; color:#0d1117; }
-  .macro .m .chg { font-size:18px; font-weight:700; }
-  .macro .m .sub { font-size:10px; color:#777; margin-top:2px; }
+  .lead { font-size:13.5px; color:var(--ink2); }
+
+  /* cover */
+  .cover-band { display:flex; align-items:center; gap:12px; padding-bottom:16px; margin-bottom:22px; border-bottom:1px solid var(--line); }
+  .cover-mark { width:38px; height:38px; border-radius:10px; background:linear-gradient(150deg,#e05a1f,#c2410c); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:15px; }
+  .cover-brand { font-size:12.5px; font-weight:700; color:var(--ink); letter-spacing:-0.01em; }
+  .cover-brand span { display:block; font-size:10px; font-weight:500; color:var(--muted); letter-spacing:0.02em; }
+  h1 { font-size:34px; font-weight:800; color:var(--ink); margin:6px 0 2px; letter-spacing:-0.03em; }
+  .date { font-size:13px; color:var(--muted); margin-bottom:20px; }
+
+  .tldr { background:var(--accent-soft); border:1px solid var(--accent-line); border-radius:11px; padding:15px 17px; margin:18px 0; }
+  .tldr h3 { margin:0 0 6px; color:var(--accent-ink); font-size:10px; }
+  .tldr p { margin:0; font-size:13px; color:var(--ink2); }
+
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:11px; margin:18px 0; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:11px; padding:13px 14px; }
+  .stat .v { font-family:'SF Mono','Consolas',monospace; font-size:23px; font-weight:700; color:var(--ink); letter-spacing:-0.02em; line-height:1.05; }
+  .stat .v.red { color:var(--neg); } .stat .v.amb { color:var(--amb); } .stat .v.grn { color:var(--pos); }
+  .stat .l { font-size:9.5px; font-weight:600; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted); margin-top:6px; }
+
+  .define { background:var(--card); border:1px solid var(--line); border-radius:11px; padding:13px 15px; margin:10px 0; }
+  .define .term { font-weight:700; color:var(--ink); font-size:13px; }
+  .define p { margin:5px 0 0; font-size:12px; }
+  .define .why { color:var(--accent-ink); background:var(--accent-soft); border-radius:8px; padding:8px 11px; margin-top:9px; font-size:11.5px; }
+
+  table { width:100%; border-collapse:collapse; font-size:11.5px; margin:6px 0 16px; }
+  th { text-align:left; color:var(--muted); font-weight:700; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; padding:0 10px 7px; border-bottom:1px solid var(--line); }
+  td { padding:8px 10px; border-bottom:1px solid var(--line2); }
+  tr:last-child td { border-bottom:none; }
+  .red { color:var(--neg); font-weight:650; } .amb { color:var(--amb); font-weight:650; } .grn { color:var(--pos); font-weight:650; }
+
+  .callout { background:var(--neg-soft); border:1px solid #f2ccd1; border-left:3px solid var(--neg); border-radius:0 10px 10px 0; padding:12px 15px; margin:14px 0; }
+  .callout h3 { color:var(--neg); margin:0 0 5px; }
+  .callout p { margin:0; font-size:12px; color:var(--ink2); }
+
+  .tag { display:inline-block; font-size:10px; font-weight:650; padding:3px 10px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--ink2); margin-left:8px; vertical-align:middle; }
+  .tag.danger { background:var(--neg-soft); border-color:#f2ccd1; color:var(--neg); }
+
+  .coin-head { display:flex; align-items:baseline; gap:2px; margin-bottom:6px; }
+  .coin-head h2 { font-family:'SF Mono','Consolas',monospace; letter-spacing:-0.01em; }
+
+  .foot { margin-top:20px; padding-top:11px; border-top:1px solid var(--line); font-size:10px; color:var(--faint); }
+  .src { color:var(--faint); }
+
+  .chart { width:100%; height:auto; display:block; }
+  .figure { border:1px solid var(--line); border-radius:11px; padding:12px 12px 6px; margin:12px 0; background:#fff; }
+  .chartcap { font-size:10px; color:var(--muted); margin:6px 2px 0; }
+
+  .news { list-style:none; margin:8px 0; }
+  .news li { padding:12px 14px; border:1px solid var(--line); border-left:3px solid var(--faint); border-radius:0 11px 11px 0; margin-bottom:9px; background:#fff; }
+  .news li.bullish { border-left-color:var(--pos); }
+  .news li.bearish { border-left-color:var(--neg); }
+  .news li.neutral { border-left-color:var(--faint); }
+  .news .h { font-weight:650; color:var(--ink); font-size:12.5px; display:flex; align-items:center; gap:8px; }
+  .news .meta { font-size:10.5px; color:var(--muted); margin-top:5px; }
+  .news .note { font-size:11.5px; color:var(--ink2); margin-top:6px; line-height:1.55; }
+  .pill { display:inline-block; font-size:9px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; padding:2px 8px; border-radius:999px; }
+  .pill.bullish { background:var(--pos-soft); color:var(--pos); }
+  .pill.bearish { background:var(--neg-soft); color:var(--neg); }
+  .pill.neutral { background:var(--card); color:var(--muted); }
+  .conf { color:var(--faint); }
+
+  .macro { display:grid; grid-template-columns:repeat(3,1fr); gap:11px; margin:14px 0; }
+  .macro .m { background:var(--card); border:1px solid var(--line); border-radius:11px; padding:12px 14px; }
+  .macro .m .sym { font-weight:700; font-size:12.5px; color:var(--ink); }
+  .macro .m .chg { font-family:'SF Mono','Consolas',monospace; font-size:19px; font-weight:700; letter-spacing:-0.02em; margin-top:2px; }
+  .macro .m .sub { font-size:10px; color:var(--muted); margin-top:3px; }
 `;
 
 function statBox(label, value, cls = "") {
@@ -109,32 +148,37 @@ function rankTable(headers, rows) {
 export function buildHtml(R) {
   const cover = `
   <div class="page">
-    <h1>Binance Futures — Daily Market Report</h1>
-    <div class="date">${esc(R.dateLong)} &middot; 00:00 to ${esc(R.endLabel)} UTC</div>
-    <p class="lead">For every coin on Binance USD-M Futures, this report answers three simple questions in plain English: <strong>which coins moved the most, which had a dangerous gap between their two prices, and should anyone worry about it?</strong> No experience needed — page 2 explains every term.</p>
+    <div class="cover-band">
+      <div class="cover-mark">FD</div>
+      <div class="cover-brand">Futures Daily Report<span>Binance USD-M Futures · daily market report</span></div>
+    </div>
+    <div class="kicker">Daily market report</div>
+    <h1>${esc(R.dateLong)}</h1>
+    <div class="date">00:00 to ${esc(R.endLabel)} UTC · all coins on Binance USD-M Futures</div>
     <div class="stats">
       ${statBox("coins scanned", R.symbolCount)}
-      ${statBox("moved a lot today", R.bigMoveCount, "amb")}
-      ${statBox("had a dangerous price gap", R.dangerCount, "red")}
-      ${statBox(R.widest ? "biggest gap (" + R.widest.symbol + ")" : "biggest gap", R.widest ? R.widest.maxDiv : "—", "red")}
+      ${statBox("moved more than 25%", R.bigMoveCount, "amb")}
+      ${statBox("dangerous price gaps", R.dangerCount, "red")}
+      ${statBox(R.widest ? "widest gap · " + R.widest.symbol : "widest gap", R.widest ? R.widest.maxDiv : "—", "red")}
     </div>
     <div class="tldr">
       <h3>The day in one paragraph</h3>
-      <p style="margin-bottom:0">${R.tldr}</p>
+      <p>${R.tldr}</p>
     </div>
-    <h2>What's inside</h2>
+    <h3>What's inside this report</h3>
     ${rankTable(["", ""], [
-      ['<span class="mono">p.2</span>', "<strong>Plain-English dictionary</strong> — last price, mark price, divergence, volatility"],
-      ['<span class="mono">p.3</span>', "<strong>Market overview</strong> — the day's biggest movers and the dangerous price gaps"],
-      ['<span class="mono">p.4</span>', "<strong>Whole-market context</strong> — BTC/ETH/SOL, a market chart, and the day's sourced news"],
-      ['<span class="mono">p.5+</span>', "<strong>Story of each flagged coin</strong> — with a price-vs-mark chart"],
+      ['<span class="mono">01</span>', "<strong>Key terms</strong> — last price, mark price, divergence, volatility, explained simply"],
+      ['<span class="mono">02</span>', "<strong>Market overview</strong> — the day's biggest movers and the dangerous price gaps"],
+      ['<span class="mono">03</span>', "<strong>Whole-market context</strong> — BTC / ETH / SOL, a market chart, and the day's sourced news"],
+      ['<span class="mono">04</span>', "<strong>Every flagged coin</strong> — its story, a price-vs-mark chart, and the numbers"],
     ])}
     <div class="foot">Generated automatically at ${esc(R.generatedAt)}. Source: Binance USD-M Futures public API (1-minute last-price and mark-price candles). Information only, not financial advice.</div>
   </div>`;
 
   const dictionary = `
   <div class="page">
-    <h2>First, four words explained simply</h2>
+    <div class="kicker">01 · Key terms</div>
+    <h2>Four words, explained simply</h2>
     <p>Every coin on Binance Futures has <strong>two prices at the same time</strong>. Here's why, with no jargon.</p>
     <div class="define"><div class="term">1. Last Price</div>
       <p style="margin-bottom:0">The price of the <strong>most recent real trade</strong> — the live price flashing on screen. It can jump around when the market panics, because one big order can yank it for a moment.</p></div>
@@ -152,9 +196,10 @@ export function buildHtml(R) {
 
   const overview = `
   <div class="page">
+    <div class="kicker">02 · Market overview</div>
     <h2>What happened across the market today</h2>
-    <p class="lead">${R.overviewLead}</p>
-    <h3>Biggest movers (by how far the price swung)</h3>
+    <p class="intro">${R.overviewLead}</p>
+    <h3>Biggest movers · by how far the price swung</h3>
     ${rankTable(
       ["Coin", "Total swing", "Open → Close", "1-min vol"],
       R.topVolatility.map((r) => [
@@ -210,13 +255,14 @@ export function buildHtml(R) {
 
   const marketPage = `
   <div class="page">
-    <h2>What happened across the whole crypto market</h2>
-    <p class="lead">Before the individual coins, here's the market backdrop they moved against — the majors, and the news that drove them. Altcoin futures rarely move in isolation; they mostly amplify what Bitcoin and the macro headlines are already doing.</p>
+    <div class="kicker">03 · Whole-market context</div>
+    <h2>What moved the whole crypto market</h2>
+    <p class="intro">The backdrop the altcoins moved against — the majors, and the news that drove them. Altcoin futures rarely move in isolation; they mostly amplify what Bitcoin and the macro headlines are already doing.</p>
     ${macroCards || "<p><em>Macro reference data (BTC/ETH/SOL) was unavailable for this day.</em></p>"}
-    ${R.marketChart ? `${R.marketChart}<p class="chartcap">Majors through the UTC day, shown as % change from each coin's own open so they share one scale. Source: Binance USD-M Futures 1-minute candles.</p>` : ""}
-    ${news.summary ? `<div class="tldr"><h3>Why the market moved</h3><p style="margin-bottom:0">${esc(news.summary)}</p></div>` : ""}
-    <h3>The day's news &amp; social-media drivers <span class="tag">sourced</span></h3>
-    <p>Each item below was gathered from published reporting and carries its source and a confidence flag. Where a coin's move can't be tied to a confirmed event, it's left described by the data alone.</p>
+    ${R.marketChart ? `<div class="figure">${R.marketChart}<p class="chartcap">The majors through the UTC day, shown as % change from each coin's own open so they share one scale. Source: Binance USD-M Futures 1-minute candles.</p></div>` : ""}
+    ${news.summary ? `<div class="tldr"><h3>Why the market moved</h3><p>${esc(news.summary)}</p></div>` : ""}
+    <h3>The day's news &amp; social drivers · sourced</h3>
+    <p class="intro">Each item was gathered from published reporting and carries its source and a confidence flag. Where a coin's move can't be tied to a confirmed event, it's left described by the data alone.</p>
     ${newsList}
     <div class="foot">News is compiled from public reporting at generation time and may be incomplete. Impact/confidence flags are editorial judgements, not guarantees. Information only, not financial advice.</div>
   </div>`;
@@ -245,10 +291,11 @@ export function buildHtml(R) {
         : "";
       return `
       <div class="page">
-        <h2>${esc(d.m.symbol)} <span class="tag ${d.isDanger ? "danger" : ""}">${esc(d.archetypeLabel)}</span></h2>
+        <div class="kicker">04 · Flagged coin</div>
+        <div class="coin-head"><h2>${esc(d.m.symbol)}</h2><span class="tag ${d.isDanger ? "danger" : ""}">${esc(d.archetypeLabel)}</span></div>
         <p class="lead"><strong>${esc(n.headline)}</strong></p>
         <p>${esc(n.narrative)}</p>
-        ${d.chart ? `${d.chart}<p class="chartcap">Live (last) price vs mark price through the day. Shaded bands mark the minutes the gap exceeded 5% — the danger zone for liquidations. Source: Binance 1-minute candles.</p>` : ""}
+        ${d.chart ? `<div class="figure">${d.chart}<p class="chartcap">Live (last) price vs mark price through the day. Shaded bands mark the minutes the gap exceeded 5% — the danger zone for liquidations. Source: Binance 1-minute candles.</p></div>` : ""}
         ${danger}
         <h3>By the numbers</h3>
         <div class="stats">

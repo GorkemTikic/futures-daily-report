@@ -66,19 +66,20 @@
 
   // ---------- reading view ----------
   function toolbarReading(r, prev, next) {
+    var pdf = r.files && r.files.pdf;
     toolbarEl.innerHTML =
-      '<button class="btn icon" id="menu" aria-label="Menu" style="display:none">☰</button>' +
       '<div><div class="tb-title">' + r.date + '</div><div class="tb-sub">' + esc(dowShort(r.date)) + " · daily market report</div></div>" +
       '<div class="sp"></div>' +
       '<div class="ticker" id="ticker" hidden><span class="sym">BTC</span><span class="px" id="ticker-px">—</span></div>' +
       '<button class="btn icon" id="prev"' + (prev ? "" : " disabled") + ' title="Previous day">‹</button>' +
       '<button class="btn icon" id="next"' + (next ? "" : " disabled") + ' title="Next day">›</button>' +
-      (r.files && r.files.pdf ? '<a class="btn" id="pdf" href="' + r.files.pdf + '" target="_blank" rel="noopener">PDF</a>' : "") +
-      '<button class="btn" id="copy">Copy link</button>';
+      (pdf ? '<a class="btn" id="open" href="' + r.files.html + '" target="_blank" rel="noopener" title="Open in a new tab">Open</a>' : "") +
+      (pdf ? '<a class="btn primary" id="pdf" href="' + r.files.pdf + '" download title="Download the PDF">↓ PDF</a>' : "") +
+      themeBtn();
     if (prev) $("prev").onclick = function () { A.track("report_nav", { dir: "prev" }); location.hash = "#/report/" + prev; };
     if (next) $("next").onclick = function () { A.track("report_nav", { dir: "next" }); location.hash = "#/report/" + next; };
-    var pdf = $("pdf"); if (pdf) pdf.onclick = function () { A.track("report_pdf_open", { date: r.date }); };
-    $("copy").onclick = function () { var u = location.href; (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(function () { toast("Link copied"); }, function () { toast(u); }); A.track("report_copy_link", { date: r.date }); };
+    var p = $("pdf"); if (p) p.onclick = function () { A.track("report_pdf_open", { date: r.date }); };
+    wireTheme();
   }
 
   function extract(html) {
@@ -191,22 +192,36 @@
     renderSidebar();
     toolbarReading(r, prev, next);
     A.track("report_open", { date: date });
-    contentEl.innerHTML = '<div class="reader"><div class="skeleton" style="height:40px;width:220px;margin-bottom:20px"></div><div class="skeleton" style="height:120px;margin-bottom:16px"></div><div class="skeleton" style="height:300px"></div></div>';
 
-    if (!(r.files && r.files.html)) { renderReading(r, { dives: [], news: [], macro: [] }); return; }
-    fetchReportHtml(date, r.files.html).then(function (html) {
-      var ex;
-      try { ex = extract(html); } catch (e) { ex = { dives: [], news: [], macro: [] }; }
-      renderReading(r, ex);
-      // track clicks on source links inside the reading view
-      contentEl.addEventListener("click", function (ev) {
-        var a = ev.target && ev.target.closest ? ev.target.closest("a[href^='http']") : null;
-        if (a) { var host = ""; try { host = new URL(a.href).host; } catch (e) {} A.track("report_link_click", { date: date, host: host }); }
-      });
-      window.scrollTo && contentEl.scrollTo(0, 0);
-    }).catch(function () {
-      renderReading(r, { dives: [], news: [], macro: [] });
+    if (!(r.files && r.files.html)) {
+      contentEl.innerHTML = '<div class="empty"><div><div class="big">No rendered report for this day</div>' + (r.files && r.files.pdf ? '<a class="btn primary" href="' + r.files.pdf + '" download>↓ Download PDF</a>' : "") + "</div></div>";
+      return;
+    }
+    // Show the full report as a document sheet (Preview-style) — the same detailed
+    // report as the PDF, on a paper sheet over the workspace.
+    contentEl.innerHTML =
+      '<div class="docwrap"><div class="doc-sheet" id="sheet">' +
+        '<div class="doc-loading"><div class="skeleton" style="height:34px;width:60%;margin-bottom:18px"></div><div class="skeleton" style="height:90px;margin-bottom:14px"></div><div class="skeleton" style="height:260px"></div></div>' +
+        '<iframe class="doc" id="frame" src="' + r.files.html + '" title="Report ' + date + '" scrolling="no"></iframe>' +
+      "</div></div>";
+    var frame = $("frame");
+    frame.addEventListener("load", function () {
+      try {
+        var doc = frame.contentDocument;
+        var loading = document.querySelector(".doc-loading"); if (loading) loading.remove();
+        function fit() { try { frame.style.height = (doc.documentElement.scrollHeight + 4) + "px"; } catch (e) {} }
+        fit(); setTimeout(fit, 120); setTimeout(fit, 400);
+        // same-origin: track source-link clicks inside the report ("click where")
+        doc.addEventListener("click", function (ev) {
+          var a = ev.target && ev.target.closest ? ev.target.closest("a[href]") : null;
+          if (!a) return;
+          var href = a.getAttribute("href") || "", host = "";
+          try { host = new URL(href, location.href).host; } catch (e) {}
+          if (/^https?:/i.test(href)) { a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener"); A.track("report_link_click", { date: date, host: host }); }
+        }, true);
+      } catch (e) { /* cross-origin — shouldn't happen on same-origin Pages */ }
     });
+    contentEl.scrollTo && contentEl.scrollTo(0, 0);
   }
 
   // ---------- analytics ----------
@@ -216,7 +231,8 @@
 
   function renderAnalytics() {
     state.view = "analytics"; state.date = null; setNav(); renderSidebar();
-    toolbarEl.innerHTML = '<div><div class="tb-title">Analytics</div><div class="tb-sub">Usage of the reports site</div></div>';
+    toolbarEl.innerHTML = '<div><div class="tb-title">Analytics</div><div class="tb-sub">Usage of the reports site</div></div><div class="sp"></div>' + themeBtn();
+    wireTheme();
     A.track("view_analytics");
     if (!A.enabled) { contentEl.innerHTML = '<div class="empty"><div><div class="big">Analytics not configured</div><div class="note">Deploy the Cloudflare Worker and set <span class="mono">analyticsUrl</span> in <span class="mono">assets/config.js</span>.<br>See <span class="mono">analytics-worker/README.md</span>.</div></div></div>'; return; }
     if (!getTok()) return adminLogin();
@@ -260,12 +276,14 @@
   function initTheme() {
     var t; try { t = localStorage.getItem("_fdr_theme"); } catch (e) {}
     if (t) document.documentElement.setAttribute("data-theme", t);
-    $("theme").onclick = function () {
-      var cur = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
-      document.documentElement.setAttribute("data-theme", cur);
-      try { localStorage.setItem("_fdr_theme", cur); } catch (e) {}
-    };
   }
+  function toggleTheme() {
+    var cur = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", cur);
+    try { localStorage.setItem("_fdr_theme", cur); } catch (e) {}
+  }
+  function themeBtn() { return '<button class="btn icon" id="theme" title="Light / dark" aria-label="Toggle theme">◑</button>'; }
+  function wireTheme() { var b = $("theme"); if (b) b.onclick = toggleTheme; }
   function startTicker() {
     var el = $("ticker"), px = $("ticker-px"); if (!el) return;
     var last = null, fails = 0;
