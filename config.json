@@ -1,0 +1,37 @@
+{
+  "_comment": "Settings for the daily report. Edit values here; no code changes needed.",
+
+  "prefilterTopN": 75,
+  "_prefilterTopN": "Scan the full market with the cheap 24h endpoint, then deep-fetch 1m mark+last klines for the top N movers by daily range. Divergence only matters where price moved, so this catches the dangerous cases while staying fast. Set to 0 to deep-scan ALL symbols (slower, ~4-5 min).",
+
+  "deepDivePages": 15,
+  "_deepDivePages": "Max number of full per-symbol 'story' pages in the PDF. The rest of the flagged symbols still appear in the summary tables.",
+
+  "thresholds": {
+    "bigMovePct": 25,
+    "highVolPct": 1.5,
+    "divDangerPct": 5,
+    "divDangerMinutes": 10,
+    "divBriefMaxPct": 5,
+    "divFlagPct": 2,
+    "fadeRunupPct": 15,
+    "fadeCloseMaxPct": 5,
+    "recoveryDropPct": 15,
+    "recoveryBouncePct": 15
+  },
+
+  "autoPublish": true,
+  "_autoPublish": "After each report run, rebuild the website's manifest.json and git-push reports/ so the GitHub Pages site (https://gorkemtikic.github.io/futures-daily-report) updates itself. Requires this folder to be a git repo with an 'origin' remote and a logged-in git/gh on this machine. Non-fatal: a push failure never breaks report generation. Set false to publish manually with 'node scripts/publish.mjs'.",
+
+  "marketNews": true,
+  "_marketNews": "New: adds a whole-market context page (real BTC/ETH/SOL data + a market chart) and an ATTRIBUTED news/social section explaining what moved the market. News is researched at generation time by the narrator (the 'cli' route runs a separate 'claude -p' with web search; 'api' uses the Anthropic web_search tool). It is written to reports/<date>/news.json, which you can also hand-edit or pre-fill — that file always wins. If no research is available (e.g. narrator='template' or offline), the section falls back to a truthful data-only summary and no headline is ever invented. Set false to skip news entirely (charts + macro data still render).",
+
+  "narrator": "cli",
+  "_narrator": "Who writes the daily stories. 'cli' = headless Claude Code (claude -p) on your existing login, no API key, one batched call/day. 'api' = direct Anthropic API (needs ANTHROPIC_API_KEY). 'template' = built-in wording, free, offline. 'auto' = api if a key is set, else cli, else template. Any AI path falls back to templates per-coin if it fails or returns a number not in the data.",
+
+  "model": "claude-haiku-4-5",
+  "_model": "Model the 'cli'/'api' narrators use. Default Haiku keeps the no-key CLI route cheap (~$1/mo) because each daily 'claude -p' call reloads Claude Code's system prompt. Set to 'claude-opus-4-8' for richer prose (~$15/mo on the CLI route; much cheaper via a direct API key).",
+
+  "concurrency": 6,
+  "_concurrency": "How many Binance requests to run at once. 6 is safe under the IP weight limit."
+}

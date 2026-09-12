@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# secrets / local env
+.env
+.env.local
+*.secret
+
+# OS cruft
+Thumbs.db
+.DS_Store
+
+# Cloudflare Worker local state
+analytics-worker/.wrangler/
+analytics-worker/node_modules/
+
+# scratch
+*.tmp

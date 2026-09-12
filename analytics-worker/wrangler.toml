@@ -1,0 +1,26 @@
+name               = "fdr-analytics"
+main               = "index.js"
+compatibility_date = "2024-09-23"
+
+# D1 database binding. Create it once with:
+#   wrangler d1 create fdr-analytics-db
+# then paste the printed database_id below.
+[[d1_databases]]
+binding       = "DB"
+database_name = "fdr-analytics-db"
+database_id   = "PASTE_YOUR_D1_DATABASE_ID_HERE"
+
+# Optional per-IP rate limiting. The Worker fails OPEN if this binding is absent,
+# so you can deploy without it and add it later. Create with:
+#   wrangler kv namespace create RATE_LIMIT_KV
+# then paste the id below and uncomment the block.
+# [[kv_namespaces]]
+# binding = "RATE_LIMIT_KV"
+# id      = "PASTE_YOUR_KV_NAMESPACE_ID_HERE"
+
+# Set secrets via CLI — never commit them:
+#   wrangler secret put ADMIN_TOKEN
+#
+# ALLOWED_ORIGIN must equal your GitHub Pages origin, no trailing slash.
+[vars]
+ALLOWED_ORIGIN = "https://gorkemtikic.github.io"

@@ -1,0 +1,12 @@
+{
+  "name": "futures-daily-report",
+  "version": "1.0.0",
+  "description": "Daily Binance USD-M Futures volatility & mark-vs-last divergence report, in plain English.",
+  "type": "module",
+  "scripts": {
+    "report": "node src/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0"
+  }
+}

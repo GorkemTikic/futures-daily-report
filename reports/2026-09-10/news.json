@@ -1,0 +1,42 @@
+{
+  "summary": "A risk-off day across crypto driven almost entirely by macro, not coin-specific news. Bitcoin held below $80K (~5% under the prior week's high) as traders de-risked ahead of Friday's August CPI — the last inflation print before the Fed's Sep 15-16 meeting — while rising Treasury yields and Middle East tensions weighed on risk assets broadly. US spot Bitcoin ETFs extended outflows for a third straight session. The altcoin futures moves flagged in this report were low-cap and idiosyncratic; no confirmed mainstream or social-media catalyst was found for the individual names, so they are described from price data alone.",
+  "source": "researched (web, attributed) 2026-09-10",
+  "items": [
+    {
+      "headline": "Bitcoin holds below $80K, ~5% under last week's high, as risk appetite fades",
+      "source": "UseTheBitcoin",
+      "url": "https://usethebitcoin.com/bitcoin/bitcoin-price-september-10-2026/",
+      "date": "2026-09-10",
+      "impact": "bearish",
+      "confidence": "high",
+      "note": "BTC traded near $77-78K with total crypto market cap around $2.76T. Renewed Middle East tensions and rising US Treasury yields pressured risk assets generally, dragging altcoins with it."
+    },
+    {
+      "headline": "US spot Bitcoin ETFs post a third straight day of outflows (~$449M over 3 sessions)",
+      "source": "The Crypto Times / Coinpedia",
+      "url": "https://www.cryptotimes.io/2026/09/11/bitcoin-etfs-lose-449m-in-3-days-ahead-of-us-cpi/",
+      "date": "2026-09-10",
+      "impact": "bearish",
+      "confidence": "high",
+      "note": "Roughly $282.7M left spot BTC ETFs on Sep 10 alone, with ARKB accounting for over half. Read as pre-CPI profit-taking rather than a trend change. (A separate tally put the single-day net nearer $120M — figures vary by data provider.)"
+    },
+    {
+      "headline": "Markets de-risk ahead of August CPI, the last inflation print before the Fed meeting",
+      "source": "Nexo Markets Today / CoinGabbar",
+      "url": "https://nexo.com/blog/markets-today-september-10",
+      "date": "2026-09-10",
+      "impact": "bearish",
+      "confidence": "high",
+      "note": "CPI was due Friday Sep 11, immediately before the Fed's Sep 15-16 decision. It later printed +0.4% m/m and +3.4% y/y (core +0.3% / +2.4%), keeping rate-cut hopes in question. Fear & Greed index sat at 69 (Greed) despite the pullback."
+    },
+    {
+      "headline": "ECB raises its policy rate to 2.50% from 2.25%",
+      "source": "Nexo Markets Today",
+      "url": "https://nexo.com/blog/markets-today-september-10",
+      "date": "2026-09-10",
+      "impact": "bearish",
+      "confidence": "medium",
+      "note": "The ECB's second hike of the year, aimed at energy-driven inflation tied to the Middle East conflict. Tighter global liquidity is a mild headwind for risk assets including crypto."
+    }
+  ]
+}
