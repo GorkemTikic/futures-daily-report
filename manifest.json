@@ -1,9 +1,89 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-12T22:00:32.665Z",
-  "count": 87,
-  "latest": "2026-09-11",
+  "generatedAt": "2026-09-12T23:52:07.666Z",
+  "count": 88,
+  "latest": "2026-09-12",
   "reports": [
+    {
+      "date": "2026-09-12",
+      "scanned": 528,
+      "movedBig": 7,
+      "dangerCount": 0,
+      "widest": {
+        "symbol": "UAIUSDT",
+        "pct": "4.8%",
+        "time": "13:04"
+      },
+      "macro": {
+        "BTC": 0,
+        "ETH": 0.3,
+        "SOL": -0.7
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.0%, ETH +0.3%, SOL -0.7% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
+      "newsCount": 0,
+      "flagged": [
+        {
+          "symbol": "LSKUSDT",
+          "label": "Steady climb",
+          "headline": "LSKUSDT climbed +141.6% steadily"
+        },
+        {
+          "symbol": "龙虾USDT",
+          "label": "Steady climb",
+          "headline": "龙虾USDT climbed +117.1% steadily"
+        },
+        {
+          "symbol": "GRIFFAINUSDT",
+          "label": "Steady climb",
+          "headline": "GRIFFAINUSDT climbed +45.1% steadily"
+        },
+        {
+          "symbol": "UAIUSDT",
+          "label": "Pumped then faded",
+          "headline": "UAIUSDT ran up, then gave it back"
+        },
+        {
+          "symbol": "FLOCKUSDT",
+          "label": "Steady climb",
+          "headline": "FLOCKUSDT climbed +30.5% steadily"
+        },
+        {
+          "symbol": "KOMAUSDT",
+          "label": "Steady climb",
+          "headline": "KOMAUSDT climbed +34.5% steadily"
+        },
+        {
+          "symbol": "我踏马来了USDT",
+          "label": "Brief price gap",
+          "headline": "我踏马来了USDT had one brief price dislocation"
+        },
+        {
+          "symbol": "ALCHUSDT",
+          "label": "Steady climb",
+          "headline": "ALCHUSDT climbed +39.2% steadily"
+        },
+        {
+          "symbol": "REZUSDT",
+          "label": "Steady climb",
+          "headline": "REZUSDT climbed +29.5% steadily"
+        },
+        {
+          "symbol": "STARUSDT",
+          "label": "Brief price gap",
+          "headline": "STARUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "TAGUSDT",
+          "label": "Brief price gap",
+          "headline": "TAGUSDT had one brief price dislocation"
+        }
+      ],
+      "files": {
+        "html": "reports/2026-09-12/summary_2026-09-12.html",
+        "pdf": "reports/2026-09-12/summary_2026-09-12.pdf",
+        "md": "reports/2026-09-12/summary_2026-09-12.md"
+      }
+    },
     {
       "date": "2026-09-11",
       "scanned": 528,
