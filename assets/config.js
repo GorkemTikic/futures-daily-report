@@ -9,5 +9,5 @@
  * never stored here; it is typed into the Analytics tab and kept in your browser.
  */
 window.FDR_CONFIG = {
-  analyticsUrl: "",
+  analyticsUrl: "https://fdr-analytics.grkmtkc94.workers.dev",
 };
