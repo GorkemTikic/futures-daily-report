@@ -4,50 +4,49 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Futures Daily Report</title>
-  <meta name="description" content="Daily Binance USD-M Futures market report — movers, dangerous mark-vs-last price gaps, market context and news." />
-  <meta name="color-scheme" content="dark" />
+  <meta name="description" content="Daily Binance USD-M Futures market report — movers, dangerous mark-vs-last price gaps, market context and sourced news." />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#1b1c21" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2300e5a8'/%3E%3Cpath d='M7 21l6-7 4 4 8-9' stroke='%23052018' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23d15a24'/%3E%3Cpath d='M7 21l6-7 4 4 8-9' stroke='%23fff' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header class="app">
-    <div class="wrap hdr">
-      <div class="brand">
-        <div class="logo">FD</div>
-        <div class="names">
-          <div class="title">Futures Daily Report</div>
-          <div class="sub">Binance USD-M Futures · daily market report</div>
+  <div class="macwin">
+    <aside class="sidebar" id="sidebar">
+      <div class="side-top">
+        <div class="lights"><i class="r"></i><i class="y"></i><i class="g"></i></div>
+        <div class="brand">
+          <div class="logo">FD</div>
+          <div>
+            <div class="title">Futures Daily Report</div>
+            <div class="sub">Binance USD-M Futures</div>
+          </div>
         </div>
       </div>
-      <span class="badge">Binance 1m OHLC</span>
-      <div class="ticker" id="ticker" hidden>
-        <span class="sym">BTC</span><span class="px" id="ticker-px">—</span>
+      <div class="side-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+        <input id="q" type="search" placeholder="Search date, coin, news…" autocomplete="off" />
       </div>
-      <div class="spacer"></div>
-      <nav class="tabs">
-        <a href="#/" id="nav-reports">Reports</a>
-        <a href="#/analytics" id="nav-analytics">Analytics</a>
-      </nav>
-    </div>
-  </header>
+      <div class="side-filters" id="filters"></div>
+      <div class="side-list" id="list"></div>
+      <div class="side-foot">
+        <button class="navbtn active" id="nav-reports">Reports</button>
+        <button class="navbtn" id="nav-analytics">Analytics</button>
+        <button class="btn icon" id="theme" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+      </div>
+    </aside>
 
-  <main>
-    <div class="wrap" id="view"><!-- rendered by app.js --></div>
-  </main>
-
-  <div class="footer">
-    <div class="wrap">
-      Information only, not financial advice · data from Binance USD-M Futures ·
-      <a href="https://github.com/GorkemTikic/futures-daily-report" id="repo-link">source on GitHub</a>
-    </div>
+    <section class="main">
+      <div class="toolbar" id="toolbar"></div>
+      <div class="content" id="content"></div>
+    </section>
   </div>
 
   <div class="toast" id="toast"></div>
 
-  <!-- config.js is edited once after deploying the analytics Worker -->
   <script src="assets/config.js"></script>
   <script src="assets/analytics.js"></script>
   <script src="assets/app.js"></script>
