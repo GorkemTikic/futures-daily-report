@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-12T21:54:55.242Z",
+  "generatedAt": "2026-09-12T22:00:32.665Z",
   "count": 87,
   "latest": "2026-09-11",
   "reports": [
@@ -5989,59 +5989,63 @@
         "pct": "4.5%",
         "time": "07:53"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 1.1,
+        "ETH": 1.2,
+        "SOL": -0.7
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +1.1%, ETH +1.2%, SOL -0.7% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "SYNUSDT",
           "label": "Steady climb",
-          "headline": "Strong rally, rose 65.8%"
+          "headline": "SYNUSDT climbed +61.9% steadily"
         },
         {
           "symbol": "HUSDT",
           "label": "Steady decline",
-          "headline": "Sharp decline, fell 32.9%"
+          "headline": "HUSDT slid 32.6% in an orderly sell-off"
         },
         {
           "symbol": "GUAUSDT",
           "label": "Steady decline",
-          "headline": "Steep decline, fell 31.8%"
+          "headline": "GUAUSDT slid 30.9% in an orderly sell-off"
         },
         {
           "symbol": "BICOUSDT",
           "label": "Steady decline",
-          "headline": "Moderate decline, fell 26.9%"
+          "headline": "BICOUSDT slid 28.1% in an orderly sell-off"
         },
         {
           "symbol": "FOLKSUSDT",
           "label": "Steady climb",
-          "headline": "Strong rally, rose 36.5%"
+          "headline": "FOLKSUSDT climbed +37.4% steadily"
         },
         {
           "symbol": "CLOUSDT",
           "label": "Steady climb",
-          "headline": "Solid gain, rose 30.6%"
+          "headline": "CLOUSDT climbed +33.2% steadily"
         },
         {
           "symbol": "BLESSUSDT",
           "label": "Steady climb",
-          "headline": "Strong rally, rose 31.0%"
+          "headline": "BLESSUSDT climbed +30.4% steadily"
         },
         {
           "symbol": "DEXEUSDT",
           "label": "Steady climb",
-          "headline": "Steady climb, rose 29.8%"
+          "headline": "DEXEUSDT climbed +32.4% steadily"
         },
         {
           "symbol": "MAGMAUSDT",
           "label": "Brief price gap",
-          "headline": "Volatile morning, fell 13.9%"
+          "headline": "MAGMAUSDT had one brief price dislocation"
         },
         {
           "symbol": "AVAAIUSDT",
           "label": "Brief price gap",
-          "headline": "Volatile spike, rose 9.9%"
+          "headline": "AVAAIUSDT had one brief price dislocation"
         }
       ],
       "files": {
@@ -6148,66 +6152,75 @@
     {
       "date": "2026-06-20",
       "scanned": 528,
-      "movedBig": 5,
+      "movedBig": 6,
       "dangerCount": 3,
       "widest": {
         "symbol": "GUAUSDT",
         "pct": "10.0%",
         "time": "20:49"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 1.2,
+        "ETH": 1.7,
+        "SOL": 5
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +1.2%, ETH +1.7%, SOL +5.0% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "BTWUSDT",
           "label": "Brief price gap",
-          "headline": "Volatile spike gains 32.8%"
+          "headline": "BTWUSDT had one brief price dislocation"
         },
         {
           "symbol": "BICOUSDT",
           "label": "Steady climb",
-          "headline": "Clean 74.5% climb"
+          "headline": "BICOUSDT climbed +77.9% steadily"
         },
         {
           "symbol": "GUAUSDT",
           "label": "Pumped then faded",
-          "headline": "Spike to $1.38 ends with 9.1% loss"
+          "headline": "GUAUSDT ran up, then gave it back"
         },
         {
           "symbol": "ALICEUSDT",
           "label": "Steady climb",
-          "headline": "Steady 41.1% climb"
+          "headline": "ALICEUSDT climbed +41.7% steadily"
         },
         {
           "symbol": "AGTUSDT",
           "label": "Brief price gap",
-          "headline": "Extreme 27.9% spike, 4.4% loss"
+          "headline": "AGTUSDT had one brief price dislocation"
         },
         {
           "symbol": "BELUSDT",
           "label": "Steady climb",
-          "headline": "Smooth 32.1% rise"
+          "headline": "BELUSDT climbed +31.0% steadily"
         },
         {
           "symbol": "SYNUSDT",
           "label": "Pumped then faded",
-          "headline": "Spike to $0.19782 ends in fade"
+          "headline": "SYNUSDT ran up, then gave it back"
+        },
+        {
+          "symbol": "RESOLVUSDT",
+          "label": "Steady climb",
+          "headline": "RESOLVUSDT climbed +40.0% steadily"
         },
         {
           "symbol": "AKEUSDT",
           "label": "Steady climb",
-          "headline": "Microcap steady 27.9% rise"
+          "headline": "AKEUSDT climbed +31.5% steadily"
         },
         {
           "symbol": "ESPORTSUSDT",
           "label": "Brief price gap",
-          "headline": "9.4% rise with brief spike"
+          "headline": "ESPORTSUSDT had one brief price dislocation"
         },
         {
           "symbol": "EIGENUSDT",
           "label": "Brief price gap",
-          "headline": "Flat day, 1.9% gain"
+          "headline": "EIGENUSDT had one brief price dislocation"
         }
       ],
       "files": {
@@ -6226,79 +6239,83 @@
         "pct": "6.7%",
         "time": "02:51"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 0.9,
+        "ETH": 0,
+        "SOL": 0
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.9%, ETH +0.0%, SOL +0.0% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "REUSDT",
           "label": "Brief price gap",
-          "headline": "RE surges 106.9% on brief extreme spike"
+          "headline": "REUSDT had one brief price dislocation"
         },
         {
           "symbol": "BTWUSDT",
           "label": "Steady climb",
-          "headline": "BTW climbs 87.0% with smooth, steady gains"
+          "headline": "BTWUSDT climbed +90.2% steadily"
         },
         {
           "symbol": "BICOUSDT",
           "label": "Steady climb",
-          "headline": "BICO rises 82.6% in textbook steady climb"
+          "headline": "BICOUSDT climbed +79.9% steadily"
         },
         {
           "symbol": "ESPORTSUSDT",
           "label": "Pumped then faded",
-          "headline": "ESPORTS pump and fade: up then down 31.8%"
+          "headline": "ESPORTSUSDT ran up, then gave it back"
         },
         {
           "symbol": "BSBUSDT",
           "label": "Pumped then faded",
-          "headline": "BSB: 110.5% intraday swing, ended barely higher"
+          "headline": "BSBUSDT ran up, then gave it back"
         },
         {
           "symbol": "GUAUSDT",
           "label": "Steady decline",
-          "headline": "GUA falls 29.1% in steady slide downward"
+          "headline": "GUAUSDT slid 30.2% in an orderly sell-off"
         },
         {
           "symbol": "UBUSDT",
           "label": "Steady decline",
-          "headline": "UB falls 31.5% with stable, predictable decline"
+          "headline": "UBUSDT slid 31.5% in an orderly sell-off"
         },
         {
           "symbol": "EPICUSDT",
           "label": "Steady decline",
-          "headline": "EPIC falls 31.9% with minimal volatility"
+          "headline": "EPICUSDT slid 31.8% in an orderly sell-off"
         },
         {
           "symbol": "LABUSDT",
           "label": "Steady decline",
-          "headline": "LAB falls 27.8% with tight, liquid decline"
+          "headline": "LABUSDT slid 28.3% in an orderly sell-off"
         },
         {
           "symbol": "METUSDT",
           "label": "Steady climb",
-          "headline": "MET climbs 28.0% with steady upward momentum"
+          "headline": "METUSDT climbed +27.0% steadily"
         },
         {
           "symbol": "LUMIAUSDT",
           "label": "Steady climb",
-          "headline": "LUMIA rises 26.7% on steady, controlled gains"
+          "headline": "LUMIAUSDT climbed +28.2% steadily"
         },
         {
           "symbol": "ACTUSDT",
           "label": "Brief price gap",
-          "headline": "ACT rises 11.0% with brief price divergence"
+          "headline": "ACTUSDT had one brief price dislocation"
         },
         {
           "symbol": "RIFUSDT",
           "label": "Steady climb",
-          "headline": "RIF rises 27.9% on clean, tight trading"
+          "headline": "RIFUSDT climbed +30.0% steadily"
         },
         {
           "symbol": "EVAAUSDT",
           "label": "Steady climb",
-          "headline": "EVA gains 26.1% in stable, predictable climb"
+          "headline": "EVAAUSDT climbed +25.1% steadily"
         }
       ],
       "files": {
@@ -6317,8 +6334,12 @@
         "pct": "5.0%",
         "time": "02:45"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": -2.4,
+        "ETH": -2.3,
+        "SOL": -3.2
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC -2.4%, ETH -2.3%, SOL -3.2% over the UTC day. Bitcoin — the market's anchor — finished down. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
@@ -6329,22 +6350,22 @@
         {
           "symbol": "SYNUSDT",
           "label": "Steady climb",
-          "headline": "Strong Steady Climb"
+          "headline": "SYNUSDT climbed +65.2% steadily"
         },
         {
           "symbol": "VELVETUSDT",
           "label": "Steady climb",
-          "headline": "Steady Climb With Muscle"
+          "headline": "VELVETUSDT climbed +41.6% steadily"
         },
         {
           "symbol": "BSBUSDT",
           "label": "Steady decline",
-          "headline": "Steady Slide Downward"
+          "headline": "BSBUSDT slid 33.4% in an orderly sell-off"
         },
         {
           "symbol": "ZEREBROUSDT",
           "label": "Steady climb",
-          "headline": "Quiet Rise on Thin Moves"
+          "headline": "ZEREBROUSDT climbed +46.4% steadily"
         },
         {
           "symbol": "BRUSDT",
@@ -6354,22 +6375,22 @@
         {
           "symbol": "LABUSDT",
           "label": "Steady climb",
-          "headline": "Morning Power Move"
+          "headline": "LABUSDT climbed +35.6% steadily"
         },
         {
           "symbol": "EDENUSDT",
           "label": "Steady climb",
-          "headline": "Boring and Beautiful"
-        },
-        {
-          "symbol": "HUSDT",
-          "label": "Brief price gap",
-          "headline": "Big Intraday Swing, Tiny Close Gain"
+          "headline": "EDENUSDT climbed +25.5% steadily"
         },
         {
           "symbol": "龙虾USDT",
           "label": "Brief price gap",
-          "headline": "Afternoon Dip and Hold"
+          "headline": "龙虾USDT had one brief price dislocation"
+        },
+        {
+          "symbol": "HUSDT",
+          "label": "Brief price gap",
+          "headline": "HUSDT had one brief price dislocation"
         },
         {
           "symbol": "BTWUSDT",
@@ -6379,7 +6400,7 @@
         {
           "symbol": "SKYAIUSDT",
           "label": "Pumped then faded",
-          "headline": "Pump and Dump in Plain Sight"
+          "headline": "SKYAIUSDT ran up, then gave it back"
         },
         {
           "symbol": "AKEUSDT",
@@ -6389,7 +6410,7 @@
         {
           "symbol": "TACUSDT",
           "label": "Brief price gap",
-          "headline": "Afternoon Selloff"
+          "headline": "TACUSDT had one brief price dislocation"
         }
       ],
       "files": {
@@ -6400,92 +6421,91 @@
     },
     {
       "date": "2026-06-17",
-      "scanned": 527,
-      "movedBig": 10,
+      "scanned": 528,
+      "movedBig": 9,
       "dangerCount": 1,
       "widest": {
         "symbol": "PLAYUSDT",
         "pct": "8.2%",
         "time": "14:35"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": -1.8,
+        "ETH": -2.4,
+        "SOL": -2
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC -1.8%, ETH -2.4%, SOL -2.0% over the UTC day. Bitcoin — the market's anchor — finished down. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "ESPORTSUSDT",
           "label": "Steady climb",
-          "headline": "ESPORTSUSDT Surges 157.3% in Evening Rally"
+          "headline": "ESPORTSUSDT climbed +169.4% steadily"
         },
         {
           "symbol": "AGTUSDT",
           "label": "Steady climb",
-          "headline": "AGTUSDT Nearly Doubles with 109.7% Gain"
+          "headline": "AGTUSDT climbed +111.5% steadily"
         },
         {
           "symbol": "HUSDT",
           "label": "Pumped then faded",
-          "headline": "HUSDT Crashes 30% After Morning Peak"
+          "headline": "HUSDT ran up, then gave it back"
         },
         {
           "symbol": "龙虾USDT",
           "label": "Steady decline",
-          "headline": "龙虾USDT Slides Steadily Down 43.2%"
+          "headline": "龙虾USDT slid 43.1% in an orderly sell-off"
         },
         {
           "symbol": "SYNUSDT",
           "label": "Steady climb",
-          "headline": "SYNUSDT Climbs 60.2% in Smooth Evening Push"
-        },
-        {
-          "symbol": "BEATUSDT",
-          "label": "Pumped then faded",
-          "headline": "BEATUSDT Crashes 28.1% After Morning Spike"
+          "headline": "SYNUSDT climbed +61.5% steadily"
         },
         {
           "symbol": "TACUSDT",
           "label": "Steady climb",
-          "headline": "TACUSDT Rises 49.7% in Steady Afternoon Climb"
+          "headline": "TACUSDT climbed +51.1% steadily"
         },
         {
           "symbol": "CLOUSDT",
           "label": "Brief price gap",
-          "headline": "CLOUSDT Spikes 23% on Afternoon Surge"
+          "headline": "CLOUSDT had one brief price dislocation"
         },
         {
           "symbol": "MITOUSDT",
           "label": "Steady climb",
-          "headline": "MITOUSDT Gains 34.7% in Evening Rally"
+          "headline": "MITOUSDT climbed +34.6% steadily"
         },
         {
           "symbol": "USUSDT",
           "label": "Brief price gap",
-          "headline": "USUSDT Rises 19.7% on Evening Spike"
+          "headline": "USUSDT had one brief price dislocation"
         },
         {
           "symbol": "EVAAUSDT",
           "label": "Pumped then faded",
-          "headline": "EVAAUSDT Falls 16.2% After Early Peak"
+          "headline": "EVAAUSDT ran up, then gave it back"
         },
         {
           "symbol": "MAGMAUSDT",
           "label": "Steady climb",
-          "headline": "MAGMAUSDT Rises 32.4% in Morning Rally"
+          "headline": "MAGMAUSDT climbed +32.3% steadily"
         },
         {
           "symbol": "PLAYUSDT",
           "label": "Brief price gap",
-          "headline": "PLAYUSDT Soars 13.6% Amid Extreme Volatility"
+          "headline": "PLAYUSDT had one brief price dislocation"
         },
         {
           "symbol": "ZEREBROUSDT",
           "label": "Steady climb",
-          "headline": "ZEREBROUSDT Climbs 28.8% in Smooth Evening Move"
+          "headline": "ZEREBROUSDT climbed +29.9% steadily"
         },
         {
           "symbol": "BUSDT",
           "label": "Brief price gap",
-          "headline": "BUSDT Falls 4.1% Despite Afternoon Spike"
+          "headline": "BUSDT had one brief price dislocation"
         }
       ],
       "files": {
