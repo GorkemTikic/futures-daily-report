@@ -11,7 +11,7 @@
 
 import { execFileSync } from "node:child_process";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -50,6 +50,6 @@ export async function publish({ quiet = false } = {}) {
 }
 
 // Run directly?
-if (import.meta.url === `file://${process.argv[1].replace(/\\/g, "/")}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   publish().catch((err) => { console.error("publish failed:", String(err).slice(0, 300)); process.exit(1); });
 }
