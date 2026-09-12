@@ -16,3 +16,6 @@ analytics-worker/node_modules/
 
 # scratch
 *.tmp
+
+# new-pipeline intermediate data packs
+reports/*/datapack.json
