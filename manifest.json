@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-12T20:12:58.952Z",
+  "generatedAt": "2026-09-12T20:22:47.526Z",
   "count": 87,
   "latest": "2026-09-11",
   "reports": [
@@ -3191,7 +3191,7 @@
     },
     {
       "date": "2026-07-31",
-      "scanned": 530,
+      "scanned": 528,
       "movedBig": 5,
       "dangerCount": 1,
       "widest": {
@@ -3199,29 +3199,33 @@
         "pct": "5.6%",
         "time": "03:25"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": -2.9,
+        "ETH": -2.9,
+        "SOL": -2.2
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC -2.9%, ETH -2.9%, SOL -2.2% over the UTC day. Bitcoin — the market's anchor — finished down. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "KOMAUSDT",
           "label": "Steady climb",
-          "headline": "KOMAUSDT climbed +90.9% steadily"
+          "headline": "KOMAUSDT climbed +100.5% steadily"
         },
         {
           "symbol": "1000RATSUSDT",
           "label": "Steady climb",
-          "headline": "1000RATSUSDT climbed +130.0% steadily"
+          "headline": "1000RATSUSDT climbed +125.0% steadily"
         },
         {
           "symbol": "AIOUSDT",
           "label": "Steady decline",
-          "headline": "AIOUSDT slid 40.5% in an orderly sell-off"
+          "headline": "AIOUSDT slid 39.8% in an orderly sell-off"
         },
         {
           "symbol": "GIGGLEUSDT",
           "label": "Steady climb",
-          "headline": "GIGGLEUSDT climbed +52.9% steadily"
+          "headline": "GIGGLEUSDT climbed +60.7% steadily"
         },
         {
           "symbol": "BANKUSDT",
@@ -3241,7 +3245,7 @@
         {
           "symbol": "USUSDT",
           "label": "Steady climb",
-          "headline": "USUSDT climbed +25.9% steadily"
+          "headline": "USUSDT climbed +26.7% steadily"
         },
         {
           "symbol": "STARUSDT",
@@ -3267,7 +3271,7 @@
     },
     {
       "date": "2026-07-30",
-      "scanned": 529,
+      "scanned": 528,
       "movedBig": 6,
       "dangerCount": 1,
       "widest": {
@@ -3275,8 +3279,12 @@
         "pct": "6.6%",
         "time": "19:02"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 1.2,
+        "ETH": 0.4,
+        "SOL": 1.1
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +1.2%, ETH +0.4%, SOL +1.1% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
@@ -3287,22 +3295,22 @@
         {
           "symbol": "KOMAUSDT",
           "label": "Steady climb",
-          "headline": "KOMAUSDT climbed +83.8% steadily"
+          "headline": "KOMAUSDT climbed +81.0% steadily"
         },
         {
           "symbol": "CAPUSDT",
           "label": "Steady climb",
-          "headline": "CAPUSDT climbed +31.7% steadily"
+          "headline": "CAPUSDT climbed +32.2% steadily"
         },
         {
           "symbol": "ONUSDT",
           "label": "Steady decline",
-          "headline": "ONUSDT slid 30.4% in an orderly sell-off"
+          "headline": "ONUSDT slid 30.7% in an orderly sell-off"
         },
         {
           "symbol": "MMTUSDT",
           "label": "Steady climb",
-          "headline": "MMTUSDT climbed +32.2% steadily"
+          "headline": "MMTUSDT climbed +32.3% steadily"
         },
         {
           "symbol": "UAIUSDT",
@@ -3312,7 +3320,7 @@
         {
           "symbol": "ROBOUSDT",
           "label": "Steady climb",
-          "headline": "ROBOUSDT climbed +25.7% steadily"
+          "headline": "ROBOUSDT climbed +25.5% steadily"
         },
         {
           "symbol": "EULUSDT",
@@ -3328,7 +3336,7 @@
     },
     {
       "date": "2026-07-29",
-      "scanned": 529,
+      "scanned": 528,
       "movedBig": 3,
       "dangerCount": 0,
       "widest": {
@@ -3336,19 +3344,23 @@
         "pct": "2.9%",
         "time": "08:37"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 0.1,
+        "ETH": -0.6,
+        "SOL": -0.2
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.1%, ETH -0.6%, SOL -0.2% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "COTIUSDT",
           "label": "Steady climb",
-          "headline": "COTIUSDT climbed +57.5% steadily"
+          "headline": "COTIUSDT climbed +57.1% steadily"
         },
         {
           "symbol": "UAIUSDT",
           "label": "Steady climb",
-          "headline": "UAIUSDT climbed +42.3% steadily"
+          "headline": "UAIUSDT climbed +42.8% steadily"
         },
         {
           "symbol": "ONUSDT",
@@ -3358,7 +3370,7 @@
         {
           "symbol": "SOONUSDT",
           "label": "Steady decline",
-          "headline": "SOONUSDT slid 28.5% in an orderly sell-off"
+          "headline": "SOONUSDT slid 28.6% in an orderly sell-off"
         },
         {
           "symbol": "CYSUSDT",
@@ -3379,47 +3391,46 @@
     },
     {
       "date": "2026-07-28",
-      "scanned": 529,
-      "movedBig": 5,
+      "scanned": 528,
+      "movedBig": 4,
       "dangerCount": 0,
       "widest": {
         "symbol": "BLESSUSDT",
         "pct": "3.3%",
         "time": "18:25"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 0.3,
+        "ETH": 1.6,
+        "SOL": -0.5
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.3%, ETH +1.6%, SOL -0.5% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "ONUSDT",
           "label": "Steady climb",
-          "headline": "ONUSDT climbed +91.0% steadily"
+          "headline": "ONUSDT climbed +83.9% steadily"
         },
         {
           "symbol": "BANKUSDT",
           "label": "Steady decline",
-          "headline": "BANKUSDT slid 30.6% in an orderly sell-off"
+          "headline": "BANKUSDT slid 36.1% in an orderly sell-off"
         },
         {
           "symbol": "BEATUSDT",
           "label": "Steady climb",
-          "headline": "BEATUSDT climbed +30.9% steadily"
+          "headline": "BEATUSDT climbed +29.0% steadily"
         },
         {
           "symbol": "BULLAUSDT",
           "label": "Steady climb",
-          "headline": "BULLAUSDT climbed +34.3% steadily"
-        },
-        {
-          "symbol": "ZILUSDT",
-          "label": "Steady climb",
-          "headline": "ZILUSDT climbed +26.2% steadily"
+          "headline": "BULLAUSDT climbed +34.7% steadily"
         },
         {
           "symbol": "AKEUSDT",
-          "label": "Brief price gap",
-          "headline": "AKEUSDT had one brief price dislocation"
+          "label": "Pumped then faded",
+          "headline": "AKEUSDT ran up, then gave it back"
         },
         {
           "symbol": "KGENUSDT",
@@ -3437,14 +3448,14 @@
           "headline": "ESPORTSUSDT had one brief price dislocation"
         },
         {
-          "symbol": "BROCCOLIF3BUSDT",
-          "label": "Brief price gap",
-          "headline": "BROCCOLIF3BUSDT had one brief price dislocation"
-        },
-        {
           "symbol": "BUSDT",
           "label": "Brief price gap",
           "headline": "BUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "BROCCOLIF3BUSDT",
+          "label": "Brief price gap",
+          "headline": "BROCCOLIF3BUSDT had one brief price dislocation"
         }
       ],
       "files": {
@@ -3455,37 +3466,46 @@
     },
     {
       "date": "2026-07-27",
-      "scanned": 529,
-      "movedBig": 6,
+      "scanned": 528,
+      "movedBig": 7,
       "dangerCount": 2,
       "widest": {
         "symbol": "AKEUSDT",
         "pct": "12.6%",
         "time": "06:17"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": -2.5,
+        "ETH": -3.2,
+        "SOL": -3.4
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC -2.5%, ETH -3.2%, SOL -3.4% over the UTC day. Bitcoin — the market's anchor — finished down. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
-        {
-          "symbol": "BANKUSDT",
-          "label": "Brief price gap",
-          "headline": "BANKUSDT had one brief price dislocation"
-        },
         {
           "symbol": "AKEUSDT",
           "label": "Brief price gap",
           "headline": "AKEUSDT had one brief price dislocation"
         },
         {
+          "symbol": "BANKUSDT",
+          "label": "Brief price gap",
+          "headline": "BANKUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "BEATUSDT",
+          "label": "Pumped then faded",
+          "headline": "BEATUSDT ran up, then gave it back"
+        },
+        {
           "symbol": "COTIUSDT",
           "label": "Steady climb",
-          "headline": "COTIUSDT climbed +50.9% steadily"
+          "headline": "COTIUSDT climbed +43.9% steadily"
         },
         {
           "symbol": "ONUSDT",
           "label": "Steady climb",
-          "headline": "ONUSDT climbed +47.0% steadily"
+          "headline": "ONUSDT climbed +48.5% steadily"
         },
         {
           "symbol": "BTWUSDT",
@@ -3495,17 +3515,17 @@
         {
           "symbol": "DEXEUSDT",
           "label": "Steady decline",
-          "headline": "DEXEUSDT slid 26.1% in an orderly sell-off"
+          "headline": "DEXEUSDT slid 26.3% in an orderly sell-off"
         },
         {
           "symbol": "ESPUSDT",
           "label": "Steady decline",
-          "headline": "ESPUSDT slid 27.2% in an orderly sell-off"
+          "headline": "ESPUSDT slid 26.2% in an orderly sell-off"
         },
         {
           "symbol": "EULUSDT",
           "label": "Steady decline",
-          "headline": "EULUSDT slid 26.8% in an orderly sell-off"
+          "headline": "EULUSDT slid 28.0% in an orderly sell-off"
         },
         {
           "symbol": "USUSDT",
