@@ -12,6 +12,7 @@ import { fileURLToPath } from "node:url";
 import { collectExchanges } from "./exchanges.js";
 import { collectCalendar } from "./calendar.js";
 import { collectNews } from "./news.js";
+import { collectTradFi } from "./tradfi.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -27,10 +28,11 @@ function utcDateStr(ms) {
 }
 
 export async function buildDataPack({ nowMs = Date.now() } = {}) {
-  const [exchanges, calendar, news] = await Promise.all([
+  const [exchanges, calendar, news, tradfi] = await Promise.all([
     collectExchanges().catch((e) => ({ error: String(e).slice(0, 120), majors: { BTC: {}, ETH: {} }, movers: [], venuesOnline: [] })),
     collectCalendar(nowMs).catch((e) => ({ ok: false, err: String(e).slice(0, 120), today: [], week: [] })),
     collectNews({ nowMs }).catch((e) => ({ ok: false, err: String(e).slice(0, 120), items: [], failed: [], sourcesOnline: [] })),
+    collectTradFi().catch((e) => ({ ok: false, reason: String(e).slice(0, 120), items: [] })),
   ]);
 
   const sources = {
@@ -38,10 +40,10 @@ export async function buildDataPack({ nowMs = Date.now() } = {}) {
     calendarOk: !!calendar.ok,
     newsSourcesOnline: news.sourcesOnline || [],
     newsFailed: news.failed || [],
-    // These are gathered by the synthesis step via web (Farside/SoSoValue, keyed
-    // trad-fi API) and validated there; recorded here as not-yet-collected.
+    // ETF flows are gathered by the synthesis step via web (Farside/SoSoValue) and
+    // date-validated there; recorded here as not-yet-collected.
     etfFlows: "pending-synthesis",
-    tradFi: process.env.TRADFI_API_KEY ? "key-present" : "no-key",
+    tradFi: tradfi.ok ? "ok" : tradfi.reason || "unavailable",
   };
 
   return {
@@ -52,6 +54,7 @@ export async function buildDataPack({ nowMs = Date.now() } = {}) {
     exchanges,
     calendar,
     news,
+    tradfi,
     sources,
   };
 }
