@@ -1,5 +1,9 @@
 # Futures Daily Report
 
+📊 **Live site:** https://gorkemtikic.github.io/futures-daily-report/ — a searchable,
+interactive browser for every daily report (matches the Futures DeskMate design). It
+updates itself whenever a new report is generated.
+
 A daily, **plain-English** report on every coin on Binance USD-M Futures. It answers
 three questions a beginner can follow:
 
@@ -132,6 +136,50 @@ reaches the report. Impact/confidence flags are editorial judgements, not guaran
 > its `claude -p` news research works there. If you ever run a report from *inside* another
 > Claude Code session, the nested `claude -p` is blocked and the day falls back to the
 > data-only summary — pre-fill `news.json` for that date if you need the headlines.
+
+---
+
+## The website (GitHub Pages)
+
+The repo doubles as a website, served from the repo root at
+**https://gorkemtikic.github.io/futures-daily-report/**. It's a static single-page app
+styled to match the **Futures DeskMate** workspace (same dark theme, mint accent,
+dense/scannable layout), so the two clearly come from the same hand.
+
+| File | Role |
+|---|---|
+| `index.html` | The site shell (header, live BTC ticker, nav) |
+| `assets/styles.css` | DeskMate-matched design system |
+| `assets/app.js` | Report browser (search / filter / sort), themed reader, analytics dashboard |
+| `assets/analytics.js` | Client that sends usage events to the Worker |
+| `assets/config.js` | **The one file you edit after deploying the Worker** (`analyticsUrl`) |
+| `manifest.json` | Generated index of every report (built by `scripts/build-manifest.mjs`) |
+
+**How a report is shown:** the site lists reports from `manifest.json` and, when you open
+one, embeds that day's `summary_<date>.html` in a themed reader. So when you later
+**change the report format**, the site keeps working with zero changes — as long as the
+generator still writes `summary_<date>.html` and `summary_<date>.md` per day.
+
+## Auto-publishing
+
+With `"autoPublish": true` in `config.json`, every report run rebuilds `manifest.json`
+and pushes `reports/` to GitHub. GitHub Pages redeploys itself, so a new report appears on
+the site within a minute — no manual step. Requires this folder to stay a git repo with an
+`origin` remote and a logged-in git on the machine. A push failure is **non-fatal** (it
+never breaks report generation). To publish by hand instead:
+
+```bash
+node scripts/publish.mjs
+```
+
+## Usage analytics
+
+The **Analytics** tab (token-gated) shows who visits, **which reports they read**, **where
+they click**, sessions per day, countries and recent events. It's powered by a small
+Cloudflare Worker + D1 database — the same privacy-respecting design as DeskMate (hashed
+IPs, no cookies, no report content stored). It's a **one-time deploy**; see
+[`analytics-worker/README.md`](analytics-worker/README.md). Until you deploy it and set
+`analyticsUrl` in `assets/config.js`, the site runs fine with analytics simply disabled.
 
 ---
 
