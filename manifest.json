@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-12T19:59:57.377Z",
+  "generatedAt": "2026-09-12T20:07:57.845Z",
   "count": 87,
   "latest": "2026-09-11",
   "reports": [
@@ -2506,16 +2506,20 @@
     },
     {
       "date": "2026-08-09",
-      "scanned": 526,
-      "movedBig": 10,
+      "scanned": 528,
+      "movedBig": 9,
       "dangerCount": 1,
       "widest": {
         "symbol": "TUTUSDT",
         "pct": "12.9%",
         "time": "07:16"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": -0.1,
+        "ETH": -0.3,
+        "SOL": 0.3
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC -0.1%, ETH -0.3%, SOL +0.3% over the UTC day. Bitcoin — the market's anchor — finished down. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
@@ -2526,12 +2530,12 @@
         {
           "symbol": "BMTUSDT",
           "label": "Steady climb",
-          "headline": "BMTUSDT climbed +136.8% steadily"
+          "headline": "BMTUSDT climbed +151.9% steadily"
         },
         {
           "symbol": "EPICUSDT",
           "label": "Steady decline",
-          "headline": "EPICUSDT slid 50.9% in an orderly sell-off"
+          "headline": "EPICUSDT slid 51.2% in an orderly sell-off"
         },
         {
           "symbol": "BICOUSDT",
@@ -2546,17 +2550,12 @@
         {
           "symbol": "MUBARAKUSDT",
           "label": "Steady climb",
-          "headline": "MUBARAKUSDT climbed +63.6% steadily"
-        },
-        {
-          "symbol": "CYSUSDT",
-          "label": "Steady climb",
-          "headline": "CYSUSDT climbed +34.8% steadily"
+          "headline": "MUBARAKUSDT climbed +63.0% steadily"
         },
         {
           "symbol": "TSTUSDT",
           "label": "Steady climb",
-          "headline": "TSTUSDT climbed +30.6% steadily"
+          "headline": "TSTUSDT climbed +30.0% steadily"
         },
         {
           "symbol": "BLUAIUSDT",
@@ -2566,12 +2565,7 @@
         {
           "symbol": "XANUSDT",
           "label": "Steady climb",
-          "headline": "XANUSDT climbed +53.4% steadily"
-        },
-        {
-          "symbol": "BEATUSDT",
-          "label": "Steady climb",
-          "headline": "BEATUSDT climbed +37.4% steadily"
+          "headline": "XANUSDT climbed +54.1% steadily"
         },
         {
           "symbol": "BTWUSDT",
@@ -2589,9 +2583,19 @@
           "headline": "IOTXUSDT had one brief price dislocation"
         },
         {
+          "symbol": "BEATUSDT",
+          "label": "Steady climb",
+          "headline": "BEATUSDT climbed +27.6% steadily"
+        },
+        {
           "symbol": "BANANAS31USDT",
           "label": "Steady climb",
-          "headline": "BANANAS31USDT climbed +36.4% steadily"
+          "headline": "BANANAS31USDT climbed +35.0% steadily"
+        },
+        {
+          "symbol": "BOMEUSDT",
+          "label": "Steady climb",
+          "headline": "BOMEUSDT climbed +34.6% steadily"
         }
       ],
       "files": {
@@ -2602,7 +2606,7 @@
     },
     {
       "date": "2026-08-08",
-      "scanned": 526,
+      "scanned": 528,
       "movedBig": 7,
       "dangerCount": 3,
       "widest": {
@@ -2610,8 +2614,12 @@
         "pct": "9.0%",
         "time": "21:45"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 0.1,
+        "ETH": 0.2,
+        "SOL": 3.2
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.1%, ETH +0.2%, SOL +3.2% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
@@ -2622,7 +2630,7 @@
         {
           "symbol": "BLUAIUSDT",
           "label": "Steady climb",
-          "headline": "BLUAIUSDT climbed +62.7% steadily"
+          "headline": "BLUAIUSDT climbed +65.0% steadily"
         },
         {
           "symbol": "BTWUSDT",
@@ -2642,17 +2650,17 @@
         {
           "symbol": "1000CATUSDT",
           "label": "Steady climb",
-          "headline": "1000CATUSDT climbed +34.0% steadily"
+          "headline": "1000CATUSDT climbed +34.7% steadily"
         },
         {
           "symbol": "ACEUSDT",
           "label": "Steady climb",
-          "headline": "ACEUSDT climbed +33.3% steadily"
+          "headline": "ACEUSDT climbed +33.4% steadily"
         },
         {
           "symbol": "COOKIEUSDT",
           "label": "Steady climb",
-          "headline": "COOKIEUSDT climbed +34.5% steadily"
+          "headline": "COOKIEUSDT climbed +39.7% steadily"
         },
         {
           "symbol": "TAKEUSDT",
@@ -2662,7 +2670,7 @@
         {
           "symbol": "BEATUSDT",
           "label": "Steady climb",
-          "headline": "BEATUSDT climbed +34.4% steadily"
+          "headline": "BEATUSDT climbed +34.6% steadily"
         },
         {
           "symbol": "ZESTUSDT",
@@ -2672,7 +2680,7 @@
         {
           "symbol": "龙虾USDT",
           "label": "Steady climb",
-          "headline": "龙虾USDT climbed +33.6% steadily"
+          "headline": "龙虾USDT climbed +33.8% steadily"
         },
         {
           "symbol": "BSBUSDT",
@@ -2698,7 +2706,7 @@
     },
     {
       "date": "2026-08-06",
-      "scanned": 530,
+      "scanned": 528,
       "movedBig": 13,
       "dangerCount": 1,
       "widest": {
@@ -2706,8 +2714,12 @@
         "pct": "5.2%",
         "time": "06:48"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": -0.5,
+        "ETH": -0.3,
+        "SOL": -1.8
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC -0.5%, ETH -0.3%, SOL -1.8% over the UTC day. Bitcoin — the market's anchor — finished down. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
@@ -2716,49 +2728,39 @@
           "headline": "HEIUSDT ran up, then gave it back"
         },
         {
-          "symbol": "HFTUSDT",
-          "label": "Steady climb",
-          "headline": "HFTUSDT climbed +68.8% steadily"
-        },
-        {
           "symbol": "TAKEUSDT",
           "label": "Steady climb",
-          "headline": "TAKEUSDT climbed +76.0% steadily"
+          "headline": "TAKEUSDT climbed +79.7% steadily"
         },
         {
           "symbol": "ACEUSDT",
           "label": "Steady climb",
-          "headline": "ACEUSDT climbed +50.9% steadily"
+          "headline": "ACEUSDT climbed +54.8% steadily"
         },
         {
           "symbol": "SKYAIUSDT",
           "label": "Steady climb",
-          "headline": "SKYAIUSDT climbed +53.8% steadily"
-        },
-        {
-          "symbol": "ONUSDT",
-          "label": "Steady climb",
-          "headline": "ONUSDT climbed +44.5% steadily"
+          "headline": "SKYAIUSDT climbed +58.2% steadily"
         },
         {
           "symbol": "CTSIUSDT",
           "label": "Steady climb",
-          "headline": "CTSIUSDT climbed +42.2% steadily"
+          "headline": "CTSIUSDT climbed +42.1% steadily"
+        },
+        {
+          "symbol": "ONUSDT",
+          "label": "Steady climb",
+          "headline": "ONUSDT climbed +38.5% steadily"
         },
         {
           "symbol": "BICOUSDT",
           "label": "Steady climb",
-          "headline": "BICOUSDT climbed +48.8% steadily"
+          "headline": "BICOUSDT climbed +43.8% steadily"
         },
         {
           "symbol": "ZBTUSDT",
           "label": "Steady climb",
-          "headline": "ZBTUSDT climbed +45.9% steadily"
-        },
-        {
-          "symbol": "VICUSDT",
-          "label": "Pumped then faded",
-          "headline": "VICUSDT ran up, then gave it back"
+          "headline": "ZBTUSDT climbed +47.8% steadily"
         },
         {
           "symbol": "BEATUSDT",
@@ -2768,7 +2770,7 @@
         {
           "symbol": "COOKIEUSDT",
           "label": "Steady climb",
-          "headline": "COOKIEUSDT climbed +30.5% steadily"
+          "headline": "COOKIEUSDT climbed +25.6% steadily"
         },
         {
           "symbol": "ESPORTSUSDT",
@@ -2778,12 +2780,22 @@
         {
           "symbol": "TRADOORUSDT",
           "label": "Steady climb",
-          "headline": "TRADOORUSDT climbed +28.3% steadily"
+          "headline": "TRADOORUSDT climbed +29.0% steadily"
         },
         {
           "symbol": "STGUSDT",
           "label": "Steady climb",
-          "headline": "STGUSDT climbed +28.6% steadily"
+          "headline": "STGUSDT climbed +28.5% steadily"
+        },
+        {
+          "symbol": "BLESSUSDT",
+          "label": "Pumped then faded",
+          "headline": "BLESSUSDT ran up, then gave it back"
+        },
+        {
+          "symbol": "RIVERUSDT",
+          "label": "Steady climb",
+          "headline": "RIVERUSDT climbed +27.6% steadily"
         }
       ],
       "files": {
@@ -2794,47 +2806,46 @@
     },
     {
       "date": "2026-08-05",
-      "scanned": 530,
-      "movedBig": 10,
+      "scanned": 528,
+      "movedBig": 9,
       "dangerCount": 1,
       "widest": {
         "symbol": "ESPORTSUSDT",
         "pct": "7.0%",
         "time": "16:23"
       },
-      "macro": null,
-      "marketSummary": null,
+      "macro": {
+        "BTC": 0.9,
+        "ETH": 2.1,
+        "SOL": 0.4
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.9%, ETH +2.1%, SOL +0.4% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
       "newsCount": 0,
       "flagged": [
         {
           "symbol": "BLESSUSDT",
           "label": "Steady climb",
-          "headline": "BLESSUSDT climbed +132.8% steadily"
+          "headline": "BLESSUSDT climbed +135.4% steadily"
         },
         {
           "symbol": "HEIUSDT",
           "label": "Steady climb",
-          "headline": "HEIUSDT climbed +111.4% steadily"
-        },
-        {
-          "symbol": "HFTUSDT",
-          "label": "Steady climb",
-          "headline": "HFTUSDT climbed +58.2% steadily"
+          "headline": "HEIUSDT climbed +107.8% steadily"
         },
         {
           "symbol": "CYSUSDT",
           "label": "Steady climb",
-          "headline": "CYSUSDT climbed +53.8% steadily"
-        },
-        {
-          "symbol": "DODOXUSDT",
-          "label": "Steady climb",
-          "headline": "DODOXUSDT climbed +41.4% steadily"
+          "headline": "CYSUSDT climbed +48.9% steadily"
         },
         {
           "symbol": "SYNUSDT",
           "label": "Steady climb",
-          "headline": "SYNUSDT climbed +48.1% steadily"
+          "headline": "SYNUSDT climbed +50.7% steadily"
+        },
+        {
+          "symbol": "DODOXUSDT",
+          "label": "Steady climb",
+          "headline": "DODOXUSDT climbed +42.8% steadily"
         },
         {
           "symbol": "UBUSDT",
@@ -2849,37 +2860,37 @@
         {
           "symbol": "BICOUSDT",
           "label": "Steady climb",
-          "headline": "BICOUSDT climbed +28.9% steadily"
+          "headline": "BICOUSDT climbed +28.6% steadily"
         },
         {
           "symbol": "龙虾USDT",
           "label": "Steady climb",
-          "headline": "龙虾USDT climbed +36.6% steadily"
-        },
-        {
-          "symbol": "ACXUSDT",
-          "label": "Pumped then faded",
-          "headline": "ACXUSDT ran up, then gave it back"
+          "headline": "龙虾USDT climbed +35.3% steadily"
         },
         {
           "symbol": "TUTUSDT",
           "label": "Steady climb",
-          "headline": "TUTUSDT climbed +31.3% steadily"
+          "headline": "TUTUSDT climbed +32.9% steadily"
         },
         {
           "symbol": "SKYAIUSDT",
           "label": "Steady climb",
-          "headline": "SKYAIUSDT climbed +28.3% steadily"
-        },
-        {
-          "symbol": "VICUSDT",
-          "label": "Pumped then faded",
-          "headline": "VICUSDT ran up, then gave it back"
+          "headline": "SKYAIUSDT climbed +27.8% steadily"
         },
         {
           "symbol": "GRVTUSDT",
           "label": "Brief price gap",
           "headline": "GRVTUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "GUAUSDT",
+          "label": "Brief price gap",
+          "headline": "GUAUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "AIAUSDT",
+          "label": "Brief price gap",
+          "headline": "AIAUSDT had one brief price dislocation"
         }
       ],
       "files": {
