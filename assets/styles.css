@@ -242,8 +242,8 @@ button { font-family: inherit; cursor: pointer; }
 .chip .k { color: var(--text-3); font-weight: 600; }
 
 /* ── DOCUMENT VIEW (the full report as a paper sheet, Preview-style) ───────── */
-.docwrap { padding: 22px; display: flex; justify-content: center; }
-.doc-sheet { position: relative; width: 100%; max-width: 860px; background: #fff; border-radius: 12px; box-shadow: var(--sh-2); overflow: hidden; min-height: 300px; }
+.docwrap { padding: 18px 18px 44px; display: flex; justify-content: center; }
+.doc-sheet { position: relative; width: 100%; max-width: 1120px; background: #fff; border-radius: 12px; box-shadow: var(--sh-2); overflow: hidden; min-height: 300px; }
 .doc-loading { position: absolute; inset: 0; padding: 34px 40px; background: #fff; }
 .doc { width: 100%; border: 0; display: block; background: #fff; min-height: 300px; }
 @media (max-width: 860px) { .docwrap { padding: 10px; } }
