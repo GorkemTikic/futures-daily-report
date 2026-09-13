@@ -131,18 +131,28 @@ export function buildReportHtml(pack, synth) {
 
   // 4 — Asian stocks on Binance Futures (tokenized-stock perpetuals)
   const st = pack.stocks || {};
-  const stockTable = (mkt) => {
-    const rows = (st.markets && st.markets[mkt] || []).filter((r) => r.volUSD > 5e4).slice(0, 8);
-    if (!rows.length) return "";
-    const label = (st.labels && st.labels[mkt]) || mkt;
-    return `<h3>${esc(label)}</h3><table><thead><tr><th>Stock</th><th>Last</th><th>24h</th><th>24h volume</th></tr></thead><tbody>${rows.map((r) => `<tr><td><strong>${esc(r.name)}</strong> <span class="mono" style="color:var(--faint)">${esc(r.symbol.replace(/USDT$/, ""))}</span></td><td><span class="mono">${fmtPrice(r.last)}</span></td><td><span class="mono ${cls(r.chgPct / 100)}">${sgn(r.chgPct)}</span></td><td><span class="mono">${fmtUSD(r.volUSD)}</span></td></tr>`).join("")}</tbody></table>`;
+  const rowsTable = (rows, { volMin = 5e4, limit = 10, label = "Stock" } = {}) => {
+    const list = (rows || []).filter((r) => (r.volUSD || 0) >= volMin).slice(0, limit);
+    if (!list.length) return "";
+    return `<table><thead><tr><th>${label}</th><th>Last</th><th>24h</th><th>24h volume</th></tr></thead><tbody>${list.map((r) => `<tr><td><strong>${esc(r.name)}</strong> <span class="mono" style="color:var(--faint)">${esc(r.symbol.replace(/USDT$/, ""))}</span></td><td><span class="mono">${fmtPrice(r.last)}</span></td><td><span class="mono ${cls(r.chgPct / 100)}">${sgn(r.chgPct)}</span></td><td><span class="mono">${fmtUSD(r.volUSD)}</span></td></tr>`).join("")}</tbody></table>`;
   };
-  const asiaTables = (st.asiaMarkets || ["KR_EQUITY", "HK_EQUITY", "CN_EQUITY"]).map(stockTable).join("");
-  const stocksBody = st.ok && asiaTables
-    ? asiaTables + (s.stocksSummary ? `<p class="say">${esc(s.stocksSummary)}</p>` : "")
-    : `<p class="none">Asian stock data was unavailable this run.</p>`;
-  const stocksSection = section("04 · Asian stocks on Binance Futures", "Korea, Hong Kong & China equity perpetuals",
-    "Binance lists tokenised stock perpetuals for Asian markets. These trade during the Asian session and often set the tone before crypto's US hours. Prices are the Binance perp's own price in USDT.", stocksBody);
+  const mktBlock = (mkt) => {
+    const t = rowsTable(st.markets && st.markets[mkt], { limit: 8 });
+    return t ? `<h3>${esc((st.labels && st.labels[mkt]) || mkt)}</h3>${t}` : "";
+  };
+  const asiaTables = (st.asiaMarkets || ["KR_EQUITY", "HK_EQUITY", "CN_EQUITY"]).map(mktBlock).join("");
+  const usMoversT = rowsTable(st.usMovers, { volMin: 1e6, limit: 8 });
+  const usVolT = rowsTable(st.usTopVol, { volMin: 1e6, limit: 8 });
+  const commoditiesT = rowsTable(st.commodities, { volMin: 0, limit: 8, label: "Commodity" });
+  const stocksBody = st.ok
+    ? asiaTables +
+      (usMoversT ? `<h3>United States — biggest movers</h3>${usMoversT}` : "") +
+      (usVolT ? `<h3>United States — most traded</h3>${usVolT}` : "") +
+      (commoditiesT ? `<h3>Commodities</h3>${commoditiesT}` : "") +
+      (s.stocksSummary ? `<p class="say">${esc(s.stocksSummary)}</p>` : "")
+    : `<p class="none">Stock &amp; commodity data was unavailable this run.</p>`;
+  const stocksSection = section("04 · Stocks & commodities on Binance Futures", "Equities and commodities traded on Binance",
+    "Binance lists tokenised perpetuals for stocks (Korea, Hong Kong, China and the US) and commodities. The Asian names trade during the Asian session and often set the tone before crypto's US hours. Prices are the Binance perp's own price in USDT.", stocksBody);
 
   // 5 — news
   const nTime = (n) => n.timeUTC || n.timeIstanbul || "";

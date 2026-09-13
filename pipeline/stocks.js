@@ -20,6 +20,12 @@ const NAMES = {
   CSOPSAMSUNG2LUSDT: "CSOP Samsung 2x", CSOPSKHYNIX2LUSDT: "CSOP SK Hynix 2x",
   // China
   CXMTUSDT: "CXMT", UNITREEUSDT: "Unitree Robotics",
+  // US indices/ETFs worth naming (the rest use their ticker, which is self-explanatory)
+  SPYUSDT: "S&P 500 (SPY)", QQQUSDT: "Nasdaq 100 (QQQ)", IWMUSDT: "Russell 2000 (IWM)",
+  SMHUSDT: "Semiconductors (SMH)", GDXUSDT: "Gold Miners (GDX)", XLEUSDT: "Energy (XLE)",
+  // Commodities
+  XAUUSDT: "Gold", XAGUSDT: "Silver", XPTUSDT: "Platinum", XPDUSDT: "Palladium",
+  COPPERUSDT: "Copper", CLUSDT: "WTI Crude Oil", BZUSDT: "Brent Crude", NATGASUSDT: "Natural Gas",
 };
 const MARKET_LABEL = { KR_EQUITY: "Korea", HK_EQUITY: "Hong Kong", CN_EQUITY: "China", EQUITY: "US", COMMODITY: "Commodities", PREMARKET: "Pre-market" };
 
@@ -69,12 +75,18 @@ export async function collectStocks() {
   const asia = all.filter((r) => ["KR_EQUITY", "HK_EQUITY", "CN_EQUITY"].includes(r.market) && r.volUSD > 1e5);
   const topMovers = asia.slice().sort((a, b) => Math.abs(b.chgPct || 0) - Math.abs(a.chgPct || 0)).slice(0, 6);
 
+  // US equities are 150+ symbols — surface the most-traded and the biggest movers only.
+  const us = markets.EQUITY || [];
+  const usTopVol = us.slice(0, 10); // already volume-sorted
+  const usMovers = us.filter((r) => r.volUSD > 1e6).sort((a, b) => Math.abs(b.chgPct || 0) - Math.abs(a.chgPct || 0)).slice(0, 8);
+  const commodities = markets.COMMODITY || [];
+
   return {
     ok: true,
     markets,                                   // grouped by underlyingType
     labels: MARKET_LABEL,
     asiaMarkets: ["KR_EQUITY", "HK_EQUITY", "CN_EQUITY"],
     counts: Object.fromEntries(Object.entries(markets).map(([k, v]) => [k, v.length])),
-    topMovers,
+    topMovers, usTopVol, usMovers, commodities,
   };
 }

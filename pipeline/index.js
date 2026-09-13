@@ -18,9 +18,12 @@ const ROOT = path.resolve(__dirname, "..");
 
 async function main() {
   const config = JSON.parse(fs.readFileSync(path.join(ROOT, "config.json"), "utf8"));
+  const args = process.argv.slice(2);
+  const di = args.indexOf("--date");
+  const dateOverride = di >= 0 ? args[di + 1] : null;
 
-  console.log("Collecting data pack (exchanges, calendar, news, trad-fi)...");
-  const pack = await buildDataPack();
+  console.log("Collecting data pack (exchanges, calendar, news, trad-fi, stocks)...");
+  const pack = await buildDataPack({ dateOverride });
   const dStr = pack.dateUTC;
   const dayDir = path.join(ROOT, "reports", dStr);
   fs.mkdirSync(dayDir, { recursive: true });

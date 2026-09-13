@@ -33,11 +33,13 @@ function utcDateTime(ms) {
   }).format(new Date(ms)) + " UTC";
 }
 
-export async function buildDataPack({ nowMs = Date.now() } = {}) {
+export async function buildDataPack({ nowMs = Date.now(), dateOverride = null } = {}) {
   // The report covers a full UTC calendar day and is generated at 00:00 UTC (03:00
   // Istanbul) for the day that just closed. Anchor the report date to the centre of the
   // rolling-24h window (nowMs - 12h): at 00:00 UTC that resolves to the completed day.
-  const reportMs = nowMs - 12 * 3600e3;
+  // dateOverride (YYYY-MM-DD) forces the report's date label for testing/backfill — the
+  // market data is always live regardless.
+  const reportMs = dateOverride ? Date.parse(dateOverride + "T12:00:00Z") : nowMs - 12 * 3600e3;
 
   const [exchanges, calendar, news, tradfi, stocks] = await Promise.all([
     collectExchanges().catch((e) => ({ error: String(e).slice(0, 120), majors: { BTC: {}, ETH: {} }, movers: [], venuesOnline: [] })),

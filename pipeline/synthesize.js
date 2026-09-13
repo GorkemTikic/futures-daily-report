@@ -22,7 +22,7 @@ const OUTPUT_SCHEMA = `Return ONLY this JSON object, no markdown, no code fences
   "oneLine": string,                         // Step 1: the day in one sentence a person can repeat out loud
   "priceVolumeSummary": string,              // 1-2 plain sentences: did the venues agree on price, who led volume
   "positioningSummary": string,              // plain sentences: what funding / open interest / long-short did, and what it means
-  "stocksSummary": string,                   // plain sentences on the Asian stock perps (Korea/HK/China) — which moved and any market news you found for those markets (KOSPI, Hang Seng, CSI). "" if nothing notable.
+  "stocksSummary": string,                   // plain sentences on the stock/commodity perps — lead with the Asian names (Korea/HK/China: KOSPI, Hang Seng, CSI) and any market news you found, then a line on US equities and commodities (gold/oil/copper) if notable. "" if nothing notable.
   "movers": [ { "symbol": string, "explanation": string, "hasCause": boolean } ],
   "news": {
     "topThree": [ { "headline": string, "what": string, "coins": string, "timeUTC": string, "source": string, "url": string } ],
@@ -65,11 +65,13 @@ DATA PACK:
 ${JSON.stringify({
   date: pack.dateUTC, coversUTC: pack.coversUTC,
   exchanges: pack.exchanges, calendar: pack.calendar, tradfi: pack.tradfi,
-  asianStocks: pack.stocks && pack.stocks.ok ? {
+  binanceStocks: pack.stocks && pack.stocks.ok ? {
     Korea: (pack.stocks.markets.KR_EQUITY || []).slice(0, 8).map((r) => ({ name: r.name, chgPct: r.chgPct, volUSD: r.volUSD })),
     HongKong: (pack.stocks.markets.HK_EQUITY || []).slice(0, 8).map((r) => ({ name: r.name, chgPct: r.chgPct, volUSD: r.volUSD })),
     China: (pack.stocks.markets.CN_EQUITY || []).map((r) => ({ name: r.name, chgPct: r.chgPct, volUSD: r.volUSD })),
-    topMovers: (pack.stocks.topMovers || []).map((r) => ({ name: r.name, chgPct: r.chgPct })),
+    usMovers: (pack.stocks.usMovers || []).map((r) => ({ name: r.name, chgPct: r.chgPct })),
+    commodities: (pack.stocks.commodities || []).map((r) => ({ name: r.name, chgPct: r.chgPct })),
+    asiaTopMovers: (pack.stocks.topMovers || []).map((r) => ({ name: r.name, chgPct: r.chgPct })),
   } : null,
   sources: pack.sources,
 }, null, 1)}
