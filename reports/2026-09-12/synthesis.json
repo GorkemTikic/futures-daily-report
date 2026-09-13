@@ -1,0 +1,37 @@
+{
+  "oneLine": "A quiet weekend for the big coins — Bitcoin and Ether barely moved and every major exchange agreed on price — while a couple of small tokens spiked over 100% and the only real news was a customer-data exposure at Revolut.",
+  "priceVolumeSummary": "Bitcoin traded at essentially the same price on every venue (about $77,200, within a few dollars of each other), so nothing unusual was happening between exchanges. Binance handled by far the most trading — roughly $3.2 billion against under $1 billion on most of the others — so it clearly led the day's activity, as it usually does.",
+  "positioningSummary": "Funding was mildly positive on every venue, which means the traders betting on a rise were paying a small fee to those betting on a fall — a gentle bullish lean, not an extreme one. The pool of open bets (open interest) was largest on Binance at about $8 billion. Nothing pointed to crowded or stretched positioning that would risk a sudden unwind.",
+  "stocksSummary": "The Asian names traded on Binance leaned slightly negative. In Korea, the chip makers led the way down — SK Hynix fell about 2.6% (and it was the most active of the group by far) with Samsung off around 1.9%, in line with a softer session for semiconductors. Hong Kong was mixed: BYD and Xiaomi edged higher while Tencent was roughly flat. China's two names were quiet. Nothing here suggests a big Asian-market event — it reads as a normal, slightly risk-off session rather than a shock.",
+  "movers": [
+    { "symbol": "LSKUSDT", "explanation": "Lisk jumped more than 120% in a day on heavy volume, but no confirmed public news explains it. Moves this size in a smaller coin are usually driven by a new listing, an exchange promotion or short-term speculation rather than anything fundamental.", "hasCause": false },
+    { "symbol": "龙虾USDT", "explanation": "This small-cap token more than doubled with no clear public cause — treat a move like this as speculative until a reason appears.", "hasCause": false },
+    { "symbol": "GRIFFAINUSDT", "explanation": "Up around 40% with no confirmed catalyst in the news.", "hasCause": false }
+  ],
+  "news": {
+    "topThree": [
+      { "headline": "Revolut exposed customer passports and Bitcoin transaction histories after falling for a fake government data request", "what": "The fintech app Revolut confirmed that customer identity documents and Bitcoin transaction records were handed over after it was tricked by a forged law-enforcement request. This is a privacy and security problem for Revolut's users, not something that moves the price of any coin — but it's a reminder that identity and account data at big platforms stays a target.", "coins": "Bitcoin (user privacy, not price)", "timeUTC": "12 Sep 21:39", "source": "The Block", "url": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed" }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        { "headline": "Two crypto billionaires donated a combined £72 million to Nigel Farage's Reform UK", "what": "Crypto entrepreneurs Ben Delo and Christopher Harborne each gave £36 million to the UK's Reform party, among the largest political donations in British history. It has no direct market impact today, but it signals growing political influence from crypto wealth, which can matter for how the UK regulates the industry later.", "coins": "Broad crypto (regulatory sentiment)", "timeUTC": "12 Sep 16:18", "source": "CoinDesk", "url": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-97-million-donations" }
+      ],
+      "Hacks, exploits and outages": [
+        { "headline": "Revolut customer data handed to a fraudulent request (see above)", "what": "Covered as the top item today: forged government request led to exposure of passports and Bitcoin activity for affected Revolut users.", "coins": "Bitcoin (privacy)", "timeUTC": "12 Sep", "source": "Decrypt", "url": "https://decrypt.co/378114/revolut-passports-bitcoin-activity-fake-government" }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [
+    { "term": "24-hour volume", "definition": "How much of a coin changed hands in the last day, in US dollars. More volume means more activity and usually easier buying and selling." },
+    { "term": "Annualised (funding)", "definition": "A fee that is actually charged every 8 hours, shown as if it ran for a whole year — so a rate on one exchange can be compared fairly with another." },
+    { "term": "Funding rate", "definition": "A small fee swapped between the two sides of a perpetual every 8 hours. Positive means the traders betting on a rise pay those betting on a fall; negative is the reverse." },
+    { "term": "Mark price", "definition": "A smoothed 'fair' price the exchange calculates, used to decide things like forced closures, so a brief spike in the live price doesn't unfairly close people out." },
+    { "term": "Open interest", "definition": "The total amount of money sitting in open bets on a contract right now. Rising open interest means new money is coming in; falling means traders are closing out." },
+    { "term": "Perpetual", "definition": "A futures contract with no expiry date — the most common way crypto is traded on these venues. It's kept in line with the real coin price by the funding fee." },
+    { "term": "S&P 500 / Nasdaq", "definition": "The two main US stock-market indexes. Crypto often drifts in the same direction as these on broadly risk-on or risk-off days." },
+    { "term": "Treasuries / 10-year yield", "definition": "US government bonds. When their price falls, the interest they pay (the yield) rises, which can pull money away from riskier assets like crypto." },
+    { "term": "US Dollar Index", "definition": "A measure of the dollar's strength against other big currencies. A stronger dollar is often a mild headwind for crypto." }
+  ]
+}

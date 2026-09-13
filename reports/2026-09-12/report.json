@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-12",
+  "kind": "market",
+  "dateLong": "Saturday, 12 September 2026",
+  "coversUTC": "00:00–23:59 UTC",
+  "oneLine": "A quiet weekend for the big coins — Bitcoin and Ether barely moved and every major exchange agreed on price — while a couple of small tokens spiked over 100% and the only real news was a customer-data exposure at Revolut.",
+  "newsCount": 3,
+  "macro": {
+    "BTC": 0.049,
+    "ETH": 0.351109058772956
+  },
+  "topMover": {
+    "symbol": "LSKUSDT",
+    "chgPct": 219.034
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "13 Sept 2026, 02:37 UTC"
+}

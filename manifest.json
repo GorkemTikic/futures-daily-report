@@ -1,83 +1,27 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-12T23:52:07.666Z",
+  "generatedAt": "2026-09-13T02:37:16.332Z",
   "count": 88,
   "latest": "2026-09-12",
   "reports": [
     {
       "date": "2026-09-12",
-      "scanned": 528,
-      "movedBig": 7,
-      "dangerCount": 0,
-      "widest": {
-        "symbol": "UAIUSDT",
-        "pct": "4.8%",
-        "time": "13:04"
-      },
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
       "macro": {
-        "BTC": 0,
-        "ETH": 0.3,
-        "SOL": -0.7
+        "BTC": 0.049,
+        "ETH": 0.351109058772956
       },
-      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.0%, ETH +0.3%, SOL -0.7% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
-      "newsCount": 0,
-      "flagged": [
-        {
-          "symbol": "LSKUSDT",
-          "label": "Steady climb",
-          "headline": "LSKUSDT climbed +141.6% steadily"
-        },
-        {
-          "symbol": "龙虾USDT",
-          "label": "Steady climb",
-          "headline": "龙虾USDT climbed +117.1% steadily"
-        },
-        {
-          "symbol": "GRIFFAINUSDT",
-          "label": "Steady climb",
-          "headline": "GRIFFAINUSDT climbed +45.1% steadily"
-        },
-        {
-          "symbol": "UAIUSDT",
-          "label": "Pumped then faded",
-          "headline": "UAIUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "FLOCKUSDT",
-          "label": "Steady climb",
-          "headline": "FLOCKUSDT climbed +30.5% steadily"
-        },
-        {
-          "symbol": "KOMAUSDT",
-          "label": "Steady climb",
-          "headline": "KOMAUSDT climbed +34.5% steadily"
-        },
-        {
-          "symbol": "我踏马来了USDT",
-          "label": "Brief price gap",
-          "headline": "我踏马来了USDT had one brief price dislocation"
-        },
-        {
-          "symbol": "ALCHUSDT",
-          "label": "Steady climb",
-          "headline": "ALCHUSDT climbed +39.2% steadily"
-        },
-        {
-          "symbol": "REZUSDT",
-          "label": "Steady climb",
-          "headline": "REZUSDT climbed +29.5% steadily"
-        },
-        {
-          "symbol": "STARUSDT",
-          "label": "Brief price gap",
-          "headline": "STARUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "TAGUSDT",
-          "label": "Brief price gap",
-          "headline": "TAGUSDT had one brief price dislocation"
-        }
-      ],
+      "marketSummary": "A quiet weekend for the big coins — Bitcoin and Ether barely moved and every major exchange agreed on price — while a couple of small tokens spiked over 100% and the only real news was a customer-data exposure at Revolut.",
+      "newsCount": 3,
+      "topMover": {
+        "symbol": "LSKUSDT",
+        "chgPct": 219.034
+      },
+      "flagged": [],
       "files": {
         "html": "reports/2026-09-12/summary_2026-09-12.html",
         "pdf": "reports/2026-09-12/summary_2026-09-12.pdf",
@@ -143,6 +87,7 @@
           "headline": "BULLAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-11/summary_2026-09-11.html",
         "pdf": "reports/2026-09-11/summary_2026-09-11.pdf",
@@ -193,6 +138,7 @@
           "headline": "ZESTUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-10/summary_2026-09-10.html",
         "pdf": "reports/2026-09-10/summary_2026-09-10.pdf",
@@ -293,6 +239,7 @@
           "headline": "TRIAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-09/summary_2026-09-09.html",
         "pdf": "reports/2026-09-09/summary_2026-09-09.pdf",
@@ -348,6 +295,7 @@
           "headline": "JCTUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-08/summary_2026-09-08.html",
         "pdf": "reports/2026-09-08/summary_2026-09-08.pdf",
@@ -433,6 +381,7 @@
           "headline": "EULUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-07/summary_2026-09-07.html",
         "pdf": "reports/2026-09-07/summary_2026-09-07.pdf",
@@ -523,6 +472,7 @@
           "headline": "OUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-06/summary_2026-09-06.html",
         "pdf": "reports/2026-09-06/summary_2026-09-06.pdf",
@@ -613,6 +563,7 @@
           "headline": "XVGUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-05/summary_2026-09-05.html",
         "pdf": "reports/2026-09-05/summary_2026-09-05.pdf",
@@ -703,6 +654,7 @@
           "headline": "LISTAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-04/summary_2026-09-04.html",
         "pdf": "reports/2026-09-04/summary_2026-09-04.pdf",
@@ -803,6 +755,7 @@
           "headline": "TRADOORUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-03/summary_2026-09-03.html",
         "pdf": "reports/2026-09-03/summary_2026-09-03.pdf",
@@ -888,6 +841,7 @@
           "headline": "BLUAIUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-02/summary_2026-09-02.html",
         "pdf": "reports/2026-09-02/summary_2026-09-02.pdf",
@@ -948,6 +902,7 @@
           "headline": "SONICUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-09-01/summary_2026-09-01.html",
         "pdf": "reports/2026-09-01/summary_2026-09-01.pdf",
@@ -1028,6 +983,7 @@
           "headline": "LIGHTUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-31/summary_2026-08-31.html",
         "pdf": "reports/2026-08-31/summary_2026-08-31.pdf",
@@ -1098,6 +1054,7 @@
           "headline": "BEATUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-30/summary_2026-08-30.html",
         "pdf": "reports/2026-08-30/summary_2026-08-30.pdf",
@@ -1168,6 +1125,7 @@
           "headline": "SIRENUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-29/summary_2026-08-29.html",
         "pdf": "reports/2026-08-29/summary_2026-08-29.pdf",
@@ -1238,6 +1196,7 @@
           "headline": "CLOUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-28/summary_2026-08-28.html",
         "pdf": "reports/2026-08-28/summary_2026-08-28.pdf",
@@ -1323,6 +1282,7 @@
           "headline": "VELVETUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-27/summary_2026-08-27.html",
         "pdf": "reports/2026-08-27/summary_2026-08-27.pdf",
@@ -1408,6 +1368,7 @@
           "headline": "BRUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-26/summary_2026-08-26.html",
         "pdf": "reports/2026-08-26/summary_2026-08-26.pdf",
@@ -1453,6 +1414,7 @@
           "headline": "BTWUSDT sold off, then recovered"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-25/summary_2026-08-25.html",
         "pdf": "reports/2026-08-25/summary_2026-08-25.pdf",
@@ -1518,6 +1480,7 @@
           "headline": "USTCUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-24/summary_2026-08-24.html",
         "pdf": "reports/2026-08-24/summary_2026-08-24.pdf",
@@ -1563,6 +1526,7 @@
           "headline": "BEATUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-23/summary_2026-08-23.html",
         "pdf": "reports/2026-08-23/summary_2026-08-23.pdf",
@@ -1663,6 +1627,7 @@
           "headline": "FIDAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-22/summary_2026-08-22.html",
         "pdf": "reports/2026-08-22/summary_2026-08-22.pdf",
@@ -1758,6 +1723,7 @@
           "headline": "ZECUSDT climbed +29.1% steadily"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-21/summary_2026-08-21.html",
         "pdf": "reports/2026-08-21/summary_2026-08-21.pdf",
@@ -1848,6 +1814,7 @@
           "headline": "LSKUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-20/summary_2026-08-20.html",
         "pdf": "reports/2026-08-20/summary_2026-08-20.pdf",
@@ -1948,6 +1915,7 @@
           "headline": "PUMPUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-19/summary_2026-08-19.html",
         "pdf": "reports/2026-08-19/summary_2026-08-19.pdf",
@@ -1998,6 +1966,7 @@
           "headline": "BULLAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-18/summary_2026-08-18.html",
         "pdf": "reports/2026-08-18/summary_2026-08-18.pdf",
@@ -2073,6 +2042,7 @@
           "headline": "JCTUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-17/summary_2026-08-17.html",
         "pdf": "reports/2026-08-17/summary_2026-08-17.pdf",
@@ -2133,6 +2103,7 @@
           "headline": "AWEUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-16/summary_2026-08-16.html",
         "pdf": "reports/2026-08-16/summary_2026-08-16.pdf",
@@ -2233,6 +2204,7 @@
           "headline": "ONEUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-15/summary_2026-08-15.html",
         "pdf": "reports/2026-08-15/summary_2026-08-15.pdf",
@@ -2313,6 +2285,7 @@
           "headline": "LISTAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-13/summary_2026-08-13.html",
         "pdf": "reports/2026-08-13/summary_2026-08-13.pdf",
@@ -2408,6 +2381,7 @@
           "headline": "ONUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-12/summary_2026-08-12.html",
         "pdf": "reports/2026-08-12/summary_2026-08-12.pdf",
@@ -2478,6 +2452,7 @@
           "headline": "AGTUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-11/summary_2026-08-11.html",
         "pdf": "reports/2026-08-11/summary_2026-08-11.pdf",
@@ -2578,6 +2553,7 @@
           "headline": "TRADOORUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-10/summary_2026-08-10.html",
         "pdf": "reports/2026-08-10/summary_2026-08-10.pdf",
@@ -2678,6 +2654,7 @@
           "headline": "BOMEUSDT climbed +34.6% steadily"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-09/summary_2026-08-09.html",
         "pdf": "reports/2026-08-09/summary_2026-08-09.pdf",
@@ -2778,6 +2755,7 @@
           "headline": "RIVERUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-08/summary_2026-08-08.html",
         "pdf": "reports/2026-08-08/summary_2026-08-08.pdf",
@@ -2878,6 +2856,7 @@
           "headline": "RIVERUSDT climbed +27.6% steadily"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-06/summary_2026-08-06.html",
         "pdf": "reports/2026-08-06/summary_2026-08-06.pdf",
@@ -2973,6 +2952,7 @@
           "headline": "AIAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-05/summary_2026-08-05.html",
         "pdf": "reports/2026-08-05/summary_2026-08-05.pdf",
@@ -3053,6 +3033,7 @@
           "headline": "AVAAIUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-04/summary_2026-08-04.html",
         "pdf": "reports/2026-08-04/summary_2026-08-04.pdf",
@@ -3113,6 +3094,7 @@
           "headline": "ROBOUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-03/summary_2026-08-03.html",
         "pdf": "reports/2026-08-03/summary_2026-08-03.pdf",
@@ -3188,6 +3170,7 @@
           "headline": "ARCUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-02/summary_2026-08-02.html",
         "pdf": "reports/2026-08-02/summary_2026-08-02.pdf",
@@ -3263,6 +3246,7 @@
           "headline": "TAKEUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-08-01/summary_2026-08-01.html",
         "pdf": "reports/2026-08-01/summary_2026-08-01.pdf",
@@ -3343,6 +3327,7 @@
           "headline": "TSTUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-31/summary_2026-07-31.html",
         "pdf": "reports/2026-07-31/summary_2026-07-31.pdf",
@@ -3408,6 +3393,7 @@
           "headline": "EULUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-30/summary_2026-07-30.html",
         "pdf": "reports/2026-07-30/summary_2026-07-30.pdf",
@@ -3463,6 +3449,7 @@
           "headline": "UBUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-29/summary_2026-07-29.html",
         "pdf": "reports/2026-07-29/summary_2026-07-29.pdf",
@@ -3538,6 +3525,7 @@
           "headline": "BROCCOLIF3BUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-28/summary_2026-07-28.html",
         "pdf": "reports/2026-07-28/summary_2026-07-28.pdf",
@@ -3633,6 +3621,7 @@
           "headline": "PROMUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-27/summary_2026-07-27.html",
         "pdf": "reports/2026-07-27/summary_2026-07-27.pdf",
@@ -3698,6 +3687,7 @@
           "headline": "BROCCOLIF3BUSDT sold off, then recovered"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-26/summary_2026-07-26.html",
         "pdf": "reports/2026-07-26/summary_2026-07-26.pdf",
@@ -3753,6 +3743,7 @@
           "headline": "BLESSUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-25/summary_2026-07-25.html",
         "pdf": "reports/2026-07-25/summary_2026-07-25.pdf",
@@ -3823,6 +3814,7 @@
           "headline": "BLESSUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-24/summary_2026-07-24.html",
         "pdf": "reports/2026-07-24/summary_2026-07-24.pdf",
@@ -3898,6 +3890,7 @@
           "headline": "BARDUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-23/summary_2026-07-23.html",
         "pdf": "reports/2026-07-23/summary_2026-07-23.pdf",
@@ -3978,6 +3971,7 @@
           "headline": "EPICUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-22/summary_2026-07-22.html",
         "pdf": "reports/2026-07-22/summary_2026-07-22.pdf",
@@ -4053,6 +4047,7 @@
           "headline": "PLAYUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-21/summary_2026-07-21.html",
         "pdf": "reports/2026-07-21/summary_2026-07-21.pdf",
@@ -4133,6 +4128,7 @@
           "headline": "YBUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-20/summary_2026-07-20.html",
         "pdf": "reports/2026-07-20/summary_2026-07-20.pdf",
@@ -4198,6 +4194,7 @@
           "headline": "BLURUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-18/summary_2026-07-18.html",
         "pdf": "reports/2026-07-18/summary_2026-07-18.pdf",
@@ -4258,6 +4255,7 @@
           "headline": "MYXUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-17/summary_2026-07-17.html",
         "pdf": "reports/2026-07-17/summary_2026-07-17.pdf",
@@ -4313,6 +4311,7 @@
           "headline": "ZESTUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-16/summary_2026-07-16.html",
         "pdf": "reports/2026-07-16/summary_2026-07-16.pdf",
@@ -4368,6 +4367,7 @@
           "headline": "BTWUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-15/summary_2026-07-15.html",
         "pdf": "reports/2026-07-15/summary_2026-07-15.pdf",
@@ -4423,6 +4423,7 @@
           "headline": "HANAUSDT sold off, then recovered"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-14/summary_2026-07-14.html",
         "pdf": "reports/2026-07-14/summary_2026-07-14.pdf",
@@ -4473,6 +4474,7 @@
           "headline": "IDOLUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-12/summary_2026-07-12.html",
         "pdf": "reports/2026-07-12/summary_2026-07-12.pdf",
@@ -4538,6 +4540,7 @@
           "headline": "MOODENGUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-11/summary_2026-07-11.html",
         "pdf": "reports/2026-07-11/summary_2026-07-11.pdf",
@@ -4588,6 +4591,7 @@
           "headline": "GUAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-10/summary_2026-07-10.html",
         "pdf": "reports/2026-07-10/summary_2026-07-10.pdf",
@@ -4678,6 +4682,7 @@
           "headline": "SAFEUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-09/summary_2026-07-09.html",
         "pdf": "reports/2026-07-09/summary_2026-07-09.pdf",
@@ -4768,6 +4773,7 @@
           "headline": "GUAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-08/summary_2026-07-08.html",
         "pdf": "reports/2026-07-08/summary_2026-07-08.pdf",
@@ -4868,6 +4874,7 @@
           "headline": "SPELLUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-07/summary_2026-07-07.html",
         "pdf": "reports/2026-07-07/summary_2026-07-07.pdf",
@@ -4928,6 +4935,7 @@
           "headline": "EDGEUSDT climbed +29.4% steadily"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-06/summary_2026-07-06.html",
         "pdf": "reports/2026-07-06/summary_2026-07-06.pdf",
@@ -4988,6 +4996,7 @@
           "headline": "PLAYUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-05/summary_2026-07-05.html",
         "pdf": "reports/2026-07-05/summary_2026-07-05.pdf",
@@ -5073,6 +5082,7 @@
           "headline": "ZKPUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-04/summary_2026-07-04.html",
         "pdf": "reports/2026-07-04/summary_2026-07-04.pdf",
@@ -5173,6 +5183,7 @@
           "headline": "XANUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-03/summary_2026-07-03.html",
         "pdf": "reports/2026-07-03/summary_2026-07-03.pdf",
@@ -5273,6 +5284,7 @@
           "headline": "SLXUSDT sold off, then recovered"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-02/summary_2026-07-02.html",
         "pdf": "reports/2026-07-02/summary_2026-07-02.pdf",
@@ -5373,6 +5385,7 @@
           "headline": "BTWUSDT climbed +27.5% steadily"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-07-01/summary_2026-07-01.html",
         "pdf": "reports/2026-07-01/summary_2026-07-01.pdf",
@@ -5448,6 +5461,7 @@
           "headline": "MITOUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-30/summary_2026-06-30.html",
         "pdf": "reports/2026-06-30/summary_2026-06-30.pdf",
@@ -5548,6 +5562,7 @@
           "headline": "POWRUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-29/summary_2026-06-29.html",
         "pdf": "reports/2026-06-29/summary_2026-06-29.pdf",
@@ -5648,6 +5663,7 @@
           "headline": "GUAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-28/summary_2026-06-28.html",
         "pdf": "reports/2026-06-28/summary_2026-06-28.pdf",
@@ -5728,6 +5744,7 @@
           "headline": "ZEREBROUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-27/summary_2026-06-27.html",
         "pdf": "reports/2026-06-27/summary_2026-06-27.pdf",
@@ -5793,6 +5810,7 @@
           "headline": "ARXUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-26/summary_2026-06-26.html",
         "pdf": "reports/2026-06-26/summary_2026-06-26.pdf",
@@ -5893,6 +5911,7 @@
           "headline": "CTRUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-25/summary_2026-06-25.html",
         "pdf": "reports/2026-06-25/summary_2026-06-25.pdf",
@@ -5968,6 +5987,7 @@
           "headline": "SAHARAUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-24/summary_2026-06-24.html",
         "pdf": "reports/2026-06-24/summary_2026-06-24.pdf",
@@ -6053,6 +6073,7 @@
           "headline": "BANUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-23/summary_2026-06-23.html",
         "pdf": "reports/2026-06-23/summary_2026-06-23.pdf",
@@ -6128,6 +6149,7 @@
           "headline": "AVAAIUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-22/summary_2026-06-22.html",
         "pdf": "reports/2026-06-22/summary_2026-06-22.pdf",
@@ -6223,6 +6245,7 @@
           "headline": "AKEUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-21/summary_2026-06-21.html",
         "pdf": "reports/2026-06-21/summary_2026-06-21.pdf",
@@ -6303,6 +6326,7 @@
           "headline": "EIGENUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-20/summary_2026-06-20.html",
         "pdf": "reports/2026-06-20/summary_2026-06-20.pdf",
@@ -6398,6 +6422,7 @@
           "headline": "EVAAUSDT climbed +25.1% steadily"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-19/summary_2026-06-19.html",
         "pdf": "reports/2026-06-19/summary_2026-06-19.pdf",
@@ -6493,6 +6518,7 @@
           "headline": "TACUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-18/summary_2026-06-18.html",
         "pdf": "reports/2026-06-18/summary_2026-06-18.pdf",
@@ -6588,6 +6614,7 @@
           "headline": "BUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-17/summary_2026-06-17.html",
         "pdf": "reports/2026-06-17/summary_2026-06-17.pdf",
@@ -6688,6 +6715,7 @@
           "headline": "EPICUSDT climbed +28.6% steadily"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-16/summary_2026-06-16.html",
         "pdf": "reports/2026-06-16/summary_2026-06-16.pdf",
@@ -6788,6 +6816,7 @@
           "headline": "EDENUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-15/summary_2026-06-15.html",
         "pdf": "reports/2026-06-15/summary_2026-06-15.pdf",
@@ -6888,6 +6917,7 @@
           "headline": "SPORTFUNUSDT had one brief price dislocation"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-14/summary_2026-06-14.html",
         "pdf": "reports/2026-06-14/summary_2026-06-14.pdf",
@@ -6988,6 +7018,7 @@
           "headline": "EPICUSDT ran up, then gave it back"
         }
       ],
+      "kind": "divergence",
       "files": {
         "html": "reports/2026-06-13/summary_2026-06-13.html",
         "pdf": "reports/2026-06-13/summary_2026-06-13.pdf",
