@@ -1,9 +1,100 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-13T20:05:09.254Z",
-  "count": 88,
-  "latest": "2026-09-12",
+  "generatedAt": "2026-09-13T23:52:01.576Z",
+  "count": 89,
+  "latest": "2026-09-13",
   "reports": [
+    {
+      "date": "2026-09-13",
+      "scanned": 528,
+      "movedBig": 5,
+      "dangerCount": 2,
+      "widest": {
+        "symbol": "LSKUSDT",
+        "pct": "9.8%",
+        "time": "03:27"
+      },
+      "macro": {
+        "BTC": -0.6,
+        "ETH": -2,
+        "SOL": -2.1
+      },
+      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC -0.6%, ETH -2.0%, SOL -2.1% over the UTC day. Bitcoin — the market's anchor — finished down. Altcoin futures moves below should be read against this backdrop.",
+      "newsCount": 0,
+      "flagged": [
+        {
+          "symbol": "LSKUSDT",
+          "label": "Clean spike",
+          "headline": "LSKUSDT spiked +150.9% — fast but clean"
+        },
+        {
+          "symbol": "CVCUSDT",
+          "label": "Brief price gap",
+          "headline": "CVCUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "STEEMUSDT",
+          "label": "Brief price gap",
+          "headline": "STEEMUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "BTWUSDT",
+          "label": "Steady climb",
+          "headline": "BTWUSDT climbed +33.7% steadily"
+        },
+        {
+          "symbol": "POWERUSDT",
+          "label": "Steady climb",
+          "headline": "POWERUSDT climbed +39.0% steadily"
+        },
+        {
+          "symbol": "REZUSDT",
+          "label": "V-shaped recovery",
+          "headline": "REZUSDT sold off, then recovered"
+        },
+        {
+          "symbol": "KAVAUSDT",
+          "label": "Brief price gap",
+          "headline": "KAVAUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "BRUSDT",
+          "label": "Steady climb",
+          "headline": "BRUSDT climbed +27.8% steadily"
+        },
+        {
+          "symbol": "IOTXUSDT",
+          "label": "Brief price gap",
+          "headline": "IOTXUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "MAGMAUSDT",
+          "label": "Brief price gap",
+          "headline": "MAGMAUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "CTRUSDT",
+          "label": "Brief price gap",
+          "headline": "CTRUSDT had one brief price dislocation"
+        },
+        {
+          "symbol": "MAVIAUSDT",
+          "label": "Pumped then faded",
+          "headline": "MAVIAUSDT ran up, then gave it back"
+        },
+        {
+          "symbol": "PONSUSDT",
+          "label": "Brief price gap",
+          "headline": "PONSUSDT had one brief price dislocation"
+        }
+      ],
+      "kind": "divergence",
+      "files": {
+        "html": "reports/2026-09-13/summary_2026-09-13.html",
+        "pdf": "reports/2026-09-13/summary_2026-09-13.pdf",
+        "md": "reports/2026-09-13/summary_2026-09-13.md"
+      }
+    },
     {
       "date": "2026-09-12",
       "kind": "market",
