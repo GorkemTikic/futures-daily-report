@@ -24,7 +24,7 @@ const OUTPUT_SCHEMA = `Return ONLY this JSON object, no markdown, no code fences
   "positioningSummary": string,              // plain sentences: what funding / open interest / long-short did, and what it means
   "movers": [ { "symbol": string, "explanation": string, "hasCause": boolean } ],
   "news": {
-    "topThree": [ { "headline": string, "what": string, "coins": string, "timeIstanbul": string, "source": string, "url": string } ],
+    "topThree": [ { "headline": string, "what": string, "coins": string, "timeUTC": string, "source": string, "url": string } ],
     "groups": {
       "Regulation and policy": [ ITEM ],
       "Institutional flows and ETFs": [ ITEM ],
@@ -38,13 +38,15 @@ const OUTPUT_SCHEMA = `Return ONLY this JSON object, no markdown, no code fences
   "calendarNotes": [ { "event": string, "typicalReaction": string } ],
   "glossary": [ { "term": string, "definition": string } ]
 }
-Where ITEM = { "headline": string, "what": string (2-3 plain sentences), "coins": string, "timeIstanbul": string, "source": string, "url": string }.
+Where ITEM = { "headline": string, "what": string (2-3 plain sentences), "coins": string, "timeUTC": string, "source": string, "url": string }.
 Include a group key ONLY if it has items; use [] otherwise.`;
 
 export function buildSynthesisPrompt(pack) {
   return `You are writing today's crypto-futures market report for customer-support agents who do NOT read finance news and do NOT know finance vocabulary. Write ordinary, everyday English. Put every definition in the glossary, never in the body.
 
-You are given a DATA PACK with verified numbers already collected (exchange figures across venues, the macro calendar in Europe/Istanbul time, and traditional-market moves). You are also given NEWS CANDIDATES (raw RSS headlines from the last ~30h).
+This report covers ONE full UTC calendar day (00:00–23:59 UTC) and is generated at 00:00 UTC. Use UTC for every time you write — never a local timezone.
+
+You are given a DATA PACK with verified numbers already collected (exchange figures across venues, the macro calendar in UTC, and traditional-market moves). You are also given NEWS CANDIDATES (raw RSS headlines from the last ~30h).
 
 YOUR JOB:
 - Write the plain-English prose: the one-line summary, the price/volume read, the positioning read, and a short explanation for each biggest mover (say "no clear public cause" when the news doesn't explain it).
@@ -55,7 +57,7 @@ YOUR JOB:
 STRICT RULES:
 - NEVER invent a number, a headline, an outlet, a URL, or a finding. If web search can't verify something, leave it out. For any data figure, use ONLY what's in the DATA PACK.
 - No trading advice, predictions, or price targets. No support-operations content.
-- Every news item needs a real source name + URL and an Istanbul time.
+- Every news item needs a real source name + URL and a UTC time.
 - If there is genuinely little news, return fewer items — do not pad.
 
 DATA PACK:

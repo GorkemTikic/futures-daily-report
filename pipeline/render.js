@@ -99,9 +99,9 @@ export function buildReportHtml(pack, synth) {
   const cover = `
     <div class="cover-band"><div class="cover-mark">FD</div><div class="cover-brand">Futures Daily Report<span>Crypto futures across the major venues · daily</span></div></div>
     <div class="kicker">Daily market report</div>
-    <h1>${esc(pack.generatedAtIstanbul)}</h1>
-    <div class="date">All times Europe/Istanbul · data from Binance, Bybit, OKX, Bitget, Gate${pack.tradfi?.ok ? " + Twelve Data" : ""}</div>
-    <div class="oneline"><div class="k">Today in one line</div><p>${esc(s.oneLine || "—")}</p></div>`;
+    <h1>${esc(pack.dateLong || pack.dateUTC)}</h1>
+    <div class="date">${esc(pack.coversUTC || "00:00–23:59 UTC")} · all times UTC · data from Binance, Bybit, OKX, Bitget, Gate${pack.tradfi?.ok ? " + Twelve Data" : ""}</div>
+    <div class="oneline"><div class="k">The day in one line</div><p>${esc(s.oneLine || "—")}</p></div>`;
 
   // 2 — price & volume
   const priceVol = section("01 · Price & volume", "What every venue's price and volume did",
@@ -130,7 +130,8 @@ export function buildReportHtml(pack, synth) {
   const moversSection = section("03 · Biggest movers", "The coins that moved the most", "The largest 24-hour moves on Binance, with the reason where the news supports one.", moversBody);
 
   // 5 — news
-  const newsItem = (n, top) => `<div class="newscard${top ? " top" : ""}"><div class="h">${esc(n.headline)}</div><div class="what">${esc(n.what)}</div><div class="meta">${n.coins ? esc(n.coins) + " · " : ""}${n.timeIstanbul ? esc(n.timeIstanbul) + " · " : ""}${n.url ? `<a href="${esc(n.url)}">${esc(n.source || "source")}</a>` : esc(n.source || "")}</div></div>`;
+  const nTime = (n) => n.timeUTC || n.timeIstanbul || "";
+  const newsItem = (n, top) => `<div class="newscard${top ? " top" : ""}"><div class="h">${esc(n.headline)}</div><div class="what">${esc(n.what)}</div><div class="meta">${n.coins ? esc(n.coins) + " · " : ""}${nTime(n) ? esc(nTime(n)) + " · " : ""}${n.url ? `<a href="${esc(n.url)}">${esc(n.source || "source")}</a>` : esc(n.source || "")}</div></div>`;
   const groups = (s.news && s.news.groups) || {};
   const groupOrder = ["Regulation and policy", "Institutional flows and ETFs", "Exchange and platform changes", "Hacks, exploits and outages", "Traditional markets", "Unconfirmed and watch items"];
   const tradfiCard = pack.tradfi?.ok
@@ -151,14 +152,14 @@ export function buildReportHtml(pack, synth) {
   const calBody =
     (cal.today.length ? `<h3>Today</h3><div class="cal">${cal.today.map(calRow).join("")}</div>` : `<p class="none">No US high-impact events scheduled today.</p>`) +
     (cal.week.length ? `<h3>Rest of the week</h3><div class="cal">${cal.week.map((e) => `<div class="e"><span class="t">${esc(e.when.split(",")[0])}</span><span style="flex:1"><strong>${esc(e.title)}</strong></span><span class="fc">${esc(e.time)}</span></div>`).join("")}</div>` : "");
-  const calSection = section("05 · Scheduled events", "What's coming (Istanbul time)", "US economic releases that tend to move crypto. A number only matters against its forecast.", calBody);
+  const calSection = section("05 · Scheduled events", "What's coming (UTC)", "US economic releases that tend to move crypto. A number only matters against its forecast.", calBody);
 
   // 7 — glossary
   const gloss = (s.glossary || []).slice().sort((a, b) => (a.term || "").localeCompare(b.term || ""));
   const glossSection = section("06 · Glossary", "Every term used today, in plain words", "",
     gloss.length ? `<div class="gloss">${gloss.map((g) => `<div class="g"><span class="term">${esc(g.term)}</span> — <span class="def">${esc(g.definition)}</span></div>`).join("")}</div>` : `<p class="none">No special terms used today.</p>`);
 
-  const foot = `<div class="foot">Generated ${esc(pack.generatedAtIstanbul)} (Europe/Istanbul). Numbers from each venue's public API; news from public reporting at generation time. Information only, not financial advice.${synth?._source ? ` · narrative: ${esc(synth._source)}` : ""}</div>`;
+  const foot = `<div class="foot">Covers the UTC day ${esc(pack.coversUTC || "00:00–23:59 UTC")}. Generated ${esc(pack.generatedAtUTC || "")}. Numbers from each venue's public API; news from public reporting at generation time. Information only, not financial advice.${synth?._source ? ` · narrative: ${esc(synth._source)}` : ""}</div>`;
 
   return `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${STYLE}</style></head><body>${cover}${priceVol}${positioning}${moversSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
 }

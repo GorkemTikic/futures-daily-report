@@ -17,17 +17,27 @@ import { collectTradFi } from "./tradfi.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-function istanbulNow(ms) {
-  return new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Europe/Istanbul", weekday: "long", day: "numeric", month: "long", year: "numeric",
-    hour: "2-digit", minute: "2-digit", hour12: false,
-  }).format(new Date(ms));
-}
 function utcDateStr(ms) {
   return new Intl.DateTimeFormat("en-CA", { timeZone: "UTC", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(ms));
 }
+function utcLong(ms) {
+  return new Intl.DateTimeFormat("en-GB", {
+    timeZone: "UTC", weekday: "long", day: "numeric", month: "long", year: "numeric",
+  }).format(new Date(ms));
+}
+function utcDateTime(ms) {
+  return new Intl.DateTimeFormat("en-GB", {
+    timeZone: "UTC", year: "numeric", month: "short", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", hour12: false,
+  }).format(new Date(ms)) + " UTC";
+}
 
 export async function buildDataPack({ nowMs = Date.now() } = {}) {
+  // The report covers a full UTC calendar day and is generated at 00:00 UTC (03:00
+  // Istanbul) for the day that just closed. Anchor the report date to the centre of the
+  // rolling-24h window (nowMs - 12h): at 00:00 UTC that resolves to the completed day.
+  const reportMs = nowMs - 12 * 3600e3;
+
   const [exchanges, calendar, news, tradfi] = await Promise.all([
     collectExchanges().catch((e) => ({ error: String(e).slice(0, 120), majors: { BTC: {}, ETH: {} }, movers: [], venuesOnline: [] })),
     collectCalendar(nowMs).catch((e) => ({ ok: false, err: String(e).slice(0, 120), today: [], week: [] })),
@@ -48,9 +58,11 @@ export async function buildDataPack({ nowMs = Date.now() } = {}) {
 
   return {
     generatedAtMs: nowMs,
-    dateUTC: utcDateStr(nowMs),
-    generatedAtIstanbul: istanbulNow(nowMs),
-    timezone: "Europe/Istanbul",
+    dateUTC: utcDateStr(reportMs),          // the completed UTC day this report covers
+    dateLong: utcLong(reportMs),            // e.g. "Friday, 12 September 2026"
+    coversUTC: "00:00–23:59 UTC",
+    generatedAtUTC: utcDateTime(nowMs),     // when this run happened, for the footer
+    timezone: "UTC",
     exchanges,
     calendar,
     news,
