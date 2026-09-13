@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-13T02:37:16.332Z",
+  "generatedAt": "2026-09-13T02:38:44.566Z",
   "count": 88,
   "latest": "2026-09-12",
   "reports": [
@@ -12,14 +12,14 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": 0.049,
-        "ETH": 0.351109058772956
+        "BTC": 0.06284304528327313,
+        "ETH": 0.3798
       },
       "marketSummary": "A quiet weekend for the big coins — Bitcoin and Ether barely moved and every major exchange agreed on price — while a couple of small tokens spiked over 100% and the only real news was a customer-data exposure at Revolut.",
       "newsCount": 3,
       "topMover": {
         "symbol": "LSKUSDT",
-        "chgPct": 219.034
+        "chgPct": 218.214
       },
       "flagged": [],
       "files": {
