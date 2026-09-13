@@ -129,6 +129,21 @@ export function buildReportHtml(pack, synth) {
     : `<p class="none">No standout movers today.</p>`;
   const moversSection = section("03 · Biggest movers", "The coins that moved the most", "The largest 24-hour moves on Binance, with the reason where the news supports one.", moversBody);
 
+  // 4 — Asian stocks on Binance Futures (tokenized-stock perpetuals)
+  const st = pack.stocks || {};
+  const stockTable = (mkt) => {
+    const rows = (st.markets && st.markets[mkt] || []).filter((r) => r.volUSD > 5e4).slice(0, 8);
+    if (!rows.length) return "";
+    const label = (st.labels && st.labels[mkt]) || mkt;
+    return `<h3>${esc(label)}</h3><table><thead><tr><th>Stock</th><th>Last</th><th>24h</th><th>24h volume</th></tr></thead><tbody>${rows.map((r) => `<tr><td><strong>${esc(r.name)}</strong> <span class="mono" style="color:var(--faint)">${esc(r.symbol.replace(/USDT$/, ""))}</span></td><td><span class="mono">${fmtPrice(r.last)}</span></td><td><span class="mono ${cls(r.chgPct / 100)}">${sgn(r.chgPct)}</span></td><td><span class="mono">${fmtUSD(r.volUSD)}</span></td></tr>`).join("")}</tbody></table>`;
+  };
+  const asiaTables = (st.asiaMarkets || ["KR_EQUITY", "HK_EQUITY", "CN_EQUITY"]).map(stockTable).join("");
+  const stocksBody = st.ok && asiaTables
+    ? asiaTables + (s.stocksSummary ? `<p class="say">${esc(s.stocksSummary)}</p>` : "")
+    : `<p class="none">Asian stock data was unavailable this run.</p>`;
+  const stocksSection = section("04 · Asian stocks on Binance Futures", "Korea, Hong Kong & China equity perpetuals",
+    "Binance lists tokenised stock perpetuals for Asian markets. These trade during the Asian session and often set the tone before crypto's US hours. Prices are the Binance perp's own price in USDT.", stocksBody);
+
   // 5 — news
   const nTime = (n) => n.timeUTC || n.timeIstanbul || "";
   const newsItem = (n, top) => `<div class="newscard${top ? " top" : ""}"><div class="h">${esc(n.headline)}</div><div class="what">${esc(n.what)}</div><div class="meta">${n.coins ? esc(n.coins) + " · " : ""}${nTime(n) ? esc(nTime(n)) + " · " : ""}${n.url ? `<a href="${esc(n.url)}">${esc(n.source || "source")}</a>` : esc(n.source || "")}</div></div>`;
@@ -143,7 +158,7 @@ export function buildReportHtml(pack, synth) {
     (s.etfFlows ? `<h3>ETF flows</h3><div class="newscard"><div class="what">${esc(s.etfFlows.summary)}</div><div class="meta">${esc(s.etfFlows.date || "")} · ${s.etfFlows.url ? `<a href="${esc(s.etfFlows.url)}">${esc(s.etfFlows.source || "source")}</a>` : esc(s.etfFlows.source || "")}</div></div>` : "") +
     tradfiCard +
     (!s.news?.topThree?.length && !groupOrder.some((g) => (groups[g] || []).length) && !tradfiCard ? `<p class="none">No market-moving news was confirmed in the last 24 hours${pack.sources?.newsFailed?.length ? ` (unavailable feeds: ${pack.sources.newsFailed.map((f) => f.source).join(", ")})` : ""}.</p>` : "");
-  const newsSection = section("04 · Market news", "What drove the market — and what didn't", "Only causes that move prices, each with its source. Rumours and unconfirmed reports are kept separate at the end.", newsBody);
+  const newsSection = section("05 · Market news", "What drove the market — and what didn't", "Only causes that move prices, each with its source. Rumours and unconfirmed reports are kept separate at the end.", newsBody);
 
   // 6 — calendar
   const cal = pack.calendar || { today: [], week: [] };
@@ -152,16 +167,16 @@ export function buildReportHtml(pack, synth) {
   const calBody =
     (cal.today.length ? `<h3>Today</h3><div class="cal">${cal.today.map(calRow).join("")}</div>` : `<p class="none">No US high-impact events scheduled today.</p>`) +
     (cal.week.length ? `<h3>Rest of the week</h3><div class="cal">${cal.week.map((e) => `<div class="e"><span class="t">${esc(e.when.split(",")[0])}</span><span style="flex:1"><strong>${esc(e.title)}</strong></span><span class="fc">${esc(e.time)}</span></div>`).join("")}</div>` : "");
-  const calSection = section("05 · Scheduled events", "What's coming (UTC)", "US economic releases that tend to move crypto. A number only matters against its forecast.", calBody);
+  const calSection = section("06 · Scheduled events", "What's coming (UTC)", "US economic releases that tend to move crypto. A number only matters against its forecast.", calBody);
 
   // 7 — glossary
   const gloss = (s.glossary || []).slice().sort((a, b) => (a.term || "").localeCompare(b.term || ""));
-  const glossSection = section("06 · Glossary", "Every term used today, in plain words", "",
+  const glossSection = section("07 · Glossary", "Every term used today, in plain words", "",
     gloss.length ? `<div class="gloss">${gloss.map((g) => `<div class="g"><span class="term">${esc(g.term)}</span> — <span class="def">${esc(g.definition)}</span></div>`).join("")}</div>` : `<p class="none">No special terms used today.</p>`);
 
   const foot = `<div class="foot">Covers the UTC day ${esc(pack.coversUTC || "00:00–23:59 UTC")}. Generated ${esc(pack.generatedAtUTC || "")}. Numbers from each venue's public API; news from public reporting at generation time. Information only, not financial advice.${synth?._source ? ` · narrative: ${esc(synth._source)}` : ""}</div>`;
 
-  return `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${STYLE}</style></head><body>${cover}${priceVol}${positioning}${moversSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
+  return `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${STYLE}</style></head><body>${cover}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
 }
 
 export { renderPdf };

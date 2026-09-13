@@ -13,6 +13,7 @@ import { collectExchanges } from "./exchanges.js";
 import { collectCalendar } from "./calendar.js";
 import { collectNews } from "./news.js";
 import { collectTradFi } from "./tradfi.js";
+import { collectStocks } from "./stocks.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -38,11 +39,12 @@ export async function buildDataPack({ nowMs = Date.now() } = {}) {
   // rolling-24h window (nowMs - 12h): at 00:00 UTC that resolves to the completed day.
   const reportMs = nowMs - 12 * 3600e3;
 
-  const [exchanges, calendar, news, tradfi] = await Promise.all([
+  const [exchanges, calendar, news, tradfi, stocks] = await Promise.all([
     collectExchanges().catch((e) => ({ error: String(e).slice(0, 120), majors: { BTC: {}, ETH: {} }, movers: [], venuesOnline: [] })),
     collectCalendar(nowMs).catch((e) => ({ ok: false, err: String(e).slice(0, 120), today: [], week: [] })),
     collectNews({ nowMs }).catch((e) => ({ ok: false, err: String(e).slice(0, 120), items: [], failed: [], sourcesOnline: [] })),
     collectTradFi().catch((e) => ({ ok: false, reason: String(e).slice(0, 120), items: [] })),
+    collectStocks().catch((e) => ({ ok: false, err: String(e).slice(0, 120), markets: {}, topMovers: [] })),
   ]);
 
   const sources = {
@@ -67,6 +69,7 @@ export async function buildDataPack({ nowMs = Date.now() } = {}) {
     calendar,
     news,
     tradfi,
+    stocks,
     sources,
   };
 }

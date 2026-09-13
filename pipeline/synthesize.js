@@ -22,6 +22,7 @@ const OUTPUT_SCHEMA = `Return ONLY this JSON object, no markdown, no code fences
   "oneLine": string,                         // Step 1: the day in one sentence a person can repeat out loud
   "priceVolumeSummary": string,              // 1-2 plain sentences: did the venues agree on price, who led volume
   "positioningSummary": string,              // plain sentences: what funding / open interest / long-short did, and what it means
+  "stocksSummary": string,                   // plain sentences on the Asian stock perps (Korea/HK/China) — which moved and any market news you found for those markets (KOSPI, Hang Seng, CSI). "" if nothing notable.
   "movers": [ { "symbol": string, "explanation": string, "hasCause": boolean } ],
   "news": {
     "topThree": [ { "headline": string, "what": string, "coins": string, "timeUTC": string, "source": string, "url": string } ],
@@ -51,7 +52,7 @@ You are given a DATA PACK with verified numbers already collected (exchange figu
 YOUR JOB:
 - Write the plain-English prose: the one-line summary, the price/volume read, the positioning read, and a short explanation for each biggest mover (say "no clear public cause" when the news doesn't explain it).
 - Do the EDITORIAL news work on the candidates: drop pure price recaps ("bitcoin rises as traders weigh..."), keep only causes (regulation, ETF/flows, exchange changes, hacks/outages, macro policy, listings, rulings, upgrades); dedupe; group under the fixed headings; pick "the three that mattered most". Separate confirmed from unconfirmed (rumours/whale/on-chain go under "Unconfirmed and watch items", clearly).
-- USE WEB SEARCH to (a) verify/expand the important news items and add their real source URLs, (b) fetch US spot BTC & ETH ETF net flow for the latest available day (Farside/SoSoValue) and VERIFY the date is yesterday/today — omit if stale, (c) check the major exchanges' announcement pages for listings/delistings/leverage/funding-cap/collateral/halt notices.
+- USE WEB SEARCH to (a) verify/expand the important news items and add their real source URLs, (b) fetch US spot BTC & ETH ETF net flow for the latest available day (Farside/SoSoValue) and VERIFY the date is yesterday/today — omit if stale, (c) check the major exchanges' announcement pages for listings/delistings/leverage/funding-cap/collateral/halt notices, (d) check the ASIAN stock markets the desk trades on Binance — Korea (KOSPI, Samsung, SK Hynix), Hong Kong (Hang Seng, Tencent, BYD, Xiaomi) and China (CSI/Shanghai) — for anything that explains the moves in the stock table, and write that into "stocksSummary" (plain English, sourced where you can).
 - Build the glossary from EVERY finance term you actually use, alphabetical, plain-language, rebuilt fresh.
 
 STRICT RULES:
@@ -62,8 +63,15 @@ STRICT RULES:
 
 DATA PACK:
 ${JSON.stringify({
-  date: pack.dateUTC, generatedAtIstanbul: pack.generatedAtIstanbul,
-  exchanges: pack.exchanges, calendar: pack.calendar, tradfi: pack.tradfi, sources: pack.sources,
+  date: pack.dateUTC, coversUTC: pack.coversUTC,
+  exchanges: pack.exchanges, calendar: pack.calendar, tradfi: pack.tradfi,
+  asianStocks: pack.stocks && pack.stocks.ok ? {
+    Korea: (pack.stocks.markets.KR_EQUITY || []).slice(0, 8).map((r) => ({ name: r.name, chgPct: r.chgPct, volUSD: r.volUSD })),
+    HongKong: (pack.stocks.markets.HK_EQUITY || []).slice(0, 8).map((r) => ({ name: r.name, chgPct: r.chgPct, volUSD: r.volUSD })),
+    China: (pack.stocks.markets.CN_EQUITY || []).map((r) => ({ name: r.name, chgPct: r.chgPct, volUSD: r.volUSD })),
+    topMovers: (pack.stocks.topMovers || []).map((r) => ({ name: r.name, chgPct: r.chgPct })),
+  } : null,
+  sources: pack.sources,
 }, null, 1)}
 
 NEWS CANDIDATES (raw, unfiltered):

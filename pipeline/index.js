@@ -39,7 +39,44 @@ async function main() {
   console.log("Rendering PDF...");
   await renderPdf(html, htmlPath, pdfPath);
 
-  console.log(`\nDone -> reports/${dStr}/summary_${dStr}.html + .pdf`);
+  // --- metadata for the website manifest + a plain-text summary ---
+  const groups = (synth.news && synth.news.groups) || {};
+  const newsCount = ((synth.news && synth.news.topThree) || []).length + Object.values(groups).reduce((n, g) => n + (g ? g.length : 0), 0);
+  const btc = pack.exchanges?.majors?.BTC || {};
+  const eth = pack.exchanges?.majors?.ETH || {};
+  const lead = (v) => Object.values(v).find((r) => r && r.ok) || {};
+  const topMover = (pack.exchanges?.movers || [])[0] || null;
+  const meta = {
+    date: dStr, kind: "market", dateLong: pack.dateLong, coversUTC: pack.coversUTC,
+    oneLine: synth.oneLine || "", newsCount,
+    macro: { BTC: lead(btc).chgPct ?? null, ETH: lead(eth).chgPct ?? null },
+    topMover: topMover ? { symbol: topMover.symbol, chgPct: topMover.chgPct } : null,
+    venues: pack.sources.exchangesOnline, generatedAtUTC: pack.generatedAtUTC,
+  };
+  fs.writeFileSync(path.join(dayDir, "report.json"), JSON.stringify(meta, null, 2), "utf8");
+
+  const md = [
+    `# Futures Daily Report — ${dStr} (${pack.coversUTC})`, ``,
+    synth.oneLine || "", ``,
+    `Venues: ${pack.sources.exchangesOnline.join(", ")} · BTC ${meta.macro.BTC != null ? (meta.macro.BTC >= 0 ? "+" : "") + meta.macro.BTC.toFixed(2) + "%" : "—"} · ETH ${meta.macro.ETH != null ? (meta.macro.ETH >= 0 ? "+" : "") + meta.macro.ETH.toFixed(2) + "%" : "—"}`,
+    topMover ? `Top mover: ${topMover.symbol} ${topMover.chgPct >= 0 ? "+" : ""}${topMover.chgPct.toFixed(1)}%` : ``,
+    `Sourced news items: ${newsCount}`, ``,
+    `Generated ${pack.generatedAtUTC}. Information only, not financial advice.`,
+  ].join("\n");
+  fs.writeFileSync(path.join(dayDir, `summary_${dStr}.md`), md, "utf8");
+
+  console.log(`\nDone -> reports/${dStr}/summary_${dStr}.{html,pdf,md}`);
+
+  // --- publish to the website (auto) ---
+  if (config.autoPublish) {
+    try {
+      const { publish } = await import("../scripts/publish.mjs");
+      const res = await publish();
+      console.log(res.pushed ? "Published to GitHub Pages site." : `Publish skipped (${res.reason}).`);
+    } catch (err) {
+      console.warn(`Publish step failed (non-fatal): ${String(err).slice(0, 160)}`);
+    }
+  }
 }
 
 main().catch((err) => { console.error("FATAL:", err); process.exit(1); });

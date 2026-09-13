@@ -114,7 +114,26 @@ function main() {
     const pdfPath = path.join(dir, `summary_${date}.pdf`);
     let md = null;
     try { md = fs.readFileSync(mdPath, "utf8"); } catch { /* no md */ }
-    const entry = parseReport(date, md);
+
+    // New multi-exchange report (has report.json) vs old divergence report (parse the md).
+    let entry;
+    const jsonPath = path.join(dir, "report.json");
+    if (fs.existsSync(jsonPath)) {
+      let m = {};
+      try { m = JSON.parse(fs.readFileSync(jsonPath, "utf8")); } catch { /* malformed */ }
+      entry = {
+        date, kind: "market",
+        scanned: null, movedBig: null, dangerCount: null, widest: null,
+        macro: m.macro && (m.macro.BTC != null || m.macro.ETH != null) ? m.macro : null,
+        marketSummary: m.oneLine || null,
+        newsCount: m.newsCount || 0,
+        topMover: m.topMover || null,
+        flagged: [],
+      };
+    } else {
+      entry = parseReport(date, md);
+      entry.kind = "divergence";
+    }
     entry.files = {
       html: fs.existsSync(htmlPath) ? `reports/${date}/summary_${date}.html` : null,
       pdf: fs.existsSync(pdfPath) ? `reports/${date}/summary_${date}.pdf` : null,

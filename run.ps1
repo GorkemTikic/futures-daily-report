@@ -1,11 +1,6 @@
-# Convenience runner.
-#   .\run.ps1                      generate today's report
-#   .\run.ps1 -Date 2026-06-13     generate a specific past UTC day
-#   .\run.ps1 -All                 deep-scan every symbol (slower, most thorough)
-param([string]$Date, [switch]$All)
+# Convenience runner for the daily multi-exchange report.
+#   .\run.ps1            generate the report for the just-closed UTC day
+# (The old per-coin divergence generator is retired; its code stays in src/ for history.)
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
-$nodeArgs = @("src/index.js")
-if ($Date) { $nodeArgs += @("--date", $Date) }
-if ($All)  { $nodeArgs += "--all" }
-& node @nodeArgs
+& node "pipeline/index.js"
