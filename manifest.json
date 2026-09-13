@@ -1,33 +1,9 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-13T20:03:59.317Z",
-  "count": 89,
-  "latest": "2026-09-13",
+  "generatedAt": "2026-09-13T20:05:09.254Z",
+  "count": 88,
+  "latest": "2026-09-12",
   "reports": [
-    {
-      "date": "2026-09-13",
-      "kind": "market",
-      "scanned": null,
-      "movedBig": null,
-      "dangerCount": null,
-      "widest": null,
-      "macro": {
-        "BTC": 0.1542725724108784,
-        "ETH": -0.5900910732355759
-      },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
-      "topMover": {
-        "symbol": "LSKUSDT",
-        "chgPct": 284.711
-      },
-      "flagged": [],
-      "files": {
-        "html": "reports/2026-09-13/summary_2026-09-13.html",
-        "pdf": "reports/2026-09-13/summary_2026-09-13.pdf",
-        "md": "reports/2026-09-13/summary_2026-09-13.md"
-      }
-    },
     {
       "date": "2026-09-12",
       "kind": "market",
@@ -36,14 +12,14 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": 0.06284304528327313,
-        "ETH": 0.3798
+        "BTC": 0.12937164012904542,
+        "ETH": -0.5891781658903498
       },
       "marketSummary": "A quiet weekend for the big coins — Bitcoin and Ether barely moved and every major exchange agreed on price — while a couple of small tokens spiked over 100% and the only real news was a customer-data exposure at Revolut.",
       "newsCount": 3,
       "topMover": {
         "symbol": "LSKUSDT",
-        "chgPct": 218.214
+        "chgPct": 297.671
       },
       "flagged": [],
       "files": {
