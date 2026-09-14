@@ -1,0 +1,166 @@
+{
+  "oneLine": "Bitcoin %0,6 düştü ve Ethereum %1,6 geriledi, ancak Lisk zincir kapatılması duyurusu ve token taşıması tetikleyicilerinin ardından %64 sıçradı; Civic ve Power sırasıyla %32 ve %28 kazandı; Bitcoin köprüsü açığı 336 bin dolarlık zararlar ortaya çıkardı, yarı iletken hisse senetleri DeepSeek AI verimliliği haberlerine göre çöktü ve Clarity Yasası Senato oylaması yaklaşıyor.",
+  "priceVolumeSummary": "Beş ana mekan (Binance, Bybit, OKX, Bitget, Gate), Bitcoin'i 76.775 dolar civarında (%0,59 düşüş) ve Ethereum'u 2.484 dolar civarında (%1,58 düşüş) sıkı biçimde işlem yaptı; günlük işlem hacmi sırasıyla 13,5 milyar ve 19,3 milyar dolar oldu. Binance her iki varlıkta da işlem hacminde liderlik yaptı.",
+  "positioningSummary": "Bitcoin ve Ethereum finansman oranları çoğunlukla pozitif kaldı (mekanlar genelinde yıllık %2–10), tüccarların her ikisinde de net uzun pozisyonda olduğunu gösteriyor. Açık ilgi, piyasada önemli kaldıraç varlığını göstererek her yerde yüksek. Ethereum, 11 Eylül'ü kapsayan hafta boyunca Bitcoin'den daha güçlü kurumsal giriş gördü.",
+  "stocksSummary": "Güney Kore yarı iletken hisse senetleri çöktü: SK Hynix %5 düştü ve Samsung Electronics, Çinli yapay zeka girişimi DeepSeek'in en son modelinin önemli ölçüde daha az yüksek bant genişliğine sahip bellek gerektirdiğini duyurduktan sonra %3,4 düştü ve bellek-çip talebine ilişkin sorular ortaya çıkardı. Hong Kong kaldıraçlı çip pozisyonları (CSOP SK Hynix 2x -9,4%, CSOP Samsung 2x -6,3%) da keskin şekilde satıldı. Petrol arz endişelerine bağlı olarak %3,2–3,4 kazandı (WTI, Brent). ABD hisse senetleri mütevazı kazançlar kaydetti (S&P 500 +0,85%, Nasdaq +0,88%).",
+  "movers": [
+    {
+      "symbol": "LSK",
+      "explanation": "Lisk, blokzincirinin 31 Ekim 2026'ye kadar kapatılacağını ve token sahiplerinin 21 Ekim'e kadar Ethereum'a taşınması gerekeceğini duyurdu. Hisseleme, 10 Eylül'de ceza olmaksızın kilidi açıldı ve kullanıcılar son tarih konusunda harekete geçmek için acele ederek %64 artış sağladı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "CVC",
+      "explanation": "Civic, yükseltilmiş topluluk aktivitesi ile %32 oranında yükseldi ancak hareketle ilişkili belirli bir kamu duyurusu yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "POWER",
+      "explanation": "Power, tanımlanmış bir kamu sebebi olmaksızın %28 kazandı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Symbiosis Bitcoin köprüsü açığı: 46B syBTC bastırıldı, saldırgan 336 bin dolar elde etti",
+        "what": "Symbiosis'in Bitcoin Köprüsü'ndeki bir güvenlik açığı, saldırganın yaklaşık 46,1 milyar desteklenmeyen syBTC jetonu (kavramsal değer ~46,1 milyar dolar) basmasına izin verdi; ancak saldırgan yalnızca yaklaşık 336.000 dolar kazanç elde etti. Symbiosis yaklaşık 15 BTC kurtardı ve kurtarılan fonlar üzerinde %20 ödül teklif etti. Yalnızca Bitcoin Köprüsü durduruldu; diğer rotalar operasyonel kaldı.",
+        "coins": "BTC, syBTC",
+        "timeUTC": "2026-09-13 10:31 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
+      },
+      {
+        "headline": "Goldman Sachs şimdi 16 Eylül'de Fed'in 25 basis puan hız artışı bekliyor",
+        "what": "Goldman Sachs, önceki hız artışı yok tahminini geri çekti ve şimdi Federal Reserve'nin 15–16 Eylül toplantısında federal fon oranını 25 basis puan (%0,25) artırmasını bekliyor. Pazar fiyatlandırması, daha iyi beklentilerden daha iyi olan ABD TÜFE verisinin ardından kabaca %90 oranında hız artışı olasılığını ima etmişti. Bu, Mart 2024'ten beri ilk oran artışı olacak.",
+        "coins": "BTC, ETH (makro duyarlılık)",
+        "timeUTC": "2026-09-13 05:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist"
+      },
+      {
+        "headline": "DeepSeek AI modeli bellek gereksinimlerini azaltıyor, yarı iletken hisse senetlerine basıyor",
+        "what": "Çinli yapay zeka girişimi DeepSeek, beklenenden önemli ölçüde daha az yüksek bant genişliğine sahip bellek (HBM) gerektiren yeni bir model duyurdu ve bu da bellek-çip hisse senetlerinde keskin bir satış tetikledi. Güney Kore çip üreticileri SK Hynix ve Samsung Electronics, 13 Eylül'de sırasıyla %5 ve %3,4 düştü. Hong Kong'da listelenen kaldıraçlı çip pozisyonları da çöktü ve uzun vadeli HBM talebini ve kapasite yatırımlarını sorguladı.",
+        "coins": "Dolaylı (makro/tradfi duyarlılık)",
+        "timeUTC": "2026-09-11 to 2026-09-13",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-samsung-shares-dip-071811226.html"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Clarity Act Senato kapatma oylaması 15 Eylül'de 14:15 ET'de planlandı",
+          "what": "ABD Senato, kapsamlı Clarity Act kripto-pazar düzenlemesi üzerine kapatma oylaması (prosedürel kapı bekçiliği testi) için 15 Eylül'de 14:15 ET'de (18:15 UTC) oy kullanacak. Oy, tartışmanın devam etmesine izin vermek için 60 oy gerekir. Cumhuriyetçiler 53 koltuk kontrol ediyor, bu nedenle en az 7 Demokrat gereklidir. Son anketler, etik kuralları, DeFi geliştirici sorumluluğu ve istikrarlı para kripto getirileri konusundaki çözülmemiş anlaşmazlıklar nedeniyle geçiş olasılıklarını %10–16'da yerleştiriyor.",
+          "coins": "Tüm kripto",
+          "timeUTC": "2026-09-15 18:15 UTC (planlandı)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns"
+        },
+        {
+          "headline": "Meksika yetkilileri güç hırsızlığı şüphesi nedeniyle gizli kripto madenciliğini basıyor",
+          "what": "Meksika yetkilileri, bir hidroelektrik barajın yakınında bir gizli kripto madenciliği operasyonuna baskın yaptı ve güç hırsızlığı ile kara para aklama şüpheleniyordu. Bu, bölgedeki 2025 başından beri dördüncü keşif olup, düzensiz madenciliğe karşı devam eden yasa uygulama baskısını vurguluyor.",
+          "coins": "Genel kripto madenciliği",
+          "timeUTC": "2026-09-13 08:49 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Circle, USDC erişimini genişletmek için Tazapay'ı 400 milyon dolar karşılığında satın almayı kabul ediyor",
+          "what": "Circle Internet Group, Singapur merkezli B2B çapraz sınır ödemeleri platformu Tazapay'ı 400 milyon dolar hisse senedi karşılığında satın almak için nihai bir anlaşmaya imza attı. Anlaşma, Circle ekosisteminde 60'dan fazla bankacılık ortağını ve 100'den fazla ödeme pazarını getiriyor. Tazapay, yıllık 25 milyardan fazla dolar işlem hacmi ile 100 pazarında işlem yapıyor; işlem hacminin kabaca %60'ı zaten istikrarlı paraları içeriyor. Anlaşmanın 2027'de düzenleme onayı beklentisiyle kapanması bekleniyor.",
+          "coins": "USDC",
+          "timeUTC": "2026-09-08 00:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Revolut, sosyal mühendislik saldırısı yoluyla müşteri veri ihlalini onayladı",
+          "what": "Revolut, müşteri verilerinin resmi bir devlet kurumu alanı üzerinden gönderilen sahte bir e-posta kullanan sofistike bir sosyal mühendislik saldırısı yoluyla açığa çıktığını açıklamıştır. Açığa çıkarılan veriler kimlik belgeleri, pasaportlar, selfiler ve tam işlem geçmişlerini içeriyordu. Şirket, iç sistemlerinin tehlikeye atılmadığını ve müşteri fonlarının güvenli kaldığını belirtiyor. Hesap kimlik bilgileri açığa çıkarılmadı.",
+          "coins": "Genel fintech (kripto kullanıcılarını etkiler)",
+          "timeUTC": "2026-09-12 00:00 UTC",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-11",
+    "summary": "Bitcoin spot ETF'leri 11 Eylül'de 13,3 milyon dolar net çıkış gördü ve haftalık çıkış serisini uzattı (8-11 Eylül kümülatif: -462,7 milyon dolar). Ethereum spot ETF'leri aynı günde 216,4 milyon dolar güçlü giriş kaydetti ve haftanın en büyük günlük girişini işaret ederek Bitcoin'den Ethereum'a bir rotasyonu gösterdi.",
+    "source": "CryptoBriefing",
+    "url": "https://cryptobriefing.com/bitcoin-etf-outflows-ethereum-etf-inflows-september/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Clarity Act Senate cloture vote (Sun Sept 15 at 18:15 UTC)",
+      "typicalReaction": "Kripto sektörü için yüksek etki. Başarılı bir kapatma oylaması (60+ oy), zemin tartışmasına izin verirdi; sektör için bir zafer; başarısızlık bir gerileme olacaktır. Mevcut geçiş olasılıkları %10–16'da tahmin edilmektedir."
+    },
+    {
+      "event": "Retail Sales and Core Retail Sales (Wed Sept 16 at 12:30 UTC)",
+      "typicalReaction": "Orta etki. Tüketici harcama verileri, Fed görünümünü ve pazar duyarlılığını etkiler. Dolar gücü tipik olarak kripto'ya baskı yapar."
+    },
+    {
+      "event": "FOMC Statement, Federal Funds Rate decision, and Press Conference (Wed Sept 16 at 18:00–18:30 UTC)",
+      "typicalReaction": "Yüksek etkili olay. Pazar şimdi 25 basis puan hız artışı (%0,25) bekliyor. Bitcoin ve hisse senetleri tipik olarak hız artışı sinyallerinde satış yaparlar; ancak hamle büyük ölçüde zaten fiyatlandırılmıştır."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis puan (bp)",
+      "definition": "Bir yüzdenin yüzde biri (%0,01). 25 basis puan hız artışı, oranı %0,25 artırmak anlamına gelir."
+    },
+    {
+      "term": "Köprü (kripto)",
+      "definition": "İki ayrı blokzincir arasında kripto varlıkları aktaran bir hizmet. Bunları bir zincirde kilitler ve eşdeğer jetonları diğerinde serbest bırakır."
+    },
+    {
+      "term": "Kapatma oylaması",
+      "definition": "ABD Senatosunda tartışmayı sona erdirmek ve bir yasa tasarısı üzerine nihai oy kullanmaya zorlamak için prosedürel bir oy. Geçmesi için 60 oy gerekir."
+    },
+    {
+      "term": "Federal Fon Oranı",
+      "definition": "Ticari bankaların birbirlerine gecelik borç para verdiği faiz oranı. Federal Reserve tarafından hedef aralık olarak belirlenir."
+    },
+    {
+      "term": "FOMC (Federal Açık Pazar Komitesi)",
+      "definition": "Para politikasını belirlemek için yılda sekiz kez toplanan ABD Federal Reserve'nin politika belirleyici komitesi."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual vadeli işlem sözleşmelerine uzun ve kısa pozisyonları tutan tüccarlar arasında periyodik bir ödeme. Pozitif finansman, uzun tüccarların kısa tüccarlara ödeme yapması anlamına gelir."
+    },
+    {
+      "term": "HBM (Yüksek Bant Genişliğine Sahip Bellek)",
+      "definition": "İleri yapay zeka ve grafik işlemcilerinde kullanılan bir tür bilgisayar bellek çipi. Yapay zeka çip üreticileri tarafından yüksek talep, Samsung ve SK Hynix gibi bellek-çip üreticilerine fayda sağlamıştır."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Bir ticaretin boyutunu genişletmek için para ödünç almak. Daha yüksek kaldıraç hem potansiyel kazançları hem de potansiyel kayıpları artırır."
+    },
+    {
+      "term": "Açık İlgi (OI)",
+      "definition": "Bir varlık üzerindeki tüm ödenmemiş türev sözleşmelerin (vadeli işlemler, perpetuallar, opsiyonlar) toplam dolar değeri. Yüksek OI, piyasada önemli kaldıraç varlığını gösterir."
+    },
+    {
+      "term": "Perpetual vadeli işlemler (perps)",
+      "definition": "Tüccarların bir son kullanma tarihi olmadan fiyat hareketlerine bahis yapmalarına izin veren türev sözleşmeleri; spot ticareti gibi ancak kaldıraç ile."
+    },
+    {
+      "term": "Sentetik (syBTC, vb.)",
+      "definition": "Bir blokzincirde verilen ve başka bir blokzincirdeki bir varlığı temsil eden jeton (ör. syBTC, Bitcoin'i temsil eder ancak başka bir zincirde yaşar). Temel teminat kaybedilirse veya destek olmadan basılırsa, sentetik jeton değer kaybeder."
+    },
+    {
+      "term": "İstikrarlı paralar",
+      "definition": "İstikrarlı bir fiyatı korumak için tasarlanan kripto paralar, tipik olarak ABD dolarına sabitlenmiş (ör. USDC, USDT)."
+    },
+    {
+      "term": "Mekan",
+      "definition": "Kripto vadeli işlemlerin alınıp satıldığı bir borsa veya ticaret platformu."
+    }
+  ],
+  "_source": "cli-tr"
+}

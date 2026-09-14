@@ -1,0 +1,166 @@
+{
+  "oneLine": "比特币下跌0.6%，以太坊跌1.6%，但Lisk因链关闭公告和代币迁移触发器大涨64%，Civic和Power分别上涨32%和28%；比特币跨链桥遭到利用造成33.6万美元损失，半导体股票因DeepSeek AI效率新闻暴跌，《明确法案》参议院投票即将进行。",
+  "priceVolumeSummary": "五大主流交易所（币安、Bybit、OKX、Bitget、Gate.io）的比特币紧密交投于76,775美元附近（下跌0.59%），以太坊在2,484美元附近（下跌1.58%），日交易量分别为135亿美元和193亿美元。币安在两种资产上的成交量领先。",
+  "positioningSummary": "比特币和以太坊的资金费率基本保持正值（各交易所年化2–10%），表明交易者在两种资产上净看涨。全市场开仓量处于高位，表明市场杠杆敞口显著。截至9月11日的这一周，以太坊机构资金流入强于比特币。",
+  "stocksSummary": "韩国半导体股暴跌：中国AI初创公司DeepSeek宣布其最新模型所需高带宽内存（HBM）显著减少后，SK海力士下跌5%，三星电子下跌3.4%，引发对内存芯片需求的担忧。香港上市的杠杆芯片空头头寸（CSOP SK海力士2倍杠杆-9.4%，CSOP三星2倍杠杆-6.3%）也大幅抛售。受供应担忧推动，油价上涨3.2–3.4%（WTI、布伦特）。美股小幅上扬（标普500指数+0.85%，纳斯达克+0.88%）。",
+  "movers": [
+    {
+      "symbol": "LSK",
+      "explanation": "Lisk宣布其区块链将于2026年10月31日关闭，要求代币持有者在10月21日前迁移到以太坊。质押于9月10日无惩罚地解锁，用户争相在截止日期前采取行动，引发64%的涨幅。",
+      "hasCause": true
+    },
+    {
+      "symbol": "CVC",
+      "explanation": "Civic上涨32%，伴随着社区活动升温，但没有与此次上涨相关的具体公开声明。",
+      "hasCause": false
+    },
+    {
+      "symbol": "POWER",
+      "explanation": "Power上涨28%，未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Symbiosis比特币跨链桥遭利用：460亿syBTC被铸造，攻击者获利33.6万美元",
+        "what": "Symbiosis的比特币跨链桥的一处漏洞允许攻击者铸造约46.1亿枚无抵押的syBTC代币（名义价值约461亿美元），但攻击者实际仅获利约33.6万美元。Symbiosis恢复了约15 BTC，并对追回资金提供20%的赏金。仅比特币跨链桥被暂停，其他路由保持运营。",
+        "coins": "BTC, syBTC",
+        "timeUTC": "2026-09-13 10:31 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
+      },
+      {
+        "headline": "高盛现预期美联储于9月16日加息25个基点",
+        "what": "高盛收回之前不加息的预测，现预期美联储在9月15–16日会议上将联邦基金利率上调25个基点（0.25%）。市场定价暗示在美国CPI数据好于预期后，加息概率约为90%。这将是自2024年3月以来的首次加息。",
+        "coins": "BTC, ETH (macro sensitivity)",
+        "timeUTC": "2026-09-13 05:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist"
+      },
+      {
+        "headline": "DeepSeek AI模型降低内存需求，半导体股承压",
+        "what": "中国AI初创公司DeepSeek宣布一款新模型所需高带宽内存（HBM）远低于预期，引发内存芯片股票急剧下跌。9月13日，韩国芯片制造商SK海力士和三星电子分别下跌5%和3.4%。香港上市的杠杆芯片头寸也大幅下跌，引发对长期HBM需求和产能投资的疑虑。",
+        "coins": "Indirect (macro/tradfi sensitivity)",
+        "timeUTC": "2026-09-11 to 2026-09-13",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-samsung-shares-dip-071811226.html"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "《明确法案》参议院投票定于9月15日美东时间14:15",
+          "what": "美国参议院将于9月15日美东时间下午2:15（18:15 UTC）就全面的《明确法案》加密市场监管进行终止冗长辩论投票。该投票需要60票才能允许辩论继续。共和党控制53个席位，因此需要至少7名民主党人支持。由于在道德规则、DeFi开发者责任和稳定币收益等问题上存在未解决的争议，最近民调将通过概率定为10–16%。",
+          "coins": "All crypto",
+          "timeUTC": "2026-09-15 18:15 UTC (scheduled)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns"
+        },
+        {
+          "headline": "墨西哥当局因涉嫌盗电突击搜查隐秘加密矿场",
+          "what": "墨西哥当局在一处水电大坝附近的秘密加密矿场进行了突击搜查，怀疑存在盗电和洗钱行为。这是自2025年初以来该地区的第四次类似发现，凸显了执法部门对无证矿场的持续打击力度。",
+          "coins": "General crypto mining",
+          "timeUTC": "2026-09-13 08:49 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Circle同意以4亿美元收购Tazapay以拓展USDC覆盖范围",
+          "what": "Circle Internet Group宣布将以4亿美元股票收购新加坡B2B跨境支付平台Tazapay的最终协议。该交易将60多个银行合作伙伴和100多个支付市场纳入Circle生态。Tazapay每年在100个市场处理超过250亿美元交易量，其中约60%的交易量已涉及稳定币。交易预计将于2027年关闭，待监管批准。",
+          "coins": "USDC",
+          "timeUTC": "2026-09-08 00:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Revolut确认客户数据因社交工程攻击而泄露",
+          "what": "Revolut披露了客户数据因精心设计的社交工程攻击而泄露，攻击者使用假冒官方政府机构域名发送欺诈邮件。泄露数据包括身份证件、护照、自拍照和完整交易历史。公司声称其内部系统未被入侵，客户资金保持安全。账户凭证未泄露。",
+          "coins": "General fintech (affects crypto users)",
+          "timeUTC": "2026-09-12 00:00 UTC",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-11",
+    "summary": "比特币现货ETF在9月11日出现1,330万美元的净流出，延续了长达一周的流出走势（9月8–11日累计：-4.627亿美元）。以太坊现货ETF在同日录得强劲的2.164亿美元净流入，创下本周日均最大流入，表明资金从比特币轮转至以太坊。",
+    "source": "CryptoBriefing",
+    "url": "https://cryptobriefing.com/bitcoin-etf-outflows-ethereum-etf-inflows-september/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Clarity Act Senate cloture vote (Sun Sept 15 at 18:15 UTC)",
+      "typicalReaction": "对加密货币行业影响重大。成功的终止冗长辩论投票（60票以上）将允许进行全院辩论，这对行业是利好；失败将是打击。目前通过概率估计为10–16%。"
+    },
+    {
+      "event": "Retail Sales and Core Retail Sales (Wed Sept 16 at 12:30 UTC)",
+      "typicalReaction": "中等影响。消费者支出数据影响美联储前景和市场情绪。美元强势通常会对加密货币造成压力。"
+    },
+    {
+      "event": "FOMC Statement, Federal Funds Rate decision, and Press Conference (Wed Sept 16 at 18:00–18:30 UTC)",
+      "typicalReaction": "高影响力事件。市场现在预期加息25个基点（0.25%）。比特币和股票在加息信号上通常会抛售，尽管这一举措已基本反映在价格中。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基点（bp）",
+      "definition": "百分之一（0.01%）。25个基点加息意味着将利率提高0.25%。"
+    },
+    {
+      "term": "跨链桥（加密）",
+      "definition": "一种在两条独立区块链之间转移加密资产的服务，通过在一条链上锁定资产并在另一条链上释放等值代币来实现。"
+    },
+    {
+      "term": "终止冗长辩论投票",
+      "definition": "美国参议院的一种程序性投票，用于结束辩论并强制对法案进行最终投票。需要60票才能通过。"
+    },
+    {
+      "term": "联邦基金利率",
+      "definition": "商业银行之间隔夜拆借资金的利率。由美联储以目标范围的形式设定。"
+    },
+    {
+      "term": "FOMC（美联储公开市场委员会）",
+      "definition": "美国联邦储备委员会的政策制定委员会，每年召开八次会议以制定货币政策。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续期货合约中持有多头和空头头寸的交易者之间的定期支付。正资金费率意味着多头交易者向空头交易者支付。"
+    },
+    {
+      "term": "HBM（高带宽内存）",
+      "definition": "用于先进AI和图形处理器的一种计算机内存芯片。来自AI芯片制造商的高需求使三星和SK海力士等内存芯片制造商受益。"
+    },
+    {
+      "term": "杠杆",
+      "definition": "借入资金以放大交易规模。更高的杠杆会增加潜在收益和潜在损失。"
+    },
+    {
+      "term": "开仓量（OI）",
+      "definition": "资产上所有未平仓衍生品合约（期货、永续、期权）的总美元价值。高开仓量表明市场杠杆敞口显著。"
+    },
+    {
+      "term": "永续期货（perps）",
+      "definition": "允许交易者在没有到期日期的情况下对价格走势进行押注的衍生品合约，类似于现货交易但配有杠杆。"
+    },
+    {
+      "term": "合成代币（syBTC等）",
+      "definition": "在一条区块链上发行的代币，代表另一条区块链上的资产（例如syBTC代表比特币但存在于另一条链上）。如果底层担保品丢失或未经支持就被铸造，合成代币将失去价值。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "旨在保持稳定价格的加密货币，通常与美元挂钩（例如USDC、USDT）。"
+    },
+    {
+      "term": "交易所",
+      "definition": "买卖加密货币期货的交易所或交易平台。"
+    }
+  ],
+  "_source": "cli-zh"
+}
