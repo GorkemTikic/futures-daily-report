@@ -137,9 +137,16 @@ const LABELS = {
   },
 };
 
+const LOCALE = { en: "en-GB", tr: "tr-TR", zh: "zh-CN" };
+function localDate(dateUTC, lang) {
+  try { return new Date(dateUTC + "T00:00:00Z").toLocaleDateString(LOCALE[lang] || "en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }); }
+  catch (e) { return dateUTC; }
+}
+
 export function buildReportHtml(pack, synth, lang = "en") {
   const s = synth || {};
   const L = LABELS[lang] || LABELS.en;
+  const dateHeading = pack.dateUTC ? localDate(pack.dateUTC, lang) : (pack.dateLong || "");
   const grpLabel = (g) => { const i = GROUP_KEYS.indexOf(g); return i >= 0 ? L.grp[i] : g; };
 
   const priceCols = [
@@ -163,7 +170,7 @@ export function buildReportHtml(pack, synth, lang = "en") {
   const cover = `
     <div class="cover-band"><div class="cover-mark">FD</div><div class="cover-brand">Futures Daily Report<span>${esc(L.tagline)}</span></div></div>
     <div class="kicker">${esc(L.daily)}</div>
-    <h1>${esc(pack.dateLong || pack.dateUTC)}</h1>
+    <h1>${esc(dateHeading)}</h1>
     <div class="date">${esc(pack.coversUTC || "00:00–23:59 UTC")} · ${esc(L.dataFrom)}${pack.tradfi?.ok ? " + Twelve Data" : ""}</div>
     <div class="oneline"><div class="k">${esc(L.oneLine)}</div><p>${esc(s.oneLine || "—")}</p></div>`;
 
