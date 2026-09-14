@@ -97,10 +97,23 @@ function firstBalancedObject(s) {
   throw new Error("unbalanced JSON");
 }
 
+// Resolve the Claude Code CLI. Bare `claude` isn't always on a scheduled task's PATH,
+// so prefer a full path: CLAUDE_CLI_PATH override, then the common install locations.
+function claudeBin() {
+  const cands = [
+    process.env.CLAUDE_CLI_PATH,
+    path.join(os.homedir(), ".local", "bin", "claude.exe"),
+    path.join(process.env.LOCALAPPDATA || "", "Programs", "claude", "claude.exe"),
+    path.join(process.env.APPDATA || "", "npm", "claude.cmd"),
+  ].filter(Boolean);
+  for (const c of cands) { try { if (fs.existsSync(c)) return `"${c}"`; } catch { /* ignore */ } }
+  return "claude"; // last resort: hope it's on PATH
+}
+
 function runClaudeCli(promptFile, model, timeoutMs = 300000) {
   return new Promise((resolve, reject) => {
     const modelArg = model ? ` --model ${model}` : "";
-    const cmd = `claude -p --output-format json --allowedTools WebSearch,WebFetch${modelArg} < "${promptFile}"`;
+    const cmd = `${claudeBin()} -p --output-format json --allowedTools WebSearch,WebFetch${modelArg} < "${promptFile}"`;
     const child = spawn(cmd, { shell: true, windowsHide: true });
     let out = "", err = "";
     const timer = setTimeout(() => { child.kill(); reject(new Error("claude -p synthesis timed out")); }, timeoutMs);
