@@ -32,6 +32,9 @@
   "model": "claude-haiku-4-5",
   "_model": "Model the 'cli'/'api' narrators use. Default Haiku keeps the no-key CLI route cheap (~$1/mo) because each daily 'claude -p' call reloads Claude Code's system prompt. Set to 'claude-opus-4-8' for richer prose (~$15/mo on the CLI route; much cheaper via a direct API key). Validated against /^[A-Za-z0-9._-]+$/ before use.",
 
+  "webTools": true,
+  "_webTools": "Whether the 'cli'/'api' synthesis may use WebSearch/WebFetch to verify and expand news. If a run's tool call fails to authenticate (some subscription tokens can't auth the tool path on large prompts), synthesis automatically retries WITHOUT web search — news then comes only from the collected RSS candidates (still real, never invented). Set false to skip web search entirely.",
+
   "maxTokens": 16384,
   "_maxTokens": "Max output tokens for the synthesis and each translation. The full report (prose + up to ~12 news items + glossary + caveman) is large; too low a ceiling truncates the JSON and the run falls to data-only. Raise if you switch to a richer model.",
 

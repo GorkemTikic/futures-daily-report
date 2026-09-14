@@ -135,11 +135,14 @@ function validModel(model) {
 }
 
 // Spawn claude -p WITHOUT a shell (no command-string interpolation / injection), pipe the
-// prompt to stdin, and kill the whole process tree on timeout (item 11).
-function runClaudeCli(prompt, model, timeoutMs = 300000) {
+// prompt to stdin, and kill the whole process tree on timeout (item 11). `useTools` adds
+// WebSearch/WebFetch; some subscription tokens fail to authenticate the tool path on large
+// prompts, so the caller retries without tools (see runBackend).
+function runClaudeCli(prompt, model, timeoutMs = 300000, useTools = false) {
   return new Promise((resolve, reject) => {
     const bin = claudeBin();
-    const args = ["-p", "--output-format", "json", "--allowedTools", "WebSearch,WebFetch"];
+    const args = ["-p", "--output-format", "json"];
+    if (useTools) args.push("--allowedTools", "WebSearch,WebFetch");
     const m = validModel(model);
     if (m) args.push("--model", m);
     const useShell = /\.(cmd|bat)$/i.test(bin); // .cmd/.bat need a shell on Windows
@@ -196,21 +199,38 @@ function backendOrder(config) {
   return process.env.ANTHROPIC_API_KEY ? ["api", "cli"] : ["cli"];
 }
 
-async function runBackend(backend, prompt, config) {
-  const maxTokens = Number.isFinite(Number(config.maxTokens)) ? Number(config.maxTokens) : 16384;
-  let raw;
+async function cliOnce(prompt, config, useTools) {
+  const stdout = await runClaudeCli(prompt, config.model, Number(config.cliTimeoutMs) || 300000, useTools);
+  const env = parseObject(stdout);
+  if (env.is_error || typeof env.result !== "string") {
+    const e = new Error("claude -p error" + (env.api_error_status ? ` [${env.api_error_status}]` : "") + ": " + (typeof env.result === "string" ? env.result.slice(0, 200) : JSON.stringify(env.subtype || "no result")));
+    e.kind = "cli-error";
+    throw e;
+  }
+  return parseObject(env.result);
+}
+
+const isToolAuthError = (e) => /oauth|session expired|could not be refreshed|authenticat/i.test(String(e && e.message || ""));
+
+async function runBackend(backend, prompt, config, opts = {}) {
   if (backend === "cli") {
-    const stdout = await runClaudeCli(prompt, config.model, Number(config.cliTimeoutMs) || 300000);
-    const env = parseObject(stdout);
-    if (env.is_error || typeof env.result !== "string") {
-      const e = new Error("claude -p error" + (env.api_error_status ? ` [${env.api_error_status}]` : "") + ": " + (typeof env.result === "string" ? env.result.slice(0, 200) : JSON.stringify(env.subtype || "no result")));
-      e.kind = "cli-error";
+    const wantTools = opts.useTools && config.webTools !== false;
+    if (!wantTools) return cliOnce(prompt, config, false);
+    try {
+      return await cliOnce(prompt, config, true);
+    } catch (e) {
+      // Some subscription tokens can't auth the web-search tool path on large prompts.
+      // Fall back to a no-web synthesis (news from the collected RSS candidates only —
+      // still real, never invented) before giving up on the backend.
+      if (isToolAuthError(e) || e.kind === "cli-error") {
+        console.warn(`  cli web-search failed (${String(e.message).slice(0, 90)}) — retrying without web search (news from collected candidates only)`);
+        return cliOnce(prompt, config, false);
+      }
       throw e;
     }
-    raw = env.result;
-  } else {
-    raw = await apiSynthesis(prompt, config.model, maxTokens);
   }
+  const maxTokens = Number.isFinite(Number(config.maxTokens)) ? Number(config.maxTokens) : 16384;
+  const raw = await apiSynthesis(prompt, config.model, maxTokens);
   return parseObject(raw);
 }
 
@@ -254,7 +274,7 @@ export async function synthesize(pack, config, dayDir, opts = {}) {
   let lastErr, lastKind;
   for (const backend of order) {
     try {
-      const obj = await runBackend(backend, prompt, config);
+      const obj = await runBackend(backend, prompt, config, { useTools: true });
       if (!obj.oneLine) throw new Error("synthesis missing oneLine");
       try { fs.writeFileSync(path.join(dayDir, "synthesis.auto.json"), JSON.stringify({ ...obj, _source: backend }, null, 2), "utf8"); } catch {}
       return { ...obj, _source: backend, _fellBack: false, _cliOnly: cliOnly };
@@ -306,7 +326,7 @@ export async function resolveTranslation(synthEn, lang, config, dayDir, opts = {
   let lastErr;
   for (const backend of order) {
     try {
-      const obj = await runBackend(backend, prompt, config);
+      const obj = await runBackend(backend, prompt, config, { useTools: false });
       if (!obj.oneLine) throw new Error("translation missing oneLine");
       try { fs.writeFileSync(path.join(dayDir, `synthesis.${lang}.auto.json`), JSON.stringify({ ...obj, _source: `${backend}-${lang}` }, null, 2), "utf8"); } catch {}
       return { ...obj, _source: `${backend}-${lang}` };
