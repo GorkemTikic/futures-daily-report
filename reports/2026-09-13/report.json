@@ -3,15 +3,15 @@
   "kind": "market",
   "dateLong": "Sunday, 13 September 2026",
   "coversUTC": "00:00–23:59 UTC",
-  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-  "newsCount": 0,
+  "oneLine": "Bitcoin fell 0.6% and Ethereum dropped 1.6%, but Lisk surged 64% following its chain-shutdown announcement and token migration triggers, while Civic and Power gained 32% and 28%; a Bitcoin bridge exploit surfaced $336K in losses, semiconductor stocks tumbled on DeepSeek AI efficiency news, and the Clarity Act Senate vote looms.",
+  "newsCount": 7,
   "macro": {
-    "BTC": -0.6109,
-    "ETH": -1.5725
+    "BTC": -0.5940396639299431,
+    "ETH": -1.5779
   },
   "topMover": {
     "symbol": "LSKUSDT",
-    "chgPct": 71.881
+    "chgPct": 63.821
   },
   "venues": [
     "Binance",
@@ -20,5 +20,5 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "14 Sept 2026, 01:01 UTC"
+  "generatedAtUTC": "14 Sept 2026, 01:03 UTC"
 }

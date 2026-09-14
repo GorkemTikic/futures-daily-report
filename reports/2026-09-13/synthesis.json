@@ -1,0 +1,165 @@
+{
+  "oneLine": "Bitcoin fell 0.6% and Ethereum dropped 1.6%, but Lisk surged 64% following its chain-shutdown announcement and token migration triggers, while Civic and Power gained 32% and 28%; a Bitcoin bridge exploit surfaced $336K in losses, semiconductor stocks tumbled on DeepSeek AI efficiency news, and the Clarity Act Senate vote looms.",
+  "priceVolumeSummary": "All five major venues (Binance, Bybit, OKX, Bitget, Gate) traded Bitcoin tightly around $76,775 (down 0.59%) and Ethereum around $2,484 (down 1.58%), with $13.5 billion and $19.3 billion in daily volume respectively. Binance led volume across both assets.",
+  "positioningSummary": "Bitcoin and Ethereum funding rates remained mostly positive (2–10% annualized across venues), indicating traders were net-long on both. Open interest elevated across the board, suggesting significant leverage in the market. Ethereum saw stronger institutional inflows than Bitcoin in the week through September 11.",
+  "stocksSummary": "Korean semiconductor stocks crashed: SK Hynix fell 5% and Samsung Electronics dropped 3.4% after Chinese AI startup DeepSeek announced its latest model requires significantly less high-bandwidth memory, raising questions about memory-chip demand. Hong Kong leveraged chip shorts (CSOP SK Hynix 2x -9.4%, CSOP Samsung 2x -6.3%) also sold off sharply. Oil gained 3.2–3.4% on supply concerns (WTI, Brent). US equities posted modest gains (S&P 500 +0.85%, Nasdaq +0.88%).",
+  "movers": [
+    {
+      "symbol": "LSK",
+      "explanation": "Lisk announced its blockchain will shut down by October 31, 2026, requiring token holders to migrate to Ethereum by October 21. Staking was unlocked without penalty on September 10, sparking a 64% surge as users rushed to act on the deadline.",
+      "hasCause": true
+    },
+    {
+      "symbol": "CVC",
+      "explanation": "Civic rose 32% with elevated community activity but no specific public announcement tied to the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "POWER",
+      "explanation": "Power gained 28% with no clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Symbiosis Bitcoin bridge exploit: 46B syBTC minted, attacker nets $336K",
+        "what": "A vulnerability in Symbiosis's Bitcoin Bridge allowed an attacker to mint approximately 46.1 billion unbackedned syBTC tokens (notional value ~$46.1 billion), though the attacker realized only about $336,000 in proceeds. Symbiosis recovered roughly 15 BTC and offered a 20% bounty on recovered funds. Only the Bitcoin Bridge was halted; other routes remained operational.",
+        "coins": "BTC, syBTC",
+        "timeUTC": "2026-09-13 10:31 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
+      },
+      {
+        "headline": "Goldman Sachs now expects 25 basis point Fed rate hike on September 16",
+        "what": "Goldman Sachs retracted its prior forecast of no rate hike and now expects the Federal Reserve to raise the federal funds rate by 25 basis points (0.25%) at its September 15–16 meeting. Market pricing implied roughly 90% odds of a hike following better-than-expected US CPI data. This would be the first rate increase since March 2024.",
+        "coins": "BTC, ETH (macro sensitivity)",
+        "timeUTC": "2026-09-13 05:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist"
+      },
+      {
+        "headline": "DeepSeek AI model reduces memory requirements, weighing on semiconductor stocks",
+        "what": "Chinese AI startup DeepSeek announced a new model requiring significantly less high-bandwidth memory (HBM) than expected, sparking a sharp selloff in memory-chip stocks. South Korean chipmakers SK Hynix and Samsung Electronics fell 5% and 3.4% respectively on September 13. Hong Kong-listed leveraged chip positions also plunged, raising questions about long-term HBM demand and capacity investments.",
+        "coins": "Indirect (macro/tradfi sensitivity)",
+        "timeUTC": "2026-09-11 to 2026-09-13",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-samsung-shares-dip-071811226.html"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Clarity Act Senate cloture vote scheduled for September 15 at 2:15 p.m. ET",
+          "what": "The US Senate will hold a cloture vote (procedural gatekeeping test) on the comprehensive Clarity Act crypto-market regulation on September 15 at 2:15 p.m. ET (18:15 UTC). The vote requires 60 votes to allow debate to proceed. Republicans control 53 seats, so at least 7 Democrats are needed. Recent polls put passage odds at 10–16% due to unresolved disputes over ethics rules, DeFi developer liability, and stablecoin yields.",
+          "coins": "All crypto",
+          "timeUTC": "2026-09-15 18:15 UTC (scheduled)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns"
+        },
+        {
+          "headline": "Mexican authorities raid hidden crypto mine on power-theft suspicion",
+          "what": "Mexican authorities conducted a raid on a clandestine crypto mining operation near a hydroelectric dam, suspecting power theft and money laundering. This is the fourth such discovery in the region since early 2025, highlighting continued law-enforcement pressure on unregulated mining.",
+          "coins": "General crypto mining",
+          "timeUTC": "2026-09-13 08:49 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Circle agrees to acquire Tazapay for $400 million to expand USDC reach",
+          "what": "Circle Internet Group announced a definitive agreement to acquire Tazapay, a Singapore-based B2B cross-border payments platform, for $400 million in stock. The deal brings 60+ banking partners and 100+ payout markets into the Circle ecosystem. Tazapay processes over $25 billion annually across 100 markets, with roughly 60% of transaction volume already involving stablecoins. Deal expected to close in 2027 pending regulatory approval.",
+          "coins": "USDC",
+          "timeUTC": "2026-09-08 00:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Revolut confirms customer data breach via social-engineering attack",
+          "what": "Revolut disclosed that customer data was exposed through a sophisticated social-engineering attack using a fraudulent email sent through an official government agency domain. Exposed data included identity documents, passports, selfies, and complete transaction histories. The company states its internal systems were not compromised and customer funds remain secure. Account credentials were not exposed.",
+          "coins": "General fintech (affects crypto users)",
+          "timeUTC": "2026-09-12 00:00 UTC",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-11",
+    "summary": "Bitcoin spot ETFs saw $13.3 million in net outflows on September 11, extending a week-long outflow streak (September 8–11 cumulative: -$462.7 million). Ethereum spot ETFs recorded strong inflows of $216.4 million on the same day, marking their biggest daily inflow of the week and suggesting a rotation from Bitcoin into Ethereum.",
+    "source": "CryptoBriefing",
+    "url": "https://cryptobriefing.com/bitcoin-etf-outflows-ethereum-etf-inflows-september/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Clarity Act Senate cloture vote (Sun Sept 15 at 18:15 UTC)",
+      "typicalReaction": "High impact for crypto sector. A successful cloture vote (60+ votes) would allow floor debate, a win for the industry; failure would be a setback. Current passage odds estimated at 10–16%."
+    },
+    {
+      "event": "Retail Sales and Core Retail Sales (Wed Sept 16 at 12:30 UTC)",
+      "typicalReaction": "Medium impact. Consumer spending data influences Fed outlook and market sentiment. USD strength typically pressures crypto."
+    },
+    {
+      "event": "FOMC Statement, Federal Funds Rate decision, and Press Conference (Wed Sept 16 at 18:00–18:30 UTC)",
+      "typicalReaction": "High-impact event. Market now expects a 25 basis point rate hike (0.25%). Bitcoin and equities typically sell off on rate-hike signals, though the move is already largely priced in."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis point (bp)",
+      "definition": "One-hundredth of a percent (0.01%). A 25 basis point rate hike means raising the rate by 0.25%."
+    },
+    {
+      "term": "Bridge (crypto)",
+      "definition": "A service that transfers crypto assets between two separate blockchains by locking them on one chain and releasing equivalent tokens on another."
+    },
+    {
+      "term": "Cloture vote",
+      "definition": "A procedural vote in the US Senate to end debate and force a final vote on a bill. Requires 60 votes to pass."
+    },
+    {
+      "term": "Federal Funds Rate",
+      "definition": "The interest rate at which commercial banks lend money to each other overnight. Set as a target range by the Federal Reserve."
+    },
+    {
+      "term": "FOMC (Federal Open Market Committee)",
+      "definition": "The policy-making committee of the US Federal Reserve that meets eight times per year to set monetary policy."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders holding long and short positions on perpetual futures contracts. Positive funding means long traders pay short traders."
+    },
+    {
+      "term": "HBM (High-Bandwidth Memory)",
+      "definition": "A type of computer memory chip used in advanced AI and graphics processors. High demand from AI chipmakers has benefited memory-chip manufacturers like Samsung and SK Hynix."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowing money to amplify the size of a trade. Higher leverage increases both potential gains and potential losses."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total dollar value of all outstanding derivative contracts (futures, perpetuals, options) on an asset. High OI indicates significant leverage in the market."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "Derivative contracts that allow traders to bet on price movements without an expiry date, like spot trading but with leverage."
+    },
+    {
+      "term": "Synthetic (syBTC, etc.)",
+      "definition": "A token issued on one blockchain that represents an asset from another blockchain (e.g., syBTC represents Bitcoin but lives on another chain). If the underlying collateral is lost or minted without backing, the synthetic token loses value."
+    },
+    {
+      "term": "Stablecoins",
+      "definition": "Cryptocurrencies designed to maintain a stable price, typically pegged to the US dollar (e.g., USDC, USDT)."
+    },
+    {
+      "term": "Venue",
+      "definition": "An exchange or trading platform where crypto futures are bought and sold."
+    }
+  ]
+}
