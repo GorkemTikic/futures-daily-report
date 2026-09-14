@@ -12,6 +12,9 @@ import { fileURLToPath } from "node:url";
 import { buildDataPack } from "./datapack.js";
 import { synthesize } from "./synthesize.js";
 import { buildReportHtml, renderPdf } from "./render.js";
+import { loadEnv } from "./env.js";
+
+loadEnv(); // pick up ANTHROPIC_API_KEY / TRADFI_API_KEY from the gitignored .env
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");

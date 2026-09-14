@@ -149,34 +149,53 @@ export async function synthesize(pack, config, dayDir) {
     }
   } catch { /* fall through */ }
 
-  const backend = config.narrator === "template" ? "template" : (process.env.ANTHROPIC_API_KEY && config.narrator !== "cli" ? "api" : "cli");
-  if (backend === "template") return dataOnly(pack);
+  // Backend order to try. "auto" (default) prefers the API when a key is present
+  // (no OAuth expiry → the nightly job can't silently break), then falls back to the
+  // CLI, then to a truthful data-only report. Explicit narrator values pin one backend.
+  const order = backendOrder(config);
+  if (!order.length) return dataOnly(pack);
 
   const prompt = buildSynthesisPrompt(pack);
-  try {
-    let raw;
-    if (backend === "cli") {
-      const tmp = path.join(os.tmpdir(), `fdr-synth-${Date.now()}.txt`);
-      fs.writeFileSync(tmp, prompt, "utf8");
-      try {
-        const stdout = await runClaudeCli(tmp, config.model);
-        const env = JSON.parse(firstBalancedObject(stdout));
-        if (env.is_error || typeof env.result !== "string") {
-          throw new Error("claude -p error" + (env.api_error_status ? ` [${env.api_error_status}]` : "") + ": " + (typeof env.result === "string" ? env.result.slice(0, 200) : JSON.stringify(env.subtype || "no result")));
-        }
-        raw = env.result;
-      } finally { fs.rmSync(tmp, { force: true }); }
-    } else {
-      raw = await apiSynthesis(prompt, config.model);
+  let lastErr;
+  for (const backend of order) {
+    try {
+      const obj = await runBackend(backend, prompt, config);
+      if (!obj.oneLine) throw new Error("synthesis missing oneLine");
+      try { fs.writeFileSync(path.join(dayDir, "synthesis.json"), JSON.stringify(obj, null, 2), "utf8"); } catch {}
+      return { ...obj, _source: backend };
+    } catch (err) {
+      lastErr = String(err).slice(0, 300);
+      console.warn(`  ${backend} synthesis failed (${lastErr.slice(0, 160)})`);
     }
-    const obj = JSON.parse(firstBalancedObject(raw));
-    if (!obj.oneLine) throw new Error("synthesis missing oneLine");
-    // persist for auditing / reproducibility
-    try { fs.writeFileSync(path.join(dayDir, "synthesis.json"), JSON.stringify(obj, null, 2), "utf8"); } catch {}
-    return { ...obj, _source: backend };
-  } catch (err) {
-    const reason = String(err).slice(0, 300);
-    console.warn(`  synthesis failed (${reason.slice(0, 140)}) — data-only fallback`);
-    return { ...dataOnly(pack), _error: reason, _backend: backend };
   }
+  console.warn("  all synthesis backends failed — data-only fallback");
+  return { ...dataOnly(pack), _error: lastErr, _backend: order.join("+") };
+}
+
+function backendOrder(config) {
+  const want = config.narrator || "auto";
+  if (want === "template") return [];
+  if (want === "cli") return ["cli"];
+  if (want === "api") return ["api"];
+  // auto
+  return process.env.ANTHROPIC_API_KEY ? ["api", "cli"] : ["cli"];
+}
+
+async function runBackend(backend, prompt, config) {
+  let raw;
+  if (backend === "cli") {
+    const tmp = path.join(os.tmpdir(), `fdr-synth-${Date.now()}.txt`);
+    fs.writeFileSync(tmp, prompt, "utf8");
+    try {
+      const stdout = await runClaudeCli(tmp, config.model);
+      const env = JSON.parse(firstBalancedObject(stdout));
+      if (env.is_error || typeof env.result !== "string") {
+        throw new Error("claude -p error" + (env.api_error_status ? ` [${env.api_error_status}]` : "") + ": " + (typeof env.result === "string" ? env.result.slice(0, 200) : JSON.stringify(env.subtype || "no result")));
+      }
+      raw = env.result;
+    } finally { fs.rmSync(tmp, { force: true }); }
+  } else {
+    raw = await apiSynthesis(prompt, config.model);
+  }
+  return JSON.parse(firstBalancedObject(raw));
 }

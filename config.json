@@ -26,8 +26,8 @@
   "marketNews": true,
   "_marketNews": "New: adds a whole-market context page (real BTC/ETH/SOL data + a market chart) and an ATTRIBUTED news/social section explaining what moved the market. News is researched at generation time by the narrator (the 'cli' route runs a separate 'claude -p' with web search; 'api' uses the Anthropic web_search tool). It is written to reports/<date>/news.json, which you can also hand-edit or pre-fill — that file always wins. If no research is available (e.g. narrator='template' or offline), the section falls back to a truthful data-only summary and no headline is ever invented. Set false to skip news entirely (charts + macro data still render).",
 
-  "narrator": "cli",
-  "_narrator": "Who writes the daily stories. 'cli' = headless Claude Code (claude -p) on your existing login, no API key, one batched call/day. 'api' = direct Anthropic API (needs ANTHROPIC_API_KEY). 'template' = built-in wording, free, offline. 'auto' = api if a key is set, else cli, else template. Any AI path falls back to templates per-coin if it fails or returns a number not in the data.",
+  "narrator": "auto",
+  "_narrator": "Who writes the daily report prose/news/glossary (the new pipeline in pipeline/). 'auto' (recommended) = Anthropic API if ANTHROPIC_API_KEY is set in .env (robust for the nightly job — no OAuth expiry), else headless Claude Code (claude -p) on your login, else a truthful data-only report. 'api' pins the API; 'cli' pins claude -p (free but its login token expires and must be refreshed with `claude`); 'template' skips AI entirely. With 'auto' + a key, the API is tried first and claude -p is the automatic fallback. A data figure is never invented — only prose/news come from the model.",
 
   "model": "claude-haiku-4-5",
   "_model": "Model the 'cli'/'api' narrators use. Default Haiku keeps the no-key CLI route cheap (~$1/mo) because each daily 'claude -p' call reloads Claude Code's system prompt. Set to 'claude-opus-4-8' for richer prose (~$15/mo on the CLI route; much cheaper via a direct API key).",
