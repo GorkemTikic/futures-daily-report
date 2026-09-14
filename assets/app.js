@@ -104,7 +104,7 @@
       '<button class="btn icon" id="next"' + (next ? "" : " disabled") + ' title="Next day">›</button>' +
       langSeg +
       (hasHtml ? '<a class="btn" id="open" href="' + langFile(r.date, cur, "html") + '" target="_blank" rel="noopener" title="Open in a new tab">Open</a>' : "") +
-      (hasHtml ? '<a class="btn primary" id="pdf" href="' + langFile(r.date, cur, "pdf") + '" download title="Download the PDF">↓ PDF</a>' : "") +
+      (r.files && r.files.pdf ? '<a class="btn primary" id="pdf" href="' + langFile(r.date, cur, "pdf") + '" download title="Download the PDF">↓ PDF</a>' : "") +
       themeBtn();
     if (prev) $("prev").onclick = function () { A.track("report_nav", { dir: "prev" }); location.hash = "#/report/" + prev; };
     if (next) $("next").onclick = function () { A.track("report_nav", { dir: "next" }); location.hash = "#/report/" + next; };
