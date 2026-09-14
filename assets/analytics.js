@@ -1,15 +1,15 @@
 /* Futures Daily Report — analytics client.
  *
- * Mirrors the Futures DeskMate analytics contract: one event per interaction,
- * POSTed to a Cloudflare Worker `/track` endpoint via navigator.sendBeacon
- * (fire-and-forget, survives page unload). Device id in localStorage (unique
- * devices), session id in sessionStorage (sessions). Silent on every failure —
- * analytics must never break the page.
+ * One event per interaction, POSTed to a Cloudflare Worker `/track` endpoint via
+ * navigator.sendBeacon (fire-and-forget, survives page unload). A persistent device id
+ * is kept in localStorage (counts unique devices); a session id in sessionStorage.
+ * Silent on every failure — analytics must never break the page.
  *
- * The Worker stores only safe metadata: event type, which report was opened,
- * where a click landed, plus device/session ids, a hashed IP and a country from
- * Cloudflare. No report content is anything but public anyway.
- */
+ * What is SENT (and stored): event type, tab, a small props object (may include the UI
+ * `lang` and `theme`, plus per-event details like which report/date or click host),
+ * device id, session id, a client timestamp. The Worker additionally derives a per-day
+ * salted IP HASH (never the raw IP) and a country from Cloudflare's header.
+ * What is NOT sent: user agent, screen size, device pixel ratio, referrer, timezone. */
 (function () {
   "use strict";
   var CFG = (window.FDR_CONFIG || {});
@@ -64,45 +64,33 @@
     if (!ls(true, "_fdr_seen")) { ls(false, "_fdr_seen", String(Date.now())); return true; }
     return false;
   }
-  function context() {
-    var nav = navigator || {}, scr = screen || {}, de = document.documentElement;
-    var tz = "", off = 0;
-    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch (e) {}
-    try { off = -new Date().getTimezoneOffset(); } catch (e) {}
+  // Only the UI language + theme are kept as context, folded into props so they are
+  // actually stored (and small). No fingerprinting fields are collected or sent.
+  function uiContext() {
+    var nav = navigator || {}, de = document.documentElement;
     return {
-      theme: de ? de.getAttribute("data-theme") || "" : "",
-      browser_lang: nav.language || "",
-      ua: nav.userAgent || "",
-      screen: scr.width && scr.height ? scr.width + "x" + scr.height : "",
-      viewport: window.innerWidth + "x" + window.innerHeight,
-      dpr: window.devicePixelRatio ? Math.round(window.devicePixelRatio * 100) / 100 : 1,
-      timezone: tz,
-      tz_offset_min: off,
-      path: location.pathname + location.hash,
-      referrer: document.referrer || "",
+      lang: (nav.language || "").slice(0, 12),
+      theme: de ? (de.getAttribute("data-theme") || "") : "",
     };
   }
 
   function track(event, props, tab) {
     if (DISABLED || !ALLOWED[event]) return;
     try {
-      var sm = sessionMeta();
-      var ctx = context();
+      // touch session/first-seen bookkeeping (kept in storage, not transmitted)
+      sessionMeta(); firstEver();
+      var mergedProps = {};
+      var ctx = uiContext();
+      if (props && typeof props === "object") for (var k in props) if (Object.prototype.hasOwnProperty.call(props, k)) mergedProps[k] = props[k];
+      if (ctx.lang) mergedProps.lang = ctx.lang;
+      if (ctx.theme) mergedProps.theme = ctx.theme;
       var body = JSON.stringify({
         event: event,
         tab: tab || "",
-        props: props || undefined,
+        props: mergedProps,
         device_id: deviceId(),
         session_id: sessionId(),
-        session_seq: sm.seq,
-        new_session: sm.newSession,
-        new_device: firstEver(),
-        session_age_ms: Date.now() - sm.started,
         ts: Date.now(),
-        theme: ctx.theme, browser_lang: ctx.browser_lang, ua: ctx.ua,
-        screen: ctx.screen, viewport: ctx.viewport, dpr: ctx.dpr,
-        timezone: ctx.timezone, tz_offset_min: ctx.tz_offset_min,
-        path: ctx.path, referrer: ctx.referrer,
       });
       if (navigator.sendBeacon) navigator.sendBeacon(ENDPOINT + "/track", body);
       else fetch(ENDPOINT + "/track", { method: "POST", body: body, mode: "no-cors", keepalive: true }).catch(function () {});

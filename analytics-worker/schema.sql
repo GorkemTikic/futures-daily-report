@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS events (
   event_type  TEXT    NOT NULL,
   session_id  TEXT    NOT NULL,
   device_id   TEXT,
-  ip_hash     TEXT,                  -- SHA-256 first 16 hex chars of IP — never raw
+  ip_hash     TEXT,                  -- per-UTC-day HMAC-SHA256(IP, secret pepper), 16 hex — never raw; null if no IP_HASH_SECRET set
   country     TEXT    DEFAULT 'XX',  -- ISO-3166-1 alpha-2 from CF-IPCountry
   tab         TEXT    DEFAULT '',
   props       TEXT    DEFAULT '{}',  -- JSON blob (e.g. {"date":"2026-09-10"} or {"host":"..."} )

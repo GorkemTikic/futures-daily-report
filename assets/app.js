@@ -9,7 +9,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var listEl = $("list"), filtersEl = $("filters"), contentEl = $("content"), toolbarEl = $("toolbar"), toastEl = $("toast");
 
-  var state = { manifest: null, q: "", filter: "all", view: "reports", date: null, lang: "en" };
+  var state = { manifest: null, q: "", filter: "all", view: "reports", date: null, lang: "en", fullLoaded: false };
   var LANG_LABEL = { en: "EN", tr: "TR", zh: "中文" };
   try { state.lang = localStorage.getItem("_fdr_lang") || "en"; } catch (e) {}
   function setLangPref(l) { state.lang = l; try { localStorage.setItem("_fdr_lang", l); } catch (e) {} }
@@ -25,8 +25,15 @@
 
   // ---------- data ----------
   function loadManifest() {
+    // Load the small head first (fast first paint); the full list is fetched lazily.
     return fetch("manifest.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("manifest " + r.status); return r.json(); }).then(function (m) { state.manifest = m; return m; });
   }
+  function ensureFull() {
+    // Fetch manifest.full.json once, when the user searches or opens a report not in the head.
+    if (state.fullLoaded || !state.manifest || (state.manifest.count || 0) <= (state.manifest.reports || []).length) { state.fullLoaded = true; return Promise.resolve(state.manifest); }
+    return fetch("manifest.full.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("manifest.full " + r.status); return r.json(); }).then(function (m) { state.manifest = m; state.fullLoaded = true; return m; }).catch(function () { state.fullLoaded = true; return state.manifest; });
+  }
+  function hasDate(date) { return !!(state.manifest && (state.manifest.reports || []).some(function (x) { return x.date === date; })); }
   function fetchReportHtml(date, path) {
     if (htmlCache[date]) return Promise.resolve(htmlCache[date]);
     return fetch(path, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("html " + r.status); return r.text(); }).then(function (t) { htmlCache[date] = t; return t; });
@@ -34,20 +41,29 @@
 
   // ---------- sidebar ----------
   function matches(r) {
-    if (state.filter === "danger" && !(r.dangerCount > 0)) return false;
+    // "Danger" only applies to the old divergence reports (new market reports have no gap count).
+    if (state.filter === "danger" && !(r.kind !== "market" && r.dangerCount > 0)) return false;
     if (state.filter === "news" && !(r.newsCount > 0)) return false;
     var q = state.q.trim().toLowerCase();
     if (!q) return true;
     if (r.date.indexOf(q) >= 0) return true;
     if (dowShort(r.date).toLowerCase().indexOf(q) >= 0) return true;
     if (r.marketSummary && r.marketSummary.toLowerCase().indexOf(q) >= 0) return true;
+    if (r.oneLine && r.oneLine.toLowerCase().indexOf(q) >= 0) return true;
+    if (r.topMover && r.topMover.symbol && r.topMover.symbol.toLowerCase().indexOf(q) >= 0) return true;
+    if ((r.venues || []).some(function (v) { return String(v).toLowerCase().indexOf(q) >= 0; })) return true;
     return (r.flagged || []).some(function (f) { return (f.symbol + " " + f.headline + " " + f.label).toLowerCase().indexOf(q) >= 0; });
   }
 
   function renderSidebar() {
     var all = (state.manifest.reports || []);
-    var counts = { all: all.length, danger: all.filter(function (r) { return r.dangerCount > 0; }).length, news: all.filter(function (r) { return r.newsCount > 0; }).length };
-    filtersEl.innerHTML = [["all", "All"], ["danger", "Danger"], ["news", "News"]].map(function (f) {
+    var hasDivergence = all.some(function (r) { return r.kind !== "market"; });
+    var counts = { all: all.length, danger: all.filter(function (r) { return r.kind !== "market" && r.dangerCount > 0; }).length, news: all.filter(function (r) { return r.newsCount > 0; }).length };
+    // Hide the Danger filter entirely when there are no divergence reports to which it applies.
+    var chips = [["all", "All"], ["news", "News"]];
+    if (hasDivergence) chips.splice(1, 0, ["danger", "Danger"]);
+    if (!hasDivergence && state.filter === "danger") state.filter = "all";
+    filtersEl.innerHTML = chips.map(function (f) {
       return '<button class="fchip' + (state.filter === f[0] ? " on" : "") + '" data-f="' + f[0] + '">' + f[1] + " " + counts[f[0]] + "</button>";
     }).join("");
     Array.prototype.forEach.call(filtersEl.children, function (b) { b.onclick = function () { state.filter = b.getAttribute("data-f"); A.track("filter_change", { filter: state.filter }); renderSidebar(); }; });
@@ -55,7 +71,7 @@
     var shown = all.filter(matches);
     listEl.innerHTML = shown.length
       ? '<div class="side-sec">' + shown.length + " report" + (shown.length > 1 ? "s" : "") + "</div>" + shown.map(function (r) {
-          var dots = (r.dangerCount > 0 ? '<span class="dot danger" title="danger gaps"></span>' : "") + (r.newsCount > 0 ? '<span class="dot news" title="sourced news"></span>' : "");
+          var dots = (r.kind !== "market" && r.dangerCount > 0 ? '<span class="dot danger" title="danger gaps"></span>' : "") + (r.newsCount > 0 ? '<span class="dot news" title="sourced news"></span>' : "") + (r.status === "degraded" ? '<span class="dot" title="degraded run — some sources were unavailable" style="background:#b45309"></span>' : "");
           return '<div class="lrow' + (r.date === state.date ? " active" : "") + '" data-date="' + r.date + '">' +
             '<div class="ld"><span class="ldate">' + r.date + '</span><span class="ldow">' + esc(dowShort(r.date)) + "</span></div>" +
             '<div class="dots">' + dots + "</div></div>";
@@ -218,7 +234,7 @@
     contentEl.innerHTML =
       '<div class="docwrap"><div class="doc-sheet" id="sheet">' +
         '<div class="doc-loading"><div class="skeleton" style="height:34px;width:60%;margin-bottom:18px"></div><div class="skeleton" style="height:90px;margin-bottom:14px"></div><div class="skeleton" style="height:260px"></div></div>' +
-        '<iframe class="doc" id="frame" src="' + langFile(date, reportLang(r), "html") + '" title="Report ' + date + '" scrolling="no"></iframe>' +
+        '<iframe class="doc" id="frame" src="' + langFile(date, reportLang(r), "html") + '" title="Report ' + date + '" scrolling="no" sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>' +
       "</div></div>";
     var frame = $("frame");
     frame.addEventListener("load", function () {
@@ -243,9 +259,11 @@
   }
 
   // ---------- analytics ----------
+  // Admin token lives in sessionStorage (cleared when the tab closes), never localStorage —
+  // so a stored token is not long-lived next to same-origin report content (item 16).
   var ADMIN_KEY = "_fdr_admin_token";
-  function getTok() { try { return localStorage.getItem(ADMIN_KEY) || ""; } catch (e) { return ""; } }
-  function setTok(t) { try { t ? localStorage.setItem(ADMIN_KEY, t) : localStorage.removeItem(ADMIN_KEY); } catch (e) {} }
+  function getTok() { try { return sessionStorage.getItem(ADMIN_KEY) || ""; } catch (e) { return ""; } }
+  function setTok(t) { try { t ? sessionStorage.setItem(ADMIN_KEY, t) : sessionStorage.removeItem(ADMIN_KEY); } catch (e) {} }
 
   function renderAnalytics() {
     state.view = "analytics"; state.date = null; setNav(); renderSidebar();
@@ -310,7 +328,7 @@
         var p = Number(d.price); if (!isFinite(p)) throw 0;
         el.hidden = false; fails = 0; px.textContent = p.toLocaleString("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
         if (last != null) { el.classList.toggle("up", p >= last); el.classList.toggle("down", p < last); } last = p;
-      }).catch(function () { if (++fails >= 2) el.hidden = true; });
+      }).catch(function () { if (++fails >= 2) { el.hidden = true; if (!startTicker._reported) { startTicker._reported = true; A.track("ticker_error", {}); } } });
     }
     if (!startTicker._iv) { tick(); startTicker._iv = setInterval(tick, 6000); }
   }
@@ -319,7 +337,12 @@
   function route() {
     var h = location.hash || "#/";
     if (h === "#/analytics") return renderAnalytics();
-    if (h.indexOf("#/report/") === 0) return renderReport(decodeURIComponent(h.slice(9)));
+    if (h.indexOf("#/report/") === 0) {
+      var date = decodeURIComponent(h.slice(9));
+      // If the requested day isn't in the small head, load the full manifest first.
+      if (!hasDate(date) && !state.fullLoaded) return ensureFull().then(function () { renderReport(date); });
+      return renderReport(date);
+    }
     // default: latest report
     var latest = state.manifest && state.manifest.latest;
     if (latest) { location.replace("#/report/" + latest); return; }
@@ -330,7 +353,13 @@
   A.track("page_view");
   $("nav-reports").onclick = function () { location.hash = state.manifest ? "#/report/" + state.manifest.latest : "#/"; };
   $("nav-analytics").onclick = function () { location.hash = "#/analytics"; };
-  $("q").addEventListener("input", function () { state.q = $("q").value; renderSidebar(); clearTimeout(route._s); route._s = setTimeout(function () { if (state.q.trim()) A.track("report_search", { len: state.q.trim().length }); }, 700); });
+  $("q").addEventListener("input", function () {
+    state.q = $("q").value;
+    // Searching needs the full history, not just the head — load it once, then re-render.
+    if (state.q.trim() && !state.fullLoaded) ensureFull().then(renderSidebar);
+    renderSidebar();
+    clearTimeout(route._s); route._s = setTimeout(function () { if (state.q.trim()) A.track("report_search", { len: state.q.trim().length }); }, 700);
+  });
   initTheme();
   loadManifest().then(function () { renderSidebar(); route(); }).catch(function (e) {
     contentEl.innerHTML = '<div class="empty"><div><div class="big">Couldn\'t load reports</div><div class="note">' + esc(String(e.message || e)) + "</div></div></div>";

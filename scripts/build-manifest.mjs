@@ -1,11 +1,10 @@
-// Build docs/manifest.json — the index the website reads to list every report.
+// Build the website's report index. Writes TWO files (item 25):
+//   manifest.json       — a small head: the latest N entries + counts, for the first paint
+//   manifest.full.json  — every report, fetched lazily by the site when the user searches
+// Both are written atomically (write .tmp then rename) so a crash never leaves a half file.
 //
-// It parses each reports/<date>/summary_<date>.md into structured metadata and
-// records which output files exist. It is deliberately TOLERANT: if a field is
-// missing (older report, or a future format change) it is simply left null, so
-// the site keeps working across report redesigns. The only hard contract the
-// site relies on is that each day has a folder reports/<YYYY-MM-DD>/ containing
-// summary_<date>.md and summary_<date>.html.
+// It reads each reports/<date>/report.json (new multi-exchange format) or parses the old
+// summary_<date>.md (retired divergence format), so the site keeps working across both.
 //
 //   node scripts/build-manifest.mjs
 
@@ -16,9 +15,15 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const REPORTS = path.join(ROOT, "reports");
-const OUT = path.join(ROOT, "manifest.json");
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+const HEAD_COUNT = 30; // entries in the small manifest
+
+function writeAtomic(file, data) {
+  const tmp = file + ".tmp";
+  fs.writeFileSync(tmp, data, "utf8");
+  fs.renameSync(tmp, file);
+}
 
 function num(s) {
   const n = Number(String(s).replace(/[^\d.-]/g, ""));
@@ -26,85 +31,28 @@ function num(s) {
 }
 
 function parseReport(date, md) {
-  const r = {
-    date,
-    scanned: null,
-    movedBig: null,
-    dangerCount: null,
-    widest: null,       // { symbol, pct, time }
-    macro: null,        // { BTC, ETH, SOL } as % numbers
-    marketSummary: null,
-    newsCount: 0,
-    flagged: [],        // [{ symbol, label, headline }]
-  };
+  const r = { date, scanned: null, movedBig: null, dangerCount: null, widest: null, macro: null, marketSummary: null, newsCount: 0, flagged: [] };
   if (!md) return r;
   const lines = md.split(/\r?\n/);
-
-  // header counts line: "Coins scanned: 528 · moved >25%: 3 · dangerous price gap: 0"
   const head = md.match(/Coins scanned:\s*([\d,]+).*?moved\s*>?\s*\d+%?:\s*(\d+).*?dangerous price gap:\s*(\d+)/i);
-  if (head) {
-    r.scanned = num(head[1]);
-    r.movedBig = num(head[2]);
-    r.dangerCount = num(head[3]);
-  }
-
-  // widest gap: "Widest gap: IOSTUSDT 3.7% at 11:50 UTC"
+  if (head) { r.scanned = num(head[1]); r.movedBig = num(head[2]); r.dangerCount = num(head[3]); }
   const widest = md.match(/Widest gap:\s*(\S+)\s+([\d.]+%)\s+at\s+([\d:]+)\s*UTC/i);
   if (widest) r.widest = { symbol: widest[1], pct: widest[2], time: widest[3] };
-
-  // macro backdrop lines: "- BTC: $78264 → $76535.7 (-2.2%, day range 2.8%)"
   const macro = {};
-  for (const m of md.matchAll(/^-\s*(BTC|ETH|SOL):.*?\(([-+]?[\d.]+)%/gim)) {
-    macro[m[1]] = num(m[2]);
-  }
+  for (const m of md.matchAll(/^-\s*(BTC|ETH|SOL):.*?\(([-+]?[\d.]+)%/gim)) macro[m[1]] = num(m[2]);
   if (Object.keys(macro).length) r.macro = macro;
-
-  // market summary paragraph: the non-bullet line right after "## Market backdrop"
   const mbIdx = lines.findIndex((l) => /^##\s*Market backdrop/i.test(l));
-  if (mbIdx >= 0) {
-    for (let i = mbIdx + 1; i < lines.length; i++) {
-      const l = lines[i].trim();
-      if (l.startsWith("##")) break;
-      if (l && !l.startsWith("-")) { r.marketSummary = l; break; }
-    }
-  }
-
-  // news items under "## What moved the market": count top-level "- [" bullets
+  if (mbIdx >= 0) { for (let i = mbIdx + 1; i < lines.length; i++) { const l = lines[i].trim(); if (l.startsWith("##")) break; if (l && !l.startsWith("-")) { r.marketSummary = l; break; } } }
   const newsIdx = lines.findIndex((l) => /^##\s*What moved the market/i.test(l));
-  if (newsIdx >= 0) {
-    for (let i = newsIdx + 1; i < lines.length; i++) {
-      const l = lines[i];
-      if (/^##\s/.test(l)) break;
-      if (/^-\s*\[/.test(l)) r.newsCount++;
-      // a "no external news" bullet counts as zero
-      if (/No external news researched/i.test(l)) r.newsCount = 0;
-    }
-  }
-
-  // flagged coins: "- SYM [Label]: headline"
+  if (newsIdx >= 0) { for (let i = newsIdx + 1; i < lines.length; i++) { const l = lines[i]; if (/^##\s/.test(l)) break; if (/^-\s*\[/.test(l)) r.newsCount++; if (/No external news researched/i.test(l)) r.newsCount = 0; } }
   const flIdx = lines.findIndex((l) => /^##\s*Flagged coins/i.test(l));
-  if (flIdx >= 0) {
-    for (let i = flIdx + 1; i < lines.length; i++) {
-      const l = lines[i];
-      if (/^##\s/.test(l)) break;
-      const m = l.match(/^-\s*(\S+)\s*\[([^\]]+)\]:\s*(.+)$/);
-      if (m) r.flagged.push({ symbol: m[1], label: m[2], headline: m[3].trim() });
-    }
-  }
+  if (flIdx >= 0) { for (let i = flIdx + 1; i < lines.length; i++) { const l = lines[i]; if (/^##\s/.test(l)) break; const m = l.match(/^-\s*(\S+)\s*\[([^\]]+)\]:\s*(.+)$/); if (m) r.flagged.push({ symbol: m[1], label: m[2], headline: m[3].trim() }); } }
   return r;
 }
 
 function main() {
-  if (!fs.existsSync(REPORTS)) {
-    console.error("No reports/ directory found.");
-    process.exit(1);
-  }
-  const dates = fs
-    .readdirSync(REPORTS, { withFileTypes: true })
-    .filter((d) => d.isDirectory() && DATE_RE.test(d.name))
-    .map((d) => d.name)
-    .sort()
-    .reverse();
+  if (!fs.existsSync(REPORTS)) { console.error("No reports/ directory found."); process.exit(1); }
+  const dates = fs.readdirSync(REPORTS, { withFileTypes: true }).filter((d) => d.isDirectory() && DATE_RE.test(d.name)).map((d) => d.name).sort().reverse();
 
   const reports = [];
   for (const date of dates) {
@@ -115,7 +63,6 @@ function main() {
     let md = null;
     try { md = fs.readFileSync(mdPath, "utf8"); } catch { /* no md */ }
 
-    // New multi-exchange report (has report.json) vs old divergence report (parse the md).
     let entry;
     const jsonPath = path.join(dir, "report.json");
     if (fs.existsSync(jsonPath)) {
@@ -126,9 +73,13 @@ function main() {
         scanned: null, movedBig: null, dangerCount: null, widest: null,
         macro: m.macro && (m.macro.BTC != null || m.macro.ETH != null) ? m.macro : null,
         marketSummary: m.oneLine || null,
+        oneLine: m.oneLine || null,
         newsCount: m.newsCount || 0,
         topMover: m.topMover || null,
+        venues: Array.isArray(m.venues) ? m.venues : [],
         languages: Array.isArray(m.languages) && m.languages.length ? m.languages : ["en"],
+        status: m.status || "ok",
+        degradedReasons: Array.isArray(m.degradedReasons) ? m.degradedReasons : [],
         flagged: [],
       };
     } else {
@@ -143,16 +94,19 @@ function main() {
     reports.push(entry);
   }
 
-  const manifest = {
-    title: "Futures Daily Report",
-    generatedAt: new Date().toISOString(),
-    count: reports.length,
-    latest: reports[0]?.date ?? null,
-    reports,
+  const now = new Date().toISOString();
+  const counts = {
+    total: reports.length,
+    market: reports.filter((r) => r.kind === "market").length,
+    divergence: reports.filter((r) => r.kind === "divergence").length,
+    degraded: reports.filter((r) => r.status === "degraded").length,
   };
+  const full = { title: "Futures Daily Report", generatedAt: now, count: reports.length, counts, latest: reports[0]?.date ?? null, reports };
+  const head = { title: "Futures Daily Report", generatedAt: now, count: reports.length, counts, latest: reports[0]?.date ?? null, head: HEAD_COUNT, reports: reports.slice(0, HEAD_COUNT) };
 
-  fs.writeFileSync(OUT, JSON.stringify(manifest, null, 2), "utf8");
-  console.log(`manifest.json written: ${reports.length} reports (latest ${manifest.latest}).`);
+  writeAtomic(path.join(ROOT, "manifest.full.json"), JSON.stringify(full, null, 2));
+  writeAtomic(path.join(ROOT, "manifest.json"), JSON.stringify(head, null, 2));
+  console.log(`manifest written: ${reports.length} reports (head ${head.reports.length}, latest ${full.latest}, degraded ${counts.degraded}).`);
 }
 
 main();

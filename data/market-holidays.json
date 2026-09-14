@@ -1,0 +1,37 @@
+{
+  "_note": "Cash-market public holidays per exchange, used by pipeline/sessions.js to tell whether the underlying stock market actually had a session on the report's UTC day (so a tokenised-stock perp's weekend/holiday drift is not shown as a daily move). Weekends are handled in code and are NOT listed here. VERIFY AND EXTEND ANNUALLY against each exchange's official calendar. Only dates that are high-confidence, weekday, fixed-date national holidays for 2026 are seeded; lunar-calendar and 'bridge' holidays (Lunar/Spring Festival, Chuseok, Mid-Autumn, Golden Week bridge days, substitute holidays) are intentionally left out rather than guessed — add them from the official calendar. Format: exchange -> { \"YYYY-MM-DD\": \"Holiday name\" }.",
+  "_verify": "https://www.nyse.com/markets/hours-calendars | https://www.krx.co.kr | https://www.hkex.com.hk | https://www.sse.com.cn",
+  "_lastVerified": "unverified — seeded from well-known fixed-date rules; confirm before relying on holiday (non-weekend) accuracy",
+  "NYSE": {
+    "2026-01-01": "New Year's Day",
+    "2026-01-19": "Martin Luther King Jr. Day",
+    "2026-02-16": "Washington's Birthday",
+    "2026-04-03": "Good Friday",
+    "2026-05-25": "Memorial Day",
+    "2026-06-19": "Juneteenth",
+    "2026-07-03": "Independence Day (observed)",
+    "2026-09-07": "Labor Day",
+    "2026-11-26": "Thanksgiving Day",
+    "2026-12-25": "Christmas Day"
+  },
+  "KRX": {
+    "2026-01-01": "New Year's Day",
+    "2026-05-05": "Children's Day",
+    "2026-10-09": "Hangeul Day",
+    "2026-12-25": "Christmas Day",
+    "2026-12-31": "Year-end market closure"
+  },
+  "HKEX": {
+    "2026-01-01": "New Year's Day",
+    "2026-05-01": "Labour Day",
+    "2026-07-01": "HKSAR Establishment Day",
+    "2026-10-01": "National Day",
+    "2026-12-25": "Christmas Day"
+  },
+  "SSE": {
+    "2026-01-01": "New Year's Day",
+    "2026-05-01": "Labour Day",
+    "2026-10-01": "National Day",
+    "2026-10-02": "National Day holiday"
+  }
+}

@@ -1,10 +1,11 @@
-// News-candidate collector. Fetches the trade-press and primary-source RSS feeds,
-// parses items, keeps the last ~30h, and de-dups obvious repeats. This produces the
-// CANDIDATE list — the synthesis step does the real editorial filtering (drop price
-// recaps, keep causes, group, mark unconfirmed) per REPORT_SPEC Step 3/4. Feeds that
-// fail are recorded so the report can say which source was unavailable.
+// News-candidate collector. Fetches the trade-press and primary-source RSS feeds, parses
+// items, bounds them to the REPORT DAY's UTC window (plus a small configurable lookback
+// for stories that broke late the previous evening), sanitises them (they later go into
+// an LLM prompt — see synthesize.js), and de-dups. This produces the CANDIDATE list; the
+// synthesis step does the editorial filtering per REPORT_SPEC Step 3/4. Feeds that fail
+// are recorded so the report can say which source was unavailable.
 
-const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) FuturesDailyReport/2.0";
+import { fetchText } from "./http.js";
 
 const FEEDS = [
   { source: "CoinDesk", tier: 1, url: "https://www.coindesk.com/arc/outboundfeeds/rss/" },
@@ -15,6 +16,27 @@ const FEEDS = [
   { source: "Federal Reserve", tier: 2, url: "https://www.federalreserve.gov/feeds/press_all.xml" },
   { source: "CFTC", tier: 2, url: "https://www.cftc.gov/RSS/RSSGP/rssgp.xml" },
 ];
+
+const DAY_MS = 86400000;
+const MAX_PER_FEED = 10;
+const MAX_TITLE = 300;
+const MAX_SUMMARY = 300;
+
+// Remove control + zero-width characters, collapse whitespace, cap length. Applied to
+// every field before it can reach the model prompt (defence-in-depth vs prompt injection).
+// RegExps built from escaped strings so the SOURCE stays plain ASCII (no literal control
+// or zero-width bytes embedded in the file).
+const CONTROL_RE = new RegExp("[\\u0000-\\u001F\\u007F]", "g");        // control chars
+const ZEROWIDTH_RE = new RegExp("[\\u200B-\\u200F\\u202A-\\u202E\\u2060\\uFEFF]", "g"); // zero-width / bidi
+function clean(s, cap) {
+  let t = String(s || "")
+    .replace(CONTROL_RE, " ")
+    .replace(ZEROWIDTH_RE, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (t.length > cap) t = t.slice(0, cap) + "...";
+  return t;
+}
 
 function stripCdata(s) {
   return String(s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&nbsp;/g, " ").trim();
@@ -32,42 +54,52 @@ function parseFeed(xml) {
   const items = [];
   const blocks = xml.match(/<(item|entry)[\s\S]*?<\/\1>/gi) || [];
   for (const b of blocks) {
-    const title = stripCdata(tag(b, "title"));
-    let link = stripCdata(tag(b, "link")) || atomLink(b);
+    const title = clean(stripCdata(tag(b, "title")), MAX_TITLE);
+    let link = (stripCdata(tag(b, "link")) || atomLink(b)).trim();
     const dateStr = tag(b, "pubDate") || tag(b, "updated") || tag(b, "published") || tag(b, "dc:date");
-    const summary = stripCdata(tag(b, "description") || tag(b, "summary") || tag(b, "content:encoded")).slice(0, 500);
+    const summary = clean(stripCdata(tag(b, "description") || tag(b, "summary") || tag(b, "content:encoded")), MAX_SUMMARY);
     const ms = dateStr ? Date.parse(stripCdata(dateStr)) : NaN;
-    if (title) items.push({ title, link: link.trim(), ms: isNaN(ms) ? null : ms, summary });
+    // keep only http(s) links; a non-http link is dropped rather than passed on
+    if (link && !/^https?:\/\//i.test(link)) link = "";
+    if (title) items.push({ title, link, ms: isNaN(ms) ? null : ms, summary });
   }
   return items;
 }
 
-export async function collectNews({ windowH = 30, nowMs = Date.now() } = {}) {
-  const cutoff = nowMs - windowH * 3600e3;
+export async function collectNews({ nowMs = Date.now(), win = null, config = {} } = {}) {
+  const dayStart = win ? win.dayStartMs : nowMs - DAY_MS;
+  const dayEnd = win ? win.dayEndMs : nowMs;
+  const lookbackH = Number.isFinite(Number(config.newsLookbackH)) ? Number(config.newsLookbackH) : 6;
+  const lowerBound = dayStart - lookbackH * 3600e3;
+  const upperBound = Math.max(dayEnd, nowMs); // include fresh items after the day, marked as context
+
   const items = [];
   const failed = [];
 
   await Promise.all(FEEDS.map(async (f) => {
     try {
-      const ctrl = new AbortController();
-      const timer = setTimeout(() => ctrl.abort(), 20000);
-      const res = await fetch(f.url, { headers: { "User-Agent": UA, Accept: "application/rss+xml, application/xml, text/xml" }, redirect: "follow", signal: ctrl.signal });
-      clearTimeout(timer);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const xml = await res.text();
+      const xml = await fetchText(f.url, { retries: 2, timeoutMs: 20000, headers: { Accept: "application/rss+xml, application/xml, text/xml" } });
       const parsed = parseFeed(xml);
-      const fresh = parsed.filter((it) => it.ms == null || it.ms >= cutoff);
-      // if a feed has NO dated item within the window, treat it as stale (skip) unless
-      // every item is undated (some primary feeds omit dates) — keep a few of those.
       const dated = parsed.filter((it) => it.ms != null);
-      const use = dated.length ? fresh.filter((it) => it.ms != null) : parsed.slice(0, 5);
-      for (const it of use) items.push({ ...it, source: f.source, tier: f.tier });
+      // Keep items inside [lowerBound, upperBound]; if a feed is entirely undated (some
+      // primary feeds omit dates) keep a few most-recent so the source isn't lost.
+      let use;
+      if (dated.length) {
+        use = dated.filter((it) => it.ms >= lowerBound && it.ms <= upperBound);
+      } else {
+        use = parsed.slice(0, 5);
+      }
+      use = use.slice(0, MAX_PER_FEED);
+      for (const it of use) {
+        const outside = it.ms == null ? false : (it.ms < dayStart || it.ms > dayEnd);
+        items.push({ ...it, source: f.source, tier: f.tier, outsideReportDay: outside, undated: it.ms == null });
+      }
     } catch (err) {
       failed.push({ source: f.source, err: String(err).slice(0, 80) });
     }
   }));
 
-  // basic de-dup by normalised title prefix
+  // de-dup by normalised title prefix
   const seen = new Set();
   const deduped = [];
   for (const it of items.sort((a, b) => (b.ms || 0) - (a.ms || 0))) {
@@ -77,5 +109,9 @@ export async function collectNews({ windowH = 30, nowMs = Date.now() } = {}) {
     deduped.push(it);
   }
 
-  return { ok: true, count: deduped.length, items: deduped, failed, sourcesOnline: FEEDS.map((f) => f.source).filter((s) => !failed.find((x) => x.source === s)) };
+  return {
+    ok: true, count: deduped.length, items: deduped, failed,
+    sourcesOnline: FEEDS.map((f) => f.source).filter((s) => !failed.find((x) => x.source === s)),
+    window: { lowerBound, upperBound, lookbackH },
+  };
 }

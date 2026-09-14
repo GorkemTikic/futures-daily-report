@@ -1,10 +1,18 @@
 {
   "name": "futures-daily-report",
-  "version": "1.0.0",
-  "description": "Daily Binance USD-M Futures volatility & mark-vs-last divergence report, in plain English.",
+  "version": "2.0.0",
+  "description": "Daily multi-exchange crypto-futures market report (Binance/Bybit/OKX/Bitget/Gate) in plain English, covering one full UTC day, in EN/TR/ZH plus a Caveman (explain-like-I'm-10) mode, published to a GitHub Pages site.",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "report": "node src/index.js"
+    "report": "node pipeline/index.js",
+    "report:legacy": "node src/index.js",
+    "manifest": "node scripts/build-manifest.mjs",
+    "publish": "node scripts/publish.mjs",
+    "check-narrator": "node scripts/check-narrator.mjs",
+    "test": "node test/spec-consistency.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.70.0"

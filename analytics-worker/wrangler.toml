@@ -10,17 +10,24 @@ binding       = "DB"
 database_name = "fdr-analytics-db"
 database_id   = "e23d6e97-ff8b-4694-9e7b-b6594afb24f1"
 
-# Optional per-IP rate limiting. The Worker fails OPEN if this binding is absent,
-# so you can deploy without it and add it later. Create with:
+# Per-IP / per-device rate limiting. The Worker now fails CLOSED (a conservative
+# in-isolate guard) if this binding is absent — provision it for durable limits.
+# Create the namespace, then PASTE ITS id below (do not commit a made-up id):
 #   wrangler kv namespace create RATE_LIMIT_KV
-# then paste the id below and uncomment the block.
-# [[kv_namespaces]]
-# binding = "RATE_LIMIT_KV"
-# id      = "PASTE_YOUR_KV_NAMESPACE_ID_HERE"
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id      = "7accaf796cbd417198931d3b96398d2b"
 
-# Set secrets via CLI — never commit them:
-#   wrangler secret put ADMIN_TOKEN
+# Retention job: prune events older than RETENTION_DAYS. Runs daily at 04:00 UTC.
+[triggers]
+crons = ["0 4 * * *"]
+
+# Secrets — set via CLI, NEVER commit:
+#   wrangler secret put ADMIN_TOKEN       # admin dashboard bearer token
+#   wrangler secret put IP_HASH_SECRET    # pepper for the per-day IP HMAC (required to store any ip_hash)
 #
 # ALLOWED_ORIGIN must equal your GitHub Pages origin, no trailing slash.
+# RETENTION_DAYS is optional (default 180).
 [vars]
 ALLOWED_ORIGIN = "https://gorkemtikic.github.io"
+RETENTION_DAYS = "180"

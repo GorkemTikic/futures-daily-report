@@ -1,30 +1,27 @@
 # Futures Daily Report
 
 📊 **Live site:** https://gorkemtikic.github.io/futures-daily-report/ — a searchable,
-interactive browser for every daily report (matches the Futures DeskMate design). It
-updates itself whenever a new report is generated.
+interactive browser for every daily report. It updates itself whenever a new report is
+generated.
 
-A daily, **plain-English** report on every coin on Binance USD-M Futures. It answers
-three questions a beginner can follow:
+A daily, **plain-English** crypto-futures market report for customer-support agents who do
+not read finance news. It covers **one full UTC calendar day** across the major venues —
+**Binance, Bybit, OKX, Bitget, Gate** — and answers, in ordinary words:
 
-1. Which coins **moved the most** today?
-2. Which coins had a **dangerous gap** between their two prices (last vs mark)?
-3. **Should anyone worry** about it — and why?
+1. What did price and volume do, and did the exchanges agree?
+2. How were traders leaning (funding, open-interest change, long/short)?
+3. What news actually moved the market — and what's scheduled next?
 
-The output is one newbie-friendly **PDF** plus machine-readable **CSVs**, filed into a
-folder for each day.
+Each report is produced in **English, Turkish and Chinese**, plus a one-tap **Caveman
+mode** ("explain it like I'm 10"). It also covers the tokenised **stock** perps on Binance
+(Korea, Hong Kong, China, US) and **commodities**, and notes when a cash market was closed.
 
-Since **2026-09-12** every report also includes:
+> **Hard rule:** the report never fabricates a number, headline, outlet, URL or finding.
+> Everything is sourced and web-verified; if a source is unavailable, its section is
+> omitted and the report says so. When in doubt it renders "—", never an estimate.
 
-- **Charts** — each flagged coin gets a *live-price vs mark-price* line chart with the
-  >5% danger-gap minutes shaded, so the story is visual, not just a table.
-- **A whole-market context page** — real BTC / ETH / SOL numbers for the day and a
-  normalised market chart, so an altcoin's move can be read against the majors.
-- **Sourced news & social context** — an attributed list of the day's market-moving
-  headlines (macro, ETF flows, regulation, notable single-coin/social events) that
-  explains *why* the market moved. Every item carries a **source, a URL, an impact tag
-  and a confidence flag**. Nothing is ever invented: if a move can't be tied to a
-  confirmed, sourced event, it's left described by the price data alone.
+`src/` is the **retired** per-coin "mark-vs-last divergence" generator, kept only so the
+site can still open its old reports. The current product is everything under `pipeline/`.
 
 ---
 
@@ -32,162 +29,117 @@ Since **2026-09-12** every report also includes:
 
 ```
 Futures-Daily-Report/
-├─ README.md                 ← this file
-├─ config.json               ← settings (thresholds, model, how many coins to scan)
-├─ run.ps1                   ← run a report by hand
-├─ install-scheduler.ps1     ← set up the automatic 23:45 UTC daily run
-├─ src/                      ← the program (you don't need to touch this)
-├─ logs/                     ← one log file per day
+├─ README.md
+├─ config.json                ← settings (model, budgets, movers floor, …)
+├─ install-scheduler.ps1      ← register the Windows scheduled task
+├─ pipeline/                  ← THE CURRENT GENERATOR
+│  ├─ index.js                ← orchestrator (entry point)
+│  ├─ REPORT_SPEC.md          ← the report spec (source of truth)
+│  ├─ datapack.js             ← assembles the verified data pack for one UTC day
+│  ├─ exchanges.js            ← BTC/ETH + movers across 5 venues (UTC-day klines)
+│  ├─ stocks.js / sessions.js ← tokenised-stock perps + cash-session status
+│  ├─ calendar.js / news.js / tradfi.js
+│  ├─ synthesize.js           ← Claude writes the prose/news/glossary/caveman + TR/ZH
+│  ├─ render.js               ← lays verified data beside the prose → HTML + PDF
+│  └─ http.js / redact.js / env.js
+├─ scripts/                   ← build-manifest, publish, notify, check-narrator
+├─ data/market-holidays.json  ← exchange holidays (verify & extend annually)
+├─ analytics-worker/          ← Cloudflare Worker + D1 (usage analytics)
+├─ assets/, index.html        ← the GitHub Pages site
+├─ logs/                      ← per-day logs + ALERTS.log (gitignored)
 └─ reports/
-   └─ 2026-06-13/            ← ONE FOLDER PER DAY
-      ├─ summary_2026-06-13.pdf    ← the readable report (now with charts + market/news pages)
-      ├─ summary_2026-06-13.md     ← same thing as plain text
-      ├─ news.json                 ← the day's sourced news (auto-written; hand-editable, always wins)
-      └─ data/
-         ├─ ESPORTSUSDT.csv        ← per-minute last + mark + gap, one file per flagged coin
-         └─ ...
+   └─ 2026-09-13/
+      ├─ summary_2026-09-13.html / .pdf   (+ .tr / .zh)
+      ├─ summary_2026-09-13.md
+      ├─ report.json           ← manifest metadata + run status
+      ├─ run.json              ← per-run health (see below)
+      └─ synthesis.manual.json ← optional hand-edited prose (always wins)
 ```
-
-Every run drops everything for that day into `reports/<date>/`, so it's always obvious
-where a given day's report and its raw data live.
 
 ---
 
-## How to run it by hand
+## Run it by hand
 
-Open PowerShell in this folder and run:
-
-```powershell
-.\run.ps1                    # today's report (up to the current minute, UTC)
-.\run.ps1 -Date 2026-06-13   # a specific past UTC day
-.\run.ps1 -All               # deep-scan EVERY symbol (slower, most thorough)
+```bash
+node pipeline/index.js                    # the most recent completed UTC day
+node pipeline/index.js --date 2026-09-13  # a specific PAST UTC day (day-bounded klines)
+node pipeline/index.js --reuse-synthesis  # reuse cached prose instead of regenerating
 ```
 
-When it finishes, open `reports\<date>\summary_<date>.pdf`.
+`--date` for a past day fetches that day's daily klines and marks everything that can't be
+reconstructed for a past day (funding/OI/mark/news/trad-fi) as unavailable. A future date,
+or a day whose klines can't be fetched, exits non-zero rather than writing a report.
 
-## How to make it run automatically every day
+Re-running the same day **regenerates** the prose (it is not silently cached); pass
+`--reuse-synthesis` to reuse `synthesis.auto.json`.
+
+## Run it automatically
 
 ```powershell
 .\install-scheduler.ps1
 ```
 
-This registers a Windows Scheduled Task that runs the report **daily at 23:45 UTC**
-(just before the day closes). It writes that day's folder with no further action needed.
+Registers a scheduled task that fires **hourly** and lets the pipeline generate the
+just-closed UTC day once (then exit cheaply the rest of the day). This is **DST-proof** —
+the decision is made in UTC in code, not by a fixed local trigger time. Verify with the
+command the script prints at the end.
 
 ---
+
+## Editing a day's prose
+
+Drop a `reports/<date>/synthesis.manual.json` (same shape as `synthesis.auto.json`) to
+override the writing for that day — a manual file **always wins** and is never overwritten.
+Same for `synthesis.tr.manual.json` / `synthesis.zh.manual.json`.
+
+## Reading `run.json`
+
+Every run writes `reports/<date>/run.json`: `status` (`ok` / `degraded`), the per-source
+status, which synthesis backend actually ran (and whether it fell back), languages/PDFs
+produced, the publish result, the data window, and duration. A **degraded** run still
+writes a truthful report, shows a banner naming what was missing, appends a line to
+`logs/ALERTS.log` (and POSTs to `ALERT_WEBHOOK_URL` if set), and exits non-zero.
 
 ## Settings (`config.json`)
 
 | Setting | What it does |
 |---|---|
-| `prefilterTopN` | Scan the whole market cheaply, then deep-analyse the top N movers (default 75). Set `0` to deep-scan everything. |
-| `deepDivePages` | How many coins get a full "story" page in the PDF (default 15). The rest still appear in the summary tables. |
-| `thresholds` | What counts as a "big move", a "dangerous gap", etc. |
-| `model` | Which Claude model writes the narratives (used only if `ANTHROPIC_API_KEY` is set). |
+| `narrator` | `auto` (API if `ANTHROPIC_API_KEY`, else `claude -p`), `cli`, `api`, or `template`. |
+| `model` | Which Claude model writes the prose. |
+| `maxTokens` | Output cap for synthesis/translation (raise for richer models). |
+| `moversMinQuoteVolUSD` | Liquidity floor for a "biggest mover" (below it → low-liquidity list). |
+| `newsLookbackH` | Hours before 00:00 UTC to still pull news candidates. |
+| `wallClockMinutes` | Soft budget; over it, translations/publish are skipped and the run is degraded. |
+| `autoPublish` | Rebuild the manifest and push after each run. |
 
-## Narratives: who writes the daily stories
+## The `.env` (gitignored — names only, never values)
 
-Set `narrator` in `config.json`:
+`TRADFI_API_KEY` (Twelve Data), `CLAUDE_CODE_OAUTH_TOKEN` (subscription token for the
+nightly `claude -p`), `CLAUDE_CLI_PATH` (full path to `claude.exe`), and optionally
+`ANTHROPIC_API_KEY` and `ALERT_WEBHOOK_URL`.
 
-| `narrator` | What it does | API key? | Cost |
-|---|---|---|---|
-| `"cli"` *(default)* | Fresh AI narratives via **headless Claude Code** (`claude -p`) on your existing login — one batched call per day | **No** | ~$2.50/mo on Haiku, ~$15/mo on Opus |
-| `"api"` | Direct Anthropic API | Yes (`ANTHROPIC_API_KEY`) | cheapest for AI prose |
-| `"template"` | Built-in plain-English wording | No | Free, offline |
-| `"auto"` | `api` if a key is set, else `cli`, else `template` | — | — |
+**Refresh the CLI token** when it expires (~yearly) with `claude setup-token`, then paste
+it into `.env` as `CLAUDE_CODE_OAUTH_TOKEN`. Check auth any time with
+`npm run check-narrator` — don't wait for a nightly failure.
 
-**No matter which AI path runs, a safety gate checks the output and rejects any number
-that wasn't in the real data**, falling back to that coin's template — so a wrong number
-can never reach the PDF.
+## The website & auto-publishing
 
-The default (`cli` + Haiku) gives genuinely fresh, varied narratives every day with **no
-API key** at about **$2.50/month** on your Claude login. For richer prose, set
-`"model": "claude-opus-4-8"` (≈$15/mo on the CLI route) — or use a direct API key, where
-Opus is much cheaper.
-
-**Requirements for the `cli` route:** Claude Code must be installed and **logged in** on
-this machine, and the scheduled task runs as your user so it can use that login. If you
-ever log out of Claude Code, the report quietly falls back to templates (never fails).
-
-## Where the news comes from (and why you can trust the numbers)
-
-The **"What moved the market"** page is compiled at generation time by the narrator:
-
-- **`cli`** (default): a separate `claude -p` run **with web search allowed** researches the
-  day's crypto headlines and returns them with sources.
-- **`api`**: uses the Anthropic **web_search** tool.
-- **`template` / offline / research fails**: the page falls back to a **truthful,
-  data-only** summary built from the real BTC/ETH/SOL numbers — and lists **no** headlines
-  rather than guessing.
-
-Whatever is resolved is saved to **`reports/<date>/news.json`**. That file is the source of
-truth for the page and **always wins**, so you can:
-
-- **pre-fill it** for a day (e.g. paste in your own researched, sourced items), or
-- **edit/curate** what the automated run produced before a meeting,
-
-then re-run the report for that date and it will use your version.
-
-**Guarantee:** the prompt forbids inventing a headline, outlet, URL, quote or figure, and
-tells the model to return an empty list if it can't verify — so an unsourced claim never
-reaches the report. Impact/confidence flags are editorial judgements, not guarantees.
-
-> The nightly scheduled task runs standalone (not nested inside another Claude session), so
-> its `claude -p` news research works there. If you ever run a report from *inside* another
-> Claude Code session, the nested `claude -p` is blocked and the day falls back to the
-> data-only summary — pre-fill `news.json` for that date if you need the headlines.
-
----
-
-## The website (GitHub Pages)
-
-The repo doubles as a website, served from the repo root at
-**https://gorkemtikic.github.io/futures-daily-report/**. It's a static single-page app
-styled to match the **Futures DeskMate** workspace (same dark theme, mint accent,
-dense/scannable layout), so the two clearly come from the same hand.
-
-| File | Role |
-|---|---|
-| `index.html` | The site shell (header, live BTC ticker, nav) |
-| `assets/styles.css` | DeskMate-matched design system |
-| `assets/app.js` | Report browser (search / filter / sort), themed reader, analytics dashboard |
-| `assets/analytics.js` | Client that sends usage events to the Worker |
-| `assets/config.js` | **The one file you edit after deploying the Worker** (`analyticsUrl`) |
-| `manifest.json` | Generated index of every report (built by `scripts/build-manifest.mjs`) |
-
-**How a report is shown:** the site lists reports from `manifest.json` and, when you open
-one, embeds that day's `summary_<date>.html` in a themed reader. So when you later
-**change the report format**, the site keeps working with zero changes — as long as the
-generator still writes `summary_<date>.html` and `summary_<date>.md` per day.
-
-## Auto-publishing
-
-With `"autoPublish": true` in `config.json`, every report run rebuilds `manifest.json`
-and pushes `reports/` to GitHub. GitHub Pages redeploys itself, so a new report appears on
-the site within a minute — no manual step. Requires this folder to stay a git repo with an
-`origin` remote and a logged-in git on the machine. A push failure is **non-fatal** (it
-never breaks report generation). To publish by hand instead:
-
-```bash
-node scripts/publish.mjs
-```
+The repo doubles as a static site served from its root. `scripts/build-manifest.mjs` writes
+a small `manifest.json` (fast first paint) plus a full `manifest.full.json` (fetched lazily
+on search). With `autoPublish` on, each run pushes `reports/` + the manifests and GitHub
+Pages redeploys itself. A diverged remote is rebased, never force-pushed; a failed push
+marks the run degraded.
 
 ## Usage analytics
 
-The **Analytics** tab (token-gated) shows who visits, **which reports they read**, **where
-they click**, sessions per day, countries and recent events. It's powered by a small
-Cloudflare Worker + D1 database — the same privacy-respecting design as DeskMate (hashed
-IPs, no cookies, no report content stored). It's a **one-time deploy**; see
-[`analytics-worker/README.md`](analytics-worker/README.md). Until you deploy it and set
-`analyticsUrl` in `assets/config.js`, the site runs fine with analytics simply disabled.
+The **Analytics** tab (token-gated) is powered by a small Cloudflare Worker + D1 — hashed
+IPs (per-day salted), no cookies, no report content. One-time deploy:
+[`analytics-worker/README.md`](analytics-worker/README.md).
 
 ---
 
 ## Notes
 
-- Market data is fetched **directly from Binance** (`fapi.binance.com`). It must run from
-  a network Binance allows — this desktop works; a cloud server or the Cloudflare Worker
-  would get blocked.
-- The report is **information only, not financial advice**.
-- "Last price" = the live traded price (drives realized PnL). "Mark price" = Binance's
-  smoothed fair price (drives liquidations). The gap between them is what this tool watches.
+- Market data is fetched **directly from the exchanges**; Binance/Bybit require a network
+  they allow (this desktop works; a cloud server would be geo-blocked).
+- Information only, **not financial advice**.

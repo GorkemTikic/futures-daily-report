@@ -1,19 +1,18 @@
 // Macro calendar collector — ForexFactory's this-week JSON.
 // Keeps US High-impact events (plus a few named Medium ones), converts every time to
-// UTC, and splits into today vs the rest of the week. The report is a UTC-day report,
-// so everything here is UTC.
+// UTC, and files them relative to the REPORT DAY (not the run day), so a report headed
+// "13 Sep" lists 13 Sep's releases — with their actual values — under "the report day",
+// then what's scheduled next. The report is a UTC-day report, so everything here is UTC.
 
-const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) FuturesDailyReport/2.0";
-// ForexFactory's this-week JSON (rolls forward through the week; past events are
-// dropped below so the "what's scheduled" list is forward-looking). On a weekend
-// boundary it can legitimately be empty — the report then says so rather than guessing.
+import { fetchJson } from "./http.js";
+
+// ForexFactory's this-week JSON (rolls forward through the week). On a weekend boundary
+// it can legitimately be empty — the report then says so rather than guessing.
 const SOURCES = ["https://nfs.faireconomy.media/ff_calendar_thisweek.json"];
-
 const MEDIUM_KEEP = /jobless claims|retail sales|powell|fomc/i;
+const DAY_MS = 86400000;
 
 function utcParts(iso) {
-  // ForexFactory dates are ISO 8601 with a US offset; Date parses the offset correctly,
-  // then we format in UTC.
   const d = new Date(iso);
   if (isNaN(d)) return null;
   const fmt = new Intl.DateTimeFormat("en-GB", {
@@ -25,20 +24,16 @@ function utcParts(iso) {
   return { ms: d.getTime(), dayKey, time: `${parts.hour}:${parts.minute}`, label: `${parts.weekday} ${parts.day} ${parts.month}, ${parts.hour}:${parts.minute} UTC` };
 }
 
-export async function collectCalendar(nowMs = Date.now()) {
+export async function collectCalendar({ nowMs = Date.now(), reportDayKey = null } = {}) {
   let raw = [];
   const failed = [];
   for (const url of SOURCES) {
     try {
-      const res = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const arr = await res.json();
+      const arr = await fetchJson(url, { timeoutMs: 20000 });
       if (Array.isArray(arr)) raw = raw.concat(arr);
     } catch (err) { failed.push({ url, err: String(err).slice(0, 60) }); }
   }
-  if (!raw.length) return { ok: false, source: SOURCES, err: failed.map((f) => f.err).join("; "), today: [], week: [] };
-
-  const todayKey = new Intl.DateTimeFormat("en-CA", { timeZone: "UTC", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(nowMs));
+  if (!raw.length) return { ok: false, source: SOURCES, err: failed.map((f) => f.err).join("; "), reportDay: [], next24h: [], week: [] };
 
   const kept = [];
   for (const e of raw) {
@@ -55,10 +50,10 @@ export async function collectCalendar(nowMs = Date.now()) {
   }
   kept.sort((a, b) => a.ms - b.ms);
 
-  return {
-    ok: true, source: SOURCES,
-    today: kept.filter((e) => e.dayKey === todayKey),
-    // upcoming only: future events not on today's date, within ~10 days
-    week: kept.filter((e) => e.dayKey !== todayKey && e.ms >= nowMs && e.ms <= nowMs + 10 * 24 * 3600e3),
-  };
+  const rdKey = reportDayKey || new Intl.DateTimeFormat("en-CA", { timeZone: "UTC", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(nowMs));
+  const reportDay = kept.filter((e) => e.dayKey === rdKey);              // includes actuals
+  const next24h = kept.filter((e) => e.ms > nowMs && e.ms <= nowMs + DAY_MS);
+  const week = kept.filter((e) => e.dayKey !== rdKey && e.ms > nowMs + DAY_MS && e.ms <= nowMs + 10 * DAY_MS);
+
+  return { ok: true, source: SOURCES, reportDayKey: rdKey, reportDay, next24h, week };
 }

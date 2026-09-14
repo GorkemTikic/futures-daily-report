@@ -19,3 +19,10 @@ analytics-worker/node_modules/
 
 # new-pipeline intermediate data packs
 reports/*/datapack.json
+
+# logs (kept on disk, NOT published — an API error string could carry a key in a URL)
+logs/
+logs/ALERTS.log
+
+# rolling operational state (public URLs, but pure churn — not needed by the site)
+reports/published-news.json

@@ -2,16 +2,16 @@
   "date": "2026-09-13",
   "kind": "market",
   "dateLong": "Sunday, 13 September 2026",
-  "coversUTC": "00:00–23:59 UTC",
+  "coversUTC": "2026-09-13 00:00–23:59 UTC",
   "oneLine": "Bitcoin and Ethereum fell slightly as Asian chip stocks tumbled on AI slowdown concerns; a Senate vote on crypto regulation is scheduled for September 15.",
   "newsCount": 9,
   "macro": {
-    "BTC": -0.5158495919804482,
-    "ETH": -1.6054600694788375
+    "BTC": -0.5870778153196887,
+    "ETH": -1.9628733360529431
   },
   "topMover": {
-    "symbol": "LSKUSDT",
-    "chgPct": 56.158
+    "symbol": "BRUSDT",
+    "chgPct": 27.842264914054592
   },
   "venues": [
     "Binance",
@@ -20,10 +20,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "14 Sept 2026, 01:49 UTC",
+  "generatedAtUTC": "14 Sept 11:35 UTC",
   "languages": [
     "en",
     "tr",
     "zh"
-  ]
+  ],
+  "status": "ok",
+  "degradedReasons": []
 }

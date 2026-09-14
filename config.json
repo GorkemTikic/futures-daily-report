@@ -30,7 +30,22 @@
   "_narrator": "Who writes the daily report prose/news/glossary (the new pipeline in pipeline/). 'auto' (recommended) = Anthropic API if ANTHROPIC_API_KEY is set in .env (robust for the nightly job — no OAuth expiry), else headless Claude Code (claude -p) on your login, else a truthful data-only report. 'api' pins the API; 'cli' pins claude -p (free but its login token expires and must be refreshed with `claude`); 'template' skips AI entirely. With 'auto' + a key, the API is tried first and claude -p is the automatic fallback. A data figure is never invented — only prose/news come from the model.",
 
   "model": "claude-haiku-4-5",
-  "_model": "Model the 'cli'/'api' narrators use. Default Haiku keeps the no-key CLI route cheap (~$1/mo) because each daily 'claude -p' call reloads Claude Code's system prompt. Set to 'claude-opus-4-8' for richer prose (~$15/mo on the CLI route; much cheaper via a direct API key).",
+  "_model": "Model the 'cli'/'api' narrators use. Default Haiku keeps the no-key CLI route cheap (~$1/mo) because each daily 'claude -p' call reloads Claude Code's system prompt. Set to 'claude-opus-4-8' for richer prose (~$15/mo on the CLI route; much cheaper via a direct API key). Validated against /^[A-Za-z0-9._-]+$/ before use.",
+
+  "maxTokens": 16384,
+  "_maxTokens": "Max output tokens for the synthesis and each translation. The full report (prose + up to ~12 news items + glossary + caveman) is large; too low a ceiling truncates the JSON and the run falls to data-only. Raise if you switch to a richer model.",
+
+  "moversMinQuoteVolUSD": 50000000,
+  "_moversMinQuoteVolUSD": "Liquidity floor (USD 24h quote volume) for a coin to be a headlined 'biggest mover'. Below this, coins are listed separately as 'newly listed / low-liquidity movers' so a 100%+ micro-cap swing isn't presented as the day's story.",
+
+  "newsLookbackH": 6,
+  "_newsLookbackH": "Hours before 00:00 UTC of the report day to still pull news candidates (for stories that broke late the previous evening). Items outside the report day are marked as context, not 'today'.",
+
+  "wallClockMinutes": 45,
+  "_wallClockMinutes": "Overall soft budget for one run. When exceeded, remaining optional work (translations, publish) is skipped, the run is marked degraded, and it exits non-zero rather than being killed mid-write by the scheduler's hard limit.",
+
+  "cliTimeoutMs": 300000,
+  "_cliTimeoutMs": "Per-call timeout for a 'claude -p' synthesis/translation. On timeout the whole process tree is killed.",
 
   "concurrency": 6,
   "_concurrency": "How many Binance requests to run at once. 6 is safe under the IP weight limit."
