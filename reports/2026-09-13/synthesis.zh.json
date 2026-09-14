@@ -1,165 +1,229 @@
 {
-  "oneLine": "比特币下跌0.6%，以太坊跌1.6%，但Lisk因链关闭公告和代币迁移触发器大涨64%，Civic和Power分别上涨32%和28%；比特币跨链桥遭到利用造成33.6万美元损失，半导体股票因DeepSeek AI效率新闻暴跌，《明确法案》参议院投票即将进行。",
-  "priceVolumeSummary": "五大主流交易所（币安、Bybit、OKX、Bitget、Gate.io）的比特币紧密交投于76,775美元附近（下跌0.59%），以太坊在2,484美元附近（下跌1.58%），日交易量分别为135亿美元和193亿美元。币安在两种资产上的成交量领先。",
-  "positioningSummary": "比特币和以太坊的资金费率基本保持正值（各交易所年化2–10%），表明交易者在两种资产上净看涨。全市场开仓量处于高位，表明市场杠杆敞口显著。截至9月11日的这一周，以太坊机构资金流入强于比特币。",
-  "stocksSummary": "韩国半导体股暴跌：中国AI初创公司DeepSeek宣布其最新模型所需高带宽内存（HBM）显著减少后，SK海力士下跌5%，三星电子下跌3.4%，引发对内存芯片需求的担忧。香港上市的杠杆芯片空头头寸（CSOP SK海力士2倍杠杆-9.4%，CSOP三星2倍杠杆-6.3%）也大幅抛售。受供应担忧推动，油价上涨3.2–3.4%（WTI、布伦特）。美股小幅上扬（标普500指数+0.85%，纳斯达克+0.88%）。",
+  "oneLine": "比特币和以太坊小幅下跌，亚洲芯片股因AI放缓担忧大幅下滑；美国参议院定于9月15日投票表决加密货币监管案。",
+  "caveman": "今天是市场担心的一天。比特币从77000美元小幅跌到76800美元，以太坊也跌了一点。大新闻是一家叫Anthropic的AI安全公司说，所有AI公司都应该放慢脚步，开发新程序要更谨慎。这吓坏了韩国和香港那些卖芯片的公司的投资者，因为他们担心如果AI开发速度变慢，这些公司卖不出那么多芯片。那边股票跌了3-4%。美国这边，一些投资者在赌股票会跌，他们赌赢了。9月15日，美国参议院要投票表决加密货币的新规则，但没人知道会不会通过。总的来说，今天的担心气氛比平时浓。",
+  "priceVolumeSummary": "比特币在76855美元，以太坊在2483美元，都小幅下跌（跌幅0.5-1.6%），币安、Bybit、OKX、Bitget和Gate的价格基本一样。币安的交易量最大，以太坊特别活跃（币安上成交额64亿美元）。",
+  "positioningSummary": "所有交易所的比特币多头资金费率都很高（币安年化9.5%，Gate年化9.5%），说明交易者虽然今天亏了钱，但还在坚持看涨。以太坊的资金费率也不低（Bitget年化10.6%，OKX年化6.3%）。未平仓合约总量没什么变化。一个波动很大的币Lisk出现了极端负资金费率（币安年化-2941%，Gate年化-4006%），这说明空头被严重压制，尽管币价涨了56%—这是大量空头被强行清仓的信号。",
+  "stocksSummary": "韩国和香港股市跌得很厉害，原因是Anthropic的首席执行官Dario Amodei在9月12-13日发表文章，呼吁放慢AI开发速度。韩国综合指数跌4.4%，SK海力士跌4.2%，三星电子跌3.4%，投资者重新估计芯片需求会下降。香港科技股涨跌不一：小米涨2.2%，腾讯涨0.5%，但专做AI的公司比如智谱AI跌了1%。中国AI公司（比如DeepSeek和Moonshot）的竞争也让人担心。美国股市没那么差—标普500涨0.85%，纳斯达克涨0.88%—但看空芯片的投资者赚了（SOXS涨7.6%），因为芯片期货大跌。石油因为中东局势紧张而涨（WTI涨2.9%，布伦特涨2.7%）；黄金和贵金属基本没动或小跌。",
   "movers": [
     {
-      "symbol": "LSK",
-      "explanation": "Lisk宣布其区块链将于2026年10月31日关闭，要求代币持有者在10月21日前迁移到以太坊。质押于9月10日无惩罚地解锁，用户争相在截止日期前采取行动，引发64%的涨幅。",
+      "symbol": "LSKUSDT",
+      "explanation": "Lisk币涨了56%，是因为日本交易所Coincheck宣布上线LSK并给持币者提供质押奖励，这引发了一波逼空，导致38百万美元的空头被强制平仓。预期主链关闭和可能的销毁代币的计划也吸引了散户关注这个小币种。",
       "hasCause": true
     },
     {
-      "symbol": "CVC",
-      "explanation": "Civic上涨32%，伴随着社区活动升温，但没有与此次上涨相关的具体公开声明。",
+      "symbol": "POWERUSDT",
+      "explanation": "Power币涨了40%，成交额5200万美元；没有从监管文件、交易所公告或新闻找到明确的理由。",
       "hasCause": false
     },
     {
-      "symbol": "POWER",
-      "explanation": "Power上涨28%，未发现明确的公开原因。",
+      "symbol": "BRUSDT",
+      "explanation": "BR币涨了25%，成交额不大；没有找到明确的理由。",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Symbiosis比特币跨链桥遭利用：460亿syBTC被铸造，攻击者获利33.6万美元",
-        "what": "Symbiosis的比特币跨链桥的一处漏洞允许攻击者铸造约46.1亿枚无抵押的syBTC代币（名义价值约461亿美元），但攻击者实际仅获利约33.6万美元。Symbiosis恢复了约15 BTC，并对追回资金提供20%的赏金。仅比特币跨链桥被暂停，其他路由保持运营。",
-        "coins": "BTC, syBTC",
-        "timeUTC": "2026-09-13 10:31 UTC",
+        "headline": "Anthropic首席执行官呼吁放慢AI开发速度以确保安全",
+        "what": "Anthropic首席执行官Dario Amodei发表长文，呼吁放慢前沿AI开发的速度，以确保安全措施能跟得上。OpenAI首席执行官Sam Altman公开支持，Elon Musk也说Amodei说得对。这个消息吓坏了全球芯片股投资者，因为他们开始重新估计，如果AI基础设施支出停滞，芯片需求会怎样。",
+        "coins": "比特币、以太坊、所有加密货币",
+        "timeUTC": "2026-09-12 to 2026-09-13",
+        "source": "Bloomberg, Business Standard",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact"
+      },
+      {
+        "headline": "Symbiosis比特币跨链桥被黑客利用；恢复15 BTC，实际损失33.6万美元",
+        "what": "一名黑客在9月11日利用Symbiosis的比特币跨链桥漏洞，铸造了约461亿美元名义上的虚假syBTC，但只在检测前实现了33.6万美元的收益。协议团队恢复了15 BTC，并给黑客提供了20%的白帽奖励。Symbiosis的其他路线（EVM、TRON、TON）没有受影响。",
+        "coins": "比特币",
+        "timeUTC": "2026-09-11 04:28 UTC",
         "source": "The Block",
         "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
       },
       {
-        "headline": "高盛现预期美联储于9月16日加息25个基点",
-        "what": "高盛收回之前不加息的预测，现预期美联储在9月15–16日会议上将联邦基金利率上调25个基点（0.25%）。市场定价暗示在美国CPI数据好于预期后，加息概率约为90%。这将是自2024年3月以来的首次加息。",
-        "coins": "BTC, ETH (macro sensitivity)",
-        "timeUTC": "2026-09-13 05:00 UTC",
+        "headline": "Circle以4亿美元收购Tazapay，扩大USDC在新兴市场的影响力",
+        "what": "Circle同意以全股票的方式收购跨境支付公司Tazapay，交易金额为4亿美元。Tazapay每年处理250亿美元的支付业务，在超过100个市场有银行合作伙伴，在其中约60%的市场支持稳定币结算。这是Circle自收购Poloniex以来最大的一笔交易，表明该公司想在新兴经济体中推广USDC，那地方长期被竞争对手USDT占据。",
+        "coins": "以太坊（USDC运行在以太坊上）",
+        "timeUTC": "2026-09-09 (filing date)",
         "source": "CoinDesk",
-        "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist"
-      },
-      {
-        "headline": "DeepSeek AI模型降低内存需求，半导体股承压",
-        "what": "中国AI初创公司DeepSeek宣布一款新模型所需高带宽内存（HBM）远低于预期，引发内存芯片股票急剧下跌。9月13日，韩国芯片制造商SK海力士和三星电子分别下跌5%和3.4%。香港上市的杠杆芯片头寸也大幅下跌，引发对长期HBM需求和产能投资的疑虑。",
-        "coins": "Indirect (macro/tradfi sensitivity)",
-        "timeUTC": "2026-09-11 to 2026-09-13",
-        "source": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-samsung-shares-dip-071811226.html"
+        "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "《明确法案》参议院投票定于9月15日美东时间14:15",
-          "what": "美国参议院将于9月15日美东时间下午2:15（18:15 UTC）就全面的《明确法案》加密市场监管进行终止冗长辩论投票。该投票需要60票才能允许辩论继续。共和党控制53个席位，因此需要至少7名民主党人支持。由于在道德规则、DeFi开发者责任和稳定币收益等问题上存在未解决的争议，最近民调将通过概率定为10–16%。",
-          "coins": "All crypto",
-          "timeUTC": "2026-09-15 18:15 UTC (scheduled)",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns"
-        },
-        {
-          "headline": "墨西哥当局因涉嫌盗电突击搜查隐秘加密矿场",
-          "what": "墨西哥当局在一处水电大坝附近的秘密加密矿场进行了突击搜查，怀疑存在盗电和洗钱行为。这是自2025年初以来该地区的第四次类似发现，凸显了执法部门对无证矿场的持续打击力度。",
-          "coins": "General crypto mining",
-          "timeUTC": "2026-09-13 08:49 UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564"
+          "headline": "参议院《明确法案》定于9月15日表决",
+          "what": "美国参议院将在9月15日美东时间下午2时15分（UTC 18:15）就《明确法案》进行程序投票，这是一部重要的加密货币监管框架。投票需要60名参议员支持才能进入辩论阶段；共和党有53个席位，所以需要7名民主党人支持才能通过。还有三个争议条款没有解决：特朗普总统加密资产的伦理规则、DeFi开发者责任，以及Coinbase的USDC收益。预测市场显示该法案在2026年通过的概率已经跌到16%。",
+          "coins": "所有加密货币",
+          "timeUTC": "2026-09-15 18:15 UTC",
+          "source": "The Motley Fool, Bitcoin Foundation",
+          "url": "https://crypto.news/clarity-act-september-15-vote-cloture-crypto-regulation/"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Circle同意以4亿美元收购Tazapay以拓展USDC覆盖范围",
-          "what": "Circle Internet Group宣布将以4亿美元股票收购新加坡B2B跨境支付平台Tazapay的最终协议。该交易将60多个银行合作伙伴和100多个支付市场纳入Circle生态。Tazapay每年在100个市场处理超过250亿美元交易量，其中约60%的交易量已涉及稳定币。交易预计将于2027年关闭，待监管批准。",
-          "coins": "USDC",
-          "timeUTC": "2026-09-08 00:00 UTC",
+          "headline": "Circle以4亿美元收购Tazapay，扩大USDC在新兴市场的影响力",
+          "what": "Circle同意以全股票的方式收购跨境支付公司Tazapay，交易金额为4亿美元。Tazapay每年处理250亿美元的支付业务，在超过100个市场有银行合作伙伴，在其中约60%的市场支持稳定币结算。这是Circle自收购Poloniex以来最大的一笔交易，表明该公司想在新兴经济体中推广USDC，那地方长期被竞争对手USDT占据。",
+          "coins": "以太坊（USDC）",
+          "timeUTC": "2026-09-09",
           "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million"
+          "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coincheck上线Lisk币并提供质押奖励",
+          "what": "日本交易所Coincheck推出Lisk（LSK）上线，并为持币者自动提供质押奖励，这对币价涨56%和38百万美元的空头被强制平仓起到了推动作用。",
+          "coins": "Lisk",
+          "timeUTC": "2026-09-13 (timing inferred from surge date)",
+          "source": "Bloom Bit, Crypto Briefing",
+          "url": "https://en.bloomingbit.io/feed/news/120253"
         }
       ],
       "Hacks, exploits and outages": [
         {
-          "headline": "Revolut确认客户数据因社交工程攻击而泄露",
-          "what": "Revolut披露了客户数据因精心设计的社交工程攻击而泄露，攻击者使用假冒官方政府机构域名发送欺诈邮件。泄露数据包括身份证件、护照、自拍照和完整交易历史。公司声称其内部系统未被入侵，客户资金保持安全。账户凭证未泄露。",
-          "coins": "General fintech (affects crypto users)",
-          "timeUTC": "2026-09-12 00:00 UTC",
-          "source": "TechCrunch",
+          "headline": "Symbiosis比特币跨链桥被黑客利用；恢复15 BTC，实际损失33.6万美元",
+          "what": "一名黑客在9月11日利用Symbiosis的比特币跨链桥漏洞，铸造了约461亿美元名义上的虚假syBTC，但只在检测前实现了33.6万美元的收益。协议团队恢复了15 BTC，并给黑客提供了20%的白帽奖励。Symbiosis的其他路线（EVM、TRON、TON）没有受影响。",
+          "coins": "比特币",
+          "timeUTC": "2026-09-11 04:28 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
+        },
+        {
+          "headline": "Revolut确认客户数据被黑客通过伪造政府邮件窃取",
+          "what": "金融科技公司Revolut披露，一个未授权方伪造政府机构名义发送邮件，借此骗取了敏感的客户数据。泄露的信息包括身份证件（护照、驾驶证）、自拍照和交易记录，影响了5万多名客户。Revolut的系统和客户资金没有被破坏。该公司已向监管机构和执法部门报告。",
+          "coins": "非加密货币具体事件；金融科技安全事件",
+          "timeUTC": "2026-09-12 (disclosure date)",
+          "source": "TechCrunch, Yahoo Finance",
           "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Anthropic首席执行官呼吁放慢AI开发速度以确保安全",
+          "what": "Anthropic首席执行官Dario Amodei发表长文，呼吁放慢前沿AI开发的速度，以确保安全措施能跟得上。OpenAI首席执行官Sam Altman公开支持，Elon Musk也说Amodei说得对。这个消息吓坏了全球芯片股投资者，因为他们开始重新估计，如果AI基础设施支出停滞，芯片需求会怎样。",
+          "coins": "比特币、以太坊（通过整体风险情绪）",
+          "timeUTC": "2026-09-12 to 2026-09-13",
+          "source": "Bloomberg, Business Standard",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-11",
-    "summary": "比特币现货ETF在9月11日出现1,330万美元的净流出，延续了长达一周的流出走势（9月8–11日累计：-4.627亿美元）。以太坊现货ETF在同日录得强劲的2.164亿美元净流入，创下本周日均最大流入，表明资金从比特币轮转至以太坊。",
-    "source": "CryptoBriefing",
-    "url": "https://cryptobriefing.com/bitcoin-etf-outflows-ethereum-etf-inflows-september/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Clarity Act Senate cloture vote (Sun Sept 15 at 18:15 UTC)",
-      "typicalReaction": "对加密货币行业影响重大。成功的终止冗长辩论投票（60票以上）将允许进行全院辩论，这对行业是利好；失败将是打击。目前通过概率估计为10–16%。"
+      "event": "Federal Funds Rate Decision (Wednesday 2026-09-16, 18:00 UTC)",
+      "typicalReaction": "预计将从3.75%上升到4%。这是本周加密货币市场最重要的经济事件—加息通常会推高美元，可能压低加密货币等风险资产。如果美联储暂停加息或释放鸽派信号，可能会支持行情上涨。"
     },
     {
-      "event": "Retail Sales and Core Retail Sales (Wed Sept 16 at 12:30 UTC)",
-      "typicalReaction": "中等影响。消费者支出数据影响美联储前景和市场情绪。美元强势通常会对加密货币造成压力。"
+      "event": "US Retail Sales & Core Retail Sales (Wednesday 2026-09-16, 12:30 UTC)",
+      "typicalReaction": "美联储决议前的数据。如果消费支出好于预期，会加强加息的理由；如果消费疲软，可能暗示经济放缓，对加密货币有利。"
     },
     {
-      "event": "FOMC Statement, Federal Funds Rate decision, and Press Conference (Wed Sept 16 at 18:00–18:30 UTC)",
-      "typicalReaction": "高影响力事件。市场现在预期加息25个基点（0.25%）。比特币和股票在加息信号上通常会抛售，尽管这一举措已基本反映在价格中。"
+      "event": "FOMC Economic Projections & Statement (Wednesday 2026-09-16, 18:00 UTC)",
+      "typicalReaction": "对未来利率路径的前瞻指引将被密切关注。鹰派预期通常压低加密货币；鸽派信号支持上行。"
+    },
+    {
+      "event": "FOMC Press Conference (Wednesday 2026-09-16, 18:30 UTC)",
+      "typicalReaction": "与美联储主席的实时问答。市场往往会对语气和意外言论做出剧烈反应。"
     }
   ],
   "glossary": [
     {
-      "term": "基点（bp）",
-      "definition": "百分之一（0.01%）。25个基点加息意味着将利率提高0.25%。"
+      "term": "年化资金费率",
+      "definition": "交易者借钱持有杠杆头寸需要支付的年度百分比成本。如果费率是10%年化，持有多头的交易者大概每年支付10%；做空的交易者每年获得10%。高费率说明交易者在激进做多；负费率说明在做空。"
     },
     {
-      "term": "跨链桥（加密）",
-      "definition": "一种在两条独立区块链之间转移加密资产的服务，通过在一条链上锁定资产并在另一条链上释放等值代币来实现。"
+      "term": "空头",
+      "definition": "认为价格会下跌的投资者或交易者。"
     },
     {
-      "term": "终止冗长辩论投票",
-      "definition": "美国参议院的一种程序性投票，用于结束辩论并强制对法案进行最终投票。需要60票才能通过。"
+      "term": "比特币跨链桥",
+      "definition": "一种允许比特币转移到其他区块链（比如以太坊）的程序。比如，你可以存入真实比特币，在以太坊上获得syBTC；后来可以把syBTC换回真实比特币。跨链桥被黑客利用是指黑客骗过桥接程序，让它铸造虚假的比特币替代品。"
     },
     {
-      "term": "联邦基金利率",
-      "definition": "商业银行之间隔夜拆借资金的利率。由美联储以目标范围的形式设定。"
+      "term": "多头",
+      "definition": "认为价格会上升的投资者或交易者。"
     },
     {
-      "term": "FOMC（美联储公开市场委员会）",
-      "definition": "美国联邦储备委员会的政策制定委员会，每年召开八次会议以制定货币政策。"
+      "term": "程序投票（Cloture Vote）",
+      "definition": "参议院的一种程序，用来结束辩论并强行进行投票。需要60票才能通过。如果通过，参议院可以投票表决主要法案。"
+    },
+    {
+      "term": "抵押品",
+      "definition": "你存入以借钱或进行杠杆交易的资产。如果你的头寸亏损太多，交易所会卖出你的抵押品来收回贷款。"
+    },
+    {
+      "term": "加密货币（或数字货币）",
+      "definition": "运行在区块链（分布式账本）上的数字货币，不由中央银行控制。比特币和以太坊是加密货币。"
+    },
+    {
+      "term": "以太坊",
+      "definition": "2015年推出的区块链和加密货币。与比特币不同，以太坊可以在其上运行程序（智能合约）。它的代币叫以太币（ETH）。"
+    },
+    {
+      "term": "ETF资金流",
+      "definition": "一天内流入或流出交易型基金（ETF）的净投资额。大额净流入可能表明机构投资者在买入；大额净流出表明在抛售。"
     },
     {
       "term": "资金费率",
-      "definition": "永续期货合约中持有多头和空头头寸的交易者之间的定期支付。正资金费率意味着多头交易者向空头交易者支付。"
+      "definition": "交易者为了持有杠杆头寸需要支付的利率。正费率说明多头向空头支付；负费率说明空头向多头支付。"
     },
     {
-      "term": "HBM（高带宽内存）",
-      "definition": "用于先进AI和图形处理器的一种计算机内存芯片。来自AI芯片制造商的高需求使三星和SK海力士等内存芯片制造商受益。"
+      "term": "期货（或永续合约）",
+      "definition": "一种标准化的赌注，让你以杠杆（借来的钱）投注加密货币价格上升还是下降。与在特定日期到期的传统期货不同，永续合约只要你保持抵押品，就可以无限期持有。"
     },
     {
-      "term": "杠杆",
-      "definition": "借入资金以放大交易规模。更高的杠杆会增加潜在收益和潜在损失。"
+      "term": "硬分叉",
+      "definition": "区块链的重大升级，改变规则—旧版本不再兼容。有时这个词也用来指完全关闭一条链（如Lisk的情况）。"
     },
     {
-      "term": "开仓量（OI）",
-      "definition": "资产上所有未平仓衍生品合约（期货、永续、期权）的总美元价值。高开仓量表明市场杠杆敞口显著。"
+      "term": "杠杆（或保证金）",
+      "definition": "借钱进行交易，这样你可以控制比你实际出钱更大的头寸。比如10倍杠杆意味着你用你的抵押品控制10倍的金额。杠杆会同时放大你的盈利和亏损。"
     },
     {
-      "term": "永续期货（perps）",
-      "definition": "允许交易者在没有到期日期的情况下对价格走势进行押注的衍生品合约，类似于现货交易但配有杠杆。"
+      "term": "强制平仓",
+      "definition": "当杠杆头寸亏损那么多，交易所自动卖出它来收回借来的钱。交易者会失去抵押品。"
     },
     {
-      "term": "合成代币（syBTC等）",
-      "definition": "在一条区块链上发行的代币，代表另一条区块链上的资产（例如syBTC代表比特币但存在于另一条链上）。如果底层担保品丢失或未经支持就被铸造，合成代币将失去价值。"
+      "term": "标记价格",
+      "definition": "交易所通过使用各地现货价格、指数价格和时间衰减计算出的期货合约公平价格。用来判断一个杠杆头寸是否应该被平仓。标记价格与最后成交价不同，这样做是为了防止操纵。"
+    },
+    {
+      "term": "未平仓头寸（OI）",
+      "definition": "一个交易所所有交易者的期货合约总数（多头+空头）。未平仓头寸上升说明有新的杠杆进入市场；下降说明头寸被平仓。"
+    },
+    {
+      "term": "永续合约（或永续交换）",
+      "definition": "没有到期日期的期货合约，让你用杠杆投注价格方向。你定期支付或收取资金费率来维持多头或空头头寸。"
+    },
+    {
+      "term": "空头",
+      "definition": "赌价格会下跌的头寸。比如，你在76000美元时看空比特币，价格跌到75000美元，你就赚了。如果价格涨到77000美元，你就亏了。"
+    },
+    {
+      "term": "逼空",
+      "definition": "价格急剧上升，迫使看空的交易者买回头寸来避免被平仓，这又推高了价格，导致更多空头被平仓—形成一个反馈循环。"
     },
     {
       "term": "稳定币",
-      "definition": "旨在保持稳定价格的加密货币，通常与美元挂钩（例如USDC、USDT）。"
+      "definition": "一种设计用来保持稳定价格的加密货币—通常与美元或其他法定货币挂钩1:1。Circle的USDC和Tether的USDT是主要例子。"
+    },
+    {
+      "term": "质押",
+      "definition": "锁定加密货币代币来赚取奖励。在某些区块链上，质押者帮助保护网络并获得新代币作为报酬。在Coincheck等交易所上，质押更简单：你持有一种代币，交易所给你支付利息。"
+    },
+    {
+      "term": "交易量",
+      "definition": "在一段时间内某个交易所交易的总美元（或代币）金额。高交易量说明交易活跃、流动性好；低交易量说明买卖方较少。"
+    },
+    {
+      "term": "USDC",
+      "definition": "Circle发行的稳定币，价值与美元1:1挂钩。它由美国国债和银行存款支撑。"
     },
     {
       "term": "交易所",
-      "definition": "买卖加密货币期货的交易所或交易平台。"
+      "definition": "交易加密货币期货的交易所或市场。本报告涵盖币安、Bybit、OKX、Bitget和Gate。"
     }
   ],
   "_source": "cli-zh"

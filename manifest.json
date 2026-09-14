@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-14T01:29:51.913Z",
+  "generatedAt": "2026-09-14T01:55:43.570Z",
   "count": 89,
   "latest": "2026-09-13",
   "reports": [
@@ -12,14 +12,14 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -0.5231845883288397,
-        "ETH": -1.5941276491175322
+        "BTC": -0.5158495919804482,
+        "ETH": -1.6054600694788375
       },
-      "marketSummary": "Bitcoin fell 0.6% and Ethereum dropped 1.6%, but Lisk surged 64% following its chain-shutdown announcement and token migration triggers, while Civic and Power gained 32% and 28%; a Bitcoin bridge exploit surfaced $336K in losses, semiconductor stocks tumbled on DeepSeek AI efficiency news, and the Clarity Act Senate vote looms.",
-      "newsCount": 7,
+      "marketSummary": "Bitcoin and Ethereum fell slightly as Asian chip stocks tumbled on AI slowdown concerns; a Senate vote on crypto regulation is scheduled for September 15.",
+      "newsCount": 9,
       "topMover": {
         "symbol": "LSKUSDT",
-        "chgPct": 45.014
+        "chgPct": 56.158
       },
       "languages": [
         "en",

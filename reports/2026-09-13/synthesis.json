@@ -1,165 +1,229 @@
 {
-  "oneLine": "Bitcoin fell 0.6% and Ethereum dropped 1.6%, but Lisk surged 64% following its chain-shutdown announcement and token migration triggers, while Civic and Power gained 32% and 28%; a Bitcoin bridge exploit surfaced $336K in losses, semiconductor stocks tumbled on DeepSeek AI efficiency news, and the Clarity Act Senate vote looms.",
-  "priceVolumeSummary": "All five major venues (Binance, Bybit, OKX, Bitget, Gate) traded Bitcoin tightly around $76,775 (down 0.59%) and Ethereum around $2,484 (down 1.58%), with $13.5 billion and $19.3 billion in daily volume respectively. Binance led volume across both assets.",
-  "positioningSummary": "Bitcoin and Ethereum funding rates remained mostly positive (2–10% annualized across venues), indicating traders were net-long on both. Open interest elevated across the board, suggesting significant leverage in the market. Ethereum saw stronger institutional inflows than Bitcoin in the week through September 11.",
-  "stocksSummary": "Korean semiconductor stocks crashed: SK Hynix fell 5% and Samsung Electronics dropped 3.4% after Chinese AI startup DeepSeek announced its latest model requires significantly less high-bandwidth memory, raising questions about memory-chip demand. Hong Kong leveraged chip shorts (CSOP SK Hynix 2x -9.4%, CSOP Samsung 2x -6.3%) also sold off sharply. Oil gained 3.2–3.4% on supply concerns (WTI, Brent). US equities posted modest gains (S&P 500 +0.85%, Nasdaq +0.88%).",
+  "oneLine": "Bitcoin and Ethereum fell slightly as Asian chip stocks tumbled on AI slowdown concerns; a Senate vote on crypto regulation is scheduled for September 15.",
+  "caveman": "Today was a worried day in money markets. Bitcoin dropped a tiny bit (from $77,000 to $76,800) and Ethereum also fell a little. The big news was that Anthropic, a company building safe AI systems, said that AI companies should slow down and be more careful about how fast they build new programs. This scared investors who own computer chip companies in Korea and Hong Kong, because they thought these companies would sell fewer chips if AI development slows. Stock prices there dropped 3–4%. In America, some investors are betting that stocks will go down, and those bets won today. On September 15, there's an important vote in the Senate about new rules for cryptocurrency, but nobody knows if it will pass. Overall, it was a day with more worry than usual.",
+  "priceVolumeSummary": "Bitcoin at $76,855 and Ethereum at $2,483 declined modestly (down 0.5–1.6%) with near-identical pricing across Binance, Bybit, OKX, Bitget, and Gate. Binance led trading volume for both majors, with ETH attracting particularly heavy flow ($6.4 billion on Binance).",
+  "positioningSummary": "Funding rates on major Bitcoin positions remained elevated across venues (Binance 9.5% annualized, Gate 9.5%), showing traders still holding bullish bets despite the day's decline. Ethereum funding was also moderately high (Bitget 10.6%, OKX 6.3%). Open interest remained stable. The volatile mover Lisk exhibited extreme negative funding rates (Binance −2,941% annualized, Gate −4,006%), indicating severe short positioning despite its 56% price surge—a sign of forced short liquidations.",
+  "stocksSummary": "Korean and Hong Kong equities took heavy losses following Anthropic CEO Dario Amodei's published call for slower AI development (September 12–13). The KOSPI fell 4.4% with SK Hynix down 4.2% and Samsung Electronics down 3.4%, as investors repriced expectations for semiconductor demand. Hong Kong tech stocks were mixed: Xiaomi rose 2.2% and Tencent +0.5%, but AI-focused names like Zhipu AI slipped 1.0%. Fears of Chinese AI competition (DeepSeek, Moonshot) compounded concerns. US equities held steadier—the S&P 500 gained 0.85% and Nasdaq 0.88%—though leveraged short positions (SOXS +7.6%) rallied as chip futures sank. Oil gained on Middle East tensions (WTI +2.9%, Brent +2.7%); gold and precious metals were flat to down.",
   "movers": [
     {
-      "symbol": "LSK",
-      "explanation": "Lisk announced its blockchain will shut down by October 31, 2026, requiring token holders to migrate to Ethereum by October 21. Staking was unlocked without penalty on September 10, sparking a 64% surge as users rushed to act on the deadline.",
+      "symbol": "LSKUSDT",
+      "explanation": "Lisk surged 56% following Coincheck's announcement of LSK listing and staking rewards, triggering a short squeeze that liquidated $38 million in bearish positions. Expectations for the main chain's shutdown and a potential token burn also drove retail interest into the altcoin.",
       "hasCause": true
     },
     {
-      "symbol": "CVC",
-      "explanation": "Civic rose 32% with elevated community activity but no specific public announcement tied to the move.",
+      "symbol": "POWERUSDT",
+      "explanation": "Power rallied 40% on $52 million in futures volume; no clear public cause identified from regulatory filings, exchange announcements, or news sources.",
       "hasCause": false
     },
     {
-      "symbol": "POWER",
-      "explanation": "Power gained 28% with no clear public cause identified.",
+      "symbol": "BRUSDT",
+      "explanation": "BR gained 25% with modest volume; no clear public cause identified.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Symbiosis Bitcoin bridge exploit: 46B syBTC minted, attacker nets $336K",
-        "what": "A vulnerability in Symbiosis's Bitcoin Bridge allowed an attacker to mint approximately 46.1 billion unbackedned syBTC tokens (notional value ~$46.1 billion), though the attacker realized only about $336,000 in proceeds. Symbiosis recovered roughly 15 BTC and offered a 20% bounty on recovered funds. Only the Bitcoin Bridge was halted; other routes remained operational.",
-        "coins": "BTC, syBTC",
-        "timeUTC": "2026-09-13 10:31 UTC",
+        "headline": "Anthropic Chief Urges Slower AI Development for Safety",
+        "what": "Anthropic CEO Dario Amodei published an essay calling for a deliberate slowdown in frontier AI development to ensure safety protocols are robust. OpenAI CEO Sam Altman publicly agreed, and Elon Musk said Amodei was correct. The announcement spooked chip stocks globally, as investors repriced semiconductor demand if AI infrastructure spending plateaus.",
+        "coins": "Bitcoin, Ethereum, all crypto",
+        "timeUTC": "2026-09-12 to 2026-09-13",
+        "source": "Bloomberg, Business Standard",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact"
+      },
+      {
+        "headline": "Symbiosis Bitcoin Bridge Exploited; 15 BTC Recovered, $336K Realized Loss",
+        "what": "An attacker exploited Symbiosis's Bitcoin Bridge on September 11, minting approximately $46.1 billion notional in unbacked syBTC but realizing only $336,000 in actual proceeds before detection. The protocol team recovered 15 BTC and offered the attacker a 20% white-hat bounty. Other Symbiosis routes (EVM, TRON, TON) remained unaffected.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-11 04:28 UTC",
         "source": "The Block",
         "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
       },
       {
-        "headline": "Goldman Sachs now expects 25 basis point Fed rate hike on September 16",
-        "what": "Goldman Sachs retracted its prior forecast of no rate hike and now expects the Federal Reserve to raise the federal funds rate by 25 basis points (0.25%) at its September 15–16 meeting. Market pricing implied roughly 90% odds of a hike following better-than-expected US CPI data. This would be the first rate increase since March 2024.",
-        "coins": "BTC, ETH (macro sensitivity)",
-        "timeUTC": "2026-09-13 05:00 UTC",
+        "headline": "Circle Acquires Tazapay for $400 Million to Expand USDC Reach into Emerging Markets",
+        "what": "Circle agreed to acquire cross-border payments firm Tazapay for $400 million in an all-stock deal. Tazapay operates $25 billion in annualized payment volume, banking partnerships in over 100 markets, and stablecoin rails in roughly 60% of them. The acquisition—Circle's largest since Poloniex—signals institutional focus on USDC adoption in emerging economies where rival Tether has long been entrenched.",
+        "coins": "Ethereum (USDC runs on Ethereum)",
+        "timeUTC": "2026-09-09 (filing date)",
         "source": "CoinDesk",
-        "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist"
-      },
-      {
-        "headline": "DeepSeek AI model reduces memory requirements, weighing on semiconductor stocks",
-        "what": "Chinese AI startup DeepSeek announced a new model requiring significantly less high-bandwidth memory (HBM) than expected, sparking a sharp selloff in memory-chip stocks. South Korean chipmakers SK Hynix and Samsung Electronics fell 5% and 3.4% respectively on September 13. Hong Kong-listed leveraged chip positions also plunged, raising questions about long-term HBM demand and capacity investments.",
-        "coins": "Indirect (macro/tradfi sensitivity)",
-        "timeUTC": "2026-09-11 to 2026-09-13",
-        "source": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-samsung-shares-dip-071811226.html"
+        "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "Clarity Act Senate cloture vote scheduled for September 15 at 2:15 p.m. ET",
-          "what": "The US Senate will hold a cloture vote (procedural gatekeeping test) on the comprehensive Clarity Act crypto-market regulation on September 15 at 2:15 p.m. ET (18:15 UTC). The vote requires 60 votes to allow debate to proceed. Republicans control 53 seats, so at least 7 Democrats are needed. Recent polls put passage odds at 10–16% due to unresolved disputes over ethics rules, DeFi developer liability, and stablecoin yields.",
+          "headline": "Senate Clarity Act Cloture Vote Scheduled for September 15",
+          "what": "The U.S. Senate will hold a procedural cloture vote on September 15 at 14:15 EDT (18:15 UTC) on the Clarity Act, a major crypto regulatory framework. The vote requires 60 senators to proceed to debate; Republicans hold 53 seats, so passage requires seven Democrats. Three disputed sections remain unresolved: ethics rules for President Trump's crypto holdings, DeFi developer liability, and Coinbase's USDC yield revenue. Polymarket odds for the bill becoming law in 2026 have collapsed to 16%.",
           "coins": "All crypto",
-          "timeUTC": "2026-09-15 18:15 UTC (scheduled)",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns"
-        },
-        {
-          "headline": "Mexican authorities raid hidden crypto mine on power-theft suspicion",
-          "what": "Mexican authorities conducted a raid on a clandestine crypto mining operation near a hydroelectric dam, suspecting power theft and money laundering. This is the fourth such discovery in the region since early 2025, highlighting continued law-enforcement pressure on unregulated mining.",
-          "coins": "General crypto mining",
-          "timeUTC": "2026-09-13 08:49 UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564"
+          "timeUTC": "2026-09-15 18:15 UTC",
+          "source": "The Motley Fool, Bitcoin Foundation",
+          "url": "https://crypto.news/clarity-act-september-15-vote-cloture-crypto-regulation/"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Circle agrees to acquire Tazapay for $400 million to expand USDC reach",
-          "what": "Circle Internet Group announced a definitive agreement to acquire Tazapay, a Singapore-based B2B cross-border payments platform, for $400 million in stock. The deal brings 60+ banking partners and 100+ payout markets into the Circle ecosystem. Tazapay processes over $25 billion annually across 100 markets, with roughly 60% of transaction volume already involving stablecoins. Deal expected to close in 2027 pending regulatory approval.",
-          "coins": "USDC",
-          "timeUTC": "2026-09-08 00:00 UTC",
+          "headline": "Circle Acquires Tazapay for $400 Million to Expand USDC Reach into Emerging Markets",
+          "what": "Circle agreed to acquire cross-border payments firm Tazapay for $400 million in an all-stock deal. Tazapay operates $25 billion in annualized payment volume, banking partnerships in over 100 markets, and stablecoin rails in roughly 60% of them. The acquisition—Circle's largest since Poloniex—signals institutional focus on USDC adoption in emerging economies where rival Tether has long been entrenched.",
+          "coins": "Ethereum (USDC)",
+          "timeUTC": "2026-09-09",
           "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million"
+          "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coincheck Lists Lisk with Staking Rewards",
+          "what": "Japan's Coincheck exchange added Lisk (LSK) listing with automatic staking rewards for holders, contributing to the token's 56% daily surge alongside a short squeeze that liquidated $38 million.",
+          "coins": "Lisk",
+          "timeUTC": "2026-09-13 (timing inferred from surge date)",
+          "source": "Bloom Bit, Crypto Briefing",
+          "url": "https://en.bloomingbit.io/feed/news/120253"
         }
       ],
       "Hacks, exploits and outages": [
         {
-          "headline": "Revolut confirms customer data breach via social-engineering attack",
-          "what": "Revolut disclosed that customer data was exposed through a sophisticated social-engineering attack using a fraudulent email sent through an official government agency domain. Exposed data included identity documents, passports, selfies, and complete transaction histories. The company states its internal systems were not compromised and customer funds remain secure. Account credentials were not exposed.",
-          "coins": "General fintech (affects crypto users)",
-          "timeUTC": "2026-09-12 00:00 UTC",
-          "source": "TechCrunch",
+          "headline": "Symbiosis Bitcoin Bridge Exploited; 15 BTC Recovered, $336K Realized Loss",
+          "what": "An attacker exploited Symbiosis's Bitcoin Bridge on September 11, minting approximately $46.1 billion notional in unbacked syBTC but realizing only $336,000 in actual proceeds before detection. The protocol team recovered 15 BTC and offered the attacker a 20% white-hat bounty. Other Symbiosis routes (EVM, TRON, TON) remained unaffected.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-11 04:28 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
+        },
+        {
+          "headline": "Revolut Confirms Customer Data Breach via Fake Government Email",
+          "what": "Fintech Revolut disclosed that an unauthorized party used a fraudulent email impersonating a government agency to extract sensitive customer data. Exposed information included identity documents (passports, driver's licenses), selfies, and transaction histories affecting over 50,000 customers. Revolut's systems and customer funds were not compromised. The company alerted relevant regulatory and enforcement agencies.",
+          "coins": "Not crypto-specific; fintech security incident",
+          "timeUTC": "2026-09-12 (disclosure date)",
+          "source": "TechCrunch, Yahoo Finance",
           "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Anthropic Chief Urges Slower AI Development for Safety",
+          "what": "Anthropic CEO Dario Amodei published an essay calling for a deliberate slowdown in frontier AI development to ensure safety protocols are robust. OpenAI CEO Sam Altman publicly agreed, and Elon Musk said Amodei was correct. The announcement spooked chip stocks globally, as investors repriced semiconductor demand if AI infrastructure spending plateaus.",
+          "coins": "Bitcoin, Ethereum (via general risk sentiment)",
+          "timeUTC": "2026-09-12 to 2026-09-13",
+          "source": "Bloomberg, Business Standard",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-11",
-    "summary": "Bitcoin spot ETFs saw $13.3 million in net outflows on September 11, extending a week-long outflow streak (September 8–11 cumulative: -$462.7 million). Ethereum spot ETFs recorded strong inflows of $216.4 million on the same day, marking their biggest daily inflow of the week and suggesting a rotation from Bitcoin into Ethereum.",
-    "source": "CryptoBriefing",
-    "url": "https://cryptobriefing.com/bitcoin-etf-outflows-ethereum-etf-inflows-september/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Clarity Act Senate cloture vote (Sun Sept 15 at 18:15 UTC)",
-      "typicalReaction": "High impact for crypto sector. A successful cloture vote (60+ votes) would allow floor debate, a win for the industry; failure would be a setback. Current passage odds estimated at 10–16%."
+      "event": "Federal Funds Rate Decision (Wednesday 2026-09-16, 18:00 UTC)",
+      "typicalReaction": "Expected to rise from 3.75% to 4.00%. This is the most important economic event of the week for crypto markets—a rate hike typically strengthens the US dollar and can weigh on risk assets like crypto. A pause or dovish guidance could support a rally."
     },
     {
-      "event": "Retail Sales and Core Retail Sales (Wed Sept 16 at 12:30 UTC)",
-      "typicalReaction": "Medium impact. Consumer spending data influences Fed outlook and market sentiment. USD strength typically pressures crypto."
+      "event": "US Retail Sales & Core Retail Sales (Wednesday 2026-09-16, 12:30 UTC)",
+      "typicalReaction": "Data before the Fed decision. Stronger-than-expected consumer spending could cement the case for a rate hike; weaker data might signal economic slowdown and support crypto."
     },
     {
-      "event": "FOMC Statement, Federal Funds Rate decision, and Press Conference (Wed Sept 16 at 18:00–18:30 UTC)",
-      "typicalReaction": "High-impact event. Market now expects a 25 basis point rate hike (0.25%). Bitcoin and equities typically sell off on rate-hike signals, though the move is already largely priced in."
+      "event": "FOMC Economic Projections & Statement (Wednesday 2026-09-16, 18:00 UTC)",
+      "typicalReaction": "Forward guidance on future rate paths will be closely watched. Hawkish projections typically pressure crypto; dovish signals support upside."
+    },
+    {
+      "event": "FOMC Press Conference (Wednesday 2026-09-16, 18:30 UTC)",
+      "typicalReaction": "Real-time Q&A with the Fed Chair. Markets often react sharply to tone and unexpected comments."
     }
   ],
   "glossary": [
     {
-      "term": "Basis point (bp)",
-      "definition": "One-hundredth of a percent (0.01%). A 25 basis point rate hike means raising the rate by 0.25%."
+      "term": "Annualized funding rate",
+      "definition": "The annual percentage cost for traders borrowing money to hold a leveraged position. If the rate is 10% annualized, a trader pays roughly 10% per year to hold a long position, or receives 10% per year if shorting. High rates signal aggressive bullish betting; negative rates signal bearish betting."
     },
     {
-      "term": "Bridge (crypto)",
-      "definition": "A service that transfers crypto assets between two separate blockchains by locking them on one chain and releasing equivalent tokens on another."
+      "term": "Bear",
+      "definition": "An investor or trader who believes a price will fall."
+    },
+    {
+      "term": "Bitcoin bridge",
+      "definition": "A program that lets Bitcoin move to other blockchains (like Ethereum). For example, you can deposit real Bitcoin and get syBTC on Ethereum; later you can swap syBTC back for real Bitcoin. A bridge exploit is when a hacker tricks the bridge into minting fake Bitcoin replacements."
+    },
+    {
+      "term": "Bull",
+      "definition": "An investor or trader who believes a price will rise."
     },
     {
       "term": "Cloture vote",
-      "definition": "A procedural vote in the US Senate to end debate and force a final vote on a bill. Requires 60 votes to pass."
+      "definition": "A Senate procedure to end debate and force a vote. Requires 60 votes to pass. If it passes, the Senate can vote on the main bill."
     },
     {
-      "term": "Federal Funds Rate",
-      "definition": "The interest rate at which commercial banks lend money to each other overnight. Set as a target range by the Federal Reserve."
+      "term": "Collateral",
+      "definition": "Assets you deposit to borrow money or trade with leverage. If your position loses too much, the platform sells your collateral to recover the loan."
     },
     {
-      "term": "FOMC (Federal Open Market Committee)",
-      "definition": "The policy-making committee of the US Federal Reserve that meets eight times per year to set monetary policy."
+      "term": "Crypto (cryptocurrency)",
+      "definition": "Digital money that runs on a blockchain (a distributed ledger) rather than being controlled by a central bank. Bitcoin and Ethereum are cryptocurrencies."
+    },
+    {
+      "term": "Ethereum",
+      "definition": "A blockchain and cryptocurrency launched in 2015. Unlike Bitcoin, Ethereum can run programs (smart contracts) on it. Its token is called Ether (ETH)."
+    },
+    {
+      "term": "ETF flows",
+      "definition": "The net amount of investor money flowing into or out of an exchange-traded fund (ETF) on a given day. Large inflows can signal institutional buying; large outflows signal selling."
     },
     {
       "term": "Funding rate",
-      "definition": "A periodic payment between traders holding long and short positions on perpetual futures contracts. Positive funding means long traders pay short traders."
+      "definition": "The interest rate traders pay to hold a leveraged position. Positive rates mean longs pay shorts; negative rates mean shorts pay longs."
     },
     {
-      "term": "HBM (High-Bandwidth Memory)",
-      "definition": "A type of computer memory chip used in advanced AI and graphics processors. High demand from AI chipmakers has benefited memory-chip manufacturers like Samsung and SK Hynix."
+      "term": "Futures (or perpetual contracts)",
+      "definition": "A standardized bet that lets you wager on whether a crypto price will go up or down, with leverage (borrowed money). Unlike traditional futures that expire on a date, perpetual contracts can stay open indefinitely as long as you maintain collateral."
     },
     {
-      "term": "Leverage",
-      "definition": "Borrowing money to amplify the size of a trade. Higher leverage increases both potential gains and potential losses."
+      "term": "Hard fork",
+      "definition": "A major upgrade to a blockchain that changes the rules—old versions are no longer compatible. The term is sometimes used to refer to ending a chain entirely (as mentioned with Lisk)."
+    },
+    {
+      "term": "Leverage (or margin)",
+      "definition": "Borrowing money to trade a larger position than you can afford outright. For example, 10x leverage means you control 10 times the amount of collateral you put down. It magnifies both gains and losses."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a leveraged position loses so much value that the exchange automatically sells it to recover the borrowed money. The trader loses their collateral."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The fair price of a futures contract calculated by the exchange using spot prices across venues, index prices, and time decay. It's used to calculate whether a leveraged position should be liquidated. It differs from the last trade price to prevent manipulation."
     },
     {
       "term": "Open interest (OI)",
-      "definition": "The total dollar value of all outstanding derivative contracts (futures, perpetuals, options) on an asset. High OI indicates significant leverage in the market."
+      "definition": "The total number of unfilled futures contracts (longs + shorts) across all traders on an exchange. Rising OI suggests new leverage is entering the market; falling OI suggests positions are being closed."
     },
     {
-      "term": "Perpetual futures (perps)",
-      "definition": "Derivative contracts that allow traders to bet on price movements without an expiry date, like spot trading but with leverage."
+      "term": "Perpetual contract (or perpetual swap)",
+      "definition": "A futures contract with no expiration date that lets you bet on price direction with leverage. You pay or receive funding periodically to stay long or short."
     },
     {
-      "term": "Synthetic (syBTC, etc.)",
-      "definition": "A token issued on one blockchain that represents an asset from another blockchain (e.g., syBTC represents Bitcoin but lives on another chain). If the underlying collateral is lost or minted without backing, the synthetic token loses value."
+      "term": "Short (or short position)",
+      "definition": "A bet that a price will fall. If you short Bitcoin at $76,000 and the price drops to $75,000, you profit. If it rises to $77,000, you lose."
     },
     {
-      "term": "Stablecoins",
-      "definition": "Cryptocurrencies designed to maintain a stable price, typically pegged to the US dollar (e.g., USDC, USDT)."
+      "term": "Short squeeze",
+      "definition": "A sharp price rally caused by traders who shorted a token being forced to buy to close their bets (to avoid liquidation), which pushes the price even higher and forces more shorts to liquidate—a feedback loop."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to maintain a stable price—usually pegged 1:1 to the US dollar or another fiat currency. USDC (run by Circle) and USDT (run by Tether) are major examples."
+    },
+    {
+      "term": "Staking",
+      "definition": "Locking up crypto tokens to earn rewards. On some blockchains, stakers help secure the network and earn new tokens as payment. On exchanges like Coincheck, staking is a simpler concept: you hold a token and the exchange pays you interest."
+    },
+    {
+      "term": "Trading volume",
+      "definition": "The total dollar (or coin) amount traded on an exchange in a given time period. High volume suggests active trading and good liquidity; low volume suggests fewer buyers and sellers."
+    },
+    {
+      "term": "USDC",
+      "definition": "A stablecoin issued by Circle that holds a 1:1 value with the US dollar. It's backed by US treasury bills and bank deposits."
     },
     {
       "term": "Venue",
-      "definition": "An exchange or trading platform where crypto futures are bought and sold."
+      "definition": "An exchange or marketplace where crypto futures are traded. This report covers Binance, Bybit, OKX, Bitget, and Gate."
     }
   ]
 }
