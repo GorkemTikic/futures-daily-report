@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-14T00:14:58.865Z",
+  "generatedAt": "2026-09-14T00:20:33.279Z",
   "count": 89,
   "latest": "2026-09-13",
   "reports": [
@@ -12,14 +12,14 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -0.45754976533418895,
-        "ETH": -1.6605136818088222
+        "BTC": -0.5014403625182107,
+        "ETH": -1.5762411066567352
       },
       "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
       "newsCount": 0,
       "topMover": {
         "symbol": "LSKUSDT",
-        "chgPct": 126.758
+        "chgPct": 115.634
       },
       "flagged": [],
       "files": {
