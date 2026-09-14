@@ -6,12 +6,12 @@
   "oneLine": "Bitcoin fell 0.6% and Ethereum dropped 1.6%, but Lisk surged 64% following its chain-shutdown announcement and token migration triggers, while Civic and Power gained 32% and 28%; a Bitcoin bridge exploit surfaced $336K in losses, semiconductor stocks tumbled on DeepSeek AI efficiency news, and the Clarity Act Senate vote looms.",
   "newsCount": 7,
   "macro": {
-    "BTC": -0.678,
-    "ETH": -1.8356248961078916
+    "BTC": -0.5231845883288397,
+    "ETH": -1.5941276491175322
   },
   "topMover": {
     "symbol": "LSKUSDT",
-    "chgPct": 37.168
+    "chgPct": 45.014
   },
   "venues": [
     "Binance",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "14 Sept 2026, 01:23 UTC",
+  "generatedAtUTC": "14 Sept 2026, 01:29 UTC",
   "languages": [
     "en",
     "tr",
