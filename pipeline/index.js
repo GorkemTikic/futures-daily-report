@@ -10,9 +10,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildDataPack } from "./datapack.js";
-import { synthesize } from "./synthesize.js";
+import { synthesize, translateSynthesis } from "./synthesize.js";
 import { buildReportHtml, renderPdf } from "./render.js";
 import { loadEnv } from "./env.js";
+
+const EXTRA_LANGS = ["tr", "zh"]; // English is always produced; these are added when translation succeeds
 
 loadEnv(); // pick up ANTHROPIC_API_KEY / TRADFI_API_KEY from the gitignored .env
 
@@ -52,12 +54,34 @@ async function main() {
   if (synth._error) console.log(`  synthesis error: ${synth._error}`);
   writeLog(dStr);
 
-  const html = buildReportHtml(pack, synth);
+  const html = buildReportHtml(pack, synth, "en");
   const htmlPath = path.join(dayDir, `summary_${dStr}.html`);
   const pdfPath = path.join(dayDir, `summary_${dStr}.pdf`);
   fs.writeFileSync(htmlPath, html, "utf8");
-  console.log("Rendering PDF...");
+  console.log("Rendering PDF (en)...");
   await renderPdf(html, htmlPath, pdfPath);
+
+  // --- localised versions (Turkish, Chinese) ---
+  const languages = ["en"];
+  for (const lang of EXTRA_LANGS) {
+    let synthL = null;
+    const ovPath = path.join(dayDir, `synthesis.${lang}.json`);
+    try { if (fs.existsSync(ovPath)) { const p = JSON.parse(fs.readFileSync(ovPath, "utf8")); if (p.oneLine) synthL = { ...p, _source: p._source || `override-${lang}` }; } } catch { /* fall through */ }
+    if (!synthL) {
+      synthL = await translateSynthesis(synth, lang, config);
+      if (synthL) { try { fs.writeFileSync(ovPath, JSON.stringify(synthL, null, 2), "utf8"); } catch {} }
+    }
+    if (synthL) {
+      const h = buildReportHtml(pack, synthL, lang);
+      const hp = path.join(dayDir, `summary_${dStr}.${lang}.html`);
+      fs.writeFileSync(hp, h, "utf8");
+      await renderPdf(h, hp, path.join(dayDir, `summary_${dStr}.${lang}.pdf`));
+      languages.push(lang);
+      console.log(`  ${lang}: written (${synthL._source})`);
+    } else {
+      console.log(`  ${lang}: translation unavailable — skipped`);
+    }
+  }
 
   // --- metadata for the website manifest + a plain-text summary ---
   const groups = (synth.news && synth.news.groups) || {};
@@ -72,6 +96,7 @@ async function main() {
     macro: { BTC: lead(btc).chgPct ?? null, ETH: lead(eth).chgPct ?? null },
     topMover: topMover ? { symbol: topMover.symbol, chgPct: topMover.chgPct } : null,
     venues: pack.sources.exchangesOnline, generatedAtUTC: pack.generatedAtUTC,
+    languages,
   };
   fs.writeFileSync(path.join(dayDir, "report.json"), JSON.stringify(meta, null, 2), "utf8");
 

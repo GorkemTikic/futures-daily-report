@@ -9,7 +9,11 @@
   var $ = function (id) { return document.getElementById(id); };
   var listEl = $("list"), filtersEl = $("filters"), contentEl = $("content"), toolbarEl = $("toolbar"), toastEl = $("toast");
 
-  var state = { manifest: null, q: "", filter: "all", view: "reports", date: null };
+  var state = { manifest: null, q: "", filter: "all", view: "reports", date: null, lang: "en" };
+  var LANG_LABEL = { en: "EN", tr: "TR", zh: "中文" };
+  try { state.lang = localStorage.getItem("_fdr_lang") || "en"; } catch (e) {}
+  function setLangPref(l) { state.lang = l; try { localStorage.setItem("_fdr_lang", l); } catch (e) {} }
+  function langFile(date, lang, ext) { return "reports/" + date + "/summary_" + date + (lang && lang !== "en" ? "." + lang : "") + "." + ext; }
   var htmlCache = {};
 
   // ---------- helpers ----------
@@ -65,20 +69,32 @@
   function closeSidebarMobile() { $("sidebar").classList.remove("open"); }
 
   // ---------- reading view ----------
+  function reportLang(r) {
+    var langs = (r.languages && r.languages.length) ? r.languages : ["en"];
+    return langs.indexOf(state.lang) >= 0 ? state.lang : "en";
+  }
   function toolbarReading(r, prev, next) {
-    var pdf = r.files && r.files.pdf;
+    var hasHtml = r.files && r.files.html;
+    var langs = (r.languages && r.languages.length) ? r.languages : ["en"];
+    var cur = reportLang(r);
+    var langSeg = langs.length > 1
+      ? '<div class="seg" id="langseg">' + langs.map(function (l) { return '<button data-l="' + l + '"' + (l === cur ? ' class="on"' : "") + ">" + (LANG_LABEL[l] || l) + "</button>"; }).join("") + "</div>"
+      : "";
     toolbarEl.innerHTML =
       '<div><div class="tb-title">' + r.date + '</div><div class="tb-sub">' + esc(dowShort(r.date)) + " · daily market report</div></div>" +
       '<div class="sp"></div>' +
       '<div class="ticker" id="ticker" hidden><span class="sym">BTC</span><span class="px" id="ticker-px">—</span></div>' +
       '<button class="btn icon" id="prev"' + (prev ? "" : " disabled") + ' title="Previous day">‹</button>' +
       '<button class="btn icon" id="next"' + (next ? "" : " disabled") + ' title="Next day">›</button>' +
-      (pdf ? '<a class="btn" id="open" href="' + r.files.html + '" target="_blank" rel="noopener" title="Open in a new tab">Open</a>' : "") +
-      (pdf ? '<a class="btn primary" id="pdf" href="' + r.files.pdf + '" download title="Download the PDF">↓ PDF</a>' : "") +
+      langSeg +
+      (hasHtml ? '<a class="btn" id="open" href="' + langFile(r.date, cur, "html") + '" target="_blank" rel="noopener" title="Open in a new tab">Open</a>' : "") +
+      (hasHtml ? '<a class="btn primary" id="pdf" href="' + langFile(r.date, cur, "pdf") + '" download title="Download the PDF">↓ PDF</a>' : "") +
       themeBtn();
     if (prev) $("prev").onclick = function () { A.track("report_nav", { dir: "prev" }); location.hash = "#/report/" + prev; };
     if (next) $("next").onclick = function () { A.track("report_nav", { dir: "next" }); location.hash = "#/report/" + next; };
-    var p = $("pdf"); if (p) p.onclick = function () { A.track("report_pdf_open", { date: r.date }); };
+    var p = $("pdf"); if (p) p.onclick = function () { A.track("report_pdf_open", { date: r.date, lang: cur }); };
+    var ls = $("langseg");
+    if (ls) Array.prototype.forEach.call(ls.children, function (b) { b.onclick = function () { setLangPref(b.getAttribute("data-l")); A.track("lang_switch", { lang: state.lang }); renderReport(r.date); }; });
     wireTheme();
   }
 
@@ -202,7 +218,7 @@
     contentEl.innerHTML =
       '<div class="docwrap"><div class="doc-sheet" id="sheet">' +
         '<div class="doc-loading"><div class="skeleton" style="height:34px;width:60%;margin-bottom:18px"></div><div class="skeleton" style="height:90px;margin-bottom:14px"></div><div class="skeleton" style="height:260px"></div></div>' +
-        '<iframe class="doc" id="frame" src="' + r.files.html + '" title="Report ' + date + '" scrolling="no"></iframe>' +
+        '<iframe class="doc" id="frame" src="' + langFile(date, reportLang(r), "html") + '" title="Report ' + date + '" scrolling="no"></iframe>' +
       "</div></div>";
     var frame = $("frame");
     frame.addEventListener("load", function () {

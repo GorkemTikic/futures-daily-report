@@ -22,7 +22,7 @@
     report_open: 1, report_close: 1, report_nav: 1,
     report_search: 1, filter_change: 1, sort_change: 1,
     report_pdf_open: 1, report_raw_open: 1, report_copy_link: 1,
-    report_link_click: 1, ticker_error: 1, error: 1,
+    report_link_click: 1, lang_switch: 1, ticker_error: 1, error: 1,
   };
 
   function uuidLike() {

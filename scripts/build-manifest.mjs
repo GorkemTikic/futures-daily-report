@@ -128,6 +128,7 @@ function main() {
         marketSummary: m.oneLine || null,
         newsCount: m.newsCount || 0,
         topMover: m.topMover || null,
+        languages: Array.isArray(m.languages) && m.languages.length ? m.languages : ["en"],
         flagged: [],
       };
     } else {

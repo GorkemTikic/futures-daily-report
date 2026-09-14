@@ -194,6 +194,43 @@ function backendOrder(config) {
   return process.env.ANTHROPIC_API_KEY ? ["api", "cli"] : ["cli"];
 }
 
+// ---- translation pass: localise the English synthesis into TR / ZH ----
+const LANG_NAME = { tr: "Turkish", zh: "Simplified Chinese" };
+
+function translatePrompt(content, lang) {
+  const name = LANG_NAME[lang] || lang;
+  return `Localise this crypto-futures market report into natural ${name} for customer-support agents who do NOT read finance news. Do NOT translate word-for-word — rewrite it so it reads exactly like a native ${name} financial writer wrote it: plain, clear, correct terminology.
+
+STRICT RULES:
+- Keep EXACTLY as-is (never translate or alter): all numbers and percentages, URLs, ticker symbols (e.g. BTCUSDT, SK Hynix), news outlet / source names, dates, and every "event" field value.
+- Do NOT change any JSON keys or the structure; keep the "impact"/"confidence" codes and the news-group keys in English.
+- Translate ONLY the human-readable text: oneLine, the *Summary fields, each news item's "headline"/"what"/"coins", each mover "explanation", each calendarNotes "typicalReaction", and every glossary "term" and "definition".
+- Glossary terms: use the ${name} term a native reader expects; keep a widely-used English term only where that is genuinely the norm.
+
+Return ONLY the same JSON object, localised, no markdown, no code fences:
+${JSON.stringify(content, null, 1)}`;
+}
+
+export async function translateSynthesis(synthEn, lang, config) {
+  const order = backendOrder(config);
+  if (!order.length || !LANG_NAME[lang]) return null;
+  const { _source, _error, _backend, ...content } = synthEn || {};
+  if (!content.oneLine) return null;
+  const prompt = translatePrompt(content, lang);
+  let lastErr;
+  for (const backend of order) {
+    try {
+      const obj = await runBackend(backend, prompt, config);
+      if (!obj.oneLine) throw new Error("translation missing oneLine");
+      return { ...obj, _source: `${backend}-${lang}` };
+    } catch (err) {
+      lastErr = String(err).slice(0, 200);
+      console.warn(`  ${backend} ${lang} translation failed (${lastErr.slice(0, 140)})`);
+    }
+  }
+  return null;
+}
+
 async function runBackend(backend, prompt, config) {
   let raw;
   if (backend === "cli") {

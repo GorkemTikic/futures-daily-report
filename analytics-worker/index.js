@@ -17,7 +17,7 @@ const ALLOWED_EVENTS = new Set([
   "report_open", "report_close", "report_nav",
   "report_search", "filter_change", "sort_change",
   "report_pdf_open", "report_raw_open", "report_copy_link",
-  "report_link_click", "ticker_error", "error",
+  "report_link_click", "lang_switch", "ticker_error", "error",
 ]);
 
 function corsHeaders(request, env) {
