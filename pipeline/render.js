@@ -66,6 +66,15 @@ const STYLE = `
   .gloss .g{break-inside:avoid;margin-bottom:11px;} .gloss .term{font-weight:700;color:var(--ink);font-size:12px;} .gloss .def{font-size:11.5px;color:var(--ink2);}
   .foot{margin-top:22px;padding-top:11px;border-top:1px solid var(--line);font-size:10px;color:var(--faint);}
   .none{font-size:12px;color:var(--muted);font-style:italic;}
+  .caveman-btn{display:inline-flex;align-items:center;gap:8px;cursor:pointer;border:0;background:#3a2f26;color:#f6ead8;font-family:inherit;font-size:13px;font-weight:700;letter-spacing:.01em;padding:11px 18px;border-radius:12px;box-shadow:0 2px 0 #241c15;margin:2px 0 20px;transition:transform .12s,background .12s;}
+  .caveman-btn:hover{background:#4a3c2f;transform:translateY(-1px);}
+  .caveman-btn:active{transform:translateY(1px);box-shadow:0 1px 0 #241c15;}
+  .caveman-box{display:none;background:#f4ead6;border:2px solid #dcc7a2;border-radius:14px;padding:16px 20px 20px;margin:0 0 22px;box-shadow:0 3px 14px rgba(72,54,30,0.10);}
+  .caveman-box.on{display:block;}
+  .caveman-box .ch{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#957338;margin-bottom:9px;}
+  .caveman-box p{font-size:18px;line-height:1.62;color:#4a3823;margin:0;font-weight:500;}
+  @media screen{ .caveman-btn{font-size:14px;} .caveman-box p{font-size:20px;} }
+  @media print{ .caveman-btn{display:none;} .caveman-box{display:block;} }
 `;
 
 function venueTable(majorObj, cols) {
@@ -84,6 +93,7 @@ const LABELS = {
   en: {
     tagline: "Crypto futures across the major venues · daily", daily: "Daily market report",
     dataFrom: "all times UTC · data from Binance, Bybit, OKX, Bitget, Gate", oneLine: "The day in one line",
+    caveman: "🦴 Caveman mode", cavemanTitle: "🗿 The day, explained simply",
     price: ["01 · Price & volume", "What every venue's price and volume did", "The same two contracts on every exchange. When the prices line up, nothing unusual is happening; a gap or a big volume difference is worth noticing."],
     pos: ["02 · Positioning", "How traders were leaning", "Funding shows which side is paying to hold its position (positive = longs pay shorts). Open interest is how much money is in open bets. Both are shown in the same units so the venues compare."],
     movers: ["03 · Biggest movers", "The coins that moved the most", "The largest 24-hour moves on Binance, with the reason where the news supports one."],
@@ -102,6 +112,7 @@ const LABELS = {
   tr: {
     tagline: "Başlıca borsalarda kripto vadeli işlemler · günlük", daily: "Günlük piyasa raporu",
     dataFrom: "tüm saatler UTC · veriler: Binance, Bybit, OKX, Bitget, Gate", oneLine: "Günün özeti tek cümlede",
+    caveman: "🦴 Mağara adamı modu", cavemanTitle: "🗿 Günün en basit anlatımı",
     price: ["01 · Fiyat ve hacim", "Her borsada fiyat ve hacim ne yaptı", "Aynı iki sözleşme her borsada. Fiyatlar birbirini tutuyorsa olağandışı bir şey yok; borsalar arası fark ya da büyük hacim farkı dikkat çeker."],
     pos: ["02 · Pozisyonlanma", "Yatırımcılar hangi yöne yaslanıyordu", "Fonlama, pozisyonu taşımak için hangi tarafın ödeme yaptığını gösterir (pozitif = long'lar short'lara öder). Açık pozisyon (OI), açık işlemlerdeki toplam paradır. İkisi de aynı birimde gösterildi ki borsalar karşılaştırılabilsin."],
     movers: ["03 · En çok hareket edenler", "En çok hareket eden coin'ler", "Binance'te son 24 saatteki en büyük hareketler; haber bir sebep destekliyorsa onunla birlikte."],
@@ -120,6 +131,7 @@ const LABELS = {
   zh: {
     tagline: "主要交易所加密货币期货 · 每日", daily: "每日市场报告",
     dataFrom: "均为 UTC 时间 · 数据来自 Binance、Bybit、OKX、Bitget、Gate", oneLine: "一句话看今天",
+    caveman: "🦴 原始人模式", cavemanTitle: "🗿 用最简单的话讲今天",
     price: ["01 · 价格与成交量", "各交易所的价格和成交量表现", "同样两个合约在每个交易所。价格一致说明没有异常;交易所之间的价差或成交量差异值得留意。"],
     pos: ["02 · 持仓情况", "交易者偏向哪一方", "资金费率显示哪一方为持仓付费(正值=多头付给空头)。未平仓合约(OI)是未平仓头寸中的资金量。两者以相同单位显示,便于比较各交易所。"],
     movers: ["03 · 涨跌最大的币", "波动最大的币种", "Binance 上过去 24 小时的最大波动;若有新闻可解释,一并给出原因。"],
@@ -173,6 +185,11 @@ export function buildReportHtml(pack, synth, lang = "en") {
     <h1>${esc(dateHeading)}</h1>
     <div class="date">${esc(pack.coversUTC || "00:00–23:59 UTC")} · ${esc(L.dataFrom)}${pack.tradfi?.ok ? " + Twelve Data" : ""}</div>
     <div class="oneline"><div class="k">${esc(L.oneLine)}</div><p>${esc(s.oneLine || "—")}</p></div>`;
+
+  // Caveman mode — one tap reveals a dead-simple, funny explanation of the day.
+  const cavemanBlock = s.caveman
+    ? `<button class="caveman-btn" type="button" onclick="this.nextElementSibling.classList.toggle('on')">${esc(L.caveman)}</button><div class="caveman-box"><div class="ch">${esc(L.cavemanTitle)}</div><p>${esc(s.caveman)}</p></div>`
+    : "";
 
   const priceVol = section(L.price,
     `<h3>${esc(L.h3.btcP)}</h3>${venueTableL(pack.exchanges?.majors?.BTC || {}, priceCols)}
@@ -244,7 +261,7 @@ export function buildReportHtml(pack, synth, lang = "en") {
   const src = synth?._source ? ` · narrative: ${esc(synth._source)}` : "";
   const foot = `<div class="foot">${esc(L.foot(pack.coversUTC || "00:00–23:59 UTC", pack.generatedAtUTC || "", ""))}${src}</div>`;
 
-  return `<!DOCTYPE html><html lang="${lang}"><head><meta charset="utf-8"><style>${STYLE}</style></head><body>${cover}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
+  return `<!DOCTYPE html><html lang="${lang}"><head><meta charset="utf-8"><style>${STYLE}</style></head><body>${cover}${cavemanBlock}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
 }
 
 export { renderPdf };

@@ -227,6 +227,8 @@
         var loading = document.querySelector(".doc-loading"); if (loading) loading.remove();
         function fit() { try { frame.style.height = (doc.documentElement.scrollHeight + 4) + "px"; } catch (e) {} }
         fit(); setTimeout(fit, 120); setTimeout(fit, 400);
+        // re-fit when in-report content resizes (e.g. the Caveman box expands)
+        try { new ResizeObserver(fit).observe(doc.documentElement); } catch (e) {}
         // same-origin: track source-link clicks inside the report ("click where")
         doc.addEventListener("click", function (ev) {
           var a = ev.target && ev.target.closest ? ev.target.closest("a[href]") : null;

@@ -20,6 +20,7 @@ import path from "node:path";
 const OUTPUT_SCHEMA = `Return ONLY this JSON object, no markdown, no code fences:
 {
   "oneLine": string,                         // Step 1: the day in one sentence a person can repeat out loud
+  "caveman": string,                         // Explain the WHOLE day to a smart 10-year-old who knows nothing about finance or crypto. Use the REAL names (Bitcoin, Ethereum, Lisk, the Fed, DeepSeek, etc.) and the REAL events — but the simplest possible words and short, clear sentences, like a kind teacher talking to a curious kid. NO jargon, NO baby-talk, NO caveman voice, NO silly metaphors. Just say plainly WHAT happened and WHY (biggest thing first), briefly explaining any hard idea in passing (e.g. "the Fed, which sets interest rates for the US"). 4-7 short sentences. End by saying whether it was a calm day or a worrying one. Real and accurate — never invent anything.
   "priceVolumeSummary": string,              // 1-2 plain sentences: did the venues agree on price, who led volume
   "positioningSummary": string,              // plain sentences: what funding / open interest / long-short did, and what it means
   "stocksSummary": string,                   // plain sentences on the stock/commodity perps — lead with the Asian names (Korea/HK/China: KOSPI, Hang Seng, CSI) and any market news you found, then a line on US equities and commodities (gold/oil/copper) if notable. "" if nothing notable.
@@ -204,7 +205,7 @@ function translatePrompt(content, lang) {
 STRICT RULES:
 - Keep EXACTLY as-is (never translate or alter): all numbers and percentages, URLs, ticker symbols (e.g. BTCUSDT, SK Hynix), news outlet / source names, dates, and every "event" field value.
 - Do NOT change any JSON keys or the structure; keep the "impact"/"confidence" codes and the news-group keys in English.
-- Translate ONLY the human-readable text: oneLine, the *Summary fields, each news item's "headline"/"what"/"coins", each mover "explanation", each calendarNotes "typicalReaction", and every glossary "term" and "definition".
+- Translate ONLY the human-readable text: oneLine, "caveman" (keep it as simple as explaining to a 10-year-old — short clear sentences, real names, no jargon), the *Summary fields, each news item's "headline"/"what"/"coins", each mover "explanation", each calendarNotes "typicalReaction", and every glossary "term" and "definition".
 - Glossary terms: use the ${name} term a native reader expects; keep a widely-used English term only where that is genuinely the norm.
 
 Return ONLY the same JSON object, localised, no markdown, no code fences:
