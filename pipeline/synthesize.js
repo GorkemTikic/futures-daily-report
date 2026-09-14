@@ -161,7 +161,9 @@ export async function synthesize(pack, config, dayDir) {
       try {
         const stdout = await runClaudeCli(tmp, config.model);
         const env = JSON.parse(firstBalancedObject(stdout));
-        if (env.is_error || typeof env.result !== "string") throw new Error("claude -p: no result");
+        if (env.is_error || typeof env.result !== "string") {
+          throw new Error("claude -p error" + (env.api_error_status ? ` [${env.api_error_status}]` : "") + ": " + (typeof env.result === "string" ? env.result.slice(0, 200) : JSON.stringify(env.subtype || "no result")));
+        }
         raw = env.result;
       } finally { fs.rmSync(tmp, { force: true }); }
     } else {
@@ -173,7 +175,8 @@ export async function synthesize(pack, config, dayDir) {
     try { fs.writeFileSync(path.join(dayDir, "synthesis.json"), JSON.stringify(obj, null, 2), "utf8"); } catch {}
     return { ...obj, _source: backend };
   } catch (err) {
-    console.warn(`  synthesis failed (${String(err).slice(0, 140)}) — data-only fallback`);
-    return dataOnly(pack);
+    const reason = String(err).slice(0, 300);
+    console.warn(`  synthesis failed (${reason.slice(0, 140)}) — data-only fallback`);
+    return { ...dataOnly(pack), _error: reason, _backend: backend };
   }
 }

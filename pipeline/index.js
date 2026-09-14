@@ -16,12 +16,24 @@ import { buildReportHtml, renderPdf } from "./render.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
+// Capture all console output to a per-day log so a scheduled run (whose stdout Task
+// Scheduler discards) still leaves a diagnostic — especially why synthesis fell back.
+const LOG = [];
+for (const lvl of ["log", "warn", "error"]) {
+  const orig = console[lvl].bind(console);
+  console[lvl] = (...a) => { LOG.push(a.map(String).join(" ")); orig(...a); };
+}
+function writeLog(dStr) {
+  try { fs.mkdirSync(path.join(ROOT, "logs"), { recursive: true }); fs.writeFileSync(path.join(ROOT, "logs", `${dStr}.log`), LOG.join("\n"), "utf8"); } catch {}
+}
+
 async function main() {
   const config = JSON.parse(fs.readFileSync(path.join(ROOT, "config.json"), "utf8"));
   const args = process.argv.slice(2);
   const di = args.indexOf("--date");
   const dateOverride = di >= 0 ? args[di + 1] : null;
 
+  console.log(`=== ${new Date().toISOString()} · pipeline run ===`);
   console.log("Collecting data pack (exchanges, calendar, news, trad-fi, stocks)...");
   const pack = await buildDataPack({ dateOverride });
   const dStr = pack.dateUTC;
@@ -33,7 +45,9 @@ async function main() {
 
   console.log("Writing the report (synthesis)...");
   const synth = await synthesize(pack, config, dayDir);
-  console.log(`  synthesis source: ${synth._source}`);
+  console.log(`  synthesis source: ${synth._source}${synth._backend ? ` (attempted backend: ${synth._backend})` : ""}`);
+  if (synth._error) console.log(`  synthesis error: ${synth._error}`);
+  writeLog(dStr);
 
   const html = buildReportHtml(pack, synth);
   const htmlPath = path.join(dayDir, `summary_${dStr}.html`);
@@ -80,6 +94,7 @@ async function main() {
       console.warn(`Publish step failed (non-fatal): ${String(err).slice(0, 160)}`);
     }
   }
+  writeLog(dStr);
 }
 
 main().catch((err) => { console.error("FATAL:", err); process.exit(1); });
