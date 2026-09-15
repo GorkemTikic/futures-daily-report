@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-14",
+  "kind": "market",
+  "dateLong": "Monday, 14 September 2026",
+  "coversUTC": "2026-09-14 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum both rose roughly 1.8% on September 14 as optimism about US crypto regulation battled concerns over AI industry slowdown calls.",
+  "newsCount": 19,
+  "macro": {
+    "BTC": 1.7829376603419835,
+    "ETH": 1.5049073064340144
+  },
+  "topMover": {
+    "symbol": "AINUSDT",
+    "chgPct": 87.5237955776834
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "15 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "zh report unavailable"
+  ]
+}

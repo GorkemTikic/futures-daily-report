@@ -1,15 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-14T12:44:09.880Z",
-  "count": 89,
+  "generatedAt": "2026-09-15T00:09:39.212Z",
+  "count": 90,
   "counts": {
-    "total": 89,
-    "market": 2,
+    "total": 90,
+    "market": 3,
     "divergence": 87,
-    "degraded": 0
+    "degraded": 1
   },
-  "latest": "2026-09-13",
+  "latest": "2026-09-14",
   "reports": [
+    {
+      "date": "2026-09-14",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 1.7829376603419835,
+        "ETH": 1.5049073064340144
+      },
+      "marketSummary": "Bitcoin and Ethereum both rose roughly 1.8% on September 14 as optimism about US crypto regulation battled concerns over AI industry slowdown calls.",
+      "oneLine": "Bitcoin and Ethereum both rose roughly 1.8% on September 14 as optimism about US crypto regulation battled concerns over AI industry slowdown calls.",
+      "newsCount": 19,
+      "topMover": {
+        "symbol": "AINUSDT",
+        "chgPct": 87.5237955776834
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-14/summary_2026-09-14.html",
+        "pdf": "reports/2026-09-14/summary_2026-09-14.pdf",
+        "md": "reports/2026-09-14/summary_2026-09-14.md"
+      }
+    },
     {
       "date": "2026-09-13",
       "kind": "market",

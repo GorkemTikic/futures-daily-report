@@ -1,0 +1,248 @@
+{
+  "oneLine": "Bitcoin and Ethereum both rose roughly 1.8% on September 14 as optimism about US crypto regulation battled concerns over AI industry slowdown calls.",
+  "caveman": "Bitcoin and Ethereum each went up about 1.7-1.8% on September 14. The main story was that President Trump said the US-Iran war might end soon, which made people more willing to take risks with crypto — and crypto prices went up. At the same time, big AI company leaders like Sam Altman and Mustafa Suleyman said the AI industry should slow down and be more careful, and this scared people. Computer chip companies in Asia — like Samsung and SK Hynix in Korea, and Zhongji Innolight in Hong Kong — all lost money because people worry about chip demand if AI slows. Finally, Congress was getting ready for a big vote about new crypto rules called the Clarity Act. Some people in the White House like it, but state officials said no. It was a normal day with nothing scary, but there's a lot of big decisions coming.",
+  "priceVolumeSummary": "Bitcoin closed up 1.78% and Ethereum up 1.55% across all five major venues, which stayed closely aligned. Binance led volume on both: $12.9 billion in BTC and $11.5 billion in ETH.",
+  "positioningSummary": "Traders remained bullish with positive funding rates ranging from 2.2% to 11% annualized across venues. Open interest was stable, and long-side positioning dominated on both BTC and ETH — Binance's long-to-short ratio hit 1.66 for Bitcoin and 2.98 for Ethereum, showing heavy long skew. This positioning reflects confidence but also means leverage is elevated.",
+  "stocksSummary": "Asian semiconductor stocks fell sharply in their morning sessions on September 14. South Korean markets (KRX, open 00:00–06:30 UTC) sold off: KOSPI 200 ETF dropped 4.31%, SK Hynix fell 2.18%, and Samsung lost 1.33%. Hong Kong markets (HKEX, 01:30–08:00 UTC) followed: chip maker Zhongji Innolight tumbled 6.36%, and CSOP SK Hynix 2x fell 3.98%. Chinese markets (open 01:30–07:00 UTC) were mixed: Unitree Robotics gained 1.19% but CXMT fell 1.91%. The pattern matched the day's AI-slowdown narrative — as tech leaders called for caution in AI development, investors dumped semiconductor exposure. Traditional US markets also declined: S&P 500 down 0.45%, Nasdaq down 0.48%.",
+  "movers": [
+    {
+      "symbol": "AIN",
+      "explanation": "Aster (AIN) jumped 87.5% on Binance with $135M volume, but no announcement or market driver appears in today's news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BR",
+      "explanation": "BR token surged 69.2% on Binance ($499M volume), with no identified cause in available sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "LSK",
+      "explanation": "Lisk (LSK) crashed 51.6% on Binance ($1.56B volume), dropping from $0.99 to $0.38 intraday, with no publicly announced reason visible.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Trump hints Iran war could end, boosting risk appetite and crypto prices toward $80k",
+        "what": "President Trump signaled that the US-Iran conflict may resolve soon, reducing geopolitical risk-off pressure. Bitcoin pushed toward $79,500–$80,000 and Ethereum climbed ~1.5% in response, as traders shifted from safe-haven positioning into risk assets.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-14 approx. midday",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-passes-79k-oil-prices-cool-on-trump-iran-war-hints"
+      },
+      {
+        "headline": "Senate Clarity Act vote scheduled Tuesday; White House signals confidence, but state AGs and Democrats push back",
+        "what": "On September 14, news emerged that the Senate will vote on the Clarity Act (crypto market-structure bill) on Tuesday, September 16. The White House crypto adviser said he felt 'very good' about prospects after Trump endorsed stronger ethics rules as a compromise. However, 17 bipartisan state attorneys general urged the Senate to reject the bill, citing concerns it would weaken state oversight of securities fraud and scams.",
+        "coins": "BTC, ETH (all crypto)",
+        "timeUTC": "2026-09-14 throughout day",
+        "source": "CoinDesk / The Block",
+        "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it"
+      },
+      {
+        "headline": "AI industry leaders call for AI slowdown; chip stocks plunge as investors flee semiconductor sector",
+        "what": "OpenAI's Sam Altman, Anthropic, and others publicly called for the AI industry to slow down AI capability development and implement stronger safety measures. The narrative triggered a sell-off in semiconductor stocks globally: Nvidia, Intel, AMD all fell; in Asia, SK Hynix dropped 2.18%, Samsung fell 1.33%, and Zhongji Innolight crashed 6.36%. Bitcoin's gain suggests traders view crypto as a hedge against AI regulation risk or see geopolitical safety as the bigger driver.",
+        "coins": "BTC, ETH (macro driver)",
+        "timeUTC": "2026-09-14 early–mid",
+        "source": "Decrypt / Cointelegraph",
+        "url": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC Chair Atkins backs Clarity Act; says agency will regulate crypto regardless of vote outcome",
+          "what": "SEC Chair Gary Gensler's successor signaled that crypto issuance, transfer-agent rules, and custody reform will form the backbone of the agency's regulatory push, whether or not the Clarity Act passes. This suggests long-term regulatory pressure on the industry is locked in.",
+          "coins": "BTC, ETH, altcoins",
+          "timeUTC": "2026-09-14 08:44 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it"
+        },
+        {
+          "headline": "Senator Lummis: Democrats 'won't quit asking for more' on Clarity Act — negotiation fatigue sets in",
+          "what": "Cynthia Lummis, a top Republican negotiator on the Clarity Act, said she has reached her limit on revisions after five years of work. Democrats continue to push for changes even as the Senate heads toward a vote, suggesting the bill's path remains uncertain despite recent optimism.",
+          "coins": "BTC, ETH (all crypto)",
+          "timeUTC": "2026-09-14 07:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/14/u-s-senator-lummis-says-democrats-won-t-quit-asking-for-more-on-crypto-clarity-act"
+        },
+        {
+          "headline": "Eight banking trade groups escalate push for stricter stablecoin reward limits",
+          "what": "Major US bank associations demanded tighter caps on stablecoin yield, arguing that high rewards divert deposits from traditional banks. This keeps alive the banks-versus-crypto dispute as the Senate prepares to vote on Clarity Act provisions affecting stablecoins.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-09-14 04:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378181/banks-senate-clarity-act-stablecoin-rules-key-vote"
+        },
+        {
+          "headline": "Trump's ethics concession strengthens Clarity Act prospects — bipartisan state AGs still oppose",
+          "what": "President Trump agreed to tougher ethics rules for the bill, a compromise that won GOP support. However, 17 state attorneys general (D+R) filed a letter opposing the bill, worried it strips states of power to prosecute crypto-related fraud and scams. The vote remains genuinely uncertain.",
+          "coins": "BTC, ETH (all crypto)",
+          "timeUTC": "2026-09-14 11:29–13:41 UTC",
+          "source": "CoinDesk / The Block",
+          "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive reaches 25,000 BTC milestone with $36.6M purchase; represents ~0.12% of Bitcoin supply",
+          "what": "Strive (formerly Strive Holdings) completed its latest Bitcoin acquisition, bringing its corporate treasury to exactly 25,000 BTC worth approximately $1.95B at the time. The purchase size slowed from the prior week's $109M pace, but it signals continued institutional accumulation.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-14 14:42 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/strive-adds-469-bitcoin-to-reach-25000-btc-treasury"
+        },
+        {
+          "headline": "Bitmine adds 27,180 ETH; projects $334M annual staking yield as holdings near 6M coins",
+          "what": "Bitmine (formerly Tesla's crypto subsidiary) added 27,180 Ethereum to its treasury, bringing total holdings to 5.96 million ETH. With staking enabled on most holdings, Bitmine projects $334M in annual passive income — a significant institutional yield stream that anchors long-term Ethereum demand.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-14 10:34 UTC",
+          "source": "The Block / Cointelegraph",
+          "url": "https://www.theblock.co/news/business/2026-09-14-bitmine-adds-27180-eth-as-adviser-tom-demark-sees-sharp-move-in-coming-weeks-414621"
+        },
+        {
+          "headline": "Strategy repurchases $139M of STRC, leaves Bitcoin holdings frozen at 845,050 BTC",
+          "what": "The Bitcoin treasury company (formerly MicroStrategy) slowed its preferred-stock buyback from $176M last week to $139M this week, and left its massive Bitcoin position untouched. Holdings now represent ~4% of the 21-million-BTC supply cap.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-14 09:21 UTC",
+          "source": "Decrypt / The Block",
+          "url": "https://decrypt.co/378134/strategy-buys-139-million-strc-bitcoin-frozen"
+        },
+        {
+          "headline": "DeFi Development Corp expands Solana treasury to 2.39M SOL; announces $300M ATM offering",
+          "what": "The Solana treasury company raised its SOL holdings and launched an at-the-market offering of $300M worth of its CHAD perpetual preferred stock, signaling confidence in both Solana's value and its own ability to raise capital.",
+          "coins": "SOL",
+          "timeUTC": "2026-09-14 09:53 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-14-defi-development-corp-expands-solana-treasury-2-39-million-sol-sets-300-million-chad-atm-414633"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood announces share redemptions and voting rights for offshore stock tokens",
+          "what": "Robinhood CEO Vlad Tenev said the platform will allow holders of tokenized stocks to redeem shares and vote in shareholder meetings, addressing criticism that offshore tokens bypassed normal ownership rights. The move signals Robinhood's commitment to bridge traditional equity markets and crypto infrastructure.",
+          "coins": "N/A (stock tokens)",
+          "timeUTC": "2026-09-14 05:18 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism"
+        },
+        {
+          "headline": "Kraken launches xStocks vaults: earn DeFi yield on tokenized Nvidia, ETFs",
+          "what": "Kraken added a new product category — 'xStocks vaults' — that let customers deposit tokenized stocks (including Nvidia) and major US stock ETFs and earn DeFi yield by lending the assets into protocols. This bridges centralized exchange infrastructure with decentralized lending markets.",
+          "coins": "N/A (stock tokens, ETF tokens)",
+          "timeUTC": "2026-09-14 05:07 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs"
+        },
+        {
+          "headline": "Robinhood Chain TVL hits $1B; daily DEX volume reaches $1.88B on recent days",
+          "what": "Robinhood's self-branded blockchain continues rapid growth less than 2.5 months after launch. The on-chain ecosystem TVL exceeded $1B, and single-day decentralized exchange volume peaked at $1.88B, suggesting strong product-market fit in retail crypto infrastructure.",
+          "coins": "N/A (blockchain infrastructure)",
+          "timeUTC": "2026-09-14 04:08 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-14-robinhood-chain-rapid-growth-being-driven-4-key-factors-analyst-says-414687"
+        },
+        {
+          "headline": "S&P Global leads $110M Series B extension for Kaiko; Wall Street taps crypto data infrastructure",
+          "what": "Kaiko, a crypto-data firm serving financial institutions, raised $110M in a Series B extension led by S&P Global. Investors also included BNP Paribas, Nasdaq, RBC, Coinbase Ventures, and DRW Venture Capital — signaling demand for institutional-grade market data on tokenized securities and onchain finance.",
+          "coins": "N/A (data infrastructure)",
+          "timeUTC": "2026-09-14 11:46 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets"
+        },
+        {
+          "headline": "Consensus conference heads to Hong Kong with expanded AI focus",
+          "what": "CoinDesk's flagship industry event will return to Hong Kong for a third consecutive year, but with a new angle: expanded programming on AI's role in the future of money and tokenized markets. Reflects crypto industry's growing institutional overlap with AI.",
+          "coins": "N/A (industry event)",
+          "timeUTC": "2026-09-14 18:31 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/consensus-heads-to-hong-kong-for-third-straight-year-with-expanded-focus-on-ai"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "AI industry slowdown narrative: Sam Altman, Anthropic, others call for caution on AI development",
+          "what": "OpenAI, Anthropic, and other AI labs issued rare public statements calling for the AI industry to slow down and implement stronger safety measures before continuing capability scaling. This narrative spooked semiconductor stocks (SK Hynix, Samsung, Zhongji Innolight all fell 1–6% in Asian markets) but may provide bullish cover for Bitcoin if viewed as evidence of regulatory pressure on tech giants.",
+          "coins": "BTC, ETH (macro hedge narrative)",
+          "timeUTC": "2026-09-14 05:29 UTC",
+          "source": "Decrypt / Cointelegraph",
+          "url": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai"
+        },
+        {
+          "headline": "Trump endorses tighter AI safeguards but dismisses external oversight as unnecessary",
+          "what": "President Trump stated he is the only 'guardrails' AI needs, dismissed calls for industry self-regulation, and attacked Anthropic. His position remains unpredictable on AI governance, adding uncertainty to the regulatory landscape for tech companies and chips.",
+          "coins": "BTC, ETH (macro sentiment)",
+          "timeUTC": "2026-09-14 10:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378166/trump-ai-guardrails-attacks-anthropic"
+        },
+        {
+          "headline": "HYPE token faces headwinds as Binance takes revenue stream; buyback dependency flagged",
+          "what": "Analysts flagged that Hyperliquid's HYPE token relies on Binance trading fees to fund token buybacks that drive price appreciation. If Binance shifts revenue models, HYPE's support mechanism weakens. Represents broader risk in new-token designs tied to exchange incentives.",
+          "coins": "HYPE",
+          "timeUTC": "2026-09-14 09:10 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/hype-price-could-suffer-as-binance-takes-its-revenue-alice-liu"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Retail Sales and Core Retail Sales (Wed 16 Sept, 12:30 UTC) — medium impact; Fed is watching to assess inflation for interest-rate decision",
+      "typicalReaction": "Stronger sales → higher rates risk → crypto bearish; weaker → rate-cut hopes → crypto bullish. Limited direct flow to crypto from this data."
+    },
+    {
+      "event": "US Federal Reserve interest-rate decision (Wed 16 Sept, 18:00 UTC) — HIGH impact; expected to raise rates from 3.75% to 4.0%",
+      "typicalReaction": "Higher rates = weaker risk appetite, crypto typically underperforms. This is one of the biggest macro events of the month; prepare for volatility."
+    },
+    {
+      "event": "FOMC press conference and economic projections (Wed 16 Sept, 18:00–18:30 UTC) — HIGH impact; Fed Chair's guidance on future rate path",
+      "typicalReaction": "Hawkish guidance (more hikes ahead) = bearish for crypto; dovish (pause or cuts) = bullish. Expectations for Q4 rate path will move the entire market."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis points",
+      "definition": "One hundredth of one percent. If funding rate is 0.01% (0.0001 raw), that is 1 basis point per day."
+    },
+    {
+      "term": "Caveman summary",
+      "definition": "A simple, jargon-free explanation of the day's events using everyday words, written for someone with no finance background."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between long and short traders on a futures exchange. Positive funding means longs pay shorts (bullish signal of overheating); negative funding means shorts pay longs (bearish signal). Annualized funding shows what an annual rate would be if daily funding stayed constant."
+    },
+    {
+      "term": "Long-to-short ratio (long/short ratio)",
+      "definition": "The proportion of traders betting price will go UP (long) versus DOWN (short). A ratio above 1 means more longs than shorts. Very high ratios (like 2.98 for ETH) signal extreme long leverage and risk of sudden liquidation if price reverses."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The 'true' price of a futures contract, used to calculate funding payments and prevent manipulation. It usually tracks spot price but may diverge slightly."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total amount of unsettled contracts (in coins or dollars) on an exchange. Rising OI = traders adding leverage and conviction; falling OI = positions closing. A stable or rising OI at higher prices signals strong bullish positioning."
+    },
+    {
+      "term": "Spot market",
+      "definition": "The market where you buy or sell crypto for immediate delivery (you own it outright). Differs from futures, where you bet on price without owning the asset."
+    },
+    {
+      "term": "Treasury company (Bitcoin treasury, corporate Bitcoin holder)",
+      "definition": "A publicly traded company (e.g., Strive, Strategy, Bitmine) that holds significant Bitcoin or Ethereum as a long-term investment, similar to how companies hold cash reserves. Announcements of treasury purchases or sales move markets."
+    },
+    {
+      "term": "Vesting",
+      "definition": "A lock-up period on crypto tokens or shares. A vested amount cannot be sold until the lock-up ends. Used to align incentives and prevent sudden dumps."
+    },
+    {
+      "term": "Venue (exchange)",
+      "definition": "A cryptocurrency trading platform where futures are bought and sold (e.g., Binance, Bybit, OKX, Bitget, Gate.io)."
+    }
+  ],
+  "_source": "cli"
+}

@@ -1,0 +1,248 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, 14 Eylül'de ABD'nin kripto düzenlemeleri hakkındaki iyimserlik ile yapay zeka endüstrisinin yavaşlaması endişelerinin çatışması arasında yaklaşık %1,8 oranında yükseldi.",
+  "caveman": "Bitcoin ve Ethereum her biri 14 Eylül'de yaklaşık %1,7-1,8 oranında yükseldi. Ana haber, Trump Başkanı'nın ABD-İran savaşının yakında biteceğini söylemesi ve bu da insanları kripto ile daha fazla risk almaya istekli kılmasıydı. Aynı zamanda Sam Altman ve Anthropic gibi büyük yapay zeka şirketlerinin liderleri, yapay zeka endüstrisinin yavaşlaması gerektiğini söylediler ve bu insanları korkuttu. Asya'daki Samsung ve SK Hynix gibi bilgisayar çip şirketleri ve Hong Kong'daki Zhongji Innolight'ın hepsi para kaybetti çünkü insanlar yapay zeka yavaşlarsa çip talebinin azalacağından endişe duyuyorlar. Son olarak, Kongre Clarity Act adlı yeni kripto kuralları hakkında büyük bir oylamaya hazırlanıyordu. Beyaz Saray'daki bazı insanlar bunu severken, eyalet yetkililer karşı çıktılar. Bu normal bir gündü, korkutucu hiçbir şey yoktu, ama çok büyük kararlar gelmekte.",
+  "priceVolumeSummary": "Bitcoin beş büyük borsada %1,78 oranında yükseliş ile kapandı, Ethereum ise %1,55 oranında yükseliş gördü ve tüm borsalar yakından uyumlu kaldı. Binance her iki çiftte de işlem hacmini liderlik etti: BTC'de 12,9 milyar dolar ve ETH'de 11,5 milyar dolar.",
+  "positioningSummary": "Tüccarlar bullish kaldı ve borsalarda yıllıklandırılmış fonlama oranları %2,2 ile %11 arasında değişiyordu. Açık faiz istikrarlı kaldı ve BTC ve ETH'de uzun taraf pozisyonları hâkimiyetini sürdürdü — Binance'in Bitcoin için uzun/kısa oranı 1,66'ya ve Ethereum için 2,98'e ulaştı ve bu ağır uzun eğilimini gösterdi. Bu pozisyonlama güveni yansıtsa da aynı zamanda kaldıracın yüksek olduğu anlamına geliyor.",
+  "stocksSummary": "Asya yarı iletken hisse senetleri 14 Eylül'de sabah seanslarında keskin bir şekilde düştü. Güney Kore borsaları (KRX, 00:00–06:30 UTC açık) satışa tutuldu: KOSPI 200 ETF %4,31 düştü, SK Hynix %2,18 düştü ve Samsung %1,33 kaybetti. Hong Kong borsaları (HKEX, 01:30–08:00 UTC açık) bunu takip etti: çip yapıcısı Zhongji Innolight %6,36 düştü ve CSOP SK Hynix 2x %3,98 düştü. Çin borsaları (01:30–07:00 UTC açık) karışık sonuç verdi: Unitree Robotics %1,19 kazandı ama CXMT %1,91 düştü. Bu örüntü günün yapay zeka yavaşlaması anlatısıyla uyumlu kaldı — teknoloji liderleri yapay zeka geliştirmede temkinli olmaya çağırırken, yatırımcılar yarı iletken pozisyonlarından çıktılar. Geleneksel ABD borsaları da düştü: S&P 500 %0,45 aşağıda, Nasdaq %0,48 aşağıda.",
+  "movers": [
+    {
+      "symbol": "AIN",
+      "explanation": "Aster (AIN), Binance'de 135 milyon dolar hacim ile %87,5 oranında sıçradı, ancak bugünün haberlerinde hiçbir duyuru veya pazar sürücüsü görülmedi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BR",
+      "explanation": "BR token, Binance'de (499 milyon dolar hacim ile) %69,2 oranında yükseldi, ancak mevcut kaynaklarda tanımlanmış hiçbir neden bulunmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "LSK",
+      "explanation": "Lisk (LSK), Binance'de (1,56 milyar dolar hacim ile) %51,6 oranında çöktü, gün içinde 0,99 dolardan 0,38 dolara düştü, ancak kamuya açık olarak duyurulmuş hiçbir neden görülmedi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Trump İran savaşının sona erebileceğini ima etti, risk iştahını arttırıp kripto fiyatlarını 80 bin dolara yaklaştırdı",
+        "what": "Başkan Trump, ABD-İran çatışmasının yakında çözülebileceğini işaret ederek jeopolitik risk-off baskısını azalttı. Bitcoin 79.500-80.000 dolara doğru hareket etti ve Ethereum buna yanıt olarak yaklaşık %1,5 oranında yükseldi; tüccarlar güvenli liman pozisyonlarından risk varlıklarına geçtiler.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-14 approx. midday",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-passes-79k-oil-prices-cool-on-trump-iran-war-hints"
+      },
+      {
+        "headline": "Senato Clarity Act oylaması Salı günü planlandı; Beyaz Saray güven sinyali veriyor, ama eyalet başsavcıları ve Demokratlar karşı çıkıyor",
+        "what": "14 Eylül'de Senato'nun 16 Eylül Salı günü Clarity Act (kripto pazar yapısı yasası) hakkında oylamayacağı haberi çıktı. Beyaz Saray kripto danışmanı, Trump etik kuralların sertleştirilmesini bir uzlaşma olarak onayladıktan sonra beklentiler hakkında 'çok iyi' hissettiğini söyledi. Ancak, 17 bipartisan eyalet başsavcısı Senato'yu tasarıyı reddetmeye çağırdı ve tasarının eyaletlerin menkul kıymet dolandırıcılığı ve dolandırıcılık denetimini zayıflatması endişesi duydu.",
+        "coins": "BTC, ETH (tüm kripto)",
+        "timeUTC": "2026-09-14 throughout day",
+        "source": "CoinDesk / The Block",
+        "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it"
+      },
+      {
+        "headline": "Yapay zeka endüstrisi liderleri yapay zeka yavaşlaması için çağrı yaptı; çip hisse senetleri yatırımcılar yarı iletken sektöründen kaçarken çakıldı",
+        "what": "OpenAI'in Sam Altman, Anthropic ve diğerleri halka açık olarak yapay zeka endüstrisinin yapay zeka yeteneği geliştirmesinin yavaşlanması ve daha güçlü güvenlik önlemleri uygulanması için çağrı yaptılar. Bu anlatı küresel olarak yarı iletken hisse senedi satışını tetikledi: Nvidia, Intel, AMD hepsi düştü; Asya'da SK Hynix %2,18 düştü, Samsung %1,33 düştü ve Zhongji Innolight %6,36 çöktü. Bitcoin'in kazancı, tüccarların kripto'yu yapay zeka düzenleme riskine karşı bir korunma olarak gördüğünü veya jeopolitik güvenliği daha büyük bir sürücü olarak gördüğünü gösteriyor.",
+        "coins": "BTC, ETH (makro sürücü)",
+        "timeUTC": "2026-09-14 early–mid",
+        "source": "Decrypt / Cointelegraph",
+        "url": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC Başkanı Atkins Clarity Act'i destekliyor; ajans oy sonucundan bağımsız olarak kripto'yu düzenleyeceğini söylüyor",
+          "what": "SEC Başkanı Gary Gensler'in halefi, kripto ihraç, transfer-agent kuralları ve saklama reformunun, Clarity Act'in geçip geçmediğine bakılmaksızın ajansın düzenleyici çabalarının temelini oluşturacağını işaret etti. Bu, endüstri üzerinde uzun vadeli düzenleyici baskının kilitlendiğini gösteriyor.",
+          "coins": "BTC, ETH, altcoin'ler",
+          "timeUTC": "2026-09-14 08:44 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it"
+        },
+        {
+          "headline": "Senatör Lummis: Demokratlar Clarity Act'te 'daha fazla istemeyi bırakmayacak' — müzakere yorgunluğu başlıyor",
+          "what": "Clarity Act hakkında üst düzey Cumhuriyetçi müzakerecisi olan Cynthia Lummis, beş yıllık çalışmadan sonra revizyonlar hakkında sınırına ulaştığını söyledi. Senatoda oylamaya gitmekte olsa da Demokratlar değişiklik talep etmeye devam ediyor ve bu, yakın zamandaki iyimserliğe rağmen tasarının yolunun belirsiz kaldığını gösteriyor.",
+          "coins": "BTC, ETH (tüm kripto)",
+          "timeUTC": "2026-09-14 07:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/14/u-s-senator-lummis-says-democrats-won-t-quit-asking-for-more-on-crypto-clarity-act"
+        },
+        {
+          "headline": "Sekiz bankacılık ticaret grubu stablecoin ödül limitlerinin daha sıkı kısıtlanması için baskıyı artırıyor",
+          "what": "Başlıca ABD banka dernekleri, stablecoin getirisine daha sıkı sınırlar talep ederek yüksek ödüllerin geleneksel bankalardan mevduatları saptırdığını savundu. Senatı stablecoin'leri etkileyen Clarity Act hükümlerine oy vermek için hazırlarken bu, bankacılık-kripto anlaşmazlığını canlı tuttu.",
+          "coins": "Stablecoin'ler",
+          "timeUTC": "2026-09-14 04:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378181/banks-senate-clarity-act-stablecoin-rules-key-vote"
+        },
+        {
+          "headline": "Trump'ın etik tavizi Clarity Act beklentilerini güçlendiriyor — bipartisan eyalet başsavcıları yine de karşı çıkıyor",
+          "what": "Başkan Trump, tasarıya daha sıkı etik kurallar kabul etti, bu da GOP desteğini kazanan bir uzlaşmaydı. Ancak, 17 eyalet başsavcısı (D+R) tasarıya karşı bir mektup gönderdi, endişeli olduğu tasarının eyaletleri kripto ile ilgili dolandırıcılık ve dolandırıcılıkları kovuşturma gücünden yoksun bıraktığından. Oy yine de gerçekten belirsiz kalıyor.",
+          "coins": "BTC, ETH (tüm kripto)",
+          "timeUTC": "2026-09-14 11:29–13:41 UTC",
+          "source": "CoinDesk / The Block",
+          "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive 36,6 milyon dolar satın alımla 25.000 BTC dönüm noktasına ulaştı; Bitcoin arzının yaklaşık %0,12'sini temsil ediyor",
+          "what": "Strive (eski adıyla Strive Holdings) en son Bitcoin satın almayı tamamladı ve kurumsal hazinesini tam olarak o sırada yaklaşık 1,95 milyar dolar değerinde 25.000 BTC'ye getirdi. Satın alma boyutu önceki haftanın 109 milyon dolar hızından yavaşladı, ancak kurumsal birikim devam ettiğini gösteriyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-14 14:42 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/strive-adds-469-bitcoin-to-reach-25000-btc-treasury"
+        },
+        {
+          "headline": "Bitmine 27.180 ETH ekliyor; varlıkları 6 milyona yaklaşırken 334 milyon dolar yıllık staking getirisi öngörüyor",
+          "what": "Bitmine (eski adıyla Tesla'nın kripto yan kuruluşu) hazinesine 27.180 Ethereum ekledi ve toplam varlıkları 5,96 milyon ETH'ye getirdi. Çoğu varlıkta staking etkinken Bitmine, yıllık 334 milyon dolar pasif gelir öngörüyor — bu, uzun vadeli Ethereum talebini sabitleyen önemli bir kurumsal getiri akışı.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-14 10:34 UTC",
+          "source": "The Block / Cointelegraph",
+          "url": "https://www.theblock.co/news/business/2026-09-14-bitmine-adds-27180-eth-as-adviser-tom-demark-sees-sharp-move-in-coming-weeks-414621"
+        },
+        {
+          "headline": "Strategy 139 milyon dolar STRC'yi geri satın alıyor, Bitcoin varlıklarını 845.050 BTC'de dondurmuş olarak bırakıyor",
+          "what": "Bitcoin hazine şirketi (eski adıyla MicroStrategy) tercih edilen hisse senedi geri satın almayı geçen haftanın 176 milyon dolarından bu hafta 139 milyon dolara yavaşlattı ve dev Bitcoin pozisyonunu değişmeden bıraktı. Varlıklar şimdi 21 milyon BTC arz liminin yaklaşık %4'ünü temsil ediyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-14 09:21 UTC",
+          "source": "Decrypt / The Block",
+          "url": "https://decrypt.co/378134/strategy-buys-139-million-strc-bitcoin-frozen"
+        },
+        {
+          "headline": "DeFi Development Corp, Solana hazinesini 2,39 milyon SOL'a genişletiyor; 300 milyon dolar ATM arzı duyuruyor",
+          "what": "Solana hazine şirketi SOL varlıklarını artırdı ve 300 milyon dolar değerinde CHAD sürekli tercih edilen hisse senedinin tavan açık arzını başlattı, hem Solana'nın değerine hem de kendi sermaye artırma kabiliyetine güven işaret ediyor.",
+          "coins": "SOL",
+          "timeUTC": "2026-09-14 09:53 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-14-defi-development-corp-expands-solana-treasury-2-39-million-sol-sets-300-million-chad-atm-414633"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood açık deniz hisse senedi token'leri için hisse geri satın alma ve oy hakları duyuruyor",
+          "what": "Robinhood CEO'su Vlad Tenev, platform'un tokenleştirilmiş hisse senedi sahiplerinin hisseleri geri satın almasına ve hissedar toplantılarında oy vermesine izin vereceğini söyledi, açık deniz token'lerinin normal sahiplik haklarını atladığına ilişkin eleştiriyi gideriyor. Bu hamle, Robinhood'un geleneksel öz sermaye piyasaları ile kripto altyapısını köprüleme taahhüdünü gösteriyor.",
+          "coins": "Uygulanamaz (token hisse senetleri)",
+          "timeUTC": "2026-09-14 05:18 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism"
+        },
+        {
+          "headline": "Kraken xStocks vault'larını başlatıyor: tokenleştirilmiş Nvidia, ETF'ler üzerinde DeFi getirisi kazanın",
+          "what": "Kraken yeni bir ürün kategorisi — 'xStocks vault'ları' — ekledi ve müşterilerin tokenleştirilmiş hisse senetleri (Nvidia dahil) ve büyük ABD hisse senedi ETF'lerini yatırıp varlıkları protokollere ödünç vererek DeFi getirisi kazanmalarını sağlıyor. Bu, merkezi borsa altyapısını merkeziyetçi olmayan ödünç verme pazarları ile köprülüyor.",
+          "coins": "Uygulanamaz (token hisse senetleri, ETF token'leri)",
+          "timeUTC": "2026-09-14 05:07 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs"
+        },
+        {
+          "headline": "Robinhood Chain TVL 1 milyar dolara ulaştı; günlük DEX hacmi son günlerde 1,88 milyar dolara ulaştı",
+          "what": "Robinhood'un kendi markası taşıyan blockchain, lansman sonrası 2,5 aydan az bir süre içinde hızlı büyümeye devam ediyor. Zincir üstü ekosistem TVL 1 milyar doları aştı ve tek günlük merkeziyetçi olmayan borsa hacmi 1,88 milyar dolarda zirve yaptı, perakende kripto altyapısında güçlü ürün-pazar uyumunu gösteriyor.",
+          "coins": "Uygulanamaz (blockchain altyapısı)",
+          "timeUTC": "2026-09-14 04:08 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-14-robinhood-chain-rapid-growth-being-driven-4-key-factors-analyst-says-414687"
+        },
+        {
+          "headline": "S&P Global, Kaiko için 110 milyon dolarlık Series B uzantısı liderliğini yapıyor; Wall Street kripto veri altyapısını kullanıyor",
+          "what": "Mali kurumlara hizmet veren kripto veri şirketi Kaiko, S&P Global tarafından yönetilen Series B uzantısında 110 milyon dolar topladı. Yatırımcılar ayrıca BNP Paribas, Nasdaq, RBC, Coinbase Ventures ve DRW Venture Capital'i içeriyor — tokenleştirilmiş menkul kıymetler ve zincir üstü finans üzerinde kurumsal nitelikli pazar verilerine talep işaret ediyor.",
+          "coins": "Uygulanamaz (veri altyapısı)",
+          "timeUTC": "2026-09-14 11:46 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets"
+        },
+        {
+          "headline": "Consensus konferansı genişletilmiş yapay zeka odağıyla Hong Kong'a gidiyor",
+          "what": "CoinDesk'in amiral gemisi endüstri etkinliği arka arkaya üçüncü yıl için Hong Kong'a dönecek, ancak yeni bir açıyla: paranın geleceği ve tokenleştirilmiş pazarlarda yapay zekanın rolüne ilişkin genişletilmiş programlama. Kripto endüstrisinin yapay zeka ile artan kurumsal örtüşmesini yansıtıyor.",
+          "coins": "Uygulanamaz (endüstri etkinliği)",
+          "timeUTC": "2026-09-14 18:31 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/consensus-heads-to-hong-kong-for-third-straight-year-with-expanded-focus-on-ai"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Yapay zeka endüstrisi yavaşlaması anlatısı: Sam Altman, Anthropic ve diğerleri yapay zeka geliştirmesi hakkında temkinli olmaya çağrı yapıyor",
+          "what": "OpenAI, Anthropic ve diğer yapay zeka laboratuvarları, yapay zeka endüstrisinin yavaşlanması ve yeteneği ölçeklendirmeye devam etmeden önce daha güçlü güvenlik önlemleri uygulanması için nadir kamusal açıklamalar yayınladılar. Bu anlatı yarı iletken hisse senetlerini korkuttu (SK Hynix, Samsung, Zhongji Innolight'ın hepsi Asya pazarlarında %1-6 oranında düştü) ancak teknoloji dev şirketleri üzerinde düzenleyici baskının kanıtı olarak görülürse Bitcoin için bullish kapak sağlayabilir.",
+          "coins": "BTC, ETH (makro korunma anlatısı)",
+          "timeUTC": "2026-09-14 05:29 UTC",
+          "source": "Decrypt / Cointelegraph",
+          "url": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai"
+        },
+        {
+          "headline": "Trump daha sıkı yapay zeka korumaları onayladı ancak dış denetimi gereksiz olarak reddetti",
+          "what": "Başkan Trump, yapay zekanın ihtiyaç duyduğu tek 'guardı' olduğunu söyledi, endüstri öz-düzenlemesi çağrılarını reddetti ve Anthropic'e saldırdı. Onun yapay zeka yönetimindeki konumu öngörülmez kalıyor ve bu teknoloji şirketleri ve çipleri için düzenleyici ortama belirsizlik ekliyor.",
+          "coins": "BTC, ETH (makro duyarlılığı)",
+          "timeUTC": "2026-09-14 10:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378166/trump-ai-guardrails-attacks-anthropic"
+        },
+        {
+          "headline": "HYPE token Binance gelir akışını alırken ters rüzgarla karşı karşıya; geri satın alma bağımlılığı işaretleniyor",
+          "what": "Analistler, Hyperliquid'in HYPE token'inin fiyat artışını sağlayan token geri satın almalarını finanse etmek için Binance işlem ücretlerine dayanmasını vurguladılar. Binance gelir modellerini değiştirirse, HYPE'nin destek mekanizması zayıflar. Borsa teşvikleriyle bağlantılı yeni token tasarımlarında daha geniş riski temsil ediyor.",
+          "coins": "HYPE",
+          "timeUTC": "2026-09-14 09:10 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/hype-price-could-suffer-as-binance-takes-its-revenue-alice-liu"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Retail Sales and Core Retail Sales (Wed 16 Sept, 12:30 UTC) — medium impact; Fed is watching to assess inflation for interest-rate decision",
+      "typicalReaction": "Daha güçlü satışlar → daha yüksek oran riski → kripto düşüş trendi; daha zayıf → oran indirimi umudu → kripto yükseliş trendi. Bu veriden kripto'ya sınırlı doğrudan akış."
+    },
+    {
+      "event": "US Federal Reserve interest-rate decision (Wed 16 Sept, 18:00 UTC) — HIGH impact; expected to raise rates from 3.75% to 4.0%",
+      "typicalReaction": "Daha yüksek oranlar = daha zayıf risk iştahı, kripto tipik olarak düşük performans gösterir. Bu ayın en büyük makro olaylarından biridir; oynaklık için hazırlık yapın."
+    },
+    {
+      "event": "FOMC press conference and economic projections (Wed 16 Sept, 18:00–18:30 UTC) — HIGH impact; Fed Chair's guidance on future rate path",
+      "typicalReaction": "Şahin yönelimi (daha fazla artış gelmekte) = kripto için düşüş trendi; güvercin yönelimi (duraklatma veya kesintiler) = yükseliş trendi. Q4 oran yolu beklentileri tüm pazarı hareket ettirecektir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel puan",
+      "definition": "Yüzde birinin yüzde biri. Eğer fonlama oranı %0,01 (0,0001 ham) ise, bu günde 1 temel puandır."
+    },
+    {
+      "term": "Caveman summary",
+      "definition": "Finans konusunda bilgisi olmayan biri için yazılmış, her gün olaylarının gündelik kelimeler kullanılarak basit, jargonsuz açıklaması."
+    },
+    {
+      "term": "Fonlama oranı",
+      "definition": "Bir vadeli işlemler borsasında uzun ve kısa tüccarlar arasında periyodik bir ödeme. Pozitif fonlama, uzunların kısalara ödeme yapması anlamına gelir (aşırı ısınmanın yükseliş sinyali); negatif fonlama, kısaların uzunlara ödeme yapması anlamına gelir (düşüş sinyali). Yıllıklandırılmış fonlama, günlük fonlama sabit kalsaydı yıllık oranın ne olacağını gösterir."
+    },
+    {
+      "term": "Uzun/Kısa oranı",
+      "definition": "Fiyatın YÜKSELECEĞİne (uzun) karşı DÜŞECEK (kısa) bahis yapan tüccarların oranı. 1'in üzerinde bir oran, kısalara göre daha fazla uzun anlamına gelir. Çok yüksek oranlar (ETH için 2,98 gibi) aşırı uzun kaldıraç ve fiyat tersine dönerse ani tasfiye riskini işaret ediyor."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Vadeli işlemler sözleşmesinin 'gerçek' fiyatı, fonlama ödemelerini hesaplamak ve manipülasyonu önlemek için kullanılan. Genellikle spot fiyatını takip eder ancak biraz sapabilir."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Bir borsada kapatılmamış sözleşmelerin toplam miktarı (coin veya dolar cinsinden). Yükselen açık faiz = tüccarlar kaldıraç ve inançlarını artırıyorlar; düşen açık faiz = pozisyonlar kapanıyor. Daha yüksek fiyatlarda istikrarlı veya yükselen açık faiz güçlü yükseliş pozisyonlamayı işaret ediyor."
+    },
+    {
+      "term": "Spot piyasa",
+      "definition": "Kripto'yu hemen teslim için alıp sattığınız piyasa (buna tamamen sahipsiniz). Fiyata bahis oynadığınız ancak varlığa sahip olmadığınız vadeli işlemlerin aksine."
+    },
+    {
+      "term": "Hazine şirketi",
+      "definition": "Halka açık olarak işlem gören bir şirket (örn. Strive, Strategy, Bitmine) Bitcoin veya Ethereum'u uzun vadeli bir yatırım olarak elinde bulundurur, tıpkı şirketlerin nakit rezervlerini elinde bulundurmalarına benzer şekilde. Hazine satın alımı veya satışının açıklanması pazarları hareket ettirir."
+    },
+    {
+      "term": "Yetkiye sahip olma",
+      "definition": "Kripto token'ler veya hisse senetleri üzerinde bir kilit dönem. Hak kazanmış bir miktar kilit süresi bitene kadar satılamaz. Teşvikleri hizalamak ve ani satışları önlemek için kullanılır."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Vadeli işlemlerin alınıp satıldığı bir kripto para ticaret platformu (örn. Binance, Bybit, OKX, Bitget, Gate.io)."
+    }
+  ],
+  "_source": "cli-tr"
+}
