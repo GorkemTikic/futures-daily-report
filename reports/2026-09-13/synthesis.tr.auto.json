@@ -1,0 +1,146 @@
+{
+  "oneLine": "13 Eylül'de Bitcoin ve Ethereum %2'nin altında düştü; trader'lar finansman oranlarında iyimserliğini korudu; bir köprünün güvenlik ihlali sonrası iyileşme DeFi'nin kırılganlığını ortaya koydu.",
+  "caveman": "Bitcoin (kripto para dünyasının en büyüğü) yaklaşık %0,5 düştü ve Ethereum (ikincisi) 13 Eylül Pazar günü yaklaşık %2 düştü. Bunlar küçük, endişe vermeyen düşüşlerdi. Önemli olan: fiyatların yukarı çıkacağına bahis yapan trader'lar bu bahisleri tutmak için ekstra ücret ödemeye razı oldular—bu genellikle yüksek fiyatlara güveni gösterir. Ayrıca iki gün önce Bitcoin'i farklı blockchainler arasında taşıyan bir köprü çalınmıştı ama yönetim ekibi 15 Bitcoin'i geri aldı—yine de saldırgan bundan önceki işlemlerde biraz para kaçırmıştı. Özet: korkutucu bir şey yok, sakin ve istikrarlı bir Pazar günüydü.",
+  "priceVolumeSummary": "Bitcoin beş büyük borsanın tümünde 77.700 $ civarında sabit kaldı ve gün içinde %0,57 düştü. Ethereum 2.510 $ yakınında seyretti, %1,95 düştü. Ticaret hacmi Binance, Bybit, OKX, Bitget ve Gate.io'da sabit ve güçlü kaldı—hiçbir borsa piyasayı domine etmedi.",
+  "positioningSummary": "Trader'lar iyimser duruş gösterdiler: finansman oranları (daha yüksek fiyatlara bahis tutmak için maliyeti) tüm mekanlar da %4,9 ile %9,7 yıllıklandırılmış aralığında kaldı, trader'ların yukarı yönlü bahislerini tutmaya istekli oldukları anlamına geldi. Bitcoin açık pozisyonu mütevazı artış gösterdi (%0,2–%1,0), trader'ların pozisyon eklediğini ortaya koydu. Ethereum açık pozisyonu düştü (%0,3–%1,6), bazı trader'lar bahislerini kapattı. Uzun pozisyonlar (yukarı bahisleri) çoğu mekanlar da kısa pozisyonları (aşağı bahisleri) aştı.",
+  "stocksSummary": "Asya ve ABD hisse senedi nakit piyasaları 13 Eylül Pazar günü kapalıydı. 24 saatlik emtia piyasalarında petrol fiyatları yaklaşık %2,4 yükseldi (hem WTI ham petrol hem de Brent), muhtemelen pazar yorumlarında belirtilen jeopolitik tedarik endişelerini yansıtarak. Altın spot %1,3 düştü.",
+  "movers": [
+    {
+      "symbol": "BR",
+      "explanation": "Düşük likiditeye sahip token gün içinde %27,8 sıçradı; açık bir haber nedeni belirlenemedi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CVC",
+      "explanation": "Altcoin %36,8 yükseldi ama hareketin açıklanması için eşlik eden haber yoktu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "STEEM",
+      "explanation": "Token gün içinde %16,9 yükseldi ancak 24 saatte %22,6 düştükten sonra, belirlenmiş haber sürücüsü olmayan aşırı oynaklılık gösterdi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Symbiosis, köprü istismarından sonra 15 BTC geri aldı",
+        "what": "13 Eylül'de Symbiosis protokolü, 11 Eylül istismarı sonrasında yaklaşık 15 BTC geri alındığını duyurdu. Bir saldırgan 46,1 milyar sahte syBTC token'ı üretti ve başlangıçta likiditeyi drene etti. Protokol ekibi 15 BTC'yi multisig cüzdanda güvence altına alırken, saldırgan zaten ~4,39 WBTC'yi Uniswap v4 aracılığıyla dönüştürmüş ve kabaca 336.000 $ gerçekleştirmişti. Symbiosis, saldırgan kalan varlıkları iadesi için %20 ödül sundu; Bitcoin Köprüsü, ekip varlık muhasebesi tamamlayana kadar duraklatılı kaldı.",
+        "coins": "BTC, Symbiosis",
+        "timeUTC": "2026-09-13 13:24 UTC",
+        "source": "Cointelegraph, The Block",
+        "url": "https://crypto.news/symbiosis-recovers-15-btc-after-attacker-mints-billions-of-sybtc/"
+      },
+      {
+        "headline": "Federal Reserve faiz kararı Çarşamba, 16 Eylül (içerik)",
+        "what": "Federal Reserve, 16 Eylül Çarşamba günü 18:00 UTC'de (ABD Doğu Saati 14:00) faiz oranı kararını açıklayacak; basın konferansı 18:30 UTC'de. Piyasalar olası bir oran artışını (2023'ten beri ilk) fiyatlandırıyor—ancak son enflasyon verileri yumuşadı. Karar kripto ve geleneksel piyasalarda önemli oynaklılık yaratabilir.",
+        "coins": "Tüm varlıklar",
+        "timeUTC": "2026-09-16 18:00 UTC (rapordan sonraki gün)",
+        "source": "Federal Reserve",
+        "url": "https://fedratecalc.com/fed-rate-decision/"
+      },
+      {
+        "headline": "CLARITY Kanunu Senato prosedür oylaması 15 Eylül (içerik)",
+        "what": "Kripto endüstrisinin CLARITY Kanunu, 15 Eylül'de tartışmanın ilerleyip ilerleyemeyeceğini belirlemek üzere bir Senato cloture oylamasıyla karşı karşıya. Cumhuriyetçiler 53 sandalye kontrolünde; 60 oy gerekli (7 Demokrat oyunun gerekli olması). Geçiş kripto varlıkları için kapsamlı pazar yapısı kuralları oluşturur. Pazar mutabakatı oylamayı belirsiz olarak görüyor; geçiş endüstri gözlemcileri tarafından orta-olasılık bir olay.",
+        "coins": "Kripto pazar düzenlemesi",
+        "timeUTC": "2026-09-15 14:15 UTC (rapordan sonraki gün)",
+        "source": "CoinDesk, Bitcoin Foundation",
+        "url": "https://www.bitget.com/academy/clarity-act-vote-september-2026-senate-cloture-what-to-know"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Symbiosis, köprü istismarından sonra 15 BTC geri aldı",
+          "what": "13 Eylül'de Symbiosis protokolü, 11 Eylül istismarı sonrasında yaklaşık 15 BTC geri alındığını duyurdu. Bir saldırgan 46,1 milyar sahte syBTC token'ı üretti ve başlangıçta likiditeyi drene etti. Protokol ekibi 15 BTC'yi multisig cüzdanda güvence altına alırken, saldırgan zaten ~4,39 WBTC'yi Uniswap v4 aracılığıyla dönüştürmüş ve kabaca 336.000 $ gerçekleştirmişti. Symbiosis, saldırgan kalan varlıkları iadesi için %20 ödül sundu; Bitcoin Köprüsü, ekip varlık muhasebesi tamamlayana kadar duraklatılı kaldı.",
+          "coins": "BTC, Symbiosis",
+          "timeUTC": "2026-09-13 13:24 UTC",
+          "source": "Cointelegraph, The Block",
+          "url": "https://crypto.news/symbiosis-recovers-15-btc-after-attacker-mints-billions-of-sybtc/"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CLARITY Kanunu Senato prosedür oylaması 15 Eylül (içerik)",
+          "what": "Kripto endüstrisinin CLARITY Kanunu, 15 Eylül'de tartışmanın ilerleyip ilerleyemeyeceğini belirlemek üzere bir Senato cloture oylamasıyla karşı karşıya. Cumhuriyetçiler 53 sandalye kontrolünde; 60 oy gerekli (7 Demokrat oyunun gerekli olması). Geçiş kripto varlıkları için kapsamlı pazar yapısı kuralları oluşturur. Pazar mutabakatı oylamayı belirsiz olarak görüyor; geçiş endüstri gözlemcileri tarafından orta-olasılık bir olay.",
+          "coins": "Kripto pazar düzenlemesi",
+          "timeUTC": "2026-09-15 14:15 UTC (rapordan sonraki gün)",
+          "source": "CoinDesk, Bitcoin Foundation",
+          "url": "https://www.bitget.com/academy/clarity-act-vote-september-2026-senate-cloture-what-to-know"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Federal Reserve faiz kararı Çarşamba, 16 Eylül (içerik)",
+          "what": "Federal Reserve, 16 Eylül Çarşamba günü 18:00 UTC'de (ABD Doğu Saati 14:00) faiz oranı kararını açıklayacak; basın konferansı 18:30 UTC'de. Piyasalar olası bir oran artışını (2023'ten beri ilk) fiyatlandırıyor—ancak son enflasyon verileri yumuşadı. Karar kripto ve geleneksel piyasalarda önemli oynaklılık yaratabilir.",
+          "coins": "Tüm varlıklar",
+          "timeUTC": "2026-09-16 18:00 UTC (rapordan sonraki gün)",
+          "source": "Federal Reserve",
+          "url": "https://fedratecalc.com/fed-rate-decision/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Senate CLARITY Act procedural vote (September 15 at 14:15 UTC)",
+      "typicalReaction": "Kripto piyasaları düzenleyici netlikte herhangi bir ilerleme için yakından izler. Prosedür oylamasının geçmesi (60+ oy) güven için yapıcı olur; başarısızlık momentum'u önemli ölçüde geciktirir."
+    },
+    {
+      "event": "Federal Reserve rate decision and FOMC statement (September 16 at 18:00 UTC)",
+      "typicalReaction": "Kripto piyasaları genellikle Federal Reserve faiz kararlarına keskin tepki verir. Bir oran artışı kripto da dahil olmak üzere riskli varlıklara yük koyabilir; bir duraklama veya daha yumuşak rehberlik iyimserlik olur."
+    },
+    {
+      "event": "US retail sales and core retail sales data (September 16 at 12:30 UTC)",
+      "typicalReaction": "Fed kararından önce yayınlanan enflasyona duyarlı veriler; zayıf perakende harcaması oran artışı olasılıklarını azaltabilir ve riskli varlıkları destekleyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış yüzde",
+      "definition": "Bir oran sanki tam bir yıl için uygulanıyormuş gibi ifade edilen bir oran. Bir finansman oranı 8 saatte 0,0000509 ise ve yıllıklandırılmışsa, yılda kabaca %5,6 eder."
+    },
+    {
+      "term": "Hesaplama dönemi",
+      "definition": "Fiyat değişiklikleri ve hacim hesaplamak için kullanılan zaman dilimi. 'UTC-gün' belirli bir tarihte 00:00–23:59 UTC anlamına gelir; 'günlük-24s' raporlama zamanından önceki 24 saati anlamına gelir."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Türev borsalarında trader'lar arasında takas edilen periyodik ücret. Finansman pozitif olduğunda, daha yüksek fiyatlara bahis yapan trader'lar daha düşük fiyatlara bahis yapanlara pozisyon tutmak için ödeme yaparlar. Daha yüksek pozitif finansman iyimser duruşu gösterir (uzun pozisyon talebinin daha fazla). Finansman oranları çoğu büyük borsada her 8 saatte sıfırlanır."
+    },
+    {
+      "term": "Uzun Pozisyon",
+      "definition": "Bir varlığın fiyatının yükseleceğine gösteren bahis. Bitcoin uzun pozisyonu tutan bir trader, Bitcoin'in fiyatı arttığında kâr eder."
+    },
+    {
+      "term": "Uzun/Kısa Oran",
+      "definition": "Belirli bir zamanda fiyatların yukarı çıkacağına karşı aşağı çıkacağına bahis yapan trader'ların oranı. 1,5 oranı her kısa trader için 1,5 uzun trader anlamına gelir. Daha yüksek oranlar daha iyimser duruşu gösterir."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Bir borsa tarafından vadeli işlem sözleşmelerinde trader karlılık ve zararını hesaplamak için kullanılan referans fiyatı. Tipik olarak son işlemlerin, bir endeks fiyatının ve temel spot fiyatının karışımı, manipülasyonu önlemek için tasarlanır."
+    },
+    {
+      "term": "Çoklu İmza Cüzdanı",
+      "definition": "Tipik olarak farklı taraflarca tutulan birden fazla özel anahtar tarafından kontrol edilen bir kripto para cüzdanı. İşlemler bu anahtarlardan bir eşik sayısından onay gerektiren (örn. 5'ten 3), hırsızlığı daha zor hale getir."
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Bir vadeli işlem borsasında tüm açık uzun ve kısa sözleşmelerin toplam dolar değeri (veya coin miktarı). Yükselen açık pozisyon trader'ların yeni bahisler eklediğini, düşen açık pozisyon trader'ların mevcut bahisleri kapattığını gösterir."
+    },
+    {
+      "term": "Açık Pozisyon Değişimi",
+      "definition": "Bir raporlama döneminde toplam açık pozisyonlardaki yüzde artış veya azalış. %1 değişim trader'ların önceki toplam açık pozisyonun %1'ine eşit yeni bahisler eklediği anlamına gelir."
+    },
+    {
+      "term": "Kısa Pozisyon",
+      "definition": "Bir varlığın fiyatının düşeceğine gösteren bahis. Bitcoin kısa pozisyonu tutan bir trader, Bitcoin'in fiyatı düştüğünde kâr eder."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Bir dönem boyunca (satın almalar ve satışlar birleştirilmiş) yürütülen işlemlerin toplam dolar değeri. Daha yüksek hacim tipik olarak daha aktif ticaret ve likiditeyi gösterir."
+    }
+  ],
+  "_source": "cli-tr"
+}

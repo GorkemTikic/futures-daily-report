@@ -23,10 +23,9 @@
   "generatedAtUTC": "15 Sept 00:00 UTC",
   "languages": [
     "en",
-    "tr"
+    "tr",
+    "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "zh report unavailable"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }

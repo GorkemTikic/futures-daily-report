@@ -1,0 +1,146 @@
+{
+  "oneLine": "比特币和以太坊在9月13日双双下跌不足2%，交易员对资金费率保持看涨态度，同时跨链协议的安全恢复事件凸显DeFi风险。",
+  "caveman": "比特币是最大的加密货币，以太坊是第二大的。周日9月13日，比特币跌了约0.5%，以太坊跌了约2%。这些都是小幅下跌，没什么可怕的。关键是：那些预测价格会上升的交易员愿意支付额外费用来维持他们的赌注，这通常意味着他们相信价格还会继续上升。另外，有个连接比特币和其他区块链网络的工具两天前被黑客入侵了，管理这个工具的团队说他们恢复了15个比特币——虽然黑客之前还偷了一些其他的币。总的来说，这是平静的一天，市场没有大波动。",
+  "priceVolumeSummary": "比特币在五大交易所保持在77,700美元左右，当日下跌0.57%。以太坊在2,510美元附近徘徊，下跌1.95%。币安、Bybit、OKX、Bitget和Gate.io的交易量均保持稳定——没有单个交易所占绝对主导。",
+  "positioningSummary": "交易员表现出看涨情绪：资金费率（维持看涨头寸的成本）在所有交易所保持正值，年化率为4.9%至9.7%，说明交易员愿意支付费用来维持多头头寸。比特币未平仓量适度增加（0.2–1.0%），表明交易员在增加新头寸。以太坊未平仓量下降（0.3–1.6%），一些交易员在平仓。多头头寸（看涨赌注）在大多数交易所超过空头头寸（看跌赌注）。",
+  "stocksSummary": "亚洲和美国股票现货市场在周日9月13日休市。在24小时商品市场中，油价上涨约2.4%（无论是WTI原油还是布伦特原油），可能反映市场评论中提及的地缘政治供应风险。现货黄金下跌1.3%。",
+  "movers": [
+    {
+      "symbol": "BR",
+      "explanation": "这种流动性较低的代币日内跳涨27.8%，没有明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "CVC",
+      "explanation": "山寨币飙升36.8%，但没有相关新闻解释这一波动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "STEEM",
+      "explanation": "该代币日内上升16.9%，但24小时内下跌22.6%，表现出极端波动，没有明确的新闻驱动。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Symbiosis协议在跨链攻击后恢复15个比特币",
+        "what": "9月13日，Symbiosis协议宣布在9月11日的攻击后恢复约15个比特币。一名攻击者铸造了461亿个假的syBTC代币并初步抽干流动性。虽然协议团队在多签钱包中保护了15个比特币，但攻击者已通过Uniswap v4转换了约4.39个WBTC，获利约336,000美元。Symbiosis提供20%的奖励如果攻击者归还剩余资产；原生比特币桥保持暂停状态，团队在进行资产清点。",
+        "coins": "BTC, Symbiosis",
+        "timeUTC": "2026-09-13 13:24 UTC",
+        "source": "Cointelegraph, The Block",
+        "url": "https://crypto.news/symbiosis-recovers-15-btc-after-attacker-mints-billions-of-sybtc/"
+      },
+      {
+        "headline": "美联储利率决议周三9月16日公布（背景信息）",
+        "what": "美联储将在周三9月16日18:00 UTC（美国东部时间下午2点）宣布利率决议，随后在18:30 UTC举行新闻发布会。市场预期可能加息——自2023年以来的首次加息——尽管最近通胀数据有所缓和。该决议可能在加密货币和传统市场中引发重大波动。",
+        "coins": "All assets",
+        "timeUTC": "2026-09-16 18:00 UTC (day after report)",
+        "source": "Federal Reserve",
+        "url": "https://fedratecalc.com/fed-rate-decision/"
+      },
+      {
+        "headline": "CLARITY法案参议院程序性投票9月15日（背景信息）",
+        "what": "加密货币行业的CLARITY法案面临参议院程序性冗余投票，以确定辩论是否可以进行。共和党控制53个席位；需要60票（需要7张民主党票）。通过将为加密资产建立全面的市场结构规则。市场共识认为投票结果存在不确定性，业界观察人士将通过评估为中等概率事件。",
+        "coins": "Crypto market regulation",
+        "timeUTC": "2026-09-15 14:15 UTC (day after report)",
+        "source": "CoinDesk, Bitcoin Foundation",
+        "url": "https://www.bitget.com/academy/clarity-act-vote-september-2026-senate-cloture-what-to-know"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Symbiosis协议在跨链攻击后恢复15个比特币",
+          "what": "9月13日，Symbiosis协议宣布在9月11日的攻击后恢复约15个比特币。一名攻击者铸造了461亿个假的syBTC代币并初步抽干流动性。虽然协议团队在多签钱包中保护了15个比特币，但攻击者已通过Uniswap v4转换了约4.39个WBTC，获利约336,000美元。Symbiosis提供20%的奖励如果攻击者归还剩余资产；原生比特币桥保持暂停状态，团队在进行资产清点。",
+          "coins": "BTC, Symbiosis",
+          "timeUTC": "2026-09-13 13:24 UTC",
+          "source": "Cointelegraph, The Block",
+          "url": "https://crypto.news/symbiosis-recovers-15-btc-after-attacker-mints-billions-of-sybtc/"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CLARITY法案参议院程序性投票9月15日（背景信息）",
+          "what": "加密货币行业的CLARITY法案面临参议院程序性冗余投票，以确定辩论是否可以进行。共和党控制53个席位；需要60票（需要7张民主党票）。通过将为加密资产建立全面的市场结构规则。市场共识认为投票结果存在不确定性，业界观察人士将通过评估为中等概率事件。",
+          "coins": "Crypto market regulation",
+          "timeUTC": "2026-09-15 14:15 UTC (day after report)",
+          "source": "CoinDesk, Bitcoin Foundation",
+          "url": "https://www.bitget.com/academy/clarity-act-vote-september-2026-senate-cloture-what-to-know"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美联储利率决议周三9月16日公布（背景信息）",
+          "what": "美联储将在周三9月16日18:00 UTC（美国东部时间下午2点）宣布利率决议，随后在18:30 UTC举行新闻发布会。市场预期可能加息——自2023年以来的首次加息——尽管最近通胀数据有所缓和。该决议可能在加密货币和传统市场中引发重大波动。",
+          "coins": "All assets",
+          "timeUTC": "2026-09-16 18:00 UTC (day after report)",
+          "source": "Federal Reserve",
+          "url": "https://fedratecalc.com/fed-rate-decision/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Senate CLARITY Act procedural vote (September 15 at 14:15 UTC)",
+      "typicalReaction": "加密货币市场密切关注任何监管透明度的进展。程序性投票通过（60票以上）将有利于提升市场信心；投票失败将严重延迟改革势头。"
+    },
+    {
+      "event": "Federal Reserve rate decision and FOMC statement (September 16 at 18:00 UTC)",
+      "typicalReaction": "加密货币市场通常对美联储利率决议反应剧烈。加息可能对包括加密货币在内的风险资产造成压力；暂停加息或发出更温和的指引将对市场构成利好。"
+    },
+    {
+      "event": "US retail sales and core retail sales data (September 16 at 12:30 UTC)",
+      "typicalReaction": "与通胀敏感的数据在美联储决议前公布；零售消费疲弱可降低加息概率，支持风险资产表现。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化百分比",
+      "definition": "以年为基础计算的利率。如果资金费率每8小时为0.0000509，年化后约为年收益率5.6%。"
+    },
+    {
+      "term": "基准周期",
+      "definition": "用于计算价格变化和交易量的时间周期。'UTC日'是指特定日期的00:00–23:59 UTC；'滚动24小时'是指报告时间往前推24小时的周期。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "衍生品交易所中交易员之间定期交换的费用。当资金费率为正时，看涨交易员向看跌交易员支付费用以维持头寸。更高的正资金费率表明看涨情绪（对多头需求更大）。大多数主要交易所每8小时重置资金费率。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "押注资产价格上升的交易。持有多头比特币头寸的交易员在比特币价格上升时获利。"
+    },
+    {
+      "term": "多空比",
+      "definition": "在特定时间押注价格上升的交易员与押注价格下跌的交易员的比例。比例为1.5意味着每1个空头交易员有1.5个多头交易员。更高的比例表示更看涨的情绪。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所用来计算交易员期货合约盈亏的参考价格。通常是最近交易、指数价格和现货价格的混合，旨在防止价格操纵。"
+    },
+    {
+      "term": "多签名钱包",
+      "definition": "由多个私钥控制的加密货币钱包，通常由不同的各方持有。交易需要来自这些密钥中阈值数量的批准（例如5个中的3个），使盗窃变得更加困难。"
+    },
+    {
+      "term": "未平仓量",
+      "definition": "期货交易所上所有开放多头和空头合约的总美元价值或币数。未平仓量上升表明交易员在增加新头寸；下降表明交易员在平仓。"
+    },
+    {
+      "term": "未平仓量变化",
+      "definition": "报告期间未平仓头寸的百分比增加或减少。+1%的变化意味着交易员增加的新头寸等于之前未平仓量总额的1%。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "押注资产价格下跌的交易。持有空头比特币头寸的交易员在比特币价格下跌时获利。"
+    },
+    {
+      "term": "交易量",
+      "definition": "某个时期内执行的所有交易（买入和卖出）的总美元价值。更高的交易量通常表示交易更活跃和流动性更强。"
+    }
+  ],
+  "_source": "cli-zh"
+}

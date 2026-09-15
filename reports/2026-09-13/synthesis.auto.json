@@ -1,0 +1,146 @@
+{
+  "oneLine": "Bitcoin and Ethereum both fell under 2% on September 13 as traders remained bullish on funding rates, with a bridge-security recovery highlighting DeFi vulnerabilities.",
+  "caveman": "Bitcoin (the biggest cryptocurrency) dropped about half a percent and Ethereum (the second-biggest) fell about 2% on Sunday, September 13. These were small, calm drops—nothing scary. Here's what mattered: traders who were betting on prices going UP were willing to pay extra fees to hold those bets, which usually signals confidence in higher prices ahead. Meanwhile, a bridge (a tool that moves Bitcoin between different blockchain networks) had suffered a hack two days earlier, and the team managing it said they recovered 15 Bitcoin that day—though the attacker had gotten away with some smaller amounts earlier. Overall, it was a quiet, steady Sunday with no big market shocks.",
+  "priceVolumeSummary": "Bitcoin stayed consistent around $77,700 across all five major exchanges, down 0.57% for the day. Ethereum hovered near $2,510, down 1.95%. Trading volume held steady and strong across Binance, Bybit, OKX, Bitget, and Gate.io—no single exchange dominated.",
+  "positioningSummary": "Traders showed bullish sentiment: funding rates (the cost to hold bets on higher prices) remained positive across all venues at 4.9% to 9.7% annualized, indicating traders were willing to pay to maintain upside bets. Bitcoin open interest rose modestly (0.2–1.0%), showing traders adding positions. Ethereum open interest fell (0.3–1.6%), with some traders closing bets. Long positions (bets on up) outnumbered short positions (bets on down) across most venues.",
+  "stocksSummary": "Asian and US equity cash markets were closed on Sunday, September 13. In 24-hour commodity markets, oil prices rose about 2.4% (both WTI crude and Brent), likely reflecting geopolitical supply concerns mentioned in market commentary. Gold spot fell 1.3%.",
+  "movers": [
+    {
+      "symbol": "BR",
+      "explanation": "The low-liquidity token jumped 27.8% intraday, with no clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CVC",
+      "explanation": "Altcoin surged 36.8%, but no accompanying news explained the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "STEEM",
+      "explanation": "Token climbed 16.9% intraday after declining 22.6% over 24 hours, showing extreme volatility with no identified news driver.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Symbiosis recovers 15 BTC after bridge exploit",
+        "what": "On September 13, the Symbiosis protocol announced recovery of approximately 15 BTC following a September 11 exploit. An attacker had minted 46.1 billion counterfeit syBTC tokens and initially drained liquidity. While the protocol team secured 15 BTC in a multisig wallet, the attacker had already converted ~4.39 WBTC through Uniswap v4, realizing roughly $336,000. Symbiosis offered a 20% bounty if the attacker returned remaining assets; the native Bitcoin Bridge remained paused as the team completed asset accounting.",
+        "coins": "BTC, Symbiosis",
+        "timeUTC": "2026-09-13 13:24 UTC",
+        "source": "Cointelegraph, The Block",
+        "url": "https://crypto.news/symbiosis-recovers-15-btc-after-attacker-mints-billions-of-sybtc/"
+      },
+      {
+        "headline": "Federal Reserve rate decision Wednesday, September 16 (context)",
+        "what": "The Federal Reserve will announce its interest rate decision on Wednesday, September 16 at 18:00 UTC (2 PM US Eastern Time), with a press conference at 18:30 UTC. Markets are pricing in a possible rate hike—the first since 2023—though recent inflation data has softened. The decision could create significant volatility across crypto and traditional markets.",
+        "coins": "All assets",
+        "timeUTC": "2026-09-16 18:00 UTC (day after report)",
+        "source": "Federal Reserve",
+        "url": "https://fedratecalc.com/fed-rate-decision/"
+      },
+      {
+        "headline": "CLARITY Act Senate procedural vote September 15 (context)",
+        "what": "The crypto industry's CLARITY Act faces a procedural Senate cloture vote on September 15 to determine whether debate can proceed. Republicans control 53 seats; 60 votes are needed (requiring 7 Democratic votes). Passage would establish comprehensive market-structure rules for crypto assets. Market consensus sees the vote as uncertain, with passage a moderate-probability event by industry observers.",
+        "coins": "Crypto market regulation",
+        "timeUTC": "2026-09-15 14:15 UTC (day after report)",
+        "source": "CoinDesk, Bitcoin Foundation",
+        "url": "https://www.bitget.com/academy/clarity-act-vote-september-2026-senate-cloture-what-to-know"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Symbiosis recovers 15 BTC after bridge exploit",
+          "what": "On September 13, the Symbiosis protocol announced recovery of approximately 15 BTC following a September 11 exploit. An attacker had minted 46.1 billion counterfeit syBTC tokens and initially drained liquidity. While the protocol team secured 15 BTC in a multisig wallet, the attacker had already converted ~4.39 WBTC through Uniswap v4, realizing roughly $336,000. Symbiosis offered a 20% bounty if the attacker returned remaining assets; the native Bitcoin Bridge remained paused as the team completed asset accounting.",
+          "coins": "BTC, Symbiosis",
+          "timeUTC": "2026-09-13 13:24 UTC",
+          "source": "Cointelegraph, The Block",
+          "url": "https://crypto.news/symbiosis-recovers-15-btc-after-attacker-mints-billions-of-sybtc/"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CLARITY Act Senate procedural vote September 15 (context)",
+          "what": "The crypto industry's CLARITY Act faces a procedural Senate cloture vote on September 15 to determine whether debate can proceed. Republicans control 53 seats; 60 votes are needed (requiring 7 Democratic votes). Passage would establish comprehensive market-structure rules for crypto assets. Market consensus sees the vote as uncertain, with passage a moderate-probability event by industry observers.",
+          "coins": "Crypto market regulation",
+          "timeUTC": "2026-09-15 14:15 UTC (day after report)",
+          "source": "CoinDesk, Bitcoin Foundation",
+          "url": "https://www.bitget.com/academy/clarity-act-vote-september-2026-senate-cloture-what-to-know"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Federal Reserve rate decision Wednesday, September 16 (context)",
+          "what": "The Federal Reserve will announce its interest rate decision on Wednesday, September 16 at 18:00 UTC (2 PM US Eastern Time), with a press conference at 18:30 UTC. Markets are pricing in a possible rate hike—the first since 2023—though recent inflation data has softened. The decision could create significant volatility across crypto and traditional markets.",
+          "coins": "All assets",
+          "timeUTC": "2026-09-16 18:00 UTC (day after report)",
+          "source": "Federal Reserve",
+          "url": "https://fedratecalc.com/fed-rate-decision/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Senate CLARITY Act procedural vote (September 15 at 14:15 UTC)",
+      "typicalReaction": "Crypto markets watch closely for any progress on regulatory clarity. A procedural vote passing (60+ votes) would be constructive for confidence; failure would delay momentum significantly."
+    },
+    {
+      "event": "Federal Reserve rate decision and FOMC statement (September 16 at 18:00 UTC)",
+      "typicalReaction": "Crypto markets typically react sharply to Fed rate decisions. A rate hike could weigh on risk assets including crypto; a pause or softer guidance would be bullish."
+    },
+    {
+      "event": "US retail sales and core retail sales data (September 16 at 12:30 UTC)",
+      "typicalReaction": "Inflation-sensitive data released before the Fed decision; weaker retail spending can reduce rate-hike odds and support risk assets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized percentage",
+      "definition": "A rate expressed as if it were applied for a full year. If a funding rate is 0.0000509 per 8 hours and annualized, it equals roughly 5.6% per year."
+    },
+    {
+      "term": "Basis",
+      "definition": "The time period used to calculate price changes and volume. 'UTC-day' means 00:00–23:59 UTC on a given date; 'rolling-24h' means the most recent 24 hours from the reporting time."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic fee exchanged between traders on derivatives exchanges. When funding is positive, traders betting on higher prices pay traders betting on lower prices to hold their positions. Higher positive funding suggests bullish sentiment (more demand to go long). Funding rates reset every 8 hours on most major exchanges."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will rise. A trader holding a long Bitcoin position profits if Bitcoin's price increases."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders betting prices will go up versus down at a given time. A ratio of 1.5 means 1.5 traders are long for every 1 trader short. Higher ratios indicate more bullish sentiment."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used by an exchange to calculate trader profits and losses on futures contracts. It is typically a blend of recent trades, an index price, and the underlying spot price, designed to prevent manipulation."
+    },
+    {
+      "term": "Multisig wallet",
+      "definition": "A cryptocurrency wallet controlled by multiple private keys, typically held by different parties. Transactions require approval from a threshold number of those keys (e.g., 3 of 5), making theft more difficult."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value (or coin quantity) of all open long and short contracts on a futures exchange. Rising open interest suggests traders are adding new positions; falling open interest suggests traders are closing existing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in total open positions over a reporting period. A +1% change means traders added new bets equal to 1% of the previous total open interest."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that an asset's price will fall. A trader holding a short Bitcoin position profits if Bitcoin's price decreases."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar value of trades (buys and sells combined) executed during a period. Higher volume typically indicates more active trading and liquidity."
+    }
+  ],
+  "_source": "cli"
+}

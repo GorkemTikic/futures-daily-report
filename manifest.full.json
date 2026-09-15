@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-15T00:09:39.212Z",
+  "generatedAt": "2026-09-15T00:31:40.373Z",
   "count": 90,
   "counts": {
     "total": 90,
     "market": 3,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-09-14",
   "reports": [
@@ -37,12 +37,11 @@
       ],
       "languages": [
         "en",
-        "tr"
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-14/summary_2026-09-14.html",
@@ -61,9 +60,9 @@
         "BTC": -0.5870778153196887,
         "ETH": -1.9628733360529431
       },
-      "marketSummary": "Bitcoin and Ethereum fell slightly as Asian chip stocks tumbled on AI slowdown concerns; a Senate vote on crypto regulation is scheduled for September 15.",
-      "oneLine": "Bitcoin and Ethereum fell slightly as Asian chip stocks tumbled on AI slowdown concerns; a Senate vote on crypto regulation is scheduled for September 15.",
-      "newsCount": 9,
+      "marketSummary": "Bitcoin and Ethereum both fell under 2% on September 13 as traders remained bullish on funding rates, with a bridge-security recovery highlighting DeFi vulnerabilities.",
+      "oneLine": "Bitcoin and Ethereum both fell under 2% on September 13 as traders remained bullish on funding rates, with a bridge-security recovery highlighting DeFi vulnerabilities.",
+      "newsCount": 6,
       "topMover": {
         "symbol": "BRUSDT",
         "chgPct": 27.842264914054592

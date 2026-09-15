@@ -1,0 +1,99 @@
+{
+  "runId": "2026-09-15T00:00:00.954Z",
+  "dateOverride": null,
+  "reuseSynthesis": false,
+  "startedAt": "2026-09-15T00:00:00.954Z",
+  "status": "degraded",
+  "finishedAt": "2026-09-15T00:09:43.322Z",
+  "durationSec": 582,
+  "date": "2026-09-14",
+  "live": true,
+  "window": {
+    "label": "2026-09-14 00:00 → 24:00 UTC",
+    "startMs": 1789344000000,
+    "endMs": 1789430399999,
+    "dayAligned": true,
+    "rolling": false,
+    "asOfUTC": "00:00 UTC"
+  },
+  "sources": {
+    "exchanges": {
+      "online": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "count": 5,
+      "bySymbol": {
+        "BTC": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ],
+        "ETH": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ]
+      }
+    },
+    "calendar": {
+      "ok": true,
+      "reason": null
+    },
+    "news": {
+      "ok": true,
+      "sourcesOnline": [
+        "CoinDesk",
+        "The Block",
+        "Cointelegraph",
+        "Decrypt",
+        "SEC",
+        "Federal Reserve",
+        "CFTC"
+      ],
+      "failed": [],
+      "count": 41,
+      "backfill": false
+    },
+    "tradfi": {
+      "ok": true,
+      "reason": null,
+      "requested": true,
+      "backfill": false
+    },
+    "stocks": {
+      "ok": true,
+      "reason": null
+    },
+    "etfFlows": "pending-synthesis",
+    "backfill": null
+  },
+  "synthesis": {
+    "source": "cli",
+    "fellBack": false,
+    "cliOnly": true,
+    "errorKind": null
+  },
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "pdf": {
+    "en": true,
+    "tr": true
+  },
+  "publish": {
+    "pushed": true,
+    "branch": "main"
+  },
+  "reasons": [
+    "zh report unavailable"
+  ]
+}

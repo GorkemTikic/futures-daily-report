@@ -1,0 +1,248 @@
+{
+  "oneLine": "9月14日，比特币和以太坊均上涨约1.8%，美国加密货币监管乐观情绪与对AI产业放缓呼声的担忧相互抗衡。",
+  "caveman": "9月14日，比特币和以太坊各自上涨约1.7-1.8%。最重要的新闻是：特朗普说美国和伊朗的战争可能很快就要结束了，这让投资者放心，愿意买更多加密货币，所以加密货币价格上升。但同时，OpenAI的Sam Altman和其他AI公司的老板们说，AI产业应该放慢脚步，更谨慎一点。这让投资者害怕了。所以亚洲的芯片公司都赔钱了——比如韩国的Samsung和SK Hynix，还有香港的Zhongji Innolight——因为他们担心如果AI放慢，就不需要那么多芯片了。另外，美国国会要投票表决一个新的加密货币法案，叫做Clarity Act。白宫的人喜欢这个法案，但各州的官员反对。总的来说，这是一个普通的交易日，没有特别可怕的东西，但接下来有很多重要的决定要做。",
+  "priceVolumeSummary": "比特币收盘上涨1.78%，以太坊上涨1.55%，五个主要交易所走势保持紧密一致。币安在两种资产上都领跑交易量：比特币 $12.9 billion，以太坊 $11.5 billion。",
+  "positioningSummary": "交易者保持看涨，资金费率在2.2%至11%的正值范围内（年化），在各交易所之间保持一致。未平仓合约持仓稳定，多头头寸在比特币和以太坊上都占据主导——币安的比特币多空比达到1.66，以太坊为2.98，显示多头倾斜明显。这种头寸配置反映出市场信心，但也意味着杠杆水平较高。",
+  "stocksSummary": "9月14日亚洲半导体股票在上午交易中大幅下跌。南韩市场（KRX，00:00–06:30 UTC开盘）抛售：KOSPI 200 ETF下跌4.31%，SK Hynix下跌2.18%，Samsung下跌1.33%。香港市场（HKEX，01:30–08:00 UTC）随后跟跌：芯片制造商Zhongji Innolight暴跌6.36%，CSOP SK Hynix 2x下跌3.98%。中国市场（01:30–07:00 UTC开盘）表现混合：Unitree Robotics上涨1.19%，但CXMT下跌1.91%。这种走势与当天的AI放缓叙事相符——随着科技领导人呼吁谨慎推进AI开发，投资者抛售半导体敞口。传统美国市场也下跌：标普500指数下跌0.45%，纳斯达克下跌0.48%。",
+  "movers": [
+    {
+      "symbol": "AIN",
+      "explanation": "Aster (AIN)在币安上跳涨87.5%，交易量 $135M，但在今天的新闻中没有任何公告或市场驱动因素。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BR",
+      "explanation": "BR代币在币安上飙升69.2%（交易量 $499M），在可用信息中没有确定的原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "LSK",
+      "explanation": "Lisk (LSK)在币安上暴跌51.6%（交易量 $1.56B），日内从 $0.99 跌至 $0.38，没有公开宣布的原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "特朗普暗示伊朗战争可能结束，提振风险偏好并推动加密货币价格逼近$80k",
+        "what": "特朗普总统表示美国伊朗冲突可能很快得到解决，减轻地缘政治避险压力。比特币推升至 $79,500–$80,000 附近，以太坊作为响应上涨~1.5%，交易者从避险头寸转向风险资产。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-14 approx. midday",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-passes-79k-oil-prices-cool-on-trump-iran-war-hints"
+      },
+      {
+        "headline": "参议院Clarity Act投票定于周二；白宫表示乐观，但各州检察长和民主党人反对",
+        "what": "9月14日，新闻报道参议院将在9月16日周二投票表决Clarity Act（加密货币市场结构法案）。白宫加密货币顾问表示，在特朗普支持更强硬的伦理规则作为妥协后，他对前景感到'非常乐观'。然而，17位两党州检察长敦促参议院拒绝该法案，称其将弱化各州对证券欺诈和诈骗的监管。",
+        "coins": "BTC, ETH（所有加密货币）",
+        "timeUTC": "2026-09-14 throughout day",
+        "source": "CoinDesk / The Block",
+        "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it"
+      },
+      {
+        "headline": "AI产业领导人呼吁放缓AI发展；投资者撤离半导体板块导致芯片股暴跌",
+        "what": "OpenAI的Sam Altman、Anthropic等公司公开呼吁AI产业放缓AI能力开发，并实施更强硬的安全措施。这一叙事触发了全球半导体股票的抛售：Nvidia、Intel、AMD全部下跌；亚洲地区，SK Hynix下跌2.18%，Samsung下跌1.33%，Zhongji Innolight暴跌6.36%。比特币的上涨表明交易者将加密货币视为对AI监管风险的对冲，或认为地缘政治安全是更大的驱动力。",
+        "coins": "BTC, ETH（宏观驱动因素）",
+        "timeUTC": "2026-09-14 early–mid",
+        "source": "Decrypt / Cointelegraph",
+        "url": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC主席Atkins支持Clarity Act；称无论投票结果如何，该机构将继续监管加密货币",
+          "what": "SEC主席Gary Gensler的继任者表示，加密货币发行、转账代理规则和托管改革将成为该机构监管推动的骨干，无论Clarity Act是否通过。这表明对该行业的长期监管压力已定。",
+          "coins": "BTC, ETH，山寨币",
+          "timeUTC": "2026-09-14 08:44 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it"
+        },
+        {
+          "headline": "参议员Lummis：民主党人在Clarity Act上'不会停止索要更多'——谈判疲劳出现",
+          "what": "Clarity Act的共和党主要谈判代表Cynthia Lummis表示，经过五年的工作后，她在修订上已达到极限。民主党人继续推动变更，尽管参议院正朝着投票迈进，这表明该法案的前景仍然不确定，尽管最近乐观情绪上升。",
+          "coins": "BTC, ETH（所有加密货币）",
+          "timeUTC": "2026-09-14 07:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/14/u-s-senator-lummis-says-democrats-won-t-quit-asking-for-more-on-crypto-clarity-act"
+        },
+        {
+          "headline": "八个银行业贸易组织加强推动更严格的稳定币奖励上限",
+          "what": "美国主要银行协会要求对稳定币收益设置更严格的上限，辩称高回报会将存款从传统银行转移走。随着参议院准备投票表决影响稳定币的Clarity Act条款，这使得银行与加密货币之间的争论保持活跃。",
+          "coins": "稳定币",
+          "timeUTC": "2026-09-14 04:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378181/banks-senate-clarity-act-stablecoin-rules-key-vote"
+        },
+        {
+          "headline": "特朗普的伦理让步加强了Clarity Act前景——两党州检察长仍然反对",
+          "what": "特朗普总统同意了该法案的更严格伦理规则，这一妥协赢得了共和党的支持。然而，17位州检察长（民主党+共和党）致信反对该法案，担心它剥夺了各州起诉加密相关欺诈和诈骗的权力。投票仍然存在真正的不确定性。",
+          "coins": "BTC, ETH（所有加密货币）",
+          "timeUTC": "2026-09-14 11:29–13:41 UTC",
+          "source": "CoinDesk / The Block",
+          "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive达到25,000 BTC里程碑，购入 $36.6M；占比特币供应量的约0.12%",
+          "what": "Strive（原Strive Holdings）完成了最新的比特币收购，将其公司金库提升至恰好25,000 BTC，当时价值约 $1.95B。购入规模从前一周的 $109M 节奏放缓，但表明机构仍在继续积累。",
+          "coins": "BTC",
+          "timeUTC": "2026-09-14 14:42 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/strive-adds-469-bitcoin-to-reach-25000-btc-treasury"
+        },
+        {
+          "headline": "Bitmine增持27,180 ETH；在持仓接近600万枚代币时投射年质押收益 $334M",
+          "what": "Bitmine（原特斯拉加密货币子公司）向其金库增加了27,180以太坊，将总持仓提升至596万ETH。随着大部分持仓启用质押，Bitmine投射年被动收入 $334M——这是一笔重要的机构收益流，支撑以太坊的长期需求。",
+          "coins": "ETH",
+          "timeUTC": "2026-09-14 10:34 UTC",
+          "source": "The Block / Cointelegraph",
+          "url": "https://www.theblock.co/news/business/2026-09-14-bitmine-adds-27180-eth-as-adviser-tom-demark-sees-sharp-move-in-coming-weeks-414621"
+        },
+        {
+          "headline": "Strategy回购 $139M STRC股份，将比特币持仓冻结在845,050 BTC",
+          "what": "比特币金库公司（原MicroStrategy）将其优先股回购从上周的 $176M 放缓至本周的 $139M，并使其庞大的比特币头寸保持不变。其持仓现在代表21百万BTC供应上限的约4%。",
+          "coins": "BTC",
+          "timeUTC": "2026-09-14 09:21 UTC",
+          "source": "Decrypt / The Block",
+          "url": "https://decrypt.co/378134/strategy-buys-139-million-strc-bitcoin-frozen"
+        },
+        {
+          "headline": "DeFi Development Corp将Solana金库扩展至239万SOL；宣布 $300M ATM发行",
+          "what": "Solana金库公司增加了其SOL持仓，并启动了价值 $300M 的其CHAD永久优先股的场内定价发行，表明对Solana价值和自身融资能力的信心。",
+          "coins": "SOL",
+          "timeUTC": "2026-09-14 09:53 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-14-defi-development-corp-expands-solana-treasury-2-39-million-sol-sets-300-million-chad-atm-414633"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood宣布为离岸代币化股票提供股份赎回和投票权",
+          "what": "Robinhood首席执行官Vlad Tenev表示，该平台将允许代币化股票持有者赎回股份并在股东大会上投票，解决离岸代币绕过正常所有权的批评。此举表明Robinhood致力于连接传统股票市场和加密基础设施。",
+          "coins": "N/A（代币化股票）",
+          "timeUTC": "2026-09-14 05:18 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism"
+        },
+        {
+          "headline": "Kraken启动xStocks保险库：在代币化Nvidia和ETF上赚取DeFi收益",
+          "what": "Kraken增加了一个新产品类别——'xStocks保险库'——让客户存入代币化股票（包括Nvidia）和美国主要股票ETF，通过将资产借入协议来赚取DeFi收益。这连接了中心化交易所基础设施与去中心化借贷市场。",
+          "coins": "N/A（代币化股票、ETF代币）",
+          "timeUTC": "2026-09-14 05:07 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs"
+        },
+        {
+          "headline": "Robinhood Chain TVL达到 $1B；日均DEX交易量最近达 $1.88B",
+          "what": "Robinhood自有品牌区块链自上线后不足2.5个月持续快速增长。链上生态的总锁定价值超过 $1B，单日去中心化交易所交易量峰值达 $1.88B，表明在零售加密基础设施中具有强大的产品市场契合度。",
+          "coins": "N/A（区块链基础设施）",
+          "timeUTC": "2026-09-14 04:08 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-14-robinhood-chain-rapid-growth-being-driven-4-key-factors-analyst-says-414687"
+        },
+        {
+          "headline": "标普全球领导Kaiko $110M B轮延期融资；华尔街挖掘加密数据基础设施",
+          "what": "为金融机构服务的加密数据公司Kaiko在由标普全球领导的B轮延期融资中融资 $110M。投资者还包括法国巴黎银行、纳斯达克、加拿大皇家银行、Coinbase Ventures和DRW风险投资——表明对代币化证券和链上金融的机构级市场数据的需求。",
+          "coins": "N/A（数据基础设施）",
+          "timeUTC": "2026-09-14 11:46 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets"
+        },
+        {
+          "headline": "Consensus大会前往香港，扩大AI焦点",
+          "what": "CoinDesk旗舰产业活动将连续第三年回到香港，但有新的角度：扩大了关于AI在货币未来和代币化市场中的角色的编程。反映了加密产业与AI的制度性重叠不断增长。",
+          "coins": "N/A（产业活动）",
+          "timeUTC": "2026-09-14 18:31 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/consensus-heads-to-hong-kong-for-third-straight-year-with-expanded-focus-on-ai"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "AI产业放缓叙事：Sam Altman、Anthropic等呼吁对AI开发谨慎",
+          "what": "OpenAI、Anthropic和其他AI实验室发布了罕见的公开声明，呼吁AI产业放缓，并在继续能力扩展之前实施更强的安全措施。这一叙事吓到了半导体股票（SK Hynix、Samsung、Zhongji Innolight在亚洲市场均下跌1–6%），但如果被视为对科技巨头的监管压力证据，可能为比特币提供看涨掩护。",
+          "coins": "BTC, ETH（宏观对冲叙事）",
+          "timeUTC": "2026-09-14 05:29 UTC",
+          "source": "Decrypt / Cointelegraph",
+          "url": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai"
+        },
+        {
+          "headline": "特朗普支持更严格的AI保障但驳斥外部监督为不必要",
+          "what": "特朗普总统表示他是AI所需的唯一'护栏'，驳斥了行业自律的呼声，并攻击了Anthropic。他在AI治理方面的立场仍然不可预测，为科技公司和芯片的监管格局增加了不确定性。",
+          "coins": "BTC, ETH（宏观情绪）",
+          "timeUTC": "2026-09-14 10:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378166/trump-ai-guardrails-attacks-anthropic"
+        },
+        {
+          "headline": "HYPE代币面临逆风，币安获得收益流；回购依赖性被标记",
+          "what": "分析师标记出Hyperliquid的HYPE代币依赖币安交易费来资助推动价格升值的代币回购。如果币安改变收益模式，HYPE的支持机制会削弱。代表了新代币设计中与交易所激励相关的更广泛风险。",
+          "coins": "HYPE",
+          "timeUTC": "2026-09-14 09:10 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/hype-price-could-suffer-as-binance-takes-its-revenue-alice-liu"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Retail Sales and Core Retail Sales (Wed 16 Sept, 12:30 UTC) — medium impact; Fed is watching to assess inflation for interest-rate decision",
+      "typicalReaction": "更强的销售→利率上升风险→加密货币看跌；更弱→降息希望→加密货币看涨。从这些数据流向加密货币的直接流动有限。"
+    },
+    {
+      "event": "US Federal Reserve interest-rate decision (Wed 16 Sept, 18:00 UTC) — HIGH impact; expected to raise rates from 3.75% to 4.0%",
+      "typicalReaction": "更高的利率=较弱的风险偏好，加密货币通常表现不佳。这是本月最大的宏观事件之一；为波动做好准备。"
+    },
+    {
+      "event": "FOMC press conference and economic projections (Wed 16 Sept, 18:00–18:30 UTC) — HIGH impact; Fed Chair's guidance on future rate path",
+      "typicalReaction": "鹰派指导（更多加息即将到来）=对加密货币看跌；鸽派（暂停或降息）=看涨。对第四季度利率路径的预期将推动整个市场。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基点",
+      "definition": "百分比的万分之一，或0.01%。如果资金费率是0.01%（原始值0.0001），那就是每天1个基点。"
+    },
+    {
+      "term": "简白概括",
+      "definition": "用日常用语简单、无行业术语的解释当天事件，为没有金融背景的人撰写。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "期货交易所中多头和空头交易者之间的定期付款。正向资金费率意味着多头支付空头（过热的看涨信号）；负向资金费率意味着空头支付多头（看跌信号）。年化资金费率显示如果日资金费率保持不变，年利率是多少。"
+    },
+    {
+      "term": "多空比（多头/空头比）",
+      "definition": "押注价格上升（多头）与下跌（空头）的交易者比例。比例高于1意味着多头多于空头。非常高的比例（如以太坊的2.98）表示极端的多头杠杆和价格反转时突然清算的风险。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货合约的'真实'价格，用于计算资金费用和防止操纵。它通常跟踪现货价格，但可能略有偏差。"
+    },
+    {
+      "term": "未平仓合约（OI）",
+      "definition": "交易所未结算合约（以币或美元计）的总额。上升的OI=交易者增加杠杆和确信度；下降的OI=头寸平仓。在更高价格下稳定或上升的OI表明强烈的看涨头寸。"
+    },
+    {
+      "term": "现货市场",
+      "definition": "购买或出售加密货币以立即交付的市场（你完全拥有它）。不同于期货，在期货中你押注价格而不拥有资产。"
+    },
+    {
+      "term": "资金库公司（比特币资金库、企业比特币持有者）",
+      "definition": "一家公开交易的公司（例如，Strive、Strategy、Bitmine），作为长期投资持有大量比特币或以太坊，类似于公司持有现金储备的方式。资金库购买或出售公告会移动市场。"
+    },
+    {
+      "term": "解锁",
+      "definition": "加密代币或股份的锁定期。已解锁的金额在锁定期结束前无法出售。用于对齐激励并防止突然抛售。"
+    },
+    {
+      "term": "交易所",
+      "definition": "购买和出售期货的加密货币交易平台（例如，币安、Bybit、OKX、Bitget、Gate.io）。"
+    }
+  ],
+  "_source": "cli-zh"
+}
