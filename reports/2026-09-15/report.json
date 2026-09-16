@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-15",
+  "kind": "market",
+  "dateLong": "Tuesday, 15 September 2026",
+  "coversUTC": "2026-09-15 00:00–23:59 UTC",
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
+  "macro": {
+    "BTC": -3.2604301009232386,
+    "ETH": -4.667507228968372
+  },
+  "topMover": {
+    "symbol": "AKEUSDT",
+    "chgPct": 69.97099255896076
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "16 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "narrative fell back to data-only (CLI-only backend)"
+  ]
+}

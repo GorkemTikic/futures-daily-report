@@ -1,0 +1,32 @@
+{
+  "oneLine": "来自5个交易所的市场数据；本次运行的新闻合成功能暂无法使用。",
+  "caveman": "",
+  "priceVolumeSummary": "请参阅下方的交易所表格。（本次运行的自动叙述功能暂无法使用——数据直接展示。）",
+  "positioningSummary": "请参阅下方的持仓表格。",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "本次运行暂无分析说明。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BRUSDT",
+      "explanation": "本次运行暂无分析说明。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "本次运行暂无分析说明。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [],
+    "groups": {}
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
+  "_source": "cli-zh"
+}
