@@ -1,32 +1,265 @@
 {
-  "oneLine": "5 borsadan toplanan pazar verileri; bu çalıştırma için haber sentezi mevcut değildi.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakın. (Bu çalıştırma için otomatik anlatı mevcut değil — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakın.",
-  "stocksSummary": "",
+  "oneLine": "15 Eylül'de Bitcoin ve Ethereum %3-4,5 oranında düştü; bunun nedeni ABD Senatı'nın kripto pazar düzenlemesini (Clarity Act) onaylayamaması ve tüccarların Federal Rezerv faiz kararına hazırlanmasıydı.",
+  "caveman": "Bitcoin ve Ethereum, insanların alıp sattığı dijital para türleridir. Bugün her ikisinin fiyatı düştü; bu insanların onları sattığı anlamına gelir. Neden? İki büyük nedeni vardı: Birincisi, ABD hükümeti kripto para hakkında yeni kurallar yapmak istedi ama Senat buna karşı oy verip reddetti, yani yeni kurallar yürürlüğe girmedi. İkincisi, insanlar ABD Federal Rezerv'in (Amerika'nın parasını yöneten banka) yarın duyuracağı karardan korktular—para borç alımı pahalı hale gelecek diye. İnsanlar korkunca, Bitcoin ve Ethereum satarlar. Yani üzücü bir gündü ama panik değil—fiyatlar düştü ama çökmedi.",
+  "priceVolumeSummary": "15 Eylül'de Bitcoin ve Ethereum fiyatları tüm büyük borsalarda tutarlı şekilde geriledi. Bitcoin günü 75.600 dolardan kapandı (%3,3 düşüş) ve Ethereum 2.397 dolarda (%4,6 düşüş) oldu. Binance işlem hacminde başı çekti: Bitcoin'de 18,2 milyar dolar, Ethereum'da 14,3 milyar dolar ABD doları işlem hacmi kaydedildi.",
+  "positioningSummary": "Bitcoin finansman oranları çoğunlukla pozitif ama mütevazı kaldı (yıllık %1,8 ila %7,3, borsaya göre değişir), gün içinde zayıflayan ılımlı yükseliş eğilimini yansıttı. Ethereum finansman oranları karışıktı; bazı borsalar negatif oranlar gösterdi (Bybit −%8,8), belirsizliğe işaret etti. Açık pozisyon Ethereum'da geriledi (%3,8–4,8 düşüş, borsaya göre değişir) Bitcoin açık pozisyonu kabaca sabit kaldı veya hafif yükseldi; bu tüccarların Ethereum pozisyonlarını kapatıp Bitcoin tuttukları anlamına gelir. Uzun pozisyonlar tüm büyük borsalarda kısa pozisyonları aştı (Bitcoin 1,8:1 ila 1,82:1 oranı, Ethereum 2,13:1 ila 3,26:1), ama açık pozisyonların toplam büyüklüğü küçüldü.",
+  "stocksSummary": "15 Eylül'de Asya hisse senedi piyasaları geriledi. Kore hisse senetleri (00:00–06:30 UTC işlem saatleri) teknoloji sektöründe gerilemeler kaydetti: SK Hynix −%0,6, Samsung Electronics −%1,2, Hanmi −%4,1, Hyundai Motor −%4,6, Naver −%2,9. Hong Kong hisse senetleri (01:30–08:00 UTC işlem saatleri) yapay zeka şirketlerinde daha keskin kayıplar gösterdi: Zhipu AI −%8,7, MiniMax −%9,9, Xiaomi −%3,2. Çin analand hisse senetleri (01:30–07:00 UTC işlem saatleri) sınırlı hareketler yaptı: Unitree Robotics +%0,9, CXMT +%0,3. ABD hisse senetleri (15 Eylül'de 15:30 UTC'den önce kapandı) negatif kapandı: S&P 500 (SPY) −%0,46, Nasdaq Composite (ONEQ) −%0,78. ABD doları Fed kararından önce yatırımcılar güvenli varlık aradıkça %0,18 yükseldi. Emtialar karışık seyir izledi: WTI Crude Oil +%2,18, Brent Crude +%1,04, Copper +%0,75, ama Gold −%0,32.",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "Bu çalıştırma için anlatı mevcut değildir.",
+      "explanation": "AKE %70 sıçradı, 475 milyon dolar işlem hacmiyle. Açık bir neden yok; artış Clarity Act oylaması gününün kripto ticaret oynaklığı dönemine rastladı.",
       "hasCause": false
     },
     {
       "symbol": "BRUSDT",
-      "explanation": "Bu çalıştırma için anlatı mevcut değildir.",
+      "explanation": "BR %53 çöktü, 234 milyon dolar işlem hacmiyle. Düşüşü tetikleyen belirlenebilir haber veya duyuru yok.",
       "hasCause": false
     },
     {
       "symbol": "AINUSDT",
-      "explanation": "Bu çalıştırma için anlatı mevcut değildir.",
+      "explanation": "AIN %34,5 yükseldi, 369 milyon dolar işlem hacmiyle. Hareketi tetikleyen açıklanmış bir nedeni veya duyurusu yok.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "ABD Senatı Clarity Act'ı prosedürel oylamada reddetti; kripto düzenlemesi sekteye uğradı",
+        "what": "Senat, Clarity Act'ı ilerletmek için prosedürel tasarıya 49–50 oyla oy verdi ve gerekli 60 oydan 11 oy eksik kaldı. Yasa, ABD kripto gözetimini SEC ile CFTC arasında bölmüş olacaktı. Demokratlar tasarıya karşı çıktı; onlara Cumhuriyetçi Senatörler Susan Collins (Maine), Josh Hawley (Missouri), Jerry Moran (Kansas) ve Thom Tillis (Kuzey Karolina) da katıldı. Oy, kripto endüstrisinin başlıca düzenleme girişimini (en azından şimdilik) öldürdü.",
+        "coins": "BTC, ETH, kripto hisse senetleri",
+        "timeUTC": "~15:00–16:00 UTC (öğleden sonra, ABD saati)",
+        "source": "CoinDesk, The Block, Cointelegraph",
+        "url": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote"
+      },
+      {
+        "headline": "Federal Rezerv 16 Eylül'de faiz artırması yapması bekleniyor; tüccarlar artış fiyatlandırıyor",
+        "what": "Pazar beklentileri Federal Rezerv'in 16–17 Eylül kararında %0,25 faiz artırması için katılaştı; duyuru Çarşamba 16 Eylül 18:00 UTC'de yapılacak. Fed Başkanı Kevin Warsh'ın yakın zamanda yaptığı Jackson Hole konuşması artış beklentisini güçlendirdi. Artan Hazine getirisi ve Orta Doğu geriliminin neden olduğu tedarik zinciri kesintileriyle kısmen ilgili enflasyon endişeleri, tahmin piyasalarında ihtimali %66'dan yükseğe çıkardı. Daha yüksek oranlar tipik olarak Bitcoin gibi risk varlıklarına olan talebi azaltır.",
+        "coins": "BTC, ETH, tüm risk varlıkları",
+        "timeUTC": "Karar 16 Eylül 18:00 UTC'de açıklanacak (ertesi takvim günü); fiyatlandırma 15 Eylül'de yapıldı",
+        "source": "Decrypt, Chase, CME FedWatch",
+        "url": "https://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump"
+      },
+      {
+        "headline": "DOJ iki Robinhood mühendisini Hyperliquid'de içerden öğrenilen bilgiyle ticaret yaptığı suçuyla tutukladı",
+        "what": "ABD Adalet Bakanlığı, eski Robinhood mühendisleri Hefu Chai (36) ve Huaisong Xiang (30) hakkında emtia dolandırıcılığı ve tel dolandırıcılığı suçu yöneltirdi. Onlar, Robinhood Kripto listeleme planları hakkında gizli bilgilere erişerek 2025 ile 2026 arasında Hyperliquid'de vadeli işlemleri ticaretini yapıp her biri 50.000 dolardan fazla kar elde ettikleri iddia ediliyor. Suçlamalar azami 10 yıl (emtia dolandırıcılığı) ve 20 yıl (tel dolandırıcılığı) cezaya sahip.",
+        "coins": "RBI (Robinhood), HYPE (Hyperliquid)",
+        "timeUTC": "13:50 EDT = 17:50 UTC (15 Eylül)",
+        "source": "The Block, DOJ",
+        "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Clarity Act'ı batıran siyasi çatlak perde arkasında",
+          "what": "Başkan Trump'ın kişisel kripto servetiyle ilgili etik hükümler üzerindeki arka plan anlaşmazlıkları müzakereleri yapıştırdı. Cumhuriyetçi senatörler genişletilmiş etik incelemesine ilişkin Demokrat talepkesine geri çekildi ve nihai metin her iki tarafı da memnun edemedi. Başarısızlık ABD kripto düzenlemesini belirsizlikte bıraktı.",
+          "coins": "BTC, ETH, tüm kripto",
+          "timeUTC": "15 Eylül, oylamanın saatler öncesi",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/15/there-were-many-conductors-in-the-derailment-of-the-crypto-industry-s-clarity-act"
+        },
+        {
+          "headline": "Clarity Act başarısızlığında kripto hisse senetleri düşüyor; Coinbase, Circle satışta öncü",
+          "what": "Kripto ilgili öz sermaye Senat oylamasından sonra keskin düşüş yaptı. Coinbase ve Circle hisseleri kabaca %10 düştü; Bitcoin madencileri ve kripto hazine şirketlerindeki düşüşler de bunu izledi. Başarısız düzenleme oylaması, yasal müzakere üzerine oluşan iyimserliği sildi.",
+          "coins": "COIN (Coinbase), CIRC (Circle), kripto hisse senetleri",
+          "timeUTC": "15 Eylül, oy sırasında ve sonrasında",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/markets/2026/09/15/crypto-stocks-sink-after-senate-rejects-clarity-act"
+        },
+        {
+          "headline": "Elizabeth Warren Clarity Act başarısızlığına karşın kripto düzenlemesi peşinde olmaya yemin etti",
+          "what": "ABD Senatörü kripto yasasına bağlılık sürdürmeyi söyledi ama Clarity Act'ı yazıldığı haliyle reddetti; tüketici koruma endişelerini ele almadığını söyledi. Alternatif bir yasa tasarısı hazırlamak niyetini işaret etti.",
+          "coins": "BTC, ETH, tüm kripto",
+          "timeUTC": "15 Eylül, oylamanın saatler sonrası",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-sen-elizabeth-warren-says-she-wants-a-crypto-bill-but-the-clarity-act-just-isnt-it-414869"
+        },
+        {
+          "headline": "Stand With Crypto senatörlere uyarı yaptı: Clarity Act'a karşı oylar 2026 ara seçimlerde puanlanacak",
+          "what": "Coinbase destekli savunuculuk grubu, Clarity Act oylarını Kasım 2026 seçiminden önce kripto seçmenlerini harekete geçirmek için oy puanlamalarına eklemeyi taahhüt etti. Grup, hayır oy verenlere karşı hesap verebilirliğe yemin etti.",
+          "coins": "BTC, ETH, tüm kripto",
+          "timeUTC": "15 Eylül, oylamanın sonrası",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act"
+        },
+        {
+          "headline": "Avrupa Merkez Bankası tüccarlarla dijital euro ödeme pilot programını başlattı",
+          "what": "AMB, dijital avrosu (e-euro) için 12 aylık bir test duyurdu, tüccarları çevrimiçi, mobil, mağazada ve eşler arası ödeme denemelerine katılmaya davet etti. Pilot, Eurozone'da merkez bankası dijital para para uygulamasına doğru önemli bir adımdır.",
+          "coins": "Dijital varlıklar, stabil paralar (bağlam)",
+          "timeUTC": "15 Eylül",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/15/european-central-bank-calls-for-merchants-to-participate-in-digital-euro-pilot"
+        },
+        {
+          "headline": "Meclis komitesi minimum muafiyet içeren kripto vergi reformu yasasını açıkladı",
+          "what": "Meclis, belirli kripto ücretleri için kabaca 10 dolar istisnası da dahil olmak üzere kapsamlı dijital varlık vergi tasarısını açıkladı; ayrıca stabil paralar, madencilik ve staking hükümleri de var. Yasa tam komite oturumunu ve nihai kat oylamasını bekliyor.",
+          "coins": "BTC, ETH, tüm kripto",
+          "timeUTC": "15 Eylül",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-house-committee-crypto-tax-bill-414824"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Binance geleneksel finans servet hizmetlerini 11 ABD listeli ETF ile genişletti",
+          "what": "Binance, ABD Hazinelerine ve yatırım notu tahvillerine odaklanan 11 ABD listeli borsa yatırım fonunu zenginlik yönetimi platformuna eklediğini duyurdu. Hamle, borsanın geleneksel finans ürünlerini entegre etme yönündeki dönüşünü işaret eder.",
+          "coins": "BTC, ETH (ekosistem)",
+          "timeUTC": "15 Eylül",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-adds-11-us-listed-etfs-to-wealth-management-offering"
+        },
+        {
+          "headline": "Kraken sembolleştirilmiş hisse senetlerine ve ETF'lere DeFi getirisi getiriyor",
+          "what": "Borsa, sembolleştirilmiş geleneksel varlıklar için getiri veren hesapları duyurdu, kullanıcıların sembolleştirilmiş hisse senetlerinden ve ETF'lerden getiri kazanmasını sağladı. Sunum, merkeziyetsiz finans mekaniğini geleneksel menkul kıymetlerle köprüleştiriyor.",
+          "coins": "BTC, ETH, sembolleştirilmiş varlıklar",
+          "timeUTC": "14–15 Eylül",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana borç veren Kamino Wall Street meraklısını CEO olarak işe aldı; New York'a genişliyor",
+          "what": "Solana üzerinde bir DeFi borç verme platformu olan Kamino Finance, Michael Weisz'i (eski YieldStreet kurucu ortağı) CEO olarak atadı ve New York'ta yeni genel merkez açıkladı. İşe alım, sembolleştirilmiş varlıklara ve Wall Street ortaklıklarına genişlemeyi işaret eder.",
+          "coins": "SOL, sembolleştirilmiş varlıklar",
+          "timeUTC": "15 Eylül",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion"
+        },
+        {
+          "headline": "Tonkeeper cüzdanı Keeper olarak yeniden markalandı; Bitcoin ve Ethereum desteği ekledi",
+          "what": "Eski Ton odaklı cüzdan Keeper olarak yeniden markalandı ve şimdi Bitcoin, Ethereum ve Ton dahil olmak üzere yedi blokzincir ağını destekliyor. Kayma, endüstri çapında zincirler arası birlikte çalışabilirlik eğilimlerini yansıtıyor.",
+          "coins": "BTC, ETH, TON",
+          "timeUTC": "15 Eylül",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-15-tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum-414807"
+        },
+        {
+          "headline": "Robinhood hisse token'leri için pay itfası ve oy haklarını planlıyor",
+          "what": "Borsa, Robinhood Chain üzerinde sembolleştirilmiş hisse senedi sunumları için yeni yönetişim ve itfa özelliklerini duyurdu; önceki eleştiriyi gideriyor. Hamle, sembolleştirilmiş öz sermayenin benimsenmesini artırmayı amaçlıyor.",
+          "coins": "RBI, sembolleştirilmiş hisse senetleri",
+          "timeUTC": "14–15 Eylül",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "MEV botu 'Yoink' rsETH'de 7,7 milyon doları kesildi, saldırganın soygununu engelledi",
+          "what": "Ethereum MEV (maksimal çıkarılabilir değer) botu 'Yoink' olarak bilineni, rsETH'i istismar etmeye çalışan bir saldırganın önünü kesti. Bot çalınan rsETH'i yakaladı ve dondurdu; Kelp protokolü alıcı adresini geçici olarak kilitledi. Olay, DeFi güvenliği ve MEV dinamikleri arasındaki karmaşık etkileşimi gösteriyor.",
+          "coins": "ETH, rsETH (Kelp'in yeniden stake edilmiş ETH'si)",
+          "timeUTC": "15 Eylül",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/mev-bot-intercepts-77m-in-rseth-from-ethereum-wallet-exploit"
+        },
+        {
+          "headline": "DeFi köprüsü saldırısı: saldırgan 25 senti 46 milyar sahte Bitcoin token'ine çevirdi",
+          "what": "Symbiosis Finance saldırganı iki yazılım hatasını istismar ederek Bitcoin'in toplam arzının 2.000 kez fazlasını yedeksiz syBTC token'i bastırabilir. Ön kayıplar 9,97 BTC'ye ulaştı. Symbiosis 15 BTC kurtardı ve saldırganına kalan fonları iade etmesi için 20 BTC ödülü teklif etti.",
+          "coins": "BTC, syBTC",
+          "timeUTC": "15 Eylül",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Bitcoin fiyatı Eylül düşüğüne zayıfladı; küresel tahvil getirisi on yıllık zirveye çıktı",
+          "what": "Bitcoin faiz oranı artışı beklentisini yansıtan tahvil getirileri arttıkça 75,6 bin dolara güne içinde geriledi. Artan borçlanma maliyetleri tipik olarak kripto gibi spekülatif ve getiri vermeyen varlıklara olan talebi azaltır.",
+          "coins": "BTC",
+          "timeUTC": "15 Eylül",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-price-falls-to-756k-september-low-as-global-bonds-hit-multidecade-highs"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Standard Chartered Arbitrum token'inin 2030'a kadar 70 kat artarak 10 dolara ulaşabileceğini öngörüyor",
+          "what": "Yatırım bankası, tokenleşme genişledikçe ve geleneksel finans blokzincire geçtikçe ARB'nin cari seviyelerden 2030 sonu itibarıyla 10 dolara sıçrayabileceğini öngördü. Tahmin, Robinhood Chain'in başarısını ve sembolleştirilmiş varlıkların daha geniş kabulünü varsayıyor. (Not: Bu bir bankanın araştırma görüşü, doğrulanmış pazar hareketi değildir.)",
+          "coins": "ARB (Arbitrum)",
+          "timeUTC": "15 Eylül",
+          "source": "CoinDesk, Standard Chartered",
+          "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue"
+        },
+        {
+          "headline": "ABD, İran yağ planı ile ilişkili 61 milyon dolarlık kripto kaybına konuşturmayı talep ediyor",
+          "what": "ABD savcıları, İran'ın hükümetine ve askerine yarar sağlayan yağ satışlarından elde edilen geliri akladığını iddia eden Binance hesaplarında akan 61 milyon dolar değerindeki kriptonu kaybetti. Suçlamalar iki Çin şirketini içeriyor.",
+          "coins": "BTC, kripto (genel)",
+          "timeUTC": "15 Eylül",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378261/us-forfeiture-61-million-crypto-iranian-oil-scheme"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-09-14",
+    "summary": "En yeni mevcut veriler Bitcoin ve Ethereum spot ETF'lerine 14 Eylül'de net girişler gösteriyor (bu rapor tarihinin bir gün öncesi). Bitcoin ETF'leri 159,9 milyon dolar net giriş kaydetti; BlackRock'un IBIT başında 134,3 milyon dolarla gidiyor. Ethereum spot ETF'leri 121,1 milyon dolar net giriş gördü. 15 Eylül'ün kendisine ait veriler henüz mevcut değil.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/btc/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "ABD Perakende Satışları (m/m) ve Çekirdek Perakende Satışları (m/m) — Çarşamba 16 Eylül, 12:30 UTC",
+      "typicalReaction": "Perakende harcama verisi tüketici gücünü gösterebilir. Tahminler: Çekirdek +%0,6 (önceki −%0,3), Perakende +%0,8 (önceki −%0,6). Beklenenden iyi veriler Fed faiz artırması beklentisini güçlendirebilir ve bu tipik olarak Bitcoin dahil risk varlıklarına zarar verir."
+    },
+    {
+      "event": "Federal Rezerv Para Politikası Kararı, Ekonomik Projeksiyonlar, Beyan ve Basın Konferansı — Çarşamba 16 Eylül, 18:00 UTC (duyuru), 18:30 UTC (konferans)",
+      "typicalReaction": "Piyasalar geniş bir şekilde %0,25 faiz artırması bekliyor (üç yılda ilk), 18:00 UTC'de açıklanacak. Daha yüksek oranlar Bitcoin ve Ethereum gibi getiri vermeyen varlıkları tutmanın fırsat maliyetini artırır. Bir artış cari seviyelere fiyatlanmış; ancak herhangi bir sürpriz (sabit kalma veya daha büyük artış) keskin hareketleri tetikleyebilir. Fed Başkanı'nın 18:30 konferansı sırasında yaptığı yorumlar piyasaların gelecekteki artış beklentilerine rehberlik edebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış finansman oranı",
+      "definition": "Vadeli işlem sözleşmelerinde uzun pozisyonlar tutan tüccarların kısa pozisyonlar tutan tüccarlara ödediği oran (yıllık yüzde olarak ifade edilir). Oran pozitif ise, uzunlar kısalara öder. Yüksek finansman oranı tipik olarak güçlü yükseliş duygusunu (çok fazla uzun) gösterirken, negatif oran düşüş duygusunu (çok fazla kısa) gösterir."
+    },
+    {
+      "term": "Temel (basis)",
+      "definition": "Bir fiyat hareketini hesaplamak için kullanılan takvim günü veya tarih. 'utc-günü' günün 00:00 ile 23:59 UTC arasından hesaplandığı anlamına gelir. 'dönen-24s' verinin ölçüm zamanından itibaren en son 24 saati kapsadığı anlamına gelir."
+    },
+    {
+      "term": "Kapanış oylaması (cloture vote)",
+      "definition": "Müzakereleri bitirmek ve bir yasa tasarısı üzerinde son oylamayı zorlayan bir Senat prosedürel oylaması. Geçmek için 60 oy gerekir. Kapanış başarısız olursa, yasa tasarısı final oylamaya ilerleyemez."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem piyasalarında, kalıcı fiyatı spot fiyatla uyumlu tutmak için tüccarlar arasında ödenen faiz oranı. Yıllık eşdeğeri için 'yıllıklandırılmış finansman oranı'na bakınız."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Bir pazardaki tüccarların uzun pozisyonları (fiyat yükselişi bahsi) ile kısa pozisyonları (fiyat düşüşü bahsi) arasındaki oran. 1,0'dan yüksek bir oran daha fazla uzun kısa anlamına gelir, tipik olarak yükseliş duygusunu gösterir; 1,0'dan aşağı daha fazla kısa anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı (mark price)",
+      "definition": "Vadeli işlem piyasalarında kullanılan referans fiyat, borsa fiyatlarının ağırlıklı ortalaması olarak hesaplanır. Finansman ödemeleri manipülasyonu önlemek için işaret fiyatına dayanır."
+    },
+    {
+      "term": "MEV (maksimal çıkarılabilir değer)",
+      "definition": "Bir madenci veya doğrulayıcının blok işlemleri yeniden sıralayarak, ekleyerek veya tutarak kazanabilmesi için kar. MEV botları hafıza havuzu işlemlerini tarar ve bekleyen siparişlerin fiyat hareketlerinden kâr etmek için ön ticaret yapabilir."
+    },
+    {
+      "term": "Açık pozisyon (open interest)",
+      "definition": "Bir pazardaki ödenmemiş (karmaşıklaştırılmamış) futures veya vadeli işlem sözleşmelerinin toplam sayısı. Artan açık pozisyon artan kaldıraç ve konumlandırma önerir; düşen açık pozisyon tüccarların pozisyonları kapatması veya riski azaltması anlamına gelir."
+    },
+    {
+      "term": "Açık pozisyon değişimi (open-interest change)",
+      "definition": "Belirli bir dönem (bu raporda, takvim günü) içinde toplam açık pozisyonda yüzde artış veya azalış. Pozitif değişim kapalı olandan daha fazla pozisyonun açılması anlamına gelir; negatif açılmıştır kapalı olandan daha fazla anlamına gelir."
+    },
+    {
+      "term": "Kalıcı vadeli işlem sözleşmesi (perpetual futures contract)",
+      "definition": "Tüccarların bir son kullanma tarihi olmaksızın fiyat hareketlerine bahis oynayabilmesini sağlayan türev bir sözleşme; geleneksel vadeli işlemler gibi değil. Kalıcılar süresiz olarak tutulabilir ve fiyatı spot ile uyumlu tutmak için finansman oranı ödemelerini içerir."
+    },
+    {
+      "term": "Spot fiyat",
+      "definition": "Anında teslim için bir varlığın cari piyasa fiyatı (gelecekte teslimat için olan sözleşmeler olan vadeli işlemler aksine)."
+    },
+    {
+      "term": "Sembolleştirilmiş varlıklar (tokenized assets)",
+      "definition": "Geleneksel finansal menkul kıymetler (hisse senetleri, tahviller, emtialar) veya gerçek dünya varlıkları blokzincir tabanlı token'lere dönüştürülür. Sembolleştirilmiş varlıklar kripto platformlarında 24/7 işlem görebilir ve geleneksel kapatmadan daha yüksek getiri veya daha düşük ücretler sunabilir."
+    },
+    {
+      "term": "Hacim (volume)",
+      "definition": "Belirli bir dönem içinde bir pazarda işlem gören toplam dolar değeri (veya sözleşme sayısı). Daha yüksek hacim tipik olarak daha fazla fiyat keşfi güvenini ve likidite gösterir."
+    }
+  ],
   "_source": "cli-tr"
 }

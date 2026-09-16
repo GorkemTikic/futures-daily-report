@@ -1,0 +1,265 @@
+{
+  "oneLine": "Bitcoin and Ethereum both fell 3–4.5% on September 15 as the U.S. Senate failed to advance crypto-market regulation (the Clarity Act) and traders prepared for an expected Federal Reserve interest-rate decision.",
+  "caveman": "Bitcoin and Ethereum are types of digital money that people buy and sell. Today both of them went down in price, which means people were selling them. This happened because of two big things: First, the U.S. government was trying to make new rules about cryptocurrency, but the lawmakers in the Senate voted against it and it failed — so no new rules happened today. Second, people think the U.S. Federal Reserve (the bank that runs America's money) is going to announce tomorrow that it will make it more expensive to borrow money, which worries people. When people worry, they sell their Bitcoin and Ethereum. So it was a worrying day, but not a panic — the price went down but prices did not crash.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices fell consistently across all major trading venues on September 15, with Bitcoin ending near $75,600 (down 3.3% for the day) and Ethereum at $2,397 (down 4.6%). Binance led in trading volume, with Bitcoin at $18.2 billion and Ethereum at $14.3 billion in USD trading that day.",
+  "positioningSummary": "Bitcoin funding rates remained mostly positive but modest (1.8% to 7.3% annualized depending on venue), signaling moderate bullish positioning that weakened as the day went on. Ethereum funding rates were mixed, with some venues showing negative rates (Bybit −8.8%), indicating uncertainty. Open interest declined on Ethereum (down 3.8–4.8% depending on venue) while Bitcoin open interest held roughly flat or slightly higher, suggesting traders closed Ethereum positions but held Bitcoin. Long positions outnumbered shorts across major venues (Bitcoin 1.8:1 to 1.82:1 ratio, Ethereum 2.13:1 to 3.26:1), but the size of total positions shrank.",
+  "stocksSummary": "Asian equity markets declined on September 15. Korean stocks (trading 00:00–06:30 UTC) fell across technology: SK Hynix −0.6%, Samsung Electronics −1.2%, Hanmi −4.1%, Hyundai Motor −4.6%, and Naver −2.9%. Hong Kong stocks (trading 01:30–08:00 UTC) showed steeper losses in AI companies: Zhipu AI −8.7%, MiniMax −9.9%, and Xiaomi −3.2%. Mainland China equities (01:30–07:00 UTC) saw modest moves: Unitree Robotics +0.9%, CXMT +0.3%. US equities (session ended before 15:30 UTC on Sept 15) closed lower: S&P 500 (SPY) −0.46%, Nasdaq Composite (ONEQ) −0.78%. The U.S. dollar edged up +0.18% as investors sought safe assets ahead of the Fed decision. Commodities were mixed: WTI Crude Oil +2.18%, Brent Crude +1.04%, Copper +0.75%, but Gold −0.32%.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE surged 70% with $475 million in trading volume. No clear public catalyst; the jump coincided with general crypto trading volatility on the day of the Clarity Act vote.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BRUSDT",
+      "explanation": "BR crashed 53%, trading $234 million in volume. No identifiable news or announcement triggered the decline.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AIN climbed 34.5% with $369 million in volume. No disclosed reason or announcement drove the move.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "U.S. Senate rejects Clarity Act in procedural vote; crypto regulation stalls",
+        "what": "The Senate voted 49–50 on a procedural motion to advance the Clarity Act, falling 11 votes short of the 60 needed. The bill would have split U.S. crypto oversight between the SEC and CFTC. Democrats opposed the measure, joined by Republican Senators Susan Collins (Maine), Josh Hawley (Missouri), Jerry Moran (Kansas), and Thom Tillis (North Carolina). The vote killed the crypto industry's marquee regulatory push, at least for now.",
+        "coins": "BTC, ETH, crypto stocks",
+        "timeUTC": "~15:00–16:00 UTC (mid-afternoon, U.S. time)",
+        "source": "CoinDesk, The Block, Cointelegraph",
+        "url": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote"
+      },
+      {
+        "headline": "Federal Reserve widely expected to raise rates on September 16; traders price in hike",
+        "what": "Market expectations solidified for a 0.25% interest-rate increase at the Fed's September 16–17 decision, announced Wed. Sept 16 at 18:00 UTC. Fed Chair Kevin Warsh's recent Jackson Hole speech raised confidence in a hike. Rising Treasury yields and concerns about inflation — partly driven by supply-chain disruptions linked to Middle East tensions — increased the odds to 66%+ in prediction markets. Higher rates typically reduce appetite for risk assets like Bitcoin.",
+        "coins": "BTC, ETH, all risk assets",
+        "timeUTC": "Decision announced 18:00 UTC on Sept 16 (next calendar day); pricing happened Sept 15",
+        "source": "Decrypt, Chase, CME FedWatch",
+        "url": "https://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump"
+      },
+      {
+        "headline": "DOJ charges two Robinhood engineers with insider trading on Hyperliquid",
+        "what": "The U.S. Department of Justice charged Hefu Chai, 36, and Huaisong Xiang, 30 — both former Robinhood engineers — with commodities fraud and wire fraud. They allegedly accessed confidential information about upcoming Robinhood Crypto listings and used it to trade futures on Hyperliquid between 2025 and 2026, profiting more than $50,000 each. The charges carry maximum sentences of 10 years (commodities fraud) and 20 years (wire fraud).",
+        "coins": "RBI (Robinhood), HYPE (Hyperliquid)",
+        "timeUTC": "13:50 EDT = 17:50 UTC (Sept 15)",
+        "source": "The Block, DOJ",
+        "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Inside the political breakdown that sank the Clarity Act",
+          "what": "Behind-the-scenes disputes over ethics provisions tied to President Trump's personal crypto wealth doomed negotiations. Republican senators pushed back against Democratic demands for expanded ethical review, and the final text could not satisfy both camps. The failure leaves U.S. crypto regulation in limbo.",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "Sept 15, hours before vote",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/15/there-were-many-conductors-in-the-derailment-of-the-crypto-industry-s-clarity-act"
+        },
+        {
+          "headline": "Crypto stocks sink on Clarity Act failure; Coinbase, Circle lead selloff",
+          "what": "Crypto-related equities fell sharply after the Senate vote. Coinbase and Circle shares dropped roughly 10%, alongside declines in Bitcoin miners and crypto treasury companies. The failed regulation vote wiped out optimism that had built up over the legislative push.",
+          "coins": "COIN (Coinbase), CIRC (Circle), crypto stocks",
+          "timeUTC": "Sept 15, during and after the vote",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/markets/2026/09/15/crypto-stocks-sink-after-senate-rejects-clarity-act"
+        },
+        {
+          "headline": "Elizabeth Warren vows to pursue crypto regulation despite Clarity Act defeat",
+          "what": "The U.S. Senator said she remains committed to crypto legislation but rejected the Clarity Act as drafted, saying it does not address her consumer-protection concerns. She signaled intent to craft an alternative bill.",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "Sept 15, hours after the vote",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-sen-elizabeth-warren-says-she-wants-a-crypto-bill-but-the-clarity-act-just-isnt-it-414869"
+        },
+        {
+          "headline": "Stand With Crypto warns senators: votes against Clarity Act will be scorecarded for 2026 midterms",
+          "what": "The Coinbase-backed advocacy group pledged to add senators' Clarity Act votes to its voter scorecards as it mobilizes crypto voters ahead of the November 2026 election. The group vowed accountability for those who voted no.",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "Sept 15, after the vote",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act"
+        },
+        {
+          "headline": "European Central Bank launches digital euro payment pilot with merchants",
+          "what": "The ECB announced a 12-month test of its digital euro (e-euro), inviting merchants to participate in online, mobile, in-store, and peer-to-peer payment trials. The pilot represents a major step toward central-bank digital currency deployment in the Eurozone.",
+          "coins": "Digital assets, stablecoins (context)",
+          "timeUTC": "Sept 15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/15/european-central-bank-calls-for-merchants-to-participate-in-digital-euro-pilot"
+        },
+        {
+          "headline": "House committee releases crypto tax reform bill with de minimis exception",
+          "what": "The House released a sweeping digital-asset tax proposal including a roughly $10 exception for certain cryptocurrency fees, plus provisions on stablecoins, mining, and staking. The bill awaits full committee markup and eventual floor vote.",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "Sept 15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-house-committee-crypto-tax-bill-414824"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Binance expands traditional-finance wealth offerings with 11 US-listed ETFs",
+          "what": "Binance announced addition of 11 U.S.-listed exchange-traded funds focused on U.S. Treasurys and investment-grade bonds to its wealth management platform. The move signals the exchange's pivot toward integrating traditional finance products.",
+          "coins": "BTC, ETH (ecosystem)",
+          "timeUTC": "Sept 15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-adds-11-us-listed-etfs-to-wealth-management-offering"
+        },
+        {
+          "headline": "Kraken brings DeFi yield to tokenized stocks and ETFs",
+          "what": "The exchange announced yield-bearing accounts for tokenized traditional assets, allowing users to earn returns on tokenized stocks and ETFs. The offering bridges decentralized finance mechanics with traditional securities.",
+          "coins": "BTC, ETH, tokenized assets",
+          "timeUTC": "Sept 14–15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana lender Kamino hires Wall Street veteran as CEO; expanding to New York",
+          "what": "Kamino Finance, a DeFi lending platform on Solana, named Michael Weisz (former YieldStreet co-founder) as CEO and announced a new headquarters in New York. The hire signals expansion into tokenized assets and Wall Street partnerships.",
+          "coins": "SOL, tokenized assets",
+          "timeUTC": "Sept 15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion"
+        },
+        {
+          "headline": "Tonkeeper wallet rebrands as Keeper; adds Bitcoin and Ethereum support",
+          "what": "The formerly Ton-focused wallet rebranded to Keeper and now supports seven blockchain networks, including Bitcoin, Ethereum, and Ton. The shift reflects industry-wide cross-chain interoperability trends.",
+          "coins": "BTC, ETH, TON",
+          "timeUTC": "Sept 15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-15-tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum-414807"
+        },
+        {
+          "headline": "Robinhood plans share redemptions and voting rights for stock tokens",
+          "what": "The brokerage announced new governance and redemption features for its tokenized stock offerings on Robinhood Chain, addressing earlier criticism. The move aims to boost adoption of tokenized equities.",
+          "coins": "RBI, tokenized stocks",
+          "timeUTC": "Sept 14–15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "MEV bot 'Yoink' intercepts $7.7M in rsETH, blocks attacker's heist",
+          "what": "An Ethereum MEV (maximal extractable value) bot known as 'Yoink' front-ran an attacker who was trying to exploit a custom Safe module. The bot captured the stolen rsETH and froze it; Kelp protocol temporarily locked the receiving address. The incident illustrates the complex interplay of DeFi security and MEV dynamics.",
+          "coins": "ETH, rsETH (Kelp's restaked ETH)",
+          "timeUTC": "Sept 15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/mev-bot-intercepts-77m-in-rseth-from-ethereum-wallet-exploit"
+        },
+        {
+          "headline": "DeFi bridge hack: hacker turned 25 cents into 46 billion fake Bitcoin tokens",
+          "what": "A Symbiosis Finance attacker exploited two software bugs to mint over 2,000 times Bitcoin's total supply in unbacked syBTC tokens. Preliminary losses totaled 9.97 BTC. Symbiosis recovered 15 BTC and offered the attacker a 20 BTC bounty to return remaining funds.",
+          "coins": "BTC, syBTC",
+          "timeUTC": "Sept 15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Bitcoin price weakens to September low; global bond yields hit multidecade highs",
+          "what": "Bitcoin fell to $75.6K intraday as bond yields surged globally, reflecting expectations of higher interest rates. Rising borrowing costs typically reduce appetite for speculative and non-yielding assets like crypto.",
+          "coins": "BTC",
+          "timeUTC": "Sept 15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-price-falls-to-756k-september-low-as-global-bonds-hit-multidecade-highs"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Standard Chartered predicts Arbitrum token could rise 70-fold to $10 by 2030",
+          "what": "The investment bank projected ARB could surge from current levels to $10 by end-2030 as tokenization expands and traditional finance moves onchain. The forecast assumes Robinhood Chain's success and broader adoption of tokenized assets. (Note: This is a bank's research opinion, not a confirmed market move.)",
+          "coins": "ARB (Arbitrum)",
+          "timeUTC": "Sept 15",
+          "source": "CoinDesk, Standard Chartered",
+          "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue"
+        },
+        {
+          "headline": "US seeks forfeiture of $61M in crypto tied to alleged Iranian oil scheme",
+          "what": "U.S. prosecutors filed for seizure of $61 million in cryptocurrency that allegedly flowed through Binance accounts to launder proceeds from oil sales benefiting Iran's government and military. Charges involve two Chinese companies.",
+          "coins": "BTC, crypto (general)",
+          "timeUTC": "Sept 15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378261/us-forfeiture-61-million-crypto-iranian-oil-scheme"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-14",
+    "summary": "Most recent available data shows net inflows to both Bitcoin and Ethereum spot ETFs on September 14 (one day before this report date). Bitcoin ETFs recorded $159.9M net inflow, with BlackRock's IBIT leading at $134.3M. Ethereum spot ETFs saw $121.1M net inflow. Data for September 15 itself is not yet available.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/btc/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "U.S. Retail Sales (m/m) and Core Retail Sales (m/m) — Wednesday Sept 16, 12:30 UTC",
+      "typicalReaction": "Retail spending data can signal consumer strength. Forecasts: Core +0.6% (prev −0.3%), Retail +0.8% (prev −0.6%). Better-than-expected data may reinforce expectations for a Fed rate hike, which typically weighs on risk assets including Bitcoin."
+    },
+    {
+      "event": "Federal Reserve Policy Decision, Economic Projections, Statement, and Press Conference — Wednesday Sept 16, 18:00 UTC (announcement), 18:30 UTC (presser)",
+      "typicalReaction": "Markets widely expect a 0.25% rate hike (first in three years), announced at 18:00 UTC. Higher rates increase the opportunity cost of holding non-yielding assets like Bitcoin and Ethereum. A hike is priced into current levels, but any surprise (hold or larger hike) could trigger sharp moves. Fed Chair comments during the 18:30 presser may guide markets' expectations for future hikes."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized funding rate",
+      "definition": "The rate (expressed as a yearly percentage) that traders who hold long positions pay to traders who hold short positions in perpetual futures contracts. If the rate is positive, longs pay shorts. A high funding rate often signals strong bullish sentiment (too many longs), while a negative rate signals bearish sentiment (too many shorts)."
+    },
+    {
+      "term": "Basis",
+      "definition": "The calendar day or date used to calculate a price movement. 'utc-day' means the day is calculated from 00:00 to 23:59 UTC. 'rolling-24h' means the data covers the most recent 24 hours from the time of measurement."
+    },
+    {
+      "term": "Cloture vote",
+      "definition": "A procedural Senate vote to end debate and force a final vote on a bill. It requires 60 votes to pass. If cloture fails, the bill cannot move forward to a final vote."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "In perpetual futures markets, an interest rate paid between traders to keep the perpetual price in line with the spot price. See 'annualized funding rate' for the yearly equivalent."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of long positions (bets that price will rise) to short positions (bets that price will fall) among traders in a market. A ratio above 1.0 means more longs than shorts, typically signaling bullish sentiment; below 1.0 means more shorts."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used in perpetual futures markets, calculated as a weighted average of spot prices across exchanges. Funding payments are based on mark price to prevent manipulation."
+    },
+    {
+      "term": "MEV (maximal extractable value)",
+      "definition": "Profit that a miner or validator can earn by reordering, inserting, or withholding transactions in a block. MEV bots scan mempool transactions and can front-run (trade ahead of) pending orders to profit from price movements."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of outstanding (unsettled) futures or perpetual contracts in a market. Rising open interest suggests increased leverage and positioning; falling open interest suggests traders are closing positions or taking risk off."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in total open interest over a given period (in this report, the calendar day). Positive change means more positions were opened than closed; negative means more closed than opened."
+    },
+    {
+      "term": "Perpetual futures contract",
+      "definition": "A derivative contract that allows traders to bet on price movements without an expiration date, unlike traditional futures. Perpetuals can be held indefinitely and include funding-rate payments to keep the price aligned with spot."
+    },
+    {
+      "term": "Spot price",
+      "definition": "The current market price of an asset for immediate delivery (as opposed to futures, which are contracts for delivery in the future)."
+    },
+    {
+      "term": "Tokenized assets",
+      "definition": "Traditional financial securities (stocks, bonds, commodities) or real-world assets converted into blockchain-based tokens. Tokenized assets can be traded 24/7 on crypto platforms and may offer higher yield or lower fees than traditional settlement."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar value (or number of contracts) traded in a market over a given period. Higher volume typically indicates more confidence in price discovery and liquidity."
+    }
+  ],
+  "_source": "cli"
+}

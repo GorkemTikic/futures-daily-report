@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-16T00:05:42.259Z",
+  "generatedAt": "2026-09-16T01:07:34.130Z",
   "count": 91,
   "counts": {
     "total": 91,
     "market": 4,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-09-15",
   "head": 30,
@@ -19,12 +19,12 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -3.2604301009232386,
+        "BTC": -3.2628610616389246,
         "ETH": -4.667507228968372
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum both fell 3–4.5% on September 15 as the U.S. Senate failed to advance crypto-market regulation (the Clarity Act) and traders prepared for an expected Federal Reserve interest-rate decision.",
+      "oneLine": "Bitcoin and Ethereum both fell 3–4.5% on September 15 as the U.S. Senate failed to advance crypto-market regulation (the Clarity Act) and traders prepared for an expected Federal Reserve interest-rate decision.",
+      "newsCount": 19,
       "topMover": {
         "symbol": "AKEUSDT",
         "chgPct": 69.97099255896076
@@ -41,10 +41,8 @@
         "tr",
         "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-15/summary_2026-09-15.html",

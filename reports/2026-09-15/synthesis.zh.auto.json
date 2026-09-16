@@ -1,32 +1,265 @@
 {
-  "oneLine": "来自5个交易所的市场数据；本次运行的新闻合成功能暂无法使用。",
-  "caveman": "",
-  "priceVolumeSummary": "请参阅下方的交易所表格。（本次运行的自动叙述功能暂无法使用——数据直接展示。）",
-  "positioningSummary": "请参阅下方的持仓表格。",
-  "stocksSummary": "",
+  "oneLine": "9月15日，比特币和以太坊分别下跌3%至4.5%，原因是美国参议院未能推进加密货币市场监管法案《清晰法案》，且交易者为美联储预期利率决议做准备。",
+  "caveman": "比特币和以太坊是人们买卖的数字货币。今天这两种货币的价格都下跌了，意思是人们在卖出它们。这背后有两个大事件：首先，美国政府想要制定关于加密货币的新规则，但参议院议员对此投票反对，规则没有通过——所以今天没有出现新规则。其次，人们认为美国中央银行（管理美国金钱的机构）明天会宣布提高借贷成本，这让人们感到担忧。当人们担忧时，他们会卖出比特币和以太坊。所以这是一个令人担忧的一天，但不是恐慌——价格下跌了，但没有崩溃。",
+  "priceVolumeSummary": "9月15日，比特币和以太坊价格在所有主要交易平台上持续下跌，比特币收盘价接近75,600美元（当日下跌3.3%），以太坊为2,397美元（下跌4.6%）。币安当日交易量最大，比特币交易额达182亿美元，以太坊达143亿美元。",
+  "positioningSummary": "比特币资金费率保持正数但幅度温和（年化1.8%至7.3%，具体取决于交易平台），表明温和的多头仓位在日内逐渐走弱。以太坊资金费率混合波动，部分平台显示负费率（Bybit −8.8%），表明市场不确定。以太坊未平仓头寸下降（具体取决于平台，下跌3.8%至4.8%），而比特币未平仓头寸基本持平或略有上升，表明交易者平仓了以太坊头寸但持有比特币。主要交易平台上多头头寸超过空头头寸（比特币1.8:1至1.82:1的比例，以太坊2.13:1至3.26:1），但总头寸规模萎缩。",
+  "stocksSummary": "9月15日亚股下跌。韩国股市（交易时间UTC 00:00–06:30）科技股全线下滑：SK海力士 −0.6%，三星电子 −1.2%，韩美 −4.1%，现代汽车 −4.6%，Naver −2.9%。香港股市（交易时间UTC 01:30–08:00）人工智能公司跌幅较大：Zhipu AI −8.7%，MiniMax −9.9%，小米 −3.2%。中国A股（交易时间UTC 01:30–07:00）涨跌互现：优树机器人 +0.9%，中芯微 +0.3%。美股（9月15日UTC 15:30前收盘）收跌：标普500指数（SPY）−0.46%，纳斯达克综合指数（ONEQ）−0.78%。美元小幅上涨 +0.18%，投资者在美联储决议前寻求避险资产。大宗商品涨跌互现：西德州原油 +2.18%，布伦特原油 +1.04%，铜 +0.75%，但黄金 −0.32%。",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "本次运行暂无分析说明。",
+      "explanation": "AKE飙升70%，交易量4.75亿美元。没有明确的公开催化剂；这次上涨恰好发生在《清晰法案》投票当天的加密货币交易波动期间。",
       "hasCause": false
     },
     {
       "symbol": "BRUSDT",
-      "explanation": "本次运行暂无分析说明。",
+      "explanation": "BR暴跌53%，交易量2.34亿美元。没有确定的新闻或公告引发这次下跌。",
       "hasCause": false
     },
     {
       "symbol": "AINUSDT",
-      "explanation": "本次运行暂无分析说明。",
+      "explanation": "AIN上涨34.5%，交易量3.69亿美元。没有披露的原因或公告推动了这次上涨。",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "美国参议院以程序性投票否决《清晰法案》；加密监管陷入僵局",
+        "what": "参议院以49:50的投票表决程序性动议推进《清晰法案》，距离所需的60票还差11票。该法案本将把美国加密货币监管权分由美证交会与美商品期货委员会掌管。民主党人联合共和党参议员苏珊·柯林斯（缅因州）、乔什·霍利（密苏里州）、杰里·莫兰（堪萨斯州）和托姆·蒂利斯（北卡罗来州）投票反对。这次投票扼杀了加密产业备受期待的监管举措，至少在近期内如此。",
+        "coins": "BTC, ETH, crypto stocks",
+        "timeUTC": "~15:00–16:00 UTC（美国时间下午）",
+        "source": "CoinDesk, The Block, Cointelegraph",
+        "url": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote"
+      },
+      {
+        "headline": "美联储广泛预期于9月16日加息；交易者已在定价升息",
+        "what": "市场预期美联储于9月16–17日决议中加息0.25%，将在9月16日世界时18:00宣布。美联储主席凯文·沃什最近的杰克逊霍尔演讲增强了升息信心。美债收益率上升、通胀担忧（部分由中东局势引发的供应链中断驱动）使预测市场中升息概率达到66%以上。较高利率通常会降低对比特币等风险资产的需求。",
+        "coins": "BTC, ETH, all risk assets",
+        "timeUTC": "决议于9月16日世界时18:00宣布（下一个日期）；定价发生在9月15日",
+        "source": "Decrypt, Chase, CME FedWatch",
+        "url": "https://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump"
+      },
+      {
+        "headline": "美国司法部起诉两名罗宾汉工程师进行超流动性内幕交易",
+        "what": "美国司法部对两名前罗宾汉工程师柴合夫（36岁）和翔怀松（30岁）提出商品欺诈和电报欺诈指控。他们涉嫌获取罗宾汉加密货币即将上市的机密信息，并利用这些信息在2025-2026年期间在超流动性上交易期货，各自获利超过50,000美元。这些指控分别可判最高10年监禁（商品欺诈）和20年监禁（电报欺诈）。",
+        "coins": "RBI (Robinhood), HYPE (Hyperliquid)",
+        "timeUTC": "13:50 EDT = 17:50 UTC（9月15日）",
+        "source": "The Block, DOJ",
+        "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "《清晰法案》失败的政治分裂内幕",
+          "what": "与特朗普总统个人加密货币财富相关的伦理条款争议葬送了谈判。共和党参议员反对民主党要求扩大伦理审查，最终文本无法满足双方。这一失败使美国加密货币监管陷入了不确定状态。",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "9月15日，投票前数小时",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/15/there-were-many-conductors-in-the-derailment-of-the-crypto-industry-s-clarity-act"
+        },
+        {
+          "headline": "《清晰法案》失败致加密股票暴跌；Coinbase、Circle领跌",
+          "what": "参议院投票后，加密相关股票大幅下跌。Coinbase和Circle股价下跌约10%，比特币矿业公司和加密资产库公司也随之下跌。失败的监管投票消除了在立法推进中积累的乐观情绪。",
+          "coins": "COIN (Coinbase), CIRC (Circle), crypto stocks",
+          "timeUTC": "9月15日，投票期间和投票后",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/markets/2026/09/15/crypto-stocks-sink-after-senate-rejects-clarity-act"
+        },
+        {
+          "headline": "伊丽莎白·沃伦誓言继续推进加密监管，尽管《清晰法案》失败",
+          "what": "美国参议员表示她仍致力于加密货币立法，但拒绝了目前的《清晰法案》草案，称其未能解决她的消费者保护顾虑。她表示打算制定替代法案。",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "9月15日，投票后数小时",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-sen-elizabeth-warren-says-she-wants-a-crypto-bill-but-the-clarity-act-just-isnt-it-414869"
+        },
+        {
+          "headline": "与加密货币并肩联盟警告参议员：反对《清晰法案》投票将被记录用于2026年中期选举",
+          "what": "由Coinbase支持的倡导团体承诺将参议员的《清晰法案》投票记录纳入其投票记分卡，以此在2026年11月选举前组织加密投资者。该团体誓言对投票反对者进行问责。",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "9月15日，投票后",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act"
+        },
+        {
+          "headline": "欧洲央行启动数字欧元与商户支付试点",
+          "what": "欧洲央行宣布启动为期12个月的数字欧元（e-euro）测试，邀请商户参与在线、移动、店内和点对点支付试验。该试点代表欧元区央行数字货币部署的重大进展。",
+          "coins": "Digital assets, stablecoins (context)",
+          "timeUTC": "9月15日",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/15/european-central-bank-calls-for-merchants-to-participate-in-digital-euro-pilot"
+        },
+        {
+          "headline": "众议院委员会发布包含de minimis豁免的加密税改法案",
+          "what": "众议院发布了全面的数字资产税改提案，包括对特定加密货币费用约10美元的豁免，以及关于稳定币、挖矿和质押的条款。该法案等待完整委员会标记和最终投票。",
+          "coins": "BTC, ETH, all crypto",
+          "timeUTC": "9月15日",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-15-house-committee-crypto-tax-bill-414824"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "币安扩展传统金融财富产品，新增11只美国上市交易所交易基金",
+          "what": "币安宣布在其财富管理平台上新增11只专注于美国国债和投资级债券的美国上市交易所交易基金。此举表明该交易所正在转向整合传统金融产品。",
+          "coins": "BTC, ETH (ecosystem)",
+          "timeUTC": "9月15日",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-adds-11-us-listed-etfs-to-wealth-management-offering"
+        },
+        {
+          "headline": "Kraken为代币化股票和交易所交易基金带来去中心化金融收益",
+          "what": "该交易所宣布为代币化传统资产推出收益账户，允许用户在代币化股票和交易所交易基金上赚取收益。该产品将去中心化金融机制与传统证券相连接。",
+          "coins": "BTC, ETH, tokenized assets",
+          "timeUTC": "9月14–15日",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana借贷平台Kamino聘请华尔街资深人士任首席执行官；拓展至纽约",
+          "what": "Solana区块链上的去中心化金融借贷平台Kamino任命迈克尔·韦兹（前YieldStreet联合创始人）为首席执行官，并宣布在纽约设立新总部。这一人事任命表明该公司正在拓展代币化资产和华尔街合作。",
+          "coins": "SOL, tokenized assets",
+          "timeUTC": "9月15日",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion"
+        },
+        {
+          "headline": "Tonkeeper钱包更名为Keeper；支持比特币和以太坊",
+          "what": "这款原本仅专注于Ton链的钱包已更名为Keeper，现在支持包括比特币、以太坊和Ton在内的七个区块链网络。这一转变反映了整个行业的跨链互操作性趋势。",
+          "coins": "BTC, ETH, TON",
+          "timeUTC": "9月15日",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-15-tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum-414807"
+        },
+        {
+          "headline": "罗宾汉计划为股票代币提供份额赎回和投票权",
+          "what": "该券商宣布为其在罗宾汉链上的代币化股票产品推出新的治理和赎回功能，以回应早前的批评。此举旨在提高代币化股票的采用率。",
+          "coins": "RBI, tokenized stocks",
+          "timeUTC": "9月14–15日",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "MEV机器人'Yoink'截获7700万美元rsETH，阻止攻击者盗取",
+          "what": "一款名为'Yoink'的以太坊MEV（最大可提取价值）机器人抢先于试图利用自定义Safe模块漏洞的攻击者。该机器人获取了被盗的rsETH并将其冻结；Kelp协议临时锁定了接收地址。此事件凸显了去中心化金融安全和MEV动态的复杂互动。",
+          "coins": "ETH, rsETH (Kelp's restaked ETH)",
+          "timeUTC": "9月15日",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/mev-bot-intercepts-77m-in-rseth-from-ethereum-wallet-exploit"
+        },
+        {
+          "headline": "去中心化金融跨链桥接黑客事件：黑客将25美分转变为460亿个假比特币代币",
+          "what": "Symbiosis Finance的攻击者利用两个软件漏洞铸造了超过2000倍比特币总供应量的无担保syBTC代币。初步损失总计9.97个比特币。Symbiosis已收回15个比特币，并向攻击者提供了20个比特币的赏金以返还剩余资金。",
+          "coins": "BTC, syBTC",
+          "timeUTC": "9月15日",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "比特币价格跌至9月低点；全球债券收益率创数十年高位",
+          "what": "比特币跌至日内76,000美元低点，原因是全球债券收益率飙升，反映了市场对更高利率的预期。借贷成本上升通常会降低投资者对包括加密货币等非收益资产的需求。",
+          "coins": "BTC",
+          "timeUTC": "9月15日",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/markets/bitcoin-price-falls-to-756k-september-low-as-global-bonds-hit-multidecade-highs"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "渣打银行预测Arbitrum代币到2030年可能上升70倍至10美元",
+          "what": "这家投资银行预计ARB到2030年底可能从现价升至10美元，因为代币化业务扩展和传统金融上链。该预测假设罗宾汉链成功和代币化资产得到更广泛采用。（注：这是银行的研究观点，不是确认的市场走势。）",
+          "coins": "ARB (Arbitrum)",
+          "timeUTC": "9月15日",
+          "source": "CoinDesk, Standard Chartered",
+          "url": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue"
+        },
+        {
+          "headline": "美国寻求没收与伊朗石油计划相关的6100万美元加密货币",
+          "what": "美国检察官提交申请没收6100万美元加密货币，该资金据称通过币安账户流转，用于洗白伊朗政府和军队获得的石油销售收益。指控涉及两家中国公司。",
+          "coins": "BTC, crypto (general)",
+          "timeUTC": "9月15日",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378261/us-forfeiture-61-million-crypto-iranian-oil-scheme"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-09-14",
+    "summary": "最新可得数据显示9月14日（本报告日期前一日）比特币和以太坊现货交易所交易基金流入净额均为正。比特币交易所交易基金录得1.599亿美元净流入，其中贝莱德IBIT基金领跑，为1.343亿美元。以太坊现货交易所交易基金净流入1.211亿美元。9月15日数据尚未公布。",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/btc/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "U.S. Retail Sales (m/m) and Core Retail Sales (m/m) — Wednesday Sept 16, 12:30 UTC",
+      "typicalReaction": "零售支出数据可以反映消费者购买力。预测：核心 +0.6%（前值 −0.3%），零售 +0.8%（前值 −0.6%）。好于预期的数据可能进一步强化市场对美联储加息的预期，这通常会给包括比特币在内的风险资产造成压力。"
+    },
+    {
+      "event": "Federal Reserve Policy Decision, Economic Projections, Statement, and Press Conference — Wednesday Sept 16, 18:00 UTC (announcement), 18:30 UTC (presser)",
+      "typicalReaction": "市场广泛预期美联储加息0.25%（三年来首次），将于世界时18:00宣布。更高利率增加了持有比特币和以太坊等非收益资产的机会成本。升息已被当前价格消化，但任何意外情况（维持或加息幅度更大）可能引发剧烈波动。美联储主席在下午18:30新闻发布会上的评论可能会引导市场对未来加息的预期。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化资金费率",
+      "definition": "在永续期货合约中，持有多头头寸的交易者向持有空头头寸的交易者支付的费率（以年度百分比表示）。如果费率为正，多头向空头支付。高资金费率通常表明强劲的看涨情绪（多头过多），而负费率表明看跌情绪（空头过多）。"
+    },
+    {
+      "term": "基点（基数日）",
+      "definition": "用于计算价格变动的日历天数或日期。'utc-day'意为该天从世界时00:00到23:59计算。'rolling-24h'意为数据涵盖测量时最近的24小时。"
+    },
+    {
+      "term": "限制辩论动议",
+      "definition": "参议院的一项程序投票，旨在结束辩论并强制进行最终投票。需要60票才能通过。如果限制辩论动议失败，该法案无法进行最终投票。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "在永续期货市场中，交易者之间支付的利息，用以保持永续价格与现货价格一致。参见'年化资金费率'了解年度等值。"
+    },
+    {
+      "term": "多空比",
+      "definition": "市场中交易者的多头头寸（押注价格上升）与空头头寸（押注价格下跌）的比例。比例高于1.0意为多头多于空头，通常表示看涨情绪；低于1.0意为空头更多。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "永续期货市场中使用的参考价格，计算为交易所现货价格的加权平均值。资金支付基于标记价格，以防止操纵。"
+    },
+    {
+      "term": "MEV（最大可提取价值）",
+      "definition": "矿工或验证者通过重新排序、插入或扣留区块中交易而获得的利润。MEV机器人扫描内存池交易，可以抢先交易（在待处理订单前交易）以从价格变动中获利。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "市场中未结算的期货或永续合约的总数量。未平仓头寸上升表明杠杆和仓位增加；下降表明交易者平仓或降低风险。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "特定时期（本报告中为日历天）内总未平仓头寸的百分比增减。正变化意为新开头寸多于平仓头寸；负变化意为平仓头寸多于新开头寸。"
+    },
+    {
+      "term": "永续期货合约",
+      "definition": "允许交易者在不设到期日的情况下押注价格走势的衍生品合约，不同于设定特定交割日期的传统期货。永续合约可以无限期持有，包括资金费率支付以保持价格与现货价格一致。"
+    },
+    {
+      "term": "现货价格",
+      "definition": "资产的当前市场价格，可用于立即交割（与期货相对，期货是未来交割的合约）。"
+    },
+    {
+      "term": "代币化资产",
+      "definition": "转化为区块链代币的传统金融证券（股票、债券、商品）或现实世界资产。代币化资产可在加密平台上24/7交易，可能提供比传统结算更高的收益率或更低的费用。"
+    },
+    {
+      "term": "交易量",
+      "definition": "特定时期内市场上交易的总美元价值或合约数量。交易量越高通常表示价格发现的信心越强，流动性越好。"
+    }
+  ],
   "_source": "cli-zh"
 }
