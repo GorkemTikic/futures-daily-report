@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-17T10:09:38.430Z",
+  "generatedAt": "2026-09-17T11:05:50.692Z",
   "count": 92,
   "counts": {
     "total": 92,
     "market": 5,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-09-16",
   "reports": [
@@ -19,14 +19,14 @@
       "widest": null,
       "macro": {
         "BTC": 0.7472734438857161,
-        "ETH": 0.8632199062098451
+        "ETH": 0.8364273497142456
       },
-      "marketSummary": "Bitcoin and Ethereum rose modestly as the Federal Reserve hiked rates for the first time since 2023, while Congress advanced crypto tax reform and regulators pledged to write their own rules.",
-      "oneLine": "Bitcoin and Ethereum rose modestly as the Federal Reserve hiked rates for the first time since 2023, while Congress advanced crypto tax reform and regulators pledged to write their own rules.",
-      "newsCount": 13,
+      "marketSummary": "The Federal Reserve raised interest rates by a quarter point on September 16—its first hike in over three years—while Congress advanced bills on crypto taxes and Bitcoin reserves, and cryptocurrency markets absorbed the news with modest gains as traders parsed signals on future rate decisions.",
+      "oneLine": "The Federal Reserve raised interest rates by a quarter point on September 16—its first hike in over three years—while Congress advanced bills on crypto taxes and Bitcoin reserves, and cryptocurrency markets absorbed the news with modest gains as traders parsed signals on future rate decisions.",
+      "newsCount": 8,
       "topMover": {
-        "symbol": "BRUSDT",
-        "chgPct": 160.16636957813427
+        "symbol": "AVAUSDT",
+        "chgPct": -2.1356783919598077
       },
       "venues": [
         "Binance",
@@ -37,12 +37,11 @@
       ],
       "languages": [
         "en",
-        "tr"
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-16/summary_2026-09-16.html",
