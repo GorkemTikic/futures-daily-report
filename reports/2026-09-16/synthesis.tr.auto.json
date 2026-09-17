@@ -1,144 +1,86 @@
 {
-  "oneLine": "Federal Rezervi 16 Eylül'de faiz oranlarını çeyrek puan artırdı—son üç yılda ilk artış—ve Kongre kripto vergisi ile Bitcoin rezervleri hakkında tasarıları ilerletti, kripto piyasaları haberi mütevazı kazançlarla karşıladı çünkü tüccarlar gelecek faiz kararlarının sinyallerini analiz etti.",
-  "caveman": "Federal Rezervi para ödünç almayı daha pahalı hale getirerek faiz oranlarını yükseltti. Bu normalde Bitcoin ve Ethereum gibi riskli şeyler satın alan insanlar için kötü olurdu, ama Rezerv daha fazla faiz artışı yapmayabileceğini söyledi, bu yüzden Bitcoin ve Ethereum biraz yükseldi. Borsalar yaklaşık yüzde yarım düştü, altın ise yükseldi (insanlar endişeli olduklarında altın satın alırlar). Kongre ayrıca kripto vergilendirmesi ve ABD hükümetinin Bitcoin tutması konusunda yeni fikirler üzerinde oy kullandı. Bu gün politika ve büyük kararlarla ilgiliydi, acil durumlar değildi.",
-  "priceVolumeSummary": "Beş büyük borsa (Binance, Bybit, OKX, Bitget, Gate) fiyat konusunda hemfikirti: Bitcoin yaklaşık 76.170 dolardan, Ethereum yaklaşık 2.417 dolardan kapandı. Hacim her yerde oldukça yüksekti, Bitcoin vadeli işlem hacminde Binance öncü konumdaydı ve Ethereum'da OKX öncü konumdaydı.",
-  "positioningSummary": "Tüccarlar fiyat artışlarına bahis yapıyorlardı: finansman oranları pozitif kaldı, yani fiyat artışlarına bahis yapanlar ücret ödediler (Bitcoin için yıllık %6,6, bazı platformlarda Ethereum için %6,7'ye kadar). Bitcoin'in açık pozisyonu Binance'de arttı (+%1,2) ama Bybit'te azaldı (−%1,3), bu karışık güven öneriyordu. Ethereum'un açık pozisyonu çoğu platformda arttı. Uzun pozisyonlar kısa pozisyonları önemli ölçüde aştı: Binance'de Bitcoin için 1,5 long pozisyon / 1 short ve Ethereum için 3,2 long / 1 short.",
-  "stocksSummary": "Asya piyasaları 16 Eylül'de düştü. Güney Kore'nin borsa endeksi %0,94 düştü, yarımiletkçi satıcıların öncülüğünde (SK Hynix −%0,31, Samsung −%0,34). Hong Kong karışıktı: yapay zeka hisseleri rallilendi (Zhipu AI +%3,3, MiniMax +%9,0), ama Tencent %1,5 düştü. Çin da bölündü: robotik sektörü sıçradı (Unitree +%6,6), CXMT %2,8 düştü. ABD hisseleri geri çekildi: S&P 500 −%0,44, Nasdaq sabit. Altın %1,42 yükseldi çünkü yatırımcılar Fed kararından önce güvenli varlıklar satın aldılar, ABD doları %0,64 güçlendi ve petrol yaklaşık %3 çöktü.",
+  "oneLine": "Federal Reserve faiz oranlarını %0,25 artırarak Temmuz 2023'ten bu yana ilk artışını gerçekleştirirken, Bitcoin %0,76 ve Ethereum %0,85 kazanç elde etti.",
+  "caveman": "16 Eylül günü şu oldu: Federal Reserve—ABD'nin para sistemi yönetiminden sorumlu olan kurum—bir duyuru yaptı: borç almanın daha pahalı hale geleceğini söylediler, bu da ekonominin zayıfladığını düşündürebilir. Ama Bitcoin ve Ethereum tarafından işlem yapan tüccarlar panik yapmadılar. Bitcoin %0,76 arttı, Ethereum %0,85 arttı—küçük ama pozitif bir adım. Bazı daha az bilinen paralar çılgın değişimler yaşadı (ONE adlı bir para %55,8 zıpladı), ama hiçbir haber kaynağında bunun nedeni yoktu. Önemli bir iktisadi haber çıkmasına rağmen, ana paralar için gün sakin geçti.",
+  "priceVolumeSummary": "Beş ana platform (Binance, Bybit, OKX, Bitget, Gate) Bitcoin ve Ethereum için neredeyse aynı fiyatları gösterdi—her para 30–50 dolar aralığında—tüccarların adil değer konusunda anlaştıklarını gösteriyor. Binance hacmi domine etti, BTC vadeli işlemlerde 11,8 milyar dolar ve ETH vadeli işlemlerde 10,6 milyar dolar işlem hacmi ile; diğer dört platform birlikte benzer düzeyde hacim işledi.",
+  "positioningSummary": "Tüccarlar belirgin şekilde yükselişe hazırlandılar. Bitcoin'in uzun-kısa oranı Binance'te 1,53 idi—her 1 düşüşe bahis yapan için 1,5 yükselişe bahis yapan; Ethereum'da ise oranı daha da ektremdi: 3,2'ye 1. Finansman oranları (kaldıraçlı pozisyonları tutmanın günlük maliyeti) tüm platformlarda pozitif kaldı, yıllık %2,5'ten neredeyse %11'e kadar uzanıyordu—bu güçlü yükseliş duygusunu gösterdi. Açık faiz karışıktı: Bybit %1,25 düşüş gördü ama Binance %1,16 büyüdü; bu bazı tüccarların uzun pozisyonlarını kapattığını, başka platformlara yeni paranın girdiğini gösteriyor.",
+  "stocksSummary": "Asya borsaları sabah oturumlarında yükseldi (Fed duyurusu öncesinde kapandılar): Güney Kore yarı iletken hisseleri öncü oldu (SK Hynix +%3,7, Samsung +%4,1), Hong Kong yapay zeka hisseleri fırladı (MiniMax +%9,6, Zhipu AI +%5,2), Çin robotik hisseleri rallisi yaptı (Unitree Robotics +%8,9). Emtia vadeli işlemleri de kazanç elde etti: altın +%1,78, gümüş +%3,38, bakır +%2,89; petrol ise −%0,91 düştü. Bu hareketler tüccarların Fed oran kararından önce risklerini yönetmeye çalıştıklarını gösteriyor.",
   "movers": [
     {
-      "symbol": "BR",
-      "explanation": "BR tokeni gün içinde %160 sıçradı, mevcut kaynaklar arasında açık bir haber katalizörü yok.",
+      "symbol": "ONEUSDT",
+      "explanation": "Tanımlanmış kamuya açık bir neden yok. 16 Eylül günündeki %55,8'lik tek günlük hareket hiçbir ana haber yayınında yer almıyor.",
       "hasCause": false
     },
     {
-      "symbol": "ONE",
-      "explanation": "Harmony'nin ONE tokeni gün içinde %56 sıçradı, mevcut kaynaklar arasında açık bir haber katalizörü yok.",
+      "symbol": "COTIUSDT",
+      "explanation": "Tanımlanmış kamuya açık bir neden yok. 16 Eylül günündeki %6,6'lık günlük kazanç hiçbir haber tetiklemesiyle bağlantılı değil.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "24 saatlik pencerede +%78,9 kazanç göstermesine rağmen 16 Eylül'de %2,1 düştü, yani ana hareket rapor gününden öncesinde yaşandı. 16 Eylül hareketi için tanımlanmış neden yok.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Federal Rezervi faiz oranlarını 25 baz puan artırdı, Temmuz 2023'ten bu yana ilk artış",
-        "what": "Federal Rezervi, 16 Eylül'de 18:00 UTC'de kıyaslama faiz oranını %3,75–%4,00'e yükseltmek için oybirliğiyle oy kullandı. Bu, merkez bankasının Temmuz 2023'ten bu yana ilk faiz artışıydı. Fed yetkililer daha fazla artışların mümkün olduğunu belirtdi ama gelecek artışların temposunu yavaşlatabileceklerini işaret etti.",
-        "coins": "Bitcoin, Ethereum",
+        "headline": "Federal Reserve faiz oranlarını %0,25 artırarak 3,75%–4,00% aralığına yükseltitti—Temmuz 2023'ten bu yana ilk artış",
+        "what": "ABD Federal Reserve'i kıyaslama faiz oranını %0,25 (25 baz puan) artırarak 3,75%–4,00% aralığına yükseltmeye oy verdi. Bu üç yıldan fazla bir süre sonraki ilk artış. Fed yetkilileri daha fazla artışın gelebileceğini gösterse de, tempoyu yavaşlatabileceklerini sinyali verdiler. Faiz artışı genellikle tüketiciler ve işletmeler için borçlanma maliyetlerini artırır ve bu da ekonomik aktiviteyi azaltabilir.",
+        "coins": "BTC, ETH",
         "timeUTC": "2026-09-16 18:00 UTC",
         "source": "Federal Reserve",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
-      },
-      {
-        "headline": "SEC ve CFTC, Kongre olmadan kripto düzenlemeleri yapma planını açıkladı",
-        "what": "Senato Clarity Kanunu başarısız olduktan sonra, SEC Başkanı Paul Atkins ve CFTC Başkanı Mike Selig, ajanslarının mevcut yetkiyi kullanarak kripto düzenlemeleri konusunda ilerleme yapacağını duyurdu. CFTC, finans sınırının yeni dünyası için kurallarını 'göndermeye hazır ve kararlı' olduğunu söyledi.",
-        "coins": "Tüm kripto paralar",
-        "timeUTC": "2026-09-16 18:19 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-09-16-go-time-sec-cftc-prepare-push-crypto-rules-clarity-act-stalls-senate-415281"
-      },
-      {
-        "headline": "Kongre komiteleri kripto vergi tasarısı ve Bitcoin rezerv tasarısını ilerletti",
-        "what": "Kongre, 16 Eylül'de iki tasarıyı ilerlettirmek için oy kullandı: biri kripto vergilendirmesinin nasıl yapıldığını reformlamak, nitelikli işlem ücretlerini kazanç hesaplamalarından muaf tutmak; diğeri ABD hükümeti için kalıcı bir stratejik Bitcoin rezervi oluşturmak. Her ikisi de parti sınırları boyunca ilerledi.",
-        "coins": "Bitcoin",
-        "timeUTC": "2026-09-16 17:43 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-09-16-house-panel-approves-first-federal-crypto-tax-framework-one-day-after-senates-clarity-act-stumbles-415293"
       }
     ],
-    "groups": {
-      "Regulation and policy": [
-        {
-          "headline": "JPMorgan: Clarity Kanunu tamamen ölü değil ama geçiş penceresi çok dar",
-          "what": "JPMorgan analistleri, 15 Eylül'de Senato oylamasında başarısız olan Clarity Kanunu'nun hala teknik olarak mümkün olduğunu söyledi, ancak Kongre kapanmadan geçmesi için büyük bir siyasi değişim gerekir.",
-          "coins": "Tüm kripto paralar",
-          "timeUTC": "2026-09-16 17:01 UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-09-16-jpmorgan-clarity-act-crypto-bill-415280"
-        },
-        {
-          "headline": "Aave kurucusu, Clarity Kanunu başarısız olduktan sonra DeFi için yol önerdi",
-          "what": "Aave kurucusu Stani Kulechov, merkezi olmayan finans için bir 'Uber yolu' önerdi, endüstrinin yasal mevzuat için beklemeden ride-sharing'in taksi pazarını nasıl bozduğu gibi gelişebileceğini önerdi.",
-          "coins": "Aave",
-          "timeUTC": "2026-09-16 17:28 UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/defi/2026-09-16-aave-founder-pitches-uber-path-defi-clarity-act-fails-senate-vote-415278"
-        }
-      ],
-      "Hacks, exploits and outages": [
-        {
-          "headline": "Revolut hackerları Monero'da 3 milyon dolar fidye talep ediyor",
-          "what": "Fintech şirketi Revolut'u hacklayan hackerlar, Monero'da (gizliliğe odaklı kripto para) 3 milyon dolar fidye talep etti ve müşteri verilerini satma tehdidinde bulundu. Saldırganlar, büyük kripto para holdinglerine sahip müşterileri özellikle hedef aldı. Revolut, saldırganlardan doğrudan iletişim almadığını söyledi.",
-          "coins": "Monero",
-          "timeUTC": "2026-09-16 19:27 UTC",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/09/16/revolut-hackers-demand-usd3-million-in-monero-threaten-to-sell-customer-data"
-        },
-        {
-          "headline": "Hackerlar HBO Max'ın Reddit hesabını kripto çalan kötü amaçlı yazılımı yaymak için ele geçirdiler",
-          "what": "Saldırganlar, HBO Max'ın doğrulanmış Reddit hesabının kontrolünü ele aldı ve 108 kötü amaçlı reklamı yayınlayarak kullanıcıları, kripto cüzdanları çalmak için tasarlanmış sahte yazılım indirmelerine yönlendirdi.",
-          "coins": "Tüm kripto paralar",
-          "timeUTC": "2026-09-16 17:06 UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/378401/hackers-hbo-max-reddit-account-crypto-malware"
-        }
-      ],
-      "Traditional markets": [
-        {
-          "headline": "Borsa, tahvil ve değerli metallar Fed faiz artışına tepki verdi",
-          "what": "16 Eylül'de ABD hisseleri Fed faiz artışı sonucu %0,44 düştü (S&P 500), Nasdaq sabit kaldı. Altın %1,42 sıçradı, ABD doları %0,64 güçlendi ve ABD Hazine tahvil fiyatları düştü (verimler yükseldi). Petrol fiyatları yaklaşık %3 düştü—WTI ham petrol %3,1 düştü, Brent %3,05 düştü.",
-          "coins": "Hiçbiri",
-          "timeUTC": "2026-09-16 18:00 UTC",
-          "source": "Multiple market data providers",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
-        }
-      ]
-    }
+    "groups": {}
   },
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Federal Reserve raises rates by 25 basis points at 18:00–18:30 UTC",
-      "typicalReaction": "Faiz artışları normalde Bitcoin gibi riskli varlıkları baskı altına alır çünkü ödünç almayı daha pahalı hale getirir ve ekonomik büyümeyi yavaşlatabilir. 16 Eylül'de Bitcoin ve Ethereum küçük kazançlar kaydetti (yaklaşık %0,7–%0,8), tüccarların Fed yorumlarından, gelecek faiz artışlarının temposunun yavaşlayabileceği konusunda rahatlatıldıklarını önerdi. Tepki, tipik faiz artışı günlerine kıyasla sönük oldu."
-    },
-    {
-      "event": "Retail Sales and Core Retail Sales data at 12:30 UTC",
-      "typicalReaction": "Tüketici harcama rakamları piyasaları hareket ettirebilir, ancak gün içinde daha sonra Federal Rezerv kararı tarafından gölgede bırakıldı."
+      "event": "UK Retail Sales September 2026 – Fri 18 Sept, 06:00 UTC",
+      "typicalReaction": "Yüksek etkili açıklama. Geleneksel piyasalarda potansiyel oynaklık bekleyin; tüccarlar pozisyonlarını yeniden düzenledikçe bu kripto piyasasına da yayılabilir."
     }
   ],
   "glossary": [
     {
       "term": "Baz puan",
-      "definition": "Yüzdenin binde biri (%0,01). Faiz oranı değişiklikleri genellikle baz puan cinsinden tanımlanır—örneğin, 25 baz puanlık faiz artışı %0,25'lik bir artış anlamına gelir."
+      "definition": "Bir yüzdenin yüzde biri (%0,01). Faiz oranlarında veya yüzdelerde küçük değişiklikleri tanımlamak için kullanılır. %0,25'lik bir oran artışı 25 baz puana eşittir."
+    },
+    {
+      "term": "Bitcoin",
+      "definition": "Pazar değeri açısından en büyük ve en eski kripto para birimi. Bilgisayarlar ağı üzerinde çalışan ve işlemleri blockchain adı verilen bir kamu defterine kaydeden dijital paradır."
+    },
+    {
+      "term": "Ethereum",
+      "definition": "Bir blockchain ağı ve bununla ilişkili kripto para birimi. Bitcoin'e benzer şekilde kamu defteriyle çalışır ancak daha esnek olduğu için üzerine programlanabilir uygulamalar ve akıllı kontratlar kurulabilir."
+    },
+    {
+      "term": "ETF (Borsa Yatırım Fonu)",
+      "definition": "Bir varlığın (Bitcoin veya altın gibi) fiyatını izleyen ve normal borsalarda işlem gören yatırım fonu. Yatırımcılar ETF birimlerini hisse senetleri gibi alıp satabilirler."
     },
     {
       "term": "Finansman oranı",
-      "definition": "Vadeli işlem borsalarında tüccarlar arasında ödenen bir ücret. Finansman pozitif olduğunda, fiyat artışlarına bahis yapan tüccarlar, fiyat düşüşlerine bahis yapan tüccarlara ödeme yapar. Daha yüksek bir finansman oranı, tüccarların fiyat artışları konusunda çok güvenli olduğu anlamına gelir."
+      "definition": "Kaldıraçlı pozisyonları olan tüccarların birbirlerine belirli saatte (kripto borsalarında genellikle 8 saatte bir) ödedikleri ücret. Finansman oranı pozitif olduğunda yükselişe bahis yapanlar düşüşe bahis yapanlara öderler. Yüksek pozitif oranlar boğa duyarlılığını; yüksek negatif oranlar ayı duyarlılığını gösterir."
     },
     {
-      "term": "Uzun pozisyon",
-      "definition": "Bir varlığın fiyatının yükselir üzerine bir bahis."
+      "term": "Kaldıraçlı pozisyon",
+      "definition": "Borç para ile yerleştirilen bir bahis; tüccarın gerçek yatırımından çok daha fazla para kontrol etmesini sağlar. Örneğin 10 kat kaldıraç, 1.000 dolar yatırırken 10.000 dolar Bitcoin kontrol etmek anlamına gelir. Kaldıraç hem kazançları hem de kayıpları çoğaltır."
     },
     {
-      "term": "Long/short oranı",
-      "definition": "Fiyat artışlarına bahis yapan tüccar sayısının, fiyat düşüşlerine bahis yapan tüccar sayısına bölünmesi. 1,0'dan yüksek bir oran, yukarı yönlü bahislerin aşağı yönlü bahislerden daha fazla olduğu anlamına gelir."
+      "term": "Uzun-kısa oranı",
+      "definition": "Fiyat yükselişine bahis yapan (uzun) tüccarların fiyat düşüşüne bahis yapan (kısa) tüccarlara oranı. 1,53 oranı her 1 kısa tüccar için 1,53 uzun tüccar olduğu anlamına gelir. Yüksek oranlar boğa duygusunu gösterir."
     },
     {
       "term": "İşaret fiyatı",
-      "definition": "Bir borsanın herhangi bir anda kripto para için kullandığı resmi referans fiyat, vadeli işlem sözleşmelerine ilişkin kar ve zararları hesaplamak için kullanılır."
+      "definition": "Bir vadeli işlem kontratının güncel adil değer fiyatı; borsalar bunu spot fiyat artı finansman ayarlaması kullanarak hesaplarlar. Kaldıraçlı bir pozisyonun zorla kapatılması gerekip gerekmediğini belirlemek için kullanılır."
     },
     {
-      "term": "Açık pozisyon",
-      "definition": "Herhangi bir zamanda vadeli işlem borsasında aktif alış ve satış sözleşmelerinin (long ve short'ların toplamı) toplam sayısı."
+      "term": "Açık faiz",
+      "definition": "Şu anda bir borsada açık bulunan kaldıraçlı pozisyonların (uzun ve kısa bahislerin toplamı) toplam sayısı. Açık faiz artışı yeni paranın piyasaya girişini; düşüş ise tüccarların pozisyonlarını kapattığını gösterir."
     },
     {
-      "term": "Açık pozisyon değişimi",
-      "definition": "Belirli bir zaman döneminde vadeli işlem borsasında toplam aktif sözleşmelerin yüzde artması veya azalması, tüccarların yeni bahisler açıp açmadığını veya eski olanları kapatıp kapatmadığını gösterir."
-    },
-    {
-      "term": "Perpetuel vadeli işlemler",
-      "definition": "Asla sona ermeyen ve tüccarların ödünç alınan parayı (kaldıraç) kullanarak bir ödeme tarihi olmaksızın fiyat hareketlerine bahis yapmasına izin veren kripto para sözleşmeleri."
-    },
-    {
-      "term": "Kısa pozisyon",
-      "definition": "Bir varlığın fiyatının düşer üzerine bir bahis."
+      "term": "Platform",
+      "definition": "Kripto vadeli işlem kontratlarının alınıp satıldığı kripto borsası veya ticaret merkezi. Bu raporda platformlar Binance, Bybit, OKX, Bitget ve Gate'dir."
     }
   ],
   "_source": "cli-tr"

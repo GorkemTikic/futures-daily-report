@@ -1,144 +1,86 @@
 {
-  "oneLine": "美联储在9月16日上调基准利率25个基点，这是三年多来首次加息，同时国会推进加密货币税收和比特币储备议案，加密市场以温和上涨吸收这些消息，交易员在解读美联储未来政策信号。",
-  "caveman": "美联储决定通过上调利率来提高借钱的成本。这通常对买加密货币这类高风险资产的人不利，但比特币和以太坊反而小幅上涨，因为美联储暗示可能不会继续大幅加息。股票下跌约0.5%，而黄金上涨（人们担忧时会买黄金）。国会还投票支持新的加密货币税收办法和让美国政府永久持有比特币。这是关于政策和大决定的日子，不是紧急情况。",
-  "priceVolumeSummary": "五大交易所（币安、Bybit、欧易、Bitget、Gate）对价格认知一致：比特币收盘约76,170美元，以太坊约2,417美元。交易量全线极高，币安领先比特币期货成交量，欧易领先以太坊成交量。",
-  "positioningSummary": "交易员看涨：资金费率保持正值，意味着看涨者需要支付费用（比特币年化6.6%，以太坊某些交易所达6.7%）。币安比特币持仓兴趣增加1.2%，Bybit下降1.3%，显示信心参差不齐。以太坊持仓兴趣在多数交易所上升。多头明显多于空头：币安比特币多空比1.5:1，以太坊3.2:1。",
-  "stocksSummary": "9月16日亚洲股市下跌。韩国股指下跌0.94%，半导体类股领跌（SK Hynix −0.31%，Samsung −0.34%）。香港市场涨跌混合：AI股上涨（Zhipu AI +3.3%，MiniMax +9.0%），但腾讯下跌1.5%。中国也是分化格局：机器人概念上涨（Unitree +6.6%），而CXMT下跌2.8%。美股回调：标普500指数 −0.44%，纳指持平。黄金大幅上涨1.42%，投资者在美联储决议前买入避险资产，美元升值0.64%，油价暴跌约3%。",
+  "oneLine": "比特币和以太坊分别上涨0.76%和0.85%，美联储将利率上调0.25%，这是自2023年7月以来的首次加息。",
+  "caveman": "9月16日这是怎么回事：美联储（美国的中央银行）说它要提高借钱的成本，也就是加息。这通常会让人担心经济。不过买卖比特币和以太坊的人们没有惊慌失措。比特币上涨了0.76%，以太坊上涨了0.85%，这是小幅度的上升。有些小币种波动很大（比如叫ONE的币一天涨了55.8%），但我们看不出为什么。虽然有重要经济消息发布，那天大币种的行情总体还是很平静。",
+  "priceVolumeSummary": "五家主流交易所（币安、Bybit、OKX、Bitget、Gate）对比特币和以太坊的报价几乎完全相同—价格差异不超过每枚币30-50美元—显示市场对公平价格达成了共识。币安在交易量上居首，比特币期货日成交额118亿美元，以太坊期货日成交额106亿美元，其他四家交易所的成交量合计大致相当。",
+  "positioningSummary": "交易员总体看涨。币安上比特币的多空比为1.53，意思是每1个看空的交易员，就有1.5多个看涨的；以太坊的多空比更极端，达到3.2比1。融资费率（持有杠杆持仓需要支付的每日费用）在所有交易所都维持正值，年化利率从2.5%到接近11%，说明看涨的气氛很强。未平仓持仓量出现分化：Bybit下降1.25%，币安增长1.16%，这表明有些交易员平掉了多头，但新资金流入了其他交易所。",
+  "stocksSummary": "亚洲股市在早盘交易中上升（这些市场在美联储公告前已收盘）：韩国半导体股涨幅最大（SK海力士+3.7%、三星+4.1%），香港AI股大涨（MiniMax+9.6%、智谱AI+5.2%），中国机器人股上升（宇树机器人+8.9%）。大宗商品期货也上涨：黄金+1.78%、白银+3.38%、铜+2.89%，而原油下跌−0.91%。这些走势可能反映了交易员在美联储宣布利率决议前的提前建仓和对冲。",
   "movers": [
     {
-      "symbol": "BR",
-      "explanation": "BR代币当日暴涨160%，公开可用来源中无明确的新闻催化剂。",
+      "symbol": "ONEUSDT",
+      "explanation": "未能从公开信息中找到明确原因。9月16日55.8%的单日涨幅在主要新闻媒体上没有相关报道。",
       "hasCause": false
     },
     {
-      "symbol": "ONE",
-      "explanation": "Harmony的ONE代币当日上涨56%，公开可用来源中无明确的新闻催化剂。",
+      "symbol": "COTIUSDT",
+      "explanation": "未能从公开信息中找到明确原因。9月16日6.6%的单日涨幅没有相应的新闻驱动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "虽然24小时内上涨了78.9%，但9月16日当天下跌2.1%，说明大部分涨幅发生在报告日前。9月16日的下跌没有明确的原因。",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "美联储上调利率25个基点，为2023年7月以来首次",
-        "what": "美联储在9月16日18:00 UTC时投票一致同意，将基准利率上调至3.75%-4.00%。这是央行自2023年7月以来首次加息。美联储官员表示可能还会加息，但暗示未来步伐可能放缓。",
-        "coins": "Bitcoin, Ethereum",
+        "headline": "美联储加息0.25%至3.75%-4.00%，为2023年7月以来首次加息",
+        "what": "美联储投票决定将基准利率上调0.25个百分点（即25个基点）至3.75%-4.00%的范围。这是三年多以来的首次加息。美联储官员们表示，未来可能还会继续加息，但速度可能会放缓。加息通常会增加消费者和企业的借贷成本，这可能会抑制经济活动。",
+        "coins": "BTC, ETH",
         "timeUTC": "2026-09-16 18:00 UTC",
         "source": "Federal Reserve",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
-      },
-      {
-        "headline": "美证交会和商品期货委员会宣布绕过国会自行监管加密货币",
-        "what": "在参议院《清晰法案》失利后，美证交会主席保罗·阿特金斯和商品期货委员会主席迈克·塞利格宣布，两机构将利用现有权力推进加密货币监管。商品期货委员会表示已'准备就绪，随时推出金融新领域的规则'。",
-        "coins": "All cryptocurrencies",
-        "timeUTC": "2026-09-16 18:19 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-09-16-go-time-sec-cftc-prepare-push-crypto-rules-clarity-act-stalls-senate-415281"
-      },
-      {
-        "headline": "众议院委员会推进加密货币税收法案和比特币储备法案",
-        "what": "国会在9月16日投票推进两项法案：一项改革加密货币的税收方式，将符合条件的交易费用从收益计算中免除；另一项为美国政府建立永久战略比特币储备。两项法案均沿党派线投票通过。",
-        "coins": "Bitcoin",
-        "timeUTC": "2026-09-16 17:43 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-09-16-house-panel-approves-first-federal-crypto-tax-framework-one-day-after-senates-clarity-act-stumbles-415293"
       }
     ],
-    "groups": {
-      "Regulation and policy": [
-        {
-          "headline": "摩根大通：《清晰法案》未完全死亡，但通过前景极其狭窄",
-          "what": "摩根大通分析师表示，在9月15日参议院投票失利的《清晰法案》理论上仍有可能，但需要重大政治变化才能在国会结束前通过。",
-          "coins": "All cryptocurrencies",
-          "timeUTC": "2026-09-16 17:01 UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-09-16-jpmorgan-clarity-act-crypto-bill-415280"
-        },
-        {
-          "headline": "Aave创始人在《清晰法案》失利后提出去中心化金融前进之路",
-          "what": "Aave创始人斯塔尼·库莱切夫提出了去中心化金融的'优步之路'，认为该行业可以在不等待监管法案的情况下蓬勃发展，就像网约车颠覆出租车市场一样。",
-          "coins": "Aave",
-          "timeUTC": "2026-09-16 17:28 UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/defi/2026-09-16-aave-founder-pitches-uber-path-defi-clarity-act-fails-senate-vote-415278"
-        }
-      ],
-      "Hacks, exploits and outages": [
-        {
-          "headline": "Revolut黑客要求300万美元Monero赎金",
-          "what": "入侵金融科技公司Revolut的黑客要求300万美元Monero（一种隐私型加密货币），并威胁出售客户数据。攻击者特别针对拥有大量加密资产的客户。Revolut表示尚未与攻击者直接接触。",
-          "coins": "Monero",
-          "timeUTC": "2026-09-16 19:27 UTC",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/09/16/revolut-hackers-demand-usd3-million-in-monero-threaten-to-sell-customer-data"
-        },
-        {
-          "headline": "黑客劫持HBO Max的Reddit账号传播加密盗窃恶意软件",
-          "what": "攻击者获得了HBO Max认证的Reddit账号控制权，发布了108条恶意广告，引导用户下载旨在窃取加密钱包的虚假软件。",
-          "coins": "All cryptocurrencies",
-          "timeUTC": "2026-09-16 17:06 UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/378401/hackers-hbo-max-reddit-account-crypto-malware"
-        }
-      ],
-      "Traditional markets": [
-        {
-          "headline": "股票、债券和贵金属对美联储加息做出反应",
-          "what": "9月16日，美证交所股票下跌0.44%（标普500）因美联储加息，纳指持平。黄金上涨1.42%，美元升值0.64%，美国国债价格下跌（收益率上升）。油价下跌约3%——WTI原油下跌3.1%，布伦特原油下跌3.05%。",
-          "coins": "None",
-          "timeUTC": "2026-09-16 18:00 UTC",
-          "source": "Multiple market data providers",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
-        }
-      ]
-    }
+    "groups": {}
   },
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Federal Reserve raises rates by 25 basis points at 18:00–18:30 UTC",
-      "typicalReaction": "加息通常会给加密货币等风险资产施压，因为会提高借贷成本并可能减缓经济增长。9月16日，比特币和以太坊小幅上涨（约0.7-0.8%），表明交易员被美联储暗示未来加息步伐会放缓的评论所鼓舞。相比典型的加息日，反应相当温和。"
-    },
-    {
-      "event": "Retail Sales and Core Retail Sales data at 12:30 UTC",
-      "typicalReaction": "消费者支出数据可能会推动市场波动，但被当天晚些时候的美联储决议所掩盖。"
+      "event": "UK Retail Sales September 2026 – Fri 18 Sept, 06:00 UTC",
+      "typicalReaction": "重要数据发布。预期传统金融市场可能波动较大，交易员会重新调整持仓，这种波动可能蔓延到加密货币市场。"
     }
   ],
   "glossary": [
     {
       "term": "基点",
-      "definition": "百分比的百分之一（0.01%）。利率变化通常用基点来描述——例如，加息25个基点意味着增加0.25%。"
+      "definition": "百分之一的百分之一（0.01%）。用来描述利率或百分比的微小变化。利率上升0.25%等于25个基点。"
     },
     {
-      "term": "资金费率",
-      "definition": "在永续期货交易所中交易员之间支付的费用。当资金费率为正时，看涨者向看跌者支付费用。资金费率越高，说明交易员对价格上升的信心越强。"
+      "term": "比特币",
+      "definition": "按市值计算最早且最大的加密货币。它是运行在计算机网络上的数字货币，交易记录在称为区块链的公开账本上。"
     },
     {
-      "term": "多头头寸",
-      "definition": "对资产价格会上升的押注。"
+      "term": "以太坊",
+      "definition": "一个区块链网络及其相关的加密货币。它在公开账本的基础上实现了可编程的应用和智能合约，类似比特币但更灵活。"
+    },
+    {
+      "term": "ETF（交易所交易基金）",
+      "definition": "一种追踪资产价格（如比特币或黄金）的基金，在常规股票交易所上交易。投资者可以像买卖股票一样买卖ETF份额。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "持有杠杆持仓的交易员每隔几小时（加密货币交易所通常是8小时）相互支付的费用。当融资费率为正时，看涨的交易员向看跌的交易员支付费用。高正费率表示看涨情绪；高负费率表示看跌情绪。"
+    },
+    {
+      "term": "杠杆持仓",
+      "definition": "用借来的钱进行的投资，让交易员能控制比自己存入更大的金额。例如，10倍杠杆意味着只需存入1000美元就能控制价值10000美元的比特币。杠杆会放大收益和亏损。"
     },
     {
       "term": "多空比",
-      "definition": "看涨交易员数量除以看跌交易员数量。比值高于1.0意味着更多交易员看涨。"
+      "definition": "看涨（多头）与看跌（空头）交易员数量的对比。比率1.53表示每1个空头交易员对应1.53个多头交易员。比率越高表示看涨情绪越浓。"
     },
     {
       "term": "标记价格",
-      "definition": "交易所在任何时刻用于加密货币的官方参考价格，用于计算期货合约的利润和亏损。"
+      "definition": "期货合约的当前公平价值，由交易所使用现货价格加融资调整计算。它用于决定是否应该强制平仓（清算）杠杆持仓。"
     },
     {
-      "term": "持仓兴趣",
-      "definition": "期货交易所在任何时刻的活跃买卖合约总数（多头和空头合计）。"
+      "term": "未平仓持仓量",
+      "definition": "交易所上当前开放的杠杆持仓总数（多头和空头合计）。未平仓持仓量上升表示新资金进入；下降表示交易员平仓。"
     },
     {
-      "term": "持仓兴趣变化",
-      "definition": "期货交易所在某个时间段内活跃合约总数的百分比增减，显示交易员是在开仓新头寸还是平仓。"
-    },
-    {
-      "term": "永续期货",
-      "definition": "永不到期的加密货币合约，允许交易员利用杠杆资金押注价格变动，无需结算日期。"
-    },
-    {
-      "term": "空头头寸",
-      "definition": "对资产价格会下降的押注。"
+      "term": "交易所",
+      "definition": "加密货币交易所或交易平台，可以买卖期货合约。本报告中的交易所包括币安、Bybit、OKX、Bitget和Gate。"
     }
   ],
   "_source": "cli-zh"

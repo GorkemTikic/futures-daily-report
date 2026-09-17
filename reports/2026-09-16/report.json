@@ -3,15 +3,15 @@
   "kind": "market",
   "dateLong": "Wednesday, 16 September 2026",
   "coversUTC": "2026-09-16 00:00–23:59 UTC",
-  "oneLine": "The Federal Reserve raised interest rates by a quarter point on September 16—its first hike in over three years—while Congress advanced bills on crypto taxes and Bitcoin reserves, and cryptocurrency markets absorbed the news with modest gains as traders parsed signals on future rate decisions.",
-  "newsCount": 8,
+  "oneLine": "Bitcoin and Ethereum gained 0.76% and 0.85% as the Federal Reserve raised interest rates by 0.25% in its first hike since July 2023.",
+  "newsCount": 1,
   "macro": {
-    "BTC": 0.7472734438857161,
-    "ETH": 0.8364273497142456
+    "BTC": 0.7365310959223088,
+    "ETH": 0.8485076027782862
   },
   "topMover": {
-    "symbol": "AVAUSDT",
-    "chgPct": -2.1356783919598077
+    "symbol": "ONEUSDT",
+    "chgPct": 55.80005829204313
   },
   "venues": [
     "Binance",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "17 Sept 11:00 UTC",
+  "generatedAtUTC": "17 Sept 21:43 UTC",
   "languages": [
     "en",
     "tr",
