@@ -3,8 +3,8 @@
   "kind": "market",
   "dateLong": "Wednesday, 16 September 2026",
   "coversUTC": "2026-09-16 00:00–23:59 UTC",
-  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-  "newsCount": 0,
+  "oneLine": "Bitcoin and Ethereum rose modestly as the Federal Reserve hiked rates for the first time since 2023, while Congress advanced crypto tax reform and regulators pledged to write their own rules.",
+  "newsCount": 13,
   "macro": {
     "BTC": 0.7472734438857161,
     "ETH": 0.8632199062098451
@@ -20,14 +20,13 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "17 Sept 09:00 UTC",
+  "generatedAtUTC": "17 Sept 10:00 UTC",
   "languages": [
-    "en"
+    "en",
+    "tr"
   ],
   "status": "degraded",
   "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
     "zh report unavailable"
   ]
 }

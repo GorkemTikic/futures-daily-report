@@ -1,0 +1,191 @@
+{
+  "oneLine": "Bitcoin and Ethereum rose modestly as the Federal Reserve hiked rates for the first time since 2023, while Congress advanced crypto tax reform and regulators pledged to write their own rules.",
+  "caveman": "On September 16th, Bitcoin and Ethereum both went up a tiny bit—Bitcoin to around $76,400 and Ethereum to $2,437. The biggest news was the Federal Reserve, which controls America's interest rates, raised rates by 0.25% for the first time since mid-2023. Normally higher interest rates hurt Bitcoin, but the market stayed calm this time. The same day, Congress voted 38-to-5 to simplify taxes for people using cryptocurrencies, which is good news for users. Banking regulators also said they would write their own rules for crypto trading even though Congress couldn't agree on a bill. It was a day with big government announcements but the crypto market didn't panic.",
+  "priceVolumeSummary": "All major exchanges showed consistent pricing: Bitcoin held at $76,430 and Ethereum at $2,437, with no significant basis risk. Binance led volume by a large margin at $11.8 billion in Bitcoin futures and $10.6 billion in Ethereum, followed by OKX and Gate.",
+  "positioningSummary": "Funding rates stayed moderate (Bitcoin 2.3–7% annualized, Ethereum 3.3–6.5%), showing traders were cautiously long but not aggressively leveraged. Open interest showed mixed signals—Bybit's Bitcoin fell 1.25% while Binance's rose 1.16%, indicating rotation rather than a one-sided surge. Long/short ratios favored longs (Binance showed 1.53x more Bitcoin longs than shorts), but rates weren't elevated enough to signal excessive bullishness.",
+  "stocksSummary": "Asian equities were mixed on the day: Korean chipmakers weakened (SK Hynix −0.87%, Samsung −0.64%) amid sector selloff, while Hong Kong saw sharp gains in AI (MiniMax +7.7%, Zhipu AI +2.5%) and Chinese robotics rose (Unitree +6.6%). US markets closed slightly red (S&P 500 −0.44%) as traders digested the Fed rate hike, and oil declined 2.6–2.8% on economic uncertainty.",
+  "movers": [
+    {
+      "symbol": "BR",
+      "explanation": "No clear public cause identified in news coverage.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONE",
+      "explanation": "No clear public cause identified in news coverage.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Federal Reserve raises rates 25 basis points to 3.75–4.0%, first increase since July 2023",
+        "what": "The Federal Reserve unanimously voted to raise interest rates by 0.25% to a new range of 3.75–4.0%. This is the first rate increase since July 2023. The Fed also released economic projections signaling additional rate hikes may come later in the year if inflation remains elevated.",
+        "coins": "BTC, ETH (macroeconomic event affecting all assets)",
+        "timeUTC": "18:00 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+      },
+      {
+        "headline": "House advances Digital Asset Tax Certainty Act in bipartisan 38–5 vote",
+        "what": "The House Ways and Means Committee voted 38–5 to advance the Digital Asset Tax Certainty Act, which would exempt qualifying crypto transaction fees from capital-gains reporting and restrict wash-sale-style loss harvesting. The bill simplifies tax filing for everyday crypto users and represents a major regulatory win for the industry.",
+        "coins": "all crypto",
+        "timeUTC": "~17:00–18:00 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/house-tax-committee-advances-crypto-tax-overhaul-in-385-vote"
+      },
+      {
+        "headline": "SEC and CFTC vow to push crypto rules ahead without waiting for legislative deal",
+        "what": "Following the Senate's failure to pass the Clarity Act, SEC Chair Paul Atkins and CFTC Chair Mike Selig declared their agencies would move ahead using existing regulatory authority. Selig said the CFTC is 'locked in and ready to ship' new crypto rules, signaling regulators will not wait for Congress.",
+        "coins": "BTC, ETH, stablecoins",
+        "timeUTC": "18:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-16-go-time-sec-cftc-prepare-push-crypto-rules-clarity-act-stalls-senate-415281"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "House crypto tax bill clears committee on overwhelming bipartisan support",
+          "what": "The Digital Asset Tax Certainty Act passed the House Ways and Means Committee 38–5. The bill addresses a long-standing complaint from crypto users: overly complex tax rules for staking rewards, stablecoin transactions, and routine transfers. It now moves to the full House floor.",
+          "coins": "all crypto",
+          "timeUTC": "~17:00–18:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-16-house-panel-approves-first-federal-crypto-tax-framework-one-day-after-senates-clarity-act-stumbles-415293"
+        },
+        {
+          "headline": "Celsius estate sues BitMEX for $495 million over 2020 liquidations",
+          "what": "The Celsius bankruptcy estate filed suit claiming BitMEX wrongfully liquidated and seized 6,360 Bitcoin (~$490 million at current prices) during the March 2020 market crash. The case involves competing claims about counterparty rights and lender protections during market stress events.",
+          "coins": "BTC",
+          "timeUTC": "~14:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/16/celsius-sues-bitmex-for-usd495-million-over-2020-crash-liquidations"
+        },
+        {
+          "headline": "UK FCA sets crypto authorization guidance ahead of application window",
+          "what": "The UK Financial Conduct Authority released detailed guidance on which crypto activities require authorization under its newly incoming digital asset regulatory regime. Firms are preparing applications as the September deadline approaches.",
+          "coins": "all crypto",
+          "timeUTC": "~13:00–14:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/uk-fca-sets-crypto-authorization-guidance-ahead-of-september-application-window"
+        },
+        {
+          "headline": "JPMorgan: Clarity Act 'not fully dead' but passage window is 'extremely narrow'",
+          "what": "JPMorgan analysts said the failed Senate Clarity Act bill is not fully dead but the 2026 passage window has shrunk to 'extremely narrow' due to time constraints and partisan disagreement. Some industry observers note a potential lame-duck session push remains possible.",
+          "coins": "BTC, ETH",
+          "timeUTC": "~16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-16-jpmorgan-clarity-act-crypto-bill-415280"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin and Ethereum ETFs record heaviest single-day outflows since June",
+          "what": "Spot Bitcoin, Ethereum, and XRP ETFs posted combined redemptions of approximately $593 million, their worst day since June. Outflows accelerated following the Senate's rejection of the Clarity Act on September 15, with institutional investors rotating allocations.",
+          "coins": "BTC, ETH",
+          "timeUTC": "~14:00–16:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378382/bitcoin-etfs-clarity-act-vote"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Circle launches Arc mainnet with BlackRock and Visa as validators",
+          "what": "Circle announced the genesis of its Arc mainnet, minting 10 billion ARC tokens with a validator set including BlackRock, Visa, and other financial institutions. The public token launch remains under review, but the network is now live for development and testing.",
+          "coins": "USDC, ARC",
+          "timeUTC": "~12:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-16-circle-launches-arc-mainnet-with-blackrock-and-visa-among-validators-mints-10-billion-arc-tokens-415250"
+        },
+        {
+          "headline": "Bitcoin Core 32.0 enters final testing with performance and security improvements",
+          "what": "Bitcoin Core, the reference software implementation, has entered final release-candidate testing. Version 32.0 includes faster block verification and changes to how wallets prepare payments.",
+          "coins": "BTC",
+          "timeUTC": "~15:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378430/bitcoin-core-software-october-update"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
+          "what": "Threat actors who breached Revolut's systems are demanding $3 million in Monero and threatening to publish customer data. The attackers claimed to specifically target customers with significant crypto holdings, though Revolut stated it received no direct ransom contact.",
+          "coins": "XMR",
+          "timeUTC": "~13:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/16/revolut-hackers-demand-usd3-million-in-monero-threaten-to-sell-customer-data"
+        },
+        {
+          "headline": "Hackers hijack HBO Max Reddit account to spread crypto-stealing malware",
+          "what": "Attackers compromised HBO Max's verified Reddit account and ran 108 malicious advertisements directing users to fake software downloads designed to harvest crypto credentials and wallet data. The account was recovered after detection.",
+          "coins": "various",
+          "timeUTC": "~14:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378401/hackers-hbo-max-reddit-account-crypto-malware"
+        },
+        {
+          "headline": "Hamas military wing told donors to avoid Binance, use alternative exchanges",
+          "what": "A U.S. Department of Justice filing disclosed that Hamas's military wing advised fund-senders not to use Binance directly, instead routing funds through Trust Wallet, Bybit, OKX, Kast, and Redotpay to external TRON addresses. The filing highlights ongoing sanctions-evasion attempts via crypto.",
+          "coins": "various",
+          "timeUTC": "~15:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/16/hamas-military-wing-told-donors-to-avoid-binance-use-bybit-okx-and-others-instead"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Core Retail Sales and Retail Sales (12:30 UTC)",
+      "typicalReaction": "Medium impact. Stronger-than-expected consumer spending supports economic confidence and risk assets like crypto; weakness signals recession risk, favoring bonds and the dollar."
+    },
+    {
+      "event": "FOMC Statement and Economic Projections (18:00 UTC)",
+      "typicalReaction": "High impact. Rate decisions and forward guidance move all asset classes. If hikes are priced in, the market reacts mainly to inflation outlook signals; surprise hawkishness hits crypto hard, dovish surprises lift it."
+    },
+    {
+      "event": "FOMC Press Conference (18:30 UTC)",
+      "typicalReaction": "High impact. Chair commentary on future rate paths, inflation, and economic conditions can shift market direction sharply. Unscripted remarks often trigger volatility."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis point",
+      "definition": "One hundredth of a percent (0.01%). When interest rates rise by 25 basis points, that is a 0.25% increase."
+    },
+    {
+      "term": "FOMC",
+      "definition": "The Federal Open Market Committee—the group inside the U.S. Federal Reserve that decides interest rates and monetary policy."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment that long traders pay to short traders (or vice versa) in crypto futures contracts. Positive rates mean longs are paying shorts. High rates signal excessive bullishness and warn of possible liquidations."
+    },
+    {
+      "term": "Long / short",
+      "definition": "Long means betting a price will go up; short means betting it will go down. A long/short ratio compares how many traders are long versus short. Ratios above 1.0 mean more bulls than bears."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price an exchange uses to calculate profits, losses, and liquidations for futures contracts. It often differs slightly from the last traded price to prevent price manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open futures or options contracts at an exchange. Rising open interest means new money is entering; falling open interest means positions are closing out."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in total open contracts over a time period. A rise suggests fresh capital betting, often accompanied by larger price moves."
+    },
+    {
+      "term": "Perpetual contract",
+      "definition": "A crypto futures contract with no expiration date, allowing traders to hold long or short positions indefinitely. Traders pay funding rates to maintain positions instead of paying an upfront premium."
+    },
+    {
+      "term": "Rate hike",
+      "definition": "When a central bank (like the Federal Reserve) raises its benchmark interest rate, making borrowing more expensive and savings more rewarding."
+    }
+  ],
+  "_source": "cli"
+}

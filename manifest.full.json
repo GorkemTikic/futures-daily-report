@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-17T09:00:25.784Z",
+  "generatedAt": "2026-09-17T10:09:38.430Z",
   "count": 92,
   "counts": {
     "total": 92,
@@ -21,9 +21,9 @@
         "BTC": 0.7472734438857161,
         "ETH": 0.8632199062098451
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum rose modestly as the Federal Reserve hiked rates for the first time since 2023, while Congress advanced crypto tax reform and regulators pledged to write their own rules.",
+      "oneLine": "Bitcoin and Ethereum rose modestly as the Federal Reserve hiked rates for the first time since 2023, while Congress advanced crypto tax reform and regulators pledged to write their own rules.",
+      "newsCount": 13,
       "topMover": {
         "symbol": "BRUSDT",
         "chgPct": 160.16636957813427
@@ -36,12 +36,11 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr"
       ],
       "status": "degraded",
       "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
         "zh report unavailable"
       ],
       "flagged": [],
