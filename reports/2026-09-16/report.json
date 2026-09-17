@@ -6,8 +6,8 @@
   "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
   "newsCount": 0,
   "macro": {
-    "BTC": 0.7413217084919361,
-    "ETH": 0.8632199062098451
+    "BTC": 0.7472734438857161,
+    "ETH": 0.8316
   },
   "topMover": {
     "symbol": "BRUSDT",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "17 Sept 00:00 UTC",
+  "generatedAtUTC": "17 Sept 01:00 UTC",
   "languages": [
     "en"
   ],
