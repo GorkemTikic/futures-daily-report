@@ -1,15 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-17T21:49:21.416Z",
-  "count": 92,
+  "generatedAt": "2026-09-18T00:07:17.856Z",
+  "count": 93,
   "counts": {
-    "total": 92,
-    "market": 5,
+    "total": 93,
+    "market": 6,
     "divergence": 87,
-    "degraded": 0
+    "degraded": 1
   },
-  "latest": "2026-09-16",
+  "latest": "2026-09-17",
   "reports": [
+    {
+      "date": "2026-09-17",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.3280681394506319,
+        "ETH": 1.1983305274391547
+      },
+      "marketSummary": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
+      "oneLine": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
+      "newsCount": 9,
+      "topMover": {
+        "symbol": "ONEUSDT",
+        "chgPct": 83.64979889626791
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-17/summary_2026-09-17.html",
+        "pdf": "reports/2026-09-17/summary_2026-09-17.pdf",
+        "md": "reports/2026-09-17/summary_2026-09-17.md"
+      }
+    },
     {
       "date": "2026-09-16",
       "kind": "market",

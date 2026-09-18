@@ -1,16 +1,56 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-17T21:49:21.416Z",
-  "count": 92,
+  "generatedAt": "2026-09-18T00:07:17.856Z",
+  "count": 93,
   "counts": {
-    "total": 92,
-    "market": 5,
+    "total": 93,
+    "market": 6,
     "divergence": 87,
-    "degraded": 0
+    "degraded": 1
   },
-  "latest": "2026-09-16",
+  "latest": "2026-09-17",
   "head": 30,
   "reports": [
+    {
+      "date": "2026-09-17",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.3280681394506319,
+        "ETH": 1.1983305274391547
+      },
+      "marketSummary": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
+      "oneLine": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
+      "newsCount": 9,
+      "topMover": {
+        "symbol": "ONEUSDT",
+        "chgPct": 83.64979889626791
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-17/summary_2026-09-17.html",
+        "pdf": "reports/2026-09-17/summary_2026-09-17.pdf",
+        "md": "reports/2026-09-17/summary_2026-09-17.md"
+      }
+    },
     {
       "date": "2026-09-16",
       "kind": "market",
@@ -2096,57 +2136,6 @@
         "html": "reports/2026-08-19/summary_2026-08-19.html",
         "pdf": null,
         "md": "reports/2026-08-19/summary_2026-08-19.md"
-      }
-    },
-    {
-      "date": "2026-08-18",
-      "scanned": 528,
-      "movedBig": 4,
-      "dangerCount": 0,
-      "widest": {
-        "symbol": "BULLAUSDT",
-        "pct": "2.2%",
-        "time": "00:11"
-      },
-      "macro": {
-        "BTC": 0.3,
-        "ETH": 0.2,
-        "SOL": 1.4
-      },
-      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.3%, ETH +0.2%, SOL +1.4% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
-      "newsCount": 0,
-      "flagged": [
-        {
-          "symbol": "ACEUSDT",
-          "label": "Steady climb",
-          "headline": "ACEUSDT climbed +46.3% steadily"
-        },
-        {
-          "symbol": "JCTUSDT",
-          "label": "Pumped then faded",
-          "headline": "JCTUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "STARUSDT",
-          "label": "Steady decline",
-          "headline": "STARUSDT slid 25.2% in an orderly sell-off"
-        },
-        {
-          "symbol": "SKYAIUSDT",
-          "label": "Steady decline",
-          "headline": "SKYAIUSDT slid 27.9% in an orderly sell-off"
-        },
-        {
-          "symbol": "BULLAUSDT",
-          "label": "Brief price gap",
-          "headline": "BULLAUSDT had one brief price dislocation"
-        }
-      ],
-      "kind": "divergence",
-      "files": {
-        "html": "reports/2026-08-18/summary_2026-08-18.html",
-        "pdf": null,
-        "md": "reports/2026-08-18/summary_2026-08-18.md"
       }
     }
   ]

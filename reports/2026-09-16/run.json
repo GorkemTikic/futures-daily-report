@@ -1,11 +1,11 @@
 {
-  "runId": "2026-09-17T11:00:01.242Z",
+  "runId": "2026-09-17T21:43:57.677Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-09-17T11:00:01.242Z",
+  "startedAt": "2026-09-17T21:43:57.677Z",
   "status": "ok",
-  "finishedAt": "2026-09-17T11:05:55.288Z",
-  "durationSec": 354,
+  "finishedAt": "2026-09-17T21:49:26.090Z",
+  "durationSec": 328,
   "date": "2026-09-16",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1789603199999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "11:00 UTC"
+    "asOfUTC": "21:43 UTC"
   },
   "sources": {
     "exchanges": {
@@ -53,13 +53,14 @@
         "CoinDesk",
         "The Block",
         "Cointelegraph",
+        "CryptoSlate",
         "Decrypt",
         "SEC",
         "Federal Reserve",
         "CFTC"
       ],
       "failed": [],
-      "count": 43,
+      "count": 55,
       "backfill": false
     },
     "tradfi": {

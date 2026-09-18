@@ -1,0 +1,158 @@
+{
+  "oneLine": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
+  "caveman": "On this day, Bitcoin and Ethereum both went up a small amount—Bitcoin rose 0.3 percent and Ethereum rose about 1.2 percent. Nothing unusual happened in crypto itself. But outside of crypto, two big things mattered. First, the government finally said yes to letting real company stocks trade on blockchain computers, which was something the industry has wanted for a long time. Second, the government's other agency said it was okay for crypto wallet apps and tools to let people trade fancy financial contracts without getting special permission first. The reason this matters is that the U.S. Federal Reserve raised interest rates the day before (for the first time since 2023), and all the stock markets went up anyway—which meant people felt confident about investing in riskier things like stocks and crypto. It was a calm, positive day with no warnings or problems.",
+  "priceVolumeSummary": "All five major trading venues—Binance, OKX, Bybit, Bitget, and Gate—agreed on Bitcoin's price at 76,396. Ethereum showed similar agreement across venues at 2,446.80. Binance led trading volume with approximately 9.1 billion dollars in Bitcoin trading and 7.5 billion dollars in Ethereum trading.",
+  "positioningSummary": "Funding rates (the cost traders pay to hold leveraged positions) were elevated across venues, ranging from 2 to 11 percent annualized, signaling traders expected prices to keep rising. Open interest—the total amount of money at risk in leveraged trades—remained high and stable, with no signs of forced selling. Long/short ratios showed bullish positioning: on Binance, 1.5 traders betting on price increases for every trader betting on price drops in Bitcoin, and 3.2-to-1 in Ethereum. This means professional traders felt confident about upside price movement.",
+  "stocksSummary": "Asian semiconductor stocks rallied on artificial-intelligence demand: South Korean exchange stocks showed SK Hynix up 1.85 percent and Samsung Electronics up 1.53 percent, while Hong Kong saw sharper gains in AI-chip plays like MiniMax up 9.14 percent and GigaDevice up 6.02 percent. Chinese robotics and AI stocks also advanced, with Unitree Robotics up 9.13 percent. In the United States, Intel (a chip designer) surged 13.06 percent following the Federal Reserve's rate increase, as the stock market rewarded semiconductor strength. The Asia moves reflect ongoing investor confidence in memory and compute demand for artificial-intelligence training.",
+  "movers": [
+    {
+      "symbol": "ONE",
+      "explanation": "Small altcoin with trading volume of 614M USD but no clear public cause for the 83.9 percent jump—likely speculative trading by retail investors.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVA",
+      "explanation": "Small altcoin volume of 359M USD gained 68.1 percent with no identifiable news or market catalyst—typical of low-liquidity speculative moves.",
+      "hasCause": false
+    },
+    {
+      "symbol": "COTI",
+      "explanation": "Small altcoin with 105M USD volume climbed 47.2 percent on no visible news catalyst.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC approves Innovation Exemption—real U.S. stocks can now trade on blockchain venues",
+        "what": "The U.S. Securities and Exchange Commission granted a five-year exemption allowing regulated trading venues to list and trade tokenized versions of real U.S. company stocks (the same stocks you can buy on traditional exchanges). Venues must notify issuers before listing their stock tokens, and trading happens in controlled smart contracts on public blockchains. This opens America's 77 trillion dollar stock market to blockchain infrastructure.",
+        "coins": "Ethereum (primary network for tokenized finance)",
+        "timeUTC": "2026-09-17 17:00 UTC (estimated)",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+      },
+      {
+        "headline": "CFTC clears way for crypto apps to offer regulated derivatives without broker registration",
+        "what": "The U.S. Commodity Futures Trading Commission issued a no-action letter confirming that crypto wallets and passive software providers can connect users to regulated derivatives markets (like perpetual futures) without registering as introducing brokers, as long as they meet transparency and disclosure rules.",
+        "coins": "All crypto (software layer)",
+        "timeUTC": "2026-09-17 14:00 UTC (estimated)",
+        "source": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9300-26"
+      },
+      {
+        "headline": "Federal Reserve raises interest rates 25 basis points—first hike since 2023",
+        "what": "The Fed increased the federal funds rate to 3.75–4.00 percent, the first increase in three years, in response to persistent inflation. Stock markets rallied afterward, including gains in tech and cryptocurrency-related equities. The dot plot showed officials expect at least one more rate increase before year-end.",
+        "coins": "Bitcoin, Ethereum (benefited from broader risk-asset rally)",
+        "timeUTC": "2026-09-16 19:00 UTC (announced; outside report day but directly caused Sept 17 strength)",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "U.S. Treasury sanctions Iranian crypto exchange BitBank over alleged payments to Revolutionary Guard",
+          "what": "The Office of Foreign Assets Control designated BitBank (a previously-unlicensed Iranian exchange) and related entities as sanctions targets, alleging the platform facilitated bitcoin transfers to Iran's Islamic Revolutionary Guard Corps through a maritime-insurance scheme called Hormuz Safe. The designation targets Iran's growing use of cryptocurrencies to evade economic sanctions.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-17 15:00 UTC (estimated)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462"
+        },
+        {
+          "headline": "UK signals end of crypto 'light-touch' era with multi-agency enforcement raid",
+          "what": "UK financial and law-enforcement agencies conducted coordinated raids on peer-to-peer crypto platforms and hubs, signaling stricter enforcement as detailed regulatory guidance took effect ahead of the full framework in late 2027.",
+          "coins": "All crypto",
+          "timeUTC": "2026-09-17 12:00 UTC (estimated)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/17/uk-signals-end-of-light-touch-era-with-multi-agency-raid-on-peer-to-peer-crypto-hubs"
+        },
+        {
+          "headline": "House passes first major federal crypto tax overhaul (385–0 vote)",
+          "what": "The House committee advanced a crypto tax bill (H.R. 10357) that provides relief for small transactions and stakers while expanding abuse-prevention rules. The bill moves toward full House consideration and signals bipartisan interest in crypto taxation even after the Clarity Act failed in the Senate.",
+          "coins": "All crypto (tax impact)",
+          "timeUTC": "2026-09-17 18:00 UTC (estimated)",
+          "source": "CoinDesk / Cointelegraph",
+          "url": "https://cointelegraph.com/news/house-tax-committee-advances-crypto-tax-overhaul-in-385-vote"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "S&P Global acquires OpenZeppelin—credit-ratings giant enters onchain security market",
+          "what": "S&P Global announced a deal to acquire OpenZeppelin, the leading smart-contract security auditor whose code underpins over 37 trillion dollars in tokenized value. OpenZeppelin will operate as a standalone unit under S&P Global, combining security assessments with the firm's risk and data capabilities for tokenized finance.",
+          "coins": "Ethereum (primary smart-contract platform audited by OpenZeppelin)",
+          "timeUTC": "2026-09-17 13:00 UTC (estimated)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push"
+        },
+        {
+          "headline": "Crypto.com registers with SEC for single-stock futures, planning U.S. perpetual futures on real stocks",
+          "what": "Crypto.com announced SEC registration to offer single-stock futures products and is working with regulators to launch perpetual-futures contracts on individual U.S. stocks, bridging traditional finance and crypto trading platforms.",
+          "coins": "All crypto (cross-asset infrastructure)",
+          "timeUTC": "2026-09-17 16:00 UTC (estimated)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-17-crypto-com-registers-with-sec-for-single-stock-futures-plans-us-stock-perps-415355"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "North Korea and Iran drive surge in onchain malware—Chainalysis data",
+          "what": "Analysis by blockchain forensics firms shows North Korea and Iran account for the majority of malware hidden on public blockchains. North Korean state-linked hackers in early 2026 stole up to 12 million dollars through malware targeting personal crypto wallets, using strains called BeaverTail, OtterCookie, and InvisibleFerret. Chainalysis estimates North Korea's cumulative theft since 2017 exceeds 6 billion dollars.",
+          "coins": "Bitcoin, Ethereum, stablecoins (theft targets)",
+          "timeUTC": "2026-09-17 09:00 UTC (estimated)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/north-korea-drives-onchain-malware-surge-coinex-shuts-asia-express"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan CPI September 2026 (23:30 UTC on Sept 17)",
+      "typicalReaction": "Japan inflation data typically moves the yen and can signal global central-bank direction. A reading above 3 percent usually pushes the yen stronger and could pressure risk assets. This release came at the very end of the trading day (00:30 on Sept 18 in UTC), so market reaction may extend into Sept 18."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized percentage (for funding rates)",
+      "definition": "A funding rate that compounds eight times per year is multiplied by 8 and shown as an annual percentage. For example, a 0.00006 rate every 8 hours becomes 6.9 percent annualized, meaning if you held the same position all year, you would pay that much."
+    },
+    {
+      "term": "Basis",
+      "definition": "The time period over which a price or change is measured. 'UTC-day' basis means the price changed from the start of the UTC calendar day (00:00 UTC) to the snapshot time. 'Rolling-24h' means the most recent 24 hours of trading, which may not align with calendar days."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A fee that traders holding leveraged positions pay or receive every 8 hours. A positive funding rate means traders betting on price increases pay traders betting on decreases—a signal that more traders are bullish. Higher rates signal stronger bullish positioning and increased leverage."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting prices will go UP (long) divided by the number betting prices will go DOWN (short). A ratio above 1.0 means more bullish traders. A 2.0 ratio means twice as many traders are betting upward."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used by a derivatives exchange to measure profits and losses for leveraged trades. It's calculated from spot markets and futures prices to prevent traders from pushing the price too far away from real-world value."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total amount of money locked in leveraged positions (futures and perpetuals) across all traders on an exchange. Rising open interest means traders are adding leverage; falling open interest means they are closing positions or reducing bets."
+    },
+    {
+      "term": "Perpetual contract / perpetual futures",
+      "definition": "A leveraged derivative that lets you bet on price movement without an expiration date, unlike traditional futures. You can hold the position indefinitely as long as you have collateral and pay funding fees."
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "An exchange-traded fund that physically holds the asset (e.g., Bitcoin or Ethereum) and trades on stock exchanges. When you buy a spot ETF, you own a claim on the actual underlying asset."
+    },
+    {
+      "term": "Tokenized securities / tokenized stocks",
+      "definition": "Digital versions of real company stock that trade on blockchain venues instead of traditional stock exchanges. A tokenized Apple share represents the same ownership rights and dividends as a traditional Apple share but can trade 24/7 on blockchain networks."
+    },
+    {
+      "term": "Venue",
+      "definition": "A cryptocurrency exchange or trading platform where you can buy and sell crypto assets."
+    }
+  ],
+  "_source": "cli"
+}

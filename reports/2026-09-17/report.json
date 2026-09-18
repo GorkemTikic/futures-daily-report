@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-17",
+  "kind": "market",
+  "dateLong": "Thursday, 17 September 2026",
+  "coversUTC": "2026-09-17 00:00–23:59 UTC",
+  "oneLine": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
+  "newsCount": 9,
+  "macro": {
+    "BTC": 0.3280681394506319,
+    "ETH": 1.1983305274391547
+  },
+  "topMover": {
+    "symbol": "ONEUSDT",
+    "chgPct": 83.64979889626791
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "18 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "zh report unavailable"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "oneLine": "Senat kripto tasarısını reddetti ama ABD'nin regülatörleri blockchain üzerinde hisse senedi ticaretini onayladı ve kripto uygulamalarına türev işlem yapma izni verdi. Aynı zamanda Fed'in üç yıl sonra yaptığı faiz artırımından sonra borsa güzel yükseldi.",
+  "caveman": "Bugün Bitcoin ve Ethereum biraz yükseldi—Bitcoin yüzde 0,3, Ethereum yüzde 1,2 oranında arttı. Kripto tarafında olağandışı bir şey olmadı. Ama kripto dışında iki önemli olay yaşandı. Birincisi, hükümet nihayet gerçek şirket hisse senetlerinin blockchain bilgisayarlarında işlem görmesine izin verdi—bu sektörün uzun zamandır istediği bir şeydi. İkincisi, hükümetin başka bir kurumu kripto cüzdanlarına ve araçlarına insanların özel izin almadan karmaşık finansal kontratlar ticareti yapmasına izin verdi. Bu neden önemli? Fed faiz oranını bir gün önce yükseltti (2023'ten sonra ilk kez), ve yine de tüm borsalar yükseldi—bu da yatırımcıların hisse senetleri ve kripto gibi riskli şeylere yatırım yapma konusunda kendilerine güvendiğini gösterdi. Sakin ve olumlu bir gündü, hiç tehlike ya da sorun yoktu.",
+  "priceVolumeSummary": "Beş ana ticaret platformu—Binance, OKX, Bybit, Bitget ve Gate—Bitcoin fiyatında 76,396 dolarında uyum sağladı. Ethereum da benzer şekilde tüm platformlarda 2,446.80 dolarında tutarlılık gösterdi. Binance ticaret hacminde başı çekti; Bitcoin ticaretinde yaklaşık 9,1 milyar dolar, Ethereum ticaretinde 7,5 milyar dolar hacim ile.",
+  "positioningSummary": "Finansman oranları (türev işlemlerde konum tutmanın maliyeti) tüm platformlarda yüksekti ve yıllık bazda yüzde 2 ile 11 arasında değişiyordu. Bu, tüccarların fiyatların yükselmeye devam edeceğini beklediğini gösteriyordu. Açık pozisyon—türev işlemlerde risk altında olan toplam para—yüksek ve istikrarlı kaldı, zorunlu satışın hiçbir işareti yoktu. Uzun/kısa oranları boğa eğilimi gösteriyordu: Binance'de Bitcoin için fiyat düşüşüne bahis oynayan her bir tüccar için fiyat yükselişine bahis oynayan 1,5 tüccar, Ethereum'da ise 3,2'ye 1 oranında. Bu, profesyonel tüccarların yükselme potansiyeli konusunda güvenli olduklarını gösteriyordu.",
+  "stocksSummary": "Asya yarı iletken hisse senetleri yapay zeka talebinde ralliye katıldı: Güney Kore borsasında SK Hynix yüzde 1,85 yükseldi, Samsung Electronics yüzde 1,53 yükseldi. Hong Kong'da MiniMax yüzde 9,14, GigaDevice yüzde 6,02 oranında daha keskin kazanımlar gördü. Çin robotik ve yapay zeka hisse senetleri de ilerledi; Unitree Robotics yüzde 9,13 yükseldi. Amerika Birleşik Devletleri'nde Intel (bir çip tasarımcısı) Federal Rezerv'in faiz artırımının ardından yüzde 13,06 oranında sıçradı, çünkü borsa yarı iletken gücünü ödüllendirdi. Asya hareketleri, yapay zeka eğitimi için bellek ve işlem gücü talebine yönelik devam eden yatırımcı güvenini yansıtıyor.",
+  "movers": [
+    {
+      "symbol": "ONE",
+      "explanation": "Ticaret hacmi 614M ABD doları olan küçük altcoin, yüzde 83,9'luk sıçramada açık bir neden yok—muhtemelen perakende yatırımcıların spekülatif ticareti.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVA",
+      "explanation": "Ticaret hacmi 359M ABD doları olan küçük altcoin yüzde 68,1 oranında yükseldi ancak tanımlanabilir bir haber ya da pazar katalizörü yok—düşük likidite spekülatif hareketlerine tipik örnek.",
+      "hasCause": false
+    },
+    {
+      "symbol": "COTI",
+      "explanation": "Ticaret hacmi 105M ABD doları olan küçük altcoin, herhangi bir görünür haber katalizörü olmaksızın yüzde 47,2 oranında yükseldi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC, Innovation Exemption onayladı—gerçek ABD hisse senetleri artık blockchain platformlarında işlem görebiliyor",
+        "what": "ABD Menkul Kıymetlar ve Borsa Komisyonu, düzenlenmiş ticaret platformlarının gerçek ABD şirket hisse senetlerinin tokenize edilmiş versiyonlarını (geleneksel borsalardan satın alabileceğiniz aynı hisse senetleri) listelemesi ve işlem görmesine izin veren beş yıllık bir muafiyet verdi. Platformlar, hisse senedi tokenlerini listelemeden önce ihraçcıları bilgilendirmek zorunda, ve işlemler genel blockchainlerde kontrollü akıllı kontratlar aracılığıyla gerçekleşir. Bu, Amerika'nın 77 trilyon dolarlık hisse senedi pazarını blockchain altyapısına açıyor.",
+        "coins": "Ethereum (tokenize edilmiş finans için birincil ağ)",
+        "timeUTC": "2026-09-17 17:00 UTC (tahmin)",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+      },
+      {
+        "headline": "CFTC, kripto uygulamalarına düzenlenmiş türevleri broker kaydı olmaksızın sunmasına yeşil ışık yakıyor",
+        "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu, kripto cüzdanlarının ve pasif yazılım sağlayıcılarının kullanıcıları düzenlenmiş türev pazarlarına (perpetual vadeli işlemler gibi) aracı olarak tescil olmaksızın bağlayabileceğini doğrulayan bir hareketsizlik mektubu yayınladı. Şeffaflık ve açıklama kurallarını karşıladığı sürece bu mümkün.",
+        "coins": "Tüm kripto (yazılım katmanı)",
+        "timeUTC": "2026-09-17 14:00 UTC (tahmin)",
+        "source": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9300-26"
+      },
+      {
+        "headline": "Federal Rezerv, faiz oranlarını 25 baz puan yükseltiyor—2023'ten sonra ilk artış",
+        "what": "Fed, federal fon oranını yüzde 3,75–4,00'e yükseltti. Bu, kalıcı enflasyon tepkisi olarak üç yılın ilk artışı. Borsalar bunun ardından yükselişe geçti; teknoloji ve kripto ilgili hisse senetlerinde kazanımlar yaşandı. Nokta grafiği, yetkililerin yıl sonundan önce en az bir daha faiz artırımı beklediğini gösterdi.",
+        "coins": "Bitcoin, Ethereum (geniş risk varlığı rallisinden faydalandı)",
+        "timeUTC": "2026-09-16 19:00 UTC (açıklandı; rapor günü dışında ama 17 Eylül gücünü doğrudan sebep oldu)",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "ABD Hazinesi, İran kripto borsası BitBank'ı İslam Devrimi Muhafızlarına ödeme iddiasıyla yaptırım uyguluyor",
+          "what": "Dış Varlıkları Kontrol Bürosu, BitBank'ı (daha önce lisanssız bir İran borsası) ve ilişkili kuruluşları yaptırım hedefi olarak belirledi. Platform, Hormuz Safe adlı bir denizcilik sigortası şeması aracılığıyla Bitcoin transferlerini İran'ın İslam Devrimi Muhafızları Ordusu'na kolaylaştırdığı iddia ediliyor. Belirleme, İran'ın ekonomik yaptırımlardan kaçmak için giderek artan kripto kullanımını hedef alıyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-17 15:00 UTC (tahmin)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462"
+        },
+        {
+          "headline": "Birleşik Krallık, çok acentalı yaptırım baskınıyla kripto 'hafif' döneminin sonunu işaret ediyor",
+          "what": "Birleşik Krallık'ın finansal ve kolluk kurumları, eşler arası kripto platformları ve merkezlerine eşgüdümlü baskınlar düzenlediler. Bu, 2027'nin sonunda tam çerçeve uygulamadan önce yürürlüğe giren ayrıntılı düzenleyici rehberlik nedeniyle daha katı yaptırım döneminin başladığını işaret ediyor.",
+          "coins": "Tüm kripto",
+          "timeUTC": "2026-09-17 12:00 UTC (tahmin)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/17/uk-signals-end-of-light-touch-era-with-multi-agency-raid-on-peer-to-peer-crypto-hubs"
+        },
+        {
+          "headline": "Temsilciler Meclisi ilk büyük federal kripto vergi reformunu geçiriyor (385–0 oy)",
+          "what": "Meclis komitesi, küçük işlemler ve stake edenlere rahatlık sağlarken suistimal önleme kurallarını genişleten kripto vergi tasarısını (H.R. 10357) ilerletti. Tasarı tam Meclis görüşmesine doğru hareket ediyor ve Clarity Yasası'nın Senat'ta başarısız olmasından sonra bile kripto vergilendirilmesine iki taraflı ilgi gösteriyor.",
+          "coins": "Tüm kripto (vergi etkisi)",
+          "timeUTC": "2026-09-17 18:00 UTC (tahmin)",
+          "source": "CoinDesk / Cointelegraph",
+          "url": "https://cointelegraph.com/news/house-tax-committee-advances-crypto-tax-overhaul-in-385-vote"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "S&P Global, OpenZeppelin'i satın alıyor—kredi derecelendirme devi zincir içi güvenlik pazarına giriyor",
+          "what": "S&P Global, kripto sektörünün öncü akıllı kontrat güvenlik denetim şirketi olan ve tokenize edilmiş değerin 37 trilyon dolarının üzerinin altında yatan OpenZeppelin'i satın almak için bir anlaşma duyurdu. OpenZeppelin, S&P Global altında bağımsız bir birim olarak çalışacak ve tokenize edilmiş finansman için güvenlik değerlendirmelerini firmanın risk ve veri yetenekleriyle birleştiriyor.",
+          "coins": "Ethereum (OpenZeppelin tarafından denetlenen birincil akıllı kontrat platformu)",
+          "timeUTC": "2026-09-17 13:00 UTC (tahmin)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push"
+        },
+        {
+          "headline": "Crypto.com, SEC'e tek hisse senedi vadeli işlemleri için kaydoldu, ABD hisse senetlerinde perpetual vadeli işlem planlıyor",
+          "what": "Crypto.com, SEC kaydını duyurdu ve tekil hisse senedi vadeli işlem ürünleri sunacak. Aynı zamanda regülatörlerle çalışıyor ve bireysel ABD hisse senetlerinde perpetual vadeli işlem kontratları başlatmayı planlıyor. Bu, geleneksel finansman ve kripto ticaret platformlarını birleştiriyor.",
+          "coins": "Tüm kripto (çapraz varlık altyapısı)",
+          "timeUTC": "2026-09-17 16:00 UTC (tahmin)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-17-crypto-com-registers-with-sec-for-single-stock-futures-plans-us-stock-perps-415355"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kuzey Kore ve İran, zincir içi kötü amaçlı yazılım dalgasını sürüyor—Chainalysis verileri",
+          "what": "Blockchain adli tıp şirketlerinin analizi, Kuzey Kore'nin ve İran'ın genel blockchainlerde gizlenmiş kötü amaçlı yazılımın çoğunluğundan sorumlu olduğunu gösteriyor. 2026'nın başındaki Kuzey Kore devlet bağlantılı hackerler, BeaverTail, OtterCookie ve InvisibleFerret adlı suşlarını kullanan kişisel kripto cüzdanlarını hedef alarak 12 milyon dolara kadar çaldılar. Chainalysis, Kuzey Kore'nin 2017'den bu yana toplamda 6 milyar doları aşkın çalındığını tahmin ediyor.",
+          "coins": "Bitcoin, Ethereum, stablecoinler (hırsızlık hedefleri)",
+          "timeUTC": "2026-09-17 09:00 UTC (tahmin)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/north-korea-drives-onchain-malware-surge-coinex-shuts-asia-express"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan CPI September 2026 (23:30 UTC on Sept 17)",
+      "typicalReaction": "Japonya enflasyon verileri genellikle yen ve global merkez bankası yönünü gösterebilir. Yüzde 3'ün üzerinde bir okuma genellikle yeni'yi güçlendiriyor ve riskli varlıklara baskı yapabiliyor. Bu veri, işlem gününün çok sonunda açıklandı (UTC'de 18 Eylül saat 00:30), bu nedenle pazar tepkisi 18 Eylül'e uzanabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış Yüzde (finansman oranları için)",
+      "definition": "Her 8 saatte bir başında olan bir finansman oranı sekiz ile çarpılarak yıllık yüzde olarak gösterilir. Örneğin, her 8 saatte 0,00006 oranı yüzde 6,9 olur. Bu da demek oluyor ki, eğer aynı konumu bütün yıl boyunca tutarsanız, bu kadar finansman ücreti ödersiniz."
+    },
+    {
+      "term": "Temel",
+      "definition": "Bir fiyatın veya değişimin ölçüldüğü zaman periyodu. 'UTC-günü' esası, fiyatın UTC takvim gününün başlangıcından (00:00 UTC) anlık zamana kadarki değişikliğini gösterir. 'Kayan-24 saat' en son 24 saatlik ticareti gösterir, bu takvim günleriyle hizalı olmayabilir."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Türev işlemde konum tutan tüccarlar her 8 saatte bir ödeme yapar veya alırlar. Pozitif finansman oranı, fiyatın yükselmesine bahis oynayan tüccarların fiyatın düşmesine bahis oynayanları ödediği anlamına gelir—bu, daha fazla tüccarın boğa eğiliminde olduğunun işaretidir. Daha yüksek oranlar, daha güçlü boğa pozisyonlaması ve artan kaldıraç gösterir."
+    },
+    {
+      "term": "Uzun/Kısa Oranı",
+      "definition": "Fiyatların yükselişüne bahis oynayan (uzun) tüccar sayısının, fiyatların düşüşüne bahis oynayan (kısa) tüccar sayısına bölünmesi. 1,0'dan üstün oran daha fazla boğa eğiliminde tüccar demektir. 2,0 oranı, yukarıya doğru bahis oynayan tüccarların iki kat daha fazla olduğu anlamına gelir."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Bir türev borsasının türev işlemlerde kâr ve zararları ölçmek için kullandığı referans fiyat. Spot piyasalardan ve vadeli işlem fiyatlarından hesaplanır; tüccarların fiyatı gerçek dünya değerinden çok uzağa itmasını engeller."
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Bir borsada tüm tüccarlar arasında türev işlemlerde (vadeli işlemler ve perpetualler) kilitlenmiş toplam para. Açık pozisyon yükselişi, tüccarların kaldıraç eklediğini gösterir; düşüş, konumları kapatıyor veya bahisleri azaltıyor demektir."
+    },
+    {
+      "term": "Sürekli Kontrat / Sürekli Vadeli İşlemler",
+      "definition": "Geleneksel vadeli işlemler gibi son tarih olmadan fiyat hareketi konusunda bahis yapmanızı sağlayan türev. Teminat olduğu ve finansman ücretlerini ödediğiniz sürece, konumu sonsuza kadar tutabilirsiniz."
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "Varlığı (örneğin Bitcoin veya Ethereum) fiziksel olarak tutan ve borsa yatırım fonu üzerinde işlem gören borsa yatırım fonu. Spot ETF satın aldığınızda, temel alınan varlığa hak talebinde bulunursunuz."
+    },
+    {
+      "term": "Tokenize Edilmiş Menkul Kıymetler / Tokenize Edilmiş Hisse Senetleri",
+      "definition": "Geleneksel borsalar yerine blockchain platformlarında işlem gören gerçek şirket hisse senetlerinin dijital versiyonları. Tokenize edilmiş Apple hissesi, geleneksel Apple hissesi gibi aynı sahiplik haklarını ve temettüleri temsil eder, ancak blockchain ağlarında 24/7 işlem görebilir."
+    },
+    {
+      "term": "Platform",
+      "definition": "Kripto varlıkları alıp satabilceğiniz kripto borsası veya ticaret platformu."
+    }
+  ],
+  "_source": "cli-tr"
+}
