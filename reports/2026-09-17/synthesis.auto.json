@@ -1,106 +1,98 @@
 {
-  "oneLine": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
-  "caveman": "On this day, Bitcoin and Ethereum both went up a small amount—Bitcoin rose 0.3 percent and Ethereum rose about 1.2 percent. Nothing unusual happened in crypto itself. But outside of crypto, two big things mattered. First, the government finally said yes to letting real company stocks trade on blockchain computers, which was something the industry has wanted for a long time. Second, the government's other agency said it was okay for crypto wallet apps and tools to let people trade fancy financial contracts without getting special permission first. The reason this matters is that the U.S. Federal Reserve raised interest rates the day before (for the first time since 2023), and all the stock markets went up anyway—which meant people felt confident about investing in riskier things like stocks and crypto. It was a calm, positive day with no warnings or problems.",
-  "priceVolumeSummary": "All five major trading venues—Binance, OKX, Bybit, Bitget, and Gate—agreed on Bitcoin's price at 76,396. Ethereum showed similar agreement across venues at 2,446.80. Binance led trading volume with approximately 9.1 billion dollars in Bitcoin trading and 7.5 billion dollars in Ethereum trading.",
-  "positioningSummary": "Funding rates (the cost traders pay to hold leveraged positions) were elevated across venues, ranging from 2 to 11 percent annualized, signaling traders expected prices to keep rising. Open interest—the total amount of money at risk in leveraged trades—remained high and stable, with no signs of forced selling. Long/short ratios showed bullish positioning: on Binance, 1.5 traders betting on price increases for every trader betting on price drops in Bitcoin, and 3.2-to-1 in Ethereum. This means professional traders felt confident about upside price movement.",
-  "stocksSummary": "Asian semiconductor stocks rallied on artificial-intelligence demand: South Korean exchange stocks showed SK Hynix up 1.85 percent and Samsung Electronics up 1.53 percent, while Hong Kong saw sharper gains in AI-chip plays like MiniMax up 9.14 percent and GigaDevice up 6.02 percent. Chinese robotics and AI stocks also advanced, with Unitree Robotics up 9.13 percent. In the United States, Intel (a chip designer) surged 13.06 percent following the Federal Reserve's rate increase, as the stock market rewarded semiconductor strength. The Asia moves reflect ongoing investor confidence in memory and compute demand for artificial-intelligence training.",
+  "oneLine": "Bitcoin and Ethereum posted modest daily gains on September 17 as US regulators cleared blockchain trading for real stocks and approved regulatory relief for crypto apps.",
+  "caveman": "Bitcoin went up a small amount, and Ethereum went up more. Two important things happened: the US government (the SEC and CFTC) said yes to letting people trade real company stocks on blockchain, and they said yes to apps making it easier for regular people to use crypto investments. These are big positive steps for crypto. The day before, the Federal Reserve raised interest rates for the first time in years, which affects all markets, but crypto stayed calm and bought a little bit. It was a quiet, positive day overall.",
+  "priceVolumeSummary": "Bitcoin settled around $76,565 with a 0.28% daily gain; Ethereum reached $2,448.50, up 1.19% and outperforming Bitcoin. Binance led volume at $16.6B for BTC and $7.5B for ETH combined across venues totaling ~$45B in crypto futures volume.",
+  "positioningSummary": "Funding rates across most venues were positive (OKX 7.49% annualized, Binance 7.31%, Bitget 6.79%), indicating bullish sentiment where longs are paying shorts to hold positions. Open interest grew 0.58% for Bitcoin and 0.23% for Ethereum, showing traders were opening new positions. On Binance, long traders outnumbered short traders 1.45-to-1 for Bitcoin and 2.92-to-1 for Ethereum, with Ethereum showing particularly strong long dominance.",
+  "stocksSummary": "Asian equity markets rallied on September 17 as semiconductor and tech stocks led gains: South Korea's SK Hynix (+3.57%), Samsung (+1.73%), and Hyundai Motor (+2.33%) posted broad gains; Hong Kong's MiniMax (+8.30%), Zhipu AI (+4.47%), and CSOP SK Hynix leveraged ETF (+7.35%) also climbed. China's Unitree Robotics surged 8.61%. These gains likely reflect positive sentiment from the US stock market's 1.13–1.68% rebound following the Federal Reserve's first interest rate increase since July 2023 (announced September 16). Commodities were mixed: gold +1.85%, copper +2.93%, but natural gas −0.56%.",
   "movers": [
     {
       "symbol": "ONE",
-      "explanation": "Small altcoin with trading volume of 614M USD but no clear public cause for the 83.9 percent jump—likely speculative trading by retail investors.",
+      "explanation": "ONE (Harmony) jumped 83.6% on $614M volume with no publicly reported cause in today's news; likely driven by social or technical traders.",
       "hasCause": false
     },
     {
       "symbol": "AVA",
-      "explanation": "Small altcoin volume of 359M USD gained 68.1 percent with no identifiable news or market catalyst—typical of low-liquidity speculative moves.",
+      "explanation": "AVA surged 68.1% on $359M volume with no confirmed catalyst in today's news.",
       "hasCause": false
     },
     {
       "symbol": "COTI",
-      "explanation": "Small altcoin with 105M USD volume climbed 47.2 percent on no visible news catalyst.",
+      "explanation": "COTI (Coti) climbed 46.8% on $105M volume; no clear public announcement explains the move.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "SEC approves Innovation Exemption—real U.S. stocks can now trade on blockchain venues",
-        "what": "The U.S. Securities and Exchange Commission granted a five-year exemption allowing regulated trading venues to list and trade tokenized versions of real U.S. company stocks (the same stocks you can buy on traditional exchanges). Venues must notify issuers before listing their stock tokens, and trading happens in controlled smart contracts on public blockchains. This opens America's 77 trillion dollar stock market to blockchain infrastructure.",
-        "coins": "Ethereum (primary network for tokenized finance)",
-        "timeUTC": "2026-09-17 17:00 UTC (estimated)",
+        "headline": "SEC approves 5-year Innovation Exemption for tokenized US stock trading on blockchain",
+        "what": "The SEC issued a long-awaited exemption allowing venues to list and trade tokenized US stocks on blockchain-native platforms without registering as traditional exchanges. The move opens the $77 trillion US stock market to decentralized trading venues and blockchain infrastructure for the first time in a regulated five-year experiment.",
+        "coins": "BTC, ETH (infrastructure-bullish)",
+        "timeUTC": "2026-09-17 08:35 UTC",
         "source": "SEC",
         "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
       },
       {
-        "headline": "CFTC clears way for crypto apps to offer regulated derivatives without broker registration",
-        "what": "The U.S. Commodity Futures Trading Commission issued a no-action letter confirming that crypto wallets and passive software providers can connect users to regulated derivatives markets (like perpetual futures) without registering as introducing brokers, as long as they meet transparency and disclosure rules.",
-        "coins": "All crypto (software layer)",
-        "timeUTC": "2026-09-17 14:00 UTC (estimated)",
+        "headline": "CFTC issues no-action letter allowing crypto apps to offer regulated derivatives without broker registration",
+        "what": "The Commodity Futures Trading Commission expanded regulatory relief for software providers, allowing crypto wallets and trading apps to connect users to regulated derivatives markets without becoming introducing brokers. This eases the path for mainstream apps to embed crypto and derivatives trading.",
+        "coins": "BTC, ETH (adoption-bullish)",
+        "timeUTC": "2026-09-17 08:48 UTC",
         "source": "CFTC",
         "url": "https://www.cftc.gov/PressRoom/PressReleases/9300-26"
       },
       {
-        "headline": "Federal Reserve raises interest rates 25 basis points—first hike since 2023",
-        "what": "The Fed increased the federal funds rate to 3.75–4.00 percent, the first increase in three years, in response to persistent inflation. Stock markets rallied afterward, including gains in tech and cryptocurrency-related equities. The dot plot showed officials expect at least one more rate increase before year-end.",
-        "coins": "Bitcoin, Ethereum (benefited from broader risk-asset rally)",
-        "timeUTC": "2026-09-16 19:00 UTC (announced; outside report day but directly caused Sept 17 strength)",
-        "source": "Federal Reserve",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+        "headline": "US Treasury sanctions Iranian crypto exchange BitBank over alleged payments to Islamic Revolutionary Guard",
+        "what": "The Treasury Department designated BitBank and related actors for allegedly processing cryptocurrency payments to the IRGC via a previously sanctioned platform (Hormuz Safe) since June. BitBank was used to transfer funds collected after earlier sanctions, highlighting ongoing US enforcement against Iran-linked digital asset activity.",
+        "coins": "BTC (enforcement)",
+        "timeUTC": "2026-09-17 13:32 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "U.S. Treasury sanctions Iranian crypto exchange BitBank over alleged payments to Revolutionary Guard",
-          "what": "The Office of Foreign Assets Control designated BitBank (a previously-unlicensed Iranian exchange) and related entities as sanctions targets, alleging the platform facilitated bitcoin transfers to Iran's Islamic Revolutionary Guard Corps through a maritime-insurance scheme called Hormuz Safe. The designation targets Iran's growing use of cryptocurrencies to evade economic sanctions.",
-          "coins": "Bitcoin",
-          "timeUTC": "2026-09-17 15:00 UTC (estimated)",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462"
+          "headline": "Congressional crypto tax bill advances with H.R. 10357 in House markup",
+          "what": "The House Tax Committee advanced H.R. 10357, marking crypto's first major tax-framework win. The bill includes targeted relief for stakers and small transactions alongside expanded anti-abuse provisions.",
+          "coins": "BTC, ETH (infrastructure)",
+          "timeUTC": "2026-09-17 15:13 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/17/kevin-o-leary-says-congress-will-revisit-clarity-by-second-quarter-as-crypto-tax-bill-advances"
         },
         {
-          "headline": "UK signals end of crypto 'light-touch' era with multi-agency enforcement raid",
-          "what": "UK financial and law-enforcement agencies conducted coordinated raids on peer-to-peer crypto platforms and hubs, signaling stricter enforcement as detailed regulatory guidance took effect ahead of the full framework in late 2027.",
-          "coins": "All crypto",
-          "timeUTC": "2026-09-17 12:00 UTC (estimated)",
+          "headline": "UK signals shift to active enforcement of crypto peer-to-peer platforms",
+          "what": "The UK Financial Conduct Authority conducted multi-agency enforcement operations on unregistered P2P crypto hubs, signaling an end to light-touch regulation as the full regulatory framework approaches in late 2027.",
+          "coins": "BTC, ETH (regulatory risk)",
+          "timeUTC": "2026-09-17 11:42 UTC",
           "source": "CoinDesk",
           "url": "https://www.coindesk.com/policy/2026/09/17/uk-signals-end-of-light-touch-era-with-multi-agency-raid-on-peer-to-peer-crypto-hubs"
-        },
-        {
-          "headline": "House passes first major federal crypto tax overhaul (385–0 vote)",
-          "what": "The House committee advanced a crypto tax bill (H.R. 10357) that provides relief for small transactions and stakers while expanding abuse-prevention rules. The bill moves toward full House consideration and signals bipartisan interest in crypto taxation even after the Clarity Act failed in the Senate.",
-          "coins": "All crypto (tax impact)",
-          "timeUTC": "2026-09-17 18:00 UTC (estimated)",
-          "source": "CoinDesk / Cointelegraph",
-          "url": "https://cointelegraph.com/news/house-tax-committee-advances-crypto-tax-overhaul-in-385-vote"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "S&P Global acquires OpenZeppelin—credit-ratings giant enters onchain security market",
-          "what": "S&P Global announced a deal to acquire OpenZeppelin, the leading smart-contract security auditor whose code underpins over 37 trillion dollars in tokenized value. OpenZeppelin will operate as a standalone unit under S&P Global, combining security assessments with the firm's risk and data capabilities for tokenized finance.",
-          "coins": "Ethereum (primary smart-contract platform audited by OpenZeppelin)",
-          "timeUTC": "2026-09-17 13:00 UTC (estimated)",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push"
-        },
-        {
-          "headline": "Crypto.com registers with SEC for single-stock futures, planning U.S. perpetual futures on real stocks",
-          "what": "Crypto.com announced SEC registration to offer single-stock futures products and is working with regulators to launch perpetual-futures contracts on individual U.S. stocks, bridging traditional finance and crypto trading platforms.",
-          "coins": "All crypto (cross-asset infrastructure)",
-          "timeUTC": "2026-09-17 16:00 UTC (estimated)",
+          "headline": "Crypto.com registers single-stock futures venue with SEC, plans US stock perpetuals",
+          "what": "Crypto.com's sister exchange OG.com received SEC clearance to offer single-stock perpetual futures to US users. The move extends Wall Street instruments to on-chain venues, signaling mainstream institutional adoption.",
+          "coins": "General infrastructure",
+          "timeUTC": "2026-09-17 08:08 UTC",
           "source": "The Block",
           "url": "https://www.theblock.co/news/business/2026-09-17-crypto-com-registers-with-sec-for-single-stock-futures-plans-us-stock-perps-415355"
+        },
+        {
+          "headline": "S&P Global acquires OpenZeppelin to bolster tokenized finance risk oversight",
+          "what": "The ratings and data giant acquired the leading smart-contract audit firm OpenZeppelin, signaling institutional demand for blockchain security standards in a tokenized financial ecosystem.",
+          "coins": "ETH (infrastructure)",
+          "timeUTC": "2026-09-17 08:42 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push"
         }
       ],
-      "Hacks, exploits and outages": [
+      "Traditional markets": [
         {
-          "headline": "North Korea and Iran drive surge in onchain malware—Chainalysis data",
-          "what": "Analysis by blockchain forensics firms shows North Korea and Iran account for the majority of malware hidden on public blockchains. North Korean state-linked hackers in early 2026 stole up to 12 million dollars through malware targeting personal crypto wallets, using strains called BeaverTail, OtterCookie, and InvisibleFerret. Chainalysis estimates North Korea's cumulative theft since 2017 exceeds 6 billion dollars.",
-          "coins": "Bitcoin, Ethereum, stablecoins (theft targets)",
-          "timeUTC": "2026-09-17 09:00 UTC (estimated)",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/magazine/north-korea-drives-onchain-malware-surge-coinex-shuts-asia-express"
+          "headline": "Federal Reserve issues first rate increase since July 2023 (context from Sept 16)",
+          "what": "The FOMC raised the fed funds rate by 25 basis points on September 16, marking the first hike in over a year. US stock markets rebounded 1.13–1.68% the following day; bond yields and the dollar weakened modestly.",
+          "coins": "BTC, ETH (macro-sensitive)",
+          "timeUTC": "2026-09-16 18:00 UTC",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
         }
       ]
     }
@@ -108,50 +100,46 @@
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Japan CPI September 2026 (23:30 UTC on Sept 17)",
-      "typicalReaction": "Japan inflation data typically moves the yen and can signal global central-bank direction. A reading above 3 percent usually pushes the yen stronger and could pressure risk assets. This release came at the very end of the trading day (00:30 on Sept 18 in UTC), so market reaction may extend into Sept 18."
+      "event": "Japan CPI (September 2026, Medium impact) — 2026-09-17 23:30 UTC",
+      "typicalReaction": "Japanese inflation data typically moves the yen and global risk sentiment. A surprise rise could support the dollar and pressure crypto; weakness could support risk assets."
     }
   ],
   "glossary": [
     {
-      "term": "Annualized percentage (for funding rates)",
-      "definition": "A funding rate that compounds eight times per year is multiplied by 8 and shown as an annual percentage. For example, a 0.00006 rate every 8 hours becomes 6.9 percent annualized, meaning if you held the same position all year, you would pay that much."
-    },
-    {
-      "term": "Basis",
-      "definition": "The time period over which a price or change is measured. 'UTC-day' basis means the price changed from the start of the UTC calendar day (00:00 UTC) to the snapshot time. 'Rolling-24h' means the most recent 24 hours of trading, which may not align with calendar days."
-    },
-    {
       "term": "Funding rate",
-      "definition": "A fee that traders holding leveraged positions pay or receive every 8 hours. A positive funding rate means traders betting on price increases pay traders betting on decreases—a signal that more traders are bullish. Higher rates signal stronger bullish positioning and increased leverage."
+      "definition": "A periodic fee (every 8 hours) paid between traders on futures exchanges. When funding is positive, long (buy) traders pay short (sell) traders, indicating bullish sentiment. A high funding rate suggests traders are aggressively betting on price increases."
     },
     {
-      "term": "Long/short ratio",
-      "definition": "The number of traders betting prices will go UP (long) divided by the number betting prices will go DOWN (short). A ratio above 1.0 means more bullish traders. A 2.0 ratio means twice as many traders are betting upward."
+      "term": "Long/Short ratio",
+      "definition": "The number of traders holding buy positions (longs) divided by traders holding sell positions (shorts). A ratio above 1.0 means more traders are betting on prices rising; below 1.0 means more are betting on prices falling."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price used by a derivatives exchange to measure profits and losses for leveraged trades. It's calculated from spot markets and futures prices to prevent traders from pushing the price too far away from real-world value."
+      "definition": "A futures exchange's reference price for a contract, calculated from spot price and funding to prevent flash crashes. It is the price used to calculate if your position should be closed due to losses (liquidation)."
     },
     {
       "term": "Open interest",
-      "definition": "The total amount of money locked in leveraged positions (futures and perpetuals) across all traders on an exchange. Rising open interest means traders are adding leverage; falling open interest means they are closing positions or reducing bets."
+      "definition": "The total number of open futures contracts (buy orders matched with sell orders) at an exchange. A rising open interest means new traders are entering; falling means traders are exiting."
     },
     {
-      "term": "Perpetual contract / perpetual futures",
-      "definition": "A leveraged derivative that lets you bet on price movement without an expiration date, unlike traditional futures. You can hold the position indefinitely as long as you have collateral and pay funding fees."
+      "term": "Open-interest change",
+      "definition": "The percentage change in total open contracts over a day, showing whether traders are opening or closing positions. Positive means new shorts and longs are entering; negative means they are exiting."
     },
     {
-      "term": "Spot ETF",
-      "definition": "An exchange-traded fund that physically holds the asset (e.g., Bitcoin or Ethereum) and trades on stock exchanges. When you buy a spot ETF, you own a claim on the actual underlying asset."
+      "term": "Perpetual futures",
+      "definition": "A cryptocurrency futures contract with no expiry date that trades spot-like but with leverage (borrowed money). Traders pay or receive funding fees based on sentiment; prices are tethered to the real spot price by these fees."
     },
     {
-      "term": "Tokenized securities / tokenized stocks",
-      "definition": "Digital versions of real company stock that trade on blockchain venues instead of traditional stock exchanges. A tokenized Apple share represents the same ownership rights and dividends as a traditional Apple share but can trade 24/7 on blockchain networks."
+      "term": "Real-world assets (RWAs)",
+      "definition": "Physical or traditional financial assets (stocks, bonds, commodities, real estate) that are represented as digital tokens on a blockchain, enabling them to trade 24/7 on blockchain venues."
     },
     {
-      "term": "Venue",
-      "definition": "A cryptocurrency exchange or trading platform where you can buy and sell crypto assets."
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to hold a steady price (usually $1 USD) by being backed by reserves (cash, short-term debt, or an algorithmic mechanism) so it can be used for everyday transactions and savings."
+    },
+    {
+      "term": "Tokenized securities",
+      "definition": "Real company stocks or bonds represented as digital tokens on a blockchain, allowing them to trade on blockchain-native venues without traditional stock exchange infrastructure."
     }
   ],
   "_source": "cli"

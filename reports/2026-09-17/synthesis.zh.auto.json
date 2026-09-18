@@ -1,0 +1,146 @@
+{
+  "oneLine": "比特币和以太坊在9月17日小幅上涨，美国监管部门批准在区块链上交易真实股票，同时为加密应用提供监管豁免。",
+  "caveman": "比特币小幅上涨，以太坊涨幅更大。发生了两件重要的事：美国政府（美国证券交易委员会和商品期货交易委员会）批准在区块链上交易真实公司股票，也批准让普通人更容易使用加密投资的应用程序。这些对加密是很大的利好。前一天美联储首次在多年内提高利率，这会影响所有市场，但加密市场保持平静，甚至小幅上涨。总的来说，这是平静而积极的一天。",
+  "priceVolumeSummary": "比特币收于 $76,565，日涨幅 0.28%；以太坊达 $2,448.50，上涨 1.19%，表现优于比特币。币安交易量领先，比特币 $16.6B，以太坊 $7.5B，各交易所加密期货总交易量约 $45B。",
+  "positioningSummary": "多数交易所的资金费率为正（OKX 7.49% 年化率，币安 7.31%，Bitget 6.79%），表明多头看涨，多头交易者向空头支付资金费用来维持头寸。比特币和以太坊的未平仓合约分别增加 0.58% 和 0.23%，显示交易者在开新头寸。在币安上，比特币的多空比为 1.45:1，以太坊为 2.92:1，以太坊多头优势特别明显。",
+  "stocksSummary": "亚洲股市9月17日反弹，半导体和科技股领涨，包括SK Hynix（+3.57%）、Samsung（+1.73%）和Hyundai Motor（+2.33%）等韩国股票，以及香港的MiniMax（+8.30%）、Zhipu AI（+4.47%）和CSOP SK Hynix杠杆ETF（+7.35%），中国的Unitree Robotics也飙升8.61%。这一反弹可能反映了美国股市的积极情绪——美国股市在美联储首次自2023年7月以来提高利率（9月16日宣布）后反弹1.13-1.68%。大宗商品表现不一：黄金+1.85%，铜+2.93%，但天然气-0.56%。",
+  "movers": [
+    {
+      "symbol": "ONE",
+      "explanation": "ONE（Harmony）激增83.6%，成交量$614M，但今日新闻中无官方催化剂；可能受社交或技术面交易推动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVA",
+      "explanation": "AVA飙升68.1%，成交量$359M，今日新闻中无确认的催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "COTI",
+      "explanation": "COTI（Coti）上涨46.8%，成交量$105M；无明确的公开公告解释这一走势。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国证券交易委员会批准区块链代币化股票5年创新豁免",
+        "what": "美国证券交易委员会发布了期待已久的豁免，允许交易平台在区块链原生平台上列出和交易代币化美国股票，无需注册为传统交易所。这项举措首次向去中心化交易所和区块链基础设施开放77万亿美元的美国股票市场，进行为期5年的监管试验。",
+        "coins": "BTC, ETH (基础设施利好)",
+        "timeUTC": "2026-09-17 08:35 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+      },
+      {
+        "headline": "美国商品期货交易委员会发布不采取行动函，允许加密应用提供衍生品而无需经纪人注册",
+        "what": "商品期货交易委员会扩大了对软件提供商的监管救济，允许加密钱包和交易应用连接用户到受监管衍生品市场而无需成为介绍经纪人。这为主流应用嵌入加密和衍生品交易提供了便利。",
+        "coins": "BTC, ETH (采用利好)",
+        "timeUTC": "2026-09-17 08:48 UTC",
+        "source": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9300-26"
+      },
+      {
+        "headline": "美国财政部因涉嫌向伊斯兰革命卫队付款而对伊朗加密交易所BitBank实施制裁",
+        "what": "财政部将BitBank和相关实体列为目标，理由是自6月以来涉嫌通过先前被制裁的平台（Hormuz Safe）处理向伊斯兰革命卫队的加密支付。BitBank被用于转移早期制裁后收集的资金，突出了美国对伊朗相关数字资产活动的持续执法。",
+        "coins": "BTC (监管执法)",
+        "timeUTC": "2026-09-17 13:32 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "众议院推进加密税收议案H.R. 10357",
+          "what": "众议院税收委员会推进了H.R. 10357，标志着加密的首次重大税收框架胜利。该议案包括针对质押者和小额交易的救济以及扩大的反滥用条款。",
+          "coins": "BTC, ETH (基础设施)",
+          "timeUTC": "2026-09-17 15:13 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/17/kevin-o-leary-says-congress-will-revisit-clarity-by-second-quarter-as-crypto-tax-bill-advances"
+        },
+        {
+          "headline": "英国转向主动执法加密点对点交易平台",
+          "what": "英国金融行为监管局对未注册的点对点加密枢纽进行了多机构执法行动，表明随着完整监管框架在2027年末接近，轻触型监管时代即将结束。",
+          "coins": "BTC, ETH (监管风险)",
+          "timeUTC": "2026-09-17 11:42 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/17/uk-signals-end-of-light-touch-era-with-multi-agency-raid-on-peer-to-peer-crypto-hubs"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Crypto.com向SEC注册单股期货交易所，计划推出美国股票永续合约",
+          "what": "Crypto.com的姊妹交易所OG.com获得美国证券交易委员会批准向美国用户提供单股永续期货。这一举措将华尔街工具扩展到链上交易所，表示主流机构采用的信号。",
+          "coins": "基础设施",
+          "timeUTC": "2026-09-17 08:08 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-17-crypto-com-registers-with-sec-for-single-stock-futures-plans-us-stock-perps-415355"
+        },
+        {
+          "headline": "标普全球收购OpenZeppelin以加强代币化金融风险管理",
+          "what": "这家评级和数据巨头收购了领先的智能合约审计公司OpenZeppelin，表明机构对代币化金融生态中区块链安全标准的需求。",
+          "coins": "ETH (基础设施)",
+          "timeUTC": "2026-09-17 08:42 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美联储自2023年7月以来首次加息（9月16日背景）",
+          "what": "联邦公开市场委员会在9月16日将联邦基金利率提高25个基点，标志着一年多来的首次加息。美国股市在随后一天反弹1.13-1.68%；债券收益率和美元温和走弱。",
+          "coins": "BTC, ETH (宏观敏感)",
+          "timeUTC": "2026-09-16 18:00 UTC",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan CPI (September 2026, Medium impact) — 2026-09-17 23:30 UTC",
+      "typicalReaction": "日本通胀数据通常影响日元和全球风险情绪。意外上升可能支持美元并施压加密货币；疲软可能支持风险资产。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "期货交易所中交易者之间定期支付（每8小时）的费用。当资金费率为正时，多头（买入）交易者向空头（卖出）交易者支付，表示看涨情绪。高资金费率表明交易者在激进地押注价格上涨。"
+    },
+    {
+      "term": "多空比",
+      "definition": "做多头寸交易者数量除以做空头寸交易者数量。比率高于1.0意味着更多交易者押注价格上升；低于1.0意味着更多交易者押注价格下跌。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货交易所合约的参考价格，由现货价格和资金费率计算得出以防止闪崩。这是用于计算您的头寸是否应因亏损而平仓（清算）的价格。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "交易所未平仓期货合约的总数（买单与卖单配对）。上升的未平仓合约意味着新交易者在进入；下跌意味着交易者在离开。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "一天内未平仓合约总数的百分比变化，显示交易者是在开仓还是平仓。正值意味着新的多头和空头在进入；负值意味着他们在离开。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "没有到期日期的加密期货合约，交易类似于现货但使用杠杆（借款）。交易者根据市场情绪支付或接收资金费用；价格通过这些费用与真实现货价格挂钩。"
+    },
+    {
+      "term": "现实世界资产",
+      "definition": "在区块链上表示为数字代币的物理或传统金融资产（股票、债券、商品、房地产），使其能够在区块链交易所上24/7交易。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "一种设计用来保持稳定价格（通常为$1美元）的加密货币，通过由储备（现金、短期债务或算法机制）支持来实现，以便能用于日常交易和储蓄。"
+    },
+    {
+      "term": "代币化证券",
+      "definition": "在区块链上表示为数字代币的真实公司股票或债券，使其能够在区块链原生交易所交易，无需传统股票交易所基础设施。"
+    }
+  ],
+  "_source": "cli-zh"
+}

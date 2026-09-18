@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-18T00:07:17.856Z",
+  "generatedAt": "2026-09-18T01:06:29.019Z",
   "count": 93,
   "counts": {
     "total": 93,
     "market": 6,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-09-17",
   "reports": [
@@ -18,12 +18,12 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": 0.3280681394506319,
+        "BTC": 0.2914605983344733,
         "ETH": 1.1983305274391547
       },
-      "marketSummary": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
-      "oneLine": "The Senate rejected a crypto bill, but U.S. regulators approved blockchain-based stock trading and cleared the way for crypto apps to offer derivatives—as the stock market rallied after the Fed's first rate hike in three years.",
-      "newsCount": 9,
+      "marketSummary": "Bitcoin and Ethereum posted modest daily gains on September 17 as US regulators cleared blockchain trading for real stocks and approved regulatory relief for crypto apps.",
+      "oneLine": "Bitcoin and Ethereum posted modest daily gains on September 17 as US regulators cleared blockchain trading for real stocks and approved regulatory relief for crypto apps.",
+      "newsCount": 8,
       "topMover": {
         "symbol": "ONEUSDT",
         "chgPct": 83.64979889626791
@@ -37,12 +37,11 @@
       ],
       "languages": [
         "en",
-        "tr"
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-17/summary_2026-09-17.html",
