@@ -1,20 +1,20 @@
 {
-  "runId": "2026-09-18T00:00:00.956Z",
+  "runId": "2026-09-18T01:00:02.274Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-09-18T00:00:00.956Z",
-  "status": "degraded",
-  "finishedAt": "2026-09-18T00:07:22.449Z",
-  "durationSec": 441,
+  "startedAt": "2026-09-18T01:00:02.274Z",
+  "status": "ok",
+  "finishedAt": "2026-09-18T01:06:33.308Z",
+  "durationSec": 391,
   "date": "2026-09-17",
   "live": true,
   "window": {
     "label": "2026-09-17 00:00 → 24:00 UTC",
     "startMs": 1789603200000,
     "endMs": 1789689599999,
-    "dayAligned": true,
+    "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "00:00 UTC"
+    "asOfUTC": "01:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -84,17 +84,17 @@
   },
   "languages": [
     "en",
-    "tr"
+    "tr",
+    "zh"
   ],
   "pdf": {
     "en": true,
-    "tr": true
+    "tr": true,
+    "zh": true
   },
   "publish": {
     "pushed": true,
     "branch": "main"
   },
-  "reasons": [
-    "zh report unavailable"
-  ]
+  "reasons": []
 }

@@ -1,0 +1,262 @@
+{
+  "oneLine": "Bitcoin rallied 5.9% to $80,880 after Japan's central bank raised rates to 1.25%, weakening the yen, while the US CFTC filed crypto market rules with the White House following Congress's rejection of the CLARITY Act.",
+  "caveman": "Bitcoin's price jumped almost 6% in one day to about $80,880 because Japan's central bank made interest rates higher. Normally higher rates hurt crypto, but this time something unexpected happened—the yen currency got weaker, which made investors think crypto was a better place to put their money. So Bitcoin went up. At the same time, the US government agency that makes rules for futures trading (the CFTC) sent its plan for crypto rules to the White House, because Congress couldn't pass a big bill about crypto rules. Meanwhile, the stock market had a tiny down day, but most cryptocurrency traders were feeling good. It was a good day for Bitcoin because it survived higher interest rates, but that just reminds us that even small rate increases can still be risky for prices.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices converged tightly across five major venues, with BTC closing at 80,863–80,883 USD and ETH at 2,611–2,612 USD. Binance led volume with $17.5 billion in BTC and $13.6 billion in ETH trading.",
+  "positioningSummary": "Funding rates ranged from 1.86% (Bitget) to 10.95% (OKX and Bybit), indicating moderate bullish positioning at higher-volume venues. Binance showed long-to-short ratios of 1.445 for BTC and 2.92 for ETH, meaning significantly more traders were betting on price rises than falls. Combined open interest across venues was approximately 320,000 BTC coins ($25.9 billion) and 5.8 million ETH coins ($13.2 billion).",
+  "stocksSummary": "Asian equities were mixed on September 18. In Korea, SK Hynix (semiconductor) rose 2.8% while Samsung Electronics fell 0.3%. Hong Kong saw MiniMax surge 12.6% and GigaDevice jump 7.5%, though Tencent slipped 1.6%. US equity indices diverged slightly: S&P 500 fell 0.12% while Nasdaq Composite rose 0.22%. Safe-haven commodities rallied: gold and silver gained 0.7% and 1.5% respectively, while crude oil slipped 0.5% as geopolitical risks eased.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE token jumped 117.9% with $399 million in volume, but no publicly identified news catalyst or announcement on the report day.",
+      "hasCause": false
+    },
+    {
+      "symbol": "FUSDT",
+      "explanation": "F token gained 59.7% with $131 million volume traded, with no tracked material news event or platform announcement.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GUSDT",
+      "explanation": "G token climbed 55.9% with $710 million volume, but no clear public catalyst identified in major news sources.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bank of Japan raises rates to 1.25%, triggering Bitcoin rally as yen weakens",
+        "what": "The Bank of Japan hiked its policy rate by 25 basis points to 1.25% at 00:00 UTC, its highest level since 1995 and second increase this year. In a 7-2 vote, the BOJ cited risk that inflation would deviate upward beyond the 2% target. Unexpectedly, Governor Ueda signaled continued caution, causing the yen to weaken immediately. Bitcoin and Ethereum rallied 5.9% and 6.7% respectively within hours, as traders interpreted the cautious tone as less disruptive to carry trades than feared.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-18 00:00",
+        "source": "Bank of Japan, Bloomberg, CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+      },
+      {
+        "headline": "CFTC submits crypto market rulemaking to White House, bypassing stalled Congress",
+        "what": "The US Commodity Futures Trading Commission filed 'Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets' with the White House Office of Information and Regulatory Affairs on September 18, signaling it will build a derivatives framework using its existing authority. This move came days after the Senate rejected the CLARITY Act on September 16, a bill that would have clarified regulatory roles for the SEC, CFTC, and banking agencies. OMB review is expected within 60 days.",
+        "coins": "All crypto",
+        "timeUTC": "2026-09-18 10:30",
+        "source": "CFTC, CoinDesk, The Block",
+        "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act"
+      },
+      {
+        "headline": "Coinbase files to bring 24/5 single-stock perpetual futures to US market",
+        "what": "Coinbase Derivatives filed with the CFTC on September 18 to list perpetual futures contracts on approximately 50–60 US stocks including Apple, Tesla, Nvidia, and Microsoft, offering 24/5 leveraged exposure without share ownership. The SEC also approved an innovation exemption on the same day, accelerating on-chain settlement of tokenized equities. If approved, Coinbase's contracts could launch later in 2026.",
+        "coins": "COIN",
+        "timeUTC": "2026-09-18 15:30",
+        "source": "Coinbase, Decrypt, CoinDesk",
+        "url": "https://decrypt.co/378681/coinbase-single-stock-perps-apple-tesla-nvidia"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC approves innovation exemption for tokenized stock settlement",
+          "what": "The Securities and Exchange Commission approved an innovation exemption on September 18, allowing tokenized equity trading on blockchain networks. This directly preceded Coinbase's filing and signals an opening for traditional stock settlement to move on-chain.",
+          "coins": "All",
+          "timeUTC": "2026-09-18 14:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378619/morning-minute-sec-approves-innovation-exemption-moving-tokenized-stocks-forward"
+        },
+        {
+          "headline": "ECB President Lagarde reportedly intervened to block Binance EU MiCA license",
+          "what": "The Wall Street Journal reported that ECB President Christine Lagarde used high-level intervention to pressure Greece's regulator to delay Binance's MiCA authorization, despite prior approval from regulatory staff. The ECB holds no formal licensing role under MiCA, making this an unusual regulatory escalation.",
+          "coins": "BNB",
+          "timeUTC": "2026-09-18 04:50",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/18/ecb-president-christine-lagarde-intervened-to-block-binance-s-eu-mica-license-wsj"
+        },
+        {
+          "headline": "FCA clarifies offshore crypto exchange boundary ahead of October 2027 UK rules",
+          "what": "The UK Financial Conduct Authority clarified which offshore crypto platforms fall under its scope, stating that direct consumer access or agency trading brings offshore services within FCA jurisdiction when new rules take effect in October 2027.",
+          "coins": "All",
+          "timeUTC": "2026-09-18 03:59",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fca-draws-the-uk-boundary-for-offshore-crypto-platforms-ahead-of-2027-rules/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Grayscale Zcash ETF surges to $890M AUM on $233M inflow, announces 3-for-1 split",
+          "what": "Grayscale's Zcash Trust (ZCSH) attracted $233 million in net inflows on September 18, pushing assets under management to $890 million. The rapid growth forced the fund to announce a 3-for-1 stock split. Zcash's 20%+ rally pushed solo mining competition to record highs.",
+          "coins": "ZEC",
+          "timeUTC": "2026-09-18 08:22",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-18-grayscales-zcash-etf-plans-3-for-1-split-233-million-inflow-surge-415520"
+        },
+        {
+          "headline": "SBI Group leads $25M Series A for stablecoin payments company dtcpay",
+          "what": "Japan's SBI Group completed a $25 million Series A for dtcpay, a stablecoin payments platform, signaling Asian fintech expansion into on-chain transactions. The capital will fund merchant network growth and enterprise portal tools.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-09-18 06:50",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Hyperliquid launches native borrowing; HYPE hits fresh all-time high above $90",
+          "what": "Hyperliquid rolled out native manual borrowing on September 18, allowing users to pledge HYPE and Bitcoin as collateral for stablecoin loans. HYPE climbed to $90.92, a fresh all-time high, as the exchange expands from spot and perpetual trading into credit products.",
+          "coins": "HYPE, BTC",
+          "timeUTC": "2026-09-18 11:00",
+          "source": "CryptoSlate, Cointelegraph",
+          "url": "https://cryptoslate.com/hyperliquid-opens-native-lending-as-hype-hits-new-ath-above-90/"
+        },
+        {
+          "headline": "Binance launches 24/7 foreign exchange perpetual futures with weekend pricing",
+          "what": "Binance began offering perpetual futures on major currency pairs with 24/7 trading and weekend pricing on September 18, joining OKX in extending traditional forex hours onto crypto exchanges.",
+          "coins": "All",
+          "timeUTC": "2026-09-18 09:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-expands-tradfi-push-with-247-foreign-exchange-perpetuals"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Crypto infrastructure provider Haruko hit by cyberattack; 15 clients affected",
+          "what": "Haruko, a crypto tech provider, suffered a targeted cyberattack on September 18 affecting 15 client firms. Some smaller hedge funds with weaker security posture sustained losses; total damage scope remained unclear.",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-18 11:33",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost"
+        },
+        {
+          "headline": "US Treasury sanctions Iranian crypto exchange BitBank over IRGC Bitcoin transfers (Sep 17, context)",
+          "what": "On September 17–18, OFAC sanctioned the Iranian exchange BitBank for moving hundreds of millions in Bitcoin to the Revolutionary Guards through the Hormuz Safe toll-collection system. This marks escalating US enforcement against Iran's use of crypto for sanctions evasion.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-17 23:15",
+          "source": "Decrypt, CryptoSlate",
+          "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships"
+        }
+      ],
+      "Technical upgrades and governance": [
+        {
+          "headline": "Zcash targets November upgrade to triple transaction speed, defer dev fund to 2031",
+          "what": "Zcash developers announced a mainnet upgrade (NU7) targeted for November 5, 2026, that would reduce block times from 75 seconds to 25 seconds, tripling throughput for private payments. The upgrade defers the development fund to 2031 and sets aside at least 60% of transaction fees to supplement mining rewards after that date.",
+          "coins": "ZEC",
+          "timeUTC": "2026-09-18 05:30",
+          "source": "CoinDesk, FXStreet",
+          "url": "https://www.coindesk.com/tech/2026/09/18/zcash-targets-november-upgrade-to-make-private-payments-up-to-three-times-faster"
+        },
+        {
+          "headline": "Ethereum Institutional backs proposal to reduce Ethereum block times",
+          "what": "The non-profit Ethereum Institutional signaled support on September 18 for Ethlabs' proposal to reduce Ethereum block times, citing benefits for growing institutional activity on the network.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-18 07:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan rate decision at 00:00 UTC (25 basis points to 1.25%)",
+      "typicalReaction": "Higher global rates typically pressure crypto valuations, but the yen weakened sharply on dovish guidance, reducing carry-unwind demand; Bitcoin rallied as traders repriced the move as manageable."
+    },
+    {
+      "event": "UK Retail Sales at 06:00 UTC (medium impact)",
+      "typicalReaction": "Weak retail data can signal economic slowdown, typically boosting safe-haven assets like gold and Treasuries; modest market overlap with crypto trading hours."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "All-time high (ATH)",
+      "definition": "The highest price an asset has ever reached; signals strong momentum and can attract new buyers."
+    },
+    {
+      "term": "Basis point",
+      "definition": "One hundredth of a percent (0.01%); used to measure small changes in interest rates or yields."
+    },
+    {
+      "term": "Carry trade",
+      "definition": "Borrowing money at a low interest rate to invest in an asset with higher expected returns; disrupted when rates rise sharply or the borrowed currency weakens."
+    },
+    {
+      "term": "Collateral",
+      "definition": "Assets pledged as security for a loan; if the loan is not repaid, the lender can claim the collateral."
+    },
+    {
+      "term": "Commodity Futures Trading Commission (CFTC)",
+      "definition": "The US federal agency that regulates futures, options, and swap markets, including derivatives tied to crypto assets."
+    },
+    {
+      "term": "Derivative",
+      "definition": "A financial contract whose value depends on the price of an underlying asset (like Bitcoin); includes futures, options, and perpetual swaps."
+    },
+    {
+      "term": "Fintech",
+      "definition": "Financial technology companies that use digital innovation to deliver banking and payment services; often at faster or lower cost than traditional banks."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between long and short traders on perpetual futures that keeps the contract price aligned with the spot price; positive rates mean longs pay shorts, indicating bullish sentiment."
+    },
+    {
+      "term": "Geopolitical risk",
+      "definition": "Uncertainty stemming from tensions between countries or regions; can drive demand for safe-haven assets like gold and affect energy prices."
+    },
+    {
+      "term": "Innovation exemption",
+      "definition": "A regulatory waiver allowing companies to pilot new products or services that don't yet fit existing rules; used by the SEC to permit tokenized asset trading."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowing to increase the size of a trade; trading with leverage amplifies both gains and losses."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a leveraged position when losses exceed the collateral posted, usually executed at an unfavorable price."
+    },
+    {
+      "term": "Long / Short",
+      "definition": "Long: betting that an asset's price will rise; short: betting that price will fall. The ratio compares how many traders hold long positions versus short positions."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate funding payments and unrealized profits/losses on perpetual futures, designed to track the spot price closely."
+    },
+    {
+      "term": "MiCA",
+      "definition": "Markets in Crypto Assets Regulation, the EU's comprehensive framework for regulating crypto service providers and asset offerings; comes into full effect October 2023."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of all open positions (longs and shorts combined) in a futures market; rising open interest can signal growing leverage or strengthening bullish sentiment."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The increase or decrease in total open positions over a time period; indicates whether traders are adding or reducing leveraged exposure."
+    },
+    {
+      "term": "Perpetual futures",
+      "definition": "Derivatives contracts with no expiration date that track the spot price of an asset, allowing leveraged trading 24/7; they settle payments periodically via the funding rate."
+    },
+    {
+      "term": "Regulation Clarity for Digital Assets Act (CLARITY Act)",
+      "definition": "A US Senate bill that would have assigned clear regulatory roles for crypto to the SEC, CFTC, and banking agencies; rejected by the Senate on September 16, 2026."
+    },
+    {
+      "term": "Securities and Exchange Commission (SEC)",
+      "definition": "The US federal agency that regulates stock markets and securities; increasingly involved in setting rules for tokenized assets and crypto trading platforms."
+    },
+    {
+      "term": "Spot price",
+      "definition": "The current market price for immediate settlement of an asset, as opposed to the futures price for delivery in the future."
+    },
+    {
+      "term": "Tokenization / Tokenized assets",
+      "definition": "Representing real-world assets (stocks, bonds, currencies, commodities) as digital tokens on a blockchain, enabling 24/7 trading and settlement."
+    },
+    {
+      "term": "Treasury (US)",
+      "definition": "The US federal government department managing the country's finances, taxes, and foreign currency sanctions; includes OFAC, which enforces financial restrictions."
+    },
+    {
+      "term": "Yen carry",
+      "definition": "A carry trade involving borrowing Japanese yen at low rates to invest in higher-yielding assets; unwinding accelerates when the yen strengthens or rates rise."
+    }
+  ],
+  "_source": "cli"
+}

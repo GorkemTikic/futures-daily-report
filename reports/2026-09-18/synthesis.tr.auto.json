@@ -1,0 +1,262 @@
+{
+  "oneLine": "Bitcoin, Japonya'nın merkez bankasının faiz oranlarını %1.25'e yükselttikten sonra yen zayıflarken %5.9 oranında yükselerek $80.880'e ulaştı; aynı zamanda ABD CFTC, Kongre'nin CLARITY Yasası'nı reddetmesinin ardından kripto pazar kurallarını Beyaz Saray'a sundu.",
+  "caveman": "Bitcoin'in fiyatı bir günde yaklaşık %6 artarak $80.880'e çıktı. Bunun sebebi Japonya'nın merkez bankasının faiz oranlarını yükselttikten sonra yen para birimi zayıfladı. Normalde yüksek faiz oranları kripto paraya kötü gelir ama bu kez yen zayıflaması Bitcoin'i daha cazip hale getirdi. ABD'nin kripto kurallarını belirleyen kurumu CFTC de bu gün kripto kurallarının planını Beyaz Saray'a gönderdi çünkü Kongre kripto kuralları hakkında bir yasayı geçiremediler. Borsa küçük bir düşüş gösterdi ama kripto tüccarları mutluydu. Bitcoin için iyi bir gün oldu.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları beş büyük borsada sıkı bir şekilde yakınlaştı. Bitcoin 80.863–80.883 USD arasında, Ethereum ise 2.611–2.612 USD arasında kapandı. Binance öncü konumdaydı; Bitcoin'de $17.5 milyar, Ethereum'da $13.6 milyar işlem hacmi gerçekleşti.",
+  "positioningSummary": "Finansman oranları %1.86 (Bitget) ile %10.95 (OKX ve Bybit) arasında değişmektedir; bu yüksek hacimli borsalarda ılımlı bir fiyat yükselişi beklentisini göstermektedir. Binance'de Bitcoin için long/short oranı 1.445, Ethereum için 2.92 idi; bu tüccarların çoğunluğunun fiyat yükselişine karşı oynamakta olduğu anlamına gelir. Tüm borsalar genelinde açık pozisyon değeri yaklaşık 320.000 Bitcoin ($25.9 milyar) ve 5.8 milyon Ethereum ($13.2 milyar) idi.",
+  "stocksSummary": "18 Eylül'de Asyalı hisse senetleri karma bir görüntü sundu. Kore'de SK Hynix (yarı iletken) %2.8 yükselirken Samsung Electronics %0.3 düştü. Hong Kong'da MiniMax %12.6 fırlarken GigaDevice %7.5 sıçradı, ancak Tencent %1.6 gerileydi. ABD endekslerinde S&P 500 %0.12 düşerken Nasdaq Composite %0.22 yükseldi. Güvenli liman emtiaları güç kazandı: altın %0.7, gümüş %1.5 kazandı; jeopolitik risklerin azalmasıyla ham petrol %0.5 düştü.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE jetonu $399 milyon işlem hacmiyle %117.9 oranında fırladı, ancak rapor gününde kamuya açık haber katalizörü veya duyuru yoktu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "FUSDT",
+      "explanation": "F jetonu $131 milyon işlem hacmiyle %59.7 kazandı, ancak izlenen önemli haber olayı veya platform duyurusu yoktu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GUSDT",
+      "explanation": "G jetonu $710 milyon işlem hacmiyle %55.9 yükseldi, ancak büyük haber kaynaklarında açık bir kamu katalizörü tanımlanmadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Japonya Merkez Bankası oranları %1.25'e yükseltti, yen zayıflarken Bitcoin yükselişi tetiklendi",
+        "what": "Japonya Merkez Bankası 00:00 UTC'de politika oranını 25 baz puan artırarak %1.25'e yükseltmiştir; bu 1995'ten bu yana en yüksek seviye ve bu yılın ikinci artışıdır. 7-2 oyla yapılan oylamada BOJ enflasyonun %2 hedefini aşma riski olduğunu belirtti. Beklenmedik biçimde Vali Ueda ihtiyatlı bir tutum gösterdi ve yen hemen zayıfladı. Bitcoin ve Ethereum sırasıyla %5.9 ve %6.7 oranında saatler içinde yükseldi; tüccarlar ihtiyatlı tutumu, ödünç para ile yapılan ticarete başlangıçta kuşkuyla bakılan durumdan daha az zararlı olarak yorumladılar.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-18 00:00",
+        "source": "Bank of Japan, Bloomberg, CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+      },
+      {
+        "headline": "CFTC kripto pazar kurallarını Beyaz Saray'a sundu, durağan Kongre'yi aştı",
+        "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC) 18 Eylül'de 'Kripto Varlık İşlemleri ve Kripto Varlık Piyasaları Yönetmeliği'ni Beyaz Saray Bilgi ve Düzenleme İşleri Ofisi'ne sunmuş; mevcut yetkileri kullanarak türev piyasası çerçevesi kuracağını sinyal vermiştir. Bu adım Senato'nun 16 Eylül'de CLARITY Yasası'nı reddettikten sonraki günlerde atılmıştır; bu yasa SEC, CFTC ve bankacılık kurumlarının düzenleme rollerini netleştirmek için hazırlanmıştı. OMB incelemesi 60 gün içinde tamamlanması beklenmektedir.",
+        "coins": "All crypto",
+        "timeUTC": "2026-09-18 10:30",
+        "source": "CFTC, CoinDesk, The Block",
+        "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act"
+      },
+      {
+        "headline": "Coinbase ABD piyasasına 24/5 tek hisse senedi vadeli işlem kontratı getirme başvurusu yaptı",
+        "what": "Coinbase Derivatives 18 Eylül'de CFTC'ye Apple, Tesla, Nvidia ve Microsoft dahil yaklaşık 50–60 ABD şirketinin hisse senetleri üzerine vadeli işlem kontratları listeleme başvurusu yapmıştır; bu kontratlar hisse senedi sahipliği olmaksızın 24/5 kaldıraçlı yatırım yapılabilmesine imkan tanır. Aynı gün SEC de tokenize edilmiş hisse senetlerinin blokzincir üzerinde kapatılmasını hızlandıran yenilik istisnası onaylamıştır. Onaylanırsa, Coinbase'in kontratları 2026'nın sonlarında piyasaya sürülebilir.",
+        "coins": "COIN",
+        "timeUTC": "2026-09-18 15:30",
+        "source": "Coinbase, Decrypt, CoinDesk",
+        "url": "https://decrypt.co/378681/coinbase-single-stock-perps-apple-tesla-nvidia"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC tokenize hisse senedi kapatılması için yenilik istisnası onayladı",
+          "what": "Menkul Kıymetler Borsası Komisyonu (SEC) 18 Eylül'de blokzincin ağlarda tokenize edilmiş hisse senedi ticaretine izin veren yenilik istisnası onaylamıştır. Bu karar Coinbase'in başvurusundan hemen önce yapılmış olup, geleneksel hisse senedi kapatılmasının zincir üzerine taşınması için kapı açmaktadır.",
+          "coins": "All",
+          "timeUTC": "2026-09-18 14:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378619/morning-minute-sec-approves-innovation-exemption-moving-tokenized-stocks-forward"
+        },
+        {
+          "headline": "ECB Başkanı Lagarde'nin Binance AB MiCA lisansını engellediği bildirildi",
+          "what": "Wall Street Journal'ın haberine göre ECB Başkanı Christine Lagarde, Yunanistan'ın düzenleyicisini Binance'in MiCA yetkilendirmesini geciktirmeye baskılamak için yüksek düzeyden müdahale etmiştir; halbuki düzenleyici personeli daha önce onay vermiştir. ECB MiCA kapsamında resmi bir lisanslama rolü taşımadığı için, bu müdahale sıradışı bir düzenleme yükselmesidir.",
+          "coins": "BNB",
+          "timeUTC": "2026-09-18 04:50",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/18/ecb-president-christine-lagarde-intervened-to-block-binance-s-eu-mica-license-wsj"
+        },
+        {
+          "headline": "FCA, 2027 sonunda yürürlüğe girecek AB kurallarından önce denizaşırı kripto platformu sınırını açıkladı",
+          "what": "İngiliz Finansal Yönetim Otoritesi (FCA) denizaşırı kripto platformlarının hangileri kapsamına girdiğini açıklayarak, doğrudan tüketici erişimi veya temsilci ticareti yapan denizaşırı hizmetlerin Ekim 2027'de yeni kurallar yürürlüğe girdiğinde FCA'nın yetkisi altına gireceğini belirtmiştir.",
+          "coins": "All",
+          "timeUTC": "2026-09-18 03:59",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fca-draws-the-uk-boundary-for-offshore-crypto-platforms-ahead-of-2027-rules/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Grayscale Zcash ETF 890 milyon dolar AUM'ye ulaştı; 233 milyon dolar giriş ve 3-1 bölünme duyurdu",
+          "what": "Grayscale'in Zcash Trust (ZCSH) 18 Eylül'de 233 milyon dolar net giriş alarak yönetim altındaki varlıklara $890 milyona ulaşmıştır. Hızlı büyüme fonun 3-1 hisse senedi bölünmesi duyurusunu gerektirmiştir. Zcash'in %20' den fazla yükselişi solo madencilik rekabetini rekor seviyelere taşımıştır.",
+          "coins": "ZEC",
+          "timeUTC": "2026-09-18 08:22",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-18-grayscales-zcash-etf-plans-3-for-1-split-233-million-inflow-surge-415520"
+        },
+        {
+          "headline": "SBI Grubu, sabit kripto para ödeme şirketi dtcpay'e 25 milyon dolar yatırdı",
+          "what": "Japonya'nın SBI Grubu dtcpay adlı sabit kripto para ödeme platformuna 25 milyon dolar yatırım yaparak Series A turunu tamamlamıştır; bu, Asyalı fintech'in zincir üstü işlem hizmetlerine genişlemesinin bir göstergesidir. Sermaye, tüccar ağı büyümesi ve kurumsal portal araçları için kullanılacaktır.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-09-18 06:50",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Hyperliquid yerli borçlanma özelliğini başlattı; HYPE tüm zamanların rekor yüksekliğini aştı",
+          "what": "Hyperliquid 18 Eylül'de kullanıcıların HYPE ve Bitcoin'i teminat olarak sabit kripto para kredileri almalarına imkan tanıyan yerli manual borçlanma özelliğini başlatmıştır. HYPE $90.92'ye yükselerek tüm zamanların yeni rekorunu kırdı; borsa spot ve vadeli işlem ticaretinden kredi ürünlerine genişlemektedir.",
+          "coins": "HYPE, BTC",
+          "timeUTC": "2026-09-18 11:00",
+          "source": "CryptoSlate, Cointelegraph",
+          "url": "https://cryptoslate.com/hyperliquid-opens-native-lending-as-hype-hits-new-ath-above-90/"
+        },
+        {
+          "headline": "Binance 24/7 döviz vadeli işlem kontratlarını pazar günü fiyatlandırmasıyla başlattı",
+          "what": "Binance 18 Eylül'de ana döviz çiftlerinde 24/7 ticaret ve pazar günü fiyatlandırması sunan vadeli işlem kontratlarını sunmaya başlamıştır; OKX gibi geleneksel forex saatlerini kripto borsalarına genişleten bir adımdır.",
+          "coins": "All",
+          "timeUTC": "2026-09-18 09:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-expands-tradfi-push-with-247-foreign-exchange-perpetuals"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kripto altyapı sağlayıcısı Haruko siber saldırıya uğradı; 15 müşteri etkilendi",
+          "what": "Kripto teknoloji sağlayıcısı Haruko 18 Eylül'de 15 müşteri firmasını etkileyen hedefli bir siber saldırıya uğramıştır. Daha zayıf güvenlik duruşuna sahip bazı küçük hedge fonlar zarara uğramıştır; toplam hasar kapsamı belirlenmemiştir.",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-18 11:33",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost"
+        },
+        {
+          "headline": "ABD Hazinesi İran kripto borsası BitBank'a yaptırım uyguladı; İRGC Bitcoin transferleri (17 Eyl. kapsamı)",
+          "what": "17–18 Eylül'de OFAC İran borsası BitBank'a milyarlar dolar Bitcoin'i İran İslami Devrim Muhafız Gücü'ne Hormuz Boğazı gemi gümrük sistemi üzerinden aktardığı için yaptırım uygulamıştır. Bu, ABD'nin İran'ın kripto kullanan yaptırım kaçakçılığına karşı uygulamasını bir kademeli artışını işaret etmektedir.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-17 23:15",
+          "source": "Decrypt, CryptoSlate",
+          "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships"
+        }
+      ],
+      "Technical upgrades and governance": [
+        {
+          "headline": "Zcash Kasım yükseltmesinde işlem hızını üçe katlamayı hedefliyor, dev fonu 2031'e erteledi",
+          "what": "Zcash geliştiricileri 5 Kasım 2026'ye hedef koydukları mainnet yükseltmesinde (NU7) blok zamanlarını 75 saniyeden 25 saniyeye düşürerek özel ödeme işlem hızını üçe katlamayı amaçlamaktadırlar. Yükseltme geliştirici fonunu 2031'e ertelemekte ve 2031'den sonra madencilik ödüllerini desteklemek için işlem ücretlerinin en az %60'ını ayırarak bir fon oluşturmaktadır.",
+          "coins": "ZEC",
+          "timeUTC": "2026-09-18 05:30",
+          "source": "CoinDesk, FXStreet",
+          "url": "https://www.coindesk.com/tech/2026/09/18/zcash-targets-november-upgrade-to-make-private-payments-up-to-three-times-faster"
+        },
+        {
+          "headline": "Ethereum Institutional, Ethereum blok zamanlarını azaltma önerisini destekledi",
+          "what": "Ethereum Institutional kar amacı gütmeyen kuruluşu 18 Eylül'de Ethlabs'ın Ethereum blok zamanlarını azaltma önerisini destekleyerek, ağda büyüyen kurumsal faaliyetlere yönelik faydalarını belirtmiştir.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-18 07:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan rate decision at 00:00 UTC (25 basis points to 1.25%)",
+      "typicalReaction": "Yüksek faiz oranları normalde kripto değerlemesine baskı yapar; ancak yen keskin biçimde zayıfladığı için taşıma ticareti geri çekilme talebinin azalması, Bitcoin'i fırsata olarak değerlendirdi."
+    },
+    {
+      "event": "UK Retail Sales at 06:00 UTC (medium impact)",
+      "typicalReaction": "Zayıf perakende verileri ekonomik yavaşlamayı gösterebilir; bu altın ve hazine tahvilleri gibi güvenli liman varlıklarını yükseltme eğilimindedir; kripto ticaret saatleriyle orta düzey örtüşme vardır."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Tüm zamanların en yüksek fiyatı (ATH)",
+      "definition": "Bir varlığın ulaştığı en yüksek fiyat; güçlü momentum göstergesi ve yeni alıcıları çekebilir."
+    },
+    {
+      "term": "Baz puan",
+      "definition": "Yüzdenin yüzde biri (0.01%); faiz oranlarında veya getiri oranlarında küçük değişiklikleri ölçmek için kullanılır."
+    },
+    {
+      "term": "Carry ticareti",
+      "definition": "Düşük faiz oranıyla para ödünç alarak daha yüksek beklenen getirisi olan varlığa yatırım yapmak; faiz oranları keskin biçimde yükseldiğinde veya ödünç alınan para birimi zayıfladığında ters etki yapar."
+    },
+    {
+      "term": "Teminat",
+      "definition": "Kredi güvenliği olarak rehin tutulan varlık; kredi ödenmezse borç veren teminatı talep edebilir."
+    },
+    {
+      "term": "Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC)",
+      "definition": "Vadeli işlem, opsiyon ve swap piyasalarını, kripto varlıkla bağlantılı türevleri de içerecek şekilde, düzenleyen ABD federal kuruluşu."
+    },
+    {
+      "term": "Türev",
+      "definition": "Değeri bir altta yatan varlığın fiyatına bağlı olan finansal sözleşme (Bitcoin gibi); vadeli işlem, opsiyon ve kalıcı takasları içerir."
+    },
+    {
+      "term": "Finansal Teknoloji (Fintech)",
+      "definition": "Bankacılık ve ödeme hizmetlerini dijital yenilik kullanarak, genellikle geleneksel bankalardan daha hızlı veya daha düşük maliyetle sunan şirketler."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Kalıcı vadeli işlemlerde long ve short tüccarları arasında periyodik olarak yapılan ödeme; spot fiyatla hiza tutma amacıyla yapılır; pozitif oranlar long pozisyonların short pozisyonlara ödeme yaptığını ve yükselişe eğilimi gösterir."
+    },
+    {
+      "term": "Jeopolitik risk",
+      "definition": "Ülkeler veya bölgeler arasındaki gerilime kaynaklanan belirsizlik; altın gibi güvenli liman varlıklarının talebini artırır ve enerji fiyatlarını etkiler."
+    },
+    {
+      "term": "Yenilik istisnası",
+      "definition": "Şirketlerin henüz mevcut kurallara uymayan yeni ürün veya hizmetleri pilot olarak sunmasına izin veren düzenleme muafiyeti; SEC tarafından tokenize varlık ticaretine izin vermek için kullanılır."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Ticaret boyutunu artırmak için borç almak; kaldıraç ile ticaret hem kazançları hem de kayıpları büyütür."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Kayıplar teminatı aşadığında kaldıraçlı pozisyonun zorla kapatılması; genellikle elverişsiz bir fiyattan gerçekleşir."
+    },
+    {
+      "term": "Long / Short",
+      "definition": "Long: bir varlığın fiyatının yükseleceğine bahis; Short: fiyatın düşeceğine bahis. Oran long pozisyonlarını short pozisyonlarla karşılaştırır."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Kalıcı vadeli işlemlerde finansman ödemeleri ve gerçekçi kar/zarar hesaplamasında kullanılan fiyat; spot fiyatı yakından izlemek üzere tasarlanmıştır."
+    },
+    {
+      "term": "Kripto Varlıklarının Pazarında Düzenleme (MiCA)",
+      "definition": "Kripto hizmet sağlayıcılarını ve varlık tekliflerini düzenleyen AB kapsamlı çerçevesi; tam uygulanması Ekim 2023'te başlamıştır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Vadeli işlem piyasasında tüm açık pozisyonların (long ve short birleşik) toplam değeri; açık pozisyon artışı artan kaldıraç veya güçlenen yükselişe eğilimi gösterebilir."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Bir zaman periyodunda açık pozisyonların artması veya azalması; tüccarların kaldıraçlı maruziyeti ekleyip eklemediğini gösterir."
+    },
+    {
+      "term": "Kalıcı vadeli işlemler",
+      "definition": "Vade tarihi olmayan türev sözleşmeler; bir varlığın spot fiyatını izler ve 24/7 kaldıraçlı alım-satımı sağlar; ödemeler finansman oranı aracılığıyla periyodik olarak yapılır."
+    },
+    {
+      "term": "Kripto Varlıklarının Açıklığı Yasası (CLARITY Act)",
+      "definition": "Kripto düzenlemesinin net rollerini SEC, CFTC ve bankacılık kurumlarına atayacağı ABD Senato yasası; 16 Eylül 2026'da Senato tarafından reddedildi."
+    },
+    {
+      "term": "Menkul Kıymetler Borsası Komisyonu (SEC)",
+      "definition": "Borsa ve menkul kıymetleri düzenleyen ABD federal kuruluşu; tokenize varlıklar ve kripto ticaret platformlarının kurallarına giderek daha fazla katılmaktadır."
+    },
+    {
+      "term": "Spot fiyat",
+      "definition": "Bir varlığın anında kapatılması için mevcut pazar fiyatı; vadeli işlem fiyatıyla karşılaştırıldığında gelecekte teslim edilmesi için fiyat."
+    },
+    {
+      "term": "Tokenleştirme / Tokenleştirilmiş varlıklar",
+      "definition": "Gerçek dünya varlıklarını (hisse senedi, tahvil, para birimi, emtia) blokzincirde dijital jetonlar olarak göstermek; 24/7 alım-satım ve kapatılmayı sağlar."
+    },
+    {
+      "term": "ABD Hazinesi",
+      "definition": "ABD federal hükümetinin finansmanını, vergileri ve yabancı para yaptırımlarını yöneten daire; OFAC'ı içerir; finansal kısıtlamaları uygular."
+    },
+    {
+      "term": "Yen carry ticareti",
+      "definition": "Düşük oranlarla Japon yeni ödünç alarak daha yüksek getirisi olan varlıklara yatırım yapma; yen güçlendiğinde veya oranlar yükseldiğinde geriye doğru hareket eder."
+    }
+  ],
+  "_source": "cli-tr"
+}

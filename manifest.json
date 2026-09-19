@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-18T01:06:29.019Z",
-  "count": 93,
+  "generatedAt": "2026-09-19T00:08:55.230Z",
+  "count": 94,
   "counts": {
-    "total": 93,
-    "market": 6,
+    "total": 94,
+    "market": 7,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-17",
+  "latest": "2026-09-18",
   "head": 30,
   "reports": [
+    {
+      "date": "2026-09-18",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 5.886880979436241,
+        "ETH": 6.724708767627222
+      },
+      "marketSummary": "Bitcoin rallied 5.9% to $80,880 after Japan's central bank raised rates to 1.25%, weakening the yen, while the US CFTC filed crypto market rules with the White House following Congress's rejection of the CLARITY Act.",
+      "oneLine": "Bitcoin rallied 5.9% to $80,880 after Japan's central bank raised rates to 1.25%, weakening the yen, while the US CFTC filed crypto market rules with the White House following Congress's rejection of the CLARITY Act.",
+      "newsCount": 14,
+      "topMover": {
+        "symbol": "AKEUSDT",
+        "chgPct": 117.89270950770387
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-18/summary_2026-09-18.html",
+        "pdf": "reports/2026-09-18/summary_2026-09-18.pdf",
+        "md": "reports/2026-09-18/summary_2026-09-18.md"
+      }
+    },
     {
       "date": "2026-09-17",
       "kind": "market",
@@ -2034,107 +2073,6 @@
         "html": "reports/2026-08-20/summary_2026-08-20.html",
         "pdf": null,
         "md": "reports/2026-08-20/summary_2026-08-20.md"
-      }
-    },
-    {
-      "date": "2026-08-19",
-      "scanned": 528,
-      "movedBig": 10,
-      "dangerCount": 2,
-      "widest": {
-        "symbol": "PUMPUSDT",
-        "pct": "5.2%",
-        "time": "15:27"
-      },
-      "macro": {
-        "BTC": 7.1,
-        "ETH": 17.5,
-        "SOL": 10.8
-      },
-      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +7.1%, ETH +17.5%, SOL +10.8% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
-      "newsCount": 0,
-      "flagged": [
-        {
-          "symbol": "BTWUSDT",
-          "label": "Pumped then faded",
-          "headline": "BTWUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "GPSUSDT",
-          "label": "Brief price gap",
-          "headline": "GPSUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "BEATUSDT",
-          "label": "Steady decline",
-          "headline": "BEATUSDT slid 26.9% in an orderly sell-off"
-        },
-        {
-          "symbol": "PRLUSDT",
-          "label": "Steady decline",
-          "headline": "PRLUSDT slid 29.7% in an orderly sell-off"
-        },
-        {
-          "symbol": "STARUSDT",
-          "label": "Steady climb",
-          "headline": "STARUSDT climbed +26.8% steadily"
-        },
-        {
-          "symbol": "HANAUSDT",
-          "label": "Steady decline",
-          "headline": "HANAUSDT slid 25.8% in an orderly sell-off"
-        },
-        {
-          "symbol": "MAGMAUSDT",
-          "label": "Steady climb",
-          "headline": "MAGMAUSDT climbed +38.4% steadily"
-        },
-        {
-          "symbol": "REUSDT",
-          "label": "Steady climb",
-          "headline": "REUSDT climbed +35.1% steadily"
-        },
-        {
-          "symbol": "TREEUSDT",
-          "label": "Brief price gap",
-          "headline": "TREEUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "HUSDT",
-          "label": "Steady decline",
-          "headline": "HUSDT slid 27.1% in an orderly sell-off"
-        },
-        {
-          "symbol": "PORTALUSDT",
-          "label": "Steady decline",
-          "headline": "PORTALUSDT slid 25.4% in an orderly sell-off"
-        },
-        {
-          "symbol": "TRUMPUSDT",
-          "label": "Steady climb",
-          "headline": "TRUMPUSDT climbed +27.3% steadily"
-        },
-        {
-          "symbol": "CYSUSDT",
-          "label": "Brief price gap",
-          "headline": "CYSUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "龙虾USDT",
-          "label": "Brief price gap",
-          "headline": "龙虾USDT had one brief price dislocation"
-        },
-        {
-          "symbol": "PUMPUSDT",
-          "label": "Brief price gap",
-          "headline": "PUMPUSDT had one brief price dislocation"
-        }
-      ],
-      "kind": "divergence",
-      "files": {
-        "html": "reports/2026-08-19/summary_2026-08-19.html",
-        "pdf": null,
-        "md": "reports/2026-08-19/summary_2026-08-19.md"
       }
     }
   ]

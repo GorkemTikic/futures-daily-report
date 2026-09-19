@@ -1,0 +1,262 @@
+{
+  "oneLine": "日本央行将利率上调至1.25%导致日元贬值，美国CFTC向白宫提交加密货币市场规则草案（因国会未能通过《CLARITY法案》），比特币因此上涨5.9%至$80,880。",
+  "caveman": "比特币的价格一天内跳涨了接近6%，到达大约$80,880。这是因为日本央行提高了利率。通常利率上升对加密货币不利，但这次发生了意外——日元变弱了。这让投资者觉得加密货币是放钱的好地方。所以比特币上升了。同时，美国政府负责期货交易规则的机构（CFTC）向白宫提交了加密货币规则计划，因为国会没能通过大的加密货币规则法案。股票市场那天跌了一点点，但大多数加密货币交易员心情不错。这对比特币来说是个好日子，因为它经受住了利率上升，但这也提醒我们，即使很小的利率上升仍然可能有风险。",
+  "priceVolumeSummary": "比特币和以太坊价格在五个主要交易所高度一致，比特币收报$80,863-$80,883，以太坊收报$2,611-$2,612。币安交易量最大，比特币成交额达$17.5十亿，以太坊成交额达$13.6十亿。",
+  "positioningSummary": "资金费率从1.86%（Bitget）到10.95%（OKX和Bybit）不等，表明高成交量交易所的多头定位温和看涨。币安比特币多空比为1.445，以太坊为2.92，说明押注价格上升的交易员明显多于看跌者。各交易所合计未平仓头寸约为32万枚比特币（价值$25.9十亿）和580万枚以太坊（价值$13.2十亿）。",
+  "stocksSummary": "9月18日，亚洲股市表现不一。在韩国，SK海力士（半导体）上涨2.8%，三星电子下跌0.3%。香港市场方面，迷你玛克斯跳涨12.6%，兆易创新涨7.5%，但腾讯下跌1.6%。美国股市表现略有分化：标普500指数下跌0.12%，纳斯达克综合指数上涨0.22%。避险资产表现强劲：黄金和白银分别上涨0.7%和1.5%，原油下跌0.5%，因地缘政治风险缓解。",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE代币跳涨117.9%，成交量$399百万，但报告当日未发现公开的新闻触发因素或官方公告。",
+      "hasCause": false
+    },
+    {
+      "symbol": "FUSDT",
+      "explanation": "F代币上涨59.7%，成交量$131百万，未见任何已报道的重大新闻事件或平台公告。",
+      "hasCause": false
+    },
+    {
+      "symbol": "GUSDT",
+      "explanation": "G代币上涨55.9%，成交量$710百万，但主要新闻源中未发现明确的公开触发因素。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "日本央行将利率上调至1.25%，日元贬值推动比特币上涨",
+        "what": "日本央行在UTC时间9月18日00:00时将政策利率上调25个基点至1.25%，创下1995年以来新高，是今年第二次加息。央行以通胀风险可能超过2%目标为理由，以7:2的投票表决通过。出乎意料的是，行长植田和男的谨慎态度导致日元立即贬值。比特币和以太坊在数小时内分别上涨5.9%和6.7%，交易员认为央行的谨慎立场对套息交易的打击不如预期那么大。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-18 00:00",
+        "source": "Bank of Japan, Bloomberg, CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+      },
+      {
+        "headline": "CFTC向白宫提交加密资产市场规则草案，绕过国会",
+        "what": "美国商品期货交易委员会9月18日向白宫信息和监管事务办公室提交了《加密资产交易监管和加密资产市场监管》草案，表明将利用现有权限构建衍生品框架。此举出现在参议院9月16日否决《CLARITY法案》后数天。该法案本应明确SEC、CFTC和银行监管机构在加密货币监管中的各自职能。OMB审查预计在60天内完成。",
+        "coins": "All crypto",
+        "timeUTC": "2026-09-18 10:30",
+        "source": "CFTC, CoinDesk, The Block",
+        "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act"
+      },
+      {
+        "headline": "Coinbase申请在美国推出24/5单股永续期货",
+        "what": "Coinbase衍生品公司9月18日向CFTC申请推出约50-60只美股的永续期货合约，包括苹果、特斯拉、英伟达和微软等，提供24/5杠杆敞口而无需持有股票。同一天，美国证交会批准了一项创新豁免，加速了通证化股票的链上结算。如获批准，Coinbase的合约可能在2026年晚些时候推出。",
+        "coins": "COIN",
+        "timeUTC": "2026-09-18 15:30",
+        "source": "Coinbase, Decrypt, CoinDesk",
+        "url": "https://decrypt.co/378681/coinbase-single-stock-perps-apple-tesla-nvidia"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国证交会批准通证化股票结算创新豁免",
+          "what": "美国证券交易委员会9月18日批准了一项创新豁免，允许通证化股票在区块链网络上交易。这一决定紧接在Coinbase申请之前，表明传统股票结算有向链上转移的可能。",
+          "coins": "All",
+          "timeUTC": "2026-09-18 14:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378619/morning-minute-sec-approves-innovation-exemption-moving-tokenized-stocks-forward"
+        },
+        {
+          "headline": "欧洲央行行长拉加德据报干预阻止币安获得欧盟MiCA许可",
+          "what": "《华尔街日报》报道，欧洲央行行长克里斯蒂娜·拉加德利用高层干预施压希腊监管机构延迟币安获得MiCA授权，尽管监管人员之前已经批准。欧洲央行在MiCA下不拥有正式的许可权限，这次干预显得不同寻常。",
+          "coins": "BNB",
+          "timeUTC": "2026-09-18 04:50",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/18/ecb-president-christine-lagarde-intervened-to-block-binance-s-eu-mica-license-wsj"
+        },
+        {
+          "headline": "英国金管局澄清离岸加密平台监管边界",
+          "what": "英国金融行为监管局9月18日澄清了哪些离岸加密平台受其管辖，指出当新规则在2027年10月生效时，直接消费者访问或代理交易会使离岸服务进入FCA的监管范围。",
+          "coins": "All",
+          "timeUTC": "2026-09-18 03:59",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fca-draws-the-uk-boundary-for-offshore-crypto-platforms-ahead-of-2027-rules/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "灰度Zcash ETF激增至$8.9亿，宣布3:1股票分割",
+          "what": "灰度Zcash信托（ZCSH）9月18日获得$2.33亿净流入，资产管理规模达$8.9亿。快速增长促使基金宣布3:1股票分割。Zcash涨幅超过20%推高了单独挖矿竞争至创纪录水平。",
+          "coins": "ZEC",
+          "timeUTC": "2026-09-18 08:22",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-18-grayscales-zcash-etf-plans-3-for-1-split-233-million-inflow-surge-415520"
+        },
+        {
+          "headline": "SBI集团领投稳定币支付公司dtcpay的$2500万A轮融资",
+          "what": "日本SBI集团完成了对稳定币支付平台dtcpay的$2500万A轮融资，这标志着亚洲金融科技公司向链上交易的扩展。资金将用于商户网络增长和企业门户工具开发。",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-09-18 06:50",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Hyperliquid推出原生借贷功能；HYPE创新高至$90以上",
+          "what": "Hyperliquid于9月18日推出原生手动借贷功能，允许用户将HYPE和比特币作为抵押借入稳定币。HYPE上涨至$90.92创历史新高，这交易所从现货和永续交易扩展至信贷产品的业务范畴。",
+          "coins": "HYPE, BTC",
+          "timeUTC": "2026-09-18 11:00",
+          "source": "CryptoSlate, Cointelegraph",
+          "url": "https://cryptoslate.com/hyperliquid-opens-native-lending-as-hype-hits-new-ath-above-90/"
+        },
+        {
+          "headline": "币安推出24/7外汇永续期货，包含周末定价",
+          "what": "币安于9月18日开始提供主要货币对的永续期货，实现24/7交易和周末定价，加入OKX行列将传统外汇交易时段扩展至加密交易所。",
+          "coins": "All",
+          "timeUTC": "2026-09-18 09:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-expands-tradfi-push-with-247-foreign-exchange-perpetuals"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "加密基础设施提供商Haruko遭网络攻击，15家客户受影响",
+          "what": "加密技术提供商Haruko于9月18日遭遇有针对性的网络攻击，影响15家客户公司。一些安全防护较弱的小型对冲基金蒙受损失，总体损失范围仍不清楚。",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-18 11:33",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost"
+        },
+        {
+          "headline": "美国财政部制裁伊朗加密交易所BitBank涉及伊斯兰革命卫队比特币转账（9月17日背景）",
+          "what": "9月17-18日期间，美国外资资产控制办公室对伊朗交易所BitBank实施制裁，该交易所通过霍尔木兹海峡通行费系统向伊斯兰革命卫队转移了数亿美元比特币。这标志着美国对伊朗利用加密货币规避制裁的执法力度升级。",
+          "coins": "BTC",
+          "timeUTC": "2026-09-17 23:15",
+          "source": "Decrypt, CryptoSlate",
+          "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships"
+        }
+      ],
+      "Technical upgrades and governance": [
+        {
+          "headline": "Zcash目标11月升级，交易速度提升三倍，推迟开发基金到2031年",
+          "what": "Zcash开发者宣布主网升级（NU7）目标于2026年11月5日进行，将区块时间从75秒减少至25秒，使私密支付吞吐量提升三倍。升级将开发基金推迟到2031年，并规定2031年后至少60%的交易费用用于补充挖矿奖励。",
+          "coins": "ZEC",
+          "timeUTC": "2026-09-18 05:30",
+          "source": "CoinDesk, FXStreet",
+          "url": "https://www.coindesk.com/tech/2026/09/18/zcash-targets-november-upgrade-to-make-private-payments-up-to-three-times-faster"
+        },
+        {
+          "headline": "以太坊机构支持减少以太坊区块时间的提议",
+          "what": "非营利组织以太坊机构于9月18日表示支持Ethlabs减少以太坊区块时间的提议，理由是有利于网络上日益增长的机构交易活动。",
+          "coins": "ETH",
+          "timeUTC": "2026-09-18 07:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan rate decision at 00:00 UTC (25 basis points to 1.25%)",
+      "typicalReaction": "全球利率上升通常会给加密资产估值带来压力，但日元在鸽派指引下急剧贬值，降低了套息平仓需求。比特币上涨是因为交易员重新评估了这一举措的可接受程度。"
+    },
+    {
+      "event": "UK Retail Sales at 06:00 UTC (medium impact)",
+      "typicalReaction": "零售数据疲弱可能预示经济放缓，通常会提振黄金和美债等避险资产需求。与加密交易时间的重叠程度有限。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "历史新高（ATH）",
+      "definition": "资产曾经达到的最高价格；通常标志着强劲动能，能吸引新买家入场。"
+    },
+    {
+      "term": "基点",
+      "definition": "利率或收益率变化的度量单位，代表万分之一（0.01%）。"
+    },
+    {
+      "term": "套息交易",
+      "definition": "以低利率借入资金投资于预期回报更高的资产；当利率急剧上升或借入货币贬值时会被打破。"
+    },
+    {
+      "term": "抵押品",
+      "definition": "为担保贷款而质押的资产；如贷款不还，贷方可要求处置抵押品。"
+    },
+    {
+      "term": "商品期货交易委员会（CFTC）",
+      "definition": "美国联邦监管机构，规范期货、期权和掉期市场，包括与加密资产相关的衍生品。"
+    },
+    {
+      "term": "衍生品",
+      "definition": "其价值取决于基础资产（如比特币）价格的金融合约；包括期货、期权和永续掉期。"
+    },
+    {
+      "term": "金融科技",
+      "definition": "使用数字创新提供银行和支付服务的公司；通常比传统银行更快或成本更低。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续期货中多头和空头之间的定期支付，使合约价格与现货价格保持一致；正费率表示多头向空头支付，代表看涨情绪。"
+    },
+    {
+      "term": "地缘政治风险",
+      "definition": "由国家或地区之间紧张局势导致的不确定性；会提振黄金等避险资产需求并影响能源价格。"
+    },
+    {
+      "term": "创新豁免",
+      "definition": "监管部门授予的豁免权，允许公司试点新产品或服务，这些产品不符合现有规则；美国证交会用于允许通证化资产交易。"
+    },
+    {
+      "term": "杠杆",
+      "definition": "借入资金扩大交易规模；使用杠杆交易会放大收益和损失。"
+    },
+    {
+      "term": "清算",
+      "definition": "当损失超过质押的担保品时强制平仓，通常以不利价格执行。"
+    },
+    {
+      "term": "多头/空头",
+      "definition": "多头：押注资产价格上升；空头：押注价格下跌。比率比较持有多头头寸与空头头寸的交易员数量。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算资金费用和永续期货未实现盈亏的参考价格，设计目的是紧跟现货价格。"
+    },
+    {
+      "term": "加密资产市场法规（MiCA）",
+      "definition": "欧盟综合框架，用于规范加密服务提供商和资产发行；2023年10月全面生效。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "期货市场中所有未平仓头寸（多头和空头合计）的总价值；未平仓头寸增加可能预示杠杆增加或看涨情绪增强。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一段时间内未平仓头寸的增减，表明交易员是增加还是减少杠杆敞口。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "没有到期日期的衍生品合约，跟踪资产现货价格，允许24/7杠杆交易，通过资金费率定期结算。"
+    },
+    {
+      "term": "《数字资产监管明确法案》（CLARITY法案）",
+      "definition": "美国参议院法案，本应为加密货币的监管明确分配给SEC、CFTC和银行监管机构；于2026年9月16日被参议院否决。"
+    },
+    {
+      "term": "美国证券交易委员会（SEC）",
+      "definition": "美国联邦机构，规范股票市场和证券；越来越多地参与制定通证化资产和加密交易平台规则。"
+    },
+    {
+      "term": "现货价格",
+      "definition": "资产的当前市场价格，可立即结算，与期货价格相对（期货合约用于未来交割）。"
+    },
+    {
+      "term": "通证化/通证化资产",
+      "definition": "将现实世界资产（股票、债券、货币、商品）表示为区块链上的数字代币，实现24/7交易和结算。"
+    },
+    {
+      "term": "美国财政部",
+      "definition": "美国联邦政府部门，负责管理国家财务、税收和外汇制裁；包括OFAC，负责执行财务限制。"
+    },
+    {
+      "term": "日元套息交易",
+      "definition": "借入低利率日元投资于高收益资产的套息交易；当日元升值或利率上升时，平仓加速。"
+    }
+  ],
+  "_source": "cli-zh"
+}

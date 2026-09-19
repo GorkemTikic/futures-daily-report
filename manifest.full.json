@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-18T01:06:29.019Z",
-  "count": 93,
+  "generatedAt": "2026-09-19T00:08:55.230Z",
+  "count": 94,
   "counts": {
-    "total": 93,
-    "market": 6,
+    "total": 94,
+    "market": 7,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-17",
+  "latest": "2026-09-18",
   "reports": [
+    {
+      "date": "2026-09-18",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 5.886880979436241,
+        "ETH": 6.724708767627222
+      },
+      "marketSummary": "Bitcoin rallied 5.9% to $80,880 after Japan's central bank raised rates to 1.25%, weakening the yen, while the US CFTC filed crypto market rules with the White House following Congress's rejection of the CLARITY Act.",
+      "oneLine": "Bitcoin rallied 5.9% to $80,880 after Japan's central bank raised rates to 1.25%, weakening the yen, while the US CFTC filed crypto market rules with the White House following Congress's rejection of the CLARITY Act.",
+      "newsCount": 14,
+      "topMover": {
+        "symbol": "AKEUSDT",
+        "chgPct": 117.89270950770387
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-18/summary_2026-09-18.html",
+        "pdf": "reports/2026-09-18/summary_2026-09-18.pdf",
+        "md": "reports/2026-09-18/summary_2026-09-18.md"
+      }
+    },
     {
       "date": "2026-09-17",
       "kind": "market",
