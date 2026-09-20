@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-19",
+  "kind": "market",
+  "dateLong": "Saturday, 19 September 2026",
+  "coversUTC": "2026-09-19 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum rose modestly on steady volume, with open interest shrinking on Bitcoin despite high funding costs, as institutional Bitcoin ETF inflows offset mixed regulatory headwinds including Brazil's planned stablecoin settlement ban.",
+  "newsCount": 13,
+  "macro": {
+    "BTC": 0.4577046747464826,
+    "ETH": 0.788197715835188
+  },
+  "topMover": {
+    "symbol": "ONEUSDT",
+    "chgPct": 95.9183673469388
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "20 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

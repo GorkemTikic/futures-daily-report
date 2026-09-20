@@ -1,0 +1,213 @@
+{
+  "oneLine": "Bitcoin and Ethereum rose modestly on steady volume, with open interest shrinking on Bitcoin despite high funding costs, as institutional Bitcoin ETF inflows offset mixed regulatory headwinds including Brazil's planned stablecoin settlement ban.",
+  "caveman": "Bitcoin and Ethereum both went up a little less than 1% on Saturday during normal trading. The total amount of money tied up in Bitcoin trades actually shrank, even though the cost of borrowing money to trade Bitcoin stayed very expensive (people trading with borrowed money are paying 11% per year). Institutional money (big funds and investment companies) bought more Bitcoin on Friday, which shows they still want it. Three smaller, riskier coins shot up a lot (one went up 96%) but nobody knows exactly why. Brazil announced it's blocking stablecoins from certain ways of moving money between countries starting in October. Overall, it was a calm Saturday with no major shocks or panics.",
+  "priceVolumeSummary": "Bitcoin averaged +0.45% and Ethereum +0.78% across all five major venues, with prices agreeing closely (within ~0.4–1% spread). Binance and OKX led volume, with Binance alone clearing $6.1B in Bitcoin perps and $6.3B in Ethereum perps.",
+  "positioningSummary": "Funding rates stayed elevated at 10.95% annualized (8-hour interval), indicating traders are still paying a steep premium to hold leveraged longs. However, Bitcoin's open interest fell 2.4% despite these high costs, suggesting cautious reduction of leverage. Long-to-short ratios were mixed across venues (Bitcoin closer to parity, Ethereum favoring longs on some exchanges), showing no clear directional consensus among traders.",
+  "stocksSummary": "All Asian and US equity markets were closed (Saturday); perp movements on closed underlyings show mixed sentiment. Korea perps: SK Hynix −0.88%, Samsung −0.05%, but Hanmi +3.37% and Naver +2.09%. Hong Kong perps: Geely −2.05%, Zhipu AI −0.61%, offset by MiniMax +1.72%. US stock-correlated tickers rallied: MSTR +3.37%, BNC +3.34% (both Bitcoin treasury or custody plays). Commodities: WTI Crude −0.45%, Brent −0.44%, Copper −0.51%; Gold nearly flat; Silver and Palladium slightly up.",
+  "movers": [
+    {
+      "symbol": "ONE",
+      "explanation": "Jumped 96% with $685M in daily volume across Binance. No public announcement or news driver identified; move appears to be driven by technical/retail momentum or liquidity event.",
+      "hasCause": false
+    },
+    {
+      "symbol": "G",
+      "explanation": "Rallied 40% on $415M volume. No linked news or catalyst found in published sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AKE",
+      "explanation": "Climbed 39% on $933M volume. No publicly reported reason for the spike.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ETFs tap $433M inflow Friday, Fidelity leads institutional demand",
+        "what": "US spot Bitcoin ETFs recorded $433 million in net inflows on Friday, September 19, with Fidelity's FBTC accounting for $310.7 million (71% of total). Over the broader week, Bitcoin ETF assets stood at $102.53 billion, with Fidelity and BlackRock capturing 97% of daily inflows. This signals continued institutional appetite despite earlier volatility.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-19 00:00–23:59",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
+      },
+      {
+        "headline": "Brazil blocks stablecoins from regulated cross-border payments starting October 1",
+        "what": "Brazil's Central Bank (BCB) has barred electronic foreign exchange providers from using stablecoins or crypto to settle the offshore leg of regulated international payments, effective October 1, 2026 (Resolution BCB No. 561). The rule does not ban crypto ownership or trading, but prohibits institutional settlement flows. Firms like Wise, Nomad, and Braza Bank built stablecoin settlement into their cross-border pipelines and must switch to traditional FX channels.",
+        "coins": "USDT, USDC",
+        "timeUTC": "2026-09-19 (announced; effective 2026-10-01)",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/brazil-blocks-stablecoins-from-key-cross-border-payment-rail-as-1-1-trillion-market-faces-new-limits/"
+      },
+      {
+        "headline": "Bastion wins conditional OCC approval for national trust bank charter",
+        "what": "Stablecoin infrastructure company Bastion announced conditional approval from the US Office of the Comptroller of the Currency (OCC) to operate as Bastion Platforms National Trust Company on September 18, 2026. The charter enables fiduciary custody of USDC and other digital assets, white-label stablecoin wallet and issuance services, and direct minting/redemption—all under a single federal regulator. The bank cannot accept deposits or make loans.",
+        "coins": "USDC",
+        "timeUTC": "2026-09-18 (announced); 2026-09-19 (covered in report)",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/bastion-wins-conditional-occ-approval-for-national-trust-bank-charter"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Brazil blocks stablecoins from regulated cross-border payments starting October 1",
+          "what": "Brazil's Central Bank bars stablecoin settlement in the offshore leg of regulated international payments under Resolution BCB No. 561, effective October 1. The rule does not ban crypto ownership, only institutional settlement infrastructure. Impacts remittance and cross-border payment firms.",
+          "coins": "USDT, USDC",
+          "timeUTC": "2026-09-19 (announced; effective 2026-10-01)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/brazil-blocks-stablecoins-from-key-cross-border-payment-rail-as-1-1-trillion-market-faces-new-limits/"
+        },
+        {
+          "headline": "Bastion wins conditional OCC approval for national trust bank charter",
+          "what": "OCC grants conditional approval for Bastion Platforms to operate as a federally regulated national trust company offering stablecoin custody, issuance, and payment infrastructure. Represents first OCC-backed trust charter for stablecoin institutional services.",
+          "coins": "USDC",
+          "timeUTC": "2026-09-18 (announced); 2026-09-19 (covered in report)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bastion-wins-conditional-occ-approval-for-national-trust-bank-charter"
+        },
+        {
+          "headline": "Visa closes Crossmint memecoin rewards loophole following Block investigation",
+          "what": "Visa is ending a rewards-card-purchase loophole that allowed memecoin sales through Crossmint integrations on retail apps. Grace period expires next week. The loophole bypassed normal card network controls by routing memecoin purchases through rewards programs.",
+          "coins": "Memecoins",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-19-visa-to-close-crossmint-memecoin-rewards-loophole-following-the-block-investigation-report-415866"
+        },
+        {
+          "headline": "Hong Kong jails former banker over $1.6B false credit and cryptocurrency bribes",
+          "what": "Hong Kong court sentences former banking official to four years in prison for issuing false letters of credit totaling $1.6 billion and accepting $470,000 in cryptocurrency bribes. Case highlights regulatory attention to crypto use in financial crime.",
+          "coins": "Cryptocurrency (unnamed)",
+          "timeUTC": "2026-09-19 00:00–23:59 (reported)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs tap $433M inflow Friday, Fidelity leads institutional demand",
+          "what": "US Bitcoin ETFs recorded $433M net inflows on Friday with Fidelity's FBTC capturing $310.7M. Positive week for Bitcoin ETF sector, with assets at $102.53B and Fidelity/BlackRock taking 97% of daily inflows. Signal of sustained institutional appetite.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood Chain fees collapse 97% even as transactions stay near $1.5B daily",
+          "what": "Seven-day average fees on Robinhood Chain fell 82% while transaction volume remained near record highs at ~$1.5 billion daily. Seven-day average transaction count slipped 6%. The fee collapse follows a peak in early September when fees hit $8M daily; fees now average 2.6 cents per transaction vs. 64 cents at the peak.",
+          "coins": "Multi-chain",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/19/robinhood-chain-fees-collapse-97-even-as-transactions-stay-near-record-highs"
+        },
+        {
+          "headline": "Ripple asset managers prepare for XRP Ledger Batch V1.1 upgrade",
+          "what": "Ripple announced that commercial projects are building around the Batch V1.1 upgrade to the XRP Ledger, which enables linked asset and payment transfers to succeed or fail together. This improves reliability for cross-border and tokenized payment flows.",
+          "coins": "XRP",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade"
+        },
+        {
+          "headline": "Solana block times fall 17% in latest speed upgrade",
+          "what": "Solana network completed a speed upgrade that cut average block times by 17%, improving transaction freshness. The improvement prioritizes finality over capacity, meaning transactions confirm faster but throughput gains are modest.",
+          "coins": "Solana",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378674/solana-heartbeat-quickens-speed-upgrade"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[CONTEXT] Kalshi and Coinbase file for US stock perpetual futures",
+          "what": "Kalshi and Coinbase have filed with regulators seeking approval to offer perpetual futures on individual US stocks, delivering 24/5 leveraged exposure without ownership. Similar filings from Bitnomial also pending. This represents crypto exchanges' push into TradFi derivatives. (Context: filings from Sept 17–18, covered in this report cycle.)",
+          "coins": "Stock-linked derivatives",
+          "timeUTC": "2026-09-18 (filed); context for 2026-09-19",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-joins-coinbase-with-filing-for-us-stock-perpetual-futures"
+        },
+        {
+          "headline": "[CONTEXT] ZEC rallies 100%, Grayscale ETF splitting shares as inflows exceed $233M",
+          "what": "Zcash surged 100% above $1,500 over recent weeks, with Grayscale's ZCSH ETF drawing over $233M in inflows in under a month. The fund announced a 3-for-1 share split to make shares more affordable. Reflects institutional appetite for privacy-focused crypto. (Context: from Sept 17–18.)",
+          "coins": "Zcash",
+          "timeUTC": "2026-09-18 (announced); context for 2026-09-19",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zecs-100-rally-above-1500-sends-grayscales-zcash-etf-within-85-million-of-1-billion/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-19",
+    "summary": "US spot Bitcoin ETFs recorded $433M in Friday inflows, with Fidelity's FBTC leading at $310.7M (71% of total). Bitcoin ETF assets reached $102.53B. Ethereum ETF flows not available at intraday granularity for Sept 19, though early-month data showed consistent positive flows. Source: The Block and Farside Investors / SoSoValue.",
+    "source": "The Block / Farside Investors",
+    "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
+  },
+  "calendarNotes": [
+    {
+      "event": "Swiss National Bank Rate Decision — Thursday Sept 24, 07:30 UTC",
+      "typicalReaction": "Medium impact; Swiss rate changes can influence global risk sentiment and currency markets, which spillover into crypto. Lower rates typically support risk assets."
+    },
+    {
+      "event": "Riksbank Rate Decision — Thursday Sept 24, 07:30 UTC",
+      "typicalReaction": "Medium impact; Swedish central bank decisions influence Nordic and broader European policy tone."
+    },
+    {
+      "event": "Norges Bank Rate Decision — Thursday Sept 24, 08:00 UTC",
+      "typicalReaction": "Medium impact; Norwegian policy can affect oil and commodity correlations."
+    },
+    {
+      "event": "US Initial Jobless Claims — Thursday Sept 24, 12:30 UTC",
+      "typicalReaction": "Medium impact; US labor data influences Federal Reserve expectations and appetite for risk assets including crypto. Weaker claims (lower number) typically supports equities and crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate traders using leverage pay each other to hold positions on a futures exchange. When funding is positive and high, longs are paying shorts—a sign leverage is expensive and trader sentiment is bullish. Typically charged every 8 hours."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of all active futures contracts on an exchange at a single moment. A rising open interest means more money is being deployed; falling open interest means traders are closing positions and reducing leverage."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage move in total open interest over a time period (e.g., one day). Falling OI with prices rising suggests a slow-down in leverage despite price momentum."
+    },
+    {
+      "term": "Long-to-short ratio (or long/short ratio)",
+      "definition": "The ratio of bullish (long) to bearish (short) accounts or positions on an exchange. A ratio above 1 means more traders are betting on price increases; below 1 means more are betting on decreases. Balanced ratios near 1 indicate mixed sentiment."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The official settlement price used by an exchange to calculate profit/loss on futures contracts, typically the index price of the underlying asset (e.g., Bitcoin or Ethereum). Different from the last trade price."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a leveraged position when the trader's margin (collateral) is exhausted due to losses. Liquidations can trigger sudden price moves as stop-loss orders cascade."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowing money to amplify the size of a trade. For example, 10x leverage means you control $10 of assets with $1 of your own capital. Higher leverage increases both gains and losses."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to hold a fixed value (usually $1 USD per coin) through reserves or algorithmic means. Examples: USDC, USDT. Used for settlement and to avoid price volatility."
+    },
+    {
+      "term": "Basis (UTC-day or rolling-24h)",
+      "definition": "The time window over which a price or volume move is measured. UTC-day means one calendar day (00:00–23:59 UTC). Rolling-24h means the most recent 24-hour period, regardless of date boundaries."
+    },
+    {
+      "term": "Volume (quote or base)",
+      "definition": "The total value or quantity of assets traded over a period. Quote volume is in USD; base volume is in the asset itself (e.g., BTC)."
+    },
+    {
+      "term": "Venue",
+      "definition": "A cryptocurrency exchange or trading platform where futures contracts are offered (e.g., Binance, Bybit, OKX)."
+    }
+  ],
+  "_source": "cli"
+}

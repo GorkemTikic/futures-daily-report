@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-19T00:08:55.230Z",
-  "count": 94,
+  "generatedAt": "2026-09-20T00:06:53.278Z",
+  "count": 95,
   "counts": {
-    "total": 94,
-    "market": 7,
+    "total": 95,
+    "market": 8,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-18",
+  "latest": "2026-09-19",
   "reports": [
+    {
+      "date": "2026-09-19",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.4577046747464826,
+        "ETH": 0.788197715835188
+      },
+      "marketSummary": "Bitcoin and Ethereum rose modestly on steady volume, with open interest shrinking on Bitcoin despite high funding costs, as institutional Bitcoin ETF inflows offset mixed regulatory headwinds including Brazil's planned stablecoin settlement ban.",
+      "oneLine": "Bitcoin and Ethereum rose modestly on steady volume, with open interest shrinking on Bitcoin despite high funding costs, as institutional Bitcoin ETF inflows offset mixed regulatory headwinds including Brazil's planned stablecoin settlement ban.",
+      "newsCount": 13,
+      "topMover": {
+        "symbol": "ONEUSDT",
+        "chgPct": 95.9183673469388
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-19/summary_2026-09-19.html",
+        "pdf": "reports/2026-09-19/summary_2026-09-19.pdf",
+        "md": "reports/2026-09-19/summary_2026-09-19.md"
+      }
+    },
     {
       "date": "2026-09-18",
       "kind": "market",

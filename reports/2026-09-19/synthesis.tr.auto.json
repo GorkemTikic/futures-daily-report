@@ -1,0 +1,213 @@
+{
+  "oneLine": "Bitcoin ve Ethereum sabit hacimde mütevazı oranda yükseldi; Bitcoin'de açık pozisyon ilgisi azalışa rağmen finansman maliyetleri yüksek kaldı; kurumsal Bitcoin ETF girişleri, Brezilya'nın stablecoin takas yasağı planı da dahil olmak üzere karışık düzenleyici engelleri telafi etti.",
+  "caveman": "Bitcoin ve Ethereum cumartesi günü normal işlem saatlerinde yüzde 1'den az yükseldi. Bitcoin işlemlerine bağlanan toplam para aslında azaldı, ama Bitcoin'de ödünç para almak çok pahalı kaldı (ödünç para kullanarak işlem yapan kişiler yılda yüzde 11 ödüyorlar). Büyük şirketler ve yatırım fonları cuma günü daha fazla Bitcoin aldılar, bu da hala istemekte olduklarını gösteriyor. Daha küçük ve riskli üç madeni para çok fazla yükseldi (biri yüzde 96 yükseldi) ama kimse neden olduğunu bilmiyor. Brezilya, ülkeler arasında para transfer etmenin belli yollarını stablecoinlerle yapmasını ekim ayından itibaren yasaklayacağını duyurdu. Genel olarak, cumartesi sakin geçti ve hiç büyük şok ya da panik olmadı.",
+  "priceVolumeSummary": "Bitcoin beş ana borsa üzerinde ortalama yüzde 0,45, Ethereum yüzde 0,78 yükseldi; fiyatlar çok yakın uyum gösterdi (yaklaşık yüzde 0,4–1 arasında fark). Binance ve OKX işlem hacminde öncü konumdaydı; Binance tek başına Bitcoin vadeli işlemlerinde 6,1 milyar dolar, Ethereum vadeli işlemlerinde 6,3 milyar dolar işlem hacmine ulaştı.",
+  "positioningSummary": "Finansman oranları yüzde 10,95 seviyelerde kaldı (8 saatlik aralık), tüccarların kaldıraçlı uzun pozisyonlar tutmak için hala yüksek bir prim ödediğini gösteriyor. Ancak, Bitcoin açık ilgisi bu yüksek maliyetlere rağmen yüzde 2,4 düşüş gösterdi, bu da kaldıraçın temkinli bir şekilde azaldığını gösteriyor. Uzun-kısa oranları borsalar arasında karışıktı (Bitcoin dengeye daha yakın, Ethereum bazı borsalarda uzun pozisyonları tercih ediyor), tüccarlar arasında net yönlü bir fikir birliği olmadığını gösteriyor.",
+  "stocksSummary": "Tüm Asya ve ABD hisse senedi piyasaları kapalıydı (cumartesi); kapalı dayanak varlıklara ilişkin vadeli işlem hareketleri karışık duyarlılık gösteriyor. Kore vadeli işlemler: SK Hynix −yüzde 0,88, Samsung −yüzde 0,05, ancak Hanmi +yüzde 3,37 ve Naver +yüzde 2,09. Hong Kong vadeli işlemler: Geely −yüzde 2,05, Zhipu AI −yüzde 0,61, MiniMax +yüzde 1,72 tarafından dengelendi. ABD hisse senedit-ilişkili işaretçiler ralliledi: MSTR +yüzde 3,37, BNC +yüzde 3,34 (her ikisi de Bitcoin hazine veya varlık yönetimi stratejileri). Emtialar: WTI Crude −yüzde 0,45, Brent −yüzde 0,44, Bakır −yüzde 0,51; Altın neredeyse sabit; Gümüş ve Paladyum hafif yükselişte.",
+  "movers": [
+    {
+      "symbol": "ONE",
+      "explanation": "Binance'de günlük 685 milyon dolarlık hacimle yüzde 96 sıçradı. Halka açık bir duyuru veya haber sürücüsü tespit edilmedi; hareket teknik/perakende momentum veya likidite olayı tarafından yönlendirilmiş görünüyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "G",
+      "explanation": "415 milyon dolarlık hacimde yüzde 40 ralliledi. Yayınlanan kaynaklarda bağlantılı haber veya katalizör bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AKE",
+      "explanation": "933 milyon dolarlık hacimde yüzde 39 yükseldi. Sıçrayışın kamuya açıklanmış nedeni yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ETF'leri cuma günü 433 milyon dolarlık giriş kaydetti, Fidelity kurumsal talebi liderliğinde",
+        "what": "ABD spot Bitcoin ETF'leri cuma günü 19 Eylül'de 433 milyon dolarlık net giriş kaydetti; Fidelity'nin FBTC'si 310,7 milyon doların (toplam yüzde 71) hesabını oluşturdu. Geniş haftayı kavrayan Bitcoin ETF varlıkları 102,53 milyar dolar civarındaydı; Fidelity ve BlackRock günlük girişlerin yüzde 97'sini ele geçirdi. Bu, önceki oynaklığa rağmen devam eden kurumsal iştahı gösteriyor.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-19 00:00–23:59",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
+      },
+      {
+        "headline": "Brezilya, 1 Ekim'den itibaren stablecoin'leri düzenlenen uluslararası ödemelerin dışında tutuyor",
+        "what": "Brezilya Merkez Bankası (BCB), elektronik döviz sağlayıcılarını 1 Ekim 2026'dan itibaren geçerli olmak üzere (BCB No. 561 Kararnamesi) stablecoin veya kripto kullanarak düzenlenen uluslararası ödemelerin denizaşırı ayağını kapatmaktan yasakladı. Kural kripto sahipliğini veya ticareti yasaklamıyor, ancak kurumsal yerleştirme akışlarını yasaklıyor. Wise, Nomad ve Braza Bank gibi firmalar stablecoin yerleşimini sınır ötesi boru hatlarına yerleştirdi ve geleneksel döviz kanallarına geçmek zorundadır.",
+        "coins": "USDT, USDC",
+        "timeUTC": "2026-09-19 (announced; effective 2026-10-01)",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/brazil-blocks-stablecoins-from-key-cross-border-payment-rail-as-1-1-trillion-market-faces-new-limits/"
+      },
+      {
+        "headline": "Bastion, ulusal güven bankası tüzüğü için OCC'den koşullu onay kazanıyor",
+        "what": "Stablecoin altyapı şirketi Bastion, 18 Eylül 2026'da ABD Para Birimi Müdürlüğü (OCC) tarafından Bastion Platforms Ulusal Güven Şirketi olarak faaliyet göstermek için koşullu onay aldığını açıkladı. Tüzük, USDC ve diğer dijital varlıkların kayyum gözetimini, beyaz etiketli stablecoin cüzdan ve yayın hizmetlerini ve doğrudan basım/itfa işlemlerini etkinleştiriyor; tümü tek bir federal regülatörün denetiminde. Banka mevduat kabul edemiyor veya kredi veremez.",
+        "coins": "USDC",
+        "timeUTC": "2026-09-18 (announced); 2026-09-19 (covered in report)",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/bastion-wins-conditional-occ-approval-for-national-trust-bank-charter"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Brezilya, 1 Ekim'den itibaren stablecoin'leri düzenlenen uluslararası ödemelerin dışında tutuyor",
+          "what": "Brezilya Merkez Bankası BCB No. 561 Kararnamesi kapsamında, 1 Ekim'de geçerli olmak üzere stablecoin yerleşimini düzenlenen uluslararası ödemelerin denizaşırı ayağında yasakladı. Kural kripto sahipliğini yasaklamıyor, sadece kurumsal yerleştirme altyapısını etkiliyor. Gönderme ve sınır ötesi ödeme firmalarını etkiliyor.",
+          "coins": "USDT, USDC",
+          "timeUTC": "2026-09-19 (announced; effective 2026-10-01)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/brazil-blocks-stablecoins-from-key-cross-border-payment-rail-as-1-1-trillion-market-faces-new-limits/"
+        },
+        {
+          "headline": "Bastion, ulusal güven bankası tüzüğü için OCC'den koşullu onay kazanıyor",
+          "what": "OCC, Bastion Platforms'ın stablecoin varlık yönetimi, yayın ve ödeme altyapısı sunmak için federally düzenlenen bir ulusal güven şirketi olarak faaliyet göstermesine koşullu onay verdi. Stablecoin kurumsal hizmetleri için ilk OCC destekli güven tüzüğünü temsil ediyor.",
+          "coins": "USDC",
+          "timeUTC": "2026-09-18 (announced); 2026-09-19 (covered in report)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bastion-wins-conditional-occ-approval-for-national-trust-bank-charter"
+        },
+        {
+          "headline": "Visa, The Block araştırması sonrasında Crossmint memecoin ödül açığını kapatıyor",
+          "what": "Visa, perakende uygulamalarında Crossmint entegrasyonları aracılığıyla memecoin satışına izin veren ödül kartı satın alma açığını kapatıyor. Ödemesiz süre gelecek hafta sona eriyor. Açık, memecoin satın almalarını ödül programları aracılığıyla yönlendirerek normal kart ağı kontrollerini atladı.",
+          "coins": "Memecoins",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-19-visa-to-close-crossmint-memecoin-rewards-loophole-following-the-block-investigation-report-415866"
+        },
+        {
+          "headline": "Hong Kong, 1,6 milyar dolarlık sahte kredi ve kripto rüşvet nedeniyle eski bankacıyı hapise gönderiyor",
+          "what": "Hong Kong mahkemesi, toplam 1,6 milyar dolar sahte kredi mektubu çıkarmak ve 470.000 dolar kripto rüşvet kabul etmekten eski banka görevlisine dört yıl hapis cezası verdi. Olay, kripto kullanımının finansal suçlarda düzenleyici dikkat çektiğini vurguluyor.",
+          "coins": "Cryptocurrency (unnamed)",
+          "timeUTC": "2026-09-19 00:00–23:59 (reported)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri cuma günü 433 milyon dolarlık giriş kaydetti, Fidelity kurumsal talebi liderliğinde",
+          "what": "ABD Bitcoin ETF'leri cuma günü 433 milyon dolarlık net giriş kaydetti; Fidelity'nin FBTC, 310,7 milyon doların hesabını oluşturdu. Bitcoin ETF sektörü için pozitif bir hafta; varlıklar 102,53 milyar dolar civarında; Fidelity ve BlackRock günlük girişlerin yüzde 97'sini aldı. Süregelen kurumsal iştahının sinyali.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood Chain ücretleri yüzde 97 çökerken işlemler günde 1,5 milyar dolar civarında kalıyor",
+          "what": "Robinhood Chain'de yedi günlük ortalama ücretler yüzde 82 düşüş gösterirken, işlem hacmi rekor seviyelerin yakınında kaldı; günde yaklaşık 1,5 milyar dolar. Yedi günlük ortalama işlem sayısı yüzde 6 gerilemesi kaydetti. Ücret çöküşü, eylül ayının başında ücretlerin günde 8 milyon dolara ulaştığı bir zirveden sonra geldi; ücretler şimdi işlem başına ortalama 2,6 sent, zirvede 64 sent.",
+          "coins": "Multi-chain",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/19/robinhood-chain-fees-collapse-97-even-as-transactions-stay-near-record-highs"
+        },
+        {
+          "headline": "Ripple varlık yöneticileri XRP Ledger Batch V1.1 yükseltmesine hazırlanıyor",
+          "what": "Ripple, ticari projelerin XRP Ledger'ın Batch V1.1 yükseltmesini etrafında inşa edildiğini duyurdu; bu bağlantılı varlık ve ödeme transferlerinin birlikte başarılı veya başarısız olmasını sağlıyor. Bu, sınır ötesi ve tokenize ödeme akışları için güvenilirliği iyileştiriyor.",
+          "coins": "XRP",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade"
+        },
+        {
+          "headline": "Solana blok zamanları en son hız yükseltmesinde yüzde 17 düşüyor",
+          "what": "Solana ağı, ortalama blok zamanlarını yüzde 17 azaltan bir hız yükseltmesini tamamladı; işlem tazeliğini iyileştirecek. İyileştirme kapasite yerine sonuç almayı önceliklendiriyor; bu, işlemlerin daha hızlı onaylandığı anlamına gelir ancak verim kazançları mütevazıdır.",
+          "coins": "Solana",
+          "timeUTC": "2026-09-19 00:00–23:59",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378674/solana-heartbeat-quickens-speed-upgrade"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[BAĞLAM] Kalshi ve Coinbase ABD hisse senedi vadeli işlemleri için başvuru yapıyor",
+          "what": "Kalshi ve Coinbase, bireysel ABD hisse senetleri üzerinde vadeli işlem sunma onayı almak için düzenleyicilere başvurdu; 24/5 kaldıraçlı maruz bırakma sahipliksiz sağlıyor. Bitnomial'den benzer başvurular da beklemede. Bu, kripto borsalarının TradFi türevlerine itilişini temsil ediyor. (Bağlam: 17–18 Eylül'den başvurular, bu rapor döngüsünde ele alınmıştır.)",
+          "coins": "Stock-linked derivatives",
+          "timeUTC": "2026-09-18 (filed); context for 2026-09-19",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-joins-coinbase-with-filing-for-us-stock-perpetual-futures"
+        },
+        {
+          "headline": "[BAĞLAM] ZEC yüzde 100 ralliliyor, Grayscale ETF girişler 233 milyon doları aşarken hisse bölüyor",
+          "what": "Zcash son haftalarda 1.500 dolardan yüzde 100 sıçradı; Grayscale'in ZCSH ETF'si bir ay içinde 233 milyon dolardan fazla giriş çekti. Fon, hisseleri daha uygun fiyatlı hale getirmek için 3'e 1 hisse bölümü duyurdu. Gizlilik odaklı kripto için kurumsal iştahı yansıtıyor. (Bağlam: 17–18 Eylül'den.)",
+          "coins": "Zcash",
+          "timeUTC": "2026-09-18 (announced); context for 2026-09-19",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zecs-100-rally-above-1500-sends-grayscales-zcash-etf-within-85-million-of-1-billion/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-19",
+    "summary": "ABD spot Bitcoin ETF'leri cuma günü 433 milyon dolarlık giriş kaydetti; Fidelity'nin FBTC, 310,7 milyon dolar (toplam yüzde 71) ile öncü konumdaydı. Bitcoin ETF varlıkları 102,53 milyar dolara ulaştı. Ethereum ETF akışları 19 Eylül için gün içi ayrıntı düzeyinde mevcut değil; ancak ay başı verileri tutarlı pozitif akışlar gösterdi. Kaynak: The Block ve Farside Investors / SoSoValue.",
+    "source": "The Block / Farside Investors",
+    "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
+  },
+  "calendarNotes": [
+    {
+      "event": "İsviçre Ulusal Bankası Faiz Kararı — Perşembe 24 Eylül, 07:30 UTC",
+      "typicalReaction": "Orta etki; İsviçre faiz değişiklikleri global risk duyarlılığı ve döviz piyasalarını etkileyebilir ve bunlar kripto'ya yayılabilir. Daha düşük oranlar tipik olarak riskli varlıkları destekler."
+    },
+    {
+      "event": "Riksbank Faiz Kararı — Perşembe 24 Eylül, 07:30 UTC",
+      "typicalReaction": "Orta etki; İsveç merkez bankası kararları Nordic ve daha geniş Avrupa politika tonunu etkiler."
+    },
+    {
+      "event": "Norges Bank Faiz Kararı — Perşembe 24 Eylül, 08:00 UTC",
+      "typicalReaction": "Orta etki; Norveç politikası petrol ve emtia korelasyonlarını etkileyebilir."
+    },
+    {
+      "event": "ABD İlk İşsizlik Başvuruları — Perşembe 24 Eylül, 12:30 UTC",
+      "typicalReaction": "Orta etki; ABD işgücü verileri Federal Rezerv beklentilerini ve kripto dahil riskli varlıklara yönelik iştahı etkiler. Daha zayıf başvurular (daha düşük sayı) tipik olarak hisse senetlerini ve kripto'yu destekler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Kaldıraç kullanan tüccarların bir vadeli işlem borsasında pozisyon tutmak için birbirlerine ödediği faiz oranı. Finansman pozitif ve yüksek olduğunda, uzun pozisyonlar kısa pozisyonlara ödüyor; bu kaldıraçın pahalı olduğunun ve tüccar duyarlılığının yükselişçi olduğunun bir işareti. Tipik olarak her 8 saatte bir ücretlendirilir."
+    },
+    {
+      "term": "Açık ilgi",
+      "definition": "Tek bir anda bir borsadaki tüm aktif vadeli işlem sözleşmelerinin toplam değeri. Yükselen açık ilgi daha fazla paranın yerleştirildiği anlamına gelir; düşen açık ilgi tüccarların pozisyonları kapatıp kaldıraçı azaltıyor olduğu anlamına gelir."
+    },
+    {
+      "term": "Açık ilgi değişimi",
+      "definition": "Bir zaman dilimi (örn., bir gün) içinde toplam açık ilgideki yüzde hareket. Fiyatlar yükselirken düşen açık ilgi, fiyat momentumuna rağmen kaldıraçta bir yavaşlamayı gösterir."
+    },
+    {
+      "term": "Uzun-kısa oranı",
+      "definition": "Bir borsadaki yükselişçi (uzun) ve düşüşçü (kısa) hesaplar veya pozisyonların oranı. 1'in üzerinde bir oran daha fazla tüccarın fiyat artışlarına bahse girdiği anlamına gelir; 1'in altında daha fazlasının azalışlara bahse girdiği anlamına gelir. 1'e yakın dengeli oranlar karışık duyarlılığı gösterir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Bir borsanın vadeli işlem sözleşmelerindeki kar/zararı hesaplamak için kullandığı resmi yerleştirme fiyatı, tipik olarak dayanak varlığın endeks fiyatı (örn., Bitcoin veya Ethereum). Son alım satım fiyatından farklıdır."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Tüccarın marjı (teminatı) kayıplardan tüketildiğinde kaldıraçlı bir pozisyonun zorunlu kapatılması. Tasfiyeler, zararı durdur emirleri basamak attığında aniden fiyat hareketlerini tetikleyebilir."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Bir ticaretin boyutunu büyütmek için para ödünç almak. Örneğin, 10 kat kaldıraç, kendi sermayenizin 1 doları ile 10 dolarlık varlığı kontrol ettiğiniz anlamına gelir. Daha yüksek kaldıraç hem kazançları hem de kayıpları artırır."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "Sabit bir değer tutmak (genellikle para başına 1 ABD doları) için rezervler veya algoritmik araçlar aracılığıyla tasarlanan bir kripto para. Örnekler: USDC, USDT. Yerleştirme ve fiyat oynaklığından kaçınmak için kullanılır."
+    },
+    {
+      "term": "Temel dönem",
+      "definition": "Bir fiyat veya hacim hareketinin ölçüldüğü zaman penceresi. UTC günü bir takvim günü anlamına gelir (00:00–23:59 UTC). Hadde alan 24 saat en son 24 saatlik dönem anlamına gelir; tarih sınırlarından bağımsız olarak."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Bir dönem içinde işlem gören varlıkların toplam değeri veya miktarı. Alıntı hacmi USD'de; temel hacim varlığın kendisinde (örn., BTC)."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Vadeli işlem sözleşmelerinin sunulduğu bir kripto para borsası veya alım satım platformu (örn., Binance, Bybit, OKX)."
+    }
+  ],
+  "_source": "cli-tr"
+}
