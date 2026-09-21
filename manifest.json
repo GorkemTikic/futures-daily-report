@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-20T00:06:53.278Z",
-  "count": 95,
+  "generatedAt": "2026-09-21T00:08:14.613Z",
+  "count": 96,
   "counts": {
-    "total": 95,
-    "market": 8,
+    "total": 96,
+    "market": 9,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-19",
+  "latest": "2026-09-20",
   "head": 30,
   "reports": [
+    {
+      "date": "2026-09-20",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.14082929249284926,
+        "ETH": 0.4506763945888482
+      },
+      "marketSummary": "Bitcoin consolidated near $81,140 while Ethereum climbed 0.45%, institutional inflows totaled $577M into both spot ETFs, and three regulatory moves—SEC approving tokenized stocks, Visa closing rewards loopholes, and an EU staking review—reshaped the compliance landscape alongside scandals at Polymarket and broader platform challenges.",
+      "oneLine": "Bitcoin consolidated near $81,140 while Ethereum climbed 0.45%, institutional inflows totaled $577M into both spot ETFs, and three regulatory moves—SEC approving tokenized stocks, Visa closing rewards loopholes, and an EU staking review—reshaped the compliance landscape alongside scandals at Polymarket and broader platform challenges.",
+      "newsCount": 8,
+      "topMover": {
+        "symbol": "SAGAUSDT",
+        "chgPct": 50.698045472676526
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-20/summary_2026-09-20.html",
+        "pdf": "reports/2026-09-20/summary_2026-09-20.pdf",
+        "md": "reports/2026-09-20/summary_2026-09-20.md"
+      }
+    },
     {
       "date": "2026-09-19",
       "kind": "market",
@@ -1925,102 +1964,6 @@
         "html": "reports/2026-08-22/summary_2026-08-22.html",
         "pdf": null,
         "md": "reports/2026-08-22/summary_2026-08-22.md"
-      }
-    },
-    {
-      "date": "2026-08-21",
-      "scanned": 528,
-      "movedBig": 12,
-      "dangerCount": 2,
-      "widest": {
-        "symbol": "AVAAIUSDT",
-        "pct": "11.5%",
-        "time": "07:42"
-      },
-      "macro": {
-        "BTC": 7.3,
-        "ETH": 8.2,
-        "SOL": 6.9
-      },
-      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +7.3%, ETH +8.2%, SOL +6.9% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
-      "newsCount": 0,
-      "flagged": [
-        {
-          "symbol": "AVAAIUSDT",
-          "label": "Brief price gap",
-          "headline": "AVAAIUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "BEATUSDT",
-          "label": "Brief price gap",
-          "headline": "BEATUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "MAGMAUSDT",
-          "label": "Steady climb",
-          "headline": "MAGMAUSDT climbed +39.4% steadily"
-        },
-        {
-          "symbol": "USUSDT",
-          "label": "Steady climb",
-          "headline": "USUSDT climbed +29.6% steadily"
-        },
-        {
-          "symbol": "BLESSUSDT",
-          "label": "Steady climb",
-          "headline": "BLESSUSDT climbed +28.5% steadily"
-        },
-        {
-          "symbol": "GALAUSDT",
-          "label": "Steady climb",
-          "headline": "GALAUSDT climbed +37.1% steadily"
-        },
-        {
-          "symbol": "ZORAUSDT",
-          "label": "Steady climb",
-          "headline": "ZORAUSDT climbed +25.4% steadily"
-        },
-        {
-          "symbol": "1000FLOKIUSDT",
-          "label": "Brief price gap",
-          "headline": "1000FLOKIUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "USELESSUSDT",
-          "label": "Steady climb",
-          "headline": "USELESSUSDT climbed +32.2% steadily"
-        },
-        {
-          "symbol": "BCHUSDT",
-          "label": "Steady climb",
-          "headline": "BCHUSDT climbed +29.4% steadily"
-        },
-        {
-          "symbol": "ENSUSDT",
-          "label": "Steady climb",
-          "headline": "ENSUSDT climbed +31.3% steadily"
-        },
-        {
-          "symbol": "1000PEPEUSDT",
-          "label": "Steady climb",
-          "headline": "1000PEPEUSDT climbed +28.5% steadily"
-        },
-        {
-          "symbol": "STXUSDT",
-          "label": "Steady climb",
-          "headline": "STXUSDT climbed +30.1% steadily"
-        },
-        {
-          "symbol": "ZECUSDT",
-          "label": "Steady climb",
-          "headline": "ZECUSDT climbed +29.1% steadily"
-        }
-      ],
-      "kind": "divergence",
-      "files": {
-        "html": "reports/2026-08-21/summary_2026-08-21.html",
-        "pdf": null,
-        "md": "reports/2026-08-21/summary_2026-08-21.md"
       }
     }
   ]

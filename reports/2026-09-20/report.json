@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "kind": "market",
+  "dateLong": "Sunday, 20 September 2026",
+  "coversUTC": "2026-09-20 00:00–23:59 UTC",
+  "oneLine": "Bitcoin consolidated near $81,140 while Ethereum climbed 0.45%, institutional inflows totaled $577M into both spot ETFs, and three regulatory moves—SEC approving tokenized stocks, Visa closing rewards loopholes, and an EU staking review—reshaped the compliance landscape alongside scandals at Polymarket and broader platform challenges.",
+  "newsCount": 8,
+  "macro": {
+    "BTC": -0.14082929249284926,
+    "ETH": 0.4506763945888482
+  },
+  "topMover": {
+    "symbol": "SAGAUSDT",
+    "chgPct": 50.698045472676526
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "21 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

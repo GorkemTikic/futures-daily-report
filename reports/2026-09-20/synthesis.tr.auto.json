@@ -1,0 +1,209 @@
+{
+  "oneLine": "Bitcoin 81.140 dolar civarında konsolidasyonunu sürdürürken Ethereum %0,45 yükseldi, kurumsal yatırımcılar spot ETF'lere 577 milyon dolar aktarış yaptı ve SEC'in tokenize hisse senetlerine izin vermesi, Visa'nın ödül kartı boşluğunu kapatması ve AB'nin staking incelemesi başlatan üç düzenleyici hamle, Polymarket skandalı ve geniş platform sorunlarıyla birlikte uyum ortamını yeniden şekillendirdi.",
+  "caveman": "20 Eylül'de Bitcoin (en büyük kripto) 81.000 dolar civarında neredeyse sabit kaldı, Ethereum (ikinci en büyük) biraz yükseldi, yaklaşık %0,45. Birçok yatırımcı Bitcoin ve Ethereum işlem fonlarına taze para yatırdı—Bitcoin'e 433 milyon dolar, Ethereum'a 144 milyon dolar—bu iyi bir işaret. En büyük haber, Amerika'nın SEC'i (mali denetçisi) Coinbase ve Robinhood gibi şirketlerin artık şirket hisselerini internette dijital jeton olarak satabileceklerini söylemesi oldu. Bu büyük bir kural değişikliği. Aynı zamanda tahmin ve bahis platformu Polymarket'in dolandırıcılık sorunu yaşadığı ortaya çıktı—suçlular çalıntı kredi kartlarını kullanarak 10 milyon dolar çalmaya çalıştı—ve şirketin sahibi çalışanlara bunu görmezden gelip büyümeye odaklanmalarını söyledi, bu da düzenleyicileri çok kızdırdı. Visa ayrıca garip şaka paralarında ödül kazanılmasını durduracağını söyledi. ZetaChain adlı bir blokzincir projesi kapatılmaya ve başka bir blokzincire geçmeye oy verdi. Özet: sakin fiyatlar ama düzenleme tarafında çok hareket—bazıları iyi (tokenize hisse senetleri), bazıları karışık (Polymarket'teki dolandırıcılık, Visa ile bağlantılı platformların uyum köşe kısmaları) ve Avrupa'daki staking ödülleri hakkında devam eden sorular. Korkutucu değil ama kurallar tarafında meşgul bir gün.",
+  "priceVolumeSummary": "Beş borsa da (Binance, OKX, Bybit, Bitget, Gate) gün boyunca aynı fiyatları kote etti: Bitcoin ~81.140 dolar (%0,1 düşüş) ve Ethereum ~2.643 dolar (%0,45 yükseliş). Binance her iki gün için de işlem hacminde lider oldu (~her biri BTC ve ETH için 7,8 milyar dolar), bunu OKX izledi (BTC 4,4 milyar dolar, ETH 6,2 milyar dolar).",
+  "positioningSummary": "Bitcoin finansman oranları %4,3–11 (yıllık, orta düzey yükseliş eğilimi taşıyıcı maliyeti), açık ilgi ~22,5 milyar dolar USD'de sabit. Ethereum finansman oranları benzer şekilde (%3–11) izledi ve açık ilgi hafif yükseldi. OKX'te Bitcoin'in uzun/kısa oranı 1,03'te (dengeli uzunlar ve kısalar) kaldı, Binance 0,94'te kısalara yattı; Ethereum longs Binance'te 2,19'da shortu ezdi. Her iki jetonun da açık ilgi dalgalanması dramatik olmadı, bu da tüccarların dar konsolidasyonun bir günü boyunca tuttuğunu gösterdi.",
+  "stocksSummary": "20 Eylül 2026 hafta sonu günüydü—ABD öz sermaye piyasaları ve Asya nakit borsaları kapalıydı. Binance Vadeli İşlemler Asya hisse senetlerine ilişkin sabit fiyatlandırıldı (sentetik, gerçek oturum maruziyeti değil) mütevazı yükseldi: Güney Kore teknolojisi (SK Hynix +%0,87, Samsung +%1,07), Hong Kong yapay zekası (MiniMax +%1,93, CSOP SK Hynix 2x +%1,84), Çin yarı iletken (CXMT +%3,1). ABD perpleri yarı iletken 3x kaldıraç (SOXL) +%3,33 yükseldi, Intel +%3,13. Bunlar çevrimdışı endekslerde spekülatif konumlandırmayı yansıtır—gerçek pazar açılışları değil.",
+  "movers": [
+    {
+      "symbol": "SAGAUSDT",
+      "explanation": "SAGA %50,7 sıçradı (140,9 milyon dolar işlem hacmi). Açık bir kamuoyu haber katalizörü bulunamadı; hareket spekülatörler veya doğrulanmamış sosyal sinyallerle tahrik edilmiş görünüyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GUSDT",
+      "explanation": "G %39,3 çöktü (549,9 milyon dolar işlem hacmi). Çöküşü açıklayan halka açık duyuru veya haber yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTWUSDT",
+      "explanation": "BTW %26,8 yükseldi (78,3 milyon dolar işlem hacmi). Harekete bağlı tanımlanabilir haber veya olay yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC beş yıllık tokenize hisse senedi ticaret muafiyeti onayladı; Coinbase, Robinhood, Circle iyi konumda",
+        "what": "ABD Menkul Kıymetler ve Borsa Komisyonu, blokzincir üzerinde ABD şirket hisselerinin işlem görmesini resmen onayladı. Tokenize hisseler temettü ve oy haklarını korumalı; 24/7 otomatik pazar yapıcılar aracılığıyla işlem görebilir. Coinbase halihazırda gerekli özelliklerin çoğunu elinde tutuyor ve en çok fayda görecek; Robinhood hissedar haklarını eklemelidir; Circle USDC yerleşim talebinden kazanç sağlar. Muafiyet beş yıl yenilelenebilir.",
+        "coins": "USDC, tokenize hisse senetleri (kodu yok)",
+        "timeUTC": "2026-09-20 07:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say"
+      },
+      {
+        "headline": "Polymarket 10 milyon dolarlık dolandırıcılık girişiminin maruz kalındığı ortaya çıktı; CEO uyuma önemli verdi, personele 'daha sonra cezalarla ilgilen' dedi",
+        "what": "Tahmin pazarı platformu Şubat ile 2026 ortası arasında çalıntı banka kartları kullanan dolandırıcılarla karşı karşıya kaldı. Ödeme işlemcisi Checkout.com, Polymarket mevduatlarının %80'den fazlasını (endüstri normu %1'e karşı) sahte olarak reddetti. CEO Shayne Coplan'ın iddiaya göre olayı personele küçümsedikten sonra uyum yerine kullanıcı büyümesini önceliklendirdi. CFTC soruşturma yapıyor; düzenleyiciler olayı pervasız risk kültürünün kanıtı olarak işaretledi.",
+        "coins": "yok (tahmin pazarı)",
+        "timeUTC": "2026-09-20 09:00",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875"
+      },
+      {
+        "headline": "ZetaChain, Layer 1'i kapatmaya ve ZETA jetonunu Solana blokzincirine taşımaya oy verdi",
+        "what": "ZetaChain'in yönetişim oylaması (%99,4 onay, %58 katılım), Layer 1 blokzinciri emekli etme ve ZETA'yı 1:1 paritede Solana SPL jetonu olarak yayınlama teklifini geçirdi. Yeni jetonlar basılmayacak; hak kazanma çizelgeleri ve tutucu bakiyeleri devredildi. Ekip özel yapay zeka uygulaması Anuma'ya odaklanacak. İkinci bir oy kapatma ayrıntılarını belirleyecektir (bakiye fotoğraf bloğu, çekilme talimatları).",
+        "coins": "ZETA",
+        "timeUTC": "2026-09-20 11:38",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-09-20-zetachain-votes-to-shut-down-layer-1-network-and-move-zeta-to-solana-415878"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Visa şaka parası kredi kartı ödül boşluğunu kapatıyor; işlemler kripto olarak kodlanmalı",
+          "what": "Şaka parası satın alımları sıradan dijital ürünler için amaçlanan bir tüccar kodu altında işleniyor, kart sahiplerinin standart kredi kartı ödülleri (puan, geri ödeme) kazanmasını sağlıyor. Visa, Checkout.com dahil olmak üzere ödeme işlemcilerine bu sınıflandırmayı reddetmelerini söyledi ve işlemcilere gelecek haftadan önce kapanmak için bir haç süresi verdi. Şaka parası satın alımları artık kripto işlemleri olarak kodlanacak ve standart kripto tüccar kurallarına tabi tutulacak.",
+          "coins": "Şaka paraları (kodu yok)",
+          "timeUTC": "2026-09-20 08:54",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378697/visa-close-meme-coin-credit-card-rewards-loophole"
+        },
+        {
+          "headline": "AB MiCA incelemesi kripto staking getirilerini tehdit ediyor; istişare 30 Eylül'e kadar açık",
+          "what": "Avrupa Komisyonu'nun devam eden Kriptovarlıklar Piyasası (MiCA) incelemesi, staking hizmeti düzenlemelerinin yeterli olup olmadığı sorusunu içeriyor (madde 66, sayfa 36). Sıkılaştırılırsa, yeni gereklilikler sağlayıcı getirileri zayıflatabiliyor ve staking ödülleri kazanmayı karmaşıklaştırabiliyor. İstişare tarihi 30 Eylül'dür; henüz resmi olarak teklif edilen lisans veya sermaye şartı yok.",
+          "coins": "Tüm PoS varlıkları (Ethereum, Solana, Cardano, vb.)",
+          "timeUTC": "2026-09-20 ~12:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ve Ethereum spot ETF'ler 20 Eylül'de birleşik 577 milyon dolarlık net akışı kaydetti",
+          "what": "ABD spot Bitcoin ETF'leri 433,03 milyon dolar net akış gördü (Fidelity FBTC akışa liderlik etti); Ethereum spot ETF'leri 143,80 milyon dolar net akış çekti. Kombine toplam Bitcoin'in düz günlük performansı ve Ethereum'un mütevazı kazanımına rağmen kurumsal güveni gösterdi.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-09-20 (günün sonu yayınlandı)",
+          "source": "Farside Investors / SoSoValue",
+          "url": "https://farside.co.uk/btc/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Gemini'nin hissesi IPO'dan %80 çöktü; pazar değeri 753 milyon dolara düştü, gelir ve gözetim azaldı",
+          "what": "Kripto borsasının değerlemesi ~4 milyar dolardan 753 milyon dolara düştü. Q2 ticaret geliri YoY %38 düşerek 12,5 milyon dolara; spot hacim 3,8 milyar dolara düştü; saklama altındaki varlıklar 18,2 milyar dolardan 8,4 milyar dolara yarıya indi. Etkin bir teklif bilinmemesine rağmen, düşüş Gemini'nin düzenleyici lisanslarını, müşteri tabanını ve saklama altyapısını hedefleyen potansiyel alıcılarla devralma spekülasyonunu canlandırdı. Winklevoss ikizlerinin %94,5'lik oy hakimiyeti herhangi bir satışı kolaylaştıracak.",
+          "coins": "GEMI (borsa kodu, kripto değil)",
+          "timeUTC": "2026-09-20 08:48",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/20/gemini-s-stock-is-down-80-from-its-ipo-that-s-reviving-takeover-speculation"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Denizaşırı Bitcoin vadeli işlemler hacmi 2021'den beri %97 düştü; tüccarlar perpetualler ve seçeneklere geçti",
+          "what": "Denizaşırı mekanlar üzerinde geleneksel tarihlı Bitcoin vadeli işlemleri 2021 zirvesi seviyelerinden çöktü, ani bir çöküşten ziyade yapısal bir göçü yansıtıyor. Perpetueller (hiç bitmeyen sözleşmeler) çoğu kaldıraç ticaretini emmişti; seçenekler gittikçe riskten korunma ve aşağı yönlü koruma işlemliyordu. Ocak 2026'ya kadar Bitcoin seçenekleri açık ilgi (74,1 milyar dolar) ilk kez vadeli işlemleri (65,2 milyar dolar) aştı, tüccarların tarihlı sözleşmelerin üzerinde esnek türevler için tercihlerini gösterdi.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-20 (analiz, son dakika haberi değil)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/goodbye-futures-bitcoin-found-better-ways-to-trade/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-20",
+    "summary": "Bitcoin spot ETF'leri 433,03 milyon dolar net akış kaydetti; Ethereum spot ETF'leri 143,80 milyon dolar net akış çekti. Birleşik 577 milyon dolarlık akış kurumsal satın alma ilgisini yansıtıyor.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Swiss National Bank (SNB) Rate Decision (September 24, 07:30 UTC)",
+      "typicalReaction": "İsviçre frankını ve Avrupa çapraz oranlarını hareket ettiriyor; küresel taşıma ticaretleri aracılığıyla kripto risk iştahında mütevazı dolaylı etki."
+    },
+    {
+      "event": "U.S. Initial Jobless Claims (September 24, 12:30 UTC)",
+      "typicalReaction": "ABD işgücü piyasası sağlığı göstergesi; zayıf talepler (yüksek sayı) kripto dahil büyümeye duyarlı varlıkları korkutabilir."
+    },
+    {
+      "event": "Germany CPI Flash (September 29, 12:00 UTC)",
+      "typicalReaction": "Avrupa enflasyon beklentilerini besler; güçlü CPI ECB faiz indirimleri gecikmesi, finansal koşulları sıkılaştırabilir."
+    },
+    {
+      "event": "U.S. Personal Income and Outlays / PCE (September 30, 12:30 UTC)",
+      "typicalReaction": "Fed'in tercih ettiği enflasyon ölçütü; daha yüksek PCE faiz indirim durumunu zayıflatır, risk duygusunu ve kripto değerlemelerini sıkılaştırır."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllık yüzde oran (APR)",
+      "definition": "Yıllık olarak ifade edilen maliyetin veya getirinin yüzdesi. Burada bildirilen finansman oranları, bir yıl boyunca kaldıraçlı pozisyon tutmanın maliyetini gösterir."
+    },
+    {
+      "term": "Arbitraj (arb)",
+      "definition": "Mekanlar arasındaki fiyat farklarından (örn. Bitcoin'i bir borsadan satın almak ve diğerinde satmak) veya ürünler (spot ve vadeli işlemler) neredeyse risksiz kâr için yararlanma."
+    },
+    {
+      "term": "Otomatik Pazar Yapıcı (AMM)",
+      "definition": "Tüccarların bir emir defteri yerine likidite havuzuna karşı kripto paraları değiştirmesini sağlayan akıllı sözleşme. Merkezi olmayan finans'ta yoğun olarak kullanılır."
+    },
+    {
+      "term": "Bazis",
+      "definition": "Vadeli işlem sözleşmesinin fiyatı ile dayanak varlığın spot fiyatı arasındaki fark. Pozitif bazis (vadeli işlemler daha yüksek) arbitraj satışını teşvik eder."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Kaldıraçlı sözleşmelerde vadeli işlem fiyatlarını spot ile uyumlu tutmak için uzun ve kısa tüccarlar arasında takas edilen periyodik ücret. Pozitif oranlar uzun sürüşlerin kısalara (yükseliş duyarlılığı) ödediği anlamına gelir; negatif kısalın uzunlara (düşüş) ödediği anlamına gelir."
+    },
+    {
+      "term": "Katman 1 (L1)",
+      "definition": "Temel blokzincir ağı (örn. Bitcoin, Ethereum). Katman 2 (L2) çözümlerinden ayrılmıştır ve işlemleri maliyetleri azaltmak için toplar."
+    },
+    {
+      "term": "Kaldıraç / Kaldıraçlı pozisyon",
+      "definition": "Kendi paranızın izin verdiğinden daha büyük bir pozisyon kontrol etmek için sermaye borçlanması. 2x pozisyon, 1 dolar sermayenin 2 dolar değerinde bir varlığı kontrol ettiği anlamına gelir; kayıplar ve kazançlar iki katına çıkar."
+    },
+    {
+      "term": "Likidasyonu",
+      "definition": "Kayıplar teminat aşması yaplandığında kaldıraçlı bir pozisyonun otomatik zorunlu kapatılması ve işaret fiyatında tetiklenmesi. Likidasyonu basamağı, bir zorunlu satış diğerlerini tetiklediğinde meydana gelir."
+    },
+    {
+      "term": "Uzun/kısa oran",
+      "definition": "Fiyatın yükseleceğine bahis yapan (uzun) ve düşeceğine bahis yapanların (kısa) oranı. >1 daha fazla uzun anlamına gelir; <1 daha fazla kısa anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Vadeli işlem sözleşmesi için borsanın hesaplanan adil fiyatı, likidasyonları tetiklemek için kullanılır. Son işlem gören fiyattan hafif farklılık manipülasyonu önlemek için."
+    },
+    {
+      "term": "Net akış",
+      "definition": "Günlük ETF akışı eksi çıkışlar. Pozitif net akış (daha fazla satın alma) kurumsal güveni gösterir; negatif (satış) ihtiyatı gösterir."
+    },
+    {
+      "term": "Açık ilgi (OI)",
+      "definition": "Bir mekan arasında tüm tüccarlar arasında tüm doldurulmamış emirlerin toplam hayali değeri. Büyüme, tüccarların pozisyon eklediğini gösterir; küçülme onları kapattığını gösterir."
+    },
+    {
+      "term": "Açık ilgi değişikliği",
+      "definition": "Bir zaman dilimi sırasında OI'nin büyümesi veya küçülmesi. Tüccarların bina (ekleme) veya azaltma (kapanış) pozisyonları olup olmadığını gösterir."
+    },
+    {
+      "term": "Perpetual vadeli işlemler (perpetualler)",
+      "definition": "Spot fiyatı finansman oranları aracılığıyla yakından izleyen hiçbir zaman son bulunmayan kaldıraçlı sözleşme. Kripto borsalarında yaygın; yerleşim tarihi yok."
+    },
+    {
+      "term": "Spot fiyat",
+      "definition": "Anlık satın alma için mevcut pazar fiyatı. Nakit piyasadaki 'gerçek' fiyat (türevler fiyatlarının tersine)."
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "Gerçek Bitcoin veya Ethereum tutan değişim yatırım fonu (vadeli işlemler değil). ABD tarafından düzenlenen günlük şeffaflık ve kurumsal koruma ürünleriyle ürünler."
+    },
+    {
+      "term": "Staking",
+      "definition": "Kripto para birimi bir Proof-of-Stake ağına kilitlenmiş işlemleri doğrulamak ve getiri kazanmak. Stakerler blokzinciri güvence altına almada madencilerin yerini alır."
+    },
+    {
+      "term": "Tokenize hisse senetleri",
+      "definition": "Blokzincir jetonları olarak yayınlanan geleneksel şirket hisseleri, temettü ve oy haklarını korur. Genel blokzincirlerdeki akıllı sözleşmeler aracılığıyla 24/7 işlem görebilir."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Bir zaman diliminde yürütülen işlemlerin toplam hayali değeri, ABD milyonları olarak ifade edilir. Daha yüksek hacim genellikle daha sıkı alış-satış farkı ve daha derin likidite anlamına gelir."
+    },
+    {
+      "term": "Whipsaw",
+      "definition": "Hemen sonrasında bir tersine çevirme ile bir yönde ani keskin fiyat hareketi, tüccarları sıkıştırır ve stop-kayıpları tetikler."
+    }
+  ],
+  "_source": "cli-tr"
+}

@@ -1,0 +1,209 @@
+{
+  "oneLine": "比特币在81,140美元附近整理，以太坊上涨0.45%，机构资金向两种现货ETF净流入5.77亿美元。三项监管举措——美国SEC批准代币化股票、Visa关闭奖励漏洞，以及欧盟质押审查——重塑了合规格局，与Polymarket丑闻和更广泛的平台问题并行。",
+  "caveman": "9月20日，比特币（最大的虚拟钱）价格基本没变，还是在8万1千美元左右。以太坊（第二大的虚拟钱）涨了一点点，约0.45%。很多人把新的钱存进比特币和以太坊的投资基金——比特币进了4.33亿美元，以太坊进了1.44亿美元——这是个好信号。最重要的新闻是美国的金融管理部门（叫SEC）说公司现在可以把公司股票作为数字代币在网络上卖。这是个大改变。但同时，一个叫Polymarket的赌钱平台出了问题——坏人用偷来的信用卡试图偷10百万美元——公司的老板还叫员工别管这个问题，只管赚钱，这让管理部门很生气。Visa也说不再让人们在笑话币上赚奖励了。还有个叫ZetaChain的区块链项目决定关闭，搬到另一个区块链。总之：这一天价格很平静，但规则方面有很多动作——有好的事情（代币化股票），有坏的事情（Polymarket欺诈、公司不遵守规则），还有欧洲对质押奖励的疑问。没有可怕的，但规则方面很忙。",
+  "priceVolumeSummary": "五家交易所（币安、OKX、Bybit、Bitget、Gate）全天报价相同：比特币约81,140美元（下跌0.1%），以太坊约2,643美元（上涨0.45%）。币安两天交易量领先（比特币和以太坊各约78亿美元），其次是OKX的44亿美元（比特币）和62亿美元（以太坊）。",
+  "positioningSummary": "比特币资金费率在4.3%-11%年化范围内（中等看涨的持仓成本），未平仓头寸稳定在约225亿美元。以太坊资金费率类似（3%-11%），未平仓头寸小幅上升。在OKX上，比特币的多空比保持在1.03（多空平衡），而币安略偏空头0.94；以太坊在币安上多头压倒空头，比例为2.19。两种币都没有出现未平仓头寸大幅波动，表明交易者在窄幅整理的一天中持仓。",
+  "stocksSummary": "2026-09-20是周末——美国股市和亚洲现货交易所已关闭。币安期货永续合约在亚洲股票（合成的，非真实交易时段敞口）小幅上升：韩国科技股（SK海力士+0.87%，三星+1.07%），香港人工智能（MiniMax +1.93%，CSOP SK海力士2倍+1.84%），中国半导体（CXMT +3.1%）。美国半导体3倍杠杆永续合约（SOXL）跳升+3.33%，英特尔+3.13%。这些反映了对离线指数的投机定位——不是真正的市场开盘。",
+  "movers": [
+    {
+      "symbol": "SAGAUSDT",
+      "explanation": "SAGA暴涨50.7%（交易量1.409亿美元）。未发现明确的公开新闻催化剂；涨幅似乎由投机者或未经证实的社交信号驱动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "GUSDT",
+      "explanation": "G暴跌39.3%，成交量5.499亿美元。没有公开公告或新闻解释这次下跌。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTWUSDT",
+      "explanation": "BTW反弹26.8%（交易量7,830万美元）。没有可识别的新闻或事件与该涨幅相关。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国SEC批准五年期代币化股票交易豁免；Coinbase、Robinhood、Circle地位领先",
+        "what": "美国证券交易委员会正式批准美国公司股份作为区块链代币进行链上交易。代币化股份必须保留分红和投票权；可通过自动做市商24/7交易。Coinbase已拥有大部分所需功能，受益最大；Robinhood需增加股东权利；Circle从USDC结算需求中获利。该豁免有效期为五年可续期。",
+        "coins": "USDC, tokenized stocks (no ticker)",
+        "timeUTC": "2026-09-20 07:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say"
+      },
+      {
+        "headline": "Polymarket曝光1,000万美元欺诈案；CEO无视合规，告诉员工'以后再处理罚款'",
+        "what": "这个预测市场平台面临欺诈者在2月至2026年中期间使用被盗借记卡进行存款、投注和提现到无法追踪的账户的问题。支付处理商Checkout.com拒绝了超80%的Polymarket存款（相比行业规范的1%）认定为欺诈。CEO Shayne Coplan据报告对员工淡化了该事件，优先考虑用户增长而非合规。CFTC正在调查；监管机构将该事件标记为证据，显示风险文化不够谨慎。",
+        "coins": "n/a (prediction market)",
+        "timeUTC": "2026-09-20 09:00",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875"
+      },
+      {
+        "headline": "ZetaChain投票关闭第一层，将ZETA代币迁移到Solana区块链",
+        "what": "ZetaChain的治理投票（99.4%同意，58%参与）通过了退休第一层区块链并以1:1平价发行ZETA为Solana SPL代币的提议。不会铸造新代币；释放计划和持有者余额将保留。该团队将专注于其私有AI应用Anuma。第二次投票将指定关闭细节（余额快照块、提现指南）。",
+        "coins": "ZETA",
+        "timeUTC": "2026-09-20 11:38",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-09-20-zetachain-votes-to-shut-down-layer-1-network-and-move-zeta-to-solana-415878"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Visa关闭笑话币信用卡奖励漏洞；交易必须编码为加密货币",
+          "what": "笑话币购买过去在用于普通数字商品的商户代码下处理，允许持卡人赚取标准信用卡奖励（积分、现金返利）。Visa告诉支付处理商（包括Checkout.com）停止接受此分类，给予处理商在下周前的宽限期。笑话币购买现在将编码为加密货币交易，受标准加密货币商户规则约束。",
+          "coins": "Meme coins (no ticker)",
+          "timeUTC": "2026-09-20 08:54",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378697/visa-close-meme-coin-credit-card-rewards-loophole"
+        },
+        {
+          "headline": "欧盟MiCA审查威胁加密货币质押收益；咨询开放至9月30日",
+          "what": "欧盟委员会持续进行的《加密资产市场条例》(MiCA)审查包括一个问题（第66项，第36页），即质押服务监管是否充分。如果加强，新要求可能会削弱提供商收益并复杂化质押奖励收入。咨询截止日期为9月30日；目前尚未正式提出任何拟议的许可或资本要求。",
+          "coins": "All PoS assets (Ethereum, Solana, Cardano, etc.)",
+          "timeUTC": "2026-09-20 ~12:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币和以太坊现货ETF在9月20日录得5.77亿美元合并净流入",
+          "what": "美国现货比特币ETF出现4.3303亿美元净流入（Fidelity FBTC领导流入）；以太坊现货ETF吸引1.4380亿美元净流入。合计总额表明机构信心，尽管比特币日表现持平，以太坊涨幅温和。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-09-20 (published end-of-day)",
+          "source": "Farside Investors / SoSoValue",
+          "url": "https://farside.co.uk/btc/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Gemini股票从IPO下跌80%；收入和托管资产下降中市值跌至7.53亿美元",
+          "what": "这家加密交易所的估值从首次亮相时的约40亿美元跌至7.53亿美元。第二季度交易收入同比下跌38%至1,250万美元；现货交易量降至38亿美元；托管资产从182亿美元下降至84亿美元。虽然没有已知的积极出价，但这种下跌重新引发了收购猜测，潜在收购方看中Gemini的监管许可证、客户基础和托管基础设施。Winklevoss双胞胎的94.5%投票控制权可能会简化任何销售。",
+          "coins": "GEMI (stock ticker, not crypto)",
+          "timeUTC": "2026-09-20 08:48",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/20/gemini-s-stock-is-down-80-from-its-ipo-that-s-reviving-takeover-speculation"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "离岸比特币期货交易量自2021年以来下降97%；交易者转向永续合约和期权",
+          "what": "离岸场所上的传统期限比特币期货从2021年峰值水平跌落，反映的是结构性迁移而非突然崩盘。永续合约（永不过期的合约）已吸收大部分杠杆交易；期权日益处理对冲和下跌保护。到2026年1月，比特币期权未平仓头寸（741亿美元）首次超过期货（652亿美元），表明交易者偏好灵活衍生品而非期限合约。",
+          "coins": "BTC",
+          "timeUTC": "2026-09-20 (analysis, not breaking news)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/goodbye-futures-bitcoin-found-better-ways-to-trade/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-20",
+    "summary": "比特币现货ETF录得4.3303亿美元净流入；以太坊现货ETF吸引1.4380亿美元净流入。合计5.77亿美元流入反映机构买入兴趣。",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Swiss National Bank (SNB) Rate Decision (September 24, 07:30 UTC)",
+      "typicalReaction": "推动瑞郎和欧洲交叉汇率；通过全球套利交易对加密货币风险偏好的间接影响有限。"
+    },
+    {
+      "event": "U.S. Initial Jobless Claims (September 24, 12:30 UTC)",
+      "typicalReaction": "美国劳动力市场健康指标；弱势数据（更高数字）可能会吓唬增长敏感资产（包括加密货币）。"
+    },
+    {
+      "event": "Germany CPI Flash (September 29, 12:00 UTC)",
+      "typicalReaction": "影响欧洲通胀预期；强势CPI可能会延迟欧洲央行降息，紧缩金融条件。"
+    },
+    {
+      "event": "U.S. Personal Income and Outlays / PCE (September 30, 12:30 UTC)",
+      "typicalReaction": "美联储首选通胀指标；更高的PCE削弱了降息的理由，紧缩风险情绪和加密货币估值。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化百分比率(APR)",
+      "definition": "以百分比表示的年度成本或收益。此处报告的APR资金费率显示持有杠杆头寸一整年的成本。"
+    },
+    {
+      "term": "套利(arb)",
+      "definition": "利用不同交易所（例如，在一个交易所买入比特币，在另一个交易所卖出）或产品（现货 vs. 期货）之间的价格差异获得几乎无风险的利润。"
+    },
+    {
+      "term": "自动做市商(AMM)",
+      "definition": "一种智能合约，允许交易者通过流动性池而非订单簿交换加密货币。广泛用于去中心化金融。"
+    },
+    {
+      "term": "基差",
+      "definition": "期货合约价格与标的资产现货价格的差异。正基差（期货更高）鼓励套利抛售。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "在杠杆合约中多空交易者之间定期交换的费用，以保持期货价格与现货价格一致。正费率表示多头支付空头（看涨情绪）；负费率表示空头支付多头（看跌）。"
+    },
+    {
+      "term": "第一层(L1)",
+      "definition": "基础区块链网络（例如，比特币、以太坊）。与批量交易以降低成本的第二层(L2)解决方案不同。"
+    },
+    {
+      "term": "杠杆/杠杆头寸",
+      "definition": "借入资本以控制比自有现金更大的头寸。2倍头寸意味着1美元资本控制价值2美元的资产；损失和收益翻倍。"
+    },
+    {
+      "term": "清算",
+      "definition": "当损失超过担保品时自动强制平仓杠杆头寸，在标记价格处触发。当一次强制卖出触发其他卖出时，会发生清算级联。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升（多头）的交易者与押注价格下跌（空头）的交易者的比例。>1表示多头更多；<1表示空头更多。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所计算的期货合约公平价格，用于触发清算。与最后交易价格略有不同，以防止操纵。"
+    },
+    {
+      "term": "净流入",
+      "definition": "ETF的日流入减去流出。正净流入（更多买入）表明机构信心；负值（卖出）表明谨慎。"
+    },
+    {
+      "term": "未平仓头寸(OI)",
+      "definition": "交易所所有交易者所有未成交订单的总名义价值。增长显示交易者增加头寸；收缩显示他们平仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一段时间内OI的增长或收缩。表明交易者是在建立（增加）还是减少（平仓）头寸。"
+    },
+    {
+      "term": "永续期货(永续)",
+      "definition": "通过资金费率密切跟踪现货价格的永不过期的杠杆合约。在加密交易所很常见；没有结算日期。"
+    },
+    {
+      "term": "现货价格",
+      "definition": "当前即时购买的市场价格。现金市场中的'真实'价格（与衍生品价格相对）。"
+    },
+    {
+      "term": "现货ETF",
+      "definition": "持有实际比特币或以太坊（非期货）的交易所交易基金。美国监管产品，具有每日透明度和机构托管。"
+    },
+    {
+      "term": "质押",
+      "definition": "在权益证明网络中锁定加密货币以验证交易并获得收益。质押者取代矿工来保护区块链。"
+    },
+    {
+      "term": "代币化股票",
+      "definition": "作为区块链代币发行的传统公司股份，保留分红和投票权。可通过公共区块链上的智能合约24/7交易。"
+    },
+    {
+      "term": "交易量",
+      "definition": "一段时间内执行的交易的总名义价值，以百万美元表示。较高的交易量通常意味着更紧的买卖价差和更深的流动性。"
+    },
+    {
+      "term": "反向波动",
+      "definition": "价格突然向一个方向大幅波动，随后立即反向，措手不及地抓住交易者并触发止损。"
+    }
+  ],
+  "_source": "cli-zh"
+}
