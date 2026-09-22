@@ -1,0 +1,192 @@
+{
+  "oneLine": "比特币因技术面强势和空头回补而突破86,000美元，以太坊则伴随企业资金库购入和欧央行推出区块链结算基础设施而上涨。",
+  "caveman": "比特币上涨约7%至86,000美元，这是八个月来的最高价格。以太坊上涨约5%。这是因为做空的交易员被迫平仓，还有Strategy和Bitmine等大公司各购入数亿美元的比特币和以太坊。与此同时，欧洲银行开始使用一套新的电脑系统来交易数字债券。令人担忧的是，交易员借了太多钱来押注价格会继续上升——如果价格反转，就会造成严重损失。总的来说，这是激动人心但风险很大的一天。",
+  "priceVolumeSummary": "比特币和以太坊价格在所有主要交易所保持一致，波幅在数美元以内。币安领跑成交量：比特币日成交量达245亿美元，以太坊173亿美元。",
+  "positioningSummary": "融资费率保持高位，年化利率为6–11%，说明交易员在借贷投资以押注价格上涨。多空比例不一：比特币在OKX和币安分别为0.94和0.96，显示略微偏空头（交易员略微押注价格下跌），而以太坊则表现出强烈的多头偏好（交易员押注价格上涨），在币安尤其突出，多空比达到2.23。高融资费率加上不断增长的杠杆头寸表明交易员信心十足，但正在承担风险。",
+  "stocksSummary": "亚洲科技股大幅上涨：Samsung Electronics上涨7.9%，SK Hynix上涨2.6%，Zhipu AI在香港上涨11.2%。这些涨幅似乎与更广泛的半导体行业强势有关，而非这些公司在9月21日公布的公司特定消息。这些公司当日未公布任何负面消息。",
+  "movers": [
+    {
+      "symbol": "ZETAUSDT",
+      "explanation": "在新闻源中未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "FORMUSDT",
+      "explanation": "在新闻源中未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "PHAUSDT",
+      "explanation": "在新闻源中未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "空头平仓和杠杆增加推动比特币突破86,000美元",
+        "what": "比特币突破自8月以来的82,000美元阻力位后，涨至86,000美元，创下1月以来的最高价格。这一举动触发了约7.5亿美元的空头衍生品头寸平仓。然而，随后立即增加了约20亿美元的新杠杆衍生品头寸，这促使分析人士警惕现货市场需求是否足以支撑这一涨幅。",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-could-test-usd90-000-after-shorts-get-squeezed-but-traders-warn-leverage-is-building"
+      },
+      {
+        "headline": "欧央行推出Pontes平台，使用中央银行资金结算代币化资产",
+        "what": "欧洲中央银行部署了Pontes这一新系统，将其支付基础设施与基于区块链的金融市场相连。欧央行宣布将其部分储备投资于由政府和欧洲机构发行的以欧元计价的代币化证券，并以中央银行资金结算交易。计划于2028年实现全面部署。",
+        "coins": "Infrastructure / Digital Euro",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform"
+      },
+      {
+        "headline": "Bitmine以7,500万美元购入以太坊，机构权衡增加加密资产敞口",
+        "what": "最大的以太坊资金库公司Bitmine以当前市场价购入27,562枚ETH（约7,500万美元），使其总持仓达598万枚ETH，约占流通总量的4.9%。Bitmine董事长Tom Lee表示，机构在加密资产上的配置仍不足，并可能在年底前大幅增加敞口，他以以太坊自6月底以来上涨76%作为潜在催化剂。",
+        "coins": "Ethereum",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC (announced)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy在暂停三周后以7,600万美元恢复比特币购入",
+          "what": "Strategy在9月14–20周期间购入950枚比特币，约7,570万美元，在暂停三周后恢复购入。该公司的比特币总持仓现已达846,000枚BTC，价值约71.9亿美元，占2,100万枚比特币供应上限的4%以上。同期，Strategy还回购了1.74亿美元的自有优先股(STRC)。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-21 (announced)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week"
+        },
+        {
+          "headline": "Strive加快步伐，购入1,355枚比特币以实现年底资金库目标",
+          "what": "Strive增加1,355枚比特币，继续执行积累策略以定位自己为第二大公开比特币持有者。该公司仍专注于在年底前达成具体目标。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-21 (announced)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-21-strive-adds-1355-bitcoin-picks-up-pace-year-end-second-place-treasury-goal-415940"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coinbase向美国零售客户开放IPO一级市场配额，首个是Oura",
+          "what": "Coinbase宣布符合条件的美国客户可以申请以发行价获得即将上市公司的IPO配额，首个是Oura。这使Coinbase从二级股票交易扩展到一级资本市场。",
+          "coins": "Tokenized stocks / Equities",
+          "timeUTC": "2026-09-21",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-21-coinbase-opens-ipo-allocations-us-customers-starting-oura-415942"
+        },
+        {
+          "headline": "Circle为机构客户推出以比特币为担保的USDC借贷服务",
+          "what": "Circle使机构客户能够以比特币作为担保借入USDC，无需出售持仓。这为寻求美元流动性的加密资产持有者扩大了借贷选择。",
+          "coins": "Bitcoin, USDC",
+          "timeUTC": "2026-09-21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circle-launches-bitcoin-backed-usdc-borrowing-for-institutional-clients"
+        },
+        {
+          "headline": "Ondo使机构能够使用基础证券铸造代币化股票",
+          "what": "Ondo推出同类转换功能，允许批准的机构通过存入基础证券而非现金来创建和赎回代币化股票和ETF。这改进了代币化股权产品的运作机制。",
+          "coins": "Tokenized stocks",
+          "timeUTC": "2026-09-21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "加密业Fairshake PAC承诺投入3,000万美元反对Sherrod Brown的参议院竞选",
+          "what": "继参议院于9月15日否决《明确法案》后，数字资产行业的竞选委员会(Fairshake)宣布将投入3,000万美元反对俄亥俄州参议员Sherrod Brown参加2026年选举。这是该行业2026年最大的政治支出。",
+          "coins": "Political / Regulation",
+          "timeUTC": "2026-09-21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/21/crypto-s-fairshake-repeats-history-with-usd30-million-to-oppose-sherrod-brown-senate-bid"
+        },
+        {
+          "headline": "银行和离岸中心为何从《明确法案》失败中受益",
+          "what": "鉴于《明确法案》未能通过，专家指出反对稳定币收益功能的传统银行从该法案的失败中获益，而阿联酋迪拜等离岸加密司法管辖区则因美国监管仍不明确而获得竞争优势。",
+          "coins": "Policy / Stablecoins",
+          "timeUTC": "2026-09-21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美国股市因油价下跌和供应担忧而上涨",
+          "what": "9月21日，标普500指数（SPY ETF）上涨1.55%，纳斯达克综合指数（ONEQ ETF）上涨2.32%，受原油价格下跌支撑。WTI原油下跌3.6%，布伦特原油下跌2.7%，可能源于中东局势缓和。黄金上涨0.58%，美元指数(UUP)基本持平，仅上涨0.32%。",
+          "coins": "Macro / Stocks",
+          "timeUTC": "2026-09-21",
+          "source": "Twelve Data",
+          "url": "https://twelvedata.com"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Swiss National Bank (SNB) Rate Decision – Thu 24 Sept, 07:30 UTC",
+      "typicalReaction": "中等影响。中央银行利率决定通常会影响美元强弱和风险偏好；如果加息，交易员可能会提前减少加密资产头寸。"
+    },
+    {
+      "event": "Sweden Riksbank Rate Decision – Thu 24 Sept, 07:30 UTC",
+      "typicalReaction": "中等影响。北欧央行利率决定会影响欧元/美元汇率和更广泛的风险情绪。"
+    },
+    {
+      "event": "Norway Norges Bank Rate Decision – Thu 24 Sept, 08:00 UTC",
+      "typicalReaction": "中等影响。与其他北欧央行决定类似，可能会改变外汇市场和风险偏好。"
+    },
+    {
+      "event": "US Initial Jobless Claims – Thu 24 Sept, 12:30 UTC",
+      "typicalReaction": "中等影响。劳动力市场数据影响对未来美联储政策的预期；更弱的数据可能会支撑风险偏好并利好加密资产。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化百分比",
+      "definition": "表示年期内生效的利率。每8小时0.0001的融资费率，每天复合3次，相当于年化约10.95%。"
+    },
+    {
+      "term": "计价周期",
+      "definition": "用于计算加密资产日间或滚动价格变动的时间框架。'UTC日'指从00:00到23:59 UTC的时间段。'滚动24小时'指数据获取时的最近24小时窗口。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "使用杠杆（借贷资金）的交易员为其头寸支付的利息率。正融资费率意味着多头交易员向空头交易员支付，表明市场预期价格会上升。高融资费率（年化6%以上）表明过度杠杆和风险。"
+    },
+    {
+      "term": "平仓/强制平仓",
+      "definition": "当借贷资金无法再弥补亏损时，交易员头寸自动被强制卖出。这以交易所设定的价格进行，通常会造成损失，并在保证金要求被突破时立即发生。"
+    },
+    {
+      "term": "多头/多头头寸",
+      "definition": "押注价格会上升。'做多'的交易员拥有该加密资产，价格上升时获利。"
+    },
+    {
+      "term": "多空比例",
+      "definition": "押注价格上升的交易员（多头）与押注价格下跌的交易员（空头）的比例。比例1.1表示多头比空头多10%；比例0.94表示空头略多于多头。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所期货合约的当前交易价格，由最近的交易计算得出。用于确定交易员是否盈利。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "交易所当前开放的衍生品合约总数。价格上升时持仓量增加表明新的多头头寸在增加；持仓量下降表明头寸在平仓。"
+    },
+    {
+      "term": "空头/空头头寸",
+      "definition": "押注价格会下跌。'做空'的交易员在价格下跌时获利，价格上升时亏损。"
+    },
+    {
+      "term": "交易所/交易平台",
+      "definition": "买卖加密资产期货的交易平台。在本报告中，交易所包括币安、OKX、Bybit、Bitget和Gate。"
+    },
+    {
+      "term": "成交量",
+      "definition": "某个时期内执行的所有交易的总美元价值。高成交量表明交易活跃；低成交量表明流动性稀薄。"
+    }
+  ],
+  "_source": "cli-zh"
+}

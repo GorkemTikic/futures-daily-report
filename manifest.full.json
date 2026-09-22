@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-21T00:08:14.613Z",
-  "count": 96,
+  "generatedAt": "2026-09-22T00:06:04.872Z",
+  "count": 97,
   "counts": {
-    "total": 96,
-    "market": 9,
+    "total": 97,
+    "market": 10,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-20",
+  "latest": "2026-09-21",
   "reports": [
+    {
+      "date": "2026-09-21",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 6.720014986498601,
+        "ETH": 4.965840224554182
+      },
+      "marketSummary": "Bitcoin broke through $86,000 on technical strength and short covering, while Ethereum rallied alongside corporate treasury purchases and ECB's launch of blockchain settlement infrastructure.",
+      "oneLine": "Bitcoin broke through $86,000 on technical strength and short covering, while Ethereum rallied alongside corporate treasury purchases and ECB's launch of blockchain settlement infrastructure.",
+      "newsCount": 11,
+      "topMover": {
+        "symbol": "ZETAUSDT",
+        "chgPct": 41.64362905252577
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-21/summary_2026-09-21.html",
+        "pdf": "reports/2026-09-21/summary_2026-09-21.pdf",
+        "md": "reports/2026-09-21/summary_2026-09-21.md"
+      }
+    },
     {
       "date": "2026-09-20",
       "kind": "market",

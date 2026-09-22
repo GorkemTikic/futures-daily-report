@@ -1,0 +1,192 @@
+{
+  "oneLine": "Bitcoin teknik güç ve short pozisyon kapanışları ile $86,000'ı aştı, Ethereum ise kurumsal hazine alımları ve ECB'nin blockchain uzlaşma altyapısı başlatmasıyla birlikte rallisini sürdürdü.",
+  "caveman": "Bitcoin yaklaşık %7 arttı ve $86,000'e çıktı. Bu son sekiz ayın en yüksek fiyatı. Ethereum yaklaşık %5 yükseldi. Neden oldu bunca artış? Fiyatın düşeceğine bahis oynayan tüccarlar, kayıplarını kapatmak için zorunlu olarak satın almak zorunda kaldı. Aynı zamanda Strategy ve Bitmine gibi büyük şirketler yüz milyonlarca dolar Bitcoin ve Ethereum satın aldı. Bir de Avrupa bankaları yeni bir bilgisayar sistemi kullanmaya başladı - dijital tahvil ticareti için. Ama endişe edilen şey var: tüccarlar fiyat artışına bahis oynamak için çok fazla borç aldı. Fiyat geri çekilirse, ciddi kayıplar olur. Kısacası, heyecanlı ama riskli bir gün geçti.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları tüm büyük borsalarda tutarlı kaldı, birkaç dolar aralığında dalgalandı. Hacim açısından Binance öncü konumdaydı: gün içinde Bitcoin için $24,5 milyar ve Ethereum için $17,3 milyar.",
+  "positioningSummary": "Finansman oranları yüksekliğini korudu (%6–11 yıllık), tüccarların yüksek fiyatlara bahis oynamak için ağır şekilde borç aldığını gösteriyor. Long-to-short oranları karışık seyretti: Bitcoin, OKX'te 0.94 ve Binance'de 0.96 ile hafif short eğilimi gösterdi (tüccarlar düşüşe biraz daha çok bahis oynadı), Ethereum güçlü long eğilimi gösterdi (tüccarlar yükselişe bahis oynadı), özellikle Binance'de 2.23 oranında. Yüksek finansman maliyeti ve artan kaldıraç, tüccarların güven duyduğunu ama aynı zamanda ciddi risk aldığını gösteriyor.",
+  "stocksSummary": "Asya teknoloji hisseleri keskin şekilde yükseldi: Samsung Electronics %7.9 arttı, SK Hynix %2.6 arttı ve Hong Kong'da Zhipu AI %11.2 arttı. Bu hareketler, 21 Eylül'de açıklanan şirkete özgü haberlerden ziyade, daha geniş yarı iletken sektörünün genel gücüne bağlı görünüyor. Bu gün içinde bu firmalardan olumsuz hiçbir duyuru yayınlanmadı.",
+  "movers": [
+    {
+      "symbol": "ZETAUSDT",
+      "explanation": "Haber kaynaklarında belirli bir nedeni bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "FORMUSDT",
+      "explanation": "Haber kaynaklarında belirli bir nedeni bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "PHAUSDT",
+      "explanation": "Haber kaynaklarında belirli bir nedeni bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin $86,000'i kırıyor, short pozisyonlar tasfiye edilirken kaldıraç artıyor",
+        "what": "Bitcoin, Ağustos ayından beri direnç göstermesini sürdüren $82,000 seviyesini kırarak $86,000'e yükseldi. Bu, son altı ayın en yüksek fiyatı. Hareket, ayı pozisyonlarında yaklaşık $750 milyonlık tasfiye tetikledi. Ancak, hemen sonrasında taze kaldıraçlı pozisyonlara yaklaşık $2 milyar eklenince, analistler spot piyasasının ralliye yetebilip yetemeyeceği konusunda uyarıda bulundu.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-could-test-usd90-000-after-shorts-get-squeezed-but-traders-warn-leverage-is-building"
+      },
+      {
+        "headline": "ECB, merkez bankası parası kullanarak tokenleştirilmiş varlıkları uzlaştırmak için Pontes platformunu başlatıyor",
+        "what": "Avrupa Merkez Bankası, ödeme altyapısını blockchain tabanlı finansal piyasalara bağlayan yeni bir sistem olan Pontes'i devreye aldı. ECB, hükümetler ve Avrupa kurumları tarafından ihraç edilen euro cinsinden tokenleştirilmiş menkul kıymetlere yatırım yapacağını ve işlemleri merkez bankası parasıyla gerçekleştireceğini açıkladı. Tam uygulama 2028'e kadar planlanmaktadır.",
+        "coins": "Altyapı / Dijital Euro",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform"
+      },
+      {
+        "headline": "Bitmine, kurumlar kripto varlıklara artan ilgi gösterirken $75M Ethereum satın alıyor",
+        "what": "Ethereum odaklı en büyük hazine şirketi olan Bitmine, cari piyasa fiyatlarından 27,562 ETH (yaklaşık $75 milyon) satın aldı. Toplam varlıkları artık 5,98 milyon ETH veya dolaşımdaki arzın kabaca %4.9'u. Bitmine'ın başkanı Tom Lee, kurumların kripto varlıklarda hala yetersiz ağırlıklandırıldığını ve Ethereum'un son haziranından bu yana %76 kazancın potansiyel katalizör olacağını söyleyen kurumlar yıl sonuna kadar varlık kayması yapabileceklerini belirtti.",
+        "coins": "Ethereum",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC (açıklama tarihi)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy, üç haftalık ara sonrası $76M alımla Bitcoin satın almaya geri dönüyor",
+          "what": "Strategy, 14–20 Eylül haftasında yaklaşık $75,7 milyon tutarında 950 Bitcoin satın aldı ve üç haftalık satın alma arasından sonra yeniden başladı. Şirketin Bitcoin varlıkları artık yaklaşık $71,9 milyar değerindeki 846,000 BTC'ye ulaştı. Bu, 21 milyon Bitcoin arz sınırının %4'ünden fazlasını temsil ediyor. Strategy aynı dönemde kendi tercih edilen hisselerinin (STRC) $174 milyonluk geri satın alımını da gerçekleştirdi.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-21 (açıklama tarihi)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week"
+        },
+        {
+          "headline": "Strive, 1,355 Bitcoin alımıyla yıl sonu hedefine doğru hızlanıyor",
+          "what": "Strive, kendisini ikinci en büyük halka açık Bitcoin sahibi olarak konumlandırma stratejisini sürdürmek amacıyla 1,355 Bitcoin ekledi. Şirket yıl sonundan önce belirli bir hedefe ulaşmaya odaklanmaya devam ediyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-21 (açıklama tarihi)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-21-strive-adds-1355-bitcoin-picks-up-pace-year-end-second-place-treasury-goal-415940"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coinbase, ABD perakende müşterilerine Oura ile başlayan birincil piyasa halka arzı tahsisi açıyor",
+          "what": "Coinbase, uygun ABD müşterilerinin teklif fiyatından yaklaşan halka arzlara tahsis talebinde bulunabileceğini açıkladı. İlki Oura olacak. Bu, Coinbase'in rolünü ikincil hisse senedi ticaretinden birincil sermaye piyasalarına genişletiyor.",
+          "coins": "Tokenleştirilmiş hisseler / Hisse Senetleri",
+          "timeUTC": "2026-09-21",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-21-coinbase-opens-ipo-allocations-us-customers-starting-oura-415942"
+        },
+        {
+          "headline": "Circle, kurumsal müşteriler için Bitcoin teminatlı USDC kredisi başlatıyor",
+          "what": "Circle, kurumsal müşterilerin varlıklarını satmadan Bitcoin teminatı karşılığında USDC borç almalarını sağladı. Bu, kripto sahipleri için dolar likidite arayan kişiler için kredi seçeneklerini genişletiyor.",
+          "coins": "Bitcoin, USDC",
+          "timeUTC": "2026-09-21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circle-launches-bitcoin-backed-usdc-borrowing-for-institutional-clients"
+        },
+        {
+          "headline": "Ondo, kurumların temeldeki menkul kıymetleri kullanarak tokenleştirilmiş hisseler basmasına izin veriyor",
+          "what": "Ondo, onaylı kurumların temeldeki menkul kıymetleri depo ederek nakit yerine tokenleştirilmiş hisseler ve ETF'ler yaratmalarına ve geri almalarına izin veren ayni dönüştürmeyi tanıttı. Bu, tokenleştirilmiş özsermaye ürünlerinin mekaniklerini iyileştiriyor.",
+          "coins": "Tokenleştirilmiş hisseler",
+          "timeUTC": "2026-09-21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Kripto endüstrisinin Fairshake PAC'ı, Sherrod Brown'ın Senato aday adaylığına karşı $30 milyon harcamayı taahhüt ediyor",
+          "what": "Senat'ın 15 Eylül'de Clarity Act'i reddetmesinin ardından, dijital varlık endüstrisinin kampanya komitesi (Fairshake), Ohio Senatörü Sherrod Brown'a karşı 2026 seçimlerinde $30 milyon harcama yapacağını açıkladı. Bu, endüstrinin 2026 için en büyük siyasi harcaması.",
+          "coins": "Politika / Düzenleme",
+          "timeUTC": "2026-09-21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/21/crypto-s-fairshake-repeats-history-with-usd30-million-to-oppose-sherrod-brown-senate-bid"
+        },
+        {
+          "headline": "Bankalar ve açık deniz merkezleri Clarity Act'in Senato yenilgisinden neden yararlanıyor?",
+          "what": "Clarity Act geçmesiz kalmasıyla, uzmanlar, ürün getirilerine karşı çıkan geleneksel bankaların faturanın yenilgisinden yararlandığını, Dubai gibi açık deniz kripto yetki alanlarının ABD düzenlemesi net kalırken rekabet avantajı kazandığını belirtti.",
+          "coins": "Politika / İstikrarlı Paralar",
+          "timeUTC": "2026-09-21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD hisse senedi piyasaları, petrol fiyatı düşüşü ve arz endişeleriyle rallisini sürdürüyor",
+          "what": "S&P 500 (SPY ETF) 21 Eylül'de %1.55 kazandı ve Nasdaq Composite (ONEQ ETF) %2.32 yükseldi. Hareketler, düşen ham petrol fiyatlarıyla desteklendi. WTI Crude %3.6 düştü ve Brent Crude %2.7 geriledi. Bunun nedeni muhtemelen Ortadoğu'daki gerilimin hafiflemesi. Altın %0.58 arttı, ABD Dolar Endeksi (UUP) ise +0.32'de hemen hemen değişmedi.",
+          "coins": "Makro / Hisse Senetleri",
+          "timeUTC": "2026-09-21",
+          "source": "Twelve Data",
+          "url": "https://twelvedata.com"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Swiss National Bank (SNB) Rate Decision – Thu 24 Sept, 07:30 UTC",
+      "typicalReaction": "Orta seviye etki. Merkez bankası faiz kararları genel olarak dolar gücü ve risk iştahını etkiler; faiz artışı beklentisi varsa tüccarlar kripto pozisyonlarını azaltabilirler."
+    },
+    {
+      "event": "Sweden Riksbank Rate Decision – Thu 24 Sept, 07:30 UTC",
+      "typicalReaction": "Orta seviye etki. İskandinav merkez bankası faiz kararları euro/dolar paritesini ve daha geniş risk duygusunu etkiler."
+    },
+    {
+      "event": "Norway Norges Bank Rate Decision – Thu 24 Sept, 08:00 UTC",
+      "typicalReaction": "Orta seviye etki. Diğer İskandinav merkez bankası kararlarına benzer şekilde, döviz piyasalarını ve risk iştahını etkileyebilir."
+    },
+    {
+      "event": "US Initial Jobless Claims – Thu 24 Sept, 12:30 UTC",
+      "typicalReaction": "Orta seviye etki. İşgücü piyasası verileri, gelecekteki Federal Rezerv politikasına ilişkin beklentileri etkiler. Daha düşük işsizlik başvuruları risk iştahını destekleyebilir ve kripto varlıklara fayda sağlayabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış yüzde",
+      "definition": "Bir tam yıl boyunca uygulanmış gibi ifade edilen oran. Örnek: 8 saatlik dönem başına 0.0001 olan bir finansman oranı, günde 3 kez hesaplandığında yaklaşık %10.95 yıllıklandırılmış orana denk gelir."
+    },
+    {
+      "term": "Zaman tabanı (basis)",
+      "definition": "Bir kripto varlığın günlük veya dönem fiyat hareketini hesaplamak için kullanılan zaman çerçevesi. 'UTC-gün' 00:00'dan 23:59 UTC'ye kadar olan dönemi ifade eder. 'Dönem-24s' veri çekildiği anda geçen son 24 saatlik pencereyi ifade eder."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Kaldıraç kullanan (borç alan) tüccarların pozisyonlarını finanse etmek için ödediği faiz oranı. Pozitif bir finansman oranı ayı tüccarların boğa tüccarlarına ödediği anlamında gelir ve piyasanın fiyatın yükselmesini beklediğini gösterir. Yüksek finansman oranları (%6'nın üzerinde yıllıklandırılmış) aşırı kaldıraç ve riski gösterir."
+    },
+    {
+      "term": "Tasfiye (liquidation)",
+      "definition": "Ödünç alınan fonlar kayıpları artık karşılayamadığında, bir tüccarın pozisyonunun otomatik zorunlu satışı. Bu, borsa tarafından belirlenen fiyattan gerçekleşir, çoğunlukla zararla, ve marj gereksinimi ihlal edildiğinde anında meydana gelir."
+    },
+    {
+      "term": "Long / Long pozisyon",
+      "definition": "Fiyatın yükseleceğine bahis. 'Long' pozisyonda olan bir tüccar, kripto varlığına sahip olur ve fiyat yükselirse kâr eder."
+    },
+    {
+      "term": "Long-to-short oranı",
+      "definition": "Fiyatın yükseleceğine bahis oynayan tüccarlar (long) ile düşeceğine bahis oynayan tüccarlar (short) arasındaki oran. 1.1 oranı, long pozisyonların short pozisyonlardan %10 daha fazla olduğu anlamında; 0.94 oranı ise short pozisyonların biraz daha fazla olduğu anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı (mark price)",
+      "definition": "Bir borsada vadeli işlem sözleşmesinin cari ticaret fiyatı, son işlemlerden hesaplanır. Tüccarların kârlı olup olmadığını belirlemek için kullanılır."
+    },
+    {
+      "term": "Açık pozisyon faiz hacmi (open interest)",
+      "definition": "Bir borsada şu anda açık olan türev sözleşmelerin toplam sayısı. Artan açık faiz ve artan fiyat, yeni boğa pozisyonlarının eklendiğini gösterir; düşen açık faiz, pozisyonların kapandığını gösterir."
+    },
+    {
+      "term": "Short / Short pozisyon",
+      "definition": "Fiyatın düşeceğine bahis. 'Short' pozisyonda olan bir tüccar, fiyat düşerse kâr eder ve yükselirse zarar eder."
+    },
+    {
+      "term": "Borsa / Platform",
+      "definition": "Kripto vadeli işlemlerin alıp satıldığı ticaret platformu. Bu raporda, borsalar Binance, OKX, Bybit, Bitget ve Gate'tir."
+    },
+    {
+      "term": "İşlem hacmi (volume)",
+      "definition": "Bir dönem içinde gerçekleştirilen tüm işlemlerin toplam dolar değeri. Yüksek hacim aktif ticareti gösterir; düşük hacim ince likiditeyi gösterir."
+    }
+  ],
+  "_source": "cli-tr"
+}

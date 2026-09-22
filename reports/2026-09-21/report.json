@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-21",
+  "kind": "market",
+  "dateLong": "Monday, 21 September 2026",
+  "coversUTC": "2026-09-21 00:00–23:59 UTC",
+  "oneLine": "Bitcoin broke through $86,000 on technical strength and short covering, while Ethereum rallied alongside corporate treasury purchases and ECB's launch of blockchain settlement infrastructure.",
+  "newsCount": 11,
+  "macro": {
+    "BTC": 6.720014986498601,
+    "ETH": 4.965840224554182
+  },
+  "topMover": {
+    "symbol": "ZETAUSDT",
+    "chgPct": 41.64362905252577
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "22 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

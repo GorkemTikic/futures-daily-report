@@ -1,0 +1,192 @@
+{
+  "oneLine": "Bitcoin broke through $86,000 on technical strength and short covering, while Ethereum rallied alongside corporate treasury purchases and ECB's launch of blockchain settlement infrastructure.",
+  "caveman": "Bitcoin jumped about 7% to $86,000, its highest price in eight months. Ethereum rose about 5%. This happened because traders betting the price would go down were forced to buy to close losing positions, and big companies like Strategy and Bitmine bought hundreds of millions in Bitcoin and Ethereum. At the same time, European banks started using a new computer system to trade digital versions of bonds. The worry is that traders borrowed too much money to bet on continued gains—if the price reverses, it could hurt badly. Overall it was an exciting but risky day.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices were consistent across all major venues, staying within a few dollars. Binance led by volume: $24.5 billion for Bitcoin and $17.3 billion for Ethereum during the day.",
+  "positioningSummary": "Funding rates remained elevated at 6–11% annualized, showing traders were borrowing heavily to bet on higher prices. Long-to-short ratios were mixed: Bitcoin showed a slight short bias (traders betting down slightly) on OKX at 0.94 and Binance at 0.96, while Ethereum showed strong long bias (traders betting up), especially on Binance at 2.23. High funding combined with growing leverage suggests traders are confident but taking on risk.",
+  "stocksSummary": "Asian tech stocks moved sharply higher: Samsung Electronics up 7.9%, SK Hynix up 2.6%, and Zhipu AI up 11.2% in Hong Kong. These moves appear tied to broader semiconductor sector strength rather than company-specific news announced on Sept 21. No negative announcements were published by these firms on the day.",
+  "movers": [
+    {
+      "symbol": "ZETAUSDT",
+      "explanation": "No clear public cause identified in news sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "FORMUSDT",
+      "explanation": "No clear public cause identified in news sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "PHAUSDT",
+      "explanation": "No clear public cause identified in news sources.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin breaks $86,000 as short positions liquidate and leverage builds",
+        "what": "Bitcoin rallied to $86,000, the highest price since January, after breaking through the $82,000 resistance level that had held since August. The move triggered approximately $750 million in liquidations of bearish derivative positions. However, about $2 billion in fresh leveraged derivatives positions were added immediately after, prompting caution from analysts about whether spot market demand can sustain the rally.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-could-test-usd90-000-after-shorts-get-squeezed-but-traders-warn-leverage-is-building"
+      },
+      {
+        "headline": "ECB launches Pontes platform to settle tokenized assets using central bank money",
+        "what": "The European Central Bank deployed Pontes, a new system that connects its payment infrastructure to blockchain-based financial markets. The ECB announced it will invest a portion of its reserves into euro-denominated tokenized securities issued by governments and European institutions, settling transactions in central bank money. Full implementation is planned by 2028.",
+        "coins": "Infrastructure / Digital Euro",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform"
+      },
+      {
+        "headline": "Bitmine buys $75M of Ethereum as institutions weigh increased crypto exposure",
+        "what": "Bitmine, the largest Ethereum-focused treasury company, purchased 27,562 ETH (approximately $75 million) at current market rates, bringing total holdings to 5.98 million ETH or roughly 4.9% of circulating supply. Bitmine's chairman Tom Lee stated that institutions remain underweight on crypto and could substantially increase exposure by year-end, citing Ethereum's 76% gain since late June as a potential catalyst.",
+        "coins": "Ethereum",
+        "timeUTC": "2026-09-21 00:00–24:00 UTC (announced)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy returns to Bitcoin buying with $76M purchase after three-week pause",
+          "what": "Strategy purchased 950 Bitcoin for approximately $75.7 million during the week of September 14–20, resuming buying after a three-week pause. The company's Bitcoin holdings now total 846,000 BTC worth approximately $71.9 billion, representing over 4% of the 21 million Bitcoin supply cap. Strategy also repurchased $174 million of its own preferred shares (STRC) during the same period.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-21 (announced)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week"
+        },
+        {
+          "headline": "Strive picks up pace toward year-end treasury goal with 1,355 Bitcoin purchase",
+          "what": "Strive added 1,355 Bitcoin, continuing its accumulation strategy toward positioning itself as the second-largest public Bitcoin holder. The company remains focused on reaching a specific target before year-end.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-21 (announced)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-21-strive-adds-1355-bitcoin-picks-up-pace-year-end-second-place-treasury-goal-415940"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coinbase opens primary market IPO allocations to US retail customers starting with Oura",
+          "what": "Coinbase announced that eligible US customers can request allocation to upcoming IPOs at the offering price, beginning with Oura. This expands Coinbase's role from secondary stock trading into the primary capital markets.",
+          "coins": "Tokenized stocks / Equities",
+          "timeUTC": "2026-09-21",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-21-coinbase-opens-ipo-allocations-us-customers-starting-oura-415942"
+        },
+        {
+          "headline": "Circle launches Bitcoin-backed USDC lending for institutional clients",
+          "what": "Circle enabled institutional clients to borrow USDC against Bitcoin collateral without selling their holdings. This expands lending options for crypto holders seeking dollar liquidity.",
+          "coins": "Bitcoin, USDC",
+          "timeUTC": "2026-09-21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circle-launches-bitcoin-backed-usdc-borrowing-for-institutional-clients"
+        },
+        {
+          "headline": "Ondo enables institutions to mint tokenized stocks using underlying securities",
+          "what": "Ondo introduced in-kind conversion, allowing approved institutions to create and redeem tokenized stocks and ETFs by depositing the underlying securities rather than cash. This improves the mechanics of tokenized equity products.",
+          "coins": "Tokenized stocks",
+          "timeUTC": "2026-09-21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Crypto's Fairshake PAC commits $30 million against Sherrod Brown's Senate bid",
+          "what": "Following the Senate's rejection of the Clarity Act on September 15, the digital-asset industry's campaign committee (Fairshake) announced $30 million in spending against Ohio Senator Sherrod Brown in the 2026 election. This is the industry's largest political spending for 2026.",
+          "coins": "Political / Regulation",
+          "timeUTC": "2026-09-21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/21/crypto-s-fairshake-repeats-history-with-usd30-million-to-oppose-sherrod-brown-senate-bid"
+        },
+        {
+          "headline": "Why banks and offshore hubs gain from Clarity Act's Senate defeat",
+          "what": "With the Clarity Act failing to pass, experts noted that traditional banks opposing stablecoin yield features benefited from the bill's defeat, while offshore crypto jurisdictions like Dubai gain a competitive advantage as US regulation remains unclear.",
+          "coins": "Policy / Stablecoins",
+          "timeUTC": "2026-09-21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US equity markets rally on oil price decline and supply concerns",
+          "what": "The S&P 500 (SPY ETF) gained 1.55% and Nasdaq Composite (ONEQ ETF) rose 2.32% during Sept 21, supported by falling crude oil prices. WTI Crude declined 3.6% and Brent Crude dropped 2.7%, likely due to easing Middle East tensions. Gold rose 0.58% while the US Dollar Index (UUP) was essentially flat at +0.32%.",
+          "coins": "Macro / Stocks",
+          "timeUTC": "2026-09-21",
+          "source": "Twelve Data",
+          "url": "https://twelvedata.com"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Swiss National Bank (SNB) Rate Decision – Thu 24 Sept, 07:30 UTC",
+      "typicalReaction": "Medium impact. Central bank interest-rate decisions typically affect dollar strength and risk appetite; traders may reduce crypto positions ahead if rates are raised."
+    },
+    {
+      "event": "Sweden Riksbank Rate Decision – Thu 24 Sept, 07:30 UTC",
+      "typicalReaction": "Medium impact. Nordic central bank rate decisions influence euro/dollar pairs and broader risk sentiment."
+    },
+    {
+      "event": "Norway Norges Bank Rate Decision – Thu 24 Sept, 08:00 UTC",
+      "typicalReaction": "Medium impact. Similar to other Nordic central bank decisions, can shift currency markets and risk appetite."
+    },
+    {
+      "event": "US Initial Jobless Claims – Thu 24 Sept, 12:30 UTC",
+      "typicalReaction": "Medium impact. Labor-market data affects expectations for future Federal Reserve policy; weaker claims could support risk appetite and benefit crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized percentage",
+      "definition": "A rate expressed as if it applied for one full year. A funding rate of 0.0001 per 8-hour period, compounded 3 times daily, equals approximately 10.95% annualized."
+    },
+    {
+      "term": "Basis",
+      "definition": "The timeframe used to calculate a coin's daily or rolling price movement. 'UTC-day' means the period from 00:00 to 23:59 UTC. 'Rolling-24h' means the most recent 24-hour window at the time the data was fetched."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "An interest rate that traders using leverage (borrowed money) pay to fund their positions. A positive funding rate means bullish traders pay bearish traders, indicating the market expects price to go higher. High funding rates (above 6% annualized) suggest excessive leverage and risk."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "An automatic forced sale of a trader's position when borrowed funds can no longer cover losses. This happens at the price set by the exchange, often at a loss, and occurs instantly when the margin requirement is breached."
+    },
+    {
+      "term": "Long / Long position",
+      "definition": "A bet that the price will go up. A trader who is 'long' owns the coin and profits if price rises."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The proportion of traders betting price will go up (long) versus traders betting it will go down (short). A ratio of 1.1 means 10% more longs than shorts; a ratio of 0.94 means slightly more shorts than longs."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The current trading price of a futures contract on an exchange, calculated from recent trades. Used to determine whether traders are profitable."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of currently open derivatives contracts on an exchange. Rising open interest with rising price suggests new bullish positions are being added; falling open interest suggests positions are closing."
+    },
+    {
+      "term": "Short / Short position",
+      "definition": "A bet that the price will go down. A trader who is 'short' profits if price falls and loses if it rises."
+    },
+    {
+      "term": "Venue / Exchange",
+      "definition": "A trading platform where crypto futures are bought and sold. In this report, the venues are Binance, OKX, Bybit, Bitget, and Gate."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar value of all trades executed during a period. High volume indicates active trading; low volume suggests thin liquidity."
+    }
+  ],
+  "_source": "cli"
+}
