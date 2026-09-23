@@ -1,216 +1,131 @@
 {
-  "oneLine": "Bitcoin ve Ethereum, 22 Eylül'de %0,5 oranında düştü; petrol fiyatlarının düşüşü enflasyon kaygılarını hafifletirken, büyük kurumsal anlaşmalar ve yasal açıklıklar kripto altyapısını yeniden şekillendirdi.",
-  "caveman": "Bitcoin ve Ethereum'un değerleri 22 Eylül'de biraz düştü (her biri yarım yüzde kadar). Fiyatlar düştü çünkü petrol ucuzlaştı—bu da insanların paralarının değer kaybedeceğinden daha az endişelenmesi anlamına geliyor, ki Bitcoin için iyi bir şey. Çoğu trader fiyatların daha düşük seviyelere gidebileceğini düşünüyor (ihtiyatlı pozisyon) ve bazıları bu pozisyonlarını kapattı. En büyük haber, CME adlı büyük bir ABD ticaret şirketinin insanlara Bitcoin Cash'e bahis oynama imkanı vermeye başlayacağını duyurması oldu ve bunun sonucu Bitcoin Cash'in değeri çok yükseldi. Beş büyük Kanada bankası da blockchain teknolojiyle dijital para yapmak için birlikte çalışacaklarını söylediler. Bu normal, sakin bir gündü—hiçbir büyük kriz yok, hiçbir çılgın fiyat değişikliği yok.",
-  "priceVolumeSummary": "Bitcoin ve Ethereum, %0,47–0,49 oranında düştü; beş ana borsa (Binance, Bybit, OKX, Bitget, Gate) fiyat konusunda yakın anlaşmadaydı. Binance, BTC işlem hacminde başı çekerek $14,6 milyar ile öncü konumdaydı; OKX, Gate ve Bybit benzer aralıkta izleyici oldu, bu da borsalarda sağlıklı likidite olduğunu gösterdi.",
-  "positioningSummary": "Finansman oranları karışık haldeydi: Bybit'in Bitcoin oranı yıllık %9,99 oranında yüksekti, ancak Binance'in oranı negatif (-0,12%) oldu, bu da trader'ların yükselen fiyat konusunda hemfikir olmadığını gösteriyordu. Binance'in Bitcoin vadeli işlemleri üzerinde açık pozisyonlar %2,74 düştü, bu da bazı pozisyonların kapatılmakta olduğunu gösterdi. Çoğu borsada uzun-kısa oranları kısa pozisyonlar lehine idi (Binance 0,904, OKX Bitcoin üzerinde 0,96), genel olarak ihtiyatlı bir duyguyu yansıtıyordu.",
-  "stocksSummary": "Asya piyasaları 22 Eylül UTC'de karışık açıldı. Kore hisse senetleri yükseldi: SK Hynix %1,6 arttı ve Samsung Electronics %3,4 kazandı; KOSPI endeksi %0,84 yükselişle, muhtemelen Nasdaq'taki güç (+%0,45) ve yarı iletken talebini takip ederek. Hong Kong daha keskin düşüşlerle karşı karşıya kaldı: Zhipu AI %12,98 düştü ve MiniMax %6,61 düştü, bu yapay zeka oyunlarından uzaklaşmayı gösteriyordu. ABD hisse senetleri bölündü: Nasdaq %0,45 yükseldi ve S&P 500 %0,015 düştü (sabit). Emtia piyasaları düştü: WTI ham petrol %4,17 düştü; küresel enflasyon kaygılarını hafiflettti.",
+  "oneLine": "22 Eylül'de Bitcoin ve Ethereum küçük kayıplar kaydederken Asya teknoloji hisseleri keskin düşüşler yaşadı; düzenleyici kurumlar risk uyarıları ve onaylar yayınladı.",
+  "caveman": "22 Eylül günü en büyük iki kripto para kötü bir gün geçirdi. Bitcoin yüzde yarım düştü, Ethereum yüzde dörtte üç düştü. Tüccarlar endişeliydi—korku-açgözlülük ölçeği \"aşırı açgözlülükten\" sadece \"açgözlülüğe\" indi. Birçok tüccar yeni pozisyon almak yerine pozisyonlarını kapattı, bu yüzden toplam açık pozisyonlar azaldı. Asya'da Güney Kore ve Hong Kong'daki teknoloji şirketleri çok kötü bir gün yaşadı, yüzde birkaç kayıp verdiler. Bu arada ABD devlet kurumları bazı uyarılar yayınladı: CFTC tahmin piyasası sözleşmelerinin manipüle edilebileceğini uyardı, SEC bir ticaret şirketine uyarılmalarına rağmen güvenlik sorunlarını düzeltmemesi nedeniyle ceza verdi. Bir kripto yatırım firması diğer kripto şirketlerine 300 milyon dolar kredi vermeyi planladığını duyurdu. Gün sakin geçti—çöküş olmadı—ama insanlar kesinlikle daha kaygılıydı.",
+  "priceVolumeSummary": "Bitcoin beş büyük borsada 84.313–84.327 dolar aralığında sıkı bir şekilde toplanırken, Binance 14,6 milyar USD hacim ile öncü konumdadır. Ethereum benzer şekilde 2.671–2.672 dolar civarında sıkı bir anlaşma gösterirken, Binance toplam 29,8 milyar dolarlık borsa hacminin 10,1 milyar dolarını oluşturmaktadır.",
+  "positioningSummary": "Finansman oranları değişkenlik göstermiştir: Bitget uzun pozisyonlar için yüzde 0,82 annüalize borçlanma ödülü sunmuş, Binance, OKX ve Bybit ise küçük negatif oranlar uygulamıştır (sırasıyla yüzde –1,68, –2,10, –1,14), hafif nötr ila düşüş eğilimini göstermektedir. Açık pozisyonlar önemli ölçüde azalmıştır, özellikle Binance'de (Bitcoin için yüzde –2,74), tüccarların yeni bahisler açmak yerine pozisyonları kapattıklarını göstermektedir. Uzun/kısa hesap oranları değişmektedir: OKX tüccarları uzun pozisyonları tercih etmiş (Bitcoin'de her kısa pozisyona 1,14 uzun pozisyon), Binance ise daha fazla kısa pozisyon göstermiş (her kısa pozisyona 0,90 uzun pozisyon), yön hakkında anlaşmazlığı göstermektedir.",
+  "stocksSummary": "Asya hisse senetleri geniş ölçüde geri çekilmiş: Güney Kore'nin SK Hynix yüzde 4,68 düşmüş, Samsung Electronics yüzde 2,14 düşmüş, Hong Kong'daki Zhipu AI (yapay zeka şirketi) yüzde 14,46 düşmüş ve MiniMax yüzde 8,07 düşmüş—yatırımcıların teknoloji hisse senetlerinden kaçışını göstermektedir. ABD küçük hacimli teknoloji hisse senetleri kayıplar aldı (KORU yüzde –9,48, SHAZ yüzde –7,70). Enerji türevleri daha geniş düşüşün tersine döndü: WTI ham petrol yüzde 3,31 yükselmiş, Brent yüzde 4,06 yükselmiş, değerli metaller ise düşmüş (altın yüzde –1,65, gümüş yüzde –3,93, platin yüzde –4,26).",
   "movers": [
     {
-      "symbol": "BCH",
-      "explanation": "Bitcoin Cash, CME Group'un 22 Eylül'de Ekim 19'da düzenlenmiş Bitcoin Cash ve Uniswap vadeli işlemleri başlatacağını (düzenleme incelemesine bağlı) duyurmasından sonra %29,3 oranında yükseldi. Duyuru, kurumsal ilgiyi bu altcoin'e çekti ve geleneksel finansmanın BCH'yi önemli bir türev olarak tanımasını gösterdi.",
-      "hasCause": true
-    },
-    {
-      "symbol": "NIL",
-      "explanation": "NIL, $80 milyon hacimle %19,5 oranında kazandı, ancak hareketle ilişkili hiçbir büyük haber veya duyurulan tetikleyici yoktu. Token, tier-2 ve düşük likidite kaldı.",
+      "symbol": "TAKE",
+      "explanation": "TAKE 24 saatlik ticarette yüzde 58,7 yükselmiş ve 22 Eylül oturumunda yüzde 2,77 ek kazanç kaydetmiştir. Düzenleyici dosyalarda veya haberlerde açık bir neden tanımlanmamıştır; perakende akını veya küçük hacimli oynaklık mümkün olabilir.",
       "hasCause": false
     },
     {
-      "symbol": "龙虾",
-      "explanation": "Token, pozitif bir 24 saatlik pencereye rağmen %40,4 düştü, bu da keskin bir oturum sonu satışını veya tasfiye olayını gösteriyordu. Hareketin açık hiçbir haberi olmadı.",
+      "symbol": "SAGA",
+      "explanation": "SAGA 24 saatte yüzde 28,8 yükselmiş ve gün içinde yüzde 2,94 kazanç kaydetmiştir. Hareketi açıklayan onaylanmış bir haber bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MUBARAK",
+      "explanation": "MUBARAK gün içi yüzde 79,7 pompasına rağmen 24 saatte yüzde 31,2 çökmüş—olası tasfiye kademesi veya gün içi momentumun tersine dönüşünü göstermektedir. Tanımlanmış genel duyuru veya haber yok.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "CME, Bitcoin Cash ve Uniswap vadeli işlemlerini başlatıyor",
-        "what": "CME Group, nakit ödenmiş Bitcoin Cash ve Uniswap vadeli işlem sözleşmelerini duyurdu ve başlatılması Ekim 19'da planlanan (düzenleme incelemesine bağlı). Bu hamle CME'nin kripto türevlerinde devam eden genişlemesini göstermektedir; hem standart hem de Mikro sözleşmeleri (250 ve 25 BCH; 10.000 ve 1.000 UNI) sunmaktadır. Bitcoin Cash yanıt olarak ~%29 yükseldi.",
-        "coins": "BCH, UNI",
-        "timeUTC": "2026-09-22 ~07:22 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-22-cme-adds-bitcoin-cash-and-uniswap-futures-as-crypto-derivatives-push-grows-416049"
+        "headline": "CFTC, 'söylenti piyasası' tahmin sözleşmelerinin manipülasyon riskinin yüksek olduğu konusunda uyarı yayınladı",
+        "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC) 22 Eylül'de, birinin belirli kelimeleri \"söyleyip söylemeyeceğine\" dayalı tahmin piyasası sözleşmelerinin yüksek manipülasyon riski taşıdığını belirten bir uyarı yayınladı. CFTC, bu sözleşmelerin sonuçları bağımsız veriye değil, birinin isteğine bağlı olduğu için adil bir şekilde doğrulanmasının zor olduğunu söyledi. Bu sözleşmeleri sunan borsalar, manipülasyona karşı kuralları karşıladığını kontrol etmelidir.",
+        "coins": "Tahmin piyasaları (Kalshi ve benzer platformları etkiler)",
+        "timeUTC": "2026-09-22 16:18 UTC",
+        "source": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
       },
       {
-        "headline": "Binance, Circle'a 100 milyon dolar yatırım yapıyor, 5 yıllık USDC anlaşmasını kilidiyor",
-        "what": "Binance, Circle'ın hisse senedinin $80,84'ünde (pazar değerinin yaklaşık %5 altında) 100 milyon dolar satın aldı ve platformunda USDC'yi tanıtmak için 5 yıllık ticari bir anlaşmayı kabul etti. Circle, Binance'in cüzdan hizmeti aracılığıyla tutulan USDC dengelerine dayalı olarak Binance'e aylık ücretler ödeyecektir. Binance'in hisseleri iki yıl boyunca satış veya transferden kısıtlanmıştır; ortaklığı sağlamlaştırıyor.",
-        "coins": "USDC",
-        "timeUTC": "2026-09-22 ~06:20 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+        "headline": "SEC, OTC Link LLC'yi tekrarlanan uyum başarısızlıkları nedeniyle disipline etti, 575.000 dolar ceza verdi",
+        "what": "Menkul Kıymetler ve Borsa Komisyonu (SEC), OTC Link LLC'yi 22 Eylül'de Ağustos 2016'dan Mart 2025'e kadar uygun güvenlik ve erişim denetimlerini sağlamadığı için 575.000 dolar para cezasına çarptırdı. Birden fazla SEC incelemesi aynı sorunları işaret etmesine rağmen, firma tekrar tekrar düzeltmeleri ertelemişti. Bu, SEC'in ticaret altyapısını aktif olarak ihmal için izlemesini göstermektedir.",
+        "coins": "OTC hisse senetleri (kripto değil, ama alternatif ticaret ekosistemini etkiler)",
+        "timeUTC": "2026-09-22 12:47 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci"
       },
       {
-        "headline": "Kanada'nın Altı Büyük Bankası, tokenize mevduat inisiyatifini başlatıyor",
-        "what": "Royal Bank of Canada, Toronto-Dominion, Bank of Montreal, CIBC, Scotiabank ve National Bank, Kanada doları cinsinden tokenize edilen mevduatları keşfetmek için ortak bir proje duyurdular. İlk aşama, banka mevduatlarını temsil eden dijital tokenları kurumlar arasında taşımayı amaçlamakta, daha hızlı ve programlanabilir ödemeleri mümkün kılarken güvenliği ve yasal denetimi korumaktadır. Proje, OSFI'nin 10 Eylül'de tokenize edilen mevduatların yasal olarak geleneksel mevduatlara eşdeğer olduğunun açıklanmasını izlemektedir.",
-        "coins": "CAD",
-        "timeUTC": "2026-09-22 ~10:54 UTC",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/business/2026/09-22-canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative"
+        "headline": "Kripto VC Hashed, yeni 300 milyon dolarlık dijital varlık özel kredi fonunda yer aldı",
+        "what": "Hashed, önemli bir kripto para risk sermayesi firması, 22 Eylül'de teminata dayalı değil finansal sağlık ve nakit akışına dayalı kripto iş kollarına para ödünç vermek için tasarlanmış 300 milyon dolarlık bir özel kredi fonunu desteklediğini duyurdu. Thoro Capital Management tarafından yönetilen fon, kurumsal dijital varlık firmalarının finansman açığını kapatmayı amaçlamaktadır. Bu, yapılandırılmış kripto ödünç vermeye kurumsal sermayenin devam eden hareketini göstermektedir.",
+        "coins": "Tüm kripto varlıkları (genel kurumsal sermaye)",
+        "timeUTC": "2026-09-22 18:30 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-22-hashed-private-credit-fund-416013"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "CFTC, 'bahsetme piyasası' tahmin sözleşmelerinin artan manipülasyon riski taşıdığını uyarıyor",
-          "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC), birinin belirli kelimeleri veya ifadeleri 'bahsedip bahsemeyeceğine' dayalı tahmin piyasalarının benzersiz manipülasyon riskleri taşıdığını belirten bir uyarı yayınladı. Uyarı, cumhuribaşkanlığı konuşmalarına bağlı bu tür sözleşmeleri alım satım yaparak 107.000 dolardan fazla kar elde eden eski bir Beyaz Saray teleprompter operatörüne karşı yapılan önceki yaptırım işlemini izlemektedir.",
-          "coins": "Genel piyasalar",
-          "timeUTC": "2026-09-22 ~14:11 UTC",
+          "headline": "CFTC, 'söylenti piyasası' tahmin sözleşmelerinin manipülasyon riskinin yüksek olduğu konusunda uyarı yayınladı",
+          "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC) 22 Eylül'de, birinin belirli kelimeleri \"söyleyip söylemeyeceğine\" dayalı tahmin piyasası sözleşmelerinin yüksek manipülasyon riski taşıdığını belirten bir uyarı yayınladı. CFTC, bu sözleşmelerin sonuçları bağımsız veriye değil, birinin isteğine bağlı olduğu için adil bir şekilde doğrulanmasının zor olduğunu söyledi. Bu sözleşmeleri sunan borsalar, manipülasyona karşı kuralları karşıladığını kontrol etmelidir.",
+          "coins": "Tahmin piyasaları (Kalshi ve benzer platformları etkiler)",
+          "timeUTC": "2026-09-22 16:18 UTC",
           "source": "CFTC",
           "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
         },
         {
-          "headline": "ABD düzenleyicileri, yasal durgunluğa rağmen pazar yapısı ve kripto vesayetinde ilerliyorlar",
-          "what": "Beyaz Saray ve ABD Hazinesi yetkilileriler, kripto pazar yapısı çalışmasının Kongre tarafından duran Clarity Act'inin geçmesini bekleyemeyeceğini belirttiler. CFTC, kripto kural koyma işlerini Beyaz Saray'a inceleme için sundu ve SEC'nin başlıca kripto danışmanı, dijital varlıkların kurumsal vesayeti için ortaya çıkan bir yolu ana hatlarıyla belirtirken, firmaları blockchain teknolojisiyle rahat olmaya odaklanmıştır.",
-          "coins": "Genel kripto",
-          "timeUTC": "2026-09-22 ~14:04 UTC",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house"
+          "headline": "SEC, OTC Link LLC'yi tekrarlanan uyum başarısızlıkları nedeniyle disipline etti, 575.000 dolar ceza verdi",
+          "what": "Menkul Kıymetler ve Borsa Komisyonu (SEC), OTC Link LLC'yi 22 Eylül'de Ağustos 2016'dan Mart 2025'e kadar uygun güvenlik ve erişim denetimlerini sağlamadığı için cezalandırdı. Birden fazla SEC incelemesi aynı sorunları işaret etmesine rağmen, firma tekrar tekrar düzeltmeleri ertelemişti. Bu, ticaret altyapısı üzerinde SEC'in aktif yaptırım uyguladığını göstermektedir.",
+          "coins": "OTC piyasaları / ticaret altyapısı",
+          "timeUTC": "2026-09-22 12:47 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci"
+        },
+        {
+          "headline": "Federal Rezerv, BancFirst Corporation başvurusunu onayladı",
+          "what": "Federal Rezerv Kurulu 22 Eylül'de BancFirst Corporation'ın banka holding şirketi başvurusunu onayladı. Bu rutin kurumsal onay olmakla beraber, kripto entegrasyonu döneminde devam eden bankacılık sektörü faaliyetini göstermektedir.",
+          "coins": "Geleneksel bankacılık altyapısı",
+          "timeUTC": "2026-09-22 16:10 UTC",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Ethereum spot ETF'leri, 22 Eylül'de 75,9 milyon dolar net çıkış görüyor",
-          "what": "Dokuz Ethereum spot ETF ürününün hepsi 22 Eylül'de net çıkışlar kaydetti; toplam 75,9 milyon dolar oldu. Fidelity'nin FETH, 33,1 milyon dolar ile çıkışlara başı çekti. Toplam Ethereum ETF yönetim altındaki varlıklar 27,5 milyar dolar olarak durdu; bu Ethereum'un toplam pazar değerinin %5,45'ini temsil etti.",
-          "coins": "ETH",
-          "timeUTC": "2026-09-22 (Doğu Saati)",
-          "source": "SoSoValue",
-          "url": "https://sosovalue.com/assets/etf/us-eth-spot"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "Kripto VC şirketi Hashed, 300 milyon dolarlık özel kredi fonu başlatıyor",
-          "what": "Hashed, 300 milyon dolar taahhüt hedefleyen yeni bir dijital varlık özel kredi fonu duyurdu ve kurumsal kripto sektöründe finansman darboğazlarını gidermeyi amaçladı. Fon, projeler ve platformlara yapılandırılmış sermaye sağlamak için sözleşmeye dayalı underwriting kullanıyor.",
-          "coins": "Genel kripto",
-          "timeUTC": "2026-09-22 ~15:56 UTC",
+          "headline": "Kripto VC Hashed, yeni 300 milyon dolarlık dijital varlık özel kredi fonunda yer aldı",
+          "what": "Hashed, önemli bir kripto para risk sermayesi firması, 22 Eylül'de teminata dayalı değil finansal sağlık ve nakit akışına dayalı kripto iş kollarına para ödünç vermek için tasarlanmış 300 milyon dolarlık bir özel kredi fonunu desteklediğini duyurdu. Thoro Capital Management tarafından yönetilen fon, kurumsal dijital varlık firmalarının finansman açığını kapatmayı amaçlamaktadır. Bu, yapılandırılmış kripto ödünç vermeye kurumsal sermayenin süregelen hareketini göstermektedir.",
+          "coins": "Tüm kripto varlıkları (genel kurumsal sermaye)",
+          "timeUTC": "2026-09-22 18:30 UTC",
           "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013"
-        },
-        {
-          "headline": "Zcash, Euronext'te ilk Avrupa ETP listesine iniyor",
-          "what": "21Shares, Euronext Paris ve Amsterdam'da fiziksel olarak desteklenen Zcash (ZEC) ve EtherFi (ETHFI) borsası işlem gören ürünlerini listeledi ve Avrupa yatırımcıları için büyük kripto para birimlerinin ötesinde mevcut maruziyeti genişletti. Listeleme, gizliliğe odaklanan ve bahis ile ilgili varlıklara yönelik kurumsal iştahının arttığını göstermektedir.",
-          "coins": "ZEC, ETHFI",
-          "timeUTC": "2026-09-22 ~09:28 UTC",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/zcash-gets-first-european-etp-following-us-etf-launch"
-        }
-      ],
-      "Hacks, exploits and outages": [
-        {
-          "headline": "FomoPeek iOS kötü amaçlı yazılımı Apple sandbox'ını kaçırıyor, neredeyse 580.000 dolar USDT'yi çalıyor",
-          "what": "Güvenlik firmaları SlowMist ve OKX, Apple'ın resmi App Store'u aracılığıyla dağıtılan ve kendisini balina izleme monitörü olarak sunulan kötü amaçlı bir uygulamayı ortaya çıkardılar. Sürümler 1.1 ve 1.2 (Eylül 9–17) iOS sandbox'ını kaçabilen, Keychain'i şifre açabilen ve MetaMask ve Trust Wallet dahil olmak üzere 19 diğer uygulamadan hassas verileri okuyabilen bir çekirdek açıktan yararlanmasını içeriyordu. Neredeyse 580.000 dolar USDT, saldırganın adresine izlendi. Sürüm 1.3 kötü amaçlı kodu kaldırdı; OKX, Binance, Gate, Bitget Wallet ve Rabby güvenlik uyarıları yayınladılar.",
-          "coins": "USDT",
-          "timeUTC": "2026-09-22 ~16:17 UTC",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/rogue-iphone-app-escapes-ios-sandbox-to-hijack-580000-in-usdt/"
-        }
-      ],
-      "Traditional markets": [
-        {
-          "headline": "Nasdaq kazançlar gösterirken petrol keskin şekilde düşüyor; S&P 500 esasen sabit",
-          "what": "22 Eylül'de Nasdaq Composite %0,45 yükseldi ve S&P 500 %0,015 düştü (sabit); teknik gücü ve ılımlı geniş pazar baskısını yansıttı. WTI ham petrol %4,17 düştü ve Brent petrol %2,76 düştü; küresel enflasyon kaygılarını hafiflettti. Altın %0,59 düştü ve ABD 10 yıllık Hazine bonoları (IEF) sabit (+%0,011) kalırken, ABD Doları endeksi istikrarlı kaldı.",
-          "coins": "Genel bağlam",
-          "timeUTC": "2026-09-22 (ABD işlem seansı)",
-          "source": "Twelve Data",
-          "url": "https://twelvedata.com"
-        }
-      ],
-      "Unconfirmed and watch items": [
-        {
-          "headline": "Eski Bitcoin cüzdanları iki haftada 161 milyon dolar taşıyor, üçü 'Noah Doe' davası etiketleri taşıyor",
-          "what": "On yıldan fazla süre hareketsiz kalan dört Bitcoin cüzdanı, 6 ve 22 Eylül arasında 1.971 BTC taşıdı. En büyük hareket—600 BTC'si 51,9 milyon dolar değerinde—rapor gününün bittiği saatler önce gerçekleşti. Dört cüzdanın üçü Noah Doe davası ile ilgili yasal belgeler içinde etiketlenmiştir. Aktivite, balina hareketlerini izleyen zincir üzerindeki araştırmacıların ilgisini çekti.",
-          "coins": "BTC",
-          "timeUTC": "2026-09-22 ~14:49 UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks"
-        },
-        {
-          "headline": "Coinbase, kuantum sonrası Bitcoin vesayeti araştırmasını genişletiyor; endüstri kriptografik tehditler için hazırlanıyor",
-          "what": "Coinbase'in kriptografi başkanı, Bitcoin'in nihai olarak benimseyeceği kuantum sonrası imzalama şemasına uyarlanabilen vesayet altyapısı tasarlama planlarını ana hatlarıyla belirtti. Araştırma, kuantum bilgisayarından kaynaklanan uzun vadeli güvenlik riskleri ele alırken, Bitcoin'in kuantum-güvenli imzalara göçünün teorik ve yıllar uzakta olduğunu kabul etmektedir.",
-          "coins": "BTC",
-          "timeUTC": "2026-09-22 ~13:21 UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody"
+          "url": "https://www.theblock.co/news/business/2026-09-22-hashed-private-credit-fund-416013"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-22",
-    "summary": "Ethereum spot ETF'leri, 22 Eylül'de 75,9 milyon dolarlık net çıkış kaydetti; dokuz ürünün hepsi negatif oldu. Fidelity FETH, 33,1 milyon dolar ile çıkışlara başı çekti ve Bitwise ETHW 22,3 milyon dolar ile onu izledi. Toplam Ethereum ETF varlıkları 27,5 milyar dolar veya Ethereum'un 504 milyar dolarlık pazar değerinin %5,45'i olarak durdu.",
-    "source": "SoSoValue",
-    "url": "https://sosovalue.com/assets/etf/us-eth-spot"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "US Initial Jobless Claims (September 24, 2026, 12:30 UTC)",
-      "typicalReaction": "Yüksek etkili veri yayını. Geleneksel piyasalarda (hisse senetleri, tahviller, dolar) oynaklık yaratması bekleniyor; kripto, büyük işgücü verisi yayınları sırasında hisse senedi dalgalanmalarını sıklıkla takip eder."
-    },
-    {
-      "event": "Swiss National Bank (SNB) Rate Decision (September 24, 2026, 07:30 UTC)",
-      "typicalReaction": "Orta etkili. Büyük merkez bankalarının oran kararları, risk varlıkları ve dolar üzerindeki duyguyu değiştirebilir; herhangi bir havacı veya güvercin sürprizini izleyin."
-    },
-    {
-      "event": "Riksbank (Sweden) Rate Decision (September 24, 2026, 07:30 UTC)",
-      "typicalReaction": "Orta etkili. Avrupa oran kararları, euro gücü ve risk iştahını etkiler."
-    },
-    {
-      "event": "Norges Bank (Norway) Rate Decision (September 24, 2026, 08:00 UTC)",
-      "typicalReaction": "Orta etkili. Kuzey Avrupa para politikası kararları, daha geniş pazar risk duygusunu etkileyebilir."
+      "event": "US Initial Jobless Claims (Thursday, September 24, 12:30 UTC)",
+      "typicalReaction": "Yüksek etkili bir yayın. Beklenenden daha yüksek işsizlik talepleri (işsizlik ödeneği başvuruları arttığında) genellikle hisse senedi ve kripto piyasalarını aşağı gönderir, çünkü ekonomik zayıflığın sinyalini verir ve faiz indirimi beklentilerini azaltabilir. Daha düşük talepler (daha az başvuru) risk varlıklarını yukarı çeker."
     }
   ],
   "glossary": [
     {
-      "term": "Baz Fark",
-      "definition": "Vadeli işlem fiyatı ile spot fiyat arasındaki fark. Pozitif baz, vadeli işlemlerin spot'un üstünde işlem gördüğü anlamına gelir; fiyatların yükseleceğine bahis yapanlar tarafından kullanılır."
+      "term": "Bazis",
+      "definition": "Fiyat değişiklikleri veya hacim ölçmek için kullanılan takvim dönemi—genellikle 'utc-day' (UTC'de gece yarısından gece yarısına) veya '24h' (yuvarlanmış 24 saat)."
     },
     {
-      "term": "ETF",
-      "definition": "Borsa yatırım fonu—Bitcoin veya Ethereum gibi bir varlığı takip eden ve bir borsada alınıp satılabilen fon. Spot ETF'ler gerçek varlığı tutar, türev değil."
+      "term": "Korku ve Açgözlülük İndeksi",
+      "definition": "Tüccarların korkulu mu (0'a yakın) yoksa açgözlü mü (100'e yakın) olduğunu ölçen bir ruh hali ölçeği (0–100). 71 = 'Açgözlülük'; 78 = 'Aşırı Açgözlülük.' Daha yüksek okumaları daha yükselişçi iştah gösterir; daha düşük okumaları dikkat gerektiğini gösterir."
     },
     {
-      "term": "ETF Akışı",
-      "definition": "Belirli bir günde bir ETF'ye akan veya çıkan net para miktarı. Girişler, varlığa talep olduğunu gösterir; çıkışlar, yatırımcıların sattığını gösterir."
+      "term": "Finansman oranı",
+      "definition": "Kaldıraçlı kripto vadeli işlemler üzerinde tüccarlar tarafından ödenen borçlanma maliyeti. Pozitif oran, uzun pozisyon tüccarlarının kısa pozisyon tüccarlarına ödediği anlamına gelir (yükselişçi koşullar, uzun pozisyonlar pahalı). Negatif oran, kısa pozisyon tüccarlarının uzun pozisyon tüccarlarına ödediği anlamına gelir (düşüşçü koşullar, kısa pozisyonlar pahalı). Oranlar genellikle çok küçüktür (dönem başına yüzde 0,01–0,1) ve raporlama için annüalize edilir."
     },
     {
-      "term": "Finansman Oranı",
-      "definition": "Kalıcı sözleşmelerde trader'lar arasında periyodik ödeme. Finansman pozitif olduğunda, uzun trader'lar (fiyatın yükseleceğine bahis yapanlar) kısa trader'lara (fiyatın düşeceğine bahis yapanlar) ödeme yapıyorlardır, bu bullish inancı gösterir. Negatif finansman, short'ların long'lara ödeme yaptığı anlamına gelir."
+      "term": "Uzun/kısa oranı",
+      "definition": "Fiyatın yükseleceğine bahis yapan tüccar sayısı (uzun) bölü fiyatın düşeceğine bahis yapan tüccar sayısı (kısa). 1,5 oranı her 1 kısa pozisyona 1,5 uzun pozisyon anlamına gelir; 0,9 kısa pozisyonlardan daha fazla demektir."
     },
     {
-      "term": "Tasfiye",
-      "definition": "Kaybın önceden belirlenmiş sınıra ulaştığında kaldıraçlı bir pozisyonun zorla kapatılması. Tasfiyeliler basamak şeklinde gerçekleşebilir ve ani fiyat yükselmesi veya düşmesi oluşturabilir."
+      "term": "İşaret fiyatı",
+      "definition": "Sürekli vadeli işlem sözleşmesindeki kar/zararı hesaplamak için kullanılan referans fiyat. Genellikle spot fiyat artı küçük bir finansman ayarlamasıdır ve manipülasyonu önlemek için son işlem fiyatından farklıdır."
     },
     {
-      "term": "Uzun-Kısa Oranı",
-      "definition": "Belirli bir sözleşmede fiyatların yükseleceğine bahis yapanların (long) fiyatların düşeceğine bahis yapanlara (short) oranı. 1,0'ın altındaki bir oran, kısa pozisyonların long pozisyonlardan fazla olduğu anlamına gelir (bearish); 1,0'ın üstü, long pozisyonların daha fazla olduğu anlamına gelir (bullish)."
+      "term": "Açık pozisyon",
+      "definition": "Bir borsada yapılmış (açık) toplam vadeli işlem sözleşme sayısı. Açık pozisyon arttığında tüccarlar yeni pozisyonlar açıyor; azaldığında tüccarlar pozisyonları kapatıyor."
     },
     {
-      "term": "İşaret Fiyatı",
-      "definition": "Herhangi bir zamanda türev sözleşmelerdeki kar ve zararları hesaplamak için kullanılan fiyat. Genellikle son işlem gören fiyatın, mevcut fiyatın ve oynaklık ayarlanmış adil değer tahminin ortalamasıdır."
-    },
-    {
-      "term": "Açık Pozisyon",
-      "definition": "Vadeli işlem borsasında açık olan toplam pozisyon (henüz kapatılmayan sözleşmeler). Artan açık pozisyon, yeni para giriş gösterir; azalan açık pozisyon, trader'ların pozisyonları kapattığını gösterir."
-    },
-    {
-      "term": "Açık Pozisyon Değişimi",
-      "definition": "Belirli bir zaman döneminde açık pozisyonda yüzdelik değişim. Negatif değişim, pozisyonların kapatılmakta veya tasfiye edilmekte olduğu anlamına gelir; pozitif değişim, yeni pozisyonların açılmakta olduğu anlamına gelir."
-    },
-    {
-      "term": "Kalıcı (Perp)",
-      "definition": "Son kullanma tarihi olmayan vadeli işlem sözleşmesi. Trader'lar, yeterli marj (teminat) koruduğu sürece kalıcılıkları süresiz olarak tutabilirler. Çoğu kripto türev hacmi kalıcılıklar üzerinde gerçekleşir."
-    },
-    {
-      "term": "İstikrarlı Kripto",
-      "definition": "İstikrarlı bir değeri korulamak için tasarlanan bir kripto para; genellikle ABD dolarına veya başka bir referans varlığına sabitlenir. USDC ve USDT örneklerdir."
-    },
-    {
-      "term": "Tokenize Edilen Mevduat",
-      "definition": "Geleneksel bir banka mevduatının, anında takas ve programlanabilir ödemeler sağlamak için bir blockchain'de kaydedilen dijital temsili. Yasal açıdan, banka'da nakit tutmaya eşdeğerdir."
+      "term": "Açık pozisyon değişimi",
+      "definition": "Toplam açık sözleşmelerdeki yüzde kazanç veya kayıp (genellikle bir gün). Yüzde –2,74 değişim, günün başındakinden yüzde 2,74 daha az açık pozisyon demektir."
     },
     {
       "term": "Hacim",
-      "definition": "Belirli bir dönemde bir borsada veya sözleşmede yürütülen işlemlerin toplam dolar değeri. Daha yüksek hacim, genellikle daha fazla likidite ve fiyat keşfedilmesine güveni gösterir."
+      "definition": "Belirli bir dönem içinde bir borsada yürütülen tüm işlemlerin toplam dolar değeri. Daha yüksek hacim genellikle daha güçlü inanç ve fiyat değişikliklerinin şaşırtmadan daha düşük riski gösterir."
     }
   ],
   "_source": "cli-tr"

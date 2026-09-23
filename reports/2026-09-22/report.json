@@ -3,8 +3,8 @@
   "kind": "market",
   "dateLong": "Tuesday, 22 September 2026",
   "coversUTC": "2026-09-22 00:00–23:59 UTC",
-  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-  "newsCount": 0,
+  "oneLine": "Bitcoin and Ethereum posted modest declines on September 22 while Asian tech stocks weakened sharply; regulatory bodies issued risk warnings and approvals.",
+  "newsCount": 7,
   "macro": {
     "BTC": -0.47527529007384955,
     "ETH": -0.7889055872102825
@@ -20,14 +20,13 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "23 Sept 21:00 UTC",
+  "generatedAtUTC": "23 Sept 21:20 UTC",
   "languages": [
-    "en"
+    "en",
+    "tr"
   ],
   "status": "degraded",
   "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
     "zh report unavailable"
   ]
 }

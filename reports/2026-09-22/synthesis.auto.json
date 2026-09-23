@@ -1,216 +1,131 @@
 {
-  "oneLine": "Bitcoin and Ethereum both fell about 0.5% on September 22 as falling oil eased inflation concerns, while major institutional deals and regulatory clarity reshaped crypto infrastructure.",
-  "caveman": "Bitcoin and Ethereum had a small down day (less than half a percent each). Prices fell a tiny bit because oil got cheaper—that usually makes people worry less about money losing value, which is good for Bitcoin. Most traders were betting prices might go lower (cautious positioning), and some people closed out their positions. The big news was that a big US trading company called CME announced they'd let people bet on Bitcoin Cash using their platform, which made Bitcoin Cash jump up a lot. Also, five major Canadian banks said they're working on digital money using blockchain technology. It was a calm, normal day—no big crashes or wild spikes.",
-  "priceVolumeSummary": "Bitcoin and Ethereum both fell 0.47–0.49%, with all five major venues (Binance, Bybit, OKX, Bitget, Gate) in close agreement on price. Binance led BTC volume at $14.6 billion; OKX, Gate, and Bybit followed within a similar range, suggesting healthy liquidity across venues.",
-  "positioningSummary": "Funding rates were mixed: Bybit's Bitcoin rate stood at an elevated 9.99% annually, but Binance's turned negative (-0.12%), signaling traders disagreed on bullish conviction. On Binance's Bitcoin futures, open interest fell 2.74%, indicating some position unwinding. Across most venues, long-to-short ratios favored shorts (Binance 0.904, OKX 0.96 on Bitcoin), reflecting cautious sentiment overall.",
-  "stocksSummary": "Asian markets opened mixed on September 22 UTC. Korean equities climbed: SK Hynix rose 1.6% and Samsung Electronics gained 3.4%, with the KOSPI index up 0.84%, likely tracking strength in the Nasdaq (+0.45%) and semiconductor demand. Hong Kong faced sharper declines: Zhipu AI fell 12.98% and MiniMax dropped 6.61%, suggesting rotation away from AI plays. US equities were split: Nasdaq rose 0.45% and the S&P 500 dipped 0.015% (flat). Commodity markets fell: WTI crude oil slid 4.17%, easing inflation worries globally.",
+  "oneLine": "Bitcoin and Ethereum posted modest declines on September 22 while Asian tech stocks weakened sharply; regulatory bodies issued risk warnings and approvals.",
+  "caveman": "On September 22, the two main cryptocurrencies had a slow, downward day. Bitcoin dropped about half a percent and Ethereum dropped about three-quarters of a percent. Traders were nervous—the fear-and-greed meter dropped from \"extreme greed\" to just \"greed.\" Many traders closed their positions instead of opening new ones, so the total open interest went down. In Asia, tech companies in South Korea and Hong Kong had a really bad day, losing several percent. Meanwhile, the US government agencies issued some warnings: the CFTC warned that prediction-market contracts could be rigged, and the SEC fined a trading company for not fixing safety problems they'd been warned about. A crypto investment firm announced plans to lend $300 million to other crypto companies. The day was calm—no crashes—but people were definitely more worried than before.",
+  "priceVolumeSummary": "Bitcoin converged tightly around $84,313–84,327 across all five major venues, with Binance leading volume at $14.6 billion USD. Ethereum similarly showed tight agreement near $2,671–2,672, with Binance accounting for $10.1 billion of the $29.8 billion total venue volume.",
+  "positioningSummary": "Funding rates diverged: Bitget offered +0.82% annualized borrowing rewards for longs, while Binance, OKX, and Bybit charged small negative rates (–1.68%, –2.10%, –1.14% respectively), signaling mild neutral-to-bearish sentiment. Open interest declined notably, especially on Binance (–2.74% for Bitcoin), suggesting traders were closing positions rather than adding to bets. Long/short account ratios split: OKX traders favored longs (1.14 longs per short on Bitcoin), while Binance showed more shorts (0.90 longs per short), indicating disagreement about direction.",
+  "stocksSummary": "Asian equities retreated broadly: South Korea's SK Hynix fell 4.68%, Samsung Electronics 2.14%, and Hong Kong's Zhipu AI (an AI company) dropped 14.46% alongside MiniMax down 8.07%—indicating investor flight from technology stocks. US small-cap tech took losses (KORU –9.48%, SHAZ –7.70%). Energy perps reversed the broader decline: WTI crude oil rose 3.31% and Brent 4.06%, while precious metals fell (gold –1.65%, silver –3.93%, platinum –4.26%).",
   "movers": [
     {
-      "symbol": "BCH",
-      "explanation": "Bitcoin Cash jumped 29.3% after CME Group announced on September 22 that it would launch regulated Bitcoin Cash and Uniswap futures on October 19, pending regulatory review. The announcement drew institutional attention to the altcoin and signaled tradfi recognition of BCH as a major derivative.",
-      "hasCause": true
-    },
-    {
-      "symbol": "NIL",
-      "explanation": "NIL gained 19.5% with $80 million in volume, but no major news or announced catalyst was linked to the move. The token remains tier-2 and low-liquidity.",
+      "symbol": "TAKE",
+      "explanation": "TAKE surged 58.7% in 24-hour trading and added 2.77% during the September 22 session. No clear public cause identified in regulatory filings or news; possible retail flow or micro-cap volatility.",
       "hasCause": false
     },
     {
-      "symbol": "龙虾",
-      "explanation": "The token fell 40.4% despite a positive rolling 24-hour window, suggesting a sharp late-session selloff or liquidation event. No public news explained the move.",
+      "symbol": "SAGA",
+      "explanation": "SAGA rose 28.8% in 24 hours with a 2.94% gain on the day. No confirmed news explaining the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MUBARAK",
+      "explanation": "MUBARAK crashed 31.2% in 24 hours despite a 79.7% intraday pump—suggesting possible liquidation cascade or reversal of intraday momentum. No public announcement or news item identified.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "CME launches Bitcoin Cash and Uniswap futures",
-        "what": "CME Group announced cash-settled Bitcoin Cash and Uniswap futures contracts, with launch planned for October 19, pending regulatory review. The move marks CME's continued expansion of crypto derivatives, offering both standard and Micro contracts (250 and 25 BCH; 10,000 and 1,000 UNI). Bitcoin Cash spiked ~29% in response.",
-        "coins": "BCH, UNI",
-        "timeUTC": "2026-09-22 ~07:22 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-22-cme-adds-bitcoin-cash-and-uniswap-futures-as-crypto-derivatives-push-grows-416049"
+        "headline": "CFTC warns 'mention market' prediction contracts carry heightened manipulation risk",
+        "what": "The U.S. Commodity Futures Trading Commission issued an advisory on September 22 stating that prediction-market contracts based on whether someone will \"mention\" specific words are at high risk of being rigged. The CFTC said these contracts are hard to verify fairly because their outcome depends on someone's voluntary action, not independent data. Exchanges offering these contracts must check that they meet rules against manipulation.",
+        "coins": "Prediction markets (affects Kalshi and similar platforms trading crypto-related outcomes)",
+        "timeUTC": "2026-09-22 16:18 UTC",
+        "source": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
       },
       {
-        "headline": "Binance invests $100 million in Circle, locks in 5-year USDC deal",
-        "what": "Binance purchased $100 million of Circle stock at $80.84 per share (about 5% below market) and committed to a five-year commercial agreement to promote USDC on its platform. Circle will pay Binance monthly fees based on USDC balances held through Binance's wallet service. Binance's shares are restricted from sale or transfer for two years, cementing the partnership.",
-        "coins": "USDC",
-        "timeUTC": "2026-09-22 ~06:20 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+        "headline": "SEC censures OTC Link LLC for repeated compliance failures, orders $575,000 penalty",
+        "what": "The Securities and Exchange Commission fined OTC Link LLC $575,000 on September 22 for failing to maintain proper security and access controls from August 2016 through March 2025. Despite multiple SEC examinations flagging the same problems, the firm repeatedly delayed fixes, the enforcement order states. This shows the SEC is actively monitoring trading infrastructure for negligence.",
+        "coins": "OTC equities (not directly crypto, but affects alternative-trading ecosystem)",
+        "timeUTC": "2026-09-22 12:47 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci"
       },
       {
-        "headline": "Canada's Big Six banks launch tokenized deposit initiative",
-        "what": "Royal Bank of Canada, Toronto-Dominion, Bank of Montreal, CIBC, Scotiabank and National Bank announced a joint project to explore tokenized deposits in Canadian dollars. The first phase aims to move digital tokens representing bank deposits between institutions, enabling faster, programmable payments while preserving safety and regulatory oversight. The project follows OSFI's September 10 clarification that tokenized deposits are legally equivalent to traditional deposits.",
-        "coins": "CAD",
-        "timeUTC": "2026-09-22 ~10:54 UTC",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/business/2026/09-22-canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative"
+        "headline": "Crypto VC Hashed anchors new $300 million digital-asset private credit fund",
+        "what": "Hashed, a major cryptocurrency venture firm, announced on September 22 that it is backing a $300 million private credit fund designed to lend money to crypto businesses based on their financial health and cash flow rather than collateral. The fund, managed by Thoro Capital Management, aims to fill a financing gap for institutional digital-asset firms. This signals continued institutional capital moving into structured crypto lending.",
+        "coins": "All crypto assets (general institutional capital)",
+        "timeUTC": "2026-09-22 18:30 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-22-hashed-private-credit-fund-416013"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
           "headline": "CFTC warns 'mention market' prediction contracts carry heightened manipulation risk",
-          "what": "The U.S. Commodity Futures Trading Commission issued an advisory flagging that prediction markets based on whether someone will 'mention' specific words or phrases carry unique manipulation risks. The warning follows earlier enforcement action against a former White House teleprompter operator who profited over $107,000 trading such contracts tied to presidential speeches.",
-          "coins": "General markets",
-          "timeUTC": "2026-09-22 ~14:11 UTC",
+          "what": "The U.S. Commodity Futures Trading Commission issued an advisory on September 22 stating that prediction-market contracts based on whether someone will \"mention\" specific words are at high risk of being rigged. The CFTC said these contracts are hard to verify fairly because their outcome depends on someone's voluntary action, not independent data. Exchanges offering these contracts must check that they meet rules against manipulation.",
+          "coins": "Prediction markets (affects Kalshi and similar platforms)",
+          "timeUTC": "2026-09-22 16:18 UTC",
           "source": "CFTC",
           "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
         },
         {
-          "headline": "US regulators move forward on market structure and crypto custody despite legislative stall",
-          "what": "White House and US Treasury officials signaled that crypto market structure work cannot wait for Congress to pass the stalled Clarity Act. The CFTC submitted crypto rulework to the White House for review, and the SEC's chief crypto counsel outlined an emerging path for institutional custody of digital assets, focusing on getting firms comfortable with blockchain technology.",
-          "coins": "General crypto",
-          "timeUTC": "2026-09-22 ~14:04 UTC",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house"
+          "headline": "SEC censures OTC Link LLC for repeated compliance failures, orders $575,000 penalty",
+          "what": "The Securities and Exchange Commission fined OTC Link LLC $575,000 on September 22 for failing to maintain proper security and access controls from August 2016 through March 2025. Despite multiple SEC examinations flagging the same problems, the firm repeatedly delayed fixes. This demonstrates active SEC enforcement on trading infrastructure.",
+          "coins": "OTC markets / trading infrastructure",
+          "timeUTC": "2026-09-22 12:47 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci"
+        },
+        {
+          "headline": "Federal Reserve approves BancFirst Corporation application",
+          "what": "The Federal Reserve Board approved a bank holding company application from BancFirst Corporation on September 22. This is routine institutional approval but shows continued banking-sector activity during the crypto integration period.",
+          "coins": "Traditional banking infrastructure",
+          "timeUTC": "2026-09-22 16:10 UTC",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Ethereum spot ETFs see $75.9 million net outflow on September 22",
-          "what": "All nine Ethereum spot ETF products recorded net outflows on September 22, totaling $75.9 million. Fidelity's FETH led the outflow at $33.1 million. Total Ethereum ETF assets under management stood at $27.5 billion, representing 5.45% of Ethereum's total market capitalization.",
-          "coins": "ETH",
-          "timeUTC": "2026-09-22 (Eastern Time)",
-          "source": "SoSoValue",
-          "url": "https://sosovalue.com/assets/etf/us-eth-spot"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "Crypto VC firm Hashed launches $300 million private credit fund",
-          "what": "Hashed announced a new digital asset private credit fund targeting $300 million in commitments, aimed at addressing financing bottlenecks in the institutional crypto sector. The fund uses covenant-based underwriting to provide structured capital to projects and platforms.",
-          "coins": "General crypto",
-          "timeUTC": "2026-09-22 ~15:56 UTC",
+          "headline": "Crypto VC Hashed anchors new $300 million digital-asset private credit fund",
+          "what": "Hashed, a major cryptocurrency venture firm, announced on September 22 that it is backing a $300 million private credit fund designed to lend money to crypto businesses based on their financial health and cash flow rather than collateral. The fund, managed by Thoro Capital Management, aims to fill a financing gap for institutional digital-asset firms. This signals sustained institutional capital movement into structured crypto lending.",
+          "coins": "All crypto assets (general institutional capital)",
+          "timeUTC": "2026-09-22 18:30 UTC",
           "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013"
-        },
-        {
-          "headline": "Zcash lands first European ETP listing on Euronext",
-          "what": "21Shares listed physically backed Zcash (ZEC) and EtherFi (ETHFI) exchange-traded products on Euronext Paris and Amsterdam, broadening the available exposure for European investors beyond major cryptocurrencies. The listings reflect growing institutional appetite for privacy-focused and staking-related assets.",
-          "coins": "ZEC, ETHFI",
-          "timeUTC": "2026-09-22 ~09:28 UTC",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/zcash-gets-first-european-etp-following-us-etf-launch"
-        }
-      ],
-      "Hacks, exploits and outages": [
-        {
-          "headline": "FomoPeek iOS malware escapes Apple sandbox, steals nearly $580,000 in USDT",
-          "what": "Security firms SlowMist and OKX uncovered a malicious app distributed through Apple's official App Store that presented itself as a whale-tracking monitor. Versions 1.1 and 1.2 (Sept 9–17) contained a kernel exploit capable of escaping the iOS sandbox, decrypting the Keychain, and reading sensitive data from 19 other apps including MetaMask and Trust Wallet. Nearly $580,000 in USDT was traced to the attacker's address. Version 1.3 removed the malicious code; OKX, Binance, Gate, Bitget Wallet and Rabby issued security warnings.",
-          "coins": "USDT",
-          "timeUTC": "2026-09-22 ~16:17 UTC",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/rogue-iphone-app-escapes-ios-sandbox-to-hijack-580000-in-usdt/"
-        }
-      ],
-      "Traditional markets": [
-        {
-          "headline": "Nasdaq posts gains while oil falls sharply; S&P 500 essentially flat",
-          "what": "On September 22, the Nasdaq Composite rose 0.45% and the S&P 500 slipped 0.015% (flat), reflecting tech strength and moderate broad-market pressure. WTI crude oil fell 4.17% and Brent crude dropped 2.76%, easing inflation concerns globally. Gold slid 0.59% and US 10-year Treasury bonds (IEF) were flat (+0.011%), while the US Dollar index held steady.",
-          "coins": "General context",
-          "timeUTC": "2026-09-22 (US trading session)",
-          "source": "Twelve Data",
-          "url": "https://twelvedata.com"
-        }
-      ],
-      "Unconfirmed and watch items": [
-        {
-          "headline": "Ancient Bitcoin wallets move $161 million in two weeks, three carry 'Noah Doe' lawsuit tags",
-          "what": "Four Bitcoin wallets dormant for over a decade moved 1,971 BTC between September 6 and 22. The largest move—600 BTC worth $51.9 million—occurred hours before the report day ended. Three of the four wallets are tagged in legal documents related to the Noah Doe case. The activity drew interest from on-chain researchers monitoring whale movements.",
-          "coins": "BTC",
-          "timeUTC": "2026-09-22 ~14:49 UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks"
-        },
-        {
-          "headline": "Coinbase expands post-quantum Bitcoin custody research; industry prepares for cryptographic threats",
-          "what": "Coinbase's head of cryptography outlined plans to design custody infrastructure adaptable to whatever post-quantum signing scheme Bitcoin ultimately adopts. The research addresses long-term security risks from quantum computing while acknowledging that Bitcoin's migration to quantum-safe signatures remains theoretical and years away.",
-          "coins": "BTC",
-          "timeUTC": "2026-09-22 ~13:21 UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody"
+          "url": "https://www.theblock.co/news/business/2026-09-22-hashed-private-credit-fund-416013"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-22",
-    "summary": "Ethereum spot ETFs recorded a net outflow of $75.9 million on September 22, with all nine products in the red. Fidelity FETH led outflows at $33.1 million and Bitwise ETHW at $22.3 million. Total Ethereum ETF assets stood at $27.5 billion, or 5.45% of Ethereum's $504 billion market cap.",
-    "source": "SoSoValue",
-    "url": "https://sosovalue.com/assets/etf/us-eth-spot"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "US Initial Jobless Claims (September 24, 2026, 12:30 UTC)",
-      "typicalReaction": "High-impact release. Expected to drive volatility in traditional markets (stocks, bonds, dollar); crypto often follows equity swings during major labor data releases."
-    },
-    {
-      "event": "Swiss National Bank (SNB) Rate Decision (September 24, 2026, 07:30 UTC)",
-      "typicalReaction": "Medium impact. Rate decisions by major central banks can shift sentiment on risk assets and the dollar; monitor for any hawkish or dovish surprises."
-    },
-    {
-      "event": "Riksbank (Sweden) Rate Decision (September 24, 2026, 07:30 UTC)",
-      "typicalReaction": "Medium impact. European rate decisions influence euro strength and risk appetite."
-    },
-    {
-      "event": "Norges Bank (Norway) Rate Decision (September 24, 2026, 08:00 UTC)",
-      "typicalReaction": "Medium impact. Northern European monetary policy decisions can influence broader market risk sentiment."
+      "event": "US Initial Jobless Claims (Thursday, September 24, 12:30 UTC)",
+      "typicalReaction": "High-impact release. Stronger-than-expected jobless claims (more people filing for unemployment) typically sends stock and crypto markets lower as it signals potential economic weakness and may reduce expectations for interest-rate cuts. Weaker claims (fewer filings) typically lift risk assets."
     }
   ],
   "glossary": [
     {
       "term": "Basis",
-      "definition": "The difference between the futures price and the spot price of an asset. A positive basis means futures trade above spot; used to measure if traders are betting prices will rise."
+      "definition": "The calendar period used to measure price changes or volume—usually 'utc-day' (midnight UTC to midnight UTC) or '24h' (rolling 24 hours)."
     },
     {
-      "term": "ETF",
-      "definition": "Exchange-traded fund—a fund that tracks an asset (like Bitcoin or Ethereum) and can be bought and sold on a stock exchange. Spot ETFs hold the actual asset, not derivatives."
-    },
-    {
-      "term": "ETF flow",
-      "definition": "The net amount of money flowing into or out of an ETF on a given day. Inflows suggest demand for the asset; outflows suggest investors are selling."
+      "term": "Fear and Greed Index",
+      "definition": "A sentiment meter (0–100) that measures whether traders are fearful (close to 0) or greedy (close to 100). 71 = 'Greed'; 78 = 'Extreme Greed.' Higher readings suggest more bullish appetite; lower readings suggest caution."
     },
     {
       "term": "Funding rate",
-      "definition": "A periodic payment between traders on perpetual contracts. When funding is positive, long traders (those betting on price up) pay short traders (those betting on price down), signaling bullish conviction. Negative funding means shorts pay longs."
+      "definition": "A borrowing cost paid by traders on leveraged crypto futures. A positive rate means long traders pay short traders (bullish conditions, longs are expensive). A negative rate means short traders pay long traders (bearish conditions, shorts are expensive). Rates are typically tiny (0.01–0.1% per 8-hour period) and annualized for reporting."
     },
     {
-      "term": "Liquidation",
-      "definition": "Forced closing of a leveraged position when the loss reaches a preset limit. Liquidations can cascade and create sudden price spikes or drops."
-    },
-    {
-      "term": "Long-short ratio",
-      "definition": "The proportion of traders betting prices will go up (long) versus those betting prices will go down (short) on a given contract. A ratio below 1.0 means more shorts than longs (bearish); above 1.0 means more longs (bullish)."
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting price will go up (longs) divided by traders betting price will go down (shorts). A ratio of 1.5 means 1.5 longs for every 1 short; 0.9 means more shorts than longs."
     },
     {
       "term": "Mark price",
-      "definition": "The price used to calculate profits and losses on derivatives contracts at any given moment. It is typically the average of the last traded price, the current price, and a volatility-adjusted fair-value estimate."
+      "definition": "The reference price used to calculate profit/loss on a perpetual futures contract. It is typically the spot price plus a small funding adjustment, and it differs from the last-traded price to prevent manipulation."
     },
     {
       "term": "Open interest",
-      "definition": "The total number of open positions (contracts not yet closed) on a futures exchange. Rising open interest suggests new money entering; falling open interest suggests traders are closing positions."
+      "definition": "The total number of unsettled (open) futures contracts at an exchange. When open interest rises, traders are adding new positions; when it falls, traders are closing positions."
     },
     {
       "term": "Open-interest change",
-      "definition": "The percentage change in open interest over a time period. A negative change means positions are being closed or liquidated; a positive change means new positions are being opened."
-    },
-    {
-      "term": "Perpetual (or perp)",
-      "definition": "A futures contract with no expiration date. Traders can hold perpetuals indefinitely as long as they maintain enough margin (collateral). Most crypto derivative volume occurs on perpetuals."
-    },
-    {
-      "term": "Stablecoin",
-      "definition": "A cryptocurrency designed to maintain a stable value, typically pegged to the US dollar or another reference asset. USDC and USDT are examples."
-    },
-    {
-      "term": "Tokenized deposit",
-      "definition": "A digital representation of a traditional bank deposit recorded on a blockchain, allowing instant settlement and programmable payments. From a legal standpoint, it is equivalent to holding cash in the bank."
+      "definition": "The percentage gain or loss in total open contracts over a period (usually one day). A –2.74% change means 2.74% fewer open positions than at the start of the day."
     },
     {
       "term": "Volume",
-      "definition": "The total dollar value of trades executed on an exchange or contract in a given period. Higher volume generally indicates more liquidity and confidence in price discovery."
+      "definition": "The total USD value of all trades executed on an exchange in a given period. Higher volume usually signals stronger conviction and lower risk of surprise price moves."
     }
   ],
   "_source": "cli"
