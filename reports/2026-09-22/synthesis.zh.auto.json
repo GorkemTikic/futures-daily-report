@@ -1,32 +1,217 @@
 {
-  "oneLine": "从5个交易所收集的市场数据；本次运行无法获取新闻综合信息。",
-  "caveman": "",
-  "priceVolumeSummary": "请查看下方交易所表格。(本次运行自动分析不可用——数据已直接显示。)",
-  "positioningSummary": "请查看下方持仓表格。",
-  "stocksSummary": "",
+  "oneLine": "比特币和以太坊在9月22日均下跌约0.5%，油价下降缓解了通胀担忧，同时重大机构交易和监管明确性重塑了加密货币基础设施。",
+  "caveman": "比特币和以太坊小幅下跌，跌幅都不足百分之零点五。价格略有下滑，因为石油变便宜了——油价便宜通常意味着人们不用那么担心钱贬值，这对比特币来说是好消息。大多数交易者都在押注价格可能继续走低（保守立场），有些人平掉了头寸。最大的新闻是美国一家大交易公司CME宣布会在他们的平台上推出比特币现金期货，结果比特币现金猛涨。另外，加拿大五家大银行说他们在开发用区块链技术的数字货币。总的来说是平静的一天——没有暴跌也没有疯狂上涨。",
+  "priceVolumeSummary": "比特币和以太坊均下跌0.47%-0.49%，五家主要交易所（币安、Bybit、OKX、Bitget、Gate）的价格基本一致。币安比特币成交量领先，达146亿美元；OKX、Gate和Bybit的成交量在相近范围内，表明各交易所流动性良好。",
+  "positioningSummary": "融资费率出现分化：Bybit的比特币年化费率高达9.99%，但币安转为负值（-0.12%），表明交易者对看涨信心存在分歧。币安比特币期货未平仓头寸下降2.74%，显示部分头寸平仓。大多数交易所的多空比都倾向空头（币安0.904，OKX 0.96），反映整体谨慎情绪。",
+  "stocksSummary": "9月22日（协调世界时），亚洲股市涨跌不一。韩国股市上涨：SK海力士上升1.6%，三星电子涨3.4%，韩国综合指数（KOSPI）上涨0.84%，这可能跟踪纳指上涨（+0.45%）和芯片需求。香港股市跌幅较大：智谱AI下跌12.98%，MiniMax下降6.61%，显示资金撤离AI概念股。美国股市涨跌参半：纳指上涨0.45%，标普500下跌0.015%（基本持平）。商品市场走低：西德州原油（WTI）下滑4.17%，全球通胀担忧有所缓解。",
   "movers": [
     {
-      "symbol": "MUBARAKUSDT",
-      "explanation": "本次运行无法获取分析说明。",
+      "symbol": "BCH",
+      "explanation": "比特币现金（BCH）大涨29.3%，因为CME集团在9月22日宣布将于10月19日推出比特币现金和Uniswap期货（待监管审查）。这一公告吸引了机构对这种山寨币的关注，并表明传统金融认可BCH作为主要衍生品的地位。",
+      "hasCause": true
+    },
+    {
+      "symbol": "NIL",
+      "explanation": "NIL上涨19.5%，成交量达8000万美元，但未发现与此举动相关的重大新闻或已公布的触发因素。该代币仍属第二梯队，流动性较低。",
       "hasCause": false
     },
     {
-      "symbol": "龙虾USDT",
-      "explanation": "本次运行无法获取分析说明。",
-      "hasCause": false
-    },
-    {
-      "symbol": "MARSCOINUSDT",
-      "explanation": "本次运行无法获取分析说明。",
+      "symbol": "龙虾",
+      "explanation": "该代币下跌40.4%，尽管24小时滚动窗口表现积极，暗示尾盘出现大幅卖压或清算事件。没有公开新闻解释这一走势。",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "CME推出比特币现金和Uniswap期货",
+        "what": "CME集团宣布推出现金结算的比特币现金和Uniswap期货合约，计划于10月19日上线（待监管审查）。这一举动标志着CME继续扩展加密货币衍生品业务，提供标准合约和迷你合约（BCH 250和25份；UNI 10000和1000份）。比特币现金随之大幅上涨约29%。",
+        "coins": "BCH, UNI",
+        "timeUTC": "2026-09-22 ~07:22 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-22-cme-adds-bitcoin-cash-and-uniswap-futures-as-crypto-derivatives-push-grows-416049"
+      },
+      {
+        "headline": "币安投资1亿美元收购Circle，锁定5年USDC合作",
+        "what": "币安以每股80.84美元的价格购买了1亿美元的Circle股票（低于市价约5%），并承诺了为期五年的商业协议，在其平台上推广USDC。Circle将根据通过币安钱包服务持有的USDC余额向币安支付月度费用。币安的股份在两年内禁止出售或转让，从而巩固了双方的合作伙伴关系。",
+        "coins": "USDC",
+        "timeUTC": "2026-09-22 ~06:20 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+      },
+      {
+        "headline": "加拿大六大银行启动代币化存款计划",
+        "what": "加拿大皇家银行、多伦多道明银行、蒙特利尔银行、加拿大帝国商业银行、苏格兰银行和国家银行宣布联合启动一项项目，探索加元代币化存款。第一阶段旨在实现各机构间代币化银行存款的流转，实现更快速、可编程的支付，同时保持安全和监管监督。该项目紧跟加拿大审慎监管局（OSFI）9月10日的声明，该声明澄清代币化存款在法律上等同于传统存款。",
+        "coins": "CAD",
+        "timeUTC": "2026-09-22 ~10:54 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/09-22-canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国商品期货交易委员会警告'提及市场'预测合约存在操纵风险",
+          "what": "美国商品期货交易委员会（CFTC）发布警告，指出基于某人是否会'提及'特定词语或短语的预测市场存在独特的操纵风险。这一警告是在CFTC之前对一位前白宫提词员采取执法行动后发出的，该提词员通过交易与总统演讲相关的此类合约获利超过10.7万美元。",
+          "coins": "General markets",
+          "timeUTC": "2026-09-22 ~14:11 UTC",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
+        },
+        {
+          "headline": "尽管立法停滞，美国监管机构推进市场结构和加密托管工作",
+          "what": "白宫和美国财政部官员表示，加密货币市场结构工作不能等待国会通过停滞的《澄清法案》。美国商品期货交易委员会向白宫提交了加密货币规则制定工作供审查，美国证券交易委员会首席加密顾问为机构数字资产托管勾勒出一条新路径，重点是让企业熟悉区块链技术。",
+          "coins": "General crypto",
+          "timeUTC": "2026-09-22 ~14:04 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "以太坊现货ETF在9月22日录得7590万美元净流出",
+          "what": "所有九只以太坊现货ETF产品在9月22日均录得净流出，总计7590万美元。富达的FETH领跑流出，达3310万美元。以太坊ETF总管理资产达275亿美元，占以太坊总市值的5.45%。",
+          "coins": "ETH",
+          "timeUTC": "2026-09-22 (Eastern Time)",
+          "source": "SoSoValue",
+          "url": "https://sosovalue.com/assets/etf/us-eth-spot"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "加密风投公司Hashed推出3亿美元私募信贷基金",
+          "what": "Hashed宣布推出新的数字资产私募信贷基金，目标融资3亿美元，旨在解决机构加密货币部门的融资瓶颈。该基金采用契约型承保方式，为项目和平台提供结构化资本。",
+          "coins": "General crypto",
+          "timeUTC": "2026-09-22 ~15:56 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013"
+        },
+        {
+          "headline": "Zcash登陆Euronext首个欧洲ETP上市",
+          "what": "21Shares在欧交所巴黎和阿姆斯特丹上市了实物支持的Zcash（ZEC）和EtherFi（ETHFI）交易所交易产品，为欧洲投资者拓宽了主流加密货币之外的投资选择。这些上市反映了机构投资者对隐私保护类和质押相关资产需求的增长。",
+          "coins": "ZEC, ETHFI",
+          "timeUTC": "2026-09-22 ~09:28 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/zcash-gets-first-european-etp-following-us-etf-launch"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "FomoPeek iOS恶意软件逃逸苹果沙箱，盗取近58万美元USDT",
+          "what": "安全公司SlowMist和OKX发现了一款通过苹果官方App Store分发的恶意应用，它伪装成鲸鱼追踪监测工具。版本1.1和1.2（9月9-17日）包含了内核漏洞，能够逃逸iOS沙箱、解密钥匙链，并从包括MetaMask和Trust Wallet在内的19个其他应用读取敏感数据。近58万美元的USDT被追踪到攻击者地址。版本1.3已移除恶意代码；OKX、币安、Gate、Bitget钱包和Rabby发布了安全警告。",
+          "coins": "USDT",
+          "timeUTC": "2026-09-22 ~16:17 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/rogue-iphone-app-escapes-ios-sandbox-to-hijack-580000-in-usdt/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "纳指上涨而油价大幅下跌；标普500基本持平",
+          "what": "9月22日，纳斯达克综合指数上涨0.45%，标普500下跌0.015%（基本持平），反映科技股强势和温和的整体市场压力。西德州原油下跌4.17%，布伦特原油下跌2.76%，全球通胀担忧有所缓解。黄金下跌0.59%，美国10年期国债（IEF）持平（+0.011%），美元指数保持稳定。",
+          "coins": "General context",
+          "timeUTC": "2026-09-22 (US trading session)",
+          "source": "Twelve Data",
+          "url": "https://twelvedata.com"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "古老比特币钱包两周内转移1.61亿美元，三个承载'Noah Doe'诉讼标签",
+          "what": "四个停止活动超过十年的比特币钱包在9月6日至22日间转移了1971个BTC。最大的一笔交易——价值5190万美元的600个BTC——发生在报告日结束前几小时。四个钱包中的三个在与Noah Doe案件相关的法律文件中被标记。这一活动引起了监测鲸鱼活动的链上研究人员的关注。",
+          "coins": "BTC",
+          "timeUTC": "2026-09-22 ~14:49 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks"
+        },
+        {
+          "headline": "Coinbase扩展后量子比特币托管研究；行业为密码威胁做准备",
+          "what": "Coinbase加密部门负责人概述了设计托管基础设施的计划，使其能够适应比特币最终采用的任何后量子签名方案。该研究关注量子计算带来的长期安全风险，同时承认比特币迁移到量子安全签名仍处于理论阶段，还需数年时间。",
+          "coins": "BTC",
+          "timeUTC": "2026-09-22 ~13:21 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-09-22",
+    "summary": "以太坊现货ETF在9月22日录得7590万美元净流出，全部九只产品均为红盘。富达FETH流出领先，达3310万美元，Bitwise ETHFI流出2230万美元。以太坊ETF总管理资产为275亿美元，占以太坊5040亿美元总市值的5.45%。",
+    "source": "SoSoValue",
+    "url": "https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (September 24, 2026, 12:30 UTC)",
+      "typicalReaction": "高影响力数据。预计将驱动传统市场（股票、债券、美元）波动性；在重大劳动力数据发布期间，加密货币往往跟随股市波动。"
+    },
+    {
+      "event": "Swiss National Bank (SNB) Rate Decision (September 24, 2026, 07:30 UTC)",
+      "typicalReaction": "中等影响。主要央行的利率决策可能改变人们对风险资产和美元的看法；留意任何鹰派或鸽派意外。"
+    },
+    {
+      "event": "Riksbank (Sweden) Rate Decision (September 24, 2026, 07:30 UTC)",
+      "typicalReaction": "中等影响。欧洲利率决策影响欧元强度和风险胃口。"
+    },
+    {
+      "event": "Norges Bank (Norway) Rate Decision (September 24, 2026, 08:00 UTC)",
+      "typicalReaction": "中等影响。北欧央行货币政策决策可能影响更广泛的市场风险情绪。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货价格与资产现货价格之间的差异。正基差意味着期货交易价格高于现货；用于衡量交易者是否在押注价格上涨。"
+    },
+    {
+      "term": "交易所交易基金（ETF）",
+      "definition": "跟踪资产（如比特币或以太坊）的基金，可在股票交易所买卖。现货ETF持有实际资产，而非衍生品。"
+    },
+    {
+      "term": "ETF流向",
+      "definition": "给定一天内流入或流出ETF的净资金额。流入表明对资产有需求；流出表明投资者在卖出。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "永续合约交易者之间的定期支付。当融资费为正时，多头交易者（押注价格上涨者）向空头交易者（押注价格下跌者）支付，表明看涨信心。负融资费意味着空头向多头支付。"
+    },
+    {
+      "term": "清算",
+      "definition": "当损失达到预设限额时，强制平仓杠杆头寸。清算可能连锁反应，造成价格突然飙升或暴跌。"
+    },
+    {
+      "term": "多空比",
+      "definition": "在给定合约上押注价格上涨（多头）的交易者与押注价格下跌（空头）的交易者的比例。比率低于1.0表示空头多于多头（看跌）；高于1.0表示多头多于空头（看涨）。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "在任何给定时刻用于计算衍生品合约利润和损失的价格。它通常是最后交易价格、当前价格和波动率调整后的公平价值估计的平均值。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "期货交易所上开放头寸（未平仓合约）的总数。未平仓头寸上升表明有新资金进入；下降表明交易者在平仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一段时间内未平仓头寸的百分比变化。负变化意味着头寸被平仓或清算；正变化意味着新头寸被开仓。"
+    },
+    {
+      "term": "永续合约",
+      "definition": "没有到期日期的期货合约。只要交易者保持足够的保证金（抵押品），就可以无限期持有永续合约。大部分加密货币衍生品成交量发生在永续合约上。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "设计用来保持稳定价值的加密货币，通常与美元或其他参考资产挂钩。USDC和USDT是例子。"
+    },
+    {
+      "term": "代币化存款",
+      "definition": "传统银行存款的数字代表，记录在区块链上，允许即时结算和可编程支付。从法律角度看，它等同于在银行持有现金。"
+    },
+    {
+      "term": "成交量",
+      "definition": "在给定时期内在交易所或合约上执行的交易总价值。更高的成交量通常表示更多的流动性和对价格发现的信心。"
+    }
+  ],
   "_source": "cli-zh"
 }
