@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-23T22:06:07.258Z",
+  "generatedAt": "2026-09-23T23:07:53.472Z",
   "count": 98,
   "counts": {
     "total": 98,
@@ -22,9 +22,9 @@
         "BTC": -0.47527529007384955,
         "ETH": -0.7889055872102825
       },
-      "marketSummary": "Bitcoin and Ethereum fell 0.5–0.8% on September 22 as funding flipped negative at major venues; institutional BTC ETF inflows hit $715M; regulators warned of manipulation risks in prediction markets.",
-      "oneLine": "Bitcoin and Ethereum fell 0.5–0.8% on September 22 as funding flipped negative at major venues; institutional BTC ETF inflows hit $715M; regulators warned of manipulation risks in prediction markets.",
-      "newsCount": 6,
+      "marketSummary": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
+      "oneLine": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
+      "newsCount": 7,
       "topMover": {
         "symbol": "TAKEUSDT",
         "chgPct": 2.767932489451481
@@ -38,11 +38,11 @@
       ],
       "languages": [
         "en",
-        "zh"
+        "tr"
       ],
       "status": "degraded",
       "degradedReasons": [
-        "tr report unavailable"
+        "zh report unavailable"
       ],
       "flagged": [],
       "files": {

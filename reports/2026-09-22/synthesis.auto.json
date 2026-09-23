@@ -1,80 +1,86 @@
 {
-  "oneLine": "Bitcoin and Ethereum fell 0.5–0.8% on September 22 as funding flipped negative at major venues; institutional BTC ETF inflows hit $715M; regulators warned of manipulation risks in prediction markets.",
-  "caveman": "Bitcoin and Ethereum — two kinds of digital money that people trade — both went down a little bit on September 22. Bitcoin dropped less than 1%, and Ethereum dropped a bit more. When traders bet on price using futures (like a bet that locks in the price), they pay small fees to each other to keep things balanced. On September 22, most trading places charged negative fees to Bitcoin traders, meaning traders got paid because too many people were betting prices would fall. Companies that invest in crypto announced they would lend $300 million to other crypto businesses. Regulators warned traders to be careful about prediction markets — special betting markets where you can bet on whether someone will say certain words — because they can be rigged. Stocks from Korea (Samsung, SK Hynix) and Hong Kong (AI companies like Zhipu) that trade like futures fell much more than Bitcoin: 3% to 15% down. It was a slightly worried day, with some profit-taking and caution.",
-  "priceVolumeSummary": "Bitcoin closed at $86,158 (down 0.48%) and Ethereum at $2,752.69 (down 0.79%). Binance led volume on both, with $14.6B in BTC volume and $10.1B in ETH volume. All five major venues (Binance, Bybit, OKX, Bitget, Gate) agreed closely on prices throughout the day.",
-  "positioningSummary": "Bitcoin funding turned negative at most venues (Binance −0.92%, OKX −1.70%, Bybit −0.32%), though Bitget (+8.54%) and Gate (+3.50%) remained positive — suggesting shorts were rewarded and longs paid. Binance's BTC open interest fell 2.74%, the largest daily drop observed. Long/short ratio on Binance leaned slightly bearish at 0.90 (meaning more shorts than longs). Ethereum saw similar negative funding at OKX (−0.57%), Bybit (+0.70%), and Binance (+5.08%), with Binance ETH open interest down 1.58%. Overall: traders reduced bullish bets and shorts collected small daily fees.",
-  "stocksSummary": "Korean stocks tumbled across the board: SK Hynix (−4.61%), Samsung (−2.04%), Hyundai (−3.46%), and LG Electronics (−4.57%) all declined. The KOSPI's profit-taking after earlier gains and concerns ahead of the Chuseok holiday weekend weighed on sentiment. Hong Kong AI names crashed hard — Zhipu AI (−14.65%), MiniMax (−7.72%), and Zhongji Innolight (−7.14%) — reflecting broader weakness in Chinese AI valuations and lock-up expiry concerns. China stocks were stable (Unitree −0.19%, CXMT −1.35%). These declines outpaced crypto pairs by 10–15x, indicating sector-specific distress in semiconductors and AI rather than broad crypto contagion.",
+  "oneLine": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
+  "caveman": "Bitcoin and Ethereum both went down a small amount on September 22—not even half a percent. Traders who borrowed money to bet on price going up were fewer and more nervous, so the money locked into contracts got smaller. Most other coins fell too, like Solana and Dogecoin. Stocks in Asia mostly fell too, especially computer chip companies. It was a calm but slightly sad day—not exciting, but not scary either.",
+  "priceVolumeSummary": "Bitcoin closed around $86,169 (down from $86,581 open), down 0.48% on the day. Ethereum closed at $2,752.84 (down from $2,774.73), down 0.79% on the day. Prices were consistent across all five major exchanges. Binance led volume in both coins with $14.6 billion in BTC trades and $10.1 billion in ETH trades.",
+  "positioningSummary": "Funding rates were mixed and generally subdued across all exchanges: Bitcoin funding ranged from negative (OKX at -1.13% annualized) to modest positive (Bitget at 8.21%), while Ethereum funding ranged from 0.73% to 7.66%. Bitcoin open interest declined slightly, with Bybit down 0.13% and Binance down 2.74%. Ethereum open interest fell more noticeably, with Bybit down 5.66% and Binance down 1.58%. On Binance, Bitcoin long-to-short ratio stood at 0.90 (more shorts than longs), while Ethereum showed 2.41 (notably more longs). This mixed positioning and declining open interest suggest traders were neither aggressively bullish nor bearish—just cautiously positioned.",
+  "stocksSummary": "Asian stock-market cash sessions occurred on September 22 but high-resolution price data is from September 23, so moves are dated after the report period. Korea's KOSPI opened up 2.2% early but closed near flat (+0.15%) on Sept 22 due to profit-taking, with Samsung ultimately +0.91% and SK Hynix -1.5% by the session end. Hong Kong's index was essentially flat. US equities data (SPY -0.72%, Nasdaq -1.1%) are from Sept 23. Oil futures rose 2.9% (WTI) and 3.3% (Brent), likely driven by traditional-market oil demand signals rather than crypto-specific factors.",
   "movers": [
     {
+      "symbol": "NIL",
+      "explanation": "NIL (Nil token) jumped 19.5% intraday on September 22, though 24-hour change shows +47.7%, indicating much of the gain occurred before the report period. Very small volume ($80M) and low liquidity suggest technical/speculative moves rather than news-driven.",
+      "hasCause": false
+    },
+    {
       "symbol": "MUBARAK",
-      "explanation": "MUBARAK surged 79.7% on the day, with $798M in volume — an enormous move for a small-cap. No clear public cause found; appears to be retail speculation on a low-liquidity token.",
+      "explanation": "MUBARAK crashed 79.7% intraday (24-hour change: -33.9%), an extreme move on token with $798M volume. No clear public cause; the dramatic intraday swing on such a small-cap token with illiquid markets points to liquidation cascades or low-confidence trading.",
       "hasCause": false
     },
     {
       "symbol": "TAKE",
-      "explanation": "TAKE rose 2.77% on the day with $1.3M volume, following a 55% surge over the prior 24 hours. Context unclear from major news outlets; likely a momentum play in the altcoin space.",
-      "hasCause": false
-    },
-    {
-      "symbol": "SAGA",
-      "explanation": "SAGA climbed 2.94% on the day with $46.5M volume. Part of the altcoin rally before the market rolled over; no specific announcement identified.",
+      "explanation": "TAKE rose 2.8% intraday despite 24-hour showing +53%. Very small volume ($1.3M), suggesting the larger 24h move occurred earlier; September 22 moves are minimal and lack identifiable news cause.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Hashed anchors $300M digital asset private credit fund targeting institutional financing gap",
-        "what": "Crypto venture firm Hashed became anchor investor in a new private credit fund managed by Thoro Capital, aimed at lending to institutional digital asset firms using covenant-based underwriting. The fund settles in stablecoins and targets profitable crypto infrastructure companies locked out of traditional banking by capital requirements.",
-        "coins": "general institutional",
-        "timeUTC": "2026-09-22 09:30 UTC",
+        "headline": "CFTC warns prediction markets of manipulation risk in 'mention' contracts",
+        "what": "The Commodity Futures Trading Commission issued a staff advisory on September 22 warning that contracts based on whether someone 'mentions' a word or appears at an event carry heightened manipulation risk. The advisory tells exchanges to weigh four factors—surveillance capability, settlement verifiability, external pressure on the subject, and conflicting obligations—before listing such contracts. This is not an outright ban but shifts regulatory burden onto exchanges to prove adequate safeguards.",
+        "coins": "N/A (regulatory, not crypto-specific)",
+        "timeUTC": "2026-09-22 around 15:18 UTC",
+        "source": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
+      },
+      {
+        "headline": "Hashed crypto VC launches $300 million private-credit fund for digital assets",
+        "what": "Hashed, a prominent cryptocurrency venture capital firm, announced a new private-credit fund targeting $300 million to address financing bottlenecks in institutional digital asset markets. The fund will use 'covenant-based' underwriting to evaluate loan risk, signaling growing institutional appetite for credit infrastructure in crypto.",
+        "coins": "BTC, ETH, general digital assets",
+        "timeUTC": "2026-09-22 around 17:30 UTC",
         "source": "The Block",
         "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013"
       },
       {
-        "headline": "CFTC warns prediction markets that 'mention markets' carry heightened manipulation risk",
-        "what": "The U.S. Commodity Futures Trading Commission (CFTC) issued a staff advisory designating prediction contracts based on whether specific words are mentioned as presumptively susceptible to manipulation. The contracts — betting on utterances in speeches or earnings calls — present risk because a person controlling the outcome could trigger or prevent it. The warning makes it harder for exchanges to self-certify these products.",
-        "coins": "prediction markets (Kalshi, others)",
-        "timeUTC": "2026-09-22 07:18 UTC",
-        "source": "The Block / Bloomberg / CNBC",
-        "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-advisory-mention-markets-manipulation-risk-416120"
-      },
-      {
-        "headline": "Spot Bitcoin ETFs record $714.7M net inflow; Ethereum ETFs see $75.95M outflow on September 22",
-        "what": "U.S. spot Bitcoin ETFs captured $714.7M in net inflows on September 22, with BlackRock's iShares Bitcoin Trust (IBIT) accounting for $350.3M. Ethereum spot ETFs recorded net outflows of $75.95M, driven by redemptions at Fidelity FETH (−$33.1M) and Bitwise ETHW (−$22.3M). The divergence reflects Bitcoin strength among institutions and profit-taking in Ethereum positions.",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-22 (trading day, US Eastern)",
-        "source": "SoSoValue / Farside Investors",
-        "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+        "headline": "Federal Reserve approves BancFirst Corporation merger application",
+        "what": "The Federal Reserve Board announced approval of a banking application by BancFirst Corporation on September 22, clearing regulatory hurdles for the institution. This is a routine banking approval with no direct crypto implications but reflects ongoing traditional-finance regulatory activity.",
+        "coins": "N/A (traditional finance)",
+        "timeUTC": "2026-09-22 around 15:10 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm"
       }
     ],
     "groups": {
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Spot Bitcoin ETFs record $714.7M net inflow; Ethereum ETFs see $75.95M outflow on September 22",
-          "what": "U.S. spot Bitcoin ETFs captured $714.7M in net inflows on September 22, with BlackRock's iShares Bitcoin Trust (IBIT) accounting for $350.3M. Ethereum spot ETFs recorded net outflows of $75.95M, driven by redemptions at Fidelity FETH (−$33.1M) and Bitwise ETHW (−$22.3M). The divergence reflects Bitcoin strength among institutions and profit-taking in Ethereum positions.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-22 (trading day, US Eastern)",
-          "source": "SoSoValue / Farside Investors",
-          "url": "https://sosovalue.com/assets/etf/us-btc-spot"
-        }
-      ],
       "Regulation and policy": [
         {
-          "headline": "CFTC warns prediction markets that 'mention markets' carry heightened manipulation risk",
-          "what": "The U.S. Commodity Futures Trading Commission (CFTC) issued a staff advisory designating prediction contracts based on whether specific words are mentioned as presumptively susceptible to manipulation. The contracts — betting on utterances in speeches or earnings calls — present risk because a person controlling the outcome could trigger or prevent it. The warning makes it harder for exchanges to self-certify these products.",
-          "coins": "prediction markets (Kalshi, others)",
-          "timeUTC": "2026-09-22 07:18 UTC",
-          "source": "The Block / Bloomberg / CNBC",
-          "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-advisory-mention-markets-manipulation-risk-416120"
+          "headline": "CFTC warns prediction markets of manipulation risk in 'mention' contracts",
+          "what": "The Commodity Futures Trading Commission issued a staff advisory on September 22 warning that contracts based on whether someone 'mentions' a word or appears at an event carry heightened manipulation risk. The advisory tells exchanges to weigh four factors—surveillance capability, settlement verifiability, external pressure on the subject, and conflicting obligations—before listing such contracts. This is not an outright ban but shifts regulatory burden onto exchanges to prove adequate safeguards.",
+          "coins": "N/A",
+          "timeUTC": "2026-09-22 around 15:18 UTC",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
+        },
+        {
+          "headline": "SEC censures OTC Link LLC for compliance failures",
+          "what": "The Securities and Exchange Commission censured broker-dealer OTC Link LLC and imposed a $575,000 penalty for longstanding violations of Regulation Systems Compliance and Integrity (Reg SCI). The violations involved repeated failures to maintain and monitor systems required for market surveillance and data reporting.",
+          "coins": "N/A",
+          "timeUTC": "2026-09-22 around 11:21 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci"
         }
       ],
-      "Business and fundraising": [
+      "Institutional flows and ETFs": [
         {
-          "headline": "Hashed anchors $300M digital asset private credit fund targeting institutional financing gap",
-          "what": "Crypto venture firm Hashed became anchor investor in a new private credit fund managed by Thoro Capital, aimed at lending to institutional digital asset firms using covenant-based underwriting. The fund settles in stablecoins and targets profitable crypto infrastructure companies locked out of traditional banking by capital requirements.",
-          "coins": "general institutional",
-          "timeUTC": "2026-09-22 09:30 UTC",
+          "headline": "Bitcoin and Ethereum spot ETFs record solid inflows on September 22",
+          "what": "US spot Bitcoin ETFs recorded $714.7 million in net inflows on September 22, with BlackRock's IBIT leading at $350.3 million and Fidelity's FBTC adding $257.4 million. Ethereum spot ETFs saw $162.2 million in inflows, with BlackRock's ETHA receiving $88.1 million. These inflows reflect steady institutional demand despite modest price declines.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-09-22 (reported)",
+          "source": "Farside Investors",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "Hashed crypto VC launches $300 million private-credit fund for digital assets",
+          "what": "Hashed, a prominent cryptocurrency venture capital firm, announced a new private-credit fund targeting $300 million to address financing bottlenecks in institutional digital asset markets. The fund will use 'covenant-based' underwriting to evaluate loan risk, signaling growing institutional appetite for credit infrastructure in crypto.",
+          "coins": "BTC, ETH, general digital assets",
+          "timeUTC": "2026-09-22 around 17:30 UTC",
           "source": "The Block",
           "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013"
         }
@@ -83,64 +89,76 @@
   },
   "etfFlows": {
     "date": "2026-09-22",
-    "summary": "Bitcoin ETFs recorded $714.7M net inflows; Ethereum ETFs saw $75.95M net outflows. Bitcoin strength (led by BlackRock IBIT at +$350.3M) indicates institutional accumulation, while Ethereum profit-taking suggests rotation out of the second-largest cryptocurrency.",
-    "source": "SoSoValue / Farside Investors",
-    "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+    "summary": "Bitcoin spot ETFs recorded $714.7 million in net inflows, led by BlackRock IBIT (+$350.3M) and Fidelity FBTC (+$257.4M). Ethereum spot ETFs received $162.2 million in net inflows, with BlackRock ETHA (+$88.1M) and VanEck FETH (+$33.6M) as primary inflows. Strong institutional demand persisted despite the day's modest price declines.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
   },
   "calendarNotes": [
     {
-      "event": "US Initial Jobless Claims: Thu 24 Sept, 12:30 UTC",
-      "typicalReaction": "High-impact. This US labor report often triggers short-term volatility across crypto and traditional markets. Claims rising can weaken risk appetite; falling claims can reinforce bullish sentiment."
+      "event": "US Initial Jobless Claims (September 24, 12:30 UTC)",
+      "typicalReaction": "High-impact US economic data. Jobless claims data influences Federal Reserve policy expectations and risk sentiment. Stronger-than-expected claims (job losses) can spark risk-off selling in crypto; weaker claims (job gains) can support risk-on moves. Expect volatility in both crypto and traditional markets."
+    },
+    {
+      "event": "Swiss National Bank Rate Decision (September 24, 07:30 UTC)",
+      "typicalReaction": "Medium-impact. Changes to Swiss rate policy can influence global interest-rate expectations and currency flows, with secondary effects on risk assets."
+    },
+    {
+      "event": "Nordic Central Bank Decisions: Riksbank and Norges Bank (September 24, 07:30–08:00 UTC)",
+      "typicalReaction": "Medium-impact European monetary-policy signals. Moves by Scandinavian central banks are typically lower-volatility events but can signal broader European rate trends."
     }
   ],
   "glossary": [
     {
-      "term": "Covenant-based underwriting",
-      "definition": "A lending approach that focuses on the borrower's financial metrics (cash flow, profitability, operating ratios) rather than only collateral. Common in traditional business lending but novel in crypto, where most lending requires asset collateral."
-    },
-    {
-      "term": "Chuseok",
-      "definition": "A major Korean holiday in September or October (lunar calendar), similar to Thanksgiving. Markets often see light trading and profit-taking in the days leading up to it."
-    },
-    {
-      "term": "Fear and Greed Index",
-      "definition": "A daily sentiment gauge ranging from 0 (Extreme Fear) to 100 (Extreme Greed). It combines market volatility, momentum, volume, and social signals. Extreme readings often precede reversals."
-    },
-    {
       "term": "Funding rate",
-      "definition": "A small fee exchanged between traders in perpetual futures contracts to keep the contract price close to the spot price. When funding is positive, long traders (betting price up) pay shorts. When negative, shorts pay longs. High positive funding can signal overheating; negative funding can mean shorts are winning."
+      "definition": "A periodic payment between traders on perpetual futures contracts to keep the contract price close to the spot price. Positive funding means long (bullish) traders pay short traders; negative means shorts pay longs. Higher funding signals more aggressive bullish positioning and trader confidence that prices will rise."
     },
     {
-      "term": "Futures contract",
-      "definition": "An agreement to buy or sell an asset (Bitcoin, Ethereum, a stock, etc.) at a set price on a future date. Futures traders never own the asset; they settle the price difference in cash."
-    },
-    {
-      "term": "KOSPI",
-      "definition": "The Korea Composite Stock Price Index, the main stock market index of South Korea, tracking companies listed on the Korean Exchange (KRX). Tech and semiconductors are major constituents."
-    },
-    {
-      "term": "Long/short ratio",
-      "definition": "The ratio of long positions (bets that price goes up) to short positions (bets that price goes down). A ratio above 1 means more longs; below 1 means more shorts. Extreme ratios can warn of crowding and potential liquidations."
+      "term": "Long-to-short ratio",
+      "definition": "The proportion of open bets that traders have placed betting price will go up (longs) compared to bets that price will go down (shorts). A ratio above 1.0 means more bullish positioning; below 1.0 means more bearish. Extreme ratios can signal crowded trades vulnerable to quick reversals."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price an exchange uses to settle perpetual futures and calculate funding. It sits between the spot price (cash market) and the futures last trade price to prevent manipulation."
+      "definition": "The official reference price used by exchanges to calculate profit and loss on perpetual futures contracts. Mark price differs from the last traded price to prevent manipulation and ensure fair liquidations, typically calculated as a weighted average of spot prices and funding."
     },
     {
       "term": "Open interest",
-      "definition": "The total number of unsettled futures contracts (in coins or USD value) at an exchange at a point in time. Rising open interest can mean new money entering; falling open interest can mean traders closing positions (less conviction)."
+      "definition": "The total amount of money locked into unfilled futures or derivatives contracts on an exchange at a given time. Rising open interest signals growing trader engagement and potential for larger price moves; falling open interest suggests traders are closing positions or reducing risk."
     },
     {
-      "term": "Open-interest change",
-      "definition": "The percentage move in total open interest over a day or period. A big drop signals traders exiting bets; a big rise signals new speculation."
+      "term": "Open interest change",
+      "definition": "The percentage increase or decrease in open interest over a single day or reporting period. Positive change means new money is entering the market; negative means money is leaving. Changes correlate with shifts in trader conviction or risk appetite."
     },
     {
-      "term": "Prediction market (mention market)",
-      "definition": "A betting contract where traders wager on whether a specific event will occur—for example, whether a word will be mentioned in a speech or earnings call. Manipulation risk arises because a person who knows or controls the outcome can profit unfairly."
+      "term": "Spot price",
+      "definition": "The current market price for immediate delivery of an asset (e.g., Bitcoin at $84,500). Spot prices are set by real-time supply and demand in cash markets, in contrast to futures prices which can differ."
     },
     {
-      "term": "Spot Bitcoin ETF",
-      "definition": "A fund that directly holds Bitcoin and trades on a stock exchange (like Nasdaq). Unlike Bitcoin futures ETFs, spot ETFs own the actual coins, so inflows/outflows reflect real Bitcoin buying/selling by institutional investors."
+      "term": "Perpetual futures (or perps)",
+      "definition": "Derivatives contracts that let traders bet on future price moves with leverage (borrowed money), with no expiration date. Unlike regular futures, perpetuals stay linked to the spot price via funding rates and are settled continuously."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a leveraged position when the value of collateral (security deposit) falls below a required minimum. Liquidations happen automatically if price moves sharply against the trader, causing sudden market sales that can accelerate price declines."
+    },
+    {
+      "term": "Altcoins",
+      "definition": "Any cryptocurrency other than Bitcoin or Ethereum. Altcoins typically have smaller market capitalizations and higher volatility, ranging from established projects (Solana, Cardano) to speculative tokens with low liquidity."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment indicator (scored 0–100) that measures overall market psychology toward risk. Scores below 25 = 'Extreme Fear' (potential buying opportunity); 50 = neutral; above 75 = 'Extreme Greed' (potential sell-off risk). The index fell from 78 (Extreme Greed) to 71 (Greed) on September 22."
+    },
+    {
+      "term": "Basis",
+      "definition": "In the context of daily price changes, the time period over which the price change is measured. 'utc-day' means the change from market open to close within a single UTC day; 'rolling-24h' means the change over the most recent 24-hour period regardless of calendar dates."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "A fund that holds Bitcoin or Ethereum on behalf of investors and trades on traditional stock exchanges like the NYSE. Spot Bitcoin ETFs hold actual Bitcoin; flows in and out of these funds reflect institutional investor demand for exposure without holding crypto directly."
+    },
+    {
+      "term": "Net flow (or net inflow/outflow)",
+      "definition": "The cumulative amount of money entering (inflow) or leaving (outflow) investment vehicles like ETFs over a specific period. Positive net flow suggests growing investor confidence; negative flow suggests selling pressure or reduced interest."
     }
   ],
   "_source": "cli"
