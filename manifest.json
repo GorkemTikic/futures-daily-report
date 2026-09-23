@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-23T01:03:38.896Z",
+  "generatedAt": "2026-09-23T02:06:32.479Z",
   "count": 98,
   "counts": {
     "total": 98,
@@ -22,9 +22,9 @@
         "BTC": -0.47527529007384955,
         "ETH": -0.7889055872102825
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum both fell under 1% on September 22 as traders pulled back open positions, though Bitcoin's futures ETFs absorbed record inflows and regulators warned about manipulation risks in new prediction markets.",
+      "oneLine": "Bitcoin and Ethereum both fell under 1% on September 22 as traders pulled back open positions, though Bitcoin's futures ETFs absorbed record inflows and regulators warned about manipulation risks in new prediction markets.",
+      "newsCount": 11,
       "topMover": {
         "symbol": "MUBARAKUSDT",
         "chgPct": 79.72139757935602
@@ -38,12 +38,11 @@
       ],
       "languages": [
         "en",
-        "tr",
-        "zh"
+        "tr"
       ],
       "status": "degraded",
       "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)"
+        "zh report unavailable"
       ],
       "flagged": [],
       "files": {

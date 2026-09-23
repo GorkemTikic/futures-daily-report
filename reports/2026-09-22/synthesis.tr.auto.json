@@ -1,32 +1,185 @@
 {
-  "oneLine": "5 borsa platformundan toplanan pazar verileri; haber sentez analizi bu çalıştırma için kullanılamadı.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Otomatik açıklama bu çalıştırma için kullanılamadı — rakamlar doğrudan gösterilmiştir.)",
-  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakınız.",
-  "stocksSummary": "",
+  "oneLine": "Bitcoin ve Ethereum 22 Eylül'de %1'in altında kayıp verdi; tüccarlar açık pozisyonlarını kapatırken Bitcoin spot ETF'leri rekor girişler gördü. Ayrıca düzenleyiciler yeni tahmin piyasalarında manipülasyon risklerine karşı uyarı yayınladı.",
+  "caveman": "Bitcoin ve Ethereum 22 Eylül'de küçük bir düşüş yaşadı (Bitcoin yaklaşık 86.600 dolardan 86.160 dolara düştü, Ethereum 2.774 dolardan 2.753 dolara). Bu normal bir gündü. Büyük haber: borsa CME, Bitcoin Cash vadeli işlemleri başlatacağını açıkladı ve bu Bitcoin Cash'in %30 yükselmesine sebep oldu. Kripto şirketi Binance, USDC'yi yapan Circle şirketine 100 milyon dolar yatırım yaptı ve beş yıl boyunca çalışacaklar. ABD hükümeti (CFTC) uyardı: bazı yeni bahis piyasaları tehlikeli çünkü birinin bir sözü söyleyip söylemeyeceği ya da bir etkinliğe gidip gitmeyeceğine bahis oynanıyor—bunu kandırmak kolay. Kısacası, normal bir gün, bazı iyi haberler var ama büyük bir fiyat düşüşü olmadı.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum sırasıyla %0,48 ve %0,79 oranında düşüş kaydetti. Binance her iki kripto para da en yüksek işlem hacmini öncü rolü oynadı: BTC 14,56 milyar dolar ve ETH 10,12 milyar dolar ile, beş büyük borsa da fiyatlarını birbirinden 13–14 dolar içinde tutarlı tuttu.",
+  "positioningSummary": "Finansman oranları keskin farklar gösterdi: Bitcoin Bitget'te yıllık %1,86'dan Bybit'te %7,68'e kadar değişirken, Ethereum oranları %10–11 etrafında yoğunlaştı—güçlü alıcı duygusunu gösteriyor ve borç verenler yüksek ücret alıyor. Açık pozisyon çoğu borsada düştü (Binance'de Bitcoin %2,74, Bybit'te Ethereum %5,66), tüccarların kaldıraçlı bahislerini azalttığını gösterdi. Uzun-kısa oranları karışık sinyaller verdi: Bitcoin tüccarları hafif satıcı temayüllü (ana borsalarda 0,90–0,95), Ethereum alıcıları egemen (Binance'de 2,41, OKX'te 1,16).",
+  "stocksSummary": "Asya borsaları 22 Eylül'de düştü: Hong Kong yapay zeka ve yariiletken hisseleri keskin şekilde düştü (Zhipu AI %5,84 düşüş, MiniMax %7,60 düşüş, SK Hynix %2,89 düşüş), Samsung Electronics ise Seul'de %1,57 kazançla kıpırdadı. ABD borsaları dengeli kaldı (S&P 500 %0,015 düşüş, Nasdaq Bileşim %0,45 yükseliş). Petrol fiyatları geri çekildi, %2–3 düştü (WTI ham petrol %3,25 düşüş), doğalgaz arz endişesiyle %5,56 yükseldi. Altın %0,39 düştü.",
   "movers": [
     {
+      "symbol": "BCHUSDT",
+      "explanation": "Bitcoin Cash %29 sıçradı çünkü CME Group, düzenlenmiş Bitcoin Cash ve Uniswap vadeli işlem sözleşmeleri ekleyeceğini açıkladı, başlangıç 19 Ekim 2026. Vadeli işlem listeleme, her iki varlık için de kurumsal alanda büyük bir dönüm noktası.",
+      "hasCause": true
+    },
+    {
       "symbol": "MUBARAKUSDT",
-      "explanation": "Bu çalıştırma için anlatı mevcut değil.",
+      "explanation": "Bu düşük likidite token %80 sıçradı spekülatif ticaret nedeniyle. Hareketi açıklayan haber yok; ince emir defterleriyle tipik meme-coin oynaklığı.",
       "hasCause": false
     },
     {
       "symbol": "龙虾USDT",
-      "explanation": "Bu çalıştırma için anlatı mevcut değil.",
-      "hasCause": false
-    },
-    {
-      "symbol": "MARSCOINUSDT",
-      "explanation": "Bu çalıştırma için anlatı mevcut değil.",
+      "explanation": "Bu Çince karakter token gün içinde %40 düştü ağır satışta. Doğrulanmış bir açıklama yok; düşük işlem hacmli altcoin'ler için tipik davranış.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "CME, 19 Ekim'de Bitcoin Cash ve Uniswap vadeli işlemlerini başlatıyor",
+        "what": "CME Group, Bitcoin Cash (BCH) ve Uniswap (UNI) için standart ve Mikro vadeli işlem sözleşmeleri ekleyeceğini açıkladı, düzenleyici onayına bağlı. Standart BCH sözleşmeleri 250 parayı, Mikro 25 parayı kapsayacak. UNI, 10.000 parayla ve 1.000 parayla sözleşmeleri takip edecek. Bu, her iki altcoin için de kurumsal onay açısından bir dönüm noktasıdır ve BCH'yi yaklaşık %30 yukarıya çekti.",
+        "coins": "BCH, UNI",
+        "timeUTC": "September 22, 2026",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379004/cme-crypto-bitcoin-cash-uniswap-futures"
+      },
+      {
+        "headline": "Binance, Circle'dan 100 milyon dolarlık pay alıyor, 5 yıllık USDC ortaklığını genişletiyor",
+        "what": "Binance, Circle'ın 1,24 milyon hissesini 80,84 dolardan özel yerleşimde satın aldı; anlaşma 17 Eylül'de kapandı. Borsa ayrıca Circle ile olan USDC promosyon anlaşmasını beş yıl daha uzattı; Circle, Binance'e USDC varlıklarına bağlı aylık teşvikler ödeyecek. Stratejik hamle, USDC kabulünü dünya çapında artırmayı ve Tether'le rekabet etmeyi amaçlıyor.",
+        "coins": "Circle, USDC",
+        "timeUTC": "September 22, 2026",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+      },
+      {
+        "headline": "CFTC, 'söz piyasası' tahmin sözleşmelerinin yüksek manipülasyon riski oluşturduğu konusunda uyarıyor",
+        "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu, 22 Eylül'de birinin belirli kelimeleri söyleyip söylemeyeceğini veya etkinliklere katılıp katılmayacağını bahisle pazar sözleşmelerinin önemli manipülasyon riski taşıdığını belirterek resmi bir uyarı yayınladı. Ajans, bu sözleşmelerin 'ne bağımsız olarak oluşturulan ne de harici olarak doğrulanabilir' davranışa dayandığını belirtmiş ve kandırma koşulları yaratmıştır. Uyarı, CFTC'nin başkan konuşmalarına bağlı tahmin sözleşmeleri ticareti nedeniyle eski bir Beyaz Saray teleprompter operatörüne 107.000 dolardan fazla para cezası vermesinden sonra geldi.",
+        "coins": "Prediction markets / no specific coins",
+        "timeUTC": "September 22, 2026",
+        "source": "CFTC",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri neredeyse 2 yılın en büyük alış gününü kaydetti, 11.500 BTC girişi",
+          "what": "ABD spot Bitcoin ETF'leri neredeyse iki yılın en büyük tek günlük girişini kaydetti ve 22 Eylül'de yaklaşık 11.500 BTC emdi. Grayscale'in Bitcoin Mini Trust'ı ve Fidelity'nin FBTC'si, BlackRock'ın IBIT'i ile birlikte faaliyeti öncü rolü oynadı. Girişler, Bitcoin'in mütevazı %0,48 günlük düşüşüne rağmen kurumsal iştahı gösteriyor ve varlık yöneticilerinden süregelen alış baskısını yansıtıyor.",
+          "coins": "BTC",
+          "timeUTC": "September 22, 2026",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-etfs-just-absorbed-11500-btc-in-their-biggest-buying-day-in-nearly-two-years/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Kanada'nın En Büyük Altı Bankası, bankalararası tokenleştirilmiş mevduat girişimini başlatıyor",
+          "what": "Kanada'nın altı en büyük finansal kurumu, katılımcı bankalar arasında dijital ticari mevduatların hareket etmesine izin veren bir bankalararası tokenleştirilmiş mevduat platformu açıkladı; nihai olarak daha geniş dijital varlık ekosistemleriyle bağlantı kurmadan önce. İlk test, kurumdan-kuruma transferlerine odaklanıyor; düzenleyiciler yakında ödeme yasası kapsamındaki muameleyi açıklıkla belirtmişler.",
+          "coins": "Tokenized deposits / Canadian dollar",
+          "timeUTC": "September 22, 2026",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CME başkanı, piyasaların geleneksel varlıkların 'toplu tokenleştirilmesi' için hazırlanması gerektiğini söylüyor",
+          "what": "CFTC Başkanı Rostin Behnam, finansal piyasaların hisse senetleri, tahviller ve emtiaların yaygın tokenleştirilmesini beklemesi gerektiğini, blockchain altyapısında 24/7 ticaretin merkezi bir planlama senaryosu haline geleceğini işaret etti. Açıklama, Trump yönetiminin kripto-dostu düzenleme çabalarını yansıtıyor ve büyük piyasa yapısı değişikliklerine yönelik düzenleyici açıklığı gösteriyor.",
+          "coins": "Tokenized equities, tokenized bonds",
+          "timeUTC": "September 22, 2026",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-selig-mass-tokenization-24-7-trading-416111"
+        },
+        {
+          "headline": "Beyaz Saray ve Hazine, kripto piyasası yapısı çalışmasının Kongresi değil, düzenleyicilere ait olduğunu söylüyor",
+          "what": "Beyaz Saray ve ABD Hazine yetkilileri, sınırlı Kongre oturumunun Ocak 2027'den önce kripto Clarity Act'ı yeniden gözden geçirebileceğine dair umut olmasına rağmen, piyasa standartları ve gözetim kuralları üzerindeki gerçek çalışmanın düzenleyici kanallar aracılığıyla ilerlemesi gerektiğini belirtti. CFTC ve SEC, yasal onay gerektirmeyen kurallar konusunda liderlik yapıyor.",
+          "coins": "Bitcoin, Ethereum, all crypto",
+          "timeUTC": "September 22, 2026",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kötü niyetli iPhone uygulaması, App Store kullanıcılarından 580.000 dolarlık USDT çalıyor",
+          "what": "Apple'ın resmi App Store'unda dağıtılan 'Fomopeek' adında kötü amaçlı bir iOS uygulaması, hafta sonunda yaklaşık 580.000 dolarlık USDT'yi kripto kullanıcılarından çalmak için sandbox zayıflıklarını istismar etti. Güvenlik firması SlowMist saldırı vektörünü tanımladı ve Apple uygulamayı kaldırdı. Olay, resmi platformlarda bile dağıtım kanalı risklerini vurguluyor.",
+          "coins": "USDT",
+          "timeUTC": "September 22, 2026",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/rogue-iphone-app-escapes-ios-sandbox-to-hijack-580000-in-usdt/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Nasdaq rekor seviyeye çıkarken Dogecoin 4 aylık zirveye yükseliyor",
+          "what": "Nasdaq Bileşim 22 Eylül'de %0,45 artışla kapandı ve yeni zirveler kaydetti. Dogecoin (DOGE), meme-coin sektöründen gelen coşku ve platform ticaret entegrasyonlarını takiben 4 aydır en yüksek fiyatına çıktı ve psikolojik 0,10 dolar seviyesini kırdı. X (eski Twitter) Coinbase, Kraken, Gemini, Moomoo ve Interactive Brokers ile ticaret ortaklıkları açıkladı ve bu, platformda cashtag tabanlı ticarete izin verdi.",
+          "coins": "DOGE",
+          "timeUTC": "September 22, 2026",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378934/dogecoin-price-jumps-highest-months"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[BAĞ. LANTI, 21 Eylül] XRP hacmi CME short squeeze'sinde 7,4 milyar dolara patladı",
+          "what": "21 Eylül'de CME kaldıraçlı fonlar 46,3 milyon XRP net kısa pozisyonunu kapattı, potansiyel bir kısa squeeze tetikledi. XRP ticaret hacmi 7,4 milyar dolara sıçradı, ancak Coinbase'deki spot ürünleri sadece mütevazı şekilde hareket etti ve kaldıraçlı türev faaliyetinin hareketi ittiğini gösterdi. Bu gece bağlamı, 22 Eylül olayı değil.",
+          "coins": "XRP",
+          "timeUTC": "September 21, 2026",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-volume-explodes-to-7-4b-and-a-massive-cme-short-squeeze-is-blamed/"
+        },
+        {
+          "headline": "On yıl önceki Bitcoin iki haftada 161 milyon dolar değerinde hareket etti",
+          "what": "On yıl öncesinde çıkarılmış olduğu bilinen Bitcoin'i içeren dört cüzdan, 6–22 Eylül arasında 1.971 BTC (o zaman toplam ~162 milyon dolar değerinde) hareket ettirdi, buna 22 Eylül'de bir 600 BTC (51,9 milyon dolar) transferi de dahil. Üç cüzdan 'Noah Doe' davasının etiketlerini taşıyor, potansiyel hukuki anlaşma faaliyetini veya benzeri mahkeme kararlaştırılmış hareketleri önerdi.",
+          "coins": "BTC",
+          "timeUTC": "September 22, 2026",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-09-22",
+    "summary": "Spot Bitcoin ETF'leri neredeyse iki yılın en büyük tek günlük girişini kaydetti, yaklaşık 11.500 BTC (994 milyon dolar) emdi. Fidelity'nin FBTC'si ve Grayscale'in Bitcoin Mini Trust'ı, BlackRock'ın IBIT'i ile birlikte faaliyeti öncü rolü oynadı; kurumsal talep gösteriyor. Önceki oturumlar 17–18 Eylül'de sırasıyla 159,5 milyon dolar ve 433,0 milyon dolar net girişler gördü.",
+    "source": "CryptoSlate",
+    "url": "https://cryptoslate.com/bitcoin-etfs-just-absorbed-11500-btc-in-their-biggest-buying-day-in-nearly-two-years/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims: September 24, 2026, Thursday 12:30 UTC",
+      "typicalReaction": "Yüksek etkili ekonomik açıklaması. Tüccarlar genellikle rapor tahminlerden keskin şekilde farklı olursa hem kripto hem geleneksel piyasalarda oynaklık beklerler. Zayıf işgücü verisi (yüksek talep sayısı) genellikle risk-kaçış duygusunu tetikler ve Bitcoin'i aşağıya itebilir. Güçlü veri (düşük talep sayısı) hisse senetleri ve kripto risk iştahını destekleyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem sözleşmelerini (hiçbir zaman sona ermeyen vadeli işlemler) işlem yapan tüccarların pozisyonları tutmak için ödediği veya aldığı faiz oranı. Pozitif oran, uzunların kısalara para ödediği anlamına gelir; bu, çoğu tüccarın boğun olduğunu ve pozisyon tutmak için prim ödemeye istekli olduğunu gösterir. Yüksek oranlar aşırı alım koşullarını gösterir; düşük veya negatif oranlar aşırı satım koşullarını gösterir. Oranlar tüm ana borsalarda 8 saatte bir sıfırlanır."
+    },
+    {
+      "term": "Uzun",
+      "definition": "Fiyatın yükseleceği konusunda bir bahis. Bir tüccar 'uzun' ise, bir varlığa sahip veya fiyat yükselirse kâr sağlayan bir sözleşmeyi tutar."
+    },
+    {
+      "term": "Uzun-kısa oranı",
+      "definition": "Uzun-kısa oranı, tüccarların yukarı (uzun) bahis yapanları ile aşağıya (kısa) bahis yapanların oranıdır. 2,0 oranı, iki kat daha fazla tüccarın yukarı bahis yaptığını gösterir. 1,0'dan düşük oran daha fazla tüccarın aşağıya bahis yaptığını gösterir. Yüksek oranlar boğun, düşük oranlar ayı duygusunu gösterir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Vadeli işlem sözleşmelerini çözmek ve hesap değerlerini hesaplamak için kullanılan referans fiyatı. Tipik olarak, büyük borsalardaki fiyatların ortancası, sık sık güncellenir ve aşırı manipülasyona son işlem fiyatından daha iyi dayanır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Bir borsada tüm doldurmamış sözleşmelerin (kaldıraçlı pozisyonlar) toplam dolar tutarı. Açık pozisyon yükseldiğinde, tüccarlar yeni pozisyonlar ekliyor ve riski artırıyor; düştüğünde, kapatıyor veya kâr alıyor. Açık pozisyon değişiklikleri tüccarların nasıl yeniden konumlandırdığını gösterir."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Bir dönem (genellikle bir gün) boyunca toplam açık pozisyondaki yüzde artış veya azalma. Negatif bir değişim tüccarların pozisyonları azalttığını gösterir; pozitif bir değişim onların pozisyon eklediğini gösterir. Bu, kaldıraç iştahını yansıtır."
+    },
+    {
+      "term": "Vadeli işlem sözleşmesi",
+      "definition": "Hiçbir zaman sona ermeyen bir vadeli işlem sözleşmesi türü. Tüccarlar pozisyonları süresiz olarak tutabilir; faiz (finansman oranı) her 8 saatte bir fiyatı spot piyasaya uyumlu tutmak için değiştirilir. 'Perps' denir."
+    },
+    {
+      "term": "Kısa",
+      "definition": "Fiyatın düşeceği konusunda bir bahis. Bir tüccar 'kısa' ise, fiyat düşerse kâr sağlayan bir sözleşmeyi tutar."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Kripto para birinin işlem yapıldığı bir değişim. Örnekler Binance, Bybit, OKX, Bitget ve Gate.io'yu içerir. Yerel talep ve likidite nedeniyle fiyatlar ve koşullar borsalar arasında hafif şekilde farklı olabilir."
+    },
+    {
+      "term": "İşlem hacmi",
+      "definition": "Belirli bir dönemde yürütülen işlemlerin toplam dolar tutarı. Yüksek hacim aktif ticaret ve derin likiditeyi gösterir; düşük hacim geniş alış-satış farkları ve kayıplar anlamına gelebilir."
+    }
+  ],
   "_source": "cli-tr"
 }
