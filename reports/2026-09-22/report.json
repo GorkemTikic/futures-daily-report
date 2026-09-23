@@ -6,8 +6,8 @@
   "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
   "newsCount": 0,
   "macro": {
-    "BTC": -0.4755150739548914,
-    "ETH": -0.7907389119951581
+    "BTC": -0.47527529007384955,
+    "ETH": -0.7889055872102825
   },
   "topMover": {
     "symbol": "TAKEUSDT",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "23 Sept 20:15 UTC",
+  "generatedAtUTC": "23 Sept 21:00 UTC",
   "languages": [
     "en"
   ],
