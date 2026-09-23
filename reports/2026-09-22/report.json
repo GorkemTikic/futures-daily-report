@@ -3,8 +3,8 @@
   "kind": "market",
   "dateLong": "Tuesday, 22 September 2026",
   "coversUTC": "2026-09-22 00:00–23:59 UTC",
-  "oneLine": "Bitcoin and Ethereum posted modest declines on September 22 while Asian tech stocks weakened sharply; regulatory bodies issued risk warnings and approvals.",
-  "newsCount": 7,
+  "oneLine": "Bitcoin and Ethereum fell 0.5–0.8% on September 22 as funding flipped negative at major venues; institutional BTC ETF inflows hit $715M; regulators warned of manipulation risks in prediction markets.",
+  "newsCount": 6,
   "macro": {
     "BTC": -0.47527529007384955,
     "ETH": -0.7889055872102825
@@ -20,13 +20,13 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "23 Sept 21:20 UTC",
+  "generatedAtUTC": "23 Sept 22:00 UTC",
   "languages": [
     "en",
-    "tr"
+    "zh"
   ],
   "status": "degraded",
   "degradedReasons": [
-    "zh report unavailable"
+    "tr report unavailable"
   ]
 }
