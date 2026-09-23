@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-23T07:09:51.640Z",
+  "generatedAt": "2026-09-23T20:17:00.987Z",
   "count": 98,
   "counts": {
     "total": 98,
     "market": 11,
     "divergence": 87,
-    "degraded": 0
+    "degraded": 1
   },
   "latest": "2026-09-22",
   "head": 30,
@@ -19,15 +19,15 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -0.47527529007384955,
-        "ETH": -0.7867375439228732
+        "BTC": -0.4755150739548914,
+        "ETH": -0.7907389119951581
       },
-      "marketSummary": "Bitcoin and Ethereum both fell about 0.5% on September 22 as falling oil eased inflation concerns, while major institutional deals and regulatory clarity reshaped crypto infrastructure.",
-      "oneLine": "Bitcoin and Ethereum both fell about 0.5% on September 22 as falling oil eased inflation concerns, while major institutional deals and regulatory clarity reshaped crypto infrastructure.",
-      "newsCount": 12,
+      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "newsCount": 0,
       "topMover": {
-        "symbol": "NILUSDT",
-        "chgPct": 19.54459203036053
+        "symbol": "TAKEUSDT",
+        "chgPct": 2.767932489451481
       },
       "venues": [
         "Binance",
@@ -37,12 +37,14 @@
         "Gate"
       ],
       "languages": [
-        "en",
-        "tr",
-        "zh"
+        "en"
       ],
-      "status": "ok",
-      "degradedReasons": [],
+      "status": "degraded",
+      "degradedReasons": [
+        "narrative fell back to data-only (CLI-only backend)",
+        "tr report unavailable",
+        "zh report unavailable"
+      ],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-22/summary_2026-09-22.html",
