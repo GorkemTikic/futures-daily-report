@@ -8,6 +8,38 @@
 // report cannot execute or exfiltrate anything.
 
 import { renderPdf } from "../src/pdf.js";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+// --- report ownership badge (top-right of every page) ---
+const AVATAR_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "assets", "avatars");
+function avatarDataUri(base) {
+  for (const ext of ["png", "jpg", "jpeg", "webp"]) {
+    try {
+      const p = path.join(AVATAR_DIR, `${base}.${ext}`);
+      if (fs.existsSync(p)) return `data:image/${ext === "jpg" ? "jpeg" : ext};base64,${fs.readFileSync(p).toString("base64")}`;
+    } catch { /* ignore */ }
+  }
+  return null;
+}
+let _ownersBadge = null;
+let _ownersBadgePrint = null;
+function ownersBadge() {
+  if (_ownersBadge !== null) return _ownersBadge;
+  const people = [
+    { name: "CS Gorkem T", file: "gorkem", ini: "GT" },
+    { name: "CS Tarik O", file: "tarik", ini: "TO" },
+  ];
+  const inner = people.map((p) => {
+    const src = avatarDataUri(p.file);
+    const av = src ? `<img class="av" src="${src}" alt="">` : `<span class="av av-ini">${p.ini}</span>`;
+    return `<div class="owner">${av}<span class="onm">${esc(p.name)}</span></div>`;
+  }).join("");
+  _ownersBadge = `<div class="owners" aria-hidden="true">${inner}</div>`;
+  _ownersBadgePrint = `<div class="owners-print" aria-hidden="true">${inner}</div>`;
+  return _ownersBadge;
+}
 
 // Escape text: & < > and both quote characters.
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
@@ -21,6 +53,7 @@ function safeUrl(u) {
 
 function fmtUSD(x) {
   if (x == null || !isFinite(x)) return "—";
+  if (Math.abs(x) >= 1e12) return "$" + (x / 1e12).toFixed(2) + "T";
   if (Math.abs(x) >= 1e9) return "$" + (x / 1e9).toFixed(2) + "B";
   if (Math.abs(x) >= 1e6) return "$" + (x / 1e6).toFixed(0) + "M";
   if (Math.abs(x) >= 1e3) return "$" + (x / 1e3).toFixed(0) + "K";
@@ -28,10 +61,13 @@ function fmtUSD(x) {
 }
 function fmtPrice(x) {
   if (x == null || !isFinite(x)) return "—";
-  if (Math.abs(x) >= 100) return "$" + x.toLocaleString("en-US", { maximumFractionDigits: 2 });
+  if (Math.abs(x) >= 100) return "$" + x.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   if (Math.abs(x) >= 1) return "$" + x.toFixed(4).replace(/0+$/, "").replace(/\.$/, "");
   return "$" + x.toFixed(6).replace(/0+$/, "").replace(/\.$/, "");
 }
+function fmtPct(x, dp = 1) { return x == null || !isFinite(x) ? "—" : x.toFixed(dp) + "%"; }
+function fmtShortDate(d) { try { return new Date(d + "T00:00:00Z").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }); } catch { return d; } }
+function fngColor(v) { if (v <= 25) return "var(--neg)"; if (v <= 45) return "var(--amb)"; if (v <= 55) return "var(--muted)"; if (v <= 75) return "var(--pos)"; return "#16a34a"; }
 const sgn = (x, dp = 2) => x == null || !isFinite(x) ? "—" : (x >= 0 ? "+" : "") + x.toFixed(dp) + "%";
 const fmtRatio = (x) => x == null || !isFinite(x) ? "—" : x.toFixed(2);
 // Colour by a PERCENT value against a named per-column threshold (item 31). All callers
@@ -47,7 +83,7 @@ const STYLE = `
   @media screen{ body{font-size:14px;padding:44px 56px;} h1{font-size:38px;} h2{font-size:22px;} table{font-size:13px;} .lead{font-size:17px;} .section{padding-bottom:30px;margin-bottom:30px;border-bottom:1px solid var(--line2);} .section:last-child{border-bottom:none;} }
   .mono{font-family:'SF Mono','Consolas',monospace;font-variant-numeric:tabular-nums;}
   strong{color:var(--ink);font-weight:650;}
-  .cover-band{display:flex;align-items:center;gap:12px;padding-bottom:16px;margin-bottom:22px;border-bottom:1px solid var(--line);}
+  .cover-band{display:flex;align-items:center;gap:12px;padding-bottom:16px;margin-bottom:22px;border-bottom:1px solid var(--line);position:relative;}
   .cover-mark{width:38px;height:38px;border-radius:10px;background:linear-gradient(150deg,#e05a1f,#c2410c);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;}
   .cover-brand{font-size:12.5px;font-weight:700;color:var(--ink);} .cover-brand span{display:block;font-size:10px;font-weight:500;color:var(--muted);}
   .kicker{font-size:9.5px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:8px;margin-bottom:5px;}
@@ -83,9 +119,20 @@ const STYLE = `
   .cal{margin:6px 0;} .cal .e{display:flex;gap:12px;padding:7px 0;border-bottom:1px solid var(--line2);font-size:12px;}
   .cal .e:last-child{border-bottom:none;} .cal .t{font-family:'SF Mono','Consolas',monospace;color:var(--accent-ink);white-space:nowrap;}
   .cal .fc{color:var(--muted);white-space:nowrap;}
+  .stats-bar{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px;}
+  .stat{flex:1 1 120px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 13px;min-width:0;}
+  .stat .sl{font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+  .stat .sv{font-size:18px;font-weight:800;color:var(--ink);font-variant-numeric:tabular-nums;margin-top:2px;}
+  .stat .sd{font-size:10.5px;color:var(--muted);font-weight:600;}
+  .fng-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle;}
+  .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:6px 0 12px;}
+  .table-wrap table{margin:0;min-width:540px;}
+  .sym-raw{color:var(--faint);font-family:'SF Mono','Consolas',monospace;}
+  .alt-tbl td:first-child{white-space:nowrap;}
   .sess{font-size:10.5px;color:var(--muted);font-weight:600;margin:0 0 6px;}
   .sess.closed{color:var(--amb);}
   .gloss{columns:2;column-gap:26px;} @media screen{.gloss{column-gap:40px;}}
+  @media(max-width:640px){body{padding:20px 16px !important;} h1{font-size:26px !important;} .stats-bar{gap:8px;} .stat{flex:1 1 45%;} .stat .sv{font-size:15px;} .sym-raw{display:none;} .gloss{columns:1;} table{font-size:11px;}}
   .gloss .g{break-inside:avoid;margin-bottom:11px;} .gloss .term{font-weight:700;color:var(--ink);font-size:12px;} .gloss .def{font-size:11.5px;color:var(--ink2);}
   .foot{margin-top:22px;padding-top:11px;border-top:1px solid var(--line);font-size:10px;color:var(--faint);}
   .none{font-size:12px;color:var(--muted);font-style:italic;}
@@ -98,6 +145,14 @@ const STYLE = `
   .caveman-box p{font-size:18px;line-height:1.62;color:#4a3823;margin:0;font-weight:500;}
   @media screen{ .caveman-btn{font-size:14px;} .caveman-box p{font-size:20px;} }
   @media print{ .caveman-btn{display:none;} details.caveman > .caveman-box{display:block;} }
+  .owners{margin-left:auto;display:flex;flex-direction:column;gap:2px;align-items:flex-end;flex-shrink:0;}
+  .owner{display:flex;align-items:center;gap:5px;}
+  .owner .av{width:20px;height:20px;border-radius:50%;object-fit:cover;border:1px solid var(--accent-line);background:var(--card);}
+  .owner .av-ini{display:inline-flex;align-items:center;justify-content:center;font-size:8px;font-weight:800;color:#fff;background:var(--accent);letter-spacing:.02em;}
+  .owner .onm{font-size:8.5px;font-weight:700;color:var(--muted);white-space:nowrap;letter-spacing:.01em;}
+  @media screen{ .owner .av{width:24px;height:24px;} .owner .onm{font-size:10px;} }
+  .owners-print{display:none;}
+  @media print{ .owners{display:none !important;} .owners-print{position:fixed;top:4mm;right:7mm;display:flex;flex-direction:column;gap:2px;align-items:flex-end;} .owners-print .owner{display:flex;align-items:center;gap:4px;} .owners-print .av{width:16px;height:16px;border-radius:50%;object-fit:cover;border:1px solid var(--accent-line);} .owners-print .av-ini{display:inline-flex;align-items:center;justify-content:center;font-size:7px;font-weight:800;color:#fff;background:var(--accent);width:16px;height:16px;border-radius:50%;} .owners-print .onm{font-size:7.5px;font-weight:700;color:var(--muted);white-space:nowrap;} }
 `;
 
 export const LANGS = ["en", "tr", "zh"];
@@ -129,6 +184,8 @@ const LABELS = {
     grp: ["Regulation and policy", "Institutional flows and ETFs", "Exchange and platform changes", "Hacks, exploits and outages", "Traditional markets", "Unconfirmed and watch items"],
     sess: { weekend: "weekend — no cash session", holiday: (n) => `market closed (${n})`, closedGeneric: "cash market was closed — the perp figures are drift only" },
     source: "source", vol: "vol", on: "on", lsLine: "Long/short accounts", oiChangeLine: "Open-interest change over the day",
+    mktCap: "Total market cap", btcDom: "BTC dominance", ethDom: "ETH dominance", fng: "Fear & Greed",
+    altcoinsH: "Altcoins", coin: "Coin",
     none: { movers: "No standout movers today.", stocks: "Stock & commodity data was unavailable this run.", news: "No market-moving news was confirmed for this day", cal: "No US high-impact events on the report day.", gloss: "No special terms used today.", venue: "No venue data available." },
     foot: (c, g, src) => `Covers the UTC day ${c}. Generated ${g}. Numbers from each venue's public API; news from public reporting at generation time. Information only, not financial advice.${src}`,
   },
@@ -154,6 +211,8 @@ const LABELS = {
     grp: ["Düzenleme ve politika", "Kurumsal akışlar ve ETF'ler", "Borsa ve platform değişiklikleri", "Saldırılar, açıklar ve kesintiler", "Geleneksel piyasalar", "Teyit edilmemiş ve izlenecekler"],
     sess: { weekend: "hafta sonu — nakit seans yok", holiday: (n) => `piyasa kapalı (${n})`, closedGeneric: "nakit piyasa kapalıydı — vadeli rakamlar yalnızca sürüklenmedir" },
     source: "kaynak", vol: "hacim", on: "borsalar:", lsLine: "Long/short hesap oranı", oiChangeLine: "Gün içinde açık pozisyon değişimi",
+    mktCap: "Toplam piyasa değeri", btcDom: "BTC hakimiyeti", ethDom: "ETH hakimiyeti", fng: "Korku ve Açgözlülük",
+    altcoinsH: "Altcoin'ler", coin: "Coin",
     none: { movers: "Bugün öne çıkan bir hareket yok.", stocks: "Bu çalışmada hisse ve emtia verisi alınamadı.", news: "Bu gün için piyasayı hareket ettiren teyitli haber yok", cal: "Rapor gününde yüksek etkili ABD verisi yok.", gloss: "Bugün özel terim kullanılmadı.", venue: "Borsa verisi yok." },
     foot: (c, g, src) => `${c} UTC gününü kapsar. Oluşturulma: ${g}. Rakamlar her borsanın herkese açık API'sinden; haberler oluşturma anındaki kamuya açık kaynaklardan. Yalnızca bilgi amaçlıdır, yatırım tavsiyesi değildir.${src}`,
   },
@@ -179,6 +238,8 @@ const LABELS = {
     grp: ["监管与政策", "机构资金与 ETF", "交易所与平台变动", "攻击、漏洞与宕机", "传统市场", "未证实与待观察"],
     sess: { weekend: "周末 — 无现货交易", holiday: (n) => `市场休市(${n})`, closedGeneric: "现货市场休市 — 永续数据仅为漂移" },
     source: "来源", vol: "成交", on: "交易所:", lsLine: "多空账户比", oiChangeLine: "当日未平仓量变化",
+    mktCap: "总市值", btcDom: "BTC 占比", ethDom: "ETH 占比", fng: "恐惧与贪婪",
+    altcoinsH: "山寨币", coin: "币种",
     none: { movers: "今天没有特别突出的波动。", stocks: "本次运行未能获取股票和商品数据。", news: "本日没有证实的、能推动市场的新闻", cal: "报告当日没有高影响的美国数据。", gloss: "今天没有用到特别术语。", venue: "暂无交易所数据。" },
     foot: (c, g, src) => `覆盖 UTC 日 ${c}。生成时间:${g}。数字来自各交易所公开 API;新闻来自生成时的公开报道。仅供参考,不构成投资建议。${src}`,
   },
@@ -221,7 +282,7 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   ];
   const section = (a, body) => `<div class="section"><div class="kicker">${esc(a[0])}</div><h2>${esc(a[1])}</h2>${a[2] ? `<p class="intro">${esc(a[2])}</p>` : ""}${body}</div>`;
   const noneP = (t) => `<p class="none">${esc(t)}</p>`;
-  const venueTableL = (obj, cols) => { const rows = Object.values(obj).filter((r) => r && r.ok); if (!rows.length) return noneP(L.none.venue); return `<table><thead><tr>${cols.map((c) => `<th>${esc(c.h)}</th>`).join("")}</tr></thead><tbody>${rows.map((r) => "<tr>" + cols.map((c) => `<td>${c.f(r)}</td>`).join("") + "</tr>").join("")}</tbody></table>`; };
+  const venueTableL = (obj, cols) => { const rows = Object.values(obj).filter((r) => r && r.ok); if (!rows.length) return noneP(L.none.venue); return `<div class="table-wrap"><table><thead><tr>${cols.map((c) => `<th>${esc(c.h)}</th>`).join("")}</tr></thead><tbody>${rows.map((r) => "<tr>" + cols.map((c) => `<td>${c.f(r)}</td>`).join("") + "</tr>").join("")}</tbody></table></div>`; };
   const anyApprox = (obj) => Object.values(obj).some((r) => r && r.ok && r.volBasis === "approx");
 
   // honesty banners
@@ -230,21 +291,37 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const rollingNote = pack.rolling ? `<div class="note-line">${esc(L.rollingNote(pack.asOfUTC || ""))}</div>` : "";
 
   const cover = `
-    <div class="cover-band"><div class="cover-mark">FD</div><div class="cover-brand">Futures Daily Report<span>${esc(L.tagline)}</span></div></div>
+    <div class="cover-band"><div class="cover-mark">FD</div><div class="cover-brand">Futures Daily Report<span>${esc(L.tagline)}</span></div>${ownersBadge()}</div>
     <div class="kicker">${esc(L.daily)}</div>
     <h1>${esc(dateHeading)}</h1>
     <div class="date">${esc(pack.coversUTC || "00:00–23:59 UTC")} · ${esc(L.dataFrom)}${pack.tradfi?.ok ? " + Twelve Data" : ""}</div>
     ${degradedBanner}${rollingNote}
     <div class="oneline"><div class="k">${esc(L.oneLine)}</div><p>${esc(s.oneLine || "—")}</p></div>`;
 
+  const mkt = pack.market || {};
+  const statsBar = mkt.ok ? `<div class="stats-bar">${
+    mkt.totalMarketCap != null ? `<div class="stat"><div class="sl">${esc(L.mktCap)}</div><div class="sv">${fmtUSD(mkt.totalMarketCap)}</div>${mkt.totalMarketCapChange24h != null ? `<div class="sd mono ${cls(mkt.totalMarketCapChange24h, 2)}">${sgn(mkt.totalMarketCapChange24h)}</div>` : ""}</div>` : ""
+  }${
+    mkt.btcDominance != null ? `<div class="stat"><div class="sl">${esc(L.btcDom)}</div><div class="sv">${fmtPct(mkt.btcDominance)}</div></div>` : ""
+  }${
+    mkt.ethDominance != null ? `<div class="stat"><div class="sl">${esc(L.ethDom)}</div><div class="sv">${fmtPct(mkt.ethDominance)}</div></div>` : ""
+  }${
+    mkt.fearGreed ? `<div class="stat"><div class="sl">${esc(L.fng)}</div><div class="sv"><span class="fng-dot" style="background:${fngColor(mkt.fearGreed.value)}"></span>${mkt.fearGreed.value} — ${esc(mkt.fearGreed.label)}</div>${mkt.fearGreedPrev ? `<div class="sd">prev ${mkt.fearGreedPrev.value}</div>` : ""}</div>` : ""
+  }</div>` : "";
+
   // Caveman mode — CSS-only <details> toggle (no inline JS, CSP-safe).
   const cavemanBlock = s.caveman
     ? `<details class="caveman"><summary class="caveman-btn">${esc(L.caveman)}</summary><div class="caveman-box"><div class="ch">${esc(L.cavemanTitle)}</div><p>${esc(s.caveman)}</p></div></details>`
     : "";
 
+  const alts = pack.altcoins || [];
+  const altcoinsTable = alts.length
+    ? `<h3>${esc(L.altcoinsH)}</h3><div class="table-wrap"><table class="alt-tbl"><thead><tr><th>${esc(L.coin)}</th><th>${esc(L.col.last)}</th><th>${esc(L.col.chg)}</th><th>${esc(L.col.high)}</th><th>${esc(L.col.low)}</th><th>${esc(L.col.vol)}</th></tr></thead><tbody>${alts.map((a) => `<tr><td><strong>${esc(a.symbol)}</strong> <span class="sym-raw">${esc(a.name)}</span></td><td><span class="mono">${fmtPrice(a.price)}</span></td><td><span class="mono ${cls(a.chgPct, TH.price)}">${sgn(a.chgPct)}</span></td><td><span class="mono">${fmtPrice(a.high)}</span></td><td><span class="mono">${fmtPrice(a.low)}</span></td><td><span class="mono">${fmtUSD(a.volume)}</span></td></tr>`).join("")}</tbody></table></div>`
+    : "";
   const priceVol = section(L.price,
     `<h3>${esc(L.h3.btcP)}</h3>${venueTableL(pack.exchanges?.majors?.BTC || {}, priceCols)}
      <h3>${esc(L.h3.ethP)}</h3>${venueTableL(pack.exchanges?.majors?.ETH || {}, priceCols)}
+     ${altcoinsTable}
      ${anyApprox({ ...(pack.exchanges?.majors?.BTC || {}), ...(pack.exchanges?.majors?.ETH || {}) }) ? `<p class="foot-note">${esc(L.volApprox)}</p>` : ""}
      ${pack.anyRolling ? `<p class="foot-note">${esc(L.rollingRow)}</p>` : ""}
      ${s.priceVolumeSummary ? `<p class="say">${esc(s.priceVolumeSummary)}</p>` : ""}`);
@@ -274,7 +351,7 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const rowsTable = (rows, { volMin = 5e4, limit = 10, label = L.col.stock } = {}) => {
     const list = (rows || []).filter((r) => (r.volUSD || 0) >= volMin).slice(0, limit);
     if (!list.length) return "";
-    return `<table><thead><tr><th>${esc(label)}</th><th>${esc(L.col.last)}</th><th>${esc(L.col.chg)}</th><th>${esc(L.col.vol)}</th></tr></thead><tbody>${list.map((r) => `<tr><td><strong>${esc(r.name)}</strong> <span class="mono" style="color:var(--faint)">${esc(r.symbol.replace(/USDT$/, ""))}</span></td><td><span class="mono">${fmtPrice(r.last)}</span></td><td><span class="mono ${cls(r.chgPct, TH.stocks)}">${sgn(r.chgPct)}</span></td><td><span class="mono">${fmtUSD(r.volUSD)}</span></td></tr>`).join("")}</tbody></table>`;
+    return `<div class="table-wrap"><table><thead><tr><th>${esc(label)}</th><th>${esc(L.col.last)}</th><th>${esc(L.col.chg)}</th><th>${esc(L.col.vol)}</th></tr></thead><tbody>${list.map((r) => `<tr><td><strong>${esc(r.name)}</strong> <span class="sym-raw">${esc(r.symbol.replace(/USDT$/, ""))}</span></td><td><span class="mono">${fmtPrice(r.last)}</span></td><td><span class="mono ${cls(r.chgPct, TH.stocks)}">${sgn(r.chgPct)}</span></td><td><span class="mono">${fmtUSD(r.volUSD)}</span></td></tr>`).join("")}</tbody></table></div>`;
   };
   const mktBlock = (mkt) => {
     const t = rowsTable(st.markets && st.markets[mkt], { limit: 8 });
@@ -307,7 +384,8 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const tradfiCard = pack.tradfi?.ok
     ? `<h3>${esc(L.h3.tradfi)}</h3><table><thead><tr><th>${esc(L.col.market)}</th><th>${esc(L.col.chg)}</th><th>${esc(L.col.note)}</th></tr></thead><tbody>${pack.tradfi.items.map((t) => {
         const dateNote = t.staleForReport && t.sessionDate ? `${esc(t.proxy)} · ${esc(t.sessionDate)}` : esc(t.proxy);
-        return `<tr><td><strong>${esc(t.label)}</strong> <span class="mono" style="color:var(--faint)">${esc(t.sessionDate || "")}</span></td><td><span class="mono ${cls(t.changePct, TH.tradfi)}">${sgn(t.changePct)}</span></td><td style="text-align:left;color:var(--muted);font-size:10.5px">${dateNote}</td></tr>`;
+        const label = t.symbol === "XAU/USD" ? `${t.label} (spot)` : t.label;
+        return `<tr><td><strong>${esc(label)}</strong> <span class="sym-raw">${esc(t.sessionDate ? fmtShortDate(t.sessionDate) : "")}</span></td><td><span class="mono ${cls(t.changePct, TH.tradfi)}">${sgn(t.changePct)}</span></td><td style="text-align:left;color:var(--muted);font-size:10.5px">${dateNote}</td></tr>`;
       }).join("")}</tbody></table>`
     : "";
   const etfUrl = s.etfFlows ? safeUrl(s.etfFlows.url) : null;
@@ -325,8 +403,13 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
     ? `<h3>${esc(L.h3.reportDay)}</h3><table><thead><tr><th>${esc(L.col.time)}</th><th>${esc(L.col.event)}</th><th>${esc(L.col.actual)}</th><th>${esc(L.col.fc)}</th><th>${esc(L.col.prev)}</th></tr></thead><tbody>${cal.reportDay.map((e) => `<tr><td class="mono" style="text-align:left">${esc(e.time)}</td><td style="text-align:left"><strong>${esc(e.title)}</strong>${calNote.get(e.title) ? ` — <span style="color:var(--muted)">${esc(calNote.get(e.title))}</span>` : ""}</td><td class="mono">${esc(e.actual || "—")}</td><td class="mono">${esc(e.forecast || "—")}</td><td class="mono">${esc(e.previous || "—")}</td></tr>`).join("")}</tbody></table>`
     : noneP(L.none.cal);
   const calList = (arr, showDay) => `<div class="cal">${arr.map((e) => `<div class="e"><span class="t">${showDay ? esc((e.when || "").split(",")[0]) : esc(e.time)}</span><span style="flex:1"><strong>${esc(e.title)}</strong></span><span class="fc">${showDay ? esc(e.time) : `${esc(L.col.fc)} ${esc(e.forecast || "—")}`}</span></div>`).join("")}</div>`;
+  const warnings = (cal.warnings || []);
+  const warningHtml = warnings.length
+    ? warnings.map((w) => `<div class="banner warn">${esc(w.message)}</div>`).join("")
+    : "";
   const calBody = reportDayTable +
     (cal.next24h && cal.next24h.length ? `<h3>${esc(L.h3.next24h)}</h3>${calList(cal.next24h, false)}` : "") +
+    warningHtml +
     (cal.week && cal.week.length ? `<h3>${esc(L.h3.rest)}</h3>${calList(cal.week, true)}` : "");
   const calSection = section(L.cal, calBody);
 
@@ -338,7 +421,7 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const foot = `<div class="foot">${esc(L.foot(pack.coversUTC || "00:00–23:59 UTC", pack.generatedAtUTC || "", ""))}${src}</div>`;
 
   const csp = `default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'`;
-  return `<!DOCTYPE html><html lang="${escAttr(lang)}"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="${csp}"><style>${STYLE}</style></head><body>${cover}${cavemanBlock}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
+  return `<!DOCTYPE html><html lang="${escAttr(lang)}"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="${csp}"><style>${STYLE}</style></head><body>${_ownersBadgePrint || ""}${cover}${statsBar}${cavemanBlock}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
 }
 
 export { renderPdf };

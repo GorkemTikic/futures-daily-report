@@ -15,12 +15,13 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchJson } from "./http.js";
+import { fetchJson, num } from "./http.js";
 import { collectExchanges } from "./exchanges.js";
 import { collectCalendar } from "./calendar.js";
 import { collectNews } from "./news.js";
 import { collectTradFi } from "./tradfi.js";
 import { collectStocks } from "./stocks.js";
+import { collectMarket } from "./market.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -79,6 +80,31 @@ export function resolveWindow({ nowMs = Date.now(), dateOverride = null } = {}) 
   };
 }
 
+const ALTCOINS = [
+  { symbol: "SOLUSDT", name: "Solana", short: "SOL" },
+  { symbol: "XRPUSDT", name: "XRP", short: "XRP" },
+  { symbol: "BNBUSDT", name: "BNB", short: "BNB" },
+  { symbol: "DOGEUSDT", name: "Dogecoin", short: "DOGE" },
+  { symbol: "ADAUSDT", name: "Cardano", short: "ADA" },
+  { symbol: "AVAXUSDT", name: "Avalanche", short: "AVAX" },
+  { symbol: "LINKUSDT", name: "Chainlink", short: "LINK" },
+  { symbol: "SUIUSDT", name: "Sui", short: "SUI" },
+];
+
+function extractAltcoins(ticker24h) {
+  if (!Array.isArray(ticker24h)) return [];
+  const tk = new Map(ticker24h.map((t) => [t.symbol, t]));
+  return ALTCOINS.map((a) => {
+    const t = tk.get(a.symbol);
+    if (!t) return null;
+    return {
+      symbol: a.short, name: a.name,
+      price: num(t.lastPrice), chgPct: num(t.priceChangePercent),
+      volume: num(t.quoteVolume), high: num(t.highPrice), low: num(t.lowPrice),
+    };
+  }).filter(Boolean);
+}
+
 function windowLabel(win, rolling) {
   if (rolling && win.live) {
     return `${utcShort(win.nowMs - DAY_MS)} → ${utcShort(win.nowMs)} UTC (rolling 24h)`;
@@ -99,7 +125,7 @@ export async function buildDataPack({ nowMs = Date.now(), dateOverride = null, c
     ]);
   }
 
-  const [exchanges, calendar, news, tradfi, stocks] = await Promise.all([
+  const [exchanges, calendar, news, tradfi, stocks, market] = await Promise.all([
     collectExchanges(win, { config, exchangeInfo, ticker24h }).catch((e) => ({ error: String(e).slice(0, 120), majors: { BTC: {}, ETH: {} }, movers: [], lowLiqMovers: [], venuesOnline: [] })),
     collectCalendar({ nowMs, reportDayKey: win.dateUTC }).catch((e) => ({ ok: false, err: String(e).slice(0, 120), reportDay: [], next24h: [], week: [] })),
     win.live
@@ -108,11 +134,15 @@ export async function buildDataPack({ nowMs = Date.now(), dateOverride = null, c
     win.live
       ? collectTradFi({ dateUTC: win.dateUTC }).catch((e) => ({ ok: false, reason: String(e).slice(0, 120), items: [] }))
       : Promise.resolve({ ok: false, reason: "unavailable-for-backfill", items: [], backfill: true }),
-    // Stocks are the perp's live 24h move — only meaningful for a live run.
     win.live
       ? collectStocks(win, { exchangeInfo, ticker24h }).catch((e) => ({ ok: false, err: String(e).slice(0, 120), markets: {}, topMovers: [] }))
       : Promise.resolve({ ok: false, reason: "unavailable-for-backfill", markets: {}, topMovers: [], sessions: {}, backfill: true }),
+    win.live
+      ? collectMarket().catch((e) => ({ ok: false, failed: [{ source: "market", err: String(e).slice(0, 60) }] }))
+      : Promise.resolve({ ok: false, reason: "unavailable-for-backfill" }),
   ]);
+
+  const altcoins = win.live ? extractAltcoins(ticker24h) : [];
 
   // Backfill with no day-bounded data at all -> refuse (item 2), caught in index.js.
   if (!win.live && (!exchanges.venuesOnline || exchanges.venuesOnline.length === 0)) {
@@ -133,6 +163,7 @@ export async function buildDataPack({ nowMs = Date.now(), dateOverride = null, c
     news: { ok: !!news.ok, sourcesOnline: news.sourcesOnline || [], failed: news.failed || [], count: (news.items || []).length, backfill: !!news.backfill },
     tradfi: { ok: !!tradfi.ok, reason: tradfi.ok ? null : (tradfi.reason || "unavailable"), requested: !!tradfi.requested, backfill: !!tradfi.backfill },
     stocks: { ok: !!stocks.ok, reason: stocks.ok ? null : (stocks.err || "unavailable") },
+    market: { ok: !!market.ok, failed: market.failed || [] },
     etfFlows: win.live ? "pending-synthesis" : "unavailable-for-backfill",
     backfill: win.live ? null : { unavailable: ["funding", "open interest", "mark price", "news", "traditional markets"] },
   };
@@ -152,7 +183,7 @@ export async function buildDataPack({ nowMs = Date.now(), dateOverride = null, c
     coversUTC: `${win.dateUTC} 00:00–23:59 UTC`,
     generatedAtUTC: utcDateTime(nowMs),
     timezone: "UTC",
-    exchanges, calendar, news, tradfi, stocks,
+    exchanges, calendar, news, tradfi, stocks, market, altcoins,
     sources,
   };
 }

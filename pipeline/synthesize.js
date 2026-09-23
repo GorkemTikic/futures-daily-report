@@ -49,11 +49,15 @@ Include a group key ONLY if it has items; use [] otherwise.`;
 export function buildSynthesisPrompt(pack, opts = {}) {
   const alreadyReported = (opts.publishedNews || []).slice(0, 60);
   const cal = pack.calendar || {};
+  const cryptoMoversToday = (cal.cryptoMoversToday || []).map((e) => e.title).join(", ");
+  const trumpToday = (cal.trumpToday || []).map((e) => e.title).join(", ");
+  const tomorrowWarnings = (cal.warnings || []).map((w) => w.message).join(" ");
   return `You are writing a crypto-futures market report for customer-support agents who do NOT read finance news and do NOT know finance vocabulary. Write ordinary, everyday English. Put every definition in the glossary, never in the body.
 
 This report covers ONE UTC calendar day: ${pack.dateUTC} (00:00–23:59 UTC). The data window you were given is: ${pack.windowLabel}. It was generated at ${pack.generatedAtUTC}. ${pack.rolling ? "NOTE: some figures fell back to a rolling 24h window — describe the window you were actually given, do not claim full-calendar-day coverage for those." : "Describe the UTC day you were given."} Use UTC for every time — never a local timezone.
 
 You are given a DATA PACK with verified numbers already collected. You are also given NEWS CANDIDATES (raw RSS). Funding, open interest and mark price in the pack are point-in-time (as of ${pack.asOfUTC}); open-interest CHANGE and long/short ratios cover the day.
+${cryptoMoversToday ? `\nMACRO EVENTS ON THE REPORT DAY THAT MOVE CRYPTO: ${cryptoMoversToday}. If BTC or altcoins had a large move today, attribute it to this event in the one-line summary and price/volume commentary (e.g. "NFP data came in strong, pushing risk assets higher — Bitcoin and altcoins rose X%"). Only do this if the data actually shows a significant move; do not invent a narrative.` : ""}${trumpToday ? `\nPRESIDENT TRUMP SPOKE TODAY: ${trumpToday}. If there were large price moves today with no other clear cause, note that the move may be attributable to Trump's remarks.` : ""}${tomorrowWarnings ? `\nTOMORROW'S VOLATILITY WARNINGS (include in calendarNotes): ${tomorrowWarnings}` : ""}
 
 YOUR JOB:
 - Write the plain-English prose: the one-line summary, the price/volume read, the positioning read (mention funding, the open-interest change, and long/short leaning in plain words), and a short explanation for each biggest mover ("no clear public cause" when the news doesn't explain it).
@@ -71,6 +75,8 @@ DATA PACK:
 ${JSON.stringify({
   date: pack.dateUTC, coversUTC: pack.coversUTC, windowLabel: pack.windowLabel, asOfUTC: pack.asOfUTC,
   exchanges: pack.exchanges,
+  market: pack.market?.ok ? { totalMarketCap: pack.market.totalMarketCap, totalMarketCapChange24h: pack.market.totalMarketCapChange24h, btcDominance: pack.market.btcDominance, ethDominance: pack.market.ethDominance, fearGreed: pack.market.fearGreed, fearGreedPrev: pack.market.fearGreedPrev } : null,
+  altcoins: (pack.altcoins || []).length ? pack.altcoins.map((a) => ({ symbol: a.symbol, chgPct: a.chgPct })) : null,
   calendar: { reportDay: cal.reportDay || [], next24h: cal.next24h || [], week: cal.week || [] },
   tradfi: pack.tradfi,
   binanceStocks: pack.stocks && pack.stocks.ok ? {

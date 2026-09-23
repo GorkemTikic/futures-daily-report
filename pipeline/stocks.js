@@ -24,7 +24,7 @@ const NAMES = {
   CXMTUSDT: "CXMT", UNITREEUSDT: "Unitree Robotics",
   SPYUSDT: "S&P 500 (SPY)", QQQUSDT: "Nasdaq 100 (QQQ)", IWMUSDT: "Russell 2000 (IWM)",
   SMHUSDT: "Semiconductors (SMH)", GDXUSDT: "Gold Miners (GDX)", XLEUSDT: "Energy (XLE)",
-  XAUUSDT: "Gold", XAGUSDT: "Silver", XPTUSDT: "Platinum", XPDUSDT: "Palladium",
+  XAUUSDT: "Gold (perp)", XAGUSDT: "Silver", XPTUSDT: "Platinum", XPDUSDT: "Palladium",
   COPPERUSDT: "Copper", CLUSDT: "WTI Crude Oil", BZUSDT: "Brent Crude", NATGASUSDT: "Natural Gas",
 };
 const MARKET_LABEL = { KR_EQUITY: "Korea", HK_EQUITY: "Hong Kong", CN_EQUITY: "China", EQUITY: "US", COMMODITY: "Commodities", PREMARKET: "Pre-market" };

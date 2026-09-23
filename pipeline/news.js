@@ -11,6 +11,7 @@ const FEEDS = [
   { source: "CoinDesk", tier: 1, url: "https://www.coindesk.com/arc/outboundfeeds/rss/" },
   { source: "The Block", tier: 1, url: "https://www.theblock.co/rss.xml" },
   { source: "Cointelegraph", tier: 1, url: "https://cointelegraph.com/rss" },
+  { source: "CryptoSlate", tier: 1, url: "https://cryptoslate.com/feed/" },
   { source: "Decrypt", tier: 1, url: "https://decrypt.co/feed" },
   { source: "SEC", tier: 2, url: "https://www.sec.gov/news/pressreleases.rss" },
   { source: "Federal Reserve", tier: 2, url: "https://www.federalreserve.gov/feeds/press_all.xml" },
