@@ -1,0 +1,301 @@
+{
+  "oneLine": "On September 22, 2026, Bitcoin and Ethereum prices each fell about half a percent to $86,158 and $2,752 respectively, despite strong institutional buying pressure including a record Bitcoin ETF inflow day and a major Binance-Circle investment deal.",
+  "caveman": "Bitcoin and Ethereum both went down about half a percent during the day—Bitcoin ended at about $86,158, Ethereum at about $2,752. The big news was that people who manage large amounts of money (called institutional investors) actually bought a lot: Bitcoin ETF funds absorbed their biggest single day of buying in two years, and the crypto exchange Binance bought a $100 million stake in Circle, a company that makes a popular stablecoin (a type of digital money). Also, the futures exchange CME announced it will start letting people trade Bitcoin Cash and Uniswap contracts, and Canada's biggest banks said they're working together to test moving money around using blockchain technology. The scary part wasn't about the crypto itself—it was that people seemed nervous about funding rates (the cost to borrow money for leveraged bets), which got extremely high on some exchanges, suggesting people were betting very aggressively.",
+  "priceVolumeSummary": "Bitcoin and Ethereum both slid roughly 0.48–0.49% on the day across all major exchanges, with prices tightly agreed between venues (BTC $86,150–86,170, ETH $2,751–2,753). Binance led volume for both assets: BTC with $14.56 billion (OKX second at $6.53B) and ETH with $10.12 billion (OKX second at $7.31B).",
+  "positioningSummary": "Despite the price decline, Bitcoin saw massive institutional buying: spot Bitcoin ETFs absorbed approximately 11,500 BTC on the day—the largest single-day inflow in nearly two years—while Ethereum ETFs drew $270 million. Funding rates remained elevated and highly fragmented across venues: Bitcoin's annualized rate ranged from 0.55% (Bitget) to 10.95% (Bybit), and Ethereum similarly ranged from 6.35% to 10.95%, suggesting extreme leverage positioning. Long-short ratios showed mixed sentiment: Binance's Bitcoin ratio of 0.89 leaned toward net shorts, while Binance's Ethereum ratio of 2.33 showed strong net longs. Open interest increased across all venues, indicating positions built on the price decline.",
+  "stocksSummary": "Asian stock markets were mixed on 2026-09-22 UTC. Korean exchanges opened with broad gains: SK Hynix +1.30%, Samsung Electronics +2.01%, KODEX 200 ETF +1.47%. Hong Kong was split, with heavyweight Tencent up 4.71–4.87% but AI names struggling—Zhipu AI -8.14%, MiniMax -5.81%. Oil weakness supported risk appetite: WTI crude fell 2.93% below $90/bbl and Brent slid 1.85%, helping equities and crypto. US markets were flat: S&P 500 -0.015%, Nasdaq +0.449%, with Gold up 0.15% and US Treasuries unchanged.",
+  "movers": [
+    {
+      "symbol": "MUBARAKUSDT",
+      "explanation": "Mubarak surged 79.72% to $0.0787 on $798 million volume with no clear public cause or news explanation.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "explanation": "Marscoin rallied 38.84% to $0.14177 on $168 million volume with no identifiable news or catalyst.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "The Chinese-named token (龙虾) dropped 40.40% to $0.13991 on $198 million volume with no apparent public catalyst.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance takes $100 million Circle stake alongside five-year USDC deal",
+        "what": "Binance purchased 1.24 million shares of Circle at $80.84 each, securing a $100 million stake below market price at the time. The exchange also expanded its five-year partnership with Circle, which will pay Binance monthly incentive fees based on USDC holdings through Binance's wallet service. Binance cannot sell or transfer the shares for two years.",
+        "coins": "USDC, Circle",
+        "timeUTC": "2026-09-22 09:47",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+      },
+      {
+        "headline": "Spot Bitcoin ETFs absorb 11,500 BTC in their largest buying day in nearly two years",
+        "what": "U.S. spot Bitcoin ETFs recorded their biggest single-day inflow in nearly 24 months on September 22, absorbing approximately 11,500 BTC worth roughly $1 billion. BlackRock's iShares Bitcoin Trust led inflows, with Ark Invest's ARKB and Fidelity's FBTC also drawing substantial capital, signaling strong institutional appetite despite the day's 0.48% price decline.",
+        "coins": "BTC",
+        "timeUTC": "2026-09-22 14:47",
+        "source": "CryptoSlate / The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005"
+      },
+      {
+        "headline": "Canada's Big Six banks jointly explore tokenized Canadian dollar deposit initiative",
+        "what": "Royal Bank, TD Bank, Bank of Montreal, Scotiabank, CIBC, and National Bank announced plans to develop tokenized deposits recorded on distributed ledgers, starting with interbank transfers. The initiative aims to enable faster, programmable payments while maintaining regulatory oversight, with a longer-term goal to integrate with emerging digital asset systems.",
+        "coins": "CAD (tokenized)",
+        "timeUTC": "2026-09-22 00:00",
+        "source": "National Bank / TD Bank official announcement",
+        "url": "https://td.mediaroom.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC warns prediction market contracts carry heightened manipulation risk",
+          "what": "The Commodity Futures Trading Commission issued a staff advisory on so-called 'mention markets'—prediction contracts that bet on whether specific words will be mentioned in speeches or announcements. The CFTC flagged these as carrying elevated manipulation risk and published formal guidance.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 21:38",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
+        },
+        {
+          "headline": "SEC's chief crypto counsel outlines path for institutional crypto custody",
+          "what": "Taylor Lindman, top lawyer on the SEC's Crypto Task Force, stated the agency is working to help firms become more comfortable with blockchain technology and crypto assets, signaling a regulatory shift toward enabling custody infrastructure.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 13:21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody"
+        },
+        {
+          "headline": "ECB and EU central banks push to expand stablecoin yield restrictions",
+          "what": "European central banks argue that indirect yield structures on stablecoins (such as lending and staking yields) blur the line between payment tokens and commercial bank deposits, and are seeking to expand regulations banning these products.",
+          "coins": "USDC, EURC, stablecoins",
+          "timeUTC": "2026-09-22 12:12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09-22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking"
+        },
+        {
+          "headline": "Coinbase targets institutional stock futures but CFTC standstill blocks launch",
+          "what": "Coinbase registered with the SEC to offer cash-settled stock futures—contracts allowing price exposure without owning shares—but regulatory uncertainty at the CFTC is blocking the planned launch.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 12:24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/coinbase-targets-stock-futures-but-cftc-standstill-blocks-launch/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ethereum ETFs draw $270 million in September 22 inflows",
+          "what": "U.S. spot Ethereum ETFs recorded $270 million in net inflows on September 22, driven by institutional demand led by BlackRock's iShares Ethereum Trust, reflecting broader accumulation during the period.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-22 12:00",
+          "source": "Multiple sources (Web search)",
+          "url": "https://www.coinglass.com/etf/ethereum"
+        },
+        {
+          "headline": "Bernstein forecasts $10 trillion prediction market volume by 2035, tripling prior estimate",
+          "what": "Investment bank Bernstein raised its prediction market forecast to $10 trillion annual volume by 2035, a 10x jump from its own $1 trillion by 2030 projection made five months earlier, citing explosive growth in financial-asset betting.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 18:29",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378963/bernstein-10-trillion-prediction-markets"
+        },
+        {
+          "headline": "Hashed anchors $300 million digital asset private credit fund",
+          "what": "Crypto venture capital firm Hashed announced a new private credit fund targeting $300 million to address financing bottlenecks in the institutional digital asset sector, using 'covenant-based' underwriting.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 23:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013"
+        },
+        {
+          "headline": "William Blair sees Coinbase and Circle positioned for crypto recovery",
+          "what": "Analyst William Blair positioned Coinbase at an attractive entry point after a 31% rally, trimmed COIN's EBITDA estimate, and identified Circle's USDC growth as a key driver of the next valuation leg.",
+          "coins": "COIN, Circle",
+          "timeUTC": "2026-09-22 19:31",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-22-coinbase-circle-shares-positioned-crypto-recovery-estimates-stabilize-william-blair-416083"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "CME announces Bitcoin Cash and Uniswap futures launching October 19",
+          "what": "CME Group announced plans to launch cash-settled futures on Bitcoin Cash and Uniswap on October 19, pending regulatory review. The exchange will offer standard contracts (250 BCH, 10,000 UNI) and Micro versions (25 BCH, 1,000 UNI) to meet client demand for altcoin risk-management tools.",
+          "coins": "BCH, UNI",
+          "timeUTC": "2026-09-22 21:52",
+          "source": "CME Group",
+          "url": "https://www.cmegroup.com/media-room/press-releases/2026/9/22/cme_group_to_expandcryptoderivativessuitewithbitcoincashandunisw.html"
+        },
+        {
+          "headline": "SoFi launches stablecoin settlement on Mastercard network with $25 billion volume target",
+          "what": "SoFi began live stablecoin settlement using SoFiUSD on Mastercard's network, with its card program targeting over $25 billion in annualized volume, marking institutional adoption of stablecoin infrastructure at scale.",
+          "coins": "SoFiUSD",
+          "timeUTC": "2026-09-22 09:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-22-sofi-begins-stablecoin-settlement-on-mastercard-network-for-program-expected-to-exceed-25-billion-in-annualized-volume-416035"
+        },
+        {
+          "headline": "Coinbase adds fixed-rate bitcoin-backed loans through Morpho Midnight",
+          "what": "Coinbase integrated Morpho Midnight protocol to offer fixed-rate loans, allowing users to borrow USDC against bitcoin collateral, expanding institutional DeFi offerings.",
+          "coins": "BTC, USDC",
+          "timeUTC": "2026-09-22 11:40",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-22-coinbase-fixed-rate-bitcoin-loans-morpho-midnight-416050"
+        },
+        {
+          "headline": "Arch Lending targets tokenized stocks as next collateral frontier",
+          "what": "Lending protocol Arch Lending announced plans to accept tokenized equities as collateral, following momentum in on-chain stock tokens as institutional DeFi collateral.",
+          "coins": "Tokenized equities",
+          "timeUTC": "2026-09-22 22:20",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/arch-lending-eyes-tokenized-stocks-as-next-crypto-collateral-market"
+        },
+        {
+          "headline": "Zcash gets first European ETP; 21Shares lists ZEC and ETHFI on Euronext",
+          "what": "21Shares launched physically-backed Zcash and EtherFi products on Euronext Paris and Amsterdam, broadening institutional ETF offerings beyond major cryptocurrencies.",
+          "coins": "ZEC, ETHFI",
+          "timeUTC": "2026-09-22 15:21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/zcash-gets-first-european-etp-following-us-etf-launch"
+        },
+        {
+          "headline": "Payward-backed Reap prepares multi-currency stablecoin settlement for 24/7 FX",
+          "what": "Fintech platform Reap, backed by Payward (Kraken parent), is preparing tokenized deposits in Mexican pesos and exploring Hong Kong dollars, euros, won, and yen to enable around-the-clock foreign exchange settlement outside traditional banking hours.",
+          "coins": "Multi-currency stablecoins",
+          "timeUTC": "2026-09-22 09:12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026-09-22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Fomopeek rogue iOS app escapes sandbox to steal $580,000 in USDT",
+          "what": "Security researchers flagged Fomopeek, a malicious iOS app distributed through Apple's App Store, for exploiting sandbox protections to intercept and steal approximately $580,000 in USDT from user wallets. SlowMist began investigation over the weekend.",
+          "coins": "USDT",
+          "timeUTC": "2026-09-22 23:57",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/rogue-iphone-app-escapes-ios-sandbox-to-hijack-580000-in-usdt/"
+        },
+        {
+          "headline": "$161 million in decade-old Bitcoin moves in two weeks; $51.9 million transfer hours before report",
+          "what": "Four ancient Bitcoin wallets moved 1,971 BTC between September 6–22, including a 600 BTC transaction worth $51.9 million hours before the report's release date. Galaxy Research identified three wallets carrying 'Noah Doe' lawsuit tags, suggesting possible legal settlement activity.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-22 22:36",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks"
+        },
+        {
+          "headline": "White-hat hackers consolidate Coldcard exploit Bitcoin into recovery trust",
+          "what": "Galaxy Research tracked white-hat actors moving coins tied to a Coldcard hardware wallet exploit into an address tagged for a 'Crypto Recovery Trust.' The consolidated amount represents only 2.8% of the total exploit haul, suggesting most funds remain with the original exploiter.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-22 20:31",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378978/white-hat-hackers-coldcard-exploit-bitcoin-recovery-trust"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Oil slides below $90 per barrel, supporting risk appetite and Bitcoin",
+          "what": "WTI crude fell 2.93% and Brent slid 1.85%, dropping below $90/bbl and supporting broader risk appetite. Bitcoin recovered from Asian lows on falling oil and strong equity markets, with US President Trump pledging a post-election deal with Iran, signaling potential supply relief.",
+          "coins": "BTC (correlated via oil/risk appetite)",
+          "timeUTC": "2026-09-22 07:52",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Animoca Brands suspends Currenc IPO deal; major-exchange relisting push remains intact",
+          "what": "Animoca Brands suspended plans to go public via Currenc after exclusivity terms expired without definitive agreement, though the company said its broader strategy to relist on major exchanges remains in play.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 20:13",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/animoca-brands-suspends-currenc-deal-that-would-have-taken-it-public/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-22",
+    "summary": "Spot Bitcoin ETFs absorbed approximately 11,500 BTC worth roughly $1 billion—the largest single-day inflow in nearly two years—driven by BlackRock iShares Bitcoin Trust and secondary flows into Ark's ARKB and Fidelity's FBTC. Spot Ethereum ETFs simultaneously drew $270 million in inflows.",
+    "source": "CryptoSlate, The Block, multiple ETF trackers",
+    "url": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims: September 24, 2026",
+      "typicalReaction": "High-impact US labor market data released Thursday 24 Sept at 12:30 UTC. Expect potential volatility in equity and crypto markets; weak claims data may signal labor market strength, while rising claims could fuel recession fears and risk-off sentiment."
+    },
+    {
+      "event": "SNB Rate Decision and Riksbank Rate Decision: September 24, 2026",
+      "typicalReaction": "Swiss and Swedish central banks decide on interest rates Thursday 24 Sept at 07:30 UTC. Medium-impact events; changes in rates affect dollar strength and global risk appetite, which can influence crypto positioning."
+    },
+    {
+      "event": "Norges Bank Rate Decision: September 24, 2026",
+      "typicalReaction": "Norwegian central bank rate decision Thursday 24 Sept at 08:00 UTC. Medium-impact event affecting Nordic currency and cross-border capital flows."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between a futures contract price and the spot price of the underlying asset. A positive basis means the futures contract trades above spot; negative basis means it trades below. Used to calculate potential arbitrage opportunities."
+    },
+    {
+      "term": "Cash-settled",
+      "definition": "A derivatives contract where profits and losses are paid in cash (usually dollars) at expiration, rather than delivering the physical underlying asset. The contract pays based on the difference between entry price and exit price."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The periodic payment exchanged between long and short traders on perpetual futures contracts to keep the contract price aligned with the spot price. High positive rates mean longs pay shorts; negative rates mean shorts pay longs. Annualized funding rate scales the periodic rate to an annual percentage."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "The forced closure of a leveraged trading position when losses reduce the trader's collateral below the minimum required. The position is automatically sold at market price, often triggering additional losses."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders holding long positions (betting price will rise) versus short positions (betting price will fall). A ratio above 1.0 indicates more longs; below 1.0 indicates more shorts. Used to gauge trader sentiment."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Using borrowed capital to increase the size of a trading position beyond what the trader's own money can support. A 10x leveraged position means controlling $10 for every $1 of capital risked. Amplifies both gains and losses."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used on perpetual futures contracts, calculated as a weighted average of prices across multiple exchanges and designed to prevent artificial volatility from thinly-traded spot markets."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open futures or perpetual contracts (measured in coins or dollars) that have not yet been closed. Rising open interest during a price move suggests conviction; falling open interest can signal position unwinding."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The increase or decrease in the total number of open contracts over a period. Growth in OI during a rally suggests new longs entering; decline suggests position covering or liquidations."
+    },
+    {
+      "term": "Perpetual futures (perp)",
+      "definition": "A type of futures contract with no expiration date. Traders hold positions indefinitely, funding each other via funding rates rather than settling at a fixed date. Commonly offered on crypto exchanges."
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "An exchange-traded fund that holds actual Bitcoin or Ethereum as collateral, allowing investors to gain exposure without custody risk. Spot ETFs differ from futures-based ETFs because they hold the physical asset."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to maintain a fixed price, usually pegged to the US Dollar (1:1). Examples include USDC and USDT. Used as a settlement currency for trading and transfers."
+    },
+    {
+      "term": "Tokenization / Tokenized deposit",
+      "definition": "Converting traditional assets (such as bank deposits, stocks, or fiat currency) into blockchain-based digital tokens. A tokenized deposit is a traditional bank deposit recorded as a token on a blockchain, enabling faster settlement and programmable payments."
+    },
+    {
+      "term": "USDC",
+      "definition": "USD Coin, a stablecoin issued by Circle Internet Group. Each USDC token is backed by one US Dollar held in reserve, maintaining a 1:1 price peg."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total notional value (in dollars) of all trades executed on an exchange or for a given asset over a time period. Higher volume indicates more trading activity and typically tighter bid-ask spreads."
+    }
+  ],
+  "_source": "cli"
+}

@@ -1,15 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-22T00:06:04.872Z",
-  "count": 97,
+  "generatedAt": "2026-09-23T00:10:08.729Z",
+  "count": 98,
   "counts": {
-    "total": 97,
-    "market": 10,
+    "total": 98,
+    "market": 11,
     "divergence": 87,
-    "degraded": 0
+    "degraded": 1
   },
-  "latest": "2026-09-21",
+  "latest": "2026-09-22",
   "reports": [
+    {
+      "date": "2026-09-22",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.4973354554211312,
+        "ETH": -0.7889055872102825
+      },
+      "marketSummary": "On September 22, 2026, Bitcoin and Ethereum prices each fell about half a percent to $86,158 and $2,752 respectively, despite strong institutional buying pressure including a record Bitcoin ETF inflow day and a major Binance-Circle investment deal.",
+      "oneLine": "On September 22, 2026, Bitcoin and Ethereum prices each fell about half a percent to $86,158 and $2,752 respectively, despite strong institutional buying pressure including a record Bitcoin ETF inflow day and a major Binance-Circle investment deal.",
+      "newsCount": 22,
+      "topMover": {
+        "symbol": "MUBARAKUSDT",
+        "chgPct": 79.72139757935602
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-22/summary_2026-09-22.html",
+        "pdf": "reports/2026-09-22/summary_2026-09-22.pdf",
+        "md": "reports/2026-09-22/summary_2026-09-22.md"
+      }
+    },
     {
       "date": "2026-09-21",
       "kind": "market",

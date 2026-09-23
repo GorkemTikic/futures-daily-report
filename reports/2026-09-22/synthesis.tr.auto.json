@@ -1,0 +1,301 @@
+{
+  "oneLine": "22 Eylül 2026'de Bitcoin ve Ethereum fiyatları yaklaşık yüzde 0,5 oranında düşerek sırasıyla 86.158 ve 2.752 dolara inerken, rekor Bitcoin ETF giriş günü ve Binance-Circle'ın 100 milyon dolarlık yatırım anlaşması dahil güçlü kurumsal satın alma baskısı devam etti.",
+  "caveman": "Bitcoin ve Ethereum'un fiyatı gün içinde yaklaşık yüzde 0,5 oranında düştü - Bitcoin yaklaşık 86.158 dolarda, Ethereum yaklaşık 2.752 dolarda kapandı. En önemli haber, büyük miktarda parayı yönetenlerin (kurumsal yatırımcı denir) aslında çok fazla satın aldığıydı: Bitcoin ETF fonları iki yılın en büyük tek günlük satın alma girişini kaydetti; kripto borsası Binance, popüler bir sabit para (dijital paranın bir türü) yapan Circle şirketine 100 milyon dolarlık hisse aldı. Ayrıca, futures borsası CME, insanlara Bitcoin Cash ve Uniswap kontratlarını ticaret yapma olanağı vermeye başlayacağını duyurdu; Kanada'nın en büyük bankaları blokzincir teknolojisini kullanarak para taşımayı test etmek için birlikte çalıştıklarını söyledi. Korkutucu taraf kripto kendisi değildi - insanlar finansman oranları (kaldıraçlı bahisler için borç para almanın maliyeti) konusunda sinirli görünüyorlardı; bu oranlar bazı borsalarda son derece yüksek olup, insanların çok agresif bir şekilde bahis yaptıklarını gösteriyordu.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum, tüm büyük borsalar arasında gün içinde kabaca yüzde 0,48-0,49 oranında düştü; fiyatlar mekanlar arasında sıkı bir uyum içindeydi (BTC 86.150-86.170, ETH 2.751-2.753). Binance, her iki varlık için de hacmi liderlik etti: BTC'de 14,56 milyar dolar (OKX ikinci, 6,53 milyar) ve ETH'de 10,12 milyar dolar (OKX ikinci, 7,31 milyar).",
+  "positioningSummary": "Fiyat düşüşüne rağmen Bitcoin muazzam kurumsal satın almayı gördü: spot Bitcoin ETF'leri gün içinde yaklaşık 11.500 BTC absorbe etti - neredeyse iki yılın en büyük tek günlük girişi - Ethereum ETF'leri de 270 milyon dolar çekti. Finansman oranları, mekanlar arasında yüksek ve oldukça parçalanmış kaldı: Bitcoin'in yıllıklandırılmış oranı Bitget'te yüzde 0,55 ile Bybit'te yüzde 10,95 arasında değişti; Ethereum'da benzer şekilde yüzde 6,35 ile yüzde 10,95 arasında değişti ve bu da aşırı kaldıraçlı konumlandırma öneriyordu. Uzun-kısa oranları karışık duygu gösterdi: Binance'ın Bitcoin oranı 0,89 ile net açığa yönelik eğilim gösterdi; Binance'ın Ethereum oranı 2,33 ile güçlü net uzun konumlar gösterdi. Açık faiz tüm mekanlar arasında arttı; bu da fiyat düşüşünde konumlar inşa edildiğini gösteriyordu.",
+  "stocksSummary": "Asya hisse senedi piyasaları 22 Eylül 2026 UTC tarihinde karışık bir tablo çizdi. Kore borsaları geniş kazançlarla açıldı: SK Hynix +yüzde 1,30, Samsung Electronics +yüzde 2,01, KODEX 200 ETF +yüzde 1,47. Hong Kong bölündü; ağır sektör oyuncusu Tencent yüzde 4,71-4,87 artışla yükseldi, ancak yapay zeka adları mücadele etti - Zhipu AI -yüzde 8,14, MiniMax -yüzde 5,81. Petrol zayıflığı risk iştahını destekledi: WTI petrolü yüzde 2,93 oranında düşüp varil başına 90 doların altına indi; Brent yüzde 1,85 oranında kaydı; hisse senetlerini ve kripto'yu destekledi. ABD piyasaları düz seyirde: S&P 500 -yüzde 0,015, Nasdaq +yüzde 0,449; Altın yüzde 0,15 artış gösterdi; ABD Hazine tahvilleri değişmedi.",
+  "movers": [
+    {
+      "symbol": "MUBARAKUSDT",
+      "explanation": "Mubarak, hiçbir açık sebep veya haber açıklaması olmaksızın 798 milyon dolar hacimle yüzde 79,72 oranında 0,0787 dolara çıktı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "explanation": "Marscoin, tanımlanabilir hiçbir haber veya katalizör olmaksızın 168 milyon dolar hacimle yüzde 38,84 oranında 0,14177 dolara yükseldi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Çince adlı jeton (龙虾), görünen hiçbir kamu katalizörü olmaksızın 198 milyon dolar hacimle yüzde 40,40 oranında 0,13991 dolara düştü.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance, beş yıllık USDC anlaşmasıyla Circle'a 100 milyon dolarlık hisse alıyor",
+        "what": "Binance, Circle'ın 1,24 milyon hissesini hisse başına 80,84 dolara satın alarak, o zamanki pazar fiyatının altında 100 milyon dolarlık hisse güvence altına aldı. Borsa aynı zamanda Circle ile beş yıllık ortaklığını genişletti; Circle, Binance'ın cüzdan hizmeti aracılığıyla USDC holdinglerinin temelinde aydan aya teşvik ücretleri ödeyecek. Binance iki yıl süreyle hisseleri satamıyor veya transfer edemeyecek.",
+        "coins": "USDC, Circle",
+        "timeUTC": "2026-09-22 09:47",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+      },
+      {
+        "headline": "Spot Bitcoin ETF'leri, neredeyse iki yılın en büyük alış gününde 11.500 BTC absorbe ediyor",
+        "what": "ABD spot Bitcoin ETF'leri 22 Eylül'de neredeyse 24 aylık en büyük tek günlük girişi kaydetti; yaklaşık 11.500 BTC'yi absorbe etti - kabaca 1 milyar dolar değerinde. BlackRock'ın iShares Bitcoin Trust girişleri liderlik etti; Ark Invest'in ARKB'si ve Fidelity'nin FBTC'si de önemli sermaye çekti; gün içinde yüzde 0,48 fiyat düşüşüne rağmen güçlü kurumsal iştahı işaret etti.",
+        "coins": "BTC",
+        "timeUTC": "2026-09-22 14:47",
+        "source": "CryptoSlate / The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005"
+      },
+      {
+        "headline": "Kanada'nın Büyük Altısı bankaları, tokenize edilmiş Kanada doları mevduat girişimini birlikte araştırıyor",
+        "what": "Royal Bank, TD Bank, Bank of Montreal, Scotiabank, CIBC ve National Bank, dağıtılmış defterlere kaydedilen tokenize edilmiş mevduatlar geliştirme planlarını duyurdu; bankalar arası transferlerle başlıyor. Girişim, normatif gözetim sağlarken daha hızlı, programlanabilir ödemeler etkinleştirmeyi hedefliyor; uzun vadede ortaya çıkan dijital varlık sistemleriyle entegrasyonu hedefliyor.",
+        "coins": "CAD (tokenize)",
+        "timeUTC": "2026-09-22 00:00",
+        "source": "National Bank / TD Bank resmi duyurusu",
+        "url": "https://td.mediaroom.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC, tahmin piyasası kontratlarının yüksek manipülasyon riski taşıdığını uyarıyor",
+          "what": "Emtia Vadeli İşlemler Ticaret Komisyonu, belirli sözcüklerin konuşmalarda veya duyurularda adı geçecek mi diye bahis yapılan sözde 'mention pazarları' konusunda personel danışmanı yayınladı. CFTC, bunları yüksek manipülasyon riski taşıyan olarak belirledi ve resmi kılavuzlar yayınladı.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 21:38",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9302-26"
+        },
+        {
+          "headline": "SEC'nin baş kripto danışmanı, kurumsal kripto saklama yolu açıklıyor",
+          "what": "Taylor Lindman, SEC'nin Kripto Görev Gücü'nün en üst avukatı, ajansının blokzincir teknolojisine ve kripto varlıklara firmaların daha rahat hale gelmesine yardımcı olmaya çalıştığını belirterek, saklama altyapısını etkinleştirmeye yönelik normatif kaymayı işaret etti.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 13:21",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody"
+        },
+        {
+          "headline": "ECB ve AB merkez bankaları, sabit para getiri kısıtlamalarını genişletmeye çalışıyor",
+          "what": "Avrupa merkez bankaları, sabit paralardaki dolaylı getiri yapılarının (kredi ve staking getirileri gibi) ödeme jetonları ile ticari banka mevduatı arasındaki sınırları bulanıklaştırdığını savunuyor; bu ürünleri yasaklayan düzenlemeleri genişletmeyi istiyor.",
+          "coins": "USDC, EURC, stablecoins",
+          "timeUTC": "2026-09-22 12:12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09-22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking"
+        },
+        {
+          "headline": "Coinbase, kurumsal hisse senedi vadeli işlemlerini hedefliyor ama CFTC duraması lansmana engel oluyor",
+          "what": "Coinbase, nakit olarak ödenen hisse senedi vadeli işlemleri sunmak için SEC'e kaydoldu - hisse senedi sahibi olmadan fiyat maruziyetine izin veren kontratlar - ancak CFTC'deki normatif belirsizlik planlanan lansmaya engel oluyor.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 12:24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/coinbase-targets-stock-futures-but-cftc-standstill-blocks-launch/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ethereum ETF'leri, 22 Eylül'de 270 milyon dolar girişi çekiyor",
+          "what": "ABD spot Ethereum ETF'leri 22 Eylül'de 270 milyon dolar net giriş kaydetti; BlackRock'ın iShares Ethereum Trust tarafından yönetilen kurumsal talep tarafından desteklendi; dönem boyunca daha geniş birikimi yansıtıyor.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-22 12:00",
+          "source": "Çoklu kaynaklar (Web arama)",
+          "url": "https://www.coinglass.com/etf/ethereum"
+        },
+        {
+          "headline": "Bernstein, 2035 yılına kadar 10 trilyon dolar tahmin piyasası hacmi tahmin ediyor; önceki tahminini üçe katladı",
+          "what": "Yatırım bankası Bernstein, tahmin piyasası tahminini 2035'e kadar 10 trilyon dolarlık yıllık hacme yükseltti; beş ay önce kendi 2030'ye kadar 1 trilyon dolarlık projeksiyonundan 10 kat artış olup, finansal varlık bağışında patlayıcı büyümeyi gösteriyor.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 18:29",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378963/bernstein-10-trillion-prediction-markets"
+        },
+        {
+          "headline": "Hashed, 300 milyon dolarlık dijital varlık özel kredi fonunu başlatıyor",
+          "what": "Kripto girişim sermayesi firması Hashed, kurumsal dijital varlık sektöründeki finansman darboğazlarını ele almak için 300 milyon dolarlık hedefleyen yeni bir özel kredi fonu duyurdu; 'taahhüt tabanlı' underwriting kullanıyor.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 23:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013"
+        },
+        {
+          "headline": "William Blair, Coinbase ve Circle'ı kripto iyileşmesi için iyi konumlandırıldığını görüyor",
+          "what": "Analist William Blair, Coinbase'i yüzde 31'lik bir rali sonrasında çekici bir giriş noktasına konumlandırdı; COIN'in EBITDA tahminini kırptı ve Circle'ın USDC büyümesini sonraki değerleme bacağının ana sürücüsü olarak belirledi.",
+          "coins": "COIN, Circle",
+          "timeUTC": "2026-09-22 19:31",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-22-coinbase-circle-shares-positioned-crypto-recovery-estimates-stabilize-william-blair-416083"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "CME, Bitcoin Cash ve Uniswap vadeli işlemlerinin 19 Ekim'de başlatılacağını duyuruyor",
+          "what": "CME Group, 19 Ekim'de nakit olarak ödenen Bitcoin Cash ve Uniswap vadeli işlemleri başlatma planlarını duyurdu; normatif inceleme bekleniyor. Borsa, müşteri taleplerini karşılamak için standart kontratlar (250 BCH, 10.000 UNI) ve Mikro versiyonlar (25 BCH, 1.000 UNI) sunacak; altcoin risk yönetim araçları sağlıyor.",
+          "coins": "BCH, UNI",
+          "timeUTC": "2026-09-22 21:52",
+          "source": "CME Group",
+          "url": "https://www.cmegroup.com/media-room/press-releases/2026/9/22/cme_group_to_expandcryptoderivativessuitewithbitcoincashandunisw.html"
+        },
+        {
+          "headline": "SoFi, Mastercard ağında sabit para ödlemesini başlatıyor; 25 milyar dolar hacim hedefi",
+          "what": "SoFi, SoFiUSD kullanarak Mastercard ağında canlı sabit para ödlemesine başladı; kart programı yıllık 25 milyar doların üzerinde hacim hedefliyor; kurumsal ölçekte sabit para altyapısının benimsenmesini işaret ediyor.",
+          "coins": "SoFiUSD",
+          "timeUTC": "2026-09-22 09:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-22-sofi-begins-stablecoin-settlement-on-mastercard-network-for-program-expected-to-exceed-25-billion-in-annualized-volume-416035"
+        },
+        {
+          "headline": "Coinbase, Morpho Midnight aracılığıyla sabit oranlı bitcoin destekli krediler ekliyor",
+          "what": "Coinbase, Morpho Midnight protokolünü entegre etti; kullanıcılar bitcoin teminatına karşı USDC ödünç alabilecek; kurumsal DeFi tekliflerini genişletiyor.",
+          "coins": "BTC, USDC",
+          "timeUTC": "2026-09-22 11:40",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-22-coinbase-fixed-rate-bitcoin-loans-morpho-midnight-416050"
+        },
+        {
+          "headline": "Arch Lending, tokenize edilmiş hisse senetlerini sonraki teminat sınırı olarak hedefliyor",
+          "what": "Kredi protokolü Arch Lending, tokenize edilmiş öz sermayeyi teminat olarak kabul etme planlarını duyurdu; kurumsal DeFi teminatı olarak on-chain hisse senedi jetonlarında momentum takip ediyor.",
+          "coins": "Tokenize hisse senetleri",
+          "timeUTC": "2026-09-22 22:20",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/arch-lending-eyes-tokenized-stocks-as-next-crypto-collateral-market"
+        },
+        {
+          "headline": "Zcash, ilk Avrupa ETP'sini alıyor; 21Shares, ZEC ve ETHFI'yi Euronext'te listeliyor",
+          "what": "21Shares, Euronext Paris ve Amsterdam'da fiziki olarak desteklenen Zcash ve EtherFi ürünleri başlattı; kurumsal ETF tekliflerini büyük kripto para birimleri ötesine genişletiyor.",
+          "coins": "ZEC, ETHFI",
+          "timeUTC": "2026-09-22 15:21",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/zcash-gets-first-european-etp-following-us-etf-launch"
+        },
+        {
+          "headline": "Payward destekli Reap, 24/7 döviz için çok para birimli sabit para ödlemesini hazırlıyor",
+          "what": "Fintek platformu Reap, Payward (Kraken ana şirketi) tarafından desteklenmekte; Meksika pesosu ve Hong Kong doları, euro, won ve yen'de tokenize mevduatlar hazırlıyor; geleneksel bankacılık saatları dışında 24 saat döviz ödlemesini etkinleştirmeyi hedefliyor.",
+          "coins": "Çok para birimli stablecoins",
+          "timeUTC": "2026-09-22 09:12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026-09-22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Fomopeek sahte iOS uygulaması, korumalı alanı aşarak 580.000 dolar USDT'yi çaliyor",
+          "what": "Güvenlik araştırmacıları, Apple App Store aracılığıyla dağıtılan kötü amaçlı Fomopeek iOS uygulamasını, korumalı alan korumalarını kötüye kullanarak kullanıcı cüzdanlarından yaklaşık 580.000 dolar USDT çalmakla suçlamak için bayrak koydu. SlowMist hafta sonu soruşturmaya başladı.",
+          "coins": "USDT",
+          "timeUTC": "2026-09-22 23:57",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/rogue-iphone-app-escapes-ios-sandbox-to-hijack-580000-in-usdt/"
+        },
+        {
+          "headline": "On yıllık Bitcoin'de 161 milyon dolar iki hafta içinde hareket; rapor öncesinde saatlerde 51,9 milyon dolar transfer",
+          "what": "Dört eski Bitcoin cüzdanı 6-22 Eylül arasında 1.971 BTC'yi taşıdı; raporun yayın tarihinden saatlerce önce 600 BTC değerinde 51,9 milyon dolar işlem dahil. Galaxy Research, 'Noah Doe' dava etiketleri taşıyan üç cüzdanı belirledi; muhtemel yasal anlaşma faaliyetini gösteriyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-22 22:36",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks"
+        },
+        {
+          "headline": "Beyaz şapkalı hackerler, Coldcard yararlanması Bitcoin'i kurtarma güvenine konsolide ediyor",
+          "what": "Galaxy Research, Coldcard donanım cüzdanı yararlanmasıyla bağlantılı madeni paraları 'Kripto Kurtarma Güveni' için etiketlenen bir adrese taşıyan beyaz şapkalı aktörleri izledi. Birleştirilen tutar, toplam yararlanma kolisinin yalnızca yüzde 2,8'ini temsil ediyor; çoğu fonun orijinal istismarçısında kaldığını gösteriyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-22 20:31",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378978/white-hat-hackers-coldcard-exploit-bitcoin-recovery-trust"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Petrol, varil başına 90 doların altına kaydı; risk iştahını ve Bitcoin'i destekledi",
+          "what": "WTI petrolü yüzde 2,93 oranında düştü; Brent yüzde 1,85 oranında kaydı; varil başına 90 doların altına indi ve daha geniş risk iştahını destekledi. Bitcoin, Asya oturumundan düşüşü iyileşti; düşen petrol ve güçlü hisse senedi piyasaları tarafından desteklendi; ABD Başkanı Trump, İran ile seçim sonrası anlaşma sözü verdi; arz rahatlamasını işaret etti.",
+          "coins": "BTC (via korelasyon petrol/risk iştahı)",
+          "timeUTC": "2026-09-22 07:52",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Animoca Brands, Currenc halka arz anlaşmasını askıya alıyor; büyük borsa yeniden listeleme itişi bozulmamış kaldı",
+          "what": "Animoca Brands, münhasırlık koşulları kesin anlaşmaya ulaşılmadan sona erdikten sonra halka açılma planlarını askıya aldı; ancak şirket, daha geniş stratejisinin büyük borsalara yeniden listelenmesi yönündeki planının bozulmamış kaldığını söyledi.",
+          "coins": "n/a",
+          "timeUTC": "2026-09-22 20:13",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/animoca-brands-suspends-currenc-deal-that-would-have-taken-it-public/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-22",
+    "summary": "Spot Bitcoin ETF'leri, BlackRock iShares Bitcoin Trust ve Ark'ın ARKB ile Fidelity'nin FBTC'deki ikincil akışlar tarafından desteklenen yaklaşık 11.500 BTC'yi absorbe etti - kabaca 1 milyar dolar değerinde; neredeyse iki yılın en büyük tek günlük girişiydi. Spot Ethereum ETF'leri aynı anda 270 milyon dolar giriş çekti.",
+    "source": "CryptoSlate, The Block, çoklu ETF izleyicileri",
+    "url": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims: September 24, 2026",
+      "typicalReaction": "Yüksek etkili ABD işgücü piyasası verisi, Perşembe 24 Eylül'de UTC 12:30'de yayınlanıyor. Hisse senedi ve kripto piyasalarında olası oynaklık beklenmeli; zayıf talepler, işgücü piyasası gücünü işaret edebilir; artan talepler ise resesyon korkularını ve riski kaçınan duyguları körükleyebilir."
+    },
+    {
+      "event": "SNB Rate Decision and Riksbank Rate Decision: September 24, 2026",
+      "typicalReaction": "İsviçre ve İsveç merkez bankaları, Perşembe 24 Eylül'de UTC 07:30'de faiz oranlarına karar veriyor. Orta etkilü olaylar; oran değişiklikleri dolar gücünü ve küresel risk iştahını etkiliyor; bu da kripto pozisyonlandırmasını etkileyebilir."
+    },
+    {
+      "event": "Norges Bank Rate Decision: September 24, 2026",
+      "typicalReaction": "Norveç merkez bankası, Perşembe 24 Eylül'de UTC 08:00'de faiz oranına karar veriyor. Nordik para birimi ve sınır ötesi sermaye akışlarını etkileyen orta etkilü olay."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Arbitraj farkı",
+      "definition": "Vadeli işlem kontratı fiyatı ile dayanak varlığın spot fiyatı arasındaki fark. Pozitif arbitraj farkı, vadeli işlem kontratının spot fiyatının üzerinde işlem gördüğü anlamına gelir; negatif arbitraj farkı altında işlem gördüğü anlamına gelir. Potansiyel arbitraj fırsatlarını hesaplamak için kullanılır."
+    },
+    {
+      "term": "Nakit ödeme yapılan",
+      "definition": "Fiziksel dayanak varlığı teslim etmek yerine kâr ve zararların nakit olarak (genellikle dolar) ödenmesinin yapıldığı türev kontratı. Kontrat, giriş fiyatı ile çıkış fiyatı arasındaki fark üzerine öder."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlemleri sonsuza kadar sürdüren kontratlar üzerinde, uzun ve kısa tüccarlar arasında değiş tokuş edilen periyodik ödeme; kontrat fiyatını spot fiyatla uyumlu tutmak için. Yüksek pozitif oranlar, uzunların kısalara öde anlamına gelir; negatif oranlar, kısaların uzunlara ödediği anlamına gelir. Yıllıklandırılmış finansman oranı, periyodik oranı yıllık yüzdeye ölçekler."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Kayıplar, tüccarın teminatını gereken minimum tutarın altına düşürdüğünde, kaldıraçlı ticaret pozisyonunun zorunlu kapatılması. Pozisyon otomatik olarak pazar fiyatından satılır; çoğu zaman ek zararları tetikler."
+    },
+    {
+      "term": "Uzun/kısa oran",
+      "definition": "Uzun pozisyon tutan tüccarların (fiyatın yükselecek bahis yapıyor) kısa pozisyon tutanlara (fiyatın düşecek bahis yapıyor) oranı. 1,0 üzeri oran daha fazla uzun anlamına gelir; 1,0 altı kısa anlamına gelir. Tüccar duyguşu ölçmek için kullanılır."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Tüccarın kendi parasının destekleyebileceğinden daha büyük bir ticaret pozisyonunu artırmak için ödünç alınan sermayeyi kullanma. 10x kaldıraçlı pozisyon, riskte olan her 1 dolar sermaye için 10 dolar kontrol etmek anlamına gelir. Hem kazançları hem de kayıpları artırır."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Vadeli işlemleri sonsuza kadar sürdüren kontratlar üzerinde kullanılan referans fiyat; birden fazla borsa arasında fiyatların ağırlıklı ortalaması olarak hesaplanır ve ince işlem gören spot piyasalardan yapay oynaklığı önlemek için tasarlanır."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Henüz kapatılmamış açık vadeli işlem veya perpetual kontratların toplam sayısı (madeni paralar veya dolarlar cinsinden ölçülür). Açık faizde artan değişim, fiyat hareketi sırasında yeni uzunların giriş yaptığını anlamına gelir; azalan açık faiz, pozisyon kapanışı veya tasfiyeyi gösterebilir."
+    },
+    {
+      "term": "Açık faiz değişikliği",
+      "definition": "Bir dönem içinde açık kontratların toplam sayısındaki artış veya azalış. Ralli sırasında açık faizde büyüme, yeni uzunlar giriş yapıyor anlamına gelir; azalış pozisyon kapanışı veya tasfiyeyi gösterir."
+    },
+    {
+      "term": "Sonsuz vadeli işlemler (perp)",
+      "definition": "Vade tarihi olmayan bir vadeli işlem kontratı türü. Tüccarlar pozisyonları süresiz olarak tutar; finansman oranları aracılığıyla birbirlerini fon sağlarlar; sabit tarihte kapatmak yerine. Kripto borsalarında yaygın olarak sunulur."
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "Teminat olarak gerçek Bitcoin veya Ethereum tutan borsa yatırım fonu; yatırımcılara saklama riskine uğramadan maruziyeti sağlar. Spot ETF'ler, fiziksel varlığı tuttukları için vadeli işlem tabanlı ETF'lerden farklıdır."
+    },
+    {
+      "term": "Sabit para",
+      "definition": "Sabit bir fiyat koruması amaçlı kripto para; genellikle ABD Doları'na sabitlenmiş (1:1). USDC ve USDT örnekler. Ticaret için yerleşim para birimi ve transferler için kullanılır."
+    },
+    {
+      "term": "Tokenizasyon / Tokenize edilmiş mevduat",
+      "definition": "Geleneksel varlıkların (banka mevduatı, hisse senetleri, fiat para gibi) blokzincir tabanlı dijital jetonlara dönüştürülmesi. Tokenize edilmiş mevduat, geleneksel banka mevduatının blokzincirde bir jeton olarak kaydedilmesi; daha hızlı ödeme ve programlanabilir ödemeleri etkinleştirir."
+    },
+    {
+      "term": "USDC",
+      "definition": "USD Coin, Circle Internet Group tarafından yayınlanan sabit para. Her USDC jetonu, rezervde tutulan bir ABD Doları tarafından desteklenmiş; 1:1 fiyat sabitini koruyor."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Bir borsa veya belirli bir varlık üzerinde bir dönem içinde yürütülen tüm işlemlerin toplam nominal değeri (dolarlar cinsinden). Daha yüksek hacim daha fazla ticari faaliyet gösterir ve genellikle daha dar alış-satış spreadlerine yol açar."
+    }
+  ],
+  "_source": "cli-tr"
+}

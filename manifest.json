@@ -1,16 +1,56 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-22T00:06:04.872Z",
-  "count": 97,
+  "generatedAt": "2026-09-23T00:10:08.729Z",
+  "count": 98,
   "counts": {
-    "total": 97,
-    "market": 10,
+    "total": 98,
+    "market": 11,
     "divergence": 87,
-    "degraded": 0
+    "degraded": 1
   },
-  "latest": "2026-09-21",
+  "latest": "2026-09-22",
   "head": 30,
   "reports": [
+    {
+      "date": "2026-09-22",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.4973354554211312,
+        "ETH": -0.7889055872102825
+      },
+      "marketSummary": "On September 22, 2026, Bitcoin and Ethereum prices each fell about half a percent to $86,158 and $2,752 respectively, despite strong institutional buying pressure including a record Bitcoin ETF inflow day and a major Binance-Circle investment deal.",
+      "oneLine": "On September 22, 2026, Bitcoin and Ethereum prices each fell about half a percent to $86,158 and $2,752 respectively, despite strong institutional buying pressure including a record Bitcoin ETF inflow day and a major Binance-Circle investment deal.",
+      "newsCount": 22,
+      "topMover": {
+        "symbol": "MUBARAKUSDT",
+        "chgPct": 79.72139757935602
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-22/summary_2026-09-22.html",
+        "pdf": "reports/2026-09-22/summary_2026-09-22.pdf",
+        "md": "reports/2026-09-22/summary_2026-09-22.md"
+      }
+    },
     {
       "date": "2026-09-21",
       "kind": "market",
@@ -1856,52 +1896,6 @@
         "html": "reports/2026-08-24/summary_2026-08-24.html",
         "pdf": null,
         "md": "reports/2026-08-24/summary_2026-08-24.md"
-      }
-    },
-    {
-      "date": "2026-08-23",
-      "scanned": 528,
-      "movedBig": 2,
-      "dangerCount": 0,
-      "widest": {
-        "symbol": "TACUSDT",
-        "pct": "2.1%",
-        "time": "13:50"
-      },
-      "macro": {
-        "BTC": 0.8,
-        "ETH": 1.7,
-        "SOL": 1.7
-      },
-      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +0.8%, ETH +1.7%, SOL +1.7% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
-      "newsCount": 0,
-      "flagged": [
-        {
-          "symbol": "SPKUSDT",
-          "label": "Steady climb",
-          "headline": "SPKUSDT climbed +29.4% steadily"
-        },
-        {
-          "symbol": "MORPHOUSDT",
-          "label": "Steady climb",
-          "headline": "MORPHOUSDT climbed +25.9% steadily"
-        },
-        {
-          "symbol": "TACUSDT",
-          "label": "Pumped then faded",
-          "headline": "TACUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "BEATUSDT",
-          "label": "Brief price gap",
-          "headline": "BEATUSDT had one brief price dislocation"
-        }
-      ],
-      "kind": "divergence",
-      "files": {
-        "html": "reports/2026-08-23/summary_2026-08-23.html",
-        "pdf": null,
-        "md": "reports/2026-08-23/summary_2026-08-23.md"
       }
     }
   ]
