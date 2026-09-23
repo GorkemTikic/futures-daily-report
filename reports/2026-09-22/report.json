@@ -3,10 +3,10 @@
   "kind": "market",
   "dateLong": "Tuesday, 22 September 2026",
   "coversUTC": "2026-09-22 00:00–23:59 UTC",
-  "oneLine": "On September 22, 2026, Bitcoin and Ethereum prices each fell about half a percent to $86,158 and $2,752 respectively, despite strong institutional buying pressure including a record Bitcoin ETF inflow day and a major Binance-Circle investment deal.",
-  "newsCount": 22,
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
   "macro": {
-    "BTC": -0.4973354554211312,
+    "BTC": -0.47527529007384955,
     "ETH": -0.7889055872102825
   },
   "topMover": {
@@ -20,13 +20,14 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "23 Sept 00:00 UTC",
+  "generatedAtUTC": "23 Sept 01:00 UTC",
   "languages": [
     "en",
-    "tr"
+    "tr",
+    "zh"
   ],
   "status": "degraded",
   "degradedReasons": [
-    "zh report unavailable"
+    "narrative fell back to data-only (CLI-only backend)"
   ]
 }
