@@ -16,6 +16,7 @@
 // A legacy synthesis.json / synthesis.<lang>.json is treated as manual (read-only).
 
 import { spawn } from "node:child_process";
+import crypto from "node:crypto";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -117,10 +118,36 @@ function firstBalancedObject(s) {
   }
   const e = new Error("unbalanced JSON (likely truncated / max_tokens)"); e.kind = "unbalanced"; throw e;
 }
+// Models writing Chinese / Turkish text sometimes quote a word with plain ASCII
+// quotes inside a JSON string ("所谓的"恐慌"情绪"), which breaks JSON.parse. A quote
+// inside a string can only end it when the next non-space character is , } ] or :
+// - any other quote is text, so escape it. Valid JSON passes through unchanged.
+export function escapeInnerQuotes(json) {
+  let out = "", inStr = false, esc = false;
+  for (let i = 0; i < json.length; i++) {
+    const c = json[i];
+    if (!inStr) { if (c === '"') inStr = true; out += c; continue; }
+    if (esc) { esc = false; out += c; continue; }
+    if (c === "\\") { esc = true; out += c; continue; }
+    if (c === '"') {
+      let j = i + 1;
+      while (j < json.length && /\s/.test(json[j])) j++;
+      if (j >= json.length || ",}]:".includes(json[j])) { inStr = false; out += c; }
+      else out += '\\"';
+      continue;
+    }
+    out += c;
+  }
+  return out;
+}
+
 function parseObject(raw) {
   const slice = firstBalancedObject(raw);
   try { return JSON.parse(slice); }
-  catch (err) { const e = new Error("trailing garbage / invalid JSON: " + String(err).slice(0, 80)); e.kind = "invalid"; throw e; }
+  catch (err) {
+    try { return JSON.parse(escapeInnerQuotes(slice)); } catch { /* report the original error */ }
+    const e = new Error("trailing garbage / invalid JSON: " + String(err).slice(0, 80)); e.kind = "invalid"; throw e;
+  }
 }
 
 function claudeBin() {
@@ -310,6 +337,16 @@ Return ONLY the same JSON object, localised, no markdown, no code fences:
 ${JSON.stringify(content, null, 1)}`;
 }
 
+// A translation cache is current when it records the English it came from (_from) and
+// that matches; older caches without _from count only if written after the English.
+function translationIsCurrent(obj, file, from, dayDir) {
+  if (obj._from) return obj._from === from;
+  try {
+    const en = path.join(dayDir, "synthesis.auto.json");
+    return !fs.existsSync(en) || fs.statSync(file).mtimeMs >= fs.statSync(en).mtimeMs;
+  } catch { return false; }
+}
+
 // Malformed-output failures worth another attempt (see resolveTranslation).
 const TRANSLATION_ATTEMPTS = 3;
 const OUTPUT_SHAPE_ERRORS = new Set(["invalid", "unbalanced", "no-object"]);
@@ -322,15 +359,22 @@ export async function resolveTranslation(synthEn, lang, config, dayDir, opts = {
     if (manual.legacy) console.warn(`  ${lang}: read legacy synthesis.${lang}.json as a manual override`);
     return { ...manual.obj, _source: manual.source };
   }
+  const { _source, _error, _errorKind, _backend, _fellBack, _cliOnly, ...content } = synthEn || {};
+  // Which English text a translation was made from: a cached translation of an
+  // earlier English write-up must not be paired with a newer one.
+  const from = crypto.createHash("sha1").update(JSON.stringify(content)).digest("hex").slice(0, 16);
   if (opts.reuseSynthesis) {
     try {
       const p = path.join(dayDir, `synthesis.${lang}.auto.json`);
-      if (fs.existsSync(p)) { const obj = JSON.parse(fs.readFileSync(p, "utf8")); if (obj && obj.oneLine) return { ...obj, _source: `auto-cache-${lang}` }; }
+      if (fs.existsSync(p)) {
+        const obj = JSON.parse(fs.readFileSync(p, "utf8"));
+        if (obj && obj.oneLine && translationIsCurrent(obj, p, from, dayDir)) return { ...obj, _source: `auto-cache-${lang}` };
+        console.warn(`  ${lang}: cached translation belongs to an earlier English write-up — translating again`);
+      }
     } catch { /* regenerate */ }
   }
   const order = backendOrder(config);
   if (!order.length) return null;
-  const { _source, _error, _errorKind, _backend, _fellBack, _cliOnly, ...content } = synthEn || {};
   if (!content.oneLine) return null;
   const prompt = translatePrompt(content, lang);
   let lastErr;
@@ -341,7 +385,7 @@ export async function resolveTranslation(synthEn, lang, config, dayDir, opts = {
       try {
         const obj = await runBackend(backend, prompt, config, { useTools: false });
         if (!obj.oneLine) { const e = new Error("translation missing oneLine"); e.kind = "invalid"; throw e; }
-        try { fs.writeFileSync(path.join(dayDir, `synthesis.${lang}.auto.json`), JSON.stringify({ ...obj, _source: `${backend}-${lang}` }, null, 2), "utf8"); } catch {}
+        try { fs.writeFileSync(path.join(dayDir, `synthesis.${lang}.auto.json`), JSON.stringify({ ...obj, _source: `${backend}-${lang}`, _from: from }, null, 2), "utf8"); } catch {}
         return { ...obj, _source: `${backend}-${lang}` };
       } catch (err) {
         lastErr = String(err.message || err).slice(0, 200);
