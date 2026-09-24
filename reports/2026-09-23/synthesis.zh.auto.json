@@ -1,112 +1,270 @@
 {
-  "oneLine": "9月23日美国经济数据强劲，推动债券收益率创19年新高，触发比特币（下跌2.1%）和以太坊（下跌2.5%）的获利回吐，投资者将资金转向债券。",
-  "caveman": "9月23日，经济学家发布消息称美国的就业市场和商业活动增速超出预期。通常加密货币交易者喜欢经济向好的消息，但这次情况相反。原因是这样的：经济强劲时，政府可以向债券提供更高的利息——这是大资金使用的超安全投资。10年期美国债券的利率跳升至2007年以来的最高水平。所以资金经理想：'为什么还要冒着持有比特币和以太坊的风险，而不是买债券获得真正好的利息呢？'他们开始抛售加密货币，转向购买债券。这就是为什么比特币下跌了约2%，以太坊下跌了约2.5%。股市也下跌了。但有趣的是：尽管价格在下跌，庞大的投资基金仍在继续购买比特币——他们在两天内投入了约17亿美元。所以这一天感觉很复杂：价格在下跌，但聪明钱仍在买入。",
-  "priceVolumeSummary": "五大主要交易所（币安、欧易、Bybit、Bitget、Gate）全天报价基本一致，比特币和以太坊价格在各交易所间表现协调一致。币安交易量领先，比特币交易量达178亿美元，以太坊交易量达119亿美元，其次是欧易。",
-  "positioningSummary": "本日期资金费率和持仓量数据暂无。不过，尽管价格下跌，现货比特币ETF在9月22-23日吸引了约17亿美元的净流入，表明机构交易者对基础资产仍保有信心，尽管短期交易者在债券收益率冲击时获利了结。",
-  "stocksSummary": "",
+  "oneLine": "比特币和以太坊在9月23日下跌2.1-2.5%，原因是美国国债收益率因经济数据强劲而飙升至19年高位，引发了2.8亿美元的爆仓，并导致BitMEX在04:00 UTC永久关闭。",
+  "caveman": "比特币和以太坊在9月23日都跌了大约2%。为什么呢？美国的经济数据比大家预期的要好，这让美国政府的借钱成本上升了（10年期美国国债收益率跳到5.1%）。当美国国债的利息更高时，人们就会把钱从比特币那里转出去，去赚那更高的利息。还有一件大事：一个叫BitMEX的大型比特币交易平台，已经运营了11年，在9月23日的04:00 UTC完全关闭了。许多人用借来的钱去赌比特币会涨价，结果当价格跌的时候，他们被迫卖出（这叫爆仓），这又推低了价格。市场情绪还是比较稳定（叫「贪心」），但这一天还是挺糟糕的，因为有那么多人在抛售。",
+  "priceVolumeSummary": "币安、OKX、Bybit、Bitget和Gate这五家主要交易所的比特币报价都在84,210美元的2美元范围内，说明市场对价格的共识非常强。币安的交易量最大，达到17.8亿美元，远远领先于OKX（8.4亿美元）和Gate（7.8亿美元）。",
+  "positioningSummary": "交易者支付了正的资金费率（年化4-10.95%）来押注价格上涨，但随着头寸平仓，持仓量下降了2-9.6%。多空比保持看涨（币安比特币1.16:1，以太坊2.78:1），不过当价格跌破84,000美元时，有2.8亿美元的比特币多头爆仓，这击中了那些杠杆做多的交易者。",
+  "stocksSummary": "亚洲股市在9月23日随着美国国债收益率飙升而下跌：韩国KOSPI下跌1.75%，香港Zhipu AI下跌10.9%，中国CXMT下跌2.5%。美国股市也同步下跌（标普500指数-0.72%，纳斯达克-1.10%）。黄金上涨+0.12%，投资者在寻求避险资产。",
   "movers": [
     {
-      "symbol": "BTC",
-      "explanation": "下跌2.1%，因10年期美国国债收益率在S&P Global利好经济数据推动下，飙升超13个基点至5.1%（创2007年以来最高），该数据显示商业活动、制造业和就业数据都以数年来最快速度加速增长。投资者从加密货币等高风险资产轮动至更高收益的债券。",
-      "hasCause": true
+      "symbol": "NIL",
+      "explanation": "从0.0815美元涨到0.13497美元，涨幅53.86%，交易量3.29亿美元。",
+      "hasCause": false
     },
     {
-      "symbol": "ETH",
-      "explanation": "下跌2.5%，跟随比特币走势，受债券收益率上升驱动的广泛风险规避轮动影响。现货以太坊ETF仍然录得1.622亿美元净流入，尽管价格回调，但显示机构仍有支持。",
-      "hasCause": true
+      "symbol": "NOM",
+      "explanation": "涨幅13.22%（日内波动剧烈，但没有明显的驱动因素）。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MUBARAK",
+      "explanation": "从0.0873美元跌到0.05335美元，跌幅32.80%，交易量4.44亿美元。",
+      "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "美国经济数据强劲，债券收益率飙升至19年新高，引发加密货币抛售",
-        "what": "S&P Global数据显示商业活动以2021年7月以来最快速度加速增长，就业以2022年以来最快速度上升，10年期美国国债收益率随后上升超13个基点至5.1%，创2007年以来新高。债券收益率的飙升引发广泛的风险规避轮动，资本从比特币、以太坊和风险股票流向更安全的债券。纳斯达克指数下跌1.1%，标普500指数下跌0.75%。",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-23 morning UTC",
-        "source": "CNBC",
+        "headline": "BitMEX结束11年运营，永久关闭交易平台",
+        "what": "BitMEX是引入100倍杠杆的先驱交易所，在9月23日04:00 UTC停止了所有交易，目前正在清退。用户的头寸被自动强制平仓。用户必须提取账户剩余资金；留在平台上的余额现在需要支付费用。",
+        "coins": "所有（平台关闭）",
+        "timeUTC": "04:00 Sept 23",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379089/crypto-exchange-that-invented-100x-leverage-is-no-more-heres-what-bitmex-users-need-to-know"
+      },
+      {
+        "headline": "美国国债收益率飙升至5.1%，创2007年以来新高，源于经济数据向好",
+        "what": "10年期美国国债收益率在9月23日上升18个基点，原因是采购经理指数（PMI）显示经济出人意料地强劲：服务业PMI 58.7（5年来最佳），制造业PMI 56.7（4年来最佳）。这一走势清算了加密货币和股票市场中的杠杆头寸。",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "Throughout Sept 23 (yields peaked mid-day US Eastern)",
+        "source": "CNBC, Wolf Street",
         "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+      },
+      {
+        "headline": "比特币多头爆仓2.8亿美元，价格跌破84,000美元",
+        "what": "随着10年期美国国债收益率飙升，比特币跌破84,000美元，引发了杠杆多头头寸的连锁爆仓。Cointelegraph报道称，当价格突破引发自动卖出时，有2.8亿美元的比特币多头头寸被强制平仓。",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 23, intraday (timestamps 17:51–18:51 UTC range in sources)",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k"
       }
     ],
     "groups": {
-      "Traditional markets": [
+      "Exchange and platform changes": [
         {
-          "headline": "经济数据强劲且油价上升，债券收益率飙升至19年新高",
-          "what": "10年期国债收益率突破5.1%，创2007年以来新高。S&P Global数据显示私营部门商业活动以2021年7月以来最快速度扩张，制造业和服务业部门均加速增长，就业以2022年以来最快速度上升。油价也跳升至103美元/桶上方，放大了收益率驱动的风险资产轮动。",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-23 morning UTC",
-          "source": "CNN Business",
-          "url": "https://www.cnn.com/2026/09/23/investing/us-bond-market-fed"
+          "headline": "Kalshi预测市场称美国商品期货交易委员会未对其50亿美元交易活动采取行动",
+          "what": "Kalshi回应了对其异常以太坊永续交易（交易量接近50亿美元）的审查，表示美国商品期货交易委员会还未与其联系，并将这一活动归因于其流动性激励计划。该平台否认了涉嫌洗盘交易的指控。",
+          "coins": "Ethereum (perps on Kalshi)",
+          "timeUTC": "Sept 23, 12:38 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity"
+        },
+        {
+          "headline": "Hut 8以1.4亿美元出价赢得Poolin的德州比特币挖矿数据中心",
+          "what": "Hut 8在竞争性投标中收购了Poolin的两个德州机房，扩大了其比特币挖矿和AI算力的数据中心足迹。这笔交易凸显了机构对基础设施的关注，因为挖矿盈利能力在转变。",
+          "coins": "Bitcoin (mining)",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-23-hut-8-wins-bidding-poolin-texas-data-centers-140-million-offer-416190"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "现货比特币ETF两日吸金17亿美元，尽管价格下跌",
-          "what": "现货比特币ETF在9月22日吸引约7.15亿美元流入，9月23日流入显著增加，两日合计超17亿美元——这是一年多来最强的两日表现。贝莱德的IBIT仍是美国最大的现货比特币基金，资产规模达679亿美元。以太坊现货ETF录得1.622亿美元净流入，贝莱德的ETHA领涨，吸引8.81亿美元。",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-22 to 2026-09-23",
-          "source": "The Coin Republic / Farside Investors",
-          "url": "https://www.thecoinrepublic.com/2026/09/23/bitcoin-etf-inflows-hit-1-7b-as-btc-price-stays-over-86000/"
+          "headline": "比特币ETF净流出1.04亿美元；以太坊ETF净流入1.62亿美元（9月23日）",
+          "what": "美国现货比特币ETF在9月23日出现罕见的1.04亿美元净流出，原因是国债收益率飙升和价格跌破让一些投资者感到恐慌。以太坊ETF走势相反，净流入1.62亿美元，这是连续第三天的净买入。",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "Sept 23 (US Eastern, reported by SoSoValue)",
+          "source": "SoSoValue",
+          "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+        },
+        {
+          "headline": "比特币和以太坊期权价值156-180亿美元将在周五到期；看涨头寸为主",
+          "what": "接近180亿美元的组合比特币和以太坊期权即将在9月25日（周五）到期，这可能会产生交易商对冲流和市场波动。Deribit的数据显示看涨头寸占主导，在多个执行价处堆积头寸。",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "Expiry Sept 25, 08:00 UTC",
+          "source": "CoinDesk, Decrypt",
+          "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "近2000万美元XRP从6678个钱包被盗，分六波攻击",
+          "what": "XRPL.to记录了六波单独的安全事件，在9月20日前盗走了近2000万美元的XRP，涉及数千个钱包。钱包制造商DCENT建议用户立即更换暴露的恢复短语，即使是在硬件钱包上。",
+          "coins": "XRP",
+          "timeUTC": "Six waves through Sept 20",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nearly-20-million-in-xrp-drained-from-6678-wallets-across-six-attack-waves/"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "美国证券交易委员会委员Uyeda：该机构放弃加密货币案件以避免法庭信誉受损",
+          "what": "前美国证券交易委员会代理主席Mark Uyeda透露，美国证券交易委员会在2025年初放弃了许多针对加密公司的案件，以规避潜在的法庭败诉，这可能会损害该机构的信誉。这一承认标志着执法政策的转变，趋向于更宽松的监管。",
+          "coins": "Crypto industry",
+          "timeUTC": "Sept 23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases"
+        },
+        {
+          "headline": "参议院银行委员会民主党人要求就预测市场举行公开听证会",
+          "what": "参议院银行委员会的所有民主党成员敦促主席Tim Scott就预测市场举行国会听证会，此前共和党人私下与Kalshi进行了单独会谈。这一举措标志着民主党对该领域监管监督的兴趣。",
+          "coins": "Prediction markets",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-23-senate-banking-democrats-prediction-markets-hearing-kalshi-416193"
+        }
+      ],
+      "Product launches and partnerships": [
+        {
+          "headline": "Circle推出24/7稳定币外汇交易引擎，支持USDC等货币对",
+          "what": "Circle推出了一个全自动的稳定币外汇引擎，提供24/7结算支持的货币对（例如USDC、EUROC）。经审核的公司可以参与；本地法币接入和托管需要单独安排。",
+          "coins": "USDC, stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circle-launches-24-7-stablecoin-fx-engine-as-it-chases-a-slice-of-the-10-trillion-currency-market/"
+        },
+        {
+          "headline": "Coinbase扩展Morpho协议集成：固定利率比特币贷款现已上线",
+          "what": "Coinbase用户现在可以通过Morpho Midnight以锁定的利率和还款日期向比特币借入USDC。这标志着Morpho Midnight的首次企业级部署，也是从易变的链上借贷利率的转变。",
+          "coins": "Bitcoin, USDC",
+          "timeUTC": "Sept 23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379091/borrow-against-bitcoin-fixed-rate-coinbase-morpho"
+        },
+        {
+          "headline": "加拿大六大银行联合探索代币化存款系统用于清算",
+          "what": "皇家银行（RBC）、多伦多道明银行（TD）、蒙特利尔银行（BMO）、苏格兰银行（Scotiabank）、加拿大皇家银行（CIBC）和国家银行宣布了一项协作项目，旨在建立一个共享的加元代币化存款网络。第一阶段专注于银行间转账；法币出入选项随后跟进。",
+          "coins": "CAD-based stablecoin/tokenized deposits",
+          "timeUTC": "Sept 23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379081/canada-six-biggest-banks-shared-digital-dollar-network"
+        },
+        {
+          "headline": "纽约证券交易所与Blockchain.com计划推出代币化美国股票交易平台",
+          "what": "纽约证券交易所与Blockchain.com签署协议，探索建立一个用于代币化美国股票和ETF的数字资产交易平台，待监管部门批准。这一举措加速了华尔街向链上交易的转变。",
+          "coins": "Tokenized equities",
+          "timeUTC": "Sept 23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users"
+        },
+        {
+          "headline": "MoonPay以6000万美元全股票交易收购美国证券交易委员会注册的North Capital",
+          "what": "MoonPay收购了美国证券交易委员会注册的经纪交易商North Capital，以加快其代币化现实资产（RWA）的雄心。CEO Ivan Soto-Wright将代币化资产的大规模应用作为交易的理由。",
+          "coins": "All (RWA-focused platform)",
+          "timeUTC": "Sept 23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "背景：Kalshi 50亿美元以太坊永续交易引起关注，但未启动正式调查（9月22日）",
+          "what": "除了今日声明外，Kalshi还披露了其以太坊永续合约中的异常交易模式——近50亿美元的相似规模交易。该平台将交易量归因于流动性激励计划，并表示美国商品期货交易委员会还未正式启动调查。",
+          "coins": "Ethereum",
+          "timeUTC": "Sept 22–23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-says-cftc-hasnt-contacted-it-over-unusual-5b-trading-activity"
+        },
+        {
+          "headline": "贝莱德：AI驱动的稳定币市场规模可达5万亿美元",
+          "what": "贝莱德研究表明，自主AI系统可能会创造一类新的稳定币客户——持续消费而无需人工批准的机器。这家资产管理公司预计这种AI到AI的商业活动可能会释放数万亿美元的机会。",
+          "coins": "Stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/blackrock-sees-a-new-5-trillion-ai-trade-emerging-for-stablecoins/"
+        },
+        {
+          "headline": "Visa研究：当稳定币带有银行级保护时，采纳意愿跳升至56%",
+          "what": "Visa的一项调查发现，如果稳定币具有类似美国存款保险公司（FDIC）的存款保险，美国采纳意愿从36%跃升至56%。这一发现表明在GENIUS法案之前，市场对监管清晰度和消费者保护的需求很大。",
+          "coins": "Stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136"
         }
       ]
     }
   },
   "etfFlows": {
-    "date": "2026-09-22 to 2026-09-23",
-    "summary": "现货比特币ETF两日吸金约17亿美元（一年多来最强表现），其中9月22日约7.15亿美元。以太坊现货ETF在同期录得1.622亿美元净流入，贝莱德ETHA领先，吸引8.81亿美元。尽管加密货币价格下跌，两者均显示出强劲的机构需求。",
-    "source": "Farside Investors / The Coin Republic",
-    "url": "https://farside.co.uk/btc/"
+    "date": "2026-09-23",
+    "summary": "比特币现货ETF因国债收益率飙升和价格跌破而出现1.04亿美元的净流出。以太坊现货ETF走势相反，净流入1.62亿美元，这是连续第三天的净买入，尽管更广泛的市场出现抛售。",
+    "source": "SoSoValue",
+    "url": "https://sosovalue.com/assets/etf/us-btc-spot"
   },
   "calendarNotes": [
     {
-      "event": "Swiss National Bank Rate Decision – Thu Sept 24, 07:30 UTC",
-      "typicalReaction": "央行利率决定驱动债券市场波动和汇率波动。意外决定可能会加剧已在进行的收益率压力。"
+      "event": "SNB和Riksbank利率决议（9月24日，07:30 UTC），挪威央行利率决议（9月24日，08:00 UTC）",
+      "typicalReaction": "欧洲央行的利率决议可以改变人们对风险资产的兴趣；鹰派意外可能会延续收益率上升的趋势，对加密货币造成压力。"
     },
     {
-      "event": "U.S. Initial Jobless Claims – Thu Sept 24, 12:30 UTC",
-      "typicalReaction": "劳动力市场数据直接影响美联储预期和债券收益率。初请失业人数好于预期可能会缓解9月23日强劲就业数据带来的部分压力。"
+      "event": "美国初次申请失业救济人数（9月24日，12:30 UTC）",
+      "typicalReaction": "申请人数高（裁员增加）会降低美联储加息的预期；申请人数低则会强化劳动力市场的强势，支持更高的国债收益率。"
     },
     {
-      "event": "Riksbank and Norges Bank Rate Decisions – Thu Sept 24, 07:30–08:00 UTC",
-      "typicalReaction": "瑞典和挪威央行的决定可能会推动欧洲债券收益率变化，并影响全球风险情绪。"
+      "event": "澳大利亚央行利率决议（9月29日，04:30 UTC）",
+      "typicalReaction": "澳大利亚央行的举动可以影响全球风险情绪和商品/货币流向。"
+    },
+    {
+      "event": "美国非农就业人口（10月2日，12:30 UTC）——高影响力",
+      "typicalReaction": "重大就业报告；强劲的就业可能会加速加息预期并延续收益率上升的趋势，对加密货币施压。"
     }
   ],
   "glossary": [
     {
-      "term": "债券收益率",
-      "definition": "债券投资者每年获得的利息百分比。当债券收益率上升时，债券会比加密货币等其他投资更有吸引力，通常会引发资本轮动。"
+      "term": "基点",
+      "definition": "等于1/100的1%。当10年期美国国债收益率上升18个基点时，收益率上升了0.18个百分点（例如从4.92%到5.10%）。"
+    },
+    {
+      "term": "ETF基金",
+      "definition": "在交易所像股票一样交易的基金。比特币和以太坊现货ETF跟踪这些币种的价格，让投资者获得敞口而无需持有实际的币。"
+    },
+    {
+      "term": "ETF流入/流出",
+      "definition": "流入 = 基金的净买入；流出 = 净卖出。正流入意味着买入的人比卖出的人多；负流出意味着卖出的人比买入的人多。"
     },
     {
       "term": "资金费率",
-      "definition": "在永续期货合约中，持多头头寸的交易者向持空头头寸的交易者支付的利息。它反映了市场情绪是更看涨还是更看跌。"
+      "definition": "押注价格上升的交易者向押注价格下跌的交易者支付的利息，反之亦然。正资金费率意味着多头正在向空头支付，说明强烈的看涨情绪。每8小时在主要交易所支付一次。"
+    },
+    {
+      "term": "爆仓",
+      "definition": "当价格走势对杠杆头寸不利且保证金耗尽时被迫自动卖出。例如：一个借钱押注比特币上升的交易者，如果价格下跌过快，就会被迫卖出。"
+    },
+    {
+      "term": "多头/多头头寸",
+      "definition": "押注价格会上升的赌注。与空头（押注价格下跌的赌注）相反。"
     },
     {
       "term": "多空比",
-      "definition": "看涨的交易者（多头）与看跌的交易者（空头）的比例。比例越高表示市场看涨情绪越强。"
+      "definition": "看涨（多头）头寸与看跌（空头）头寸的比率。1.16:1的比率意味着看涨赌注比看跌赌注多16%。"
     },
     {
       "term": "标记价格",
-      "definition": "用于计算永续期货盈亏的参考价格，通常由现货价格推导而来，以防止价格操纵。"
+      "definition": "用于计算期货和永续合约收益/损失和保证金要求的价格。它密切跟踪现货价格，以防止价格操纵。"
     },
     {
       "term": "持仓量",
-      "definition": "交易者在任何时刻持有的未平仓期货或期权合约的总数。持仓量越高通常表示对价格方向的信念越强。"
+      "definition": "交易所上未平仓（未结算）的合约总数。当持仓量下降时，意味着头寸正在被平仓；当持仓量上升时，意味着新头寸正在被开仓。"
     },
     {
       "term": "持仓量变化",
-      "definition": "在一段时间内未平仓合约总数增加或减少的幅度。持仓量增长通常表示新资金进入市场，持仓量萎缩表示交易者在平仓。"
+      "definition": "当天总未平仓头寸的百分比涨跌。负变化（例如-9.6%）意味着交易者净平仓；正变化意味着他们净开仓。"
     },
     {
-      "term": "获利了结",
-      "definition": "交易者平仓获利头寸并卖出，锁定收益。大规模的获利了结即使在情绪保持乐观时也会推动价格下跌。"
+      "term": "永续合约/期货",
+      "definition": "允许交易者押注价格走势而无需持有相关币种的合约。永续合约永不过期；期货在固定日期过期。两者都使用杠杆（借用的钱）。"
     },
     {
-      "term": "风险规避轮动",
-      "definition": "由于市场不确定性或经济条件变化，投资者将资金从风险较高的投资（如加密货币和科技股）转向更安全、更稳定的投资（如政府债券）。"
+      "term": "采购经理指数（PMI）",
+      "definition": "基于调查的制造业和服务业业务活动指标。50以上的读数表示扩张；58.7（服务业）非常强劲，通常会引发对更高利率的担忧。"
+    },
+    {
+      "term": "美国国债/10年期美国国债",
+      "definition": "你借给美国政府的贷款；10年版本在10年内向你支付利息。收益率是利率。当国债收益率上升时，与比特币等风险资产相比，债券变得更有吸引力。"
     },
     {
       "term": "交易量",
-      "definition": "在一段时间内在交易所交易的资产总额，以美元或币数计量。交易量越高通常表示流动性越强、交易者兴趣越浓。"
+      "definition": "在给定时期内交易的总美元数量（或币种数量）。高交易量 = 许多交易；低交易量 = 较少交易。有助于衡量交易所或市场的活跃程度。"
     }
   ],
-  "_source": "cli-zh"
+  "_source": "cli-zh",
+  "_from": "02fcd896b0efab41"
 }

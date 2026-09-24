@@ -6,12 +6,12 @@
   "oneLine": "Bitcoin and Ethereum fell 2.1–2.5% on Sept 23 after US Treasury yields spiked to a 19-year high on strong economic data, triggering $280 million in liquidations and closing BitMEX permanently at 04:00 UTC.",
   "newsCount": 18,
   "macro": {
-    "BTC": -2.09046576779616,
+    "BTC": -2.1071162900270246,
     "ETH": -2.5228491303526637
   },
   "topMover": {
-    "symbol": "NOMUSDT",
-    "chgPct": 13.219373219373217
+    "symbol": "NILUSDT",
+    "chgPct": 53.8649407742093
   },
   "venues": [
     "Binance",
@@ -20,13 +20,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "24 Sept 03:02 UTC",
+  "generatedAtUTC": "24 Sept 04:00 UTC",
   "languages": [
     "en",
-    "tr"
+    "tr",
+    "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "zh report unavailable"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }

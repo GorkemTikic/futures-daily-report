@@ -1,11 +1,11 @@
 {
-  "runId": "2026-09-24T03:00:02.399Z",
+  "runId": "2026-09-24T03:02:22.824Z",
   "dateOverride": null,
   "reuseSynthesis": true,
-  "startedAt": "2026-09-24T03:00:02.399Z",
-  "status": "ok",
-  "finishedAt": "2026-09-24T03:00:24.919Z",
-  "durationSec": 23,
+  "startedAt": "2026-09-24T03:02:22.824Z",
+  "status": "degraded",
+  "finishedAt": "2026-09-24T03:07:36.477Z",
+  "durationSec": 314,
   "date": "2026-09-23",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1790207999999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "03:00 UTC"
+    "asOfUTC": "03:02 UTC"
   },
   "sources": {
     "exchanges": {
@@ -56,11 +56,15 @@
         "CryptoSlate",
         "Decrypt",
         "SEC",
-        "Federal Reserve",
         "CFTC"
       ],
-      "failed": [],
-      "count": 53,
+      "failed": [
+        {
+          "source": "Federal Reserve",
+          "err": "Error: HTTP 404"
+        }
+      ],
+      "count": 52,
       "backfill": false
     },
     "tradfi": {
@@ -88,17 +92,17 @@
   },
   "languages": [
     "en",
-    "tr",
-    "zh"
+    "tr"
   ],
   "pdf": {
     "en": true,
-    "tr": true,
-    "zh": true
+    "tr": true
   },
   "publish": {
     "pushed": true,
     "branch": "main"
   },
-  "reasons": []
+  "reasons": [
+    "zh report unavailable"
+  ]
 }
