@@ -10,8 +10,8 @@
     "ETH": -2.5228491303526637
   },
   "topMover": {
-    "symbol": "NILUSDT",
-    "chgPct": 53.8649407742093
+    "symbol": "TAKEUSDT",
+    "chgPct": 57.16866480538675
   },
   "venues": [
     "Binance",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "24 Sept 04:00 UTC",
+  "generatedAtUTC": "24 Sept 12:11 UTC",
   "languages": [
     "en",
     "tr",
