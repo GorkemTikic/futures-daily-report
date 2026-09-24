@@ -1,111 +1,268 @@
 {
-  "oneLine": "Güçlü ABD ekonomik verileri 23 Eylül'de tahvil getirilerini 19 yıllık zirveye taşıyarak Bitcoin'de (yüzde 2,1 düşüş) ve Ethereum'da (yüzde 2,5 düşüş) kâr realizasyonunu tetikledi çünkü yatırımcılar sermayelerini tahvillere kaydırdılar.",
-  "caveman": "23 Eylül'de ekonomistler ABD'nin iş piyasası ve ticari faaliyetinin beklenenden daha hızlı büyüdüğünü açıkladılar. Normalde kripto tüccarları iyi ekonomik haberlerini severler, ama bu sefer bunun tersi oldu. İşte neden: ekonomi güçlü olduğunda, hükümet tahvillere daha yüksek faiz oranları sunabilir—büyük paranın kullandığı çok güvenli bir yatırım. 10 yıllık ABD tahvillerinin faiz oranı 2007'den beri en yüksek seviyeye çıktı. Para yöneticileri böyle düşündüler: 'Bitcoin ve Ethereum'a sahip olmak riskli iken, tahvil satın alıp gerçekten iyi faiz almak neden olmasın?' Kripto satmaya ve tahvil satın almaya başladılar. Bu yüzden Bitcoin günün sonunda yaklaşık yüzde 2 düştü ve Ethereum yaklaşık yüzde 2,5 düştü. Borsa da düştü. Ama ilginç bir şey oldu: fiyatlar düşmesine rağmen, muazzam yatırım fonları Bitcoin satın almaya devam etti—iki gün içinde yaklaşık 1,7 milyar dolar yatırdılar. Böylece gün karışık hissettirdi: fiyatlar düşüyor ama akıllı para hâlâ satın alıyor.",
-  "priceVolumeSummary": "Beş büyük borsanın tamamı (Binance, OKX, Bybit, Bitget, Gate) gün boyunca Bitcoin ve Ethereum için neredeyse aynı fiyatları rapor etti ve borsalar arasında güçlü bir anlaşma gösterdi. Binance Bitcoin'de 17,8 milyar dolar ve Ethereum'da 11,9 milyar dolar işlem hacmi ile öncü konumdaydı ve bunu OKX takip etti.",
-  "positioningSummary": "Bu tarih için tarihsel finansman oranları ve açık pozisyon verileri mevcut değildir. Ancak, fiyat düşüşüne rağmen spot Bitcoin ETF'leri 22-23 Eylül'de yaklaşık 1,7 milyar dolar net giriş çekti—bu da kurumsal tüccarların kısa vadeli tüccarlar kâr realizasyonu yapsa da temel varlıklara güvenini koruduğunu göstermektedir.",
-  "stocksSummary": "",
+  "oneLine": "Bitcoin ve Ethereum, 23 Eylül'de ABD Hazine verimlerinin güçlü ekonomik veriler nedeniyle 19 yılın en yüksek seviyesine ulaşması sonrasında %2,1-2,5 oranında düştü; bu gelişme 280 milyon dolarlık tasfiyeye yol açtı ve BitMEX'in 04:00 UTC'de kalıcı olarak kapanmasını tetikledi.",
+  "caveman": "Bitcoin ve Ethereum'un ikisi de 23 Eylül'de yaklaşık %2 oranında düştü çünkü ABD ekonomisi herkesin beklediğinden daha güçlü görünüyordu. ABD hükümetinin borçlanma maliyetleri yükseldiğinde (10 yıllık Hazine verimi %5,1'e fırladı), insanlar daha yüksek faiz kazanabilmek için Bitcoin'den para çekerler. BitMEX adında büyük bir Bitcoin ticaret platformu o gün 04:00 UTC'de tamamen kapandı - 11 yıl boyunca işletiliyordu. Fiyatların yükselmesi için borç para alan ve bahis yapan birçok kişi satmaya zorlandı (buna tasfiye diyoruz), bu da fiyatları daha da aşağı çekti. Pazardaki genel duygu sakin kaldı ('Açgözlülük'), ama çok satış olması nedeniyle yine de endişeli bir gün oldu.",
+  "priceVolumeSummary": "Beş büyük borsa—Binance, OKX, Bybit, Bitget ve Gate—Bitcoin'i $84,210'dan $2 içinde kote etti ve güçlü fiyat uyumunu gösterdi. Binance $17,8 milyar hacimde hakim konumdaydı, OKX'ten ($8,4 milyar) ve Gate'ten ($7,8 milyar) çok öndeydi.",
+  "positioningSummary": "Tüccarlar fiyat artışına bahis yapmak için pozitif faiz (yıllık %4-10,95) ödediler, ancak pozisyonlar kapandığında açık faiz %2-9,6 oranında daraldı. Uzun/kısa oranları yükselişçi kaldı (Binance'de Bitcoin 1.16:1, Ethereum 2.78:1), ancak fiyat $84,000'ın altına düştüğünde Bitcoin uzun pozisyonlarında $280 milyon tasfiye meydana geldi ve kaldıraçlı yükselişçileri sıkıştırdı.",
+  "stocksSummary": "Hazine verimleri yükselirken 23 Eylül'de Asya pazarları düştü: Güney Kore'nin KOSPI'si %1,75 düştü, Hong Kong'un Zhipu AI'si %10,9 düştü, Çin'in CXMT'si %2,5 düştü. ABD hisse senetleri aynı anda düştü (S&P 500 −%0,72, Nasdaq −%1,10). Yatırımcılar güvenli limanları aradıkça altın +%0,12 kazandı.",
   "movers": [
     {
-      "symbol": "BTC",
-      "explanation": "10 yıllık ABD Hazine getirisi S&P Global ekonomik verileri sonrası 13 baz puan artarak yüzde 5,1'e (2007'den beri en yüksek) çıktı. Verilerde ticari faaliyet, üretim ve istihdam son yılların en hızlı hızında artış gösterdi. Yatırımcılar kripto gibi riskli varlıklardan daha yüksek getirili tahvillere kaydılar. Yüzde 2,1 düşüş.",
-      "hasCause": true
+      "symbol": "NIL",
+      "explanation": "%53,86 oranında yükselişle $0.0815'ten $0.13497'ye $329 milyon hacimde çıktı.",
+      "hasCause": false
     },
     {
-      "symbol": "ETH",
-      "explanation": "Bitcoin'i takip ederek yüzde 2,5 düştü ve yükselen tahvil getirilerine bağlı geniş bir risk-kaçış rotasyonuna katıldı. Spot Ethereum ETF'leri fiyat gerilemesine rağmen 162,2 milyon dolar net giriş kaydetti ve kurumsal desteği gösterdi.",
-      "hasCause": true
+      "symbol": "NOM",
+      "explanation": "%13,22 kazandı (gün içinde: gün içi hareket oynaklığı gösteriyor ancak açık bir katalist yok).",
+      "hasCause": false
+    },
+    {
+      "symbol": "MUBARAK",
+      "explanation": "%32,80 oranında düşüşle $0.0873'ten $0.05335'e $444 milyon hacimde indi.",
+      "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "ABD tahvil getirileği 19 yıllık zirveye çıkıyor güçlü ekonomik veriler sonrası, kripto satışını tetikliyor",
-        "what": "10 yıllık ABD Hazine getirisi S&P Global tarafından ticari faaliyetlerin Temmuz 2021'den beri en hızlı hızında, istihdamın ise 2022'den beri en hızlı hızında artığı rapor edildikten sonra 13 baz puan artarak yüzde 5,1'e (2007'den beri en yüksek) çıktı. Tahvil getirilerindeki artış geniş bir risk-kaçış rotasyonunu tetikledi ve sermaye Bitcoin, Ethereum ve riskli hisse senetlerinden daha güvenli tahvillere aktı. Nasdaq yüzde 1,1 düştü ve S&P 500 yüzde 0,75 düştü.",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-23 morning UTC",
-        "source": "CNBC",
+        "headline": "BitMEX, 11 yıllık hizmetine kalıcı ticaret kapatmasıyla son verdi",
+        "what": "100x kaldıracı tanıtan öncü borsa BitMEX, 23 Eylül 04:00 UTC'de tüm ticareti durdurdu ve kapatılıyor. Pozisyonlar otomatik olarak zorla kapatıldı. Kullanıcılar kalan fonlarını geri çekmek zorundadır; platformda kalan bakiyeler için şimdi ücret uygulanır.",
+        "coins": "All (platform closure)",
+        "timeUTC": "04:00 Sept 23",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379089/crypto-exchange-that-invented-100x-leverage-is-no-more-heres-what-bitmex-users-need-to-know"
+      },
+      {
+        "headline": "ABD Hazine verimi güçlü PMI verilerine dayalı olarak %5,1'e fırladı, 2007'den bu yana en yüksek seviye",
+        "what": "10 yıllık Hazine verimi 23 Eylül'de Satın Alma Müdürleri Endeksi (PMI) raporları beklenmeyen ekonomik gücü gösterdikten sonra 18 baz puan sıçradı: Hizmetler PMI 58,7 (5 yılın en iyisi), İmalat PMI 56,7 (4 yılın en iyisi). Bu hareket kripto ve hisse senetlerinde kaldıraçlı pozisyonları temizledi.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "Throughout Sept 23 (yields peaked mid-day US Eastern)",
+        "source": "CNBC, Wolf Street",
         "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+      },
+      {
+        "headline": "Bitcoin uzun pozisyon tasfiyesi fiyat $84,000'ın altına düştükçe $280 milyon'a ulaştı",
+        "what": "10 yıllık Hazine verimi sıçradıkça, Bitcoin $84,000'ın altına düştü ve kaldıraçlı uzun pozisyonların art arda tasfiyesini tetikledi. Cointelegraph, fiyat kırılmasının otomatik satışları zorlaması nedeniyle BTC uzun pozisyon kapatışlarında $280 milyon rapor etti.",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 23, intraday (timestamps 17:51–18:51 UTC range in sources)",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k"
       }
     ],
     "groups": {
-      "Traditional markets": [
+      "Exchange and platform changes": [
         {
-          "headline": "Tahvil getirileği 19 yıllık zirveye çıkıyor güçlü ekonomik veriler ve yükselen petrol fiyatları arasında",
-          "what": "10 yıllık Hazine getirisi yüzde 5,1'e (2007'den beri en yüksek) ulaştı. S&P Global verileri özel sektör ticari faaliyetinin Temmuz 2021'den beri en hızlı hızında genişlediğini, hem üretim hem de hizmetler sektörlerinin hızlandığını ve istihdamın 2022'den beri en hızlı hızında arttığını gösterdi. Petrol fiyatları ayrıca 103 dolar üzerinde sıçradı ve riskli varlıklardan çıkış rotasyonunu şiddetlendirdi.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-23 morning UTC",
-          "source": "CNN Business",
-          "url": "https://www.cnn.com/2026/09/23/investing/us-bond-market-fed"
+          "headline": "Kalshi tahmin pazarı, CFTC'nin $5 milyar ticaret aktivitesi konusunda kendisine ulaşmadığını söyledi",
+          "what": "Kalshi, yaklaşık $5 milyar değerindeki olağandışı Ethereum vadeli işlem ticareti konusundaki incelemeye yanıt vererek, CFTC'nin kendisine ulaşmadığını ve aktiviteyi likidite teşvik programlarına atfettiğini söyledi. Platform, yıkama ticareti iddialarını reddetti.",
+          "coins": "Ethereum (perps on Kalshi)",
+          "timeUTC": "Sept 23, 12:38 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity"
+        },
+        {
+          "headline": "Hut 8, Poolin'in Teksas Bitcoin madencilik veri merkezleri için $140 milyon teklifin kazananı oldu",
+          "what": "Hut 8, rekabetçi bir teklifle Poolin'in iki Teksas lokasyonunu satın alarak hem Bitcoin madenciliği hem de yapay zeka hesaplaması için veri merkezi ayak izini genişletti. Anlaşma, madencilik karlılığı değiştikçe altyapıya yönelik kurumsal odağı vurguluyor.",
+          "coins": "Bitcoin (mining)",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-23-hut-8-wins-bidding-poolin-texas-data-centers-140-million-offer-416190"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Spot Bitcoin ETF'leri fiyat düşüşüne rağmen iki gün içinde 1,7 milyar dolar çekiyor",
-          "what": "Spot Bitcoin ETF'leri 22 Eylül'de yaklaşık 715 milyon dolar ve 23 Eylül'de önemli ek giriş çekerek iki günlük toplamı 1,7 milyardan fazla dolar ulaştırdı—son bir yıldan fazla süredir en güçlü iki günlük performans. BlackRock'ın IBIT 67,9 milyar dolar varlıkla en büyük ABD spot Bitcoin fonu olarak kaldı. Ethereum spot ETF'leri aynı dönemde 162,2 milyon dolar net giriş kaydetti ve BlackRock'ın ETHA 88,1 milyon dolar ile lider oldu.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-22 to 2026-09-23",
-          "source": "The Coin Republic / Farside Investors",
-          "url": "https://www.thecoinrepublic.com/2026/09/23/bitcoin-etf-inflows-hit-1-7b-as-btc-price-stays-over-86000/"
+          "headline": "Bitcoin ETF'leri 23 Eylül'de net $104 milyon çıkış kaydetti; Ethereum net $162 milyon giriş kaydetti",
+          "what": "ABD spot Bitcoin ETF'leri 23 Eylül'de Hazine verimi artışı ve fiyat kırılması bazı yatırımcıları korkuttuğu için nadir $104 milyon net çıkış gördü. Ethereum ETF'leri $162,2 milyon giriş ile trendi kırdı—art arda üçüncü net satın alma günü.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "Sept 23 (US Eastern, reported by SoSoValue)",
+          "source": "SoSoValue",
+          "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+        },
+        {
+          "headline": "Cuma günü son kullanma tarihini geçirecek $15,6-$18 milyar değerindeki Bitcoin ve Ethereum seçenekleri; çağrı ağırlıklı kitap",
+          "what": "25 Eylül'de (Cuma) 08:00 UTC'de son kullanma tarihini geçirecek yaklaşık $18 milyar birleşik Bitcoin ve Ethereum seçenekleri potansiyel bayi riskten korunma akışları ve oynaklık yaratır. Deribit'in verileri, konumların birden fazla kullanım fiyatında istiflendiği çağrı ağırlıklı bir kitap gösteriyor.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "Expiry Sept 25, 08:00 UTC",
+          "source": "CoinDesk, Decrypt",
+          "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Yaklaşık $20 milyon XRP, altı saldırı dalgasında 6.678 cüzdandan çalındı",
+          "what": "XRPL.to, 20 Eylül'e kadar binlerce cüzdandan yaklaşık $20 milyon XRP'yi boşaltan altı ayrı ihlal dalgasını belgeledi. DCENT (cüzdan üreticisi), kullanıcılara donanım cüzdanlarında bile açıklanmış kurtarma ifadelerini derhal değiştirmelerini tavsiye etti.",
+          "coins": "XRP",
+          "timeUTC": "Six waves through Sept 20",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nearly-20-million-in-xrp-drained-from-6678-wallets-across-six-attack-waves/"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "SEC Komiseri Uyeda: ajans mahkemede güvenilirlik sorunlarından kaçınmak için kripto davalarını düşürdü",
+          "what": "Eski SEC başkan yardımcısı Mark Uyeda, SEC'in 2025'in başında ajanın güvenilirliğine zarar verebilecek potansiyel mahkeme yenilgilerinden kaçınmak için kripto şirketlerine karşı birçok davayı düşürdüğünü açıkladı. Bu itiraf, daha hafif uygulama yönünde bir politika değişimini işaret ediyor.",
+          "coins": "Crypto industry",
+          "timeUTC": "Sept 23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases"
+        },
+        {
+          "headline": "Senat Bankacılık Komitesi Demokratları tahmin pazarları konusunda kamuya açık bir duruşma için çağrı yaptı",
+          "what": "Senat Bankacılık Komitesi'ndeki tüm Demokratlar, Cumhuriyetçilerin Kalshi ile ayrı özel toplantıları ortasında Başkan Tim Scott'tan tahmin pazarları konusunda bir kongre duruşması yapmasını istedi. Bu hamle sektörün düzenleyici gözetimi konusunda Demokratların ilgisini işaret ediyor.",
+          "coins": "Prediction markets",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-23-senate-banking-democrats-prediction-markets-hearing-kalshi-416193"
+        }
+      ],
+      "Product launches and partnerships": [
+        {
+          "headline": "Circle, USDC ve diğer çiftler için 24/7 stabilcoin döviz ticaret motorunu başlattı",
+          "what": "Circle, stabilcoinler için tamamen otomatik bir döviz motoru sunarak desteklenen çiftlerin (örneğin USDC, EUROC) 24/7 takas sundu. Kontrol edilen firmalar katılabilir; yerel fiat erişimi ve saklama ayrı düzenlemeler gerektirir.",
+          "coins": "USDC, stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circle-launches-24-7-stablecoin-fx-engine-as-it-chases-a-slice-of-the-10-trillion-currency-market/"
+        },
+        {
+          "headline": "Coinbase, Morpho Protokolü entegrasyonunu genişletiyor: sabit oranlı Bitcoin kredileri yayında",
+          "what": "Coinbase kullanıcıları artık Morpho Midnight aracılığıyla Bitcoin karşılığında kilitli bir oranda ve geri ödeme tarihinde USDC borç alabilirler. Bu, Morpho Midnight'ın ilk kurumsal ölçekli dağıtımını ve değişken zincir üstü borç verme oranlarından sapmayı işaret ediyor.",
+          "coins": "Bitcoin, USDC",
+          "timeUTC": "Sept 23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379091/borrow-against-bitcoin-fixed-rate-coinbase-morpho"
+        },
+        {
+          "headline": "Kanada'nın altı büyük bankası, ödemeler için tokenize edilmiş depozito sistemi konusunda müştereken çalışıyor",
+          "what": "RBC, TD, BMO, Scotiabank, CIBC ve National Bank, paylaşılan bir Kanada doları tokenize edilmiş depozito ağı kurmak için işbirlikçi bir proje duyurdular. Birinci faz bankalar arası transferlere odaklanıyor; fiat giriş/çıkışları daha sonra gelir.",
+          "coins": "CAD-based stablecoin/tokenized deposits",
+          "timeUTC": "Sept 23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379081/canada-six-biggest-banks-shared-digital-dollar-network"
+        },
+        {
+          "headline": "NYSE ve Blockchain.com, tokenize edilmiş ABD hisse senedi ticaret platformu planlıyor",
+          "what": "New York Borsası ve Blockchain.com, tokenize edilmiş ABD hisse senetleri ve ETF'ler için bir dijital varlık ticaret platformunu keşfetmek üzere bir anlaşma imzaladılar ve düzenleyici onay bekliyorlar. Bu hamle Wall Street'in zincir üstü ticarete dönüşünü hızlandırıyor.",
+          "coins": "Tokenized equities",
+          "timeUTC": "Sept 23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users"
+        },
+        {
+          "headline": "MoonPay, $60 milyon tamamen hisse senedi anlaşmasında SEC'e kayıtlı North Capital'i satın aldı",
+          "what": "MoonPay, tokenize edilmiş gerçek dünya varlıkları (RWA) hırsını hızlandırmak için SEC'e kayıtlı bir komisyoncu-satıcı olan North Capital'i satın aldı. CEO Ivan Soto-Wright, tokenize edilmiş varlıkların toplu benimsenmesini gerekçe gösterdi.",
+          "coins": "All (RWA-focused platform)",
+          "timeUTC": "Sept 23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "BAĞLAM: Kalshi $5 milyar Ethereum vadeli işlemleri dikkat çekti ancak resmi soruşturma yok (22 Eylül)",
+          "what": "Bugünkü açıklamadan ayrı olarak, Kalshi Ethereum vadeli işlemlerinde olağandışı ticaret kalıplarını açıkladı - yaklaşık $5 milyar benzer büyüklükte ticaret. Platform hacmi likidite teşvik programlarına atfetti ve CFTC'nin resmi olarak soruşturma açmadığını söyledi.",
+          "coins": "Ethereum",
+          "timeUTC": "Sept 22–23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-says-cftc-hasnt-contacted-it-over-unusual-5b-trading-activity"
+        },
+        {
+          "headline": "BlackRock, $5 trilyon yapay zeka odaklı stabilcoin pazarının ortaya çıktığını görüyor",
+          "what": "BlackRock araştırması, özerk yapay zeka sistemlerinin yeni bir stabilcoin müşteri sınıfı yaratabileceğini gösteriyor - insan onayı olmadan sürekli harcayan makineler. Varlık yöneticisi, bu yapay zeka ile yapay zeka ticaretinin çok trilyon dolarlık bir fırsatın kilidini açabileceğini tahmin ediyor.",
+          "coins": "Stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/blackrock-sees-a-new-5-trillion-ai-trade-emerging-for-stablecoins/"
+        },
+        {
+          "headline": "Visa araştırması: stabilcoin benimseme niyeti, banka seviyesi korumalarla %56'ya fırladı",
+          "what": "Visa anketi, FDIC benzeri mevduat sigortası taşırlarsa ABD'de stabilcoinler için benimseme niyetinin %36'dan %56'ya yükseldiğini buldu. Bulgu, GENIUS Yasası öncesinde düzenleyici açıklık ve tüketici korumaları talebini işaret ediyor.",
+          "coins": "Stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136"
         }
       ]
     }
   },
   "etfFlows": {
-    "date": "2026-09-22 to 2026-09-23",
-    "summary": "Bitcoin spot ETF'leri iki gün içinde yaklaşık 1,7 milyar dolar çekerek (son bir yıldan en iyi sonuç), 22 Eylül'de kabaca 715 milyon dolar ile başladı. Ethereum spot ETF'leri aynı dönemde 162,2 milyon dolar net giriş kaydetti ve BlackRock'ın ETHA 88,1 milyon dolar ile lider konumdaydı. Her ikisi de kripto fiyatları düşmesine rağmen güçlü kurumsal talep gösterdi.",
-    "source": "Farside Investors / The Coin Republic",
-    "url": "https://farside.co.uk/btc/"
+    "date": "2026-09-23",
+    "summary": "Bitcoin spot ETF'leri Hazine verimi artışı ve fiyat kırılması bazı yatırımcıları korkuttuğu için $104 milyon net çıkış gördü. Ethereum spot ETF'leri geniş pazarın satış baskısına rağmen $162,2 milyon giriş ile trendi kırdı ve ardışık üçüncü net satın alma günü kaydetti.",
+    "source": "SoSoValue",
+    "url": "https://sosovalue.com/assets/etf/us-btc-spot"
   },
   "calendarNotes": [
     {
-      "event": "Swiss National Bank Rate Decision – Thu Sept 24, 07:30 UTC",
-      "typicalReaction": "Merkez bankası faiz kararları tahvil piyasası hareketlerini ve para biriminin dalgalanmasını yönlendiriyor. Sürpriz bir karar, 23 Eylül'de devam eden getiri baskısını şiddetlendirebilir."
+      "event": "SNB and Riksbank rate decisions (Sept 24, 07:30 UTC), Norges Bank rate decision (Sept 24, 08:00 UTC)",
+      "typicalReaction": "Avrupa merkez bankası kararları riskli varlıklar için iştahı değiştirebilir; şahin sürprizleri verim rallyisini uzatabilir ve kripto'ya zarar verebilir."
     },
     {
-      "event": "U.S. Initial Jobless Claims – Thu Sept 24, 12:30 UTC",
-      "typicalReaction": "İşgücü piyasası verileri doğrudan Fed beklentilerini ve tahvil getirilerini etkiliyor. Daha zayıf talep 23 Eylül'ün güçlü istihdam verilerinin yarattığı baskının bir kısmını hafifletebilir."
+      "event": "US Initial Jobless Claims (Sept 24, 12:30 UTC)",
+      "typicalReaction": "Yüksek talepler (işten çıkarmalar) Fed faiz artışı oranlarını hafifletirdi; düşük talepler işgücü piyasası gücünü güçlendirir ve daha yüksek Hazine verimlerini destekler."
     },
     {
-      "event": "Riksbank and Norges Bank Rate Decisions – Thu Sept 24, 07:30–08:00 UTC",
-      "typicalReaction": "İsveç ve Norveç merkez bankaları kararları Avrupa tahvil getirilerini ve küresel risk duyarlılığını etkileyebiliyor."
+      "event": "RBA rate decision (Sept 29, 04:30 UTC)",
+      "typicalReaction": "Avustralya merkez bankası hareketi küresel risk duyarlılığını ve emtia/döviz akışlarını etkileyebilir."
+    },
+    {
+      "event": "US Non-Farm Payrolls (Oct 2, 12:30 UTC) — high impact",
+      "typicalReaction": "Büyük işgücü raporu; güçlü istihdam faiz artışı bahislerini hızlandırabilir ve verim rallyisini uzatabilir ve kripto'ya baskı yapabilir."
     }
   ],
   "glossary": [
     {
-      "term": "Tahvil getirisi",
-      "definition": "Bir tahvil yatırımcısının aldığı yıllık faiz yüzdesi. Tahvil getirileği arttığında, tahviller kripto gibi diğer yatırımlardan daha çekici hale gelir ve sık sık sermaye rotasyonunu tetikler."
+      "term": "Baz puan",
+      "definition": "Yüzde 1'in 1/100'üne eşit bir birim. 10 yıllık Hazine verimi 18 baz puan yükseldiğinde, yüzde puan olarak 0,18 puan yükseldi (örneğin %4,92'den %5,10'a)."
+    },
+    {
+      "term": "ETF (Borsa Yatırım Fonu)",
+      "definition": "Bir hisse senedi gibi bir borsada işlem gören bir fon. Bitcoin ve Ethereum spot ETF'leri bu madenlerin fiyatını izler ve yatırımcıların gerçek madenlere sahip olmadan maruziyeti satın almalarını sağlar."
+    },
+    {
+      "term": "ETF giriş / çıkış",
+      "definition": "Giriş = bir ETF'ye net satın alma; çıkış = net satış. Pozitif giriş daha fazla kişinin satın aldığı anlamına gelir; negatif çıkış daha fazla satıldığı anlamına gelir."
     },
     {
       "term": "Finansman oranı",
-      "definition": "Kalıcı vadeli işlem sözleşmelerinde uzun pozisyon sahibi tüccarların kısa pozisyon sahibi tüccarlara ödediği faiz. Pazar duyarlılığının daha çok boğa mı ayı mı olduğunu yansıtır."
+      "definition": "Fiyat artışına bahis yapan tüccarlar tarafından fiyat düşüşüne bahis yapan tüccarlara ödenen faiz veya tam tersi. Pozitif finansman yükselişçilerin düşüşçüleri ödediği anlamına gelir ve güçlü yükselişçi duyarlılığını işaret eder. Ana borsalarda her 8 saatte bir ödenir."
     },
     {
-      "term": "Uzun/kısa pozisyon oranı",
-      "definition": "Fiyatın yükseleceğine bahis yapan (uzun) tüccarlar ile fiyatın düşeceğine bahis yapan (kısa) tüccarlar arasındaki oran. Daha yüksek oran piyasada daha boğa duyarlılığını gösterir."
+      "term": "Tasfiye",
+      "definition": "Fiyat karsıya gidip marj tükendiğinde kaldıraçlı bir pozisyonun zorla otomatik satışı. Örnek: Bitcoin'in yükselmesine bahis yapmak için borç para alan bir tüccar, fiyat çok hızlı düşerse satmaya zorlanır."
+    },
+    {
+      "term": "Uzun / uzun pozisyon",
+      "definition": "Fiyatın yükseleceğine dair bir bahis. Kısa (fiyatın düşeceğine dair bir bahis) ile zıt."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Yükselişçi (uzun) pozisyonlarının düşüşçü (kısa) pozisyonlara oranı. 1.16:1 oranı düşüşçü olanlardan %16 daha fazla yükselişçi bahis anlamına gelir."
     },
     {
       "term": "İşaret fiyatı",
-      "definition": "Kalıcı vadeli işlemlerde kar ve zararları hesaplamak için kullanılan referans fiyat. Genellikle spot fiyatlardan türetilir ve fiyat manipülasyonunu önlemek için."
+      "definition": "Vadeli işlem ve kalıcılar üzerinde kazanç/kayıp ve marj gereksinimlerini hesaplamak için kullanılan fiyat. Manipülasyonu önlemek için spot fiyatını yakından izler."
     },
     {
-      "term": "Açık pozisyon",
-      "definition": "Herhangi bir anda tüccarlar tarafından tutulan bitmeyen vadeli işlem veya opsiyon sözleşmelerinin toplam sayısı. Daha yüksek açık pozisyon genellikle bir fiyat yönü hakkında daha fazla kanaati gösterir."
+      "term": "Açık faiz",
+      "definition": "Bir borsadaki açık (kapatılmamış) sözleşmelerin toplam sayısı. Açık faiz düştüğünde pozisyonlar kapatılıyor; yükseldiğinde yeni pozisyonlar açılıyor."
     },
     {
-      "term": "Açık pozisyon değişimi",
-      "definition": "Belirli bir zaman diliminde toplam açık sözleşme sayısının ne kadar arttığı veya azaldığı. Artan açık pozisyon sık sık piyasaya yeni paranın girdiğini gösterirken, azalan açık pozisyon tüccarların pozisyonlarını kapatıyor olduğunu gösterir."
+      "term": "Açık faiz değişimi",
+      "definition": "Toplam açık pozisyonlardaki günlük yüzde kazanç veya kayıp. Negatif değişim (örneğin −%9,6) tüccarların pozisyonları net kapattığı anlamına gelir; pozitif değişim açtıkları anlamına gelir."
     },
     {
-      "term": "Kâr realizasyonu",
-      "definition": "Tüccarlar kazanç sağlayan pozisyonları kapatıp satarken kâr elde ederler. Büyük kâr realizasyonu dalgaları, duygusallık olumlu kalsa bile fiyatları düşürebilir."
+      "term": "Kalıcı (perp) / vadeli işlem",
+      "definition": "Tüccarların temel madeni paraya sahip olmadan fiyat hareketlerine bahis yapmasını sağlayan sözleşmeler. Kalıcılar asla sona ermez; vadeli işlem belirlenen bir tarihte sona erer. Her ikisi de kaldıraç (borç para) kullanır."
     },
     {
-      "term": "Risk-kaçış rotasyonu",
-      "definition": "Yatırımcılar paralarını riskli yatırımlardan (kripto ve teknoloji hisse senetleri gibi) daha güvenli, istikrarlı olanlara (devlet tahvilleri gibi) kaydırdıklarında. Piyasa belirsizliği veya değişen ekonomik koşullar sebebi olur."
+      "term": "PMI (Satın Alma Müdürleri Endeksi)",
+      "definition": "İmalat ve hizmetlerde iş aktivitesinin anket temelli bir ölçüsü. 50'nin üzerindeki okumalar genişlemeyi işaret eder; 58,7 (hizmetler) çok güçlü ve tipik olarak daha yüksek faiz oranları korkusunu tetikler."
     },
     {
-      "term": "İşlem hacmi",
-      "definition": "Belirli bir dönem içinde bir borsada işlem gören varlığın toplam miktarı, dolar veya coin cinsinden ölçülür. Daha yüksek hacim genellikle daha iyi likiditeyi ve tüccar ilgisini gösterir."
+      "term": "Hazine / 10 yıllık Hazine",
+      "definition": "ABD hükümetine verdiğiniz bir kredi; 10 yıllık versiyonu 10 yıl boyunca sizin için faiz öder. Verim faiz oranıdır. Hazine verimleri yükseldiğinde, tahviller Bitcoin gibi daha riskli varlıklara kıyasla cazip hale gelir."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Belirli bir dönemde işlem gören toplam dolar tutarı (veya madeni para tutarı). Yüksek hacim = birçok işlem; düşük hacim = birkaç işlem. Bir borsanın veya pazarın ne kadar aktivite yapması gerektiğini ölçmeye yardımcı olur."
     }
   ],
   "_source": "cli-tr"

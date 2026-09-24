@@ -1,111 +1,268 @@
 {
-  "oneLine": "Strong U.S. economic data sent bond yields to 19-year highs on September 23, triggering profit-taking in Bitcoin (down 2.1%) and Ethereum (down 2.5%) as investors rotated capital into bonds.",
-  "caveman": "On September 23, economists released news that America's job market and business activity were growing faster than expected. Normally crypto traders like good economic news, but this time it worked against them. Here's why: when the economy is strong, the government can offer higher interest rates on bonds—the super-safe investment that big money uses. The rate on 10-year U.S. bonds jumped to its highest level since 2007. So money managers thought: 'Why take the risk of owning Bitcoin and Ethereum when I can buy bonds and get really good interest?' They started selling crypto and buying bonds. That's why Bitcoin dropped about 2% and Ethereum dropped about 2.5% during the day. The stock market also fell. But something interesting happened: even though prices were dropping, huge investment funds kept buying Bitcoin—they put in about $1.7 billion over two days. So the day felt mixed: prices falling, but smart money still buying.",
-  "priceVolumeSummary": "All five major exchanges (Binance, OKX, Bybit, Bitget, Gate) reported nearly identical prices for both Bitcoin and Ethereum throughout the day, showing strong agreement across venues. Binance led trading volume, with $17.8 billion in BTC volume and $11.9 billion in ETH volume, followed by OKX.",
-  "positioningSummary": "Historical funding rates and open-interest data are unavailable for this date. However, spot Bitcoin ETFs attracted approximately $1.7 billion in net inflows over September 22–23 despite the price decline, suggesting institutional traders remained confident in the underlying assets even as short-term traders took profits on the bond-yield shock.",
-  "stocksSummary": "",
+  "oneLine": "Bitcoin and Ethereum fell 2.1–2.5% on Sept 23 after US Treasury yields spiked to a 19-year high on strong economic data, triggering $280 million in liquidations and closing BitMEX permanently at 04:00 UTC.",
+  "caveman": "Bitcoin and Ethereum both dropped about 2% on September 23 because the US economy looked stronger than everyone expected. When the US government's borrowing costs go up (the 10-year Treasury yield jumped to 5.1%), people move money away from Bitcoin to earn that higher interest. A big Bitcoin trading platform called BitMEX also shut down completely at 04:00 UTC that day—it had been running for 11 years. A lot of people who had borrowed money to bet on higher prices got forced to sell (we call this liquidation), which pushed prices down further. The overall feeling in the market stayed calm ('Greed'), but it was still a worrying day because of all the selling.",
+  "priceVolumeSummary": "All five major exchanges—Binance, OKX, Bybit, Bitget, and Gate—quoted Bitcoin within $2 of $84,210, showing strong price agreement. Binance dominated volume at $17.8 billion, far ahead of OKX ($8.4B) and Gate ($7.8B).",
+  "positioningSummary": "Traders paid positive interest (4–10.95% annualized) betting on price gains, but open interest shrank 2–9.6% as positions closed. Long-to-short ratios stayed bullish (Bitcoin 1.16:1 on Binance, Ethereum 2.78:1), yet liquidations hit $280 million in Bitcoin longs as the price break below $84,000 squeezed leveraged bulls.",
+  "stocksSummary": "Asian markets fell on Sept 23 as Treasury yields soared: Korea's KOSPI down 1.75%, Hong Kong's Zhipu AI down 10.9%, China's CXMT down 2.5%. US equities declined in lockstep (S&P 500 −0.72%, Nasdaq −1.10%). Gold gained +0.12% as investors sought safe havens.",
   "movers": [
     {
-      "symbol": "BTC",
-      "explanation": "Down 2.1% as the 10-year U.S. Treasury yield surged over 13 basis points to 5.1% (highest since 2007) following upbeat S&P Global economic data showing business activity, manufacturing, and employment all accelerating at their fastest pace in years. Investors rotated out of risky assets like crypto into higher-yielding bonds.",
-      "hasCause": true
+      "symbol": "NIL",
+      "explanation": "Rose 53.86% from $0.0815 to $0.13497 on $329 million volume.",
+      "hasCause": false
     },
     {
-      "symbol": "ETH",
-      "explanation": "Down 2.5%, tracking Bitcoin in a broad risk-off rotation driven by rising bond yields. Spot Ethereum ETFs still recorded $162.2 million in net inflows, showing institutional support despite the price pullback.",
-      "hasCause": true
+      "symbol": "NOM",
+      "explanation": "Gained 13.22% (day: intraday movement shows volatility but no clear catalyst).",
+      "hasCause": false
+    },
+    {
+      "symbol": "MUBARAK",
+      "explanation": "Fell 32.80% from $0.0873 to $0.05335 on $444 million volume.",
+      "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "U.S. bond yields spike to 19-year highs on strong economic data, triggering crypto selloff",
-        "what": "The 10-year U.S. Treasury yield jumped over 13 basis points to 5.1%, the highest since 2007, after S&P Global reported business activity accelerating at its fastest pace since July 2021, with employment rising at its fastest pace since 2022. The surge in bond yields triggered a broad risk-off rotation, with capital flowing out of Bitcoin, Ethereum, and risky stocks into safer bonds. The Nasdaq fell 1.1% and the S&P 500 fell 0.75%.",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-23 morning UTC",
-        "source": "CNBC",
+        "headline": "BitMEX ends 11-year run with permanent trading shutdown",
+        "what": "BitMEX, the pioneer exchange that introduced 100x leverage, ceased all trading at 04:00 UTC Sept 23 and is winding down. Positions were force-closed automatically. Users must withdraw remaining funds; fees now apply to balances left on the platform.",
+        "coins": "All (platform closure)",
+        "timeUTC": "04:00 Sept 23",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379089/crypto-exchange-that-invented-100x-leverage-is-no-more-heres-what-bitmex-users-need-to-know"
+      },
+      {
+        "headline": "US Treasury yield surges to 5.1%, highest since 2007, on strong PMI data",
+        "what": "The 10-year Treasury yield spiked 18 basis points on Sept 23 after Purchasing Managers Index (PMI) reports showed unexpected economic strength: Services PMI 58.7 (best in 5 years), Manufacturing PMI 56.7 (best in 4 years). The move flushed leveraged positions across crypto and stocks.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "Throughout Sept 23 (yields peaked mid-day US Eastern)",
+        "source": "CNBC, Wolf Street",
         "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+      },
+      {
+        "headline": "Bitcoin long liquidations hit $280 million as price dips below $84,000",
+        "what": "As the 10-year Treasury yield spiked, Bitcoin fell below $84,000 and triggered cascade liquidations of leveraged long positions. Cointelegraph reported $280 million in BTC long closures as the price break forced automated sell-offs.",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 23, intraday (timestamps 17:51–18:51 UTC range in sources)",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k"
       }
     ],
     "groups": {
-      "Traditional markets": [
+      "Exchange and platform changes": [
         {
-          "headline": "Treasury yields surge to 19-year highs amid robust economic data and rising oil prices",
-          "what": "The 10-year Treasury yield hit 5.1%, the highest since 2007. S&P Global data showed private-sector business activity expanding at its fastest pace since July 2021, with both manufacturing and services sectors accelerating and employment rising at its fastest pace since 2022. Oil prices also jumped above $103 per barrel, amplifying the yield-driven rotation out of risky assets.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-23 morning UTC",
-          "source": "CNN Business",
-          "url": "https://www.cnn.com/2026/09/23/investing/us-bond-market-fed"
+          "headline": "Kalshi prediction market says CFTC has not contacted it over $5B trading activity",
+          "what": "Kalshi responded to scrutiny over unusual Ether perpetual trades valued at nearly $5 billion, saying the CFTC has not contacted it and attributing the activity to its liquidity incentive programs. The platform rejected wash-trading allegations.",
+          "coins": "Ethereum (perps on Kalshi)",
+          "timeUTC": "Sept 23, 12:38 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity"
+        },
+        {
+          "headline": "Hut 8 wins $140 million bid for Poolin's Texas Bitcoin mining data centers",
+          "what": "Hut 8 acquired Poolin's two Texas locations in a competitive bid, expanding its data-center footprint for both Bitcoin mining and AI compute. The deal underscores institutional focus on infrastructure as mining profitability shifts.",
+          "coins": "Bitcoin (mining)",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-23-hut-8-wins-bidding-poolin-texas-data-centers-140-million-offer-416190"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Spot Bitcoin ETFs pull in $1.7 billion over two days despite price decline",
-          "what": "Spot Bitcoin ETFs attracted approximately $715 million on September 22 and significant additional inflows on September 23, for a two-day total exceeding $1.7 billion—the strongest two-day performance in over a year. BlackRock's IBIT remained the largest U.S. spot Bitcoin fund with $67.9 billion in assets. Ethereum spot ETFs posted $162.2 million in net inflows with BlackRock's ETHA leading at $88.1 million.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-22 to 2026-09-23",
-          "source": "The Coin Republic / Farside Investors",
-          "url": "https://www.thecoinrepublic.com/2026/09/23/bitcoin-etf-inflows-hit-1-7b-as-btc-price-stays-over-86000/"
+          "headline": "Bitcoin ETFs net $104M outflow; Ethereum nets $162M inflow on Sept 23",
+          "what": "US spot Bitcoin ETFs saw a rare $104 million net outflow on Sept 23, as the Treasury yield spike and price break spooked some investors. Ethereum ETFs bucked the trend with $162.2 million inflow—their third straight day of net buying.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "Sept 23 (US Eastern, reported by SoSoValue)",
+          "source": "SoSoValue",
+          "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+        },
+        {
+          "headline": "Bitcoin and Ethereum options worth $15.6–$18 billion expire Friday; call-heavy book",
+          "what": "Nearly $18 billion in combined Bitcoin and Ethereum options expiring Sept 25 (Friday) create potential dealer hedging flows and volatility. Deribit's data shows a call-heavy book, with positions stacked at multiple strikes.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "Expiry Sept 25, 08:00 UTC",
+          "source": "CoinDesk, Decrypt",
+          "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Nearly $20 million in XRP stolen from 6,678 wallets across six attack waves",
+          "what": "XRPL.to documented six separate compromise waves draining almost $20 million in XRP from thousands of wallets through Sept 20. DCENT (wallet maker) advised users to replace exposed recovery phrases immediately, even on hardware wallets.",
+          "coins": "XRP",
+          "timeUTC": "Six waves through Sept 20",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nearly-20-million-in-xrp-drained-from-6678-wallets-across-six-attack-waves/"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "SEC Commissioner Uyeda: agency dropped crypto cases to avoid credibility issues in court",
+          "what": "Former SEC acting chair Mark Uyeda disclosed that the SEC dropped many cases against crypto companies in early 2025 to sidestep potential court defeats that could damage the agency's credibility. The admission signals a policy shift toward lighter enforcement.",
+          "coins": "Crypto industry",
+          "timeUTC": "Sept 23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases"
+        },
+        {
+          "headline": "Senate Banking Committee Democrats call for public hearing on prediction markets",
+          "what": "All Democrats on the Senate Banking Committee urged Chair Tim Scott to hold a congressional hearing on prediction markets, amid separate Republican private meetings with Kalshi. The move signals Democratic interest in regulatory oversight of the sector.",
+          "coins": "Prediction markets",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-23-senate-banking-democrats-prediction-markets-hearing-kalshi-416193"
+        }
+      ],
+      "Product launches and partnerships": [
+        {
+          "headline": "Circle launches 24/7 stablecoin FX trading engine for USDC and other pairs",
+          "what": "Circle introduced a fully-automated foreign-exchange engine for stablecoins, offering 24/7 settlement of supported pairs (e.g. USDC, EUROC). Screened firms can participate; local fiat access and custody require separate arrangements.",
+          "coins": "USDC, stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circle-launches-24-7-stablecoin-fx-engine-as-it-chases-a-slice-of-the-10-trillion-currency-market/"
+        },
+        {
+          "headline": "Coinbase expands Morpho Protocol integration: fixed-rate Bitcoin loans now live",
+          "what": "Coinbase users can now borrow USDC against Bitcoin at a locked-in rate and repayment date via Morpho Midnight. This marks the first enterprise-scale deployment of Morpho Midnight and a shift from volatile on-chain lending rates.",
+          "coins": "Bitcoin, USDC",
+          "timeUTC": "Sept 23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379091/borrow-against-bitcoin-fixed-rate-coinbase-morpho"
+        },
+        {
+          "headline": "Canada's big six banks jointly explore tokenized-deposit system for settlements",
+          "what": "RBC, TD, BMO, Scotiabank, CIBC, and National Bank announced a collaborative project to build a shared Canadian-dollar tokenized-deposit network. Phase one focuses on interbank transfers; fiat on/off-ramps follow later.",
+          "coins": "CAD-based stablecoin/tokenized deposits",
+          "timeUTC": "Sept 23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379081/canada-six-biggest-banks-shared-digital-dollar-network"
+        },
+        {
+          "headline": "NYSE and Blockchain.com plan tokenized US stock trading platform",
+          "what": "The New York Stock Exchange and Blockchain.com signed an agreement to explore a digital-asset trading platform for tokenized US stocks and ETFs, pending regulatory approval. The move accelerates Wall Street's pivot to on-chain trading.",
+          "coins": "Tokenized equities",
+          "timeUTC": "Sept 23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users"
+        },
+        {
+          "headline": "MoonPay acquires SEC-registered North Capital in $60 million all-stock deal",
+          "what": "MoonPay bought North Capital, an SEC-registered broker-dealer, to accelerate its tokenized real-world assets (RWA) ambitions. CEO Ivan Soto-Wright cited mass adoption of tokenized assets as the rationale.",
+          "coins": "All (RWA-focused platform)",
+          "timeUTC": "Sept 23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "CONTEXT: Kalshi $5 billion in Ether perps drew attention but no formal investigation (Sept 22)",
+          "what": "Separately from today's statement, Kalshi disclosed unusual trading patterns in its Ether perpetuals—nearly $5 billion in similarly-sized trades. The platform attributed the volume to liquidity incentive programs and said the CFTC has not formally opened an investigation.",
+          "coins": "Ethereum",
+          "timeUTC": "Sept 22–23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-says-cftc-hasnt-contacted-it-over-unusual-5b-trading-activity"
+        },
+        {
+          "headline": "BlackRock sees $5 trillion AI-driven stablecoin market emerging",
+          "what": "BlackRock research suggests autonomous AI systems could create a new class of stablecoin customers—machines that spend continuously without human approval. The asset manager anticipates this AI-to-AI commerce could unlock a multi-trillion-dollar opportunity.",
+          "coins": "Stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/blackrock-sees-a-new-5-trillion-ai-trade-emerging-for-stablecoins/"
+        },
+        {
+          "headline": "Visa study: stablecoin adoption intent jumps to 56% with bank-level protections",
+          "what": "A Visa survey found US adoption intent for stablecoins rises from 36% to 56% if they carry FDIC-like deposit insurance. The finding signals demand for regulatory clarity and consumer protections ahead of the GENIUS Act.",
+          "coins": "Stablecoins",
+          "timeUTC": "Sept 23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136"
         }
       ]
     }
   },
   "etfFlows": {
-    "date": "2026-09-22 to 2026-09-23",
-    "summary": "Bitcoin spot ETFs attracted approximately $1.7 billion over two days (best haul in over a year), with roughly $715 million on September 22. Ethereum spot ETFs posted $162.2 million in net inflows on the same period, led by BlackRock's ETHA with $88.1 million. Both showed strong institutional demand despite crypto prices falling.",
-    "source": "Farside Investors / The Coin Republic",
-    "url": "https://farside.co.uk/btc/"
+    "date": "2026-09-23",
+    "summary": "Bitcoin spot ETFs saw $104 million in net outflows as the Treasury yield spike and price break spooked some investors. Ethereum spot ETFs bucked the trend with $162.2 million in inflows, marking the third consecutive day of net buying despite the broader market sell-off.",
+    "source": "SoSoValue",
+    "url": "https://sosovalue.com/assets/etf/us-btc-spot"
   },
   "calendarNotes": [
     {
-      "event": "Swiss National Bank Rate Decision – Thu Sept 24, 07:30 UTC",
-      "typicalReaction": "Central bank rate decisions drive bond-market moves and currency volatility. A surprise could amplify the yield-driven pressure already underway."
+      "event": "SNB and Riksbank rate decisions (Sept 24, 07:30 UTC), Norges Bank rate decision (Sept 24, 08:00 UTC)",
+      "typicalReaction": "European central-bank decisions can shift appetite for risk assets; hawkish surprises may extend the yield rally and hurt crypto."
     },
     {
-      "event": "U.S. Initial Jobless Claims – Thu Sept 24, 12:30 UTC",
-      "typicalReaction": "Labor-market data directly influences Fed expectations and bond yields. Weaker claims could ease some of the pressure from September 23's strong employment figures."
+      "event": "US Initial Jobless Claims (Sept 24, 12:30 UTC)",
+      "typicalReaction": "High claims (layoffs) would ease Fed rate-hike odds; low claims would reinforce labor-market strength and support higher Treasury yields."
     },
     {
-      "event": "Riksbank and Norges Bank Rate Decisions – Thu Sept 24, 07:30–08:00 UTC",
-      "typicalReaction": "Decisions by Swedish and Norwegian central banks can move European bond yields and influence global risk sentiment."
+      "event": "RBA rate decision (Sept 29, 04:30 UTC)",
+      "typicalReaction": "Australian central-bank move could influence global risk sentiment and commodity/currency flows."
+    },
+    {
+      "event": "US Non-Farm Payrolls (Oct 2, 12:30 UTC) — high impact",
+      "typicalReaction": "Major jobs report; strong employment could accelerate rate-hike bets and extend the yield rally, pressuring crypto."
     }
   ],
   "glossary": [
     {
-      "term": "Bond yield",
-      "definition": "The annual percentage of interest a bond investor receives. When bond yields rise, bonds become more attractive than other investments like crypto, often triggering capital rotation."
+      "term": "Basis points",
+      "definition": "A unit equal to 1/100th of 1 percent. When the 10-year Treasury yield rose 18 basis points, it rose 0.18 percentage points (e.g., from 4.92% to 5.10%)."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "A fund that trades on an exchange like a stock. Bitcoin and Ethereum spot ETFs track the price of those coins and let investors buy exposure without owning the actual coins."
+    },
+    {
+      "term": "ETF inflow / outflow",
+      "definition": "Inflow = net buying into an ETF; outflow = net selling. Positive inflow means more people bought than sold; negative outflow means more sold than bought."
     },
     {
       "term": "Funding rate",
-      "definition": "The interest traders with long positions pay to traders with short positions in perpetual futures contracts. It reflects whether the market sentiment is more bullish or bearish."
+      "definition": "Interest paid by traders betting on price increases to traders betting on price decreases, or vice versa. Positive funding means bulls are paying bears, signaling strong bullish sentiment. Paid every 8 hours on major exchanges."
     },
     {
-      "term": "Long/short ratio",
-      "definition": "The proportion of traders betting the price will go up (long) versus traders betting it will go down (short). A higher ratio means more bullish sentiment in the market."
+      "term": "Liquidation",
+      "definition": "Forced automatic sale of a leveraged position when the price moves against it and the margin runs out. Example: a trader who borrowed money to bet on Bitcoin rising gets forced to sell if the price falls too fast."
+    },
+    {
+      "term": "Long / long position",
+      "definition": "A bet that the price will go up. Opposite of short (a bet that price will go down)."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The ratio of bullish (long) positions to bearish (short) positions. A ratio of 1.16:1 means 16% more bullish bets than bearish ones."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price used to calculate profits and losses on perpetual futures, often derived from spot prices to prevent price manipulation."
+      "definition": "The price used to calculate gains/losses and margin requirements on futures and perpetuals. It tracks the spot price closely to prevent manipulation."
     },
     {
       "term": "Open interest",
-      "definition": "The total number of unfinished futures or options contracts held by traders at any moment. Higher open interest typically indicates more conviction about a price direction."
+      "definition": "The total number of open (unsettled) contracts on an exchange. When open interest falls, it means positions are being closed; when it rises, new positions are being opened."
     },
     {
       "term": "Open-interest change",
-      "definition": "How much the total number of open contracts increased or decreased over a time period. Growing open interest often means new money entering the market, while shrinking open interest means traders are closing positions."
+      "definition": "The day's percentage gain or loss in total open positions. Negative change (e.g., −9.6%) means traders closed positions net; positive change means they opened them."
     },
     {
-      "term": "Profit-taking",
-      "definition": "When traders close winning positions and sell, locking in gains. Large waves of profit-taking can push prices lower even when sentiment remains positive."
+      "term": "Perpetual (perp) / futures",
+      "definition": "Contracts that let traders bet on price movements without owning the underlying coin. Perpetuals never expire; futures expire on a set date. Both use leverage (borrowed money)."
     },
     {
-      "term": "Risk-off rotation",
-      "definition": "When investors move money from riskier investments (like crypto and tech stocks) into safer, more stable ones (like government bonds) due to market uncertainty or changing economic conditions."
+      "term": "PMI (Purchasing Managers Index)",
+      "definition": "A survey-based measure of business activity in manufacturing and services. Readings above 50 signal expansion; 58.7 (services) is very strong and typically triggers fears of higher interest rates."
+    },
+    {
+      "term": "Treasury / 10-year Treasury",
+      "definition": "A loan you make to the US government; the 10-year version pays you interest for 10 years. The yield is the interest rate. When Treasury yields rise, it makes bonds attractive relative to riskier assets like Bitcoin."
     },
     {
       "term": "Volume",
-      "definition": "The total amount of an asset traded on an exchange over a time period, measured in dollars or coins. Higher volume typically means more liquidity and stronger trader interest."
+      "definition": "The total dollar amount (or coin amount) traded in a given period. High volume = many trades; low volume = few trades. Helps measure how much activity an exchange or market had."
     }
   ],
   "_source": "cli"
