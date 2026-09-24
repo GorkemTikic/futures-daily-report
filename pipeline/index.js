@@ -97,7 +97,7 @@ async function main() {
   const args = process.argv.slice(2);
   const di = args.indexOf("--date");
   const dateOverride = di >= 0 ? args[di + 1] : null;
-  const reuseSynthesis = args.includes("--reuse-synthesis");
+  let reuseSynthesis = args.includes("--reuse-synthesis");
   const scheduled = args.includes("--scheduled");
 
   // Scheduled model: the task fires hourly (DST-proof) and the pipeline decides whether
@@ -114,6 +114,14 @@ async function main() {
           console.log(`Report for ${win.dateUTC} already generated (status ok) — nothing to do.`);
           LOG_DATE = win.dateUTC; writeLog();
           process.exit(0);
+        }
+        // Degraded only because a translation is missing: keep the English (and any
+        // finished translation) and fill just the gap, instead of rewriting the day.
+        const reasons = Array.isArray(m.degradedReasons) ? m.degradedReasons : [];
+        const onlyTranslations = reasons.length > 0 && reasons.every((r) => /^[a-z]{2} report unavailable$/.test(r));
+        if (m.status === "degraded" && onlyTranslations && fs.existsSync(path.join(ROOT, "reports", win.dateUTC, "synthesis.auto.json"))) {
+          console.log(`Report for ${win.dateUTC} is missing ${reasons.map((r) => r.slice(0, 2)).join(", ")} — reusing the written English and filling only that.`);
+          reuseSynthesis = true;
         }
       }
     } catch { /* fall through and run normally */ }

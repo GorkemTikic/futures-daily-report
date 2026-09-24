@@ -310,6 +310,10 @@ Return ONLY the same JSON object, localised, no markdown, no code fences:
 ${JSON.stringify(content, null, 1)}`;
 }
 
+// Malformed-output failures worth another attempt (see resolveTranslation).
+const TRANSLATION_ATTEMPTS = 3;
+const OUTPUT_SHAPE_ERRORS = new Set(["invalid", "unbalanced", "no-object"]);
+
 export async function resolveTranslation(synthEn, lang, config, dayDir, opts = {}) {
   if (!LANG_NAME[lang]) return null;
   // manual override / legacy
@@ -331,15 +335,22 @@ export async function resolveTranslation(synthEn, lang, config, dayDir, opts = {
   const prompt = translatePrompt(content, lang);
   let lastErr;
   for (const backend of order) {
-    try {
-      const obj = await runBackend(backend, prompt, config, { useTools: false });
-      if (!obj.oneLine) throw new Error("translation missing oneLine");
-      try { fs.writeFileSync(path.join(dayDir, `synthesis.${lang}.auto.json`), JSON.stringify({ ...obj, _source: `${backend}-${lang}` }, null, 2), "utf8"); } catch {}
-      return { ...obj, _source: `${backend}-${lang}` };
-    } catch (err) {
-      lastErr = String(err.message || err).slice(0, 200);
-      console.warn(`  ${backend} ${lang} translation failed [${err.kind || "error"}] (${lastErr.slice(0, 140)})`);
+    // A malformed reply (e.g. an unescaped quote inside Chinese text) is a one-off
+    // of that generation, so ask again; auth / rate-limit errors are not retried.
+    for (let attempt = 1; attempt <= TRANSLATION_ATTEMPTS; attempt++) {
+      try {
+        const obj = await runBackend(backend, prompt, config, { useTools: false });
+        if (!obj.oneLine) { const e = new Error("translation missing oneLine"); e.kind = "invalid"; throw e; }
+        try { fs.writeFileSync(path.join(dayDir, `synthesis.${lang}.auto.json`), JSON.stringify({ ...obj, _source: `${backend}-${lang}` }, null, 2), "utf8"); } catch {}
+        return { ...obj, _source: `${backend}-${lang}` };
+      } catch (err) {
+        lastErr = String(err.message || err).slice(0, 200);
+        const retry = OUTPUT_SHAPE_ERRORS.has(err.kind) && attempt < TRANSLATION_ATTEMPTS;
+        console.warn(`  ${backend} ${lang} translation failed [${err.kind || "error"}] (${lastErr.slice(0, 140)})${retry ? " — asking again" : ""}`);
+        if (!retry) break;
+      }
     }
   }
   return null;
 }
+
