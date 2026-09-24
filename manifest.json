@@ -1,16 +1,57 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-23T23:07:53.472Z",
-  "count": 98,
+  "generatedAt": "2026-09-24T00:01:03.881Z",
+  "count": 99,
   "counts": {
-    "total": 98,
-    "market": 11,
+    "total": 99,
+    "market": 12,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 2
   },
-  "latest": "2026-09-22",
+  "latest": "2026-09-23",
   "head": 30,
   "reports": [
+    {
+      "date": "2026-09-23",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -2.1043310947326024,
+        "ETH": -2.5228491303526637
+      },
+      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "newsCount": 0,
+      "topMover": {
+        "symbol": "TAKEUSDT",
+        "chgPct": 57.20151092133355
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "narrative fell back to data-only (CLI-only backend)",
+        "tr report unavailable",
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-23/summary_2026-09-23.html",
+        "pdf": "reports/2026-09-23/summary_2026-09-23.pdf",
+        "md": "reports/2026-09-23/summary_2026-09-23.md"
+      }
+    },
     {
       "date": "2026-09-22",
       "kind": "market",
@@ -1830,72 +1871,6 @@
         "html": "reports/2026-08-25/summary_2026-08-25.html",
         "pdf": null,
         "md": "reports/2026-08-25/summary_2026-08-25.md"
-      }
-    },
-    {
-      "date": "2026-08-24",
-      "scanned": 528,
-      "movedBig": 6,
-      "dangerCount": 1,
-      "widest": {
-        "symbol": "VELVETUSDT",
-        "pct": "6.6%",
-        "time": "11:50"
-      },
-      "macro": {
-        "BTC": 1.6,
-        "ETH": 0.7,
-        "SOL": 3.7
-      },
-      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +1.6%, ETH +0.7%, SOL +3.7% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
-      "newsCount": 0,
-      "flagged": [
-        {
-          "symbol": "VELVETUSDT",
-          "label": "Brief price gap",
-          "headline": "VELVETUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "TUTUSDT",
-          "label": "Pumped then faded",
-          "headline": "TUTUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "PROMUSDT",
-          "label": "Steady climb",
-          "headline": "PROMUSDT climbed +25.9% steadily"
-        },
-        {
-          "symbol": "UAIUSDT",
-          "label": "Steady climb",
-          "headline": "UAIUSDT climbed +25.5% steadily"
-        },
-        {
-          "symbol": "TACUSDT",
-          "label": "Steady climb",
-          "headline": "TACUSDT climbed +35.4% steadily"
-        },
-        {
-          "symbol": "PORTALUSDT",
-          "label": "Steady climb",
-          "headline": "PORTALUSDT climbed +25.2% steadily"
-        },
-        {
-          "symbol": "BTRUSDT",
-          "label": "Pumped then faded",
-          "headline": "BTRUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "USTCUSDT",
-          "label": "Brief price gap",
-          "headline": "USTCUSDT had one brief price dislocation"
-        }
-      ],
-      "kind": "divergence",
-      "files": {
-        "html": "reports/2026-08-24/summary_2026-08-24.html",
-        "pdf": null,
-        "md": "reports/2026-08-24/summary_2026-08-24.md"
       }
     }
   ]

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-23",
+  "kind": "market",
+  "dateLong": "Wednesday, 23 September 2026",
+  "coversUTC": "2026-09-23 00:00–23:59 UTC",
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
+  "macro": {
+    "BTC": -2.1043310947326024,
+    "ETH": -2.5228491303526637
+  },
+  "topMover": {
+    "symbol": "TAKEUSDT",
+    "chgPct": 57.20151092133355
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "24 Sept 00:00 UTC",
+  "languages": [
+    "en"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
+  ]
+}
