@@ -6,13 +6,10 @@
   "oneLine": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
   "newsCount": 7,
   "macro": {
-    "BTC": -0.47527529007384955,
-    "ETH": -0.7889055872102825
+    "BTC": -0.48689731155538724,
+    "ETH": -0.7907389119951581
   },
-  "topMover": {
-    "symbol": "TAKEUSDT",
-    "chgPct": 2.767932489451481
-  },
+  "topMover": null,
   "venues": [
     "Binance",
     "Bybit",
@@ -20,13 +17,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "23 Sept 23:00 UTC",
+  "generatedAtUTC": "24 Sept 02:32 UTC",
   "languages": [
     "en",
-    "tr"
+    "tr",
+    "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "zh report unavailable"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }

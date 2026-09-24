@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-24T02:32:42.970Z",
+  "generatedAt": "2026-09-24T02:35:22.465Z",
   "count": 99,
   "counts": {
     "total": 99,
     "market": 12,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-09-23",
   "reports": [
@@ -54,16 +54,13 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -0.47527529007384955,
-        "ETH": -0.7889055872102825
+        "BTC": -0.48689731155538724,
+        "ETH": -0.7907389119951581
       },
       "marketSummary": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
       "oneLine": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
       "newsCount": 7,
-      "topMover": {
-        "symbol": "TAKEUSDT",
-        "chgPct": 2.767932489451481
-      },
+      "topMover": null,
       "venues": [
         "Binance",
         "Bybit",
@@ -73,12 +70,11 @@
       ],
       "languages": [
         "en",
-        "tr"
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-22/summary_2026-09-22.html",

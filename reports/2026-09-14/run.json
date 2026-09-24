@@ -1,43 +1,40 @@
 {
-  "runId": "2026-09-15T00:00:00.954Z",
-  "dateOverride": null,
-  "reuseSynthesis": false,
-  "startedAt": "2026-09-15T00:00:00.954Z",
-  "status": "degraded",
-  "finishedAt": "2026-09-15T00:09:43.322Z",
-  "durationSec": 582,
+  "runId": "2026-09-24T02:32:31.396Z",
+  "dateOverride": "2026-09-14",
+  "reuseSynthesis": true,
+  "startedAt": "2026-09-24T02:32:31.396Z",
+  "status": "ok",
+  "finishedAt": "2026-09-24T02:32:47.866Z",
+  "durationSec": 16,
   "date": "2026-09-14",
-  "live": true,
+  "live": false,
   "window": {
     "label": "2026-09-14 00:00 → 24:00 UTC",
     "startMs": 1789344000000,
     "endMs": 1789430399999,
-    "dayAligned": true,
+    "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "00:00 UTC"
+    "asOfUTC": "23:59 UTC"
   },
   "sources": {
     "exchanges": {
       "online": [
         "Binance",
         "Bybit",
-        "OKX",
         "Bitget",
         "Gate"
       ],
-      "count": 5,
+      "count": 4,
       "bySymbol": {
         "BTC": [
           "Binance",
           "Bybit",
-          "OKX",
           "Bitget",
           "Gate"
         ],
         "ETH": [
           "Binance",
           "Bybit",
-          "OKX",
           "Bitget",
           "Gate"
         ]
@@ -48,52 +45,56 @@
       "reason": null
     },
     "news": {
-      "ok": true,
-      "sourcesOnline": [
-        "CoinDesk",
-        "The Block",
-        "Cointelegraph",
-        "Decrypt",
-        "SEC",
-        "Federal Reserve",
-        "CFTC"
-      ],
+      "ok": false,
+      "sourcesOnline": [],
       "failed": [],
-      "count": 41,
-      "backfill": false
+      "count": 0,
+      "backfill": true
     },
     "tradfi": {
-      "ok": true,
-      "reason": null,
-      "requested": true,
-      "backfill": false
+      "ok": false,
+      "reason": "unavailable-for-backfill",
+      "requested": false,
+      "backfill": true
     },
     "stocks": {
-      "ok": true,
-      "reason": null
+      "ok": false,
+      "reason": "unavailable"
     },
-    "etfFlows": "pending-synthesis",
-    "backfill": null
+    "market": {
+      "ok": false,
+      "failed": []
+    },
+    "etfFlows": "unavailable-for-backfill",
+    "backfill": {
+      "unavailable": [
+        "funding",
+        "open interest",
+        "mark price",
+        "news",
+        "traditional markets"
+      ]
+    }
   },
   "synthesis": {
-    "source": "cli",
+    "source": "auto-cache",
     "fellBack": false,
-    "cliOnly": true,
+    "cliOnly": false,
     "errorKind": null
   },
   "languages": [
     "en",
-    "tr"
+    "tr",
+    "zh"
   ],
   "pdf": {
     "en": true,
-    "tr": true
+    "tr": true,
+    "zh": true
   },
   "publish": {
     "pushed": true,
     "branch": "main"
   },
-  "reasons": [
-    "zh report unavailable"
-  ]
+  "reasons": []
 }
