@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-24T00:01:03.881Z",
+  "generatedAt": "2026-09-24T01:00:29.140Z",
   "count": 99,
   "counts": {
     "total": 99,
@@ -18,15 +18,15 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -2.1043310947326024,
+        "BTC": -2.1071162900270246,
         "ETH": -2.5228491303526637
       },
       "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
       "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
       "newsCount": 0,
       "topMover": {
-        "symbol": "TAKEUSDT",
-        "chgPct": 57.20151092133355
+        "symbol": "NILUSDT",
+        "chgPct": 53.8649407742093
       },
       "venues": [
         "Binance",
