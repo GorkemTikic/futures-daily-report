@@ -3,16 +3,13 @@
   "kind": "market",
   "dateLong": "Wednesday, 23 September 2026",
   "coversUTC": "2026-09-23 00:00–23:59 UTC",
-  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-  "newsCount": 0,
+  "oneLine": "Strong U.S. economic data sent bond yields to 19-year highs on September 23, triggering profit-taking in Bitcoin (down 2.1%) and Ethereum (down 2.5%) as investors rotated capital into bonds.",
+  "newsCount": 3,
   "macro": {
-    "BTC": -2.1071162900270246,
-    "ETH": -2.5228491303526637
+    "BTC": -2.10391084403626,
+    "ETH": -2.512460583867353
   },
-  "topMover": {
-    "symbol": "NILUSDT",
-    "chgPct": 53.8649407742093
-  },
+  "topMover": null,
   "venues": [
     "Binance",
     "Bybit",
@@ -20,14 +17,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "24 Sept 02:00 UTC",
+  "generatedAtUTC": "24 Sept 02:23 UTC",
   "languages": [
-    "en"
+    "en",
+    "tr",
+    "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
-    "zh report unavailable"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }

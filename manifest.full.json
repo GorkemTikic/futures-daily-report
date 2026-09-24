@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-24T02:00:24.769Z",
+  "generatedAt": "2026-09-24T02:28:14.543Z",
   "count": 99,
   "counts": {
     "total": 99,
     "market": 12,
     "divergence": 87,
-    "degraded": 2
+    "degraded": 1
   },
   "latest": "2026-09-23",
   "reports": [
@@ -18,16 +18,13 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -2.1071162900270246,
-        "ETH": -2.5228491303526637
+        "BTC": -2.10391084403626,
+        "ETH": -2.512460583867353
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
-      "topMover": {
-        "symbol": "NILUSDT",
-        "chgPct": 53.8649407742093
-      },
+      "marketSummary": "Strong U.S. economic data sent bond yields to 19-year highs on September 23, triggering profit-taking in Bitcoin (down 2.1%) and Ethereum (down 2.5%) as investors rotated capital into bonds.",
+      "oneLine": "Strong U.S. economic data sent bond yields to 19-year highs on September 23, triggering profit-taking in Bitcoin (down 2.1%) and Ethereum (down 2.5%) as investors rotated capital into bonds.",
+      "newsCount": 3,
+      "topMover": null,
       "venues": [
         "Binance",
         "Bybit",
@@ -36,14 +33,12 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-23/summary_2026-09-23.html",
