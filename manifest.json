@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-24T02:50:10.737Z",
+  "generatedAt": "2026-09-24T03:00:20.752Z",
   "count": 99,
   "counts": {
     "total": 99,
     "market": 12,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-09-23",
   "head": 30,
@@ -26,8 +26,8 @@
       "oneLine": "Bitcoin and Ethereum fell 2.1–2.5% on Sept 23 after US Treasury yields spiked to a 19-year high on strong economic data, triggering $280 million in liquidations and closing BitMEX permanently at 04:00 UTC.",
       "newsCount": 18,
       "topMover": {
-        "symbol": "NILUSDT",
-        "chgPct": 53.8649407742093
+        "symbol": "NOMUSDT",
+        "chgPct": 13.219373219373217
       },
       "venues": [
         "Binance",
@@ -38,12 +38,11 @@
       ],
       "languages": [
         "en",
-        "tr"
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-23/summary_2026-09-23.html",

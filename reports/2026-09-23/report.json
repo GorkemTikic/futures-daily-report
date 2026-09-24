@@ -10,8 +10,8 @@
     "ETH": -2.5228491303526637
   },
   "topMover": {
-    "symbol": "NILUSDT",
-    "chgPct": 53.8649407742093
+    "symbol": "NOMUSDT",
+    "chgPct": 13.219373219373217
   },
   "venues": [
     "Binance",
@@ -20,13 +20,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "24 Sept 02:38 UTC",
+  "generatedAtUTC": "24 Sept 03:00 UTC",
   "languages": [
     "en",
-    "tr"
+    "tr",
+    "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "zh report unavailable"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }
