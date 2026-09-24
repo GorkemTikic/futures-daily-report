@@ -6,17 +6,21 @@
   "oneLine": "Bitcoin and Ethereum both rose roughly 1.8% on September 14 as optimism about US crypto regulation battled concerns over AI industry slowdown calls.",
   "newsCount": 19,
   "macro": {
-    "BTC": 1.755484668966868,
-    "ETH": 1.5528238853721912
+    "BTC": 1.7829376603419835,
+    "ETH": 1.5049073064340144
   },
-  "topMover": null,
+  "topMover": {
+    "symbol": "AINUSDT",
+    "chgPct": 87.5237955776834
+  },
   "venues": [
     "Binance",
     "Bybit",
+    "OKX",
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "24 Sept 02:32 UTC",
+  "generatedAtUTC": "15 Sept 00:00 UTC",
   "languages": [
     "en",
     "tr",

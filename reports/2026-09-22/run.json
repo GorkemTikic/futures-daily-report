@@ -1,20 +1,20 @@
 {
-  "runId": "2026-09-24T02:32:47.997Z",
-  "dateOverride": "2026-09-22",
-  "reuseSynthesis": true,
-  "startedAt": "2026-09-24T02:32:47.997Z",
+  "runId": "2026-09-23T23:00:02.618Z",
+  "dateOverride": null,
+  "reuseSynthesis": false,
+  "startedAt": "2026-09-23T23:00:02.618Z",
   "status": "ok",
-  "finishedAt": "2026-09-24T02:35:27.478Z",
-  "durationSec": 159,
+  "finishedAt": "2026-09-23T23:07:58.167Z",
+  "durationSec": 475,
   "date": "2026-09-22",
-  "live": false,
+  "live": true,
   "window": {
     "label": "2026-09-22 00:00 → 24:00 UTC",
     "startMs": 1790035200000,
     "endMs": 1790121599999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "23:59 UTC"
+    "asOfUTC": "23:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -48,41 +48,42 @@
       "reason": null
     },
     "news": {
-      "ok": false,
-      "sourcesOnline": [],
+      "ok": true,
+      "sourcesOnline": [
+        "CoinDesk",
+        "The Block",
+        "Cointelegraph",
+        "CryptoSlate",
+        "Decrypt",
+        "SEC",
+        "Federal Reserve",
+        "CFTC"
+      ],
       "failed": [],
-      "count": 0,
-      "backfill": true
+      "count": 54,
+      "backfill": false
     },
     "tradfi": {
-      "ok": false,
-      "reason": "unavailable-for-backfill",
-      "requested": false,
-      "backfill": true
+      "ok": true,
+      "reason": null,
+      "requested": true,
+      "backfill": false
     },
     "stocks": {
-      "ok": false,
-      "reason": "unavailable"
+      "ok": true,
+      "reason": null
     },
     "market": {
-      "ok": false,
+      "ok": true,
       "failed": []
     },
-    "etfFlows": "unavailable-for-backfill",
-    "backfill": {
-      "unavailable": [
-        "funding",
-        "open interest",
-        "mark price",
-        "news",
-        "traditional markets"
-      ]
-    }
+    "etfFlows": "pending-synthesis",
+    "backfill": null
   },
   "synthesis": {
-    "source": "auto-cache",
+    "source": "cli",
     "fellBack": false,
-    "cliOnly": false,
+    "cliOnly": true,
     "errorKind": null
   },
   "languages": [
@@ -92,12 +93,12 @@
   ],
   "pdf": {
     "en": true,
-    "tr": true,
-    "zh": true
+    "tr": true
   },
   "publish": {
     "pushed": true,
     "branch": "main"
   },
-  "reasons": []
+  "reasons": [],
+  "restoredNote": "2026-09-24: EN/TR are the 23 Sep 23:07 UTC live run; ZH is the 23 Sep 22:06 UTC live run (the later run's ZH translation had failed)."
 }

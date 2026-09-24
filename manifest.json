@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-24T02:46:31.116Z",
+  "generatedAt": "2026-09-24T02:50:10.737Z",
   "count": 99,
   "counts": {
     "total": 99,
@@ -59,13 +59,16 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -0.48689731155538724,
-        "ETH": -0.7907389119951581
+        "BTC": -0.47527529007384955,
+        "ETH": -0.7889055872102825
       },
       "marketSummary": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
       "oneLine": "Bitcoin and Ethereum fell under half a percent on September 22 as funding rates remained low and open interest declined, signaling cautious trader positioning ahead of US inflation data.",
       "newsCount": 7,
-      "topMover": null,
+      "topMover": {
+        "symbol": "TAKEUSDT",
+        "chgPct": 2.767932489451481
+      },
       "venues": [
         "Binance",
         "Bybit",
@@ -368,16 +371,20 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": 1.755484668966868,
-        "ETH": 1.5528238853721912
+        "BTC": 1.7829376603419835,
+        "ETH": 1.5049073064340144
       },
       "marketSummary": "Bitcoin and Ethereum both rose roughly 1.8% on September 14 as optimism about US crypto regulation battled concerns over AI industry slowdown calls.",
       "oneLine": "Bitcoin and Ethereum both rose roughly 1.8% on September 14 as optimism about US crypto regulation battled concerns over AI industry slowdown calls.",
       "newsCount": 19,
-      "topMover": null,
+      "topMover": {
+        "symbol": "AINUSDT",
+        "chgPct": 87.5237955776834
+      },
       "venues": [
         "Binance",
         "Bybit",
+        "OKX",
         "Bitget",
         "Gate"
       ],
