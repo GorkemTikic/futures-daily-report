@@ -1,0 +1,265 @@
+{
+  "oneLine": "A major crypto exchange suffered a $351 million theft, US regulators tightened stablecoin rules, and New York sued a prediction market platform.",
+  "caveman": "On September 24th, a big crypto exchange called Bitget lost about $351 million — someone hacked their computer wallets and stole it. At the same time, the US government's Federal Reserve (the bank regulator) and a trader regulator called the CFTC both released new rules for crypto companies: the Federal Reserve said stablecoin issuers (companies making dollar-like tokens) have to keep full dollar reserves and follow strict capital rules, and the CFTC said trading firms can now use crypto blockchain records officially. Also on the same day, New York's Attorney General sued a prediction market called Polymarket, saying it was running an illegal gambling operation and needs a license. Bitcoin and Ethereum barely moved (up about 0.01-0.12%), and most of the market went down 2.4%, so it was a day about rules and bad news for one exchange, not about price swings. It was a concerning day because of the hack and new scrutiny from government.",
+  "priceVolumeSummary": "Bitcoin closed at $84,370 (up 0.01–0.02% across venues), and Ethereum at $2,687 (up 0.12%). All five major venues—Binance, Bybit, OKX, Bitget, and Gate—posted similar prices, showing good agreement. Total crypto market cap fell 2.4% to $2.89 trillion. Binance and Bybit led trade volume on both coins, with combined BTC volume around $19.5 billion and combined ETH volume around $10.7 billion.",
+  "positioningSummary": "Funding rates split sharply by venue. On Bitcoin, Bybit traders were charged 10.95% annual (very bullish sentiment, often unsustainable), while Binance was just 0.23% and OKX was -0.42% (slightly bearish), showing disagreement on direction. On Ethereum, the same pattern held: Bybit at 10.95%, Binance at 3.03%, and OKX at -3.69%. Long/short ratios on Binance showed bullish lean—Bitcoin at 1.16:1 (16% more longs) and Ethereum at 2.78:1 (nearly 3x more longs than shorts), suggesting traders expected upward movement. Open interest (total borrowed money on futures) held steady across the day, so no rush to exit bets.",
+  "stocksSummary": "Asian stock markets had a down day. Korean chips (SK Hynix, Samsung Electronics, Hyundai Motor) fell 1–2%, dragging the KOSPI index down 2.03%. Hong Kong tech movers: MiniMax (AI video) was bright at +3.86%, but GigaDevice chips dropped 3.32%, and Tencent slipped 0.62%. China's Unitree Robotics rose 1.18% on Binance's robotics contract, but CXMT semiconductors fell 1.28%. US stocks were flat-to-down (S&P 500 -0.08%, Nasdaq -0.05%), and crude oil rose 1.8–2% as geopolitical concerns lifted energy. Gold fell 0.2%, and Treasury yields climbed (bond prices down 0.55%), signaling traders expect the US Fed may raise rates soon.",
+  "movers": [
+    {
+      "symbol": "SAGA",
+      "explanation": "Jumped 55.3% on $161 million volume. The large move and volume suggest a narrative catalyst—possibly an airdrop, partnership, or exchange listing buzz—but no public news surfaced during the day. Monitor community announcements and social media for the trigger.",
+      "hasCause": false
+    },
+    {
+      "symbol": "TAKE",
+      "explanation": "Plummeted 41.4% on $132 million volume. The sharp decline with heavy volume usually signals a negative catalyst: potential token unlock, exchange delisting, or community backlash. No clear news announcement matched the timing, so this warrants investigation into on-chain events or Discord/Twitter drama.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾 (Chinese token)",
+      "explanation": "Lost 38.1% on $188 million volume. The Chinese name and large volume suggest this may be a domestic or Asia-focused token; no English-language news outlet covered a reason. Check Chinese crypto media and social channels for any regulatory action or company news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitget loses $351.6 million in hot wallet hack, suspends withdrawals",
+        "what": "Hackers drained $351.6 million from Bitget's hot and warm wallets in under an hour, detected at approximately 18:31 UTC on September 24th. CEO Gracy Chen said cold wallets and user funds remained secure, and the exchange promised a $464 million user-protection fund would cover the loss. Withdrawals were suspended while the exchange investigated the breach.",
+        "coins": "Multi-chain (ETH, USDC, USDT, BNB, AVAX)",
+        "timeUTC": "18:31 UTC, September 24",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe"
+      },
+      {
+        "headline": "New York Attorney General sues Polymarket, alleges illegal gambling operation",
+        "what": "New York AG Letitia James and Governor Kathy Hochul filed suit against QCX LLC (Polymarket's US entity) on September 24th, accusing it of running an unlicensed gambling business that fails to verify user age, collect state taxes, and obtain a Gaming Commission license. The state seeks to block the platform, recover illegal gains, and impose fines triple the profits. Polymarket counter-sued later that day in federal court to block the state action.",
+        "coins": "N/A (prediction market)",
+        "timeUTC": "September 24",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation"
+      },
+      {
+        "headline": "Federal Reserve proposes stablecoin capital and redemption rules under GENIUS Act",
+        "what": "The US Federal Reserve released two proposals on September 24th to regulate payment stablecoins issued by banks under the GENIUS Act. Banks must back stablecoins 1:1 with high-quality reserves (short-term Treasury bills, cash), meet capital standards, and allow redemption within two days. The proposals open a 60-day public comment period and establish the legal framework for fed-supervised banks to issue stablecoins.",
+        "coins": "Stablecoins (USDC, USDT, etc.)",
+        "timeUTC": "September 24",
+        "source": "Federal Reserve / CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC clarifies tokenized assets and blockchain recordkeeping are now official tools for US commodity firms",
+          "what": "The US Commodity Futures Trading Commission (CFTC) released updated guidance on September 24th welcoming tokenized assets and blockchain-based records as legitimate elements of regulated trading. The move gives commodity firms and brokerages explicit permission to use crypto infrastructure, following the failed CLARITY Act vote in Congress.",
+          "coins": "Tokenized assets generally",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Bullish, Alpaca, and Apex Fintech form coalition to standardize issuer-backed tokenized stocks",
+          "what": "Three major trading infrastructure firms announced a coalition on September 24th to develop standards for tokenized stocks issued directly by companies (not wrappers), ensuring on-chain shares link to official shareholder records. The push follows the SEC's innovation exemption for stock token trading.",
+          "coins": "Tokenized equities",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks"
+        },
+        {
+          "headline": "ARK Invest brings $1.3 billion venture fund onchain via Securitize, holding OpenAI and Anthropic",
+          "what": "ARK Invest announced on September 24th that it tokenized its $1.3 billion ARK Venture Fund (ARKVX) on Ethereum through Securitize. The fund holds early-stage stakes in OpenAI, Anthropic, and Stripe, making venture-capital access blockchain-native for qualified investors.",
+          "coins": "Ethereum",
+          "timeUTC": "September 24",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294"
+        },
+        {
+          "headline": "Ondo launches onchain portfolio tokens based on BlackRock-developed model strategies",
+          "what": "Ondo Finance announced three new onchain portfolio tokens on September 24th, each following model investment strategies originally developed by BlackRock. The move brings passive crypto-native index products to a broader audience.",
+          "coins": "Ondo (ONDO)",
+          "timeUTC": "September 24",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260"
+        },
+        {
+          "headline": "SoFi moves entire $25 billion card program to blockchain stablecoin settlement",
+          "what": "SoFi announced on September 24th that it has shifted its full $25 billion annual card program to settlement via its own SoFiUSD stablecoin on blockchain, partnering with MasterCard. The move demonstrates stablecoins as an alternative to traditional banking rails for high-volume payments.",
+          "coins": "SoFiUSD (stablecoin)",
+          "timeUTC": "September 24",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sofi-moves-25b-card-program-to-stablecoin-settlement-with-mastercard"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Duelbits crypto casino goes offline after $7 million hot wallet hack",
+          "what": "Crypto casino Duelbits went offline on September 24th after attackers drained approximately $7 million from its hot wallets across four blockchains (Ethereum, Polygon, Optimism, Arbitrum). About $6 million of the stolen funds remained in a single Ethereum address pending conversion or withdrawal.",
+          "coins": "Multi-chain (ETH, USDC, USDT, other tokens)",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Sequans exits Bitcoin treasury strategy entirely, sells final 314 BTC",
+          "what": "French semiconductor company Sequans announced on September 24th it has fully unwound its Bitcoin treasury strategy, selling the last 314 BTC of its original 3,200-coin holdings. The exit reflects a broader trend of corporate treasuries trading at discounts to their crypto NAV (net asset value), eroding the appeal of balance-sheet diversification into crypto.",
+          "coins": "Bitcoin",
+          "timeUTC": "September 24",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sequans-exits-bitcoin-treasury-strategy-after-selling-remaining-314-btc"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-22",
+    "summary": "Bitcoin ETF net inflows were $714.7 million on September 22 (the latest published day), down from a $998.95 million inflow on September 21, which was the largest single-day inflow of 2026. BlackRock's IBIT, ARK 21Shares' ARKB, and Fidelity's FBTC led the flows. Year-to-date Bitcoin ETF flows have returned to positive territory for the first time since April.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+  },
+  "calendarNotes": [
+    {
+      "event": "SNB Rate Decision (Swiss central bank), Riksbank Rate Decision (Swedish central bank)",
+      "typicalReaction": "Medium impact. A rate cut by either central bank (reducing interest rates) would weaken their currency and make risk assets like Bitcoin more appealing globally. A hold or hike would support their currencies and pull money into safer bonds."
+    },
+    {
+      "event": "Norges Bank Rate Decision (Norwegian central bank)",
+      "typicalReaction": "Medium impact. Norway's policy move sends similar signals: a cut favors risk-on sentiment (Bitcoin, equities), a hold/hike favors the currency and bonds."
+    },
+    {
+      "event": "US Initial Jobless Claims (12:30 UTC)",
+      "typicalReaction": "Medium impact. Fewer jobless claims suggest a strong US economy and reduce pressure on the Fed to cut rates soon, supporting the dollar and Treasury yields (bearish for Bitcoin). More claims signal economic weakness and rate-cut expectations (bullish for Bitcoin)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between the current price of an asset and its price at a fixed point in the past (e.g., daily basis means the change from market open to close within a single UTC calendar day)."
+    },
+    {
+      "term": "Bitcoin (BTC)",
+      "definition": "The largest and oldest cryptocurrency by market value, created in 2009. Serves as digital gold and a store of value for many investors and institutions."
+    },
+    {
+      "term": "Cold wallet",
+      "definition": "A cryptocurrency storage system that is offline and disconnected from the internet, making it extremely difficult for hackers to access. Used by exchanges to secure most user funds."
+    },
+    {
+      "term": "Dominance",
+      "definition": "The percentage of the total cryptocurrency market value held by a single asset (e.g., Bitcoin dominance of 58.6% means Bitcoin is worth 58.6% of all cryptocurrencies combined)."
+    },
+    {
+      "term": "Ethereum (ETH)",
+      "definition": "The second-largest cryptocurrency by market value. A blockchain platform that lets developers build applications and smart contracts on top of it."
+    },
+    {
+      "term": "Exchange",
+      "definition": "A platform where traders can buy and sell cryptocurrencies. Examples include Binance, Bybit, OKX, Bitget, and Gate—all major venues covered in this report."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A daily sentiment gauge (0–100 scale) that measures whether traders are fearful (low numbers) or greedy/confident (high numbers). 71 = Greed."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A small fee that long traders (bet-on-up) pay short traders (bet-on-down) every 8 hours on futures contracts. High positive rates mean longs are overconfident and paying; negative rates mean shorts are paying. Annualized % means the fee if it stayed the same for one year."
+    },
+    {
+      "term": "Futures contract",
+      "definition": "A bet on the future price of an asset (Bitcoin, Ethereum, stock indices, etc.) that is settled in cash. Traders can go long (bet price up) or short (bet price down), often using leverage (borrowed money), which amplifies both gains and losses."
+    },
+    {
+      "term": "Gold",
+      "definition": "A precious metal traditionally held as a store of value and hedge against inflation. On the report, tracked as a spot price (ounces vs. USD) and via commodity contracts."
+    },
+    {
+      "term": "Hot wallet",
+      "definition": "A cryptocurrency storage system that is connected to the internet for fast access to funds. More convenient than cold storage but more vulnerable to hacking."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowed money that a trader uses to control a larger bet than their own capital would allow. E.g., 10x leverage = control $1,000 worth of an asset with only $100 of your own money. Magnifies both gains and losses."
+    },
+    {
+      "term": "Long / Long position",
+      "definition": "A bet that an asset's price will go up. A trader who is long holds the asset or a futures contract betting on upward movement."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of open long bets divided by the number of open short bets. E.g., 1.16:1 = 16% more traders are betting up than down. A ratio above 1 signals bullish sentiment; below 1 signals bearish sentiment."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The current fair value price of a futures contract on an exchange, used to settle profits/losses. It reflects both the spot price (real-world price) and funding rates to prevent extreme divergence."
+    },
+    {
+      "term": "Mover / Price mover",
+      "definition": "An asset that has moved sharply in price (up or down) over a given period, usually attracting trader attention."
+    },
+    {
+      "term": "Nasdaq Composite",
+      "definition": "An index of all stocks listed on the Nasdaq stock exchange, weighted by market value. Serves as a gauge of US technology company health."
+    },
+    {
+      "term": "NAV / Net asset value",
+      "definition": "The total value of assets a fund or company holds, minus liabilities. For a Bitcoin treasury company, NAV = total Bitcoin held at current price minus debt. When a company's stock trades below NAV, it means traders value the company less than the cash value of its holdings."
+    },
+    {
+      "term": "NYSE / US equities",
+      "definition": "The New York Stock Exchange and US stock market. The report tracks major US stock indices (S&P 500, Nasdaq) to show how US equities move relative to crypto."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total amount of money borrowed and deployed in open futures contracts at an exchange. Rising OI = traders adding fresh bets (bullish or bearish). Falling OI = traders closing bets (less conviction). Reported in both coins (e.g., BTC) and USD equivalent."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The increase or decrease in total open interest over a single day. A positive change means new leverage entered the market; a negative change means leverage was unwound."
+    },
+    {
+      "term": "Perpetual / Perp",
+      "definition": "A futures contract with no expiration date (unlike traditional futures that expire). Traders can hold it as long as they like, paying funding fees every 8 hours."
+    },
+    {
+      "term": "S&P 500 (SPY)",
+      "definition": "The US stock market index of the 500 largest publicly traded US companies, weighted by market value. Broad gauge of US equity health. SPY is an ETF that tracks it."
+    },
+    {
+      "term": "Settlement",
+      "definition": "The final delivery or cash transfer when a contract or transaction ends. On exchanges, futures are usually settled in cash at the contract price."
+    },
+    {
+      "term": "Short / Short position",
+      "definition": "A bet that an asset's price will go down. A trader who is short borrows the asset or takes a derivatives contract betting on a decline."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to hold a stable value, usually pegged 1:1 to the US dollar or another currency. Examples: USDT (Tether), USDC (Circle), SoFiUSD. Used for payments and as a safe harbor during market volatility."
+    },
+    {
+      "term": "Tokenized asset / Tokenized stock",
+      "definition": "A real-world asset (like shares of a company or a commodity) converted into a digital token that can be bought and sold on a blockchain. Aims to make asset ownership faster and more accessible."
+    },
+    {
+      "term": "Total market cap",
+      "definition": "The sum of all cryptocurrency market values, calculated by multiplying each coin's price by the number in circulation and adding them up. On Sept 24, all crypto was worth $2.89 trillion combined."
+    },
+    {
+      "term": "Treasury / US Treasury",
+      "definition": "US government debt securities (bonds) issued to pay for government spending. A 10-year Treasury is a 10-year bond. Rising Treasury yields mean bond prices are falling and the market expects rates or inflation to stay elevated."
+    },
+    {
+      "term": "Venue / Exchange venue",
+      "definition": "A specific crypto trading platform where traders place orders (e.g., Binance, Bybit, OKX)."
+    },
+    {
+      "term": "Volume / Trading volume",
+      "definition": "The total amount of an asset bought and sold during a time period, measured in USD value (e.g., $10 billion in BTC volume in one day). High volume signals strong interest and price conviction; low volume can signal weak price support."
+    }
+  ],
+  "_source": "cli"
+}

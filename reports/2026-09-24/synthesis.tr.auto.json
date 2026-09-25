@@ -1,0 +1,266 @@
+{
+  "oneLine": "Büyük bir kripto borsası 351 milyon dolar hırsızlığa uğradı, ABD düzenleyicileri stabilcoin kurallarını sıkılaştırdı ve New York bir tahmin pazarı platformasını dava etti.",
+  "caveman": "24 Eylül'de, Bitget adında büyük bir kripto borsası yaklaşık 351 milyon dolar kayıp verdi — birisi bilgisayar cüzdanlarına girerek parayı çaldı. Aynı gün, ABD Merkez Bankası (Federal Reserve) ve ticaret düzenleyicisi CFTC yeni kurallar yayımladı: Federal Reserve, stabilcoin ihraçcılarının (dolar benzeri tokenleri yapan şirketlerin) tam dolar rezervine sahip olması ve katı sermaye kurallarına uyması gerektiğini söyledi; CFTC ise ticaret firmalarının kripto blokzincir kayıtlarını resmi olarak kullanabileceğini açıkladı. Aynı günde New York Başsavcısı Polymarket adlı bir tahmin pazarını dava etti: yasadışı kumarhane işlettiğini ve lisans alması gerektiğini söyledi. Bitcoin ve Ethereum neredeyse sabit kaldı (yüzde 0.01–0.12 artış), genel pazar yüzde 2.4 düştü. Bu gün bir borsa için kötü haber ve yeni hükümet denetimiyle ilgili endişeli bir gündü — fiyatlardan çok kurallar ve güvenlik sorunu öne çıktı.",
+  "priceVolumeSummary": "Bitcoin 84.370 dolardan kapandı (borsalarda yüzde 0.01–0.02 artış), Ethereum 2.687 dolardan (yüzde 0.12 artış). Binance, Bybit, OKX, Bitget ve Gate — beş ana borsanın tümü benzer fiyatlar gösterdi. Kripto pazar değeri yüzde 2.4 düşerek 2.89 trilyon dolara indi. Binance ve Bybit her iki para biriminde işlem hacmini başı çekti; toplam Bitcoin hacmi yaklaşık 19.5 milyar dolar, Ethereum hacmi yaklaşık 10.7 milyar dolar civarında.",
+  "positioningSummary": "Finansman oranları borsaya göre keskin bir şekilde ayrıldı. Bitcoin'de Bybit yüzde 10.95 ödetti (çok güçlü yükseliş beklentisi, genelde sürdürülemez), Binance yüzde 0.23 ve OKX yüzde -0.42 (hafif düşüş beklentisi) gösterdi. Ethereum'da aynı kalıp tekrarlandı: Bybit yüzde 10.95, Binance yüzde 3.03, OKX yüzde -3.69. Binance'deki uzun/kısa oranları yükseliş eğilimi gösterdi — Bitcoin'de 1.16:1 (yüzde 16 daha fazla uzun), Ethereum'da 2.78:1 (kısaya göre neredeyse 3 kat daha fazla uzun). Açık pozisyon faizi (vadeli işlemlerde toplam borç) gün boyunca sabit kaldı, traders hızlı pozisyon kapatmıyordu.",
+  "stocksSummary": "Asya borsaları düştü. Güney Kore çipleri (SK Hynix, Samsung Electronics, Hyundai Motor) yüzde 1–2 geriledi ve KOSPI endeksi yüzde 2.03 düştü. Hong Kong'da: MiniMax (yapay zeka video) yüzde 3.86 yükseldi, ama GigaDevice düştü (yüzde -3.32), Tencent yüzde -0.62. Çin'de Unitree Robotics yüzde 1.18 yükseldi, CXMT yarı iletken yüzde -1.28 düştü. ABD borsaları durgun kaldı (S&P 500 yüzde -0.08, Nasdaq yüzde -0.05). Ham petrol yüzde 1.8–2 yükseldi (jeopolitik endişeler enerji talebini artırdı). Altın yüzde 0.2 düştü, devlet tahvili verimleri yüzde 0.55 arttı — piyasa Fed'in faiz artıracağını bekliyordu.",
+  "movers": [
+    {
+      "symbol": "SAGA",
+      "explanation": "Yüzde 55.3 sıçradı, 161 milyon dolar hacimde. Büyük hareket ve yüksek hacim genellikle bir haber veya olayı işaret eder — belki airdrop, ortaklık, ya da borsa listesi haberi — ama gün içinde haber çıkmadı. Topluluk duyurularını ve sosyal medyayı izleyin.",
+      "hasCause": false
+    },
+    {
+      "symbol": "TAKE",
+      "explanation": "Yüzde 41.4 düştü, 132 milyon dolar hacimde. Keskin düşüş ve ağır hacim kötü haberi işaret eder: token kilidi açılması, borsa kaldırılması, ya da topluluk tepkisi olabilir. Ne yazık ki saatinde haber bulunmadı — blokzincir olaylarını veya sosyal ağları kontrol edin.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾 (Chinese token)",
+      "explanation": "Yüzde 38.1 düştü, 188 milyon dolar hacimde. Çin adı taşıması ve yüksek hacim bunun yerel veya Asya odaklı bir token olduğunu gösteriyor; İngilizce medya sebep kapsamadı. Çin kripto kaynakları ve sosyal ağlarında haber arayın.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitget 351.6 milyon dolar hırsızlığa uğradı, para çekişler durduruldu",
+        "what": "Hackerler 24 Eylül günü saat 18:31 UTC civarında Bitget'in sıcak ve ılık cüzdanlarından 351.6 milyon doları yaklaşık bir saat içinde çaldı. CEO Gracy Chen, soğuk cüzdanların ve kullanıcı fonlarının güvende olduğunu söyledi. Borsa, kaybı karşılamak için 464 milyon dolar kullanıcı koruma fonu vereceğine söz verdi. Araştırma sırasında para çekişler durduruldu.",
+        "coins": "Multi-chain (ETH, USDC, USDT, BNB, AVAX)",
+        "timeUTC": "18:31 UTC, September 24",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe"
+      },
+      {
+        "headline": "New York Başsavcısı Polymarket'i dava etti, yasadışı kumarhane işlettiğini iddia etti",
+        "what": "New York Başsavcısı Letitia James ve Vali Kathy Hochul 24 Eylül'de QCX LLC (Polymarket'in ABD kuruluşu) aleyhine dava açtı. İddiaya göre platform lisanssız kumarhane gibi çalışıyor, yaş doğruluğu sağlamıyor, devlet vergisi toplamıyor, Oyun Komisyonu lisansı almadı. Eyalet platformu kapatmayı, yasadışı kazançları geri almayı ve kar tutarının üç katı ceza istedi. Polymarket aynı gün federal mahkemeye başvurarak devlet hareketini bloke etmeye çalıştı.",
+        "coins": "N/A (prediction market)",
+        "timeUTC": "September 24",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation"
+      },
+      {
+        "headline": "Federal Reserve stabilcoin için sermaye ve geri ödeme kurallarını önerdi",
+        "what": "ABD Federal Reserve 24 Eylül'de GENIUS Yasası kapsamında özel stabilcoin ihraçcılarını düzenleme önerileri yayımladı. Bankaların stabilcoinleri yüzde 100 yüksek kaliteli karşılık (kısa vadeli Hazine tahvili, nakit) ile desteklemesi, sermaye standartlarına uyması ve iki gün içinde geri alma yükümlülüğü vardır. Öneriler 60 günlük halk görüş sürecine açıldı ve Fed denetimi altındaki bankalara stabilcoin ihraç etme hukuki çerçevesi oluşturdu.",
+        "coins": "Stablecoins (USDC, USDT, etc.)",
+        "timeUTC": "September 24",
+        "source": "Federal Reserve / CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC tokenize edilmiş varlıkları ve blokzincir kayıtlarını ABD emtia firmalarının resmi aracı olarak tanıdı",
+          "what": "ABD Emtia Vadeli İşlemler Komisyonu (CFTC) 24 Eylül'de tokenize edilmiş varlıkları ve blokzincir tabanlı kayıtları düzenlenmiş ticaretin meşru araçları olarak kabul etti. Bu hareket emtia firmaları ve aracılara kripto altyapısını kullanma açık izni verdi — Kongre'deki başarısız CLARITY Yasası oyunun ardından.",
+          "coins": "Tokenized assets generally",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Bullish, Alpaca ve Apex Fintech, çıkaran destekli tokenize hisse standartı için birlik kurdu",
+          "what": "Üç ticaret altyapı şirketi 24 Eylül'de şirketler tarafından doğrudan çıkarılan tokenize hisseler için (sarma değil) standart geliştirme amacıyla bir koalisyon oluşturdu. Hedef, blokzincir hisseleri resmi hissedar kayıtlarına bağlamak. Hareket SEC'in hisse token ticareti için inovasyon muafiyetinin ardından geldi.",
+          "coins": "Tokenized equities",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks"
+        },
+        {
+          "headline": "ARK Invest 1.3 milyar dolar girişim fonunu Securitize üzerinden blokzincire getirdi",
+          "what": "ARK Invest 24 Eylül'de 1.3 milyar dolar ARK Venture Fund'ı (ARKVX) Ethereum'da Securitize üzerinden tokenize etti. Fon OpenAI, Anthropic ve Stripe'teki erken aşama yatırımları tutuyor; nitelikli yatırımcılara girişim sermayesi erişimini blokzincir-native yapıyor.",
+          "coins": "Ethereum",
+          "timeUTC": "September 24",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294"
+        },
+        {
+          "headline": "Ondo, BlackRock tarafından geliştirilen model stratejilerine dayalı blokzincir portföy tokenleri sundu",
+          "what": "Ondo Finance 24 Eylül'de BlackRock tarafından geliştirilmiş model yatırım stratejilerini takip eden üç blokzincir portföy tokeni duyurdu. Hareket pasif kripto-native endeks ürünlerini daha geniş bir kitleye sunuyor.",
+          "coins": "Ondo (ONDO)",
+          "timeUTC": "September 24",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260"
+        },
+        {
+          "headline": "SoFi, 25 milyar dolar kart programının tamamını blokzincir stabilcoin ödemeye taşıdı",
+          "what": "SoFi 24 Eylül'de 25 milyar dolar yıllık kart programının tamamını blokzincirde kendi SoFiUSD stabilcoinı aracılığıyla takas etmeye karar verdi. MasterCard ortaklığı yapan şirket, stabilcoinleri geleneksel banka kanallarına alternatif olarak yüksek hacimli ödemeler için kullanabileceğini gösterdi.",
+          "coins": "SoFiUSD (stablecoin)",
+          "timeUTC": "September 24",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sofi-moves-25b-card-program-to-stablecoin-settlement-with-mastercard"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kripto kumarhane Duelbits 7 milyon dolar sıcak cüzdan saldırısından sonra çevrimdışı oldu",
+          "what": "Kripto kumarhane Duelbits 24 Eylül'de hackerler dört blokzincirden (Ethereum, Polygon, Optimism, Arbitrum) yaklaşık 7 milyon doları sıcak cüzdanlarından çaldıktan sonra kapalı hale geldi. Çalınan paranın yaklaşık 6 milyonu Ethereum adresinde dönüşüm veya çekim bekliyordu.",
+          "coins": "Multi-chain (ETH, USDC, USDT, other tokens)",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Sequans Bitcoin hazine stratejisinden tamamen çıktı, son 314 BTC'yi sattı",
+          "what": "Fransa'lı yarı iletken şirketi Sequans 24 Eylül'de Bitcoin hazine stratejisini tamamen sonlandırdığını açıkladı — ilk 3.200 Bitcoin'den son 314'ünü satıyor. Çıkış kurumsal hazine yatırımlarının kripto net varlık değeri (NAV) iskontosunda işlem gördüğünü gösteriyor, bilanço çeşitlendirmesini çekici kılmıyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "September 24",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sequans-exits-bitcoin-treasury-strategy-after-selling-remaining-314-btc"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-22",
+    "summary": "Bitcoin ETF net girişleri 22 Eylül'de (son yayımlanan gün) 714.7 milyon dolar oldu, 21 Eylül'ün 998.95 milyon dolarından düştü (bu 2026'nın en büyük tek günlük girişiydi). BlackRock'ın IBIT, ARK 21Shares'ün ARKB ve Fidelity'nin FBTC akışları öncü oldu. Bitcoin ETF yıl başından bugüne akışı ilk defa pozitif oldu (Nisan'dan beri ilk).",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+  },
+  "calendarNotes": [
+    {
+      "event": "SNB Rate Decision (Swiss central bank), Riksbank Rate Decision (Swedish central bank)",
+      "typicalReaction": "Orta etki. Merkez bankası faiz oranını düşürürse kendi parasını zayıflatır ve Bitcoin gibi riskli varlıkları küresel olarak daha çekici kılar. Sabit tutarsa veya artırırsa parasını destekler ve tahvilleri tercih eder."
+    },
+    {
+      "event": "Norges Bank Rate Decision (Norwegian central bank)",
+      "typicalReaction": "Orta etki. Norveç'in politika hamlesi benzer sinyaller verir: faiz düşürümü risk-on yapıyor (Bitcoin, hisseler), sabit tutarma/artırış para birimini ve tahvilleri tercih ediyor."
+    },
+    {
+      "event": "US Initial Jobless Claims (12:30 UTC)",
+      "typicalReaction": "Orta etki. Az işsizlik başvurusu güçlü ABD ekonomisine işaret eder ve Fed'in yakında faiz düşürmesi baskısını azaltır — dolar ve Hazine getirileri yükseltir (Bitcoin için olumsuz). Daha fazla başvuru ekonomik zayıflık ve faiz düşürme beklentileri gösterir (Bitcoin için olumlu)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel (Basis)",
+      "definition": "Bir varlığın şimdiki fiyatı ile belirli bir zamanındaki fiyat arasındaki fark (örneğin günlük temel = tek UTC takvim gününde açılış kapanıştan değişim)."
+    },
+    {
+      "term": "Bitcoin (BTC)",
+      "definition": "Pazar değerine göre en büyük ve en eski kripto para, 2009'da yaratıldı. Birçok yatırımcı ve kurum için dijital altın ve değer depolaması görevini görüyor."
+    },
+    {
+      "term": "Soğuk cüzdan",
+      "definition": "İnternetten bağlantısız olan ve hackerların erişemeyeceği kadar emniyetli kripto depolama sistemi. Borsalar kullanıcı fonlarının çoğunu korumak için kullanır."
+    },
+    {
+      "term": "Baskınlık (Dominance)",
+      "definition": "Toplam kripto pazar değerinde tek bir varlığın yüzdesi (örneğin Bitcoin baskınlığı yüzde 58.6 = Bitcoin tüm kripto paranın yüzde 58.6'ına değer)."
+    },
+    {
+      "term": "Ethereum (ETH)",
+      "definition": "Pazar değerine göre ikinci en büyük kripto para. Geliştiricilerin üzerine uygulama ve akıllı sözleşme oluşturabildikleri blokzincir platformu."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Yatırımcıların kripto para alıp satabildikleri platform. Örnek: Binance, Bybit, OKX, Bitget ve Gate — bu raporda kapsanan ana mekanlar."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "Günlük duygu göstergesi (0–100 ölçeği), yatırımcıların korkup korkmadığını (düşük) ya da hevesli/güvenli olup olmadığını (yüksek) ölçer. 71 = Açgözlülük."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Uzun pozisyon sahipleri (yüksseliş bahsi) tarafından kısa pozisyon sahibine 8 saatte bir ödenen küçük ücret. Yüksek pozitif oranlar uzunların aşırı güvenli olduğunu (ücret ödüyorlar); negatif oranlar kısaların ödediğini gösterir. Yıllık yüzde = ücret 1 yıl devam etse ne kadar olur."
+    },
+    {
+      "term": "Vadeli işlem sözleşmesi",
+      "definition": "Bir varlığın (Bitcoin, Ethereum, hisse endeksleri vb.) gelecekteki fiyatına nakit olarak uzlaştırılan bahis. Yatırımcılar uzun (fiyat yükselmesine bah) veya kısa (düşümesine bah) gidebilir, genellikle kaldıraç (ödünç para) kullanarak — ikisinin kazancını ve kaybını çoğaltır."
+    },
+    {
+      "term": "Altın",
+      "definition": "Geleneksel olarak değer depolaması ve enflasyon koruması amaçlı tutulan değerli metal. Raporda spot fiyat (ons vs. USD) ve emtia sözleşmeleri izlenir."
+    },
+    {
+      "term": "Sıcak cüzdan",
+      "definition": "İnternete bağlı kripto depolama sistemi, hızlı erişim için rahat ama soğuk depolamadan hacklenmeye açık."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Yatırımcının kendi parasından daha büyük bahis kontrol etmesi için ödünç aldığı para. Örn. 10x kaldıraç = 100 dolar parasıyla 1.000 dolar değerli varlığı kontrol etmek. Kazanç ve kaybı çoğaltır."
+    },
+    {
+      "term": "Uzun / Uzun pozisyon",
+      "definition": "Bir varlığın fiyatı yükselecek diye bahsetme. Uzun pozisyondaki yatırımcı varlığı tutar ya da yükselmesine bahis yapan türev sözleşmesi tutar."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Açık uzun bahis sayısı bölü açık kısa bahis sayısı. Örn. 1.16:1 = yüzde 16 daha fazla yatırımcı yükselmesine bahis yapıyor. 1'den yüksek = boğa duygusu; 1'den düşük = ayı duygusu."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Bir borsa vadeli işlem sözleşmesinin güncel adil değer fiyatı, kar/zarar uzlaştırmak için kullanılır. Spot fiyat ve finansman oranlarını yansıtır, aşırı sapmaları önler."
+    },
+    {
+      "term": "Mover / Fiyat hareketi yapan",
+      "definition": "Belirli bir dönemde fiyatta keskin hareket yapan (yukarı ya da aşağı) bir varlık, genellikle yatırımcıların dikkatini çeker."
+    },
+    {
+      "term": "Nasdaq Composite",
+      "definition": "Nasdaq borsasında listelenen tüm hisselerin pazar değeri ağırlıklı endeksi. ABD teknoloji şirketi sağlığının göstergesi."
+    },
+    {
+      "term": "NAV / Net varlık değeri",
+      "definition": "Bir fon ya da şirketin tuttuğu varlıkların toplam değeri, borçlar çıkarılmış. Bitcoin hazine şirketi için: NAV = tutulan Bitcoin × şimdiki fiyat − borç. Hisse spot fiyat NAV'ın altında işlem görürse piyasa varlıkların nakitinin değerinden az değer veriyor."
+    },
+    {
+      "term": "NYSE / ABD hisseleri",
+      "definition": "New York Borsa ve ABD hisse pazarı. Rapor major ABD endekslerini (S&P 500, Nasdaq) izleyerek ABD hisselerine karşı kripto nasıl hareket ediyor gösteriyor."
+    },
+    {
+      "term": "Açık pozisyon (OI)",
+      "definition": "Bir borsada açık vadeli işlem sözleşmelerine toplamda ödünç alınıp konuşlandırılan para. OI yükselen = yatırımcılar yeni bahis koyuyor (boğa ya da ayı). OI düşen = bahisleri kapatıyor (az güven). Hem coin (örn. BTC) hem USD eşdeğeri olarak rapor edilir."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Toplam açık pozisyonda tek günde artış ya da azalış. Pozitif = pazara yeni kaldıraç girdi; negatif = kaldıraç boşaltıldı."
+    },
+    {
+      "term": "Perpetual / Perp",
+      "definition": "Son tarihi olmayan vadeli işlem sözleşmesi (geleneksel vadeli işlemler expirden farklı). Yatırımcılar istediği kadar tutabilir, 8 saatte bir finansman ücreti ödedi."
+    },
+    {
+      "term": "S&P 500 (SPY)",
+      "definition": "ABD hisse pazar değeri ağırlıklı endeksi, 500 en büyük şirketler. ABD hisse pazarı sağlığının genel göstergesi. SPY = bunu izleyen ETF."
+    },
+    {
+      "term": "Uzlaştırma",
+      "definition": "Sözleşme sonlandığında son teslim ya da nakit transfer. Borsalarda vadeli işlemler genellikle nakit olarak sözleşme fiyatında uzlaştırılır."
+    },
+    {
+      "term": "Kısa / Kısa pozisyon",
+      "definition": "Bir varlığın fiyatı düşecek diye bahsetme. Kısa pozisyonda olan yatırımcı varlığı ödünç alır ya da düşümesine bahis yapan türev sözleşmesi tutar."
+    },
+    {
+      "term": "Stabilcoin",
+      "definition": "İstikrarlı değer tutmak, genellikle 1:1 USD'ye ya da başka para birimine sabitlenmiş kripto para. Örnekler: USDT (Tether), USDC (Circle), SoFiUSD. Ödemeler ve pazar kararsızlığında güvenli liman için kullanılır."
+    },
+    {
+      "term": "Tokenize edilmiş varlık / Tokenize edilmiş hisse",
+      "definition": "Gerçek dünya varlığı (şirket hisseleri, emtia gibi) blokzincirde alınıp satılabilir dijital token olarak çevrilen. Varlık sahipliğini daha hızlı ve erişilebilir yapmayı amaçlar."
+    },
+    {
+      "term": "Toplam pazar değeri",
+      "definition": "Tüm kripto para pazar değerlerinin toplamı — her paranın fiyatı × dolaşımdaki sayı toplanmış. 24 Eylül'de tüm kripto 2.89 trilyon dolara değerdi."
+    },
+    {
+      "term": "Hazine / ABD Hazinesi",
+      "definition": "ABD hükümetinin harcamalar için çıkardığı borç senetleri (tahviller). 10 yıllık Hazine = 10 yıl vadeli tahvil. Hazine getirileri yükselen = tahvil fiyatları düşüyor, piyasa oranları ya da enflasyonun yüksek kalacağını bekliyordu."
+    },
+    {
+      "term": "Mekan / Borsa mekanı",
+      "definition": "Yatırımcıların emir verebilecekleri kripto ticaret platformu (örn. Binance, Bybit, OKX)."
+    },
+    {
+      "term": "Hacim / İşlem hacmi",
+      "definition": "Bir varlığın belirli sürede alınıp satıldığı toplam miktar, USD değeri olarak ölçülür (örn. bir gün 10 milyar dolarlık BTC hacmi). Yüksek hacim güçlü ilgi ve fiyat inancı; düşük hacim zayıf destek işareti olabilir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "49f83a81fe43ca11"
+}

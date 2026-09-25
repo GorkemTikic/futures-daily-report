@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-24T12:11:39.836Z",
-  "count": 99,
+  "generatedAt": "2026-09-25T00:09:29.062Z",
+  "count": 100,
   "counts": {
-    "total": 99,
-    "market": 12,
+    "total": 100,
+    "market": 13,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-23",
+  "latest": "2026-09-24",
   "reports": [
+    {
+      "date": "2026-09-24",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.02098295046363677,
+        "ETH": 0.11925214001692908
+      },
+      "marketSummary": "A major crypto exchange suffered a $351 million theft, US regulators tightened stablecoin rules, and New York sued a prediction market platform.",
+      "oneLine": "A major crypto exchange suffered a $351 million theft, US regulators tightened stablecoin rules, and New York sued a prediction market platform.",
+      "newsCount": 10,
+      "topMover": {
+        "symbol": "SAGAUSDT",
+        "chgPct": 55.30936454849499
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-24/summary_2026-09-24.html",
+        "pdf": "reports/2026-09-24/summary_2026-09-24.pdf",
+        "md": "reports/2026-09-24/summary_2026-09-24.md"
+      }
+    },
     {
       "date": "2026-09-23",
       "kind": "market",

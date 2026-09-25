@@ -1,0 +1,266 @@
+{
+  "oneLine": "一家大型加密货币交易所被黑客盗取$351百万，美国监管部门加强稳定币规则，纽约起诉了一个预测市场平台。",
+  "caveman": "9月24日，一家大型加密货币交易所Bitget被黑客攻击，丢失了约$351百万。同时，美国政府的美联储（银行监管机构）和CFTC（交易监管机构）都为加密货币公司发布了新规则：美联储表示稳定币发行商（发行类似美元代币的公司）必须保持全额美元储备并遵循严格的资本规则，CFTC表示交易公司现在可以正式使用加密区块链记录。同样在这一天，纽约检察长起诉了一个叫Polymarket的预测市场，说它在非法运营赌博业务并需要牌照。比特币和以太坊几乎没有动（只涨了0.01–0.12%），整个加密市场下跌2.4%，所以这一天主要是因为黑客事件和政府新规则而令人担忧，不是因为价格大幅波动。",
+  "priceVolumeSummary": "比特币收于$84,370（各交易所上涨0.01–0.02%），以太坊收于$2,687（上涨0.12%）。五大交易所——Binance、Bybit、OKX、Bitget和Gate——的价格基本一致，显示协议良好。加密货币总市值下跌2.4%至$2.89万亿。Binance和Bybit在两种币上的成交量领先，比特币合计成交量约$19.5十亿，以太坊合计成交量约$10.7十亿。",
+  "positioningSummary": "资金费率在不同交易所之间差异很大。在比特币上，Bybit交易者被收取10.95%的年化费率（非常看涨的情绪，通常不可持续），而Binance仅为0.23%，OKX为-0.42%（略微看跌），显示对方向的分歧。在以太坊上，同样的格局成立：Bybit为10.95%，Binance为3.03%，OKX为-3.69%。Binance上的多空比显示看涨倾向——比特币为1.16:1（做多多16%），以太坊为2.78:1（做多数量是做空的近3倍），表明交易者预期价格向上。持仓量（期货中的总借入资金）在整个交易日内保持稳定，因此没有急于平仓的迹象。",
+  "stocksSummary": "亚洲股市表现不佳。韩国芯片股（SK Hynix、Samsung Electronics、Hyundai Motor）下跌1–2%，拖累KOSPI指数下跌2.03%。香港科技股走势不一：MiniMax（AI视频）表现强劲，上涨+3.86%，但GigaDevice芯片下跌3.32%，Tencent小幅下跌0.62%。中国Unitree Robotics在Binance机器人合约上上涨1.18%，但CXMT半导体下跌1.28%。美股基本持平或下跌（S&P 500下跌-0.08%，Nasdaq下跌-0.05%），原油上涨1.8–2%因地缘政治担忧推高了能源价格。黄金下跌0.2%，美债收益率上升（债券价格下跌0.55%），表明交易者预期美联储可能会很快加息。",
+  "movers": [
+    {
+      "symbol": "SAGA",
+      "explanation": "上涨55.3%，成交量$161百万。大幅波动和交易量表明可能存在某种催化剂——可能是空投、合作伙伴关系或交易所上市传言——但当天没有公开新闻面世。监控社区公告和社交媒体以了解是什么触发了这波行情。",
+      "hasCause": false
+    },
+    {
+      "symbol": "TAKE",
+      "explanation": "下跌41.4%，成交量$132百万。大幅下跌伴随高成交量通常表示存在负面催化剂：可能的代币解锁、交易所下架或社区反感。没有明确的新闻公告与时间相符，因此值得调查链上事件或Discord和Twitter上的讨论。",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾（中文代币）",
+      "explanation": "下跌38.1%，成交量$188百万。中文名称和较大的成交量表明这可能是国内或亚洲重点代币；没有英文媒体报道原因。检查中文加密媒体和社交渠道，了解任何监管行动或公司新闻。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitget在热钱包黑客攻击中丧失$351.6百万，暂停提款",
+        "what": "黑客在不到一小时内从Bitget的热钱包和温钱包中吸取了$351.6百万，在9月24日大约18:31 UTC被发现。首席执行官Gracy Chen表示冷钱包和用户资金仍然安全，交易所承诺$464百万的用户保护基金将弥补损失。交易所在调查该漏洞期间暂停了提款。",
+        "coins": "多链（ETH、USDC、USDT、BNB、AVAX）",
+        "timeUTC": "18:31 UTC, September 24",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe"
+      },
+      {
+        "headline": "纽约检察长起诉Polymarket，指控其非法赌博运营",
+        "what": "纽约检察长Letitia James和州长Kathy Hochul于9月24日对QCX LLC（Polymarket的美国实体）提起诉讼，指控其运营无执照赌博业务，未能验证用户年龄、征收州税和获得游戏委员会执照。该州寻求阻止该平台、追回非法收益并处以利润三倍的罚款。Polymarket随后在当天在联邦法院提起反诉以阻止州的诉讼。",
+        "coins": "不适用（预测市场）",
+        "timeUTC": "September 24",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation"
+      },
+      {
+        "headline": "美联储在GENIUS法案下提议稳定币资本和赎回规则",
+        "what": "美国美联储在9月24日发布了两项提议，以在GENIUS法案下监管由银行发行的支付稳定币。银行必须用高质量准备金（短期国库券、现金）以1:1的比例支持稳定币、符合资本标准并允许在两天内赎回。这些提议开启了60天的公众评议期，并为美联储监管的银行发行稳定币建立了法律框架。",
+        "coins": "稳定币（USDC、USDT等）",
+        "timeUTC": "September 24",
+        "source": "Federal Reserve / CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC阐明代币化资产和区块链记录保存现已成为美国商品公司的官方工具",
+          "what": "美国商品期货交易委员会（CFTC）在9月24日发布了更新指南，欢迎代币化资产和区块链记录作为有监管交易的合法要素。这一举措明确允许商品公司和经纪商使用加密基础设施，这是在国会CLARITY法案投票失败后的举动。",
+          "coins": "代币化资产（一般）",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Bullish、Alpaca和Apex Fintech组建联盟以标准化发行人支持的代币化股票",
+          "what": "三家主要交易基础设施公司在9月24日宣布组建联盟，以开发由公司直接发行（而非包装代币）的代币化股票标准，确保链上股票与官方股东记录相关联。这一推动紧跟美国证券交易委员会（SEC）对股票代币交易的创新豁免。",
+          "coins": "代币化股权",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks"
+        },
+        {
+          "headline": "ARK Invest通过Securitize将$1.3十亿风险基金上链，持有OpenAI和Anthropic",
+          "what": "ARK Invest在9月24日宣布，它通过Securitize在Ethereum上将其$1.3十亿ARK风险基金（ARKVX）代币化。该基金持有OpenAI、Anthropic和Stripe的早期股份，使创业投资获取对合格投资者的区块链本地化。",
+          "coins": "Ethereum",
+          "timeUTC": "September 24",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294"
+        },
+        {
+          "headline": "Ondo推出基于BlackRock开发的模型策略的链上投资组合代币",
+          "what": "Ondo Finance在9月24日宣布三个新的链上投资组合代币，每个都遵循BlackRock最初开发的模型投资策略。这一举动将被动加密本地指数产品推向更广泛的受众。",
+          "coins": "Ondo（ONDO）",
+          "timeUTC": "September 24",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260"
+        },
+        {
+          "headline": "SoFi将整个$25十亿卡计划转移到区块链稳定币结算",
+          "what": "SoFi在9月24日宣布，它已将其全年$25十亿卡计划转移到通过其自有SoFiUSD稳定币在区块链上结算，与MasterCard合作。这一举动证明稳定币是高交易量支付传统银行渠道的替代品。",
+          "coins": "SoFiUSD（稳定币）",
+          "timeUTC": "September 24",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sofi-moves-25b-card-program-to-stablecoin-settlement-with-mastercard"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Duelbits加密赌场在$7百万热钱包黑客攻击后离线",
+          "what": "加密赌场Duelbits在9月24日因攻击者从其在四个区块链（Ethereum、Polygon、Optimism、Arbitrum）上的热钱包中吸取了约$7百万而离线。被盗资金中的约$6百万仍保留在一个以太坊地址中，等待转换或提款。",
+          "coins": "多链（ETH、USDC、USDT、其他代币）",
+          "timeUTC": "September 24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Sequans完全退出比特币金库策略，售出最后314 BTC",
+          "what": "法国半导体公司Sequans在9月24日宣布已完全取消其比特币金库策略，售出其原始3,200枚硬币持有的最后314 BTC。这一退出反映了一个更广泛的趋势，即企业金库以折扣价交易，相对于其加密净资产值（NAV），削弱了资产负债表多样化进入加密的吸引力。",
+          "coins": "Bitcoin",
+          "timeUTC": "September 24",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sequans-exits-bitcoin-treasury-strategy-after-selling-remaining-314-btc"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-22",
+    "summary": "比特币ETF在9月22日（最新公布日期）的净流入为$714.7百万，低于9月21日$998.95百万的流入，后者是2026年最大的单日流入。BlackRock的IBIT、ARK 21Shares的ARKB和Fidelity的FBTC领导了流入。年初至今，比特币ETF流入自4月以来首次返回正值领地。",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+  },
+  "calendarNotes": [
+    {
+      "event": "SNB Rate Decision (Swiss central bank), Riksbank Rate Decision (Swedish central bank)",
+      "typicalReaction": "中等影响。任一央行降息（降低利率）将削弱其货币，使比特币等风险资产在全球更具吸引力。保持不变或加息将支持其货币并将资金吸引到更安全的债券。"
+    },
+    {
+      "event": "Norges Bank Rate Decision (Norwegian central bank)",
+      "typicalReaction": "中等影响。挪威的政策举措发出了类似信号：降息有利于风险偏好情绪（比特币、股票），保持不变或加息有利于货币和债券。"
+    },
+    {
+      "event": "US Initial Jobless Claims (12:30 UTC)",
+      "typicalReaction": "中等影响。更少的失业申请表明美国经济强劲，减少了美联储近期降息的压力，支持美元和美债收益率（对比特币不利）。更多的申请表明经济疲软和降息预期（对比特币有利）。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "资产当前价格与过去某个固定时间点的价格之间的差异（例如，日基差是指单个UTC日历日内从市场开盘到收盘的变化）。"
+    },
+    {
+      "term": "比特币（BTC）",
+      "definition": "按市值计算最大的和最古老的加密货币，创建于2009年。对许多投资者和机构而言，作为数字黄金和价值储存。"
+    },
+    {
+      "term": "冷钱包",
+      "definition": "一个离线且与互联网断开连接的加密货币存储系统，使黑客极其难以访问。交易所使用它来保护大部分用户资金。"
+    },
+    {
+      "term": "占有率",
+      "definition": "单个资产在总加密货币市值中所占的百分比（例如，比特币占有率58.6%表示比特币的价值占所有加密货币总价值的58.6%）。"
+    },
+    {
+      "term": "以太坊（ETH）",
+      "definition": "按市值计算第二大的加密货币。一个区块链平台，允许开发人员在其上构建应用程序和智能合约。"
+    },
+    {
+      "term": "交易所",
+      "definition": "交易者可以买卖加密货币的平台。示例包括Binance、Bybit、OKX、Bitget和Gate——本报告涵盖的所有主要交易所。"
+    },
+    {
+      "term": "恐惧和贪心指数",
+      "definition": "一个每日情绪指标（0-100量表），测量交易者是否害怕（低数字）或贪心和自信（高数字）。71 = 贪心。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "在期货合约上，做多交易者（看涨的人）每8小时向做空交易者（看跌的人）支付的费用。高的正费率意味着看涨的人支付更多；负费率意味着看跌的人支付。年化%表示如果这个费率持续一年，你会支付多少。"
+    },
+    {
+      "term": "期货合约",
+      "definition": "关于资产（比特币、以太坊、股票指数等）未来价格的赌注，以现金结算。交易者可以做多（赌价格上升）或做空（赌价格下降），经常使用杠杆（借来的钱），这会放大收益和损失。"
+    },
+    {
+      "term": "黄金",
+      "definition": "传统上作为价值储存和对冲通胀的贵金属。在报告中，作为现货价格（盎司对美元）和商品合约进行追踪。"
+    },
+    {
+      "term": "热钱包",
+      "definition": "连接到互联网以便快速访问资金的加密货币存储系统。比冷存储更方便，但更容易受到黑客攻击。"
+    },
+    {
+      "term": "杠杆",
+      "definition": "交易者借用的钱来控制比自己资本允许的更大的赌注。例如，10倍杠杆 = 用你自己的$100来控制价值$1,000的资产。放大收益和损失。"
+    },
+    {
+      "term": "做多/做多头寸",
+      "definition": "对资产价格上升的赌注。做多的交易者持有资产或期货合约，打赌向上走。"
+    },
+    {
+      "term": "多空比",
+      "definition": "开放的做多赌注数量除以开放的做空赌注数量。例如，1.16:1 = 比下跌的交易者多16%的人正在打赌上升。比率高于1表示看涨情绪；低于1表示看跌情绪。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所上期货合约的当前公平价值价格，用于结算利润和损失。它反映了现货价格（真实世界价格）和资金费率，以防止极端分歧。"
+    },
+    {
+      "term": "价格波动的币",
+      "definition": "在给定时期内价格大幅波动（上升或下降）的资产，通常吸引交易者关注。"
+    },
+    {
+      "term": "纳斯达克综合指数",
+      "definition": "纳斯达克股票交易所上所有上市股票的指数，按市值加权。用作美国科技公司健康状况的指标。"
+    },
+    {
+      "term": "净资产值",
+      "definition": "基金或公司持有的资产总值减去负债。对于比特币金库公司，净资产值=当前价格下持有的比特币总值减去债务。当公司股票交易价格低于净资产值时，意味着交易者对公司的估值低于其持有物的现金价值。"
+    },
+    {
+      "term": "纽约证券交易所/美国股票",
+      "definition": "纽约证券交易所和美国股票市场。该报告跟踪主要美国股票指数（标普500、纳斯达克），以显示美国股票相对于加密货币的走势。"
+    },
+    {
+      "term": "未平仓头寸（OI）",
+      "definition": "交易所上开放期货合约中借入和部署的总金额。上升的未平仓头寸 = 交易者添加新的赌注（看涨或看跌）。下降的未平仓头寸 = 交易者关闭赌注（信心减弱）。以硬币（例如BTC）和美元当量报告。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一天内总未平仓头寸的增加或减少。正变化意味着新的杠杆进入市场；负变化意味着杠杆被逐出。"
+    },
+    {
+      "term": "永续/永续合约",
+      "definition": "没有到期日期的期货合约（与传统期货不同，后者会到期）。交易者可以根据需要长期持有，每8小时支付资金费用。"
+    },
+    {
+      "term": "标普500（SPY）",
+      "definition": "美国500家最大上市公司的股票市场指数，按市值加权。美国股票健康状况的广泛指标。SPY是一个跟踪它的ETF。"
+    },
+    {
+      "term": "结算",
+      "definition": "合约或交易结束时的最终交付或现金转账。在交易所上，期货通常以合约价格以现金结算。"
+    },
+    {
+      "term": "做空/做空头寸",
+      "definition": "对资产价格下跌的赌注。做空的交易者借用资产或采取衍生品合约打赌价格下降。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "设计用来保持稳定价值的加密货币，通常以1:1的比例与美元或其他货币挂钩。示例：USDT（Tether）、USDC（Circle）、SoFiUSD。用于支付和作为市场波动期间的安全港口。"
+    },
+    {
+      "term": "代币化资产/代币化股票",
+      "definition": "现实世界资产（如公司股份或商品）转换为可在区块链上买卖的数字代币。目的是使资产所有权更快、更容易获得。"
+    },
+    {
+      "term": "总市值",
+      "definition": "所有加密货币市值的总和，通过将每种硬币的价格乘以流通中的数量并相加来计算。在9月24日，所有加密货币总价值$2.89万亿。"
+    },
+    {
+      "term": "美债/美国国债",
+      "definition": "美国政府为支付政府支出而发行的债券（债务）。10年期美债是10年债券。美债收益率上升意味着债券价格下跌，市场预期利率或通胀将保持高位。"
+    },
+    {
+      "term": "交易场所/交易所",
+      "definition": "交易者下单的特定加密交易平台（例如Binance、Bybit、OKX）。"
+    },
+    {
+      "term": "成交量/交易量",
+      "definition": "在一个时期内买卖资产的总金额，以美元价值衡量（例如，一天内BTC成交量$10十亿）。高成交量表示强烈的兴趣和价格信心；低成交量可能表示价格支持薄弱。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "49f83a81fe43ca11"
+}

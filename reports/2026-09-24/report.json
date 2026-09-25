@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-24",
+  "kind": "market",
+  "dateLong": "Thursday, 24 September 2026",
+  "coversUTC": "2026-09-24 00:00–23:59 UTC",
+  "oneLine": "A major crypto exchange suffered a $351 million theft, US regulators tightened stablecoin rules, and New York sued a prediction market platform.",
+  "newsCount": 10,
+  "macro": {
+    "BTC": 0.02098295046363677,
+    "ETH": 0.11925214001692908
+  },
+  "topMover": {
+    "symbol": "SAGAUSDT",
+    "chgPct": 55.30936454849499
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "25 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
