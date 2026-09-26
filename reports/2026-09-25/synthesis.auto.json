@@ -1,0 +1,261 @@
+{
+  "oneLine": "Bitcoin fell 0.37% and Ethereum rose 0.14% while most altcoins rallied; the $387 million Bitget breach dominated security news, the SEC's lead crypto advocate announced her October 2 departure, and $3 billion flowed into US crypto ETFs.",
+  "caveman": "Bitcoin is digital money that people trade. On September 25, Bitcoin went down a little bit (less than 1%), and Ethereum (another digital money) went up slightly. Most other smaller digital currencies had a pretty good day. The big scary news was that a big exchange called Bitget lost $387 million in a hack. The people running Bitget think North Korea did it. They think someone used a trick to move the money out without stealing the actual security keys. Even scarier, the person at the U.S. government agency (the SEC) who has been the best friend of cryptocurrencies said she's leaving her job on October 2. That's bad news for people who want the government to help cryptocurrencies grow. Money that the bank Tether uses got taken by the government, but Tether says it only owns a tiny bit of that money, so it's okay. Also, a lot of people put money into Bitcoin and Ethereum funds. It was a day with good and bad news at the same time — some coins did really well, but serious problems with safety and government support.",
+  "priceVolumeSummary": "Bitcoin held remarkably tight at $84,056–$84,060 across all five major exchanges, with Binance leading daily volume at $11.3 billion. Ethereum similarly consolidated at $2,690–$2,690.60, also with Binance highest at $8.5 billion.",
+  "positioningSummary": "Bitcoin funding rates were elevated on Bybit (10.95% annualized) but restrained elsewhere (Binance 0.84%, Gate negative at -3.07%), indicating shorts struggling to stay open. Ethereum showed stronger long bias, particularly on Binance (2.70× more longs than shorts). Open interest grew modestly across venues, with Binance holding $8.0B in BTC and $6.1B in ETH exposure. The mixed funding signals suggest neither extreme leverage buildup nor panic deleveraging, with positioning stable through the day.",
+  "stocksSummary": "Korean equities rallied: SK Hynix +2.5%, Samsung +3.2%, and KOSPI ETF +2.1%, consistent with the semiconductor-led rally that has driven Asian tech gains through 2026 on AI demand. Hong Kong saw weakness in AI stocks (Zhipu AI -1.8%, MiniMax -2.4%) and large tech (Tencent -0.4%, Xiaomi -2.6%). China had minimal moves. US stocks closed higher (S&P 500 +0.54%, Nasdaq +0.50%) while oil fell sharply (WTI -1.4%, Brent -2.1%), gold held flat (+0.54%), and the 10-year Treasury yield climbed to 5.22%, the sharpest bond move since March 2026.",
+  "movers": [
+    {
+      "symbol": "PHA",
+      "explanation": "Phala Network gained 70.7% to $0.087 on $482M daily volume; no clear public news or exchange announcement explaining the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SAGA",
+      "explanation": "Saga fell 52.1% to $0.036 on $364M daily volume, closing near session low after intraday high of $0.092; no identified cause in regulatory, exchange, or project announcements.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTW",
+      "explanation": "Bitcoin Wars (BTW) jumped 38.0% to $1.315 on $195M volume; no corresponding news or market event identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitget suffers $387.5 million security breach; North Korea suspected",
+        "what": "Bitget's CEO Gracy Chen says North Korea is very likely behind the theft of $387.5 million in cryptocurrency from the exchange's hot and warm wallets. An attacker faked internal transfer requests to trigger the exchange's authorization process without stealing private keys. Circle and Tether froze approximately $318,000 in stablecoins (USDC and USDT) tied to the hacker's wallet, but the vast majority of stolen funds were swapped into Ethereum—which cannot be frozen. The attack is the largest cryptocurrency theft of 2026 to date.",
+        "coins": "All assets on Bitget (BTC, ETH, altcoins, stablecoins)",
+        "timeUTC": "2026-09-24 18:31 UTC; announced 2026-09-25",
+        "source": "Decrypt, CoinDesk, Gizmodo, Fortune",
+        "url": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect"
+      },
+      {
+        "headline": "SEC's Hester Peirce, 'Crypto Mom,' to depart October 2",
+        "what": "Hester Peirce, the U.S. Securities and Exchange Commission's most vocal crypto advocate, announced she will resign on October 2, 2026, ending her nine-year term and joining Regent University School of Law as an associate professor in November. Her departure will leave the SEC with only two commissioners—a historically shorthanded agency that can still operate with a quorum of two. The timing comes as the agency continues releasing fresh crypto guidance.",
+        "coins": "Regulatory impact on all cryptocurrencies",
+        "timeUTC": "2026-09-25 (announced via social media)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week"
+      },
+      {
+        "headline": "U.S. authorities seize $89 million from Tether's banking partner EQIBank",
+        "what": "Federal prosecutors seized approximately $89 million from EQIBank, a Dominica-licensed offshore bank that processes funds for Tether and other crypto firms. The seizure targeted accounts at the bank's U.S. payment processor, Capstone, which moved money through Wells Fargo and JPMorgan Chase. Tether confirmed it holds assets at EQIBank but said its exposure amounts to less than 0.034% of its total $187.75 billion in backing—capping potential loss around $64 million. The company said it had no knowledge of Capstone's alleged violations and that its funds remain accessible, posing no immediate threat to USDT's dollar peg.",
+        "coins": "USDT (Tether)",
+        "timeUTC": "2026-09-25 (announced)",
+        "source": "CoinDesk, Decrypt, PYMNTS",
+        "url": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC releases crypto FAQ addressing token buybacks, network upgrades, and profit expectations",
+          "what": "The SEC's staff published guidance clarifying when token buybacks, network upgrades, and promises of profit create securities law violations. Promoting a network's current uses 'generally would not create an expectation of profit,' the FAQ states, offering limited relief to token projects navigating securities classification.",
+          "coins": "All altcoins and projects issuing tokens",
+          "timeUTC": "2026-09-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-25-sec-crypto-faq-addresses-token-buybacks-network-upgrades-promises-profit-416914"
+        },
+        {
+          "headline": "Kalshi prediction market loses another court appeal; sports contracts ruled subject to state regulation",
+          "what": "A Sixth Circuit Court of Appeals panel ruled that prediction markets' sports-related event contracts are not swaps and therefore are not subject to federal regulatory oversight, instead falling under state regulation. This marks another legal setback for Kalshi, which has been seeking CFTC approval for sports and political prediction markets.",
+          "coins": "Prediction market platforms",
+          "timeUTC": "2026-09-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations"
+        },
+        {
+          "headline": "Blockchain Association leadership changes as CLARITY Act stalls; original CEO Kristin Smith returns as interim",
+          "what": "Summer Mersinger, who joined the Blockchain Association in 2025 after leaving the CFTC, is stepping down at the end of September. Kristin Smith, the organization's original CEO, will return as interim leader following the collapse of crypto industry efforts to pass the CLARITY Act in Congress.",
+          "coins": "Industry-wide regulatory navigation",
+          "timeUTC": "2026-09-25",
+          "source": "The Block, CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-09-25-blockchain-association-ceo-summer-mersinger-tstep-down-kristin-smith-interim-ceo-416913"
+        },
+        {
+          "headline": "OG.com (spun from Crypto.com) seeks CFTC approval for single-stock perpetual futures",
+          "what": "OG.com has filed for CFTC approval to offer perpetual futures on individual U.S. stocks, joining Coinbase, Kalshi, and Payward (Kraken's parent) in the race to bring equity perps to retail U.S. traders. The move reflects crypto platforms' pivot toward traditional-finance products as regulatory clarity remains elusive.",
+          "coins": "Not coin-specific; tokenized equities/perps",
+          "timeUTC": "2026-09-25",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Spot Bitcoin and Ethereum ETFs draw $191 million and $66 million respectively on September 25",
+          "what": "U.S. spot Bitcoin ETFs received $191 million in net inflows, with BlackRock's IBIT accounting for $163 million. Ethereum spot ETFs attracted $66 million, led by BlackRock's ETHA ($26.8M) and Fidelity's FETH ($21.5M). The combined inflow extended Ethereum's five-session streak to $746.5 million and continues a broader week-long rally that has seen over $3 billion flow into crypto ETFs.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-09-25",
+          "source": "Farside Investors (via web search)",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "Crypto ETFs draw over $3 billion this week, with $800 million flowing beyond Bitcoin",
+          "what": "U.S. crypto exchange-traded funds pulled in more than $3 billion during the week ending September 25, with spot ETFs tracking Bitcoin, Ethereum, Solana, XRP, and other altcoins all posting gains. The diversified flows reflect broadening institutional interest beyond Bitcoin into altcoin exposure.",
+          "coins": "BTC, ETH, SOL, XRP, altcoins",
+          "timeUTC": "2026-09-25",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-crypto-etfs-draw-over-3-billion-this-week-with-nearly-800-million-flowing-beyond-bitcoin/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aave V4 on Base adds Coinbase tokenized stocks as collateral for USDC loans",
+          "what": "Aave V4 on Coinbase's Base network added Apple, Nvidia, Tesla, and four other tokenized stocks as collateral for borrowing USDC stablecoins. The integration is available to non-U.S. users and represents a key step in bridging decentralized finance with traditional equity markets via tokenized securities.",
+          "coins": "USDC, tokenized equities",
+          "timeUTC": "2026-09-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372"
+        },
+        {
+          "headline": "CoinMarketCap acquires CoinGlass to expand crypto derivatives data",
+          "what": "CoinMarketCap announced its acquisition of CoinGlass, a popular derivatives and crypto data platform. CoinGlass will retain its brand and team; its website, app, free tools, API, and pricing remain unchanged, expanding CoinMarketCap's derivatives tracking capabilities.",
+          "coins": "Not coin-specific; derivatives data infrastructure",
+          "timeUTC": "2026-09-25",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "headline": "Morgan Stanley joins NEXTPredict as prediction markets bet on institutional adoption",
+          "what": "Morgan Stanley became a participant in NEXTPredict, a prediction market platform, as the space pursues institutional investors. The bulk of prediction market trades remain sports bets, but platforms are positioning for rising institutional interest in political and event prediction contracts.",
+          "coins": "Prediction market platforms",
+          "timeUTC": "2026-09-25",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379218/morgan-stanley-joins-nextpredict-as-prediction-markets-bet-on-more-institutional-play"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Magic Eden NFT platform warns of legacy Ethereum listing exploit; whitehats rescue 23,155 NFTs worth $5.7 million",
+          "what": "A flaw in Limit Break's Payment Processor V2 exposed old Magic Eden Ethereum NFT listings to an exploit. Whitehats rescued over 23,155 NFTs valued at approximately $5.7 million before attackers could drain the wallet approvals. Magic Eden has warned users to revoke old approval permissions on affected listings.",
+          "coins": "NFTs, ETH",
+          "timeUTC": "2026-09-25",
+          "source": "Decrypt, The Block, CryptoSlate",
+          "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit"
+        },
+        {
+          "headline": "MultiversX mainnet restarts after exploit but Kraken pauses EGLD trading",
+          "what": "MultiversX's mainnet resumed block production on September 24 after a temporary halt following a security exploit. However, Kraken kept EGLD (MultiversX's token) trading on cancel-only status, with deposits and withdrawals paused pending further investigation.",
+          "coins": "EGLD",
+          "timeUTC": "2026-09-25",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/multiversx-restarts-after-exploit-halt-but-kraken-still-bars-new-egld-trades/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "U.S. stocks rally while bond yields surge to decade-high levels; gold and oil mixed",
+          "what": "The S&P 500 gained 0.54% (SPY) and Nasdaq rose 0.50% (ONEQ) on September 25. However, bond markets sold off sharply, with the 10-year U.S. Treasury yield climbing to 5.22%—the highest volatility since March 2026. Gold rose modestly (+0.54% perp) while crude oil fell (WTI -1.4%, Brent -2.1%). The U.S. dollar index declined 0.24%, suggesting broad equity support amid rising rates.",
+          "coins": "No direct crypto impact",
+          "timeUTC": "2026-09-25 (US market hours)",
+          "source": "Data pack; CoinDesk market commentary",
+          "url": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[CONTEXT] Federal Reserve proposes reserve limits and capital standards for stablecoin issuers under GENIUS Act",
+          "what": "[Announced September 24, outside report day] The Federal Reserve proposed new regulatory measures for stablecoin issuers supervised by the Fed, including reserve-asset limits and standardized capital requirements. The framework is part of implementation of the GENIUS Act and represents major movement on U.S. stablecoin regulation.",
+          "coins": "USDT, USDC, all stablecoins",
+          "timeUTC": "2026-09-24 (context from Sept 24)",
+          "source": "Federal Reserve, The Block",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+        },
+        {
+          "headline": "[CONTEXT] $15.6 billion Bitcoin options expiry triggered as altcoin rally accelerated",
+          "what": "[Reported September 25] A major expiration of Bitcoin options contracts worth $15.6 billion coincided with a broad altcoin rally, as 93 of the top 100 crypto assets by market cap posted gains. Quant (QNT) was among the largest gainers at +39%, signaling rotation out of Bitcoin into altcoins.",
+          "coins": "BTC, altcoins",
+          "timeUTC": "2026-09-25",
+          "source": "Decrypt, CoinDesk",
+          "url": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-25",
+    "summary": "U.S. spot Bitcoin ETFs received $191 million in net inflows, with BlackRock's IBIT leading at $163 million. Ethereum spot ETFs attracted $66 million (BlackRock ETHA $26.8M, Fidelity FETH $21.5M), extending a five-session positive streak to $746.5 million total. Combined flows support the broader week-long rally totaling over $3 billion into crypto ETFs.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "RBA Rate Decision (Australia) — Tuesday 29 Sept, 04:30 UTC",
+      "typicalReaction": "Medium impact; central bank decisions can move risk sentiment and the dollar, affecting crypto valuations"
+    },
+    {
+      "event": "Germany CPI Flash, Australia CPI, U.S. PCE Inflation — 29–30 Sept UTC",
+      "typicalReaction": "Medium-to-high; inflation data shapes interest-rate expectations and macro risk-on/risk-off flows to crypto"
+    },
+    {
+      "event": "U.S. Employment Situation (Non-Farm Payrolls) — Friday 2 Oct, 12:30 UTC",
+      "typicalReaction": "High impact; jobs data is a major crypto mover; strong jobs support the dollar and rate-hike expectations, typically bearish for risk assets"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis trade",
+      "definition": "Strategy of borrowing crypto at one rate, selling it via futures at a higher price, and pocketing the difference when contracts expire—used by platforms like Ethena to back stablecoin yield"
+    },
+    {
+      "term": "Blacklist / Blacklisting",
+      "definition": "Stablecoin issuers' ability to freeze or block specific cryptocurrency wallet addresses from holding their coins—used by Circle (USDC) and Tether (USDT) to comply with sanctions and law enforcement"
+    },
+    {
+      "term": "Cold wallet",
+      "definition": "Offline cryptocurrency storage; most secure but slowest to access funds—typically held by exchanges in vaults or hardware devices not connected to the internet"
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment gauge measuring market emotion from 0 (extreme fear) to 100 (extreme greed); helps traders identify potential reversals when extremes are reached"
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Interest paid between traders holding opposite sides of perpetual futures contracts—positive rates mean longs pay shorts; negative rates mean shorts pay longs; used to keep perpetual contract prices aligned with spot"
+    },
+    {
+      "term": "Hot wallet",
+      "definition": "Exchange cryptocurrency storage kept online for quick customer withdrawals; easier to hack than cold storage but necessary for operational liquidity"
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowing money to increase the size of a trading position beyond what a trader's own capital could buy; amplifies both gains and losses"
+    },
+    {
+      "term": "Long / Short",
+      "definition": "Long = bet that price will go up; short = bet that price will go down; the long/short ratio shows how many traders are bullish vs. bearish on an asset"
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to settle perpetual futures contracts and calculate trader profit/loss; designed to track the spot market price but may diverge temporarily"
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value of all open (unsettled) futures contracts on an exchange; rising open interest suggests fresh money entering the market, while falling open interest suggests traders closing positions"
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The net increase or decrease in open interest over a period; positive change = new leverage being added to the market; negative change = leverage unwinding"
+    },
+    {
+      "term": "Perpetual futures / Perps",
+      "definition": "Cryptocurrency derivatives contracts that allow traders to bet on price movements with leverage; unlike standard futures, they have no expiration date and use funding rates to stay tethered to spot price"
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "Exchange-traded fund that holds actual cryptocurrency (Bitcoin or Ethereum) and trades on U.S. stock exchanges; differs from futures-based ETFs because it holds real coins"
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "Cryptocurrency pegged to hold a fixed value, typically $1 USD; the main ones are USDT (Tether) and USDC (Circle); used for buying/selling crypto and holding value without price risk"
+    },
+    {
+      "term": "Warm wallet",
+      "definition": "Intermediate cryptocurrency storage between hot wallets (fast, less secure) and cold wallets (slow, most secure); offers a balance of access speed and security"
+    }
+  ],
+  "_source": "cli"
+}

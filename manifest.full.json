@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-25T00:09:29.062Z",
-  "count": 100,
+  "generatedAt": "2026-09-26T00:06:45.885Z",
+  "count": 101,
   "counts": {
-    "total": 100,
-    "market": 13,
+    "total": 101,
+    "market": 14,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-24",
+  "latest": "2026-09-25",
   "reports": [
+    {
+      "date": "2026-09-25",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.3729052232808616,
+        "ETH": 0.14144324217687576
+      },
+      "marketSummary": "Bitcoin fell 0.37% and Ethereum rose 0.14% while most altcoins rallied; the $387 million Bitget breach dominated security news, the SEC's lead crypto advocate announced her October 2 departure, and $3 billion flowed into US crypto ETFs.",
+      "oneLine": "Bitcoin fell 0.37% and Ethereum rose 0.14% while most altcoins rallied; the $387 million Bitget breach dominated security news, the SEC's lead crypto advocate announced her October 2 departure, and $3 billion flowed into US crypto ETFs.",
+      "newsCount": 17,
+      "topMover": {
+        "symbol": "PHAUSDT",
+        "chgPct": 70.65880039331365
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-25/summary_2026-09-25.html",
+        "pdf": "reports/2026-09-25/summary_2026-09-25.pdf",
+        "md": "reports/2026-09-25/summary_2026-09-25.md"
+      }
+    },
     {
       "date": "2026-09-24",
       "kind": "market",

@@ -1,0 +1,262 @@
+{
+  "oneLine": "Bitcoin %0,37 düştü, Ethereum %0,14 yükseldi ve çoğu altcoin yükseliş kaydederken; 387 milyon dolarlık Bitget ihlali güvenlik haberlerini domine etti, SEC'in ana kripto savunucusu 2 Ekim'deki ayrılışını duyurdu ve 3 milyar dolar ABD kripto ETF'lerine aktığı.",
+  "caveman": "Bitcoin, insanların alıp sattığı dijital para. 25 Eylül'de Bitcoin hafif düştü (yüzde 1'den az), Ethereum (başka bir dijital para) ise hafif yükseldi. Diğer birçok küçük dijital paralar oldukça iyi bir gün yaşadı. Korkunç haber, Bitget adlı büyük bir kripto borsasının 387 milyon dolar çalındığıydı. Bitget'in yöneticileri bunun Kuzey Kore'nin işi olduğunu düşünüyor. Birinin özel bir hile kullanarak parayı hareket ettirdiğini ancak güvenlik anahtarlarını çalmadığını düşünüyorlar. Daha da korkutucu olan, ABD hükümet kurumu (SEC) içinde kryptoların en büyük destekçisi olmuş kişi 2 Ekim'de işten ayrılacağını söyledi. Kryptoların büyümesine yardımcı olmak isteyen insanlar için bu kötü haber. Tether adlı şirketin kullandığı para hükümet tarafından alındı ama Tether bunun sadece çok küçük bir kısmını sahip olduğunu söyledi, yani sorun değil. Ayrıca, birçok insan Bitcoin ve Ethereum fonlarına para yatırdı. İyi ve kötü haberlerin bir arada olduğu bir gündü — bazı paralar çok iyi gitti ama güvenlik ve hükümet desteğinde ciddi sorunlar vardı.",
+  "priceVolumeSummary": "Bitcoin beş büyük borsada dikkat çekici biçimde sıkı tutundu (84.056–84.060 dolar), Binance günlük işlem hacminde başı çekti (11,3 milyar dolar). Ethereum benzer şekilde konsolide kaldı (2.690–2.690,60 dolar), Binance burada da en yüksek hacme sahipti (8,5 milyar dolar).",
+  "positioningSummary": "Bitcoin finansman oranları Bybit'te yüksekti (%10,95 yıllık) ancak başka yerlerde kontrollüydü (Binance %0,84, Gate'te negatif -%3,07), bu da short pozisyonların açık kalmakta zorlandığını gösterdi. Ethereum daha güçlü long eğilimi sergiledi, özellikle Binance'da (short'lara kıyasla 2,70 kat daha fazla long). Açık pozisyon değeri bütün borsalarda mütevazı artış gösterdi; Binance 8,0 milyar dolar BTC ve 6,1 milyar dolar ETH pozisyonuna sahipti. Karışık finansman sinyalleri ne aşırı kaldıraç birikimi ne de panik deleverajını gösterdi; konumlandırma gün boyunca istikrarlı kaldı.",
+  "stocksSummary": "Kore hisse senetleri rallisi yaptı: SK Hynix %2,5, Samsung %3,2 ve KOSPI ETF %2,1 artış kaydetti; bu, yapay zeka talebinden dolayı 2026'da Asyatik teknoloji kazançlarını yönlendiren yarı iletken liderliğindeki rallinin devamıydı. Hong Kong, yapay zeka hisse senetlerinde (Zhipu AI -%1,8, MiniMax -%2,4) ve büyük teknoloji şirketlerinde (Tencent -%0,4, Xiaomi -%2,6) zayıflık gördü. Çin minimal hareketler yaptı. ABD hisse senetleri yükseliş kaydetti (S&P 500 +%0,54, Nasdaq +%0,50) ancak petrol keskin düştü (WTI -%1,4, Brent -%2,1), altın sabit kaldı (+%0,54) ve 10 yıllık Hazine getirisi %5,22'ye tırmanarak Mart 2026'dan bu yana en keskin tahvil hareketini yaptı.",
+  "movers": [
+    {
+      "symbol": "PHA",
+      "explanation": "Phala Network, 482 milyon dolar günlük işlem hacminde %70,7 kazanım ile 0,087 dolara yükseldi; hareketi açıklayan açık bir kamuoyu haberi veya borsa duyurusu belirsiz.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SAGA",
+      "explanation": "Saga, 364 milyon dolar günlük işlem hacminde %52,1 düşüş ile 0,036 dolara düştü, gün içi en yüksek 0,092 dolardan sonra oturum en düşüğüne yakın kapandı; düzenleyici, borsa veya proje duyuruşlarında tanımlanan neden yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTW",
+      "explanation": "Bitcoin Wars (BTW), 195 milyon dolar hacminde %38,0 kazanım ile 1,315 dolara sıçradı; karşılık gelen haber veya pazar olayı tespit edilmedi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitget 387,5 milyon dolar güvenlik ihlalinden etkilendi; Kuzey Kore şüpheli",
+        "what": "Bitget'in CEO'su Gracy Chen, Kuzey Kore'nin borsanın sıcak ve ılık cüzdanlarından 387,5 milyon dolar kripto çalınmasının çok muhtemelen sorumlu olduğunu söylüyor. Bir saldırgan, özel anahtarları çalmadan borsanın yetkilendirme sürecini tetiklemek için dahili transfer taleplerini sahte yaptı. Circle ve Tether, hacker'ın cüzdanına bağlı yaklaşık 318.000 dolar stabilcoin'i (USDC ve USDT) dondurdu, ancak çalınan fonların büyük çoğunluğu Ethereum'a dönüştürüldü — bu dondurulamıyor. Saldırı, 2026'da bugüne kadarki en büyük kripto hırsızlığıdır.",
+        "coins": "Bitget'teki tüm varlıklar (BTC, ETH, altcoinler, stabilcoinler)",
+        "timeUTC": "2026-09-24 18:31 UTC; 2026-09-25'te duyuruldu",
+        "source": "Decrypt, CoinDesk, Gizmodo, Fortune",
+        "url": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect"
+      },
+      {
+        "headline": "SEC'in Hester Peirce, 'Kripto Anası', 2 Ekim'de ayrılacak",
+        "what": "ABD Menkul Kıymetler ve Borsa Komisyonu'nun (SEC) en sesli kripto savunucusu Hester Peirce, 2 Ekim 2026'da istifa edeceğini duyurdu; böylece dokuz yıllık görevini sonlandırarak Regent Üniversitesi Hukuk Fakültesi'ne Kasım'da doçent olarak katılacak. Ayrılışı, ajansın yalnızca iki komiser ile kalması demektir — tarihsel olarak eksik personelli bir kurum ancak iki üyeyle işlevsel olmaya devam edebilir. Zaman, kuruluşun yeni kripto rehberliği yayınlamaya devam ettiği sırada geliyor.",
+        "coins": "Tüm kripto para birimlerine düzenleme etkisi",
+        "timeUTC": "2026-09-25 (sosyal medyada duyuruldu)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week"
+      },
+      {
+        "headline": "ABD makamları Tether'in bankacılık ortağı EQIBank'tan 89 milyon dolar ele geçirdi",
+        "what": "Federal savcılar, Tether ve diğer kripto firmalarının fonlarını işleyen Dominika'ya bağlı offshore banka EQIBank'tan yaklaşık 89 milyon dolar ele geçirdi. Ele geçirme, bankanın ABD ödeme işlemcisi Capstone'u hedef aldı; bu şirket Wells Fargo ve JPMorgan Chase üzerinden para taşıdı. Tether, EQIBank'ta varlıkları olduğunu doğruladı ancak maruziyetinin 187,75 milyar dolarlık toplam yedeklemenin %0,034'ünden az olduğunu söyledi — potansiyel kayıp yaklaşık 64 milyon dolar. Şirket, Capstone'un iddia edilen ihlalleri hakkında hiçbir bilgisi olmadığını ve fonlarının erişilebilir kaldığını, USDT'nin dolar peg'ine acil bir tehdit oluşturmadığını söyledi.",
+        "coins": "USDT (Tether)",
+        "timeUTC": "2026-09-25 (duyuruldu)",
+        "source": "CoinDesk, Decrypt, PYMNTS",
+        "url": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC token geri alımı, ağ yükseltmeleri ve kâr beklentilerine açıklık getiren kripto SSS'si yayınlıyor",
+          "what": "SEC personeli, token geri alımları, ağ yükseltmeleri ve kâr vaatlerinin ne zaman menkul kıymetler kanunu ihlalleri yarattığını açıklayan rehberlik yayınladı. Ağın mevcut kullanımlarını teşvik etmek 'genel olarak kâr beklentisi yaratmayacak' diye belirttiği SSS'de, token projeleri menkul kıymetler sınıflandırmasında dolanırken sınırlı rahatlama sunuyor.",
+          "coins": "Tüm altcoinler ve token çıkaran projeler",
+          "timeUTC": "2026-09-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-25-sec-crypto-faq-addresses-token-buybacks-network-upgrades-promises-profit-416914"
+        },
+        {
+          "headline": "Kalshi tahmin piyasası başka bir mahkeme itirazını kaybediyor; spor sözleşmeleri eyalet düzlemesine tabi olarak hüküm giydi",
+          "what": "Altıncı Devre Temyiz Mahkemesi paneli, tahmin piyasalarının spor olaylarıyla ilgili sözleşmelerinin swap olmadığını ve dolayısıyla federal düzenleme gözetimi altına girmediklerini, bunun yerine eyalet düzenlemesine tabi olduğunu hüküm verdi. Bu, CFTC onayı için spor ve siyasi tahmin piyasaları arayan Kalshi için başka bir yasal aksilik.",
+          "coins": "Tahmin piyasası platformları",
+          "timeUTC": "2026-09-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations"
+        },
+        {
+          "headline": "Blockchain Association liderliği değişiyor; CLARITY Kanunu tıkanırken orijinal CEO Kristin Smith interim olarak döndü",
+          "what": "2025'te CFTC'den ayrıldıktan sonra Blockchain Association'a katılan Summer Mersinger, Eylül sonu itibariyle istifa ediyor. Örgütün orijinal CEO'su Kristin Smith, kripto sektörünün Kongre'de CLARITY Kanunu'nu çıkarmak için yaptığı çabaların çökmesinden sonra interim lider olarak geri dönüyor.",
+          "coins": "Endüstri genelinde düzenleme navigasyonu",
+          "timeUTC": "2026-09-25",
+          "source": "The Block, CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-09-25-blockchain-association-ceo-summer-mersinger-tstep-down-kristin-smith-interim-ceo-416913"
+        },
+        {
+          "headline": "OG.com (Crypto.com'dan çıkarılmış), tek hisse perpetual vadeli işlemleri için CFTC onayı arıyor",
+          "what": "OG.com, bireysel ABD hisse senetleri üzerinde perpetual vadeli işlemler sunmak için CFTC onayı için başvurdu ve Coinbase, Kalshi ve Payward (Kraken'ın üst şirketi) ile perakende ABD tüccarlarına hisse senedi perpetuallerini getirme yarışına katıldı. Hamle, düzenleme açıklığı belirsiz kalırken kripto platformlarının geleneksel finansa doğru pivot yapmasını yansıtıyor.",
+          "coins": "Para özelinde değil; tokenize hisse senetleri/perpetuallar",
+          "timeUTC": "2026-09-25",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Spot Bitcoin ve Ethereum ETF'leri sırasıyla 191 milyon dolar ve 66 milyon dolar akın alıyor",
+          "what": "ABD spot Bitcoin ETF'leri net 191 milyon dolar akın çekti, BlackRock'ın IBIT'i 163 milyon dolar çekti. Ethereum spot ETF'leri 66 milyon dolar çekti; BlackRock'ın ETHA (26,8 milyon dolar) ve Fidelity'nin FETH'i (21,5 milyon dolar) öncü role sahipti. Kombine akın, Ethereum'un beş oturumlu şeridini 746,5 milyon dolara uzattı ve daha geniş bir haftalık rallinin devamını sürdürüyor; bu ralli, kripto ETF'lerine 3 milyardan fazla dolar akışı görmüştür.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-09-25",
+          "source": "Farside Investors (web araması ile)",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "Kripto ETF'leri bu hafta 3 milyar dolardan fazla çekiyor, Bitcoin'in ötesine 800 milyon dolar akıyor",
+          "what": "ABD kripto borsasında işlem gören fonlar, 25 Eylül'e kadar olan hafta içinde 3 milyardan fazla dolar çekti; spot Bitcoin, Ethereum, Solana, XRP ve diğer altcoinleri takip eden ETF'ler hepsi kazanç kaydetti. Çeşitlendirilmiş akınlar, Bitcoin'in ötesinde altcoin maruziyetine yönelik kurumsal ilginin genişlemesini yansıtıyor.",
+          "coins": "BTC, ETH, SOL, XRP, altcoinler",
+          "timeUTC": "2026-09-25",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-crypto-etfs-draw-over-3-billion-this-week-with-nearly-800-million-flowing-beyond-bitcoin/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aave V4 on Base, USDC kredileri için teminat olarak Coinbase'in tokenize hisse senetlerini ekliyor",
+          "what": "Aave V4, Coinbase'in Base ağında, Apple, Nvidia, Tesla ve dört diğer tokenize hisse senetini USDC stabilcoinleri ödünç almak için teminat olarak ekledi. Entegrasyon, ABD dışı kullanıcılar için kullanılabilir ve merkezi olmayan finans'ı tokenize menkul kıymetler aracılığıyla geleneksel hisse senedi piyasalarına bağlamada anahtar bir adım.",
+          "coins": "USDC, tokenize hisse senetleri",
+          "timeUTC": "2026-09-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372"
+        },
+        {
+          "headline": "CoinMarketCap, kripto türev verileri genişletmek için CoinGlass'ı satın alıyor",
+          "what": "CoinMarketCap, popüler bir türev ve kripto veri platformu olan CoinGlass'ı satın aldığını duyurdu. CoinGlass markasını ve ekibini koruyacak; web sitesi, uygulaması, ücretsiz araçları, API'si ve fiyatlandırması değişmeden kalacak; CoinMarketCap'ın türev izleme yeteneğini genişletiyor.",
+          "coins": "Para özelinde değil; türev veri altyapısı",
+          "timeUTC": "2026-09-25",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "headline": "Morgan Stanley, tahmin piyasaları kurumsal alım satım hedeflemek için NEXTPredict'e katılıyor",
+          "what": "Morgan Stanley, tahmin piyasası platformu NEXTPredict'in katılımcısı oldu; sektör kurumsal yatırımcıları hedefliyor. Tahmin piyasası işlemlerinin çoğu spor bahisleri olmaya devam ediyor ancak platformlar siyasi ve olay tahmin sözleşmelerine yönelik artan kurumsal ilgi için konumlanıyor.",
+          "coins": "Tahmin piyasası platformları",
+          "timeUTC": "2026-09-25",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379218/morgan-stanley-joins-nextpredict-as-prediction-markets-bet-on-more-institutional-play"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Magic Eden NFT platformu eski Ethereum listeleme açığını uyarıyor; beyaz şapkalılar 5,7 milyon dolar değerinde 23.155 NFT'yi kurtarıyor",
+          "what": "Limit Break'in Ödeme İşlemcisi V2'deki bir hata, eski Magic Eden Ethereum NFT listelerini bir açığa maruz bıraktı. Beyaz şapkalılar, saldırganlar cüzdan onaylarını boşaltmadan önce yaklaşık 5,7 milyon dolar değerinde 23.155'ten fazla NFT'yi kurtardı. Magic Eden, kullanıcıları etkilenen listelerde eski yetkilendirme izinlerini iptal etmeye uyarmıştır.",
+          "coins": "NFT'ler, ETH",
+          "timeUTC": "2026-09-25",
+          "source": "Decrypt, The Block, CryptoSlate",
+          "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit"
+        },
+        {
+          "headline": "MultiversX mainnet açığından sonra yeniden başladı ancak Kraken EGLD işlemlerini durdurdu",
+          "what": "MultiversX mainnet'i, bir güvenlik açığını takiben geçici bir durdurmanın ardından 24 Eylül'de blok üretimine devam etti. Bununla birlikte, Kraken EGLD (MultiversX'in tokeni) işlemlerini iptal edilen duruma tuttu; mevduatlar ve çekişler daha ileri araştırma yapılana kadar duraklatıldı.",
+          "coins": "EGLD",
+          "timeUTC": "2026-09-25",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/multiversx-restarts-after-exploit-halt-but-kraken-still-bars-new-egld-trades/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD hisse senetleri rallisi yaptı ancak tahvil getirileri on yıllık seviyelere sıçradı; altın ve petrol karışık",
+          "what": "25 Eylül'de S&P 500 %0,54 kazandı (SPY) ve Nasdaq %0,50 yükseldi (ONEQ). Bununla birlikte, tahvil piyasaları keskin düştü; 10 yıllık ABD Hazine getirisi %5,22'ye tırmandı — Mart 2026'dan bu yana en yüksek volatilite. Altın mütevazı yükseldi (+%0,54 perpetual) ancak ham petrol düştü (WTI -%1,4, Brent -%2,1). ABD doları endeksi %0,24 düştü; bu, artan oranlar ortasında geniş hisse senedi desteğini göstermektedir.",
+          "coins": "Doğrudan kripto etkisi yok",
+          "timeUTC": "2026-09-25 (ABD piyasa saatleri)",
+          "source": "Veri paketi; CoinDesk piyasa yorumu",
+          "url": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[BAĞLAM] Federal Reserve, GENIUS Kanunu kapsamında stabilcoin ihraçcıları için yedek limitleri ve sermaye standartlarını öneriyor",
+          "what": "[24 Eylül'de duyuruldu, rapor günü dışında] Federal Reserve, Fed tarafından denetlenen stabilcoin ihraçcıları için yedek varlık limitleri ve standartlaştırılmış sermaye gereksinimleri de dahil olmak üzere yeni düzenleme önlemleri önerdi. Çerçeve, GENIUS Kanunu'nun uygulanmasının bir parçasıdır ve ABD stabilcoin düzenlemesinde büyük hareket temsil eder.",
+          "coins": "USDT, USDC, tüm stabilcoinler",
+          "timeUTC": "2026-09-24 (24 Eylül bağlamından)",
+          "source": "Federal Reserve, The Block",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+        },
+        {
+          "headline": "[BAĞLAM] 15,6 milyar dolar Bitcoin opsiyon süresi doldukça; altcoin rallisi hızlandı",
+          "what": "[25 Eylül'de rapor edilen] 15,6 milyar dolar değerinde Bitcoin opsiyon sözleşmelerinin süresi doldukça, pazar değeri açısından ilk 100 kripto varlığından 93'ü kazanç kaydetti. Quant (QNT), +%39 ile en büyük kazananlardan biriydi; bu, Bitcoin'den altcoinlere rotasyonu gösterdi.",
+          "coins": "BTC, altcoinler",
+          "timeUTC": "2026-09-25",
+          "source": "Decrypt, CoinDesk",
+          "url": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-25",
+    "summary": "ABD spot Bitcoin ETF'leri 191 milyon dolar net akın çekti; BlackRock'ın IBIT 163 milyon dolar ile öncü konumda. Ethereum spot ETF'leri 66 milyon dolar çekti (BlackRock ETHA 26,8 milyon dolar, Fidelity FETH 21,5 milyon dolar); beş oturumlu pozitif şeridi 746,5 milyon dolara uzattı. Kombine akınlar, kripto ETF'lerine aktığı 3 milyardan fazla doları destekledi ve daha geniş haftalık ralliye katkı sağladı.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "RBA Rate Decision (Australia) — Tuesday 29 Sept, 04:30 UTC",
+      "typicalReaction": "Orta düzeyde etki; merkez bankası kararları risk duyarlılığını ve doları etkileyebilir; kripto değerlemelerine tesir eder"
+    },
+    {
+      "event": "Germany CPI Flash, Australia CPI, U.S. PCE Inflation — 29–30 Sept UTC",
+      "typicalReaction": "Orta yüksek seviye etki; enflasyon verileri faiz oranı beklentilerini şekillendirir ve kripto'ya makro risk-on/risk-off akışlarını yönetir"
+    },
+    {
+      "event": "U.S. Employment Situation (Non-Farm Payrolls) — Friday 2 Oct, 12:30 UTC",
+      "typicalReaction": "Yüksek etki; işgücü verileri önemli kripto hareketi; güçlü işler doları ve faiz artırma beklentilerini destekler; riskli varlıklar için tipik olarak düşüşçü"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis ticareti",
+      "definition": "Kripto ödünç alma stratejisi bir oranda, vadeli işlemler aracılığıyla daha yüksek fiyattan satma ve sözleşmeler sona erdiğinde farkı cepleme — Ethena gibi platformlar tarafından stabilcoin getirisi desteklemek için kullanılır"
+    },
+    {
+      "term": "Kara liste / Kara listeye alma",
+      "definition": "Stabilcoin ihraçcılarının belirli kripto cüzdan adreslerini paralarını tutmaktan bloke etme veya donma yeteneği — Circle (USDC) ve Tether (USDT) tarafından yaptırım ve adli merciler uyumluluğu için kullanılır"
+    },
+    {
+      "term": "Soğuk cüzdan",
+      "definition": "Çevrimdışı kripto depolama; en güvenli ancak fonlara erişmek en yavaş — tipik olarak borsalar tarafından kasalarda veya internete bağlı olmayan donanım cihazlarda tutulur"
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında piyasa duygusunu ölçen duyarlılık ölçüsü; tüccarların aşırılıklara ulaşılırken potansiyel tersine dönüşleri belirlemelerine yardımcı olur"
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual vadeli işlemler sözleşmelerinin zıt taraflarında tutan tüccarlar arasında ödenen faiz — pozitif oranlar long'ların short'lara ödediği anlamına gelir; negatif oranlar short'ların long'lara ödediği anlamına gelir; perpetual sözleşme fiyatlarını spot ile hizalı tutmak için kullanılır"
+    },
+    {
+      "term": "Sıcak cüzdan",
+      "description": "Müşteri çekişleri için hızlı erişim için çevrimiçi tutulan kripto depolama; soğuk depolamadan hacklanmaya daha yatkın ancak operasyonel likidite için gerekli"
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Bir tüccarın kendi sermayesi satın alabilecekten fazla pozisyon boyutunu artırmak için para ödünç alma; hem kazançları hem de kayıpları büyütür"
+    },
+    {
+      "term": "Long / Short",
+      "definition": "Long = fiyat yükseliş bahsi; short = fiyat düşüş bahsi; long/short oranı ne kadar tüccar bir varlık hakkında boğun olduğunu vs. ayı olduğunu gösterir"
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Perpetual vadeli işlemler sözleşmelerini karara bağlamak ve tüccar kar/zarar hesaplamak için kullanılan referans fiyat; spot piyasa fiyatını takip etmek için tasarlanmıştır ancak geçici olarak sapmaya maruz kalabilir"
+    },
+    {
+      "term": "Açık pozisyon değeri",
+      "definition": "Bir borsada açık (ödenmemiş) vadeli işlemler sözleşmelerinin toplam dolar değeri; açık pozisyon değeri yükselişi yeni para girişini önerir; açık pozisyon değeri düşüşü tüccarların pozisyon kapattığını önerir"
+    },
+    {
+      "term": "Açık pozisyon değeri değişimi",
+      "definition": "Bir dönem içinde açık pozisyon değerindeki net artış veya azalış; pozitif değişim = piyasaya yeni kaldıraç ekleniyor; negatif değişim = kaldıraç geri çekiliyor"
+    },
+    {
+      "term": "Perpetual vadeli işlemler / Perpetuallar",
+      "definition": "Tüccarların kaldıraçla fiyat hareketlerine bahis oynamalarına izin veren kripto türev sözleşmeleri; standart vadeli işlemlerden farklı olarak sona erme tarihleri yoktur ve finansman oranları spot'a bağlı kalmak için kullanılır"
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "Gerçek kripto para (Bitcoin veya Ethereum) tutan ve ABD borsalarında işlem gören borsada işlem gören fon; vadeli işlemler tabanlı ETF'lerden farklıdır; gerçek madeni paraları tutar"
+    },
+    {
+      "term": "Stabilcoin",
+      "definition": "Sabit değerde tutmak için tespit edilen kripto para, tipik olarak 1 ABD doları; ana olanlar USDT (Tether) ve USDC (Circle); kripto almak/satmak için ve fiyat riski olmadan değer tutmak için kullanılır"
+    },
+    {
+      "term": "Ilık cüzdan",
+      "definition": "Sıcak cüzdanlar (hızlı, daha az güvenli) ve soğuk cüzdanlar (yavaş, en güvenli) arasında ara kripto depolama; erişim hızı ve güvenliğin dengesini sunar"
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "2d2b6ac3c845c3c4"
+}

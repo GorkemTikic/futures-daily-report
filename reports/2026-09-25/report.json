@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-25",
+  "kind": "market",
+  "dateLong": "Friday, 25 September 2026",
+  "coversUTC": "2026-09-25 00:00–23:59 UTC",
+  "oneLine": "Bitcoin fell 0.37% and Ethereum rose 0.14% while most altcoins rallied; the $387 million Bitget breach dominated security news, the SEC's lead crypto advocate announced her October 2 departure, and $3 billion flowed into US crypto ETFs.",
+  "newsCount": 17,
+  "macro": {
+    "BTC": -0.3729052232808616,
+    "ETH": 0.14144324217687576
+  },
+  "topMover": {
+    "symbol": "PHAUSDT",
+    "chgPct": 70.65880039331365
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "26 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
