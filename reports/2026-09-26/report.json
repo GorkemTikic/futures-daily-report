@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-26",
+  "kind": "market",
+  "dateLong": "Saturday, 26 September 2026",
+  "coversUTC": "2026-09-26 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum edged higher on institutional ETF inflows reversing a year-long deficit, while regulatory clarity emerged on token buybacks and a major exchange suffered a $75-million theft.",
+  "newsCount": 11,
+  "macro": {
+    "BTC": 0.4022213180867611,
+    "ETH": 0.17655432855459618
+  },
+  "topMover": {
+    "symbol": "QNTUSDT",
+    "chgPct": 53.598619429499536
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "27 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

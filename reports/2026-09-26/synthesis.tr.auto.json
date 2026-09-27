@@ -1,0 +1,185 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, kurumsal ETF girişlerinin bir yıllık açığı tersine çevirmesiyle yükselişe geçerken, token geri alımları konusunda düzenleyici açıklık ortaya çıktı ve büyük bir borsa 75 milyon dolarlık hırsızlığa maruz kaldı.",
+  "caveman": "Bitcoin yaklaşık %0,4 yükseldi ve Ethereum çok hafif (%0,17) 26 Eylül'de yükselişe geçti. Asıl haber şu: büyük yatırım şirketleri Bitcoin fonlarına para akıtıyor—sadece bir haftada 2,4 milyar dolar—ve bu hafta ilk kez yıl başından beri çıkardıklarından daha fazla para koydular. Bu çok önemli çünkü büyük yatırımcıların kripto'ya geri dönüyor olduğunu gösteriyor. Kötü tarafı: hackerlar Binance kullanıcılarından 83 milyon dolar çaldı, çoğunlukla XRP (dijital para türlerinden biri), ve şirket hiçbir şey yapamadı. Bunun dışında hükümet, şirketlerin kendi kripto tokenlerini geri satın almasının tamam olduğunu söyledi—bu insanların uzun süredir beklediği bir karar. Genel olarak oldukça sakin bir gündü—ne kötü ne de harika.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları beş borsanın tümünde yakından takip edildi ve geniş pazar mutabakatını gösterdi. Binance, Bitcoin hacminde 3,05 milyar dolarla hakimiyetini sürdürürken, OKX ve Binance Ethereum hacmini yaklaşık 2,2–2,9 milyar dolar civarında neredeyse eşit olarak paylaştı.",
+  "positioningSummary": "Her iki varlığın finansman oranları çoğu mekanizmada pozitif hale geldi (yani uzun pozisyon alan tüccarlar kısa pozisyon alanlara küçük bir ücret ödedi), Bitcoin'de yıllık %2,6 ila %10,95 arasında değişiyor. Uzun pozisyon tüccarları her iki madeni para üzerinde kısa pozisyon tüccarlarından daha fazla oldu—özellikle Binance'de Ethereum için 2,7:1 uzun-kısa oranı. Açık faiz pozisyonlaması uzun pozisyonlar yönünde ağır kaldı. Korku & Açgözlülük duyarlılığı 74'ten (yüksek açgözlülük) 70'e (açgözlülük) düştü ve inanç konusunda hafif bir geri çekilişi işaret etti, ancak pazar açgözlülük bölgesinde kaldı.",
+  "stocksSummary": "26 Eylül Cumartesi günüydü; hisse senedi ve Asya piyasaları hafta sonu için kapalı oldu. Hisse senetleri üzerine yazılan perpetual vadeli işlemler önceki kapanışlarını takip etti ancak canlı ticareti yansıtmıyor.",
+  "movers": [
+    {
+      "symbol": "QNT",
+      "explanation": "Quant %53,6 yükseldi ve 151,28 dolara ulaştı, veri setindeki en büyük tek günlük hareket. 26 Eylül UTC'de yükselişi açıklayan net bir haber duyurusu veya haber olayı bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "Q",
+      "explanation": "Q token %40 yükseldi ve 0,034 dolara ulaştı, 259 milyon dolarlık işlem hacmi ile. Rapor gününde tanımlanan bir katalizör veya haber bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "RARE",
+      "explanation": "RARE (SuperRare) %34,3 yükseldi ve 0,0213 dolara ulaştı. 26 Eylül için mevcut kaynaklarda destekleyici haber veya olay bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ETF'leri 2,4 milyar dolarlık haftalık giriş ile 2026 için pozitif hale geldi",
+        "what": "Spot Bitcoin ETF'leri 26 Eylül'de sona eren haftada 2,4 milyar dolar çekti, bu Ekim 2025 tarihinden beri en büyük haftalık giriş. Bu dokuz aylık açığı tersine çevirdi: Bitcoin ETF'leri sadece iki ay önce kabaca 5,8 milyar dolar açık durumdayken, şimdi 2026 yılına kadarki akışları sıfırın üzerine çıkardı. Yedi günlük kazanç serisi kurumların kripto para piyasasına geri dönmesiyle gerçekleşti.",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 26, 07:44 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+      },
+      {
+        "headline": "SEC, kripto para token geri alımları rekor 638 milyona ulaştığında düzenleyici engeli temizledi",
+        "what": "SEC, bir ağın mevcut kullanımını teşvik etmenin genel olarak kar beklentisi yaratmadığını açıklayan rehberlik yayınladı—token geri alımları yapan projeler için önemli bir onay. Kripto para projeleri Ağustos 2026'nın sonuna kadar geri alımlar için rekor 638 milyon dolar harcadı, aynı 2025 dönemindeki 545 milyon dolardan yüksek, protokol sürdürülebilirliğine kurumsal yatırımın hızlandığını gösteriyor.",
+        "coins": "Crypto broadly",
+        "timeUTC": "Sept 26, 10:27 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/sec-clears-regulatory-hurdle-as-crypto-token-buybacks-hit-record-638-million/"
+      },
+      {
+        "headline": "Kalshi, Ohio ve Tennessee spor bahsi yasaları üzerinde itirazı kaybetti",
+        "what": "Federal temyiz mahkemesi, Kalshi'nin spor etkinliği tahmin kontratlarının Emtia Borsa Kanunu'nda takas olmadığını ve bu nedenle eyalet kumar yasalarına tabi kaldığını hükmetti. Karar, devre bölünmesini genişletti ve Yüksek Mahkeme davasının olasılığını artırdı, tahmin pazarının uyum istisnaları olmaksızın eyalet sınırları arasında faaliyet gösterme kabiliyetini sınırlandırdı.",
+        "coins": "None (prediction markets)",
+        "timeUTC": "Sept 26, 05:24 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-26-kalshi-loses-appeal-over-ohio-and-tennessee-sports-betting-laws-widening-circuit-split-416937"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri 2026 Akışları Yeşile Dönerken Yedi Günlük Kazanç Serisi Kaydetti",
+          "what": "Bitcoin spot ETF'leri yedi ardışık işlem seansında yaklaşık 3 milyar dolar çekti, Eylül'deki başarısız Açıklık Yasası'ndan kaynaklanan kayıpları sildi ve yıllık akışları pozitife döndürdü. Seri, kurumların spot maruziyetine sürdürülen geri girmesini yansıtıyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 26, 07:21 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Fed sabit para önerisi, denetlenen ihraçcılar için dolaşımı sermaye maliyeti haline getirecek",
+          "what": "Federal Rezerv, denetlediği ödeme sabit para ihraçcıları için yeni kurallar önerdi; operatörlerin işletme riski için sermaye tutmasını istedi—hiçbir yedek dışı geliri olmayan 1 milyar dolarlık bir sabit para için yıllık 20 milyon dolar olarak tahmin ediliyor. Teklif, Fed gözetimi altındaki sabit para operatörleri için çıtayı yükseltiyor.",
+          "coins": "Stablecoins (USDC, others)",
+          "timeUTC": "Sept 26, 03:22 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fed-stablecoin-proposal-would-make-circulation-a-capital-cost-for-supervised-issuers/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance anlaşması Circle'a Tether ile sabit para yarışında destek veriyor",
+          "what": "Binance, Circle ile beş yıllık bir ortaklık duyurdu, 100 milyon dolarlık bir hisse senedi pozisyonu aldı ve USDC anlaşmasına taahhüt etti. Analistler, bu harekatin Circle'ın gelişmekte olan pazarlardaki erişimini güçlendirebileceğini söyledi, ancak Tether'ın likidite avantajının eşleşmesi zor olmaya devam ediyor.",
+          "coins": "Circle, USDC",
+          "timeUTC": "Sept 26, 02:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say"
+        },
+        {
+          "headline": "Kraken'in ana şirketi Payward, finansal altyapı olmak için milyarlarca dolar bahis oynuyor",
+          "what": "Payward (Kraken'in ana şirketi), ticaret, ödemeler, varlık yönetimi ve kurumsal hizmetleri tek bir arka uç aracılığıyla birleştirme stratejisini duyurdu. Ortak CEO Arjun Sethi, hareketi kripto para borsasından tam finansal altyapıya geçiş olarak nitelendirdi.",
+          "coins": "Kraken",
+          "timeUTC": "Sept 26, 04:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange"
+        },
+        {
+          "headline": "Solana'nın 150 milisaniye takas yükseltmesi ikinci genel test ağına ulaştı",
+          "what": "Solana'nın Alpenglow yükseltmesi, takas sürelerini 150 milisaniyeye düşürmeyi hedeflayan, şimdi her iki genel test ağında çalışıyor. Yükseltme, uygulama ekiplerine ana blockchain'de canlı yayına çıkmadan önce entegrasyonları test etme zamanı veriyor.",
+          "coins": "Solana",
+          "timeUTC": "Sept 26, 20:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network"
+        },
+        {
+          "headline": "XRP Ledger'ın Batch yükseltmesi validator desteği sıfırlandıktan sonra 9 Ek.'e kaydı",
+          "what": "XRP Ledger'ın önerilen Batch yükseltmesi—varlık ve ödeme transferleri dahil olmak üzere sekiz işleme kadar paketleyecek—validator desteği kısaca %80 eşiğinin altına düştüğü zaman 9 Ekim'e ertelendi, iki haftalık aktivasyon saatini yeniden başlattı.",
+          "coins": "XRP",
+          "timeUTC": "Sept 26, 19:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Bitget hacker'ı Ripple'ın donduramazacağı 83 milyon dolarlık çalınan XRP'yi taşıyor",
+          "what": "Bitget bir güvenlik ihlalini kamuya açıkladıktan iki gün sonra, saldırgan çalınan XRP'yi cüzdanlar arasında taşımaya başladı—beş orijinal tutuş hesabından yaklaşık 75 milyon dolar çıkardı. XRP, USDC gibi on-chain tersine çevrilemediği için (Circle ve Tether ağlarında dondurabildikleri), Ripple işlemleri durdurmak için doğrudan bir yolu yok.",
+          "coins": "XRP",
+          "timeUTC": "Sept 26, 02:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze"
+        },
+        {
+          "headline": "Yaklaşık 15 milyar dolar LayerZero'dan ayrılıyor, şimdi 292 milyon dolarlık dava güvenlik modelini yargılanmaya çıkarıyor",
+          "what": "KelpDAO'nun ana şirketi Evercrest, LayerZero Labs ve CEO Bryan Pellegrino'yu Nisan ayındaki 292 milyon dolarlık rsETH saldırısı nedeniyle dava etti. Dava LayerZero'nun çok imzalı güvenlik mimarisine meydan okuyor ve eş zamanlı 15 milyar dolarlık varlık ağ terk ediyor—güvenin erozyonunun bir işareti.",
+          "coins": "LayerZero (Ethereum-adjacent)",
+          "timeUTC": "Sept 26, 03:10 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nearly-15b-is-moving-off-layerzero-now-a-292m-lawsuit-puts-its-security-model-on-trial/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Oct 1, 12:30 UTC) — jobless claims are watched for inflation and recession signals",
+      "typicalReaction": "Düşüşler genellikle risk iştahını destekler; artışlar kripto para üzerinde satış baskısını tetikler"
+    },
+    {
+      "event": "US Employment Situation / Non-Farm Payrolls (Oct 2, 12:30 UTC) — the monthly jobs report",
+      "typicalReaction": "Kripto para'nın ana hareket ettiricisi; güçlü iş büyümesi daha yüksek faiz oranlarını işaret edebilir, zayıf büyüme resesyonu işaret edebilir"
+    },
+    {
+      "event": "RBA Rate Decision (Sept 29, 04:30 UTC); Germany and Australia CPI (Sept 29–30) — inflation signals from major central banks",
+      "typicalReaction": "Beklenenden daha yüksek enflasyon genellikle faiz artışı korkularında kripto para'yı satar; düşük enflasyon risk iştahını destekler"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "temel periyod",
+      "definition": "Günlük getirileri hesaplamak için kullanılan zaman periyodu türü: 'utc-day', UTC cinsinden 00:00–23:59 anlamına gelir; 'rolling-24h', anlık zamandan önceki 24 saatin anlamına gelir."
+    },
+    {
+      "term": "Korku & Açgözlülük Endeksi",
+      "definition": "0–100 duyarlılık ölçeği pazar ruh halini ölçüyor: 0–20 = aşırı korku, 20–40 = korku, 40–60 = nötr, 60–80 = açgözlülük, 80–100 = aşırı açgözlülük. Oynaklık, momentum, sosyal medya ve Google arama trendlerine dayanıyor."
+    },
+    {
+      "term": "finansman oranı",
+      "definition": "Perpetual vadeli işlemler kontratlarında uzun ve kısa tüccarları arasında periyodik ödeme. Pozitif ise, uzunlar kısalara ödeme yapar (pazar yükselişe eğilimli). Negatif ise, kısalara uzunlar ödeme yapar (pazar düşüşe eğilimli). Yıllık yüzde olarak ifade edilir."
+    },
+    {
+      "term": "tasfiye",
+      "definition": "Marj (teminat) borsanın minimumunun altına düştüğünde kaldıraçlı bir pozisyonun zorunlu kapatılması. Bir tüccarın pozisyonu pazar fiyatında satılır, bazen zarara girerek."
+    },
+    {
+      "term": "uzun / kısa pozisyon",
+      "definition": "Uzun: fiyatın yükselecek olduğuna bahis oyna (tutmak veya satın almak). Kısa: fiyatın düşecek olduğuna bahis oyna (satmak veya ödünç alarak satmak). 1,3'lük bir uzun/kısa oranı, her 1 kısaya karşı 1,3 uzun olduğu anlamına gelir."
+    },
+    {
+      "term": "işaret fiyatı",
+      "definition": "Perpetual vadeli işlemlerde finansman ödemelerini ve marjı hesaplamak için kullanılan referans fiyat. Genellikle spot fiyata yakın olmakla birlikte, manipülasyonu önlemek için biraz farklı olabilir."
+    },
+    {
+      "term": "açık faiz",
+      "definition": "Perpetual kontratında tüm açık pozisyonların (uzun ve kısa) toplam değeri. Artan açık faiz artan kaldıraç ve inancı işaret eder; düşen açık faiz risk azaltmayı işaret eder."
+    },
+    {
+      "term": "perpetual vadeli işlemler (perps)",
+      "definition": "Kripto para veya hisse senedi fiyatını izleyen ancak asla sona ermeyen kaldıraçlı kontratlar (geleneksel vadeli işlemler gibi gelecekteki teslim için bir fiyata anlaşmanın aksine). Tüccarlar pozisyonları süresiz olarak tutabilir, periyodik finansman oranları ödeyerek."
+    },
+    {
+      "term": "spot piyasa",
+      "definition": "Bugünün fiyatında gerçek bir varlığı satın aldığınız ve tuttuğunuz nakit piyasa, vadeli işlem piyasasının aksine (gelecekteki teslim için bir fiyata anlaşma)."
+    },
+    {
+      "term": "takas",
+      "definition": "Finansmanda, bir nakit akışını diğeriyle değiştiren kontrat (ör. sabit için değişken faiz). Düzenleyici terimlerle, 'takas'ların belirli denetim gereksinimleri vardır; bazı kripto para kontratları 'takas' olup olmadığı konusunda tartışılır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "298399c4c1b9fefd"
+}

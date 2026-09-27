@@ -1,0 +1,184 @@
+{
+  "oneLine": "Bitcoin and Ethereum edged higher on institutional ETF inflows reversing a year-long deficit, while regulatory clarity emerged on token buybacks and a major exchange suffered a $75-million theft.",
+  "caveman": "Bitcoin went up about 0.4% and Ethereum went up a tiny bit (0.17%) on September 26. The big story: big investment companies have been pouring money into Bitcoin funds—$2.4 billion in just one week—and this week they finally put more money in than they took out for the whole year. That's a big deal because it shows the big money people are coming back. On the bad side, hackers stole $83 million from Binance users, mostly in XRP (a type of digital money), and the company couldn't stop them. Also, the government said it's okay for companies to buy back their own cryptocurrency tokens, which is something people have been waiting on. It was a fairly calm day overall—not scary, but not super exciting either.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices tracked closely across all five exchanges, showing broad market agreement. Binance dominated Bitcoin volume at $3.05 billion, while OKX and Binance split Ethereum volume nearly evenly at around $2.2–2.9 billion each.",
+  "positioningSummary": "Funding rates for both assets turned positive across most venues (meaning traders taking long positions paid a small fee to those shorting), ranging from +2.6% to +10.95% annualized on Bitcoin. Long traders outnumbered short traders on both coins—especially Ethereum on Binance with a 2.7:1 ratio of longs to shorts. Open-interest positioning remained heavy toward longs. Fear & Greed sentiment slipped from 74 (high greed) to 70 (greed), suggesting a slight pullback in conviction, though the market remained in greed territory.",
+  "stocksSummary": "September 26 was a Saturday; equity and Asian markets were closed for the weekend. Perpetual futures on stocks tracked their prior closes but do not reflect live trading.",
+  "movers": [
+    {
+      "symbol": "QNT",
+      "explanation": "Quant rose 53.6% to $151.28, the biggest single-day mover in the dataset. No clear public announcement or news event explained the surge on September 26 UTC.",
+      "hasCause": false
+    },
+    {
+      "symbol": "Q",
+      "explanation": "Q token climbed 40% to $0.034 with $259 million in volume. No identified catalyst or news on the report day.",
+      "hasCause": false
+    },
+    {
+      "symbol": "RARE",
+      "explanation": "RARE (SuperRare) rallied 34.3% to $0.0213. No supporting news or event found in available sources for September 26.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow",
+        "what": "Spot Bitcoin ETFs drew $2.4 billion in the week ending September 26, their largest weekly intake since October 2025. This reversed a nine-month deficit: Bitcoin ETFs sat roughly $5.8 billion in the red just two months ago but have now pushed 2026 year-to-date flows back above zero. The seven-day winning streak came as institutions rotated back into crypto.",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 26, 07:44 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+      },
+      {
+        "headline": "SEC clears regulatory hurdle as crypto token buybacks hit record $638 million",
+        "what": "The SEC issued guidance clarifying that promoting a network's current uses generally does not create an expectation of profit—a significant approval for projects conducting token buybacks. Crypto projects spent a record $638 million on buybacks through late August 2026, up from $545 million in the same 2025 period, showing accelerating institutional investment in protocol sustainability.",
+        "coins": "Crypto broadly",
+        "timeUTC": "Sept 26, 10:27 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/sec-clears-regulatory-hurdle-as-crypto-token-buybacks-hit-record-638-million/"
+      },
+      {
+        "headline": "Kalshi loses appeal over Ohio and Tennessee sports betting laws",
+        "what": "A federal appeals court ruled that Kalshi's sports-event prediction contracts are not swaps under the Commodity Exchange Act and therefore remain subject to state gambling laws. The decision widens a circuit split and raises the prospect of a Supreme Court case, limiting the prediction market's ability to operate across state lines without compliance exceptions.",
+        "coins": "None (prediction markets)",
+        "timeUTC": "Sept 26, 05:24 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-26-kalshi-loses-appeal-over-ohio-and-tennessee-sports-betting-laws-widening-circuit-split-416937"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+          "what": "Bitcoin spot ETFs drew nearly $3 billion over seven straight trading sessions, erasing losses from the failed Clarity Act in September and returning year-to-date flows to positive. The streak reflects sustained institutional re-entry into spot exposure.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 26, 07:21 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Fed stablecoin proposal would make circulation a capital cost for supervised issuers",
+          "what": "The Federal Reserve proposed new rules for payment stablecoin issuers it supervises, requiring operators to hold capital for operating risk—estimated at $20 million annually for a $1 billion stablecoin with no non-reserve revenue. The proposal raises the bar for stablecoin operators under Fed oversight.",
+          "coins": "Stablecoins (USDC, others)",
+          "timeUTC": "Sept 26, 03:22 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fed-stablecoin-proposal-would-make-circulation-a-capital-cost-for-supervised-issuers/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance deal gives Circle a boost in stablecoin race with Tether",
+          "what": "Binance announced a five-year partnership with Circle, taking a $100 million equity stake and committing to a USDC deal. Analysts said the move could strengthen Circle's reach in emerging markets, though Tether's liquidity advantage remains difficult to match.",
+          "coins": "Circle, USDC",
+          "timeUTC": "Sept 26, 02:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say"
+        },
+        {
+          "headline": "Kraken's parent Payward is betting billions on becoming financial infrastructure",
+          "what": "Payward (Kraken's parent) announced a strategy to unify trading, payments, asset management, and institutional services across a single backend. Co-CEO Arjun Sethi framed the move as pivoting from a crypto exchange toward full financial infrastructure.",
+          "coins": "Kraken",
+          "timeUTC": "Sept 26, 04:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange"
+        },
+        {
+          "headline": "Solana's 150-millisecond settlement upgrade reaches second public test network",
+          "what": "Solana's Alpenglow upgrade, aimed at cutting settlement times to 150 milliseconds, is now running on both public test networks. The upgrade gives application teams time to test integrations before it goes live on the main blockchain.",
+          "coins": "Solana",
+          "timeUTC": "Sept 26, 20:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network"
+        },
+        {
+          "headline": "XRP Ledger's Batch upgrade slips to Oct. 9 after validator support resets",
+          "what": "The XRP Ledger's proposed Batch upgrade—which would bundle up to eight transactions including asset and payment transfers—was delayed to October 9 when validator support briefly dropped below the 80% threshold, restarting the two-week activation clock.",
+          "coins": "XRP",
+          "timeUTC": "Sept 26, 19:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+          "what": "Two days after Bitget disclosed a security breach, the attacker began moving the stolen XRP across wallets—draining about $75 million from the five original holding accounts. Because XRP is not reversible on-chain like USDC (which Circle and Tether can freeze on their network), Ripple has no direct way to halt the transactions.",
+          "coins": "XRP",
+          "timeUTC": "Sept 26, 02:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze"
+        },
+        {
+          "headline": "Nearly $15 billion is moving off LayerZero, now a $292 million lawsuit puts its security model on trial",
+          "what": "KelpDAO's parent company Evercrest sued LayerZero Labs and CEO Bryan Pellegrino over April's $292 million rsETH exploit. The suit challenges LayerZero's multi-signature security architecture, and concurrent $15 billion in assets are leaving the network—a sign of eroded trust.",
+          "coins": "LayerZero (Ethereum-adjacent)",
+          "timeUTC": "Sept 26, 03:10 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nearly-15b-is-moving-off-layerzero-now-a-292m-lawsuit-puts-its-security-model-on-trial/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Oct 1, 12:30 UTC) — jobless claims are watched for inflation and recession signals",
+      "typicalReaction": "Falls usually support risk appetite; rises often trigger selling pressure across crypto"
+    },
+    {
+      "event": "US Employment Situation / Non-Farm Payrolls (Oct 2, 12:30 UTC) — the monthly jobs report",
+      "typicalReaction": "Major crypto mover; strong jobs growth can signal higher interest rates, weak growth can signal recession"
+    },
+    {
+      "event": "RBA Rate Decision (Sept 29, 04:30 UTC); Germany and Australia CPI (Sept 29–30) — inflation signals from major central banks",
+      "typicalReaction": "Higher-than-expected inflation usually sells crypto on rate-hike fears; lower inflation supports risk appetite"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "basis",
+      "definition": "The type of time period used for calculating daily returns: 'utc-day' means 00:00–23:59 UTC; 'rolling-24h' means the previous 24 hours from the snapshot time."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A 0–100 sentiment gauge measuring market mood: 0–20 = extreme fear, 20–40 = fear, 40–60 = neutral, 60–80 = greed, 80–100 = extreme greed. Based on volatility, momentum, social media, and Google search trends."
+    },
+    {
+      "term": "funding rate",
+      "definition": "A periodic payment between long and short traders on perpetual futures contracts. If positive, longs pay shorts (market tilted bullish). If negative, shorts pay longs (market tilted bearish). Expressed as an annualized percentage."
+    },
+    {
+      "term": "liquidation",
+      "definition": "Forced closure of a leveraged position when the margin (collateral) falls below the exchange's minimum. A trader's position is sold at market price, sometimes at a loss."
+    },
+    {
+      "term": "long / short position",
+      "definition": "Long: betting the price will go up (holding or buying). Short: betting the price will go down (selling or borrowing-to-sell). A long/short ratio of 1.3 means there are 1.3 longs for every 1 short."
+    },
+    {
+      "term": "mark price",
+      "definition": "The reference price used to calculate funding payments and margin on perpetual futures. Usually close to the spot price but may differ slightly to prevent manipulation."
+    },
+    {
+      "term": "open interest",
+      "definition": "The total value of all open positions (longs and shorts) in a perpetual contract. Rising open interest signals increasing leverage and conviction; falling open interest signals de-risking."
+    },
+    {
+      "term": "perpetual futures (perps)",
+      "definition": "Leveraged contracts that track a cryptocurrency or stock price but never expire (unlike traditional futures). Traders can hold positions indefinitely, paying periodic funding rates."
+    },
+    {
+      "term": "spot market",
+      "definition": "The cash market where you buy and hold an actual asset at today's price, as opposed to futures where you agree to a price for future delivery."
+    },
+    {
+      "term": "swap",
+      "definition": "In finance, a contract exchanging one cash flow for another (e.g., fixed for floating interest). In regulatory terms, 'swaps' have specific oversight requirements; some crypto contracts are debated whether they are 'swaps' or not."
+    }
+  ],
+  "_source": "cli"
+}

@@ -1,0 +1,185 @@
+{
+  "oneLine": "比特币和以太坊因机构ETF流入反转全年赤字而小幅上涨，同时监管部门对代币回购进行了澄清，一家主要交易所遭遇7500万美元被盗事件。",
+  "caveman": "9月26日，比特币上涨约0.4%，以太坊上涨0.17%。大新闻是：大公司一直在往比特币基金里砸钱——一周就砸进24亿美元——这周他们终于把钱投入多于提出的资金，这对整个年度来说是头一回。这说明大资金开始回来了。坏消息是，黑客从币安用户那里偷了8300万美元，主要是XRP（一种数字货币），公司没能阻止。另外，政府说公司可以回购自己的加密货币，这是人们一直在等的事。总的来说这一天很平静——不可怕，但也不特别兴奋。",
+  "priceVolumeSummary": "比特币和以太坊价格在五家交易所均保持紧密追踪，显示市场高度认可。币安主导比特币成交量，达30.5亿美元，而OKX和币安基本平分以太坊成交量，各在22亿至29亿美元之间。",
+  "positioningSummary": "资金费率在大多数平台转为正数（意味着持多头的交易者向做空者支付小额费用），比特币的年化费率在+2.6%至+10.95%之间。两种币的多头交易者都多于空头，特别是币安以太坊的多空比达2.7:1。持仓主要集中在多头。恐惧与贪婪指数从74（高度贪婪）滑至70（贪婪），表明信心略有回落，但市场仍处于贪婪区间。",
+  "stocksSummary": "9月26日是周六，股票和亚洲市场因周末休市。股票永续期货追踪之前的收盘价，但不反映实时交易。",
+  "movers": [
+    {
+      "symbol": "QNT",
+      "explanation": "Quant上涨53.6%至$151.28，是数据集中最大的单日涨幅。9月26日UTC时间没有明确的公开公告或新闻事件来解释这次暴涨。",
+      "hasCause": false
+    },
+    {
+      "symbol": "Q",
+      "explanation": "Q代币上涨40%至$0.034，成交量2.59亿美元。报告日期没有发现明确的催化剂或新闻。",
+      "hasCause": false
+    },
+    {
+      "symbol": "RARE",
+      "explanation": "RARE（SuperRare）上涨34.3%至$0.0213。在9月26日的可用资源中未发现相关新闻或事件。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "比特币现货ETF以24亿美元周流入转向2026年正值",
+        "what": "截至9月26日的一周内，现货比特币ETF吸入24亿美元，是自2025年10月以来最大的周度流入。这扭转了9个月的赤字：仅两个月前，比特币ETF还陷入约58亿美元的困境，但现在2026年迄今的流入已经转正。这七日连涨行情反映了机构重新回流加密资产的趋势。",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 26, 07:44 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+      },
+      {
+        "headline": "美国证券交易委员会扫清监管障碍，加密代币回购创纪录的6.38亿美元",
+        "what": "美国证券交易委员会（SEC）发布指导意见，澄清推广网络的现有用途通常不会产生利润预期——这对进行代币回购的项目是一项重要的认可。截至2026年8月底，加密项目在回购上支出创纪录的6.38亿美元，高于2025年同期的5.45亿美元，显示机构对协议可持续性的投资在加速。",
+        "coins": "Crypto broadly",
+        "timeUTC": "Sept 26, 10:27 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/sec-clears-regulatory-hurdle-as-crypto-token-buybacks-hit-record-638-million/"
+      },
+      {
+        "headline": "Kalshi在俄亥俄州和田纳西州体育博彩法律上诉失败",
+        "what": "联邦上诉法院裁定，Kalshi的体育赛事预测合约不属于《商品交易法》下的掉期合约，因此仍受州赌博法约束。该裁决扩大了巡回法院之间的分歧，引发了最高法院诉讼的可能性，限制了预测市场在跨州运营中绕过合规例外的能力。",
+        "coins": "None (prediction markets)",
+        "timeUTC": "Sept 26, 05:24 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-09-26-kalshi-loses-appeal-over-ohio-and-tennessee-sports-betting-laws-widening-circuit-split-416937"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF迎来七日连涨，2026年度流入转正",
+          "what": "比特币现货ETF在连续七个交易日内吸入近30亿美元，消除了9月《明确法案》失败带来的损失，年度流入转为正值。这一连涨反映了机构持续重新进入现货市场。",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 26, 07:21 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "美联储稳定币提案将使流通成为受监管发行人的资本成本",
+          "what": "美联储为其监管的支付稳定币发行人提出新规则，要求运营者为运营风险持有资本——对于无非准备金收入的10亿美元稳定币，估计年成本为2000万美元。该提案提高了美联储监管下稳定币运营者的门槛。",
+          "coins": "Stablecoins (USDC, others)",
+          "timeUTC": "Sept 26, 03:22 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fed-stablecoin-proposal-would-make-circulation-a-capital-cost-for-supervised-issuers/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "币安合作助力Circle在稳定币竞赛中挑战Tether",
+          "what": "币安宣布与Circle建立为期五年的战略合作，投资1亿美元股权并承诺使用USDC。分析人士表示，此举可能强化Circle在新兴市场的影响力，但Tether的流动性优势仍难以匹敌。",
+          "coins": "Circle, USDC",
+          "timeUTC": "Sept 26, 02:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say"
+        },
+        {
+          "headline": "Kraken母公司Payward投入数十亿美元打造金融基础设施",
+          "what": "Kraken的母公司Payward宣布战略计划，统一交易、支付、资产管理和机构服务于一个后台系统。联席首席执行官Arjun Sethi将这一举措描述为从加密交易所向全面金融基础设施的转变。",
+          "coins": "Kraken",
+          "timeUTC": "Sept 26, 04:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange"
+        },
+        {
+          "headline": "Solana 150毫秒结算升级已进入第二公共测试网络",
+          "what": "Solana的Alpenglow升级旨在将结算时间缩短至150毫秒，目前已在两个公共测试网络上运行。该升级给应用团队时间在主链上线前测试集成。",
+          "coins": "Solana",
+          "timeUTC": "Sept 26, 20:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network"
+        },
+        {
+          "headline": "XRP Ledger批处理升级因验证者支持重置推迟至10月9日",
+          "what": "XRP Ledger提议的批处理升级——可将多达八笔交易（包括资产和支付转账）打包处理——因验证者支持短暂跌至80%阈值以下而推迟至10月9日，重新启动两周的激活时钟。",
+          "coins": "XRP",
+          "timeUTC": "Sept 26, 19:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Bitget黑客转移8300万美元被盗XRP，Ripple无法冻结",
+          "what": "Bitget披露安全漏洞两天后，攻击者开始跨钱包转移被盗的XRP——从五个原始持有账户中共转出约7500万美元。由于XRP在链上不可逆转（不像USDC可以被Circle和Tether在其网络上冻结），Ripple无法直接阻止这些交易。",
+          "coins": "XRP",
+          "timeUTC": "Sept 26, 02:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze"
+        },
+        {
+          "headline": "近150亿美元资金撤出LayerZero，2.92亿美元诉讼考验其安全模型",
+          "what": "KelpDAO母公司Evercrest就4月份2.92亿美元的rsETH漏洞起诉LayerZero Labs及首席执行官Bryan Pellegrino。诉讼质疑LayerZero的多签安全架构，与此同时，约150亿美元资产正离开该网络——表明信任正在侵蚀。",
+          "coins": "LayerZero (Ethereum-adjacent)",
+          "timeUTC": "Sept 26, 03:10 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nearly-15b-is-moving-off-layerzero-now-a-292m-lawsuit-puts-its-security-model-on-trial/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Oct 1, 12:30 UTC) — jobless claims are watched for inflation and recession signals",
+      "typicalReaction": "数字下降通常支撑风险偏好；上升通常在加密资产中引发抛售压力"
+    },
+    {
+      "event": "US Employment Situation / Non-Farm Payrolls (Oct 2, 12:30 UTC) — the monthly jobs report",
+      "typicalReaction": "重要的加密资产驱动因素；强劲的就业增长可能预示利率上升，弱增长可能预示衰退"
+    },
+    {
+      "event": "RBA Rate Decision (Sept 29, 04:30 UTC); Germany and Australia CPI (Sept 29–30) — inflation signals from major central banks",
+      "typicalReaction": "高于预期的通胀通常因加息担忧而抛售加密资产；低通胀支撑风险偏好"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基准周期",
+      "definition": "用于计算日回报率的时间段类型：'utc-day'表示协调世界时00:00–23:59；'rolling-24h'表示快照时间前的前24小时。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "0–100分的市场情绪指标，衡量市场气氛：0–20 = 极度恐惧，20–40 = 恐惧，40–60 = 中性，60–80 = 贪婪，80–100 = 极度贪婪。基于波动率、动量、社交媒体和谷歌搜索趋势。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续期货合约中多头和空头交易者之间的定期支付。若为正数，多头向空头支付（市场看涨）；若为负数，空头向多头支付（市场看跌）。以年化百分比表示。"
+    },
+    {
+      "term": "爆仓",
+      "definition": "当保证金（担保品）低于交易所最低要求时，杠杆头寸被强制平仓。交易者的头寸以市场价格出售，有时会造成损失。"
+    },
+    {
+      "term": "多头/空头头寸",
+      "definition": "多头：押注价格会上升（持有或买入）。空头：押注价格会下跌（卖出或借币卖出）。多空比1.3表示每1个空头对应1.3个多头。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续期货资金费用和保证金的参考价格。通常接近现货价格，但可能略有不同以防止操纵。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "永续合约中所有未平仓头寸（多头和空头）的总价值。持仓量增加表示杠杆和信心上升；下降表示风险降低。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "追踪加密货币或股票价格的杠杆合约，但永不过期（不像传统期货）。交易者可以无限期持有头寸，需支付定期的资金费率。"
+    },
+    {
+      "term": "现货市场",
+      "definition": "以现价买卖并持有实际资产的现金市场，与期货市场不同，期货是对未来交割价格的协议。"
+    },
+    {
+      "term": "掉期",
+      "definition": "在金融中，掉期是交换一种现金流为另一种现金流的合约（如固定利率对浮动利率）。在监管术语中，'掉期'有特定的监管要求；某些加密合约的掉期身份仍有争议。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "298399c4c1b9fefd"
+}
