@@ -1,33 +1,214 @@
 {
-  "oneLine": "Pazar verileri 5 borsadan toplanmıştır; bu çalışmada haber sentezi mevcut değildir.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Bu çalışmada otomatik anlatı mevcut değildir — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki konumlandırma tablosuna bakınız.",
-  "stocksSummary": "",
+  "oneLine": "Bitcoin ve Ethereum geniş pazar zayıflığı ve artan getiriler nedeniyle düştü; $387,5 milyon borsa hack'i ve güçlü kurumsal alımlar günün belirleyici faktörleri oldu.",
+  "caveman": "Bitcoin ve Ethereum kötü bir gün yaşadı — fiyatlar düştü çünkü hisse senetleri ve bonolar düştü, insanlar endişelenmeye başladı. Çoğu kripto düştü, sadece iki büyük değil. Ama en büyük haber fiyat düşüşü değildi: Bitget adlı bir borsa hack'lendi ve $387,5 milyon kaybetti. Aynı zamanda Strategy ve Strive gibi büyük yatırım şirketleri Bitcoin almaya devam etti, yani hâlâ değerli olduğunu düşünüyorlar. Garip olan kısım şu: Bitcoin ve Ethereum spot ETF'lerine (kolay alabileceğiniz özel fonlar) giren para fiyatlar düşmesine rağmen pozitif kaldı. Çoğu kişi için endişeli bir gün oldu, ama bazı akıllı paralar korkmuş değildi.",
+  "priceVolumeSummary": "Tüm borsalarda Bitcoin yaklaşık $83.480 civarında fiyatlandı. Binance, Bitcoin vadeli işlemlerinde $12,96 milyar ile işlem hacminde net üstünlük sağladı, OKX'in $6,82 milyarından iki kattan fazla.",
+  "positioningSummary": "Finansman oranları %1,79 ile %10,95 arasında yüksekti (yıllık hesaplanmış), tüccarların uzun pozisyonları elinde tutmak için ödeme yaptığını gösteriyor. Bitcoin'in uzun pozisyonları kısa pozisyonlardan biraz fazla (uzun/kısa oranı 1,17), ancak Ethereum güçlü uzun eğilim gösterdi (2,76), özellikle en büyük tüccarların arasında. Taker alım/satış oranları 1'in altında (Bitcoin için 0,97, Ethereum için 0,94) daha agresif satıştan daha agresif alım olduğunu gösterdi. Pazar genişliği çok zayıftı: Binance vadeli işlem kontratlarının yalnızca %15,64'ü gün içinde yukarı yönlüydü.",
+  "stocksSummary": "Asya hisse senetleri 28 Eylül'de keskin düştü: Güney Kore yarı iletken hisse senetleri SK Hynix'in %4,74 düşmesi ve Samsung Electronics'in %3,85 düşmesiyle düşüşe öncülük etti. Hong Kong da zayıflık gördü: MiniMax %10,40 düştü ve Zhongji Innolight %10,21 düştü. ABD piyasaları da düştü (S&P 500 -%0,74, Nasdaq -%0,92). Yarı iletkenlerde ve teknolojide geniş yada satış, arz zinciri veya kazanç endişelerinin geleneksel piyasalara yayıldığını gösteriyor.",
   "movers": [
     {
       "symbol": "NMRUSDT",
-      "explanation": "Bu çalışmada anlatı mevcut değildir.",
+      "explanation": "NMR %38,16 yükseldi ancak mevcut haberler arasında net bir neden yok.",
       "hasCause": false
     },
     {
       "symbol": "QUSDT",
-      "explanation": "Bu çalışmada anlatı mevcut değildir.",
+      "explanation": "Q %32,65 düştü ancak mevcut haberler arasında net bir neden yok.",
       "hasCause": false
     },
     {
       "symbol": "HBARUSDT",
-      "explanation": "Bu çalışmada anlatı mevcut değildir.",
+      "explanation": "HBAR %28,62 yükseldi ancak mevcut haberler arasında net bir neden yok.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "Bitget, $387,5 milyon güvenlik ihlalinden sonra kademeli çekiliş sürecini yeniden başlattı",
+        "what": "Büyük kripto borsası Bitget, hackerların üçüncü taraf güvenlik ürünü açığından yararlanarak Bitcoin, Ethereum, stablecoin ve diğer varlıkları içinde $387,5 milyon çaldığını doğruladı. Borsa 28 Eylül'de Bitcoin ile başlayan kademeli çekiliş işlemini başlattı, Ethereum ve USDT'nin de sonradan geleceği. Bitget ve siber güvenlik firmaları Mandiant ve SlowMist soruşturma yapıyor; Kuzey Kore hackerları şüpheli.",
+        "coins": "BTC, ETH, USDT, diğerleri",
+        "timeUTC": "2026-09-28 22:53 UTC (rapor edildi)",
+        "source": "Multiple (BleepingComputer, Yahoo Finance, Daily Hodl)",
+        "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/"
+      },
+      {
+        "headline": "Büyük kurumlar pazar gerilemesine rağmen Bitcoin ve Ethereum satın almaya devam ediyor",
+        "what": "Strategy (eski adıyla MicroStrategy) $143 milyon karşılığında 1.665 BTC satın aldı; bu, Haziran'dan beri ilk art arda haftalık Bitcoin satın alımı. Strive, 27.462 BTC'ye yükselen toplam holdingleri için $94,5 milyon karşılığında 1.107 BTC satın aldı. Ayrıca Tom Lee'nin Bitmine şirketi, 6 milyondan fazla ETH'ye ulaşmak için 17.362 Ethereum ekledi. Goldman Sachs da $100 milyar Treasury fonunu kripto kurumsal altyapısına dahil etti. Kurumsal birikintisi, fiyat zayıflığına rağmen inançları gösteriyor.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-28 (çeşitli saatler)",
+        "source": "CoinDesk, The Block, Decrypt",
+        "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
+      },
+      {
+        "headline": "Bitcoin ve Ethereum ETF'leri hisse senedi satışına rağmen pozitif net akışı sürdürüyor",
+        "what": "Spot Bitcoin ETF'leri 28 Eylül'de $146 milyon net giriş kaydetti, fon holdinglerine 1.740 BTC eklendi. Ethereum ETF'leri $55,12 milyon net giriş gördü, holdinglere 20.400 ETH eklendi. Bu kalıcı kurumsal talep, geniş pazar düşüşü ile çelişiyor ve düzenlenmiş kanallar aracılığıyla çeşitli alıcı ilgisini gösteriyor.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-09-28",
+        "source": "Farside Investors, CoinGlass, SoSoValue",
+        "url": "https://farside.co.uk/btc/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Senato raporu: Tether İran'ın gölge bankacılık sisteminin merkezinde",
+          "what": "Yeni bir Senato soruşturması, USDT (Tether stablecoin) İran'ın gölge bankacılık ağının temel aracı haline geldiğini buldu, yaptırım kaçakçılığı ve yasadışı fon transferlerini sağladı. Bu, stablecoin kullanımına ilişkin coğrafi açıdan hassas bölgelerde haftalarca devam eden düzenleyici dikkat çekmesinin ardından geliyor.",
+          "coins": "USDT",
+          "timeUTC": "2026-09-28",
+          "source": "The Block, CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094"
+        },
+        {
+          "headline": "Brezilya $10.000 öz saklama raporlama eşiği uyguldu",
+          "what": "Brezilya merkez bankası, kurumlar kullanıcı kontrollü cüzdanlara veya cüzdanlardan yapılan transferler $10.000'ı aştığında Coaf'a bildirim yapması gerektiğini yetkilendirdi. Bu, $252 milyar Brezilya kripto pazarı için raporlama gereksinimlerini genişletiyor.",
+          "coins": "tüm",
+          "timeUTC": "2026-09-28",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/brazils-252-billion-crypto-market-gets-10000-self-custody-reporting-rule/"
+        },
+        {
+          "headline": "Rusya 5 Ekim'de kripto borsası başvurularını açıyor",
+          "what": "Rusya, yeni düzenleyici kurallar kapsamında kripto borsası başvuruları için 5 Ekim'i başlangıç tarihi olarak belirledi. Firmalar başvurmaya başlayabilir, ancak perakende varlık uygunluğu Rusya Merkez Bankası'ndan hâlâ beklemede.",
+          "coins": "tüm",
+          "timeUTC": "2026-09-28",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/"
+        },
+        {
+          "headline": "Kaliforniya kamu görevlilerini anılı madeni paraları başlatmaktan yasaklıyor",
+          "what": "Vali Newsom, AB 2409'u imzalayarak kamu görevlilerini ve belirli çalışanları ofislerine bağlı anılı madeni paralar veya kriptografik varlıkları yayınlamaktan kısıtlıyor. Yasa 1 Ocak 2027'de yürürlüğe girer ve kripto dolandırıcılığında geri ödeme kurallarını içerir.",
+          "coins": "anılı madeni paralar",
+          "timeUTC": "2026-09-28",
+          "source": "CryptoSlate, The Block",
+          "url": "https://cryptoslate.com/newsom-signs-california-law-barring-public-officers-and-certain-employees-from-issuing-meme-coins/"
+        },
+        {
+          "headline": "SEC, CLARITY Yasası başarısızlığından sonra CFTC'yi takip ediyor ve güncellenen kripto rehberi sunuyor",
+          "what": "Senato'nun CLARITY Yasası üzerinde başarısız cloture oylaması ardından SEC, federal menkul kıymet yasalarının token yayıncılarına nasıl uygulandığı konusunda personel kılavuzu yayınladı. Bu, kapsamlı kripto mevzuatı yokluğunda son CFTC kılavuzunu yansıtıyor.",
+          "coins": "tüm",
+          "timeUTC": "2026-09-28",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Citi, kurumsal stablecoin ödemeleri için Coinbase ortaklığını genişletiyor",
+          "what": "Citigroup, kurumsal müşterilerinin stablecoin ödeme kabul etmesini sağlamak için Coinbase ile mevcut anlaşmasını genişletti; Coinbase iş hesapları Citi'nin bankacılık altyapısında çalışıyor. Bu, geleneksel finansı ve zincir üstü uzlaştırma altyapısını entegre ediyor.",
+          "coins": "stablecoin'ler (USDC, USDT)",
+          "timeUTC": "2026-09-28",
+          "source": "Decrypt, The Block, CoinDesk",
+          "url": "https://decrypt.co/379497/citi-stablecoin-payments-coinbase-without-touching-crypto"
+        },
+        {
+          "headline": "Franklin Templeton tokenize edilmiş fonları artık Bybit ticaret teminatı olarak kabul ediliyor",
+          "what": "Bybit, uygun kurumların Franklin Templeton tarafından Benji tarafından yayınlanan tokenize edilmiş fon hisselerini stablecoin kredi limitleri için teminat olarak rehin koyabileceğini duyurdu; altta yatan varlıklar borsanın dışında emanet tutulur. Bu, kurumsal nitelikli varlıkları kripto türevlerine bağlıyor.",
+          "coins": "stablecoin'ler",
+          "timeUTC": "2026-09-28",
+          "source": "Cointelegraph, CoinDesk",
+          "url": "https://cointelegraph.com/news/bybit-accepts-franklin-templeton-tokenized-funds-trading-collateral"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Chainlink, kurumların zincirler arası transferlerde özel güvenlik kontrolleri eklemesine izin vermek için CCIP 2.0'ı başlattı",
+          "what": "$292 milyon Kelp DAO hack'inden beş ay sonra Chainlink, bankaların ve platformların zincirler arası köprülerde kendi güvenlik kontrollerini çalıştırmasını sağlayan CCIP 2.0'ı yayınladı. Bu özelleştirmeyi artırır ve tek güvenlik modellerine olan güveni azaltır.",
+          "coins": "tüm (zincirler arası)",
+          "timeUTC": "2026-09-28",
+          "source": "Decrypt, CoinDesk",
+          "url": "https://decrypt.co/379463/chainlink-institutions-add-bridge-checks-kelp-hack"
+        },
+        {
+          "headline": "OKX ABD, kullanıcıları 30 Eylül'e kadar ticaret botu pozisyonlarını geçirmeye zorlayıyor",
+          "what": "OKX ABD, kullanıcılara eski USD ticaret çiftlerinde Grid ve Smart Portfolio holdinglerin, 30 Eylül 08:00 UTC'ye kadar botlar geçirilmezse otomatik olarak satılacağını bildirdi.",
+          "coins": "tüm",
+          "timeUTC": "2026-09-28",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/okx-us-to-sell-usd-trading-bot-positions-if-users-miss-sept-30-deadline/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Blockchain.com, $6 milyar değerleme hedefiyle $500 milyon halka arza çalışıyor",
+          "what": "Bloomberg, Blockchain.com'un $500 milyon halka arzını 2022 zirvesinin çok altında $6 milyar hedef değerlemesi ile takip ettiğini bildirdi. Bu hareket, son dönem listelenen kripto hisse senetleri için zor halka arz pazarını yansıtıyor.",
+          "coins": "tüm",
+          "timeUTC": "2026-09-28",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/blockchain-com-500m-ipo-bloomberg-reports"
+        },
+        {
+          "headline": "Vitalik Buterin, Ethereum'un geleceği için 'kriptografik dünya bilgisayarı' planını özetliyor",
+          "what": "Ethereum kurucu ortağı Vitalik Buterin, Hegota'nın Ethereum'un son 'normal' çatallanması olacağını ve gelecekteki yükseltmelerin özyinelemeli STARK'lar ve resmi doğrulama üzerine inşa edileceğini önerdi. Bu, ölçekleme ve doğruluk için uzun vadeli bir vizyonu taslaklandırıyor.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-28",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum"
+        },
+        {
+          "headline": "Ethereum'un en iyi likid restaking protokolü verimler kurudukça neobankaaya dönüyor",
+          "what": "Restaking altın çılgınlığı durmuş; getiriler çökmüş ve akıllı sözleşme riskleri yükselmiş. En iyi protokoller temel restaking işletmesinden uzaklaşıyor; biri kripto neobankaası kuruyor.",
+          "coins": "ETH",
+          "timeUTC": "2026-09-28",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/28/the-restaking-gold-rush-is-over-and-top-protocols-are-barely-making-a-profit"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-09-28",
+    "summary": "Spot Bitcoin ETF'leri $146 milyon net giriş kaydetti (1.740 BTC), Ethereum ETF'leri $55,12 milyon net giriş kaydetti (20.400 ETH). Her iki büyük varlık, günün genel pazar zayıflığına rağmen düzenlenmiş kanallar aracılığıyla kalıcı kurumsal talebini gösterdi.",
+    "source": "Farside Investors, CoinGlass, SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Germany CPI Flash September 2026 — Tue 29 Sept, 12:00 UTC (High impact)",
+      "typicalReaction": "Büyük CPI açıklaması, faiz oranı beklentilerini etkilediği için geleneksel ve kripto piyasalarında volatiliteyi tetikler."
+    },
+    {
+      "event": "RBA Rate Decision September 2026 — Tue 29 Sept, 04:30 UTC (Medium impact)",
+      "typicalReaction": "Avustralya merkez bankası karar kararları küresel getiri eğrilerinde ve risk iştahında dalgalanır; kripto değerlemelerini etkiler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Genişlik (pazar genişliği)",
+      "definition": "Gün içinde yukarı giden karşı aşağı giden işlem gören tüm varlıkların yüzdesi. Düşük genişlik (birkaç varlık yukarı), ana varlıklar daha az düştüğü hâlde zayıf genel pazar sağlığını gösterir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem türevlerinde uzun ve kısa pozisyon tutan tüccarlar arasında ödenen ücret. Yüksek finansman oranları (uzun pozisyonlar kısa pozisyonlara ödediğinde) aşırı ısınan boğa duyarlılığını gösterir."
+    },
+    {
+      "term": "Giriş / çıkış (ETF akışları)",
+      "definition": "Borsa yatırım fonlarına giren (giriş) veya çıkan (çıkış) günlük net para miktarı. Pozitif giriş alıcıların satıcıları aştığını; negatif çıkış satıcıların alıcıları aştığını gösterir."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Fiyat yukarı gitmesine (uzun) karşı fiyat aşağı gitmesine (kısa) bahis yapan tüccarların oranı. 1.0'dan büyük oranlar daha fazla uzunu kısayı gösterir; 1.0'dan düşük daha fazla kısayı gösterir."
+    },
+    {
+      "term": "Mark fiyatı",
+      "definition": "Türev (vadeli işlem) sözleşmelerini kapatmak için kullanılan referans fiyat, genellikle manipülasyonu önlemek için büyük borsalarda spot fiyatların ağırlıklı ortalaması."
+    },
+    {
+      "term": "Açık Faiz (OI)",
+      "definition": "Vadeli işlem sözleşmelerinde açık kaldırçaklı pozisyonların (uzun ve kısa) toplam değeri. Yükselen OI yeni paranın kaldırçaklı ticarete girdiğini; düşen OI tüccarların pozisyonları kapattığını gösterir."
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "Gerçek Bitcoin veya Ethereum (türev değil) tutan düzenlenmiş yatırım fonu. Yatırımcılar madeni paraları doğrudan satın almak yerine hisse senedi satın alır; geleneksel brokerlerin maruziyet kazanırlar."
+    },
+    {
+      "term": "Taker alım/satış oranı",
+      "definition": "Alıcılar (agresif) ile satıcılar (agresif) tarafından başlatılan işlemlerin oranı. 1.0'dan büyük daha agresif alımı gösterir; 1.0'dan düşük daha agresif satışı gösterir."
+    },
+    {
+      "term": "En iyi pozisyon oranı (en iyi tüccar uzun/kısa)",
+      "definition": "Bir borsada en büyük tüccarlar arasında uzun/kısa oranı, en güçlü hesapların net uzun mu net kısa mı olduğunu gösterir. 'Akıllı para' konumlandırmasını tespit etmek için kullanılır."
+    }
+  ],
   "_source": "cli-tr",
-  "_from": "804ef37d5b1b351f"
+  "_from": "ef8a703ff99639f2"
 }
