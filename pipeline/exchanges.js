@@ -14,6 +14,7 @@
 // can't be normalised (e.g. Gate with a missing contract multiplier) is null -> "—".
 
 import { fetchJson, num } from "./http.js";
+import { visionKline, visionMetrics } from "./binance-vision.js";
 
 const annualise = (ratePerInterval, intervalH = 8) => ratePerInterval == null ? null : ratePerInterval * (24 / intervalH) * 365 * 100;
 
@@ -210,7 +211,12 @@ const VENUES = {
 
 async function venueRecord(name, base, win) {
   const v = VENUES[name];
-  const kline = await v.kline(base, win.dayStartMs, win.dayEndMs).catch(() => null);
+  let kline = await v.kline(base, win.dayStartMs, win.dayEndMs).catch(() => null);
+  // Binance: if the API kline failed, try the bulk archive (data.binance.vision)
+  if (!kline && name === "Binance") {
+    kline = await visionKline(SYMS.binance(base), win.dayStartMs).catch(() => null);
+    if (kline) kline._visionFallback = true;
+  }
   let snap = null;
   if (win.live) snap = await v.snap(base).catch(() => null);
   if (!win.live && !kline) return { venue: name, symbol: SYMS[name.toLowerCase()](base), ok: false, err: "no UTC-day kline" };
@@ -304,15 +310,24 @@ async function okxAccountRatio(base) {
 }
 
 async function attachPositioning(baseObj, base, win) {
-  if (!win.live) return;
-  const [bin, byOi, okxR] = await Promise.all([
-    binancePositioning(base, win),
-    bybitOiChange(base, win),
-    okxAccountRatio(base),
-  ]);
-  if (baseObj.Binance?.ok) Object.assign(baseObj.Binance, bin);
-  if (baseObj.Bybit?.ok && byOi !== undefined) baseObj.Bybit.oiChangePct = byOi;
-  if (baseObj.OKX?.ok && okxR !== undefined) baseObj.OKX.longShortAccount = okxR;
+  if (win.live) {
+    const [bin, byOi, okxR] = await Promise.all([
+      binancePositioning(base, win),
+      bybitOiChange(base, win),
+      okxAccountRatio(base),
+    ]);
+    if (baseObj.Binance?.ok) Object.assign(baseObj.Binance, bin);
+    if (baseObj.Bybit?.ok && byOi !== undefined) baseObj.Bybit.oiChangePct = byOi;
+    if (baseObj.OKX?.ok && okxR !== undefined) baseObj.OKX.longShortAccount = okxR;
+  } else {
+    // Backfill: pull positioning from the Binance Vision bulk archive
+    const vm = await visionMetrics(SYMS.binance(base), win.dayStartMs, win.dayEndMs).catch(() => null);
+    if (vm && baseObj.Binance?.ok) {
+      Object.assign(baseObj.Binance, vm);
+      if (vm.oiCoins != null) baseObj.Binance.oiCoins = vm.oiCoins;
+      if (vm.oiUSD != null) baseObj.Binance.oiUSD = vm.oiUSD;
+    }
+  }
 }
 
 // ---- movers: biggest Binance USDT-perp moves on the report day ----
