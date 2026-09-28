@@ -1,20 +1,20 @@
 {
-  "runId": "2026-09-26T00:00:00.968Z",
-  "dateOverride": null,
-  "reuseSynthesis": false,
-  "startedAt": "2026-09-26T00:00:00.968Z",
-  "status": "ok",
-  "finishedAt": "2026-09-26T00:06:51.032Z",
-  "durationSec": 410,
+  "runId": "2026-09-28T23:38:19.995Z",
+  "dateOverride": "2026-09-25",
+  "reuseSynthesis": true,
+  "startedAt": "2026-09-28T23:38:19.995Z",
+  "status": "degraded",
+  "finishedAt": "2026-09-28T23:47:04.553Z",
+  "durationSec": 525,
   "date": "2026-09-25",
-  "live": true,
+  "live": false,
   "window": {
     "label": "2026-09-25 00:00 → 24:00 UTC",
     "startMs": 1790294400000,
     "endMs": 1790380799999,
-    "dayAligned": true,
+    "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "00:00 UTC"
+    "asOfUTC": "23:59 UTC"
   },
   "sources": {
     "exchanges": {
@@ -48,43 +48,42 @@
       "reason": null
     },
     "news": {
-      "ok": true,
-      "sourcesOnline": [
-        "CoinDesk",
-        "The Block",
-        "Cointelegraph",
-        "CryptoSlate",
-        "Decrypt",
-        "SEC",
-        "Federal Reserve",
-        "CFTC"
-      ],
+      "ok": false,
+      "sourcesOnline": [],
       "failed": [],
-      "count": 52,
-      "backfill": false
+      "count": 0,
+      "backfill": true
     },
     "tradfi": {
-      "ok": true,
-      "reason": null,
-      "requested": true,
-      "backfill": false
+      "ok": false,
+      "reason": "unavailable-for-backfill",
+      "requested": false,
+      "backfill": true
     },
     "stocks": {
-      "ok": true,
-      "reason": null
+      "ok": false,
+      "reason": "unavailable"
     },
     "market": {
-      "ok": true,
+      "ok": false,
       "failed": []
     },
-    "etfFlows": "pending-synthesis",
-    "backfill": null
+    "etfFlows": "unavailable-for-backfill",
+    "backfill": {
+      "unavailable": [
+        "funding",
+        "open interest",
+        "mark price",
+        "news",
+        "traditional markets"
+      ]
+    }
   },
   "synthesis": {
-    "source": "cli",
-    "fellBack": false,
+    "source": "data-only",
+    "fellBack": true,
     "cliOnly": true,
-    "errorKind": null
+    "errorKind": "no-object"
   },
   "languages": [
     "en",
@@ -97,8 +96,10 @@
     "zh": true
   },
   "publish": {
-    "pushed": true,
-    "branch": "main"
+    "pushed": false,
+    "reason": "pending"
   },
-  "reasons": []
+  "reasons": [
+    "narrative fell back to data-only (CLI-only backend)"
+  ]
 }

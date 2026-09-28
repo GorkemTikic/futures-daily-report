@@ -1,0 +1,170 @@
+{
+  "dateUTC": "2026-09-25",
+  "coversUTC": "2026-09-25 00:00–23:59 UTC",
+  "windowLabel": "2026-09-25 00:00 → 24:00 UTC",
+  "asOfUTC": "23:59 UTC",
+  "live": false,
+  "rolling": false,
+  "majors": {
+    "BTC": {
+      "OKX": {
+        "venue": "OKX",
+        "basis": "utc-day",
+        "open": 84369.4,
+        "high": 85242.2,
+        "low": 83118,
+        "close": 84059.9,
+        "chgPct": -0.36683916206586753,
+        "volUSD": 6598199809.50693,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      },
+      "Bitget": {
+        "venue": "Bitget",
+        "basis": "utc-day",
+        "open": 84364.6,
+        "high": 85220,
+        "low": 83121.1,
+        "close": 84058.2,
+        "chgPct": -0.3631855067172827,
+        "volUSD": 2399153595.24835,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      },
+      "Binance": {
+        "venue": "Binance",
+        "basis": "utc-day",
+        "open": 84370.1,
+        "high": 85224,
+        "low": 83130.1,
+        "close": 84056,
+        "chgPct": -0.3722882869642276,
+        "volUSD": 11276517980.293,
+        "fundingAnnPct": null,
+        "oiUSD": 8012563966.3749,
+        "oiChangePctCoins": -0.6845213571053155,
+        "oiChangePct": -1.1905685599289904,
+        "longShortAccount": 1.31310757,
+        "topPositionRatio": 1.964927,
+        "takerBuySellRatio": 1.1105315520833328,
+        "mark": null
+      },
+      "Bybit": {
+        "venue": "Bybit",
+        "basis": "utc-day",
+        "open": 84367,
+        "high": 85241,
+        "low": 83106.4,
+        "close": 84059.9,
+        "chgPct": -0.36400488342599097,
+        "volUSD": 5097801357.415,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      },
+      "Gate": {
+        "venue": "Gate",
+        "basis": "utc-day",
+        "open": 84365.5,
+        "high": 85212,
+        "low": 83120,
+        "close": 84052.4,
+        "chgPct": -0.37112326721231526,
+        "volUSD": 5325443149.1686,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      }
+    },
+    "ETH": {
+      "OKX": {
+        "venue": "OKX",
+        "basis": "utc-day",
+        "open": 2686.68,
+        "high": 2742.95,
+        "low": 2665.51,
+        "close": 2690.29,
+        "chgPct": 0.13436657882591627,
+        "volUSD": 6750793476.96809,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      },
+      "Binance": {
+        "venue": "Binance",
+        "basis": "utc-day",
+        "open": 2686.65,
+        "high": 2742.66,
+        "low": 2666,
+        "close": 2690.56,
+        "chgPct": 0.14553440157816813,
+        "volUSD": 8472146114.82706,
+        "fundingAnnPct": null,
+        "oiUSD": 6095733251.202431,
+        "oiChangePctCoins": -0.183912801306136,
+        "oiChangePct": -0.2305633536570352,
+        "longShortAccount": 2.71627465,
+        "topPositionRatio": 1.676931,
+        "takerBuySellRatio": 1.1004882847222228,
+        "mark": null
+      },
+      "Bybit": {
+        "venue": "Bybit",
+        "basis": "utc-day",
+        "open": 2686.59,
+        "high": 2742.05,
+        "low": 2666.2,
+        "close": 2690.39,
+        "chgPct": 0.14144324217687576,
+        "volUSD": 2763498282.1555,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      },
+      "Bitget": {
+        "venue": "Bitget",
+        "basis": "utc-day",
+        "open": 2686.18,
+        "high": 2742.09,
+        "low": 2666.23,
+        "close": 2690.54,
+        "chgPct": 0.16231227989189584,
+        "volUSD": 1648995666.7710998,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      },
+      "Gate": {
+        "venue": "Gate",
+        "basis": "utc-day",
+        "open": 2686.6,
+        "high": 2743.24,
+        "low": 2665.7,
+        "close": 2690.39,
+        "chgPct": 0.14107049802724497,
+        "volUSD": 5315143862.65652,
+        "fundingAnnPct": null,
+        "oiUSD": null,
+        "mark": null
+      }
+    }
+  },
+  "movers": [],
+  "breadth": null,
+  "altcoins": [],
+  "market": null,
+  "sources": {
+    "exchanges": [
+      "Binance",
+      "Bybit",
+      "OKX",
+      "Bitget",
+      "Gate"
+    ],
+    "calendar": true,
+    "news": false,
+    "tradfi": false
+  }
+}

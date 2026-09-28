@@ -1,262 +1,263 @@
 {
-  "oneLine": "比特币下跌0.37%，以太坊上涨0.14%，大多数山寨币反弹；Bitget遭受3.87亿美元安全漏洞成为主要新闻，美国证券交易委员会最有力的加密货币倡导者宣布将于10月2日离职，美国加密货币ETF净流入30亿美元。",
-  "caveman": "比特币是人们交易的数字货币。9月25日，比特币下跌了一点点（少于1%），另一种数字货币以太坊则略微上升。大多数其他较小的数字货币表现不错。最大的坏消息是一个大交易所叫Bitget被黑客偷走了3.87亿美元。Bitget的老板认为是朝鲜干的。他们觉得有人用了一个trick，不用偷钥匙就把钱转走了。更吓人的是，美国政府的证监会那个最支持数字货币的人说10月2号就要辞职不干了。这对想要政府帮助数字货币发展的人来说是个坏消息。印钞厂Tether用的钱被政府没收了，不过Tether说这只是他们很小一部分的钱，所以没关系。另外，有很多人往比特币和以太坊基金里放钱。这一天既有好消息又有坏消息——有些币表现特别好，但安全和政府支持方面有严重问题。",
-  "priceVolumeSummary": "比特币在五大交易所之间波动极小，维持在84,056美元到84,060美元之间，币安日交易量领先，达113亿美元。以太坊同样表现稳健，保持在2,690美元到2,690.60美元之间，币安交易量同样最高，达85亿美元。",
-  "positioningSummary": "比特币融资利率在Bybit上较高（年化10.95%），但在其他交易所受限（币安0.84%，Gate为负-3.07%），表明空头头寸维持困难。以太坊显示出更强的多头偏向，特别是在币安上（多头与空头比例为2.70倍）。各交易所持仓量温和增长，币安持有80亿美元的比特币敞口和61亿美元的以太坊敞口。融资利率信号混合，既未出现极度杠杆堆积，也未出现恐慌平仓迹象，全天头寸保持稳定。",
-  "stocksSummary": "韩国股市涨幅居前：SK Hynix上涨2.5%，三星上涨3.2%，KOSPI ETF上涨2.1%，这与贯穿2026年全年因AI需求驱动的半导体领涨亚洲科技股的趋势一致。香港则出现弱势，AI股票表现不佳（智谱AI下跌1.8%，MiniMax下跌2.4%）和大型科技股（腾讯下跌0.4%，小米下跌2.6%）。中国市场波澜不惊。美股收盘走高（标普500上涨0.54%，纳斯达克上涨0.50%），石油大幅下跌（WTI下跌1.4%，布伦特下跌2.1%），黄金保持平稳（上涨0.54%），10年期美债收益率攀升至5.22%，为2026年3月以来幅度最大的债市波动。",
+  "oneLine": "2026年9月28日周一，比特币下跌1.1%，受市场广泛走弱、机构买盘和重大交易所安全事件的影响。",
+  "caveman": "周一比特币掉了点，最后跌到$83,500。以太坊基本没动，还在$2,687。大多数其他币都跌了，大概84%都下跌了。最大的新闻是Bitget交易所被黑了，小偷拿走了$388百万和5,000个比特币——这是有史以来最大的交易所黑客事件之一。但高盛、花旗和富兰克林邓普顿这样的大公司说他们把钱放进加密货币，这通常是好事。问题是Bitget的安全系统有个漏洞，黑客就进来了。当这种事发生，人们就开始担心所有交易所。油价上升到$100多一桶（因为中东的事），这通常让人们想要安全的东西，不是加密货币这样的风险品。所以虽然大公司在买比特币，但黑客事件和油价上升让整个市场都跌了。",
+  "priceVolumeSummary": "比特币跌1.1%至$83,486–$83,515，各交易所价格和方向一致。币安交易量领先，达$13.1 billion，OKX和Bybit各约$5–7 billion；以太坊基本持平，维持在$2,687，币安交易量领先，达$9.7 billion。",
+  "positioningSummary": "比特币资金费率在各交易所维持高位，年化2.19%–10.95%，但低于近期高点。最大交易者表现出强烈的看多倾向（币安大户多空比1.89），但交易者活动偏向卖家（比率0.97，低于1.0表示卖方更激进）。以太坊表现出相似的卖方压力（比率0.94），尽管大户中看多倾向高达2.76倍。币安上的未平仓头寸为比特币$7.7 billion，以太坊$6.1 billion。市场广度走弱，币安永续合约中只有16%在今日上涨，表明卖家占主导。",
+  "stocksSummary": "亚股在报告当天盘前收盘不一。韩国大幅下跌，SK Hynix跌−3.95%，Samsung跌−5.75%，反映芯片行业走弱。香港跟随下跌，大多数人工智能和芯片制造商股票下跌7–10%（MiniMax跌−10.4%，CSOP Samsung 2× −10.2%），而China主要企业下滑5–6%。US股跌0.74%（S&P 500）和0.92%（Nasdaq），芯片和科技股跌幅最大（Intel跌−11.2%，MicroStrategy相关持仓承压），但黄金上涨0.25%作为避险品。这些走势反映了传统市场的广泛风险厌恶情绪，特别是在科技和芯片领域，更高的US国债收益率（10年期超过5.27%）压低所有成长类板块。",
   "movers": [
     {
-      "symbol": "PHA",
-      "explanation": "Phala Network上涨70.7%至$0.087，日交易量4.82亿美元；未发现任何公开新闻或交易所公告能解释此涨幅。",
+      "symbol": "NMRUSDT",
+      "explanation": "没有明显公开原因；可能是小市值代币的动量驱动的投机。",
       "hasCause": false
     },
     {
-      "symbol": "SAGA",
-      "explanation": "Saga下跌52.1%至$0.036，日交易量3.64亿美元，收盘价接近日内低点，盘中高点达$0.092；未在监管、交易所或项目公告中发现原因。",
+      "symbol": "QUSDT",
+      "explanation": "没有明显公开原因；代币急剧下跌，看似是投机平仓。",
       "hasCause": false
     },
     {
-      "symbol": "BTW",
-      "explanation": "比特币战争（BTW）跳涨38.0%至$1.315，交易量1.95亿美元；未发现任何对应新闻或市场事件。",
+      "symbol": "MARSCOINUSDT",
+      "explanation": "没有明显公开原因；上升看起来是由散户兴趣驱动，而不是公告事件。",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Bitget遭3.87亿美元安全漏洞；朝鲜被怀疑为幕后黑手",
-        "what": "Bitget首席执行官Gracy Chen表示，朝鲜很可能是从交易所热钱包和温钱包窃取3.87亿美元加密货币的幕后黑手。攻击者伪造内部转账请求来触发交易所的授权流程，而无需窃取私钥。Circle和Tether冻结了大约31.8万美元的与黑客钱包相关的稳定币（USDC和USDT），但被盗资金的绝大多数被兑换成了以太坊——这无法被冻结。这起攻击是2026年迄今为止最大的加密货币盗窃案。",
-        "coins": "Bitget上的所有资产（BTC、ETH、山寨币、稳定币）",
-        "timeUTC": "2026-09-24 18:31 UTC；公告于2026-09-25",
-        "source": "Decrypt, CoinDesk, Gizmodo, Fortune",
-        "url": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect"
+        "headline": "Bitget遭$387–388百万黑客攻击；近5,000个比特币被盗",
+        "what": "加密货币交易所Bitget披露攻击者利用第三方安全漏洞窃取了大约$387.5百万的资产，包括近5,000个比特币。首席执行官Gracy Chen透露，攻击者在主要盗窃前30分钟进行了小额测试转账以探测安全控制，然后在被发现后45分钟内转移了大约$290百万。该交易所已恢复分阶段比特币提取，并承诺通过用户保护基金弥补损失。",
+        "coins": "Bitcoin, Ethereum, USDT",
+        "timeUTC": "2026-09-28 ~04:00–05:00 UTC",
+        "source": "CryptoSlate, The Block, Cointelegraph, CoinDesk",
+        "url": "https://cryptoslate.com/nearly-5000-btc-leaves-bitget-as-hackers-begin-laundering-387-million-haul/"
       },
       {
-        "headline": "美证监会\"加密妈妈\"Hester Peirce将于10月2日离职",
-        "what": "美国证券交易委员会最强有力的加密货币倡导者Hester Peirce宣布将于2026年10月2日辞职，结束她长达9年的任期，并于11月加入Regent University School of Law担任副教授。她的离职将使证监会仅剩两位委员——这在历史上属于人员配置严重不足，但该机构仍可以两名委员的法定人数运作。此时机点恰好赶上该机构继续发布新鲜加密货币指导意见之际。",
-        "coins": "对所有加密货币有监管影响",
-        "timeUTC": "2026-09-25（通过社交媒体宣布）",
+        "headline": "Strategy以$143百万收购1,665个比特币；总持量达847,666个比特币",
+        "what": "迈克尔·赛勒的Strategy（原MicroStrategy）自6月以来首次进行连续周度比特币购买，以大约$143百万购入1,665个比特币，总持量升至847,666个比特币——约占2,100万供应量的4%。公司通过出售147万股获得$246.2百万和发行优先股部分融资这次购买。这一举动表明尽管短期市场走弱，机构仍在继续积累。",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-28 ~12:00 UTC",
+        "source": "Cointelegraph, CoinDesk, The Block",
+        "url": "https://cointelegraph.com/news/strategy-1665-bitcoin-buy-holdings-847666-btc"
+      },
+      {
+        "headline": "高盛将~$100百万国债基金投入加密货币机构生态",
+        "what": "高盛宣布将其大约$100百万的国债基金投入加密货币行业的机构基础设施和金融通道，而无需代币化。这一举动表明传统金融对加密货币轨道的大规模采用，用于机构运营和结算。",
+        "coins": "Multiple (infrastructure-level)",
+        "timeUTC": "2026-09-28 14:40 UTC",
         "source": "CoinDesk",
-        "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week"
-      },
-      {
-        "headline": "美国当局没收Tether银行合作伙伴EQIBank 8,900万美元资产",
-        "what": "联邦检察官从EQIBank没收了约8,900万美元，EQIBank是一家多米尼加许可的离岸银行，为Tether和其他加密企业处理资金。没收针对该银行在其美国支付处理商Capstone的账户，该账户通过Wells Fargo和摩根大通转账。Tether证实在EQIBank持有资产，但表示其敞口仅占其1877.5亿美元总支持资产的0.034%以下——潜在损失上限约6,400万美元。该公司表示不知道Capstone的涉嫌违规行为，其资金仍可正常使用，对USDT美元挂钩不构成直接威胁。",
-        "coins": "USDT（Tether）",
-        "timeUTC": "2026-09-25（公告）",
-        "source": "CoinDesk, Decrypt, PYMNTS",
-        "url": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure"
+        "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
       }
     ],
     "groups": {
-      "Regulation and policy": [
+      "Hacks, exploits and outages": [
         {
-          "headline": "美证监会发布加密常见问题解答，涉及代币回购、网络升级和利润承诺",
-          "what": "美证监会工作人员发布了指导意见，澄清代币回购、网络升级和利润承诺何时构成证券法违规。指导意见指出，宣传网络当前用途\"通常不会产生利润预期\"，为代币项目在证券分类中的合规性问题提供了有限缓解。",
-          "coins": "所有发行代币的山寨币和项目",
-          "timeUTC": "2026-09-25",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-09-25-sec-crypto-faq-addresses-token-buybacks-network-upgrades-promises-profit-416914"
+          "headline": "Bitget黑客在$388百万盗窃前测试了风险控制；比特币开始洗钱",
+          "what": "Bitget首席执行官确认攻击者在主要盗窃前大约30分钟进行了两次小额测试转账，以探测安全控制。一旦漏洞被确认，小偷在45分钟内转移了大约$290百万的资产。近5,000个比特币开始离开Bitget的追踪储备，被盗资金进入洗钱管道。",
+          "coins": "Bitcoin, Ethereum, USDT",
+          "timeUTC": "2026-09-28 04:00–05:00 UTC",
+          "source": "CryptoSlate, The Block",
+          "url": "https://cryptoslate.com/bitget-had-30-minutes-to-contain-its-hack-before-290-million-started-moving/"
         },
         {
-          "headline": "Kalshi预测市场再次上诉失败；体育合约被裁定受州监管管辖",
-          "what": "第六巡回上诉法院的法官裁定，预测市场的体育相关事件合约不属于掉期，因此不受联邦监管，而是属于州监管范围。这是Kalshi寻求美国商品期货交易委员会批准体育和政治预测市场过程中的又一次法律挫折。",
-          "coins": "预测市场平台",
-          "timeUTC": "2026-09-25",
+          "headline": "THORChain拒绝Bitget阻止黑客地址的请求；75.2个比特币通过交换被洗钱",
+          "what": "尽管Bitget要求跨链交换协议THORChain阻止与盗窃相关的地址，该协议仍继续处理交换。大约2,390个以太坊通过27笔成功交易被交换成75.2个比特币，显示了阻止被盗资产的挑战。",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-09-28 15:40 UTC",
           "source": "CoinDesk",
-          "url": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations"
-        },
-        {
-          "headline": "区块链协会领导层变动，CLARITY法案搁浅；创始人CEO Kristin Smith回归临时领导",
-          "what": "2025年从商品期货交易委员会离职加入区块链协会的Summer Mersinger将于9月月底下台。原协会首任CEO Kristin Smith将在加密行业未能通过国会CLARITY法案努力失败后回归担任临时领导。",
-          "coins": "整个行业的监管导航",
-          "timeUTC": "2026-09-25",
-          "source": "The Block, CoinDesk",
-          "url": "https://www.theblock.co/news/regulation/2026-09-25-blockchain-association-ceo-summer-mersinger-tstep-down-kristin-smith-interim-ceo-416913"
-        },
-        {
-          "headline": "OG.com（从Crypto.com独立）寻求美国商品期货交易委员会批准单只股票永续期货",
-          "what": "OG.com已向美国商品期货交易委员会提交申请，以获批为美国个股提供永续期货，与Coinbase、Kalshi和Payward（Kraken母公司）一起参与向美国零售交易者推出股票永续期货的竞争。这一举措反映了加密平台在监管明确性仍不确定情况下向传统金融产品的转向。",
-          "coins": "非特定代币；代币化股票/永续期货",
-          "timeUTC": "2026-09-25",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "url": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "现货比特币和以太坊ETF分别于9月25日吸引1.91亿美元和6,600万美元净流入",
-          "what": "美国现货比特币ETF获得1.91亿美元净流入，其中贝莱德的IBIT占1.63亿美元。以太坊现货ETF吸引了6,600万美元，由贝莱德的ETHA（2,680万美元）和富达的FETH（2,150万美元）领跑。该流入延续了以太坊五日连涨至7.465亿美元，并继续了更广泛的一周内超30亿美元流入加密ETF的涨势。",
-          "coins": "BTC、ETH",
-          "timeUTC": "2026-09-25",
-          "source": "Farside Investors (via web search)",
-          "url": "https://farside.co.uk/btc/"
+          "headline": "Strategy（MicroStrategy）恢复连续比特币购买；持仓接近$70百万",
+          "what": "Strategy完成了自6月以来首次连续周度比特币购买，增加1,665个比特币（$143M），总计847,666个——约占2,100万供应量的4%，价值约$70百万。购买由股份出售（出售147万MSTR获得$246.2M）和优先股发行融资，表明了持续的资本承诺。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-28 12:00 UTC",
+          "source": "Cointelegraph, CoinDesk, The Block",
+          "url": "https://cointelegraph.com/news/strategy-1665-bitcoin-buy-holdings-847666-btc"
         },
         {
-          "headline": "本周加密ETF吸引超30亿美元，其中8亿美元流向比特币以外的资产",
-          "what": "截至9月25日的一周内，美国加密交易所交易基金共吸引超30亿美元，追踪比特币、以太坊、Solana、XRP和其他山寨币的现货ETF全部表现为正。多元化的资金流反映了机构投资者兴趣超越比特币扩展到山寨币敞口。",
-          "coins": "BTC、ETH、SOL、XRP、山寨币",
-          "timeUTC": "2026-09-25",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/us-crypto-etfs-draw-over-3-billion-this-week-with-nearly-800-million-flowing-beyond-bitcoin/"
+          "headline": "高盛国债基金（$100B）整合到加密货币机构基础设施",
+          "what": "高盛宣布部署约$100百万的国债资产到加密货币的机构基础设施，而无需代币化，表明主流金融服务对基于区块链的结算和运营的采用。",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-28 14:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
+        },
+        {
+          "headline": "Strive以$94.5百万周度购买将比特币持仓推至27,400个以上",
+          "what": "Strive以$94.5百万购买了1,107个比特币，将总持仓提高到27,462个比特币。优先股提供了85%的收购资本，显示了来自另类投资工具的持续需求。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-28 11:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-28-strive-pushes-bitcoin-holdings-above-27400-btc-latest-94-5-million-purchase-417035"
+        },
+        {
+          "headline": "Tom Lee的Bitmine在购买17,362个以太坊$175百万后突破600万以太坊",
+          "what": "由Apollo的Tom Lee控制的Bitmine获得了17,362个以太坊，将持仓提高到600万个币以上（约占以太坊流通供应量的4.9%）。Bitmine在加密和传统持仓的总资产为$17.2百万。",
+          "coins": "Ethereum",
+          "timeUTC": "2026-09-28 10:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-28-tom-lees-bitmine-tops-6-million-eth-after-buying-another-17362-ether"
         }
       ],
       "Exchange and platform changes": [
         {
-          "headline": "Aave V4在Base上新增Coinbase代币化股票作为USDC借贷的抵押品",
-          "what": "Aave V4在Coinbase的Base网络上增加了苹果、英伟达、特斯拉及其他四只代币化股票作为借入USDC稳定币的抵押品。该集成对非美国用户开放，代表了分散金融与通过代币化证券传统股票市场相融合的关键一步。",
-          "coins": "USDC、代币化股票",
-          "timeUTC": "2026-09-25",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372"
+          "headline": "花旗和Coinbase扩大合作；机构可以通过花旗渠道接受稳定币支付",
+          "what": "花旗和Coinbase扩大了现有合作，允许花旗的机构客户接受稳定币支付，同时Coinbase企业账户在花旗的银行基础设施上运营，减少了传统和加密货币结算之间的摩擦。",
+          "coins": "USDC, USDT (stablecoins)",
+          "timeUTC": "2026-09-28 10:45 UTC",
+          "source": "Decrypt, The Block",
+          "url": "https://decrypt.co/379497/citi-stablecoin-payments-coinbase-without-touching-crypto"
         },
         {
-          "headline": "CoinMarketCap收购CoinGlass以扩展加密衍生品数据",
-          "what": "CoinMarketCap宣布收购热门衍生品和加密数据平台CoinGlass。CoinGlass将保留其品牌和团队；其网站、应用、免费工具、API和定价保持不变，扩展了CoinMarketCap的衍生品追踪能力。",
-          "coins": "非特定代币；衍生品数据基础设施",
-          "timeUTC": "2026-09-25",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "headline": "富兰克林邓普顿代币化基金现作为Bybit交易抵押品被接受",
+          "what": "Bybit扩大了抵押品选项，包括富兰克林邓普顿的代币化货币市场基金份额（Benji代币），允许符合条件的机构用于USDT或USDC交易信用额度，同时保持对基础资产的场外监护。",
+          "coins": "USDT, USDC (via collateral credit)",
+          "timeUTC": "2026-09-28 09:00 UTC",
+          "source": "Cointelegraph, CoinDesk",
+          "url": "https://cointelegraph.com/news/bybit-accepts-franklin-templeton-tokenized-funds-trading-collateral"
         },
         {
-          "headline": "摩根士丹利加入NEXTPredict，预测市场押注机构采纳",
-          "what": "摩根士丹利成为预测市场平台NEXTPredict的参与者，因为该领域正在争取机构投资者。预测市场的大部分交易仍为体育博彩，但平台正在为政治和事件预测合约的机构兴趣上升做准备。",
-          "coins": "预测市场平台",
-          "timeUTC": "2026-09-25",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379218/morgan-stanley-joins-nextpredict-as-prediction-markets-bet-on-more-institutional-play"
+          "headline": "Chainlink推出CCIP 2.0；机构在跨链转账上获得自定义安全控制",
+          "what": "Chainlink更新了其跨链互操作性协议（CCIP），让机构在跨链桥上添加自己的安全检查，解决了2026年初$292百万Kelp黑客事件暴露的漏洞。",
+          "coins": "Multiple (infrastructure)",
+          "timeUTC": "2026-09-28 13:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry"
+        },
+        {
+          "headline": "OKX US为用户设定9月30日截止期迁移美元交易机器人，否则面临自动出售",
+          "what": "OKX US宣布，如果用户错过9月30日截止期，已弃用的美元交易对上的Grid和Smart Portfolio持仓将被自动出售，需要手动迁移到更新的交易对结构。",
+          "coins": "Multiple (operational notice)",
+          "timeUTC": "2026-09-28 07:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/okx-us-to-sell-usd-trading-bot-positions-if-users-miss-sept-30-deadline/"
         }
       ],
-      "Hacks, exploits and outages": [
+      "Regulation and policy": [
         {
-          "headline": "Magic Eden NFT平台警示遗留以太坊挂单漏洞；白帽黑客救出价值570万美元的23,155个NFT",
-          "what": "Limit Break的支付处理器V2存在的漏洞使旧的Magic Eden以太坊NFT挂单暴露于exploit风险。白帽黑客在攻击者能排空钱包授权前救出了价值约570万美元的23,155个NFT。Magic Eden已警告用户撤销受影响挂单的旧授权。",
-          "coins": "NFT、ETH",
-          "timeUTC": "2026-09-25",
-          "source": "Decrypt, The Block, CryptoSlate",
-          "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit"
+          "headline": "美国参议院常设小组委员会报告：Tether USDT是伊朗影子银行网络的中心",
+          "what": "民主党参议员发布了一项调查，得出结论Tether及其USDT稳定币已成为伊朗政府规避国际制裁的关键工具，使离岸资产转移和外汇获取成为可能。",
+          "coins": "USDT (Tether)",
+          "timeUTC": "2026-09-28 08:45 UTC",
+          "source": "The Block, CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094"
         },
         {
-          "headline": "MultiversX主网在exploit后重启，但Kraken暂停EGLD交易",
-          "what": "MultiversX主网在安全exploit导致的临时暂停后于9月24日恢复了区块生产。然而，Kraken持续以仅取消模式保持EGLD（MultiversX代币）交易，待进一步调查期间暂停充提。",
-          "coins": "EGLD",
-          "timeUTC": "2026-09-25",
+          "headline": "美国证券交易委员会紧随商品期货交易委员会发布加密代币证券分类的新指导",
+          "what": "在参议院未能通过《CLARITY法案》后，证券交易委员会发布了关于现有联邦证券法如何适用于代币发行人的更新指导，与商品期货交易委员会几天前发布的指导平行。",
+          "coins": "Multiple (regulatory framework)",
+          "timeUTC": "2026-09-28 08:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail"
+        },
+        {
+          "headline": "巴西建立$10,000自我保管报告阈值；央行追踪钱包转账",
+          "what": "巴西央行授权的金融机构现在必须向Coaf报告用户控制钱包的转入转出达到或超过10,000巴西雷亚尔（约$2,000美元等值）的情况，加强了$252百万巴西加密货币市场的合规。",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-28 07:30 UTC",
           "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/multiversx-restarts-after-exploit-halt-but-kraken-still-bars-new-egld-trades/"
+          "url": "https://cryptoslate.com/brazils-252-billion-crypto-market-gets-10000-self-custody-reporting-rule/"
+        },
+        {
+          "headline": "加州禁止公务人员和员工发行加密货币迷因币",
+          "what": "州长Gavin Newsom签署了法案（AB 2409），禁止州和地方公务人员和某些员工发行迷因币或以其肖像为名的币。在2027年1月1日之后发行的此类官方相关币的上市也将对加州居民受到限制。",
+          "coins": "Meme coins / regulatory scope",
+          "timeUTC": "2026-09-28 06:00 UTC",
+          "source": "CryptoSlate, The Block",
+          "url": "https://cryptoslate.com/newsom-signs-california-law-barring-public-officers-and-certain-employees-from-issuing-meme-coins/"
+        },
+        {
+          "headline": "俄罗斯于10月5日开放加密交易所申请；散户资产资格仍待确定",
+          "what": "俄罗斯央行将2026年10月5日定为新监管规则下加密交易所申请的开始日期。然而，散户对特定加密资产的获取权和俄罗斯联邦央行最终的许可证决定仍待确定，表明分阶段推出。",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-28 05:45 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/"
         }
       ],
       "Traditional markets": [
         {
-          "headline": "美股反弹而债券收益率飙升至十年最高；黄金和石油表现不一",
-          "what": "9月25日，标普500指数（SPY）涨幅0.54%，纳斯达克（ONEQ）上涨0.50%。然而，债券市场大幅抛售，10年期美国国债收益率攀升至5.22%——为2026年3月以来最剧烈的波动。黄金小幅上涨（+0.54%永续）而原油下跌（WTI -1.4%，布伦特 -2.1%）。美元指数下跌0.24%，表明在利率上升背景下股票获得广泛支持。",
-          "coins": "无直接加密影响",
-          "timeUTC": "2026-09-25（美国市场时段）",
-          "source": "Data pack; CoinDesk市场评论",
-          "url": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm"
-        }
-      ],
-      "Unconfirmed and watch items": [
-        {
-          "headline": "[背景信息] 美联储提议在GENIUS法案下为稳定币发行人设定准备金限额和资本标准",
-          "what": "[9月24日宣布，超出报告日期] 美联储为由美联储监管的稳定币发行人提出了新的监管措施，包括准备金资产限额和标准化资本要求。该框架是GENIUS法案实施的一部分，代表了美国稳定币监管的重大进展。",
-          "coins": "USDT、USDC、所有稳定币",
-          "timeUTC": "2026-09-24（9月24日背景信息）",
-          "source": "Federal Reserve, The Block",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
-        },
-        {
-          "headline": "[背景信息] 156亿美元比特币期权到期与山寨币涨势加速相时",
-          "what": "[9月25日报告] 价值156亿美元的比特币期权合约大规模到期与广泛的山寨币涨势相时，加密市值前100资产中93个均录得涨幅。Quant（QNT）是最大涨幅者之一，上涨+39%，表明资金从比特币轮换到山寨币。",
-          "coins": "BTC、山寨币",
-          "timeUTC": "2026-09-25",
-          "source": "Decrypt, CoinDesk",
-          "url": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana"
+          "headline": "美国国债收益率飙升至5.27%以上；油价因伊朗地缘政治紧张局势冲破$100",
+          "what": "10年期美国国债收益率在中东升级和伊朗停火谈判的担忧下达到新的周期高点，超过5.27%。西德州原油回升至每桶$100以上。更广泛的市场股票下跌0.74%（标普500指数）至0.92%（纳斯达克），科技和半导体股跌幅最大，因为在更高折现率下增长资产困难重重。",
+          "coins": "Bitcoin, Ethereum (correlations)",
+          "timeUTC": "2026-09-28 12:00–18:00 UTC",
+          "source": "CoinDesk, Decrypt",
+          "url": "https://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-25",
-    "summary": "美国现货比特币ETF获得1.91亿美元净流入，贝莱德的IBIT领跑1.63亿美元。以太坊现货ETF吸引6,600万美元（贝莱德ETHA 2,680万美元、富达FETH 2,150万美元），延续五日连涨至7.465亿美元总计。合计流入支撑了本周超30亿美元流入加密ETF的更广泛涨势。",
-    "source": "Farside Investors",
-    "url": "https://farside.co.uk/btc/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "RBA Rate Decision (Australia) — Tuesday 29 Sept, 04:30 UTC",
-      "typicalReaction": "中等影响；央行决议可能会改变风险情绪和美元走势，进而影响加密货币估值"
-    },
-    {
-      "event": "Germany CPI Flash, Australia CPI, U.S. PCE Inflation — 29–30 Sept UTC",
-      "typicalReaction": "中高影响；通胀数据决定了利率预期和宏观风险偏好流向加密资产"
-    },
-    {
-      "event": "U.S. Employment Situation (Non-Farm Payrolls) — Friday 2 Oct, 12:30 UTC",
-      "typicalReaction": "高度影响；就业数据是加密市场重要推手；强劲就业支撑美元和加息预期，通常对风险资产不利"
+      "event": "Germany CPI Flash September 2026 — Tue 29 Sept, 12:00 UTC",
+      "typicalReaction": "高影响力经济数据发布；预期传统市场（股票、债券、欧元）波动性上升，可能对包括加密货币在内的风险资产产生溢出效应。"
     }
   ],
   "glossary": [
     {
-      "term": "基差交易",
-      "definition": "以一种利率借入加密资产，通过期货以更高价格卖出，合约到期时获得差价的策略——Ethena等平台用此方式支撑稳定币收益"
+      "term": "基差",
+      "definition": "加密货币期货合约价格与当前现货价格之间的差异。当期货交易价格高于现货时，市场预期价格会上升。"
     },
     {
-      "term": "黑名单/黑名单化",
-      "definition": "稳定币发行人冻结或封禁特定加密钱包地址持有其代币的能力——Circle（USDC）和Tether（USDT）用此方式遵守制裁和执法要求"
+      "term": "市场广度",
+      "definition": "衡量市场中上升资产相对下跌资产的比例。高广度（上升资产百分比高）表示广泛的力量；低广度（很少资产上升）表示弱点集中在少数名字。"
     },
     {
-      "term": "冷钱包",
-      "definition": "离线加密资产存储；最安全但取资最慢——通常由交易所以保险库或未连接互联网的硬件设备形式持有"
+      "term": "抵押品",
+      "definition": "为担保贷款或信用额度而质押的资产。在加密衍生品中，抵押品用于支持保证金交易头寸或信用额度；如果抵押品价值下跌，头寸可能被强制平仓。"
     },
     {
-      "term": "恐惧与贪婪指数",
-      "definition": "衡量市场情绪的指标，范围从0（极度恐惧）到100（极度贪婪）；帮助交易者在达到极值时识别潜在逆转"
+      "term": "Fear and Greed Index",
+      "definition": "一种情绪指标，范围从0（极端恐惧）到100（极端贪婪），根据市场波动率、价格走势和交易行为衡量投资者情绪极端。更高的读数表示强烈的买盘压力；更低的读数表示恐慌性抛售。"
     },
     {
-      "term": "融资利率",
-      "definition": "永续期货合约中持有相反头寸的交易者之间支付的利息——正利率意味着多头支付空头；负利率意味着空头支付多头；用以保持永续合约价格与现货保持一致"
+      "term": "资金费率",
+      "definition": "永续期货合约买方和卖方之间的定期支付，使合约价格与现货价格保持一致。正资金费率表示多头向空头支付（费率高时看空信号）；负费率表示空头向多头支付（非常负时看多信号）。年化资金费率以年百分比表示。"
     },
     {
-      "term": "热钱包",
-      "definition": "交易所为快速客户提现而保持在线的加密资产存储；比冷存储更容易被黑但对运营流动性必要"
+      "term": "强制平仓",
+      "definition": "当抵押品低于交易所最低门槛时，杠杆头寸被强制关闭，导致自动损失。高清算风险表明头寸过度杠杆化。"
     },
     {
-      "term": "杠杆",
-      "definition": "借入资金以扩大交易头寸规模超过交易者自有资本能购买的金额；同时放大收益和亏损"
+      "term": "多头头寸",
+      "definition": "对资产价格上升的押注。多头交易者拥有资产或持有期望升值的期货合约。"
     },
     {
-      "term": "多头/空头",
-      "definition": "多头 = 押注价格上升；空头 = 押注价格下跌；多空比例显示有多少交易者对资产看涨与看跌"
+      "term": "多空比",
+      "definition": "持有多头头寸与空头头寸的交易者比例。比率高于1.0表示多头更多（看涨）；低于1.0表示空头更多（看跌）。"
     },
     {
       "term": "标记价格",
-      "definition": "用于结算永续期货合约和计算交易者损益的参考价格；旨在跟踪现货市场价格但可能临时偏离"
+      "definition": "用于计算期货头寸未实现损益的参考价格，通常计算为主要交易所价格指数，以防止单个交易所现货价格被操纵。"
     },
     {
-      "term": "持仓量",
-      "definition": "交易所所有未平仓（未结算）期货合约的总美元价值；持仓量上升表明新资金进入市场，持仓量下降表明交易者平仓"
+      "term": "未平仓头寸",
+      "definition": "交易所开放期货合约中锁定的总资金或资产。未平仓头寸上升表明新资本进入市场并提高参与度；未平仓头寸下降表明头寸平仓。"
     },
     {
-      "term": "持仓量变化",
-      "definition": "一段时间内持仓量的净增减；正变化 = 新杠杆加入市场；负变化 = 杠杆平仓"
+      "term": "永续期货",
+      "definition": "没有到期日期的加密货币衍生品合约，允许交易者以杠杆押注价格走势，通过定期资金费率持续结算而不是固定到期日。"
     },
     {
-      "term": "永续期货/永续",
-      "definition": "允许交易者以杠杆押注价格走势的加密衍生品合约；与标准期货不同的是无到期日期并使用融资利率保持与现货价格的关联"
+      "term": "空头头寸",
+      "definition": "对资产价格下跌的押注。空头交易者已借入资产或持有期望贬值的期货合约。"
     },
     {
-      "term": "现货ETF",
-      "definition": "持有实际加密货币（比特币或以太坊）并在美国股票交易所交易的交易所交易基金；与基于期货的ETF不同因为它持有真实代币"
+      "term": "挂单者买卖比",
+      "definition": "实时市场活动中激进买入相对卖出的衡量。高于1.0表示更多激进买家（看涨）；低于1.0表示更多激进卖家（看跌）。该比率反映现货交易行为和市场动量。"
     },
     {
-      "term": "稳定币",
-      "definition": "与固定价值挂钩（通常为1美元）的加密货币；主要的是USDT（Tether）和USDC（Circle）；用于买卖加密和保持价值而不承担价格风险"
+      "term": "大户多空比",
+      "definition": "特别是交易所最大交易者持有的多头相对空头头寸的比率。高比率（如1.8+）表示大玩家的头寸强劲，预期价格上升。"
     },
     {
-      "term": "温钱包",
-      "definition": "介于热钱包（快速、安全性较低）和冷钱包（缓慢、安全性最高）之间的中间层加密资产存储；提供取资速度和安全性的平衡"
+      "term": "波动率",
+      "definition": "资产价格上下波动的程度。高波动率意味着大的、频繁的价格变动；低波动率意味着较小的、稳定的变动。波动率为交易者创造了机遇和风险。"
     }
   ],
   "_source": "cli-zh",
-  "_from": "2d2b6ac3c845c3c4"
+  "_from": "95da3a4f14014347"
 }
