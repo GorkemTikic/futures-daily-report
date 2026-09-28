@@ -12,7 +12,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildDataPack, resolveWindow } from "./datapack.js";
-import { synthesize, resolveTranslation } from "./synthesize.js";
+import { synthesize, resolveTranslation, dataOnly } from "./synthesize.js";
+import { checkConsistency } from "./verify.js";
 import { buildReportHtml, renderPdf } from "./render.js";
 import { loadEnv } from "./env.js";
 import { redact } from "./redact.js";
@@ -164,7 +165,22 @@ async function main() {
 
   console.log("Writing the report (synthesis)...");
   const publishedNews = loadPublishedNews().map((x) => x.url);
-  const synth = await synthesize(pack, config, dayDir, { reuseSynthesis, publishedNews });
+  const MAX_CONSISTENCY_RETRIES = 2;
+  let synth;
+  for (let attempt = 0; attempt <= MAX_CONSISTENCY_RETRIES; attempt++) {
+    synth = await synthesize(pack, config, dayDir, { reuseSynthesis: attempt === 0 && reuseSynthesis, publishedNews });
+    if (synth._fellBack) break;
+    const issues = checkConsistency(synth, pack);
+    if (!issues.length) break;
+    console.warn(`  consistency check failed (attempt ${attempt + 1}/${MAX_CONSISTENCY_RETRIES + 1}): ${issues.join("; ")}`);
+    if (attempt < MAX_CONSISTENCY_RETRIES) {
+      console.log("  retrying synthesis...");
+      try { fs.unlinkSync(path.join(dayDir, "synthesis.auto.json")); } catch {}
+    } else {
+      console.warn("  all consistency retries exhausted — falling back to data-only");
+      synth = { ...dataOnly(pack), _source: "data-only", _fellBack: true, _error: `consistency: ${issues.join("; ")}`, _errorKind: "consistency" };
+    }
+  }
   console.log(`  synthesis source: ${synth._source}`);
   if (synth._error) console.log(`  synthesis error [${synth._errorKind}]: ${redact(String(synth._error)).slice(0, 160)}`);
   if (synth._fellBack) reasons.push(`narrative fell back to data-only${synth._cliOnly ? " (CLI-only backend)" : ""}`);

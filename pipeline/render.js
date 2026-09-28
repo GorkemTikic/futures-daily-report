@@ -172,19 +172,20 @@ const LABELS = {
     rollingRow: "† this venue's UTC-day candle was unavailable — its figures are the rolling 24 hours.",
     degraded: "Some sources were unavailable for this run, so parts of this report are missing:",
     price: ["01 · Price & volume", "What every venue's price and volume did", "The same two contracts on every exchange, for this UTC day. When the prices line up, nothing unusual is happening; a gap or a big volume difference is worth noticing."],
-    pos: ["02 · Positioning", "How traders were leaning", "Funding shows which side is paying to hold its position (positive = longs pay shorts). Open interest is how much money is in open bets; its change over the day shows money coming in or out. Long/short is how many accounts lean each way."],
+    pos: ["02 · Positioning", "How traders were leaning", "Funding shows which side is paying to hold its position (positive = longs pay shorts). Open interest is how much money is in open bets; its change over the day shows money coming in or out. Long/short is how many accounts lean each way. Top L/S is the ratio among the largest traders. Taker B/S is the buy-to-sell ratio of market orders."],
     movers: ["03 · Biggest movers", "The coins that moved the most", "The largest moves on Binance for this UTC day, with the reason where the news supports one."],
     stocks: ["04 · Stocks & commodities on Binance Futures", "Equities and commodities traded on Binance", "Binance lists tokenised perpetuals for stocks (Korea, Hong Kong, China and the US) and commodities. The perp trades nearly around the clock, but the underlying market is open only a few hours — when it was closed, that is noted instead of showing drift as a daily move."],
     news: ["05 · Market news", "What drove the market — and what didn't", "Only causes that move prices, each with its source. Rumours and unconfirmed reports are kept separate at the end."],
     cal: ["06 · Scheduled events", "What happened and what's coming (UTC)", "US economic releases that tend to move crypto. A number only matters against its forecast."],
     gloss: ["07 · Glossary", "Every term used today, in plain words", ""],
-    col: { venue: "Venue", last: "Close", chg: "Change", high: "High", low: "Low", vol: "Volume", funding: "Funding (ann.)", oi: "Open interest", oiChg: "OI change", ls: "Long/short", mark: "Mark", stock: "Stock", commodity: "Commodity", market: "Market", session: "Session", actual: "Actual", fc: "Forecast", prev: "Previous", time: "Time", event: "Event", note: "Note" },
+    col: { venue: "Venue", last: "Close", chg: "Change", high: "High", low: "Low", vol: "Volume", funding: "Funding (ann.)", oi: "Open interest", oiChg: "OI change", ls: "Long/short", topLs: "Top L/S", taker: "Taker B/S", mark: "Mark", stock: "Stock", commodity: "Commodity", market: "Market", session: "Session", actual: "Actual", fc: "Forecast", prev: "Previous", time: "Time", event: "Event", note: "Note" },
     h3: { btcP: "Bitcoin (BTC perpetual)", ethP: "Ethereum (ETH perpetual)", btc: "Bitcoin", eth: "Ethereum", usMov: "United States — biggest movers", usVol: "United States — most traded", comm: "Commodities", tradfi: "Traditional markets", top3: "The three that mattered most", etf: "ETF flows", reportDay: "On the report day", next24h: "Next 24 hours", rest: "Rest of the week", lowLiq: "Newly listed / low-liquidity movers" },
     mkt: { KR_EQUITY: "Korea", HK_EQUITY: "Hong Kong", CN_EQUITY: "China", EQUITY: "US", COMMODITY: "Commodities", PREMARKET: "Pre-market" },
     grp: ["Regulation and policy", "Institutional flows and ETFs", "Exchange and platform changes", "Hacks, exploits and outages", "Traditional markets", "Unconfirmed and watch items"],
     sess: { weekend: "weekend — no cash session", holiday: (n) => `market closed (${n})`, closedGeneric: "cash market was closed — the perp figures are drift only" },
     source: "source", vol: "vol", on: "on", lsLine: "Long/short accounts", oiChangeLine: "Open-interest change over the day",
     mktCap: "Total market cap", btcDom: "BTC dominance", ethDom: "ETH dominance", fng: "Fear & Greed",
+    breadth: "Market breadth", breadthDesc: (u, d) => `${u} up / ${d} down`,
     altcoinsH: "Altcoins", coin: "Coin",
     none: { movers: "No standout movers today.", stocks: "Stock & commodity data was unavailable this run.", news: "No market-moving news was confirmed for this day", cal: "No US high-impact events on the report day.", gloss: "No special terms used today.", venue: "No venue data available." },
     foot: (c, g, src) => `Covers the UTC day ${c}. Generated ${g}. Numbers from each venue's public API; news from public reporting at generation time. Information only, not financial advice.${src}`,
@@ -199,19 +200,20 @@ const LABELS = {
     rollingRow: "† bu borsanın UTC-günü mumu alınamadı — rakamları son 24 saati kapsar.",
     degraded: "Bu çalışmada bazı kaynaklar alınamadı, bu nedenle raporun bazı bölümleri eksik:",
     price: ["01 · Fiyat ve hacim", "Her borsada fiyat ve hacim ne yaptı", "Aynı iki sözleşme her borsada, bu UTC günü için. Fiyatlar birbirini tutuyorsa olağandışı bir şey yok; borsalar arası fark ya da büyük hacim farkı dikkat çeker."],
-    pos: ["02 · Pozisyonlanma", "Yatırımcılar hangi yöne yaslanıyordu", "Fonlama, pozisyonu taşımak için hangi tarafın ödeme yaptığını gösterir (pozitif = long'lar short'lara öder). Açık pozisyon (OI), açık işlemlerdeki toplam paradır; gün içindeki değişimi paranın giriş/çıkışını gösterir. Long/short, kaç hesabın hangi yöne yaslandığıdır."],
+    pos: ["02 · Pozisyonlanma", "Yatırımcılar hangi yöne yaslanıyordu", "Fonlama, pozisyonu taşımak için hangi tarafın ödeme yaptığını gösterir (pozitif = long'lar short'lara öder). Açık pozisyon (OI), açık işlemlerdeki toplam paradır; gün içindeki değişimi paranın giriş/çıkışını gösterir. Long/short, kaç hesabın hangi yöne yaslandığıdır. Üst L/S en büyük yatırımcıların oranıdır. Alıcı B/S piyasa emirlerinin al/sat oranıdır."],
     movers: ["03 · En çok hareket edenler", "En çok hareket eden coin'ler", "Binance'te bu UTC günündeki en büyük hareketler; haber bir sebep destekliyorsa onunla birlikte."],
     stocks: ["04 · Binance Futures'ta hisseler ve emtialar", "Binance'te işlem gören hisseler ve emtialar", "Binance; hisseler (Kore, Hong Kong, Çin ve ABD) ile emtialar için tokenize vadeli sözleşmeler listeler. Vadeli neredeyse 7/24 işlem görür, ama dayanak piyasa günde yalnızca birkaç saat açıktır — kapalıyken, sürüklenme günlük hareket gibi gösterilmez, bu durum not edilir."],
     news: ["05 · Piyasa haberleri", "Piyasayı ne hareket ettirdi — ve ne ettirmedi", "Yalnızca fiyatı hareket ettiren sebepler, her biri kaynağıyla. Söylentiler ve teyit edilmemiş haberler en sonda ayrı tutulur."],
     cal: ["06 · Takvim", "Ne oldu ve sırada ne var (UTC)", "Kriptoyu hareket ettirme eğilimindeki ABD ekonomik verileri. Bir rakam ancak beklentiyle kıyaslandığında anlam taşır."],
     gloss: ["07 · Sözlük", "Bugün kullanılan her terim, sade bir dille", ""],
-    col: { venue: "Borsa", last: "Kapanış", chg: "Değişim", high: "Yüksek", low: "Düşük", vol: "Hacim", funding: "Fonlama (yıllık)", oi: "Açık pozisyon", oiChg: "OI değişimi", ls: "Long/short", mark: "Mark", stock: "Hisse", commodity: "Emtia", market: "Piyasa", session: "Seans", actual: "Gerçekleşen", fc: "Beklenti", prev: "Önceki", time: "Saat", event: "Olay", note: "Not" },
+    col: { venue: "Borsa", last: "Kapanış", chg: "Değişim", high: "Yüksek", low: "Düşük", vol: "Hacim", funding: "Fonlama (yıllık)", oi: "Açık pozisyon", oiChg: "OI değişimi", ls: "Long/short", topLs: "Üst L/S", taker: "Alıcı B/S", mark: "Mark", stock: "Hisse", commodity: "Emtia", market: "Piyasa", session: "Seans", actual: "Gerçekleşen", fc: "Beklenti", prev: "Önceki", time: "Saat", event: "Olay", note: "Not" },
     h3: { btcP: "Bitcoin (BTC vadeli)", ethP: "Ethereum (ETH vadeli)", btc: "Bitcoin", eth: "Ethereum", usMov: "ABD — en çok hareket edenler", usVol: "ABD — en çok işlem görenler", comm: "Emtialar", tradfi: "Geleneksel piyasalar", top3: "En önemli üç haber", etf: "ETF para akışları", reportDay: "Rapor gününde", next24h: "Önümüzdeki 24 saat", rest: "Haftanın geri kalanı", lowLiq: "Yeni listelenen / düşük likiditeli hareketler" },
     mkt: { KR_EQUITY: "Kore", HK_EQUITY: "Hong Kong", CN_EQUITY: "Çin", EQUITY: "ABD", COMMODITY: "Emtialar", PREMARKET: "Halka arz öncesi" },
     grp: ["Düzenleme ve politika", "Kurumsal akışlar ve ETF'ler", "Borsa ve platform değişiklikleri", "Saldırılar, açıklar ve kesintiler", "Geleneksel piyasalar", "Teyit edilmemiş ve izlenecekler"],
     sess: { weekend: "hafta sonu — nakit seans yok", holiday: (n) => `piyasa kapalı (${n})`, closedGeneric: "nakit piyasa kapalıydı — vadeli rakamlar yalnızca sürüklenmedir" },
     source: "kaynak", vol: "hacim", on: "borsalar:", lsLine: "Long/short hesap oranı", oiChangeLine: "Gün içinde açık pozisyon değişimi",
     mktCap: "Toplam piyasa değeri", btcDom: "BTC hakimiyeti", ethDom: "ETH hakimiyeti", fng: "Korku ve Açgözlülük",
+    breadth: "Piyasa genişliği", breadthDesc: (u, d) => `${u} yükseliş / ${d} düşüş`,
     altcoinsH: "Altcoin'ler", coin: "Coin",
     none: { movers: "Bugün öne çıkan bir hareket yok.", stocks: "Bu çalışmada hisse ve emtia verisi alınamadı.", news: "Bu gün için piyasayı hareket ettiren teyitli haber yok", cal: "Rapor gününde yüksek etkili ABD verisi yok.", gloss: "Bugün özel terim kullanılmadı.", venue: "Borsa verisi yok." },
     foot: (c, g, src) => `${c} UTC gününü kapsar. Oluşturulma: ${g}. Rakamlar her borsanın herkese açık API'sinden; haberler oluşturma anındaki kamuya açık kaynaklardan. Yalnızca bilgi amaçlıdır, yatırım tavsiyesi değildir.${src}`,
@@ -226,19 +228,20 @@ const LABELS = {
     rollingRow: "† 该交易所的 UTC 日 K 线不可用 —— 其数字为滚动 24 小时。",
     degraded: "本次运行有部分来源不可用,因此报告的部分内容缺失:",
     price: ["01 · 价格与成交量", "各交易所的价格和成交量表现", "同样两个合约在每个交易所,针对该 UTC 日。价格一致说明没有异常;交易所之间的价差或成交量差异值得留意。"],
-    pos: ["02 · 持仓情况", "交易者偏向哪一方", "资金费率显示哪一方为持仓付费(正值=多头付给空头)。未平仓合约(OI)是未平仓头寸中的资金量;其当日变化显示资金流入或流出。多空比是多少账户偏向哪一方。"],
+    pos: ["02 · 持仓情况", "交易者偏向哪一方", "资金费率显示哪一方为持仓付费(正值=多头付给空头)。未平仓合约(OI)是未平仓头寸中的资金量;其当日变化显示资金流入或流出。多空比是多少账户偏向哪一方。大户多空是大户的持仓比。主买/主卖是市价单的买卖比。"],
     movers: ["03 · 涨跌最大的币", "波动最大的币种", "Binance 上该 UTC 日的最大波动;若有新闻可解释,一并给出原因。"],
     stocks: ["04 · 币安期货上的股票与商品", "在币安交易的股票与商品", "币安为股票(韩国、香港、中国和美国)以及商品提供代币化永续合约。永续合约几乎全天交易,但标的市场每天只开盘几个小时——当其休市时,不会把漂移当作当日涨跌,而是加以标注。"],
     news: ["05 · 市场新闻", "是什么推动了市场——又有什么没有", "只列出能推动价格的原因,每条都附来源。传闻和未经证实的消息单独放在最后。"],
     cal: ["06 · 日程", "发生了什么以及接下来有什么(UTC)", "往往会影响加密货币的美国经济数据。一个数字只有对照预期才有意义。"],
     gloss: ["07 · 术语表", "今天用到的每个术语,用大白话解释", ""],
-    col: { venue: "交易所", last: "收盘", chg: "涨跌", high: "最高", low: "最低", vol: "成交量", funding: "资金费率(年化)", oi: "未平仓量", oiChg: "OI 变化", ls: "多空比", mark: "标记价", stock: "股票", commodity: "商品", market: "市场", session: "交易时段", actual: "实际值", fc: "预期", prev: "前值", time: "时间", event: "事件", note: "备注" },
+    col: { venue: "交易所", last: "收盘", chg: "涨跌", high: "最高", low: "最低", vol: "成交量", funding: "资金费率(年化)", oi: "未平仓量", oiChg: "OI 变化", ls: "多空比", topLs: "大户多空", taker: "主买/主卖", mark: "标记价", stock: "股票", commodity: "商品", market: "市场", session: "交易时段", actual: "实际值", fc: "预期", prev: "前值", time: "时间", event: "事件", note: "备注" },
     h3: { btcP: "比特币(BTC 永续)", ethP: "以太坊(ETH 永续)", btc: "比特币", eth: "以太坊", usMov: "美国 — 涨跌最大", usVol: "美国 — 成交最活跃", comm: "商品", tradfi: "传统市场", top3: "最重要的三条", etf: "ETF 资金流", reportDay: "报告当日", next24h: "未来 24 小时", rest: "本周剩余日程", lowLiq: "新上市 / 低流动性波动" },
     mkt: { KR_EQUITY: "韩国", HK_EQUITY: "香港", CN_EQUITY: "中国", EQUITY: "美国", COMMODITY: "商品", PREMARKET: "上市前" },
     grp: ["监管与政策", "机构资金与 ETF", "交易所与平台变动", "攻击、漏洞与宕机", "传统市场", "未证实与待观察"],
     sess: { weekend: "周末 — 无现货交易", holiday: (n) => `市场休市(${n})`, closedGeneric: "现货市场休市 — 永续数据仅为漂移" },
     source: "来源", vol: "成交", on: "交易所:", lsLine: "多空账户比", oiChangeLine: "当日未平仓量变化",
     mktCap: "总市值", btcDom: "BTC 占比", ethDom: "ETH 占比", fng: "恐惧与贪婪",
+    breadth: "市场广度", breadthDesc: (u, d) => `${u} 上涨 / ${d} 下跌`,
     altcoinsH: "山寨币", coin: "币种",
     none: { movers: "今天没有特别突出的波动。", stocks: "本次运行未能获取股票和商品数据。", news: "本日没有证实的、能推动市场的新闻", cal: "报告当日没有高影响的美国数据。", gloss: "今天没有用到特别术语。", venue: "暂无交易所数据。" },
     foot: (c, g, src) => `覆盖 UTC 日 ${c}。生成时间:${g}。数字来自各交易所公开 API;新闻来自生成时的公开报道。仅供参考,不构成投资建议。${src}`,
@@ -278,6 +281,8 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
     { h: L.col.oi, f: (r) => `<span class="mono">${fmtUSD(r.oiUSD)}</span>` },
     { h: L.col.oiChg, f: (r) => { const v = r.oiChangePctCoins ?? r.oiChangePct; return `<span class="mono ${cls(v, TH.price)}">${v != null ? sgn(v, 1) : "—"}</span>`; } },
     { h: L.col.ls, f: (r) => `<span class="mono">${fmtRatio(r.longShortAccount)}</span>` },
+    { h: L.col.topLs, f: (r) => `<span class="mono">${fmtRatio(r.topPositionRatio)}</span>` },
+    { h: L.col.taker, f: (r) => `<span class="mono">${r.takerBuySellRatio != null ? fmtRatio(r.takerBuySellRatio) : "—"}</span>` },
     { h: L.col.mark, f: (r) => `<span class="mono">${fmtPrice(r.mark)}</span>` },
   ];
   const section = (a, body) => `<div class="section"><div class="kicker">${esc(a[0])}</div><h2>${esc(a[1])}</h2>${a[2] ? `<p class="intro">${esc(a[2])}</p>` : ""}${body}</div>`;
@@ -299,14 +304,17 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
     <div class="oneline"><div class="k">${esc(L.oneLine)}</div><p>${esc(s.oneLine || "—")}</p></div>`;
 
   const mkt = pack.market || {};
-  const statsBar = mkt.ok ? `<div class="stats-bar">${
-    mkt.totalMarketCap != null ? `<div class="stat"><div class="sl">${esc(L.mktCap)}</div><div class="sv">${fmtUSD(mkt.totalMarketCap)}</div>${mkt.totalMarketCapChange24h != null ? `<div class="sd mono ${cls(mkt.totalMarketCapChange24h, 2)}">${sgn(mkt.totalMarketCapChange24h)}</div>` : ""}</div>` : ""
+  const br = pack.exchanges?.breadth;
+  const statsBar = (mkt.ok || br) ? `<div class="stats-bar">${
+    mkt.ok && mkt.totalMarketCap != null ? `<div class="stat"><div class="sl">${esc(L.mktCap)}</div><div class="sv">${fmtUSD(mkt.totalMarketCap)}</div>${mkt.totalMarketCapChange24h != null ? `<div class="sd mono ${cls(mkt.totalMarketCapChange24h, 2)}">${sgn(mkt.totalMarketCapChange24h)}</div>` : ""}</div>` : ""
   }${
-    mkt.btcDominance != null ? `<div class="stat"><div class="sl">${esc(L.btcDom)}</div><div class="sv">${fmtPct(mkt.btcDominance)}</div></div>` : ""
+    mkt.ok && mkt.btcDominance != null ? `<div class="stat"><div class="sl">${esc(L.btcDom)}</div><div class="sv">${fmtPct(mkt.btcDominance)}</div></div>` : ""
   }${
-    mkt.ethDominance != null ? `<div class="stat"><div class="sl">${esc(L.ethDom)}</div><div class="sv">${fmtPct(mkt.ethDominance)}</div></div>` : ""
+    mkt.ok && mkt.ethDominance != null ? `<div class="stat"><div class="sl">${esc(L.ethDom)}</div><div class="sv">${fmtPct(mkt.ethDominance)}</div></div>` : ""
   }${
-    mkt.fearGreed ? `<div class="stat"><div class="sl">${esc(L.fng)}</div><div class="sv"><span class="fng-dot" style="background:${fngColor(mkt.fearGreed.value)}"></span>${mkt.fearGreed.value} — ${esc(mkt.fearGreed.label)}</div>${mkt.fearGreedPrev ? `<div class="sd">prev ${mkt.fearGreedPrev.value}</div>` : ""}</div>` : ""
+    mkt.ok && mkt.fearGreed ? `<div class="stat"><div class="sl">${esc(L.fng)}</div><div class="sv"><span class="fng-dot" style="background:${fngColor(mkt.fearGreed.value)}"></span>${mkt.fearGreed.value} — ${esc(mkt.fearGreed.label)}</div>${mkt.fearGreedPrev ? `<div class="sd">prev ${mkt.fearGreedPrev.value}</div>` : ""}</div>` : ""
+  }${
+    br ? `<div class="stat"><div class="sl">${esc(L.breadth)}</div><div class="sv">${fmtPct(br.upPct, 0)}</div><div class="sd">${esc(L.breadthDesc(br.up, br.down))}</div></div>` : ""
   }</div>` : "";
 
   // Caveman mode — CSS-only <details> toggle (no inline JS, CSP-safe).

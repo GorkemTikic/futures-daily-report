@@ -63,6 +63,7 @@ ${cryptoMoversToday ? `\nMACRO EVENTS ON THE REPORT DAY THAT MOVE CRYPTO: ${cryp
 YOUR JOB:
 - Write the plain-English prose: the one-line summary, the price/volume read, the positioning read (mention funding, the open-interest change, and long/short leaning in plain words), and a short explanation for each biggest mover ("no clear public cause" when the news doesn't explain it).
 - Do the EDITORIAL news work: drop pure price recaps; keep only causes; dedupe; group under the fixed headings; pick "the three that mattered most". Separate confirmed from unconfirmed. Items marked outsideReportDay are CONTEXT from just before/after the day — label them as context, not as "today".
+- In the positioning summary, also mention: the top-trader long/short ratio (topPositionRatio — this is the ratio among the LARGEST traders, not all accounts), the taker buy/sell ratio (takerBuySellRatio — above 1 means more aggressive buying, below 1 more aggressive selling), and market breadth (breadth.upPct — the percentage of Binance perps that were up on the day). Include these in plain words alongside funding and OI commentary.
 - USE WEB SEARCH to (a) verify/expand important items and add real source URLs, (b) fetch US spot BTC & ETH ETF net flow for the latest available day (Farside/SoSoValue) and VERIFY the date — omit if stale, (c) check major exchange announcement pages, (d) check the Asian stock markets (Korea, Hong Kong, China) for anything explaining the stock table, writing it into "stocksSummary" — but respect the session status: if a market was closed that day, do not invent a move.
 - Build the glossary from EVERY finance term you actually use (include funding rate, open interest, open-interest change, long/short ratio, mark price, and any others), alphabetical, plain-language, rebuilt fresh.
 
@@ -211,7 +212,7 @@ async function apiSynthesis(prompt, model, maxTokens) {
   return resp.content.map((b) => (b.type === "text" ? b.text : "")).join("").trim();
 }
 
-function dataOnly(pack) {
+export function dataOnly(pack) {
   return {
     oneLine: `Market data collected across ${(pack.exchanges?.venuesOnline || []).length} venues; news synthesis was unavailable for this run.`,
     caveman: "",

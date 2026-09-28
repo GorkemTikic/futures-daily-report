@@ -257,7 +257,29 @@ async function binancePositioning(base, win) {
     const tp = await fetchJson(`https://fapi.binance.com/futures/data/topLongShortPositionRatio?symbol=${s}&period=1d&startTime=${win.dayStartMs}&endTime=${win.dayEndMs}&limit=1`);
     if (Array.isArray(tp) && tp[0]) out.topPositionRatio = num(tp[0].longShortRatio);
   } catch { /* omit */ }
+  try {
+    const tb = await fetchJson(`https://fapi.binance.com/futures/data/takerlongshortRatio?symbol=${s}&period=1d&limit=1`);
+    if (Array.isArray(tb) && tb[0]) {
+      out.takerBuyRatio = num(tb[0].buyVol) && num(tb[0].sellVol) ? num(tb[0].buyVol) / (num(tb[0].buyVol) + num(tb[0].sellVol)) : null;
+      out.takerBuySellRatio = num(tb[0].buySellRatio);
+    }
+  } catch { /* omit */ }
   return out;
+}
+
+function computeMarketBreadth(ticker24h) {
+  if (!Array.isArray(ticker24h)) return null;
+  let up = 0, down = 0, flat = 0;
+  for (const t of ticker24h) {
+    const pct = num(t.priceChangePercent);
+    if (pct == null) continue;
+    if (pct > 0) up++;
+    else if (pct < 0) down++;
+    else flat++;
+  }
+  const total = up + down + flat;
+  if (!total) return null;
+  return { up, down, flat, total, upPct: (up / total) * 100 };
 }
 
 async function bybitOiChange(base, win) {
@@ -346,6 +368,8 @@ export async function collectExchanges(win, { config = {}, exchangeInfo = null, 
   const btcOnline = onlineForSym(btc), ethOnline = onlineForSym(eth);
   const venuesOnline = Object.keys(VENUES).filter((v) => btcOnline.includes(v) || ethOnline.includes(v));
 
+  const breadth = win.live ? computeMarketBreadth(ticker24h) : null;
+
   return {
     fetchedAt: Date.now(),
     majors: { BTC: btc, ETH: eth },
@@ -353,5 +377,6 @@ export async function collectExchanges(win, { config = {}, exchangeInfo = null, 
     lowLiqMovers: moversRes.lowLiq,
     venuesOnline,
     venuesOnlineBySymbol: { BTC: btcOnline, ETH: ethOnline },
+    breadth,
   };
 }
