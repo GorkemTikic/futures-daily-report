@@ -4,7 +4,7 @@
 
 import { fetchJson } from "./http.js";
 
-export async function collectMarket() {
+export async function collectMarket({ reportDateUTC } = {}) {
   const result = {
     ok: false,
     totalMarketCap: null,
@@ -21,7 +21,7 @@ export async function collectMarket() {
       timeoutMs: 15000,
       headers: { Accept: "application/json" },
     }),
-    fetchJson("https://api.alternative.me/fng/?limit=2", { timeoutMs: 10000 }),
+    fetchJson("https://api.alternative.me/fng/?limit=7", { timeoutMs: 10000 }),
   ]);
 
   if (cgResult.status === "fulfilled" && cgResult.value?.data) {
@@ -37,8 +37,23 @@ export async function collectMarket() {
 
   if (fngResult.status === "fulfilled" && fngResult.value?.data?.length) {
     const arr = fngResult.value.data;
-    result.fearGreed = { value: Number(arr[0].value), label: arr[0].value_classification };
-    if (arr[1]) result.fearGreedPrev = { value: Number(arr[1].value), label: arr[1].value_classification };
+    if (reportDateUTC) {
+      const dayForEntry = (e) => new Date(Number(e.timestamp) * 1000).toISOString().slice(0, 10);
+      const reportEntry = arr.find((e) => dayForEntry(e) === reportDateUTC);
+      const prevIdx = reportEntry ? arr.indexOf(reportEntry) + 1 : -1;
+      if (reportEntry) {
+        result.fearGreed = { value: Number(reportEntry.value), label: reportEntry.value_classification, date: reportDateUTC };
+        if (prevIdx >= 0 && prevIdx < arr.length) {
+          result.fearGreedPrev = { value: Number(arr[prevIdx].value), label: arr[prevIdx].value_classification };
+        }
+      } else {
+        result.fearGreed = { value: Number(arr[0].value), label: arr[0].value_classification, date: dayForEntry(arr[0]), live: true };
+        if (arr[1]) result.fearGreedPrev = { value: Number(arr[1].value), label: arr[1].value_classification };
+      }
+    } else {
+      result.fearGreed = { value: Number(arr[0].value), label: arr[0].value_classification };
+      if (arr[1]) result.fearGreedPrev = { value: Number(arr[1].value), label: arr[1].value_classification };
+    }
     if (!result.ok) result.ok = true;
   } else {
     result.failed.push({ source: "Fear & Greed", err: String(fngResult.reason || "no data").slice(0, 60) });

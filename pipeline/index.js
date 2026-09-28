@@ -229,6 +229,25 @@ async function main() {
 
   console.log(`\nDone -> reports/${dStr}/summary_${dStr}.{html,pdf,md}`);
 
+  // --- run.json health record: write BEFORE publish so it's included in the commit ---
+  const buildRun = (publishResult) => {
+    const status = reasons.length ? "degraded" : "ok";
+    runInfo.status = status;
+    return {
+      ...runInfo, status,
+      finishedAt: new Date().toISOString(),
+      durationSec: Math.round((Date.now() - startMs) / 1000),
+      date: dStr, live: pack.live,
+      window: { label: pack.windowLabel, startMs: pack.windowStartMs, endMs: pack.windowEndMs, dayAligned: pack.dayAligned, rolling: pack.rolling, asOfUTC: pack.asOfUTC },
+      sources: pack.sources,
+      synthesis: { source: synth._source, fellBack: !!synth._fellBack, cliOnly: !!synth._cliOnly, errorKind: synth._errorKind || null },
+      languages, pdf: pdfResults,
+      publish: publishResult,
+      reasons: reasons.slice(),
+    };
+  };
+  writeAtomic(path.join(dayDir, "run.json"), JSON.stringify(buildRun({ pushed: false, reason: "pending" }), null, 2));
+
   // --- publish (structured result; a diverged/failed push degrades the run, item 13) ---
   let publishResult = { pushed: false, reason: "disabled" };
   if (config.autoPublish && !overBudget()) {
@@ -247,22 +266,9 @@ async function main() {
     reasons.push("publish skipped (time budget)");
   }
 
-  // --- run.json health record (item 6) ---
+  // Update run.json with final publish result
   const status = reasons.length ? "degraded" : "ok";
-  runInfo.status = status;
-  const run = {
-    ...runInfo, status,
-    finishedAt: new Date().toISOString(),
-    durationSec: Math.round((Date.now() - startMs) / 1000),
-    date: dStr, live: pack.live,
-    window: { label: pack.windowLabel, startMs: pack.windowStartMs, endMs: pack.windowEndMs, dayAligned: pack.dayAligned, rolling: pack.rolling, asOfUTC: pack.asOfUTC },
-    sources: pack.sources,
-    synthesis: { source: synth._source, fellBack: !!synth._fellBack, cliOnly: !!synth._cliOnly, errorKind: synth._errorKind || null },
-    languages, pdf: pdfResults,
-    publish: publishResult,
-    reasons,
-  };
-  writeAtomic(path.join(dayDir, "run.json"), JSON.stringify(run, null, 2));
+  writeAtomic(path.join(dayDir, "run.json"), JSON.stringify(buildRun(publishResult), null, 2));
 
   if (status === "degraded") {
     console.warn(`RUN DEGRADED: ${reasons.join(" · ")}`);

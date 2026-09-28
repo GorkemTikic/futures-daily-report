@@ -91,18 +91,22 @@ const ALTCOINS = [
   { symbol: "SUIUSDT", name: "Sui", short: "SUI" },
 ];
 
-function extractAltcoins(ticker24h) {
-  if (!Array.isArray(ticker24h)) return [];
-  const tk = new Map(ticker24h.map((t) => [t.symbol, t]));
-  return ALTCOINS.map((a) => {
-    const t = tk.get(a.symbol);
-    if (!t) return null;
-    return {
-      symbol: a.short, name: a.name,
-      price: num(t.lastPrice), chgPct: num(t.priceChangePercent),
-      volume: num(t.quoteVolume), high: num(t.highPrice), low: num(t.lowPrice),
-    };
-  }).filter(Boolean);
+async function extractAltcoins(win) {
+  const results = await Promise.allSettled(
+    ALTCOINS.map(async (a) => {
+      const arr = await fetchJson(`https://fapi.binance.com/fapi/v1/klines?symbol=${a.symbol}&interval=1d&startTime=${win.dayStartMs}&endTime=${win.dayEndMs}&limit=1`);
+      const k = Array.isArray(arr) && arr[0] ? arr[0] : null;
+      if (!k || num(k[1]) == null) return null;
+      const open = num(k[1]), high = num(k[2]), low = num(k[3]), close = num(k[4]), vol = num(k[7]);
+      return {
+        symbol: a.short, name: a.name,
+        price: close, chgPct: open ? ((close - open) / open) * 100 : null,
+        volume: vol, high, low,
+        basis: "utc-day",
+      };
+    })
+  );
+  return results.map((r) => r.status === "fulfilled" ? r.value : null).filter(Boolean);
 }
 
 function windowLabel(win, rolling) {
@@ -138,11 +142,11 @@ export async function buildDataPack({ nowMs = Date.now(), dateOverride = null, c
       ? collectStocks(win, { exchangeInfo, ticker24h }).catch((e) => ({ ok: false, err: String(e).slice(0, 120), markets: {}, topMovers: [] }))
       : Promise.resolve({ ok: false, reason: "unavailable-for-backfill", markets: {}, topMovers: [], sessions: {}, backfill: true }),
     win.live
-      ? collectMarket().catch((e) => ({ ok: false, failed: [{ source: "market", err: String(e).slice(0, 60) }] }))
+      ? collectMarket({ reportDateUTC: win.dateUTC }).catch((e) => ({ ok: false, failed: [{ source: "market", err: String(e).slice(0, 60) }] }))
       : Promise.resolve({ ok: false, reason: "unavailable-for-backfill" }),
   ]);
 
-  const altcoins = win.live ? extractAltcoins(ticker24h) : [];
+  const altcoins = win.live ? await extractAltcoins(win) : [];
 
   // Backfill with no day-bounded data at all -> refuse (item 2), caught in index.js.
   if (!win.live && (!exchanges.venuesOnline || exchanges.venuesOnline.length === 0)) {

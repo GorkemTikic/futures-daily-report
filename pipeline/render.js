@@ -276,7 +276,7 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
     { h: L.col.venue, f: (r) => `<strong>${esc(r.venue)}</strong>` },
     { h: L.col.funding, f: (r) => `<span class="mono ${cls(r.fundingAnnPct, TH.funding)}">${sgn(r.fundingAnnPct, 1)}</span>` },
     { h: L.col.oi, f: (r) => `<span class="mono">${fmtUSD(r.oiUSD)}</span>` },
-    { h: L.col.oiChg, f: (r) => `<span class="mono ${cls(r.oiChangePct, TH.price)}">${r.oiChangePct != null ? sgn(r.oiChangePct, 1) : "—"}</span>` },
+    { h: L.col.oiChg, f: (r) => { const v = r.oiChangePctCoins ?? r.oiChangePct; return `<span class="mono ${cls(v, TH.price)}">${v != null ? sgn(v, 1) : "—"}</span>`; } },
     { h: L.col.ls, f: (r) => `<span class="mono">${fmtRatio(r.longShortAccount)}</span>` },
     { h: L.col.mark, f: (r) => `<span class="mono">${fmtPrice(r.mark)}</span>` },
   ];
@@ -333,10 +333,11 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
      ${s.positioningSummary ? `<p class="say">${esc(s.positioningSummary)}</p>` : ""}`);
 
   const movers = pack.exchanges?.movers || [];
-  const moverExpl = new Map((s.movers || []).map((m) => [m.symbol, m]));
+  const moverExplRaw = new Map((s.movers || []).map((m) => [m.symbol, m]));
+  const moverExpl = (sym) => moverExplRaw.get(sym) || moverExplRaw.get(sym.replace(/USDT$/, "")) || moverExplRaw.get(sym + "USDT");
   const moversBody = movers.length
     ? `<div class="movers">${movers.map((m) => {
-        const e = moverExpl.get(m.symbol);
+        const e = moverExpl(m.symbol);
         const venues = m.venues && m.venues.length ? m.venues : ["Binance"];
         return `<div class="m"><div><span class="sym">${esc(m.symbol)}</span> <span class="mono ${cls(m.chgPct, TH.price)}">${sgn(m.chgPct, 1)}</span> <span class="mono" style="color:var(--muted)">· ${fmtUSD(m.volUSD)} ${esc(L.vol)} · ${esc(L.on)} ${esc(venues.join(", "))}</span></div>${e ? `<div class="say">${esc(e.explanation)}</div>` : ""}</div>`;
       }).join("")}</div>`

@@ -28,7 +28,7 @@ const OUTPUT_SCHEMA = `Return ONLY this JSON object, no markdown, no code fences
   "priceVolumeSummary": string,              // 1-2 plain sentences: did the venues agree on price, who led volume (do NOT claim a volume lead when the leaders are close or shown on different bases)
   "positioningSummary": string,              // plain sentences: what funding / open-interest change / long-short did, and what it means in plain words
   "stocksSummary": string,                   // plain sentences on the stock/commodity perps — lead with the Asian names. If a market's cash session was CLOSED (see the session status in the data pack), do NOT describe the perp's drift as a move in the stock. "" if nothing notable.
-  "movers": [ { "symbol": string, "explanation": string, "hasCause": boolean } ],
+  "movers": [ { "symbol": string, "explanation": string, "hasCause": boolean } ],  // symbol MUST match the data pack's movers array exactly (e.g. "QUSDT", "SOLUSDT"), NOT the bare base name
   "news": {
     "topThree": [ { "headline": string, "what": string, "coins": string, "timeUTC": string, "source": string, "url": string } ],
     "groups": {
@@ -67,9 +67,11 @@ YOUR JOB:
 - Build the glossary from EVERY finance term you actually use (include funding rate, open interest, open-interest change, long/short ratio, mark price, and any others), alphabetical, plain-language, rebuilt fresh.
 
 STRICT RULES:
-- NEVER invent a number, a headline, an outlet, a URL, or a finding. If web search can't verify something, leave it out. For any data figure, use ONLY what's in the DATA PACK.
+- NEVER invent a number, a headline, an outlet, a URL, or a finding. If web search can't verify something, leave it out. For any data figure, use ONLY what's in the DATA PACK — never round, estimate, or extrapolate.
+- When you mention a price, percentage, or date in prose, it MUST match the data pack exactly. Do not say "Bitcoin rose X%" unless the data pack shows that change. Do not write a day name that doesn't match the report date (e.g. the report date ${pack.dateUTC} is a ${new Date(pack.dateUTC + "T00:00:00Z").toLocaleDateString("en-US", { weekday: "long", timeZone: "UTC" })}).
+- Each mover's "symbol" field MUST match the data pack's movers array (e.g. "QUSDT", NOT "Q").
 - No trading advice, predictions, or price targets. No support-operations content.
-- Every news item needs a real source name + URL and a UTC time.
+- Every news item needs a real source name + URL and a UTC time. Each item covers ONE story — do not combine unrelated stories.
 - If there is genuinely little news, return fewer items — do not pad.
 
 DATA PACK:

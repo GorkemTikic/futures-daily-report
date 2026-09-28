@@ -239,17 +239,22 @@ async function binancePositioning(base, win) {
     if (Array.isArray(hist) && hist.length) {
       const atStart = hist.find((h) => Math.abs(Number(h.timestamp) - win.dayStartMs) <= 2 * 3600e3);
       const atEnd = hist.find((h) => Math.abs(Number(h.timestamp) - win.dayEndMs) <= 2 * 3600e3);
-      if (atStart && atEnd && num(atStart.sumOpenInterestValue)) {
-        out.oiChangePct = ((num(atEnd.sumOpenInterestValue) - num(atStart.sumOpenInterestValue)) / num(atStart.sumOpenInterestValue)) * 100;
+      if (atStart && atEnd) {
+        if (num(atStart.sumOpenInterest)) {
+          out.oiChangePctCoins = ((num(atEnd.sumOpenInterest) - num(atStart.sumOpenInterest)) / num(atStart.sumOpenInterest)) * 100;
+        }
+        if (num(atStart.sumOpenInterestValue)) {
+          out.oiChangePct = ((num(atEnd.sumOpenInterestValue) - num(atStart.sumOpenInterestValue)) / num(atStart.sumOpenInterestValue)) * 100;
+        }
       }
     }
   } catch { /* omit */ }
   try {
-    const g = await fetchJson(`https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol=${s}&period=1d&limit=1`);
+    const g = await fetchJson(`https://fapi.binance.com/futures/data/globalLongShortAccountRatio?symbol=${s}&period=1d&startTime=${win.dayStartMs}&endTime=${win.dayEndMs}&limit=1`);
     if (Array.isArray(g) && g[0]) out.longShortAccount = num(g[0].longShortRatio);
   } catch { /* omit */ }
   try {
-    const tp = await fetchJson(`https://fapi.binance.com/futures/data/topLongShortPositionRatio?symbol=${s}&period=1d&limit=1`);
+    const tp = await fetchJson(`https://fapi.binance.com/futures/data/topLongShortPositionRatio?symbol=${s}&period=1d&startTime=${win.dayStartMs}&endTime=${win.dayEndMs}&limit=1`);
     if (Array.isArray(tp) && tp[0]) out.topPositionRatio = num(tp[0].longShortRatio);
   } catch { /* omit */ }
   return out;
@@ -295,26 +300,33 @@ async function collectMovers(win, { topN = 3, minQuoteVol = 50e6, exchangeInfo =
     ticker24h ? Promise.resolve(ticker24h) : fetchJson(`https://fapi.binance.com/fapi/v1/ticker/24hr`),
   ]);
   const perps = new Set(info.symbols.filter((x) => x.status === "TRADING" && x.contractType === "PERPETUAL" && x.quoteAsset === "USDT").map((x) => x.symbol));
-  const ranked = all
+  const candidates = all
     .filter((t) => perps.has(t.symbol) && !["BTCUSDT", "ETHUSDT"].includes(t.symbol) && num(t.quoteVolume) != null)
     .map((t) => ({ symbol: t.symbol, base: t.symbol.replace(/USDT$/, ""), chgPct24h: num(t.priceChangePercent), last: num(t.lastPrice), volUSD: num(t.quoteVolume), high: num(t.highPrice), low: num(t.lowPrice) }))
     .sort((a, b) => Math.abs(b.chgPct24h) - Math.abs(a.chgPct24h));
-  const liquid = ranked.filter((m) => (m.volUSD || 0) >= minQuoteVol);
-  const main = liquid.slice(0, topN);
-  // low-liquidity / newly-listed movers, surfaced separately (item 34)
-  const lowLiq = ranked.filter((m) => (m.volUSD || 0) < minQuoteVol).slice(0, topN);
 
-  // day-bounded numbers for the headlined movers (fall back to 24h ticker)
-  for (const m of main) {
-    const k = await klineBinance(m.symbol, win.dayStartMs, win.dayEndMs).catch(() => null);
+  // Screen top ~40 by rolling change, then fetch UTC-day klines for all of them
+  const screen = candidates.slice(0, 40);
+  const klineResults = await Promise.allSettled(
+    screen.map((m) => klineBinance(m.symbol, win.dayStartMs, win.dayEndMs))
+  );
+  for (let i = 0; i < screen.length; i++) {
+    const m = screen[i];
+    const k = klineResults[i].status === "fulfilled" ? klineResults[i].value : null;
     if (k && k.open) {
-      m.basis = "utc-day"; m.chgPct = ((k.close - k.open) / k.open) * 100; m.high = k.high; m.low = k.low; m.volUSD = k.quoteVol; m.close = k.close;
+      m.basis = "utc-day"; m.chgPct = ((k.close - k.open) / k.open) * 100;
+      m.high = k.high; m.low = k.low; m.volUSD = k.quoteVol; m.close = k.close;
     } else {
       m.basis = "rolling-24h"; m.chgPct = m.chgPct24h;
     }
     m.venues = ["Binance"];
   }
-  for (const m of lowLiq) { m.basis = "rolling-24h"; m.chgPct = m.chgPct24h; }
+
+  // Re-rank by UTC-day change (absolute), then split by liquidity
+  screen.sort((a, b) => Math.abs(b.chgPct) - Math.abs(a.chgPct));
+  const liquid = screen.filter((m) => (m.volUSD || 0) >= minQuoteVol);
+  const main = liquid.slice(0, topN);
+  const lowLiq = screen.filter((m) => (m.volUSD || 0) < minQuoteVol).slice(0, topN);
   return { main, lowLiq };
 }
 
