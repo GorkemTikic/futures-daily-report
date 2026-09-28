@@ -4,8 +4,8 @@
   "reuseSynthesis": false,
   "startedAt": "2026-09-28T22:34:52.521Z",
   "status": "ok",
-  "finishedAt": "2026-09-28T22:36:45.488Z",
-  "durationSec": 113,
+  "finishedAt": "2026-09-28T22:36:50.048Z",
+  "durationSec": 118,
   "date": "2026-09-27",
   "live": false,
   "window": {
@@ -96,8 +96,8 @@
     "zh": true
   },
   "publish": {
-    "pushed": false,
-    "reason": "pending"
+    "pushed": true,
+    "branch": "main"
   },
   "reasons": []
 }

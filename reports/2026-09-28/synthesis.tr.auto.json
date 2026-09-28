@@ -1,0 +1,33 @@
+{
+  "oneLine": "Pazar verileri 5 borsadan toplanmıştır; bu çalışmada haber sentezi mevcut değildir.",
+  "caveman": "",
+  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Bu çalışmada otomatik anlatı mevcut değildir — rakamlar doğrudan gösterilmektedir.)",
+  "positioningSummary": "Aşağıdaki konumlandırma tablosuna bakınız.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "NMRUSDT",
+      "explanation": "Bu çalışmada anlatı mevcut değildir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "Bu çalışmada anlatı mevcut değildir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "HBARUSDT",
+      "explanation": "Bu çalışmada anlatı mevcut değildir.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [],
+    "groups": {}
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
+  "_source": "cli-tr",
+  "_from": "804ef37d5b1b351f"
+}

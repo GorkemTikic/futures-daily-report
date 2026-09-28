@@ -1,0 +1,106 @@
+{
+  "runId": "2026-09-28T22:45:37.403Z",
+  "dateOverride": "2026-09-28",
+  "reuseSynthesis": false,
+  "startedAt": "2026-09-28T22:45:37.403Z",
+  "status": "degraded",
+  "finishedAt": "2026-09-28T22:50:02.975Z",
+  "durationSec": 266,
+  "date": "2026-09-28",
+  "live": true,
+  "window": {
+    "label": "2026-09-28 00:00 → 24:00 UTC",
+    "startMs": 1790553600000,
+    "endMs": 1790639999999,
+    "dayAligned": false,
+    "rolling": false,
+    "asOfUTC": "22:45 UTC"
+  },
+  "sources": {
+    "exchanges": {
+      "online": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "count": 5,
+      "bySymbol": {
+        "BTC": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ],
+        "ETH": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ]
+      }
+    },
+    "calendar": {
+      "ok": true,
+      "reason": null
+    },
+    "news": {
+      "ok": true,
+      "sourcesOnline": [
+        "CoinDesk",
+        "The Block",
+        "Cointelegraph",
+        "CryptoSlate",
+        "Decrypt",
+        "SEC",
+        "Federal Reserve",
+        "CFTC"
+      ],
+      "failed": [],
+      "count": 51,
+      "backfill": false
+    },
+    "tradfi": {
+      "ok": true,
+      "reason": null,
+      "requested": true,
+      "backfill": false
+    },
+    "stocks": {
+      "ok": true,
+      "reason": null
+    },
+    "market": {
+      "ok": true,
+      "failed": []
+    },
+    "etfFlows": "pending-synthesis",
+    "backfill": null
+  },
+  "synthesis": {
+    "source": "data-only",
+    "fellBack": true,
+    "cliOnly": true,
+    "errorKind": "no-object"
+  },
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "pdf": {
+    "en": true,
+    "tr": true,
+    "zh": true
+  },
+  "publish": {
+    "pushed": false,
+    "reason": "pending"
+  },
+  "reasons": [
+    "narrative fell back to data-only (CLI-only backend)"
+  ]
+}
