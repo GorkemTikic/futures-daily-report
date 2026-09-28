@@ -1,0 +1,177 @@
+{
+  "oneLine": "Bitcoin rose 3–5% on a weekend Saturday while Ethereum fell slightly; regulatory news dominated headlines with California banning official memecoins and news breaking of a $2 million fake-blockchain scam.",
+  "caveman": "On Saturday, September 27, Bitcoin went up between 3 and 5 percent, ending around $84,430. Ethereum actually went down a tiny bit. Most other cryptocurrencies fell too — Solana, Dogecoin, and Chainlink each dropped more than 5 percent. The whole crypto market lost 5 percent of its value. The big news of the day was that California's governor signed a law saying public officials can't make their own coins (he was criticizing President Trump's $TRUMP coin), and scammers built a fake blockchain that tricked people into sending $2 million in Ethereum. It wasn't a calm day — there was a lot of news and concern.",
+  "priceVolumeSummary": "Venues showed tight agreement on Bitcoin pricing (range $82,617–$82,670 for current price across exchanges). Binance led volume with $5.63 billion in BTC, followed by OKX at $3.42 billion. Combined futures volume across all five major venues totaled approximately $14.7 billion.",
+  "positioningSummary": "Bitcoin funding rates were split: Bitget, Gate, and OKX showed positive (bullish) funding between 2–11% annualized, but Binance turned negative at -0.49%, signaling some bearish betting. Ethereum funding was more decisively negative across most venues (Bybit -8.71%, Binance -5.36%), indicating stronger bearish sentiment. Open interest for Bitcoin fell slightly (-0.37%) while Ethereum rose 0.20%, showing traders moving out of long Bitcoin bets but into Ethereum. On Binance, BTC showed a modest long bias (1.17 longs per short), while ETH showed strong long dominance (2.76 longs per short).",
+  "stocksSummary": "September 27 was a Saturday; all equity markets in the US and Asia were closed. Spot gold fell 3.17% to $4,150.16.",
+  "movers": [
+    {
+      "symbol": "Q",
+      "explanation": "Low-liquidity altcoin fell 7.4% over the UTC day; no clear public cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTW",
+      "explanation": "Gained 21.8% on modest volume ($87M); no news explaining the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOL",
+      "explanation": "Solana fell 5.2% in line with broad altcoin weakness; no single catalyst.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Vitalik Buterin maps Ethereum's shift beyond a blockchain in sweeping 2030 vision",
+        "what": "Ethereum co-founder Vitalik Buterin published a roadmap describing Ethereum evolving into a 'cryptographic world computer' by 2030, shifting from forcing every node to repeat calculations to using off-chain proofs. Buterin said Hegota (next year's upgrade) will likely be the last 'normal' fork; everything after involves recursive STARKS, zero-knowledge proofs, and quantum-resistant design.",
+        "coins": "ETH",
+        "timeUTC": "2026-09-27",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision"
+      },
+      {
+        "headline": "California Governor Newsom signs memecoin ban (AB 2409), takes aim at Trump",
+        "what": "California Governor Gavin Newsom signed Assembly Bill 2409, which prohibits public officials from issuing memecoins (tokens tied to a personality, joke, or trend) and bars digital asset firms from offering such tokens to California residents. The law takes effect January 1, 2027, and Newsom framed it as a rebuke of President Trump's $TRUMP token.",
+        "coins": "General regulation",
+        "timeUTC": "2026-09-27",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/28/california-s-newsom-signs-memecoin-ban-and-calls-it-the-opposite-of-trump"
+      },
+      {
+        "headline": "Scammers steal $2M in ETH as fake GIWA network fools DYORSWAP",
+        "what": "Fraudsters built a counterfeit GIWA blockchain (claiming chain ID 9134, the real GIWA identifier) and tricked DYORSWAP decentralized exchange into listing it as the genuine mainnet. Scammers deposited 767 ETH (~$2M) and drained 766 ETH before vanishing. GIWA operator Dunamu confirmed its Layer 2 mainnet had not launched and warned users of the fake.",
+        "coins": "ETH",
+        "timeUTC": "2026-09-26/27",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/fake-giwa-blockchain-scam-drains-2m-eth"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC staff guidance: Token buybacks don't make crypto a security if the network works",
+          "what": "The SEC published staff guidance clarifying that announcing a token buyback on a functional, decentralized network does not automatically convert the token into a security. The shift loosens the application of securities law for utility tokens with working blockchains.",
+          "coins": "General",
+          "timeUTC": "2026-09-27",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379398/sec-staff-token-buybacks-dont-make-crypto-security"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF inflows hit 2026 record: $2.4 billion weekly, strongest since October 2025",
+          "what": "U.S. spot Bitcoin exchange-traded funds recorded $2.39 billion in weekly inflows through September 25, marking the strongest weekly total of 2026. The week-long inflow streak pushed year-to-date BTC ETF flows positive for the first time since April. BlackRock's iShares Bitcoin Trust led with ~$97M on September 25.",
+          "coins": "BTC",
+          "timeUTC": "2026-09-21 to 2026-09-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Bitget starts phased withdrawal resumption following $388 million exploit",
+          "what": "After the $388 million exploit on September 24, Bitget announced a phased restoration of withdrawals beginning September 28. Bitcoin withdrawals reopen first; ETH and USDT follow in stages through October 2. The exchange promised full coverage via its user protection fund (backed by 5,500 BTC).",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "2026-09-26",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-28-bitget-starts-phased-withdrawal-resumption-416965"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "THORChain refuses to blacklist Bitget hack addresses; Vitalik calls Ethereum a 'cryptographic world computer'",
+          "what": "Cross-chain bridge THORChain declined to blacklist addresses tied to the Bitget $388M exploit, citing its neutrality as infrastructure. Separately, Vitalik Buterin's Ethereum vision for 2030 was published, emphasizing a shift from replication-based computing to proof-based verification.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-09-27",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now"
+        },
+        {
+          "headline": "$84 million US asset seizure sparks question about Tether's bank reserves",
+          "what": "Court records identified $84 million in assets held in what may be Capstone-controlled accounts. Observers noted Tether has not disclosed whether its bank balance belongs to USDT reserves, raising questions about reserve transparency.",
+          "coins": "USDT",
+          "timeUTC": "2026-09-27",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/an-84-million-us-asset-seizure-just-sparked-a-massive-question-for-tether/"
+        },
+        {
+          "headline": "Onchain analyst links $18.4 million in Robinhood Chain memecoin extractions to single rug-pull operation",
+          "what": "Researcher identified coordinated memecoin launches on Robinhood Chain where creators exempted specific wallets from anti-sniping taxes, those wallets then bought most of each token's supply, then tokens were drained. Total extraction: $18.4 million across 10 Pons V2 launches.",
+          "coins": "General memecoins",
+          "timeUTC": "2026-09-27",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-27-onchain-analyst-links-18-4-million-in-robinhood-chain-memecoin-extractions-to-single-rug-pull-operation-416960"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-09-25",
+    "summary": "Bitcoin spot ETFs recorded $134.47 million in net inflows on September 25, capping a seven-session winning streak and weekly total of $2.39 billion—the strongest week of 2026. BlackRock's iShares Bitcoin Trust led with ~$97 million. Year-to-date flows turned positive for the first time since April. No specific September 26–27 daily data confirmed yet; latest Ethereum ETF data is from August 2026 ($1.75B monthly inflows).",
+    "source": "The Block / Farside Investors",
+    "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+  },
+  "calendarNotes": [
+    {
+      "event": "Germany CPI Flash September 2026 (Tue 29 Sept, 12:00 UTC)",
+      "typicalReaction": "Medium-impact release. Historically can drive volatility in traditional markets; crypto traders often watch risk-asset moves for sentiment shifts."
+    },
+    {
+      "event": "RBA Rate Decision September 2026 (Tue 29 Sept, 04:30 UTC)",
+      "typicalReaction": "Australian central bank decision can move AUD-denominated pairs and broader risk appetite."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Altcoin",
+      "definition": "Any cryptocurrency other than Bitcoin. In this report, altcoins like Solana, Dogecoin, and Chainlink all fell 5–7% on September 27."
+    },
+    {
+      "term": "Basis",
+      "definition": "In this report, the time period over which a price change is measured. 'UTC-day' means the change from market open to close on that single UTC calendar day."
+    },
+    {
+      "term": "Dominance",
+      "definition": "The percentage of total cryptocurrency market value held by a single coin. Bitcoin dominance of 58.7% means Bitcoin represents nearly 59 cents of every dollar in the total crypto market."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment gauge scoring crypto market psychology from 0 (extreme fear) to 100 (extreme greed). A reading of 74 on September 27 indicated 'Greed.'"
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate charged by futures traders who hold long positions to those holding short positions (or vice versa). Positive rates encourage shorts to close, pushing price higher; negative rates encourage longs to close. Annualized rates show what the rate would cost/earn per year."
+    },
+    {
+      "term": "Long",
+      "definition": "A bet that price will rise. A trader 'going long' profits if the asset appreciates."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of long bets to short bets among traders on an exchange. A ratio of 1.17 means there are 1.17 longs for every 1 short; ratios above 1 show more bullish positioning."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate funding payments on futures contracts. It is usually close to the spot price but may differ slightly to prevent manipulation."
+    },
+    {
+      "term": "Meme coin",
+      "definition": "A cryptocurrency created as a joke, internet meme, or to represent a celebrity or public figure, with no utility or underlying project. Examples: Dogecoin (started as a joke), the $TRUMP token."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of futures contracts currently open (not yet closed). When open interest rises, traders are adding new bets; when it falls, traders are closing positions. Change is shown as a percentage."
+    },
+    {
+      "term": "Short",
+      "definition": "A bet that price will fall. A trader 'going short' (or selling borrowed assets) profits if the asset depreciates."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total value of assets traded over a time period, usually measured in millions or billions of dollars. High volume suggests strong interest and liquidity."
+    }
+  ],
+  "_source": "cli"
+}

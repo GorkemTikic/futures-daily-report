@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-27T00:07:48.449Z",
-  "count": 102,
+  "generatedAt": "2026-09-28T09:52:25.817Z",
+  "count": 103,
   "counts": {
-    "total": 102,
-    "market": 15,
+    "total": 103,
+    "market": 16,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-09-26",
+  "latest": "2026-09-27",
   "reports": [
+    {
+      "date": "2026-09-27",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.0464470935612682,
+        "ETH": -0.2808759470750948
+      },
+      "marketSummary": "Bitcoin rose 3–5% on a weekend Saturday while Ethereum fell slightly; regulatory news dominated headlines with California banning official memecoins and news breaking of a $2 million fake-blockchain scam.",
+      "oneLine": "Bitcoin rose 3–5% on a weekend Saturday while Ethereum fell slightly; regulatory news dominated headlines with California banning official memecoins and news breaking of a $2 million fake-blockchain scam.",
+      "newsCount": 9,
+      "topMover": {
+        "symbol": "QUSDT",
+        "chgPct": -7.414280664545772
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-27/summary_2026-09-27.html",
+        "pdf": "reports/2026-09-27/summary_2026-09-27.pdf",
+        "md": "reports/2026-09-27/summary_2026-09-27.md"
+      }
+    },
     {
       "date": "2026-09-26",
       "kind": "market",
