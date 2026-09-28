@@ -132,7 +132,8 @@ const STYLE = `
   .sess{font-size:10.5px;color:var(--muted);font-weight:600;margin:0 0 6px;}
   .sess.closed{color:var(--amb);}
   .gloss{columns:2;column-gap:26px;} @media screen{.gloss{column-gap:40px;}}
-  @media(max-width:640px){body{padding:20px 16px !important;} h1{font-size:26px !important;} .stats-bar{gap:8px;} .stat{flex:1 1 45%;} .stat .sv{font-size:15px;} .sym-raw{display:none;} .gloss{columns:1;} table{font-size:11px;}}
+  .regime-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:8px;margin-left:12px;vertical-align:middle;background:var(--card);border:1px solid var(--line);color:var(--muted);}
+  @media(max-width:640px){body{padding:20px 16px !important;} h1{font-size:26px !important;} .stats-bar{gap:8px;} .stat{flex:1 1 45%;} .stat .sv{font-size:15px;} .sym-raw{display:none;} .gloss{columns:1;} table{font-size:11px;} .regime-badge{display:block;margin:6px 0 0;font-size:10px;}}
   .gloss .g{break-inside:avoid;margin-bottom:11px;} .gloss .term{font-weight:700;color:var(--ink);font-size:12px;} .gloss .def{font-size:11.5px;color:var(--ink2);}
   .foot{margin-top:22px;padding-top:11px;border-top:1px solid var(--line);font-size:10px;color:var(--faint);}
   .none{font-size:12px;color:var(--muted);font-style:italic;}
@@ -183,10 +184,12 @@ const LABELS = {
     mkt: { KR_EQUITY: "Korea", HK_EQUITY: "Hong Kong", CN_EQUITY: "China", EQUITY: "US", COMMODITY: "Commodities", PREMARKET: "Pre-market" },
     grp: ["Regulation and policy", "Institutional flows and ETFs", "Exchange and platform changes", "Hacks, exploits and outages", "Traditional markets", "Unconfirmed and watch items"],
     sess: { weekend: "weekend — no cash session", holiday: (n) => `market closed (${n})`, closedGeneric: "cash market was closed — the perp figures are drift only" },
+    stocksClosed: "All stock and commodity markets were closed this day (weekend or holiday). Only commodity perp data is shown below; stock perp drift is omitted.",
     source: "source", vol: "vol", on: "on", lsLine: "Long/short accounts", oiChangeLine: "Open-interest change over the day",
     mktCap: "Total market cap", btcDom: "BTC dominance", ethDom: "ETH dominance", fng: "Fear & Greed",
     breadth: "Market breadth", breadthDesc: (u, d) => `${u} up / ${d} down`,
     altcoinsH: "Altcoins", coin: "Coin",
+    regime: { strongBull: "Strong bullish", bull: "Bullish", neutral: "Neutral / mixed", bear: "Bearish", strongBear: "Strong bearish" },
     none: { movers: "No standout movers today.", stocks: "Stock & commodity data was unavailable this run.", news: "No market-moving news was confirmed for this day", cal: "No US high-impact events on the report day.", gloss: "No special terms used today.", venue: "No venue data available." },
     methodology: ["08 · Methodology", "How this report is built", ""],
     methText: "Price and volume from each venue's daily (1d) kline bounded to the UTC day. Funding, open interest and mark price are point-in-time snapshots. Long/short and taker ratios from Binance. Market cap and dominance from CoinGecko. Fear & Greed from Alternative.me. News from public RSS feeds, verified via web search. Calendar from Investing.com. Traditional markets from Twelve Data.",
@@ -214,10 +217,12 @@ const LABELS = {
     mkt: { KR_EQUITY: "Kore", HK_EQUITY: "Hong Kong", CN_EQUITY: "Çin", EQUITY: "ABD", COMMODITY: "Emtialar", PREMARKET: "Halka arz öncesi" },
     grp: ["Düzenleme ve politika", "Kurumsal akışlar ve ETF'ler", "Borsa ve platform değişiklikleri", "Saldırılar, açıklar ve kesintiler", "Geleneksel piyasalar", "Teyit edilmemiş ve izlenecekler"],
     sess: { weekend: "hafta sonu — nakit seans yok", holiday: (n) => `piyasa kapalı (${n})`, closedGeneric: "nakit piyasa kapalıydı — vadeli rakamlar yalnızca sürüklenmedir" },
+    stocksClosed: "Tüm hisse ve emtia piyasaları bu gün kapalıydı (hafta sonu veya tatil). Yalnızca emtia vadeli verileri aşağıda gösterilmektedir; hisse vadeli sürüklenmesi atlanmıştır.",
     source: "kaynak", vol: "hacim", on: "borsalar:", lsLine: "Long/short hesap oranı", oiChangeLine: "Gün içinde açık pozisyon değişimi",
     mktCap: "Toplam piyasa değeri", btcDom: "BTC hakimiyeti", ethDom: "ETH hakimiyeti", fng: "Korku ve Açgözlülük",
     breadth: "Piyasa genişliği", breadthDesc: (u, d) => `${u} yükseliş / ${d} düşüş`,
     altcoinsH: "Altcoin'ler", coin: "Coin",
+    regime: { strongBull: "Güçlü yükseliş", bull: "Yükseliş", neutral: "Nötr / karışık", bear: "Düşüş", strongBear: "Güçlü düşüş" },
     none: { movers: "Bugün öne çıkan bir hareket yok.", stocks: "Bu çalışmada hisse ve emtia verisi alınamadı.", news: "Bu gün için piyasayı hareket ettiren teyitli haber yok", cal: "Rapor gününde yüksek etkili ABD verisi yok.", gloss: "Bugün özel terim kullanılmadı.", venue: "Borsa verisi yok." },
     methodology: ["08 · Metodoloji", "Bu rapor nasıl hazırlanır", ""],
     methText: "Fiyat ve hacim her borsanın UTC gününe bağlı günlük (1d) K-çizgisinden alınır. Fonlama, açık pozisyon ve mark fiyatı anlık verilerdir. Long/short ve alıcı oranları Binance'den gelir. Piyasa değeri ve hakimiyet CoinGecko'dan, Korku ve Açgözlülük Alternative.me'den alınır. Haberler kamuya açık RSS kaynaklarından toplanır ve web araması ile doğrulanır. Takvim Investing.com'dan, geleneksel piyasalar Twelve Data'dan sağlanır.",
@@ -245,10 +250,12 @@ const LABELS = {
     mkt: { KR_EQUITY: "韩国", HK_EQUITY: "香港", CN_EQUITY: "中国", EQUITY: "美国", COMMODITY: "商品", PREMARKET: "上市前" },
     grp: ["监管与政策", "机构资金与 ETF", "交易所与平台变动", "攻击、漏洞与宕机", "传统市场", "未证实与待观察"],
     sess: { weekend: "周末 — 无现货交易", holiday: (n) => `市场休市(${n})`, closedGeneric: "现货市场休市 — 永续数据仅为漂移" },
+    stocksClosed: "所有股票和商品市场在此日均休市(周末或假日)。下方仅显示商品永续数据;股票永续漂移已省略。",
     source: "来源", vol: "成交", on: "交易所:", lsLine: "多空账户比", oiChangeLine: "当日未平仓量变化",
     mktCap: "总市值", btcDom: "BTC 占比", ethDom: "ETH 占比", fng: "恐惧与贪婪",
     breadth: "市场广度", breadthDesc: (u, d) => `${u} 上涨 / ${d} 下跌`,
     altcoinsH: "山寨币", coin: "币种",
+    regime: { strongBull: "强势看涨", bull: "看涨", neutral: "中性 / 混合", bear: "看跌", strongBear: "强势看跌" },
     none: { movers: "今天没有特别突出的波动。", stocks: "本次运行未能获取股票和商品数据。", news: "本日没有证实的、能推动市场的新闻", cal: "报告当日没有高影响的美国数据。", gloss: "今天没有用到特别术语。", venue: "暂无交易所数据。" },
     methodology: ["08 · 方法论", "本报告的数据来源与方法", ""],
     methText: "价格和成交量来自各交易所 UTC 日 K 线。资金费率、未平仓量和标记价为时点快照。多空比和主买/卖比来自 Binance。总市值和占比来自 CoinGecko。恐惧与贪婪指数来自 Alternative.me。新闻来自公开 RSS 源,经网络搜索验证。日程来自 Investing.com。传统市场来自 Twelve Data。",
@@ -299,6 +306,25 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const venueTableL = (obj, cols) => { const rows = Object.values(obj).filter((r) => r && r.ok); if (!rows.length) return noneP(L.none.venue); return `<div class="table-wrap"><table><thead><tr>${cols.map((c) => `<th>${esc(c.h)}</th>`).join("")}</tr></thead><tbody>${rows.map((r) => "<tr>" + cols.map((c) => `<td>${c.f(r)}</td>`).join("") + "</tr>").join("")}</tbody></table></div>`; };
   const anyApprox = (obj) => Object.values(obj).some((r) => r && r.ok && r.volBasis === "approx");
 
+  const mkt = pack.market || {};
+  const br = pack.exchanges?.breadth;
+
+  // C1: market regime label from data signals
+  const btcChg = (Object.values(pack.exchanges?.majors?.BTC || {}).find((r) => r && r.ok) || {}).chgPct;
+  const fngVal = mkt.ok && mkt.fearGreed ? mkt.fearGreed.value : null;
+  const brUp = br?.upPct;
+  let regime = null;
+  if (btcChg != null) {
+    const bull = (btcChg > 2 ? 2 : btcChg > 0.5 ? 1 : 0) + (fngVal > 60 ? 1 : 0) + (brUp > 55 ? 1 : 0);
+    const bear = (btcChg < -2 ? 2 : btcChg < -0.5 ? 1 : 0) + (fngVal != null && fngVal < 35 ? 1 : 0) + (brUp != null && brUp < 40 ? 1 : 0);
+    if (bull >= 3) regime = L.regime?.strongBull || "Strong bullish";
+    else if (bear >= 3) regime = L.regime?.strongBear || "Strong bearish";
+    else if (bull >= 2) regime = L.regime?.bull || "Bullish";
+    else if (bear >= 2) regime = L.regime?.bear || "Bearish";
+    else regime = L.regime?.neutral || "Neutral / mixed";
+  }
+  const regimeBadge = regime ? `<span class="regime-badge">${esc(regime)}</span>` : "";
+
   // honesty banners
   const degradedBanner = health && health.status === "degraded" && (health.reasons || []).length
     ? `<div class="banner warn">${esc(L.degraded)} ${esc((health.reasons || []).join(" · "))}</div>` : "";
@@ -307,13 +333,10 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const cover = `
     <div class="cover-band"><div class="cover-mark">FD</div><div class="cover-brand">Futures Daily Report<span>${esc(L.tagline)}</span></div>${ownersBadge()}</div>
     <div class="kicker">${esc(L.daily)}</div>
-    <h1>${esc(dateHeading)}</h1>
+    <h1>${esc(dateHeading)}${regimeBadge}</h1>
     <div class="date">${esc(pack.coversUTC || "00:00–23:59 UTC")} · ${esc(L.dataFrom)}${pack.tradfi?.ok ? " + Twelve Data" : ""}</div>
     ${degradedBanner}${rollingNote}
     <div class="oneline"><div class="k">${esc(L.oneLine)}</div><p>${esc(s.oneLine || "—")}</p></div>`;
-
-  const mkt = pack.market || {};
-  const br = pack.exchanges?.breadth;
   const statsBar = (mkt.ok || br) ? `<div class="stats-bar">${
     mkt.ok && mkt.totalMarketCap != null ? `<div class="stat"><div class="sl">${esc(L.mktCap)}</div><div class="sv">${fmtUSD(mkt.totalMarketCap)}</div>${mkt.totalMarketCapChange24h != null ? `<div class="sd mono ${cls(mkt.totalMarketCapChange24h, 2)}">${sgn(mkt.totalMarketCapChange24h)}</div>` : ""}</div>` : ""
   }${
@@ -383,13 +406,16 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const usVolT = rowsTable(st.usTopVol, { volMin: 1e6, limit: 8 });
   const commoditiesT = rowsTable(st.commodities, { volMin: 0, limit: 8, label: L.col.commodity });
   const usSess = sessionText(L, sessions.EQUITY);
-  const stocksBody = st.ok
-    ? asiaTables +
-      (usMoversT ? `<h3>${esc(L.h3.usMov)}</h3>${usSess ? `<div class="sess closed">${esc(L.mkt.EQUITY)}: ${esc(usSess)}</div>` : ""}${usMoversT}` : "") +
-      (usVolT ? `<h3>${esc(L.h3.usVol)}</h3>${usVolT}` : "") +
-      (commoditiesT ? `<h3>${esc(L.h3.comm)}</h3>${commoditiesT}` : "") +
-      (s.stocksSummary ? `<p class="say">${esc(s.stocksSummary)}</p>` : "")
-    : noneP(L.none.stocks);
+  const allClosed = st.ok && Object.values(sessions).every((s) => s && s.hadSession === false);
+  const stocksBody = !st.ok
+    ? noneP(L.none.stocks)
+    : allClosed
+      ? `<div class="banner warn">${esc(L.stocksClosed)}</div>${commoditiesT || ""}`
+      : asiaTables +
+        (usMoversT ? `<h3>${esc(L.h3.usMov)}</h3>${usSess ? `<div class="sess closed">${esc(L.mkt.EQUITY)}: ${esc(usSess)}</div>` : ""}${usMoversT}` : "") +
+        (usVolT ? `<h3>${esc(L.h3.usVol)}</h3>${usVolT}` : "") +
+        (commoditiesT ? `<h3>${esc(L.h3.comm)}</h3>${commoditiesT}` : "") +
+        (s.stocksSummary ? `<p class="say">${esc(s.stocksSummary)}</p>` : "");
   const stocksSection = section(L.stocks, stocksBody);
 
   const nTime = (n) => n.timeUTC || n.timeIstanbul || "";
