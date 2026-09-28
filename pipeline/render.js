@@ -188,6 +188,9 @@ const LABELS = {
     breadth: "Market breadth", breadthDesc: (u, d) => `${u} up / ${d} down`,
     altcoinsH: "Altcoins", coin: "Coin",
     none: { movers: "No standout movers today.", stocks: "Stock & commodity data was unavailable this run.", news: "No market-moving news was confirmed for this day", cal: "No US high-impact events on the report day.", gloss: "No special terms used today.", venue: "No venue data available." },
+    methodology: ["08 · Methodology", "How this report is built", ""],
+    methText: "Price and volume from each venue's daily (1d) kline bounded to the UTC day. Funding, open interest and mark price are point-in-time snapshots. Long/short and taker ratios from Binance. Market cap and dominance from CoinGecko. Fear & Greed from Alternative.me. News from public RSS feeds, verified via web search. Calendar from Investing.com. Traditional markets from Twelve Data.",
+    methSources: "Sources",
     foot: (c, g, src) => `Covers the UTC day ${c}. Generated ${g}. Numbers from each venue's public API; news from public reporting at generation time. Information only, not financial advice.${src}`,
   },
   tr: {
@@ -216,6 +219,9 @@ const LABELS = {
     breadth: "Piyasa genişliği", breadthDesc: (u, d) => `${u} yükseliş / ${d} düşüş`,
     altcoinsH: "Altcoin'ler", coin: "Coin",
     none: { movers: "Bugün öne çıkan bir hareket yok.", stocks: "Bu çalışmada hisse ve emtia verisi alınamadı.", news: "Bu gün için piyasayı hareket ettiren teyitli haber yok", cal: "Rapor gününde yüksek etkili ABD verisi yok.", gloss: "Bugün özel terim kullanılmadı.", venue: "Borsa verisi yok." },
+    methodology: ["08 · Metodoloji", "Bu rapor nasıl hazırlanır", ""],
+    methText: "Fiyat ve hacim her borsanın UTC gününe bağlı günlük (1d) K-çizgisinden alınır. Fonlama, açık pozisyon ve mark fiyatı anlık verilerdir. Long/short ve alıcı oranları Binance'den gelir. Piyasa değeri ve hakimiyet CoinGecko'dan, Korku ve Açgözlülük Alternative.me'den alınır. Haberler kamuya açık RSS kaynaklarından toplanır ve web araması ile doğrulanır. Takvim Investing.com'dan, geleneksel piyasalar Twelve Data'dan sağlanır.",
+    methSources: "Kaynaklar",
     foot: (c, g, src) => `${c} UTC gününü kapsar. Oluşturulma: ${g}. Rakamlar her borsanın herkese açık API'sinden; haberler oluşturma anındaki kamuya açık kaynaklardan. Yalnızca bilgi amaçlıdır, yatırım tavsiyesi değildir.${src}`,
   },
   zh: {
@@ -244,6 +250,9 @@ const LABELS = {
     breadth: "市场广度", breadthDesc: (u, d) => `${u} 上涨 / ${d} 下跌`,
     altcoinsH: "山寨币", coin: "币种",
     none: { movers: "今天没有特别突出的波动。", stocks: "本次运行未能获取股票和商品数据。", news: "本日没有证实的、能推动市场的新闻", cal: "报告当日没有高影响的美国数据。", gloss: "今天没有用到特别术语。", venue: "暂无交易所数据。" },
+    methodology: ["08 · 方法论", "本报告的数据来源与方法", ""],
+    methText: "价格和成交量来自各交易所 UTC 日 K 线。资金费率、未平仓量和标记价为时点快照。多空比和主买/卖比来自 Binance。总市值和占比来自 CoinGecko。恐惧与贪婪指数来自 Alternative.me。新闻来自公开 RSS 源,经网络搜索验证。日程来自 Investing.com。传统市场来自 Twelve Data。",
+    methSources: "数据来源",
     foot: (c, g, src) => `覆盖 UTC 日 ${c}。生成时间:${g}。数字来自各交易所公开 API;新闻来自生成时的公开报道。仅供参考,不构成投资建议。${src}`,
   },
 };
@@ -426,11 +435,24 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const glossSection = section(L.gloss,
     gloss.length ? `<div class="gloss">${gloss.map((g) => `<div class="g"><span class="term">${esc(g.term)}</span> — <span class="def">${esc(g.definition)}</span></div>`).join("")}</div>` : noneP(L.none.gloss));
 
+  // B4: methodology section — data sources and their status
+  const srcStatus = pack.sources || {};
+  const srcLines = [
+    srcStatus.exchanges?.online?.length ? `Exchanges: ${srcStatus.exchanges.online.join(", ")}` : null,
+    srcStatus.calendar?.ok ? "Calendar: ok" : `Calendar: ${srcStatus.calendar?.reason || "unavailable"}`,
+    `News: ${srcStatus.news?.ok ? `${srcStatus.news.count || 0} items from ${(srcStatus.news.sourcesOnline || []).join(", ") || "feeds"}` : "unavailable"}`,
+    `Trad-fi: ${srcStatus.tradfi?.ok ? "ok" : srcStatus.tradfi?.reason || "unavailable"}`,
+    `Stocks: ${srcStatus.stocks?.ok ? "ok" : srcStatus.stocks?.reason || "unavailable"}`,
+    `Market: ${srcStatus.market?.ok ? "ok" : "unavailable"}`,
+  ].filter(Boolean);
+  const methSection = section(L.methodology,
+    `<p class="say">${esc(L.methText)}</p><h3>${esc(L.methSources)}</h3><p class="foot-note">${srcLines.map(esc).join(" · ")}</p>`);
+
   const src = synth?._source ? ` · narrative: ${esc(synth._source)}` : "";
   const foot = `<div class="foot">${esc(L.foot(pack.coversUTC || "00:00–23:59 UTC", pack.generatedAtUTC || "", ""))}${src}</div>`;
 
   const csp = `default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'`;
-  return `<!DOCTYPE html><html lang="${escAttr(lang)}"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="${csp}"><style>${STYLE}</style></head><body>${_ownersBadgePrint || ""}${cover}${statsBar}${cavemanBlock}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${foot}</body></html>`;
+  return `<!DOCTYPE html><html lang="${escAttr(lang)}"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="${csp}"><style>${STYLE}</style></head><body>${_ownersBadgePrint || ""}${cover}${statsBar}${cavemanBlock}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${methSection}${foot}</body></html>`;
 }
 
 export { renderPdf };

@@ -152,6 +152,25 @@ async function main() {
   fs.mkdirSync(dayDir, { recursive: true });
   writeAtomic(path.join(dayDir, "datapack.json"), JSON.stringify(pack, null, 2));
 
+  // B2: sanitized data.json — public-safe subset of the datapack
+  const sanitizeVenue = (r) => {
+    if (!r || !r.ok) return null;
+    const { venue, basis, open, high, low, close, chgPct, volUSD, fundingAnnPct, oiUSD, oiChangePctCoins, oiChangePct, longShortAccount, topPositionRatio, takerBuySellRatio, mark } = r;
+    return { venue, basis, open, high, low, close, chgPct, volUSD, fundingAnnPct, oiUSD, oiChangePctCoins, oiChangePct, longShortAccount, topPositionRatio, takerBuySellRatio, mark };
+  };
+  const sanitizeMajors = (obj) => { const out = {}; for (const [k, v] of Object.entries(obj || {})) { const s = sanitizeVenue(v); if (s) out[k] = s; } return out; };
+  const pubData = {
+    dateUTC: pack.dateUTC, coversUTC: pack.coversUTC, windowLabel: pack.windowLabel, asOfUTC: pack.asOfUTC,
+    live: pack.live, rolling: pack.rolling,
+    majors: { BTC: sanitizeMajors(pack.exchanges?.majors?.BTC), ETH: sanitizeMajors(pack.exchanges?.majors?.ETH) },
+    movers: (pack.exchanges?.movers || []).map((m) => ({ symbol: m.symbol, chgPct: m.chgPct, volUSD: m.volUSD, basis: m.basis })),
+    breadth: pack.exchanges?.breadth || null,
+    altcoins: (pack.altcoins || []).map((a) => ({ symbol: a.symbol, name: a.name, price: a.price, chgPct: a.chgPct, volume: a.volume, high: a.high, low: a.low })),
+    market: pack.market?.ok ? { totalMarketCap: pack.market.totalMarketCap, totalMarketCapChange24h: pack.market.totalMarketCapChange24h, btcDominance: pack.market.btcDominance, ethDominance: pack.market.ethDominance, fearGreed: pack.market.fearGreed } : null,
+    sources: { exchanges: pack.sources.exchanges.online, calendar: pack.sources.calendar.ok, news: pack.sources.news.ok, tradfi: pack.sources.tradfi.ok },
+  };
+  writeAtomic(path.join(dayDir, "data.json"), JSON.stringify(pubData, null, 2));
+
   const venues = pack.sources.exchanges.online;
   console.log(`  window: ${pack.windowLabel}${pack.rolling ? " [ROLLING FALLBACK]" : ""}`);
   console.log(`  venues: ${venues.join(", ") || "none"}`);
