@@ -1,214 +1,33 @@
 {
-  "oneLine": "Bitcoin和Ethereum因市场整体疲弱和收益率上升而下跌，一场$387.5百万的交易所黑客事件和机构强劲买入成为当日的关键故事。",
-  "caveman": "Bitcoin和Ethereum跌价了——因为股票和债券也跌价了，人们开始担心。大多数币都跌了，不只是这两个大币。但最大的新闻不是价格：一个叫Bitget的交易所被黑客入侵，损失了$387.5百万。与此同时，Strategy和Strive这样的大投资公司继续买入Bitcoin，说明他们仍然认为值得买。奇怪的是，流入Bitcoin和Ethereum现货ETF（一种可以轻松购买的特殊基金）的资金保持正数，尽管价格下跌。对大多数人来说这是个担忧的日子，但一些聪慧的大资金并不害怕。",
-  "priceVolumeSummary": "各交易所对Bitcoin的定价均在$83,480左右。币安以Bitcoin期货$12.96 billion的交易量遥遥领先，是OKX的$6.82 billion的两倍多。",
-  "positioningSummary": "融资费率处于较高水平，年化1.79%-10.95%，表明交易者为持有多头头寸而支付费用。Bitcoin多头头寸略多于空头（多空比1.17），但Ethereum显示出强劲的多头偏好（2.76），特别是在最大的交易者中。交易者买卖比率低于1（Bitcoin为0.97，Ethereum为0.94），表明卖压强于买压。市场广度非常弱：币安永续合约中仅有15.64%当日上涨。",
-  "stocksSummary": "9月28日亚洲股市大幅下跌：南韩半导体股领跌，SK Hynix下跌4.74%，Samsung Electronics下跌3.85%。香港也出现疲弱，MiniMax下跌10.40%，Zhongji Innolight下跌10.21%。美股也下跌（S&P 500 -0.74%，Nasdaq -0.92%）。半导体和科技股的大幅抛售表明供应链或盈利担忧波及传统市场。",
+  "oneLine": "市场数据已从5个交易所汇总；此轮运行未能进行新闻分析。",
+  "caveman": "",
+  "priceVolumeSummary": "请查看下方交易所数据表。（此轮运行自动分析文本不可用——数据已直接展示。）",
+  "positioningSummary": "请查看下方持仓数据表。",
+  "stocksSummary": "",
   "movers": [
     {
       "symbol": "NMRUSDT",
-      "explanation": "NMR上涨38.16%，在现有新闻中没有明确的公开原因。",
+      "explanation": "此轮运行暂无分析说明。",
       "hasCause": false
     },
     {
       "symbol": "QUSDT",
-      "explanation": "Q下跌32.65%，在现有新闻中没有明确的公开原因。",
+      "explanation": "此轮运行暂无分析说明。",
       "hasCause": false
     },
     {
-      "symbol": "HBARUSDT",
-      "explanation": "HBAR上涨28.62%，在现有新闻中没有明确的公开原因。",
+      "symbol": "MARSCOINUSDT",
+      "explanation": "此轮运行暂无分析说明。",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [
-      {
-        "headline": "Bitget在$387.5百万安全漏洞后重启分阶段提现流程",
-        "what": "重要加密交易所Bitget证实黑客利用第三方安全产品漏洞窃取了价值$387.5百万的Bitcoin、Ethereum、稳定币和其他资产。该交易所从9月28日开始分阶段提现，首先是Bitcoin，随后是Ethereum和USDT。Bitget及网络安全公司Mandiant和SlowMist正在调查中；怀疑与朝鲜黑客有关。",
-        "coins": "BTC, ETH, USDT, others",
-        "timeUTC": "2026-09-28 22:53 UTC (reported)",
-        "source": "Multiple (BleepingComputer, Yahoo Finance, Daily Hodl)",
-        "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/"
-      },
-      {
-        "headline": "尽管市场回调，主要机构继续购买Bitcoin和Ethereum",
-        "what": "Strategy（前身为MicroStrategy）花费$143百万购买了1,665 BTC，这是自6月以来的首次连续周度Bitcoin购买。Strive购买了1,107 BTC，花费$94.5百万，将总持有量提升至27,462 BTC。另外，Tom Lee的Bitmine增加了17,362枚Ethereum，达到超过600万枚ETH。高盛(Goldman Sachs)还将其$100十亿的国债基金纳入了加密制度框架。机构的累积购买表明了尽管价格疲软但仍有信心。",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-28 (various times)",
-        "source": "CoinDesk, The Block, Decrypt",
-        "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
-      },
-      {
-        "headline": "尽管股票抛售，Bitcoin和Ethereum ETF继续录得正净流入",
-        "what": "现货Bitcoin ETF在9月28日录得$146百万净流入，基金持有量增加1,740 BTC。Ethereum ETF录得$55.12百万净流入，增加20,400枚ETH。通过监管渠道的持续机构需求与更广泛的市场下跌形成对比，表明购买者需求多元化。",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-28",
-        "source": "Farside Investors, CoinGlass, SoSoValue",
-        "url": "https://farside.co.uk/btc/"
-      }
-    ],
-    "groups": {
-      "Regulation and policy": [
-        {
-          "headline": "参议院报告：Tether是伊朗影子银行系统的核心",
-          "what": "新的参议院调查发现，USDT（Tether稳定币）已成为伊朗影子银行网络的核心工具，使得制裁规避和非法资金转移成为可能。这是在几周的监管审查稳定币在地缘政治敏感区域使用之后。",
-          "coins": "USDT",
-          "timeUTC": "2026-09-28",
-          "source": "The Block, CoinDesk",
-          "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094"
-        },
-        {
-          "headline": "巴西规定$10,000自托管报告阈值",
-          "what": "巴西央行授权机构在转账至或来自用户控制的钱包超过$10,000时必须通知Coaf。这扩展了对价值$252十亿的巴西加密货币市场的报告要求。",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/brazils-252-billion-crypto-market-gets-10000-self-custody-reporting-rule/"
-        },
-        {
-          "headline": "俄罗斯于10月5日起开放加密交易所申请",
-          "what": "俄罗斯将10月5日定为新监管规则下加密交易所申请的开始日期。公司可以开始申请，但零售资产的资格认定仍在等待俄罗斯央行的决定。",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/"
-        },
-        {
-          "headline": "加州禁止公职人员发行meme币",
-          "what": "州长Newsom签署了AB 2409，限制公职人员和某些员工发行与其职位相关的meme币或加密资产。该法律将于2027年1月1日生效，并包括加密诈骗案中的赔偿规则。",
-          "coins": "meme coins",
-          "timeUTC": "2026-09-28",
-          "source": "CryptoSlate, The Block",
-          "url": "https://cryptoslate.com/newsom-signs-california-law-barring-public-officers-and-certain-employees-from-issuing-meme-coins/"
-        },
-        {
-          "headline": "CLARITY法案失败后，美证委会跟随CFTC发布更新的加密指导",
-          "what": "在参议院关于CLARITY法案的结束辩论投票失败后，美证委会发布了员工指导，说明联邦证券法如何适用于代币发行者。在没有全面的加密立法的情况下，这反映了CFTC最近的指导。",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail"
-        }
-      ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "花旗扩展与Coinbase的合作以实现机构稳定币支付",
-          "what": "花旗集团(Citigroup)扩展了与Coinbase的现有协议，让机构客户可以接受稳定币支付，同时Coinbase业务账户在花旗的银行系统上运营。这整合了传统金融和链上结算基础设施。",
-          "coins": "stablecoins (USDC, USDT)",
-          "timeUTC": "2026-09-28",
-          "source": "Decrypt, The Block, CoinDesk",
-          "url": "https://decrypt.co/379497/citi-stablecoin-payments-coinbase-without-touching-crypto"
-        },
-        {
-          "headline": "Franklin Templeton代币化基金现被接受为Bybit交易担保品",
-          "what": "Bybit宣布符合条件的机构可以用Franklin Templeton由Benji发行的代币化基金份额作为稳定币信贷额度的担保品，同时将基础资产保存在交易所外的托管中。这将机构级资产与加密衍生品联系起来。",
-          "coins": "stablecoins",
-          "timeUTC": "2026-09-28",
-          "source": "Cointelegraph, CoinDesk",
-          "url": "https://cointelegraph.com/news/bybit-accepts-franklin-templeton-tokenized-funds-trading-collateral"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "Chainlink推出CCIP 2.0让机构在跨链转账上添加自定义安全检查",
-          "what": "在$292百万的Kelp DAO黑客事件五个月后，Chainlink发布了CCIP 2.0，允许银行和平台对跨链桥接进行自己的安全检查。这增加了定制性并减少了对单一安全模式的依赖。",
-          "coins": "all (cross-chain)",
-          "timeUTC": "2026-09-28",
-          "source": "Decrypt, CoinDesk",
-          "url": "https://decrypt.co/379463/chainlink-institutions-add-bridge-checks-kelp-hack"
-        },
-        {
-          "headline": "OKX US要求用户在9月30日前迁移交易机器人头寸",
-          "what": "OKX US通知用户，如果交易机器人未在9月30日08:00 UTC前迁移，旧美元交易对上的Grid和Smart Portfolio持仓将被自动出售。",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/okx-us-to-sell-usd-trading-bot-positions-if-users-miss-sept-30-deadline/"
-        }
-      ],
-      "Unconfirmed and watch items": [
-        {
-          "headline": "Blockchain.com寻求$500百万IPO，目标估值$6十亿",
-          "what": "Bloomberg报道Blockchain.com正在寻求$500百万的IPO，目标估值高达$6十亿——远低于其2022年的高峰。这一举动反映了最近上市的加密股票面临的困难的IPO市场。",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/blockchain-com-500m-ipo-bloomberg-reports"
-        },
-        {
-          "headline": "Vitalik Buterin为Ethereum未来描绘'加密世界计算机'计划",
-          "what": "Ethereum联合创始人Vitalik Buterin提议Hegota将是Ethereum最后的'正常'分叉，未来升级将基于递归STARKs和形式化验证。这勾勒出了扩展性和正确性的长期愿景。",
-          "coins": "ETH",
-          "timeUTC": "2026-09-28",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum"
-        },
-        {
-          "headline": "Ethereum顶级流动性再抵押协议随着收益率下降转向新银行",
-          "what": "随着收益率下跌和智能合约风险上升，再抵押热潮已停滞。顶级协议正在远离核心再抵押业务；其中一个正在建设一个加密新银行。",
-          "coins": "ETH",
-          "timeUTC": "2026-09-28",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/09/28/the-restaking-gold-rush-is-over-and-top-protocols-are-barely-making-a-profit"
-        }
-      ]
-    }
+    "topThree": [],
+    "groups": {}
   },
-  "etfFlows": {
-    "date": "2026-09-28",
-    "summary": "现货Bitcoin ETF录得$146百万净流入（1,740 BTC），而Ethereum ETF录得$55.12百万净流入（20,400 ETH）。尽管当日整体市场疲软，两种主要资产都通过监管渠道显示出持续的机构需求。",
-    "source": "Farside Investors, CoinGlass, SoSoValue",
-    "url": "https://farside.co.uk/btc/"
-  },
-  "calendarNotes": [
-    {
-      "event": "Germany CPI Flash September 2026 — Tue 29 Sept, 12:00 UTC (High impact)",
-      "typicalReaction": "主要CPI发布通常在传统和加密市场都会引发波动，因为它影响利率预期。"
-    },
-    {
-      "event": "RBA Rate Decision September 2026 — Tue 29 Sept, 04:30 UTC (Medium impact)",
-      "typicalReaction": "澳大利亚央行决策波及全球收益率曲线和风险偏好，影响加密货币估值。"
-    }
-  ],
-  "glossary": [
-    {
-      "term": "市场广度",
-      "definition": "当日上升的所有交易资产相对于下降资产的百分比。低广度（上升的资产少）表明整体市场健康状况疲弱，即使主要资产跌幅较小。"
-    },
-    {
-      "term": "融资费率",
-      "definition": "在永续期货中持有多头和空头头寸的交易者之间支付的费用。高融资费率（多头向空头支付时）表明多头情绪过热。"
-    },
-    {
-      "term": "流入/流出（ETF资金流向）",
-      "definition": "每日进入（流入）或离开（流出）交易所交易基金的净资金量。正流入意味着买家超过卖家；负流出意味着卖家超过买家。"
-    },
-    {
-      "term": "多空比率",
-      "definition": "持有多头（押注价格上升）相对于空头（押注价格下降）头寸的交易者比例。高于1.0的比率意味着多头多于空头；低于1.0意味着空头多于多头。"
-    },
-    {
-      "term": "标记价格",
-      "definition": "用于结算衍生品（期货）合约的参考价格，通常是主要交易所现货价格的加权平均值，以防止操纵。"
-    },
-    {
-      "term": "持仓量",
-      "definition": "期货合约中所有未平仓杠杆头寸（多头和空头合计）的总价值。上升的持仓量意味着新资金进入杠杆交易；下降的持仓量意味着交易者在平仓。"
-    },
-    {
-      "term": "现货ETF",
-      "definition": "持有实际Bitcoin或Ethereum（而非衍生品）的受监管投资基金。投资者购买份额而非直接购买币，通过传统经纪人获得敞口。"
-    },
-    {
-      "term": "交易者买卖比率",
-      "definition": "由买家（主动）相对于卖家（主动）发起的交易比例。高于1.0意味着更多的主动买入；低于1.0意味着更多的主动卖出。"
-    },
-    {
-      "term": "头部头寸比率（头部交易者多空比）",
-      "definition": "交易所中最大交易者的多空比率，显示最强大的账户是净多头还是净空头。用于识别'聪慧资金'的头寸。"
-    }
-  ],
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
   "_source": "cli-zh",
-  "_from": "ef8a703ff99639f2"
+  "_from": "2187afb9074ec957"
 }

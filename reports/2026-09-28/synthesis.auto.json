@@ -1,212 +1,261 @@
 {
-  "oneLine": "Bitcoin and Ethereum fell on broad market weakness and rising yields, while a $387.5 million exchange hack and strong institutional buying were the day's defining stories.",
-  "caveman": "Bitcoin and Ethereum had a down day — prices fell because stocks and bonds fell, and people got worried. Most coins went down, not just the big two. But the biggest news wasn't the price: an exchange called Bitget got hacked and lost $387.5 million. At the same time, big investment companies like Strategy and Strive kept buying Bitcoin, which means they still think it's worth buying. The weird part is that money flowing into Bitcoin and Ethereum spot ETFs (special funds you can buy easily) stayed positive even though prices fell. It was a worried day for most people, but some smart money wasn't scared.",
-  "priceVolumeSummary": "All venues priced Bitcoin around $83,480. Binance led volume decisively with $12.96 billion on Bitcoin futures, more than double OKX's $6.82 billion.",
-  "positioningSummary": "Funding rates were elevated at 1.79% to 10.95% annualized, showing traders were paying to hold long positions. Bitcoin had slightly more long positions than short (long/short ratio 1.17), but Ethereum showed strong long bias (2.76), especially among the largest traders. Taker buy/sell ratios below 1 (0.97 for Bitcoin, 0.94 for Ethereum) indicated more aggressive selling than buying. Market breadth was very weak: only 15.64% of Binance perpetual contracts were up on the day.",
-  "stocksSummary": "Asian stocks fell sharply on Sept 28: South Korean semiconductor stocks led declines with SK Hynix down 4.74% and Samsung Electronics down 3.85%. Hong Kong also saw weakness, with MiniMax down 10.40% and Zhongji Innolight down 10.21%. US markets were also down (S&P 500 -0.74%, Nasdaq -0.92%). The broad selloff in semiconductors and tech suggests supply-chain or earnings concerns rippled through traditional markets.",
+  "oneLine": "Bitcoin fell 1.1% on Monday 28 September 2026 amid broad market weakness, institutional buying, and a major exchange security incident.",
+  "caveman": "On Monday, Bitcoin went down a bit (about 1%, ending at $83,500) while Ethereum stayed about the same around $2,687. Most other cryptocurrencies also fell — about 84% were down. The big news was that an exchange called Bitget got hacked and thieves took almost $388 million and nearly 5,000 Bitcoin (one of the biggest exchange hacks ever). But some big companies like Goldman Sachs, Citi, and Franklin Templeton announced they're moving money and products into crypto, which is normally good news. The problem is that a software bug in Bitget's security let the hackers in, and when that kind of thing happens, people get nervous about all exchanges. Oil prices went up to over $100 a barrel (because of Middle East stuff), which usually makes people want safer money, not risky stuff like crypto. So even though big institutions were buying Bitcoin, the worry about the hack and the oil shock made the whole market go down.",
+  "priceVolumeSummary": "Bitcoin fell 1.1% to $83,486–$83,515 across all venues with close agreement on price and direction. Binance led volume at $13.1 billion, with OKX and Bybit near $5–7 billion each; Ethereum remained nearly flat at $2,687 with Binance leading at $9.7 billion.",
+  "positioningSummary": "Bitcoin funding remained elevated at 2.19%–10.95% annualized across venues, though below recent peaks. The largest traders showed strong long bias (Binance top-position ratio 1.89), but taker activity favored sellers (0.97 ratio, below 1.0 indicating more aggressive selling than buying). Ethereum showed similar selling pressure (0.94 ratio) despite a 2.76× long bias among top traders. Open interest stood at $7.7 billion for Bitcoin and $6.1 billion for Ethereum on Binance. Market breadth was weak with only 16% of Binance perps up on the day, indicating broad seller dominance.",
+  "stocksSummary": "Asian stock markets closed mixed in the report day's pre-market hours. South Korea fell sharply with SK Hynix −3.95% and Samsung −5.75%, reflecting semiconductor sector weakness. Hong Kong tracked lower with most AI and chipmaker stocks down 7–10% (MiniMax −10.4%, CSOP Samsung 2× −10.2%), while China's major players slid 5–6%. US equities fell 0.74% (S&P 500) and 0.92% (Nasdaq), with semiconductor and tech stocks hit hardest (Intel −11.2%, MicroStrategy-adjacent holdings under pressure), though gold gained 0.25% as a safe haven. The moves reflect broad risk-off sentiment in traditional markets, particularly in tech and chips, with higher US Treasury yields (10Y above 5.27%) pressuring all growth sectors.",
   "movers": [
     {
       "symbol": "NMRUSDT",
-      "explanation": "NMR rose 38.16% with no clear public cause in the available news.",
+      "explanation": "No clear public cause; likely momentum-driven speculation in the small-cap token.",
       "hasCause": false
     },
     {
       "symbol": "QUSDT",
-      "explanation": "Q fell 32.65% with no clear public cause in the available news.",
+      "explanation": "No clear public cause; the token fell sharply in what appears to be speculative unwinding.",
       "hasCause": false
     },
     {
-      "symbol": "HBARUSDT",
-      "explanation": "HBAR rose 28.62% with no clear public cause in the available news.",
+      "symbol": "MARSCOINUSDT",
+      "explanation": "No clear public cause; rally appears driven by retail interest rather than announced events.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Bitget restarts phased withdrawal process after $387.5 million security breach",
-        "what": "Bitget, a major crypto exchange, confirmed hackers exploited a third-party security product vulnerability to steal $387.5 million across Bitcoin, Ethereum, stablecoins, and other assets. The exchange began phased withdrawals Sept 28 starting with Bitcoin, with Ethereum and USDT to follow. Bitget and cybersecurity firms Mandiant and SlowMist are investigating; North Korean hackers are suspected.",
-        "coins": "BTC, ETH, USDT, others",
-        "timeUTC": "2026-09-28 22:53 UTC (reported)",
-        "source": "Multiple (BleepingComputer, Yahoo Finance, Daily Hodl)",
-        "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/"
+        "headline": "Bitget suffers $387–388 million hack; nearly 5,000 BTC seized",
+        "what": "Crypto exchange Bitget disclosed that attackers exploited a third-party security vulnerability to steal approximately $387.5 million in assets, including nearly 5,000 Bitcoin. CEO Gracy Chen revealed the attackers ran small test transfers 30 minutes before the main theft to probe security controls, then moved roughly $290 million within 45 minutes of detection. The exchange has resumed phased Bitcoin withdrawals and pledged to cover losses via a user protection fund.",
+        "coins": "Bitcoin, Ethereum, USDT",
+        "timeUTC": "2026-09-28 ~04:00–05:00 UTC",
+        "source": "CryptoSlate, The Block, Cointelegraph, CoinDesk",
+        "url": "https://cryptoslate.com/nearly-5000-btc-leaves-bitget-as-hackers-begin-laundering-387-million-haul/"
       },
       {
-        "headline": "Major institutions continue Bitcoin and Ethereum purchases despite market pullback",
-        "what": "Strategy (formerly MicroStrategy) bought 1,665 BTC for $143 million, its first back-to-back weekly Bitcoin buys since June. Strive purchased 1,107 BTC for $94.5 million, lifting total holdings to 27,462 BTC. Separately, Tom Lee's Bitmine added 17,362 Ethereum to reach over 6 million ETH. Goldman Sachs also brought its $100 billion Treasury fund into crypto institutional plumbing. Institutional accumulation signals conviction despite price weakness.",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-28 (various times)",
-        "source": "CoinDesk, The Block, Decrypt",
+        "headline": "Strategy acquires 1,665 Bitcoin for $143 million; holdings hit 847,666 BTC",
+        "what": "Michael Saylor's Strategy (formerly MicroStrategy) made its first consecutive weekly Bitcoin purchases since June, buying 1,665 BTC for approximately $143 million and raising total holdings to 847,666 BTC—roughly 4% of the 21 million supply. The company funded the purchase partly by selling 1.47 million shares for $246.2 million and partly via preferred-stock issuance. The move signals continued institutional accumulation despite short-term market weakness.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-09-28 ~12:00 UTC",
+        "source": "Cointelegraph, CoinDesk, The Block",
+        "url": "https://cointelegraph.com/news/strategy-1665-bitcoin-buy-holdings-847666-btc"
+      },
+      {
+        "headline": "Goldman Sachs brings ~$100 billion Treasury fund into crypto institutional ecosystem",
+        "what": "Goldman Sachs announced it is directing its roughly $100 billion Treasury fund into the crypto sector's institutional infrastructure and financial plumbing without creating a tokenized version of the fund itself. The move signals major traditional finance adoption of crypto rails for institutional operations and settlement.",
+        "coins": "Multiple (infrastructure-level)",
+        "timeUTC": "2026-09-28 14:40 UTC",
+        "source": "CoinDesk",
         "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
-      },
-      {
-        "headline": "Bitcoin and Ethereum ETFs continue positive net flows despite equity selloff",
-        "what": "Spot Bitcoin ETFs recorded $146 million net inflow on Sept 28, with 1,740 BTC added to fund holdings. Ethereum ETFs saw $55.12 million net inflow with 20,400 ETH added. This persistent institutional demand via regulated channels contrasts with the broader market decline, suggesting diverse buyer interest.",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-09-28",
-        "source": "Farside Investors, CoinGlass, SoSoValue",
-        "url": "https://farside.co.uk/btc/"
       }
     ],
     "groups": {
-      "Regulation and policy": [
+      "Hacks, exploits and outages": [
         {
-          "headline": "Senate report: Tether is central to Iran's shadow banking system",
-          "what": "A new Senate investigation found that USDT (Tether stablecoin) has become a core tool in Iran's shadow banking network, enabling sanctions evasion and illicit fund transfers. This follows weeks of regulatory scrutiny on stablecoin use in geopolitically sensitive regions.",
-          "coins": "USDT",
-          "timeUTC": "2026-09-28",
-          "source": "The Block, CoinDesk",
-          "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094"
-        },
-        {
-          "headline": "Brazil imposes $10,000 self-custody reporting threshold",
-          "what": "Brazil's central bank authorized institutions must notify Coaf when transfers to or from user-controlled wallets exceed $10,000. This expands reporting requirements for the $252 billion Brazilian crypto market.",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/brazils-252-billion-crypto-market-gets-10000-self-custody-reporting-rule/"
-        },
-        {
-          "headline": "Russia opens crypto exchange applications effective October 5",
-          "what": "Russia set October 5 as the start date for crypto exchange applications under new regulatory rules. Firms can begin applying, though retail asset eligibility remains pending from the Bank of Russia.",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/"
-        },
-        {
-          "headline": "California bans public officials from launching meme coins",
-          "what": "Governor Newsom signed AB 2409 restricting public officials and certain employees from issuing meme coins or cryptographic assets tied to their office. The law takes effect January 1, 2027, and includes rules for restitution in crypto scams.",
-          "coins": "meme coins",
-          "timeUTC": "2026-09-28",
+          "headline": "Bitget attacker tested risk controls before $388 million theft; BTC beginning to launder",
+          "what": "Bitget's CEO confirmed the attacker conducted two small test transfers approximately 30 minutes before the main drain to probe security controls. Once the vulnerability was confirmed, thieves moved roughly $290 million in assets within 45 minutes. Nearly 5,000 BTC has begun leaving Bitget's tracked reserves as the stolen funds enter the laundering pipeline.",
+          "coins": "Bitcoin, Ethereum, USDT",
+          "timeUTC": "2026-09-28 04:00–05:00 UTC",
           "source": "CryptoSlate, The Block",
-          "url": "https://cryptoslate.com/newsom-signs-california-law-barring-public-officers-and-certain-employees-from-issuing-meme-coins/"
+          "url": "https://cryptoslate.com/bitget-had-30-minutes-to-contain-its-hack-before-290-million-started-moving/"
         },
         {
-          "headline": "SEC follows CFTC with updated crypto guidance following CLARITY Act failure",
-          "what": "After the Senate's failed cloture vote on the CLARITY Act, the SEC issued staff guidance on how federal securities laws apply to token issuers. This mirrors recent CFTC guidance in the absence of comprehensive crypto legislation.",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail"
+          "headline": "THORChain declines Bitget's request to block hacker addresses; 75.2 BTC laundered via swaps",
+          "what": "Despite Bitget's request that the cross-chain swap protocol THORChain block addresses linked to the theft, the protocol continued to process swaps. Approximately 2,390 ETH was swapped into 75.2 BTC via 27 successful transactions, demonstrating the challenges in halting stolen assets.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-09-28 15:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Citi expands Coinbase partnership for institutional stablecoin payments",
-          "what": "Citigroup expanded its existing deal with Coinbase to let institutional clients accept stablecoin payments while Coinbase business accounts operate on Citi's banking rails. This integrates traditional finance and on-chain settlement infrastructure.",
-          "coins": "stablecoins (USDC, USDT)",
-          "timeUTC": "2026-09-28",
-          "source": "Decrypt, The Block, CoinDesk",
-          "url": "https://decrypt.co/379497/citi-stablecoin-payments-coinbase-without-touching-crypto"
+          "headline": "Strategy (MicroStrategy) resumes back-to-back Bitcoin purchases; holdings approach $70 billion",
+          "what": "Strategy completed its first consecutive weekly Bitcoin buys since June, adding 1,665 BTC ($143M) to reach 847,666 total—approximately 4% of the 21 million coin supply and worth ~$70 billion. The purchase was funded via share sales ($246.2M from 1.47M MSTR sold) and preferred-stock issuance, indicating sustained capital commitment.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-28 12:00 UTC",
+          "source": "Cointelegraph, CoinDesk, The Block",
+          "url": "https://cointelegraph.com/news/strategy-1665-bitcoin-buy-holdings-847666-btc"
         },
         {
-          "headline": "Franklin Templeton tokenized funds now accepted as Bybit trading collateral",
-          "what": "Bybit announced that eligible institutions can pledge Franklin Templeton's Benji-issued tokenized fund shares as collateral for stablecoin credit lines while keeping underlying assets in off-exchange custody. This bridges institutional-grade assets into crypto derivatives.",
-          "coins": "stablecoins",
-          "timeUTC": "2026-09-28",
-          "source": "Cointelegraph, CoinDesk",
-          "url": "https://cointelegraph.com/news/bybit-accepts-franklin-templeton-tokenized-funds-trading-collateral"
+          "headline": "Goldman Sachs Treasury fund ($100B) integrated into crypto institutional plumbing",
+          "what": "Goldman Sachs announced deployment of approximately $100 billion in Treasury assets into crypto's institutional infrastructure without tokenization, signaling mainstream financial-services adoption of blockchain-based settlement and operations.",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-28 14:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
+        },
+        {
+          "headline": "Strive pushes Bitcoin holdings above 27,400 BTC with $94.5 million weekly purchase",
+          "what": "Strive bought 1,107 Bitcoin for $94.5 million, raising total holdings to 27,462 BTC. Preferred shares supplied 85% of the acquisition capital, demonstrating sustained demand from alternative investment vehicles.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-28 11:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-28-strive-pushes-bitcoin-holdings-above-27400-btc-latest-94-5-million-purchase-417035"
+        },
+        {
+          "headline": "Tom Lee's Bitmine tops 6 million ETH after $175 million purchase of 17,362 ether",
+          "what": "Bitmine, controlled by Apollo's Tom Lee, acquired 17,362 ETH, lifting holdings above 6 million coins (approximately 4.9% of Ethereum's circulating supply). Total Bitmine assets across crypto and traditional holdings stand at $17.2 billion.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-09-28 10:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-28-tom-lees-bitmine-tops-6-million-eth-after-buying-another-17362-ether"
         }
       ],
       "Exchange and platform changes": [
         {
-          "headline": "Chainlink launches CCIP 2.0 to let institutions add custom security checks on cross-chain transfers",
-          "what": "Five months after the $292 million Kelp DAO hack, Chainlink released CCIP 2.0, allowing banks and platforms to run their own security checks on cross-chain bridges. This increases customization and reduces reliance on single security models.",
-          "coins": "all (cross-chain)",
-          "timeUTC": "2026-09-28",
-          "source": "Decrypt, CoinDesk",
-          "url": "https://decrypt.co/379463/chainlink-institutions-add-bridge-checks-kelp-hack"
+          "headline": "Citi and Coinbase expand partnership; institutions can accept stablecoin payments via Citi rails",
+          "what": "Citi and Coinbase expanded an existing partnership to allow Citi's institutional clients to accept stablecoin payments while Coinbase business accounts operate on Citi's banking infrastructure, reducing friction between traditional and crypto settlement.",
+          "coins": "USDC, USDT (stablecoins)",
+          "timeUTC": "2026-09-28 10:45 UTC",
+          "source": "Decrypt, The Block",
+          "url": "https://decrypt.co/379497/citi-stablecoin-payments-coinbase-without-touching-crypto"
         },
         {
-          "headline": "OKX US requires users to migrate trading bot positions by September 30",
-          "what": "OKX US notified users that Grid and Smart Portfolio holdings on old USD trading pairs will be automatically sold if bots are not migrated by September 30 at 08:00 UTC.",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
+          "headline": "Franklin Templeton tokenized funds now accepted as Bybit trading collateral",
+          "what": "Bybit expanded collateral options to include Franklin Templeton's tokenized money-market fund shares (Benji tokens), allowing eligible institutions to pledge them for USDT or USDC trading credit lines while maintaining off-exchange custody of underlying assets.",
+          "coins": "USDT, USDC (via collateral credit)",
+          "timeUTC": "2026-09-28 09:00 UTC",
+          "source": "Cointelegraph, CoinDesk",
+          "url": "https://cointelegraph.com/news/bybit-accepts-franklin-templeton-tokenized-funds-trading-collateral"
+        },
+        {
+          "headline": "Chainlink launches CCIP 2.0; institutions gain custom security controls on cross-chain transfers",
+          "what": "Chainlink updated its Cross-Chain Interoperability Protocol (CCIP) to let institutions add their own security checks on cross-chain bridges, addressing vulnerabilities exposed by the $292 million Kelp hack earlier in 2026.",
+          "coins": "Multiple (infrastructure)",
+          "timeUTC": "2026-09-28 13:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry"
+        },
+        {
+          "headline": "OKX US sets September 30 deadline for users to migrate USD trading bots or face auto-sale",
+          "what": "OKX US announced that Grid and Smart Portfolio holdings on deprecated USD trading pairs will be automatically sold if users miss a September 30 deadline, requiring manual migration to newer pair structures.",
+          "coins": "Multiple (operational notice)",
+          "timeUTC": "2026-09-28 07:00 UTC",
           "source": "CryptoSlate",
           "url": "https://cryptoslate.com/okx-us-to-sell-usd-trading-bot-positions-if-users-miss-sept-30-deadline/"
         }
       ],
-      "Unconfirmed and watch items": [
+      "Regulation and policy": [
         {
-          "headline": "Blockchain.com seeks $500 million IPO with $6 billion valuation target",
-          "what": "Bloomberg reported that Blockchain.com is pursuing a $500 million IPO with a target valuation of up to $6 billion—far below its 2022 peak. The move reflects the difficult IPO market for recently listed crypto stocks.",
-          "coins": "all",
-          "timeUTC": "2026-09-28",
+          "headline": "Senate Permanent Subcommittee report: Tether USDT central to Iran's shadow banking network",
+          "what": "Democratic senators released an investigation concluding that Tether and its USDT stablecoin have become a key tool for the Iranian government to circumvent international sanctions, enabling offshore asset movement and foreign-exchange access.",
+          "coins": "USDT (Tether)",
+          "timeUTC": "2026-09-28 08:45 UTC",
+          "source": "The Block, CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094"
+        },
+        {
+          "headline": "SEC follows CFTC with fresh staff guidance on crypto token securities classification",
+          "what": "Following the Senate's failure to pass the CLARITY Act, the Securities and Exchange Commission released updated guidance on how existing federal securities laws apply to token issuers, paralleling guidance the CFTC issued days earlier.",
+          "coins": "Multiple (regulatory framework)",
+          "timeUTC": "2026-09-28 08:00 UTC",
           "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/blockchain-com-500m-ipo-bloomberg-reports"
+          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail"
         },
         {
-          "headline": "Vitalik Buterin outlines 'cryptographic world computer' plan for Ethereum's future",
-          "what": "Ethereum co-founder Vitalik Buterin proposed that Hegota will be Ethereum's last 'normal' fork, with future upgrades built on recursive STARKs and formal verification. This sketches a long-term vision for scaling and correctness.",
-          "coins": "ETH",
-          "timeUTC": "2026-09-28",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum"
+          "headline": "Brazil establishes $10,000 self-custody reporting threshold; central bank tracks wallet transfers",
+          "what": "Brazil's Central Bank–authorized financial institutions must now report to Coaf when transfers to or from user-controlled wallets meet or exceed 10,000 Brazilian reais (~$2,000 USD equivalent), tightening compliance in the $252 billion Brazilian crypto market.",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-28 07:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/brazils-252-billion-crypto-market-gets-10000-self-custody-reporting-rule/"
         },
         {
-          "headline": "Ethereum's top liquid restaking protocol pivots to neobank as yields dry up",
-          "what": "The restaking gold rush has stalled as yields collapsed and smart-contract risks mounted. Top protocols are moving away from core restaking business; one is building a crypto neobank instead.",
-          "coins": "ETH",
-          "timeUTC": "2026-09-28",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/09/28/the-restaking-gold-rush-is-over-and-top-protocols-are-barely-making-a-profit"
+          "headline": "California bans public officials and employees from issuing cryptocurrency meme coins",
+          "what": "Governor Gavin Newsom signed legislation (AB 2409) prohibiting state and local public officers and certain employees from issuing meme coins or coins bearing their likeness. Listings of such official-linked coins issued after January 1, 2027 will also be restricted for California residents.",
+          "coins": "Meme coins / regulatory scope",
+          "timeUTC": "2026-09-28 06:00 UTC",
+          "source": "CryptoSlate, The Block",
+          "url": "https://cryptoslate.com/newsom-signs-california-law-barring-public-officers-and-certain-employees-from-issuing-meme-coins/"
+        },
+        {
+          "headline": "Russia opens crypto exchange applications October 5; retail asset eligibility remains pending",
+          "what": "Russia's Central Bank set October 5, 2026 as the start date for crypto exchange applications under new regulatory rules. However, retail access to specific crypto assets and final Bank of Russia licensing decisions remain pending, suggesting phased rollout.",
+          "coins": "Multiple",
+          "timeUTC": "2026-09-28 05:45 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US Treasury yields spike above 5.27%; oil surges past $100 on Iran geopolitical tensions",
+          "what": "The 10-year US Treasury yield reached a new cycle high above 5.27% amid concerns about Middle East escalation and Iran ceasefire negotiations. WTI Crude climbed back above $100 per barrel. Broader market equities fell 0.74% (S&P 500) to 0.92% (Nasdaq), with tech and semiconductor stocks hit hardest as growth assets struggle under higher discount rates.",
+          "coins": "Bitcoin, Ethereum (correlations)",
+          "timeUTC": "2026-09-28 12:00–18:00 UTC",
+          "source": "CoinDesk, Decrypt",
+          "url": "https://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-28",
-    "summary": "Spot Bitcoin ETFs recorded $146 million net inflow (1,740 BTC), while Ethereum ETFs recorded $55.12 million net inflow (20,400 ETH). Both major assets showed persistent institutional demand via regulated channels despite the day's overall market weakness.",
-    "source": "Farside Investors, CoinGlass, SoSoValue",
-    "url": "https://farside.co.uk/btc/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Germany CPI Flash September 2026 — Tue 29 Sept, 12:00 UTC (High impact)",
-      "typicalReaction": "Major CPI release typically triggers volatility in both traditional and crypto markets as it affects rate expectations."
-    },
-    {
-      "event": "RBA Rate Decision September 2026 — Tue 29 Sept, 04:30 UTC (Medium impact)",
-      "typicalReaction": "Australian central bank decisions ripple through global yield curves and risk appetite, affecting crypto valuations."
+      "event": "Germany CPI Flash September 2026 — Tue 29 Sept, 12:00 UTC",
+      "typicalReaction": "High-impact economic release; expect volatility in traditional markets (equities, bonds, EUR) with potential spillover to risk assets including crypto."
     }
   ],
   "glossary": [
     {
-      "term": "Breadth (market breadth)",
-      "definition": "The percentage of all traded assets that went up versus down on the day. Low breadth (few assets up) signals weak overall market health, even if major assets fell less."
+      "term": "Basis",
+      "definition": "The difference between the price of a cryptocurrency futures contract and its current spot price. When futures trade above spot, the market expects prices to rise."
+    },
+    {
+      "term": "Breadth",
+      "definition": "A measure of how many assets in a market are moving up versus down. High breadth (percentage of assets rising) signals broad-based strength; low breadth (few assets rising) signals weakness concentrated in a few names."
+    },
+    {
+      "term": "Collateral",
+      "definition": "An asset pledged to secure a loan or credit line. In crypto derivatives, collateral is used to back margin trading positions or credit lines; if the collateral falls in value, the position may be liquidated."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A sentiment gauge that ranges from 0 (Extreme Fear) to 100 (Extreme Greed), measuring investor emotional extremes based on market volatility, price movement, and trading behavior. Higher readings suggest strong buying pressure; lower readings suggest panic selling."
     },
     {
       "term": "Funding rate",
-      "definition": "A fee paid between traders holding long and short positions in perpetual futures. High funding rates (when longs pay shorts) suggest overheated bullish sentiment."
+      "definition": "A periodic payment between buyers and sellers of perpetual futures contracts that keeps the contract price aligned with the spot price. A positive funding rate means longs pay shorts (bearish signal when high); a negative rate means shorts pay longs (bullish signal when very negative). Annualized funding rates are expressed as annual percentages."
     },
     {
-      "term": "Inflow / outflow (ETF flows)",
-      "definition": "The daily net amount of money entering (inflow) or leaving (outflow) exchange-traded funds. Positive inflow means buyers exceeded sellers; negative outflow means sellers exceeded buyers."
+      "term": "Liquidation",
+      "definition": "Forced closure of a leveraged position when collateral falls below the exchange's minimum threshold, resulting in automatic loss. High liquidation risk indicates overleveraged positions."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will rise. A trader who is long owns the asset or holds a futures contract expecting appreciation."
     },
     {
       "term": "Long/short ratio",
-      "definition": "The proportion of traders holding long (bet on price up) versus short (bet on price down) positions. Ratios above 1.0 mean more longs than shorts; below 1.0 means more shorts than longs."
+      "definition": "The proportion of traders holding long positions versus short positions. A ratio above 1.0 indicates more longs (bullish); below 1.0 indicates more shorts (bearish)."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price used to settle derivatives (futures) contracts, usually a weighted average of spot prices across major exchanges to prevent manipulation."
+      "definition": "The reference price used to calculate unrealized gains and losses on futures positions, typically calculated as an index of prices across major exchanges to prevent manipulation of individual-venue spot prices."
     },
     {
       "term": "Open interest (OI)",
-      "definition": "The total value of all outstanding leveraged positions (longs and shorts combined) in futures contracts. Rising OI means new money is entering leveraged trading; falling OI means traders are closing positions."
+      "definition": "The total amount of money or assets locked in open futures contracts across a venue. Rising OI suggests fresh capital entering the market and higher engagement; declining OI suggests positions closing."
     },
     {
-      "term": "Spot ETF",
-      "definition": "A regulated investment fund that holds actual Bitcoin or Ethereum (not derivatives). Investors buy shares instead of coins directly, gaining exposure via traditional brokers."
+      "term": "Perpetual futures (perps)",
+      "definition": "Cryptocurrency derivatives contracts with no expiration date that allow traders to bet on price movements with leverage, settling continuously via periodic funding rates rather than a fixed maturity."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that an asset's price will fall. A trader who is short has borrowed the asset or holds a futures contract expecting depreciation."
     },
     {
       "term": "Taker buy/sell ratio",
-      "definition": "The proportion of trades initiated by buyers (aggressive) versus sellers (aggressive). Above 1.0 means more aggressive buying; below 1.0 means more aggressive selling."
+      "definition": "A measure of aggressive buying versus selling in real-time market activity. Above 1.0 means more aggressive buyers (bullish); below 1.0 means more aggressive sellers (bearish). This ratio reflects spot trading behavior and market momentum."
     },
     {
-      "term": "Top position ratio (top-trader long/short)",
-      "definition": "The long/short ratio among the largest traders on an exchange, showing whether the most powerful accounts are net long or net short. Used to spot 'smart money' positioning."
+      "term": "Top-position ratio (large trader long/short)",
+      "definition": "The ratio of long to short positions held specifically by the largest traders on an exchange. A high ratio (e.g., 1.8+) indicates strong positioning by major players expecting price increases."
+    },
+    {
+      "term": "Volatility",
+      "definition": "The degree to which an asset's price swings up and down. High volatility means large, frequent price moves; low volatility means smaller, steadier moves. Volatility creates both opportunities and risks for traders."
     }
   ],
   "_source": "cli"
