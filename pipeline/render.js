@@ -75,6 +75,37 @@ const fmtRatio = (x) => x == null || !isFinite(x) ? "—" : x.toFixed(2);
 const cls = (x, t = 2) => x == null || !isFinite(x) ? "" : x > t ? "grn" : x < -t ? "red" : "";
 const TH = { price: 2, funding: 10, stocks: 1, tradfi: 1 };
 
+const LOCALE = { en: "en-GB", tr: "tr-TR", zh: "zh-CN" };
+function createFmt(lang) {
+  const loc = LOCALE[lang] || "en-GB";
+  const nfInt = new Intl.NumberFormat(loc, { maximumFractionDigits: 0 });
+  const nf2 = new Intl.NumberFormat(loc, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const _pf = {};
+  const pf = (dp) => _pf[dp] || (_pf[dp] = new Intl.NumberFormat(loc, { minimumFractionDigits: dp, maximumFractionDigits: dp }));
+  const price24 = new Intl.NumberFormat(loc, { minimumFractionDigits: 2, maximumFractionDigits: 4 });
+  const price26 = new Intl.NumberFormat(loc, { minimumFractionDigits: 2, maximumFractionDigits: 6 });
+  return {
+    fmtUSD(x) {
+      if (x == null || !isFinite(x)) return "—";
+      if (Math.abs(x) >= 1e12) return "$" + nf2.format(x / 1e12) + "T";
+      if (Math.abs(x) >= 1e9) return "$" + nf2.format(x / 1e9) + "B";
+      if (Math.abs(x) >= 1e6) return "$" + nfInt.format(Math.round(x / 1e6)) + "M";
+      if (Math.abs(x) >= 1e3) return "$" + nfInt.format(Math.round(x / 1e3)) + "K";
+      return "$" + nfInt.format(Math.round(x));
+    },
+    fmtPrice(x) {
+      if (x == null || !isFinite(x)) return "—";
+      if (Math.abs(x) >= 100) return "$" + nf2.format(x);
+      if (Math.abs(x) >= 1) return "$" + price24.format(x);
+      return "$" + price26.format(x);
+    },
+    fmtPct(x, dp = 1) { return x == null || !isFinite(x) ? "—" : pf(dp).format(x) + "%"; },
+    sgn(x, dp = 2) { return x == null || !isFinite(x) ? "—" : (x >= 0 ? "+" : "") + pf(dp).format(x) + "%"; },
+    fmtRatio(x) { return x == null || !isFinite(x) ? "—" : nf2.format(x); },
+    fmtShortDate(d) { try { return new Date(d + "T00:00:00Z").toLocaleDateString(loc, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }); } catch { return d; } },
+  };
+}
+
 const STYLE = `
   @page { size: A4; margin: 15mm 14mm 16mm; }
   :root{--ink:#14181d;--ink2:#39414b;--muted:#6b727c;--faint:#9aa1ab;--accent:#c2410c;--accent-ink:#9a3409;--accent-soft:#fbeee6;--accent-line:#eecab2;--line:#e8eaee;--line2:#f0f2f5;--card:#f7f8fa;--pos:#0f8a4f;--pos-soft:#e7f4ec;--neg:#c62b3f;--neg-soft:#fbe9eb;--amb:#b45309;}
@@ -134,6 +165,9 @@ const STYLE = `
   .gloss{columns:2;column-gap:26px;} @media screen{.gloss{column-gap:40px;}}
   .regime-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:8px;margin-left:12px;vertical-align:middle;background:var(--card);border:1px solid var(--line);color:var(--muted);}
   @media(max-width:640px){body{padding:20px 16px !important;} h1{font-size:26px !important;} .stats-bar{gap:8px;} .stat{flex:1 1 45%;} .stat .sv{font-size:15px;} .sym-raw{display:none;} .gloss{columns:1;} table{font-size:11px;} .regime-badge{display:block;margin:6px 0 0;font-size:10px;}}
+  .vs{margin:6px 0 14px;} .vs-ref{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:4px;} .vs-ref .vp{font-size:22px;font-weight:800;color:var(--ink);font-variant-numeric:tabular-nums;} .vs-ref .vc{font-size:16px;font-weight:700;} .vs-hl{font-size:12px;color:var(--muted);font-weight:600;} .vs-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:11.5px;color:var(--muted);margin:2px 0 8px;} .vs-meta strong{color:var(--ink);} .vs-dist{margin:2px 0 6px;} .vs-bar-row{display:flex;align-items:center;gap:6px;padding:3px 0;font-size:11px;} .vs-bar-row .vn{width:52px;font-weight:700;color:var(--ink);flex-shrink:0;font-size:10.5px;} .vs-bar-row .vb{flex:1;height:12px;background:var(--line2);border-radius:3px;overflow:hidden;} .vs-bar-row .vb div{height:100%;background:var(--accent);border-radius:3px;} .vs-bar-row .vv{width:64px;text-align:right;font-weight:600;color:var(--ink2);font-size:10.5px;} .vs-bar-row .vpct{width:36px;text-align:right;color:var(--muted);font-size:10px;}
+  @media(max-width:640px){.vs-ref .vp{font-size:18px;} .vs-bar-row .vn{width:44px;} .vs-bar-row .vv{width:54px;}}
+  .wtw{margin:8px 0;padding:12px 15px;background:#fef7ed;border:1px solid #f5d6a7;border-radius:10px;} .wtw-h{font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--amb);margin-bottom:6px;} .wtw-item{font-size:12px;color:var(--ink2);padding:4px 0;border-bottom:1px solid #f5e8d4;} .wtw-item:last-child{border-bottom:none;}
   .gloss .g{break-inside:avoid;margin-bottom:11px;} .gloss .term{font-weight:700;color:var(--ink);font-size:12px;} .gloss .def{font-size:11.5px;color:var(--ink2);}
   .foot{margin-top:22px;padding-top:11px;border-top:1px solid var(--line);font-size:10px;color:var(--faint);}
   .none{font-size:12px;color:var(--muted);font-style:italic;}
@@ -190,6 +224,7 @@ const LABELS = {
     breadth: "Market breadth", breadthDesc: (u, d) => `${u} up / ${d} down`,
     altcoinsH: "Altcoins", coin: "Coin",
     regime: { strongBull: "Strong bullish", bull: "Bullish", neutral: "Neutral / mixed", bear: "Bearish", strongBear: "Strong bearish" },
+    spread: "Spread", totalVol: "Total volume", whatToWatch: "What to watch",
     none: { movers: "No standout movers today.", stocks: "Stock & commodity data was unavailable this run.", news: "No market-moving news was confirmed for this day", cal: "No US high-impact events on the report day.", gloss: "No special terms used today.", venue: "No venue data available." },
     methodology: ["08 · Methodology", "How this report is built", ""],
     methText: "Price and volume from each venue's daily (1d) kline bounded to the UTC day. Funding, open interest and mark price are point-in-time snapshots. Long/short and taker ratios from Binance. Market cap and dominance from CoinGecko. Fear & Greed from Alternative.me. News from public RSS feeds, verified via web search. Calendar from Investing.com. Traditional markets from Twelve Data.",
@@ -223,6 +258,7 @@ const LABELS = {
     breadth: "Piyasa genişliği", breadthDesc: (u, d) => `${u} yükseliş / ${d} düşüş`,
     altcoinsH: "Altcoin'ler", coin: "Coin",
     regime: { strongBull: "Güçlü yükseliş", bull: "Yükseliş", neutral: "Nötr / karışık", bear: "Düşüş", strongBear: "Güçlü düşüş" },
+    spread: "Fark", totalVol: "Toplam hacim", whatToWatch: "Dikkat edilecekler",
     none: { movers: "Bugün öne çıkan bir hareket yok.", stocks: "Bu çalışmada hisse ve emtia verisi alınamadı.", news: "Bu gün için piyasayı hareket ettiren teyitli haber yok", cal: "Rapor gününde yüksek etkili ABD verisi yok.", gloss: "Bugün özel terim kullanılmadı.", venue: "Borsa verisi yok." },
     methodology: ["08 · Metodoloji", "Bu rapor nasıl hazırlanır", ""],
     methText: "Fiyat ve hacim her borsanın UTC gününe bağlı günlük (1d) K-çizgisinden alınır. Fonlama, açık pozisyon ve mark fiyatı anlık verilerdir. Long/short ve alıcı oranları Binance'den gelir. Piyasa değeri ve hakimiyet CoinGecko'dan, Korku ve Açgözlülük Alternative.me'den alınır. Haberler kamuya açık RSS kaynaklarından toplanır ve web araması ile doğrulanır. Takvim Investing.com'dan, geleneksel piyasalar Twelve Data'dan sağlanır.",
@@ -256,6 +292,7 @@ const LABELS = {
     breadth: "市场广度", breadthDesc: (u, d) => `${u} 上涨 / ${d} 下跌`,
     altcoinsH: "山寨币", coin: "币种",
     regime: { strongBull: "强势看涨", bull: "看涨", neutral: "中性 / 混合", bear: "看跌", strongBear: "强势看跌" },
+    spread: "价差", totalVol: "总成交量", whatToWatch: "值得关注",
     none: { movers: "今天没有特别突出的波动。", stocks: "本次运行未能获取股票和商品数据。", news: "本日没有证实的、能推动市场的新闻", cal: "报告当日没有高影响的美国数据。", gloss: "今天没有用到特别术语。", venue: "暂无交易所数据。" },
     methodology: ["08 · 方法论", "本报告的数据来源与方法", ""],
     methText: "价格和成交量来自各交易所 UTC 日 K 线。资金费率、未平仓量和标记价为时点快照。多空比和主买/卖比来自 Binance。总市值和占比来自 CoinGecko。恐惧与贪婪指数来自 Alternative.me。新闻来自公开 RSS 源,经网络搜索验证。日程来自 Investing.com。传统市场来自 Twelve Data。",
@@ -264,7 +301,6 @@ const LABELS = {
   },
 };
 
-const LOCALE = { en: "en-GB", tr: "tr-TR", zh: "zh-CN" };
 function localDate(dateUTC, lang) {
   try { return new Date(dateUTC + "T00:00:00Z").toLocaleDateString(LOCALE[lang] || "en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }); }
   catch (e) { return dateUTC; }
@@ -279,18 +315,11 @@ function sessionText(L, status) {
 export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const s = synth || {};
   const L = LABELS[lang] || LABELS.en;
+  const { fmtUSD, fmtPrice, fmtPct, sgn, fmtRatio, fmtShortDate } = createFmt(lang);
   const dateHeading = pack.dateUTC ? localDate(pack.dateUTC, lang) : (pack.dateLong || "");
   const grpLabel = (g) => { const i = GROUP_KEYS.indexOf(g); return i >= 0 ? L.grp[i] : g; };
   const asOf = pack.asOfUTC ? `${L.asOf} ${pack.asOfUTC}` : "";
 
-  const priceCols = [
-    { h: L.col.venue, f: (r) => `<strong>${esc(r.venue)}</strong>${r.basis === "rolling-24h" ? " †" : ""}` },
-    { h: L.col.last, f: (r) => `<span class="mono">${fmtPrice(r.close ?? r.last)}</span>` },
-    { h: L.col.chg, f: (r) => `<span class="mono ${cls(r.chgPct, TH.price)}">${sgn(r.chgPct)}</span>` },
-    { h: L.col.high, f: (r) => `<span class="mono">${fmtPrice(r.high)}</span>` },
-    { h: L.col.low, f: (r) => `<span class="mono">${fmtPrice(r.low)}</span>` },
-    { h: L.col.vol, f: (r) => `<span class="mono">${fmtUSD(r.volUSD)}${r.volBasis === "approx" ? " ≈" : ""}</span>` },
-  ];
   const posCols = [
     { h: L.col.venue, f: (r) => `<strong>${esc(r.venue)}</strong>` },
     { h: L.col.funding, f: (r) => `<span class="mono ${cls(r.fundingAnnPct, TH.funding)}">${sgn(r.fundingAnnPct, 1)}</span>` },
@@ -358,9 +387,36 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const altcoinsTable = alts.length
     ? `<h3>${esc(L.altcoinsH)}</h3><div class="table-wrap"><table class="alt-tbl"><thead><tr><th>${esc(L.coin)}</th><th>${esc(L.col.last)}</th><th>${esc(L.col.chg)}</th><th>${esc(L.col.high)}</th><th>${esc(L.col.low)}</th><th>${esc(L.col.vol)}</th></tr></thead><tbody>${alts.map((a) => `<tr><td><strong>${esc(a.symbol)}</strong> <span class="sym-raw">${esc(a.name)}</span></td><td><span class="mono">${fmtPrice(a.price)}</span></td><td><span class="mono ${cls(a.chgPct, TH.price)}">${sgn(a.chgPct)}</span></td><td><span class="mono">${fmtPrice(a.high)}</span></td><td><span class="mono">${fmtPrice(a.low)}</span></td><td><span class="mono">${fmtUSD(a.volume)}</span></td></tr>`).join("")}</tbody></table></div>`
     : "";
+  const compactMajorPrice = (venueData, symbolLabel) => {
+    const rows = Object.values(venueData).filter((r) => r && r.ok);
+    if (!rows.length) return `<h3>${esc(symbolLabel)}</h3>${noneP(L.none.venue)}`;
+    const ref = rows.find((r) => r.venue === "Binance") || rows[0];
+    const close = ref.close ?? ref.last;
+    const chgPct = ref.chgPct;
+    const highs = rows.map((r) => r.high).filter((v) => v != null);
+    const lows = rows.map((r) => r.low).filter((v) => v != null);
+    const maxHigh = highs.length ? Math.max(...highs) : null;
+    const minLow = lows.length ? Math.min(...lows) : null;
+    let html = `<h3>${esc(symbolLabel)}</h3><div class="vs"><div class="vs-ref"><span class="vp mono">${fmtPrice(close)}</span><span class="vc mono ${cls(chgPct, TH.price)}">${sgn(chgPct)}</span><span class="vs-hl">${minLow != null ? fmtPrice(minLow) : "—"} — ${maxHigh != null ? fmtPrice(maxHigh) : "—"}</span></div>`;
+    if (rows.length > 1) {
+      const closes = rows.map((r) => ({ v: r.venue, c: r.close ?? r.last })).filter((r) => r.c != null);
+      const mnC = Math.min(...closes.map((r) => r.c));
+      const mxC = Math.max(...closes.map((r) => r.c));
+      const spread = mxC - mnC;
+      const spreadPct = mxC > 0 ? (spread / mxC) * 100 : 0;
+      const totalVol = rows.reduce((sum, r) => sum + (r.volUSD || 0), 0);
+      const volSorted = rows.map((r) => ({ venue: r.venue, vol: r.volUSD || 0, pct: totalVol > 0 ? ((r.volUSD || 0) / totalVol) * 100 : 0, approx: r.volBasis === "approx", rolling: r.basis === "rolling-24h" })).sort((a, b) => b.vol - a.vol);
+      const maxP = Math.max(...volSorted.map((v) => v.pct), 1);
+      html += `<div class="vs-meta"><span>${esc(L.spread)}: <strong class="mono">${fmtPrice(spread)}</strong> (${fmtPct(spreadPct)})</span><span>${esc(L.totalVol)}: <strong class="mono">${fmtUSD(totalVol)}</strong></span></div>`;
+      html += `<div class="vs-dist">${volSorted.map((v) => `<div class="vs-bar-row"><span class="vn">${esc(v.venue)}${v.rolling ? " †" : ""}</span><div class="vb"><div style="width:${(v.pct / maxP * 100).toFixed(1)}%"></div></div><span class="vv mono">${fmtUSD(v.vol)}${v.approx ? " ≈" : ""}</span><span class="vpct mono">${fmtPct(v.pct, 0)}</span></div>`).join("")}</div>`;
+    } else {
+      html += `<div class="vs-meta"><span>${esc(L.totalVol)}: <strong class="mono">${fmtUSD(ref.volUSD)}</strong></span></div>`;
+    }
+    return html + `</div>`;
+  };
   const priceVol = section(L.price,
-    `<h3>${esc(L.h3.btcP)}</h3>${venueTableL(pack.exchanges?.majors?.BTC || {}, priceCols)}
-     <h3>${esc(L.h3.ethP)}</h3>${venueTableL(pack.exchanges?.majors?.ETH || {}, priceCols)}
+    `${compactMajorPrice(pack.exchanges?.majors?.BTC || {}, L.h3.btcP)}
+     ${compactMajorPrice(pack.exchanges?.majors?.ETH || {}, L.h3.ethP)}
      ${altcoinsTable}
      ${anyApprox({ ...(pack.exchanges?.majors?.BTC || {}), ...(pack.exchanges?.majors?.ETH || {}) }) ? `<p class="foot-note">${esc(L.volApprox)}</p>` : ""}
      ${pack.anyRolling ? `<p class="foot-note">${esc(L.rollingRow)}</p>` : ""}
@@ -449,7 +505,7 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const calList = (arr, showDay) => `<div class="cal">${arr.map((e) => `<div class="e"><span class="t">${showDay ? esc((e.when || "").split(",")[0]) : esc(e.time)}</span><span style="flex:1"><strong>${esc(e.title)}</strong></span><span class="fc">${showDay ? esc(e.time) : `${esc(L.col.fc)} ${esc(e.forecast || "—")}`}</span></div>`).join("")}</div>`;
   const warnings = (cal.warnings || []);
   const warningHtml = warnings.length
-    ? warnings.map((w) => `<div class="banner warn">${esc(w.message)}</div>`).join("")
+    ? `<h3>${esc(L.whatToWatch)}</h3><div class="wtw">${warnings.map((w) => `<div class="wtw-item">${esc(w.message)}</div>`).join("")}</div>`
     : "";
   const calBody = reportDayTable +
     (cal.next24h && cal.next24h.length ? `<h3>${esc(L.h3.next24h)}</h3>${calList(cal.next24h, false)}` : "") +
