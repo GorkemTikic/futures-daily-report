@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-28T09:52:25.817Z",
+  "generatedAt": "2026-09-28T22:36:45.599Z",
   "count": 103,
   "counts": {
     "total": 103,
@@ -18,16 +18,13 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": 0.0464470935612682,
-        "ETH": -0.2808759470750948
+        "BTC": 0.05545411349844166,
+        "ETH": -0.2809051305077133
       },
-      "marketSummary": "Bitcoin rose 3–5% on a weekend Saturday while Ethereum fell slightly; regulatory news dominated headlines with California banning official memecoins and news breaking of a $2 million fake-blockchain scam.",
-      "oneLine": "Bitcoin rose 3–5% on a weekend Saturday while Ethereum fell slightly; regulatory news dominated headlines with California banning official memecoins and news breaking of a $2 million fake-blockchain scam.",
-      "newsCount": 9,
-      "topMover": {
-        "symbol": "QUSDT",
-        "chgPct": -7.414280664545772
-      },
+      "marketSummary": "Bitcoin rose 4–5% and Ethereum fell 0.3% on September 27, with all major exchanges moving together, but news and positioning data were unavailable.",
+      "oneLine": "Bitcoin rose 4–5% and Ethereum fell 0.3% on September 27, with all major exchanges moving together, but news and positioning data were unavailable.",
+      "newsCount": 0,
+      "topMover": null,
       "venues": [
         "Binance",
         "Bybit",

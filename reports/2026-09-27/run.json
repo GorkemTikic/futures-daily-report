@@ -1,0 +1,103 @@
+{
+  "runId": "2026-09-28T22:34:52.521Z",
+  "dateOverride": "2026-09-27",
+  "reuseSynthesis": false,
+  "startedAt": "2026-09-28T22:34:52.521Z",
+  "status": "ok",
+  "finishedAt": "2026-09-28T22:36:45.488Z",
+  "durationSec": 113,
+  "date": "2026-09-27",
+  "live": false,
+  "window": {
+    "label": "2026-09-27 00:00 → 24:00 UTC",
+    "startMs": 1790467200000,
+    "endMs": 1790553599999,
+    "dayAligned": false,
+    "rolling": false,
+    "asOfUTC": "23:59 UTC"
+  },
+  "sources": {
+    "exchanges": {
+      "online": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "count": 5,
+      "bySymbol": {
+        "BTC": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ],
+        "ETH": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ]
+      }
+    },
+    "calendar": {
+      "ok": true,
+      "reason": null
+    },
+    "news": {
+      "ok": false,
+      "sourcesOnline": [],
+      "failed": [],
+      "count": 0,
+      "backfill": true
+    },
+    "tradfi": {
+      "ok": false,
+      "reason": "unavailable-for-backfill",
+      "requested": false,
+      "backfill": true
+    },
+    "stocks": {
+      "ok": false,
+      "reason": "unavailable"
+    },
+    "market": {
+      "ok": false,
+      "failed": []
+    },
+    "etfFlows": "unavailable-for-backfill",
+    "backfill": {
+      "unavailable": [
+        "funding",
+        "open interest",
+        "mark price",
+        "news",
+        "traditional markets"
+      ]
+    }
+  },
+  "synthesis": {
+    "source": "cli",
+    "fellBack": false,
+    "cliOnly": true,
+    "errorKind": null
+  },
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "pdf": {
+    "en": true,
+    "tr": true,
+    "zh": true
+  },
+  "publish": {
+    "pushed": false,
+    "reason": "pending"
+  },
+  "reasons": []
+}

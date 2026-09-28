@@ -1,178 +1,59 @@
 {
-  "oneLine": "比特币周六上涨3–5%至约$84,430，以太坊小幅下跌；加州禁止公务员发行迷因币法案签署生效，诈骗者伪造区块链骗取$2M以太坊。",
-  "caveman": "9月27日星期六，比特币上升3-5%。以太坊反而略微下跌。大部分其他币都掉了——Solana、狗狗币、Chainlink各下5%以上。整个加密市场那天丢了5%。最大的新闻两件事：加州州长签署法律说公务员不能自己发币（他在批评特朗普的$TRUMP币），还有骗子造了一个假区块链，骗人们转$2M的以太坊给他们。这一天新闻很多，大家都很担心。",
-  "priceVolumeSummary": "交易所在比特币价格上显示高度一致（当前价格在交易所间的范围为$82,617–$82,670）。币安以$5.63B的BTC交易量领先，其次是OKX的$3.42B。所有五个主要交易所的期货总交易量约为$14.7B。",
-  "positioningSummary": "比特币资金费率表现分化：Bitget、Gate和OKX显示正（看涨）资金在2–11%年化利率，但币安转为负值-0.49%，表明存在看跌押注。以太坊资金费率在大多数交易所更明确看跌（Bybit -8.71%，币安 -5.36%），表明更强烈的看跌情绪。比特币未平仓量小幅下降(-0.37%)，而以太坊上升0.20%，显示交易者正在退出比特币多头但进入以太坊。在币安上，BTC显示温和的多头偏好（1.17个多头对每个空头），而ETH显示强劲的多头主导（2.76个多头对每个空头）。",
-  "stocksSummary": "9月27日是星期六；美国和亚洲的所有股票市场都已关闭。现货黄金下跌3.17%至$4,150.16。",
-  "movers": [
-    {
-      "symbol": "Q",
-      "explanation": "流动性低的山寨币在UTC日间下跌7.4%；没有明确的公开原因。",
-      "hasCause": false
-    },
-    {
-      "symbol": "BTW",
-      "explanation": "在适度交易量($87M)下上升21.8%；没有新闻解释这一涨幅。",
-      "hasCause": false
-    },
-    {
-      "symbol": "SOL",
-      "explanation": "Solana下跌5.2%，与广泛的山寨币疲软一致；没有单一催化剂。",
-      "hasCause": false
-    }
-  ],
+  "oneLine": "比特币在9月27日上涨4-5%，以太坊下跌0.3%，五大交易所行情一致，但新闻和持仓数据无法获取。",
+  "caveman": "9月27日星期日，比特币涨了一点多4%。以太坊跌了点儿——不到半个百分点。五个大交易所的价格都一样，说明这些行情都是真实的。但那天我们没法知道原因，不知道交易员们在想什么，因为新闻服务那天停了。加密货币市场很平静。",
+  "priceVolumeSummary": "比特币在五个交易所的收盘价都在$84,430-$84,440（上涨4-5%），以太坊收盘价接近$2,687（下跌约0.27%），各交易所行情高度一致。币安成交量最大，比特币成交量达$5.6十亿，以太坊成交量达$4.1十亿。",
+  "positioningSummary": "这一天的资金费率、持仓量变化和多空持仓数据无法获取，所以无法说明交易员们的持仓情况。",
+  "stocksSummary": "",
+  "movers": [],
   "news": {
-    "topThree": [
-      {
-        "headline": "维塔利克·巴特林描绘以太坊到2030年超越区块链的宏伟愿景",
-        "what": "以太坊联合创始人维塔利克·巴特林发布了一份路线图，描述以太坊到2030年将演变成'密码学世界计算机'，从要求每个节点重复计算转变为使用链下证明。巴特林表示Hegota（明年的升级）可能是最后一个'正常'的分叉；之后的一切都涉及递归STARKS、零知识证明和抗量子设计。",
-        "coins": "ETH",
-        "timeUTC": "2026-09-27",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision"
-      },
-      {
-        "headline": "加州州长纽松签署迷因币禁令(AB 2409)，矛头指向特朗普",
-        "what": "加州州长加文·纽松签署了第2409号议案，禁止公职人员发行迷因币（与个性、笑话或趋势相关的代币），并禁止数字资产公司向加州居民提供此类代币。该法律将于2027年1月1日生效，纽松将其作为对特朗普总统$TRUMP代币的驳斥。",
-        "coins": "General regulation",
-        "timeUTC": "2026-09-27",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/markets/2026/09/28/california-s-newsom-signs-memecoin-ban-and-calls-it-the-opposite-of-trump"
-      },
-      {
-        "headline": "诈骗者盗取$2M ETH，伪造的GIWA网络欺骗DYORSWAP",
-        "what": "诈骗分子建立了一个虚假的GIWA区块链（声称链ID 9134，真实GIWA标识符），并欺骗DYORSWAP去中心化交易所将其列为真正的主网。诈骗分子存入了767 ETH（约$2M）并抽走了766 ETH然后消失。GIWA运营商Dunamu证实其第二层主网尚未启动，并警告用户注意虚假网络。",
-        "coins": "ETH",
-        "timeUTC": "2026-09-26/27",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/fake-giwa-blockchain-scam-drains-2m-eth"
-      }
-    ],
-    "groups": {
-      "Regulation and policy": [
-        {
-          "headline": "SEC员工指南：如果网络运作良好，代币回购不会使加密货币成为证券",
-          "what": "美国证交委发布员工指南澄清，在功能性、去中心化网络上宣布代币回购不会自动将代币转换为证券。这一转变放宽了对具有工作区块链的实用代币的证券法适用。",
-          "coins": "General",
-          "timeUTC": "2026-09-27",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379398/sec-staff-token-buybacks-dont-make-crypto-security"
-        }
-      ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "2026年比特币ETF净流入创纪录：周度$2.4B，创下2025年10月以来最强周度",
-          "what": "美国现货比特币交易所交易基金在9月25日止的一周内录得$2.39B的净流入，创下2026年最强周度表现。这周的流入将2026年迄今为止的BTC ETF流入自4月份以来首次转为正数。贝莱德的iShares比特币信托在9月25日领先，约$97M。",
-          "coins": "BTC",
-          "timeUTC": "2026-09-21 to 2026-09-25",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "Bitget在$388M利用漏洞后开始分阶段恢复提现",
-          "what": "在9月24日发生$388M利用漏洞后，Bitget宣布从9月28日开始分阶段恢复提现。比特币提现首先重新开放；ETH和USDT通过10月2日分阶段跟进。交易所承诺通过用户保护基金（由5500 BTC支持）提供完全保障。",
-          "coins": "BTC, ETH, USDT",
-          "timeUTC": "2026-09-26",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/business/2026-09-28-bitget-starts-phased-withdrawal-resumption-416965"
-        }
-      ],
-      "Hacks, exploits and outages": [
-        {
-          "headline": "THORChain拒绝将Bitget黑客地址加入黑名单；维塔利克称以太坊为'密码学世界计算机'",
-          "what": "跨链桥THORChain拒绝将与Bitget $388M利用漏洞相关的地址加入黑名单，引用其作为基础设施的中立性。同时，维塔利克·巴特林关于2030年以太坊前景的发表，强调从基于复制的计算转向基于证明的验证。",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-27",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now"
-        },
-        {
-          "headline": "$84M美国资产被扣押引发对Tether银行准备金的疑问",
-          "what": "法庭记录确认了可能由Capstone控制账户中持有的$84M资产。观察人士指出，Tether未披露其银行余额是否属于USDT准备金，引发了对准备金透明度的疑问。",
-          "coins": "USDT",
-          "timeUTC": "2026-09-27",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/an-84-million-us-asset-seizure-just-sparked-a-massive-question-for-tether/"
-        },
-        {
-          "headline": "链上分析师将Robinhood Chain迷因币$1840万提取与单一地毯式拉盘行为关联",
-          "what": "研究人员发现了Robinhood Chain上协调的迷因币发行，其中创建者将特定钱包豁免于反狙击税，这些钱包随后购买了每个代币供应的大部分，然后代币被抽走。总提取额：10次Pons V2发行中$1840万。",
-          "coins": "General memecoins",
-          "timeUTC": "2026-09-27",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/defi/2026-09-27-onchain-analyst-links-18-4-million-in-robinhood-chain-memecoin-extractions-to-single-rug-pull-operation-416960"
-        }
-      ]
-    }
+    "topThree": [],
+    "groups": {}
   },
-  "etfFlows": {
-    "date": "2026-09-25",
-    "summary": "比特币现货ETF在9月25日录得$134.47M净流入，结束了七周连赢，周度总额达$2.39B——2026年最强周度。贝莱德的iShares比特币信托领先，约$97M。年迄今为止流入自4月份以来首次转为正数。9月26-27日的具体日度数据尚未确认；最新的以太坊ETF数据来自2026年8月（$1.75B月度流入）。",
-    "source": "The Block / Farside Investors",
-    "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Germany CPI Flash September 2026 (Tue 29 Sept, 12:00 UTC)",
-      "typicalReaction": "中等影响力数据发布。历史上可能会推动传统市场波动；加密交易者经常关注风险资产变化以了解市场情绪转变。"
+      "event": "Germany CPI Flash (September 2026)",
+      "typicalReaction": "定于9月29日星期二12:00 UTC发布。这是传统市场的高影响力数据——股债市场可能出现波动，加密货币往往会跟随传统市场变化，因为交易员会对经济数据做出反应。"
     },
     {
-      "event": "RBA Rate Decision September 2026 (Tue 29 Sept, 04:30 UTC)",
-      "typicalReaction": "澳大利亚央行的利率决议可以推动澳元相关交易对和更广泛的风险偏好。"
+      "event": "RBA Rate Decision (September 2026)",
+      "typicalReaction": "定于9月29日星期二04:30 UTC宣布。对亚洲市场和利率敏感资产影响中等。"
     }
   ],
   "glossary": [
     {
-      "term": "山寨币",
-      "definition": "除比特币外的任何加密货币。在本报告中，Solana、狗狗币和Chainlink等山寨币在9月27日均下跌5–7%。"
+      "term": "收盘价",
+      "definition": "交易日结束时（本报告为UTC 23:59）的最后交易价格。"
     },
     {
-      "term": "基期",
-      "definition": "在本报告中，衡量价格变化的时间段。'UTC日'表示单个UTC日历日从市场开盘到收盘的变化。"
-    },
-    {
-      "term": "主导权",
-      "definition": "单个加密货币在总加密货币市值中持有的百分比。比特币的58.7%主导权意味着比特币占总加密货币市场中每美元的近59美分。"
-    },
-    {
-      "term": "恐惧与贪婪指数",
-      "definition": "衡量加密货币市场心理的情绪指标，评分范围从0（极度恐惧）到100（极度贪婪）。9月27日的读数为74表示'贪婪'。"
+      "term": "交易所",
+      "definition": "交易员买卖加密货币的市场——本报告涉及币安、Bybit、OKX、Bitget和Gate.io。"
     },
     {
       "term": "资金费率",
-      "definition": "期货交易者持有多头头寸支付给持有空头头寸的利率（反之亦然）。正利率鼓励空头平仓，推高价格；负利率鼓励多头平仓。年化利率显示该利率每年的成本/收益。"
-    },
-    {
-      "term": "多头",
-      "definition": "对价格上升的押注。交易者'做多'在资产升值时获利。"
+      "definition": "在永续合约上，多头和空头交易员之间定期支付的费用；本报告日期无此数据。"
     },
     {
       "term": "多空比",
-      "definition": "交易所交易者多头押注与空头押注的比例。1.17的比率意味着每1个空头有1.17个多头；高于1的比率显示更多看涨头寸。"
+      "definition": "看好价格上升的交易员（多头）与看空价格下跌的交易员（空头）之间的比例；本报告日期无此数据。"
     },
     {
       "term": "标记价格",
-      "definition": "用于计算期货合约资金支付的参考价格。它通常接近现货价格，但可能略有不同以防止操纵。"
+      "definition": "用于计算永续合约盈亏的参考价格；本报告日期无此数据。"
     },
     {
-      "term": "迷因币",
-      "definition": "作为笑话、互联网梗或代表名人或公众人物而创建的加密货币，没有实用性或基础项目。例子：狗狗币（作为笑话开始）、$TRUMP代币。"
+      "term": "持仓量",
+      "definition": "交易员在永续合约中锁定的总资金量；本报告日期无此数据。"
     },
     {
-      "term": "未平仓量",
-      "definition": "当前未平仓（尚未平仓）期货合约的总价值。当未平仓量增加时，交易者正在增加新的押注；当其下降时，交易者正在平仓头寸。变化显示为百分比。"
+      "term": "永续合约",
+      "definition": "没有到期日期的期货合约，允许交易员以杠杆方式押注价格。"
     },
     {
-      "term": "空头",
-      "definition": "对价格下跌的押注。交易者'做空'（或出售借入资产）在资产贬值时获利。"
-    },
-    {
-      "term": "交易量",
-      "definition": "特定时间内交易资产的总价值，通常以百万或十亿美元计。高交易量表明利息浓厚和流动性充足。"
+      "term": "成交量",
+      "definition": "一天内执行交易的总美元价值；显示哪个交易所的交易活动最活跃。"
     }
   ],
   "_source": "cli-zh",
-  "_from": "5085c38bccf19da0"
+  "_from": "3d46b12dc77de73b"
 }

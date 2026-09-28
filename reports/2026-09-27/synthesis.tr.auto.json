@@ -1,178 +1,59 @@
 {
-  "oneLine": "Bitcoin cumartesi günü %3–5 oranında yükselişe geçerken Ethereum hafif düştü; başlıkları düzenleme haberleri domine etti—California resmi memecoins'i yasakladı ve 2 milyon dolarlık sahte blockchain dolandırıcılığı ortaya çıktı.",
-  "caveman": "27 Eylül cumartesi günü Bitcoin %3 ile %5 arasında yükselişe geçti ve 84.430 dolar seviyesinde kapandı. Ethereum hafifçe düştü. Diğer kripto paralar da kayıp yaşadı—Solana, Dogecoin ve Chainlink'in her biri %5'ten fazla düştü. Tüm kripto piyasası %5 değer kaybetti. O günün en önemli haberi California valisinin kamu görevlilerinin kendi memecoins oluşturmalarını yasaklayan bir yasayı imzalaması oldu (Başkan Trump'ın $TRUMP tokeni eleştiriyordu), ve hilekârlar insanları 2 milyon dolarlık Ethereum göndermek için kandıran sahte bir blokzincir oluşturdular. Sakin geçmedi—çok haber ve kaygı vardı.",
-  "priceVolumeSummary": "Bitcoin fiyatı borsalarda dar bir aralıkta ($82.617–$82.670) yakın seviyelerde işlem gördü. Binance 5,63 milyar dolarlık BTC işlem hacmiyle en yüksek hacme sahipti, onu OKX 3,42 milyar dolarla takip etti. Beş ana borsanın toplam vadeli işlem hacmi yaklaşık 14,7 milyar dolara ulaştı.",
-  "positioningSummary": "Bitcoin finansman oranları bölünmüş durumda: Bitget, Gate ve OKX %2–11 arasında pozitif (yükselişçi) finansman gösterirken, Binance -%0,49'a düştü ve satış eğilimini işaret etti. Ethereum finansmanı çoğu platformda net şekilde negatifti (Bybit -%8,71, Binance -%5,36), daha güçlü satış duyarlılığını yansıttı. Bitcoin açık pozisyonu hafif geriledi (-%0,37) oysa Ethereum %0,20 arttı; tüccarlar Bitcoin'den çıkıp Ethereum'a girdiler. Binance'de Bitcoin orta düzey bir uzun eğilim gösterdi (1,17 uzun başına 1 kısa), ETH ise güçlü uzun baskınlığı gösterdi (2,76 uzun başına 1 kısa).",
-  "stocksSummary": "27 Eylül cumartesi günü idi; ABD ve Asya'daki tüm hisse senedi piyasaları kapalıydı. Spot altın %3,17 düşüşle 4.150,16 dolara geriledi.",
-  "movers": [
-    {
-      "symbol": "Q",
-      "explanation": "Düşük likidite taşıyan altcoin bir UTC günü içinde %7,4 düştü; açık bir kamu sebebi yok.",
-      "hasCause": false
-    },
-    {
-      "symbol": "BTW",
-      "explanation": "Mütevazı hacimde ($87M) %21,8 kazanç sağladı; hareketi açıklayan haber yok.",
-      "hasCause": false
-    },
-    {
-      "symbol": "SOL",
-      "explanation": "Solana geniş altcoin zayıflığına paralel olarak %5,2 düştü; tek bir katalizör yok.",
-      "hasCause": false
-    }
-  ],
+  "oneLine": "Bitcoin, 27 Eylül'de %4–5 oranında yükselerek, Ethereum ise %0,3 oranında düşerek kapandı; tüm büyük borsalar uyumlu hareket etmiş ancak haber ve pozisyon bilgileri mevcut değildir.",
+  "caveman": "Bitcoin, Pazar günü 27 Eylül'de %4'ten biraz fazla oranda yükseldi. Ethereum da çok az düştü—yüzde birimin yarısından az. Beş büyük borsa da aynı fiyatlar üzerinde anlaştı, bu hareketlerin gerçek olduğu anlamına geliyor. Ama neden olduğu veya tüccarların ne planladığı hakkında bilgi yok, çünkü o gün haber servisleri çalışmıyordu. Kripto için sakin, sessiz bir gündü.",
+  "priceVolumeSummary": "Bitcoin, beş borsa arasında 84.430–84.440 dolar civarında kapandı (%4–5 yükseliş) ve Ethereum yaklaşık 2.687 dolar civarında kapandı (%0,27 düşüş), güçlü bir fiyat uyumluluğu gösterdi. Binance, Bitcoin'de 5,6 milyar dolar ve Ethereum'da 4,1 milyar dolar işlem hacmi ile net liderlik sağladı.",
+  "positioningSummary": "Finansman oranları, açık faiz değişiklikleri ve uzun/kısa pozisyonlandırma bu tarih için mevcut değildir; bu nedenle tüccarların ne üzerine bahis oynadıklarını değerlendiremiyorum.",
+  "stocksSummary": "",
+  "movers": [],
   "news": {
-    "topThree": [
-      {
-        "headline": "Vitalik Buterin Ethereum'un blokzincir ötesine geçişini kapsamlı 2030 vizyonunda haritalandırıyor",
-        "what": "Ethereum kurucu ortağı Vitalik Buterin, Ethereum'un 2030'a kadar 'kriptografik dünya bilgisayarı'na dönüşeceğini açıklayan bir yol haritası yayımladı. Değişim her düğümde hesaplama tekrarından zincir-dışı kanıtlara kaymayı içeriyor. Buterin, Hegota'nın (gelecek yılın fork güncellemesi) muhtemelen son 'normal' fork olacağını söyledi; sonrası özyineli STARKS, sıfır-bilgi kanıtları ve kuantum-dirençli mimariye dayanacak.",
-        "coins": "ETH",
-        "timeUTC": "2026-09-27",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision"
-      },
-      {
-        "headline": "California Valisi Newsom memecoin yasağını imzaladı (AB 2409), Trump'ı eleştirdi",
-        "what": "California Valisi Gavin Newsom, kamu görevlilerinin memecoins (kişilere, şakalara veya trendlere bağlı tokenler) çıkarmalarını yasaklayan ve dijital varlık şirketlerinin bu tokenleri California sakinlerine sunmalarını yasaklayan Kanun Tasarısı 2409'u imzaladı. Kanun 1 Ocak 2027'de yürürlüğe girer ve Newsom bunu Başkan Trump'ın $TRUMP tokeni eleştirisi olarak konumlandırdı.",
-        "coins": "General regulation",
-        "timeUTC": "2026-09-27",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/markets/2026/09/28/california-s-newsom-signs-memecoin-ban-and-calls-it-the-opposite-of-trump"
-      },
-      {
-        "headline": "Dolandırıcılar, sahte GIWA ağı DYORSWAP'ı aldatarak 2 milyon dolarlık ETH çaldılar",
-        "what": "Dolandırıcılar sahte bir GIWA blokzinciri (zincir kimliği 9134 iddia ederek, gerçek GIWA kimliği) oluşturdular ve DYORSWAP merkezi olmayan borsasını bunu gerçek mainnet olarak listelemek için kandırdılar. Dolandırıcılar 767 ETH (~2 milyon dolar) yatırdılar ve 766 ETH'yi çıkıp gitmeden önce boşalttılar. GIWA operatörü Dunamu, Layer 2 mainnet'inin henüz başlatılmadığını doğruladı ve kullanıcıları sahte ağ konusunda uyardı.",
-        "coins": "ETH",
-        "timeUTC": "2026-09-26/27",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/fake-giwa-blockchain-scam-drains-2m-eth"
-      }
-    ],
-    "groups": {
-      "Regulation and policy": [
-        {
-          "headline": "SEC rehberliği: Ağ işlevsel ise token geri satın alımları kripto'yu menkul kıymet haline getirmez",
-          "what": "SEC, işlevsel ve merkezi olmayan bir ağda token geri satın alımı duyurusunun tokeni otomatik olarak menkul kıymete dönüştürmeyeceğini açıklayan personel rehberliği yayımladı. Bu değişim, çalışan blokzincirlerine sahip fayda tokenları için menkul kıymetler yasası uygulamasını gevşetmiştir.",
-          "coins": "General",
-          "timeUTC": "2026-09-27",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379398/sec-staff-token-buybacks-dont-make-crypto-security"
-        }
-      ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin ETF girişleri 2026 rekorunu kırdı: haftalık 2,4 milyar dolar, Ekim 2025'ten beri en kuvvetli",
-          "what": "ABD spot Bitcoin borsa yatırım fonları 25 Eylül'e kadarki haftalık 2,39 milyar dolar girişini kaydetti; bu 2026'nın en güçlü haftalık toplamıdır. Haftayı kapsayan bu giriş serisi, ETF'lerin yıl başından bu yana ilk kez pozitif hale gelmesini sağladı. BlackRock'ın iShares Bitcoin Trust 25 Eylül'de ~97 milyon dolarla öncü rolü oynadı.",
-          "coins": "BTC",
-          "timeUTC": "2026-09-21 to 2026-09-25",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "Bitget 388 milyon dolarlık saldırının ardından kademeli para çekme işlemini yeniden başlatıyor",
-          "what": "24 Eylül'deki 388 milyon dolarlık saldırıdan sonra Bitget, 28 Eylül'de başlayacak kademeli bir para çekme yeniden başlatmanı duyurdu. Bitcoin para çekme işlemi önce açılacak; ETH ve USDT 2 Ekim'e kadar kademeli olarak takip edecek. Borsa, kullanıcı koruma fonu (5.500 BTC ile desteklenen) aracılığıyla tam karşılamayı taahhüt etti.",
-          "coins": "BTC, ETH, USDT",
-          "timeUTC": "2026-09-26",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/business/2026-09-28-bitget-starts-phased-withdrawal-resumption-416965"
-        }
-      ],
-      "Hacks, exploits and outages": [
-        {
-          "headline": "THORChain Bitget saldırısı adreslerini yasaklamayı reddediyor; Vitalik Ethereum'u 'kriptografik dünya bilgisayarı' olarak nitelendiriyor",
-          "what": "Zincir-arası köprü THORChain, altyapı olarak tarafsızlığını ileri sürerek Bitget'in 388 milyon dolarlık saldırısı ile bağlantılı adresleri yasak listesine almayı reddetti. Ayrıntılı olarak Vitalik Buterin'in Ethereum'un 2030 vizyonu yayınlandı; çoğaltma tabanlı bilişlemden kanıt tabanlı doğrulamaya geçişi vurguluyor.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-27",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now"
-        },
-        {
-          "headline": "84 milyon dolarlık ABD varlık müsaderesi Tether'ın banka rezervleri konusunda soru işaretleri uyandırıyor",
-          "what": "Mahkeme belgeleri, Capstone'un kontrol edebileceği hesaplarda tutulan 84 milyon dolarlık varlıkları ortaya koydu. Gözlemciler, Tether'ın banka bakiyesinin USDT rezervlerine ait olup olmadığını açıklamadığını ve bunun rezerv şeffaflığı hakkında soruları gündeme getirdiğini not aldı.",
-          "coins": "USDT",
-          "timeUTC": "2026-09-27",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/an-84-million-us-asset-seizure-just-sparked-a-massive-question-for-tether/"
-        },
-        {
-          "headline": "Zincir analisti Robinhood Chain memecoin çekimlerinden 18,4 milyon doları tek bir rug-pull operasyonuyla bağlantılandırıyor",
-          "what": "Araştırmacı, Robinhood Chain'de yaratıcıların belirli cüzdanları anti-sniping vergilerinden istisna tuttuğu, bu cüzdanların ardından her tokenin arzının çoğunluğunu satın aldığı ve sonra tokenler boşaltıldığı koordineli memecoin başlatmalarını tespit etti. Toplam çıkarılan tutar: 10 Pons V2 başlatması içinde 18,4 milyon dolar.",
-          "coins": "General memecoins",
-          "timeUTC": "2026-09-27",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/defi/2026-09-27-onchain-analyst-links-18-4-million-in-robinhood-chain-memecoin-extractions-to-single-rug-pull-operation-416960"
-        }
-      ]
-    }
+    "topThree": [],
+    "groups": {}
   },
-  "etfFlows": {
-    "date": "2026-09-25",
-    "summary": "Bitcoin spot ETF'leri 25 Eylül'de 134,47 milyon dolarlık net girişi kaydetti; yedi seans kazanç serisini ve haftalık 2,39 milyar dolarlık toplam akışı tamamladı—2026'nın en güçlü haftası. BlackRock'ın iShares Bitcoin Trust ~97 milyon dolarla öncü rolü oynadı. Yıl başından bu yana akışlar ilk kez nisan ayından beri pozitif oldu. 26–27 Eylül günü verisi henüz doğrulanmadı; Ethereum ETF'nin en yeni verisi ağustos 2026'dan (1,75 milyar dolar aylık giriş).",
-    "source": "The Block / Farside Investors",
-    "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Germany CPI Flash September 2026 (Tue 29 Sept, 12:00 UTC)",
-      "typicalReaction": "Orta derecede etkili bir yayındır. Geçmişte geleneksel piyasalarda dalgalanmalara neden olmuştur; kripto yatırımcıları duyarlılık değişimlerini anlamak için risk varlıklarının hareketlerini takip ederler."
+      "event": "Germany CPI Flash (September 2026)",
+      "typicalReaction": "Salı, 29 Eylül'de 12:00 UTC'de açıklanacak. Geleneksel piyasalar için yüksek etkili bir verdir—hisse senetleri ve tahvillerde oynaklık beklenir; tüccarlar ekonomik veriye tepki verirken kripto da bu harekete katılabilir."
     },
     {
-      "event": "RBA Rate Decision September 2026 (Tue 29 Sept, 04:30 UTC)",
-      "typicalReaction": "Avustralya merkez bankasının kararı Avustralya doları cinsinden işlem çiftlerini ve genel risk iştahını etkileyebilir."
+      "event": "RBA Rate Decision (September 2026)",
+      "typicalReaction": "Salı, 29 Eylül'de 04:30 UTC'de açıklanacak. Asya piyasaları ve faiz oranına duyarlı varlıklar için orta düzey etkiye sahiptir."
     }
   ],
   "glossary": [
     {
-      "term": "Altcoin",
-      "definition": "Bitcoin dışındaki herhangi bir kripto para. Bu raporda Solana, Dogecoin ve Chainlink gibi altcoinler 27 Eylül'de %5–7 düştü."
+      "term": "Kapanış",
+      "definition": "İşlem gününün sonunda (bu rapor için 23:59 UTC) kaydedilen son fiyat."
     },
     {
-      "term": "Basis",
-      "definition": "Bu raporda, fiyat değişiminin ölçüldüğü zaman periyodu. 'UTC-gün', belirli bir UTC takvim günü içinde pazar açılışından kapanışına kadar meydana gelen değişimi ifade eder."
+      "term": "Borsa",
+      "definition": "Tüccarların kripto satın alıp sattığı pazar—bu raporda Binance, Bybit, OKX, Bitget ve Gate kullanılmıştır."
     },
     {
-      "term": "Dominance",
-      "definition": "Tek bir para tarafından tutulan toplam kripto para piyasası değerinin yüzdesi. Bitcoin'in %58,7 baskınlığı, Bitcoin'in toplam kripto pazarında her dolar başına yaklaşık 59 senti temsil ettiği anlamına gelir."
+      "term": "Finansman oranı",
+      "definition": "Vadeli kontrat üzerinde uzun ve kısa tüccarlar arasında dönemsel ödeme; bu tarih için mevcut değildir."
     },
     {
-      "term": "Fear & Greed Index",
-      "definition": "Kripto pazarı psikolojisini 0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında ölçen bir duyarlılık göstergesi. 27 Eylül'de 74 puanı 'Açgözlülük' anlamına geliyordu."
+      "term": "Uzun/kısa oran",
+      "definition": "Fiyatın yükseleceğine bahis oynayan (uzun) ve düşeceğine bahis oynayan (kısa) tüccarlar arasındaki denge; bu tarih için mevcut değildir."
     },
     {
-      "term": "Funding rate",
-      "definition": "Uzun pozisyon tutan vadeli işlem tüccarları tarafından kısa pozisyon tutanlara (veya tam tersi) ödenen faiz oranı. Pozitif oranlar kısa pozisyonların kapatılmasını teşvik eder ve fiyat yükselişini sağlar; negatif oranlar uzun pozisyonların kapatılmasını teşvik eder. Yıllık oranlandırılmış oranlar, bu oranın yıllık maliyetini veya kazancını gösterir."
+      "term": "İşaret fiyatı",
+      "definition": "Vadeli kontratlar üzerinde kazanç ve zararları hesaplamak için kullanılan referans fiyat; bu tarih için mevcut değildir."
     },
     {
-      "term": "Long",
-      "definition": "Fiyatın yükseleceğine dair bir bahis. 'Uzun pozisyon alan' bir tüccar, varlığın değeri artarsa kâr eder."
+      "term": "Açık faiz",
+      "definition": "Tüccarların vadeli kontratlar içinde kilitlediği toplam para miktarı; bu tarih için mevcut değildir."
     },
     {
-      "term": "Long/short ratio",
-      "definition": "Bir borsa'daki tüccarlar arasındaki uzun bahislerin kısa bahislere oranı. 1,17 oranı, her 1 kısa başına 1,17 uzun olduğu anlamına gelir; 1'den yüksek oranlar daha yükselişçi konumlandırma gösterir."
+      "term": "Sürekli vadeli kontrat",
+      "definition": "Vade tarihi olmayan bir vadeli kontrat; tüccarların fiyat üzerine kaldıraç kullanarak bahis oynamasını sağlar."
     },
     {
-      "term": "Mark price",
-      "definition": "Vadeli işlem sözleşmelerinde finansman ödemelerini hesaplamak için kullanılan referans fiyatı. Genellikle spot fiyata yakındır ancak manipülasyonu önlemek için hafifçe farklı olabilir."
-    },
-    {
-      "term": "Meme coin",
-      "definition": "Şaka, internet meme veya bir ünlü kişi ya da kamu figürünü temsil etmek amacıyla oluşturulmuş, reel bir işlevi veya temeli olmayan bir kripto para. Örnekler: Dogecoin (şaka olarak başladı), $TRUMP tokeni."
-    },
-    {
-      "term": "Open interest",
-      "definition": "Şu anda açık (henüz kapatılmamış) vadeli işlem sözleşmelerinin toplam değeri. Açık pozisyon arttığında tüccarlar yeni bahisler eklerler; azaldığında tüccarlar pozisyonları kapatırlar. Değişim yüzde olarak gösterilir."
-    },
-    {
-      "term": "Short",
-      "definition": "Fiyatın düşeceğine dair bir bahis. 'Kısa pozisyon alan' bir tüccar (veya ödünç alınan varlıkları satmak) varlık değer azalırsa kâr eder."
-    },
-    {
-      "term": "Volume",
-      "definition": "Belirli bir zaman diliminde işlem gören varlıkların toplam değeri, genellikle milyonlar veya milyarlar dolar olarak ölçülür. Yüksek hacim güçlü ilgi ve likiditeyi gösterir."
+      "term": "İşlem hacmi",
+      "definition": "Gün içinde gerçekleştirilen işlemlerin toplam dolar değeri; hangi borsaların en fazla işlem yaptığını gösterir."
     }
   ],
   "_source": "cli-tr",
-  "_from": "5085c38bccf19da0"
+  "_from": "3d46b12dc77de73b"
 }

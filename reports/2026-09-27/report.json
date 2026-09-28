@@ -3,16 +3,13 @@
   "kind": "market",
   "dateLong": "Sunday, 27 September 2026",
   "coversUTC": "2026-09-27 00:00–23:59 UTC",
-  "oneLine": "Bitcoin rose 3–5% on a weekend Saturday while Ethereum fell slightly; regulatory news dominated headlines with California banning official memecoins and news breaking of a $2 million fake-blockchain scam.",
-  "newsCount": 9,
+  "oneLine": "Bitcoin rose 4–5% and Ethereum fell 0.3% on September 27, with all major exchanges moving together, but news and positioning data were unavailable.",
+  "newsCount": 0,
   "macro": {
-    "BTC": 0.0464470935612682,
-    "ETH": -0.2808759470750948
+    "BTC": 0.05545411349844166,
+    "ETH": -0.2809051305077133
   },
-  "topMover": {
-    "symbol": "QUSDT",
-    "chgPct": -7.414280664545772
-  },
+  "topMover": null,
   "venues": [
     "Binance",
     "Bybit",
@@ -20,7 +17,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "28 Sept 09:44 UTC",
+  "generatedAtUTC": "28 Sept 22:34 UTC",
   "languages": [
     "en",
     "tr",
