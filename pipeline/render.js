@@ -11,6 +11,7 @@ import { renderPdf } from "../src/pdf.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { intradayPriceChart, intradayOiChart, trendChart, moversQuadrant } from "./charts.js";
 
 // --- report ownership badge (top-right of every page) ---
 const AVATAR_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "assets", "avatars");
@@ -169,6 +170,14 @@ const STYLE = `
   @media(max-width:640px){.vs-ref .vp{font-size:18px;} .vs-bar-row .vn{width:44px;} .vs-bar-row .vv{width:54px;}}
   .wtw{margin:8px 0;padding:12px 15px;background:#fef7ed;border:1px solid #f5d6a7;border-radius:10px;} .wtw-h{font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--amb);margin-bottom:6px;} .wtw-item{font-size:12px;color:var(--ink2);padding:4px 0;border-bottom:1px solid #f5e8d4;} .wtw-item:last-child{border-bottom:none;}
   .gloss .g{break-inside:avoid;margin-bottom:11px;} .gloss .term{font-weight:700;color:var(--ink);font-size:12px;} .gloss .def{font-size:11.5px;color:var(--ink2);}
+  .chart-row{display:flex;gap:16px;margin:10px 0 16px;flex-wrap:wrap;} .chart-row>div{flex:1 1 240px;min-width:0;}
+  .chart-pair{margin:8px 0 14px;} .chart-pair svg{display:block;margin:0 auto;}
+  .trend-row{display:flex;gap:12px;margin:8px 0 14px;flex-wrap:wrap;} .trend-row>div{flex:1 1 200px;min-width:0;background:var(--card);border:1px solid var(--line2);border-radius:8px;padding:8px 10px;}
+  @media print{
+    .page-break{page-break-before:always;padding-top:6mm;}
+    .page-foot{position:fixed;bottom:4mm;left:14mm;right:14mm;font-size:8px;color:var(--faint);display:flex;justify-content:space-between;border-top:0.5px solid var(--line2);padding-top:3px;}
+  }
+  @media screen{.page-break{margin-top:36px;padding-top:20px;border-top:2px solid var(--line);} .page-foot{display:none;}}
   .foot{margin-top:22px;padding-top:11px;border-top:1px solid var(--line);font-size:10px;color:var(--faint);}
   .none{font-size:12px;color:var(--muted);font-style:italic;}
   details.caveman{margin:2px 0 20px;}
@@ -428,6 +437,19 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
      ${asOf ? `<p class="foot-note">${esc(L.pointInTime(asOf))}</p>` : ""}
      ${s.positioningSummary ? `<p class="say">${esc(s.positioningSummary)}</p>` : ""}`);
 
+  // D2: intraday charts (price, OI, taker) from chart data
+  const cd = pack.chartData || {};
+  const btcPriceChart = cd.intraday?.BTC ? intradayPriceChart(cd.intraday.BTC, { label: L.h3.btc, color: "#c2410c" }) : "";
+  const ethPriceChart = cd.intraday?.ETH ? intradayPriceChart(cd.intraday.ETH, { label: L.h3.eth, color: "#6d51d6" }) : "";
+  const btcOiChart = cd.metrics?.BTC ? intradayOiChart(cd.metrics.BTC, { label: L.h3.btc }) : "";
+  const ethOiChart = cd.metrics?.ETH ? intradayOiChart(cd.metrics.ETH, { label: L.h3.eth }) : "";
+  // D3: 45-day trend sparklines
+  const btcTrend = cd.trend?.BTC ? trendChart(cd.trend.BTC, { label: "BTC", color: "#c2410c" }) : "";
+  const ethTrend = cd.trend?.ETH ? trendChart(cd.trend.ETH, { label: "ETH", color: "#6d51d6" }) : "";
+  const chartsBlock = (btcPriceChart || ethPriceChart)
+    ? `<div class="page-break"></div><div class="chart-pair">${btcPriceChart}${ethPriceChart}</div>${btcOiChart || ethOiChart ? `<div class="chart-pair">${btcOiChart}${ethOiChart}</div>` : ""}${btcTrend || ethTrend ? `<div class="trend-row">${btcTrend ? `<div>${btcTrend}</div>` : ""}${ethTrend ? `<div>${ethTrend}</div>` : ""}</div>` : ""}`
+    : "";
+
   const movers = pack.exchanges?.movers || [];
   const moverExplRaw = new Map((s.movers || []).map((m) => [m.symbol, m]));
   const moverExpl = (sym) => moverExplRaw.get(sym) || moverExplRaw.get(sym.replace(/USDT$/, "")) || moverExplRaw.get(sym + "USDT");
@@ -441,7 +463,10 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const lowLiq = pack.exchanges?.lowLiqMovers || [];
   const lowLiqBody = lowLiq.length
     ? `<h3>${esc(L.h3.lowLiq)}</h3><p class="foot-note">${lowLiq.map((m) => `${esc(m.symbol)} ${sgn(m.chgPct, 1)}`).join(" · ")}</p>` : "";
-  const moversSection = section(L.movers, moversBody + lowLiqBody);
+  // D4: movers quadrant chart
+  const allMovers = [...movers, ...lowLiq];
+  const quadrantChart = allMovers.length >= 2 ? moversQuadrant(allMovers) : "";
+  const moversSection = section(L.movers, moversBody + lowLiqBody + (quadrantChart ? `<div class="chart-pair">${quadrantChart}</div>` : ""));
 
   const st = pack.stocks || {};
   const sessions = st.sessions || {};
@@ -533,8 +558,11 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const src = synth?._source ? ` · narrative: ${esc(synth._source)}` : "";
   const foot = `<div class="foot">${esc(L.foot(pack.coversUTC || "00:00–23:59 UTC", pack.generatedAtUTC || "", ""))}${src}</div>`;
 
+  // D7: page footer (print only)
+  const pageFoot = `<div class="page-foot"><span>Futures Daily Report · ${esc(pack.dateUTC || "")}</span><span>${esc(L.tagline)}</span></div>`;
+
   const csp = `default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'`;
-  return `<!DOCTYPE html><html lang="${escAttr(lang)}"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="${csp}"><style>${STYLE}</style></head><body>${_ownersBadgePrint || ""}${cover}${statsBar}${cavemanBlock}${priceVol}${positioning}${moversSection}${stocksSection}${newsSection}${calSection}${glossSection}${methSection}${foot}</body></html>`;
+  return `<!DOCTYPE html><html lang="${escAttr(lang)}"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="${csp}"><style>${STYLE}</style></head><body>${_ownersBadgePrint || ""}${cover}${statsBar}${cavemanBlock}${priceVol}${positioning}${chartsBlock}${moversSection}${stocksSection}<div class="page-break"></div>${newsSection}${calSection}<div class="page-break"></div>${glossSection}${methSection}${foot}${pageFoot}</body></html>`;
 }
 
 export { renderPdf };

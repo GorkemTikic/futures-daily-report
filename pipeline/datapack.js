@@ -22,6 +22,7 @@ import { collectNews } from "./news.js";
 import { collectTradFi } from "./tradfi.js";
 import { collectStocks } from "./stocks.js";
 import { collectMarket } from "./market.js";
+import { visionIntraday5m, visionMetricsTimeseries } from "./binance-vision.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -109,6 +110,53 @@ async function extractAltcoins(win) {
   return results.map((r) => r.status === "fulfilled" ? r.value : null).filter(Boolean);
 }
 
+async function apiIntraday5m(symbol, dayStartMs, dayEndMs) {
+  try {
+    const arr = await fetchJson(`https://fapi.binance.com/fapi/v1/klines?symbol=${symbol}&interval=5m&startTime=${dayStartMs}&endTime=${dayEndMs}&limit=288`);
+    if (!Array.isArray(arr) || !arr.length) return null;
+    return arr.map((k) => ({ ts: num(k[0]), open: num(k[1]), high: num(k[2]), low: num(k[3]), close: num(k[4]), vol: num(k[7]) }))
+      .filter((r) => r.ts != null && r.close != null);
+  } catch { return null; }
+}
+
+async function collectChartData(win) {
+  const out = {};
+  try {
+    // 5-minute intraday klines: try API first (freshest), fall back to archive
+    const [btcApi, ethApi] = await Promise.all([
+      apiIntraday5m("BTCUSDT", win.dayStartMs, win.dayEndMs).catch(() => null),
+      apiIntraday5m("ETHUSDT", win.dayStartMs, win.dayEndMs).catch(() => null),
+    ]);
+    const [btc5m, eth5m] = await Promise.all([
+      btcApi || visionIntraday5m("BTCUSDT", win.dayStartMs).catch(() => null),
+      ethApi || visionIntraday5m("ETHUSDT", win.dayStartMs).catch(() => null),
+    ]);
+    // Metrics timeseries (archive only — API doesn't expose a timeseries)
+    const [btcMetrics, ethMetrics] = await Promise.all([
+      visionMetricsTimeseries("BTCUSDT", win.dayStartMs).catch(() => null),
+      visionMetricsTimeseries("ETHUSDT", win.dayStartMs).catch(() => null),
+    ]);
+    out.intraday = { BTC: btc5m, ETH: eth5m };
+    out.metrics = { BTC: btcMetrics, ETH: ethMetrics };
+
+    // 45-day trend: daily klines from Binance API (single call, lightweight)
+    const trendEnd = win.dayEndMs;
+    const trendStart = win.dayStartMs - 44 * DAY_MS;
+    const [btcTrend, ethTrend] = await Promise.all([
+      fetchJson(`https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1d&startTime=${trendStart}&endTime=${trendEnd}&limit=45`).catch(() => []),
+      fetchJson(`https://fapi.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1d&startTime=${trendStart}&endTime=${trendEnd}&limit=45`).catch(() => []),
+    ]);
+    const parseTrend = (arr) => (Array.isArray(arr) ? arr : []).map((k) => ({
+      ts: num(k[0]), open: num(k[1]), high: num(k[2]), low: num(k[3]), close: num(k[4]), vol: num(k[7]),
+    })).filter((r) => r.ts != null && r.close != null);
+    out.trend = { BTC: parseTrend(btcTrend), ETH: parseTrend(ethTrend) };
+    out.ok = true;
+  } catch {
+    out.ok = false;
+  }
+  return out;
+}
+
 function windowLabel(win, rolling) {
   if (rolling && win.live) {
     return `${utcShort(win.nowMs - DAY_MS)} → ${utcShort(win.nowMs)} UTC (rolling 24h)`;
@@ -146,7 +194,10 @@ export async function buildDataPack({ nowMs = Date.now(), dateOverride = null, c
       : Promise.resolve({ ok: false, reason: "unavailable-for-backfill" }),
   ]);
 
-  const altcoins = win.live ? await extractAltcoins(win) : [];
+  const [altcoins, chartData] = await Promise.all([
+    win.live ? extractAltcoins(win) : Promise.resolve([]),
+    collectChartData(win).catch(() => ({ ok: false })),
+  ]);
 
   // Backfill with no day-bounded data at all -> refuse (item 2), caught in index.js.
   if (!win.live && (!exchanges.venuesOnline || exchanges.venuesOnline.length === 0)) {
@@ -187,7 +238,7 @@ export async function buildDataPack({ nowMs = Date.now(), dateOverride = null, c
     coversUTC: `${win.dateUTC} 00:00–23:59 UTC`,
     generatedAtUTC: utcDateTime(nowMs),
     timezone: "UTC",
-    exchanges, calendar, news, tradfi, stocks, market, altcoins,
+    exchanges, calendar, news, tradfi, stocks, market, altcoins, chartData,
     sources,
   };
 }

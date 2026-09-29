@@ -1,102 +1,235 @@
 {
-  "oneLine": "Bitcoin fell 1.15% on September 28 amid geopolitical tensions and a stronger US dollar, while Ethereum held flat; institutional investors bought $2.45 billion in Bitcoin ETFs despite the decline.",
-  "caveman": "Bitcoin fell 1.15% on Monday to $83,461, while Ethereum barely moved. The reason: President Trump rejected Iran's plan to reopen the Strait of Hormuz, oil prices jumped above $100 per barrel, and the US dollar got stronger—all of which make crypto less attractive. But here's the unusual part: big investors actually bought $2.45 billion in Bitcoin during the day despite the falling price, suggesting they think it will bounce back. Ethereum founder Vitalik also announced an ambitious plan for Ethereum by 2030. It was a worrying day because of falling prices and geopolitical tensions, but institutional buying showed some confidence.",
-  "priceVolumeSummary": "Bitcoin venues agreed on a price decline of roughly 1.15%, with Binance leading volume at $13.1 billion USD. Ethereum held essentially flat across all venues, with Binance leading at $9.7 billion USD.",
-  "positioningSummary": "Bitcoin spot ETFs saw significant inflows of $2.45 billion ($29,300 BTC) on September 28, part of a seven-day buying streak starting September 17, suggesting institutional confidence despite the price decline. Year-to-date Bitcoin ETF flows turned positive at $886.8 million. Funding rates, open interest, mark prices, long/short ratios, taker buy/sell ratios, and market breadth data are unavailable for this backfill period.",
-  "stocksSummary": "",
-  "movers": [],
+  "oneLine": "On Monday, September 28, Bitcoin fell 1.2% and Ethereum was essentially flat as traders dealt with a major exchange hack, rising Treasury yields from geopolitical tensions, and weak market breadth, though some large institutions bought Bitcoin anyway.",
+  "caveman": "On Monday, Bitcoin fell 1.2% to around $83,000 and almost all other crypto fell too—only 19% of coins on Binance went up. The day's biggest story was that Bitget, a major exchange, got hacked and $387 million in customer crypto was stolen; the hackers immediately started moving it out to hide it. At the same time, tensions between the US and Iran made people scared, so they sold risky stuff like crypto and bought safe US government bonds instead, which pushed interest rates up. Despite all this bad news, two big investment firms called Strategy and Strive kept buying Bitcoin, showing they still believed in it. It was a worrying day.",
+  "priceVolumeSummary": "Bitcoin fell 1.2% with all major exchanges consistent around $83,089 mark price. Binance led volume significantly with $13.1 billion in 24-hour perpetual trading, roughly double that of other exchanges.",
+  "positioningSummary": "Bitcoin's funding rate on Binance reached 6.3% annualized—money traders paid to hold long bets—showing continued bullish positioning despite the price decline. Open interest fell 2.6% in dollar terms, mostly from long positions being closed and liquidated. The typical trader was more long than short (1.17-to-1), but the very largest traders were even MORE long (1.89-to-1), suggesting big money still believed in Bitcoin. However, aggressive sellers (takers selling immediately to market) outnumbered aggressive buyers 0.95-to-1, a clear sign of heavy selling pressure. Market breadth was very weak: only 19% of Binance perpetual contracts were up; 81% were down, a deeply bearish signal.",
+  "stocksSummary": "Asian stocks were mixed: Korean tech saw Samsung gain 0.7% while Hyundai fell 2.7%, Hong Kong's Zhipu AI rose 0.8%, and Chinese tech wavered. In the US, high-growth stocks sold off sharply (MongoDB down 17.5%, Cypher down 21.7%), while entertainment and speculation held up better (AMC up 11.4%). Commodities weakened overall: gold perpetuals fell 1.3%, silver fell 2.1%, though crude oil and natural gas posted small gains.",
+  "movers": [
+    {
+      "symbol": "NMRUSDT",
+      "explanation": "No clear public cause for the 36.4% gain; no related news found in available sources",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "No clear public cause for the 29.1% decline; no related news found in available sources",
+      "hasCause": false
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "explanation": "No clear public cause for the 28.1% gain; no related news found in available sources",
+      "hasCause": false
+    }
+  ],
   "news": {
     "topThree": [
       {
-        "headline": "Trump rejects Iran's seven-day plan to reopen Strait of Hormuz",
-        "what": "President Trump rejected Iran's proposal to reopen the Strait of Hormuz shipping route within seven days, citing skepticism about Iran's commitment. This decision kept the strait closed, driving oil prices above $100 per barrel and strengthening the US dollar. On September 28, the geopolitical tensions and higher oil prices created headwinds for crypto markets as traders shifted to lower-risk assets.",
-        "coins": "BTC, ETH (indirect macro impact)",
-        "timeUTC": "Sept 26 announcement; Sept 28 market reaction",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz"
+        "headline": "Bitget loses $387 million in major security breach; stolen funds begin moving to other wallets",
+        "what": "Bitget, one of the world's largest crypto exchanges, was hacked and $387.5 million in customer cryptocurrency was stolen. The attacker tested the exchange's security with small transfers before running the main drain. Bitget halted all withdrawals, then reopened Bitcoin withdrawals first. Within hours, approximately 5,000 Bitcoin (worth roughly $415 million at the time) had moved out of the exchange as the hacker began laundering the stolen funds.",
+        "coins": "Bitcoin, Ethereum, USDT",
+        "timeUTC": "Sept 28, throughout the day starting at 23:43 UTC on Sept 27–28 boundary",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/nearly-5000-btc-leaves-bitget-as-hackers-begin-laundering-387-million-haul/"
       },
       {
-        "headline": "Vitalik Buterin outlines Ethereum's 2030 vision as 'cryptographic world computer'",
-        "what": "Ethereum co-founder Vitalik Buterin announced a long-term roadmap for Ethereum by 2030, envisioning the network as a general-purpose computing layer with 4–8 second block times and 1,000x throughput increase. The vision includes zero-knowledge proofs for privacy and expansion beyond finance into social systems. Despite the positive announcement, Ethereum showed minimal price movement on September 28.",
-        "coins": "ETH",
-        "timeUTC": "Sept 27 (published); Sept 28 coverage",
+        "headline": "Trump rejects Iran ceasefire plan; oil climbs above $100, US Treasury yields hit new cycle high",
+        "what": "Escalating geopolitical tensions between the US and Iran sent shockwaves through financial markets. After failed peace talks, oil prices climbed above $100 per barrel and US 10-year Treasury yields rose to new cycle highs exceeding 5.27%. The shift to safer assets hurt appetite for riskier investments, including cryptocurrency.",
+        "coins": "All cryptocurrencies (sentiment impact)",
+        "timeUTC": "Sept 28, 16:26 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields"
+      },
+      {
+        "headline": "Goldman Sachs brings roughly $100 billion Treasury fund into crypto's institutional infrastructure",
+        "what": "Goldman Sachs, one of the world's largest investment banks, began using crypto infrastructure firms to manage its Treasury fund without creating a tokenized version of it. This represents deep institutional integration of crypto platforms for traditional finance operations, showing that major banks now rely on crypto infrastructure as essential plumbing.",
+        "coins": "N/A (fiat instruments using crypto rails)",
+        "timeUTC": "Sept 28, 19:06 UTC",
         "source": "CoinDesk",
-        "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision"
+        "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
       }
     ],
     "groups": {
-      "Traditional markets": [
+      "Regulation and policy": [
         {
-          "headline": "Trump rejects Iran's seven-day plan to reopen Strait of Hormuz",
-          "what": "President Trump rejected Iran's proposal to reopen the Strait of Hormuz shipping route within seven days, citing skepticism about Iran's commitment. This decision kept the strait closed, driving oil prices above $100 per barrel and strengthening the US dollar. On September 28, the geopolitical tensions and higher oil prices created headwinds for crypto markets as traders shifted to lower-risk assets.",
-          "coins": "BTC, ETH (indirect macro impact)",
-          "timeUTC": "Sept 26 announcement; Sept 28 market reaction",
-          "source": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz"
+          "headline": "SEC follows CFTC in offering staff guidance on cryptocurrency regulation",
+          "what": "Following the failure of the CLARITY Act to pass in Congress, the SEC announced updated staff guidance on how existing federal securities laws could apply to crypto token issuers, similar to guidance the CFTC had already issued. The move signals regulators are setting clearer expectations even without new legislation.",
+          "coins": "All cryptocurrencies (regulatory impact)",
+          "timeUTC": "Sept 28, 19:45 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail"
+        },
+        {
+          "headline": "Senate Democrats report: Tether's USDT is a 'lifeline' for Iran's shadow banking system",
+          "what": "A new Senate Permanent Subcommittee on Intelligence report alleges that Tether stablecoin (USDT) has become central to Iran's shadow banking network and sanctions evasion. The findings highlight concerns about cryptocurrency use in sanctions circumvention.",
+          "coins": "USDT, Tether",
+          "timeUTC": "Sept 28, 20:10 UTC (The Block)",
+          "source": "The Block, CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094"
+        },
+        {
+          "headline": "Brazil imposes $10,000 self-custody reporting requirement for crypto transfers",
+          "what": "Brazil's central bank authorized financial institutions must now report transfers of cryptocurrency to or from user-controlled wallets (self-custody) when the transfer size meets a $10,000 threshold. The rule increases surveillance of crypto transactions while respecting self-custody rights.",
+          "coins": "All cryptocurrencies (compliance impact)",
+          "timeUTC": "Sept 28, 19:37 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/brazils-252-billion-crypto-market-gets-10000-self-custody-reporting-rule/"
+        },
+        {
+          "headline": "Russia sets October 5 deadline for crypto exchange applications under new regulatory framework",
+          "what": "Russia opened applications for crypto exchanges to operate under newly approved rules, with an October 5 deadline. However, firms still need separate Bank of Russia approval for each asset type before they can list cryptocurrencies for retail traders.",
+          "coins": "Bitcoin, Ethereum, altcoins (Russia regulatory framework)",
+          "timeUTC": "Sept 28, 17:36 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/"
+        },
+        {
+          "headline": "California Governor bans public officials from launching memecoins; introduces crypto scam restitution rules",
+          "what": "California Governor Gavin Newsom signed legislation prohibiting state public officials from launching or promoting memecoins, taking a direct aim at similar activities by other public figures. The state also passed rules to clarify restitution when crypto investors lose money to scams.",
+          "coins": "Memecoins and all cryptocurrencies (state regulation)",
+          "timeUTC": "Sept 28, 10:39 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-28-california-gov-gavin-newsom-bans-public-officials-from-launching-memecoins-takes-aim-at-trump-416970"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy (formerly MicroStrategy) makes back-to-back Bitcoin purchases for first time since June",
+          "what": "Michael Saylor's Strategy company purchased 1,665 Bitcoin for $143 million, marking the first consecutive week of Bitcoin buying since June. The purchase lifts its total holdings to 847,666 BTC, representing roughly 4% of the 21 million Bitcoin supply cap, worth approximately $70 billion.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 28, 22:33 UTC (CryptoSlate), 13:17 UTC (The Block)",
+          "source": "CryptoSlate, The Block",
+          "url": "https://cryptoslate.com/strategy-makes-first-back-to-back-bitcoin-buys-since-june-as-accumulation-picks-up/"
+        },
+        {
+          "headline": "Strive buys $94.5 million in Bitcoin; holdings push past 27,000 BTC",
+          "what": "Strive, a crypto-focused investment firm, purchased 1,107 Bitcoin for $94.5 million, bringing total holdings to 27,462 BTC worth approximately $2.3 billion. The purchase was funded 85% by Strive Acquisition Corp (SATA) preferred stock, showing strong institutional capital flow into Bitcoin.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 28, 19:22 UTC (Decrypt), 17:07 UTC (The Block)",
+          "source": "Decrypt, The Block",
+          "url": "https://decrypt.co/379465/strive-buys-94-5-million-in-bitcoin-pushing-holdings-past-27-000-btc"
+        },
+        {
+          "headline": "Tom Lee's Bitmine tops 6 million ETH after acquiring 17,362 additional ether",
+          "what": "Bitmine, the crypto vehicle of investment firm head Tom Lee, surpassed 6 million Ethereum holdings after buying 17,362 more ETH. The firm's total crypto, cash, and other investments now stand at $17.2 billion, with Bitmine owning over 4.9% of Ethereum's entire circulating supply.",
+          "coins": "Ethereum",
+          "timeUTC": "Sept 28, 14:39 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-28-tom-lees-bitmine-tops-6-million-eth-after-buying-another-17362-ether-416989"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Citi expands Coinbase partnership to power stablecoin payments for institutional clients",
+          "what": "Citibank expanded its existing partnership with Coinbase to allow Citi's institutional clients to accept stablecoin payments directly through Coinbase accounts. Citi runs the banking rails while Coinbase handles the crypto side, creating a direct fiat-to-stablecoin-to-fiat payment rail for businesses.",
+          "coins": "USDC, USDT, stablecoins",
+          "timeUTC": "Sept 28, 18:28 UTC (The Block), 21:29 UTC (Decrypt)",
+          "source": "The Block, Decrypt",
+          "url": "https://www.theblock.co/news/business/2026-09-28-citi-coinbase-stablecoin-payments-corporate-clients-417082"
+        },
+        {
+          "headline": "Franklin Templeton tokenized money-market funds become trading collateral on Bybit",
+          "what": "Bybit expanded its collateral options to include Franklin Templeton's tokenized money-market fund shares (Benji token products). Eligible institutions can pledge these tokenized funds for USDT or USDC credit lines on Bybit while the underlying fund continues earning yield in off-chain custody.",
+          "coins": "USDT, USDC, Benji tokens",
+          "timeUTC": "Sept 28, 12:06 UTC (CoinDesk), 19:09 UTC (Cointelegraph)",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/business/2026/09/28/crypto-friendly-institution-franklin-templeton-brings-its-tokenized-collateral-service-to-bybit"
+        },
+        {
+          "headline": "Chainlink launches CCIP 2.0 bridge technology; institutions gain more control over cross-chain security",
+          "what": "Chainlink released version 2.0 of its Cross-Chain Interoperability Protocol (CCIP), giving blockchain applications and institutions the ability to add custom security checks when moving assets between different blockchains. The update comes five months after a rival bridge (Kelp DAO) lost $292 million to hackers.",
+          "coins": "All cryptocurrencies (cross-chain infrastructure)",
+          "timeUTC": "Sept 28, 13:36 UTC (CoinDesk), 18:57 UTC (Decrypt)",
+          "source": "CoinDesk, Decrypt",
+          "url": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "THORChain refuses Bitget's request to block hacker; $6 million ETH converted to Bitcoin",
+          "what": "After the Bitget hack, the exchange asked THORChain (a cross-chain liquidity protocol) to block transactions from the hacker's wallet addresses. THORChain declined, maintaining its policy of not censoring transactions based on the source address. During this time, hackers successfully moved approximately 2,390 Ethereum into 75.2 Bitcoin using THORChain's swaps.",
+          "coins": "Ethereum, Bitcoin",
+          "timeUTC": "Sept 28, 13:19 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin"
+        },
+        {
+          "headline": "Lido's 1,500 ETH reserve target could slow stETH withdrawals during future stress",
+          "what": "Lido, the dominant Ethereum staking platform, maintains a 1,500 ETH reserve buffer. A proposed (but unexecuted) plan would lower deposit priority when the buffer runs low, potentially slowing user withdrawals during periods when demand is high and the reserve is depleted.",
+          "coins": "Ethereum, stETH",
+          "timeUTC": "Sept 28, 21:23 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/lidos-1500-eth-reserve-target-could-slow-steth-withdrawals-in-a-crunch/"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-28",
-    "summary": "US spot Bitcoin ETFs recorded net inflows of 29,300 BTC ($2.45 billion) on September 28, extending a seven-day buying streak that began September 17 and cumulatively attracted $2.98 billion. Year-to-date Bitcoin ETF flows turned positive at $886.8 million, reversing a $5.69 billion outflow in July.",
-    "source": "KuCoin",
-    "url": "https://www.kucoin.com/news/flash/bitcoin-and-ethereum-etfs-see-significant-daily-inflows-on-sept-28"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Wed 30 Sept, 01:30 UTC: Australia CPI September 2026",
-      "typicalReaction": "High-impact release — expect volatility in traditional markets and spillover to crypto."
+      "event": "Australia CPI September 2026 — Wed 30 Sept, 01:30 UTC",
+      "typicalReaction": "High-impact economic release. Expect market volatility as traders react to inflation data and reassess growth and interest-rate expectations."
     },
     {
-      "event": "Wed 30 Sept, 12:30 UTC: Core PCE Price Index m/m, Final GDP q/q, US Personal Income and Outlays",
-      "typicalReaction": "Multiple high-impact US economic data releases — expect elevated volatility across traditional and crypto markets."
+      "event": "Core PCE Price Index m/m, Final GDP q/q, US Personal Income and Outlays (PCE) — all Wed 30 Sept, 12:30 UTC",
+      "typicalReaction": "Multiple high-impact US economic releases at the same time. Expect sharp volatility in stocks, bonds, and cryptocurrencies. These can move US Treasury yields significantly, with spillover effects into crypto markets via sentiment and risk appetite."
     }
   ],
   "glossary": [
     {
-      "term": "Basis",
-      "definition": "In perpetual futures, the difference between the futures price and the spot price."
-    },
-    {
       "term": "Breadth (market breadth)",
-      "definition": "The percentage of assets in a market that rose during the day; high breadth (many assets up) suggests broad market strength."
+      "definition": "On a given day, the percentage of cryptocurrencies trading higher versus lower. For example, if market breadth is 19%, it means only 19% of coins rose while 81% fell—a weak signal."
     },
     {
-      "term": "ETF inflows",
-      "definition": "Money institutional investors add to spot Bitcoin or Ethereum ETFs; typically signals institutional confidence and buying demand."
+      "term": "Bitcoin",
+      "definition": "The first and most well-known cryptocurrency. A digital currency not issued or controlled by any government, bank, or company. The largest cryptocurrency by market value."
+    },
+    {
+      "term": "Cryptocurrency",
+      "definition": "Digital money that exists only on the internet and blockchain networks. Not issued by governments or banks. Bitcoin and Ethereum are the two largest cryptocurrencies."
+    },
+    {
+      "term": "Ethereum",
+      "definition": "The second-largest cryptocurrency by market value. Also a blockchain network that runs computer programs. People can invest in Ethereum or use the network to run decentralized applications."
     },
     {
       "term": "Funding rate",
-      "definition": "In perpetual futures, the periodic interest rate that long positions pay to short positions (or vice versa); indicates market sentiment about future prices."
+      "definition": "A payment between traders on futures exchanges, usually every 8 hours. When positive, traders betting the price will rise (longs) pay traders betting it will fall (shorts). A high funding rate means most traders are very bullish and willing to pay to hold long positions."
     },
     {
-      "term": "Long/short ratio",
-      "definition": "The proportion of traders betting prices will rise (long) versus fall (short); a ratio above 1 means more longs than shorts."
+      "term": "Liquidation",
+      "definition": "The automatic forced closure of a trader's leveraged position when they run out of money to maintain it. Liquidations typically happen fast and can push prices lower."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will increase. A trader holding a long position profits if the price goes up. Opposite of a short position."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The proportion of traders betting the price will rise compared to those betting it will fall. A ratio above 1 means more bullish traders. A ratio below 1 means more bearish traders."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price used for liquidations in perpetual futures, typically tracking spot price closely."
+      "definition": "The official price that futures exchanges use for settlements, margin calculations, and liquidations. Usually very close to the actual market trading price."
     },
     {
       "term": "Open interest",
-      "definition": "The total amount of Bitcoin or Ethereum held in leveraged positions; rising open interest signals new capital entering the market."
+      "definition": "The total number of active futures contracts held by all traders combined. When it decreases, traders are closing positions (less risk in the system). When it increases, traders are opening new positions (more risk in the system)."
     },
     {
-      "term": "Open-interest change",
-      "definition": "How much total leveraged positions grew or shrank during a time period."
+      "term": "Perpetual / Perpetual futures (perp)",
+      "definition": "A type of futures contract with no expiration date. Traders can hold positions indefinitely as long as they have enough money to maintain the position. Different from regular futures, which expire on a specific date."
     },
     {
-      "term": "Perpetual futures (perps)",
-      "definition": "Contracts that traders buy and sell without expiration, allowing leverage and short selling."
+      "term": "Short position",
+      "definition": "A bet that an asset's price will decrease. A trader holding a short position profits if the price goes down. Opposite of a long position."
     },
     {
-      "term": "Taker buy/sell ratio",
-      "definition": "The proportion of aggressive buyers versus sellers in recent trades; above 1 means more aggressive buying, below 1 means more aggressive selling."
+      "term": "Taker / Taker order",
+      "definition": "A trader who accepts the current market price and buys or sells immediately, rather than waiting for a better price. When takers outnumber makers, it usually signals strong selling pressure."
     },
     {
       "term": "Volume",
-      "definition": "The total dollar amount of assets traded across all buyers and sellers during a time period."
+      "definition": "The total amount of cryptocurrency bought and sold during a specific time period, usually measured in dollars. Higher volume typically means more active trading and more liquidity."
     }
   ],
   "_source": "cli"

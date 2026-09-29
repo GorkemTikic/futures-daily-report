@@ -141,3 +141,43 @@ export async function visionMetrics(symbol, dayStartMs, dayEndMs) {
     return out;
   } catch { return null; }
 }
+
+// Fetch 5-minute intraday klines for chart rendering.
+// Returns [{ts, open, high, low, close, vol}] sorted by time, or null.
+export async function visionIntraday5m(symbol, dayStartMs) {
+  const dk = dateKey(dayStartMs);
+  const url = `${BASE}/klines/${symbol}/5m/${symbol}-5m-${dk}.zip`;
+  try {
+    const csv = await fetchZipCsv(url);
+    if (!csv) return null;
+    const rows = parseCsvRows(csv);
+    return rows.map((r) => ({
+      ts: num(r.open_time),
+      open: num(r.open),
+      high: num(r.high),
+      low: num(r.low),
+      close: num(r.close),
+      vol: num(r.quote_volume),
+    })).filter((r) => r.ts != null && r.close != null).sort((a, b) => a.ts - b.ts);
+  } catch { return null; }
+}
+
+// Return the raw metrics timeseries for chart rendering.
+// Returns [{ts, oi, oiUSD, ls, topLs, taker}] sorted by time, or null.
+export async function visionMetricsTimeseries(symbol, dayStartMs) {
+  const dk = dateKey(dayStartMs);
+  const url = `${BASE}/metrics/${symbol}/${symbol}-metrics-${dk}.zip`;
+  try {
+    const csv = await fetchZipCsv(url);
+    if (!csv) return null;
+    const rows = parseCsvRows(csv);
+    return rows.map((r) => ({
+      ts: Date.parse(r.create_time + "Z"),
+      oi: num(r.sum_open_interest),
+      oiUSD: num(r.sum_open_interest_value),
+      ls: num(r.count_long_short_ratio),
+      topLs: num(r.sum_toptrader_long_short_ratio),
+      taker: num(r.sum_taker_long_short_vol_ratio),
+    })).filter((r) => !isNaN(r.ts)).sort((a, b) => a.ts - b.ts);
+  } catch { return null; }
+}
