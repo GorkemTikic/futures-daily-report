@@ -1,33 +1,100 @@
 {
-  "oneLine": "Pazar verileri 5 borsadan derlenmiştir; bu çalışmada haber sentezi mevcut değildir.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Bu çalışmada otomatik açıklama mevcut değildir — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki pozisyonlama tablosuna bakınız.",
-  "stocksSummary": "",
-  "movers": [
-    {
-      "symbol": "NMRUSDT",
-      "explanation": "Bu çalışmada açıklama mevcut değildir.",
-      "hasCause": false
-    },
-    {
-      "symbol": "QUSDT",
-      "explanation": "Bu çalışmada açıklama mevcut değildir.",
-      "hasCause": false
-    },
-    {
-      "symbol": "MARSCOINUSDT",
-      "explanation": "Bu çalışmada açıklama mevcut değildir.",
-      "hasCause": false
-    }
-  ],
+  "oneLine": "Bitcoin pazartesi 28 Eylül'de %1,15 geriledi; Trump'ın İran'ın barış teklifini reddetmesi petrol fiyatlarını 100 doları aştırdı ve getirisi olmayan varlıklara olan talebini azalttı; Ethereum sabit kaldı.",
+  "caveman": "Pazartesi 28 Eylül günü Bitcoin gün içinde yaklaşık %1,15 düştü—yaklaşık 84.435 dolardan 83.461 dolara. Ethereum hemen hemen hiç hareket etmedi. Bütün ticaret mekanları bu fiyatlarda anlaştı. Ana neden şuydu: Başkan Trump, İran'ın savaşı 7 gün durdurma teklifini reddetti, bu yüzden petrol fiyatları 100 doları aştı. Daha yüksek petrol fiyatları ve yükselen faiz oranları insanları kripto gibi riskli yatırımlardan endişelendirdi. Ethereum'un kurucusu Vitalik de 2030'da Ethereum'un nasıl olacağı hakkında büyük bir uzun vadeli plan duyurdu. Sakin ama aşağı yönlü bir gündü.",
+  "priceVolumeSummary": "Bitcoin tüm borsalarda yaklaşık 84.435 dolardan açıldı ve 83.461 dolardan kapandı (düşüş %1,15); beş borsanın tümü—Binance, Bybit, OKX, Bitget, Gate—birbirinden 2 dolar içinde yakınsadı. Ethereum sabit kaldı, yaklaşık 2.687 dolarda açıldı ve kapandı. Binance, Bitcoin'in günlük hacminde başı çekti; 13,1 milyar dolar notasyon hacmi gerçekleşti, bunu OKX'in 6,9 milyar doları izledi.",
+  "positioningSummary": "Finansman oranları, açık pozisyon değişiklikleri, mark fiyatları, uzun/kısa oranları, genişlik, taker alış/satış oranları ve üst trader pozisyonlandırma verileri bu tarihsel geri dolum raporunda kullanılamıyor. 28 Eylül'de trader pozisyonlandırmasını nitelendiremiyoruz.",
+  "stocksSummary": "Asya hisse senedi endeksleri 28 Eylül'de karışık kaldı. Güney Kore'nin Kospi %2,12 düşerek 6.930'a, Çin'in Shanghai Composite %1,74 düşerek 3.821'e düştü; her ikisi de İran üzerindeki jeopolitik gerginlik ve petrol fiyat artışı tarafından ağırlaştırıldı. Hong Kong'un Hang Seng %0,64 yükselerek 24.666'ya yükseldi ve Japonya'nın Nikkei esasen 66.371'de sabit kaldı. Veri paketine hiçbir hisse senedi endeksi perpetual'ı dahil edilmedi.",
+  "movers": [],
   "news": {
-    "topThree": [],
+    "topThree": [
+      {
+        "headline": "Trump, İran'ın 7 günlük barış planını reddediyor; Brent petrolü 100 doları aşıyor, getirisi olmayan varlıklara olan talep azalıyor",
+        "what": "Başkan Trump, İran'ın Hormuz Boğazı'nı yeniden açmak için 7 günlük ateşkes önerisini reddetti. Bu red, jeopolitik gerginliği tırmandırdı ve Brent ham petrolü varil başına 100 doların üzerine çıkardı. Daha yüksek petrol fiyatları ve yükselen tahvil getirileri kripto paralar gibi getirisi olmayan varlıkları ağırlaştırdı ve Bitcoin'in %1,15'lik düşüşüne katkıda bulundu.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "September 28, 2026",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-28-2026-bitcoin-loses-ground-after-trump-rejects-irans-7-day-plan-113444329.html"
+      },
+      {
+        "headline": "Vitalik Buterin, Ethereum'un 2030 yılına kadar bir 'kriptografik dünya bilgisayarı'na evrimini özetliyor",
+        "what": "Ethereum'un eş kurucusu Vitalik Buterin, Ethereum'un 2030 yol haritasını açıklayan önemli bir vizyon belgesi yayınladı. Plan, bugünün tek yapılı blokzincirinden, zincir üstü uzlaşı ile kriptografik kanıtlar aracılığıyla doğrulanan zincir dışı hesaplamayı birleştiren ve tam düğüm doğrulamasına olan bağımlılığı azaltan hibrit bir mimariye kaymaktadır. Vizyon, gizliliği, ölçeklenebilirliği ve sıfır bilgi doğrulamasını önceliklendirmektedir.",
+        "coins": "Ethereum",
+        "timeUTC": "September 28, 2026",
+        "source": "Crypto Daily",
+        "url": "https://cryptodaily.co.uk/2026/09/vitalik-buterin-ethereum-cryptographic-world-computer-2030"
+      },
+      {
+        "headline": "Binance Stocks beş yeni listelemeyi ekliyor: BRUN, GRML, OCTV, USDE, WSE",
+        "what": "Binance, Binance Stocks platformuna beş yeni hisse senedi eklediğini duyurdu: Boost Run Inc. (BRUN), Greenland Mines Ltd. (GRML), Octave Intelligence plc (OCTV), StablecoinX Inc. (USDE) ve bir ek kod. İşlem 28 Eylül'de 13:30 UTC'de başladı. Ödenebilir hale geldikten sonra, listelendirmeler Tam Ödeme Menkul Kıymet Kredisine hak kazanır.",
+        "coins": "General platform news",
+        "timeUTC": "September 28, 13:30 UTC",
+        "source": "TechFlow Post",
+        "url": "https://www.techflowpost.com/en-US/newsletter/138060"
+      }
+    ],
     "groups": {}
   },
   "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "calendarNotes": [
+    {
+      "event": "Australia CPI September 2026, Wed 30 Sept 01:30 UTC",
+      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
+    },
+    {
+      "event": "Core PCE Price Index m/m, Wed 30 Sept 12:30 UTC",
+      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
+    },
+    {
+      "event": "Final GDP q/q, Wed 30 Sept 12:30 UTC",
+      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
+    },
+    {
+      "event": "US Personal Income and Outlays (PCE) September 2026, Wed 30 Sept 12:30 UTC",
+      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Genişlik",
+      "definition": "Bir pazarda (bu durumda Binance perpetual'larında) gün içinde yukarı veya aşağı olan paraların yüzdesi. %50'nin üzerinde genişlik geniş tabanlı güç önerir; %50'nin altında geniş tabanlı zayıflık önerir."
+    },
+    {
+      "term": "Kriptografik kanıtlar",
+      "definition": "Bir hesaplamanın doğru şekilde yapıldığına dair kompakt matematiksel kanıt; doğrulayıcının hesaplamayı kendileri tekrar çalıştırmasını gerektirmez."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual vadeli işlem sözleşmelerinde uzun ve kısa pozisyon tutan trader'lar arasında dönemsel ödeme. Trader'ları talep dengesini sağlamaya teşvik eder ve mark fiyatını spot fiyata yakın tutmaya yardımcı olur."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Uzun (yükseliş) pozisyon tutan trader'lar ile kısa (düşüş) pozisyon tutan trader'ların oranı. 1'in üzerinde oran, şortlardan daha fazla uzun olduğunu gösterir; 1'in altında oran, uzunlardan daha fazla kısa olduğunu gösterir."
+    },
+    {
+      "term": "Mark fiyatı",
+      "definition": "Perpetual vadeli işlem sözleşmeleri için kullanılan hesaplanmış adil fiyat; tasfiye basamaklarını önlemek ve altta yatan spot fiyatı yakından izlemek için tasarlanmıştır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Bir sözleşme veya borsa genelinde açık uzun ve kısa pozisyonların toplam sayısı. Artan açık pozisyon, artan kaldıraç ve pazar katılımını gösterir; düşen açık pozisyon, trader'ların pozisyonları kapattığını gösterir."
+    },
+    {
+      "term": "Açık pozisyon değişikliği",
+      "definition": "Belirli bir zaman döneminde toplam açık pozisyonlardaki net artış veya azalış; piyasadaki kaldıracın genişleyip genişlemediğini veya daraldığını gösterir."
+    },
+    {
+      "term": "Notasyon hacmi",
+      "definition": "Belirli bir dönemde gerçekleşen işlemlerin toplam notasyon değeri, fiyat para birimi (örneğin USD) cinsinden ölçülür. Daha büyük notasyon hacmi, daha fazla ticaret faaliyetini gösterir."
+    },
+    {
+      "term": "Taker alış/satış oranı",
+      "definition": "Agresif trader'lar (taker'lar) arasında satın alma baskısının satış baskısına oranı. 1'in üzerinde oran net satın alma baskısını gösterir; 1'in altında oran net satış baskısını gösterir."
+    },
+    {
+      "term": "Sıfır bilgi kanıtı",
+      "definition": "Bir tarafın bilgi parçasını bildiklerini (veya hesaplamanın doğru olduğunu) bilginin kendisini ortaya koymadan kanıtlamasına izin veren kriptografik yöntem."
+    }
+  ],
   "_source": "cli-tr",
-  "_from": "2187afb9074ec957"
+  "_from": "95da3a4f14014347"
 }

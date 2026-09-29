@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-29T03:00:24.661Z",
+  "generatedAt": "2026-09-29T03:42:00.381Z",
   "count": 104,
   "counts": {
     "total": 104,
@@ -19,16 +19,13 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -1.1537691727373145,
-        "ETH": 0.1534
+        "BTC": -1.158850789522615,
+        "ETH": 0.01860617427287071
       },
       "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
       "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
       "newsCount": 0,
-      "topMover": {
-        "symbol": "NMRUSDT",
-        "chgPct": 36.37417858523385
-      },
+      "topMover": null,
       "venues": [
         "Binance",
         "Bybit",
@@ -37,13 +34,13 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
       "status": "degraded",
       "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
+        "narrative fell back to data-only"
       ],
       "flagged": [],
       "files": {

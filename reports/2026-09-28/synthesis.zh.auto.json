@@ -1,33 +1,100 @@
 {
-  "oneLine": "市场数据已从5个交易所汇总；此轮运行未能进行新闻分析。",
-  "caveman": "",
-  "priceVolumeSummary": "请查看下方交易所数据表。（此轮运行自动分析文本不可用——数据已直接展示。）",
-  "positioningSummary": "请查看下方持仓数据表。",
-  "stocksSummary": "",
-  "movers": [
-    {
-      "symbol": "NMRUSDT",
-      "explanation": "此轮运行暂无分析说明。",
-      "hasCause": false
-    },
-    {
-      "symbol": "QUSDT",
-      "explanation": "此轮运行暂无分析说明。",
-      "hasCause": false
-    },
-    {
-      "symbol": "MARSCOINUSDT",
-      "explanation": "此轮运行暂无分析说明。",
-      "hasCause": false
-    }
-  ],
+  "oneLine": "9月28日星期一,比特币下跌1.15%,因为特朗普拒绝了伊朗的和平提议,导致油价升至100美元以上,打压了对非收益资产的需求;以太坊基本持平。",
+  "caveman": "9月28日星期一,比特币全天下跌约1.15%,从约$84,435跌至$83,461。以太坊基本没有变化。所有交易平台的价格都一致。主要原因是特朗普总统拒绝了伊朗暂停7天战争的提议,所以油价跳升到100美元以上。更高的油价和更高的利率让人们对加密货币等风险投资感到紧张。以太坊创始人维塔利克还宣布了以太坊在2030年的大计划。这是平静但下跌的一天。",
+  "priceVolumeSummary": "比特币在所有交易所开盘价约$84,435,收盘价$83,461(下跌1.15%);所有五个交易所——币安、Bybit、OKX、Bitget和Gate——的价格收敛在$2以内。以太坊基本持平,开盘和收盘价都在$2,687附近。币安以$13.1 billion的成交量领先比特币日交易,其次是OKX的$6.9 billion。",
+  "positioningSummary": "融资费率、未平仓合约变化、标记价格、多空比率、广度、吃单买卖比率和顶级交易者持仓数据对这份历史回溯报告不可用。我们无法表征9月28日的交易者持仓。",
+  "stocksSummary": "9月28日亚洲股市涨跌不一。韩国KOSPI指数下跌2.12%至6,930,中国上海综合指数下跌1.74%至3,821,两者都因伊朗地缘政治紧张和油价暴升而受压。香港恒生指数上升0.64%至24,666,日本日经指数基本持平,收于66,371。数据包中未包含股票指数永续合约。",
+  "movers": [],
   "news": {
-    "topThree": [],
+    "topThree": [
+      {
+        "headline": "特朗普拒绝伊朗7天和平计划;布伦特原油飙升至100美元以上,打压非收益资产需求",
+        "what": "特朗普总统拒绝了伊朗提出的7天停火以重新开放荷尔木兹海峡的提议。这一拒绝加剧了地缘政治紧张局势,推动布伦特原油价格升至100美元以上。更高的油价和上升的债券收益率对比特币等非收益资产造成压力,导致比特币下跌1.15%。",
+        "coins": "比特币、以太坊",
+        "timeUTC": "September 28, 2026",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-28-2026-bitcoin-loses-ground-after-trump-rejects-irans-7-day-plan-113444329.html"
+      },
+      {
+        "headline": "维塔利克·布特林勾勒以太坊到2030年的\"加密世界计算机\"演进路线",
+        "what": "以太坊联合创始人维塔利克·布特林发布了一份描述以太坊2030年路线图的重要愿景论文。该计划从今天的单体区块链转变为混合架构,结合链上共识与通过加密证明验证的链外计算,减少对完整节点验证的依赖。该愿景优先考虑隐私、可扩展性和零知识验证。",
+        "coins": "以太坊",
+        "timeUTC": "September 28, 2026",
+        "source": "Crypto Daily",
+        "url": "https://cryptodaily.co.uk/2026/09/vitalik-buterin-ethereum-cryptographic-world-computer-2030"
+      },
+      {
+        "headline": "币安股票平台新增五个上市:BRUN、GRML、OCTV、USDE、WSE",
+        "what": "币安宣布在其币安股票平台上增加五个新股票:Boost Run Inc. (BRUN)、Greenland Mines Ltd. (GRML)、Octave Intelligence plc (OCTV)、StablecoinX Inc. (USDE)和一个额外的代码。交易于9月28日13:30 UTC开始。结算后,这些上市符合全额支付证券借贷的条件。",
+        "coins": "平台新闻",
+        "timeUTC": "September 28, 13:30 UTC",
+        "source": "TechFlow Post",
+        "url": "https://www.techflowpost.com/en-US/newsletter/138060"
+      }
+    ],
     "groups": {}
   },
   "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "calendarNotes": [
+    {
+      "event": "Australia CPI September 2026, Wed 30 Sept 01:30 UTC",
+      "typicalReaction": "高影响力数据发布——预计传统市场波动,加密货币可能受到波及。"
+    },
+    {
+      "event": "Core PCE Price Index m/m, Wed 30 Sept 12:30 UTC",
+      "typicalReaction": "高影响力数据发布——预计传统市场波动,加密货币可能受到波及。"
+    },
+    {
+      "event": "Final GDP q/q, Wed 30 Sept 12:30 UTC",
+      "typicalReaction": "高影响力数据发布——预计传统市场波动,加密货币可能受到波及。"
+    },
+    {
+      "event": "US Personal Income and Outlays (PCE) September 2026, Wed 30 Sept 12:30 UTC",
+      "typicalReaction": "高影响力数据发布——预计传统市场波动,加密货币可能受到波及。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "广度",
+      "definition": "市场中(本例中为币安永续合约)上涨或下跌的代币百分比。广度高于50%表明基础广泛的强势;低于50%表明基础广泛的弱势。"
+    },
+    {
+      "term": "加密证明",
+      "definition": "紧凑的数学证据,证明计算已正确执行,而不需要验证者重新运行该计算。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "永续期货合约中持有多头和空头头寸的交易者之间的定期付款。它激励交易者平衡供给,帮助保持标记价格接近现货价格。"
+    },
+    {
+      "term": "多空比率",
+      "definition": "持有多头(看涨)头寸的交易者与持有空头(看跌)头寸的交易者的比例。比率高于1表示多头多于空头;低于1表示空头多于多头。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "为永续期货合约设计的计算公平价格,旨在防止清算级联并密切追踪基础现货价格。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "某个合约或交易所中开放的多头和空头头寸总数。未平仓合约增加表明杠杆增加和市场参与度上升;未平仓合约下降表明交易者正在平仓。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "给定时间段内未平仓头寸总数的净增加或减少,表明市场中的杠杆是在扩大还是在缩小。"
+    },
+    {
+      "term": "成交量(名义价值)",
+      "definition": "给定时间段内执行的交易总名义价值,以报价货币(如美元)衡量。更大的成交量表明交易活动更多。"
+    },
+    {
+      "term": "吃单买卖比率",
+      "definition": "激进交易者(吃单者)中买盘压力与卖盘压力的比率。比率高于1表示净买盘压力;低于1表示净卖盘压力。"
+    },
+    {
+      "term": "零知识证明",
+      "definition": "一种加密方法,允许一方证明自己知道某条信息(或计算正确),而不会泄露信息本身。"
+    }
+  ],
   "_source": "cli-zh",
-  "_from": "2187afb9074ec957"
+  "_from": "95da3a4f14014347"
 }

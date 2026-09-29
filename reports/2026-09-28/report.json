@@ -6,13 +6,10 @@
   "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
   "newsCount": 0,
   "macro": {
-    "BTC": -1.1537691727373145,
-    "ETH": 0.1534
+    "BTC": -1.158850789522615,
+    "ETH": 0.01860617427287071
   },
-  "topMover": {
-    "symbol": "NMRUSDT",
-    "chgPct": 36.37417858523385
-  },
+  "topMover": null,
   "venues": [
     "Binance",
     "Bybit",
@@ -20,14 +17,14 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "29 Sept 03:00 UTC",
+  "generatedAtUTC": "29 Sept 03:36 UTC",
   "languages": [
-    "en"
+    "en",
+    "tr",
+    "zh"
   ],
   "status": "degraded",
   "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
-    "zh report unavailable"
+    "narrative fell back to data-only"
   ]
 }
