@@ -4,8 +4,8 @@
   "reuseSynthesis": true,
   "startedAt": "2026-09-28T23:38:19.995Z",
   "status": "degraded",
-  "finishedAt": "2026-09-28T23:47:04.553Z",
-  "durationSec": 525,
+  "finishedAt": "2026-09-28T23:47:09.094Z",
+  "durationSec": 529,
   "date": "2026-09-25",
   "live": false,
   "window": {
@@ -96,8 +96,8 @@
     "zh": true
   },
   "publish": {
-    "pushed": false,
-    "reason": "pending"
+    "pushed": true,
+    "branch": "main"
   },
   "reasons": [
     "narrative fell back to data-only (CLI-only backend)"

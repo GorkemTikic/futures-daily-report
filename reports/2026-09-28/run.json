@@ -1,20 +1,20 @@
 {
-  "runId": "2026-09-28T23:24:13.536Z",
-  "dateOverride": "2026-09-28",
-  "reuseSynthesis": true,
-  "startedAt": "2026-09-28T23:24:13.536Z",
+  "runId": "2026-09-29T00:00:00.904Z",
+  "dateOverride": null,
+  "reuseSynthesis": false,
+  "startedAt": "2026-09-29T00:00:00.904Z",
   "status": "degraded",
-  "finishedAt": "2026-09-28T23:31:32.257Z",
-  "durationSec": 439,
+  "finishedAt": "2026-09-29T00:00:29.015Z",
+  "durationSec": 28,
   "date": "2026-09-28",
   "live": true,
   "window": {
     "label": "2026-09-28 00:00 → 24:00 UTC",
     "startMs": 1790553600000,
     "endMs": 1790639999999,
-    "dayAligned": false,
+    "dayAligned": true,
     "rolling": false,
-    "asOfUTC": "23:24 UTC"
+    "asOfUTC": "00:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -83,24 +83,22 @@
   "synthesis": {
     "source": "data-only",
     "fellBack": true,
-    "cliOnly": false,
-    "errorKind": "consistency"
+    "cliOnly": true,
+    "errorKind": "cli-error"
   },
   "languages": [
-    "en",
-    "tr",
-    "zh"
+    "en"
   ],
   "pdf": {
-    "en": true,
-    "tr": true,
-    "zh": true
+    "en": true
   },
   "publish": {
     "pushed": false,
     "reason": "pending"
   },
   "reasons": [
-    "narrative fell back to data-only"
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
   ]
 }
