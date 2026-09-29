@@ -1,100 +1,237 @@
 {
-  "oneLine": "Bitcoin pazartesi 28 Eylül'de %1,15 geriledi; Trump'ın İran'ın barış teklifini reddetmesi petrol fiyatlarını 100 doları aştırdı ve getirisi olmayan varlıklara olan talebini azalttı; Ethereum sabit kaldı.",
-  "caveman": "Pazartesi 28 Eylül günü Bitcoin gün içinde yaklaşık %1,15 düştü—yaklaşık 84.435 dolardan 83.461 dolara. Ethereum hemen hemen hiç hareket etmedi. Bütün ticaret mekanları bu fiyatlarda anlaştı. Ana neden şuydu: Başkan Trump, İran'ın savaşı 7 gün durdurma teklifini reddetti, bu yüzden petrol fiyatları 100 doları aştı. Daha yüksek petrol fiyatları ve yükselen faiz oranları insanları kripto gibi riskli yatırımlardan endişelendirdi. Ethereum'un kurucusu Vitalik de 2030'da Ethereum'un nasıl olacağı hakkında büyük bir uzun vadeli plan duyurdu. Sakin ama aşağı yönlü bir gündü.",
-  "priceVolumeSummary": "Bitcoin tüm borsalarda yaklaşık 84.435 dolardan açıldı ve 83.461 dolardan kapandı (düşüş %1,15); beş borsanın tümü—Binance, Bybit, OKX, Bitget, Gate—birbirinden 2 dolar içinde yakınsadı. Ethereum sabit kaldı, yaklaşık 2.687 dolarda açıldı ve kapandı. Binance, Bitcoin'in günlük hacminde başı çekti; 13,1 milyar dolar notasyon hacmi gerçekleşti, bunu OKX'in 6,9 milyar doları izledi.",
-  "positioningSummary": "Finansman oranları, açık pozisyon değişiklikleri, mark fiyatları, uzun/kısa oranları, genişlik, taker alış/satış oranları ve üst trader pozisyonlandırma verileri bu tarihsel geri dolum raporunda kullanılamıyor. 28 Eylül'de trader pozisyonlandırmasını nitelendiremiyoruz.",
-  "stocksSummary": "Asya hisse senedi endeksleri 28 Eylül'de karışık kaldı. Güney Kore'nin Kospi %2,12 düşerek 6.930'a, Çin'in Shanghai Composite %1,74 düşerek 3.821'e düştü; her ikisi de İran üzerindeki jeopolitik gerginlik ve petrol fiyat artışı tarafından ağırlaştırıldı. Hong Kong'un Hang Seng %0,64 yükselerek 24.666'ya yükseldi ve Japonya'nın Nikkei esasen 66.371'de sabit kaldı. Veri paketine hiçbir hisse senedi endeksi perpetual'ı dahil edilmedi.",
-  "movers": [],
+  "oneLine": "Pazartesi günü Bitcoin %1,2 düştü, Ethereum neredeyse sabit kaldı. Tüccarlar büyük bir borsa hacketmesiyle, ABD-İran geriliminden yükselen Hazine getirileriyle ve zayıf pazar genişliğiyle boğuşurken, bazı büyük kurumlar yine de Bitcoin satın almaya devam etti.",
+  "caveman": "Pazartesi Bitcoin %1,2 düşerek yaklaşık 83.000 dolara gerilemişse de diğer kripto paralar da hemen hemen hepsi düştü—Binance'deki paraların sadece %19'u yükseldi. Günün en büyük haberi Bitget adlı önemli bir borsanın hacklenmesiydi; müşteri paraları arasından 387 milyon dolar çalındı ve hacker bunları gizlemek için hemen başka yerlere taşımaya başladı. Aynı zamanda ABD'nin İran karşısında tutumu mı bozuldu, insanlar korkup kripto gibi riskli şeyleri satıp ABD devlet tahvillerine yöneldiler; bu yüzden faiz oranları yükseldi. Tüm bu kötü haberler rağmen Strategy ve Strive adlı iki büyük yatırım firması Bitcoin almaya devam etti, demek ki hâlâ buna inanıyorlar. Endişeli bir gündü.",
+  "priceVolumeSummary": "Bitcoin %1,2 düşüş kaydetti; bütün büyük borsalarda işaret fiyatı 83.089 dolar seviyesinde kaldı. Binance 24 saatlik perpetual işlem hacminde 13,1 milyar dolarla başı çekiyordu—diğer borsaların hacimiyle karşılaştırıldığında yaklaşık iki katı.",
+  "positioningSummary": "Bitcoin'in Binance'deki finansman oranı yıllık %6,3'e ulaştı—long tutanların ödediği para—fiyat düşüşüne rağmen bullish tutuşu gösteriyor. Açık faiz dolar cinsinden %2,6 azaldı; çoğunlukla long pozisyonlar kapanıp tasfiye oldu. Ortalama tüccar short tutanlardan daha fazla long tutuyor (oran 1,17'ye 1), hatta en büyük tüccarlar daha da fazla long tutuyor (1,89'a 1)—büyük paralı olanlar Bitcoin'e inanıyor. Ama agresif satıcılar agresif alıcıları 0,95'e 1 oranda geçiyor; ağır satış baskısını gösteriyor. Pazar genişliği çok zayıf: Binance perpetual sözleşmelerinin sadece %19'u yükselişte, %81'i düşüşteydi—çok bearish işaret.",
+  "stocksSummary": "Asya borsaları karma sonuçlar verdi: Güney Kore'de Samsung %0,7 arttı ama Hyundai %2,7 düştü, Hong Kong'da Zhipu AI %0,8 yükseldi, Çin teknoloji dalgalandı. Amerika'da yüksek büyüme hisseleri ağır satıldı (MongoDB %17,5, Cypher %21,7 düştü), eğlence ve spekülasyon sektörleri daha tutundu (AMC %11,4 yükseldi). Emtialar zayıfladı: altın %1,3, gümüş %2,1 düştü; ham petrol ve doğal gaz küçük kazanç yaptı.",
+  "movers": [
+    {
+      "symbol": "NMRUSDT",
+      "explanation": "NMRUSDT'nin %36,4'lük kazancının net açıklaması bulunmadı; mevcut kaynaklarda ilgili haber yok",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "QUSDT'nin %29,1'lik düşüşünün net açıklaması bulunmadı; mevcut kaynaklarda ilgili haber yok",
+      "hasCause": false
+    },
+    {
+      "symbol": "MARSCOINUSDT",
+      "explanation": "MARSCOINUSDT'nin %28,1'lik kazancının net açıklaması bulunmadı; mevcut kaynaklarda ilgili haber yok",
+      "hasCause": false
+    }
+  ],
   "news": {
     "topThree": [
       {
-        "headline": "Trump, İran'ın 7 günlük barış planını reddediyor; Brent petrolü 100 doları aşıyor, getirisi olmayan varlıklara olan talep azalıyor",
-        "what": "Başkan Trump, İran'ın Hormuz Boğazı'nı yeniden açmak için 7 günlük ateşkes önerisini reddetti. Bu red, jeopolitik gerginliği tırmandırdı ve Brent ham petrolü varil başına 100 doların üzerine çıkardı. Daha yüksek petrol fiyatları ve yükselen tahvil getirileri kripto paralar gibi getirisi olmayan varlıkları ağırlaştırdı ve Bitcoin'in %1,15'lik düşüşüne katkıda bulundu.",
-        "coins": "Bitcoin, Ethereum",
-        "timeUTC": "September 28, 2026",
-        "source": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-28-2026-bitcoin-loses-ground-after-trump-rejects-irans-7-day-plan-113444329.html"
+        "headline": "Bitget 387 milyon dolar kaybetti; hack sonrası çalınan fonlar diğer cüzdanlara aktarılıyor",
+        "what": "Dünyanın en büyük kripto borsalarından biri olan Bitget hacklendi ve müşteri varlıklarından 387,5 milyon dolar çalındı. Saldırgan küçük transferlerle borsa güvenliğini test ettikten sonra ana boşaltmayı yaptı. Bitget tüm para çekme işlemlerini durdurdu, daha sonra Bitcoin çekimlerini ilk olarak açtı. Saatler içinde yaklaşık 5.000 Bitcoin (o zamanki değeriyle yaklaşık 415 milyon dolar) borsadan çıktı; hacker çalınan fonları gizlemeye başladı.",
+        "coins": "Bitcoin, Ethereum, USDT",
+        "timeUTC": "Sept 28, throughout the day starting at 23:43 UTC on Sept 27–28 boundary",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/nearly-5000-btc-leaves-bitget-as-hackers-begin-laundering-387-million-haul/"
       },
       {
-        "headline": "Vitalik Buterin, Ethereum'un 2030 yılına kadar bir 'kriptografik dünya bilgisayarı'na evrimini özetliyor",
-        "what": "Ethereum'un eş kurucusu Vitalik Buterin, Ethereum'un 2030 yol haritasını açıklayan önemli bir vizyon belgesi yayınladı. Plan, bugünün tek yapılı blokzincirinden, zincir üstü uzlaşı ile kriptografik kanıtlar aracılığıyla doğrulanan zincir dışı hesaplamayı birleştiren ve tam düğüm doğrulamasına olan bağımlılığı azaltan hibrit bir mimariye kaymaktadır. Vizyon, gizliliği, ölçeklenebilirliği ve sıfır bilgi doğrulamasını önceliklendirmektedir.",
-        "coins": "Ethereum",
-        "timeUTC": "September 28, 2026",
-        "source": "Crypto Daily",
-        "url": "https://cryptodaily.co.uk/2026/09/vitalik-buterin-ethereum-cryptographic-world-computer-2030"
+        "headline": "Trump İran barış planını reddetti; petrol 100 doları geçti, Hazine getirileri siklus zirvesinde",
+        "what": "ABD ile İran arasındaki artan geopolitik gerilim finansal piyasalara şok verdi. Başarısız barış görüşmelerinden sonra petrol fiyatları 100 doların üstüne çıktı ve ABD 10 yıllık Hazine getirileri %5,27'yi aşan siklus zirvelerine ulaştı. Güvenli varlıklara yönelme riskli yatırımlar—kripto dahil—için iştahı azalttı.",
+        "coins": "Bitcoin, Ethereum, USDT",
+        "timeUTC": "Sept 28, 16:26 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields"
       },
       {
-        "headline": "Binance Stocks beş yeni listelemeyi ekliyor: BRUN, GRML, OCTV, USDE, WSE",
-        "what": "Binance, Binance Stocks platformuna beş yeni hisse senedi eklediğini duyurdu: Boost Run Inc. (BRUN), Greenland Mines Ltd. (GRML), Octave Intelligence plc (OCTV), StablecoinX Inc. (USDE) ve bir ek kod. İşlem 28 Eylül'de 13:30 UTC'de başladı. Ödenebilir hale geldikten sonra, listelendirmeler Tam Ödeme Menkul Kıymet Kredisine hak kazanır.",
-        "coins": "General platform news",
-        "timeUTC": "September 28, 13:30 UTC",
-        "source": "TechFlow Post",
-        "url": "https://www.techflowpost.com/en-US/newsletter/138060"
+        "headline": "Goldman Sachs kripto altyapısına yaklaşık 100 milyar dolar Hazine fonu getiriyor",
+        "what": "Dünyanın en büyük yatırım bankalarından biri Goldman Sachs, Hazine fonunu tokenlaştırılmış hale getirmeden kripto altyapı firmalarını kullanmaya başladı. Bu geleneksel finans operasyonlarının kripto platformlarına derin entegrasyonunu gösteriyor; büyük bankalar artık kripto altyapısını temel sistem olarak görüyor.",
+        "coins": "N/A (kripto hatlarında fiat araçları)",
+        "timeUTC": "Sept 28, 19:06 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing"
       }
     ],
-    "groups": {}
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC, CFTC'yi takip ederek kripto düzenlemesi hakkında personel rehberliği veriyor",
+          "what": "Kongre'de CLARITY Yasası'nın başarısız olmasının ardından SEC, CFTC'nin zaten yayınladığına benzer şekilde mevcut federal menkul kıymetler kanunlarının kripto token ihraçcılarına nasıl uygulanabileceğini açıklayan personel rehberliğini açıkladı. Bu adım yeni mevzuat olmadan dahi düzenleyicilerin daha net beklentiler belirlediğini gösteriyor.",
+          "coins": "Bütün kripto paralar (düzenleyici etki)",
+          "timeUTC": "Sept 28, 19:45 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail"
+        },
+        {
+          "headline": "Senat Demokratları raporu: Tether USDT, İran'ın gölge bankacılık sistemi için 'hayat kurtarıcı'",
+          "what": "Senat Kalıcı Soruşturma Özel Komitesi'nin yeni raporu, Tether stablecoin'inin (USDT) İran'ın gölge bankacılık ağında merkezi rol oynadığını ve yaptırımları aşmada kullanıldığını iddia ediyor. Bulgular kripto paranın yaptırım ihlalinde kullanılması hakkındaki endişeleri vurgulıyor.",
+          "coins": "USDT, Tether",
+          "timeUTC": "Sept 28, 20:10 UTC (The Block)",
+          "source": "The Block, CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094"
+        },
+        {
+          "headline": "Brezilya öz-saklama kripto transferleri için 10.000 dolar raporlama kuralı getiriyor",
+          "what": "Brezilya merkez bankası, finansal kuruluşların 10.000 dolar eşikle kullanıcı kontrollü cüzdan (öz-saklama) alışverişlerini raporlamasını yetkilendirdi. Kural öz-saklama haklarını saygı gösterirken kripto işlem denetimini artırıyor.",
+          "coins": "Bütün kripto paralar (uyum etki)",
+          "timeUTC": "Sept 28, 19:37 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/brazils-252-billion-crypto-market-gets-10000-self-custody-reporting-rule/"
+        },
+        {
+          "headline": "Rusya yeni düzenleyici çerçevesi altında kripto borsası başvuruları için 5 Ekim tarihini belirliyor",
+          "what": "Rusya yeni onaylanan kurallar altında işletilecek kripto borsalarına başvuruları açtı; son tarih 5 Ekim. Ancak firmalar, her bir varlık türü için perakende tüccarlar tarafından listelenebilmesi için Rusya Merkez Bankası onayı alması gerekiyor.",
+          "coins": "Bitcoin, Ethereum, altcoinler (Rusya düzenleyici çerçeve)",
+          "timeUTC": "Sept 28, 17:36 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-sets-october-5-crypto-exchange-entry-rules-but-investor-access-still-waits/"
+        },
+        {
+          "headline": "Kaliforniya Valisi kamu görevlilerinin memecoin lansman yapmasını yasakladı; dolandırıcılık tazminat kuralları getirdi",
+          "what": "Kaliforniya Valisi Gavin Newsom, eyalet kamu görevlilerinin memecoin lansman yapıp desteklemesini yasaklayan yasayı imzaladı. Eyalet ayrıca kripto yatırımcılarının dolandırıcılıklarda kaybettiği parada tazminat hakkını açıklayan kurallar çıkardı.",
+          "coins": "Memecoinler ve bütün kripto paralar (eyalet düzenleme)",
+          "timeUTC": "Sept 28, 10:39 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-28-california-gov-gavin-newsom-bans-public-officials-from-launching-memecoins-takes-aim-at-trump-416970"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy Haziran'dan beri ilk kez ard arda Bitcoin satın alıyor",
+          "what": "Michael Saylor'un Strategy şirketi 143 milyon dolara karşılık 1.665 Bitcoin satın aldı; Haziran'dan beri ilk ard arda satın alma haftası. Satın alma toplam varlıklarını 847.666 BTC'ye yükseltti; bu 21 milyon Bitcoin arzı sınırının yaklaşık %4'ü, değeri yaklaşık 70 milyar dolar.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 28, 22:33 UTC (CryptoSlate), 13:17 UTC (The Block)",
+          "source": "CryptoSlate, The Block",
+          "url": "https://cryptoslate.com/strategy-makes-first-back-to-back-bitcoin-buys-since-june-as-accumulation-picks-up/"
+        },
+        {
+          "headline": "Strive 94,5 milyon dolar Bitcoin satın alıyor; varlıkları 27.000 BTC'yi geçiyor",
+          "what": "Kripto yatırım firması Strive 94,5 milyon dolara karşılık 1.107 Bitcoin satın aldı; toplam varlıkları yaklaşık 2,3 milyar dolar değerinde 27.462 BTC'ye çıktı. Satın alma %85 oranında Strive Acquisition Corp (SATA) imtiyazlı hisse senediyle finanse edildi; Bitcoin'e güçlü kurumsal sermaye akışını gösteriyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 28, 19:22 UTC (Decrypt), 17:07 UTC (The Block)",
+          "source": "Decrypt, The Block",
+          "url": "https://decrypt.co/379465/strive-buys-94-5-million-in-bitcoin-pushing-holdings-past-27-000-btc"
+        },
+        {
+          "headline": "Tom Lee'nin Bitmine, 17.362 ek eter satın aldıktan sonra 6 milyon ETH'yi geçiyor",
+          "what": "Yatırım firması başkanı Tom Lee'nin kripto aracı Bitmine, 17.362 ETH daha satın alıp 6 milyon Ethereum varlığını aştı. Şirketin toplam kripto, nakit ve diğer yatırımları şimdi 17,2 milyar dolar; Bitmine Ethereum'un dolaşımdaki arzının %4,9'unu üzerinde kontrolüyor.",
+          "coins": "Ethereum",
+          "timeUTC": "Sept 28, 14:39 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-09-28-tom-lees-bitmine-tops-6-million-eth-after-buying-another-17362-ether-416989"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Citi, Coinbase ortaklığını kurumsal stablecoin ödemeleri için genişletiyor",
+          "what": "Citibank mevcut Coinbase ortaklığını Citi'nin kurumsal müşterilerinin Coinbase hesapları üzerinden direkt stablecoin ödemelerini kabul etmesine izin verecek şekilde genişletti. Citi banka haberleşmesini, Coinbase kripto tarafını yönetiyor; işletmeler için doğrudan fiat-stablecoin-fiat ödeme rayı oluşturuyor.",
+          "coins": "USDC, USDT, stablecoinler",
+          "timeUTC": "Sept 28, 18:28 UTC (The Block), 21:29 UTC (Decrypt)",
+          "source": "The Block, Decrypt",
+          "url": "https://www.theblock.co/news/business/2026-09-28-citi-coinbase-stablecoin-payments-corporate-clients-417082"
+        },
+        {
+          "headline": "Franklin Templeton tokenlaştırılmış para piyasası fonları Bybit'te ticaret teminatı oluyor",
+          "what": "Bybit teminat seçeneklerini Franklin Templeton'ın tokenlaştırılmış para piyasası fonu paylarını (Benji token ürünleri) içerecek şekilde genişletti. Uygun kurumlar bu tokenlaştırılmış fonları Bybit'te USDT veya USDC kredi limitleri için rehin verirken, temel alınan fon zincir dışı saklayıcılıkta getiri kazanmaya devam ediyor.",
+          "coins": "USDT, USDC, Benji tokenler",
+          "timeUTC": "Sept 28, 12:06 UTC (CoinDesk), 19:09 UTC (Cointelegraph)",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/business/2026/09/28/crypto-friendly-institution-franklin-templeton-brings-its-tokenized-collateral-service-to-bybit"
+        },
+        {
+          "headline": "Chainlink CCIP 2.0 köprü teknolojisini başlatıyor; kurumlar zincirler arası güvenlik üzerinde daha fazla denetim kazanıyor",
+          "what": "Chainlink Zincirler Arası Birlikte Çalışabilirlik Protokolü (CCIP) 2.0 sürümünü yayınladı; blokzincir uygulamaları ve kurumlar farklı blokzincirleri arasında varlık hareket ettirirken özel güvenlik kontrolleri ekleyebiliyor. Güncelleme rakip bir köprünün (Kelp DAO) hackerler tarafından 292 milyon dolar kaybetmesinden beş ay sonra geliyor.",
+          "coins": "Bütün kripto paralar (zincirler arası altyapı)",
+          "timeUTC": "Sept 28, 13:36 UTC (CoinDesk), 18:57 UTC (Decrypt)",
+          "source": "CoinDesk, Decrypt",
+          "url": "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "THORChain, Bitget'in hacker engellemesi talebini reddediyor; 6 milyon dolar ETH Bitcoin'e dönüştürülüyor",
+          "what": "Bitget hackinden sonra borsa THORChain'den (zincirler arası likidite protokolü) hacker cüzdan adreslerini engellemeyi istedi. THORChain reddetti; kaynak adresine dayalı işlem sansürü politikasına sadık kaldı. Bu sırada hackerler THORChain swap'ları kullanarak yaklaşık 2.390 Ethereum'u 75,2 Bitcoin'e başarıyla hareket ettirdi.",
+          "coins": "Ethereum, Bitcoin",
+          "timeUTC": "Sept 28, 13:19 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin"
+        },
+        {
+          "headline": "Lido'nun 1.500 ETH rezerv hedefi gelecek stETH çekişlerini yavaşlatabilir",
+          "what": "Ethereum staking platformunun baskın oyuncusu Lido 1.500 ETH rezerv tamponu tutuyor. Önerilen (ama henüz uygulanmayan) bir plan, tampon azaldığında para yatırma önceliğini düşürecek ve talep yüksek ile tampon tükendiğinde kullanıcı para çekişlerini yavaşlatabilecek.",
+          "coins": "Ethereum, stETH",
+          "timeUTC": "Sept 28, 21:23 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/lidos-1500-eth-reserve-target-could-slow-steth-withdrawals-in-a-crunch/"
+        }
+      ]
+    }
   },
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Australia CPI September 2026, Wed 30 Sept 01:30 UTC",
-      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
+      "event": "Australia CPI September 2026 — Wed 30 Sept, 01:30 UTC",
+      "typicalReaction": "Yüksek etki ekonomik göstergesi. Enflasyon verisine karşı piyasa oynaklığı bekleyin; büyüme ve faiz oranı beklentileri değişecek."
     },
     {
-      "event": "Core PCE Price Index m/m, Wed 30 Sept 12:30 UTC",
-      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
-    },
-    {
-      "event": "Final GDP q/q, Wed 30 Sept 12:30 UTC",
-      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
-    },
-    {
-      "event": "US Personal Income and Outlays (PCE) September 2026, Wed 30 Sept 12:30 UTC",
-      "typicalReaction": "Yüksek etkili yayın—geleneksel piyasalarda oynaklık bekleyin ve kripto'ya olası damlama bekleyin."
+      "event": "Core PCE Price Index m/m, Final GDP q/q, US Personal Income and Outlays (PCE) — hepsi Wed 30 Sept, 12:30 UTC",
+      "typicalReaction": "Aynı anda çok sayıda yüksek etki ABD ekonomik göstergesi. Hisse senetleri, tahviller, kripto para birimlerinde keskin oynaklık beklenir. ABD Hazine getirilerini önemli ölçüde taşıyabilir; kripto piyasalarına duyarlılık ve risk iştahı üzerinden yayılım yapar."
     }
   ],
   "glossary": [
     {
-      "term": "Genişlik",
-      "definition": "Bir pazarda (bu durumda Binance perpetual'larında) gün içinde yukarı veya aşağı olan paraların yüzdesi. %50'nin üzerinde genişlik geniş tabanlı güç önerir; %50'nin altında geniş tabanlı zayıflık önerir."
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir günde, yükselen kripto para birimlerinin oranı düşenlere karşı. Örneğin pazar genişliği %19 ise, coinlerin sadece %19'u yükselmiş, %81'i düşmüştür—zayıf işaret."
     },
     {
-      "term": "Kriptografik kanıtlar",
-      "definition": "Bir hesaplamanın doğru şekilde yapıldığına dair kompakt matematiksel kanıt; doğrulayıcının hesaplamayı kendileri tekrar çalıştırmasını gerektirmez."
+      "term": "Bitcoin",
+      "definition": "İlk ve en tanınmış kripto para birimi. Herhangi bir hükümet, banka veya şirket tarafından verilmiş ya da kontrol edilmeyen dijital para. Pazar değeri açısından en büyük kripto para birimi."
+    },
+    {
+      "term": "Kripto para birimi",
+      "definition": "İnternet ve blokzincir ağlarında yalnızca var olan dijital para. Hükümetler ya da bankalar tarafından verilmemiş. Bitcoin ve Ethereum en büyük iki kripto para birimidir."
+    },
+    {
+      "term": "Ethereum",
+      "definition": "Pazar değeri açısından ikinci en büyük kripto para birimi. Aynı zamanda bilgisayar programlarını çalıştıran bir blokzincir ağı. İnsanlar Ethereum'a yatırım yapabilir veya ağı merkezi olmayan uygulamalar çalıştırmak için kullanabilir."
     },
     {
       "term": "Finansman oranı",
-      "definition": "Perpetual vadeli işlem sözleşmelerinde uzun ve kısa pozisyon tutan trader'lar arasında dönemsel ödeme. Trader'ları talep dengesini sağlamaya teşvik eder ve mark fiyatını spot fiyata yakın tutmaya yardımcı olur."
+      "definition": "Futures borsalarında tüccarlar arasında ödeme; genellikle her 8 saatte bir. Pozitif olduğunda yükseliş bekleyenler (long) düşüş bekleyenlere (short) öder. Yüksek finansman oranı çoğu tüccarın çok bullish ve long tutmak için ödemeye istekli olduğu anlamına gelir."
     },
     {
-      "term": "Uzun/kısa oranı",
-      "definition": "Uzun (yükseliş) pozisyon tutan trader'lar ile kısa (düşüş) pozisyon tutan trader'ların oranı. 1'in üzerinde oran, şortlardan daha fazla uzun olduğunu gösterir; 1'in altında oran, uzunlardan daha fazla kısa olduğunu gösterir."
+      "term": "Tasfiye",
+      "definition": "Tüccarın kaldıraçlı pozisyonunun parası bitmek üzere iken otomatik kapatılması. Tasfiyeler hızlı gerçekleşir ve fiyatları düşürebilir."
     },
     {
-      "term": "Mark fiyatı",
-      "definition": "Perpetual vadeli işlem sözleşmeleri için kullanılan hesaplanmış adil fiyat; tasfiye basamaklarını önlemek ve altta yatan spot fiyatı yakından izlemek için tasarlanmıştır."
+      "term": "Long pozisyon",
+      "definition": "Varlık fiyatının yükseleceğine bahis. Long pozisyon tutan tüccar fiyat yükselirse kâr eder. Short pozisyonun karşıtı."
     },
     {
-      "term": "Açık pozisyon",
-      "definition": "Bir sözleşme veya borsa genelinde açık uzun ve kısa pozisyonların toplam sayısı. Artan açık pozisyon, artan kaldıraç ve pazar katılımını gösterir; düşen açık pozisyon, trader'ların pozisyonları kapattığını gösterir."
+      "term": "Long-to-short oranı",
+      "definition": "Yükseliş bekleyenler ile düşüş bekleyenlerin oranı. 1'den yüksek oran daha fazla bullish tüccarlar anlamına gelir. 1'den düşük oran daha fazla bearish tüccarlar anlamına gelir."
     },
     {
-      "term": "Açık pozisyon değişikliği",
-      "definition": "Belirli bir zaman döneminde toplam açık pozisyonlardaki net artış veya azalış; piyasadaki kaldıracın genişleyip genişlemediğini veya daraldığını gösterir."
+      "term": "İşaret fiyatı",
+      "definition": "Futures borsalarının yerleşim, marj hesaplaması ve tasfiye için kullandığı resmi fiyat. Genellikle gerçek piyasa fiyatına çok yakındır."
     },
     {
-      "term": "Notasyon hacmi",
-      "definition": "Belirli bir dönemde gerçekleşen işlemlerin toplam notasyon değeri, fiyat para birimi (örneğin USD) cinsinden ölçülür. Daha büyük notasyon hacmi, daha fazla ticaret faaliyetini gösterir."
+      "term": "Açık faiz",
+      "definition": "Bütün tüccarlar tarafından tutulan aktif futures sözleşmelerinin toplam sayısı. Azaldığında tüccarlar pozisyon kapanıyor (sistemde daha az risk). Arttığında tüccarlar yeni pozisyon açıyor (sistemde daha fazla risk)."
     },
     {
-      "term": "Taker alış/satış oranı",
-      "definition": "Agresif trader'lar (taker'lar) arasında satın alma baskısının satış baskısına oranı. 1'in üzerinde oran net satın alma baskısını gösterir; 1'in altında oran net satış baskısını gösterir."
+      "term": "Perpetual",
+      "definition": "Son kullanma tarihi olmayan futures sözleşmesi. Tüccarlar yeterli paraya sahip oldukları sürece pozisyonları süresiz tutabilir. Belli tarihte sona eren düzenli futures'dan farklı."
     },
     {
-      "term": "Sıfır bilgi kanıtı",
-      "definition": "Bir tarafın bilgi parçasını bildiklerini (veya hesaplamanın doğru olduğunu) bilginin kendisini ortaya koymadan kanıtlamasına izin veren kriptografik yöntem."
+      "term": "Short pozisyon",
+      "definition": "Varlık fiyatının düşeceğine bahis. Short pozisyon tutan tüccar fiyat düşerse kâr eder. Long pozisyonun karşıtı."
+    },
+    {
+      "term": "Taker",
+      "definition": "Cari piyasa fiyatını kabul edip hemen satın alan ya da satan tüccar; daha iyi fiyat için beklemiyor. Taker'ler maker'ları aştığında ağır satış baskısı işareti."
+    },
+    {
+      "term": "İşlem hacmi",
+      "definition": "Belirli bir zaman döneminde satın alınan ve satılan kripto para biriminin toplam miktarı; genellikle dolar cinsinden ölçülür. Daha yüksek hacim daha etkin ticareti ve daha fazla likiditeyi anlamına gelir."
     }
   ],
   "_source": "cli-tr",
-  "_from": "95da3a4f14014347"
+  "_from": "d2044e8a8109a726"
 }
