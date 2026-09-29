@@ -1,98 +1,102 @@
 {
-  "oneLine": "Bitcoin fell 1.15% on Monday, September 28, as Trump's rejection of Iran's peace proposal pushed oil prices above $100 and dampened appetite for non-yielding assets; Ethereum was flat.",
-  "caveman": "On Monday, September 28, Bitcoin dropped about 1.15% during the day—from about $84,435 to $83,461. Ethereum barely moved at all. All the trading venues agreed on these prices. The main reason was that President Trump rejected Iran's offer to stop their war for 7 days, so oil prices jumped to over $100 a barrel. Higher oil and higher interest rates made people nervous about risky investments like crypto. Ethereum's founder Vitalik also announced a big long-term plan for what Ethereum will be like in 2030. It was a quiet but downward day.",
-  "priceVolumeSummary": "Bitcoin opened near $84,435 across all venues and closed at $83,461 (down 1.15%); all five exchanges—Binance, Bybit, OKX, Bitget, Gate—converged within $2 of each other. Ethereum remained flat, opening and closing near $2,687. Binance led Bitcoin's daily volume at $13.1 billion in quote terms, followed by OKX at $6.9 billion.",
-  "positioningSummary": "Funding rates, open interest changes, mark prices, long/short ratios, breadth, taker buy/sell ratios, and top-trader positioning data are unavailable for this historical backfill report. We cannot characterize trader positioning on September 28.",
-  "stocksSummary": "Asian equity indices were mixed on September 28. South Korea's Kospi fell 2.12% to 6,930, and China's Shanghai Composite fell 1.74% to 3,821, both weighed by geopolitical tension over Iran and the resulting spike in oil prices. Hong Kong's Hang Seng rose 0.64% to 24,666, and Japan's Nikkei was essentially flat at 66,371. No stock index perps were included in the data pack.",
+  "oneLine": "Bitcoin fell 1.15% on September 28 amid geopolitical tensions and a stronger US dollar, while Ethereum held flat; institutional investors bought $2.45 billion in Bitcoin ETFs despite the decline.",
+  "caveman": "Bitcoin fell 1.15% on Monday to $83,461, while Ethereum barely moved. The reason: President Trump rejected Iran's plan to reopen the Strait of Hormuz, oil prices jumped above $100 per barrel, and the US dollar got stronger—all of which make crypto less attractive. But here's the unusual part: big investors actually bought $2.45 billion in Bitcoin during the day despite the falling price, suggesting they think it will bounce back. Ethereum founder Vitalik also announced an ambitious plan for Ethereum by 2030. It was a worrying day because of falling prices and geopolitical tensions, but institutional buying showed some confidence.",
+  "priceVolumeSummary": "Bitcoin venues agreed on a price decline of roughly 1.15%, with Binance leading volume at $13.1 billion USD. Ethereum held essentially flat across all venues, with Binance leading at $9.7 billion USD.",
+  "positioningSummary": "Bitcoin spot ETFs saw significant inflows of $2.45 billion ($29,300 BTC) on September 28, part of a seven-day buying streak starting September 17, suggesting institutional confidence despite the price decline. Year-to-date Bitcoin ETF flows turned positive at $886.8 million. Funding rates, open interest, mark prices, long/short ratios, taker buy/sell ratios, and market breadth data are unavailable for this backfill period.",
+  "stocksSummary": "",
   "movers": [],
   "news": {
     "topThree": [
       {
-        "headline": "Trump rejects Iran's 7-day peace plan; Brent crude spikes above $100, dampening appetite for non-yielding assets",
-        "what": "President Trump rejected Iran's proposal for a 7-day ceasefire to reopen the Strait of Hormuz. The rejection escalated geopolitical tension, driving Brent crude prices back above $100 per barrel. Higher oil prices and rising bond yields weighed on non-yielding assets like cryptocurrencies, contributing to Bitcoin's 1.15% decline.",
-        "coins": "Bitcoin, Ethereum",
-        "timeUTC": "September 28, 2026",
-        "source": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-28-2026-bitcoin-loses-ground-after-trump-rejects-irans-7-day-plan-113444329.html"
+        "headline": "Trump rejects Iran's seven-day plan to reopen Strait of Hormuz",
+        "what": "President Trump rejected Iran's proposal to reopen the Strait of Hormuz shipping route within seven days, citing skepticism about Iran's commitment. This decision kept the strait closed, driving oil prices above $100 per barrel and strengthening the US dollar. On September 28, the geopolitical tensions and higher oil prices created headwinds for crypto markets as traders shifted to lower-risk assets.",
+        "coins": "BTC, ETH (indirect macro impact)",
+        "timeUTC": "Sept 26 announcement; Sept 28 market reaction",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz"
       },
       {
-        "headline": "Vitalik Buterin outlines Ethereum's evolution into a 'cryptographic world computer' by 2030",
-        "what": "Ethereum co-founder Vitalik Buterin published a major vision paper describing Ethereum's 2030 roadmap. The plan shifts from today's monolithic blockchain to a hybrid architecture combining on-chain consensus with off-chain computation verified via cryptographic proofs, reducing reliance on full node validation. The vision prioritizes privacy, scalability, and zero-knowledge verification.",
-        "coins": "Ethereum",
-        "timeUTC": "September 28, 2026",
-        "source": "Crypto Daily",
-        "url": "https://cryptodaily.co.uk/2026/09/vitalik-buterin-ethereum-cryptographic-world-computer-2030"
-      },
-      {
-        "headline": "Binance Stocks adds five new listings: BRUN, GRML, OCTV, USDE, WSE",
-        "what": "Binance announced the addition of five new stocks to its Binance Stocks platform: Boost Run Inc. (BRUN), Greenland Mines Ltd. (GRML), Octave Intelligence plc (OCTV), StablecoinX Inc. (USDE), and one additional ticker. Trading began September 28 at 13:30 UTC. Upon settlement, the listings qualify for Full Payment Securities Lending.",
-        "coins": "General platform news",
-        "timeUTC": "September 28, 13:30 UTC",
-        "source": "TechFlow Post",
-        "url": "https://www.techflowpost.com/en-US/newsletter/138060"
+        "headline": "Vitalik Buterin outlines Ethereum's 2030 vision as 'cryptographic world computer'",
+        "what": "Ethereum co-founder Vitalik Buterin announced a long-term roadmap for Ethereum by 2030, envisioning the network as a general-purpose computing layer with 4–8 second block times and 1,000x throughput increase. The vision includes zero-knowledge proofs for privacy and expansion beyond finance into social systems. Despite the positive announcement, Ethereum showed minimal price movement on September 28.",
+        "coins": "ETH",
+        "timeUTC": "Sept 27 (published); Sept 28 coverage",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision"
       }
     ],
-    "groups": {}
+    "groups": {
+      "Traditional markets": [
+        {
+          "headline": "Trump rejects Iran's seven-day plan to reopen Strait of Hormuz",
+          "what": "President Trump rejected Iran's proposal to reopen the Strait of Hormuz shipping route within seven days, citing skepticism about Iran's commitment. This decision kept the strait closed, driving oil prices above $100 per barrel and strengthening the US dollar. On September 28, the geopolitical tensions and higher oil prices created headwinds for crypto markets as traders shifted to lower-risk assets.",
+          "coins": "BTC, ETH (indirect macro impact)",
+          "timeUTC": "Sept 26 announcement; Sept 28 market reaction",
+          "source": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
+  "etfFlows": {
+    "date": "2026-09-28",
+    "summary": "US spot Bitcoin ETFs recorded net inflows of 29,300 BTC ($2.45 billion) on September 28, extending a seven-day buying streak that began September 17 and cumulatively attracted $2.98 billion. Year-to-date Bitcoin ETF flows turned positive at $886.8 million, reversing a $5.69 billion outflow in July.",
+    "source": "KuCoin",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-and-ethereum-etfs-see-significant-daily-inflows-on-sept-28"
+  },
   "calendarNotes": [
     {
-      "event": "Australia CPI September 2026, Wed 30 Sept 01:30 UTC",
-      "typicalReaction": "High-impact release—expect volatility in traditional markets and potential spillover to crypto."
+      "event": "Wed 30 Sept, 01:30 UTC: Australia CPI September 2026",
+      "typicalReaction": "High-impact release — expect volatility in traditional markets and spillover to crypto."
     },
     {
-      "event": "Core PCE Price Index m/m, Wed 30 Sept 12:30 UTC",
-      "typicalReaction": "High-impact release—expect volatility in traditional markets and potential spillover to crypto."
-    },
-    {
-      "event": "Final GDP q/q, Wed 30 Sept 12:30 UTC",
-      "typicalReaction": "High-impact release—expect volatility in traditional markets and potential spillover to crypto."
-    },
-    {
-      "event": "US Personal Income and Outlays (PCE) September 2026, Wed 30 Sept 12:30 UTC",
-      "typicalReaction": "High-impact release—expect volatility in traditional markets and potential spillover to crypto."
+      "event": "Wed 30 Sept, 12:30 UTC: Core PCE Price Index m/m, Final GDP q/q, US Personal Income and Outlays",
+      "typicalReaction": "Multiple high-impact US economic data releases — expect elevated volatility across traditional and crypto markets."
     }
   ],
   "glossary": [
     {
-      "term": "Breadth",
-      "definition": "The percentage of coins across a market (in this case, Binance perps) that were up or down for the day. Breadth above 50% suggests broad-based strength; below 50% suggests broad weakness."
+      "term": "Basis",
+      "definition": "In perpetual futures, the difference between the futures price and the spot price."
     },
     {
-      "term": "Cryptographic proofs",
-      "definition": "Compact mathematical evidence that a computation was performed correctly, without requiring the verifier to re-run the computation themselves."
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of assets in a market that rose during the day; high breadth (many assets up) suggests broad market strength."
+    },
+    {
+      "term": "ETF inflows",
+      "definition": "Money institutional investors add to spot Bitcoin or Ethereum ETFs; typically signals institutional confidence and buying demand."
     },
     {
       "term": "Funding rate",
-      "definition": "A periodic payment between traders holding long and short positions on perpetual futures contracts. It incentivizes traders to balance demand and helps keep the mark price close to the spot price."
+      "definition": "In perpetual futures, the periodic interest rate that long positions pay to short positions (or vice versa); indicates market sentiment about future prices."
     },
     {
       "term": "Long/short ratio",
-      "definition": "The proportion of traders holding long (bullish) positions versus short (bearish) positions. A ratio above 1 indicates more longs than shorts; below 1 indicates more shorts than longs."
+      "definition": "The proportion of traders betting prices will rise (long) versus fall (short); a ratio above 1 means more longs than shorts."
     },
     {
       "term": "Mark price",
-      "definition": "A calculated fair price used for perpetual futures contracts, designed to prevent liquidation cascades and closely track the underlying spot price."
+      "definition": "The reference price used for liquidations in perpetual futures, typically tracking spot price closely."
     },
     {
       "term": "Open interest",
-      "definition": "The total number of open long and short positions across a contract or exchange. Rising open interest indicates growing leverage and market participation; falling open interest suggests traders are closing positions."
+      "definition": "The total amount of Bitcoin or Ethereum held in leveraged positions; rising open interest signals new capital entering the market."
     },
     {
       "term": "Open-interest change",
-      "definition": "The net increase or decrease in total open positions over a given time period, indicating whether leverage in the market is expanding or contracting."
+      "definition": "How much total leveraged positions grew or shrank during a time period."
     },
     {
-      "term": "Quote volume",
-      "definition": "The total notional value of trades executed in a given period, measured in the quote currency (e.g., USD). Larger quote volume indicates more trading activity."
+      "term": "Perpetual futures (perps)",
+      "definition": "Contracts that traders buy and sell without expiration, allowing leverage and short selling."
     },
     {
       "term": "Taker buy/sell ratio",
-      "definition": "The ratio of buying pressure to selling pressure among aggressive traders (takers). A ratio above 1 indicates net buying pressure; below 1 indicates net selling pressure."
+      "definition": "The proportion of aggressive buyers versus sellers in recent trades; above 1 means more aggressive buying, below 1 means more aggressive selling."
     },
     {
-      "term": "Zero-knowledge proof",
-      "definition": "A cryptographic method allowing one party to prove they know a piece of information (or that a computation is correct) without revealing the information itself."
+      "term": "Volume",
+      "definition": "The total dollar amount of assets traded across all buyers and sellers during a time period."
     }
   ],
   "_source": "cli"
