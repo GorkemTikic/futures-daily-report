@@ -6,7 +6,7 @@
   "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
   "newsCount": 0,
   "macro": {
-    "BTC": -1.110778184264361,
+    "BTC": -1.1537691727373145,
     "ETH": 0.005209166644957067
   },
   "topMover": {
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "29 Sept 00:00 UTC",
+  "generatedAtUTC": "29 Sept 00:44 UTC",
   "languages": [
     "en"
   ],
