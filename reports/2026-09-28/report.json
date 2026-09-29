@@ -6,13 +6,10 @@
   "oneLine": "On Monday, September 28, Bitcoin fell 1.2% and Ethereum was essentially flat as traders dealt with a major exchange hack, rising Treasury yields from geopolitical tensions, and weak market breadth, though some large institutions bought Bitcoin anyway.",
   "newsCount": 16,
   "macro": {
-    "BTC": -1.1537691727373145,
+    "BTC": -1.158850789522615,
     "ETH": 0.005209166644957067
   },
-  "topMover": {
-    "symbol": "NMRUSDT",
-    "chgPct": 36.37417858523385
-  },
+  "topMover": null,
   "venues": [
     "Binance",
     "Bybit",
@@ -20,7 +17,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "29 Sept 03:44 UTC",
+  "generatedAtUTC": "29 Sept 03:53 UTC",
   "languages": [
     "en",
     "tr",

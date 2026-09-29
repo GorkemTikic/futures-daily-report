@@ -1,20 +1,20 @@
 {
-  "runId": "2026-09-29T03:44:56.373Z",
-  "dateOverride": null,
-  "reuseSynthesis": false,
-  "startedAt": "2026-09-29T03:44:56.373Z",
+  "runId": "2026-09-29T03:53:37.260Z",
+  "dateOverride": "2026-09-28",
+  "reuseSynthesis": true,
+  "startedAt": "2026-09-29T03:53:37.260Z",
   "status": "ok",
-  "finishedAt": "2026-09-29T03:54:09.547Z",
-  "durationSec": 553,
+  "finishedAt": "2026-09-29T03:56:21.432Z",
+  "durationSec": 164,
   "date": "2026-09-28",
-  "live": true,
+  "live": false,
   "window": {
     "label": "2026-09-28 00:00 → 24:00 UTC",
     "startMs": 1790553600000,
     "endMs": 1790639999999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "03:44 UTC"
+    "asOfUTC": "23:59 UTC"
   },
   "sources": {
     "exchanges": {
@@ -48,42 +48,41 @@
       "reason": null
     },
     "news": {
-      "ok": true,
-      "sourcesOnline": [
-        "CoinDesk",
-        "The Block",
-        "Cointelegraph",
-        "CryptoSlate",
-        "Decrypt",
-        "SEC",
-        "Federal Reserve",
-        "CFTC"
-      ],
+      "ok": false,
+      "sourcesOnline": [],
       "failed": [],
-      "count": 51,
-      "backfill": false
+      "count": 0,
+      "backfill": true
     },
     "tradfi": {
-      "ok": true,
-      "reason": null,
-      "requested": true,
-      "backfill": false
+      "ok": false,
+      "reason": "unavailable-for-backfill",
+      "requested": false,
+      "backfill": true
     },
     "stocks": {
-      "ok": true,
-      "reason": null
+      "ok": false,
+      "reason": "unavailable"
     },
     "market": {
-      "ok": true,
+      "ok": false,
       "failed": []
     },
-    "etfFlows": "pending-synthesis",
-    "backfill": null
+    "etfFlows": "unavailable-for-backfill",
+    "backfill": {
+      "unavailable": [
+        "funding",
+        "open interest",
+        "mark price",
+        "news",
+        "traditional markets"
+      ]
+    }
   },
   "synthesis": {
-    "source": "cli",
+    "source": "auto-cache",
     "fellBack": false,
-    "cliOnly": true,
+    "cliOnly": false,
     "errorKind": null
   },
   "languages": [
