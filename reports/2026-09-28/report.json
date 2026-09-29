@@ -7,7 +7,7 @@
   "newsCount": 0,
   "macro": {
     "BTC": -1.1537691727373145,
-    "ETH": 0.08
+    "ETH": 0.005209166644957067
   },
   "topMover": {
     "symbol": "NMRUSDT",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "29 Sept 01:00 UTC",
+  "generatedAtUTC": "29 Sept 01:44 UTC",
   "languages": [
     "en"
   ],
