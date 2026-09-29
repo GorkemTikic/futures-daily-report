@@ -192,6 +192,107 @@ export function trendChart(data, { w = 250, h = 60, label = "BTC", color = "#c24
   </svg>`;
 }
 
+// Funding rate heatmap across venues for BTC and ETH.
+// rows: [{asset, venues: [{venue, fundingAnn}]}]
+export function fundingHeatmap(rows, { w = 520, h = 0 } = {}) {
+  if (!rows || !rows.length) return "";
+  const venues = [...new Set(rows.flatMap((r) => r.venues.map((v) => v.venue)))];
+  if (!venues.length) return "";
+
+  const cellW = 72, cellH = 28, labelW = 50, headerH = 24;
+  const pad = { top: 24, left: labelW + 8, right: 8, bottom: 8 };
+  const gw = venues.length * cellW;
+  const gh = rows.length * cellH;
+  const totalW = Math.max(w, pad.left + gw + pad.right);
+  const totalH = pad.top + headerH + gh + pad.bottom;
+
+  const allVals = rows.flatMap((r) => r.venues.map((v) => v.fundingAnn)).filter((v) => v != null && isFinite(v));
+  const absMax = Math.max(20, ...allVals.map(Math.abs));
+
+  const heatColor = (v) => {
+    if (v == null || !isFinite(v)) return "var(--card)";
+    const t = Math.min(Math.abs(v) / absMax, 1);
+    if (v > 0) return `rgba(15,138,79,${(t * 0.55 + 0.05).toFixed(2)})`;
+    return `rgba(198,43,63,${(t * 0.55 + 0.05).toFixed(2)})`;
+  };
+
+  let svg = "";
+  // Column headers (venue names)
+  venues.forEach((vn, ci) => {
+    const cx = pad.left + ci * cellW + cellW / 2;
+    svg += `<text x="${cx}" y="${pad.top + headerH - 6}" fill="var(--muted)" font-size="8" text-anchor="middle">${esc(vn)}</text>`;
+  });
+  // Rows
+  rows.forEach((row, ri) => {
+    const ry = pad.top + headerH + ri * cellH;
+    svg += `<text x="${pad.left - 6}" y="${(ry + cellH / 2 + 1).toFixed(1)}" fill="var(--ink)" font-size="9" font-weight="600" text-anchor="end">${esc(row.asset)}</text>`;
+    venues.forEach((vn, ci) => {
+      const v = row.venues.find((x) => x.venue === vn);
+      const val = v?.fundingAnn;
+      const cx = pad.left + ci * cellW;
+      svg += `<rect x="${cx + 1}" y="${ry + 1}" width="${cellW - 2}" height="${cellH - 2}" rx="4" fill="${heatColor(val)}"/>`;
+      if (val != null && isFinite(val)) {
+        const txt = (val > 0 ? "+" : "") + val.toFixed(1) + "%";
+        svg += `<text x="${(cx + cellW / 2).toFixed(1)}" y="${(ry + cellH / 2 + 1).toFixed(1)}" fill="var(--ink)" font-size="8.5" font-weight="600" text-anchor="middle" dominant-baseline="middle">${txt}</text>`;
+      } else {
+        svg += `<text x="${(cx + cellW / 2).toFixed(1)}" y="${(ry + cellH / 2 + 1).toFixed(1)}" fill="var(--faint)" font-size="8" text-anchor="middle" dominant-baseline="middle">—</text>`;
+      }
+    });
+  });
+
+  return `<svg viewBox="0 0 ${totalW} ${totalH}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${totalW}px;font-family:'SF Mono',Consolas,monospace;">
+    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">Funding Rate (annualised)</text>
+    ${svg}
+  </svg>`;
+}
+
+// Hourly volume profile — aggregates 5m intraday data into 24 hourly bars.
+// data: [{ts, vol}]
+export function volumeProfile(data, { w = 520, h = 120, label = "BTC", color = "#c2410c" } = {}) {
+  if (!data || data.length < 10) return "";
+  const pad = { top: 22, right: 14, bottom: 24, left: 42 };
+  const cw = w - pad.left - pad.right;
+  const ch = h - pad.top - pad.bottom;
+
+  // Aggregate into 24 hourly buckets
+  const hourly = new Array(24).fill(0);
+  for (const d of data) {
+    if (d.vol != null && d.ts != null) {
+      const hr = new Date(d.ts).getUTCHours();
+      hourly[hr] += d.vol;
+    }
+  }
+  const maxVol = Math.max(...hourly);
+  if (maxVol <= 0) return "";
+
+  const barW = (cw / 24) * 0.75;
+  const gap = (cw / 24) * 0.25;
+
+  let bars = "";
+  for (let hr = 0; hr < 24; hr++) {
+    const bx = pad.left + hr * (barW + gap) + gap / 2;
+    const bh = (hourly[hr] / maxVol) * ch;
+    const by = pad.top + ch - bh;
+    const opacity = hourly[hr] / maxVol * 0.6 + 0.2;
+    bars += `<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${barW.toFixed(1)}" height="${bh.toFixed(1)}" rx="2" fill="${color}" opacity="${opacity.toFixed(2)}"/>`;
+    if (hr % 4 === 0) {
+      bars += `<text x="${(bx + barW / 2).toFixed(1)}" y="${(h - 6).toFixed(1)}" fill="var(--muted)" font-size="7.5" text-anchor="middle">${String(hr).padStart(2, "0")}:00</text>`;
+    }
+  }
+
+  // Y-axis
+  const yTicks = niceAxis(0, maxVol, 3);
+  const yLabels = yTicks.filter((v) => v >= 0 && v <= maxVol * 1.1).map((v) =>
+    `<text x="${pad.left - 4}" y="${(pad.top + ch - (v / maxVol) * ch).toFixed(1)}" fill="var(--muted)" font-size="7.5" text-anchor="end" dominant-baseline="middle">$${fmtK(v)}</text>` +
+    `<line x1="${pad.left}" x2="${w - pad.right}" y1="${(pad.top + ch - (v / maxVol) * ch).toFixed(1)}" y2="${(pad.top + ch - (v / maxVol) * ch).toFixed(1)}" stroke="var(--line2)" stroke-width="0.5"/>`
+  ).join("");
+
+  return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${w}px;font-family:'SF Mono',Consolas,monospace;">
+    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)} — Hourly Volume</text>
+    ${yLabels}${bars}
+  </svg>`;
+}
+
 // Movers quadrant scatter chart — x=log(volume), y=change%.
 // movers: [{symbol, chgPct, volUSD}]
 export function moversQuadrant(movers, { w = 520, h = 200 } = {}) {

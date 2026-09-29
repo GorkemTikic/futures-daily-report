@@ -11,7 +11,7 @@ import { renderPdf } from "../src/pdf.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { intradayPriceChart, intradayOiChart, trendChart, moversQuadrant } from "./charts.js";
+import { intradayPriceChart, intradayOiChart, trendChart, moversQuadrant, fundingHeatmap, volumeProfile } from "./charts.js";
 
 // --- report ownership badge (top-right of every page) ---
 const AVATAR_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "assets", "avatars");
@@ -446,8 +446,22 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   // D3: 45-day trend sparklines
   const btcTrend = cd.trend?.BTC ? trendChart(cd.trend.BTC, { label: "BTC", color: "#c2410c" }) : "";
   const ethTrend = cd.trend?.ETH ? trendChart(cd.trend.ETH, { label: "ETH", color: "#6d51d6" }) : "";
+  // D5: funding rate heatmap from positioning data
+  const fundingRows = [];
+  for (const [asset, key] of [["BTC", "BTC"], ["ETH", "ETH"]]) {
+    const obj = pack.exchanges?.majors?.[key] || {};
+    const venues = Object.values(obj).filter((r) => r && r.ok && r.fundingAnnPct != null)
+      .map((r) => ({ venue: r.venue, fundingAnn: r.fundingAnnPct }));
+    if (venues.length) fundingRows.push({ asset, venues });
+  }
+  const fundingChart = fundingRows.length ? fundingHeatmap(fundingRows) : "";
+
+  // D6: hourly volume profile from intraday 5m data
+  const btcVolProfile = cd.intraday?.BTC ? volumeProfile(cd.intraday.BTC, { label: L.h3.btc, color: "#c2410c" }) : "";
+  const ethVolProfile = cd.intraday?.ETH ? volumeProfile(cd.intraday.ETH, { label: L.h3.eth, color: "#6d51d6" }) : "";
+
   const chartsBlock = (btcPriceChart || ethPriceChart)
-    ? `<div class="page-break"></div><div class="chart-pair">${btcPriceChart}${ethPriceChart}</div>${btcOiChart || ethOiChart ? `<div class="chart-pair">${btcOiChart}${ethOiChart}</div>` : ""}${btcTrend || ethTrend ? `<div class="trend-row">${btcTrend ? `<div>${btcTrend}</div>` : ""}${ethTrend ? `<div>${ethTrend}</div>` : ""}</div>` : ""}`
+    ? `<div class="page-break"></div><div class="chart-pair">${btcPriceChart}${ethPriceChart}</div>${btcOiChart || ethOiChart ? `<div class="chart-pair">${btcOiChart}${ethOiChart}</div>` : ""}${fundingChart ? `<div class="chart-pair">${fundingChart}</div>` : ""}${btcVolProfile || ethVolProfile ? `<div class="chart-row">${btcVolProfile ? `<div>${btcVolProfile}</div>` : ""}${ethVolProfile ? `<div>${ethVolProfile}</div>` : ""}</div>` : ""}${btcTrend || ethTrend ? `<div class="trend-row">${btcTrend ? `<div>${btcTrend}</div>` : ""}${ethTrend ? `<div>${ethTrend}</div>` : ""}</div>` : ""}`
     : "";
 
   const movers = pack.exchanges?.movers || [];
