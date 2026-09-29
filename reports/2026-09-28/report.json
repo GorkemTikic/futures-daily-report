@@ -7,9 +7,12 @@
   "newsCount": 16,
   "macro": {
     "BTC": -1.158850789522615,
-    "ETH": 0.005209166644957067
+    "ETH": 0.007070135746608365
   },
-  "topMover": null,
+  "topMover": {
+    "symbol": "NMRUSDT",
+    "chgPct": 36.37417858523385
+  },
   "venues": [
     "Binance",
     "Bybit",
@@ -17,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "29 Sept 03:53 UTC",
+  "generatedAtUTC": "29 Sept 03:58 UTC",
   "languages": [
     "en",
     "tr",
