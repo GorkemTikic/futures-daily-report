@@ -1,0 +1,211 @@
+{
+  "oneLine": "比特币在9月29日上升0.2%，以太坊下跌0.4%，交易者权衡机构ETF流入与监管不确定性和美国债券收益率上升的影响。",
+  "caveman": "9月29日星期二，比特币和以太坊几乎没有动静——比特币只涨了一点点（0.2%），以太坊只跌了一点点（0.4%）。大约一半的小币种下跌了，说明交易者信心不足。大新闻是重要政府官员离职了，这让加密货币监管变得更难——但美国投资者还是继续通过ETF基金买比特币。石油价格大幅下跌，可能说明人们担心经济形势。这是平静的一天，没有大的崩溃，只是正常的涨跌。",
+  "priceVolumeSummary": "比特币价格在所有五个主要交易所保持一致。币安以远超其他交易所的交易量领先，比特币交易量达103亿美元——超过任何其他交易所的两倍多。",
+  "positioningSummary": "比特币交易者显示适度的乐观情绪，年化资金费率为8.4%。看涨的交易者比看跌的多（比例为1.36:1）。最大的交易者显示远高于平均交易者的看涨信心（比例为1.88:1）。从激进买入与激进卖出来看，卖出者略占优势（taker买/卖比率为0.95）。以太坊交易者比比特币交易者更看涨，多/空比率为2.6:1，但他们也显示出轻微的卖出压力。整体市场宽度几乎完全平衡（49%上升），表明中立情绪略带谨慎。",
+  "stocksSummary": "亚洲科技股上涨：韩国SK海力士和三星电子上升2–4%，一个杠杆三星跟踪基金跳升7%。美国半导体设备制造商（应用材料公司+6%，康宁玻璃+6%）也表现强劲，可能支持该地区芯片制造商的复苏。石油价格大幅下跌（WTI下跌4.4%，布伦特下跌2.9%），这可能表示需求担忧。",
+  "movers": [
+    {
+      "symbol": "USUSDT",
+      "explanation": "没有明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOONUSDT",
+      "explanation": "没有明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "explanation": "没有明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "证券交易委员会和商品期货交易委员会失去委员，监管监督萎缩",
+        "what": "周五后，证券交易委员会和商品期货交易委员会的7个委员职位将保持空缺，只留下监管3万亿美元加密货币行业的金融监管机构的骨干领导。这为监管指导创造了近期不确定性。",
+        "coins": "All crypto",
+        "timeUTC": "Sept 29, 14:33 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/us-sec-cftc-crypto-regulation-few-commissioners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "headline": "比特币ETF流入保持强势，30天内达到29.5亿美元",
+        "what": "美国现货比特币ETF延续了连续8天的流入记录，在过去一个月内总计吸收了29.5亿美元。这表明尽管加密货币市场波动，机构兴趣仍然持续。",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 29, 13:45 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379575/crypto-etfs-surge-bitcoin-adds-nearly-3-billion"
+      },
+      {
+        "headline": "Cboe延长与标普交易协议，为区块链代币化期权打开大门",
+        "what": "Cboe和标普道琼斯将许可协议延续至2051年，保留Cboe对标普500指数期权的独家权利，同时为在区块链基础设施上探索代币化衍生品打开大门。",
+        "coins": "Infrastructure",
+        "timeUTC": "Sept 29, 14:49 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379619/cboes-sp-deal-tokenized-options"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "证券交易委员会指控使用WhatsApp诱骗零售投资者的1500万美元欺诈计划",
+          "what": "证券交易委员会指控多个海外实体使用WhatsApp和其他平台冒充合法投资顾问，欺诈了美国数百名零售投资者。",
+          "coins": "All crypto",
+          "timeUTC": "Sept 29, 11:15 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms"
+        },
+        {
+          "headline": "Tether报告2026年与伊朗相关的USDT冻结达5.5亿美元",
+          "what": "Tether披露，作为2026年制裁执行的一部分，它帮助冻结了近5.5亿美元与伊朗金融网络相关的USDT，尽管某些钱包黑名单处理延迟导致3500万美元最初通过。",
+          "coins": "USDT",
+          "timeUTC": "Sept 29, 12:50 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-claims-550-million-in-iran-freezes-but-35-million-slipped-past-senate/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitwise在纽约证券交易所Arca推出首个美国现货NEAR ETF",
+          "what": "Bitwise的NEAR ETF（代码NRR）开始交易，为传统经纪账户提供对Solana生态AI代币的直接敞口和质押奖励，因为NEAR自8月以来几乎翻了三倍。",
+          "coins": "NEAR",
+          "timeUTC": "Sept 29, 14:42 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379612/bitwise-launches-first-spot-near-etf"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood增加AI代理、永续期货和周末交易",
+          "what": "Robinhood扩展其平台，提供周末交易时段、AI驱动的自动交易代理和杠杆永续期货合约，以竞争更多活跃和专业交易者。",
+          "coins": "BTC, ETH, altcoins",
+          "timeUTC": "Sept 29, 17:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders"
+        },
+        {
+          "headline": "Hut 8获得10亿美元信用额度，需满足40%流动性要求",
+          "what": "比特币矿商Hut 8安排了10亿美元信用额度，但协议要求40%的抵押品保持流动形式——这种结构减少了企业债务，同时使抵押品面临风险。",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 16:57 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hut-8-locks-in-1b-credit-line-but-faces-40-liquidity-rules/"
+        },
+        {
+          "headline": "Blockchain.com提交5亿美元IPO申请，估值最高60亿美元",
+          "what": "这家伦敦加密货币服务公司秘密向证券交易委员会提交了公开上市申请，目标为产品开发筹集5亿美元。",
+          "coins": "Infrastructure",
+          "timeUTC": "Sept 29, 10:07 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/29/blockchain-com-targets-usd500-million-ipo-at-up-to-usd6-billion-valuation"
+        },
+        {
+          "headline": "Aztec在以太坊第二层重新启动zk.money隐私钱包",
+          "what": "Aztec Labs在2023年停用原版后重新推出zk.money，现在在Aztec网络上运行，使用人类可读的支付标签实现私密稳定币交易。",
+          "coins": "Stablecoins, Ethereum",
+          "timeUTC": "Sept 29, 12:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-29-aztec-zk-money-privacy-wallet-ethereum-layer-2-417174"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美国消费者信心跌至10多年来最低水平",
+          "what": "会议委员会消费者信心指数在9月跌至10多年来的最低水平，表明衰退恐惧和对商业和劳动力市场条件即将削弱的预期。",
+          "coins": "All crypto (macro effect)",
+          "timeUTC": "Sept 29, 10:08 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/29/live-updates-bitcoin-rebounds-above-usd84-000-as-treasury-yields-steady"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "交易者未实现利润达21个月高位，警惕比特币回调",
+          "what": "链上分析师CryptoQuant指出，短期交易者对比特币的未实现利润率达到21个月高位，这是历史上与回调风险相关的水平。",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 13:21 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-29-cryptoquant-says-bitcoin-correction-could-near-traders-unrealized-profit-21-month-high-417206"
+        },
+        {
+          "headline": "比特币9月表现创十多年最佳",
+          "what": "比特币在2026年9月上升7.33%，超越2024年9月表现，创下9月份历史最佳纪录。更高的美国国债收益率和上升的油价可能在10月考验动能。",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 13:17 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379549/red-september-curse-over-bitcoin-best-returns-record"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Thu 01 Oct, 12:30 UTC)",
+      "typicalReaction": "对传统市场和美元强势具有高影响；急剧增加的失业申请数据可能表明劳动力市场疲软，如果更广泛的风险情绪转变，可能会影响加密货币。"
+    },
+    {
+      "event": "FOMC Member Waller Speaks (Thu 01 Oct, 14:00 UTC)",
+      "typicalReaction": "美联储官员对通胀和政策的评论强烈推动加密货币价格；预计比特币和山寨币波动性高。"
+    },
+    {
+      "event": "US ISM Manufacturing PMI (Thu 01 Oct, 14:00 UTC)",
+      "typicalReaction": "对传统市场具有高影响；弱势数据表明工业放缓，可能加大衰退忧虑，影响加密货币的风险偏好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "看跌",
+      "definition": "预期价格下跌的情绪或前景。看跌的交易者或市场认为价格可能会下跌。"
+    },
+    {
+      "term": "看涨",
+      "definition": "预期价格上升的情绪或前景。看涨的交易者或市场认为价格可能会上升。"
+    },
+    {
+      "term": "抵押品",
+      "definition": "作为贷款或信用额度担保而质押的资产。如果借款人违约，贷款人可以没收抵押品。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "交易者为持有期货合约多头头寸而支付的成本。以每8小时百分比表示。较高费率意味着交易者更看涨；负费率意味着他们看跌，空头卖方获得报酬。"
+    },
+    {
+      "term": "杠杆",
+      "definition": "借钱交易比自有资本更大的金额。2倍杠杆让你用两倍的钱交易，但收益和损失也翻倍。"
+    },
+    {
+      "term": "做多",
+      "definition": "对价格上升的押注。持有做多头寸的交易者在价格上升时获利。"
+    },
+    {
+      "term": "多空比",
+      "definition": "看涨（做多）交易者与看跌（做空）交易者的比例。1.5:1的比例意味着看涨交易者比看跌交易者多50%。"
+    },
+    {
+      "term": "市场宽度",
+      "definition": "交易所上交易的所有代币中当日上升的百分比。49%意味着大约一半上升，一半下降——一个中立信号。更高的百分比（例如70%）表明广泛的看涨动能。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "期货合约中押注价格变动的总金额。更高的未平仓头寸意味着更多交易者在市场中活跃；快速增加或减少可能表明情绪转变。"
+    },
+    {
+      "term": "做空",
+      "definition": "对价格下跌的押注。持有做空头寸的交易者在价格下跌时获利。"
+    },
+    {
+      "term": "Taker买卖比",
+      "definition": "期货市场中激进买家与激进卖家的比例。高于1.0意味着激进买入多；低于1.0意味着激进卖出多。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "最大交易者（通常按账户规模计的前0.1%）中做多与做空押注的比例。显示最大资金在做什么，与平均交易者分开。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "c25fb0567bc7ae13"
+}

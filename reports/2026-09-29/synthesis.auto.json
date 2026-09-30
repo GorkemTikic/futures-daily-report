@@ -1,0 +1,210 @@
+{
+  "oneLine": "Bitcoin rose 0.2% and Ethereum fell 0.4% on September 29, as traders weighed institutional ETF inflows against regulatory uncertainty and rising US bond yields.",
+  "caveman": "Bitcoin and Ethereum barely moved on Tuesday, September 29 — Bitcoin went up just a tiny bit (0.2%) and Ethereum went down a tiny bit (0.4%). About half the smaller coins went down, showing traders weren't very confident. The big news was that important government officials left their jobs, making it harder to regulate crypto — but American investors kept buying Bitcoin anyway through ETF funds. Oil prices fell sharply, which might mean people are worried about the economy. It was a calm day with no big crashes, just normal ups and downs.",
+  "priceVolumeSummary": "Bitcoin prices stayed consistent across all five major exchanges. Binance led volume by far with $10.3 billion in Bitcoin trades — more than twice the volume of any other exchange.",
+  "positioningSummary": "Bitcoin traders showed moderate optimism with an 8.4% annualized funding rate. More traders overall were betting on prices going up than down (1.36:1 ratio). The largest traders showed much more bullish confidence (1.88:1 ratio) than the average trader. When looking at aggressive buying versus aggressive selling, sellers had a slight edge (taker buy/sell ratio of 0.95). Ethereum traders were more bullish than Bitcoin, with a 2.6:1 long/short ratio, though they also showed slight selling pressure. Overall market breadth was almost exactly even (49% up), signaling neutral sentiment with a hint of caution.",
+  "stocksSummary": "Asian technology stocks rallied: South Korea's SK Hynix and Samsung Electronics rose 2–4%, with a leveraged Samsung tracker jumping 7%. US semiconductor equipment makers (Applied Materials +6%, Corning Glass +6%) also gained strongly, likely supporting the regional chipmaker recovery. Oil prices fell sharply (WTI down 4.4%, Brent down 2.9%), a potential sign of demand concerns.",
+  "movers": [
+    {
+      "symbol": "USUSDT",
+      "explanation": "No clear public cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOONUSDT",
+      "explanation": "No clear public cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "explanation": "No clear public cause.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC and CFTC lose commissioners as regulatory oversight shrinks",
+        "what": "Seven commissioner seats at the SEC and CFTC will remain empty after Friday, leaving only skeleton leadership at the financial regulators who oversee the $3 trillion crypto industry. This creates near-term uncertainty for regulatory guidance.",
+        "coins": "All crypto",
+        "timeUTC": "Sept 29, 14:33 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/us-sec-cftc-crypto-regulation-few-commissioners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "headline": "Bitcoin ETF inflows remain strong at $2.95B over 30 days",
+        "what": "US spot Bitcoin ETFs extended their inflow streak to eight consecutive days, pulling in $2.95 billion total over the past month. This signals sustained institutional interest despite crypto market volatility.",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 29, 13:45 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379575/crypto-etfs-surge-bitcoin-adds-nearly-3-billion"
+      },
+      {
+        "headline": "Cboe extends S&P deal with opening for blockchain tokenized options",
+        "what": "Cboe and S&P Dow Jones renewed their licensing agreement through 2051, preserving Cboe's exclusive rights to S&P 500 index options while opening the door to exploring tokenized derivatives on blockchain infrastructure.",
+        "coins": "Infrastructure",
+        "timeUTC": "Sept 29, 14:49 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379619/cboes-sp-deal-tokenized-options"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC charges $15M fraud schemes using WhatsApp to lure retail investors",
+          "what": "The Securities and Exchange Commission charged multiple overseas entities for defrauding hundreds of retail investors in the US using WhatsApp and other platforms to pose as legitimate investment advisors.",
+          "coins": "All crypto",
+          "timeUTC": "Sept 29, 11:15 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms"
+        },
+        {
+          "headline": "Tether reports $550M in Iran-linked USDT freezes during 2026",
+          "what": "Tether disclosed that it helped freeze nearly $550 million in USDT connected to Iran's financial networks as part of 2026 sanctions enforcement, though some delays in blacklisting certain wallets allowed $35 million to initially pass through.",
+          "coins": "USDT",
+          "timeUTC": "Sept 29, 12:50 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-claims-550-million-in-iran-freezes-but-35-million-slipped-past-senate/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitwise launches first US spot NEAR ETF on NYSE Arca",
+          "what": "Bitwise's NEAR ETF (ticker NRR) began trading, providing traditional brokerage accounts direct exposure to the Solana-based AI token along with staking rewards, as NEAR has nearly tripled since August.",
+          "coins": "NEAR",
+          "timeUTC": "Sept 29, 14:42 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379612/bitwise-launches-first-spot-near-etf"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood adds AI agents, perpetual futures, and weekend trading",
+          "what": "Robinhood is expanding its platform with weekend trading hours, AI-powered automated trading agents, and leveraged perpetual futures contracts to compete for more active and professional traders.",
+          "coins": "BTC, ETH, altcoins",
+          "timeUTC": "Sept 29, 17:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders"
+        },
+        {
+          "headline": "Hut 8 secures $1B credit line with 40% liquidity requirements",
+          "what": "Bitcoin miner Hut 8 arranged a $1 billion credit facility, though the agreement requires 40% of collateral to remain in liquid form — a structure that reduces corporate debt while keeping collateral at risk.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 16:57 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hut-8-locks-in-1b-credit-line-but-faces-40-liquidity-rules/"
+        },
+        {
+          "headline": "Blockchain.com files for $500M IPO at up to $6B valuation",
+          "what": "The London-based crypto services company confidentially filed for a public listing with the SEC, targeting $500 million in proceeds to accelerate product development.",
+          "coins": "Infrastructure",
+          "timeUTC": "Sept 29, 10:07 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/29/blockchain-com-targets-usd500-million-ipo-at-up-to-usd6-billion-valuation"
+        },
+        {
+          "headline": "Aztec relaunches zk.money privacy wallet on Ethereum Layer 2",
+          "what": "Aztec Labs brought back zk.money after discontinuing the original in 2023, now running on Aztec Network to enable private stablecoin transactions using human-readable payment tags.",
+          "coins": "Stablecoins, Ethereum",
+          "timeUTC": "Sept 29, 12:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-29-aztec-zk-money-privacy-wallet-ethereum-layer-2-417174"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US consumer confidence hits lowest level in 10+ years",
+          "what": "The Conference Board's Consumer Confidence Index fell to its lowest level in over a decade in September, signaling recession fears and expectations of weakening business and labor market conditions ahead.",
+          "coins": "All crypto (macro effect)",
+          "timeUTC": "Sept 29, 10:08 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/29/live-updates-bitcoin-rebounds-above-usd84-000-as-treasury-yields-steady"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin correction warning as traders' unrealized profit hits 21-month high",
+          "what": "On-chain analyst CryptoQuant noted that short-term traders' unrealized profit margin on Bitcoin reached a 21-month peak, a level historically associated with pullback risk.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 13:21 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-29-cryptoquant-says-bitcoin-correction-could-near-traders-unrealized-profit-21-month-high-417206"
+        },
+        {
+          "headline": "Bitcoin on track for best September in over a decade",
+          "what": "Bitcoin has gained 7.33% in September 2026, surpassing 2024's September performance for the best month of September on record. Higher US Treasury yields and rising oil prices could test momentum in October.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 13:17 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379549/red-september-curse-over-bitcoin-best-returns-record"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Thu 01 Oct, 12:30 UTC)",
+      "typicalReaction": "High-impact for traditional markets and USD strength; sharp claims data can signal labor market weakness and spill into crypto if broader risk sentiment shifts."
+    },
+    {
+      "event": "FOMC Member Waller Speaks (Thu 01 Oct, 14:00 UTC)",
+      "typicalReaction": "Federal Reserve officials' comments on inflation and policy strongly move crypto prices; expect high volatility in Bitcoin and altcoins."
+    },
+    {
+      "event": "US ISM Manufacturing PMI (Thu 01 Oct, 14:00 UTC)",
+      "typicalReaction": "High-impact for traditional markets; a weak reading signals industrial slowdown and can increase recession concerns, affecting risk appetite in crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Bearish",
+      "definition": "Sentiment or outlook that expects prices to fall. A bearish trader or market believes prices are likely to go down."
+    },
+    {
+      "term": "Bullish",
+      "definition": "Sentiment or outlook that expects prices to rise. A bullish trader or market believes prices are likely to go up."
+    },
+    {
+      "term": "Collateral",
+      "definition": "Assets put up as security for a loan or credit facility. If the borrower defaults, the lender can take the collateral."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The cost traders pay to hold long positions in a futures contract. Expressed as a percentage per 8-hour period. Higher rates mean traders are more bullish; negative rates mean they're bearish and short-sellers are getting paid."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowing money to trade larger amounts than your own capital. A 2x leverage lets you trade with double your money but doubles both gains and losses."
+    },
+    {
+      "term": "Long",
+      "definition": "A bet that the price will go up. A trader holding a long position profits if the price rises."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of traders betting up (long) to traders betting down (short). A 1.5:1 ratio means 50% more traders are bullish than bearish."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of all coins trading on an exchange that went up on the day. 49% means about half went up and half went down — a neutral signal. Higher percentages (e.g., 70%) suggest broad bullish momentum."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total amount of money bet on price moves in futures contracts. Higher open interest means more traders are active in the market; rapid increases or decreases can signal shifting sentiment."
+    },
+    {
+      "term": "Short",
+      "definition": "A bet that the price will go down. A trader holding a short position profits if the price falls."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buyers to aggressive sellers in a futures market. Above 1.0 means more aggressive buying; below 1.0 means more aggressive selling."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The ratio of long to short bets among the largest traders (usually the top 0.1% by account size). Shows what the biggest money is doing, separate from the average trader."
+    }
+  ],
+  "_source": "cli"
+}

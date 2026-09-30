@@ -1,0 +1,211 @@
+{
+  "oneLine": "29 Eylül'de Bitcoin %0,2 artarken Ethereum %0,4 geriledi; kurumsal ETF alımları ve düzenleyici belirsizlik arasında denge oluştu, ABD tahvil getirileri de yükseldi.",
+  "caveman": "29 Eylül Salı günü Bitcoin ve Ethereum pek fazla hareket etmedi — Bitcoin sadece çok az yükseldi (%0,2) ve Ethereum sadece çok az düştü (%0,4). Daha küçük kripto paralarının yarısı aşağı indi; bu da tüccarların pek güvenli olmadığını gösterir. En önemli haber: hükümetin önemli görevlileri işten ayrıldı, kripto para düzenlemesini zorlaştırıyor — ama Amerikalı yatırımcılar ETF fonları ile Bitcoin almaya devam etti. Petrol fiyatları keskin düştü, bu da insanların ekonomi konusunda endişeli olabileceklerini gösterir. Sakin bir gün oldu, büyük kriz yok, sadece normal inişler ve çıkışlar.",
+  "priceVolumeSummary": "Bitcoin fiyatları beş ana borsada tutarlı kaldı. Binance hacim açısından baskındı, $10,3 milyar Bitcoin işlemini gerçekleştirdi — başka bir borsanın hacminin iki katından fazlası.",
+  "positioningSummary": "Bitcoin tüccarları %8,4 yıllıklandırılmış finansman oranı ile orta düzey iyimserlik gösterdiler. Genel olarak daha fazla tüccar fiyatların düşmesine karşı yükselmesine bahis oynadı (1,36:1 oranı). En büyük tüccarlar, ortalama tüccara kıyasla çok daha fazla yükseliş güveni gösterdiler (1,88:1 oranı). Agresif alım ve agresif satış karşılaştırıldığında, satıcıların hafif üstünlüğü vardı (alıcı/satıcı oranı 0,95). Ethereum tüccarları Bitcoin'den daha yükseliş eğilimli oldular (2,6:1 uzun/kısa oranı), ancak hafif satış baskısı da gösterdiler. Genel piyasa genişliği neredeyse tam olarak dengeli idi (%49 yukarı), tarafsız duyarlılık ile hafif bir ihtiyat işareti gönderdi.",
+  "stocksSummary": "Asya teknoloji hisseleri yükselişe geçti: Güney Kore'nin SK Hynix ve Samsung Electronics %2–4 yükseldi, kaldıraçlı Samsung izleyicisi %7 sıçradı. ABD yariiletken ekipman üreticileri (Applied Materials +%6, Corning Glass +%6) da güçlü şekilde kazanç elde etti, büyük olasılıkla bölgesel çip üreticisi iyileşmesini destekledi. Petrol fiyatları keskin düştü (WTI %4,4 düştü, Brent %2,9 düştü), olası talep endişelerinin bir işareti.",
+  "movers": [
+    {
+      "symbol": "USUSDT",
+      "explanation": "Açık bir haber kaynağı yoktur.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOONUSDT",
+      "explanation": "Açık bir haber kaynağı yoktur.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "explanation": "Açık bir haber kaynağı yoktur.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC ve CFTC komisyoncuları kaybederken düzenleyici gözetim azalıyor",
+        "what": "Cuma günü sonra SEC ve CFTC'de yedi komisyoncu koltuğu boş kalacak, $3 trilyon kripto endüstrisini denetleyen mali düzenleyicilerde sadece iskelet liderlik kalacak. Bu, düzenleyici rehberlik için kısa vadeli belirsizlik yaratır.",
+        "coins": "Tüm kripto paralar",
+        "timeUTC": "Sept 29, 14:33 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/us-sec-cftc-crypto-regulation-few-commissioners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "headline": "Bitcoin ETF girişleri 30 gün içinde $2,95B'de güçlü kalıyor",
+        "what": "ABD spot Bitcoin ETF'leri alış akışını sekiz ardışık güne uzattı, geçen ay toplamda $2,95 milyar çekerek kurumsal ilginin kripto piyasası oynaklığına rağmen devam ettiğini gösteriyor.",
+        "coins": "Bitcoin",
+        "timeUTC": "Sept 29, 13:45 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379575/crypto-etfs-surge-bitcoin-adds-nearly-3-billion"
+      },
+      {
+        "headline": "Cboe, blockchain tokenize seçenekleri için açılış ile S&P anlaşmasını uzatıyor",
+        "what": "Cboe ve S&P Dow Jones, anlaşmalarını 2051'e kadar yeniledi, Cboe'nin S&P 500 endeks seçeneklerine münhasır haklarını korurken, blockchain altyapısında tokenize türevleri keşfetme kapısını açıyor.",
+        "coins": "Altyapı",
+        "timeUTC": "Sept 29, 14:49 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/379619/cboes-sp-deal-tokenized-options"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC, WhatsApp kullanarak perakende yatırımcıları kandıran $15M dolandırıcılık planlarını suçluyor",
+          "what": "Menkul Kıymetler ve Borsa Komisyonu, ABD'de yüzlerce perakende yatırımcıyı kandırmak için WhatsApp ve diğer platformları kullanarak meşru yatırım danışmanları gibi davranan birden fazla denizaşırı kuruluşu suçladı.",
+          "coins": "Tüm kripto paralar",
+          "timeUTC": "Sept 29, 11:15 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms"
+        },
+        {
+          "headline": "Tether, 2026'da İran bağlantılı USDT'de $550M dondurmayı bildiriyor",
+          "what": "Tether, 2026 yapılan müeyyideler uygulaması kapsamında İran'ın mali ağları ile bağlantılı neredeyse $550 milyon USDT'yi dondurduğunu açıkladı, ancak belirli cüzdanları kara listeye alma konusundaki bazı gecikmeler başlangıçta $35 milyon geçmesine izin verdi.",
+          "coins": "USDT",
+          "timeUTC": "Sept 29, 12:50 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-claims-550-million-in-iran-freezes-but-35-million-slipped-past-senate/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitwise, NYSE Arca'da ilk ABD spot NEAR ETF'sini başlatıyor",
+          "what": "Bitwise'ın NEAR ETF'si (ticker NRR) işlem gören, geleneksel aracılık hesaplarına Solana tabanlı AI token'e doğrudan maruz kalma ve staking ödülleri sağlıyor, çünkü NEAR Ağustos'tan bu yana neredeyse üç katına çıktı.",
+          "coins": "NEAR",
+          "timeUTC": "Sept 29, 14:42 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379612/bitwise-launches-first-spot-near-etf"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood, yapay zeka ajanları, kalıcı vadeli işlemler ve hafta sonu ticareti ekliyor",
+          "what": "Robinhood platformunu hafta sonu işlem saatleri, yapay zeka destekli otomatik ticaret ajanları ve kaldıraçlı kalıcı vadeli işlem sözleşmeleri ile genişletiyor; daha aktif ve profesyonel tüccarları çekmek için rekabet ediyor.",
+          "coins": "BTC, ETH, altcoin'ler",
+          "timeUTC": "Sept 29, 17:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders"
+        },
+        {
+          "headline": "Hut 8, %40 likidite gereksinimleriyle $1B kredi hattı güvence altına alıyor",
+          "what": "Bitcoin madencisi Hut 8, $1 milyar kredi tesisi düzenledi, ancak anlaşma teminata %40'ının likid durumda kalmasını gerektiriyor — kurumsal borcu azaltan ancak teminatı riske atan bir yapı.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 16:57 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hut-8-locks-in-1b-credit-line-but-faces-40-liquidity-rules/"
+        },
+        {
+          "headline": "Blockchain.com, $6B değerlemede $500M IPO'su için dosya açıyor",
+          "what": "Londra merkezli kripto hizmetleri şirketi, ürün geliştirmeyi hızlandırmak için $500 milyon geliri hedefleyerek SEC'e gizli dosya açtı.",
+          "coins": "Altyapı",
+          "timeUTC": "Sept 29, 10:07 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/29/blockchain-com-targets-usd500-million-ipo-at-up-to-usd6-billion-valuation"
+        },
+        {
+          "headline": "Aztec, zk.money gizlilik cüzdanını Ethereum Layer 2'de yeniden başlatıyor",
+          "what": "Aztec Labs, orijinalini 2023'te sonlandırdıktan sonra zk.money'i geri getirdi, şimdi Aztec Network'te çalışıyor ve insanlar tarafından okunabilir ödeme etiketlerini kullanarak özel stablecoin işlemlerini etkinleştiriyor.",
+          "coins": "Stablecoin'ler, Ethereum",
+          "timeUTC": "Sept 29, 12:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-09-29-aztec-zk-money-privacy-wallet-ethereum-layer-2-417174"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD tüketici güveni 10+ yılın en düşük seviyesine çıkıyor",
+          "what": "Conference Board'un Tüketici Güveni Endeksi, Eylül'de 10 yıldan fazla bir sürenin en düşük seviyesine düştü, durgunluk endişelerini ve ileriye dönük zayıflayan iş ve işgücü piyasası koşullarının beklentilerini işaret ediyor.",
+          "coins": "Tüm kripto paralar (makro etki)",
+          "timeUTC": "Sept 29, 10:08 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/29/live-updates-bitcoin-rebounds-above-usd84-000-as-treasury-yields-steady"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Tüccarların gerçekleştirilmemiş kar 21 aylık en yüksek seviyeye çıktıkça Bitcoin düzeltme uyarısı",
+          "what": "Zincir üstü analist CryptoQuant, kısa vadeli tüccarların Bitcoin'deki gerçekleştirilmemiş kar marjının 21 aylık zirveye ulaştığını, bu seviyenin tarihsel olarak geri çekilme riskiyle ilişkili olduğunu belirtti.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 13:21 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-29-cryptoquant-says-bitcoin-correction-could-near-traders-unrealized-profit-21-month-high-417206"
+        },
+        {
+          "headline": "Bitcoin, on yıldan fazla bir sürenin en iyi Eylül ayı yolunda",
+          "what": "Bitcoin, Eylül 2026'da %7,33 kazanç elde etti, 2024'ün Eylül performansını aşarak, belirli bir tarihteki Eylül ayının en iyi ayı rekorunu kırdı. Daha yüksek ABD Hazine getirileri ve artan petrol fiyatları Ekim'de momentumu test edebilir.",
+          "coins": "Bitcoin",
+          "timeUTC": "Sept 29, 13:17 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379549/red-september-curse-over-bitcoin-best-returns-record"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Thu 01 Oct, 12:30 UTC)",
+      "typicalReaction": "Geleneksel piyasalar ve USD gücü için yüksek etki; keskin talep verileri işgücü piyasası zayıflığını işaret edebilir ve daha geniş risk duyarlılığı değişirse kripto paranaya yayılabilir."
+    },
+    {
+      "event": "FOMC Member Waller Speaks (Thu 01 Oct, 14:00 UTC)",
+      "typicalReaction": "Federal Reserve yetkililerinin enflasyon ve politika hakkındaki yorumları kripto fiyatlarını güçlü bir şekilde hareket ettirir; Bitcoin ve altcoin'lerde yüksek oynaklık bekleyin."
+    },
+    {
+      "event": "US ISM Manufacturing PMI (Thu 01 Oct, 14:00 UTC)",
+      "typicalReaction": "Geleneksel piyasalar için yüksek etki; zayıf bir okuma endüstriyel yavaşlamayı işaret eder ve durgunluk endişelerini artırabilir, kripto paranada risk iştahını etkiler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Düşüş eğilimi",
+      "definition": "Fiyatların düşmesini bekleyen duyarlılık veya görünüm. Düşüş eğilimli bir tüccar veya piyasa, fiyatların düşmesinin muhtemel olduğuna inanır."
+    },
+    {
+      "term": "Yükseliş eğilimi",
+      "definition": "Fiyatların yükselmesini bekleyen duyarlılık veya görünüm. Yükseliş eğilimli bir tüccar veya piyasa, fiyatların yükselmesinin muhtemel olduğuna inanır."
+    },
+    {
+      "term": "Teminat",
+      "definition": "Bir kredi veya kredi tesisi için güvenlik olarak konan varlıklar. Borçlu temerrüde düşerse, borç veren teminatı alabilir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Tüccarların vadeli işlem sözleşmesinde uzun pozisyonları tutması için ödedikleri maliyet. Her 8 saatlik dönem için yüzde cinsinden ifade edilir. Daha yüksek oranlar, tüccarların daha yükseliş eğilimli olduğu anlamına gelir; negatif oranlar, düşüş eğilimli olduğu ve kısa satıcıların para aldığı anlamına gelir."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Kendi sermayenizden daha büyük miktarları işlem yapmak için para ödünç almak. 2x kaldıraç, paranızın iki katı ile işlem yapmanızı sağlar ancak kazanç ve kayıpları da ikiye katlar."
+    },
+    {
+      "term": "Uzun pozisyon",
+      "definition": "Fiyatın yükselmesine bahse girmek. Uzun pozisyon tutan bir tüccar, fiyat yükselirse kar elde eder."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Yukarı bahse girenler (uzun) ve aşağı bahse girenler (kısa) arasındaki oran. 1,5:1 oranı, yükseliş eğilimli tüccarların düşüş eğilimli tüccarlardan %50 daha fazla olduğu anlamına gelir."
+    },
+    {
+      "term": "Piyasa genişliği",
+      "definition": "Bir borsada işlem gören tüm paralardan günde yükselenlerin yüzdesi. %49, yaklaşık yarısı yükseldi ve yarısı düştü anlamına gelir — tarafsız bir işaret. Daha yüksek yüzdeler (örneğin %70) geniş yükseliş momentumunu önerir."
+    },
+    {
+      "term": "Açık pozisyon hacmi",
+      "definition": "Vadeli işlem sözleşmelerinde fiyat hareketlerine bahse giren toplam para miktarı. Daha yüksek açık pozisyon hacmi, daha fazla tüccara piyasada aktif olduğu anlamına gelir; hızlı artış veya azalış, duyarlılığın değişmesini işaret edebilir."
+    },
+    {
+      "term": "Kısa pozisyon",
+      "definition": "Fiyatın düşmesine bahse girmek. Kısa pozisyon tutan bir tüccar, fiyat düşerse kar elde eder."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Bir vadeli işlem piyasasında agresif alıcıların agresif satıcılara oranı. 1,0'ın üzerinde daha agresif alım; 1,0'ın altında daha agresif satış anlamına gelir."
+    },
+    {
+      "term": "En büyük tüccarlar uzun/kısa oranı",
+      "definition": "En büyük tüccarlar (genellikle hesap boyutuna göre ilk %0,1) arasındaki uzun/kısa bahislerinin oranı. En büyük paranın ne yaptığını gösterir, ortalama tüccara ayrı olarak."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "c25fb0567bc7ae13"
+}

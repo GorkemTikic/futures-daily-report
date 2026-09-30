@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-29T03:59:06.681Z",
-  "count": 104,
+  "generatedAt": "2026-09-30T00:07:23.244Z",
+  "count": 105,
   "counts": {
-    "total": 104,
-    "market": 17,
+    "total": 105,
+    "market": 18,
     "divergence": 87,
     "degraded": 1
   },
-  "latest": "2026-09-28",
+  "latest": "2026-09-29",
   "reports": [
+    {
+      "date": "2026-09-29",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.21303082476955212,
+        "ETH": -0.3876
+      },
+      "marketSummary": "Bitcoin rose 0.2% and Ethereum fell 0.4% on September 29, as traders weighed institutional ETF inflows against regulatory uncertainty and rising US bond yields.",
+      "oneLine": "Bitcoin rose 0.2% and Ethereum fell 0.4% on September 29, as traders weighed institutional ETF inflows against regulatory uncertainty and rising US bond yields.",
+      "newsCount": 13,
+      "topMover": {
+        "symbol": "USUSDT",
+        "chgPct": -44.71584432502849
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-29/summary_2026-09-29.html",
+        "pdf": "reports/2026-09-29/summary_2026-09-29.pdf",
+        "md": "reports/2026-09-29/summary_2026-09-29.md"
+      }
+    },
     {
       "date": "2026-09-28",
       "kind": "market",

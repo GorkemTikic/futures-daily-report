@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-29",
+  "kind": "market",
+  "dateLong": "Tuesday, 29 September 2026",
+  "coversUTC": "2026-09-29 00:00–23:59 UTC",
+  "oneLine": "Bitcoin rose 0.2% and Ethereum fell 0.4% on September 29, as traders weighed institutional ETF inflows against regulatory uncertainty and rising US bond yields.",
+  "newsCount": 13,
+  "macro": {
+    "BTC": 0.21303082476955212,
+    "ETH": -0.3876
+  },
+  "topMover": {
+    "symbol": "USUSDT",
+    "chgPct": -44.71584432502849
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "30 Sept 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
