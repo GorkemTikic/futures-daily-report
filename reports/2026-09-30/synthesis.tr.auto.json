@@ -1,33 +1,227 @@
 {
-  "oneLine": "5 platformda pazar verileri toplandı; bu çalışmada haber sentezi mevcut değildir.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Otomatik açıklama bu çalışmada mevcut değildir — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakınız.",
-  "stocksSummary": "",
+  "oneLine": "30 Eylül'de Bitcoin hafif düşüş yaşarken kripto pazar %2,7 oranında geriletirken, ekonomik veri yayınlamaları ve düzenleyici gelişmeler etkili oldu.",
+  "caveman": "30 Eylül'de Bitcoin çok az düştü, Ethereum ise biraz yükseldi. Bütün kripto pazar yaklaşık %2,7 düştü ama bunlar küçük fiyat değişiklikleriydi, sessiz bir gün yaşandı. İnsanlar enflasyon raporlarına ve Federal Rezerv'in (ABD'nin faiz oranlarını kontrol eden kurum) bundan sonra ne yapacağına dikkat ediyordu. Yarın işsizlik raporunun sonuçları açıklanacak ve bunu ekonomi için ne anlama geldiğini anlamak için takip ediyorlar.",
+  "priceVolumeSummary": "Bitcoin 83.577 dolardan kapandı ve 14,9 milyar dolar işlem hacmi gördü, Ethereum ise 2.685 dolardan kapandı ve 8,8 milyar dolar işlem hacmi gördü. Fiyatlar büyük borsalarda tutarlıydı ve birbirinden 10 dolar farklı kalmadı.",
+  "positioningSummary": "Bitcoin ve Ethereum'daki finansman oranları, yıllıklandırıldığında %6-7 civarında pozitif kaldı, bu da long'ların short'lara ödeme yaptığını gösteriyor. Bitcoin'in açık ilgisi %3,1 arttı, Ethereum'unki ise %1,5 arttı, bu da türev işlem etkinliğinin arttığını gösteriyor. Büyük tüccarlar her iki varlıkta da long pozisyonlarını short pozisyonlarından daha fazla tuttu, en iyi tüccarların long/short oranı Bitcoin için 1,93 ve Ethereum için 1,55'ti. Alış ve satış baskısı kabaca dengeliydi ve altcoinlerin %58'i gün içinde daha yüksek işlem gördü.",
+  "stocksSummary": "Asya yarıiletken stokları gün içinde %1-4 oranında düştü, Güney Koreli çipmaker'lar SK Hynix ve Samsung yaklaşık %1,4-1,8 düştü, Hong Kong teknoloji hisseleri GigaDevice ve Samsung kaldıraçlı ürünleri %3-4 düştü. Petrol fiyatları mütevazı bir şekilde yükseldi (Brent Crude %2,2 yükseldi, WTI %1,2 yükseldi) altın %0,8 düştü. ABD hisse senetleri karışıktı, Nasdaq %0,28 yükselirken S&P 500 %0,21 düştü.",
   "movers": [
     {
       "symbol": "MOVRUSDT",
-      "explanation": "Bu çalışmada açıklama mevcut değildir.",
+      "explanation": "Açık bir kamu nedeni tanımlanamadı.",
       "hasCause": false
     },
     {
       "symbol": "USUSDT",
-      "explanation": "Bu çalışmada açıklama mevcut değildir.",
+      "explanation": "Açık bir kamu nedeni tanımlanamadı.",
       "hasCause": false
     },
     {
       "symbol": "龙虾USDT",
-      "explanation": "Bu çalışmada açıklama mevcut değildir.",
+      "explanation": "Açık bir kamu nedeni tanımlanamadı.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "Bitcoin $85.000 kırılımını tutturamadı; tahvil getirisi artışı sorumlu tutuluyor",
+        "what": "Bitcoin ekonomik veriler yayınlandıktan sonra kısaca $85.630'a yükseldi ancak tahvil getirileri çıkınca geri çekildi. Tüccarlar UTC saat 12:30'da yayınlanan enflasyon verisi ve ekonomik raporlara tepki olarak ABD faiz oranı beklentilerine ilişkin endişeleri öne sürdüler.",
+        "coins": "Bitcoin, altcoinler",
+        "timeUTC": "2026-09-30 19:10 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-fails-to-sustain-85000-breakout-and-bond-yield-spikes-are-blamed/"
+      },
+      {
+        "headline": "Clarity Act başarısızlığı kripto'ya 'daha hızlı' düzenleyici kazanımlar sağladı, Bitwise CIO'su diyor",
+        "what": "Clarity Act Senato'da takıldığı için, endüstri gözlemcileri kripto sektörünün yasama bekleme yerine SEC'ten daha hızlı düzenleyici hareketi aldığını söylüyor. Bitwise'ın Matt Hougan, başarısızlığın endüstri için genel olarak daha az kısıtlama ile sonuçlanabileceğini belirtti.",
+        "coins": "Geniş pazar",
+        "timeUTC": "2026-09-30 22:59 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-30-clarity-acts-failure-gave-crypto-faster-regulatory-wins-bitwise-says-417362"
+      },
+      {
+        "headline": "Bitget hackerleri 4 milyon doları Zcash gizlilik havuzuna taşıyor, paranın izini sürmek zorlaşıyor",
+        "what": "$387,5 milyon Bitget ihlalinde çalınan Zcash'in yaklaşık %15'i, işlem detaylarının halkın görmesinden gizli olduğu Zcash'in Ironwood gizlilik havuzuna taşındı. Bu, saldırganların diğer protokoller aracılığıyla fonları değiştirme girişimlerinin başarısız olmasının ardından gerçekleşti.",
+        "coins": "Zcash, Bitget borsası",
+        "timeUTC": "2026-09-30 13:24 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/30/bitget-hackers-move-usd4-million-into-zcash-s-private-pool-making-funds-harder-to-trace"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC, Fundsz dolandırıcılık davasında sanıklara karşı 30 milyon dolardan fazla karar aldı",
+          "what": "Emtia Vadeli İşlem Ticaret Komisyonu, Fundsz adlı kripto dolandırıcılık projesinde katılımcılara karşı mahkeme kararı aldı. Bu dava, hileli kripto operatörleri aleyhine devam eden yaptırım işlemini temsil ediyor.",
+          "coins": "Fundsz protokolü",
+          "timeUTC": "2026-09-30 21:43 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-cftc-secures-over-30-million-judgment-against-defendants-in-fundsz-fraud-case-417365"
+        },
+        {
+          "headline": "Coinbase tarafından desteklenen grup, Clarity Act çöktükten sonra ara seçim desteklerini duyurdu",
+          "what": "Coinbase tarafından desteklenen bir savunuculuk grubu olan Stand With Crypto, Clarity Act geçemeyen sonrasında ilk Senato desteklerini duyurdu. Grup, Cumhuriyetçi Jon Husted ve Ashley Hinson ile Demokrat Chris Pappas'ı destekliyor.",
+          "coins": "Geniş pazar",
+          "timeUTC": "2026-09-30 21:37 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379767/coinbase-crypto-group-senate-midterm-endorsements-clarity-act"
+        },
+        {
+          "headline": "CFTC, Beyaz Saray'a tahmin pazarları üzerindeki kontrolünü sağlamlaştırmak için yeni kurallar gönderiyor",
+          "what": "CFTC, tahmin pazarı olay sözleşmeleri üzerinde münhasır yetki kurma amacıyla Beyaz Saray'a iki önerilen kural tanımını sundu. Kurallar belirli sözleşmeleri 'takas' olarak sınıflandırırken kumarhane tarzı oyun ürünlerini hariç tutuyor.",
+          "coins": "Kalshi (tahmin pazarları)",
+          "timeUTC": "2026-09-30 20:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379750/cftc-sends-white-house-new-rules-to-cement-its-grip-on-prediction-markets"
+        },
+        {
+          "headline": "Kripto endüstrisi, sonunda başarısız olan Clarity Act lobisi çabası için 8 milyon dolar harcadı",
+          "what": "Kripto sektörü, 2026'nın ilk yarısında açık pazar yapı kuralları kurmayı amaçlayan bir yasa olan Clarity Act için lobiye 8 milyon dolar harcadı. Yasama girişimi, yasa Senato'da takıldığında başarısız oldu.",
+          "coins": "Geniş pazar",
+          "timeUTC": "2026-09-30 18:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/30/crypto-industry-gave-usd8-million-to-clarity-act-lobbyists-who-didn-t-close-the-deal"
+        },
+        {
+          "headline": "İngiltere FCA, Şubat 2027 son tarihi ile kripto yetkilendirme penceresini açıyor",
+          "what": "İngiltere'nin Mali Davranış Otoritesi, yeni düzenleyici çerçeve kapsamında yetkilendirme arayan kripto şirketlerin başvurularını kabul etmeye başladı. Başvurular, rejimin planlanan Ekim 2027 lansmanından önce 28 Şubat 2027'ye kadar sunulmalıdır.",
+          "coins": "Geniş pazar",
+          "timeUTC": "2026-09-30 15:34 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-fca-starts-accepting-crypto-authorization-applications-ahead-of-2027-regime-417284"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri kazanç serisini 9 ard arda gün akışına uzattı",
+          "what": "Bitcoin spot ETF'leri 29 Eylül'de 66 milyon dolar ekledi, günlük akış serisini dokuz ard arda güne uzattı. Bu, Ağustos'taki dokuz günlük seriyle aynı süreyi eşleşiyor, ancak Eylül serisi daha büyük dolar akışları biriktirmiştir.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-30 18:47 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Base, koşullu işlemler ve B20 varlık işlevleri ile Cobalt yükseltmesini başlatıyor",
+          "what": "Coinbase'in layer-2 blokzinciri olan Base, koşullu işlemler ve B20 standardı altında yayınlanan tokenize varlıklar için yeni araçlar ekleyen Cobalt yükseltmesini dağıttı. Yükseltme, düzenleyicilere KYC kontrolleri ve zorla token transferleri gibi uyum ve kontrol özelliği veriyor.",
+          "coins": "Base blokzinciri, Ethereum",
+          "timeUTC": "2026-09-30 20:40 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-30-base-launches-cobalt-upgrade-with-conditional-transactions-and-new-b20-asset-functions-417308"
+        },
+        {
+          "headline": "DogeOS, Dogecoin'e EVM akıllı sözleşmelerini getirmek için genel testnet'i başlatıyor",
+          "what": "Dogecoin üzerine inşa edilen sıfır-bilgi rollup katmanı olan DogeOS, genel testnet'ini başlattı. Yükseltme, geliştiricilerin Dogecoin üzerinde EVM uyumlu merkezi olmayan uygulamalar oluşturmasına izin veriyor ve işlem ücretleri için DOGE kullanılıyor.",
+          "coins": "Dogecoin (DOGE)",
+          "timeUTC": "2026-09-30 20:10 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-30-dogeos-launches-public-testnet-dogecoin-zk-rollup-evm-417307"
+        },
+        {
+          "headline": "Bloomberg, saatlik onchain stabilcoin verilerini Terminal platformuna getiriyor",
+          "what": "Bloomberg Terminal artık Allium Labs'den saatlik onchain stabilcoin verilerini içeriyor, kurumsal kullanıcılara blokzincir ağları arasında arz, ihraç, transfer ve etkinlik ölçümlerini veriyor.",
+          "coins": "Stabilcoinler",
+          "timeUTC": "2026-09-30 20:29 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bloomberg-brings-onchain-stablecoin-data-to-its-terminal-news-brief"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Bitget koruma fonu 309 milyon dolara ulaştı, borsa normale dönüyor",
+          "what": "Bitget CEO'su Gracy Chen, 2022'de oluşturulan şirketin koruma fonunun 387,5 milyon dolar güvenlik ihlalin finansal etkisini absorbe ettiğini söyledi. Fon 309 milyon dolara büyüdü ve borsa kademeli olarak normal hizmete dönüyor.",
+          "coins": "Bitget borsası",
+          "timeUTC": "2026-09-30 17:48 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitget-operations-protection-fund-security-breach"
+        },
+        {
+          "headline": "THORChain çalınan Bitget fonları nedeniyle takibata uğrayabilir mi?",
+          "what": "Hukuk uzmanları, THORChain geliştiricilerinin Bitget hack'i ile bağlantılı adresleri engellemeyi reddettikleri takdirde para aklama nedeniyle cezai sorumluluğa maruz kalıp kalamayacaklarını tartışıyorlar. Protokol tasarımı gereği adresleri engelleyemeyeceğinden, analiz karmaşıktır.",
+          "coins": "THORChain, Bitget",
+          "timeUTC": "2026-09-30 15:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/does-thorchain-face-a-criminal-reckoning-near-intents-bitget"
+        }
+      ],
+      "Crypto projects and adoption": [
+        {
+          "headline": "Brezilya'nın Petrobras'ı, sürdürülebilir jet yakıtını takip etmek için Cardano kullanıyor",
+          "what": "Brezilya'nın devlet yağ şirketi Petrobras, jet yakıtı ve yenilenebilir dizel ile ilgili sürdürülebilirlik iddialarını takip etmek için iki Cardano tabanlı uygulama geliştirdi. Sistem, faydaları, çevresel kredilerin iki kez sayılmasını önlemek için bir iddiadan sonra emekli edilen aktarılabilir jetonlar olarak temsil ediyor.",
+          "coins": "Cardano (ADA)",
+          "timeUTC": "2026-09-30 15:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/30/embargo-1-pm-utc-cardano-tapped-by-brazil-s-state-oil-giant-to-track-cleaner-jet-fuel-and-diesel"
+        },
+        {
+          "headline": "Standard Chartered, Ethena'nın ENA jetonunu 2 dolar fiyat hedefi olarak tahmin ediyor",
+          "what": "Standard Chartered araştırması, Ethena'nın USDe stabilcoinin 2028 yıl sonuna kadar 40 milyar dolar arzına ulaşabileceğini ve token satın alımları arttıkça ENA jetonunun kabaca yedi kat artarak 2 dolara yükselebileceğini öngörüyor. Tahmin, stabilcoin kabulünün ve protokol büyümesinin devam etmesini varsayıyor.",
+          "coins": "Ethena (ENA), USDe stabilcoini",
+          "timeUTC": "2026-09-30 12:46 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274"
+        }
+      ]
+    }
   },
   "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "calendarNotes": [
+    {
+      "event": "Eurozone Flash CPI October 2026 on Friday, October 2 at 09:00 UTC",
+      "typicalReaction": "Geleneksel pazarları tipik olarak hareket ettiren yüksek etkili enflasyon verisi. Tahvil veya dolar'da büyük hareketler varsa, kripto sıklıkla izler."
+    },
+    {
+      "event": "Non-Farm Employment Change on Friday, October 2 at 12:30 UTC",
+      "typicalReaction": "En önemli ekonomik raporlardan biri - güçlü iş büyümesi ekonomik iyimserlik üzerine pazarları yükseltebilir, zayıf veriler ise kripto'da riskten uzaklaşma hareketlerini tetikleyebilir."
+    },
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) on Friday, October 2 at 12:30 UTC",
+      "typicalReaction": "Bu veri kripto pazarlarını güçlü bir şekilde hareket ettiriyor. Tüccarlar, Federal Rezerv politikası yönünü ve ABD ekonomik sağlığını değerlendirmek için bunu yakından takip ediyorlar."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Altcoin",
+      "definition": "Bitcoin dışında herhangi bir kripto para birimi. Ethereum, Dogecoin, Cardano ve diğer binlerce altcoindir."
+    },
+    {
+      "term": "Türev ürün veya vadeli işlem sözleşmesi",
+      "definition": "Gelecekteki bir tarihte sabit bir fiyattan bir varlık satın alma veya satma anlaşması. Tüccarlar temel varlığa sahip olmadan fiyat yönüne bahis yapmak için bunları kullanırlar."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Türev sözleşmelerde long (yükseliş eğilimli) ve short (düşüş eğilimli) pozisyonlar tutan tüccarlar arasındaki ödeme. Finansman pozitif olduğunda, longlar shortlara öder, yükseliş hissiyatını gösterir. Negatif olduğunda, shortlar longlara öder, düşüş hissiyatını gösterir."
+    },
+    {
+      "term": "Long/short oranı",
+      "definition": "Yükseliş eğilimli (long) pozisyon tutan tüccarların düşüş eğilimli (short) pozisyon tutanlarla oranı. 1'in üstündeki oran daha fazla tüccarın yükseliş eğilimli olduğu anlamına gelir; 1'in altında ise daha fazlasının düşüş eğilimli olduğu anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Türev sözleşmelerdeki kar ve zararları hesaplamak için kullanılan referans fiyatı. Manipülasyonu önlemek için, son işlem fiyatı yerine tipik olarak endeks fiyatına dayalıdır."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir gün yükselen (up) ve düşen (down) kripto para birimleri veya varlıkların yüzdesi. Daha yüksek genişlik (daha fazla coin up) tipik olarak yükseliş eğilimlidir; daha düşük genişlik düşüş eğilimlidir."
+    },
+    {
+      "term": "Açık ilgi",
+      "definition": "Kapatılmamış aktif türev sözleşmelerin (vadeli işlemler veya perpetuallar) toplam sayısı. Artan açık ilgi genellikle daha fazla tüccarın pazara girdiği anlamına gelir; azalış tüccarların çıktığı anlamına gelir."
+    },
+    {
+      "term": "Perpetual veya perps",
+      "definition": "Vade tarihi olmayan bir türev sözleşme türü. Tüccarlar yeterli teminat sağladıkları sürece perpetualları süresiz olarak tutabilirler."
+    },
+    {
+      "term": "Taker alış/satış oranı",
+      "definition": "Agresif satın alma ile satış baskısının ölçüsü. 1'in üstündeki oranlar daha agresif alıcıları gösterir (yükseliş eğilimli); 1'in altında daha agresif satıcıları gösterir (düşüş eğilimli)."
+    },
+    {
+      "term": "En iyi tüccarların long/short oranı",
+      "definition": "Borsadaki en büyük tüccarların long/short pozisyonu, tüm tüccarlar yerine. Büyük paranın ne yaptığını ölçmek için faydalıdır."
+    }
+  ],
   "_source": "cli-tr",
-  "_from": "304e6c17494f0569"
+  "_from": "7fe1e79f04016474"
 }

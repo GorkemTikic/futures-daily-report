@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-01T00:09:18.480Z",
+  "generatedAt": "2026-10-01T01:14:10.248Z",
   "count": 106,
   "counts": {
     "total": 106,
     "market": 19,
     "divergence": 87,
-    "degraded": 2
+    "degraded": 1
   },
   "latest": "2026-09-30",
   "head": 30,
@@ -19,12 +19,12 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": -0.05845813966834119,
+        "BTC": -0.05044853770969812,
         "ETH": 0.29438904932511345
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "On September 30, Bitcoin dipped slightly while the broader crypto market declined 2.7% amid economic data releases and regulatory developments.",
+      "oneLine": "On September 30, Bitcoin dipped slightly while the broader crypto market declined 2.7% amid economic data releases and regulatory developments.",
+      "newsCount": 16,
       "topMover": {
         "symbol": "MOVRUSDT",
         "chgPct": 74.16926895668188
@@ -41,10 +41,8 @@
         "tr",
         "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-09-30/summary_2026-09-30.html",

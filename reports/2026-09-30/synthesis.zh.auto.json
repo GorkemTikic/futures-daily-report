@@ -1,33 +1,227 @@
 {
-  "oneLine": "本次数据采集覆盖5个交易所；新闻综合分析暂不可用。",
-  "caveman": "",
-  "priceVolumeSummary": "请参考下方交易所表格。（本次暂未生成自动化描述——数据直接呈现在表格中。）",
-  "positioningSummary": "请参考下方持仓表格。",
-  "stocksSummary": "",
+  "oneLine": "9月30日，比特币略微下跌，整个加密货币市场在经济数据发布和监管动态影响下下跌2.7%。",
+  "caveman": "9月30日，比特币跌了一点点，以太坊涨了一点。整个加密货币市场跌了约2.7%，但这是平静的一天，价格变化很小。人们关注通胀报告和美联储（美国控制利率的政府机构）可能的下一步动作。交易员在密切关注明天即将发布的大型就业报告，以了解经济接下来会发生什么。",
+  "priceVolumeSummary": "比特币收盘价为$83,577，交易量为$14.9亿，以太坊收盘价为$2,685，交易量为$8.8亿。各主要交易所价格保持一致，相差在$10以内。",
+  "positioningSummary": "比特币和以太坊的资金费率保持在约6-7%年化水平，表明多头向空头支付费用。比特币持仓量上升3.1%，以太坊上升1.5%，显示衍生品交易活动增加。大型交易者在两种资产上都持有更多多头头寸，顶级交易者的多空比分别为比特币1.93和以太坊1.55。买卖压力基本平衡，58%的山寨币在该交易日上涨。",
+  "stocksSummary": "亚洲半导体股下跌1-4%，韩国芯片制造商SK Hynix和Samsung下跌约1.4-1.8%，香港科技股如GigaDevice和Samsung杠杆产品下跌3-4%。油价小幅上涨（布伦特原油上涨2.2%，美国西德州原油上涨1.2%），而黄金下跌0.8%。美国股市表现不一，纳斯达克上涨0.28%，标普500指数下跌0.21%。",
   "movers": [
     {
       "symbol": "MOVRUSDT",
-      "explanation": "本次暂无分析说明。",
+      "explanation": "未发现明确的公开原因。",
       "hasCause": false
     },
     {
       "symbol": "USUSDT",
-      "explanation": "本次暂无分析说明。",
+      "explanation": "未发现明确的公开原因。",
       "hasCause": false
     },
     {
       "symbol": "龙虾USDT",
-      "explanation": "本次暂无分析说明。",
+      "explanation": "未发现明确的公开原因。",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "比特币未能维持$85,000突破；债券收益率飙升遭指责",
+        "what": "经济数据发布后比特币短暂突破$85,630，但随着债券收益率飙升而回落。交易员表示担忧美国利率预期会因通胀数据和UTC 12:30发布的经济报告而调整。",
+        "coins": "比特币、山寨币",
+        "timeUTC": "2026-09-30 19:10 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-fails-to-sustain-85000-breakout-and-bond-yield-spikes-are-blamed/"
+      },
+      {
+        "headline": "Clarity法案失败为加密货币带来'更快'的监管胜利，Bitwise首席信息官表示",
+        "what": "Clarity法案在参议院停滞，业界观察人士表示加密货币可以从美国证券交易委员会获得更快的监管行动，而不必等待立法。Bitwise的Matt Hougan指出，这次失败可能导致整个行业受到的限制减少。",
+        "coins": "更广泛市场",
+        "timeUTC": "2026-09-30 22:59 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-09-30-clarity-acts-failure-gave-crypto-faster-regulatory-wins-bitwise-says-417362"
+      },
+      {
+        "headline": "Bitget黑客将$400万转入Zcash隐私池，使资金更难追踪",
+        "what": "$387.5百万Bitget安全漏洞中被盗Zcash的约15%已被转入Zcash的Ironwood隐私池，交易细节在该池中对公众隐藏。这发生在攻击者试图通过其他协议兑换资金失败后，因为这些渠道已被阻止。",
+        "coins": "Zcash、Bitget交易所",
+        "timeUTC": "2026-09-30 13:24 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/30/bitget-hackers-move-usd4-million-into-zcash-s-private-pool-making-funds-harder-to-trace"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国商品期货交易委员会在Fundsz欺诈案中对被告获得超$3000万判决",
+          "what": "美国商品期货交易委员会在一个名为Fundsz的加密货币欺诈计划案中赢得了法庭判决。该案件代表对欺诈加密货币运营者的持续执法行动。",
+          "coins": "Fundsz协议",
+          "timeUTC": "2026-09-30 21:43 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-cftc-secures-over-30-million-judgment-against-defendants-in-fundsz-fraud-case-417365"
+        },
+        {
+          "headline": "Coinbase支持的团体在Clarity法案崩溃后宣布中期选举支持名单",
+          "what": "Coinbase支持的倡导团体Stand With Crypto在Clarity法案未能通过数周后宣布了首次参议院支持名单。该团体支持共和党人Jon Husted和Ashley Hinson，以及民主党人Chris Pappas。",
+          "coins": "更广泛市场",
+          "timeUTC": "2026-09-30 21:37 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379767/coinbase-crypto-group-senate-midterm-endorsements-clarity-act"
+        },
+        {
+          "headline": "美国商品期货交易委员会向白宫递交新规则以巩固对预测市场的掌控",
+          "what": "美国商品期货交易委员会向白宫提交了两项提议的规则定义，旨在对预测市场事件合约声称独家司法管辖权。这些规则会将某些合约分类为'互换'，同时排除类赌场风格的博彩产品。",
+          "coins": "Kalshi（预测市场）",
+          "timeUTC": "2026-09-30 20:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379750/cftc-sends-white-house-new-rules-to-cement-its-grip-on-prediction-markets"
+        },
+        {
+          "headline": "加密货币行业在最终失败的Clarity法案游说中花费$800万",
+          "what": "加密货币行业在2026年上半年花费$800万游说Clarity法案，该法案旨在建立明确的市场结构规则。当法案在参议院停滞时，这次立法努力最终失败。",
+          "coins": "更广泛市场",
+          "timeUTC": "2026-09-30 18:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/09/30/crypto-industry-gave-usd8-million-to-clarity-act-lobbyists-who-didn-t-close-the-deal"
+        },
+        {
+          "headline": "英国FCA开放加密货币授权窗口，截止日期为2027年2月",
+          "what": "英国金融行为监管局已开始接受寻求新监管框架下授权的加密货币公司的申请。申请必须在2027年2月28日前提交，以赶在该制度计划于2027年10月推出之前。",
+          "coins": "更广泛市场",
+          "timeUTC": "2026-09-30 15:34 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-fca-starts-accepting-crypto-authorization-applications-ahead-of-2027-regime-417284"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币现货ETF连续9日流入纪录延长",
+          "what": "比特币现货ETF在9月29日增加了$6600万，将其每日流入连续天数延长到9天。这与8月的9天纪录相匹配，但9月的连续流入积累了更大的美元金额。",
+          "coins": "比特币",
+          "timeUTC": "2026-09-30 18:47 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Base推出Cobalt升级，新增条件交易和B20资产功能",
+          "what": "Base（Coinbase的二层区块链）部署了Cobalt升级，增加了条件交易和B20标准下发行的代币化资产的新工具。该升级为发行人提供了合规和控制功能，如KYC检查和强制代币转移。",
+          "coins": "Base区块链、以太坊",
+          "timeUTC": "2026-09-30 20:40 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-30-base-launches-cobalt-upgrade-with-conditional-transactions-and-new-b20-asset-functions-417308"
+        },
+        {
+          "headline": "DogeOS推出公共测试网，为狗狗币带来EVM智能合约",
+          "what": "DogeOS是建立在狗狗币上的零知识汇总层，推出了公共测试网。该升级让开发人员在狗狗币上构建与EVM兼容的去中心化应用，并使用DOGE支付交易费用。",
+          "coins": "狗狗币（DOGE）",
+          "timeUTC": "2026-09-30 20:10 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-09-30-dogeos-launches-public-testnet-dogecoin-zk-rollup-evm-417307"
+        },
+        {
+          "headline": "彭博将小时级链上稳定币数据纳入其终端平台",
+          "what": "彭博终端现在包括来自Allium Labs的小时级链上稳定币数据，为机构用户提供跨区块链网络的供应、发行、转移和活动指标。",
+          "coins": "稳定币",
+          "timeUTC": "2026-09-30 20:29 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bloomberg-brings-onchain-stablecoin-data-to-its-terminal-news-brief"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Bitget保护基金达$3.09亿，交易所恢复正常",
+          "what": "Bitget首席执行官Gracy Chen表示，公司在2022年建立的保护基金已吸收了$387.5百万安全漏洞的财务影响。该基金已增长到$309百万，交易所正在逐步恢复正常服务。",
+          "coins": "Bitget交易所",
+          "timeUTC": "2026-09-30 17:48 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitget-operations-protection-fund-security-breach"
+        },
+        {
+          "headline": "THORChain会因被盗的Bitget资金而面临起诉吗？",
+          "what": "法律专家在争论，如果THORChain开发者拒绝阻止与Bitget黑客相关的地址，他们是否可能面临洗钱的刑事责任。分析很复杂，因为该协议在设计上无法阻止地址。",
+          "coins": "THORChain、Bitget",
+          "timeUTC": "2026-09-30 15:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/does-thorchain-face-a-criminal-reckoning-near-intents-bitget"
+        }
+      ],
+      "Crypto projects and adoption": [
+        {
+          "headline": "巴西国家石油公司Petrobras利用Cardano追踪可持续航空燃料",
+          "what": "巴西国家石油巨头Petrobras开发了两个基于Cardano的应用程序，以追踪与航空燃料和可再生柴油相关的可持续性声明。该系统将收益表示为可转移的代币，在声明后退役以防止环境信用的重复计算。",
+          "coins": "Cardano（ADA）",
+          "timeUTC": "2026-09-30 15:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/30/embargo-1-pm-utc-cardano-tapped-by-brazil-s-state-oil-giant-to-track-cleaner-jet-fuel-and-diesel"
+        },
+        {
+          "headline": "渣打银行预测Ethena的ENA代币目标价为$2",
+          "what": "渣打银行研究预测，Ethena的USDe稳定币供应到2028年底可能达到$400亿，随着代币回购增加，ENA代币价格将升值约7倍至$2。该预测基于稳定币持续被采用和协议增长的假设。",
+          "coins": "Ethena（ENA）、USDe稳定币",
+          "timeUTC": "2026-09-30 12:46 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274"
+        }
+      ]
+    }
   },
   "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "calendarNotes": [
+    {
+      "event": "Eurozone Flash CPI October 2026 on Friday, October 2 at 09:00 UTC",
+      "typicalReaction": "高影响力的通胀数据，通常会推动传统市场。如果债券或美元出现重大波动，加密货币通常会跟随。"
+    },
+    {
+      "event": "Non-Farm Employment Change on Friday, October 2 at 12:30 UTC",
+      "typicalReaction": "最重要的经济报告之一——强劲的就业增长可能会因经济乐观而推高市场，而弱数据可能会在加密货币中引发风险规避行为。"
+    },
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) on Friday, October 2 at 12:30 UTC",
+      "typicalReaction": "这份数据强烈影响加密货币市场。交易员密切关注它以评估美联储的政策方向和美国经济健康状况。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "山寨币",
+      "definition": "比特币以外的任何加密货币。以太坊、狗狗币、Cardano和数千种其他加密货币都是山寨币。"
+    },
+    {
+      "term": "衍生品或期货合约",
+      "definition": "在未来日期以固定价格买卖资产的协议。交易员使用这些工具在不拥有基础资产的情况下押注价格方向。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "衍生品合约上持有多头（看涨）和空头（看跌）头寸的交易员之间的支付。当资金费率为正时，多头向空头支付，表示看涨情绪。当为负时，空头向多头支付，表示看跌情绪。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有看涨（多头）头寸与看跌（空头）头寸的交易员比例。比率高于1表示更多交易员看涨；低于1表示更多交易员看跌。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算衍生品合约收益和损失的参考价格。通常基于指数价格而非最后交易价格，以防止操纵。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "在给定日期上升（上涨）与下降（下跌）的币种或资产的百分比。更高的广度（更多币种上涨）通常看涨；较低的广度看跌。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "尚未平仓的活跃衍生品合约（期货或永续合约）的总数。持仓量增加通常意味着更多交易员进入市场；减少意味着交易员退出。"
+    },
+    {
+      "term": "永续合约",
+      "definition": "没有过期日期的衍生品合约类型。交易员可以无限期持有永续合约，只要他们保持足够的抵押品。"
+    },
+    {
+      "term": "吃单者买卖比",
+      "definition": "激进买方与卖方压力的衡量。比率高于1表示更激进的买方（看涨）；低于1表示更激进的卖方（看跌）。"
+    },
+    {
+      "term": "顶级交易者多空比",
+      "definition": "交易所上最大交易者的多空头寸，与所有交易者相对。用于判断大资金在做什么。"
+    }
+  ],
   "_source": "cli-zh",
-  "_from": "304e6c17494f0569"
+  "_from": "7fe1e79f04016474"
 }

@@ -2,7 +2,7 @@
   "dateUTC": "2026-09-30",
   "coversUTC": "2026-09-30 00:00–23:59 UTC",
   "windowLabel": "2026-09-30 00:00 → 24:00 UTC",
-  "asOfUTC": "00:00 UTC",
+  "asOfUTC": "01:00 UTC",
   "live": true,
   "rolling": false,
   "majors": {
@@ -13,12 +13,12 @@
         "open": 83649.6,
         "high": 85630.7,
         "low": 82943.8,
-        "close": 83600.7,
-        "chgPct": -0.05845813966834119,
-        "volUSD": 3569121085.1868305,
+        "close": 83607.4,
+        "chgPct": -0.05044853770969812,
+        "volUSD": 3569437098.4809904,
         "fundingAnnPct": 10.950000000000001,
-        "oiUSD": 2647312973.631761,
-        "mark": 83626.7
+        "oiUSD": 2655167066.6898913,
+        "mark": 83506.7
       },
       "OKX": {
         "venue": "OKX",
@@ -29,23 +29,10 @@
         "close": 83579.9,
         "chgPct": -0.056441034066721955,
         "volUSD": 7432340352.83042,
-        "fundingAnnPct": 5.7665175786897,
-        "oiUSD": 2295626532.616165,
-        "longShortAccount": 1.37,
-        "mark": 83599.1
-      },
-      "Bybit": {
-        "venue": "Bybit",
-        "basis": "utc-day",
-        "open": 83628.5,
-        "high": 85696.2,
-        "low": 82884.2,
-        "close": 83573.8,
-        "chgPct": -0.06540832371738951,
-        "volUSD": 5844513358.5307,
-        "fundingAnnPct": 10.950000000000001,
-        "oiUSD": 4554139663.15,
-        "mark": 83597.15
+        "fundingAnnPct": 6.1483120854834,
+        "oiUSD": 2308568757.992406,
+        "longShortAccount": 1.38,
+        "mark": 83482.4
       },
       "Binance": {
         "venue": "Binance",
@@ -56,14 +43,28 @@
         "close": 83576.9,
         "chgPct": -0.05692111761505997,
         "volUSD": 14875011604.3351,
-        "fundingAnnPct": 8.739194999999999,
-        "oiUSD": 7976450236.505199,
+        "fundingAnnPct": 6.68826,
+        "oiUSD": 7979495523.5455,
         "oiChangePctCoins": 3.1851061397816265,
         "oiChangePct": 3.134260526968812,
         "longShortAccount": 1.3832,
         "topPositionRatio": 1.9278,
-        "takerBuySellRatio": 1.0111,
-        "mark": 83596.4
+        "takerBuySellRatio": 1.0026,
+        "mark": 83482.9
+      },
+      "Bybit": {
+        "venue": "Bybit",
+        "basis": "utc-day",
+        "open": 83628.5,
+        "high": 85696.2,
+        "low": 82884.2,
+        "close": 83573.8,
+        "chgPct": -0.06540832371738951,
+        "volUSD": 5844513358.5307,
+        "fundingAnnPct": 2.48784,
+        "oiUSD": 4554841776.69,
+        "oiChangePct": -2.0221499372204903,
+        "mark": 83484.8
       },
       "Gate": {
         "venue": "Gate",
@@ -74,9 +75,9 @@
         "close": 83578.7,
         "chgPct": -0.051063483749371676,
         "volUSD": 6613438928.10398,
-        "fundingAnnPct": 9.636,
-        "oiUSD": 4291440430.08256,
-        "mark": 83593.6
+        "fundingAnnPct": 5.5845,
+        "oiUSD": 4314528279.7144,
+        "mark": 83487.8
       }
     },
     "ETH": {
@@ -89,9 +90,10 @@
         "close": 2684.61,
         "chgPct": 0.29438904932511345,
         "volUSD": 3087429795.4244,
-        "fundingAnnPct": 10.950000000000001,
-        "oiUSD": 2158393314.66,
-        "mark": 2685.19
+        "fundingAnnPct": 3.3638399999999993,
+        "oiUSD": 2169866544.31,
+        "oiChangePct": 3.8500891534056296,
+        "mark": 2683.83
       },
       "Bitget": {
         "venue": "Bitget",
@@ -99,12 +101,12 @@
         "open": 2677.75,
         "high": 2737.67,
         "low": 2657.59,
-        "close": 2684.93,
-        "chgPct": 0.26813556157220936,
-        "volUSD": 1684873979.3898,
+        "close": 2684.94,
+        "chgPct": 0.26850900942956046,
+        "volUSD": 1684931527.2866,
         "fundingAnnPct": 10.950000000000001,
-        "oiUSD": 2043712526.6253002,
-        "mark": 2685.53
+        "oiUSD": 2040681658.4112,
+        "mark": 2684.64
       },
       "OKX": {
         "venue": "OKX",
@@ -115,10 +117,10 @@
         "close": 2684.73,
         "chgPct": 0.29624925283920484,
         "volUSD": 6776674857.39527,
-        "fundingAnnPct": 1.89198284462565,
-        "oiUSD": 1521124330.3211544,
-        "longShortAccount": 1.52,
-        "mark": 2685.12
+        "fundingAnnPct": 3.851298933030151,
+        "oiUSD": 1528868217.8880045,
+        "longShortAccount": 1.51,
+        "mark": 2684.07
       },
       "Binance": {
         "venue": "Binance",
@@ -129,12 +131,14 @@
         "close": 2684.68,
         "chgPct": 0.28913610316255806,
         "volUSD": 8799551530.53831,
-        "fundingAnnPct": 6.234929999999999,
-        "oiUSD": 6138083600.075407,
+        "fundingAnnPct": 6.181275,
+        "oiUSD": 6141735422.13984,
+        "oiChangePctCoins": 1.2008024691322088,
+        "oiChangePct": 1.495560702382236,
         "longShortAccount": 2.7411,
         "topPositionRatio": 1.5532,
-        "takerBuySellRatio": 1.0164,
-        "mark": 2685.05910078
+        "takerBuySellRatio": 0.964,
+        "mark": 2683.84
       },
       "Gate": {
         "venue": "Gate",
@@ -142,12 +146,12 @@
         "open": 2677.14,
         "high": 2737.41,
         "low": 2656.1,
-        "close": 2685.08,
-        "chgPct": 0.2965851617771224,
-        "volUSD": 5569031456.40034,
-        "fundingAnnPct": 1.4235,
-        "oiUSD": 2005687353.9276,
-        "mark": 2685.06
+        "close": 2684.45,
+        "chgPct": 0.27305258596860627,
+        "volUSD": 5569113770.7744,
+        "fundingAnnPct": 3.9419999999999997,
+        "oiUSD": 2018985334.6176002,
+        "mark": 2684.38
       }
     }
   },
@@ -172,11 +176,11 @@
     }
   ],
   "breadth": {
-    "up": 458,
-    "down": 326,
+    "up": 460,
+    "down": 324,
     "flat": 3,
     "total": 787,
-    "upPct": 58.19567979669632
+    "upPct": 58.449809402795424
   },
   "altcoins": [
     {
@@ -253,10 +257,10 @@
     }
   ],
   "market": {
-    "totalMarketCap": 2873887146535.5693,
-    "totalMarketCapChange24h": -2.676912076948161,
-    "btcDominance": 58.28527756649938,
-    "ethDominance": 11.378770154308864,
+    "totalMarketCap": 2873437091915.112,
+    "totalMarketCapChange24h": -2.70059416188432,
+    "btcDominance": 58.271116712135765,
+    "ethDominance": 11.384953391253717,
     "fearGreed": {
       "value": 71,
       "label": "Greed",

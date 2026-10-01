@@ -1,176 +1,166 @@
 {
-  "oneLine": "Bitcoin dipped on soft inflation data and FOMC speaker, while Ethereum gained slightly; funding rates stayed high and institutional ETF buying continued, though three crypto-small-cap tokens saw wild swings with no clear causes.",
-  "caveman": "On Wednesday September 30th, the US government released inflation data that came in weaker than expected, which briefly lifted Bitcoin above $85,000 but it couldn't hold the gain and ended the day down slightly. Ethereum did better, ending slightly up. The big picture: large traders remained very bullish—they were holding about twice as many long positions (bets the price goes up) as short positions (bets it goes down)—and companies were buying Bitcoin through ETF investment products. At the same time, a few small, lesser-known tokens had huge moves we couldn't explain from the news. The day felt steady rather than chaotic, even though funding costs for betting on price rises stayed expensive.",
-  "priceVolumeSummary": "Bitcoin venues traded closely, with Binance marking $83,576.9 (down 0.06%) and all major exchanges aligning within $83,589–$83,626. Ethereum venues tracked tightly around $2,684.7 (up 0.29%). Binance led volume with $14.9B (BTC) and $8.8B (ETH), followed by OKX at $7.4B (BTC) and $6.8B (ETH), reflecting broad institutional engagement.",
-  "positioningSummary": "Bitcoin and Ethereum funding rates remained elevated at 8.7–11% annualized, indicating strong bullish conviction among leveraged traders paying to stay long. Bitcoin's open interest rose 3.14% on Binance, suggesting new long positions outpaced short closures. Large traders held a 1.93× long-to-short ratio for Bitcoin (very bullish) and 1.55× for Ethereum (bullish). Taker buy/sell ratios of 1.01 (BTC) and 1.02 (ETH) showed steady buying pressure, and 58% of all Binance perpetuals advanced on the day, indicating broad-based institutional appetite for risk.",
-  "stocksSummary": "Asian semiconductor stocks weakened during their cash sessions: Korea's SK Hynix fell 1.5% and Samsung Electronics dropped 3.2%, reflecting concerns about global chip demand. Hong Kong's Zhipu AI rose 4.3%, a homegrown AI developer, while China's Unitree Robotics ticked up 0.3%. US equities split—the tech-heavy Nasdaq (ONEQ ETF) gained 0.3%, but the broad S&P 500 (SPY) eased 0.2%. Oil prices recovered 1–2% on both WTI and Brent benchmarks, while gold retreated 0.7% and silver fell 1.9%, typical of risk-on sentiment.",
+  "oneLine": "On September 30, Bitcoin dipped slightly while the broader crypto market declined 2.7% amid economic data releases and regulatory developments.",
+  "caveman": "Bitcoin went down just a tiny bit on September 30 while Ethereum went up a little. The whole crypto market was down about 2.7%, but it was a calm day with small price changes. People were paying attention to reports about inflation and what the Federal Reserve might do next — that's the government agency that controls interest rates in the US. There's a big jobs report coming tomorrow that traders are watching closely to understand what happens next with the economy.",
+  "priceVolumeSummary": "Bitcoin closed at $83,577 with $14.9 billion in trading volume, while Ethereum closed at $2,685 with $8.8 billion in volume. Prices were consistent across major exchanges, staying within $10 of each other.",
+  "positioningSummary": "Funding rates on both Bitcoin and Ethereum remained positive at around 6-7% annualized, indicating longs are paying shorts. Bitcoin's open interest rose 3.1% and Ethereum's by 1.5%, showing increased derivative trading activity. Large traders held more long positions than shorts on both assets, with top traders' long/short ratios of 1.93 for Bitcoin and 1.55 for Ethereum. Buying and selling pressure was roughly balanced, with 58% of altcoins trading higher on the day.",
+  "stocksSummary": "Asian semiconductor stocks declined 1–4% on the day, with South Korean chipmakers SK Hynix and Samsung down around 1.4–1.8%, and Hong Kong tech shares like GigaDevice and Samsung leverage products falling 3–4%. Oil prices rose modestly (Brent Crude up 2.2%, WTI up 1.2%) while gold fell 0.8%. US stocks were mixed, with the Nasdaq up 0.28% and the S&P 500 down 0.21%.",
   "movers": [
     {
       "symbol": "MOVRUSDT",
-      "explanation": "The token soared 74% with $784 million in notional volume. No identifiable news catalyst or fundamental driver found on the report day.",
+      "explanation": "No clear public cause identified.",
       "hasCause": false
     },
     {
       "symbol": "USUSDT",
-      "explanation": "The token surged 58% with $131 million in volume. No clear public announcement or market event explained the rally.",
+      "explanation": "No clear public cause identified.",
       "hasCause": false
     },
     {
       "symbol": "龙虾USDT",
-      "explanation": "The token crashed 48% with $145 million in volume. No verifiable news explained the severe drawdown.",
+      "explanation": "No clear public cause identified.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Soft PCE inflation data eases Fed rate hike bets; Bitcoin flirts with but fails to hold $85k",
-        "what": "The US Core Personal Consumption Expenditures price index rose only 0.2% month-over-month in August, below the 0.3% forecast. This eased expectations for an October Fed rate hike, supporting risk assets early in the day. Bitcoin topped $85,630 intraday but closed near $83,600, unable to hold the rally as Treasury yields climbed and real yields remained attractive.",
-        "coins": "Bitcoin, Ethereum",
-        "timeUTC": "12:30 UTC, 30 Sept",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335"
+        "headline": "Bitcoin fails to sustain $85,000 breakout; bond yield spikes blamed",
+        "what": "Bitcoin briefly topped $85,630 following economic data releases but retreated as bond yields spiked higher. Traders cited concerns over US interest rate expectations in response to inflation data and economic reports released at 12:30 UTC.",
+        "coins": "Bitcoin, altcoins",
+        "timeUTC": "2026-09-30 19:10 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-fails-to-sustain-85000-breakout-and-bond-yield-spikes-are-blamed/"
       },
       {
-        "headline": "Bitcoin ETFs notch 9-day win streak on sustained institutional buying, matching August run",
-        "what": "US spot Bitcoin ETFs attracted $66 million in net inflows on 29 Sept, extending a rally that now matches the length of August's nine-day streak. The pattern signals institutional appetite remains intact despite near-term price swings, and flows suggest professional money is rotating into spot positions.",
-        "coins": "Bitcoin",
-        "timeUTC": "~21:27 UTC, 29-30 Sept",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally"
-      },
-      {
-        "headline": "Clarity Act defeat handed crypto fewer restrictions and faster SEC action, says Bitwise",
-        "what": "Two weeks after Congress failed to pass the Crypto Clarity Act, the industry is reframing the loss as a policy win: the absence of legislative limits on SEC authority has let the regulator move faster on its own crypto rules without negotiation delays. Bitwise's chief investment officer highlighted SEC action on stablecoins and transfers as already accelerating.",
-        "coins": "General crypto markets",
-        "timeUTC": "~22:53 UTC, 30 Sept",
+        "headline": "Clarity Act failure gave crypto 'faster' regulatory wins, Bitwise CIO says",
+        "what": "With the Clarity Act stalled in the Senate, industry observers say crypto is getting faster regulatory action from the SEC instead of waiting for legislation. Bitwise's Matt Hougan noted that the defeat may result in fewer restrictions overall for the industry.",
+        "coins": "Broader market",
+        "timeUTC": "2026-09-30 22:59 UTC",
         "source": "The Block",
         "url": "https://www.theblock.co/news/markets/2026-09-30-clarity-acts-failure-gave-crypto-faster-regulatory-wins-bitwise-says-417362"
+      },
+      {
+        "headline": "Bitget hackers move $4 million into Zcash privacy pool, making funds harder to trace",
+        "what": "About 15% of the Zcash stolen in the $387.5 million Bitget breach has been moved into Zcash's Ironwood privacy pool, where transaction details are hidden from public view. This follows the attackers' failed attempts to swap funds through other protocols after those routes were blocked.",
+        "coins": "Zcash, Bitget exchange",
+        "timeUTC": "2026-09-30 13:24 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/09/30/bitget-hackers-move-usd4-million-into-zcash-s-private-pool-making-funds-harder-to-trace"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "CFTC sends White House two event-contract rules in bid to cement prediction-market authority",
-          "what": "The Commodity Futures Trading Commission submitted two proposed rules defining event contracts as 'swaps' while excluding 'casino-style gambling products,' seeking to preserve its exclusive jurisdiction over prediction markets as several states mount legal challenges. The move reflects ongoing turf disputes between federal and state regulators.",
-          "coins": "Prediction markets",
-          "timeUTC": "20:26 UTC, 30 Sept",
+          "headline": "CFTC secures over $30 million judgment against defendants in Fundsz fraud case",
+          "what": "The Commodity Futures Trading Commission won a court judgment against participants in a crypto fraud scheme called Fundsz. The case represents ongoing enforcement action against fraudulent crypto operators.",
+          "coins": "Fundsz protocol",
+          "timeUTC": "2026-09-30 21:43 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-cftc-secures-over-30-million-judgment-against-defendants-in-fundsz-fraud-case-417365"
+        },
+        {
+          "headline": "Coinbase-backed group announces midterm endorsements after Clarity Act collapse",
+          "what": "Stand With Crypto, a Coinbase-supported advocacy group, announced its first Senate endorsements weeks after the Clarity Act failed to pass. The group is backing Republicans Jon Husted and Ashley Hinson, and Democrat Chris Pappas.",
+          "coins": "Broader market",
+          "timeUTC": "2026-09-30 21:37 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379767/coinbase-crypto-group-senate-midterm-endorsements-clarity-act"
+        },
+        {
+          "headline": "CFTC sends White House new rules to cement its grip on prediction markets",
+          "what": "The CFTC submitted two proposed rule definitions to the White House, aiming to assert exclusive jurisdiction over prediction market event contracts. The rules would classify certain contracts as 'swaps' while excluding casino-style gambling products.",
+          "coins": "Kalshi (prediction markets)",
+          "timeUTC": "2026-09-30 20:39 UTC",
           "source": "Decrypt",
           "url": "https://decrypt.co/379750/cftc-sends-white-house-new-rules-to-cement-its-grip-on-prediction-markets"
         },
         {
-          "headline": "FCA opens UK crypto authorization window with February 2027 deadline",
-          "what": "The UK Financial Conduct Authority began accepting applications for crypto firms ahead of the October 2027 regulatory regime. Applicants have until 28 February 2027 to file; existing money-laundering registrations will not automatically convert to FCA authorization. Firms must meet new capital, operational, and consumer-protection standards.",
-          "coins": "General crypto",
-          "timeUTC": "20:27 UTC, 30 Sept",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-09-30-fca-starts-accepting-crypto-authorization-applications-ahead-of-2027-regime-417284"
-        },
-        {
-          "headline": "Crypto industry spent $8 million on Clarity Act lobbying that ultimately stalled",
-          "what": "Industry groups poured $8 million into federal lobbying in the first half of 2026, largely in support of the Clarity Act. Despite the investment, the bill stalled without passing. The spending underscores the crypto sector's political engagement and the stakes regulators see in shaping the industry's legal framework.",
-          "coins": "General crypto",
-          "timeUTC": "20:09 UTC, 30 Sept",
+          "headline": "Crypto industry spent $8 million on Clarity Act lobbying effort that ultimately failed",
+          "what": "The crypto sector spent $8 million in the first half of 2026 on lobbying for the Clarity Act, a bill aimed at establishing clear market-structure rules. The legislative effort ultimately failed when the bill stalled in the Senate.",
+          "coins": "Broader market",
+          "timeUTC": "2026-09-30 18:36 UTC",
           "source": "CoinDesk",
           "url": "https://www.coindesk.com/news-analysis/2026/09/30/crypto-industry-gave-usd8-million-to-clarity-act-lobbyists-who-didn-t-close-the-deal"
         },
         {
-          "headline": "SEC modernizes transfer-agent rules to prevent fragmentation in tokenized asset markets",
-          "what": "The SEC proposed amendments to streamline transfer-agent registration and oversight, targeting the emerging tokenized asset market. The rules aim to reduce friction and prevent ownership records from being split across blockchain, brokers, SPVs, and traditional registrars—a scenario that could recreate the 1960s 'paperwork crisis' at scale.",
-          "coins": "Tokenized assets, blockchain infrastructure",
-          "timeUTC": "~18:30 UTC, 30 Sept",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/opinion/2026/09/30/the-sec-is-finally-modernizing-transfer-agent-rules-wall-street-must-not-repeat-the-paperwork-crisis"
+          "headline": "UK FCA opens crypto authorization window with February 2027 deadline",
+          "what": "The UK's Financial Conduct Authority has begun accepting applications for crypto firms seeking authorization under the new regulatory framework. Applications must be submitted by February 28, 2027, ahead of the regime's planned October 2027 launch.",
+          "coins": "Broader market",
+          "timeUTC": "2026-09-30 15:34 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-09-30-fca-starts-accepting-crypto-authorization-applications-ahead-of-2027-regime-417284"
         }
       ],
       "Institutional flows and ETFs": [
         {
-          "headline": "Standard Chartered forecasts Ethena's ENA token rising over 600% to $2 by end-2028 as USDe scales to $40B",
-          "what": "Standard Chartered published research projecting USDe stablecoin supply reaching $40 billion (an eightfold increase) by end-2028, with token buyback-driven ENA appreciation reaching approximately $2 per token (7× current levels). Ethena highlighted the analysis as validation of its protocol design and revenue model.",
-          "coins": "ENA, USDe",
-          "timeUTC": "~18:55 UTC, 30 Sept",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274"
+          "headline": "Bitcoin ETFs extend win streak to 9 consecutive days of inflows",
+          "what": "Bitcoin spot ETFs added $66 million on September 29, extending their daily inflow streak to nine consecutive days. This matches August's nine-day run in duration, though the September streak has accumulated larger dollar flows.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-09-30 18:47 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally"
         }
       ],
       "Exchange and platform changes": [
         {
-          "headline": "Base rolls out Cobalt upgrade with conditional transactions and new tokenization tools",
-          "what": "Base, Coinbase's Ethereum layer-2 network, launched Cobalt, enabling conditional transaction execution and new functions for B20-standard tokenized assets. Issuers gain tools for compliance checks, stock splits, and forced transfers; traders gain programmable transaction logic. The upgrade targets institutional trading infrastructure.",
-          "coins": "Base ecosystem",
-          "timeUTC": "21:00 UTC, 30 Sept",
+          "headline": "Base launches Cobalt upgrade with conditional transactions and B20 asset functions",
+          "what": "Base, Coinbase's layer-2 blockchain, deployed the Cobalt upgrade adding conditional transactions and new tools for tokenized assets issued under the B20 standard. The upgrade gives issuers compliance and control features like KYC checks and forced token transfers.",
+          "coins": "Base blockchain, Ethereum",
+          "timeUTC": "2026-09-30 20:40 UTC",
           "source": "The Block",
           "url": "https://www.theblock.co/news/ecosystems/2026-09-30-base-launches-cobalt-upgrade-with-conditional-transactions-and-new-b20-asset-functions-417308"
         },
         {
-          "headline": "DogeOS launches public testnet, bringing EVM smart contracts and DeFi to Dogecoin",
-          "what": "DogeOS, backed by the MyDoge wallet team, opened its public test environment for a zero-knowledge rollup that allows developers to build lending platforms, games, and other dApps on Dogecoin. DOGE is used to pay transaction fees on the layer, adding a utility component to the meme coin.",
-          "coins": "DOGE",
-          "timeUTC": "20:43 UTC, 30 Sept",
+          "headline": "DogeOS launches public testnet to bring EVM smart contracts to Dogecoin",
+          "what": "DogeOS, a zero-knowledge rollup layer built on Dogecoin, launched its public testnet. The upgrade lets developers build EVM-compatible decentralized applications on Dogecoin with DOGE used for transaction fees.",
+          "coins": "Dogecoin (DOGE)",
+          "timeUTC": "2026-09-30 20:10 UTC",
           "source": "The Block",
           "url": "https://www.theblock.co/news/ecosystems/2026-09-30-dogeos-launches-public-testnet-dogecoin-zk-rollup-evm-417307"
         },
         {
-          "headline": "Bloomberg Terminal adds hourly onchain stablecoin data via Allium integration",
-          "what": "Bloomberg integrated real-time stablecoin supply and activity metrics into its Terminal service, covering issuance, transfers, and holder behavior across blockchain networks. The Allium-powered dashboard gives institutional clients granular visibility into stablecoin market flows and adoption patterns.",
-          "coins": "USDC, USDT, USDe, general stablecoins",
-          "timeUTC": "~21:16 UTC, 30 Sept",
+          "headline": "Bloomberg brings hourly onchain stablecoin data to its Terminal platform",
+          "what": "Bloomberg Terminal now includes hourly onchain stablecoin data from Allium Labs, giving institutional users supply, issuance, transfer, and activity metrics across blockchain networks.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-09-30 20:29 UTC",
           "source": "Cointelegraph",
           "url": "https://cointelegraph.com/news/bloomberg-brings-onchain-stablecoin-data-to-its-terminal-news-brief"
         }
       ],
       "Hacks, exploits and outages": [
         {
-          "headline": "Bitget hackers move stolen Zcash into Ironwood privacy pool, obscuring $3.8M trail",
-          "what": "Attackers behind the $387.5 million Bitget breach are converting stolen funds into Zcash and funneling portions into Ironwood, a privacy pool that obscures sender, recipient, and amount. About 15% of stolen ZEC (~$3.8 million) has been transferred into the pool as traditional exchange blocking intensifies.",
-          "coins": "ZEC",
-          "timeUTC": "~21:57 UTC, 30 Sept",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/09/30/bitget-hackers-move-usd4-million-into-zcash-s-private-pool-making-funds-harder-to-trace"
+          "headline": "Bitget protection fund reaches $309 million as exchange returns to normal",
+          "what": "Bitget CEO Gracy Chen said the company's protection fund, created in 2022, has absorbed the financial impact of the $387.5 million security breach. The fund has grown to $309 million and the exchange is gradually returning to normal service.",
+          "coins": "Bitget exchange",
+          "timeUTC": "2026-09-30 17:48 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitget-operations-protection-fund-security-breach"
         },
         {
-          "headline": "CFTC secures $30+ million judgment against Fundsz defendants in unregistered derivatives fraud",
-          "what": "The Commodity Futures Trading Commission won a court judgment enforcing civil penalties against Fundsz defendants who orchestrated a scheme involving unregistered crypto trading platforms and misrepresented fund performance. The ruling demonstrates CFTC enforcement authority over derivatives platforms operating outside CFTC oversight.",
-          "coins": "General crypto markets",
-          "timeUTC": "~21:30 UTC, 30 Sept",
+          "headline": "Could THORChain face prosecution over stolen Bitget funds?",
+          "what": "Legal experts are debating whether THORChain developers could face criminal liability for money laundering if they refuse to block addresses tied to the Bitget hack. The analysis is complex, as the protocol cannot block addresses by design.",
+          "coins": "THORChain, Bitget",
+          "timeUTC": "2026-09-30 15:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/does-thorchain-face-a-criminal-reckoning-near-intents-bitget"
+        }
+      ],
+      "Crypto projects and adoption": [
+        {
+          "headline": "Brazil's Petrobras uses Cardano to track sustainable aviation fuel",
+          "what": "Petrobras, Brazil's state oil giant, developed two Cardano-based applications to track sustainability claims tied to aviation fuel and renewable diesel. The system represents benefits as transferable tokens that are retired after a claim to prevent double-counting of environmental credits.",
+          "coins": "Cardano (ADA)",
+          "timeUTC": "2026-09-30 15:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/09/30/embargo-1-pm-utc-cardano-tapped-by-brazil-s-state-oil-giant-to-track-cleaner-jet-fuel-and-diesel"
+        },
+        {
+          "headline": "Standard Chartered forecasts $2 price target for Ethena's ENA token",
+          "what": "Standard Chartered research projects Ethena's USDe stablecoin could reach $40 billion in supply by end of 2028, with the ENA token appreciating roughly sevenfold to $2 as token buybacks increase. The forecast assumes continued stablecoin adoption and protocol growth.",
+          "coins": "Ethena (ENA), USDe stablecoin",
+          "timeUTC": "2026-09-30 12:46 UTC",
           "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-09-30-cftc-secures-over-30-million-judgment-against-defendants-in-fundsz-fraud-case-417365"
-        },
-        {
-          "headline": "FBI warns staff personal data likely stolen in ShinyHunters breach of jobs portal",
-          "what": "An internal FBI memo told employees to assume their personal information was compromised in a ShinyHunters breach of the bureau's jobs website. The incident highlights cybersecurity vulnerabilities across government agencies and underscores rising risk to individuals' financial and identity data.",
-          "coins": "Not directly crypto-related",
-          "timeUTC": "~22:49 UTC, 30 Sept",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379769/fbi-employees-assume-hackers-personal-data"
-        }
-      ],
-      "Traditional markets": [
-        {
-          "headline": "Asian semiconductor stocks fall on demand concerns; US equities split; oil rallies",
-          "what": "Korea's SK Hynix dropped 1.5% and Samsung Electronics fell 3.2% during their cash sessions (KRX, 00:00–06:30 UTC), reflecting global concerns about chipmaker demand and profitability cycles. Hong Kong's Zhipu AI, a domestically-focused large language model builder, rose 4.3%. US indices diverged: Nasdaq (ONEQ ETF) +0.3%, S&P 500 (SPY) −0.2%. Oil recovered 1–2% on WTI (+1.1%) and Brent (+2.0%), while gold eased 0.7%.",
-          "coins": "Risk-asset sentiment only",
-          "timeUTC": "Various sessions: KRX 00:00–06:30 UTC; HKEX 01:30–08:00 UTC; NYSE 13:30–20:00 UTC",
-          "source": "Binance Stocks data (Twelve Data)",
-          "url": ""
-        }
-      ],
-      "Unconfirmed and watch items": [
-        {
-          "headline": "[CONTEXT] OpenAI, Google and Meta sign voluntary AI safety pact with White House",
-          "what": "Six major AI companies pledged to independent safety audits covering biological, chemical and cybersecurity threats under a 'morally binding' accord announced by the Trump administration. The pact contains no enforcement mechanism, penalties, or implementation deadline, leaving strength and accountability uncertain. (Context from late 29 Sept.)",
-          "coins": "Not crypto-related; tech/macro sentiment",
-          "timeUTC": "~21:32 UTC, 29-30 Sept",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/379728/trump-unveils-morally-binding-ai-accord-signed-by-openai-google-and-nvidia"
-        },
-        {
-          "headline": "Brazil's Petrobras tests Cardano to track sustainable aviation fuel and renewable diesel",
-          "what": "Petrobras, Latin America's largest oil company, deployed two Cardano-based applications as part of a research collaboration to prevent double-counting of sustainability benefits in aviation fuel and renewable diesel. The tokens representing sustainability claims can be retired after use, but commercial scale and adoption remain unproven.",
-          "coins": "ADA",
-          "timeUTC": "~20:20 UTC, 30 Sept",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/tech/2026/09/30/embargo-1-pm-utc-cardano-tapped-by-brazils-state-oil-giant-to-track-cleaner-jet-fuel-and-diesel"
+          "url": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274"
         }
       ]
     }
@@ -178,66 +168,58 @@
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Eurozone Flash CPI (October 2026), Friday 02 Oct 09:00 UTC",
-      "typicalReaction": "High-impact economic data for traditional markets. CPI beat = stronger EUR and potentially risk-off for crypto; CPI miss = weaker EUR, supportive for Bitcoin and alts."
+      "event": "Eurozone Flash CPI October 2026 on Friday, October 2 at 09:00 UTC",
+      "typicalReaction": "High-impact inflation data that typically moves traditional markets. Crypto often follows if there are major moves in bonds or the dollar."
     },
     {
-      "event": "Non-Farm Payrolls / US Employment Situation (October 2026), Friday 02 Oct 12:30 UTC",
-      "typicalReaction": "Strong crypto mover. Jobs report beat = risk-off, Fed stays hawkish, Bitcoin under pressure; miss = risk-on, Bitcoin and alts rally. High volatility expected regardless of outcome."
+      "event": "Non-Farm Employment Change on Friday, October 2 at 12:30 UTC",
+      "typicalReaction": "One of the most significant economic reports—strong job growth can push markets higher on economic optimism, while weak data can trigger risk-off moves in crypto."
+    },
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) on Friday, October 2 at 12:30 UTC",
+      "typicalReaction": "This data strongly moves crypto markets. Traders watch it closely to assess Federal Reserve policy direction and US economic health."
     }
   ],
   "glossary": [
     {
-      "term": "Basis",
-      "definition": "The difference between the spot price (cash market) and the perpetual futures price. Positive basis indicates bullish sentiment (longs willing to pay a premium); negative basis indicates bearish sentiment."
+      "term": "Altcoin",
+      "definition": "Any cryptocurrency other than Bitcoin. Ethereum, Dogecoin, Cardano, and thousands of others are altcoins."
     },
     {
-      "term": "Breadth",
-      "definition": "The percentage of assets in a market that advanced (upPct) during the day. High breadth (>50% up) suggests institutional accumulation and broad-based strength rather than a few large assets carrying the market."
-    },
-    {
-      "term": "Close / High / Low",
-      "definition": "The closing price at end of the trading period, the highest price reached during the period, and the lowest price reached, respectively."
-    },
-    {
-      "term": "Dominance",
-      "definition": "The percentage of total cryptocurrency market capitalization held by a single asset. Bitcoin dominance of 58% means Bitcoin accounts for 58% of all crypto market cap."
-    },
-    {
-      "term": "Fear and Greed Index",
-      "definition": "A sentiment gauge (0–100) measuring crowd emotion in crypto markets. Greed (>60) indicates traders are confident and willing to buy; Fear (<40) suggests caution and selling pressure."
+      "term": "Derivative or futures contract",
+      "definition": "An agreement to buy or sell an asset at a fixed price on a future date. Traders use these to bet on price direction without owning the underlying asset."
     },
     {
       "term": "Funding rate",
-      "definition": "The periodic interest rate paid between long and short traders on perpetual derivative contracts. High positive rates (e.g., 8–11% annualized) mean long traders are paying shorts, signaling strong bullish conviction among leveraged traders."
+      "definition": "A payment between traders holding long (bullish) and short (bearish) positions on derivatives contracts. When funding is positive, longs pay shorts, signaling bullish sentiment. When negative, shorts pay longs, signaling bearish sentiment."
     },
     {
-      "term": "Long / short ratio",
-      "definition": "The ratio of traders holding long positions (betting price goes up) to traders holding short positions (betting price goes down). A ratio above 1 indicates more bullish positioning; below 1 indicates more bearish positioning."
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders holding bullish (long) positions versus bearish (short) positions. A ratio above 1 means more traders are bullish; below 1 means more are bearish."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price used to calculate profit/loss and funding rate payments on perpetual futures contracts. It is designed to stay close to the spot price by incorporating real-time market data and preventing extreme disconnects."
+      "definition": "The reference price used to calculate profits and losses on derivative contracts. It is typically based on the index price rather than the last trade price, to prevent manipulation."
     },
     {
-      "term": "Open interest (OI)",
-      "definition": "The total number of open derivative contracts (long or short) not yet closed or settled. Rising OI suggests new money entering a position; falling OI suggests liquidations or profit-taking."
+      "term": "Market breadth",
+      "definition": "The percentage of coins or assets that are trading higher (up) versus lower (down) on a given day. Higher breadth (more coins up) is typically bullish; lower breadth is bearish."
     },
     {
-      "term": "Open-interest change",
-      "definition": "The day-over-day percentage change in total open derivative contracts. A +3% rise means new long or short positions are being opened, indicating fresh directional bets entering the market."
+      "term": "Open interest",
+      "definition": "The total number of active derivative contracts (futures or perpetuals) that have not been closed. Increasing open interest often means more traders are entering the market; decreasing means traders are exiting."
+    },
+    {
+      "term": "Perpetual or perps",
+      "definition": "A type of derivative contract with no expiration date. Traders can hold perpetuals indefinitely as long as they maintain enough collateral."
     },
     {
       "term": "Taker buy/sell ratio",
-      "definition": "The ratio of aggressive market-buy orders to market-sell orders. A ratio above 1 (e.g., 1.01) indicates slightly more buying aggression; below 1 indicates more selling pressure."
+      "definition": "A measure of aggressive buying versus selling pressure. Ratios above 1 indicate more aggressive buyers (bullish); below 1 indicate more aggressive sellers (bearish)."
     },
     {
-      "term": "Top-position ratio",
-      "definition": "The long-to-short ratio among the largest and most sophisticated derivative traders (not all retail accounts). A reading of 1.93 means the biggest professional money is holding nearly twice as many long bets as short bets, a very bullish signal."
-    },
-    {
-      "term": "Volume (vol)",
-      "definition": "The total notional value of contracts traded during the period, measured in USD (quote-based). High volume suggests liquid, active markets with many participants; low volume suggests thin trading and potential slippage."
+      "term": "Top traders' long/short ratio",
+      "definition": "The long/short positioning of the largest traders on an exchange, as opposed to all traders. Useful for gauging what the biggest money is doing."
     }
   ],
   "_source": "cli"
