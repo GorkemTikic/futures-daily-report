@@ -1,0 +1,33 @@
+{
+  "oneLine": "本次数据采集覆盖5个交易所；新闻综合分析暂不可用。",
+  "caveman": "",
+  "priceVolumeSummary": "请参考下方交易所表格。（本次暂未生成自动化描述——数据直接呈现在表格中。）",
+  "positioningSummary": "请参考下方持仓表格。",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "MOVRUSDT",
+      "explanation": "本次暂无分析说明。",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "本次暂无分析说明。",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "本次暂无分析说明。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [],
+    "groups": {}
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
+  "_source": "cli-zh",
+  "_from": "304e6c17494f0569"
+}

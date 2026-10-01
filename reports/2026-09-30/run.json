@@ -1,17 +1,17 @@
 {
-  "runId": "2026-09-30T00:00:02.052Z",
+  "runId": "2026-10-01T00:00:00.942Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-09-30T00:00:02.052Z",
-  "status": "ok",
-  "finishedAt": "2026-09-30T00:07:28.943Z",
-  "durationSec": 447,
-  "date": "2026-09-29",
+  "startedAt": "2026-10-01T00:00:00.942Z",
+  "status": "degraded",
+  "finishedAt": "2026-10-01T00:09:18.380Z",
+  "durationSec": 557,
+  "date": "2026-09-30",
   "live": true,
   "window": {
-    "label": "2026-09-29 00:00 → 24:00 UTC",
-    "startMs": 1790640000000,
-    "endMs": 1790726399999,
+    "label": "2026-09-30 00:00 → 24:00 UTC",
+    "startMs": 1790726400000,
+    "endMs": 1790812799999,
     "dayAligned": true,
     "rolling": false,
     "asOfUTC": "00:00 UTC"
@@ -60,7 +60,7 @@
         "CFTC"
       ],
       "failed": [],
-      "count": 48,
+      "count": 55,
       "backfill": false
     },
     "tradfi": {
@@ -81,10 +81,10 @@
     "backfill": null
   },
   "synthesis": {
-    "source": "cli",
-    "fellBack": false,
-    "cliOnly": true,
-    "errorKind": null
+    "source": "data-only",
+    "fellBack": true,
+    "cliOnly": false,
+    "errorKind": "consistency"
   },
   "languages": [
     "en",
@@ -97,8 +97,10 @@
     "zh": true
   },
   "publish": {
-    "pushed": true,
-    "branch": "main"
+    "pushed": false,
+    "reason": "pending"
   },
-  "reasons": []
+  "reasons": [
+    "narrative fell back to data-only"
+  ]
 }

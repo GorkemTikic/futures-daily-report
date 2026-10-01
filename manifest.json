@@ -1,16 +1,57 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-09-30T00:07:23.244Z",
-  "count": 105,
+  "generatedAt": "2026-10-01T00:09:18.480Z",
+  "count": 106,
   "counts": {
-    "total": 105,
-    "market": 18,
+    "total": 106,
+    "market": 19,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 2
   },
-  "latest": "2026-09-29",
+  "latest": "2026-09-30",
   "head": 30,
   "reports": [
+    {
+      "date": "2026-09-30",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.05845813966834119,
+        "ETH": 0.29438904932511345
+      },
+      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "newsCount": 0,
+      "topMover": {
+        "symbol": "MOVRUSDT",
+        "chgPct": 74.16926895668188
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "narrative fell back to data-only"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-09-30/summary_2026-09-30.html",
+        "pdf": "reports/2026-09-30/summary_2026-09-30.pdf",
+        "md": "reports/2026-09-30/summary_2026-09-30.md"
+      }
+    },
     {
       "date": "2026-09-29",
       "kind": "market",
@@ -1586,87 +1627,6 @@
         "html": "reports/2026-09-01/summary_2026-09-01.html",
         "pdf": null,
         "md": "reports/2026-09-01/summary_2026-09-01.md"
-      }
-    },
-    {
-      "date": "2026-08-31",
-      "scanned": 528,
-      "movedBig": 6,
-      "dangerCount": 0,
-      "widest": {
-        "symbol": "TACUSDT",
-        "pct": "3.8%",
-        "time": "09:20"
-      },
-      "macro": {
-        "BTC": 1.2,
-        "ETH": 2.1,
-        "SOL": 1.3
-      },
-      "marketSummary": "Market backdrop from Binance price data only (no external news was researched for this day): BTC +1.2%, ETH +2.1%, SOL +1.3% over the UTC day. Bitcoin — the market's anchor — finished up. Altcoin futures moves below should be read against this backdrop.",
-      "newsCount": 0,
-      "flagged": [
-        {
-          "symbol": "BTRUSDT",
-          "label": "Steady decline",
-          "headline": "BTRUSDT slid 41.0% in an orderly sell-off"
-        },
-        {
-          "symbol": "CYSUSDT",
-          "label": "Pumped then faded",
-          "headline": "CYSUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "SKRUSDT",
-          "label": "Brief price gap",
-          "headline": "SKRUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "0GUSDT",
-          "label": "Steady climb",
-          "headline": "0GUSDT climbed +37.1% steadily"
-        },
-        {
-          "symbol": "USELESSUSDT",
-          "label": "Steady climb",
-          "headline": "USELESSUSDT climbed +31.9% steadily"
-        },
-        {
-          "symbol": "牛来USDT",
-          "label": "Pumped then faded",
-          "headline": "牛来USDT ran up, then gave it back"
-        },
-        {
-          "symbol": "ARBUSDT",
-          "label": "Steady climb",
-          "headline": "ARBUSDT climbed +29.9% steadily"
-        },
-        {
-          "symbol": "CLOUSDT",
-          "label": "Steady climb",
-          "headline": "CLOUSDT climbed +25.2% steadily"
-        },
-        {
-          "symbol": "BLESSUSDT",
-          "label": "Pumped then faded",
-          "headline": "BLESSUSDT ran up, then gave it back"
-        },
-        {
-          "symbol": "TACUSDT",
-          "label": "Brief price gap",
-          "headline": "TACUSDT had one brief price dislocation"
-        },
-        {
-          "symbol": "LIGHTUSDT",
-          "label": "Brief price gap",
-          "headline": "LIGHTUSDT had one brief price dislocation"
-        }
-      ],
-      "kind": "divergence",
-      "files": {
-        "html": "reports/2026-08-31/summary_2026-08-31.html",
-        "pdf": null,
-        "md": "reports/2026-08-31/summary_2026-08-31.md"
       }
     }
   ]
