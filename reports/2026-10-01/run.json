@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-02T21:00:02.928Z",
+  "runId": "2026-10-02T22:00:02.639Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-02T21:00:02.928Z",
+  "startedAt": "2026-10-02T22:00:02.639Z",
   "status": "degraded",
-  "finishedAt": "2026-10-02T21:00:44.063Z",
-  "durationSec": 41,
+  "finishedAt": "2026-10-02T22:09:17.362Z",
+  "durationSec": 555,
   "date": "2026-10-01",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1790899199999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "21:00 UTC"
+    "asOfUTC": "22:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -55,16 +55,12 @@
         "Cointelegraph",
         "CryptoSlate",
         "Decrypt",
+        "SEC",
         "Federal Reserve",
         "CFTC"
       ],
-      "failed": [
-        {
-          "source": "SEC",
-          "err": "TypeError: fetch failed"
-        }
-      ],
-      "count": 54,
+      "failed": [],
+      "count": 57,
       "backfill": false
     },
     "tradfi": {
@@ -87,22 +83,24 @@
   "synthesis": {
     "source": "data-only",
     "fellBack": true,
-    "cliOnly": true,
-    "errorKind": "cli-error"
+    "cliOnly": false,
+    "errorKind": "consistency"
   },
   "languages": [
-    "en"
+    "en",
+    "tr",
+    "zh"
   ],
   "pdf": {
-    "en": true
+    "en": true,
+    "tr": true,
+    "zh": true
   },
   "publish": {
     "pushed": true,
     "branch": "main"
   },
   "reasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
-    "zh report unavailable"
+    "narrative fell back to data-only"
   ]
 }

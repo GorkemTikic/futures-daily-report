@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-02T22:09:11.545Z",
+  "generatedAt": "2026-10-02T22:21:45.610Z",
   "count": 107,
   "counts": {
     "total": 107,
     "market": 20,
     "divergence": 87,
-    "degraded": 2
+    "degraded": 1
   },
   "latest": "2026-10-01",
   "reports": [
@@ -21,9 +21,9 @@
         "BTC": 1.4719988900504162,
         "ETH": 0.7610043916993469
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum each rose 1.5% on Oct 1 as the SEC proposed an institutional crypto custody framework and Bitget resumed asset withdrawals after a prior security incident.",
+      "oneLine": "Bitcoin and Ethereum each rose 1.5% on Oct 1 as the SEC proposed an institutional crypto custody framework and Bitget resumed asset withdrawals after a prior security incident.",
+      "newsCount": 5,
       "topMover": {
         "symbol": "龙虾USDT",
         "chgPct": 207.30415388904376
@@ -40,10 +40,8 @@
         "tr",
         "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-10-01/summary_2026-10-01.html",

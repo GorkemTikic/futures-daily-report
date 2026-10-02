@@ -1,138 +1,127 @@
 {
-  "oneLine": "On Thursday, 1 October, Bitcoin and Ethereum rose about 1.5% and 0.7% respectively in relatively calm trading, while only 36% of altcoins gained ground and the broader market showed mixed signals.",
-  "caveman": "On Thursday, 1 October, Bitcoin went up 1.5% and Ethereum went up 0.7%. A person from the Federal Reserve gave a speech at 2 p.m. UTC, and bond prices (which the Fed controls) bounced around, so traders were confused about what comes next. Most other cryptocurrencies did worse than Bitcoin—only about one third of them went up and two thirds went down. A few very small coins jumped wildly for no clear reason. Overall it was a normal day with mixed signals—not calm or worrying.",
-  "priceVolumeSummary": "Bitcoin and Ethereum prices aligned tightly across five major exchanges (Binance, Bybit, OKX, Bitget, Gate), with Bitcoin closing between $84,829 and $84,838 and Ethereum at $2,705. Binance led by volume with $12.0 billion in 24-hour perpetual trading, followed by OKX at $6.9 billion and Bybit at $5.3 billion.",
-  "positioningSummary": "Traders showed moderate bullish positioning: Bitcoin's funding rate sat at 7.55% annualized (longs paid shorts), and open interest grew 3.1%, indicating fresh capital entering. The largest Bitcoin traders favored longs 2.1-to-1, while all traders combined leaned 1.3-to-1 long. Ethereum saw stronger long bias among the largest traders (1.67-to-1) and all traders (2.7-to-1), but funding was near neutral at 0.32% annualized, suggesting less conviction. Taker buying was balanced in Bitcoin (1.0-to-1) but slightly favored sellers in Ethereum (0.964). Market breadth signaled weakness despite gains in the majors: only 36% of Binance perpetuals rose during the day.",
-  "stocksSummary": "Hong Kong and China exchanges closed for National Day. Korean markets were active and mostly positive: Samsung Electronics rose 2.46%, SK Hynix rose 1.08%, and the KOSPI 200 index gained 2.33%, likely buoyed by tech optimism. Commodities weakened: WTI crude oil fell 2.13%, gold fell 0.84%, and silver fell 0.97%, though natural gas rose 2.53%.",
+  "oneLine": "Bitcoin and Ethereum each rose 1.5% on Oct 1 as the SEC proposed an institutional crypto custody framework and Bitget resumed asset withdrawals after a prior security incident.",
+  "caveman": "Bitcoin and Ethereum went up about 1.5% on October 1, which was a calm day with good news. The biggest thing was the US government's financial regulator (the SEC) said that investment managers could now keep crypto directly instead of paying someone else to hold it—this could open crypto to more big institutional investors. Another good sign was that Bitget, a big crypto exchange, started letting people take their Bitcoin and Ethereum out again after fixing a security problem from earlier. However, most other cryptocurrencies actually went DOWN on the day—only about 35% of coins went up. So it was a steady day with reasons for big institutions to feel more comfortable with crypto, but nothing that made everyone excited or worried.",
+  "priceVolumeSummary": "Bitcoin and Ethereum both closed up 1.5% with full agreement across all venues; Binance led volume at $12 billion in Bitcoin and $8.6 billion in Ethereum trading.",
+  "positioningSummary": "Bitcoin funding remained positive at 7.55% annualized with open interest growing 3.1%, showing long-biased positioning (1.35:1 account ratio, 2.09:1 among top traders), though taker volume was nearly balanced. Ethereum displayed weaker positive funding (0.81%), modest open-interest growth (1.1%), and stronger long concentration (2.71:1 accounts, 1.67:1 top traders) paired with light taker selling (0.964 ratio). Market breadth was bearish overall: only 35% of Binance perpetuals closed higher, signaling broad weakness despite major-pair gains.",
+  "stocksSummary": "Korea's session was open with tech stocks leading gains: Samsung Electronics +2.36%, SK Hynix +0.88%, and LG Electronics +2.30%. Hong Kong and China markets remained closed for National Day holiday and did not operate. Commodities declined across the board: gold down 0.68%, WTI crude oil down 1.85%, and silver down 0.75%.",
   "movers": [
     {
       "symbol": "龙虾USDT",
-      "explanation": "This microcap token surged 207%, swinging from $0.032 to $0.114 intraday on $520 million volume. The extreme volatility and lack of news coverage suggest retail speculation with no clear catalyst.",
-      "hasCause": false
-    },
-    {
-      "symbol": "GTCUSDT",
-      "explanation": "Rose 53% on $61 million volume. This small-cap asset has limited mainstream coverage and no identifiable news driver.",
+      "explanation": "Rebounded 207% on the day after a sharp 63% drop in the prior 24 hours; no clear public cause. Likely a technical rebound or short squeeze from oversold conditions.",
       "hasCause": false
     },
     {
       "symbol": "MOVRUSDT",
-      "explanation": "Moonriver token gained 33% on $1.5 billion volume. While the volume is substantial, no public news explains the move.",
+      "explanation": "Gained 33.5% on the day following a 32% decline in the prior 24 hours; no clear public cause. Similar rebound pattern to other altcoin reversals.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "explanation": "Rose 25% on the day after a 18.6% drop in the prior 24 hours; no clear public cause. Part of a broader rebound trend in previously beaten-down tokens.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "SEC proposes framework allowing investment advisers and funds to self-custody crypto",
-        "what": "The Securities and Exchange Commission proposed new rules enabling registered investment advisers and funds to hold crypto directly or use state trust companies as custodians. This removes a key barrier to institutional adoption by eliminating the custody requirement that had previously forced large money managers to rely on third parties.",
-        "coins": "BTC, ETH (institutional)",
-        "timeUTC": "2026-10-01 16:16 UTC",
+        "headline": "SEC proposes crypto custody framework for institutional funds",
+        "what": "The SEC proposed rules allowing registered investment advisers and regulated funds to self-custody crypto assets when no qualified custodian is available, and permitting state-chartered trust companies to serve as qualified custodians. SEC Chair Paul Atkins stated the $2+ trillion crypto asset market had 'grown from a niche curiosity' but regulatory frameworks had not kept pace. The proposal removes barriers preventing investment advisers from offering crypto investment services, with a 60-day public comment period.",
+        "coins": "All crypto assets (Bitcoin, Ethereum, all others)",
+        "timeUTC": "2026-10-01 21:00 UTC",
         "source": "SEC",
         "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
       },
       {
-        "headline": "Hyperliquid and Circle lobby EU on perpetuals and stablecoin rules in MiCA review",
-        "what": "Hyperliquid's policy group urged the European Commission to regulate cryptocurrency perpetuals under MiFID II (the standard framework for traditional derivatives), arguing this would clarify rules and allow larger markets. Separately, Circle (USDC issuer) pushed back on MiCA's mandatory bank-deposit requirements for stablecoin reserves, arguing they lock large stablecoins out of Europe.",
-        "coins": "General crypto, USDC",
-        "timeUTC": "2026-10-01 19:03 UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+        "headline": "Bitget resumes Bitcoin and Ethereum withdrawals after security incident",
+        "what": "Bitget resumed phased restoration of withdrawals for Bitcoin, Ethereum, and USDT following a security incident on September 24. The platform's Protection Fund was replenished to over $300 million as of October 1, signaling recovery and user asset security.",
+        "coins": "Bitcoin, Ethereum, USDT",
+        "timeUTC": "2026-10-01",
+        "source": "Bitget / CryptoSlate",
+        "url": "https://cryptoslate.com/crypto-hackers-exploit-third-party-aave-tool-to-steal-114-eth/"
       },
       {
-        "headline": "Ethereum Foundation launches zkAPI for private AI model queries",
-        "what": "Ethereum infrastructure now lets users prepay in USDC and query AI models through zero-knowledge proofs, meaning service providers cannot see who the user is or what they're asking for. This is a technical milestone in privacy infrastructure built on Ethereum.",
-        "coins": "ETH, USDC",
-        "timeUTC": "2026-10-01 21:00 UTC",
+        "headline": "Hyperliquid and Circle press EU regulators on stablecoin and derivatives rules",
+        "what": "Hyperliquid's policy group filed comments with the European Commission arguing perpetual futures should be regulated under securities law (MiFID II) rather than crypto rules, while Circle urged the EU to revise stablecoin reserve requirements in the MiCA framework review, pushing for flexible liquidity rules instead of mandatory bank-deposit floors to preserve cross-border stablecoin issuance.",
+        "coins": "Stablecoins, perpetual futures",
+        "timeUTC": "2026-10-01",
         "source": "The Block",
-        "url": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504"
+        "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "SEC proposes framework allowing investment advisers and funds to self-custody crypto",
-          "what": "The SEC proposed rules enabling registered investment advisers and funds to hold crypto directly or use state trust companies as custodians, removing a key institutional barrier.",
-          "coins": "BTC, ETH (institutional)",
-          "timeUTC": "2026-10-01 16:16 UTC",
-          "source": "SEC",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
-        },
+          "headline": "Federal Reserve Governor Waller discusses FRED data platform and artificial intelligence",
+          "what": "FOMC Member Christopher Waller delivered a speech at the FRED Confidential conference (Federal Reserve Bank of St. Louis) focused on the evolution of the FRED economic data platform and AI integration. The speech addressed AI opportunities (faster data discovery and visualization) and risks (hallucination, bias, correlation confusion) but did not cover interest-rate policy or monetary decisions. The Fed announced the FRED MCP Connector enabling AI agents to access 850,000+ economic data series while maintaining source attribution.",
+          "coins": "None",
+          "timeUTC": "2026-10-01 15:00 UTC",
+          "source": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm"
+        }
+      ],
+      "Institutional flows and ETFs": [
         {
-          "headline": "Hyperliquid and Circle lobby EU on perpetuals and stablecoin rules in MiCA review",
-          "what": "Hyperliquid's policy group urged EU to regulate crypto perpetuals under standard derivatives rules. Circle pushed back on stablecoin reserve mandates, arguing they lock large stablecoins out of Europe.",
-          "coins": "General crypto, USDC",
-          "timeUTC": "2026-10-01 19:03 UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+          "headline": "Bitcoin ETF flows reverse to positive after nine-day inflow streak ends",
+          "what": "Spot Bitcoin ETFs recorded $170.2 million in net inflows on October 1, reversing the prior day's $148.7 million outflow which had ended a nine-day inflow streak totaling $3.1 billion. The data reflects renewed institutional demand following the brief outflow window.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-01",
+          "source": "The Block / Bitfinex",
+          "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
         }
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-10-01",
-    "summary": "US spot Bitcoin ETFs recorded $149 million in net outflows on 1 October, ending a nine-day inflow streak that had accumulated $3 billion through 30 September.",
-    "source": "The Block",
-    "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Eurozone Flash CPI October 2026 — Friday 2 October, 09:00 UTC",
-      "typicalReaction": "High-impact inflation release. Hot CPI favors EUR and bonds, cold CPI favors risk assets like crypto."
+      "event": "Eurozone Flash CPI October 2026 — Friday October 2, 09:00 UTC",
+      "typicalReaction": "High-impact release expected to create volatility in traditional-market bond yields and the US dollar; crypto often follows risk sentiment from these macro releases."
     },
     {
-      "event": "US Non-Farm Payrolls October 2026 — Friday 2 October, 12:30 UTC",
-      "typicalReaction": "This strongly moves crypto. Weak jobs data suggests the Fed will pause rate hikes, typically boosting Bitcoin and altcoins. Strong jobs data suggests higher rates ahead, typically hurting risk assets."
+      "event": "US Non-Farm Payrolls (Employment Situation) October 2026 — Friday October 2, 12:30 UTC",
+      "typicalReaction": "Historically strong crypto mover; weak jobs data supports risk-on sentiment and reduces rate-hike expectations, typically bullish for Bitcoin and altcoins. Strong data does the opposite."
     }
   ],
   "glossary": [
     {
-      "term": "BTC dominance",
-      "definition": "Bitcoin's percentage share of the total crypto market cap. High dominance means Bitcoin is outperforming altcoins; low dominance means altcoins are gaining."
-    },
-    {
-      "term": "Fear & Greed Index",
-      "definition": "A sentiment gauge from 0 (extreme fear) to 100 (extreme greed) based on market volatility, volume, and momentum. Values above 70 suggest euphoria; below 30 suggest panic."
+      "term": "Basis",
+      "definition": "The time window over which price and volume data are aggregated. 'UTC-day' means all data from 00:00–23:59 UTC for that calendar date."
     },
     {
       "term": "Funding rate",
-      "definition": "A periodic payment between traders in perpetual futures. When positive, long traders (betting prices rise) pay short traders; when negative, shorts pay longs. High rates signal strong conviction among the majority."
-    },
-    {
-      "term": "Long/short ratio",
-      "definition": "The count of traders betting prices will rise (longs) divided by those betting prices will fall (shorts). Above 1.0 means more longs; below 1.0 means more shorts."
+      "definition": "The periodic payment between long and short traders in perpetual futures contracts. Positive funding means long-position holders pay short-position holders; a sign the market leans bullish. Annualized funding rates show what that rate would equal if paid every year."
     },
     {
       "term": "Market breadth",
-      "definition": "The percentage of all assets in the market that rose during the reporting period. High breadth (70%+ up) signals a healthy rally; low breadth (below 40% up) signals weakness despite big-name coins gaining."
+      "definition": "The percentage of assets in a basket (e.g., all Binance perpetual contracts) that gained value during the period. Below 50% means more assets fell than rose; a bearish signal."
+    },
+    {
+      "term": "Mark price",
+      "definition": "A reference price used in perpetual futures contracts to trigger funding payments and liquidations; typically a weighted average of spot prices across major exchanges, designed to prevent the perpetual price from straying too far from the real-world asset price."
+    },
+    {
+      "term": "MiCA",
+      "definition": "Markets in Crypto-Assets Regulation; the European Union's regulatory framework for cryptocurrency services, including rules for stablecoin reserves, custody, and platform licensing."
     },
     {
       "term": "Open interest",
-      "definition": "The total dollar value of all unfilled futures contracts across a market. Rising open interest means traders are opening new positions; falling open interest means they are closing positions."
+      "definition": "The total number of open positions (or their total notional value in USD) across all perpetual futures contracts for a given asset. Rising open interest suggests traders are taking larger positions; falling open interest suggests they are closing out."
     },
     {
       "term": "Open-interest change",
-      "definition": "Whether open interest grew or shrank during the reporting period, expressed as a percentage. Growth signals new capital entering; decline signals capital exiting."
+      "definition": "The percentage increase or decrease in total open interest during a period. Positive change means traders added to their positions; negative means they reduced them."
     },
     {
-      "term": "Perpetuals (perps)",
-      "definition": "Leveraged futures contracts with no expiration date. Unlike traditional futures, traders can hold them indefinitely and receive or pay funding rates instead of settling at a maturity date."
-    },
-    {
-      "term": "Stablecoin",
-      "definition": "A cryptocurrency designed to maintain a fixed price, typically $1.00 per unit. Examples: USDC, USDT. They allow traders to exit risky positions without selling to traditional currency."
+      "term": "Perpetual futures",
+      "definition": "Leveraged contracts that track the price of an asset (like Bitcoin) without an expiration date, allowing traders to go long or short with borrowed capital. Funding rates keep the perpetual price aligned with the spot price."
     },
     {
       "term": "Taker buy/sell ratio",
-      "definition": "A measure of which side is aggressively buying or selling. Ratios above 1.0 indicate more aggressive buying; below 1.0 indicate more aggressive selling."
+      "definition": "The ratio of volume from buyers who 'take' the asking price to volume from sellers who 'take' the bid price. Ratios above 1 indicate more aggressive buying; below 1 indicate more aggressive selling by market-takers."
     },
     {
-      "term": "Top position ratio",
-      "definition": "The long-to-short bias among the largest traders (whales), separate from the broader market. Shows what the biggest money is betting."
-    },
-    {
-      "term": "Zero-knowledge proof",
-      "definition": "A cryptographic method that proves a fact is true without revealing the underlying details. Enables privacy in transactions and data queries."
+      "term": "Top trader position ratio",
+      "definition": "The long-to-short position ratio among the largest traders on an exchange (not all traders). A ratio above 1 means top traders hold more long than short positions. Used to gauge whether sophisticated players are betting bullish or bearish."
     }
   ],
   "_source": "cli"

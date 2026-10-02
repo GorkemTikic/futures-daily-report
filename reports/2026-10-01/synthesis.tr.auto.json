@@ -1,33 +1,129 @@
 {
-  "oneLine": "Pazar verileri 5 platformdan toplanmıştır; bu çalıştırmada haber sentezi mevcut değildir.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Bu çalıştırmada otomatik açıklama mevcut değildir — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakınız.",
-  "stocksSummary": "",
+  "oneLine": "Bitcoin ve Ethereum, 1 Ekim'de SEC'in kurumsal kripto saklama çerçevesini önerdiği ve Bitget'in önceki güvenlik olayından sonra varlık çekilişlerini yeniden başlattığı sırada her biri %1,5 yükseldi.",
+  "caveman": "1 Ekim'de Bitcoin ve Ethereum yaklaşık %1,5 yükseldi, bu sakin ve iyi haberli bir gündü. En önemli şey, ABD hükümetinin mali düzenlemecisi (SEC), yatırım yöneticilerinin artık kripto para direkt tutabileceğini söylemesi idi - daha önceden başkasına tutturdurmak yerine. Bu, büyük kurumsal yatırımcıları kripto paraya açabilir. Başka bir iyi haber ise, büyük bir kripto borsası olan Bitget, insanların Bitcoin ve Ethereum'larını, daha önceki bir güvenlik sorunu düzeltildikten sonra yeniden çekmelerine başladı. Ama diğer çoğu kripto para aslında o gün DÜŞTÜ - sadece yaklaşık %35'i yükseldi. Yani bu, büyük kurumların kripto paraya daha rahat hissetmeleri için nedenleri olan sakin bir gündü, ama herkesin heyecanlanmasını veya endişelenmesini sağlayan bir şey yoktu.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum her ikisi de tüm borsalarda tam bir uyum ile %1,5 yükselerek kapandı; Binance, Bitcoin ticaretinde 12 milyar dolar ve Ethereum ticaretinde 8,6 milyar dolar ile hacim öncülüğünü yaptı.",
+  "positioningSummary": "Bitcoin finansmanı yıllıklandırılmış %7,55'te pozitif kaldı ve açık faiz %3,1 arttı, uzun taraflı pozisyonlamayı gösterdi (1.35:1 hesap oranı, en iyi tüccarlar arasında 2.09:1), ancak alıcı hacmi neredeyse dengeliydi. Ethereum daha zayıf pozitif finansman (%0,81), mütevazı açık faiz artışı (%1,1) ve daha güçlü uzun yoğunlaşma (2.71:1 hesaplar, 1.67:1 en iyi tüccarlar) gösterdi, hafif alıcı satışı (0.964 oranı) ile birlikte. Pazar genişliği genel olarak düşüş yönlüydü: Binance vadeli işlemlerinin sadece %35'i daha yüksek kapandı, ana çiftlerin kazanımlarına rağmen geniş bir zayıflığı işaret etti.",
+  "stocksSummary": "Kore'nin seansı teknoloji hisse senetleri öncülüğünde açıktı: Samsung Electronics +%2,36, SK Hynix +%0,88 ve LG Electronics +%2,30. Hong Kong ve Çin pazarları Ulusal Bayram tatili için kapalı kaldı ve işlem yapmadı. Emtialar geniş bir şekilde düştü: altın -%0,68%, WTI ham petrol -%1,85% ve gümüş -%0,75%.",
   "movers": [
     {
       "symbol": "龙虾USDT",
-      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
-      "hasCause": false
-    },
-    {
-      "symbol": "GTCUSDT",
-      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
+      "explanation": "Önceki 24 saatte keskin %63 düşüşün ardından gün içinde %207 geri sıçradı; açık bir kamu nedeni yok. Muhtemelen aşırı satıldığı koşullardan teknik bir toparlanma veya kısa sıkışması.",
       "hasCause": false
     },
     {
       "symbol": "MOVRUSDT",
-      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
+      "explanation": "Önceki 24 saatte %32'lik düşüşün ardından gün içinde %33,5 kazanç sağladı; açık bir kamu nedeni yok. Diğer altcoin geri dönüşlerine benzer rebound modeli.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "explanation": "Önceki 24 saatte %18,6'lık düşüşün ardından gün içinde %25 yükseldi; açık bir kamu nedeni yok. Daha önceden ezilen jetonlardaki geniş bir toparlanma trendinin parçası.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "SEC, kurumsal fonlar için kripto saklama çerçevesi önerdi",
+        "what": "SEC, kayıtlı yatırım danışmanlarına ve düzenlenen fonlara nitelikli bir vasi bulunmadığında kripto varlıklarını kendileri tutmalarına izin veren kuralları önerdi ve devlet tarafından kiralanan tröst şirketlerinin nitelikli mütevellilik görevini yapmasına izin verdi. SEC Başkanı Paul Atkins, 2 trilyon dolardan fazla kripto varlık piyasasının 'niş bir merak'tan büyüdüğünü ama yasal çerçevelerin bunu takip etmediğini söyledi. Teklif, yatırım danışmanlarının kripto yatırım hizmetleri sunmasını engelleyen engelleri kaldırıyor ve 60 günlük kamuya açık yorum dönemi içeriyor.",
+        "coins": "All crypto assets (Bitcoin, Ethereum, all others)",
+        "timeUTC": "2026-10-01 21:00 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+      },
+      {
+        "headline": "Bitget, güvenlik olayından sonra Bitcoin ve Ethereum çekilişlerini yeniden başlattı",
+        "what": "Bitget, 24 Eylül'de yaşanan güvenlik olayının ardından Bitcoin, Ethereum ve USDT çekilişlerinin aşamalı olarak kaldırılmasını yeniden başlattı. Platform'un Koruma Fonu, 1 Ekim itibarıyla 300 milyon dolardan fazla olacak şekilde yeniden dolduruldu ve iyileşmeyi ve kullanıcı varlıklarının güvenliğini işaret etti.",
+        "coins": "Bitcoin, Ethereum, USDT",
+        "timeUTC": "2026-10-01",
+        "source": "Bitget / CryptoSlate",
+        "url": "https://cryptoslate.com/crypto-hackers-exploit-third-party-aave-tool-to-steal-114-eth/"
+      },
+      {
+        "headline": "Hyperliquid ve Circle, AB düzenlemecilerine stablecoin ve türev kuralları konusunda baskı yapıyor",
+        "what": "Hyperliquid'in politika grubu, vadeli işlemlerin kripto kuralları yerine menkul kıymet yasası (MiFID II) kapsamında düzenlenmesi gerektiğini savunarak Avrupa Komisyonu'na yorum sundu; Circle ise AB'ye MiCA çerçevesi incelemesinde stablecoin rezerv gerekliliklerini revize etmesini ve sınır ötesi stablecoin ihracını korumak için zorunlu banka mevduat tabanları yerine esnek likidite kurallarını savunmasını çağırdı.",
+        "coins": "Stablecoins, perpetual futures",
+        "timeUTC": "2026-10-01",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Federal Rezerv Valisi Waller, FRED veri platformu ve yapay zekadan bahsediyor",
+          "what": "FOMC Üyesi Christopher Waller, FRED ekonomik veri platformunun ve yapay zeka entegrasyonunun evrimini mercek altına alan FRED Gizli konferansında (Federal Rezerv Bankası St. Louis) bir konuşma yaptı. Konuşma, yapay zeka fırsatlarını (daha hızlı veri keşfi ve görselleştirme) ve riskleri (halüsinasyon, önyargı, korelasyon karışıklığı) ele aldı, ancak faiz oranı politikası veya parasal kararlardan bahsetmedi. Fed, yapay zeka ajanlarının kaynak atıfını korurken 850.000'den fazla ekonomik veri serisine erişmesini sağlayan FRED MCP Bağlayıcısını duyurdu.",
+          "coins": "None",
+          "timeUTC": "2026-10-01 15:00 UTC",
+          "source": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF akışları dokuz günlük giriş serisinin sona ermesinden sonra pozitife döndü",
+          "what": "Spot Bitcoin ETF'leri, 1 Ekim'de 170,2 milyon dolarlık net giriş kaydetti; bu, 3,1 milyar dolara ulaşan dokuz günlük giriş serisini sona erdiren önceki günün 148,7 milyon dolarlık çıkışını tersine çevirdi. Veriler, kısa çıkış döneminin ardından yenilenen kurumsal talebi yansıtıyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-01",
+          "source": "The Block / Bitfinex",
+          "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+        }
+      ]
+    }
   },
   "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "calendarNotes": [
+    {
+      "event": "Eurozone Flash CPI October 2026 — Friday October 2, 09:00 UTC",
+      "typicalReaction": "Yüksek etkili bir yayın, geleneksel pazar tahvil getirileri ve ABD dolarında oynaklık yaratması bekleniyor; kripto çoğu zaman bu makro yayınlardan risk duyarlılığını takip ediyor."
+    },
+    {
+      "event": "US Non-Farm Payrolls (Employment Situation) October 2026 — Friday October 2, 12:30 UTC",
+      "typicalReaction": "Tarihsel olarak güçlü kripto hareketi; zayıf iş veriler risk-on duyarlılığını destekliyor ve faiz artış beklentilerini azaltıyor, tipik olarak Bitcoin ve altcoinler için yükseliş yönlü. Güçlü veriler bunun tersini yapar."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Zaman pencereleri",
+      "definition": "Fiyat ve hacim verilerinin toplandığı zaman penceresi. 'UTC-gün', o takvim tarihi için 00:00–23:59 UTC arasındaki tüm verileri anlamına gelir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem sözleşmelerinde uzun ve kısa vadeli tüccarlar arasında periyodik ödeme. Pozitif finansman, uzun pozisyon sahibinin kısa pozisyon sahibine ödeme yaptığı anlamına gelir; pazarın yükseliş yönlü olduğunun bir işareti. Yıllıklandırılmış finansman oranları, o oranın her yıl ödenirse ne kadar olacağını gösterir."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Bir sepetteki (örneğin, tüm Binance vadeli işlem sözleşmeleri) dönem içinde değer kazanan varlıkların yüzdesi. %50'nin altında, daha fazla varlık düştüğü anlamına gelir; düşüş yönlü bir işaret."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Vadeli işlem sözleşmelerinde finansman ödemelerini ve tasfiyeyi tetiklemek için kullanılan referans fiyat; tipik olarak büyük borsalar arasında spot fiyatların ağırlıklı ortalaması, vadeli işlem fiyatının gerçek dünya varlık fiyatından çok uzaklaşmasını önlemek için tasarlanmıştır."
+    },
+    {
+      "term": "MiCA",
+      "definition": "Kripto Varlıkların Pazarlarındaki Düzenleme; stablecoin rezervleri, mütevellilik ve platform lisansı kuralları dahil olmak üzere Avrupa Birliği'nin kripto para hizmetleri için düzenleyici çerçevesi."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Belirli bir varlık için tüm vadeli işlem sözleşmelerine göre açık pozisyonların toplam sayısı (veya ABD dolarındaki toplam nominal değeri). Artan açık faiz, tüccarların daha büyük pozisyonlar aldığını gösterir; düşen açık faiz, onların kapattığını gösterir."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Bir dönem içinde toplam açık faizin yüzdesi artış veya azalış. Pozitif değişim, tüccarların pozisyonlarını arttırdığı anlamına gelir; negatif, onları azalttığı anlamına gelir."
+    },
+    {
+      "term": "Vadeli işlem sözleşmeleri",
+      "definition": "Bir varlığın (Bitcoin gibi) fiyatını izleyen ve son kullanma tarihi olmayan kaldıraçlı sözleşmeler, tüccarların ödünç almış sermaye ile uzun veya kısa gitmelerini sağlar. Finansman oranları, vadeli işlem fiyatını spot fiyatla uyumlu tutar."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Satış fiyatını 'alan' alıcıların hacminin, teklif fiyatını 'alan' satıcıların hacmine oranı. 1'den yukarıdaki oranlar daha agresif alışları gösterir; 1'den aşağıda pazar yapıcılar tarafından daha agresif satışı gösterir."
+    },
+    {
+      "term": "Büyük tüccar pozisyon oranı",
+      "definition": "Bir borsadaki en büyük tüccarlar arasında uzun-kısa pozisyon oranı (tüm tüccarlar değil). 1'den yukarıdaki bir oran, en iyi tüccarların kısa pozisyonlardan daha fazla uzun pozisyon tuttuğu anlamına gelir. Sofistike oyuncuların yükseliş veya düşüş yönlü bahis yapıp yapmadığını ölçmek için kullanılır."
+    }
+  ],
   "_source": "cli-tr",
-  "_from": "e45e2080c50803fb"
+  "_from": "d984b425cc99c26d"
 }
