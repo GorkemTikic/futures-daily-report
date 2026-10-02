@@ -167,9 +167,10 @@ export async function collectCalendar({ nowMs = Date.now(), reportDayKey = null 
   const next24h = kept.filter((e) => e.ms > nowMs && e.ms <= nowMs + DAY_MS);
   const week = kept.filter((e) => e.dayKey !== rdKey && e.ms > nowMs + DAY_MS && e.ms <= nowMs + 10 * DAY_MS);
 
-  // Build volatility warnings for tomorrow's big events
+  // Build volatility warnings for tomorrow's big events (relative to report day, not run time)
+  const rdMs = new Date(rdKey + "T00:00:00Z").getTime();
   const tomorrowKey = new Intl.DateTimeFormat("en-CA", { timeZone: "UTC", year: "numeric", month: "2-digit", day: "2-digit" })
-    .format(new Date(nowMs + DAY_MS));
+    .format(new Date(rdMs + DAY_MS));
   const tomorrowBig = kept.filter((e) => e.dayKey === tomorrowKey && e.tags && e.tags.length > 0);
   const warnings = tomorrowBig.map((e) => {
     if (e.tags.includes("crypto-mover")) {

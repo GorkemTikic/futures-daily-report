@@ -48,7 +48,7 @@ Where ITEM = { "headline": string, "what": string (2-3 plain sentences), "coins"
 Include a group key ONLY if it has items; use [] otherwise.`;
 
 export function buildSynthesisPrompt(pack, opts = {}) {
-  const alreadyReported = (opts.publishedNews || []).slice(0, 60);
+  const alreadyReported = (opts.publishedNews || []).slice(-60);
   const cal = pack.calendar || {};
   const cryptoMoversToday = (cal.cryptoMoversToday || []).map((e) => e.title).join(", ");
   const trumpToday = (cal.trumpToday || []).map((e) => e.title).join(", ");
@@ -192,6 +192,8 @@ function runClaudeCli(prompt, model, timeoutMs = 300000, useTools = false) {
       } catch { /* ignore */ }
       finish(reject, new Error("claude -p synthesis timed out"));
     }, timeoutMs);
+    child.stdout.setEncoding("utf8");
+    child.stderr.setEncoding("utf8");
     child.stdout.on("data", (d) => (out += d));
     child.stderr.on("data", (d) => (err += d));
     child.on("error", (e) => finish(reject, e));
@@ -258,8 +260,10 @@ async function runBackend(backend, prompt, config, opts = {}) {
       // Some subscription tokens can't auth the web-search tool path on large prompts.
       // Fall back to a no-web synthesis (news from the collected RSS candidates only —
       // still real, never invented) before giving up on the backend.
+      const msg = String(e.message || "");
+      if (/429|rate.?limit|overloaded/i.test(msg)) throw e;
       if (isToolAuthError(e) || e.kind === "cli-error") {
-        console.warn(`  cli web-search failed (${String(e.message).slice(0, 90)}) — retrying without web search (news from collected candidates only)`);
+        console.warn(`  cli web-search failed (${msg.slice(0, 90)}) — retrying without web search (news from collected candidates only)`);
         return cliOnce(prompt, config, false);
       }
       throw e;

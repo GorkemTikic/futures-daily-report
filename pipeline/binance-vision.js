@@ -37,12 +37,15 @@ async function fetchZipCsv(url) {
   if (eocdOff < 0) return null;
 
   const cdOff = buf.readUInt32LE(eocdOff + 16);
+  // Read sizes from the central directory (reliable even with the data-descriptor flag)
+  const cdCompMethod = buf.readUInt16LE(cdOff + 10);
+  const cdCompSize = buf.readUInt32LE(cdOff + 20);
   // Local file header at the offset the central directory points to
   const lfhOff = buf.readUInt32LE(cdOff + 42);
   if (buf.readUInt32LE(lfhOff) !== 0x04034b50) return null;
 
-  const compMethod = buf.readUInt16LE(lfhOff + 8);
-  const compSize = buf.readUInt32LE(lfhOff + 18);
+  const compMethod = cdCompMethod;
+  const compSize = cdCompSize;
   const fnLen = buf.readUInt16LE(lfhOff + 26);
   const exLen = buf.readUInt16LE(lfhOff + 28);
   const dataStart = lfhOff + 30 + fnLen + exLen;

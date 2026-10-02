@@ -109,7 +109,7 @@ export function intradayPriceChart(data, { w = 520, h = 180, label = "BTC", colo
 
 // Intraday OI + taker ratio dual-axis chart.
 // metrics: [{ts, oiUSD, taker}]
-export function intradayOiChart(metrics, { w = 520, h = 140, label = "BTC" } = {}) {
+export function intradayOiChart(metrics, { w = 520, h = 140, label = "BTC", titleOi = "Open Interest", titleTaker = "Taker B/S" } = {}) {
   if (!metrics || metrics.length < 2) return "";
   const pad = { top: 22, right: 52, bottom: 28, left: 8 };
   const cw = w - pad.left - pad.right;
@@ -153,11 +153,11 @@ export function intradayOiChart(metrics, { w = 520, h = 140, label = "BTC" } = {
   ).join("");
 
   return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${w}px;font-family:'SF Mono',Consolas,monospace;">
-    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)} — Open Interest</text>
+    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)} — ${esc(titleOi)}</text>
     ${yLabels}${xLabels}
     <path d="${oiPath}" fill="none" stroke="var(--info)" stroke-width="1.5" stroke-linejoin="round" opacity="0.8"/>
     ${takerDots}
-    ${withTaker.length > 2 ? `<text x="${pad.left}" y="${(pad.top + ch + 10).toFixed(1)}" fill="var(--muted)" font-size="7">Taker B/S: <tspan fill="var(--pos)">●</tspan> buy &gt; sell  <tspan fill="var(--neg)">●</tspan> sell &gt; buy</text>` : ""}
+    ${withTaker.length > 2 ? `<text x="${pad.left}" y="${(pad.top + ch + 10).toFixed(1)}" fill="var(--muted)" font-size="7">${esc(titleTaker)}: <tspan fill="var(--pos)">●</tspan> buy &gt; sell  <tspan fill="var(--neg)">●</tspan> sell &gt; buy</text>` : ""}
   </svg>`;
 }
 
@@ -194,7 +194,7 @@ export function trendChart(data, { w = 250, h = 60, label = "BTC", color = "#c24
 
 // Funding rate heatmap across venues for BTC and ETH.
 // rows: [{asset, venues: [{venue, fundingAnn}]}]
-export function fundingHeatmap(rows, { w = 520, h = 0 } = {}) {
+export function fundingHeatmap(rows, { w = 520, h = 0, title = "Funding Rate (annualised)" } = {}) {
   if (!rows || !rows.length) return "";
   const venues = [...new Set(rows.flatMap((r) => r.venues.map((v) => v.venue)))];
   if (!venues.length) return "";
@@ -241,14 +241,14 @@ export function fundingHeatmap(rows, { w = 520, h = 0 } = {}) {
   });
 
   return `<svg viewBox="0 0 ${totalW} ${totalH}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${totalW}px;font-family:'SF Mono',Consolas,monospace;">
-    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">Funding Rate (annualised)</text>
+    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(title)}</text>
     ${svg}
   </svg>`;
 }
 
 // Hourly volume profile — aggregates 5m intraday data into 24 hourly bars.
 // data: [{ts, vol}]
-export function volumeProfile(data, { w = 520, h = 120, label = "BTC", color = "#c2410c" } = {}) {
+export function volumeProfile(data, { w = 520, h = 120, label = "BTC", color = "#c2410c", titleVol = "Hourly Volume" } = {}) {
   if (!data || data.length < 10) return "";
   const pad = { top: 22, right: 14, bottom: 24, left: 42 };
   const cw = w - pad.left - pad.right;
@@ -288,14 +288,14 @@ export function volumeProfile(data, { w = 520, h = 120, label = "BTC", color = "
   ).join("");
 
   return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${w}px;font-family:'SF Mono',Consolas,monospace;">
-    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)} — Hourly Volume</text>
+    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)} — ${esc(titleVol)}</text>
     ${yLabels}${bars}
   </svg>`;
 }
 
 // Movers quadrant scatter chart — x=log(volume), y=change%.
 // movers: [{symbol, chgPct, volUSD}]
-export function moversQuadrant(movers, { w = 520, h = 200 } = {}) {
+export function moversQuadrant(movers, { w = 520, h = 200, title = "Movers — Change vs Volume" } = {}) {
   if (!movers || movers.length < 1) return "";
   const pad = { top: 20, right: 14, bottom: 28, left: 50 };
   const cw = w - pad.left - pad.right;
@@ -336,7 +336,7 @@ export function moversQuadrant(movers, { w = 520, h = 200 } = {}) {
   }
 
   return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${w}px;font-family:'SF Mono',Consolas,monospace;">
-    <text x="${pad.left}" y="13" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">Movers — Change vs Volume</text>
+    <text x="${pad.left}" y="13" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(title)}</text>
     ${svg}
   </svg>`;
 }

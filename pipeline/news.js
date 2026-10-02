@@ -40,7 +40,13 @@ function clean(s, cap) {
 }
 
 function stripCdata(s) {
-  return String(s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&nbsp;/g, " ").trim();
+  return String(s || "")
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(Number(dec)))
+    .replace(/&amp;/g, "&").replace(/&apos;/g, "'").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&nbsp;/g, " ")
+    .trim();
 }
 function tag(block, name) {
   const m = block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, "i"));
@@ -104,7 +110,7 @@ export async function collectNews({ nowMs = Date.now(), win = null, config = {} 
   const seen = new Set();
   const deduped = [];
   for (const it of items.sort((a, b) => (b.ms || 0) - (a.ms || 0))) {
-    const key = it.title.toLowerCase().replace(/[^a-z0-9 ]/g, "").split(" ").slice(0, 6).join(" ");
+    const key = it.title.toLowerCase().replace(/[\s]+/g, " ").trim().slice(0, 80);
     if (seen.has(key)) continue;
     seen.add(key);
     deduped.push(it);

@@ -1,6 +1,6 @@
 // Redacts anything secret-shaped before it can reach a log file, run.json or the
-// console. Logs are committed to a PUBLIC repo, so a stray API error string carrying
-// a key in a URL must never survive to disk. Two layers:
+// console. Logs are gitignored, but run.json is committed to a public repo, so a
+// stray API error string carrying a key in a URL must never survive. Two layers:
 //   1) exact values of known secret env vars (belt-and-braces), and
 //   2) generic patterns (Anthropic tokens, apikey/token query params, long hex/base64).
 // It is deliberately over-eager: a false redaction is harmless, a leaked key is not.

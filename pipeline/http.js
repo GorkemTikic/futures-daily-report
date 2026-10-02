@@ -14,30 +14,66 @@ export async function fetchWithTimeout(url, { timeoutMs = 20000, headers = {}, m
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
-    return await fetch(url, {
+    const res = await fetch(url, {
       method,
       headers: { "User-Agent": UA, Accept: "application/json", ...headers },
       redirect: "follow",
       signal: ctrl.signal,
       ...(body != null ? { body } : {}),
     });
-  } finally {
+    // Keep the timer alive until the body is consumed
+    return res;
+  } catch (err) {
     clearTimeout(timer);
+    throw err;
   }
+}
+
+function retryableStatus(status) {
+  // Don't retry 4xx (client errors) except 429 (rate limit)
+  if (status >= 400 && status < 500 && status !== 429) return false;
+  return true;
+}
+
+function parseRetryAfter(res) {
+  const ra = res.headers.get("Retry-After");
+  if (!ra) return null;
+  const secs = Number(ra);
+  if (Number.isFinite(secs) && secs > 0) return Math.min(secs * 1000, 30000);
+  return null;
 }
 
 export async function fetchJson(url, { retries = 2, timeoutMs = 20000, headers = {} } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeoutMs);
     try {
-      const res = await fetchWithTimeout(url, { timeoutMs, headers });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return await res.json();
+      const res = await fetch(url, {
+        method: "GET",
+        headers: { "User-Agent": UA, Accept: "application/json", ...headers },
+        redirect: "follow",
+        signal: ctrl.signal,
+      });
+      if (!res.ok) {
+        if (!retryableStatus(res.status)) {
+          clearTimeout(timer);
+          throw new Error(`HTTP ${res.status}`);
+        }
+        const retryMs = parseRetryAfter(res);
+        clearTimeout(timer);
+        throw Object.assign(new Error(`HTTP ${res.status}`), { retryMs });
+      }
+      const data = await res.json();
+      clearTimeout(timer);
+      return data;
     } catch (err) {
+      clearTimeout(timer);
       lastErr = err;
-      // Only back off BETWEEN attempts — never after the last one (that was a bug:
-      // it added a pointless 1.2s sleep to every failed section).
-      if (attempt < retries) await sleep(400 * (attempt + 1));
+      if (attempt < retries) {
+        const delay = err.retryMs || 400 * (attempt + 1);
+        await sleep(delay);
+      }
     }
   }
   throw lastErr;
@@ -46,11 +82,28 @@ export async function fetchJson(url, { retries = 2, timeoutMs = 20000, headers =
 export async function fetchText(url, { retries = 2, timeoutMs = 20000, headers = {} } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeoutMs);
     try {
-      const res = await fetchWithTimeout(url, { timeoutMs, headers });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return await res.text();
+      const res = await fetch(url, {
+        method: "GET",
+        headers: { "User-Agent": UA, Accept: "text/plain, text/html, */*", ...headers },
+        redirect: "follow",
+        signal: ctrl.signal,
+      });
+      if (!res.ok) {
+        if (!retryableStatus(res.status)) {
+          clearTimeout(timer);
+          throw new Error(`HTTP ${res.status}`);
+        }
+        clearTimeout(timer);
+        throw new Error(`HTTP ${res.status}`);
+      }
+      const data = await res.text();
+      clearTimeout(timer);
+      return data;
     } catch (err) {
+      clearTimeout(timer);
       lastErr = err;
       if (attempt < retries) await sleep(400 * (attempt + 1));
     }

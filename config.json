@@ -1,30 +1,8 @@
 {
   "_comment": "Settings for the daily report. Edit values here; no code changes needed.",
 
-  "prefilterTopN": 75,
-  "_prefilterTopN": "Scan the full market with the cheap 24h endpoint, then deep-fetch 1m mark+last klines for the top N movers by daily range. Divergence only matters where price moved, so this catches the dangerous cases while staying fast. Set to 0 to deep-scan ALL symbols (slower, ~4-5 min).",
-
-  "deepDivePages": 15,
-  "_deepDivePages": "Max number of full per-symbol 'story' pages in the PDF. The rest of the flagged symbols still appear in the summary tables.",
-
-  "thresholds": {
-    "bigMovePct": 25,
-    "highVolPct": 1.5,
-    "divDangerPct": 5,
-    "divDangerMinutes": 10,
-    "divBriefMaxPct": 5,
-    "divFlagPct": 2,
-    "fadeRunupPct": 15,
-    "fadeCloseMaxPct": 5,
-    "recoveryDropPct": 15,
-    "recoveryBouncePct": 15
-  },
-
   "autoPublish": true,
   "_autoPublish": "After each report run, rebuild the website's manifest.json and git-push reports/ so the GitHub Pages site (https://gorkemtikic.github.io/futures-daily-report) updates itself. Requires this folder to be a git repo with an 'origin' remote and a logged-in git/gh on this machine. Non-fatal: a push failure never breaks report generation. Set false to publish manually with 'node scripts/publish.mjs'.",
-
-  "marketNews": true,
-  "_marketNews": "New: adds a whole-market context page (real BTC/ETH/SOL data + a market chart) and an ATTRIBUTED news/social section explaining what moved the market. News is researched at generation time by the narrator (the 'cli' route runs a separate 'claude -p' with web search; 'api' uses the Anthropic web_search tool). It is written to reports/<date>/news.json, which you can also hand-edit or pre-fill — that file always wins. If no research is available (e.g. narrator='template' or offline), the section falls back to a truthful data-only summary and no headline is ever invented. Set false to skip news entirely (charts + macro data still render).",
 
   "narrator": "auto",
   "_narrator": "Who writes the daily report prose/news/glossary (the new pipeline in pipeline/). 'auto' (recommended) = Anthropic API if ANTHROPIC_API_KEY is set in .env (robust for the nightly job — no OAuth expiry), else headless Claude Code (claude -p) on your login, else a truthful data-only report. 'api' pins the API; 'cli' pins claude -p (free but its login token expires and must be refreshed with `claude`); 'template' skips AI entirely. With 'auto' + a key, the API is tried first and claude -p is the automatic fallback. A data figure is never invented — only prose/news come from the model.",
@@ -48,8 +26,5 @@
   "_wallClockMinutes": "Overall soft budget for one run. When exceeded, remaining optional work (translations, publish) is skipped, the run is marked degraded, and it exits non-zero rather than being killed mid-write by the scheduler's hard limit.",
 
   "cliTimeoutMs": 300000,
-  "_cliTimeoutMs": "Per-call timeout for a 'claude -p' synthesis/translation. On timeout the whole process tree is killed.",
-
-  "concurrency": 6,
-  "_concurrency": "How many Binance requests to run at once. 6 is safe under the IP weight limit."
+  "_cliTimeoutMs": "Per-call timeout for a 'claude -p' synthesis/translation. On timeout the whole process tree is killed."
 }

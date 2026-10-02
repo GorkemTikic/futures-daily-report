@@ -97,9 +97,39 @@ async function main() {
   const config = JSON.parse(fs.readFileSync(path.join(ROOT, "config.json"), "utf8"));
   const args = process.argv.slice(2);
   const di = args.indexOf("--date");
-  const dateOverride = di >= 0 ? args[di + 1] : null;
+  let dateOverride = di >= 0 ? args[di + 1] : null;
   let reuseSynthesis = args.includes("--reuse-synthesis");
   const scheduled = args.includes("--scheduled");
+  const fillTranslations = args.includes("--fill-translations");
+
+  if (dateOverride) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateOverride)) {
+      console.error(`Invalid --date format: "${dateOverride}" (expected YYYY-MM-DD)`);
+      process.exit(1);
+    }
+    const d = new Date(dateOverride + "T00:00:00Z");
+    if (isNaN(d.getTime()) || d.toISOString().slice(0, 10) !== dateOverride) {
+      console.error(`Invalid --date: "${dateOverride}" is not a real calendar date`);
+      process.exit(1);
+    }
+  }
+
+  // K5: refuse to overwrite a live report with a backfill unless --force is passed
+  if (dateOverride && !args.includes("--force")) {
+    try {
+      const existDir = path.join(ROOT, "reports", dateOverride, "report.json");
+      if (fs.existsSync(existDir)) {
+        const existing = JSON.parse(fs.readFileSync(existDir, "utf8"));
+        if (existing.status === "ok" && !fillTranslations) {
+          console.log(`Report for ${dateOverride} already exists with status ok — use --force to overwrite.`);
+          process.exit(0);
+        }
+        if (fillTranslations) {
+          reuseSynthesis = true;
+        }
+      }
+    } catch { /* proceed */ }
+  }
 
   // Scheduled model: the task fires hourly (DST-proof) and the pipeline decides whether
   // this is the run for a not-yet-generated UTC day. If the target day's report already
@@ -119,7 +149,7 @@ async function main() {
         // Degraded only because a translation is missing: keep the English (and any
         // finished translation) and fill just the gap, instead of rewriting the day.
         const reasons = Array.isArray(m.degradedReasons) ? m.degradedReasons : [];
-        const onlyTranslations = reasons.length > 0 && reasons.every((r) => /^[a-z]{2} report unavailable$/.test(r));
+        const onlyTranslations = reasons.length > 0 && reasons.every((r) => /^[a-z]{2} (report unavailable|report skipped|PDF failed)/.test(r));
         if (m.status === "degraded" && onlyTranslations && fs.existsSync(path.join(ROOT, "reports", win.dateUTC, "synthesis.auto.json"))) {
           console.log(`Report for ${win.dateUTC} is missing ${reasons.map((r) => r.slice(0, 2)).join(", ")} — reusing the written English and filling only that.`);
           reuseSynthesis = true;
@@ -264,25 +294,6 @@ async function main() {
 
   console.log(`\nDone -> reports/${dStr}/summary_${dStr}.{html,pdf,md}`);
 
-  // --- run.json health record: write BEFORE publish so it's included in the commit ---
-  const buildRun = (publishResult) => {
-    const status = reasons.length ? "degraded" : "ok";
-    runInfo.status = status;
-    return {
-      ...runInfo, status,
-      finishedAt: new Date().toISOString(),
-      durationSec: Math.round((Date.now() - startMs) / 1000),
-      date: dStr, live: pack.live,
-      window: { label: pack.windowLabel, startMs: pack.windowStartMs, endMs: pack.windowEndMs, dayAligned: pack.dayAligned, rolling: pack.rolling, asOfUTC: pack.asOfUTC },
-      sources: pack.sources,
-      synthesis: { source: synth._source, fellBack: !!synth._fellBack, cliOnly: !!synth._cliOnly, errorKind: synth._errorKind || null },
-      languages, pdf: pdfResults,
-      publish: publishResult,
-      reasons: reasons.slice(),
-    };
-  };
-  writeAtomic(path.join(dayDir, "run.json"), JSON.stringify(buildRun({ pushed: false, reason: "pending" }), null, 2));
-
   // --- publish (structured result; a diverged/failed push degrades the run, item 13) ---
   let publishResult = { pushed: false, reason: "disabled" };
   if (config.autoPublish && !overBudget()) {
@@ -301,9 +312,21 @@ async function main() {
     reasons.push("publish skipped (time budget)");
   }
 
-  // Update run.json with final publish result
+  // --- run.json: written with the FINAL publish result so the committed version is accurate ---
   const status = reasons.length ? "degraded" : "ok";
-  writeAtomic(path.join(dayDir, "run.json"), JSON.stringify(buildRun(publishResult), null, 2));
+  runInfo.status = status;
+  writeAtomic(path.join(dayDir, "run.json"), JSON.stringify({
+    ...runInfo, status,
+    finishedAt: new Date().toISOString(),
+    durationSec: Math.round((Date.now() - startMs) / 1000),
+    date: dStr, live: pack.live,
+    window: { label: pack.windowLabel, startMs: pack.windowStartMs, endMs: pack.windowEndMs, dayAligned: pack.dayAligned, rolling: pack.rolling, asOfUTC: pack.asOfUTC },
+    sources: pack.sources,
+    synthesis: { source: synth._source, fellBack: !!synth._fellBack, cliOnly: !!synth._cliOnly, errorKind: synth._errorKind || null },
+    languages, pdf: pdfResults,
+    publish: publishResult,
+    reasons: reasons.slice(),
+  }, null, 2));
 
   if (status === "degraded") {
     console.warn(`RUN DEGRADED: ${reasons.join(" · ")}`);

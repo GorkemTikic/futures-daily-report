@@ -17,7 +17,7 @@ const ROOT = path.resolve(__dirname, "..");
 const REPORTS = path.join(ROOT, "reports");
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
-const HEAD_COUNT = 30; // entries in the small manifest
+const HEAD_COUNT = 500; // entries in the small manifest
 
 function writeAtomic(file, data) {
   const tmp = file + ".tmp";

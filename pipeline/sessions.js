@@ -18,7 +18,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 let HOLIDAYS = {};
-try { HOLIDAYS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "market-holidays.json"), "utf8")); } catch { HOLIDAYS = {}; }
+try { HOLIDAYS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "market-holidays.json"), "utf8")); } catch (e) { console.warn(`market-holidays.json: ${String(e.message || e).slice(0, 80)} — using empty holiday set`); HOLIDAYS = {}; }
 
 // underlyingType -> exchange group + human label + a plain-English hours note (UTC)
 const MARKETS = {

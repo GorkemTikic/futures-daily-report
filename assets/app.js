@@ -31,7 +31,7 @@
   function ensureFull() {
     // Fetch manifest.full.json once, when the user searches or opens a report not in the head.
     if (state.fullLoaded || !state.manifest || (state.manifest.count || 0) <= (state.manifest.reports || []).length) { state.fullLoaded = true; return Promise.resolve(state.manifest); }
-    return fetch("manifest.full.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("manifest.full " + r.status); return r.json(); }).then(function (m) { state.manifest = m; state.fullLoaded = true; return m; }).catch(function () { state.fullLoaded = true; return state.manifest; });
+    return fetch("manifest.full.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("manifest.full " + r.status); return r.json(); }).then(function (m) { state.manifest = m; state.fullLoaded = true; return m; }).catch(function () { return state.manifest; });
   }
   function hasDate(date) { return !!(state.manifest && (state.manifest.reports || []).some(function (x) { return x.date === date; })); }
   function fetchReportHtml(date, path) {
@@ -114,105 +114,7 @@
     wireTheme();
   }
 
-  function extract(html) {
-    var doc = new DOMParser().parseFromString(html, "text/html");
-    var pages = Array.prototype.slice.call(doc.querySelectorAll(".page"));
-    var out = { lead: null, marketSummary: null, macro: [], marketChart: null, news: [], dives: [] };
-
-    var tldrP = doc.querySelector(".tldr p"); if (tldrP) out.lead = tldrP.textContent.trim();
-
-    var market = pages.filter(function (p) { var h = p.querySelector("h2"); return h && /whole crypto market/i.test(h.textContent); })[0];
-    if (market) {
-      out.macro = Array.prototype.map.call(market.querySelectorAll(".macro .m"), function (m) {
-        var chg = m.querySelector(".chg");
-        return { sym: (m.querySelector(".sym") || {}).textContent, chg: chg ? chg.textContent.trim() : "", neg: chg ? chg.classList.contains("red") : false, sub: (m.querySelector(".sub") || {}).textContent };
-      });
-      var sc = market.querySelector("svg.chart"); if (sc) out.marketChart = sc.outerHTML;
-      var tl = market.querySelectorAll(".tldr p"); if (tl.length) out.marketSummary = tl[tl.length - 1].textContent.trim();
-      out.news = Array.prototype.map.call(market.querySelectorAll("ul.news li"), function (li) {
-        var m = li.className.match(/bullish|bearish|neutral/); var meta = (li.querySelector(".meta") || {}).textContent || "";
-        var a = li.querySelector(".meta a");
-        var h = li.querySelector(".h") ? li.querySelector(".h").textContent : "";
-        return {
-          impact: m ? m[0] : "neutral",
-          headline: h.replace(/^\s*(bullish|bearish|neutral)\s*/i, "").trim(),
-          href: a ? a.getAttribute("href") : null, source: a ? a.textContent.trim() : (meta.split("·").pop() || "").trim(),
-          conf: (meta.match(/confidence:\s*([a-z]+)/i) || [])[1] || null,
-          date: (meta.match(/\d{4}-\d{2}-\d{2}/) || [])[0] || null,
-          note: (li.querySelector(".note") || {}).textContent || null,
-        };
-      });
-    }
-
-    out.dives = pages.filter(function (p) { return p.querySelector("h2 span.tag") && p.querySelector(".lead"); }).map(function (p) {
-      var h2 = p.querySelector("h2"), tag = h2.querySelector(".tag");
-      var sym = (h2.childNodes[0] && h2.childNodes[0].textContent || "").trim() || h2.textContent.replace(tag.textContent, "").trim();
-      var narr = Array.prototype.slice.call(p.querySelectorAll("p")).filter(function (x) { return !x.classList.contains("lead") && !x.classList.contains("foot") && !x.closest(".callout"); }).map(function (x) { return x.textContent.trim(); }).filter(Boolean);
-      var chart = p.querySelector("svg.chart");
-      var callout = p.querySelector(".callout p");
-      var stats = Array.prototype.map.call(p.querySelectorAll(".stats .stat"), function (s) {
-        var v = s.querySelector(".v"); return { v: v ? v.textContent.trim() : "", l: (s.querySelector(".l") || {}).textContent, cls: v && v.classList.contains("red") ? "neg" : v && v.classList.contains("amb") ? "amb" : "" };
-      });
-      return { sym: sym, label: tag.textContent.trim(), danger: tag.classList.contains("danger"), headline: (p.querySelector(".lead strong") || p.querySelector(".lead") || {}).textContent, narr: narr, chart: chart ? chart.outerHTML : null, dnote: callout ? callout.textContent.trim() : null, stats: stats };
-    });
-    return out;
-  }
-
-  function renderReading(r, ex) {
-    var glance =
-      '<div class="glance">' +
-        gcell(r.scanned, "coins scanned") +
-        gcell(r.movedBig, "moved &gt;25%", "amb") +
-        gcell(r.dangerCount, "danger gaps", r.dangerCount > 0 ? "neg" : "") +
-        gcell(r.widest ? r.widest.pct : "—", r.widest ? "widest gap · " + esc(r.widest.symbol) : "widest gap", r.widest ? "neg" : "") +
-      "</div>";
-    var macro = (ex.macro && ex.macro.length)
-      ? '<div class="macro-strip">' + ex.macro.map(function (m) { var v = parseFloat((m.chg || "").replace(/[^\d.-]/g, "")); return macroChip(m.sym, isFinite(v) ? v : null); }).join("") + "</div>"
-      : (r.macro ? '<div class="macro-strip">' + macroChip("BTC", r.macro.BTC) + macroChip("ETH", r.macro.ETH) + macroChip("SOL", r.macro.SOL) + "</div>" : "");
-
-    var lead = (ex.lead || ex.marketSummary)
-      ? '<div class="r-section"><div class="r-h">The day in one read</div><p class="r-lead">' + esc(ex.lead || "") + "</p>" +
-        (ex.marketSummary && ex.marketSummary !== ex.lead ? '<p class="r-lead dim" style="margin-top:14px">' + esc(ex.marketSummary) + "</p>" : "") + "</div>"
-      : "";
-
-    var marketChart = ex.marketChart ? '<div class="figure">' + ex.marketChart + '<div class="cap">The majors through the UTC day (% change from each coin\'s open). Source: Binance 1-minute candles.</div></div>' : "";
-
-    var news = (ex.news && ex.news.length)
-      ? '<div class="r-section"><div class="r-h">What moved the market · sourced</div>' + ex.news.map(function (n) {
-          var link = n.href ? '<a href="' + esc(n.href) + '" target="_blank" rel="noopener">' + esc(n.source || "source") + "</a>" : esc(n.source || "");
-          return '<div class="newscard ' + n.impact + '"><div class="nh">' + esc(n.headline) + "</div>" +
-            '<div class="nmeta"><span class="tagpill ' + n.impact + '">' + n.impact + "</span>" +
-            (n.conf ? "<span>confidence " + esc(n.conf) + "</span>" : "") + (n.date ? "<span>" + esc(n.date) + "</span>" : "") + "<span>" + link + "</span></div>" +
-            (n.note ? '<div class="nnote">' + esc(n.note) + "</div>" : "") + "</div>";
-        }).join("") + "</div>"
-      : "";
-
-    var dives = (ex.dives && ex.dives.length)
-      ? '<div class="r-section"><div class="r-h">The flagged coins, one by one</div>' + ex.dives.map(function (d) {
-          var stats = (d.stats && d.stats.length) ? '<div class="cs-stats">' + d.stats.map(function (s) { return '<div class="cs-stat"><div class="v ' + (s.cls || "") + '">' + esc(s.v) + '</div><div class="l">' + esc(s.l) + "</div></div>"; }).join("") + "</div>" : "";
-          return '<div class="coinstory">' +
-            '<div class="cs-head"><span class="cs-sym">' + esc(d.sym) + '</span><span class="cs-tag' + (d.danger ? " danger" : "") + '">' + esc(d.label) + "</span></div>" +
-            '<div class="cs-headline">' + esc(d.headline) + "</div>" +
-            d.narr.map(function (p) { return '<p class="cs-narr">' + esc(p) + "</p>"; }).join("") +
-            (d.chart ? '<div class="figure">' + d.chart + '<div class="cap">Live (last) price vs mark price. Shaded bands = the gap topped 5% (liquidation danger zone).</div></div>' : "") +
-            (d.dnote ? '<div class="cs-danger"><b>Why it matters</b> — ' + esc(d.dnote) + "</div>" : "") +
-            stats +
-          "</div>";
-        }).join("") + "</div>"
-      : "";
-
-    contentEl.innerHTML =
-      '<div class="reader anim">' +
-        '<div class="r-kicker">Binance USD-M Futures</div>' +
-        '<div class="r-title">' + r.date + "</div>" +
-        '<div class="r-dow">' + esc(dowLong(r.date)) + "</div>" +
-        glance + macro + marketChart + lead + news + dives +
-        '<div class="r-foot">Information only, not financial advice. Numbers from Binance USD-M Futures 1-minute candles.' +
-          (r.files && r.files.html ? ' · <a href="' + r.files.html + '" target="_blank" rel="noopener" style="color:var(--info)">open the original formatted report ↗</a>' : "") + "</div>" +
-      "</div>";
-    startTicker();
-  }
-  function gcell(v, l, cls) { return '<div class="gcell"><div class="v ' + (cls || "") + '">' + (v != null ? v : "—") + '</div><div class="l">' + l + "</div></div>"; }
+  // extract() and renderReading() were removed — the reader now uses an iframe.
 
   function renderReport(date) {
     state.view = "reports"; state.date = date; setNav();
@@ -320,25 +222,31 @@
   }
   function themeBtn() { return '<button class="btn icon" id="theme" title="Light / dark" aria-label="Toggle theme">◑</button>'; }
   function wireTheme() { var b = $("theme"); if (b) b.onclick = toggleTheme; }
+  var _tickerIv = null, _tickerLast = null, _tickerFails = 0;
   function startTicker() {
+    if (_tickerIv) { clearInterval(_tickerIv); _tickerIv = null; }
     var el = $("ticker"), px = $("ticker-px"); if (!el) return;
-    var last = null, fails = 0;
     function tick() {
+      el = $("ticker"); px = $("ticker-px"); if (!el || !px) return;
       fetch("https://fapi.binance.com/fapi/v1/ticker/price?symbol=BTCUSDT").then(function (r) { return r.json(); }).then(function (d) {
         var p = Number(d.price); if (!isFinite(p)) throw 0;
-        el.hidden = false; fails = 0; px.textContent = p.toLocaleString("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-        if (last != null) { el.classList.toggle("up", p >= last); el.classList.toggle("down", p < last); } last = p;
-      }).catch(function () { if (++fails >= 2) { el.hidden = true; if (!startTicker._reported) { startTicker._reported = true; A.track("ticker_error", {}); } } });
+        el.hidden = false; _tickerFails = 0; px.textContent = p.toLocaleString("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+        if (_tickerLast != null) { el.classList.toggle("up", p >= _tickerLast); el.classList.toggle("down", p < _tickerLast); } _tickerLast = p;
+      }).catch(function () { if (++_tickerFails >= 2) { el.hidden = true; } });
     }
-    if (!startTicker._iv) { tick(); startTicker._iv = setInterval(tick, 6000); }
+    tick(); _tickerIv = setInterval(tick, 6000);
   }
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden) { if (_tickerIv) { clearInterval(_tickerIv); _tickerIv = null; } }
+    else { startTicker(); }
+  });
 
   // ---------- router ----------
   function route() {
     var h = location.hash || "#/";
     if (h === "#/analytics") return renderAnalytics();
     if (h.indexOf("#/report/") === 0) {
-      var date = decodeURIComponent(h.slice(9));
+      var date; try { date = decodeURIComponent(h.slice(9)); } catch (e) { date = h.slice(9); }
       // If the requested day isn't in the small head, load the full manifest first.
       if (!hasDate(date) && !state.fullLoaded) return ensureFull().then(function () { renderReport(date); });
       return renderReport(date);
@@ -361,7 +269,7 @@
     clearTimeout(route._s); route._s = setTimeout(function () { if (state.q.trim()) A.track("report_search", { len: state.q.trim().length }); }, 700);
   });
   initTheme();
-  loadManifest().then(function () { renderSidebar(); route(); }).catch(function (e) {
+  loadManifest().then(function () { renderSidebar(); route(); ensureFull().then(renderSidebar); }).catch(function (e) {
     contentEl.innerHTML = '<div class="empty"><div><div class="big">Couldn\'t load reports</div><div class="note">' + esc(String(e.message || e)) + "</div></div></div>";
   });
   window.addEventListener("hashchange", route);

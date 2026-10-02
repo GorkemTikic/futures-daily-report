@@ -45,7 +45,9 @@ function originAllowed(request, env) {
   const origin = request.headers.get("Origin");
   if (origin) return origin === allowed;
   const ref = request.headers.get("Referer");
-  if (ref) return ref.startsWith(allowed);
+  if (ref) {
+    try { return new URL(ref).origin === allowed; } catch { return false; }
+  }
   return false;
 }
 
@@ -247,7 +249,8 @@ export default {
         }
 
         if (url.pathname === "/admin/events" && request.method === "GET") {
-          const limit = Math.min(Number(url.searchParams.get("limit") || 100), 500);
+          const rawLimit = Number(url.searchParams.get("limit") || 100);
+          const limit = Math.min(Number.isFinite(rawLimit) && rawLimit > 0 ? Math.floor(rawLimit) : 100, 500);
           const rows = (await env.DB.prepare(
             `SELECT event_type type, session_id, device_id, country, tab, props, ts
              FROM events WHERE ts>=? ORDER BY ts DESC LIMIT ?`).bind(since, limit).all()).results || [];

@@ -52,7 +52,7 @@ async function klineBybit(symbol, dayStartMs, dayEndMs) {
 
 async function klineOkx(instId, dayStartMs) {
   // bar=1Dutc aligns the daily candle to UTC 00:00 (default 1D is UTC+8).
-  const r = await fetchJson(`https://www.okx.com/api/v5/market/history-candles?instId=${instId}&bar=1Dutc&limit=10`);
+  const r = await fetchJson(`https://www.okx.com/api/v5/market/history-candles?instId=${instId}&bar=1Dutc&after=${dayStartMs + 86400000}&limit=30`);
   const rows = r?.data || [];
   const k = rows.find((x) => Math.abs(Number(x[0]) - dayStartMs) <= DAY_TOL_MS);
   if (!k) return null;
@@ -264,7 +264,7 @@ async function binancePositioning(base, win) {
     if (Array.isArray(tp) && tp[0]) out.topPositionRatio = num(tp[0].longShortRatio);
   } catch { /* omit */ }
   try {
-    const tb = await fetchJson(`https://fapi.binance.com/futures/data/takerlongshortRatio?symbol=${s}&period=1d&limit=1`);
+    const tb = await fetchJson(`https://fapi.binance.com/futures/data/takerlongshortRatio?symbol=${s}&period=1d&startTime=${win.dayStartMs}&endTime=${win.dayEndMs}&limit=1`);
     if (Array.isArray(tb) && tb[0]) {
       out.takerBuyRatio = num(tb[0].buyVol) && num(tb[0].sellVol) ? num(tb[0].buyVol) / (num(tb[0].buyVol) + num(tb[0].sellVol)) : null;
       out.takerBuySellRatio = num(tb[0].buySellRatio);
@@ -339,11 +339,16 @@ async function collectMovers(win, { topN = 3, minQuoteVol = 50e6, exchangeInfo =
   const perps = new Set(info.symbols.filter((x) => x.status === "TRADING" && x.contractType === "PERPETUAL" && x.quoteAsset === "USDT").map((x) => x.symbol));
   const candidates = all
     .filter((t) => perps.has(t.symbol) && !["BTCUSDT", "ETHUSDT"].includes(t.symbol) && num(t.quoteVolume) != null)
-    .map((t) => ({ symbol: t.symbol, base: t.symbol.replace(/USDT$/, ""), chgPct24h: num(t.priceChangePercent), last: num(t.lastPrice), volUSD: num(t.quoteVolume), high: num(t.highPrice), low: num(t.lowPrice) }))
-    .sort((a, b) => Math.abs(b.chgPct24h) - Math.abs(a.chgPct24h));
+    .map((t) => ({ symbol: t.symbol, base: t.symbol.replace(/USDT$/, ""), chgPct24h: num(t.priceChangePercent), last: num(t.lastPrice), volUSD: num(t.quoteVolume), high: num(t.highPrice), low: num(t.lowPrice) }));
 
-  // Screen top ~40 by rolling change, then fetch UTC-day klines for all of them
-  const screen = candidates.slice(0, 40);
+  // Filter by liquidity FIRST so micro-caps don't fill the screening list
+  const liquid = candidates.filter((m) => (m.volUSD || 0) >= minQuoteVol);
+  const illiquid = candidates.filter((m) => (m.volUSD || 0) < minQuoteVol);
+  liquid.sort((a, b) => Math.abs(b.chgPct24h) - Math.abs(a.chgPct24h));
+  illiquid.sort((a, b) => Math.abs(b.chgPct24h) - Math.abs(a.chgPct24h));
+
+  // Fetch UTC-day klines for top liquid candidates + some illiquid for the low-liq list
+  const screen = [...liquid.slice(0, 30), ...illiquid.slice(0, 10)];
   const klineResults = await Promise.allSettled(
     screen.map((m) => klineBinance(m.symbol, win.dayStartMs, win.dayEndMs))
   );
@@ -361,8 +366,8 @@ async function collectMovers(win, { topN = 3, minQuoteVol = 50e6, exchangeInfo =
 
   // Re-rank by UTC-day change (absolute), then split by liquidity
   screen.sort((a, b) => Math.abs(b.chgPct) - Math.abs(a.chgPct));
-  const liquid = screen.filter((m) => (m.volUSD || 0) >= minQuoteVol);
-  const main = liquid.slice(0, topN);
+  const finalLiquid = screen.filter((m) => (m.volUSD || 0) >= minQuoteVol);
+  const main = finalLiquid.slice(0, topN);
   const lowLiq = screen.filter((m) => (m.volUSD || 0) < minQuoteVol).slice(0, topN);
   return { main, lowLiq };
 }
@@ -374,7 +379,7 @@ export async function collectExchanges(win, { config = {}, exchangeInfo = null, 
   const [btc, eth, moversRes] = await Promise.all([
     collectBase("BTC", win),
     collectBase("ETH", win),
-    win.live ? collectMovers(win, { minQuoteVol, exchangeInfo, ticker24h }) : Promise.resolve({ main: [], lowLiq: [] }),
+    win.live ? collectMovers(win, { minQuoteVol, exchangeInfo, ticker24h }).catch((e) => { console.warn(`collectMovers failed: ${String(e.message || e).slice(0, 120)}`); return { main: [], lowLiq: [] }; }) : Promise.resolve({ main: [], lowLiq: [] }),
   ]);
   await Promise.all([attachPositioning(btc, "BTC", win), attachPositioning(eth, "ETH", win)]);
 

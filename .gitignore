@@ -26,3 +26,11 @@ logs/ALERTS.log
 
 # rolling operational state (public URLs, but pure churn — not needed by the site)
 reports/published-news.json
+
+# Claude Code session state
+.claude/
+
+# preview / handoff files (local-only)
+_preview.pdf
+HANDOFF.md
+DESIGN-HANDOFF.md
