@@ -20,14 +20,14 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "02 Oct 18:27 UTC",
+  "generatedAtUTC": "02 Oct 19:00 UTC",
   "languages": [
-    "en",
-    "tr",
-    "zh"
+    "en"
   ],
   "status": "degraded",
   "degradedReasons": [
-    "narrative fell back to data-only"
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
   ]
 }

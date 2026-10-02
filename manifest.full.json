@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-02T18:38:16.980Z",
+  "generatedAt": "2026-10-02T19:03:46.792Z",
   "count": 107,
   "counts": {
     "total": 107,
@@ -36,13 +36,13 @@
         "Gate"
       ],
       "languages": [
-        "en",
-        "tr",
-        "zh"
+        "en"
       ],
       "status": "degraded",
       "degradedReasons": [
-        "narrative fell back to data-only"
+        "narrative fell back to data-only (CLI-only backend)",
+        "tr report unavailable",
+        "zh report unavailable"
       ],
       "flagged": [],
       "files": {
