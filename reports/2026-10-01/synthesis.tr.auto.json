@@ -1,0 +1,33 @@
+{
+  "oneLine": "Pazar verileri 5 borsa platformundan toplanmıştır; haber sentezi bu turda kullanılamadı.",
+  "caveman": "",
+  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Otomasyonla oluşturulan açıklama bu turda kullanılamadı — veriler doğrudan gösterilmektedir.)",
+  "positioningSummary": "Aşağıdaki pozisyonlandırma tablosuna bakınız.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Bu turda açıklama bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Bu turda açıklama bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "explanation": "Bu turda açıklama bulunmamaktadır.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [],
+    "groups": {}
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
+  "_source": "cli-tr",
+  "_from": "e45e2080c50803fb"
+}

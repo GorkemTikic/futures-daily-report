@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "kind": "market",
+  "dateLong": "Thursday, 1 October 2026",
+  "coversUTC": "2026-10-01 00:00–23:59 UTC",
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
+  "macro": {
+    "BTC": 1.5039338623136336,
+    "ETH": 0.7610043916993469
+  },
+  "topMover": {
+    "symbol": "龙虾USDT",
+    "chgPct": 207.30415388904376
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "02 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "narrative fell back to data-only"
+  ]
+}

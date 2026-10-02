@@ -1,20 +1,20 @@
 {
-  "runId": "2026-10-01T01:00:02.553Z",
+  "runId": "2026-10-02T00:00:02.068Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-01T01:00:02.553Z",
-  "status": "ok",
-  "finishedAt": "2026-10-01T01:14:15.377Z",
-  "durationSec": 853,
-  "date": "2026-09-30",
+  "startedAt": "2026-10-02T00:00:02.068Z",
+  "status": "degraded",
+  "finishedAt": "2026-10-02T00:07:59.643Z",
+  "durationSec": 478,
+  "date": "2026-10-01",
   "live": true,
   "window": {
-    "label": "2026-09-30 00:00 → 24:00 UTC",
-    "startMs": 1790726400000,
-    "endMs": 1790812799999,
-    "dayAligned": false,
+    "label": "2026-10-01 00:00 → 24:00 UTC",
+    "startMs": 1790812800000,
+    "endMs": 1790899199999,
+    "dayAligned": true,
     "rolling": false,
-    "asOfUTC": "01:00 UTC"
+    "asOfUTC": "00:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -60,7 +60,7 @@
         "CFTC"
       ],
       "failed": [],
-      "count": 55,
+      "count": 54,
       "backfill": false
     },
     "tradfi": {
@@ -81,10 +81,10 @@
     "backfill": null
   },
   "synthesis": {
-    "source": "cli",
-    "fellBack": false,
-    "cliOnly": true,
-    "errorKind": null
+    "source": "data-only",
+    "fellBack": true,
+    "cliOnly": false,
+    "errorKind": "consistency"
   },
   "languages": [
     "en",
@@ -97,8 +97,10 @@
     "zh": true
   },
   "publish": {
-    "pushed": true,
-    "branch": "main"
+    "pushed": false,
+    "reason": "pending"
   },
-  "reasons": []
+  "reasons": [
+    "narrative fell back to data-only"
+  ]
 }

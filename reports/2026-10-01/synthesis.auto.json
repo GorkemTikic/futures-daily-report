@@ -1,0 +1,275 @@
+{
+  "oneLine": "Bitcoin and Ethereum rose modestly on falling bond yields, but institutional inflows reversed after nine days and a $3.8 million exploit at NEAR Intents signaled continued security concerns in crypto markets.",
+  "caveman": "On October 1, Bitcoin and Ethereum both went up about 1.5% and 0.76%, which is a small but solid gain. This happened because people were worried the Federal Reserve might raise interest rates on Tuesday, but a speech by a Fed official today didn't sound as scary as feared, and bond prices fell a bit, which is good for Bitcoin. But then something bad happened: a popular trading platform called NEAR Intents got hacked and hackers stole $3.8 million. Even worse, big investors who had been buying Bitcoin every single day for the past nine days decided to stop buying and actually sell a little bit instead. That made people more worried, even though Bitcoin's price still went up. So it was a mixed day: the price moved up, but the bad news made the gains feel weaker than they should have been.",
+  "priceVolumeSummary": "Bitcoin and Ethereum posted gains of 1.50% and 0.76% respectively, with prices closely aligned across all five major exchanges (Binance, Bybit, OKX, Bitget, Gate). Binance led volume in both assets, capturing $12.03 billion in Bitcoin trading and $8.61 billion in Ethereum—roughly 1.5× to 2× the volume of other major venues.",
+  "positioningSummary": "Funding rates were mixed but predominantly positive, signaling moderate bullish sentiment: Bybit showed elevated rates (+10.95% annualized) while smaller exchanges tilted slightly negative (Bitget −0.99%, Gate −0.55%). Bitcoin's top traders (largest accounts on Binance) were 2.09× more long than short, while Ethereum's top traders favored longs 1.67×. Open interest remained substantial at $21.9 billion for Bitcoin and $13.9 billion for Ethereum, though taker buy/sell ratios near equilibrium (Bitcoin 1.00×, Ethereum 0.96×) showed neither aggressive buying nor selling dominated. Market breadth tilted negative: only 47.6% of Binance perpetuals were up on the day.",
+  "stocksSummary": "Korean equities led Asia with semiconductor strength (KRX had a full session): SK Hynix jumped +3.42% and Samsung Electronics rose +2.27%, likely responding to new chip demand and supply-chain shifts. Oil prices surged amid geopolitical tensions, with WTI Crude +3.32% and Brent Crude +4.92%. The US dollar strengthened +0.66%, and the S&P 500 posted modest gains of +0.18%. Hong Kong and China markets remained closed for National Day, so no moves to report from HKEX or Shanghai/Shenzhen exchanges.",
+  "movers": [
+    {
+      "symbol": "龙�oshi USDT",
+      "explanation": "No clear public cause; extreme illiquidity and speculation-driven volatility in this low-volume token.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "No clear public cause identified in news or market commentary.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "explanation": "Rally coincided with the broader risk-on sentiment in altcoins following bond-yield pullback, though limited liquidity amplified the 33.5% move.",
+      "hasCause": true
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC proposes framework allowing investment advisers and funds to self-custody crypto",
+        "what": "The U.S. Securities and Exchange Commission proposed a new regulatory framework permitting registered investment advisers and regulated funds to hold cryptocurrency assets in self-custody under limited circumstances or via state trust company custodians. The proposal aims to provide a clear compliance pathway for institutional crypto adoption, addressing a longstanding regulatory gap. Public comment period is 60 days.",
+        "coins": "Bitcoin, Ethereum, all crypto assets",
+        "timeUTC": "2026-10-01 14:00",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-01-sec-proposes-crypto-custody-rule-investment-advisers-funds-417498"
+      },
+      {
+        "headline": "Bitcoin ETF inflows reverse after nine-day winning streak; $9.8 million net outflow on Oct 1",
+        "what": "US spot Bitcoin ETFs recorded a net outflow of $9.8 million on October 1, ending a nine-day streak of inflows totaling over $3 billion. Ethereum ETFs also swung to net outflows on the same day. The reversal signals reduced institutional appetite after a sustained buying period and follows elevated bond yields limiting risk-asset upside.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-10-01 20:00",
+        "source": "The Block / Farside",
+        "url": "https://farside.co.uk/btc/"
+      },
+      {
+        "headline": "NEAR Intents halts services after $3.8 million exploit; promises full reimbursement",
+        "what": "Cross-chain trading platform NEAR Intents disclosed a $3.8 million hack caused by a bug in its deposit and withdrawal system. Attackers exploited the vulnerability to drain the platform's hot wallet on multiple networks. Services were halted immediately and the smart contract bug was patched; the project committed to reimbursing all affected users. This hack contributed to Q3 2026 crypto security losses exceeding $1.26 billion.",
+        "coins": "NEAR",
+        "timeUTC": "2026-10-01 12:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC proposes framework allowing investment advisers and funds to self-custody crypto",
+          "what": "The SEC proposed a regulatory framework permitting registered investment advisers and regulated funds to hold cryptocurrency assets in self-custody under limited circumstances or via state trust company custodians. The proposal aims to provide a clear compliance pathway for institutional crypto adoption. Public comment period is 60 days.",
+          "coins": "Bitcoin, Ethereum, all crypto",
+          "timeUTC": "2026-10-01 14:00",
+          "source": "SEC / The Block",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+        },
+        {
+          "headline": "Illinois agrees to six-month delay of 0.2% crypto tax; industry continues legal challenge",
+          "what": "Illinois state officials and industry groups agreed to postpone implementation of the contentious 0.2% Digital Asset Tax from January 1, 2027 to July 1, 2027, pending court approval. The delay allows both sides to continue a legal dispute over whether the tax was properly enacted. The tax had faced significant industry pushback and lawsuits alleging procedural violations.",
+          "coins": "All crypto",
+          "timeUTC": "2026-10-01 10:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle"
+        },
+        {
+          "headline": "New York and Wyoming regulators sign pact to coordinate crypto oversight",
+          "what": "The New York Department of Financial Services and Wyoming Division of Banking agreed to share supervisory information, streamline licensing reviews, and coordinate examinations and enforcement actions involving digital asset firms. The agreement aims to reduce regulatory fragmentation as crypto firms navigate multi-state compliance.",
+          "coins": "All crypto",
+          "timeUTC": "2026-10-01 12:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/new-york-wyoming-regulators-sign-pact-coordinate-crypto-oversight"
+        },
+        {
+          "headline": "Treasury will allow states to file for stablecoin approval before finishing their own rules",
+          "what": "The U.S. Treasury announced it will accept conditional certification filings from states seeking to approve stablecoins, even while final state rules remain unfinished. Only complete submissions will proceed to substantive review, but conditional filers can maintain new business operations during the regulatory process.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-10-01 10:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/treasury-will-let-states-file-for-stablecoin-approval-before-finishing-their-rules/"
+        },
+        {
+          "headline": "50,000 Europeans petition EU to ease stablecoin rewards restrictions in MiCA review",
+          "what": "A grassroots campaign with 50,000 signatures is pressing the European Commission to relax stablecoin yield restrictions in its ongoing review of the Markets in Crypto Assets (MiCA) regulation. The petition argues current reward caps limit competitiveness with traditional finance products.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-10-01 11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF inflows reverse after nine-day winning streak; $9.8 million outflow on Oct 1",
+          "what": "US spot Bitcoin ETFs recorded a net outflow of $9.8 million on October 1, ending a nine-day streak of inflows totaling over $3 billion. Ethereum ETFs also swung to net outflows on the same day. The reversal signals reduced institutional appetite after sustained buying and follows elevated bond yields limiting risk-asset upside.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-01 20:00",
+          "source": "Farside",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "Citigroup raises 12-month Bitcoin target to $113,000; Ethereum target to $3,028",
+          "what": "Citigroup increased its 12-month price target for Bitcoin to $113,000 (from an earlier level) and raised Ethereum's 12-month target to $3,028. The upgrades reflect analyst confidence in the medium-term trajectory for both assets as institutional adoption accelerates.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-01 16:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Evernorth shareholders approve $1 billion XRP treasury deal; Nasdaq debut set for Oct 8",
+          "what": "Shareholders of Armada Acquisition Corp. II voted to approve its merger with Evernorth, a company backed by Ripple. Upon closing, Evernorth will list on Nasdaq under ticker XRPN with a treasury holding approximately 473 million XRP (worth roughly $710 million at current prices). Trading is expected to begin October 8.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-01 14:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-01-evernorth-xrpn-nasdaq-armada-shareholders-approve-417413"
+        },
+        {
+          "headline": "Robinhood Wallet integrates Arcus RFQ system for expanded stock token trading",
+          "what": "Robinhood Wallet added Arcus as a routing provider for stock token swaps, enabling eligible users to access over 190 tokenized stock listings. The integration improves liquidity and execution for non-traditional assets on the platform.",
+          "coins": "Tokenized stocks",
+          "timeUTC": "2026-10-01 12:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-robinhood-wallet-integrates-arcus-rfq-system-for-stock-token-swaps-417394"
+        },
+        {
+          "headline": "Lloyds and Visa settle $750,000 using USDC in live cross-border pilot",
+          "what": "Lloyds Banking Group and Visa completed a live, seven-day pilot using USDC stablecoin to settle $750,000 in cross-border payment obligations. The test demonstrates institutional adoption of blockchain-based settlement for traditional banking transactions.",
+          "coins": "USDC",
+          "timeUTC": "2026-10-01 10:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-lloyds-visa-settle-750000-using-usdc-in-live-cross-border-pilot-417378"
+        },
+        {
+          "headline": "XRP becomes collateral for real loans; Morpho market shows concentrated whale ownership",
+          "what": "XRP entered collateral use on DeFi protocol Morpho as of October 1, enabling users to borrow against XRP holdings. Initial data shows the market is heavily dominated by large traders, though broader demand signals remain unclear.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-01 12:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-is-becoming-collateral-for-real-loans-and-the-first-market-is-already-dominated-by-whales/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "NEAR Intents halts services after $3.8 million exploit; promises full reimbursement",
+          "what": "Cross-chain trading platform NEAR Intents disclosed a $3.8 million hack caused by a bug in its deposit and withdrawal system. Attackers exploited the vulnerability to drain the platform's hot wallet on multiple networks. Services were halted immediately and the smart contract bug was patched; the project committed to reimbursing all affected users.",
+          "coins": "NEAR",
+          "timeUTC": "2026-10-01 12:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues"
+        },
+        {
+          "headline": "Bitget's $388 million hack pushes Q3 2026 crypto security losses past $1.26 billion",
+          "what": "The Bitget exchange hack (from late September) contributed to Q3 2026 recording 247 security incidents totaling $1.26 billion in losses. September alone accounted for roughly $769 million of that total, driven largely by the $388 million Bitget breach. The scale underscores ongoing security challenges as adoption grows.",
+          "coins": "All crypto",
+          "timeUTC": "2026-10-01 08:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitget-hack-q3-industry-losses-1-26-billion"
+        },
+        {
+          "headline": "MetaMask security scare pushes Ethereum validator exits to nine-month high",
+          "what": "Following MetaMask's disclosure of a September 30 security incident, Ethereum validator exits spiked to their highest level in nine months. Staking service Lido estimates approximately 45 days for a full exit, withdrawal, and re-entry cycle, reflecting heightened concern over wallet security.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-10-01 09:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/metamask-security-scare-pushes-ethereum-validator-exits-to-a-nine-month-high/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "US factory input costs spike, threatening Bitcoin's rally above $85,000",
+          "what": "The ISM Manufacturing report's Prices Paid index showed manufacturers reporting elevated input costs due to tariff uncertainty and Middle East supply disruptions. Rising input inflation typically signals future consumer price pressure, potentially influencing Federal Reserve policy and constraining Bitcoin's upside.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-01 14:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-factory-costs-spike-threatening-bitcoins-rally-above-85000/"
+        },
+        {
+          "headline": "China warns foreign spies about crypto; Singapore dominates Asian crypto economy",
+          "what": "China's counterintelligence ministry warned would-be foreign spies it is monitoring blockchain activity and cryptocurrency use. Separately, Singapore's crypto economy grew 55% year-over-year and now dominates Asia's digital asset landscape, attracting major institutional players.",
+          "coins": "Bitcoin, altcoins",
+          "timeUTC": "2026-10-01 11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/china-claims-crypto-used-by-spies-singapore-dominates-asian-crypto-asia-express"
+        },
+        {
+          "headline": "Zcash drops 21% from recent $1,698 peak on ETF outflows and money-laundering concerns",
+          "what": "ZEC (Zcash) fell 21% from its recent high following ETF outflows and reports that a suspected North Korean-linked hacker routed stolen funds through Zcash's privacy-shielded pool. Traders are debating whether the selloff represents capitulation or the beginning of a larger correction.",
+          "coins": "ZEC (Zcash)",
+          "timeUTC": "2026-10-01 10:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379901/zcash-price-drops-etf-flows-rally"
+        },
+        {
+          "headline": "Trump plans 3rd exclusive memecoin investor dinner for November 22",
+          "what": "A memecoin company managing a token with large presidential holders announced a November 22 dinner event for the token's top 185 investors at a Washington DC golf club. The event follows similar fundraiser-style gatherings in May 2025 and April 2026, raising ongoing questions about ethical and regulatory boundaries.",
+          "coins": "Memecoin",
+          "timeUTC": "2026-10-01 13:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/01/another-trump-memecoin-dinner-advertised-for-token-s-top-investors"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-01",
+    "summary": "US spot Bitcoin ETFs recorded a net outflow of $9.8 million on October 1, 2026, ending a nine-day inflow streak that had accumulated over $3 billion in net inflows. Ethereum ETFs also swung to net outflows on the same day, with $59.6 million exiting. The reversal marked the first day of institutional outflows after the strongest buying period in several weeks, likely driven by elevated bond yields limiting risk-asset appetite.",
+    "source": "Farside / The Block",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks (14:00 UTC, Oct 1)",
+      "typicalReaction": "Fed official speeches on monetary policy can trigger sharp moves in risk assets. Waller's October 1 speech focused on AI in payments rather than rate-hike signaling, allowing bond yields to dominate market direction."
+    },
+    {
+      "event": "US ISM Manufacturing PMI & Prices Paid Index (14:00 UTC, Oct 1)",
+      "typicalReaction": "The manufacturing sector's input cost inflation remains a key inflation signal the Fed watches. Elevated factory costs suggest persistent producer-level inflation, which can reinforce expectations of higher interest rates and cap crypto rallies."
+    },
+    {
+      "event": "US Initial Jobless Claims (12:30 UTC, Oct 1)",
+      "typicalReaction": "Weekly jobless claims data influences Fed rate-hike expectations. Weaker labor data typically benefits risk assets, while surprises in the other direction support the case for rate hikes that pressure crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "In futures markets, the difference between the spot price (current market price) and the futures price. A positive basis means futures trade above spot; negative basis means they trade below. Basis signals whether traders expect prices to rise or fall."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of assets in a market that are trading up versus down on a given day. Breadth above 50% indicates more winners than losers; breadth below 50% signals weakness. Market breadth of 47.6% means only 47.6% of coins were up on Oct 1."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A sentiment gauge that rates investor emotion from 0 (maximum fear, panic selling) to 100 (maximum greed, euphoria buying). October 1's reading of 74 indicates 'Greed,' meaning investors were confident and willing to buy."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A fee perpetual futures traders pay each other to keep positions open. Positive funding means bullish traders pay bearish traders (common when prices are rising); negative funding means the opposite. High funding suggests crowded long positions; low or negative funding suggests traders expect lower prices."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of bullish (long) to bearish (short) positions among traders. A ratio of 1.30 means 30% more traders are betting on price increases than decreases. High ratios signal crowding in bullish bets; low ratios suggest bearish skepticism."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used by exchanges to calculate profit/loss on perpetual futures positions. Mark price is designed to track the spot market price closely and prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value of all open perpetual futures contracts (both long and short) on an exchange. High open interest suggests active trading and liquidity; rising open interest signals new money entering; falling open interest signals positions closing."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The increase or decrease in total open futures contracts over a time period. A rise means new positions were opened (bullish signal if prices also rose); a fall means positions were closed or liquidated (can signal capitulation or risk reduction)."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A ratio measuring the proportion of trades initiated by buyers (takers) versus sellers (takers) on an exchange. A ratio above 1.0 means more aggressive buying; below 1.0 means more aggressive selling. Ratios near 1.0 suggest equilibrium."
+    },
+    {
+      "term": "Top trader position ratio",
+      "definition": "The ratio of long to short positions held by the largest accounts (top traders) on an exchange. Ratios above 1.0 indicate the largest traders are net long; below 1.0 means they are net short. This metric reflects what the biggest money is doing."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar value of trades executed on an exchange over a time period. Higher volume indicates more market activity and liquidity; low volume suggests thinly traded assets with wider bid-ask spreads."
+    }
+  ],
+  "_source": "cli"
+}
