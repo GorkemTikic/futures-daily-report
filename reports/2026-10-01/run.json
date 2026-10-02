@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-02T18:27:18.773Z",
+  "runId": "2026-10-02T19:00:02.799Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-02T18:27:18.773Z",
+  "startedAt": "2026-10-02T19:00:02.799Z",
   "status": "degraded",
-  "finishedAt": "2026-10-02T18:38:24.852Z",
-  "durationSec": 666,
+  "finishedAt": "2026-10-02T19:03:51.195Z",
+  "durationSec": 228,
   "date": "2026-10-01",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1790899199999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "18:27 UTC"
+    "asOfUTC": "19:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -83,24 +83,22 @@
   "synthesis": {
     "source": "data-only",
     "fellBack": true,
-    "cliOnly": false,
-    "errorKind": "consistency"
+    "cliOnly": true,
+    "errorKind": "cli-error"
   },
   "languages": [
-    "en",
-    "tr",
-    "zh"
+    "en"
   ],
   "pdf": {
-    "en": true,
-    "tr": true,
-    "zh": true
+    "en": true
   },
   "publish": {
     "pushed": true,
     "branch": "main"
   },
   "reasons": [
-    "narrative fell back to data-only"
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
   ]
 }
