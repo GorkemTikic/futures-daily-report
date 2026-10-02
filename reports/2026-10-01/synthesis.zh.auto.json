@@ -1,33 +1,220 @@
 {
-  "oneLine": "已从 5 个交易所收集市场数据；本期无法进行新闻综合。",
-  "caveman": "",
-  "priceVolumeSummary": "查看下方交易所表格。(本期自动摘要不可用 — 直接显示数据。)",
-  "positioningSummary": "查看下方持仓表格。",
-  "stocksSummary": "",
+  "oneLine": "比特币上涨1.5%至$84,829，交易者面对美国经济数据好坏参半，但监管态度积极；美国证券交易委员会（SEC）提出新规让投资机构可以自己保管加密货币，不过NEAR平台遭黑客攻击损失了$3.8百万。",
+  "caveman": "周四，比特币（最大的加密货币）涨了1.5%，现在值$84,829。以太坊（第二大的）涨了0.76%。大部分其他加密货币也涨了（占53%）。当天美国政府发布了一个工厂数据，显示价格上升，这通常让加密货币投资者不开心。但有个好消息：美国证券交易委员会（美国的金融监管部门）说要制定新规则，让投资公司可以帮客户保管比特币——他们以前不清楚能不能这样做。后来，一个叫NEAR Intents的平台出问题了，一个黑客偷了$3.8百万。平台说会把钱还给受害者。总的来说，这一天有好消息也有坏消息，很平常。",
+  "priceVolumeSummary": "五家主要交易所（币安、Bybit、欧易、Bitget、Gate）对比特币价格基本一致，约$84,875。币安成交量最大，比特币日交易额$12.0十亿，欧易次之（$6.9十亿）；以太坊成交量也主要集中在币安（$8.6十亿）和欧易（$6.3十亿）。",
+  "positioningSummary": "比特币显示正向资金费率（币安年化2.0%），说明交易者看好价格上升。币安未平仓头寸增长3.1%，表示更多资金进场。在普通交易者中，看涨头寸与看空头寸比例为1.35:1，但大户的比例更高达2.09:1。以太坊的资金费率更高（年化5.4%），看涨与看空比例也更极端——普通交易者为2.71:1，大户为1.67:1。整体来看，卖方压力略强：比特币和以太坊的主动买卖比都略低于1.0（比特币0.983，以太坊0.977），说明主动卖单比主动买单略多一点。市场广度保持积极，币安期货中53%的产品当日上涨。",
+  "stocksSummary": "亚洲股市表现强劲：韩国半导体公司SK Hynix和三星电子分别上涨3.9%和3.0%；香港科技股（小米、MiniMax）跌2-4%，受中国国庆节假期休市影响。美国股市小幅上涨（标普500指数+0.18%，纳斯达克+0.06%），黄金下跌0.62%，原油期货大幅上升2.8%（WTI）和4.5%（布伦特），暗示通胀担忧。",
   "movers": [
     {
       "symbol": "龙虾USDT",
-      "explanation": "本期无相关说明。",
+      "explanation": "该代币在币安上涨207%；信息有限的情况下出现如此极端的涨幅，表明这是一个小市值币的炒作，没有明确的基本面原因。",
       "hasCause": false
     },
     {
       "symbol": "GTCUSDT",
-      "explanation": "本期无相关说明。",
+      "explanation": "GTC（Gitcoin治理代币）上涨53%，没有相关新闻报道；这是小市值山寨币典型的波动。",
       "hasCause": false
     },
     {
       "symbol": "MOVRUSDT",
-      "explanation": "本期无相关说明。",
+      "explanation": "Moonbeam (MOVR) 上涨34%，没有具体公告；可能反映了更广泛的山寨币上升趋势。",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "美国证券交易委员会（SEC）提议新框架允许投资顾问和基金自我托管加密货币",
+        "what": "美国证券交易委员会在周四宣布了一项提议，允许投资顾问和受监管基金在特定条件下自己保管加密资产，或使用州信托公司作为托管人。公众评论期为60天，现已开启。这取代了美国证券交易委员会在2025年因批评而撤回的2023年《保管规则》提议。",
+        "coins": "比特币、以太坊、所有加密货币",
+        "timeUTC": "12:56 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+      },
+      {
+        "headline": "NEAR Intents平台在遭$3.8百万漏洞利用后停止服务；承诺全额退款",
+        "what": "跨链交易平台NEAR Intents披露了一起$3.8百万黑客攻击事件，是由充提系统中的漏洞造成的。该平台停止了11个网络上的服务，并表示将全额赔偿所有受影响用户。该漏洞已被修复。此事件发生在NEAR Intents冻结$83百万被盗的Bitget资金几天之后。",
+        "coins": "NEAR",
+        "timeUTC": "10:38 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues"
+      },
+      {
+        "headline": "Evernorth股东批准$1十亿XRP国库交易；纳斯达克上市定于10月8日",
+        "what": "Armada收购公司二号的股东批准与Evernorth合并，将把这家XRP国库公司带上纳斯达克公开交易。合并后的公司将从10月8日开始以XRPN股票代码交易。Evernorth预计在交割时持有约4.73亿个XRP，主要支持者包括Ripple、Kraken、Pantera Capital和SBI集团。",
+        "coins": "XRP",
+        "timeUTC": "11:30 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/deals/2026-10-01-evernorth-xrpn-nasdaq-armada-shareholders-approve-417413"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "伊利诺伊州因行业诉讼延迟有争议的加密税六个月",
+          "what": "伊利诺伊州官员和加密货币行业集团联合向州法院请愿，要求将该州0.2%的数字资产税从2027年1月1日延迟至2027年7月1日，以便继续进行法律诉讼。双方同意延迟对专注于法律争议是必要的。",
+          "coins": "所有加密货币",
+          "timeUTC": "12:56 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle"
+        },
+        {
+          "headline": "纽约和怀俄明州监管机构签署协议协调加密货币监管",
+          "what": "纽约金融服务部和怀俄明州银行局签署了一份协议，共享监管信息，简化许可证审查流程，协调涉及数字资产公司的检查和执法行动。",
+          "coins": "所有加密货币",
+          "timeUTC": "12:52 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/new-york-wyoming-regulators-sign-pact-coordinate-crypto-oversight"
+        },
+        {
+          "headline": "以太坊质押奖励销毁提议从Hegota升级中撤回",
+          "what": "EIP-8363是一项销毁以太坊质押奖励的提议，已从即将到来的Hegota升级中撤回。联合作者Jérôme de Tychey表示，行业参与者和核心贡献者说服他，范围界定流程不是进行这种发行变化的合适场所。",
+          "coins": "以太坊",
+          "timeUTC": "12:57 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-01-ethereum-staking-reward-burn-proposal-eip-8363-pulled-hegota-upgrade-417419"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF净流入纪录中断：波动持续中$149百万流出",
+          "what": "美国现货比特币ETF在周三（10月1日）出现$149百万净流出，结束了为期九天的净流入纪录（累计流入$3十亿）。同日，以太坊ETF也出现$59.6百万流出，富达的FETH流出$26.6百万。",
+          "coins": "比特币、以太坊",
+          "timeUTC": "08:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+        },
+        {
+          "headline": "花旗集团上调比特币12个月目标价至$113,000，机构信心上升",
+          "what": "花旗集团将其12个月比特币价格目标上调至$113,000，并将以太坊目标从$2,240上调至$3,028，理由是ETF净流入重新启动和机构采用信号增强。",
+          "coins": "比特币、以太坊",
+          "timeUTC": "06:12 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood钱包添加Arcus报价请求系统扩展股票代币交易",
+          "what": "Robinhood钱包集成了Arcus的RFQ（报价请求）系统，为合格用户提供了超过190个代币化股票的交易机会。Arcus现在是Robinhood平台上股票代币互换的路由提供商。",
+          "coins": "比特币、以太坊、股票代币",
+          "timeUTC": "09:13 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-robinhood-wallet-integrates-arcus-rfq-system-for-stock-token-swaps-417394"
+        },
+        {
+          "headline": "劳埃德银行和Visa在现场跨境试点中使用USDC结算$750,000付款",
+          "what": "英国银行集团劳埃德在为期七天的现场跨境试点中使用USDC稳定币与Visa结算了$750,000的付款义务，展示了稳定币在机构结算中的现实用途。",
+          "coins": "USDC",
+          "timeUTC": "07:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-lloyds-visa-settle-750000-using-usdc-in-live-cross-border-pilot-417378"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "MetaMask安全恐慌驱动以太坊验证者退出达九个月高位",
+          "what": "在披露9月30日安全事件后，MetaMask钱包出现以太坊验证者退出请求激增。Lido估计由于退出队列积压，提取时间可能达到45天。",
+          "coins": "以太坊",
+          "timeUTC": "10:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/metamask-security-scare-pushes-ethereum-validator-exits-to-a-nine-month-high/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美国工厂成本因制造数据走强而飙升；收益率从24年高位回落",
+          "what": "10月ISM制造业采购经理人指数显示随着订单和就业扩张，投入成本上升，引发联邦储备委员会是否会再次加息的辩论。然而，美国财政部债券收益率在美股交易时段从24年高位急剧下跌。",
+          "coins": "比特币、以太坊",
+          "timeUTC": "20:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-factory-costs-spike-threatening-bitcoins-rally-above-85000/"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-10-01",
+    "summary": "美国现货比特币ETF出现$149百万净流出，结束了为期九天净流入总额$3十亿的纪录。尽管单日流出，年初至今流入仍为正，约$970百万，整个生态资管规模超过$100十亿。",
+    "source": "The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (12:30 UTC) — Medium impact",
+      "typicalReaction": "强劲的就业数据（申请数少）通常支持风险资产，可以推高比特币；弱数据会产生相反效果。"
+    },
+    {
+      "event": "FOMC Member Waller speaks (14:00 UTC) — Medium impact",
+      "typicalReaction": "Waller在一次会议上讨论FRED和人工智能基础设施；他的言论没有涉及货币政策或利率预期。"
+    },
+    {
+      "event": "US ISM Manufacturing PMI (14:00 UTC) — Medium impact",
+      "typicalReaction": "强劲的数据（投入成本增加、订单扩张）通常表明经济强劲，可能推高收益率，这可能给比特币带来压力。10月数据显示强劲，但美国财政部债券收益率在当日晚些时候下跌。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "某资产现货价格（现在你要支付的价格）与期货价格（未来交割你要支付的价格）之间的差异。正基差意味着期货交易价格高于现货。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "市场中在某一天交易上升与下降的加密货币的百分比；53%广度意味着上升的币多于下降的币。"
+    },
+    {
+      "term": "ETF流量（净流入/净流出）",
+      "definition": "交易所交易基金（ETF）股份的每日净买入或净卖出。正流量（净流入）意味着投资者购买的股份多于出售；负流量（净流出）则相反。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "看涨头寸持有者（押注价格上升）向看空头寸持有者（押注价格下降）支付的费用，或反之亦然。正费率鼓励买入；负费率鼓励卖出。在主要交易所，费率通常每8小时收取或支付一次。"
+    },
+    {
+      "term": "看涨头寸",
+      "definition": "押注某资产价格会上升。"
+    },
+    {
+      "term": "看涨/看空比率",
+      "definition": "押注价格上升的交易者数量除以押注价格下降的交易者数量。比率高于1.0意味着更多交易者押注上升；低于1.0意味着更多交易者押注下降。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续期货合约盈利和亏损的官方价格，通常是最近跨交易所交易的加权平均价，以防止操纵。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "在某一时刻期货市场中未平仓合约（看涨或看空）的总数。增长的未平仓头寸意味着更多资金进入市场；缩小的未平仓头寸意味着交易者平仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "某一时期内（通常是一天）总未平仓头寸的百分比增减。3%的增加意味着每$100已存在的未平仓头寸中有$3的新未平仓头寸进入。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "没有到期日期的期货合约，旨在追踪资产（如比特币）的现货价格，使用资金费率保持两种价格同步。交易者使用杠杆（借款）来放大收益或损失。"
+    },
+    {
+      "term": "看空头寸",
+      "definition": "押注某资产价格会下降。"
+    },
+    {
+      "term": "现货价格",
+      "definition": "资产在现货市场中的实际价格，与期货价格不同（期货是未来交割的价格）。"
+    },
+    {
+      "term": "主动买卖比率",
+      "definition": "交易所上主动买入单与主动卖出单的比率。高于1.0意味着买方压力更大；低于1.0意味着卖方压力更大。"
+    },
+    {
+      "term": "大户头寸比率",
+      "definition": "仅在市场最大交易者之间的看涨与看空头寸比率，而非所有交易者。对跟踪聪明钱定位很有用。"
+    },
+    {
+      "term": "交易量",
+      "definition": "某一时期内交易的总美元价值（或币数）；更高的交易量表明更多活动，通常表示对价格走势信心更足。"
+    }
+  ],
   "_source": "cli-zh",
-  "_from": "e45e2080c50803fb"
+  "_from": "efbd37af6a0048ea"
 }

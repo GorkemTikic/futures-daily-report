@@ -1,33 +1,220 @@
 {
-  "oneLine": "5 borsa üzerinden pazar verileri toplanmıştır; haber sentezi bu çalışmada kullanılamadı.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakın. (Otomatik özet bu çalışmada kullanılamadı — rakamlar doğrudan gösterilmiştir.)",
-  "positioningSummary": "Aşağıdaki pozisyonlama tablosuna bakın.",
-  "stocksSummary": "",
+  "oneLine": "Bitcoin %1,5 artarak 84.829 dolara yükseldi; tüccarlar karışık ABD ekonomik sinyalleri ve düzenleyici iyimserliği dengeledikçe, SEC kurumsal kripto saklama için yeni kurallar önerdi ve NEAR protokol platformu 3,8 milyon dolarlık bir saldırıya uğradı.",
+  "caveman": "Perşembe günü, Bitcoin (en büyük kripto para birimi) değerinde %1,5 artış göstererek yaklaşık 84.829 dolara ulaştı. Ethereum, ikinci en büyük kripto para, %0,76 yükseldi. Diğer kripto paraların çoğu da yükseldi (yaklaşık %53'ü). Gün içinde ABD hükümeti fiyatların yükseldiğini gösteren fabrika verilerini yayınladı; bu normallikle kripto para yatırımcılarını endişelendirir. Ancak büyük bir haber geldi: SEC (ABD'nin ana para düzenleyicisi) yatırım şirketlerinin Bitcoin ve diğer kripto paraları müşterileri için tutmasına izin verecek yeni kurallar yapacağını söyledi — daha önce bunu açıkça yapamazlardı. Gün ilerledikçe, NEAR Intents adlı bir platform bilgisayar sorunu yaşadı ve bir hacker 3,8 milyon doları çaldı. Platform müşterilere parayı geri vermeyi vaat etti. Genel olarak, iyi ve kötü haberler içeren normal bir gündü.",
+  "priceVolumeSummary": "Beş ana borsa (Binance, Bybit, OKX, Bitget, Gate) da Bitcoin fiyatlandırması konusunda anlaştı; fiyat 84.875 dolara yakın. Binance günlük BTC işlemlerinde 12,0 milyar dolarlık hacimle liderlik yaptı, bunu OKX'nin 6,9 milyar doları izledi. ETH hacmi de benzer şekilde Binance'te (8,6 milyar dolar) ve OKX'te (6,3 milyar dolar) yoğunlaştı.",
+  "positioningSummary": "Bitcoin pozitif bir finansman gösterdi (%2,0 yıllık Binance'te), tüccarların fiyatların yükselmesini beklediğini gösteriyor. Açık faiz Binance'te %3,1 arttı — Bitcoin'in yönü hakkında daha fazla bahis oynanan para. Uzun pozisyonlar (fiyat yükselişine bahis) düzenli tüccarlar arasında kısa pozisyonları (fiyat düşüşüne bahis) 1,35 kat kadar aştı, ancak en büyük tüccarlar 2,09 kat daha bullishti. Ethereum daha güçlü bir finansmana sahipti (%5,4 yıllık) ve daha uç bir uzun-kısa dengesizliğine sahipti — düzenli tüccarlar için 2,71 kat, en büyük tüccarlar için 1,67 kat. Genel satış baskısı biraz daha güçlüydü: Bitcoin ve Ethereum'un ikisi de taker satın alma/satış oranlarının 1,0'ın biraz altında olduğunu gördü (Bitcoin 0,983, Ethereum 0,977), bu da agresif satıcıların agresif alıcıları sadece biraz daha fazla aştığını anlamına gelir. Pazar genişliği pozitif kaldı; Binance perpslerinin %53'ü gün içinde daha yüksek işlem yaptı.",
+  "stocksSummary": "Asya hisseleri mesai sonrası güç gösterdi: Güney Kore yarıiletken şirketleri SK Hynix ve Samsung Electronics sırasıyla %3,9 ve %3,0 yükseldi; Hong Kong teknoloji (Xiaomi, MiniMax) %2–4 düştü, Çin'in Ulusal Tatili tatili nedeniyle sürüklendi. ABD öz kaynakları hafifçe yükseldi (S&P 500 +%0,18, Nasdaq +%0,06), altın %0,62 düştü ve ham petrol perpleri %2,8 (WTI) ve %4,5 (Brent) yükseldi; bu da enflasyon endişelerine işaret ediyor.",
   "movers": [
     {
       "symbol": "龙虾USDT",
-      "explanation": "Bu çalışmada açıklama bulunmamaktadır.",
+      "explanation": "Bu token Binance'te %207 yükseldi; minimal bağlam üzerinde aşırı hareket, temeli açıklayan bir nedeni olmayan mikrocap pompasını gösteriyor.",
       "hasCause": false
     },
     {
       "symbol": "GTCUSDT",
-      "explanation": "Bu çalışmada açıklama bulunmamaktadır.",
+      "explanation": "GTC (Gitcoin yönetişim tokeni) bildirilen haber olmadan %53 yükseldi; küçük ölçekli altcoin oynaklığı için tipik.",
       "hasCause": false
     },
     {
       "symbol": "MOVRUSDT",
-      "explanation": "Bu çalışmada açıklama bulunmamaktadır.",
+      "explanation": "Moonbeam (MOVR) belirli bir duyuru olmadan %34 yükseldi; muhtemelen daha geniş altcoin gücünü yansıtıyor.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "SEC, yatırım danışmanları ve fonlara kripto öz saklama izni vermeyi önerdi",
+        "what": "ABD Menkul Kıymetler ve Borsa Komisyonu (SEC) perşembe günü, yatırım danışmanlarına ve düzenlenmiş fonlara kripto varlıkları belirli koşullar altında öz saklama veya devlet güven şirketlerini saklayıcı olarak kullanma izni verecek bir teklif açıkladı. 60 günlük halk yorum süresi derhal başlıyor. Bu, SEC'in 2025'te eleştirilerden sonra geri çektiği 2023 Safeguarding Rule teklifinin yerini alıyor.",
+        "coins": "Bitcoin, Ethereum, tüm kripto paralar",
+        "timeUTC": "12:56 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+      },
+      {
+        "headline": "NEAR Intents platformu 3,8 milyon dolarlık saldırının ardından durdu; tam geri ödemeyi vaat etti",
+        "what": "Zincirler arası ticaret platformu NEAR Intents, para yatırma ve çekme sistemindeki bir hatadan kaynaklanan 3,8 milyon dolarlık bir saldırı açıkladı. Platform 11 ağ genelinde hizmetleri durdurdu ve etkilenen tüm kullanıcılara tam geri ödeme yapacağını söyledi. Güvenlik açığı kapatıldı. Olay, NEAR Intents'in çalınan Bitget fonlarını 83 milyon dolar dondurmasından günler sonra yaşandı.",
+        "coins": "NEAR",
+        "timeUTC": "10:38 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues"
+      },
+      {
+        "headline": "Evernorth hissedarları 1 milyar dolarlık XRP hazinesi anlaşmasını onayladı; Nasdaq lansmanı 8 Ekim için planlı",
+        "what": "Armada Acquisition Corp. II'nin hissedarları, XRP hazinesi şirketini kamuya açacak Evernorth ile olan birleşmeyi onayladı. Birleşik şirket 8 Ekim'den itibaren XRPN sembolü altında Nasdaq'ta işlem görecek. Evernorth'ün kapanış sırasında yaklaşık 473 milyon XRP tutması bekleniyor; ana destekçiler arasında Ripple, Kraken, Pantera Capital ve SBI Group bulunuyor.",
+        "coins": "XRP",
+        "timeUTC": "11:30 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/deals/2026-10-01-evernorth-xrpn-nasdaq-armada-shareholders-approve-417413"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Illinois, endüstri davasının ardından tartışmalı kripto vergiyi altı ay erteledi",
+          "what": "Illinois devlet yetkilileri ve kripto grupları, devletin %0,2 Dijital Varlık Vergisini 1 Ocak 2027'den 1 Temmuz 2027'ye ertelemek için eyalet mahkemesine müşterek dilekçe verdiler; her iki taraf da hukuki tartışmaya odaklanmanın gerekli olduğunu kabul etti.",
+          "coins": "Tüm kripto paralar",
+          "timeUTC": "12:56 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle"
+        },
+        {
+          "headline": "New York ve Wyoming düzenleyicileri kripto gözetimi koordinasyonu için antlaşma imzaladı",
+          "what": "New York Mali Hizmetler Departmanı ve Wyoming Bankacılık Bölümü, denetleyici bilgilerini paylaşmak, lisans incelemelerini hızlandırmak ve dijital varlık şirketlerini içeren incelemeler ve yaptırım eylemlerini koordine etmek için bir anlaşma imzaladı.",
+          "coins": "Tüm kripto paralar",
+          "timeUTC": "12:52 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/new-york-wyoming-regulators-sign-pact-coordinate-crypto-oversight"
+        },
+        {
+          "headline": "Ethereum staking ödülü yakma teklifi Hegota yükseltmesinden çekildi",
+          "what": "Ethereum staking ödüllerini yakmak için önerilen EIP-8363, yaklaşan Hegota yükseltmesinden geri çekildi. Ortak yazar Jérôme de Tychey, endüstri katılımcılarının ve temel katkıda bulunanların, kapsam belirleme sürecinin bu tür bir ihraç değişikliğinin yanlış mekan olduğuna onu ikna ettiğini söyledi.",
+          "coins": "Ethereum",
+          "timeUTC": "12:57 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-01-ethereum-staking-reward-burn-proposal-eip-8363-pulled-hegota-upgrade-417419"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF akışı kesildi: Volatilite devam ederken 149 milyon dolar çıkış",
+          "what": "ABD spot Bitcoin ETF'leri çarşamba günü (1 Ekim) 149 milyon doların net çıkışını gördü; bu da dokuz günlük bir akış serisini sona erdirdi ve toplamda 3 milyar dolar getirmişti. Ethereum ETF'leri aynı gün 59,6 milyon dolarlık çıkış gördü; Fidelity'nin FETH 26,6 milyon dolar kaybetti.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "08:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+        },
+        {
+          "headline": "Citigroup, kurumsal güven artışıyla Bitcoin 12 aylık hedefini 113.000 dolara yükseltti",
+          "what": "Citigroup Bitcoin için 12 aylık fiyat hedefini 113.000 dolara, Ethereum için hedefini 2.240 dolardan 3.028 dolara yükseltti; artan ETF akışları ve kurumsal benimseme sinyallerini gerekçe gösterdi.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "06:12 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood Wallet, genişletilmiş hisse senedi token ticareti için Arcus RFQ sistemini ekledi",
+          "what": "Robinhood Wallet, Arcus'un RFQ (Teklif İsteği) sistemini entegre etti; uygun kullanıcılar 190'dan fazla tokenize edilmiş hisse senedi seçeneğine erişebiliyor. Arcus şimdi Robinhood platformunda Hisse Senedi Token takası için bir yönlendirme sağlayıcısı olarak hizmet veriyor.",
+          "coins": "Bitcoin, Ethereum, hisse senedi tokenları",
+          "timeUTC": "09:13 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-robinhood-wallet-integrates-arcus-rfq-system-for-stock-token-swaps-417394"
+        },
+        {
+          "headline": "Lloyds Bank ve Visa, canlı sınır ötesi pilot sırasında USDC kullanarak 750.000 dolar ödemeyi kararlaştırdı",
+          "what": "İngiltere bankacılık grubu Lloyds, yedi günlük canlı sınır ötesi pilot sırasında Visa'ya olan 750.000 dolarlık ödeme yükümlülüğünü USDC sabit paranası kullanarak kararlaştırdı; bu, sabit paraların kurumsal uzlaştırmada gerçek dünya kullanışlılığını gösteriyor.",
+          "coins": "USDC",
+          "timeUTC": "07:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-lloyds-visa-settle-750000-using-usdc-in-live-cross-border-pilot-417378"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "MetaMask güvenlik korkusu Ethereum doğrulayıcı çıkışlarını dokuz aylık yükseğe çıkardı",
+          "what": "30 Eylül tarihli güvenlik olayının açıklanmasının ardından, MetaMask cüzdanı Ethereum doğrulayıcı çıkış taleplerinde bir artış gördü. Lido, birikim çıkış kuyruğu nedeniyle çıkış süresinin 45 güne kadar uzayabileceğini tahmin ediyor.",
+          "coins": "Ethereum",
+          "timeUTC": "10:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/metamask-security-scare-pushes-ethereum-validator-exits-to-a-nine-month-high/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD fabrika maliyetleri güçlü imalat verisiyle artarken; getiriler 24 yıllık zirvelerden düştü",
+          "what": "Ekim ISM İmalat PMI, siparişler ve istihdam genişledikçe giriş maliyetlerinde artış gösterdi; Federal Reserve'in yeniden oran artırıp artırmayacağı konusunda tartışmayı besleyen veriler ortaya koydu. Ancak ABD Hazine getirileri ABD ticaret seansında 24 yıllık zirvelerden keskin bir şekilde düştü.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "20:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-factory-costs-spike-threatening-bitcoins-rally-above-85000/"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-10-01",
+    "summary": "ABD spot Bitcoin ETF'leri 149 milyon dolarlık net çıkış gördü; bu da dokuz günlük toplam 3 milyar dolarlık gelen para akışını sona erdirdi. Tek günlük çıkışa rağmen, yılbaşından bu yana akışlar yaklaşık 970 milyon dolarda pozitif kaldı; ekosistem genelinde yönetim altındaki varlıklar 100 milyar doların üzerinde.",
+    "source": "The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (12:30 UTC) — Medium impact",
+      "typicalReaction": "Güçlü istihdam verileri (daha az talep) genellikle riskli varlıkları destekler ve Bitcoin'i yükseltebilir; zayıf veriler bunun tersini yapabilir."
+    },
+    {
+      "event": "FOMC Member Waller speaks (14:00 UTC) — Medium impact",
+      "typicalReaction": "Waller bir konferansında FRED ve yapay zeka altyapısı hakkında konuştu; açıklamaları parasal politika veya oran beklentileri ele almadı."
+    },
+    {
+      "event": "US ISM Manufacturing PMI (14:00 UTC) — Medium impact",
+      "typicalReaction": "Güçlü bir okuma (giriş maliyeti artışları, genişleyen siparişler) genellikle ekonomik gücü gösterir ve getirileri yükseltebilir; bu da Bitcoin'e baskı yapabilir. Ekim okuması gücü gösterdi ancak Hazine getirileri gün ilerledikçe düştü."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Bir varlığın spot fiyatı (şu anda ödediğiniz fiyat) ile vadeli işlem fiyatı (gelecek teslim için ödediğiniz fiyat) arasındaki fark. Pozitif bir basis, vadeli işlem fiyatının spot fiyattan daha yüksek olduğu anlamına gelir."
+    },
+    {
+      "term": "Breadth",
+      "definition": "Pazardaki kripto paraların belirli bir gün içinde yükselen oranı; %53 genişlik, daha fazla coinin düşmesinden daha yüksek olduğu anlamına gelir."
+    },
+    {
+      "term": "ETF flows (inflows/outflows)",
+      "definition": "Borsada işlem gören fon (ETF) hisselerinin günlük net alımı veya satışı. Pozitif akışlar (gelen paralar) yatırımcıların sattıklarından daha fazla hisse satın aldığı anlamına gelir; negatif akışlar (çıkan paralar) tersi anlamına gelir."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Uzun pozisyonları tutan tüccarlar (fiyat yükseliş bahisçileri) tarafından kısa pozisyonları tutan tüccarlar (fiyat düşüş bahisçileri) ödenecek para veya bunun tersi. Pozitif oranlar alımı teşvik eder; negatif oranlar satışı teşvik eder. Oranlar tipik olarak ana borsalarda her 8 saatte bir ödenir veya tahsil edilir."
+    },
+    {
+      "term": "Long position",
+      "definition": "Bir varlığın fiyatının yükseleceğine dair bahis."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "Fiyatın yükseleceğine bahis oynayan tüccarlar (long) ile düşeceğine bahis oynayan tüccarlar (short) sayısı. 1,0'ın üzerindeki bir oran daha fazla tüccarın yükselişe bahse girdiği anlamına gelir; 1,0'ın altında daha fazla tüccarın düşüşe bahse girdiği anlamına gelir."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Bir daimî vadeli işlem sözleşmesindeki kar ve zararı hesaplamak için kullanılan resmi fiyat; tipik olarak manipülasyonu önlemek için borsalar arasında son işlemlerin ağırlıklı ortalaması olarak hesaplanır."
+    },
+    {
+      "term": "Open interest",
+      "definition": "Belirli bir anda bir vadeli işlem pazarındaki kapatılmamış sözleşmelerin toplam sayısı (uzun veya kısa). Artan açık faiz pazara daha fazla paranın girdiği anlamına gelir; azalan açık faiz tüccarların pozisyonları kapattığı anlamına gelir."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "Belirli bir dönem içinde (genellikle bir gün) toplam açık faizde yüzde artış veya azalış. %3 artış, öncekinin her 100 doları için 3 dolarlık yeni açık faiz geldiği anlamına gelir."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "Hiçbir son tarihi olmayan, finansman oranlarını kullanarak iki fiyatı senkronizasyonda tutacak şekilde tasarlanan bir varlığın (Bitcoin gibi) spot fiyatını izlemek için kullanılan vadeli işlem sözleşmesi. Tüccarlar kazanç veya zararı amplify etmek için kaldıraç (borç alma) kullanır."
+    },
+    {
+      "term": "Short position",
+      "definition": "Bir varlığın fiyatının düşeceğine dair bahis."
+    },
+    {
+      "term": "Spot price",
+      "definition": "Bir varlığın şu anda fiziksel pazarda gerçek fiyatı; vadeli işlem fiyatlarının (gelecek teslimat için) aksine."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "Bir borsada agresif alım siparişleri (taker) oranı agresif satım siparişlerine (taker). 1,0'ın üzerinde daha fazla satın alma baskısı anlamına gelir; 1,0'ın altında daha fazla satış baskısı anlamına gelir."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "Pazardaki tüm tüccarlar yerine yalnızca en büyük tüccarlar arasındaki long-to-short oranı. Akıllı para konumlandırmasını izlemek için yararlıdır."
+    },
+    {
+      "term": "Volume",
+      "definition": "Belirli bir dönem içinde işlem gören toplam dolar değeri (veya madeni para sayısı); daha yüksek hacim daha fazla aktiviteyi gösterir ve tipik olarak fiyat hareketlerinde daha yüksek güveni gösterir."
+    }
+  ],
   "_source": "cli-tr",
-  "_from": "e45e2080c50803fb"
+  "_from": "efbd37af6a0048ea"
 }

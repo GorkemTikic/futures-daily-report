@@ -1,0 +1,219 @@
+{
+  "oneLine": "Bitcoin gained 1.5% to $84,829 as traders navigated mixed US economic signals and regulatory optimism; the SEC proposed new rules for institutional crypto custody, while a NEAR protocol platform suffered a $3.8 million hack.",
+  "caveman": "On Thursday, Bitcoin (the biggest cryptocurrency) went up 1.5% in value, reaching about $84,829. Ethereum, the second-biggest crypto, went up 0.76%. Most other cryptocurrencies went up too (about 53% of them). During the day, the US government released factory data that showed prices going up, which normally would worry investors in cryptocurrencies. But a big piece of good news came out: the SEC (the main US regulator for money) said it would make new rules that let investment companies hold Bitcoin and other cryptocurrencies for their customers — something they couldn't clearly do before. Later in the day, a platform called NEAR Intents had a computer problem that let a hacker steal $3.8 million. The platform promised to give the money back to customers. Overall, it was a normal day with some good news and some bad news.",
+  "priceVolumeSummary": "All five major exchanges (Binance, Bybit, OKX, Bitget, Gate) showed agreement on Bitcoin pricing near $84,875. Binance led volume with $12.0 billion in daily BTC trading, followed by OKX's $6.9 billion; ETH volume concentrated similarly at Binance ($8.6 billion) and OKX ($6.3 billion).",
+  "positioningSummary": "Bitcoin showed positive funding (2.0% annualized on Binance), indicating traders expected prices to rise. Open interest grew 3.1% on Binance—more money betting Bitcoin's direction. Long positions (bets on price up) outnumbered shorts (bets on price down) by 1.35 times among regular traders, but the largest traders were far more bullish at 2.09 times. Ethereum had stronger funding (5.4% annualized) and a more extreme long-short imbalance at 2.71 times for regular traders, 1.67 times for the largest traders. Overall selling pressure was slightly stronger: both Bitcoin and Ethereum saw taker buy/sell ratios slightly below 1.0 (Bitcoin 0.983, Ethereum 0.977), meaning aggressive sellers just barely outnumbered aggressive buyers. Market breadth remained positive with 53% of Binance perps trading higher on the day.",
+  "stocksSummary": "Asian stocks showed strength after hours: South Korean semiconductor firms SK Hynix and Samsung Electronics rose 3.9% and 3.0%; Hong Kong tech (Xiaomi, MiniMax) fell 2–4%, dragged by China's National Day holiday closure. US equities edged higher (S&P 500 +0.18%, Nasdaq +0.06%), while gold fell 0.62% and crude oil perps surged 2.8% (WTI) and 4.5% (Brent), suggesting inflation concerns.",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "This token jumped 207% on Binance; the extreme move on minimal context suggests a microcap pump with no clear fundamental cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "GTC (Gitcoin governance token) rose 53% without reported news; typical for small-cap altcoin volatility.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "explanation": "Moonbeam (MOVR) climbed 34% on no specific announcement; likely reflective of broader altcoin strength.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC proposes new framework allowing investment advisers and funds to self-custody crypto",
+        "what": "The US Securities and Exchange Commission announced a proposal on Thursday that would permit investment advisers and regulated funds to hold crypto assets in self-custody under certain conditions, or use state trust companies as custodians. The 60-day public comment period opens immediately. This replaces the 2023 Safeguarding Rule proposal, which the SEC had withdrawn in 2025 after criticism.",
+        "coins": "Bitcoin, Ethereum, all cryptocurrencies",
+        "timeUTC": "12:56 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+      },
+      {
+        "headline": "NEAR Intents platform halts after $3.8 million exploit; promises full refund",
+        "what": "Cross-chain trading platform NEAR Intents disclosed a $3.8 million hack caused by a bug in its deposit and withdrawal system. The platform halted services across 11 networks and said it will reimburse all affected users in full. The vulnerability has been patched. The incident came days after NEAR Intents froze $83 million in stolen Bitget funds.",
+        "coins": "NEAR",
+        "timeUTC": "10:38 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues"
+      },
+      {
+        "headline": "Evernorth shareholders approve $1 billion XRP treasury deal; Nasdaq debut set for Oct 8",
+        "what": "Shareholders of Armada Acquisition Corp. II approved a merger with Evernorth that will bring the XRP treasury company public on Nasdaq. The combined company will trade under ticker XRPN starting October 8. Evernorth is expected to hold approximately 473 million XRP at closing, with major backers including Ripple, Kraken, Pantera Capital, and SBI Group.",
+        "coins": "XRP",
+        "timeUTC": "11:30 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/deals/2026-10-01-evernorth-xrpn-nasdaq-armada-shareholders-approve-417413"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Illinois delays controversial crypto tax by six months following industry lawsuit",
+          "what": "Illinois state officials and crypto groups jointly petitioned a state court to delay the state's 0.2% Digital Asset Tax from January 1, 2027 to July 1, 2027, while a legal challenge continues. Both sides agreed the delay was necessary to focus on the legal dispute.",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "12:56 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle"
+        },
+        {
+          "headline": "New York and Wyoming regulators sign pact to coordinate crypto oversight",
+          "what": "The New York Department of Financial Services and Wyoming Division of Banking signed an agreement to share supervisory information, streamline licensing reviews, and coordinate examinations and enforcement actions involving digital asset firms.",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "12:52 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/new-york-wyoming-regulators-sign-pact-coordinate-crypto-oversight"
+        },
+        {
+          "headline": "Ethereum staking reward burn proposal pulled from Hegota upgrade",
+          "what": "EIP-8363, a proposal to burn Ethereum staking rewards, was withdrawn from the upcoming Hegota upgrade. Co-author Jérôme de Tychey said industry participants and core contributors convinced him that a scoping process was the wrong venue for such an issuance change.",
+          "coins": "Ethereum",
+          "timeUTC": "12:57 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-01-ethereum-staking-reward-burn-proposal-eip-8363-pulled-hegota-upgrade-417419"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF inflow streak breaks: $149 million exits as volatility continues",
+          "what": "US spot Bitcoin ETFs saw $149 million in net outflows on Wednesday (October 1), ending a nine-day streak that had brought in $3 billion cumulatively. Ethereum ETFs also saw $59.6 million in outflows on the same day, with Fidelity's FETH losing $26.6 million.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "08:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+        },
+        {
+          "headline": "Citigroup raises Bitcoin 12-month target to $113,000 as institutional confidence climbs",
+          "what": "Citigroup lifted its 12-month Bitcoin price target to $113,000 and also raised its Ethereum target from $2,240 to $3,028, citing renewed ETF inflows and institutional adoption signals.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "06:12 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood Wallet adds Arcus RFQ system for expanded stock token trading",
+          "what": "Robinhood Wallet integrated Arcus's RFQ (Request for Quote) system, giving eligible users access to more than 190 tokenized stock options. Arcus now serves as a routing provider for Stock Token swaps on the Robinhood platform.",
+          "coins": "Bitcoin, Ethereum, stock tokens",
+          "timeUTC": "09:13 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-robinhood-wallet-integrates-arcus-rfq-system-for-stock-token-swaps-417394"
+        },
+        {
+          "headline": "Lloyds Bank and Visa settle $750,000 payment using USDC in live cross-border pilot",
+          "what": "UK banking group Lloyds settled $750,000 of payment obligations with Visa using USDC stablecoin during a seven-day live cross-border pilot, demonstrating real-world utility of stablecoins in institutional settlement.",
+          "coins": "USDC",
+          "timeUTC": "07:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-01-lloyds-visa-settle-750000-using-usdc-in-live-cross-border-pilot-417378"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "MetaMask security scare drives Ethereum validator exits to nine-month high",
+          "what": "Following disclosure of a September 30 security incident, MetaMask wallet saw a spike in Ethereum validator exit requests. Lido estimates withdrawal timelines could reach 45 days due to backed-up exit queues.",
+          "coins": "Ethereum",
+          "timeUTC": "10:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/metamask-security-scare-pushes-ethereum-validator-exits-to-a-nine-month-high/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US factory costs spike on stronger manufacturing data; yields fall from 24-year highs",
+          "what": "The October ISM Manufacturing PMI showed rising input costs as orders and employment expanded, feeding debate over whether the Federal Reserve will raise rates again. However, US Treasury yields fell sharply from 24-year peaks during the US trading session.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "20:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-factory-costs-spike-threatening-bitcoins-rally-above-85000/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-01",
+    "summary": "US spot Bitcoin ETFs saw $149 million in net outflows, ending a nine-day streak of inflows totaling $3 billion. Despite the single-day outflow, year-to-date flows remain positive at approximately $970 million, with over $100 billion in combined assets under management across the ecosystem.",
+    "source": "The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (12:30 UTC) — Medium impact",
+      "typicalReaction": "Strong employment data (fewer claims) typically supports risk assets and can push Bitcoin higher; weak data can do the opposite."
+    },
+    {
+      "event": "FOMC Member Waller speaks (14:00 UTC) — Medium impact",
+      "typicalReaction": "Waller spoke on FRED and AI infrastructure at a conference; his remarks did not address monetary policy or rate expectations."
+    },
+    {
+      "event": "US ISM Manufacturing PMI (14:00 UTC) — Medium impact",
+      "typicalReaction": "A strong reading (input cost increases, expanded orders) typically signals economic strength and can push yields higher, which can pressure Bitcoin. The October reading showed strength but Treasury yields fell later in the day."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between the spot price of an asset (what you pay right now) and its futures price (what you pay for future delivery). A positive basis means futures trade higher than spot."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of cryptocurrencies in the market that traded higher versus lower on a given day; 53% breadth means more coins went up than down."
+    },
+    {
+      "term": "ETF flows (inflows/outflows)",
+      "definition": "The daily net buying or selling of shares in exchange-traded funds (ETFs). Positive flows (inflows) mean investors bought more shares than they sold; negative flows (outflows) mean the opposite."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A payment that traders holding long positions (betting price up) pay to traders holding short positions (betting price down), or vice versa. Positive rates encourage buying; negative rates encourage selling. Rates are typically charged or paid every 8 hours on major exchanges."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that the price of an asset will go up."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting the price will go up (long) divided by the number betting it will go down (short). A ratio above 1.0 means more traders are betting on up; below 1.0 means more are betting on down."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The official price used to calculate profits and losses on a perpetual futures contract, typically calculated as a weighted average of recent trades across exchanges to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of unclosed contracts (either long or short) in a futures market at a given moment. Growing open interest means more money is entering the market; shrinking open interest means traders are closing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in total open interest over a given period (usually one day). A 3% increase means $3 in new open interest arrived for every $100 that existed before."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "A futures contract with no expiration date, designed to track the spot price of an asset (like Bitcoin) using funding rates to keep the two prices in sync. Traders use leverage (borrowing) to amplify gains or losses."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that the price of an asset will go down."
+    },
+    {
+      "term": "Spot price",
+      "definition": "The actual price of an asset right now in the physical market, as opposed to futures prices (which are for future delivery)."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buy orders (takers) to aggressive sell orders (takers) on an exchange. Above 1.0 means more buying pressure; below 1.0 means more selling pressure."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "The long-to-short ratio among only the largest traders in the market, rather than all traders. Useful for tracking smart money positioning."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar value (or number of coins) traded in a given period; higher volume suggests more activity and typically higher confidence in price moves."
+    }
+  ],
+  "_source": "cli"
+}

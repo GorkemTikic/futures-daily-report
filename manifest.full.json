@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-02T01:10:28.934Z",
+  "generatedAt": "2026-10-02T02:09:40.842Z",
   "count": 107,
   "counts": {
     "total": 107,
     "market": 20,
     "divergence": 87,
-    "degraded": 2
+    "degraded": 1
   },
   "latest": "2026-10-01",
   "reports": [
@@ -21,9 +21,9 @@
         "BTC": 1.4719988900504162,
         "ETH": 0.7610043916993469
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin gained 1.5% to $84,829 as traders navigated mixed US economic signals and regulatory optimism; the SEC proposed new rules for institutional crypto custody, while a NEAR protocol platform suffered a $3.8 million hack.",
+      "oneLine": "Bitcoin gained 1.5% to $84,829 as traders navigated mixed US economic signals and regulatory optimism; the SEC proposed new rules for institutional crypto custody, while a NEAR protocol platform suffered a $3.8 million hack.",
+      "newsCount": 12,
       "topMover": {
         "symbol": "龙虾USDT",
         "chgPct": 207.30415388904376
@@ -40,10 +40,8 @@
         "tr",
         "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-10-01/summary_2026-10-01.html",
