@@ -58,18 +58,27 @@ function detectDirection(text, assetPattern) {
   return null;
 }
 
+// Words that mean a percentage is NOT the asset's price change for the day
+// (funding, dominance, flows, open interest, ratios, longer periods ...).
+const NOT_PRICE_MOVE = /dominance|funding|open interest|\bOI\b|volume|\bETFs?\b|inflow|outflow|share|ratio|\blongs?\b|\bshorts?\b|annuali[sz]ed|since|year|month|week|\bYTD\b|liquidat|supply|hash|premium|basis|implied|volatility|market cap|breadth|fear|greed|probabilit|odds|rate|yield|index|stake|staking/i;
+const OTHER_ASSET = /\b(ethereum|eth|bitcoin|btc|solana|sol|xrp|bnb|doge|dogecoin|cardano|ada|gold|silver|oil|nasdaq|s&p|dow)\b/i;
+const MOVE_VERB = "rose|gained|climbed|surged|jumped|rallied|advanced|added|increased|fell|dropped|declined|slid|slipped|tumbled|plunged|lost|sank|decreased|was up|was down|is up|is down|up|down|higher|lower";
+
+// Only a percentage tied to the asset by a movement verb counts as its price
+// change: "Bitcoin rose 1.5%", "BTC slipped about 0.4%". Any % in the same
+// sentence that is about funding, dominance, flows, another asset or a longer
+// period is ignored (they produced false mismatches on almost every day).
 function checkPercentage(errors, text, assetPattern, actualPct, label) {
   if (actualPct == null) return;
-  // Match regular %, en-dash ranges like 4–5%, and em-dash ranges
-  const pctRe = /([+-]?\d+(?:\.\d+)?)\s*(?:[–—]-?\s*\d+(?:\.\d+)?\s*)?%/g;
+  // (?!\s+[A-Z][a-z]): "Bitcoin Wars", "Bitcoin Cash" are other coins, not Bitcoin.
+  const re = new RegExp(`(?:${assetPattern})(?!\\s+[A-Z][a-z])('s)?([^%]{0,60}?)\\b(${MOVE_VERB})\\b([^%\\d]{0,24}?)([+-]?\\d+(?:\\.\\d+)?)\\s*%`, "gi");
   for (const s of splitSentences(text)) {
-    if (!new RegExp(assetPattern, "i").test(s)) continue;
-    // Skip sentences that also mention the OTHER major asset to avoid cross-matching
-    if (label === "BTC" && /\bethereum\b|\beth\b/i.test(s) && !/\bbitcoin\b|\bbtc\b/i.test(s)) continue;
-    if (label === "ETH" && /\bbitcoin\b|\bbtc\b/i.test(s) && !/\bethereum\b|\beth\b/i.test(s)) continue;
     let m;
-    while ((m = pctRe.exec(s)) !== null) {
-      const mentioned = parseFloat(m[1]);
+    re.lastIndex = 0;
+    while ((m = re.exec(s)) !== null) {
+      const between = `${m[2]} ${m[4]}`;
+      if (NOT_PRICE_MOVE.test(between) || OTHER_ASSET.test(between)) continue;
+      const mentioned = parseFloat(m[5]);
       if (isNaN(mentioned)) continue;
       const diff = Math.abs(Math.abs(mentioned) - Math.abs(actualPct));
       if (Math.abs(actualPct) < 1 && mentioned > 5) {
@@ -80,6 +89,9 @@ function checkPercentage(errors, text, assetPattern, actualPct, label) {
     }
   }
 }
+
+// "BR", "BRUSDT" and "brusdt" are the same mover.
+const baseSym = (s) => String(s || "").replace(/\s*\([^)]*\)/g, "").trim().toUpperCase().replace(/[-_/]?(USDT|USDC|BUSD|USD)(_PERP)?$/, "");
 
 export function checkConsistency(synth, pack) {
   const errors = [];
@@ -123,22 +135,24 @@ export function checkConsistency(synth, pack) {
   if (eth?.chgPct != null) checkPercentage(errors, allText, "ethereum|\\beth\\b", eth.chgPct, "ETH");
 
   // 4. Mover symbols must exist in the datapack
-  const dataMovers = new Set((pack.exchanges?.movers || []).map((m) => m.symbol));
+  const dataMovers = new Set([...(pack.exchanges?.movers || []), ...(pack.exchanges?.lowLiqMovers || [])].map((m) => baseSym(m.symbol)));
   for (const m of synth.movers || []) {
-    if (m.symbol && dataMovers.size && !dataMovers.has(m.symbol)) {
+    if (m.symbol && dataMovers.size && !dataMovers.has(baseSym(m.symbol))) {
       errors.push(`mover-symbol: "${m.symbol}" not in datapack movers`);
     }
   }
 
-  // 5. BTC price sanity (if mentioned in a BTC sentence, must be within 10% of close)
+  // 5. BTC price sanity: a dollar figure on Bitcoin's own scale (half to double
+  // the close) in a Bitcoin sentence must be within 10% of the close. Smaller
+  // figures in the same sentence are other assets (ETH ~$2,700) or amounts.
   if (btc?.close && btc.close > 1000) {
-    const priceRe = /\$\s*([\d,]+(?:\.\d+)?)/g;
+    const priceRe = /\$\s*([\d,]+(?:\.\d+)?)(?!\s*(?:k|m|bn|b|million|billion|trillion)\b)/gi;
     for (const s of splitSentences(allText)) {
       if (!/bitcoin|btc/i.test(s)) continue;
       let m;
       while ((m = priceRe.exec(s)) !== null) {
         const mentioned = parseFloat(m[1].replace(/,/g, ""));
-        if (isNaN(mentioned) || mentioned < 1000) continue;
+        if (isNaN(mentioned) || mentioned < btc.close * 0.5 || mentioned > btc.close * 2) continue;
         const ratio = mentioned / btc.close;
         if (ratio < 0.9 || ratio > 1.1) {
           errors.push(`btc-price: text says $${mentioned.toLocaleString("en-US")} but close is $${btc.close.toLocaleString("en-US")}`);
