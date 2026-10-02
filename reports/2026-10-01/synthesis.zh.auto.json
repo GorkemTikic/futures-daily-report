@@ -1,23 +1,23 @@
 {
-  "oneLine": "来自5个平台的市场数据；本次运行未生成新闻摘要。",
+  "oneLine": "已从 5 个交易所收集市场数据；本期无法进行新闻综合。",
   "caveman": "",
-  "priceVolumeSummary": "请查看下方交易所表格。（本次运行未自动生成分析——数据已直接显示。）",
-  "positioningSummary": "请查看下方持仓表格。",
+  "priceVolumeSummary": "查看下方交易所表格。(本期自动摘要不可用 — 直接显示数据。)",
+  "positioningSummary": "查看下方持仓表格。",
   "stocksSummary": "",
   "movers": [
     {
       "symbol": "龙虾USDT",
-      "explanation": "本次运行未生成分析。",
+      "explanation": "本期无相关说明。",
       "hasCause": false
     },
     {
       "symbol": "GTCUSDT",
-      "explanation": "本次运行未生成分析。",
+      "explanation": "本期无相关说明。",
       "hasCause": false
     },
     {
       "symbol": "MOVRUSDT",
-      "explanation": "本次运行未生成分析。",
+      "explanation": "本期无相关说明。",
       "hasCause": false
     }
   ],

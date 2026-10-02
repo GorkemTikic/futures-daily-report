@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-02T00:07:59.763Z",
+  "generatedAt": "2026-10-02T01:10:28.934Z",
   "count": 107,
   "counts": {
     "total": 107,
@@ -19,7 +19,7 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": 1.5039338623136336,
+        "BTC": 1.4719988900504162,
         "ETH": 0.7610043916993469
       },
       "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
@@ -43,7 +43,7 @@
       ],
       "status": "degraded",
       "degradedReasons": [
-        "narrative fell back to data-only"
+        "narrative fell back to data-only (CLI-only backend)"
       ],
       "flagged": [],
       "files": {
