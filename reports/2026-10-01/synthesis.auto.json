@@ -1,0 +1,139 @@
+{
+  "oneLine": "On Thursday, 1 October, Bitcoin and Ethereum rose about 1.5% and 0.7% respectively in relatively calm trading, while only 36% of altcoins gained ground and the broader market showed mixed signals.",
+  "caveman": "On Thursday, 1 October, Bitcoin went up 1.5% and Ethereum went up 0.7%. A person from the Federal Reserve gave a speech at 2 p.m. UTC, and bond prices (which the Fed controls) bounced around, so traders were confused about what comes next. Most other cryptocurrencies did worse than Bitcoin—only about one third of them went up and two thirds went down. A few very small coins jumped wildly for no clear reason. Overall it was a normal day with mixed signals—not calm or worrying.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices aligned tightly across five major exchanges (Binance, Bybit, OKX, Bitget, Gate), with Bitcoin closing between $84,829 and $84,838 and Ethereum at $2,705. Binance led by volume with $12.0 billion in 24-hour perpetual trading, followed by OKX at $6.9 billion and Bybit at $5.3 billion.",
+  "positioningSummary": "Traders showed moderate bullish positioning: Bitcoin's funding rate sat at 7.55% annualized (longs paid shorts), and open interest grew 3.1%, indicating fresh capital entering. The largest Bitcoin traders favored longs 2.1-to-1, while all traders combined leaned 1.3-to-1 long. Ethereum saw stronger long bias among the largest traders (1.67-to-1) and all traders (2.7-to-1), but funding was near neutral at 0.32% annualized, suggesting less conviction. Taker buying was balanced in Bitcoin (1.0-to-1) but slightly favored sellers in Ethereum (0.964). Market breadth signaled weakness despite gains in the majors: only 36% of Binance perpetuals rose during the day.",
+  "stocksSummary": "Hong Kong and China exchanges closed for National Day. Korean markets were active and mostly positive: Samsung Electronics rose 2.46%, SK Hynix rose 1.08%, and the KOSPI 200 index gained 2.33%, likely buoyed by tech optimism. Commodities weakened: WTI crude oil fell 2.13%, gold fell 0.84%, and silver fell 0.97%, though natural gas rose 2.53%.",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "This microcap token surged 207%, swinging from $0.032 to $0.114 intraday on $520 million volume. The extreme volatility and lack of news coverage suggest retail speculation with no clear catalyst.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Rose 53% on $61 million volume. This small-cap asset has limited mainstream coverage and no identifiable news driver.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "explanation": "Moonriver token gained 33% on $1.5 billion volume. While the volume is substantial, no public news explains the move.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC proposes framework allowing investment advisers and funds to self-custody crypto",
+        "what": "The Securities and Exchange Commission proposed new rules enabling registered investment advisers and funds to hold crypto directly or use state trust companies as custodians. This removes a key barrier to institutional adoption by eliminating the custody requirement that had previously forced large money managers to rely on third parties.",
+        "coins": "BTC, ETH (institutional)",
+        "timeUTC": "2026-10-01 16:16 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+      },
+      {
+        "headline": "Hyperliquid and Circle lobby EU on perpetuals and stablecoin rules in MiCA review",
+        "what": "Hyperliquid's policy group urged the European Commission to regulate cryptocurrency perpetuals under MiFID II (the standard framework for traditional derivatives), arguing this would clarify rules and allow larger markets. Separately, Circle (USDC issuer) pushed back on MiCA's mandatory bank-deposit requirements for stablecoin reserves, arguing they lock large stablecoins out of Europe.",
+        "coins": "General crypto, USDC",
+        "timeUTC": "2026-10-01 19:03 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+      },
+      {
+        "headline": "Ethereum Foundation launches zkAPI for private AI model queries",
+        "what": "Ethereum infrastructure now lets users prepay in USDC and query AI models through zero-knowledge proofs, meaning service providers cannot see who the user is or what they're asking for. This is a technical milestone in privacy infrastructure built on Ethereum.",
+        "coins": "ETH, USDC",
+        "timeUTC": "2026-10-01 21:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC proposes framework allowing investment advisers and funds to self-custody crypto",
+          "what": "The SEC proposed rules enabling registered investment advisers and funds to hold crypto directly or use state trust companies as custodians, removing a key institutional barrier.",
+          "coins": "BTC, ETH (institutional)",
+          "timeUTC": "2026-10-01 16:16 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+        },
+        {
+          "headline": "Hyperliquid and Circle lobby EU on perpetuals and stablecoin rules in MiCA review",
+          "what": "Hyperliquid's policy group urged EU to regulate crypto perpetuals under standard derivatives rules. Circle pushed back on stablecoin reserve mandates, arguing they lock large stablecoins out of Europe.",
+          "coins": "General crypto, USDC",
+          "timeUTC": "2026-10-01 19:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-01",
+    "summary": "US spot Bitcoin ETFs recorded $149 million in net outflows on 1 October, ending a nine-day inflow streak that had accumulated $3 billion through 30 September.",
+    "source": "The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+  },
+  "calendarNotes": [
+    {
+      "event": "Eurozone Flash CPI October 2026 — Friday 2 October, 09:00 UTC",
+      "typicalReaction": "High-impact inflation release. Hot CPI favors EUR and bonds, cold CPI favors risk assets like crypto."
+    },
+    {
+      "event": "US Non-Farm Payrolls October 2026 — Friday 2 October, 12:30 UTC",
+      "typicalReaction": "This strongly moves crypto. Weak jobs data suggests the Fed will pause rate hikes, typically boosting Bitcoin and altcoins. Strong jobs data suggests higher rates ahead, typically hurting risk assets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "BTC dominance",
+      "definition": "Bitcoin's percentage share of the total crypto market cap. High dominance means Bitcoin is outperforming altcoins; low dominance means altcoins are gaining."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment gauge from 0 (extreme fear) to 100 (extreme greed) based on market volatility, volume, and momentum. Values above 70 suggest euphoria; below 30 suggest panic."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders in perpetual futures. When positive, long traders (betting prices rise) pay short traders; when negative, shorts pay longs. High rates signal strong conviction among the majority."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The count of traders betting prices will rise (longs) divided by those betting prices will fall (shorts). Above 1.0 means more longs; below 1.0 means more shorts."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of all assets in the market that rose during the reporting period. High breadth (70%+ up) signals a healthy rally; low breadth (below 40% up) signals weakness despite big-name coins gaining."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value of all unfilled futures contracts across a market. Rising open interest means traders are opening new positions; falling open interest means they are closing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "Whether open interest grew or shrank during the reporting period, expressed as a percentage. Growth signals new capital entering; decline signals capital exiting."
+    },
+    {
+      "term": "Perpetuals (perps)",
+      "definition": "Leveraged futures contracts with no expiration date. Unlike traditional futures, traders can hold them indefinitely and receive or pay funding rates instead of settling at a maturity date."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to maintain a fixed price, typically $1.00 per unit. Examples: USDC, USDT. They allow traders to exit risky positions without selling to traditional currency."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of which side is aggressively buying or selling. Ratios above 1.0 indicate more aggressive buying; below 1.0 indicate more aggressive selling."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long-to-short bias among the largest traders (whales), separate from the broader market. Shows what the biggest money is betting."
+    },
+    {
+      "term": "Zero-knowledge proof",
+      "definition": "A cryptographic method that proves a fact is true without revealing the underlying details. Enables privacy in transactions and data queries."
+    }
+  ],
+  "_source": "cli"
+}

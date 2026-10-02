@@ -6,7 +6,7 @@
   "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
   "newsCount": 0,
   "macro": {
-    "BTC": 1.5050287270369085,
+    "BTC": 1.4719988900504162,
     "ETH": 0.7610043916993469
   },
   "topMover": {
@@ -20,14 +20,14 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "02 Oct 21:00 UTC",
+  "generatedAtUTC": "02 Oct 22:00 UTC",
   "languages": [
-    "en"
+    "en",
+    "tr",
+    "zh"
   ],
   "status": "degraded",
   "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
-    "zh report unavailable"
+    "narrative fell back to data-only"
   ]
 }

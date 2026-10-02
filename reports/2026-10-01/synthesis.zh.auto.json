@@ -1,33 +1,140 @@
 {
-  "oneLine": "市场数据来自5个交易所；本次未能进行新闻综合分析。",
-  "caveman": "",
-  "priceVolumeSummary": "请查看下方的交易所表格。(本次自动生成的分析说明不可用 — 仅显示数据。)",
-  "positioningSummary": "请查看下方的持仓表格。",
-  "stocksSummary": "",
+  "oneLine": "10月1日周四，比特币和以太坊分别上涨约1.5%和0.7%，交易相对平稳，但只有36%的小币种上涨，整体市场呈现混合信号。",
+  "caveman": "10月1日周四，比特币涨了1.5%，以太坊涨了0.7%。联邦储备委员会有个人在UTC下午2点发表了演讲，债券价格（美联储控制的）波动不定，所以交易员们搞不清下一步会怎样。大多数其他加密货币的表现不如比特币——只有大约三分之一上涨，三分之二下跌。少数几个非常小的币莫名其妙地暴涨。总的来说这是很普通的一天，信号混合——不平静也不令人担忧。",
+  "priceVolumeSummary": "比特币和以太坊价格在五个主要交易所（币安、Bybit、OKX、Bitget、Gate）高度一致，比特币收盘价在$84,829至$84,838之间，以太坊为$2,705。币安以24小时永续交易成交量$12.0亿领先，其次是OKX的$6.9亿和Bybit的$5.3亿。",
+  "positioningSummary": "交易员呈现中等看涨情绪：比特币资金费率为年化7.55%（多头支付空头），未平仓头寸增长3.1%，显示新资金进入。最大的比特币交易员看多比例为2.1:1，所有交易员总体看多比例为1.3:1。以太坊中最大交易员的看多偏好更强（1.67:1），所有交易员的看多偏好为2.7:1，但资金费率接近中性，年化0.32%，显示信心不足。吃单买卖比在比特币上平衡（1.0:1），但在以太坊上略偏向卖方（0.964）。市场广度表现疲弱，尽管主流币有涨幅：币安永续合约中仅36%上涨。",
+  "stocksSummary": "香港和中国交易所因国庆休市。韩国市场活跃且多数上涨：Samsung Electronics上涨2.46%，SK Hynix上涨1.08%，KOSPI 200指数上涨2.33%，可能受到科技乐观情绪提振。大宗商品走弱：WTI原油跌2.13%，黄金跌0.84%，白银跌0.97%，但天然气上涨2.53%。",
   "movers": [
     {
       "symbol": "龙虾USDT",
-      "explanation": "本次未生成分析说明。",
+      "explanation": "这个超小盘代币暴涨207%，日内从$0.032波动至$0.114，成交量$5.2亿。极端波动和缺乏新闻报道表明这是零售投机，没有明确催化剂。",
       "hasCause": false
     },
     {
       "symbol": "GTCUSDT",
-      "explanation": "本次未生成分析说明。",
+      "explanation": "在$6,100万成交量上上涨53%。这个小盘资产获得的主流关注有限，没有可识别的新闻驱动因素。",
       "hasCause": false
     },
     {
       "symbol": "MOVRUSDT",
-      "explanation": "本次未生成分析说明。",
+      "explanation": "Moonriver代币在$15亿成交量上涨33%。虽然成交量很大，但没有公开新闻解释这一波动。",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "美国证券交易委员会提议允许投资顾问和基金自我托管加密资产的框架",
+        "what": "美国证券交易委员会提议新规则，允许注册投资顾问和基金直接持有加密资产或通过州信托公司作为托管人。这通过消除之前强制大型资产管理公司依赖第三方的托管要求，消除了机构采用的关键障碍。",
+        "coins": "BTC, ETH (institutional)",
+        "timeUTC": "2026-10-01 16:16 UTC",
+        "source": "SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+      },
+      {
+        "headline": "Hyperliquid和Circle在MiCA审查中向欧盟游说永续合约和稳定币规则",
+        "what": "Hyperliquid政策团队敦促欧盟委员会在MiFID II（传统衍生品的标准框架）下监管加密货币永续合约，主张这将澄清规则并允许更大的市场。同时，Circle（USDC发行者）反对MiCA对稳定币储备的强制银行存款要求，主张这会将大型稳定币挡在欧洲之外。",
+        "coins": "General crypto, USDC",
+        "timeUTC": "2026-10-01 19:03 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+      },
+      {
+        "headline": "以太坊基金会推出用于私密AI模型查询的zkAPI",
+        "what": "以太坊基础设施现在允许用户预付USDC并通过零知识证明查询AI模型，意味着服务提供商无法看到用户是谁或其询问的是什么。这是建立在以太坊上的隐私基础设施的技术里程碑。",
+        "coins": "ETH, USDC",
+        "timeUTC": "2026-10-01 21:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国证券交易委员会提议允许投资顾问和基金自我托管加密资产的框架",
+          "what": "美国证券交易委员会提议新规则，允许注册投资顾问和基金直接持有加密资产或通过州信托公司作为托管人，消除了机构采用的关键障碍。",
+          "coins": "BTC, ETH (institutional)",
+          "timeUTC": "2026-10-01 16:16 UTC",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal"
+        },
+        {
+          "headline": "Hyperliquid和Circle在MiCA审查中向欧盟游说永续合约和稳定币规则",
+          "what": "Hyperliquid政策团队敦促欧盟在标准衍生品规则下监管加密货币永续合约。Circle反对稳定币储备的强制银行存款要求，主张这会将大型稳定币挡在欧洲之外。",
+          "coins": "General crypto, USDC",
+          "timeUTC": "2026-10-01 19:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-10-01",
+    "summary": "美国现货比特币ETF在10月1日出现$1.49亿净流出，结束了9天的连续流入态势，该期间累计流入$30亿。",
+    "source": "The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
+  },
+  "calendarNotes": [
+    {
+      "event": "Eurozone Flash CPI October 2026 — Friday 2 October, 09:00 UTC",
+      "typicalReaction": "高影响力的通胀数据发布。高于预期的CPI有利于欧元和债券，低于预期的CPI有利于加密资产等风险资产。"
+    },
+    {
+      "event": "US Non-Farm Payrolls October 2026 — Friday 2 October, 12:30 UTC",
+      "typicalReaction": "这对加密资产影响很大。弱于预期的就业数据表明美联储将暂停加息，通常会推高比特币和小币种。强于预期的就业数据表明未来利率将上升，通常会打击风险资产。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "比特币主导力",
+      "definition": "比特币占整个加密市场总市值的百分比。高主导力意味着比特币表现优于小币种；低主导力意味着小币种在上升。"
+    },
+    {
+      "term": "恐惧和贪婪指数",
+      "definition": "基于市场波动性、成交量和动量的情绪指标，范围从0（极度恐惧）到100（极度贪婪）。高于70表示亢奋，低于30表示恐慌。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续期货中交易员之间的周期性支付。当为正时，多头交易员（押注价格上升）支付给空头；当为负时，空头支付给多头。高费率表示多数人信心强劲。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升的交易员（多头）数量除以押注价格下跌的交易员（空头）数量。高于1.0表示多头居多；低于1.0表示空头居多。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "报告期间市场中上涨资产的百分比。高广度（70%以上上涨）表示健康的反弹；低广度（低于40%上涨）表示尽管主流币有涨幅但市场疲弱。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "市场中所有未平仓期货合约的总美元价值。未平仓头寸上升意味着交易员在开仓；未平仓头寸下降意味着他们在平仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "报告期间未平仓头寸是增长还是下降，以百分比表示。增长表示新资本进入；下降表示资本退出。"
+    },
+    {
+      "term": "永续合约（永续）",
+      "definition": "没有到期日期的杠杆期货合约。与传统期货不同，交易员可以无限期持有它们，并接收或支付资金费率，而不是在到期日结算。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "设计用来维持固定价格的加密货币，通常为每单位$1.00。例子：USDC、USDT。它们允许交易员退出风险头寸而无需兑换传统货币。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "衡量哪一方在积极买卖的指标。高于1.0表示买方更积极；低于1.0表示卖方更积极。"
+    },
+    {
+      "term": "头部头寸比",
+      "definition": "最大交易员（鲸鱼）中的多空偏好，独立于整体市场。显示最大资金的押注方向。"
+    },
+    {
+      "term": "零知识证明",
+      "definition": "密码学方法，证明一个事实为真而不泄露底层细节。在交易和数据查询中实现隐私保护。"
+    }
+  ],
   "_source": "cli-zh",
   "_from": "e45e2080c50803fb"
 }

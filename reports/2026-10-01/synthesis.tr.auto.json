@@ -1,23 +1,23 @@
 {
-  "oneLine": "5 borsadan toplanan pazar verileri; bu çalışma için haber sentezi mevcut değildi.",
+  "oneLine": "Pazar verileri 5 platformdan toplanmıştır; bu çalıştırmada haber sentezi mevcut değildir.",
   "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsalar tablosuna bakın. (Bu çalışma için otomatik açıklama mevcut değil — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki pozisyonlandırma tablosuna bakın.",
+  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Bu çalıştırmada otomatik açıklama mevcut değildir — rakamlar doğrudan gösterilmektedir.)",
+  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakınız.",
   "stocksSummary": "",
   "movers": [
     {
       "symbol": "龙虾USDT",
-      "explanation": "Bu çalışma için açıklama mevcut değil.",
+      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
       "hasCause": false
     },
     {
       "symbol": "GTCUSDT",
-      "explanation": "Bu çalışma için açıklama mevcut değil.",
+      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
       "hasCause": false
     },
     {
       "symbol": "MOVRUSDT",
-      "explanation": "Bu çalışma için açıklama mevcut değil.",
+      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
       "hasCause": false
     }
   ],

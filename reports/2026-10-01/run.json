@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-02T20:00:02.676Z",
+  "runId": "2026-10-02T21:00:02.928Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-02T20:00:02.676Z",
+  "startedAt": "2026-10-02T21:00:02.928Z",
   "status": "degraded",
-  "finishedAt": "2026-10-02T20:00:54.476Z",
-  "durationSec": 52,
+  "finishedAt": "2026-10-02T21:00:44.063Z",
+  "durationSec": 41,
   "date": "2026-10-01",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1790899199999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "20:00 UTC"
+    "asOfUTC": "21:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -55,12 +55,16 @@
         "Cointelegraph",
         "CryptoSlate",
         "Decrypt",
-        "SEC",
         "Federal Reserve",
         "CFTC"
       ],
-      "failed": [],
-      "count": 55,
+      "failed": [
+        {
+          "source": "SEC",
+          "err": "TypeError: fetch failed"
+        }
+      ],
+      "count": 54,
       "backfill": false
     },
     "tradfi": {
