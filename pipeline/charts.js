@@ -42,6 +42,16 @@ function fmtHour(ts) {
   return String(d.getUTCHours()).padStart(2, "0") + ":00";
 }
 
+// Hour labels along the bottom: the first and last are anchored inward so
+// "00:00" and "20:00" are never clipped at the chart edge.
+function hourLabels(hours, x, y, w) {
+  return hours.map((t) => {
+    const px = x(t);
+    const anchor = px < 18 ? "start" : px > w - 18 ? "end" : "middle";
+    return `<text x="${px.toFixed(1)}" y="${y.toFixed(1)}" fill="var(--muted)" font-size="8" text-anchor="${anchor}">${fmtHour(t)}</text>`;
+  }).join("");
+}
+
 function fmtDate(ts) {
   const d = new Date(ts);
   return String(d.getUTCMonth() + 1) + "/" + String(d.getUTCDate());
@@ -87,9 +97,7 @@ export function intradayPriceChart(data, { w = 520, h = 180, label = "BTC", colo
 
   // X-axis labels (hours)
   const hours = [0, 4, 8, 12, 16, 20].map((hr) => tMin + hr * 3600000).filter((t) => t <= tMax);
-  const xLabels = hours.map((t) =>
-    `<text x="${x(t).toFixed(1)}" y="${(h - 4).toFixed(1)}" fill="var(--muted)" font-size="8" text-anchor="middle">${fmtHour(t)}</text>`
-  ).join("");
+  const xLabels = hourLabels(hours, x, h - 4, w);
 
   const open = data[0].close, close = data[data.length - 1].close;
   const chg = open ? ((close - open) / open * 100) : 0;
@@ -97,8 +105,7 @@ export function intradayPriceChart(data, { w = 520, h = 180, label = "BTC", colo
   const chgStr = (chg >= 0 ? "+" : "") + chg.toFixed(2) + "%";
 
   return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${w}px;font-family:'SF Mono',Consolas,monospace;">
-    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)}</text>
-    <text x="${pad.left + 30}" y="14" fill="${chgColor}" font-size="9" font-weight="600">${chgStr}</text>
+    <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)}<tspan dx="8" fill="${chgColor}" font-size="9" font-weight="600">${chgStr}</tspan></text>
     ${yLabels}${xLabels}
     ${volBars.join("")}
     <path d="${areaPath}" fill="${color}" opacity="0.06"/>
@@ -148,9 +155,7 @@ export function intradayOiChart(metrics, { w = 520, h = 140, label = "BTC", titl
 
   // X-axis
   const hours = [0, 4, 8, 12, 16, 20].map((hr) => tMin + hr * 3600000).filter((t) => t <= tMax);
-  const xLabels = hours.map((t) =>
-    `<text x="${x(t).toFixed(1)}" y="${(h - 4).toFixed(1)}" fill="var(--muted)" font-size="8" text-anchor="middle">${fmtHour(t)}</text>`
-  ).join("");
+  const xLabels = hourLabels(hours, x, h - 4, w);
 
   return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${w}px;font-family:'SF Mono',Consolas,monospace;">
     <text x="${pad.left}" y="14" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(label)} — ${esc(titleOi)}</text>
@@ -293,50 +298,51 @@ export function volumeProfile(data, { w = 520, h = 120, label = "BTC", color = "
   </svg>`;
 }
 
-// Movers quadrant scatter chart — x=log(volume), y=change%.
-// movers: [{symbol, chgPct, volUSD}]
-export function moversQuadrant(movers, { w = 520, h = 200, title = "Movers — Change vs Volume" } = {}) {
-  if (!movers || movers.length < 1) return "";
-  const pad = { top: 20, right: 14, bottom: 28, left: 50 };
-  const cw = w - pad.left - pad.right;
-  const ch = h - pad.top - pad.bottom;
+// Movers bar chart: one row per coin with a bar for its 24h change, the change
+// as a number and the day's trading volume. Rows marked `thin` are the
+// newly listed / low-liquidity movers.
+// movers: [{symbol, chgPct, volUSD, thin?}]
+export function moversBars(movers, { w = 520, title = "Biggest movers", note = "", thinTag = "low liquidity", volLabel = "vol" } = {}) {
+  const rows = (movers || []).filter((m) => m && m.chgPct != null && isFinite(m.chgPct));
+  if (rows.length < 1) return "";
+  const seen = new Set();
+  const list = rows.filter((m) => (seen.has(m.symbol) ? false : seen.add(m.symbol)))
+    .sort((a, b) => b.chgPct - a.chgPct).slice(0, 12);
 
-  const withData = movers.filter((m) => m.chgPct != null && m.volUSD > 0);
-  if (!withData.length) return "";
+  const rowH = 22, top = note ? 40 : 26;
+  const nameW = 112, pctW = 64, volW = 112;
+  const barX = nameW, barW = w - nameW - pctW - volW;
+  const h = top + list.length * rowH + 8;
+  const maxUp = Math.max(0, ...list.map((m) => m.chgPct));
+  const maxDown = Math.max(0, ...list.map((m) => -m.chgPct));
+  const span = maxUp + maxDown || 1;
+  const zeroX = barX + (maxDown / span) * barW;
+  const scale = barW / span;
+  const name = (sym) => String(sym || "").replace(/USDT$|USDC$/, "");
+  const vol = (v) => (v != null && isFinite(v) && v > 0 ? `$${fmtK(v)} ${volLabel}` : "—");
 
-  const logVols = withData.map((m) => Math.log10(m.volUSD));
-  const [vMin, vMax] = [Math.min(...logVols), Math.max(...logVols)];
-  const chgs = withData.map((m) => m.chgPct);
-  const cMax = Math.max(Math.abs(Math.min(...chgs)), Math.abs(Math.max(...chgs)), 2);
-
-  const x = (lv) => pad.left + ((lv - vMin) / (vMax - vMin || 1)) * cw;
-  const y = (c) => pad.top + (1 - (c + cMax) / (2 * cMax)) * ch;
-  const zeroY = y(0);
-
-  // Zero line
-  let svg = `<line x1="${pad.left}" x2="${w - pad.right}" y1="${zeroY.toFixed(1)}" y2="${zeroY.toFixed(1)}" stroke="var(--line)" stroke-width="0.5" stroke-dasharray="3,3"/>`;
-
-  // Y-axis labels
-  const yVals = niceAxis(-cMax, cMax, 5);
-  svg += yVals.map((v) =>
-    `<text x="${pad.left - 4}" y="${y(v).toFixed(1)}" fill="var(--muted)" font-size="7.5" text-anchor="end" dominant-baseline="middle">${v > 0 ? "+" : ""}${v.toFixed(1)}%</text>`
-  ).join("");
-
-  // X-axis label
-  svg += `<text x="${pad.left + cw / 2}" y="${h - 4}" fill="var(--muted)" font-size="7.5" text-anchor="middle">Volume →</text>`;
-
-  // Dots with labels
-  for (const m of withData) {
-    const lv = Math.log10(m.volUSD);
-    const cx = x(lv), cy = y(m.chgPct);
-    const col = m.chgPct >= 0 ? "var(--pos)" : "var(--neg)";
-    const r = Math.min(6, Math.max(3, Math.sqrt(m.volUSD / 1e8)));
-    svg += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${r.toFixed(1)}" fill="${col}" opacity="0.7"/>`;
-    svg += `<text x="${(cx + r + 2).toFixed(1)}" y="${(cy - 2).toFixed(1)}" fill="var(--ink)" font-size="7.5" font-weight="600">${esc(m.symbol?.replace(/USDT$/, ""))}</text>`;
+  let svg = "";
+  list.forEach((m, i) => {
+    const y = top + i * rowH;
+    const cy = y + rowH / 2;
+    const up = m.chgPct >= 0;
+    const len = Math.max(1.5, Math.abs(m.chgPct) * scale);
+    const bx = up ? zeroX : zeroX - len;
+    const col = up ? "var(--pos)" : "var(--neg)";
+    if (i % 2 === 0) svg += `<rect x="0" y="${y}" width="${w}" height="${rowH}" fill="var(--card)" opacity="0.6"/>`;
+    svg += `<text x="6" y="${cy.toFixed(1)}" fill="var(--ink)" font-size="9.5" font-weight="700" dominant-baseline="middle">${esc(name(m.symbol))}` +
+      (m.thin ? `<tspan dx="5" fill="var(--amb)" font-size="7.5" font-weight="600">${esc(thinTag)}</tspan>` : "") + `</text>`;
+    svg += `<rect x="${bx.toFixed(1)}" y="${(cy - 6).toFixed(1)}" width="${len.toFixed(1)}" height="12" rx="3" fill="${col}" opacity="0.75"/>`;
+    svg += `<text x="${(barX + barW + 8).toFixed(1)}" y="${cy.toFixed(1)}" fill="${col}" font-size="9.5" font-weight="700" dominant-baseline="middle">${up ? "+" : ""}${m.chgPct.toFixed(1)}%</text>`;
+    svg += `<text x="${w - 6}" y="${cy.toFixed(1)}" fill="var(--muted)" font-size="9" text-anchor="end" dominant-baseline="middle">${vol(m.volUSD)}</text>`;
+  });
+  if (maxDown > 0 && maxUp > 0) {
+    svg += `<line x1="${zeroX.toFixed(1)}" x2="${zeroX.toFixed(1)}" y1="${top - 2}" y2="${h - 6}" stroke="var(--line)" stroke-width="1"/>`;
   }
 
   return `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:${w}px;font-family:'SF Mono',Consolas,monospace;">
-    <text x="${pad.left}" y="13" fill="var(--ink)" font-size="10" font-weight="700" font-family="inherit">${esc(title)}</text>
+    <text x="6" y="14" fill="var(--ink)" font-size="10.5" font-weight="700" font-family="inherit">${esc(title)}</text>
+    ${note ? `<text x="6" y="29" fill="var(--muted)" font-size="8.5" font-family="inherit">${esc(note)}</text>` : ""}
     ${svg}
   </svg>`;
 }

@@ -11,7 +11,7 @@ import { renderPdf } from "../src/pdf.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { intradayPriceChart, intradayOiChart, trendChart, moversQuadrant, fundingHeatmap, volumeProfile } from "./charts.js";
+import { intradayPriceChart, intradayOiChart, trendChart, moversBars, fundingHeatmap, volumeProfile } from "./charts.js";
 
 // --- report ownership badge (top-right of every page) ---
 const AVATAR_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "assets", "avatars");
@@ -189,12 +189,12 @@ const STYLE = `
   .caveman-box p{font-size:18px;line-height:1.62;color:#4a3823;margin:0;font-weight:500;}
   @media screen{ .caveman-btn{font-size:14px;} .caveman-box p{font-size:20px;} }
   @media print{ .caveman-btn{display:none;} details.caveman > .caveman-box{display:block;} }
-  .owners{margin-left:auto;display:flex;flex-direction:column;gap:2px;align-items:flex-end;flex-shrink:0;}
-  .owner{display:flex;align-items:center;gap:5px;}
-  .owner .av{width:20px;height:20px;border-radius:50%;object-fit:cover;border:1px solid var(--accent-line);background:var(--card);}
+  .owners{margin-left:auto;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;gap:8px;align-items:center;flex-shrink:0;}
+  .owner{display:flex;align-items:center;gap:7px;padding:3px 12px 3px 3px;border:1px solid var(--line);border-radius:999px;background:var(--card);}
+  .owner .av{width:28px;height:28px;border-radius:50%;object-fit:cover;border:1px solid var(--accent-line);background:var(--card);}
   .owner .av-ini{display:inline-flex;align-items:center;justify-content:center;font-size:8px;font-weight:800;color:#fff;background:var(--accent);letter-spacing:.02em;}
-  .owner .onm{font-size:8.5px;font-weight:700;color:var(--muted);white-space:nowrap;letter-spacing:.01em;}
-  @media screen{ .owner .av{width:24px;height:24px;} .owner .onm{font-size:10px;} }
+  .owner .onm{font-size:10px;font-weight:650;color:var(--ink2);white-space:nowrap;letter-spacing:.01em;}
+  @media screen{ .owner .av{width:34px;height:34px;} .owner .onm{font-size:12.5px;} }
   .owners-print{display:none;}
   @media print{ .owners{display:none !important;} .owners-print{position:fixed;top:4mm;right:7mm;display:flex;flex-direction:column;gap:2px;align-items:flex-end;} .owners-print .owner{display:flex;align-items:center;gap:4px;} .owners-print .av{width:16px;height:16px;border-radius:50%;object-fit:cover;border:1px solid var(--accent-line);} .owners-print .av-ini{display:inline-flex;align-items:center;justify-content:center;font-size:7px;font-weight:800;color:#fff;background:var(--accent);width:16px;height:16px;border-radius:50%;} .owners-print .onm{font-size:7.5px;font-weight:700;color:var(--muted);white-space:nowrap;} }
 `;
@@ -224,7 +224,7 @@ const LABELS = {
     gloss: ["07 · Glossary", "Every term used today, in plain words", ""],
     col: { venue: "Venue", last: "Close", chg: "Change", high: "High", low: "Low", vol: "Volume", funding: "Funding (ann.)", oi: "Open interest", oiChg: "OI change", ls: "Long/short", topLs: "Top L/S", taker: "Taker B/S", mark: "Mark", stock: "Stock", commodity: "Commodity", market: "Market", session: "Session", actual: "Actual", fc: "Forecast", prev: "Previous", time: "Time", event: "Event", note: "Note" },
     h3: { btcP: "Bitcoin (BTC perpetual)", ethP: "Ethereum (ETH perpetual)", btc: "Bitcoin", eth: "Ethereum", usMov: "United States — biggest movers", usVol: "United States — most traded", comm: "Commodities", tradfi: "Traditional markets", top3: "The three that mattered most", etf: "ETF flows", reportDay: "On the report day", next24h: "Next 24 hours", rest: "Rest of the week", lowLiq: "Newly listed / low-liquidity movers" },
-    chart: { oi: "Open Interest", funding: "Funding Rate (annualised)", hourlyVol: "Hourly Volume", moversQuad: "Movers — Change vs Volume", takerBs: "Taker B/S" },
+    chart: { oi: "Open Interest", funding: "Funding Rate (annualised)", hourlyVol: "Hourly Volume", moversQuad: "Biggest movers — 24h change and trading volume", moversNote: "Low volume means a few trades can move the price a lot.", thinTag: "low liquidity", takerBs: "Taker B/S" },
     mkt: { KR_EQUITY: "Korea", HK_EQUITY: "Hong Kong", CN_EQUITY: "China", EQUITY: "US", COMMODITY: "Commodities", PREMARKET: "Pre-market" },
     grp: ["Regulation and policy", "Institutional flows and ETFs", "Exchange and platform changes", "Hacks, exploits and outages", "Traditional markets", "Unconfirmed and watch items"],
     sess: { weekend: "weekend — no cash session", holiday: (n) => `market closed (${n})`, closedGeneric: "cash market was closed — the perp figures are drift only" },
@@ -259,7 +259,7 @@ const LABELS = {
     gloss: ["07 · Sözlük", "Bugün kullanılan her terim, sade bir dille", ""],
     col: { venue: "Borsa", last: "Kapanış", chg: "Değişim", high: "Yüksek", low: "Düşük", vol: "Hacim", funding: "Fonlama (yıllık)", oi: "Açık pozisyon", oiChg: "OI değişimi", ls: "Long/short", topLs: "Üst L/S", taker: "Alıcı B/S", mark: "Mark", stock: "Hisse", commodity: "Emtia", market: "Piyasa", session: "Seans", actual: "Gerçekleşen", fc: "Beklenti", prev: "Önceki", time: "Saat", event: "Olay", note: "Not" },
     h3: { btcP: "Bitcoin (BTC vadeli)", ethP: "Ethereum (ETH vadeli)", btc: "Bitcoin", eth: "Ethereum", usMov: "ABD — en çok hareket edenler", usVol: "ABD — en çok işlem görenler", comm: "Emtialar", tradfi: "Geleneksel piyasalar", top3: "En önemli üç haber", etf: "ETF para akışları", reportDay: "Rapor gününde", next24h: "Önümüzdeki 24 saat", rest: "Haftanın geri kalanı", lowLiq: "Yeni listelenen / düşük likiditeli hareketler" },
-    chart: { oi: "Açık Pozisyon", funding: "Fonlama Oranı (yıllık)", hourlyVol: "Saatlik Hacim", moversQuad: "Hareketler — Değişim / Hacim", takerBs: "Alıcı B/S" },
+    chart: { oi: "Açık Pozisyon", funding: "Fonlama Oranı (yıllık)", hourlyVol: "Saatlik Hacim", moversQuad: "En çok hareket edenler — 24 saatlik değişim ve işlem hacmi", moversNote: "Hacim düşükse birkaç işlem fiyatı çok oynatabilir.", thinTag: "düşük likidite", takerBs: "Alıcı B/S" },
     mkt: { KR_EQUITY: "Kore", HK_EQUITY: "Hong Kong", CN_EQUITY: "Çin", EQUITY: "ABD", COMMODITY: "Emtialar", PREMARKET: "Halka arz öncesi" },
     grp: ["Düzenleme ve politika", "Kurumsal akışlar ve ETF'ler", "Borsa ve platform değişiklikleri", "Saldırılar, açıklar ve kesintiler", "Geleneksel piyasalar", "Teyit edilmemiş ve izlenecekler"],
     sess: { weekend: "hafta sonu — nakit seans yok", holiday: (n) => `piyasa kapalı (${n})`, closedGeneric: "nakit piyasa kapalıydı — vadeli rakamlar yalnızca sürüklenmedir" },
@@ -294,7 +294,7 @@ const LABELS = {
     gloss: ["07 · 术语表", "今天用到的每个术语,用大白话解释", ""],
     col: { venue: "交易所", last: "收盘", chg: "涨跌", high: "最高", low: "最低", vol: "成交量", funding: "资金费率(年化)", oi: "未平仓量", oiChg: "OI 变化", ls: "多空比", topLs: "大户多空", taker: "主买/主卖", mark: "标记价", stock: "股票", commodity: "商品", market: "市场", session: "交易时段", actual: "实际值", fc: "预期", prev: "前值", time: "时间", event: "事件", note: "备注" },
     h3: { btcP: "比特币(BTC 永续)", ethP: "以太坊(ETH 永续)", btc: "比特币", eth: "以太坊", usMov: "美国 — 涨跌最大", usVol: "美国 — 成交最活跃", comm: "商品", tradfi: "传统市场", top3: "最重要的三条", etf: "ETF 资金流", reportDay: "报告当日", next24h: "未来 24 小时", rest: "本周剩余日程", lowLiq: "新上市 / 低流动性波动" },
-    chart: { oi: "未平仓量", funding: "资金费率(年化)", hourlyVol: "每小时成交量", moversQuad: "波动 — 涨跌 / 成交量", takerBs: "主买/主卖" },
+    chart: { oi: "未平仓量", funding: "资金费率(年化)", hourlyVol: "每小时成交量", moversQuad: "涨跌最大的合约 — 24 小时涨跌幅与成交额", moversNote: "成交额低意味着少量交易就能大幅推动价格。", thinTag: "低流动性", takerBs: "主买/主卖" },
     mkt: { KR_EQUITY: "韩国", HK_EQUITY: "香港", CN_EQUITY: "中国", EQUITY: "美国", COMMODITY: "商品", PREMARKET: "上市前" },
     grp: ["监管与政策", "机构资金与 ETF", "交易所与平台变动", "攻击、漏洞与宕机", "传统市场", "未证实与待观察"],
     sess: { weekend: "周末 — 无现货交易", holiday: (n) => `市场休市(${n})`, closedGeneric: "现货市场休市 — 永续数据仅为漂移" },
@@ -481,9 +481,9 @@ export function buildReportHtml(pack, synth, lang = "en", health = null) {
   const lowLiq = pack.exchanges?.lowLiqMovers || [];
   const lowLiqBody = lowLiq.length
     ? `<h3>${esc(L.h3.lowLiq)}</h3><p class="foot-note">${lowLiq.map((m) => `${esc(m.symbol)} ${sgn(m.chgPct, 1)}`).join(" · ")}</p>` : "";
-  // D4: movers quadrant chart
-  const allMovers = [...movers, ...lowLiq];
-  const quadrantChart = allMovers.length >= 2 ? moversQuadrant(allMovers, { title: CL.moversQuad }) : "";
+  // D4: movers bar chart (one readable row per coin; low-liquidity ones tagged)
+  const allMovers = [...movers, ...lowLiq.map((m) => ({ ...m, thin: true }))];
+  const quadrantChart = allMovers.length >= 2 ? moversBars(allMovers, { title: CL.moversQuad, note: CL.moversNote, thinTag: CL.thinTag, volLabel: L.vol }) : "";
   const moversSection = section(L.movers, moversBody + lowLiqBody + (quadrantChart ? `<div class="chart-pair">${quadrantChart}</div>` : ""));
 
   const st = pack.stocks || {};
