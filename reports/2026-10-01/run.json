@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-02T22:00:02.639Z",
+  "runId": "2026-10-02T22:12:56.484Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-02T22:00:02.639Z",
-  "status": "degraded",
-  "finishedAt": "2026-10-02T22:09:17.362Z",
-  "durationSec": 555,
+  "startedAt": "2026-10-02T22:12:56.484Z",
+  "status": "ok",
+  "finishedAt": "2026-10-02T22:21:50.996Z",
+  "durationSec": 534,
   "date": "2026-10-01",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1790899199999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "22:00 UTC"
+    "asOfUTC": "22:12 UTC"
   },
   "sources": {
     "exchanges": {
@@ -81,10 +81,10 @@
     "backfill": null
   },
   "synthesis": {
-    "source": "data-only",
-    "fellBack": true,
-    "cliOnly": false,
-    "errorKind": "consistency"
+    "source": "cli",
+    "fellBack": false,
+    "cliOnly": true,
+    "errorKind": null
   },
   "languages": [
     "en",
@@ -100,7 +100,5 @@
     "pushed": true,
     "branch": "main"
   },
-  "reasons": [
-    "narrative fell back to data-only"
-  ]
+  "reasons": []
 }

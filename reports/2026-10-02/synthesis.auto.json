@@ -1,0 +1,187 @@
+{
+  "oneLine": "Weak U.S. jobs data (29,000 added vs. 90,000 forecast) triggered a sharp relief rally that pushed Bitcoin intraday to $87,200, but gains faded as Treasury yields recovered, leaving both Bitcoin and Ethereum down modestly on the day.",
+  "caveman": "On October 2nd, the U.S. government announced how many new jobs were created in September—and the number was much smaller than everyone expected. Instead of 90,000 new jobs, there were only 29,000. This is a big deal because when job growth is weak, people think the Federal Reserve (America's central bank) might not raise interest rates as fast. Bitcoin and other cryptocurrencies usually go up when interest rates go down or stop rising, because that makes borrowed money cheaper and makes Bitcoin a more attractive investment. At first, Bitcoin jumped up to $87,000, which was exciting. But by the end of the day, other things pushed the price back down, and Bitcoin actually finished the day lower than it started. Ethereum also went down. Meanwhile, a major crypto platform called Blast announced it's shutting down after costs got too high. It was a mixed day—exciting news for crypto's interest-rate picture, but not a winning day for prices.",
+  "priceVolumeSummary": "Bitcoin ranged $83,850–$87,249 and closed at $84,487, down 0.41% across venues (tight price agreement within $50 across Binance, Bybit, OKX, Bitget, Gate). Ethereum closed at $2,667.28, down 1.40%. Binance led volume for both majors ($19.9B BTC, $12.5B ETH).",
+  "positioningSummary": "Futures positioning was bullish on paper but selling pressure emerged during the day. Bitcoin funding rates stayed positive (+5.01% annualized at Binance, +10.95% at Bitget/Bybit), and the top 1% of Bitcoin traders held 1.90× more long than short positions—strongly bullish. Ethereum's top traders favored longs at 1.50× ratio, with lower funding (+1.64% at Binance). However, open interest grew significantly (up $2.3 billion for Bitcoin), yet taker buy/sell ratios fell below 1 for both (0.983 BTC, 0.977 ETH), meaning aggressive sellers slightly outpaced aggressive buyers. Breadth deteriorated: only 44.3% of Binance perpetuals traded up on the day, a bearish signal that large traders built bullish leverage while most alts weakened.",
+  "stocksSummary": "Asian markets diverged sharply on October 2. South Korea's tech-heavy session opened strong: SK Hynix +1.79%, Samsung +2.815%, LG +1.97%—chip makers rallying on softer U.S. rate expectations from the weak jobs data. Hong Kong's session weakened: AI-focused stocks fell (Zhipu AI −3.36%, MiniMax −5.13%), and Xiaomi (1810) dropped 4.04%—likely Chinese tech weakness from National Day holiday closures (China's mainland markets were closed Oct 1–7 for holidays). U.S. equities rallied on the weak jobs print: S&P 500 +0.74%, Nasdaq +1.14% (tech outperformed on rate-cut hopes). Commodities declined: crude oil (WTI) −1.84%, gold −0.09%, silver −1.10%.",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Crashed 64.4% with $704M volume. No clear public cause identified; likely a dead or compromised token or project announcement.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "Surged 57.7% on $230M volume. No public announcement or news identified; cause unknown—may be a micro-cap momentum trade or exchange listing event not yet reported.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SANDUSDT",
+      "explanation": "Rose 52.6% on $821M volume. No linked news on the report day; move appears momentum-driven and unattached to identifiable catalyst.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "U.S. added just 29,000 jobs in September; unemployment ticks to 4.2%",
+        "what": "The U.S. employment report released at 12:30 UTC on October 2 showed only 29,000 jobs added in September—far below the 90,000 expected and previous 162,000. Unemployment rose to 4.2%. This weak labor data typically signals lower odds of Fed rate hikes, a tailwind for risk assets and crypto in the near term. Bond yields fell sharply on the news, and Bitcoin rallied intraday to $87,200 before fading.",
+        "coins": "Bitcoin, Ethereum (and broader risk assets)",
+        "timeUTC": "2026-10-02 12:30",
+        "source": "Trading Economics / Verified Investing",
+        "url": "https://tradingeconomics.com/united-states/non-farm-payrolls"
+      },
+      {
+        "headline": "Blast Ethereum layer-2 shuts down after costs exceed revenue; users have until Oct. 26 to withdraw",
+        "what": "Blast, once a $2.3B Ethereum layer-2 network backed by Paradigm, announced it is winding down operations because costs now exceed revenue with no viable path to economic sustainability. Users have until October 26 to withdraw assets through the normal Blast interface; after that, withdrawals are still possible via direct contract interaction on Ethereum L1. The move marks a pullback in layer-2 diversity as larger platforms like Coinbase and Robinhood build competing networks.",
+        "coins": "Ethereum ecosystem / Blast token holders",
+        "timeUTC": "2026-10-02",
+        "source": "KuCoin / CryptoSlate",
+        "url": "https://cryptoslate.com/blast-shuts-down-20m-layer-2-network-forcing-oct-26-exit-deadline/"
+      },
+      {
+        "headline": "Bitcoin clears $85,000 sell wall; traders position for $100,000 target as leverage builds",
+        "what": "Bitcoin cleared significant sell-side liquidity at $85,000 and briefly touched $87,200 during October 2 trading, buoyed by the weak jobs data. Open interest jumped $2.3 billion, and traders report shifting bets toward a $100,000 target. The accumulation pattern mirrors post-September rallies, suggesting renewed institutional appetite despite retail breadth weakness.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-10-02",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoins-85000-sell-wall-is-gone-and-traders-are-now-betting-on-100000/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Bank group sues OCC over crypto trust charters",
+          "what": "The Independent Community Bankers of America sued the Office of the Comptroller of the Currency, claiming the regulator overstepped its authority by granting crypto trust charters without congressional approval. The lawsuit could slow or block the OCC's ability to issue such charters.",
+          "coins": "Crypto custody and banking sector",
+          "timeUTC": "2026-10-02",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/02/bank-group-sues-u-s-regulator-over-granting-crypto-trust-charters"
+        },
+        {
+          "headline": "ECB outlines three models for putting central bank money onchain",
+          "what": "The European Central Bank published a framework exploring how to issue digital euros and settle transactions on blockchain. Three models ranged from full ECB issuance to allowing commercial banks to tokenize reserves—a signal of growing central bank interest in blockchain infrastructure.",
+          "coins": "Ethereum and onchain settlement infrastructure",
+          "timeUTC": "2026-10-02",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Blast shuts down $20M layer-2 network, forcing Oct. 26 exit deadline",
+          "what": "Blast confirmed shutdown with a structured exit deadline of October 26, 2026. Users must withdraw through the app interface by that date; the Blast Bridge contract on Ethereum L1 will remain functional for post-deadline withdrawals.",
+          "coins": "Ethereum layer-2 / Blast ecosystem",
+          "timeUTC": "2026-10-02",
+          "source": "Cryptonomist / CryptoSlate",
+          "url": "https://cryptoslate.com/blast-shuts-down-20m-layer-2-network-forcing-oct-26-exit-deadline/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Crypto hackers exploit third-party Aave tool, stealing ~114 ETH (~$300K)",
+          "what": "A third-party lending adapter built on top of Aave (not the core Aave protocol) was exploited to steal approximately 114 ETH, worth over $300,000 at the time. The core Aave protocol remained unaffected. Security firm SlowMist reported the incident on October 2.",
+          "coins": "Ethereum / Aave ecosystem",
+          "timeUTC": "2026-10-02",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-hackers-exploit-third-party-aave-tool-to-steal-114-eth/"
+        },
+        {
+          "headline": "Drift Protocol opens exploit recovery claims; initial payouts just over 1% of user losses",
+          "what": "Drift Protocol, a derivatives platform, began accepting recovery claims from users affected by a prior exploit. Early payouts totaled just over 1% of losses, with DFX token holders able to cash out or await additional funding with no firm timeline for full recovery.",
+          "coins": "Drift Protocol (DFX)",
+          "timeUTC": "2026-10-02",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-02-drift-opens-exploit-recovery-claims-initial-payouts-just-over-1-user-losses-417581"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin spot ETF sees $103M inflow on Oct. 2; September saw $2.65B total institutional inflows",
+          "what": "On October 2 specifically, U.S. spot Bitcoin ETFs recorded $103 million in net inflows (per SoSoValue/Farside Investors). For the full month of September, spot Bitcoin ETFs logged $2.65 billion—their second-largest monthly inflow since October 2025. Strong institutional demand persists despite market volatility, and Ethereum spot ETFs accumulated $766 million over the prior 30 days as of October 1.",
+          "coins": "Bitcoin, Ethereum (via ETF proxies)",
+          "timeUTC": "2026-10-02",
+          "source": "Farside Investors / SoSoValue / The Block",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "Bitcoin open interest jumps $2.3B; traders build bullish leverage on weak jobs data",
+          "what": "Perpetual futures open interest on Bitcoin rose $2.3 billion during October 2, signaling traders are deploying fresh leverage into bullish long positions. Rising open interest alongside positive funding rates indicates confidence in a near-term rally, though it also raises risk of sharp liquidations if sentiment reverses.",
+          "coins": "Bitcoin perpetuals",
+          "timeUTC": "2026-10-02",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Circle pushes back on MiCA stablecoin reserve rules; urges EU flexibility",
+          "what": "Circle (USDC issuer) filed comments to the European Commission's MiCA review, opposing mandatory bank-deposit minimums and requesting more flexible liquidity rules. Circle argues the current mandates keep large global stablecoins outside Europe's regulatory perimeter, limiting economic benefit.",
+          "coins": "USDC, euro stablecoins",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379984/circle-pushes-back-on-micas-bank-deposit-mandate-for-stablecoins"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-02",
+    "summary": "U.S. spot Bitcoin ETFs recorded $103 million in net inflows on October 2 (per Farside Investors and SoSoValue). For September overall, spot Bitcoin ETFs saw $2.65 billion in inflows—the second-largest monthly inflow since October 2025. Ethereum spot ETFs accumulated $766 million in net inflows over the 30 days prior to October 1.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Non-Farm Employment Change (NFP) September actual: 29,000 (forecast 90,000, previous 162,000); Unemployment rate rose to 4.2%; average hourly earnings +3.0% year-over-year",
+      "typicalReaction": "Weak employment data typically reduces odds of Fed rate hikes or accelerates rate-cut bets. This usually triggers a rally in risk assets (stocks and crypto) due to lower borrowing costs and weaker dollar. Bitcoin briefly rallied to $87,200 intraday but closed lower as yields recovered partway, signaling that the relief move was front-run by traders."
+    },
+    {
+      "event": "Eurozone Flash CPI October 2026 released at 09:00 UTC (result not yet available in data)",
+      "typicalReaction": "Inflation surprises can shift Fed expectations and currency valuations. Higher CPI could support higher rates and a stronger dollar (headwind for crypto). Lower CPI supports rate cuts (tailwind)."
+    },
+    {
+      "event": "FOMC Minutes October 2026 scheduled for 18:00 UTC on October 7 (context for next week)",
+      "typicalReaction": "FOMC minutes reveal Fed thinking on rates and policy direction. Crypto typically rallies on dovish signals (lower rates) and sells on hawkish signals (higher rates)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The time period a price change is measured over. 'UTC-day' means the change from 00:00 to 23:59 UTC on that calendar day."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of cryptocurrencies on an exchange that traded up (vs. down) during a time period. High breadth (above 50%) means most crypto moved together in the same direction. Low breadth (below 50%) means the market was divided, often a bearish sign."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A regular fee that long-position holders (traders betting price up) pay to short-position holders (traders betting price down) in perpetual futures contracts. Positive funding means longs pay shorts, signaling more bullish sentiment. Funding is expressed as an annual percentage (e.g., 5% annualized means 5% per year). Higher funding rates indicate stronger bullish bias among traders."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of open long positions (bets that price goes up) to short positions (bets that price goes down) on a futures exchange or account group. A ratio above 1.0 means more traders are betting on a price increase; below 1.0 means more are betting on a decrease."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The price used to calculate unrealized gains/losses and liquidations in perpetual futures. It is a weighted average of the last trade price and the index price (spot price across major exchanges), and it prevents manipulation by isolated trades."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open (unsettled) futures contracts on an exchange. Rising open interest means new leverage is entering the market. Falling open interest means traders are closing positions. Open interest is often quoted in coins (e.g., 100,000 BTC) or in USD notional value."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The increase or decrease in total open interest over a time period (e.g., one day). A growing open-interest change paired with rising prices usually signals bullish momentum, while growing open interest paired with falling prices can signal capitulation or overleveraged bearish positions building."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buy orders (market buys, or 'takers' buying at the ask) to aggressive sell orders (market sells, or 'takers' selling at the bid) on an exchange. A ratio above 1.0 means more aggressive buying pressure; below 1.0 means more aggressive selling pressure."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The long-to-short position ratio among the largest traders (typically the top 1% or 5% by position size) on a futures exchange. This reveals what the most sophisticated or best-capitalized traders are betting. A high ratio (e.g., 1.9) means the biggest traders are heavily long."
+    }
+  ],
+  "_source": "cli"
+}

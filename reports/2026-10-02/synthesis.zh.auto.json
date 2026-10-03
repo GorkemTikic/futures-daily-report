@@ -1,0 +1,188 @@
+{
+  "oneLine": "美国就业数据疲弱(新增岗位29,000个，预期90,000个)触发了大幅反弹，推高比特币日内至$87,200，但随着国债收益率回升，涨幅消退，比特币和以太坊均小幅收跌。",
+  "caveman": "10月2日，美国政府公布了9月份新增就业人数——结果远低于预期。人们原本预期新增90,000个岗位，实际只有29,000个。当就业增长疲弱时，人们会认为美国中央银行(美联储)可能不会那么快加息。比特币和其他加密货币通常在利率下降或停止上升时会上涨，因为这样借钱会更便宜，比特币也就成为更有吸引力的投资。起初，比特币飙升至$87,000，令人兴奋。但到了交易日结束，其他因素把价格压了下来，比特币实际上收盘时比开盘时更低。以太坊也下跌了。与此同时，一个大型加密平台Blast宣布由于成本过高而关闭。这是个混合的一天——对加密货币利率前景来说是个激动人心的消息，但对价格表现来说并不理想。",
+  "priceVolumeSummary": "比特币在$83,850–$87,249之间波动，收盘价$84,487，日跌0.41%(币安、Bybit、OKX、Bitget、Gate等交易所价格差异在$50以内，价格协议紧密)。以太坊收盘价$2,667.28，跌1.40%。币安在两种主要代币的交易量中领先(BTC $19.9B，ETH $12.5B)。",
+  "positioningSummary": "期货头寸面上看涨，但日内出现了抛售压力。比特币资金费率保持正值(币安为+5.01%年化，Bitget/Bybit为+10.95%)，顶级交易者中最大的1%持有的多头是空头的1.90倍——看涨信号强劲。以太坊顶级交易者更偏好多头，比例为1.50×，资金费率较低(币安为+1.64%)。然而，未平仓头寸显著增加(比特币增加$2.3 billion)，但吃单买卖比都跌破1(BTC 0.983，ETH 0.977)，意味着主动抛售略微超过主动买入。广度指标恶化：币安永续合约中仅44.3%的品种日内上涨，这是看跌信号，表明大型交易者在建立看涨杠杆头寸，但大多数山寨币在走弱。",
+  "stocksSummary": "亚洲股市在10月2日分化明显。韩国科技股行情强劲开局：SK Hynix +1.79%，三星 +2.815%，LG +1.97%——芯片制造商因美国就业数据疲弱导致的降息预期而上涨。香港股市走弱：人工智能相关股票下跌(智谱AI −3.36%，MiniMax −5.13%)，小米(1810)下跌4.04%——可能是中国国庆节假期休市导致的中国科技股走弱(中国内地市场10月1-7日休市)。美股因就业数据疲弱而上涨：标普500 +0.74%，纳斯达克 +1.14%(科技股因降息预期表现更佳)。大宗商品下跌：原油(WTI) −1.84%，黄金 −0.09%，白银 −1.10%。",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "跌幅64.4%，交易量$704M。未识别明确的公开原因；可能是项目死亡、代币被破坏或有项目公告。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "飙升57.7%，交易量$230M。未发现公开公告或新闻；原因不明——可能是小盘币动量交易或尚未报道的交易所上市事件。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SANDUSDT",
+      "explanation": "上涨52.6%，交易量$821M。报告日期间无关联新闻；涨幅似乎由动量推动，与任何可识别的催化剂无关。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国9月仅新增29,000个就业岗位；失业率升至4.2%",
+        "what": "美国就业报告于10月2日12:30 UTC发布，显示9月仅新增29,000个就业岗位——远低于预期的90,000个和前值162,000个。失业率升至4.2%。这种疲弱的劳动力数据通常预示美联储加息的可能性降低，对风险资产和加密货币近期是利好。债券收益率在该消息上大幅下跌，比特币日内反弹至$87,200后回落。",
+        "coins": "比特币、以太坊(及更广泛的风险资产)",
+        "timeUTC": "2026-10-02 12:30",
+        "source": "Trading Economics / Verified Investing",
+        "url": "https://tradingeconomics.com/united-states/non-farm-payrolls"
+      },
+      {
+        "headline": "Blast以太坊二层网络因成本超支而关闭；用户需在10月26日前提现",
+        "what": "曾经价值$2.3B、由Paradigm支持的以太坊二层网络Blast宣布因成本现已超过收入且无可行的经济自我维持之路而关闭。用户需在10月26日前通过正常的Blast界面提现资产；此后可通过以太坊L1的直接合约交互进行提现。此举标志着在Coinbase和Robinhood等更大的平台构建竞争性网络的背景下，二层网络多样性的退缩。",
+        "coins": "以太坊生态/Blast代币持有者",
+        "timeUTC": "2026-10-02",
+        "source": "KuCoin / CryptoSlate",
+        "url": "https://cryptoslate.com/blast-shuts-down-20m-layer-2-network-forcing-oct-26-exit-deadline/"
+      },
+      {
+        "headline": "比特币突破$85,000卖单；交易者建杠杆押注$100,000",
+        "what": "比特币在10月2日交易中突破了$85,000处的重要卖方流动性，短暂触及$87,200，受疲弱就业数据的推动。未平仓头寸跃升$2.3 billion，交易者报告正转向$100,000的目标。这种积累模式与9月后的反弹类似，表明尽管散户广度走弱，机构需求有所复苏。",
+        "coins": "比特币",
+        "timeUTC": "2026-10-02",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoins-85000-sell-wall-is-gone-and-traders-are-now-betting-on-100000/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "银行团体起诉美国货币监理署(OCC)关于加密信托执照",
+          "what": "独立社区银行家协会起诉美国货币监理署，声称该监管机构在未经国会批准的情况下发放加密信托执照，超越了其权限。该诉讼可能会减缓或阻止美国货币监理署发放此类执照的权力。",
+          "coins": "加密托管和银行部门",
+          "timeUTC": "2026-10-02",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/02/bank-group-sues-u-s-regulator-over-granting-crypto-trust-charters"
+        },
+        {
+          "headline": "欧洲央行公布三种将央行资金上链的模式",
+          "what": "欧洲中央银行发布了一个框架，探讨如何发行数字欧元并在区块链上结算交易。三种模式从完全由欧洲央行发行到允许商业银行代币化准备金——表明中央银行对区块链基础设施的兴趣日益增长。",
+          "coins": "以太坊和链上结算基础设施",
+          "timeUTC": "2026-10-02",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Blast关闭$20M二层网络，强制10月26日退出期限",
+          "what": "Blast确认关闭，设定了2026年10月26日的结构化退出期限。用户必须在该日期前通过应用界面提现；以太坊L1上的Blast Bridge合约将保持功能性，用于期限后的提现。",
+          "coins": "以太坊二层/Blast生态",
+          "timeUTC": "2026-10-02",
+          "source": "Cryptonomist / CryptoSlate",
+          "url": "https://cryptoslate.com/blast-shuts-down-20m-layer-2-network-forcing-oct-26-exit-deadline/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "加密黑客利用第三方Aave工具窃取约114 ETH(约$300K)",
+          "what": "建立在Aave基础上的第三方借贷适配器(非核心Aave协议)被黑客利用，盗取了约114 ETH，当时价值超过$300,000。核心Aave协议未受影响。安全公司SlowMist于10月2日报告了此事件。",
+          "coins": "以太坊/Aave生态",
+          "timeUTC": "2026-10-02",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-hackers-exploit-third-party-aave-tool-to-steal-114-eth/"
+        },
+        {
+          "headline": "Drift Protocol开放漏洞恢复索赔；初始赔付仅为用户损失的1%多",
+          "what": "衍生品平台Drift Protocol开始接受来自之前漏洞受害者的恢复索赔。早期赔付仅为损失的1%多一点，DFX代币持有者可以提现或等待追加资金，但没有明确的完全恢复时间表。",
+          "coins": "Drift Protocol (DFX)",
+          "timeUTC": "2026-10-02",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-02-drift-opens-exploit-recovery-claims-initial-payouts-just-over-1-user-losses-417581"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币现货ETF 10月2日净流入$103M；9月总机构净流入$2.65B",
+          "what": "在10月2日，美国现货比特币ETF录得$103 million的净流入(根据SoSoValue/Farside Investors)。在整个9月份，现货比特币ETF录得$2.65 billion——自2025年10月以来第二大月度净流入。尽管市场波动，强劲的机构需求仍在继续，截至10月1日，以太坊现货ETF在过去30天里累计$766 million的净流入。",
+          "coins": "比特币、以太坊(通过ETF工具)",
+          "timeUTC": "2026-10-02",
+          "source": "Farside Investors / SoSoValue / The Block",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "比特币未平仓头寸跳升$2.3B；交易者因疲弱就业数据建立看涨杠杆",
+          "what": "比特币永续期货未平仓头寸在10月2日上升$2.3 billion，表明交易者正在向看涨多头头寸部署新的杠杆。未平仓头寸上升加上正的资金费率表明交易者对近期反弹有信心，但如果情绪逆转，也会增加大幅平仓的风险。",
+          "coins": "比特币永续期货",
+          "timeUTC": "2026-10-02",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Circle反对MiCA稳定币准备金规则；敦促欧盟灵活处理",
+          "what": "Circle(USDC发行者)向欧洲委员会的MiCA审查提交了意见，反对强制银行存款最低要求，并要求更灵活的流动性规则。Circle辩称，当前的强制要求将大型全球稳定币排除在欧洲监管范围外，限制了经济收益。",
+          "coins": "USDC、欧元稳定币",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379984/circle-pushes-back-on-micas-bank-deposit-mandate-for-stablecoins"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-02",
+    "summary": "美国现货比特币ETF在10月2日录得$103 million的净流入(根据Farside Investors和SoSoValue)。在整个9月份，现货比特币ETF录得$2.65 billion的净流入——自2025年10月以来第二大月度净流入。以太坊现货ETF在10月1日前的30天内累计$766 million的净流入。",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Non-Farm Employment Change (NFP) September actual: 29,000 (forecast 90,000, previous 162,000); Unemployment rate rose to 4.2%; average hourly earnings +3.0% year-over-year",
+      "typicalReaction": "疲弱的就业数据通常降低美联储加息的可能性或加速降息押注。这通常会因为借入成本降低和美元走弱而触发风险资产(股票和加密货币)的反弹。比特币日内短暂反弹至$87,200，但随着收益率部分回升而收盘下跌，表明这一缓解走势被交易者提前抢跑。"
+    },
+    {
+      "event": "Eurozone Flash CPI October 2026 released at 09:00 UTC (result not yet available in data)",
+      "typicalReaction": "通胀惊喜可以改变美联储预期和货币估值。更高的CPI可能支持更高的利率和更强的美元(对加密货币不利)。更低的CPI支持降息(对加密货币有利)。"
+    },
+    {
+      "event": "FOMC Minutes October 2026 scheduled for 18:00 UTC on October 7 (context for next week)",
+      "typicalReaction": "美联储公开市场委员会(FOMC)会议纪要披露了美联储对利率和政策方向的看法。加密货币通常在鸽派信号(降息)时反弹，在鹰派信号(加息)时下跌。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基准期",
+      "definition": "衡量价格变化的时间段。'UTC-day'表示在该日历日的00:00至23:59 UTC期间的变化。"
+    },
+    {
+      "term": "广度",
+      "definition": "在某一时间段内，交易所上上涨的加密货币占所有交易品种的百分比。高广度(高于50%)意味着大多数加密货币朝同一方向移动。低广度(低于50%)意味着市场分化，通常是看跌信号。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "在永续期货合约中，持有多头头寸的交易者(押注价格上升)定期支付给持有空头头寸的交易者(押注价格下降)的费用。正资金费率意味着多头支付空头，表明看涨情绪更强。资金费率以年度百分比表示(例如，5%年化费率表示每年5%)。更高的资金费率表明交易者之间的看涨偏见更强。"
+    },
+    {
+      "term": "多空比",
+      "definition": "期货交易所或账户组中，未平仓多头头寸(押注价格上升)与空头头寸(押注价格下降)的比率。比率高于1.0意味着更多交易者押注价格上升；低于1.0意味着更多交易者押注价格下降。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "在永续期货中用于计算未实现收益/损失和平仓的价格。它是最后一笔交易价格和指数价格(主要交易所的现货价格)的加权平均，可防止孤立交易的操纵。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "交易所上未平仓(未结算)期货合约的总数。未平仓头寸上升意味着新的杠杆进入市场。未平仓头寸下降意味着交易者在平仓。未平仓头寸通常以币计(例如100,000 BTC)或以美元名义价值表示。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "某一时间段内(例如一天)总未平仓头寸的增加或减少。未平仓头寸增加配合价格上升通常表示看涨动能，而未平仓头寸增加配合价格下跌可能表示认输或过度杠杆化的空头头寸建立。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "交易所上，激进买单(市价买，或'吃单者'以卖价买入)与激进卖单(市价卖，或'吃单者'以买价卖出)的比率。比率高于1.0意味着更多的激进买入压力；低于1.0意味着更多的激进卖出压力。"
+    },
+    {
+      "term": "顶级交易者多空比",
+      "definition": "期货交易所上，最大交易者(通常按头寸大小分类的前1%或5%)之间的多头与空头头寸比率。这揭示了最复杂或资金最充足的交易者在押注什么。高比率(例如1.9)意味着最大的交易者重度看涨。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "275b322ce35af45f"
+}

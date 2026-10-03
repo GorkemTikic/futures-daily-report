@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-02",
+  "kind": "market",
+  "dateLong": "Friday, 2 October 2026",
+  "coversUTC": "2026-10-02 00:00–23:59 UTC",
+  "oneLine": "Weak U.S. jobs data (29,000 added vs. 90,000 forecast) triggered a sharp relief rally that pushed Bitcoin intraday to $87,200, but gains faded as Treasury yields recovered, leaving both Bitcoin and Ethereum down modestly on the day.",
+  "newsCount": 11,
+  "macro": {
+    "BTC": -0.41337559422006337,
+    "ETH": -1.400718658504121
+  },
+  "topMover": {
+    "symbol": "龙虾USDT",
+    "chgPct": -64.42307692307692
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "03 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-02T22:21:45.610Z",
-  "count": 107,
+  "generatedAt": "2026-10-03T00:07:37.221Z",
+  "count": 108,
   "counts": {
-    "total": 107,
-    "market": 20,
+    "total": 108,
+    "market": 21,
     "divergence": 87,
     "degraded": 1
   },
-  "latest": "2026-10-01",
+  "latest": "2026-10-02",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-10-02",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.41337559422006337,
+        "ETH": -1.400718658504121
+      },
+      "marketSummary": "Weak U.S. jobs data (29,000 added vs. 90,000 forecast) triggered a sharp relief rally that pushed Bitcoin intraday to $87,200, but gains faded as Treasury yields recovered, leaving both Bitcoin and Ethereum down modestly on the day.",
+      "oneLine": "Weak U.S. jobs data (29,000 added vs. 90,000 forecast) triggered a sharp relief rally that pushed Bitcoin intraday to $87,200, but gains faded as Treasury yields recovered, leaving both Bitcoin and Ethereum down modestly on the day.",
+      "newsCount": 11,
+      "topMover": {
+        "symbol": "龙虾USDT",
+        "chgPct": -64.42307692307692
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-02/summary_2026-10-02.html",
+        "pdf": "reports/2026-10-02/summary_2026-10-02.pdf",
+        "md": "reports/2026-10-02/summary_2026-10-02.md"
+      }
+    },
     {
       "date": "2026-10-01",
       "kind": "market",

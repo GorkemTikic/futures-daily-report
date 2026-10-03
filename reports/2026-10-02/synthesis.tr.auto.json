@@ -1,0 +1,188 @@
+{
+  "oneLine": "Zayıf ABD istihdam verileri (29.000 vs. 90.000 beklenen) keskin bir rahatlama rallisini tetikledi ve Bitcoin günü içinde 87.200$'a çıktı, ancak hazine getirilerinin toparlanmasıyla kazançlar erimeli ve Bitcoin ile Ethereum günü küçük kayıpla kapattı.",
+  "caveman": "2 Ekim'de ABD hükümeti Eylül ayında kaç tane yeni iş yaratıldığını açıkladı. Herkes 90.000 yeni iş olmasını bekliyordu, ama sadece 29.000 iş yaratılmış. Bu çok önemli bir haberdir. İşe alımlar zayıf olunca, insanlar Federal Rezerv'in (Amerika'nın merkez bankası) faiz oranlarını hızlı kaldırmayabileceğini düşünürler. Faiz oranları düştüğünde Bitcoin gibi kripto paralar genellikle değer kazanırlar, çünkü kredi almak daha ucuz hale gelir ve Bitcoin daha çekici bir yatırım haline gelir. İlk başta Bitcoin 87.000$'a kadar çıktı - çok heyecan verici. Ama gün sonunda başka faktörler fiyatı aşağı itti ve Bitcoin gerçekten günü başladığından daha düşük kapattı. Ethereum de düştü. Aynı zamanda Blast adında büyük bir kripto platformu, maliyetleri artık kâra geçmediği için kapatıldığını duyurdu. Karma bir gün - kripto'nun faiz oranları açısından iyi haberler vardı ama fiyatlar için kazananlar olmadı.",
+  "priceVolumeSummary": "Bitcoin 83.850$-87.249$ aralığında işlem gördü ve 84.487$'da kapattı, tüm borsalarda %0,41 düşüş (Binance, Bybit, OKX, Bitget, Gate'de 50$ içinde sıkı bir fiyat anlaşması). Ethereum 2.667,28$'da kapattı, %1,40 düşüş. Binance her iki ana coin için hacim lideriydi (BTC 19,9 milyar dolar, ETH 12,5 milyar dolar).",
+  "positioningSummary": "Vadeli işlem pozisyonlaması kağıt üzerinde yükseliş eğilimindeydi ama gün içinde satış baskısı ortaya çıktı. Bitcoin finansman oranları pozitif kaldı (Binance'de %5,01 yıllık, Bitget/Bybit'de %10,95), ve Bitcoin'in en büyük %1'lik tüccarları uzun pozisyonları kısa pozisyonlardan 1,90 kat daha fazla tuttu - güçlü bir yükseliş işareti. Ethereum'un en iyi tüccarları 1,50 oranında uzun pozisyonları tercih etti, daha düşük finansman oranı (%1,64 Binance'de) ile. Ancak açık faiz önemli ölçüde arttı (Bitcoin için 2,3 milyar dolar artış), taker alıcı/satıcı oranları her ikisi için de 1'in altına düştü (BTC 0,983, ETH 0,977), yani agresif satıcılar agresif alıcıları biraz aştı. Pazar genişliği bozuldu: Binance perpetual'larının sadece %44,3'ü günde yükselen işlem gördü, bir çoğu altcoin'in zayıflaması sırasında büyük tüccarların yükseliş kaldıracını artırdığına dair ayıbaşı bir işareti.",
+  "stocksSummary": "Asya piyasaları 2 Ekim'de keskin bir şekilde farklılaştı. Güney Kore'nin teknoloji ağırlıklı seansı güçlü açıldı: SK Hynix +%1,79, Samsung +%2,815, LG +%1,97 - çip üreticileri zayıf ABD işe alım verilerinden düşen faiz oranı beklentileri üzerinde ralliye gitti. Hong Kong'un seansı zayıfladı: yapay zeka odaklı hisse senetleri düştü (Zhipu AI −%3,36, MiniMax −%5,13), ve Xiaomi (1810) %4,04 düştü - muhtemelen Ulusal Gün tatil kapanışlarından kaynaklanan Çin teknolojisinin zayıflığı (Çin'in ana karaları 1-7 Ekim'de tatile alındı). ABD hisse senetleri zayıf işe alım verisinde ralliye gitti: S&P 500 +%0,74, Nasdaq +%1,14 (teknoloji faiz indirim umutları üzerinde daha iyi performans gösterdi). Emtialar düştü: ham petrol (WTI) −%1,84, altın −%0,09, gümüş −%1,10.",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "%64,4 düştü, 704 milyon dolar hacim. Açık bir kamu nedeni tespit edilmedi; muhtemelen ölü veya ele geçirilmiş bir token veya proje duyurusu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "%57,7 arttı, 230 milyon dolar hacim. Herhangi bir kamu duyurusu veya haberi tespit edilmedi; neden bilinmiyor - micro-cap momentum ticareti veya henüz rapor edilmemiş bir borsa listeleme olayı olabilir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SANDUSDT",
+      "explanation": "%52,6 arttı, 821 milyon dolar hacim. Rapor gününde bağlantılı bir haber yok; hareket momentum odaklı görünüyor ve belirli bir katalizöre bağlı değil.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "ABD Eylül'de sadece 29.000 iş ekledi; işsizlik %4,2'ye yükseldi",
+        "what": "2 Ekim'de 12:30 UTC'de yayınlanan ABD istihdam raporu, Eylül'de sadece 29.000 iş eklendiğini - beklenen 90.000'in çok altında ve önceki 162.000'in altında olduğunu gösterdi. İşsizlik %4,2'ye yükseldi. Bu zayıf işgücü verileri tipik olarak Fed faiz artışı ihtimallerinin düşmesi anlamına gelir, bu da risk varlıkları ve kripto için yakın vadede olumlu bir şeydir. Tahvil getirileri habere keskin bir şekilde düştü ve Bitcoin günü içinde 87.200$'a ralliye gitti ama sonra kaybetti.",
+        "coins": "Bitcoin, Ethereum (ve daha geniş risk varlıkları)",
+        "timeUTC": "2026-10-02 12:30",
+        "source": "Trading Economics / Verified Investing",
+        "url": "https://tradingeconomics.com/united-states/non-farm-payrolls"
+      },
+      {
+        "headline": "Blast Ethereum layer-2'si kapanıyor, maliyetler geliri aşıyor; kullanıcıların 26 Ekim'e kadar çekilme hakkı var",
+        "what": "Blast, bir zamanlar Paradigm tarafından desteklenen 2,3 milyar dolar değerinde bir Ethereum layer-2 ağı, maliyetlerin şimdi geliri aştığı ve ekonomik sürdürülebilirliğe gidiş yolu olmadığı için operasyonları sona erdireceğini duyurdu. Kullanıcıların 26 Ekim'e kadar Blast arayüzü aracılığıyla varlık çekebilmeleri vardır; bundan sonra, Ethereum L1'deki doğrudan sözleşme etkileşimi yoluyla çekilişler yine de mümkündür. Bu hareket, Coinbase ve Robinhood gibi daha büyük platformların rakip ağlar inşa etmesi sırasında layer-2 çeşitliliğinde bir geri çekilişi işaretlemektedir.",
+        "coins": "Ethereum ekosistemi / Blast token sahipleri",
+        "timeUTC": "2026-10-02",
+        "source": "KuCoin / CryptoSlate",
+        "url": "https://cryptoslate.com/blast-shuts-down-20m-layer-2-network-forcing-oct-26-exit-deadline/"
+      },
+      {
+        "headline": "Bitcoin 85.000 dolar satış duvarını aşıyor; tüccarlar 100.000 dolar hedefi için pozisyon alıyor, kaldıraç artıyor",
+        "what": "Bitcoin, 2 Ekim ticaretinde 85.000 dolar ve 87.200 dolar'ında belirgin satış tarafı likiditesini aşarak kısa bir süre teğet tutuştu. Zayıf işe alım verisiyle desteklendi. Açık faiz 2,3 milyar dolar sıçradı ve tüccarlar 100.000 dolar hedefine doğru bahislerini değiştirdiklerini bildiriyorlar. Birikinti modeli, perakende genişliği zayıflığına rağmen kurumsal açlığın yeniden uyandığını göstererek Eylül sonrası rallilerini yansıtıyor.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-10-02",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoins-85000-sell-wall-is-gone-and-traders-are-now-betting-on-100000/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Banka grubu OCC'yi kripto tröst yetkileri konusunda dava ediyor",
+          "what": "Bağımsız Topluluk Bankaları Birliği, Para Kontrolörü Ofisini, kongresel onay almadan kripto tröst yetkileri vererek yetkisini aşıyor olduğu iddiasıyla dava etti. Dava, OCC'nin bu tür yetkileri verme kabiliyetini yavaşlatabilir veya engelleyebilir.",
+          "coins": "Kripto saklama ve bankacılık sektörü",
+          "timeUTC": "2026-10-02",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/02/bank-group-sues-u-s-regulator-over-granting-crypto-trust-charters"
+        },
+        {
+          "headline": "ECB, merkez bankası parasını zincire koymak için üç modeli özetliyor",
+          "what": "Avrupa Merkez Bankası, dijital euroları nasıl düzenleyeceğini ve blokzincirdeki işlemleri nasıl yapacağını keşfetmek için bir çerçeve yayınladı. Üç model tam ECB düzenlemesinden ticari bankaların rezervleri tokenleştirmesine izin vermeye kadar uzanıyor - merkez bankalarının blokzincir altyapısına artan ilgisinin bir işareti.",
+          "coins": "Ethereum ve zincir üstü anlaşma altyapısı",
+          "timeUTC": "2026-10-02",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Blast 20 milyon dolarlık layer-2 ağını kapatıyor, 26 Ekim çıkış son tarihini zorlayıyor",
+          "what": "Blast, 26 Ekim 2026'nın yapılandırılmış bir çıkış son tarihiyle kapatılmasını doğruladı. Kullanıcıların o tarihe kadar uygulama arayüzü aracılığıyla çekilme hakkı vardır; Ethereum L1'deki Blast Bridge sözleşmesi son tarih sonrası çekilişler için işlevsel kalacaktır.",
+          "coins": "Ethereum layer-2 / Blast ekosistemi",
+          "timeUTC": "2026-10-02",
+          "source": "Cryptonomist / CryptoSlate",
+          "url": "https://cryptoslate.com/blast-shuts-down-20m-layer-2-network-forcing-oct-26-exit-deadline/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kripto hackerlar üçüncü taraf Aave aracını istismar ediyor, ~114 ETH (~300 bin dolar) çalıyor",
+          "what": "Aave'nin üstüne inşa edilen bir üçüncü taraf kreditlendirme adaptörü (Aave ana protokolü değil) istismar edilerek yaklaşık 114 ETH, o sırada 300.000 dolardan fazla değerinde çalındı. Aave ana protokolü etkilenmedi. Güvenlik firması SlowMist, olayı 2 Ekim'de bildirdi.",
+          "coins": "Ethereum / Aave ekosistemi",
+          "timeUTC": "2026-10-02",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-hackers-exploit-third-party-aave-tool-to-steal-114-eth/"
+        },
+        {
+          "headline": "Drift Protocol istismar kurtarma taleplerini açıyor; ilk ödemeler kullanıcı kayıplarının sadece %1'i kadar",
+          "what": "Türev platform Drift Protocol, bir önceki istismardan etkilenen kullanıcılardan kurtarma taleplerini kabul etmeye başladı. Erken ödemeler kayıpların sadece %1'inden biraz fazlasına ulaştı, DFX token sahipleri nakit olarak çıkabiliyor veya tam kurtarma için net bir zaman çizelgesi olmadan ek fon bekleme kabiliyeti ile.",
+          "coins": "Drift Protocol (DFX)",
+          "timeUTC": "2026-10-02",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-02-drift-opens-exploit-recovery-claims-initial-payouts-just-over-1-user-losses-417581"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin spot ETF, 2 Ekim'de 103 milyon dolar akışı görüyor; Eylül'de toplam 2,65 milyar dolar kurumsal akış",
+          "what": "Özellikle 2 Ekim'de, ABD spot Bitcoin ETF'leri net 103 milyon dolar akış kaydetti (SoSoValue/Farside Investors'a göre). Eylül ayının tamamı için spot Bitcoin ETF'leri 2,65 milyar dolar kaydetti - Ekim 2025'ten bu yana ikinci en büyük aylık akışı. Güçlü kurumsal talep pazar oynaklığına rağmen devam ediyor ve Ethereum spot ETF'leri 1 Ekim itibariyle önceki 30 gün boyunca 766 milyon dolar biriktirdi.",
+          "coins": "Bitcoin, Ethereum (ETF vekilleri aracılığıyla)",
+          "timeUTC": "2026-10-02",
+          "source": "Farside Investors / SoSoValue / The Block",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "Bitcoin açık faizi 2,3 milyar dolar sıçrıyor; tüccarlar zayıf işe alım verilerine göre yükseliş kaldıracını inşa ediyor",
+          "what": "Bitcoin'deki perpetual vadeli işlem açık faizi 2 Ekim'de 2,3 milyar dolar arttı, tüccarların taze kaldıracı yükseliş long pozisyonlarına dağıttığını gösteriyor. Artan açık faiz, pozitif finansman oranları ile birlikte, yakın vadeli bir rally konusunda güven gösteriyor, ancak duygulanış tersine dönerse keskin tasfiye riski de yükseltir.",
+          "coins": "Bitcoin perpetual vadeli işlemler",
+          "timeUTC": "2026-10-02",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/02/why-rising-perpetual-funding-rates-signal-growing-bullish-leverage-as-bitcoin-crosses-usd86-500"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Circle, MiCA stablecoin rezerv kurallarına karşı çıkıyor; AB esnekliğini talep ediyor",
+          "what": "Circle (USDC yayıncısı), Avrupa Komisyonu'nun MiCA incelemesine açıklama sunmuş, zorunlu banka depozu minimumlarına karşı çıkmış ve daha esnek likidite kuralları talep etmiştir. Circle, güncel hükümlerin büyük küresel stablecoin'leri Avrupa'nın düzenleyici çevresi dışında tuttuğunu ve ekonomik faydayı sınırladığını savunuyor.",
+          "coins": "USDC, euro stablecoin'leri",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379984/circle-pushes-back-on-micas-bank-deposit-mandate-for-stablecoins"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-02",
+    "summary": "ABD spot Bitcoin ETF'leri 2 Ekim'de net 103 milyon dolar akış kaydetti (Farside Investors ve SoSoValue'ye göre). Eylül boyunca spot Bitcoin ETF'leri 2,65 milyar dolar akış gördü - Ekim 2025'ten bu yana ikinci en büyük aylık akış. Ethereum spot ETF'leri 1 Ekim'den önceki 30 gün içinde net 766 milyon dolar akış biriktirdi.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Non-Farm Employment Change (NFP) September actual: 29,000 (forecast 90,000, previous 162,000); Unemployment rate rose to 4.2%; average hourly earnings +3.0% year-over-year",
+      "typicalReaction": "Zayıf istihdam verileri tipik olarak Fed faiz artışı ihtimallerini düşürür veya faiz indirim bahislerini hızlandırır. Bu genellikle risk varlıklarında (hisse senetleri ve kripto) bir ralliye neden olur, çünkü borç alma maliyetleri düşer ve dolar zayıflar. Bitcoin günü içinde 87.200$'a ralliye gitti, ancak getiriler kısmen toparlandığında kapanış düşük oldu, bu da satıcıların öncüsü olduğunu gösteriyor."
+    },
+    {
+      "event": "Eurozone Flash CPI October 2026 released at 09:00 UTC (result not yet available in data)",
+      "typicalReaction": "Enflasyon sürprizleri Fed beklentilerini ve döviz valuasyonlarını değiştirebilir. Daha yüksek CPI, daha yüksek oranları destekleyebilir ve daha güçlü doları destekleyebilir (kripto için baş rüzgarı). Daha düşük CPI, faiz indirimlerini destekler (rüzgarı arkası)."
+    },
+    {
+      "event": "FOMC Minutes October 2026 scheduled for 18:00 UTC on October 7 (context for next week)",
+      "typicalReaction": "FOMC tutanakları Fed'in oranlar ve politika yönü hakkındaki düşüncesini ortaya koymaktadır. Kripto tipik olarak dovish sinyallerde (daha düşük oranlar) ralliye gider ve hawkish sinyallerde (daha yüksek oranlar) satar."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Fiyat değişikliğinin ölçüldüğü zaman dönemi. 'UTC-day' o takvim gününde 00:00'den 23:59 UTC'ye olan değişiklik anlamına gelir."
+    },
+    {
+      "term": "Breadth",
+      "definition": "Bir borsadaki kripto para birimlerinin yükselen (vs. düşen) bir zaman diliminde işlem gören yüzdesini temsil eder. Yüksek genişlik (%50 üzerinde) çoğu kripto'nun aynı yönde birlikte hareket ettiği anlamına gelir. Düşük genişlik (%50'nin altında) pazarın bölündüğü, genellikle ayıbaşı bir işaret."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Perpetual vadeli işlem sözleşmelerinde uzun pozisyon sahiplerinin (fiyatın yükseceğine bahis yapan) kısa pozisyon sahiplerine (fiyatın düşeceğine bahis yapan) ödediği düzenli bir ücret. Pozitif finansman uzunları ortaları ödediği anlamına gelir, daha güçlü yükseliş duygusunu işaret etmektedir. Finansman yıllık bir yüzde olarak ifade edilir (örneğin, %5 yıllık %5/yıl anlamına gelir). Daha yüksek finansman oranları tüccarlar arasında daha güçlü yükseliş önyargısını göstermektedir."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "Bir vadeli işlem borsasında veya hesap grubunda açık long pozisyonların (fiyatın yükseceğine bahis) açık kısa pozisyonlara (fiyatın düşeceğine bahis) oranı. 1,0'dan yüksek bir oran, daha fazla tüccarın fiyat artışı oranında bahis yapması anlamına gelir; 1,0'dan düşük, daha fazla azalmaya bahis yapması anlamına gelir."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Perpetual vadeli işlemlerde gerçekleşmemiş kazançları/kayıpları ve tasfiyeyi hesaplamak için kullanılan fiyat. Son işlem fiyatı ve endeks fiyatının (büyük borsalardaki spot fiyat) ağırlıklı bir ortalamasıdır ve manipülasyonu izole işlemlerle engeller."
+    },
+    {
+      "term": "Open interest",
+      "definition": "Bir borsada açık (henüz uzlaştırılmamış) vadeli işlem sözleşmelerinin toplam sayısı. Artan açık faiz, pazara yeni kaldıracın girdiği anlamına gelir. Düşen açık faiz, tüccarların pozisyonları kapattığı anlamına gelir. Açık faiz genellikle coin cinsinden (örneğin, 100.000 BTC) veya dolar notasyonel değerinde kote edilir."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "Bir zaman diliminde toplam açık faiz artışı veya azalışı (örneğin bir gün). Artan açık faiz, yükselen fiyatlarla eşleştiğinde genellikle yükseliş momentumunu göstermektedir, düşen fiyatlarla artan açık faiz ise tasfiyeyi veya aşırı kaldıraçlı ayıbaşı pozisyonların inşa edilmesini gösterebilir."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "Bir borsada agresif alıcı siparişleri (piyasa alışları veya 'takerler' sorduğu satın alanlar) ile agresif satış siparişleri (piyasa satışları veya 'takerler' teklifi satanlar) oranı. 1,0'dan yüksek bir oran, daha fazla agresif alıcı baskısı anlamına gelir; 1,0'dan düşük, daha fazla agresif satış baskısı anlamına gelir."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "Bir vadeli işlem borsasında en büyük tüccarlar (tipik olarak pozisyon boyutu açısından en iyi %1 veya %5) arasında long ve kısa pozisyon oranı. En gelişmiş veya en iyi sermaye dotasyonlu tüccarların ne bahis yaptığını ortaya koymaktadır. Yüksek bir oran (örneğin, 1,9) en büyük tüccarların ağır uzun olduğu anlamına gelir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "275b322ce35af45f"
+}
