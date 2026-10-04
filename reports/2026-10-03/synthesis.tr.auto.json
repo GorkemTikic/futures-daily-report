@@ -1,0 +1,144 @@
+{
+  "oneLine": "3 Ekim Cumartesi günü Bitcoin ve Ethereum mütevazı şekilde yükseldi, çoğu altcoin yatay seyretti — piyasa ABD ve AB'deki düzenleyici belirsizliğe rağmen sağlıklı bir inanç gösterdi; Chainalysis Bitget hackini Kuzey Kore'ye bağladı ve bankalar ABD bankacılık düzenleyicisine kripto tröst banka tüzüğü için dava açtı.",
+  "caveman": "Cumartesi günü Bitcoin %0,27 yükseldi, Ethereum %0,70 yükseldi. Sakin, normal bir gün. Piyasanın çoğu da yükseldi — Binance'teki küçük paraların neredeyse %63'ü daha yüksek oldu. Büyük tüccarlar, işlerin devam edeceğine bahis oynuyordu. İnsanlar satmaktan daha fazla satın aldılar. Ama büyük haberler vardı: Kuzey Kore'den hackerlerin 24 Eylül'de Bitget borsasından $387 milyon çaldığı ortaya çıktı. Ayrıca, normal bankalar ABD hükümetine dava açtı çünkü kripto şirketleri artık özel banka tüzükleri alabilecek. Avrupa da stablecoin'ler (bir fiyatta kalmaya çalışan paralar) hakkında yeni kurallar yapıyor. NEAR Intents adı verilen bir grup soyuldu ama hırsızı 48 saat içinde geri döndürmesi için zorlayarak tüm paraları geri aldılar. Sakin bir gündü ve piyasa için iyi işaretler var ama arkada ciddi işler dönüyordu.",
+  "priceVolumeSummary": "Bitcoin, Binance'de $84.710,60'dan kapandı, günlük %0,27 yukarı; beş ana borsanın tamamı (Binance, Bybit, OKX, Bitget, Gate) fiyatta dar $14 aralık içinde anlaştı. Beş borsa genelinde toplam günlük hacim $8,7 milyarı aştı, Binance $3,66 milyarla başı çekti.",
+  "positioningSummary": "Finansman oranları keskin şekilde bölündü: Binance'nin oranı negatife döndü (−%1,47 yıllıklandırılmış), ihtiyatlılığı işaret ederken, Bybit, Bitget, OKX ve Gate'in tümü güçlü boğa finansmanı gösterdi (%3,1–11 yıllıklandırılmış), tüccarların en büyük mekanın negatif okumasına rağmen uzun pozisyon tutmaktan memnun olduklarını gösteriyor. Binance'deki Bitcoin açık faiz 97.921 coin'de durdu ($8,29 milyar). Büyük tüccar uzun/kısa oranı 2,05'e çıktı, bu da en büyük tüccarların ağırlıklı olarak uzun pozisyonda olduğu anlamına geliyordu — daha fazla yükselişe bahis. 1,02'lik alıcı/satıcı oranı biraz daha agresif satın alma baskısını gösterdi. Piyasa genişliği güçlü oldu — Binance kalıcı çiftlerinin %62,8'i günde yukarı oldu, düzenleyici haberlerine rağmen geniş boğa inancını gösteriyor.",
+  "stocksSummary": "Cumartesi bir hafta sonu; ABD hisse senedi piyasaları (S&P 500, Nasdaq), Asya borsa piyasaları (Kore KRX, Hong Kong HKEX, Çin Shanghai/Shenzhen) ve emtia vadeli işlem sözleşmeleri hepsi kapalıydı. Kasa oturumu faaliyeti rapor edilecek değil.",
+  "movers": [
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AIN %78,8 arttı, $0,0231'den $0,0434'e yükseldi, hacim $357 milyon idi. Net bir kamu nedeni bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "MAGMA %32,9 düştü, $0,378'den $0,240'a indi, hacim $205 milyon idi. Net bir kamu nedeni bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Çince adlı token (Long Xia) %27,0 yükseldi, $0,035'den $0,0498'e çıktı, hacim $373 milyon idi. Net bir kamu nedeni bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Chainalysis $387M Bitget hackini Kuzey Koreli aktörlere bağlıyor, 2026 KDHC kripto hırsızlığını $1 milyarın üstüne itiyor",
+        "what": "Chainalysis 3 Ekim'de Eylül 24'teki Bitget ihlalini Kuzey Kore bağlantılı tehditlere bağlayan adli tıp analizi yayınladı. Şirketin yapay zeka destekli araştırması, $387 milyonun 10 dakikadan kısa sürede Ethereum (%49,7), XRP (%40,8), Zcash (%7,6) ve Tron (%1,8) arasında nasıl hareket ettiğini belirledi; bu manuel çalışmanın 20+ saatini sıkıştırdı. Bu, 2026'nın KDHC bağlantılı gruplar tarafından atfedilen toplam kripto hırsızlığını $1 milyarın üstüne çıkarıyor.",
+        "coins": "Ethereum, XRP (ripple), Zcash, Tron",
+        "timeUTC": "2026-10-03 saat 05:00 UTC civarında (yayın)",
+        "source": "Chainalysis (via Decrypt and other outlets)",
+        "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea"
+      },
+      {
+        "headline": "Bağımsız Topluluk Bankacıları Birliği, kripto tröst banka tüzükleri konusunda ABD bankacılık düzenleyicisine dava açıyor",
+        "what": "ICBA, 2 Ekim'de ABD Columbia Bölgesi Bölge Mahkemesi'ne dava açarak, Haziran Yönetimi Ofisi'nin (OCC) yetkisini aşıp, kendi başına olmayan dijital varlık şirketlerinin ulusal tröst banka tüzükleri almasına izin veren bir kural (2 Mart 2026'da yürürlüğe girdi) çıkarmadığını savundu. Grup, kripto şirketlerinin artık geleneksel topluluk bankalarını bağlayan yükümlülükleri (Topluluk Yeniden Yatırım Yasası, FDIC sigortası) atlatabilir diye itiraz ediyor. OCC, onaylanan veya koşullu olarak onaylanan 21 tröst bankadan, 13'ü kripto ile bağlı.",
+        "coins": "Belirli coin yok; düzenleme/kurumsal",
+        "timeUTC": "2026-10-02 (dosyalama) / 2026-10-03 (yaygın şekilde rapor edildi) 2 Ekim saat 18:00 UTC civarında",
+        "source": "CryptoSlate, Cointelegraph, and others",
+        "url": "https://cryptoslate.com/bankers-sue-to-overturn-occ-trust-bank-rule-used-by-crypto-firms/"
+      },
+      {
+        "headline": "NEAR Intents, hacker'e 48 saatlik son çağrı verdikten sonra exploit'te çalınan tam $3,8M'i geri alıyor",
+        "what": "NEAR Intents, Ekim 1'de bir exploit'te çalınan $3,8 milyonun tamamını Ekim 4 son tarihinden önce geri aldı. Ekibin istismarcıyı belirleme ve halka açık kanallar aracılığıyla bir son çağrı vermesi, hırsızı Ekim 2'de fonları tamamen geri dönmeye teşvik etti. NEAR, ilk ihlali Omni köprüsü ile akıllı kontrat etkileşimindeki bir hataya bağladı ve o zamandan beri açığı yamada.",
+        "coins": "NEAR",
+        "timeUTC": "2026-10-02 16:15 UTC (recovery confirmed) / 2026-10-03 (reported)",
+        "source": "Cointelegraph and others",
+        "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "ESMA, AB'de uyumsuz stablecoin'ler için emanet ve transfer hizmetlerini sona erdirmeyi önerdi",
+          "what": "Avrupa Menkul Kıymetlar ve Piyasalar Otoritesi, 3 Ekim'de (MiCA incelemesi yanıtında) bir teklif yayınlayarak, kripto varlık hizmet sağlayıcılarının MiCA gereksinimlerini karşılamayan stablecoin'ler için emanet ve transfer hizmetleri sunmasını yasaklaması için Avrupa Komisyonu'ndan talepte bulundu. Şu anda, ESMA bu tür hizmetlerin açıkça yasaklanmadığını kabul ediyor, ancak teklif rejimi sıkılaştıracak. Uygulama tarihi veya varlık geri çekme yolu henüz belirlenmedi.",
+          "coins": "Stablecoin'ler (genel; USDC ve uyumsuzluk dışında diğerleri)",
+          "timeUTC": "2026-10-03 saat 13:21 UTC civarında",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/esma-proposes-ending-eu-custody-and-transfer-services-for-non-compliant-stablecoins/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri net girişleri sürdürürken, Ethereum ETF'leri hafta için çıkışlar kaydediyor",
+          "what": "ABD spot Bitcoin ETF'leri 3 Ekim'de $102,7–103 milyon net giriş kaydetti, kısa bir çıkış dönemini sona erdirdi. 28 Eylül–2 Ekim haftası için Bitcoin ETF'leri $82,9 milyon net giriş gördü (30 Eylül'deki çeyreklik sonu yeniden dengelemesini yansıtan önceki haftanın $2,39 milyarından keskin düşüş). Ethereum ETF'leri bunun aksine, aynı hafta için beş işlem günü içinde dört gün çıkış ile $118 milyon net çıkış kaydetti.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-03",
+          "source": "Cointelegraph, Farside Investors",
+          "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Arbitrum, AI destekli saldırı riskleri nedeniyle yeni Stylus akıllı kontrat aktivasyonlarını duraklatıyor",
+          "what": "Arbitrum, Stylus WebAssembly programlama ortamının yeni aktivasyonlarında bir duraklama ilan etti, yapay zeka yardımıyla istismar edilebilecek yeni tanımlanmış güvenlik açığı vektörleri göz önünde bulundurarak. Mevcut Stylus programları operasyonel kalıyor. Ayrı bir ispat-çakışma koruması, Ethereum'a onaylanmamış çekilişleri geciktirebilir.",
+          "coins": "Arbitrum (ARB)",
+          "timeUTC": "2026-10-03 saat 03:30 UTC civarında",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/arbitrum-pauses-new-stylus-activations-over-ai-assisted-attack-risks/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-03",
+    "summary": "Bitcoin ETF'leri 3 Ekim'de $102,7–103 milyon net giriş kaydetti. Haftalık veriler (28 Eyl–2 Eki) Bitcoin ETF'lerinin $82,9 milyon net giriş ve Ethereum ETF'lerinin $118 milyon net çıkış ile olduğunu gösterdi. 3 Ekim'deki belirli Ethereum akışı verisi yoktu; BlackRock ETHA/ETHB verisi eksik olduğu için haftalık rakamları dikkatle kullanın.",
+    "source": "Farside Investors / Cointelegraph",
+    "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Services PMI (October) — Monday 5 Oct, 14:00 UTC",
+      "typicalReaction": "Orta etki. Hizmetler PMI, Fed beklentileri ve risk iştahını etkileyebilir; herhangi bir isabetsizlik hisse senetlerini zayıflatabilir ve kripto dahil risk varlıklarına baskı yapabilir."
+    },
+    {
+      "event": "FOMC Minutes (October meeting) — Wednesday 7 Oct, 18:00 UTC",
+      "typicalReaction": "Yüksek etki. Tutanaklar genellikle Fed'in faiz indirimleri/artışları hakkındaki düşüncesini netleştirir; kripto tüccarları para politikası yönü hakkında ipuçları için yakından izler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Kalıcı vadeli işlemlerde uzun (yükseliş) veya kısa (düşüş) pozisyonu tutan tüccarlar tarafından ödenen bir ücret. Pozitif oranlar, uzun taraf tüccarlarının kısa taraf tüccarlarına ödeme yaptığı anlamına gelir; negatif oranlar tam tersidir. Yüksek finansman oranları güçlü boğa inancını gösterir; düşük veya negatif oranlar ihtiyatlılığı veya ayı eğilimini gösterir."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Açık uzun pozisyonların (fiyatın yükseleceğine dair bahisler) kısa pozisyonlara (fiyatın düşeceğine dair bahisler) kıyasla oranı. 1'in üzerindeki bir oran, daha fazla tüccarın yukarı bahis oynadığı anlamına gelir; 1'in altında, daha fazlasının aşağı bahis oynadığı anlamına gelir."
+    },
+    {
+      "term": "Piyasa genişliği",
+      "definition": "Bir dönem içinde yükselen piyasa varlıklarının, aşağı gidenler ile karşılaştırıldığında yüzdesi. Yüksek genişlik (%63 yukarı gibi), yaygın boğa hissiyatını gösterir; düşük genişlik, her yerde zayıflığı gösterir."
+    },
+    {
+      "term": "Açık faiz (OI)",
+      "definition": "Türevlerde (kalıcı vadeli işlemler, opsiyonlar) henüz kapatılmamış açık uzun ve kısa pozisyonların toplam sayısı. Yükselen OI artan kaldıraç ve inancı gösterir; düşen OI tüccarların pozisyonları kapatıyor olduğunu gösterir."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Toplam açık faizin günlük veya dönem içi artması veya azalması. Bir artış yeni paranın piyasaya girdiğini gösterir; bir düşüş tasfiyeyi veya pozisyon kapatmayı gösterir."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Agresif satın alma vs. satış baskısının bir ölçüsü. 1'in üzerindeki değerler daha agresif satın alma anlamına gelir (alıcılar uzun ticaret başlatıyor); 1'in altı daha agresif satış anlamına gelir. 1 yakınındaki değerler dengeyi gösterir."
+    },
+    {
+      "term": "Büyük tüccar pozisyon oranı",
+      "definition": "Sadece en büyük tüccarlar (balina) arasındaki uzun/kısa oranı, perakendeciler hariç. Bu metrik, en büyük oyuncuların ne bahis oynadığını izole eder ve fiyat yönünün öncü göstergesi olarak izlenir."
+    },
+    {
+      "term": "Kalıcı vadeli işlemler",
+      "definition": "Son kullanma tarihi olmayan bir tür vadeli işlem sözleşmesi (bahis sözleşmeleri gibi), tüccarların uzun veya kısa pozisyonları belirsiz şekilde tutmalarına izin verir. Finansman oranı, fiyatların spot (cari piyasa) fiyata yakın kalmasını sağlar."
+    },
+    {
+      "term": "İstikrarlı para",
+      "definition": "Dolar, diğer varlıklar veya algoritmalar tarafından desteklenen bir rezerv tarafından desteklenerek sabit bir fiyat (genellikle $1) korumak için tasarlanmış bir kripto para. Örnekler: USDC, USDT, USDP."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Kalıcı vadeli işlem sözleşmeleri için kullanılan referans fiyat, genellikle ana borsalar arasında fiyatların zaman ağırlıklı ortalaması. Finansman ve marj gerekliliklerini hesaplamak için kullanılır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "7e1cf5597594220d"
+}

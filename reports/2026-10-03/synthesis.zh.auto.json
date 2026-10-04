@@ -1,0 +1,144 @@
+{
+  "oneLine": "10月3日周六，比特币和以太坊小幅上涨，多数小币种横盘整理——尽管美国和欧盟监管形势紧张，市场仍显示出健康的看涨信心，Chainalysis将币安Bitget交易所被黑事件与朝鲜挂钩，银行家们就加密信托银行特许状起诉美国银行监管机构。",
+  "caveman": "周六，比特币（最大的那个币）涨了大约0.27%，以太坊涨了大约0.70%。这是个很平静、很正常的一天。市场上的大部分币都涨了——币安上大约63%的小币种都在上升。最大的交易商们认为市场会继续上涨。买的人比卖的人更积极。但有重要新闻：有人发现朝鲜黑客在9月24日从币安Bitget交易所偷走了3.87亿美元。加上，普通银行还起诉了美国政府，因为他们很生气加密公司现在可以申请特殊的银行执照。欧洲也在制定关于稳定币（试图保持一个价格的币）的新规则。一个叫NEAR Intents的团队被抢劫了，但他们给了小偷48小时返还资金后，最后还是把钱全部拿回来了。这是个平静的一天，对市场有好信号，但后面有很多重要的事在发生。",
+  "priceVolumeSummary": "比特币在币安以84,710.60美元收盘，日涨0.27%；五个主要交易所（币安、Bybit、OKX、币安Bitget、Gate）的价格差异在14美元以内。五个交易所的总日成交量超过87亿美元，其中币安领先，成交量为36.6亿美元。",
+  "positioningSummary": "资金费率出现明显分化：币安的资金费率为负（年化−1.47%），表明谨慎态度；而Bybit、币安Bitget、OKX和Gate的资金费率均呈强劲看涨状态（年化3.1%-11%），表明交易者愿意持仓多头头寸，尽管最大交易所出现了负面信号。币安上比特币未平仓头寸为97,921枚（83亿美元）。大户多空比达到2.05，表明最大的交易商重度看涨——押注进一步上升。Taker买卖比为1.02，显示买盘压力略微更强。市场广度为62.8%的币安永续合约交易对当日上升，表明即使监管头条新闻频出，仍存在广泛的看涨信心。",
+  "stocksSummary": "周六是周末；美国股票市场（标普500、纳斯达克）、亚洲股票市场（韩国KRX、香港HKEX、中国沪深交易所）和商品期货全部休市。无现货交易活动可报。",
+  "movers": [
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AIN暴涨78.8%，从0.0231美元上升至0.0434美元，成交量3.57亿美元。无明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "MAGMA下跌32.9%，从0.378美元下降到0.240美元，成交量2.05亿美元。无明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "这个中文名字的代币（龙虾）上涨27.0%，从0.035美元上升到0.0498美元，成交量3.73亿美元。无明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Chainalysis追溯币安Bitget 3.87亿美元被黑事件源自朝鲜，推动2026年朝鲜相关加密盗窃超10亿美元",
+        "what": "Chainalysis在10月3日发布了法医分析，将9月24日币安Bitget的漏洞追溯到与朝鲜有关联的威胁行为人。该公司AI辅助的调查确认了3.87亿美元如何在10分钟内跨越以太坊（49.7%）、XRP（40.8%）、Zcash（7.6%）和Tron（1.8%）进行转移，压缩了本应需要20多小时人工工作量。这将2026年归因于与朝鲜有关团体的加密盗窃总额推至10亿美元以上。",
+        "coins": "Ethereum, XRP (Ripple), Zcash, Tron",
+        "timeUTC": "2026-10-03 around 05:00 UTC (publication)",
+        "source": "Chainalysis (via Decrypt and other outlets)",
+        "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea"
+      },
+      {
+        "headline": "美国独立社区银行协会就加密信托银行特许状起诉美国银行监管机构",
+        "what": "美国独立社区银行协会（ICBA）在10月2日向美国哥伦比亚特区地方法院提起诉讼，辩称美国货币监理署（OCC）在签发一项规则（自2026年3月2日生效）时超越了其权限，该规则允许非受信数字资产公司获得国家信托银行特许状。该协会主张加密公司现在可以绕过约束传统社区银行的义务（《社区再投资法》、《联邦存款保险公司》保险）。OCC已批准或有条件批准了21家信托银行，其中13家与加密有关。",
+        "coins": "No specific coins; regulatory/institutional",
+        "timeUTC": "2026-10-02 (filed) / 2026-10-03 (widely reported) around 18:00 UTC Oct 2",
+        "source": "CryptoSlate, Cointelegraph, and others",
+        "url": "https://cryptoslate.com/bankers-sue-to-overturn-occ-trust-bank-rule-used-by-crypto-firms/"
+      },
+      {
+        "headline": "NEAR Intents在48小时最后通牒后全额追回380万美元被黑资金",
+        "what": "NEAR Intents是一个跨链交易协议，在10月4日截止日期前追回了10月1日漏洞中失窃的全部380万美元。该团队能够识别漏洞利用者并通过公开渠道发出最后通牒，促使盗贼在10月2日全额返还资金。NEAR将初期漏洞归因于其Omni桥与智能合约交互中的bug，随后已修补该漏洞。",
+        "coins": "NEAR",
+        "timeUTC": "2026-10-02 16:15 UTC (recovery confirmed) / 2026-10-03 (reported)",
+        "source": "Cointelegraph and others",
+        "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "欧洲证券及市场管理局提议结束对不合规稳定币的欧盟托管和转账服务",
+          "what": "欧洲证券及市场管理局在10月3日（作为其MiCA审查回复的一部分）发布建议，要求欧盟委员会禁止加密资产服务提供商为不符合MiCA要求的稳定币提供托管和转账服务。目前，欧洲证券及市场管理局承认此类服务并未被明确禁止，但该建议将加强监管制度。暂未设定实施日期或资产提取路径。",
+          "coins": "Stablecoins (generally; USDC and others outside compliance)",
+          "timeUTC": "2026-10-03 around 13:21 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/esma-proposes-ending-eu-custody-and-transfer-services-for-non-compliant-stablecoins/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF恢复净流入，而以太坊ETF当周录得净流出",
+          "what": "美国现货比特币ETF在10月3日录得102.7-103百万美元净流入，结束了短暂的净流出期。在9月28日至10月2日当周，比特币ETF录得82.9百万美元净流入（相比前一周239亿美元的净流入大幅下降，反映了9月30日季度末重新平衡）。相比之下，以太坊ETF在同一周录得1.18亿美元净流出，五个交易日中的四个交易日均有净流出。",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-03",
+          "source": "Cointelegraph, Farside Investors",
+          "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Arbitrum因AI辅助攻击风险暂停新Stylus智能合约激活",
+          "what": "Arbitrum宣布暂停其Stylus WebAssembly编程环境的新激活，理由是新发现的可能被AI辅助的漏洞。现有Stylus程序仍可正常运作。一个单独的proof-conflict防护装置可延迟向以太坊的未确认提款。",
+          "coins": "Arbitrum (ARB)",
+          "timeUTC": "2026-10-03 around 03:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/arbitrum-pauses-new-stylus-activations-over-ai-assisted-attack-risks/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-03",
+    "summary": "比特币ETF在10月3日录得102.7-103百万美元净流入。当周数据（9月28日-10月2日）显示比特币ETF录得82.9百万美元净流入，以太坊ETF录得1.18亿美元净流出。10月3日具体以太坊流量数据未获取；由于贝莱德ETHA/ETHB数据不完整，请谨慎使用当周数据。",
+    "source": "Farside Investors / Cointelegraph",
+    "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Services PMI (October) — Monday 5 Oct, 14:00 UTC",
+      "typicalReaction": "中等影响。服务业PMI可能会影响美联储预期和风险偏好；任何失利都可能削弱股票和压低包括加密在内的风险资产。"
+    },
+    {
+      "event": "FOMC Minutes (October meeting) — Wednesday 7 Oct, 18:00 UTC",
+      "typicalReaction": "高度影响。会议纪要通常澄清美联储对降息/加息的思考；加密交易者密切关注，以寻找货币政策方向的线索。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "永续合约中持有多头（看涨）或空头（看跌）头寸的交易者支付的费用。正利率意味着多头交易者向空头交易者付费；负利率则相反。高资金费率表示强劲的看涨信心；低或负费率表示谨慎或看跌态度。"
+    },
+    {
+      "term": "多空比",
+      "definition": "开仓多头头寸（押注价格上升）与空头头寸（押注价格下降）的比例。比率高于1意味着更多交易者看涨；低于1意味着更多交易者看跌。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "市场中一段时期内上升的资产百分比与下降资产的比较。高广度（如63%上升）表明广泛的看涨情绪；低广度表明整体虚弱。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "衍生品（永续期货、期权）中未平仓的多头和空头头寸总数。未平仓头寸上升表明杠杆和信心增加；下降表明交易者平仓或收仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "日度或期间对期间未平仓头寸总额的增加或减少。上升表明新资金进入市场；下降表明平仓或收仓。"
+    },
+    {
+      "term": "Taker买卖比",
+      "definition": "激进买盘与卖盘压力的衡量。数值高于1表示更多的激进买盘（Taker发起多头交易）；低于1表示更多的激进卖盘。接近1的数值表示均衡。"
+    },
+    {
+      "term": "大户头寸比",
+      "definition": "仅在最大交易者（大户）中的多空比，不包括散户。此指标隔离最大玩家的押注，被视为价格方向的领先指标。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "一种无到期日期的期货合约（如下注合约），允许交易者无限期持有多头或空头头寸。资金费率确保价格保持在现货（当前市场）价格附近。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "一种设计用于维持固定价格（通常为$1）的加密货币，通过美元储备、其他资产或算法支持。示例：USDC、USDT、USDP。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "永续期货合约使用的参考价格，通常是主要交易所价格的时间加权平均值。用于计算资金费率和保证金要求。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "7e1cf5597594220d"
+}

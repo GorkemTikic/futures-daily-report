@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-03",
+  "kind": "market",
+  "dateLong": "Saturday, 3 October 2026",
+  "coversUTC": "2026-10-03 00:00–23:59 UTC",
+  "oneLine": "On Saturday 3 October, Bitcoin and Ethereum both rose modestly while most altcoins drifted sideways—the market showed healthy conviction despite regulatory turbulence in the US and EU, with Chainalysis connecting North Korea to the Bitget hack and bankers suing the US banking regulator over crypto trust bank charters.",
+  "newsCount": 6,
+  "macro": {
+    "BTC": 0.279923728181632,
+    "ETH": 0.711621018690363
+  },
+  "topMover": {
+    "symbol": "AINUSDT",
+    "chgPct": 78.86917044985553
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "04 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
