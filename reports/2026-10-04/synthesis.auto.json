@@ -1,0 +1,179 @@
+{
+  "oneLine": "Bitcoin and Ethereum rose about 2% and 1.5% on moderate volume as funding rates stayed elevated and traders leaned slightly long, while Gitcoin announced a product reboot that triggered a 54% surge.",
+  "caveman": "On Sunday, October 4th, Bitcoin (the biggest cryptocurrency) went up about 2% to near $86,500, and Ethereum (the second-biggest) went up about 1.5% to about $2,725. Most other crypto coins went up too — about 66% of them moved higher on the day. The stock market was closed because it's Sunday, so the trading only happened on crypto exchanges. Bitcoin traders were willing to pay more to borrow coins and bet the price would keep going up (that's called 'funding' — it cost them about 8% per year). One smaller coin called Gitcoin jumped up 54% because the company announced they're rebuilding their product and plan to launch it in December. It was a calm day with steady gains.",
+  "priceVolumeSummary": "All five major exchanges (Binance, Bybit, OKX, Bitget, Gate) reported Bitcoin closing between $86,435–$86,486 and Ethereum between $2,724–$2,726, showing strong price agreement. Binance led trading volume with $5.74 billion in Bitcoin and $3.45 billion in Ethereum, followed by OKX with $2.91 billion and $2.71 billion respectively.",
+  "positioningSummary": "Bitcoin funding stayed elevated at 8.2% annualized, signaling traders remained bullish and willing to pay to hold long positions. Ethereum's funding was higher at 10.7%, suggesting even more leverage betting on continued gains. Open interest grew modestly on both coins—Bitcoin traders added positions at an 1.22 long-to-short ratio (accounts), though the largest traders were more extreme at 1.85-to-1 long. Ethereum's account ratio was 2.86-to-1 long, indicating retail traders heavily favored upside. Taker volume (the most aggressive buying/selling) for Bitcoin showed 0.93 more selling than buying—a sign that market-takers were pressing downside slightly despite price gains. Ethereum saw nearly balanced taker activity at 1.01, meaning buy and sell aggression were roughly equal. Overall market breadth was strong at 65.9% of Binance perpetual contracts trading higher on the day.",
+  "stocksSummary": "All major equity cash markets—New York, Korea, Hong Kong, and China—were closed on Sunday, October 4th. Stock-linked perpetual contracts on Binance Futures showed mixed performance: Korean semiconductor makers drifted modestly (SK Hynix +0.4%, Samsung +0.3%), Hong Kong stocks including Tencent (+1.1%) and Zhongji Innolight (+1.3%) moved slightly higher, and Chinese micro-cap names were essentially flat. These perp moves reflect weekend positioning shifts and technical factors rather than cash-market news.",
+  "movers": [
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Gitcoin (GTC) announced its product reboot, now called 'techne,' with a pilot (beacon) already live in the app store and a targeted mid-December launch. Gitcoin Grants 24 also opened with $1.68 million in available funding for the October 14–28 donation window.",
+      "hasCause": true
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AI Network (AIN) rallied 32.3% with no clear public announcement or market catalyst visible on the day.",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "The US token fell 30.4% with no identifiable news catalyst or exchange update found.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Gitcoin launches 'techne' reboot with mid-December target and $1.68M in Grants 24 funding",
+        "what": "Gitcoin announced its product reboot initiative branded 'techne,' describing it as the company's renegotiation of its relationship with technology. The beacon pilot is now live in the app store. Gitcoin Grants 24 opens October 14–28 on Giveth with $1.68 million in available funding, using mechanisms including Quadratic Funding, retro funding, and conviction voting.",
+        "coins": "GTC",
+        "timeUTC": "2026-10-04",
+        "source": "Gitcoin Governance Forum",
+        "url": "https://gov.gitcoin.co/t/october-2026-gitcoin-reboot-update-techne-gets-a-name-a-pilot-and-a-launch-date/25394"
+      },
+      {
+        "headline": "Bitcoin spot ETFs draw $134 million over first two days of October as jobs report cools Fed hike bets",
+        "what": "Spot Bitcoin ETFs accumulated $134.4 million in net inflows over October 1–2, rebounding after September weakness. The early-October inflows suggest institutional buyers returned as a weaker September jobs report reduced expectations for additional Federal Reserve rate hikes later in the month.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-02",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/380007/uptober-starts-green-bitcoin-etfs-draw-134-million"
+      },
+      {
+        "headline": "Trump appoints former SEC chair Jay Clayton as new AI czar to lead Super Intelligence Force",
+        "what": "President Trump announced that Director of National Intelligence Jay Clayton will lead the newly-formed White House Super Intelligence Force to coordinate federal government engagement with artificial intelligence. Clayton, who previously served as SEC chair, will serve in the role while retaining his intelligence post and has 120 days to deliver recommendations on AI risks, opportunities, and federal responsibilities.",
+        "coins": "none",
+        "timeUTC": "2026-10-04",
+        "source": "CNBC / SiliconANGLE",
+        "url": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "El Salvador receives $138 million from IMF after Bitcoin waiver granted",
+          "what": "The International Monetary Fund approved a $138 million disbursement to El Salvador on October 1st, waiving a missed Bitcoin accumulation performance target. The IMF emphasized that no further Bitcoin accumulation is planned beyond documented donations, and new conditions focus on crypto transparency, tighter regulation, and reduced government involvement in Bitcoin-related operations.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-01",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/el-salvador-receives-138-million-from-imf-after-bitcoin-waivers-granted"
+        },
+        {
+          "headline": "Banking group sues to block crypto's 'side door' into the US banking system",
+          "what": "The Independent Community Bankers of America filed suit challenging the OCC's national trust charters, arguing they give crypto firms a regulatory shortcut into banking without traditional banking safeguards. The challenge targets a policy tool crypto firms have used to gain banking access.",
+          "coins": "none",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin spot ETFs clear $111 billion in assets as October inflows resume",
+          "what": "U.S. spot Bitcoin ETFs reached $111.07 billion in total assets under management, up from $99.7 billion in September. The early-October inflow rebound follows a weaker jobs report that reduced Fed rate-hike expectations and boosted risk appetite.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-04",
+          "source": "Bitcoin News Digest",
+          "url": "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-4-2026"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Drift hack recovery opens claims at one cent per dollar lost",
+          "what": "Drift Protocol opened recovery claims on October 1st for users affected by the October 1st exploit. The recovery mechanism valued DFX at approximately one cent per USDT lost, with redemption ending future pool participation for redeemed tokens.",
+          "coins": "DFX",
+          "timeUTC": "2026-10-01",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/drift-hack-recovery-opened-near-one-cent-per-dollar-lost/"
+        },
+        {
+          "headline": "Near Protocol recovers $3.8 million after issuing 48-hour ultimatum to exploiter",
+          "what": "Near Protocol announced the recovery of approximately $3.8 million drained in an October 1st exploit on its Intents platform. The team identified the attacker and set a 48-hour deadline for return; the funds were returned in full one day after the ultimatum.",
+          "coins": "NEAR",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-02",
+    "summary": "Spot Bitcoin ETFs recorded $102.7 million in net inflows on October 1st, led by BlackRock's IBIT with $195.6 million inflow, while Fidelity's FBTC saw $60.7 million in outflows. On October 2nd, net inflows totaled $31.7 million, with FBTC recording $29.3 million in inflows. Combined two-day inflow: $134.4 million.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Services PMI October 2026 (Mon 05 Oct, 14:00 UTC)",
+      "typicalReaction": "This is a high-impact economic release that measures service-sector business activity in the US. When published, it often causes short-term volatility in all risk assets including crypto as traders recalibrate expectations for Federal Reserve policy."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized funding rate",
+      "definition": "The yearly cost for traders to hold long or short positions in perpetual futures, expressed as a percentage. Higher rates incentivize traders to close long bets or open short ones."
+    },
+    {
+      "term": "Basis points",
+      "definition": "One basis point equals 1/100th of a percent (0.01%). Used to describe small percentage changes."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all traded assets that moved upward on a given day. Higher breadth indicates broad-based strength; lower breadth indicates weakness concentrated in a few assets."
+    },
+    {
+      "term": "ETF",
+      "definition": "Exchange-Traded Fund — a security that tracks the price of Bitcoin (or another asset), bought and sold on regular stock exchanges like the New York Stock Exchange. Institutions often use spot Bitcoin ETFs instead of holding Bitcoin directly."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A sentiment gauge ranging from 0 (Extreme Fear) to 100 (Extreme Greed) that measures market psychology by combining price volatility, trading volume, dominance, and social media trends."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The periodic interest payment between traders holding long positions and those holding short positions in perpetual futures contracts. Positive rates mean long holders pay short holders; negative rates are the reverse."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that a cryptocurrency's price will rise; the trader owns or is obligated to buy the asset."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The proportion of traders betting on price increases (long) versus price decreases (short). A ratio of 1.2 means 20% more traders are betting up than down."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used by a futures exchange to calculate gains and losses on open positions. It prevents traders from exploiting price differences between the futures contract and the underlying spot market."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value of all unsettled futures contracts on an exchange. Rising open interest shows traders adding bets; falling open interest shows traders closing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The day-over-day increase or decrease in the total dollar value of open futures contracts, indicating whether traders are collectively adding or reducing leverage."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "A type of futures contract with no expiration date. Traders can hold positions indefinitely by paying periodic funding fees to the opposing side."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that a cryptocurrency's price will fall; the trader owes or is obligated to sell the asset."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying versus aggressive selling. A ratio above 1.0 means more traders are aggressively buying; below 1.0 means more are aggressively selling."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The proportion of the largest traders betting on price increases versus decreases. Often more predictive of short-term moves than the overall account ratio."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar amount (or coin amount) of a cryptocurrency traded on a given day across all exchanges."
+    }
+  ],
+  "_source": "cli"
+}

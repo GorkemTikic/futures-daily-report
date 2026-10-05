@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-04T00:04:46.491Z",
-  "count": 109,
+  "generatedAt": "2026-10-05T00:06:16.265Z",
+  "count": 110,
   "counts": {
-    "total": 109,
-    "market": 22,
+    "total": 110,
+    "market": 23,
     "divergence": 87,
     "degraded": 1
   },
-  "latest": "2026-10-03",
+  "latest": "2026-10-04",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-10-04",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 2.049379131598601,
+        "ETH": 1.4805686992066647
+      },
+      "marketSummary": "Bitcoin and Ethereum rose about 2% and 1.5% on moderate volume as funding rates stayed elevated and traders leaned slightly long, while Gitcoin announced a product reboot that triggered a 54% surge.",
+      "oneLine": "Bitcoin and Ethereum rose about 2% and 1.5% on moderate volume as funding rates stayed elevated and traders leaned slightly long, while Gitcoin announced a product reboot that triggered a 54% surge.",
+      "newsCount": 8,
+      "topMover": {
+        "symbol": "GTCUSDT",
+        "chgPct": 54.34706089405138
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-04/summary_2026-10-04.html",
+        "pdf": "reports/2026-10-04/summary_2026-10-04.pdf",
+        "md": "reports/2026-10-04/summary_2026-10-04.md"
+      }
+    },
     {
       "date": "2026-10-03",
       "kind": "market",

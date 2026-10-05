@@ -1,0 +1,180 @@
+{
+  "oneLine": "比特币和以太坊在适度成交量下分别上升2%和1.5%，融资费率保持高位，交易者持续看涨，而Gitcoin宣布产品重启引发54%大幅上升。",
+  "caveman": "周日10月4日，比特币（最大的加密货币）上升约2%至接近$86,500；以太坊（第二大加密货币）上升约1.5%至约$2,725。大多数其他加密货币也涨了——约66%的币种当天价格上升。股票市场因为是周日而关闭，所以交易只在加密货币交易所进行。比特币交易者愿意支付费用来借币并下注价格会继续上升（这叫'融资'——每年花费约8%）。一个叫Gitcoin的小币涨了54%，因为公司宣布正在重建产品，计划12月推出。那天交易平静，稳定上升。",
+  "priceVolumeSummary": "五大交易所（Binance、Bybit、OKX、Bitget、Gate）报告比特币收盘价在$86,435–$86,486之间，以太坊在$2,724–$2,726之间，显示价格高度一致。Binance成交量领先，比特币成交额为$5.74 billion，以太坊为$3.45 billion，其次是OKX分别为$2.91 billion和$2.71 billion。",
+  "positioningSummary": "比特币融资费率保持高位，年化8.2%，表明交易者保持看涨，愿意支付费用持有多头头寸。以太坊融资费率更高，为10.7%，表明对继续上涨的杠杆押注更多。两种币的未平仓头寸小幅增长——比特币交易者以1.22的多空比（账户）增加头寸，不过大型交易者更极端，多空比为1.85:1。以太坊账户多空比为2.86:1，表明零售交易者高度看涨。比特币的Taker成交量（最激进的买卖）显示卖方压力略强，比率0.93，尽管价格上升——表明市场接受方虽然价格上涨但略微看空。以太坊Taker活动接近平衡，比率1.01，买卖压力大致相等。整体市场广度强劲，Binance永续合约中65.9%当天交易价格上升。",
+  "stocksSummary": "所有主要股票现货市场——纽约、韩国、香港和中国——在周日10月4日关闭。Binance期货上的股票挂钩永续合约表现不一：韩国半导体制造商小幅波动（SK Hynix +0.4%，Samsung +0.3%），香港股票包括腾讯（+1.1%）和Zhongji Innolight（+1.3%）略微上升，中国小市值名单基本持平。这些永续合约走势反映的是周末头寸调整和技术因素，而非现货市场新闻。",
+  "movers": [
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Gitcoin（GTC）宣布产品重启，现称'techne'，试点（beacon）已在应用商店上线，目标在12月中旬推出。Gitcoin Grants 24也开放了，为10月14–28捐赠窗口提供$1.68 million可用资金。",
+      "hasCause": true
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AI Network（AIN）上升32.3%，当天没有明确的公开公告或市场催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "US代币下跌30.4%，未发现可识别的新闻催化剂或交易所更新。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Gitcoin推出'techne'重启，目标12月中旬，Grants 24融资$1.68M",
+        "what": "Gitcoin宣布其产品重启倡议，品牌名为'techne'，描述为公司与技术关系的重新协商。Beacon试点现已在应用商店上线。Gitcoin Grants 24在Giveth上10月14–28开放，提供$1.68 million可用资金，采用二次融资、追溯融资和信念投票等机制。",
+        "coins": "GTC",
+        "timeUTC": "2026-10-04",
+        "source": "Gitcoin Governance Forum",
+        "url": "https://gov.gitcoin.co/t/october-2026-gitcoin-reboot-update-techne-gets-a-name-a-pilot-and-a-launch-date/25394"
+      },
+      {
+        "headline": "比特币现货ETF在10月前两天吸引$1.34亿，就业报告减弱美联储加息预期",
+        "what": "现货比特币ETF在10月1–2日累计净流入$134.4 million，在9月疲软后反弹。10月初的流入表明，随着9月就业报告较弱降低了本月后期美联储加息预期，机构买家回归。",
+        "coins": "BTC",
+        "timeUTC": "2026-10-02",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/380007/uptober-starts-green-bitcoin-etfs-draw-134-million"
+      },
+      {
+        "headline": "特朗普任命前SEC主席Jay Clayton为新AI沙皇，领导超级智能部队",
+        "what": "特朗普总统宣布，国家情报总监Jay Clayton将领导新成立的白宫超级智能部队，协调联邦政府与人工智能的互动。曾任SEC主席的Clayton将在保留其情报职位的同时担任此角色，有120天时间就人工智能风险、机遇和联邦责任提供建议。",
+        "coins": "none",
+        "timeUTC": "2026-10-04",
+        "source": "CNBC / SiliconANGLE",
+        "url": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "萨尔瓦多在IMF批准比特币豁免后获得$1.38 million",
+          "what": "国际货币基金组织在10月1日批准向萨尔瓦多拨付$138 million，豁免了未达到的比特币积累业绩目标。IMF强调，计划不再进一步积累比特币（除了有文件记录的捐赠），新条件重点关注加密货币透明度、更严格的监管和减少政府在比特币相关业务中的参与。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-01",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/el-salvador-receives-138-million-from-imf-after-bitcoin-waivers-granted"
+        },
+        {
+          "headline": "银行集团起诉阻止加密货币进入美国银行系统的'后门'",
+          "what": "美国独立社区银行协会提起诉讼，挑战OCC的全国信托章程，声称这给加密公司提供了监管捷径进入银行业，而无需传统银行保障措施。该诉讼针对加密公司用来获得银行访问权的政策工具。",
+          "coins": "none",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币现货ETF资产突破$1,110亿，10月流入恢复",
+          "what": "美国现货比特币ETF总资产管理规模达到$111.07 billion，较9月的$99.7 billion增长。10月初流入反弹紧随较弱就业报告之后，该报告降低了美联储加息预期并提振了风险偏好。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-04",
+          "source": "Bitcoin News Digest",
+          "url": "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-4-2026"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Drift黑客恢复开放索赔，每损失1美元赔付1美分",
+          "what": "Drift协议在10月1日为受10月1日漏洞影响的用户开放恢复索赔。恢复机制将DFX定价约为每损失1 USDT 1美分，赎回结束赎回代币的未来池参与。",
+          "coins": "DFX",
+          "timeUTC": "2026-10-01",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/drift-hack-recovery-opened-near-one-cent-per-dollar-lost/"
+        },
+        {
+          "headline": "Near协议在向漏洞利用者下达48小时最后通牒后恢复$3.8 million",
+          "what": "Near协议宣布恢复在其Intents平台10月1日漏洞中流失的约$3.8 million。团队确认了攻击者并设置了48小时返还期限；在最后通牒后一天资金全部返还。",
+          "coins": "NEAR",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-02",
+    "summary": "现货比特币ETF在10月1日记录$102.7 million净流入，由BlackRock的IBIT以$195.6 million流入领导，而Fidelity的FBTC流出$60.7 million。10月2日，净流入总计$31.7 million，FBTC记录$29.3 million流入。两天合并流入：$134.4 million。",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Services PMI October 2026 (Mon 05 Oct, 14:00 UTC)",
+      "typicalReaction": "这是高影响力经济数据，衡量美国服务业商业活动。发布时，通常会导致所有风险资产（包括加密货币）的短期波动，因为交易者重新校准对美联储政策的预期。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化融资费率",
+      "definition": "交易者在永续期货中持有多头或空头头寸的年度成本，以百分比表示。费率越高，越激励交易者平仓多头或开立空头。"
+    },
+    {
+      "term": "基点",
+      "definition": "一个基点等于百分之一（0.01%）。用于描述小的百分比变化。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "在特定一天上升的所有交易资产的百分比。广度越高表示力量分散广泛；广度越低表示力量集中在少数资产。"
+    },
+    {
+      "term": "ETF",
+      "definition": "交易所交易基金——跟踪比特币（或其他资产）价格的证券，在纽约证券交易所等常规股票交易所买卖。机构通常使用现货比特币ETF而非直接持有比特币。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "一项情绪指标，范围从0（极度恐惧）到100（极度贪婪），通过结合价格波动、交易量、主导地位和社交媒体趋势来衡量市场心理。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "永续期货合约中持多头的交易者与持空头的交易者之间的定期利息支付。正费率意味着多头支付空头；负费率则相反。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "押注加密货币价格上升的头寸；交易者拥有或有义务购买资产。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升（多头）的交易者与押注价格下跌（空头）的交易者的比例。比率1.2表示押注上升的交易者比押注下跌的交易者多20%。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货交易所用来计算未平仓头寸盈亏的参考价格。它防止交易者利用期货合约与基础现货市场之间的价格差异。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "交易所所有未平仓期货合约的总美元价值。未平仓头寸上升表明交易者增加押注；下降表明交易者平仓。"
+    },
+    {
+      "term": "持仓量变化",
+      "definition": "未平仓期货合约总美元价值的日度增减，表明交易者是集体增加还是减少杠杆。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "没有到期日期的期货合约类型。交易者可以通过向对方支付定期融资费来无限期持有头寸。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "押注加密货币价格下跌的头寸；交易者欠债或有义务卖出资产。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "积极买入与积极卖出的比较。比率高于1.0表示更多交易者积极买入；低于1.0表示更多交易者积极卖出。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "最大交易者中押注价格上升与下跌的比例。通常对短期波动的预测性强于整体账户比率。"
+    },
+    {
+      "term": "成交量",
+      "definition": "某加密货币在特定一天在所有交易所交易的总美元金额（或币数）。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "439dd3c14a119627"
+}

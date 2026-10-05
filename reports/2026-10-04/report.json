@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-04",
+  "kind": "market",
+  "dateLong": "Sunday, 4 October 2026",
+  "coversUTC": "2026-10-04 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum rose about 2% and 1.5% on moderate volume as funding rates stayed elevated and traders leaned slightly long, while Gitcoin announced a product reboot that triggered a 54% surge.",
+  "newsCount": 8,
+  "macro": {
+    "BTC": 2.049379131598601,
+    "ETH": 1.4805686992066647
+  },
+  "topMover": {
+    "symbol": "GTCUSDT",
+    "chgPct": 54.34706089405138
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "05 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

@@ -1,0 +1,180 @@
+{
+  "oneLine": "Bitcoin ve Ethereum kaldıraçlı pozisyonlar ağır basarken orta hacimde sırasıyla %2 ve %1,5 yükseldi; Gitcoin'in ürün yeniden tasarımı duyurusu ise %54'lük sıçramaya neden oldu.",
+  "caveman": "Pazar günü, 4 Ekim'de Bitcoin (en büyük kripto para birimi) yaklaşık %2 artarak 86.500 dolar civarına yükseldi ve Ethereum (ikinci en büyük) yaklaşık %1,5 artarak 2.725 dolar civarında hareket etti. Diğer kripto paralar da genellikle yükseldi — günü yüksek konumda kapatan %66'sı hareket etti. Borsa Pazar günü kapalı olduğu için tüm ticaret kripto borsalarında gerçekleşti. Bitcoin tüccarları pozisyon tutmak için daha fazla ödeme yapmaya istekliydiler (buna 'finansman' denir — yıllık maliyetleri yaklaşık %8 idi). Gitcoin adında daha küçük bir kripto ürünü yeniden tasarladığını duyurdu ve Aralık ayında piyasaya sürmeyi hedefliyor; bu haber %54 fiyat sıçramasını tetikledi. Sakin bir gün, istikrarlı kazançlarla geçti.",
+  "priceVolumeSummary": "Beş ana borsa (Binance, Bybit, OKX, Bitget, Gate) Bitcoin'in 86.435 ile 86.486 dolar arasında, Ethereum'un 2.724 ile 2.726 dolar arasında kapandığını bildirdi ve güçlü fiyat uyumunu gösterdi. Binance işlem hacminde öncü konumdaydı: Bitcoin'de 5,74 milyar dolar ve Ethereum'da 3,45 milyar dolar; OKX sırasıyla 2,91 milyar dolar ve 2,71 milyar dolar ile takip etti.",
+  "positioningSummary": "Bitcoin finansman oranı %8,2 yıllık seviyede yüksek kaldı ve tüccarların boğa eğiliminde olduğunu, uzun pozisyon tutmak için ödeme yapmaya istekli olduğunu gösterdi. Ethereum'un finansman oranı %10,7 ile daha yüksekti ve devam eden kazançlar üzerine daha fazla kaldıraçlı bahis olduğunu gösteriyordu. Açık faiz her iki cointte de mütevazı büyüdü — Bitcoin tüccarları 1,22 uzun-kısa oranında pozisyon eklediler (hesaplar bazında), ancak en büyük tüccarlar 1,85'e 1'lik daha uç bir oran gösterdiler. Ethereum'un hesap oranı 2,86'ya 1'di ve perakende tüccarların yükselişe ağır basmasını gösteriyordu. Bitcoin'in alıcı hacmi (%0,93 daha fazla satış oranında) fiyat kazanımlarına rağmen satış yönünde hafif basınç gösteriyordu. Ethereum'da neredeyse dengeli alıcı aktivitesi (1,01) gözlemlenmiş ve alım ile satış agresyonunun kabaca eşit olduğu anlamına geliyordu. Genel pazar genişliği güçlüydü: Binance kalıcı kontratlarının %65,9'u günü yüksek konumda kapatmıştı.",
+  "stocksSummary": "Tüm ana hisse senedi nakit piyasaları — New York, Kore, Hong Kong ve Çin — 4 Ekim Pazar günü kapalıydı. Binance Futures'taki hisse senedi bağlantılı kalıcı kontratlar karışık performans gösterdi: Güney Kore yarı iletken üreticileri hafifçe kayıp yaşadı (SK Hynix +0,4%, Samsung +0,3%), Hong Kong hisse senetleri Tencent (+1,1%) ve Zhongji Innolight (+1,3%) dahil olmak üzere biraz yükseldi ve Çin mikro-kap adları temelde sabit kaldı. Bu kalıcı kontrat hareketleri hafta sonu pozisyonlama değişiklikleri ve teknik faktörleri yansıtıyordu, nakit piyasa haberlerini değil.",
+  "movers": [
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Gitcoin (GTC), ürün yeniden tasarımını duyurdu; 'techne' olarak adlandırılan projenin pilot versiyonu (beacon) zaten uygulama mağazasında canlı ve Aralık ortası piyasaya sürüşü hedefleniyor. Gitcoin Grants 24 de 14–28 Ekim bağış penceresi için 1,68 milyon dolar fon ile açıldı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AI Network (AIN) %32,3 yükseldi ancak gün içinde açık bir duyuru veya pazar katalizörü görülmüyordu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "US tokeni %30,4 düştü ve tespit edilebilir bir haber katalizörü veya borsa güncellemesi bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Gitcoin, 'techne' yeniden tasarımını Aralık ortası hedefiyle ve Grants 24'de 1,68 milyon dolar finansmanla piyasaya sürüyor",
+        "what": "Gitcoin, 'techne' adıyla markalaşan ürün yeniden tasarım girişimini duyurdu ve bunu şirketin teknolojiye olan ilişkisinin yeniden müzakeresi olarak tanımladı. Beacon pilot versiyonu şimdi uygulama mağazasında canlı. Gitcoin Grants 24, 14–28 Ekim'de Giveth'te 1,68 milyon dolar mevcut fon ile açılıyor ve Quadratic Funding, retro funding ve conviction voting dahil olmak üzere mekanizmalar kullanıyor.",
+        "coins": "GTC",
+        "timeUTC": "2026-10-04",
+        "source": "Gitcoin Governance Forum",
+        "url": "https://gov.gitcoin.co/t/october-2026-gitcoin-reboot-update-techne-gets-a-name-a-pilot-and-a-launch-date/25394"
+      },
+      {
+        "headline": "Bitcoin spot ETF'ler ilk iki Ekim günü 134 milyon dolar çekerken işsizlik raporu Fed faiz artışı bahislerini serinleştiriyor",
+        "what": "Spot Bitcoin ETF'leri 1–2 Ekim'de 134,4 milyon dolar net giriş biriktirdiler, Eylül zayıflığından sonra toparlandılar. Erken Ekim girişleri, Eylül işsizlik raporunun zayıf olması nedeniyle ayın ilerleyen dönemlerinde ek Federal Rezerv faiz artışı beklentilerini düşürdüğünden kurumsal yatırımcıların geri döndüğünü gösteriyordu.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-02",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/380007/uptober-starts-green-bitcoin-etfs-draw-134-million"
+      },
+      {
+        "headline": "Trump, eski SEC başkanı Jay Clayton'u yeni AI sorumlusu olarak Süper İstihbarat Gücü'nü yönetmek üzere atadı",
+        "what": "Başkan Trump, Ulusal İstihbarat Müdürü Jay Clayton'un yeni kurulmuş Beyaz Saray Süper İstihbarat Gücü'nü yönetip federal hükümet ile yapay zekanın etkileşimini koordine edeceğini duyurdu. Clayton, daha önce SEC başkanı olarak görev yapan kişi, bu rolde görev yapacak ve istihbarat görevini de sürdürecek; 120 gün içinde yapay zeka riskleri, fırsatları ve federal sorumluluklar hakkında tavsiye sunacak.",
+        "coins": "none",
+        "timeUTC": "2026-10-04",
+        "source": "CNBC / SiliconANGLE",
+        "url": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "El Salvador, Bitcoin muafiyeti verilmesinden sonra IMF'den 138 milyon dolar alıyor",
+          "what": "Uluslararası Para Fonu, 1 Ekim'de El Salvador'a 138 milyon dolar ödemeyi onayladı ve kaçırılan Bitcoin birikimi performans hedefini muaf tuttu. IMF, dokümante edilen bağışların ötesinde Bitcoin birikimine dair başka bir plan olmadığını vurguladı ve yeni koşullar kripto şeffaflığı, sıkı düzenleme ve Bitcoin ile ilgili operasyonlarda hükümet katılımının azaltılmasına odaklanıyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-01",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/el-salvador-receives-138-million-from-imf-after-bitcoin-waivers-granted"
+        },
+        {
+          "headline": "Bankacılık grubu, kripto'nun ABD bankacılık sistemine olan 'yan kapı'sını engelleme amaçlı dava açıyor",
+          "what": "Bağımsız Topluluk Bankaları Birliği, OCC'nin ulusal güven tüzüklerine karşı dava açtı ve bunların kripto firmalarına geleneksel bankacılık korumaları olmadan bankacılığa düzenleyici kısayol sağladığını savundu. Challenge, kripto firmalarının bankacılık erişimi elde etmek için kullandığı bir politika aracını hedefliyor.",
+          "coins": "none",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin spot ETF'leri Ekim girişleri devam ederken 111 milyar dolar varlıkları temizliyor",
+          "what": "ABD spot Bitcoin ETF'leri, Eylül'deki 99,7 milyar dolardan 111,07 milyar dolar toplam yönetim altındaki varlığa ulaştı. Erken Ekim giriş toparlanması, Fed faiz artışı beklentilerini düşüren ve risk iştahını arttıran zayıf bir işsizlik raporunun ardından geldi.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-04",
+          "source": "Bitcoin News Digest",
+          "url": "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-4-2026"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Drift hack kurtarması kaybedilen dolar başına bir sent üzerinden talep açıyor",
+          "what": "Drift Protocol, 1 Ekim exploit'inden etkilenen kullanıcılar için 1 Ekim'de kurtarma taleplerini açtı. Kurtarma mekanizması DFX'i kaybedilen USDT başına yaklaşık bir sent değerinde tuttu ve kullanılan tokenler için gelecekteki havuz katılımını sona erdirdi.",
+          "coins": "DFX",
+          "timeUTC": "2026-10-01",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/drift-hack-recovery-opened-near-one-cent-per-dollar-lost/"
+        },
+        {
+          "headline": "Near Protocol, exploit ediciye 48 saatlik ültimatum vermesinden sonra 3,8 milyon dolar kurtarıyor",
+          "what": "Near Protocol, Intents platformunda 1 Ekim exploit'inde akıtılan yaklaşık 3,8 milyon doların kurtarıldığını duyurdu. Ekip saldırganı tanımladı ve geri dönüş için 48 saatlik bir son tarih belirledi; fonlar ültimatomdan bir gün sonra tamamen geri döndü.",
+          "coins": "NEAR",
+          "timeUTC": "2026-10-02",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-02",
+    "summary": "Spot Bitcoin ETF'leri 1 Ekim'de 102,7 milyon dolar net giriş kaydetti; BlackRock'ın IBIT'i 195,6 milyon dolar girişle başı çekerken Fidelity'nin FBTC'si 60,7 milyon dolar çıkış gördü. 2 Ekim'de net girişler 31,7 milyon dolara ulaştı ve FBTC 29,3 milyon dolar giriş kaydetti. Birleşik iki günlük giriş: 134,4 milyon dolar.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Services PMI October 2026 (Mon 05 Oct, 14:00 UTC)",
+      "typicalReaction": "Bu, ABD'deki hizmet sektörü iş aktivitesini ölçen yüksek etkili bir ekonomik rapordur. Yayınlandığında, tüccarlar Federal Rezerv politikası hakkındaki beklentileri yeniden kalibre ettikçe kripto dahil tüm risk varlıklarında genellikle kısa dönem oynaklığına neden olur."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllık finansman oranı",
+      "definition": "Tüccarların kalıcı vadeli işlemlerde uzun veya kısa pozisyon tutma maliyeti, yüzde olarak ifade edilir. Daha yüksek oranlar, tüccarları uzun bahisleri kapatmaya veya kısa olanları açmaya teşvik eder."
+    },
+    {
+      "term": "Basis puan",
+      "definition": "Bir basis puan, yüzdenin 1/100'üne eşittir (%0,01). Küçük yüzde değişikliklerini tanımlamak için kullanılır."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir gün içinde işlem gören tüm varlıkların yüksek hareket eden yüzdesini gösterir. Daha yüksek genişlik geniş tabanlı gücü gösterir; daha düşük genişlik birkaç varlıkta yoğunlaşan zayıflığı gösterir."
+    },
+    {
+      "term": "ETF",
+      "definition": "Borsa Yatırım Fonu — Bitcoin'in (veya başka bir varlığın) fiyatını izleyen ve New York Menkul Kıymetler Borsası gibi düzenli hisse senedi borsalarında alınıp satılan bir menkul kıymet. Kurumlar genellikle Bitcoin'i doğrudan tutmak yerine spot Bitcoin ETF'lerini kullanırlar."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında değişen bir duygusal gösterge; fiyat volatilitesi, işlem hacmi, hakim oranı ve sosyal medya trendlerini birleştirerek pazar psikolojisini ölçer."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Kalıcı vadeli işlem kontratlarında uzun pozisyon tutan tüccarlar ile kısa pozisyon tutan tüccarlar arasındaki periyodik faiz ödemesi. Pozitif oranlar uzun tutarların kısa tutarlara ödeme yaptığı anlamına gelir; negatif oranlar tam tersidir."
+    },
+    {
+      "term": "Uzun pozisyon",
+      "definition": "Bir kripto paranın fiyatının yükseleceğine dair bir bahis; tüccar varlığa sahip veya satın almak zorundadır."
+    },
+    {
+      "term": "Uzun-kısa oranı",
+      "definition": "Fiyat artışına bahis koyan (uzun) tüccarların fiyat düşüşüne bahis koyan (kısa) tüccarlarla karşılaştırıldığında oranı. 1,2 oranı, yüksek bahis koyan tüccarların %20 daha fazla olduğu anlamına gelir."
+    },
+    {
+      "term": "İşaretli fiyat",
+      "definition": "Vadeli işlem borsası tarafından açık pozisyonlardaki kazanç ve kayıpları hesaplamak için kullanılan referans fiyat. Tüccarların vadeli işlem kontratı ile temel spot pazar arasındaki fiyat farklarından yararlanmasını önler."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Bir borsada tüm kapatılmamış vadeli işlem kontratlarının toplam dolar değeri. Artan açık faiz, tüccarların bahis eklediğini gösterir; düşen açık faiz tüccarların pozisyon kapattığını gösterir."
+    },
+    {
+      "term": "Açık faiz değişikliği",
+      "definition": "Açık vadeli işlem kontratlarının toplam dolar değerinin günden güne artması veya azalması; tüccarların toplu olarak kaldıraç ekleyip eklemediğini veya azaltıp azaltmadığını gösterir."
+    },
+    {
+      "term": "Kalıcı vadeli işlemler (perpetual)",
+      "definition": "Sona erme tarihi olmayan bir vadeli işlem kontratı türü. Tüccarlar karşı tarafa periyodik finansman ücretleri ödeyerek pozisyonları belirsiz bir süre tutabilirler."
+    },
+    {
+      "term": "Kısa pozisyon",
+      "definition": "Bir kripto paranın fiyatının düşeceğine dair bir bahis; tüccar varlığı satmakla yükümlüdür."
+    },
+    {
+      "term": "Alıcı/Satıcı oranı",
+      "definition": "Agresif alışın agresif satışa karşı bir ölçüsü. 1,0 üstü oran daha fazla tüccarın agresif alış yaptığı anlamına gelir; 1,0 altı daha fazla agresif satış yapıldığı anlamına gelir."
+    },
+    {
+      "term": "Üst tüccar uzun/kısa oranı",
+      "definition": "En büyük tüccarların fiyat artışına bahis koyan oranı karşılığında fiyat düşüşüne karşı. Genel hesap oranından daha çok kısa dönem hareketlerini öngörür."
+    },
+    {
+      "term": "İşlem hacmi",
+      "definition": "Belirli bir gün içinde tüm borsalarda işlem gören bir kripto paranın toplam dolar miktarı (veya coin miktarı)."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "439dd3c14a119627"
+}
