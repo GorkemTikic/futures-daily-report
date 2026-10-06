@@ -288,6 +288,11 @@ function readManual(dayDir, legacyName, manualName) {
   return null;
 }
 
+// Malformed-output failures worth another attempt (synthesis and translations).
+const OUTPUT_SHAPE_ERRORS = new Set(["invalid", "unbalanced", "no-object"]);
+// The English write-up runs with web search and can take minutes, so one retry.
+const SYNTHESIS_ATTEMPTS = 2;
+
 export async function synthesize(pack, config, dayDir, opts = {}) {
   // (a) manual override always wins
   const manual = readManual(dayDir, "synthesis.json", "synthesis.manual.json");
@@ -313,14 +318,22 @@ export async function synthesize(pack, config, dayDir, opts = {}) {
   const prompt = buildSynthesisPrompt(pack, opts);
   let lastErr, lastKind;
   for (const backend of order) {
-    try {
-      const obj = await runBackend(backend, prompt, config, { useTools: true });
-      if (!obj.oneLine) throw new Error("synthesis missing oneLine");
-      try { fs.writeFileSync(path.join(dayDir, "synthesis.auto.json"), JSON.stringify({ ...obj, _source: backend }, null, 2), "utf8"); } catch {}
-      return { ...obj, _source: backend, _fellBack: false, _cliOnly: cliOnly };
-    } catch (err) {
-      lastErr = String(err.message || err).slice(0, 300); lastKind = err.kind || "error";
-      console.warn(`  ${backend} synthesis failed [${lastKind}] (${lastErr.slice(0, 160)})`);
+    // A reply that isn't the JSON object (prose, cut off, unbalanced) is a one-off of
+    // that generation, as with translations: ask again before falling back to
+    // data-only. Auth / rate-limit errors are not retried. (5 Oct 2026 went data-only
+    // on a single "no JSON object in output" while both translations then succeeded.)
+    for (let attempt = 1; attempt <= SYNTHESIS_ATTEMPTS; attempt++) {
+      try {
+        const obj = await runBackend(backend, prompt, config, { useTools: true });
+        if (!obj.oneLine) { const e = new Error("synthesis missing oneLine"); e.kind = "invalid"; throw e; }
+        try { fs.writeFileSync(path.join(dayDir, "synthesis.auto.json"), JSON.stringify({ ...obj, _source: backend }, null, 2), "utf8"); } catch {}
+        return { ...obj, _source: backend, _fellBack: false, _cliOnly: cliOnly };
+      } catch (err) {
+        lastErr = String(err.message || err).slice(0, 300); lastKind = err.kind || "error";
+        const retry = OUTPUT_SHAPE_ERRORS.has(err.kind) && attempt < SYNTHESIS_ATTEMPTS;
+        console.warn(`  ${backend} synthesis failed [${lastKind}] (${lastErr.slice(0, 160)})${retry ? " — asking again" : ""}`);
+        if (!retry) break;
+      }
     }
   }
   console.warn("  all synthesis backends failed — data-only fallback");
@@ -354,9 +367,7 @@ function translationIsCurrent(obj, file, from, dayDir) {
   } catch { return false; }
 }
 
-// Malformed-output failures worth another attempt (see resolveTranslation).
 const TRANSLATION_ATTEMPTS = 3;
-const OUTPUT_SHAPE_ERRORS = new Set(["invalid", "unbalanced", "no-object"]);
 
 export async function resolveTranslation(synthEn, lang, config, dayDir, opts = {}) {
   if (!LANG_NAME[lang]) return null;
