@@ -1,0 +1,33 @@
+{
+  "oneLine": "Pazar verileri 5 borsada toplanmış; bu çalıştırmada haber sentezi mevcut değildir.",
+  "caveman": "",
+  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Otomatik açıklama bu çalıştırmada mevcut değil — rakamlar doğrudan gösterilmiştir.)",
+  "positioningSummary": "Aşağıdaki pozisyonlama tablosuna bakınız.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "RLCUSDT",
+      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "NILUSDT",
+      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "Bu çalıştırmada açıklama mevcut değildir.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [],
+    "groups": {}
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
+  "_source": "cli-tr",
+  "_from": "5007018562e8e390"
+}

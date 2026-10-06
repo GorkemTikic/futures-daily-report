@@ -1,0 +1,33 @@
+{
+  "oneLine": "市场数据采集自5家交易所，本轮新闻汇总功能暂停。",
+  "caveman": "",
+  "priceVolumeSummary": "详见下表交易所数据汇总。（本轮自动叙述暂停，数据已直接展示。）",
+  "positioningSummary": "详见下表持仓数据。",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "RLCUSDT",
+      "explanation": "本轮暂无文字分析。",
+      "hasCause": false
+    },
+    {
+      "symbol": "NILUSDT",
+      "explanation": "本轮暂无文字分析。",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "本轮暂无文字分析。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [],
+    "groups": {}
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
+  "_source": "cli-zh",
+  "_from": "5007018562e8e390"
+}
