@@ -1,0 +1,229 @@
+{
+  "oneLine": "6 Ekim'de Bitcoin ve Ethereum hafifçe düştü, piyasa genişliği negatife dönerken, kurumsal yatırımcıların alternatif kripto platformları ve gizlilik parası ETF'lerine ilgisi sınırlı bir dengeleme sağladı.",
+  "caveman": "6 Ekim'de Bitcoin ve Ethereum'un her ikisi de biraz düştü — Bitcoin yaklaşık 85.700 dolardan 85.500 dolara geriledi, Ethereum ise 2.708 dolardan 2.696 dolara daha fazla düştü. O gün kripto piyasasında çoğu para kötü performans gösterdi; her 100 paradan sadece 36'sı fiyatta yükseldi. Ama bazı şirketler büyük duyurular yaptı: büyük bir yatırım bankası ve diğer finans şirketleri OKX kripto alım satım platformuna para yatırdı; Bitcoin'in erken kurucusu olan Winklevoss ikizlerinin kurduğu bir şirket, Zcash (bir gizlilik parası) için yeni bir yatırım fonu kurma prosedürünü başlattı. Tether istikrarlı madeni parasının şirketi bazı kişilerin parasını açıklama olmadan dondurduğunu söylediğinde de endişe yaşandı. Genel olarak çoğu tacir için sakin ama hayal kırıcı bir gün oldu; düşüş zayıf talep nedeniyle, kötü haberlerin değil.",
+  "priceVolumeSummary": "Tüm büyük borsalar Bitcoin'in fiyatında yaklaşık 85.512 dolar ve Ethereum'da yaklaşık 2.696 dolar konusunda hemfikir oldu. Binance Bitcoin alım satımında 9,36 milyar dolar ve Ethereum'da 5,70 milyar dolar ile hacimde öncü rolü oynadı ve tüm mekanlar arasında en büyük payı temsil etti.",
+  "positioningSummary": "Bitcoin fon oranı hafifçe negatife dönüş yaptı (−0,81% yıllıklandırılmış), daha fazla tüccarın fiyat düşüşüne bahis oynayacağını gösterirken, 1,09'luk uzun/kısa oranı genel olarak alıcıları satıcılardan daha fazla gösterdi. En iyi tüccarlar 1,78x'te ağır şekilde uzun kalırken, sıradan alıcılar (taker oranı 0,96) satıcılardan daha az agresifti. Ethereum fon oranı +10,1% yıllıklandırılmış ile güçlü şekilde pozitif kaldı, uzun pozisyon getirisi arayan tüccarları çekti; 2,50'lik uzun/kısa oranı çok daha fazla uzun pozisyon gösterdi ve en iyi tüccarlar 1,67x'te uzun durumda idiler. Piyasa genişliği negatif oldu: Binance türev işlem borsasındaki işlemlerin sadece %36,5'i gün içinde yükseldi (789'dan 288), çoğu parada zayıflık gösteriyor.",
+  "stocksSummary": "ABD hisse senetleri yeni zirveler kaydetti (S&P 500 +0,55%, Nasdaq +0,40%) dolar zayıflarken (−0,31%), hazine bonomları yükselirken (+0,23%) ve altın hafifçe düşerken (−0,07%). Asya'da Güney Kore'nin yarı iletken stokları çakıldı: SK Hynix −5,54% ve Samsung −2,97% düştü, ancak LG Electronics +6,78% geri döndü. Hong Kong'da Zhipu AI +5,98% yükselirken, yarı iletken kaldıraçlı bahisler çöktü (CSOP SK Hynix −10,29%, CSOP Samsung −6,37%). Çin'in nakit hisse senedi piyasaları Ulusal Bayram tatili nedeniyle kapalıydı.",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "217 milyon dolarlık hacimle %45,36 kazanç elde etti; bu küçük sermayeli tokenin ralisinde tanımlanmış açık bir kamu nedeni yoktur.",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "123 milyon dolarlık hacimle %37,59'luk bir artışla hızlandı; hareketi tetikleyen tanımlanmış haber yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "explanation": "382 milyon dolarlık hacimle %32,23 yükseldi; hareketi açıklayan tanımlanmış haber veya olaylar yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "OKX, Standard Chartered, Circle ve Ripple'dan yatırım alıyor",
+        "what": "Kripto borsası, Standard Chartered finans grubu, istikrarlı madeni para ihraçcısı Circle ve blockchain firması Ripple'dan büyük kurumsal destek sağladı ve kripto platformlarına ve istikrarlı madeni para genişletmesine olan güveni gösterdi. Yatırım OKX'i sadece bir alım satım mekanı yerine kripto, ödemeler ve tokenize edilmiş varlıkları kapsayan küresel bir fintech platformu olarak konumlandırıyor.",
+        "coins": "OKX platformu (genel)",
+        "timeUTC": "2026-10-06 20:47 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/06/okx-draws-investment-from-stanchart-circle-ripple-as-it-pushes-beyond-crypto-exchange-roots"
+      },
+      {
+        "headline": "Winklevoss ikizleri Nasdaq'ta spot Zcash ETF'si için başvuru yapıyor",
+        "what": "Winklevoss Asset Services, 'WINK' kodu altında spot Zcash ETF'si başlatmak için SEC'e başvuruda bulundu; Gemini gözlemci olacak ve ücret %0,25. Başvuru, kurumsal iştahın Bitcoin ve Ethereum'un ötesine gizlilik paralarına kadar uzandığını gösteriyor.",
+        "coins": "Zcash (ZEC)",
+        "timeUTC": "2026-10-06 22:30 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-06-winklevoss-files-spot-zcash-etf-wink-417826"
+      },
+      {
+        "headline": "Conduit, Tether'i mahkemeye götürüyor; açıklama olmaksızın 2,76 milyon dolar USDT dondurulduğunu iddia ediyor",
+        "what": "Ödeme firması Conduit, Tether'in yasal haklı gerekçe olmaksızın 2,76 milyon dolar değerindeki USDT'sini bir yıldan fazla bir süre dondurduğunu iddia ederek New York federal mahkemesine dava açtı. Dava, istikrarlı madeni para saklama riski ve ihraçcının fon dondurma uygulamaları hakkında endişeler yaratıyor.",
+        "coins": "Tether (USDT)",
+        "timeUTC": "2026-10-06 23:54 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-06-conduit-sues-tether-usdt-freeze-417831"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "FinCEN kripto karıştırma gözetim önerisini geri çekimi izleyen tepkiler üzerine terk ediyor",
+          "what": "ABD Hazinesinin Finansal Suçlarla Mücadele Ağı (FinCEN), kripto karıştırma hizmetleri üzerinde önerilen gizlilik ile ilgili raporlama gerekliliklerini terk etti. Hamle, gizlilik ve uyum kaygıları üzerine endüstri tepkisini izler, ancak mevcut kara para aklamakla mücadele görevleri yürürlükte kalır.",
+          "coins": "Gizlilik paraları, DeFi karıştırıcıları",
+          "timeUTC": "2026-10-06 17:53 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fincen-drops-crypto-mixing-proposal-as-backlash-kills-rule/"
+        },
+        {
+          "headline": "Yasa ABD milletvekilleri kendi seçim sonuçlarına bahis oynamasını yasaklamayı amaçlıyor",
+          "what": "Temsilci Don Davis, federal adayları ve ailelerinin kendi seçimlerine bağlı tahmin sözleşmeleri takas etmesini engellemek için 'Kendi Yarışınızda Bahis Yapmama Yasası'nı sundu. Kongre, 2026 ara dönem seçimlerinden sonrası kadar tatil durumunda kalır.",
+          "coins": "Tahmin piyasası platformları",
+          "timeUTC": "2026-10-06 15:42 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-06-rep-don-davis-introduces-bill-to-stop-federal-candidates-trading-prediction-market-contracts-tied-to-their-own-elections-417781"
+        },
+        {
+          "headline": "Ripple Prime brokerlik Brevan Howard'a genişliyor",
+          "what": "Ripple Prime, kripto hedge fonu Brevan Howard'a asal brokerlik, takas ve finansman hizmetleri sağlayacak; Ripple'ın hisse senedi yatırımı ile başlayan bir kurumsal ilişkiyi derinleştiriyor.",
+          "coins": "XRP (Ripple platformu)",
+          "timeUTC": "2026-10-06 23:22 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-06-ripple-prime-brevan-howard-prime-brokerage-clearing-financing-417801"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ethereum 3x kaldıraçlı ETF önerisi açıklandı; 362 milyon dolarla CME vadeli işlem limitine ulaşabilir",
+          "what": "Önerilen 3x kaldıraçlı Ethereum ETF, teorik olarak sadece 362 milyon dolar yönetim altında varlıkla CME Ether vadeli işlem sahiplik sınırına ulaşabilir. Başvuru, Ethereum fiyat hareketlerine karşı konsantre kaldıraç riskine karşı kurumsal iştahı gösteriyor.",
+          "coins": "Ethereum (ETH)",
+          "timeUTC": "2026-10-06 17:57 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereum-proposed-3x-etf-cme-futures-threshold-362-million/"
+        },
+        {
+          "headline": "Arbitrum Global Dolar istikrarlı madeni para ittifakına katılıyor",
+          "what": "Ethereum katman-2 Arbitrum, Paxos tarafından yayınlanan USDG istikrarlı madeni parasını destekledi ve dağıtım ve rezerv ekonomisi için rekabet etmek için Global Dolar grubuna katıldı. Hamle, Arbitrum'u istikrarlı madeni para ittifakları genişledikçe rezerv gelirinden kazanç elde etmeye konumlandırıyor.",
+          "coins": "Arbitrum (ARB), istikrarlı madeni para ekosistemi",
+          "timeUTC": "2026-10-05 20:22 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/05/arbitrum-joins-paxos-led-stablecoin-group-global-dollar-to-capture-digital-dollar-growth"
+        },
+        {
+          "headline": "Fortitude, Zcash madenciliğini 100 milyon dolara kadar ekipman taahhüdüyle genişletiyor",
+          "what": "Madencilik firması Fortitude, Bitmain'in yeni nesil Zcash madenci makinelerine öncelikli erişim sağladı ve venture firması DCG'den finansman genişletti. Hamle, gizlilik parası madenciliği ekonomisine kurumsal güveni gösteriyor.",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "2026-10-06 20:20 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-06-fortitude-expands-zcash-mining-push-with-up-to-100-million-equipment-commitment-417790"
+        },
+        {
+          "headline": "Spiko, tokenize edilmiş nakit fonu platformunu genişletmek için 90 milyon dolar Series B toplayıyor",
+          "what": "Fintech firması Spiko, 2,7 milyar dolarlık tokenize edilmiş nakit fonu işletmesini ölçeklendirmek ve yeni piyasalara genişlemek için 90 milyon dolar topladı. Tur, zincir üstü hazine getiri ürünleri için kurumsal iştahı gösteriyor.",
+          "coins": "Tokenize edilmiş varlıklar, istikrarlı maddeler",
+          "timeUTC": "2026-10-06 22:18 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-06-spiko-raises-90-million-to-expand-tokenized-cash-funds-across-markets-417774"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Abstract Ethereum L2 (Pudgy Penguins'in finanse ettiği) 15 Aralık'ta kapanacak",
+          "what": "NFT koleksiyonu Pudgy Penguins tarafından desteklenen Ethereum katman-2 blokzinciri Abstract, 15 Aralık'ta kapatılacağını duyurdu; onlarca milyonluk zarardan sonra sadece tüketici kriptosuna odaklanan bir zincir sürdürülebilir olmadığını belirledi. Kullanıcılar son tarihten önce varlıkları köprülendirmeleri gerekir.",
+          "coins": "Ethereum (ETH), katman-2 ekosistemi",
+          "timeUTC": "2026-10-06 01:31 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-06-abstract-ethereum-layer-2-shutting-down-pudgy-penguins-igloo-417855"
+        },
+        {
+          "headline": "Polymarket V2 yükseltmesini birleştirilmiş pozisyon sözleşmesi ve pUSD teminat ile kaydırdı",
+          "what": "Tahmin piyasası Polymarket, eski Gnosis tabanlı kurulumundan tek bir ERC-1155 pozisyon sözleşmesine ve pUSD teminatına geçerek Protokol V2'yi başlattı. Yükseltme, platformu tüccarlar ve pazar yaratıcıları için basitleştirmeyi amaçlıyor.",
+          "coins": "Polymarket tahmin piyasaları",
+          "timeUTC": "2026-10-06 23:35 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-06-polymarket-rolls-out-v2-upgrade-with-single-erc-1155-positions-contract-pusd-collateral-417804"
+        },
+        {
+          "headline": "OKX Money uygulamasını başlatıyor: istikrarlı madeni para tasarrufu, getiri ve kart harcamaları tek bir arayüzde",
+          "what": "OKX, günlük kullanıcılara blockchain mekaniğini anlamak zorunda kalmadan istikrarlı madeni para tutmalarını, bunlardan getiri elde etmelerini ve harcamalarını sağlamak için tasarlanan OKX Money'i kaydırdı. Ürün, kripto karmaşıklığından uzaklaşmayı amaçlıyor.",
+          "coins": "İstikrarlı maddeler, genel",
+          "timeUTC": "2026-10-06 21:08 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/06/okx-money-lets-users-save-earn-10-yield-and-spend-dollar-stablecoins-in-one-app"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Flash loan saldırıları 2020 ile 2024 arasında DeFi'den 1,2 milyar dolar çaldı, çalışma bulundu",
+          "what": "Akademik araştırmacılar, 20 milyar blokzinciri işleminin üstünde tarayarak, flash kredi saldırılarının (tek bir işlemde geri ödenecek teminatsız krediler) dönem boyunca daha sofistike hale geldiğini ve toplu olarak merkeziyetsiz finans platformlarından 1,2 milyar dolar çaldığını buldu.",
+          "coins": "DeFi protokolleri, kredi platformları",
+          "timeUTC": "2026-10-06 18:40 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380166/flash-loan-attacks-drained-1-2b-from-defi-between-2020-and-2024-study"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD hizmet sektörü fiyat enflasyonu 4 yıllık zirveye ulaşıyor, Fed oran indirimi görünümünü bulanıklaştırıyor",
+          "what": "Eylül'ün hizmet fiyat endeksi 74,0'a yükseldi — 4 yıllık zirve — büyüme yavaşlarken. Veriler, Federal Reserve faiz indirimi görünümünü belirsiz bırakıyor ve düşen faizlere bağımlı olan kaldıraçlı Bitcoin pozisyonlarını basabilir.",
+          "coins": "Tüm (makro etkisi)",
+          "timeUTC": "2026-10-06 18:01 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-services-price-gauge-hits-a-four-year-high-clouding-bitcoins-rate-relief-outlook/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Rusya'nın dijital rublu benimsemesi ilk ay içinde 220.000 hesabı geçiyor (tahmin edilen 4x)",
+          "what": "Rusya merkez bankasının dijital rublu erken benimseme tahminlerini aştı, ilk ayı içinde 220.000 aktif hesaba ulaştı. Hızlı benimseme, BRICS ulusları kendi dijital para birimlerini sınır ötesi ticaret için bağlamayı araştırırken oluşuyor, ancak jeopolitik çıkarımlar belirsiz kalıyor.",
+          "coins": "Merkez bankası dijital paraları",
+          "timeUTC": "2026-10-06 18:59 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/russia-digital-ruble-adoption-brics-cbdc-payments"
+        },
+        {
+          "headline": "İngiltere 'DIGIT' pilot için 6 bankayı adlandırıyor: ilk dijital olarak yerel hükümet tahvili",
+          "what": "İngiltere, 'DIGIT' pilot'u başlatmak için 6 bankayı (Barclays, Citi, Deutsche Bank, Goldman Sachs, HSBC ve Nomura) adlandırdı; dağıtılmış defter teknolojisini ve İK egemen borcunun zincir üstü tasfiyesini test ediyor. İhraç, Q1 2027'ye kadar bekleniyor.",
+          "coins": "Zincir üstü finans, egemen borç",
+          "timeUTC": "2026-10-06 20:25 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/uk-taps-6-banks-to-lead-first-digitally-native-government-bond"
+        },
+        {
+          "headline": "Varlıklı yatırımcılar danışman şüphesine rağmen kripto holdinglerini yükseltir, anket gösteriyor",
+          "what": "Yedi ülke genelinde varlıklı yatırımcılar üzerinde yapılan bir anket, finansal danışmanlar dijital varlık tahsisinde temkinli kalırken, çoğunluğunun kripto sahibi olduğunu ve aktif olarak arttırdığını buldu.",
+          "coins": "Tüm (perakende/kurumsal benimseme)",
+          "timeUTC": "2026-10-06 17:43 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/majority-of-affluent-investors-across-7-countries-own-crypto-survey"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "FOMC Meeting Minutes (Oct 6 decision details release)",
+      "typicalReaction": "Yüksek oynaklık bekleniyor. Federal Rezerv Ekim kararından tutanakları yayınladığında, kripto piyasaları (özellikle Bitcoin ve altcoinler) tüccarlar para politikası ve enflasyon endişeleri hakkında dili analiz ederken tipik olarak keskin hareketler görür. Çarş 07 Eki saat 18:00 UTC'de önemli gün içi dalgalanmalar bekleniyor."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış fon oranı",
+      "definition": "Tüccarların kalıcı vadeli işlem sözleşmesinde kaldıraçlı pozisyon tutmaları için aldığı veya ödediği yıllık getiri (yüzde olarak). Pozitif oranlar, uzun tüccarların kısaya ödediği anlamına gelir; negatif oranlar kısaların uzuna ödediği anlamına gelir. Pazar duyarlılığını ve kaldıraç düzeylerini yansıtır."
+    },
+    {
+      "term": "Piyasa genişliği",
+      "definition": "Belirli bir gün bir borsada yükselen paraların yüzdesine karşı düşen paraların yüzdesi. Yüksek genişlik (birçok para yükselen) geniş boğa duyarlılığını gösterir; düşük genişlik (çoğu para düşen) zayıflığı gösterir."
+    },
+    {
+      "term": "Fon oranı",
+      "definition": "Kalıcı vadeli işlem sözleşmesinde uzun ve kısa tüccarlar arasında periyodik küçük ödeme; sözleşme fiyatını spot fiyata yakın tutmak için tasarlanmıştır. Çoğu borsada her 8 saatte ödenir."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Fiyat yükseliş bahsi yapan sözleşmelerin (uzunlar) açık tutarına karşı fiyat düşüş bahsi yapan (kısalar) açık tutarının oranı. 1,0'dan yukarı oran daha fazla tüccarın uzun olduğu anlamına gelir; 1,0'dan aşağı daha fazla kısaların olduğu anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Borsanın kalıcı vadeli işlem sözleşmesi için hesaplanan referans fiyatı; kazanç/kayıpları hesaplamak ve tasfiye tetiklemek için kullanılır. Son işlem fiyatından farklı; manipülasyonu önlemek için tasarlanmıştır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Belirli bir para çifti için kalıcı vadeli işlem borsasındaki açık uzun ve kısa sözleşmelerin toplam sayısı (veya bu sözleşmelerin toplam dolar değeri)."
+    },
+    {
+      "term": "Taker alış/satış oranı",
+      "definition": "Varolan siparişleri dolduran piyasa etkisi işlemlerinin (taker işlemler) alış ve satışlar arasında oranı. 1,0 yukarı oran daha agresif alışlar anlamına gelir; 1,0 aşağı daha agresif satışlar anlamına gelir."
+    },
+    {
+      "term": "En iyi tacir uzun/kısa oranı",
+      "definition": "Borsada en büyük tüccarlar (balık hesapları) tarafından tutulan uzun ve kısa pozisyonların oranı. En etkili tüccarların ne bahis oynayacağını gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "36a8a99de29cb28c"
+}

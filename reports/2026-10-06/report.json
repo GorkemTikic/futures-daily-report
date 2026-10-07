@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06",
+  "kind": "market",
+  "dateLong": "Tuesday, 6 October 2026",
+  "coversUTC": "2026-10-06 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum fell slightly on October 6 as market breadth turned negative, while institutional interest in alternative crypto platforms and privacy-coin ETFs offered modest offset.",
+  "newsCount": 18,
+  "macro": {
+    "BTC": -0.22529118097614412,
+    "ETH": -0.4592236020259016
+  },
+  "topMover": {
+    "symbol": "龙虾USDT",
+    "chgPct": 45.364457168024664
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "07 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
