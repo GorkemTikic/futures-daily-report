@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-07T00:07:38.976Z",
-  "count": 112,
+  "generatedAt": "2026-10-08T00:14:24.046Z",
+  "count": 113,
   "counts": {
-    "total": 112,
-    "market": 25,
+    "total": 113,
+    "market": 26,
     "divergence": 87,
     "degraded": 1
   },
-  "latest": "2026-10-06",
+  "latest": "2026-10-07",
   "reports": [
+    {
+      "date": "2026-10-07",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -2.5538483126359366,
+        "ETH": -4.544864592256373
+      },
+      "marketSummary": "Bitcoin and Ethereum fell 2.6% and 4.6% respectively following the FOMC Meeting Minutes release at 18:00 UTC, with widespread warnings about AI-driven threats to crypto wallet security weighing on sentiment across the board.",
+      "oneLine": "Bitcoin and Ethereum fell 2.6% and 4.6% respectively following the FOMC Meeting Minutes release at 18:00 UTC, with widespread warnings about AI-driven threats to crypto wallet security weighing on sentiment across the board.",
+      "newsCount": 20,
+      "topMover": {
+        "symbol": "龙虾USDT",
+        "chgPct": -37.63636363636363
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-07/summary_2026-10-07.html",
+        "pdf": "reports/2026-10-07/summary_2026-10-07.pdf",
+        "md": "reports/2026-10-07/summary_2026-10-07.md"
+      }
+    },
     {
       "date": "2026-10-06",
       "kind": "market",

@@ -1,0 +1,269 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell 2.6% and 4.6% respectively following the FOMC Meeting Minutes release at 18:00 UTC, with widespread warnings about AI-driven threats to crypto wallet security weighing on sentiment across the board.",
+  "caveman": "On Wednesday, October 7th, Bitcoin and Ethereum both dropped: Bitcoin fell from about $85,500 to $83,300 (down 2.6%), and Ethereum fell from about $2,697 to $2,573 (down 4.6%). This happened because the Federal Reserve — the big government bank that controls how expensive it is to borrow money — released minutes from a meeting at 6 PM, and traders thought that meant interest rates were staying high for longer. A famous researcher also warned that artificial intelligence might be able to crack the secret codes that protect people's crypto wallets faster than quantum computers would. That scared people more. Out of all the cryptocurrencies trading today, only 15% of them went up; the rest went down. This was a worrying day for people who own crypto.",
+  "priceVolumeSummary": "All five major venues (Binance, Bybit, OKX, Bitget, Gate) converged on a Bitcoin close near $83,280 and Ethereum near $2,573, showing broad price agreement. Binance led volume decisively in both markets ($13.7B for Bitcoin, $10.8B for Ethereum), with OKX a distant second.",
+  "positioningSummary": "Funding turned negative on Binance for both Bitcoin (−1.09% annualized) and Ethereum (−3.63% annualized), an unusual reversal suggesting shorts opening or longs unwinding. Open interest in Ethereum fell 1.04% in dollar value despite 3.72% growth in coin quantity. Long dominance remained pronounced — Bitcoin's largest traders held a 1.63× long-to-short ratio, Ethereum's retail accounts 2.68× long — but taker buy/sell ratios slightly favored sellers (Bitcoin 0.953, Ethereum 0.947). Market breadth was severely negative: only 15% of Binance perpetuals rose on the day, reflecting widespread liquidation risk and defensive positioning across altcoins.",
+  "stocksSummary": "Hong Kong and mainland China equity markets were closed for holidays (Chung Yeung Festival and National Day observance). South Korea's session was mixed: LG Electronics fell 7.7%, Samsung EM and MiniMax dropped 5%, while SK Hynix lost just 0.2%. US equities showed muted conviction (SPY −0.24%, Nasdaq composite ETF −0.29%). Precious metals split: gold spot edged up 0.2%, oil and industrial metals declined slightly.",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Illiquid small-cap token fell 37.1% on $331M volume despite severe liquidity constraints; no identifiable news catalyst.",
+      "hasCause": false
+    },
+    {
+      "symbol": "METUSDT",
+      "explanation": "Opposite move: small-cap token surged 35.8% on $255M volume with no associated announcement or ecosystem event; likely speculative rebound or low-liquidity whip.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "explanation": "Another illiquid token down 35% with $92M volume; pattern suggests algorithmic liquidation cascade rather than fundamental catalyst.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "FOMC Meeting Minutes released at 18:00 UTC; signals economic policy stance to market",
+        "what": "The Federal Open Market Committee published its September 15–16, 2026 meeting minutes at exactly 18:00 UTC on October 7. The timing coincided with sharp declines in Bitcoin (−2.6%), Ethereum (−4.6%), and risk assets broadly, suggesting the minutes contained hawkish or restrictive guidance on interest-rate policy.",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "2026-10-07 18:00 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+      },
+      {
+        "headline": "Ethereum researcher Justin Drake warns AI may break crypto wallet security before quantum computers",
+        "what": "Justin Drake, Ethereum Foundation researcher, recommended immediate 'bunker mode' planning: moving crypto assets to fresh addresses that hide public keys from AI-driven recovery attacks. He cited OpenAI's recent math breakthroughs and said AI-powered key recovery could compromise wallet signatures years before quantum computers become a threat, contrary to conventional security assumptions.",
+        "coins": "ETH, BTC, all account types",
+        "timeUTC": "2026-10-07 (throughout day)",
+        "source": "The Block, Decrypt, CryptoSlate",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954"
+      },
+      {
+        "headline": "Bitmine's Ethereum accumulation strategy reaching its end; 100,000 ETH away from 5% cap",
+        "what": "Tom Lee of Fundstrat revealed that Bitmine — the world's largest Ethereum holder — will stop buying once it reaches a self-imposed 5% cap on global ETH supply. The company is approximately 100,000 ETH (roughly 6–7 weeks of buying) away from that limit, meaning a major institutional buyer is about to exit the market permanently.",
+        "coins": "ETH",
+        "timeUTC": "2026-10-07 (announced at Token2049, Singapore)",
+        "source": "Decrypt, CoinDesk",
+        "url": "https://decrypt.co/380287/bitmine-ethereum-buying-will-stop-tom-lee"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "House Finance Committee chair: SEC and CFTC crypto rules 'fall short' of needed clarity",
+          "what": "Representative French Hill, chair of the House Financial Services Committee, stated that recent regulatory actions by the SEC and CFTC do not meet standards set by the failed Clarity Act. He called for 'permanent law change' from Congress before the next session in 2027 to secure U.S. crypto leadership.",
+          "coins": "All (regulatory)",
+          "timeUTC": "2026-10-07",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380349/sec-cftc-crypto-rules-fall-short-clarity-french-hill"
+        },
+        {
+          "headline": "Europol warns crypto developers and exchanges to start post-quantum migration now",
+          "what": "EU law enforcement agencies emphasized that quantum computers will break exposed private keys long before disrupting blockchain hashing. They urged developers, exchanges, and users to initiate phased post-quantum cryptography migrations immediately to prevent future unauthorized fund transfers.",
+          "coins": "BTC, ETH, all",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/07/quantum-computers-threaten-exposed-private-keys-rather-than-blockchains-europol-warns"
+        },
+        {
+          "headline": "Tether and Kazakhstan central bank explore tenge-backed stablecoin and real-world asset tokenization",
+          "what": "Tether announced a partnership with the National Bank of Kazakhstan to study a tenge-backed stablecoin and a framework for putting real-world assets onto a blockchain. The move reflects growing central-bank digital currency and tokenization interest across Central Asia.",
+          "coins": "USDT",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization"
+        },
+        {
+          "headline": "Coinbase integrates Deribit to bring US institutional options and perpetual futures",
+          "what": "Coinbase announced integration with Deribit, allowing US institutional clients access to derivatives liquidity, with retail options to follow later in 2026. The move broadens derivatives access under regulatory oversight.",
+          "coins": "BTC, ETH, spot and derivatives",
+          "timeUTC": "2026-10-07",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinbase-deribit-us-crypto-options-perpetual-futures"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs see $118.8M net inflow on October 7; Ethereum ETFs bleed $201.9M",
+          "what": "US spot Bitcoin ETFs recorded net inflows of $118.8 million on October 7, 2026, led by IBIT's $122 million, signaling institutional accumulation despite price weakness. Ethereum ETF outflows reached $201.9 million, extending a six-day outflow streak predominantly from BlackRock's ETHA, bringing cumulative withdrawals to approximately $408 million.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-07 (daily close)",
+          "source": "Farside Investors, SoSoValue",
+          "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-118-8m-net-inflow-ethereum-etf-records-201-9m-net-outflow"
+        },
+        {
+          "headline": "Zcash spot ETF crosses $1 billion in assets; SEC standards now cover ~15 tokens",
+          "what": "Grayscale's Krista Lynch noted that Zcash's newly launched ETF surpassed $1 billion in assets, demonstrating demand beyond Bitcoin and Ethereum. She cited that SEC listing standards now accommodate roughly 15 tokens, enabling more focused and diversified ETF launches.",
+          "coins": "ZEC, BTC, ETH",
+          "timeUTC": "2026-10-07",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953"
+        },
+        {
+          "headline": "Robinhood adds $25 million of Bitcoin to its corporate balance sheet",
+          "what": "Robinhood purchased $25 million worth of Bitcoin for its own corporate balance sheet, marking a statement of internal commitment to crypto. SVP Johann Kerbrat said the purchase signals the company's confidence in the sector.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-07",
+          "source": "CryptoSlate, CoinDesk, The Block",
+          "url": "https://cryptoslate.com/robinhood-adds-25-million-of-bitcoin-to-its-own-balance-sheet/"
+        },
+        {
+          "headline": "XRP ETFs hold $1.7 billion but saw only $4 million net inflows last week",
+          "what": "Franklin Templeton and Canary experienced outflows on October 6, and the five tracked XRP ETFs combined for just $4 million in net inflows over the week. Ongoing wallet migrations complicate supply-side narratives and create noise in flow interpretations.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-06–07",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-etfs-now-hold-1-7-billion-but-took-in-just-4m-last-week/"
+        },
+        {
+          "headline": "US government moves $103 million in seized Bitcoin and BNB to Coinbase Prime; sale unconfirmed",
+          "what": "Government-linked wallet addresses transferred 833.6 BTC and 40,285 BNB to Coinbase Prime deposit addresses, representing the largest cryptocurrency stash any government publicly holds (per Arkham Intelligence). No sale confirmation has been announced.",
+          "coins": "BTC, BNB",
+          "timeUTC": "2026-10-07",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380313/us-government-moves-103-million-seized-bitcoin-bnb"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana ecosystem: Orca DEX merges with Loopscale to form Formation Finance",
+          "what": "Orca, a Solana-based decentralized exchange, merged with Loopscale to create Formation Finance, targeting institutional financing for AI, robotics, energy, and defense sectors. The move signals a shift toward infrastructure-focused offerings on Solana.",
+          "coins": "SOL",
+          "timeUTC": "2026-10-07",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924"
+        },
+        {
+          "headline": "Circle launches USDC and EURC payment processing embedded in SAP for enterprises",
+          "what": "Circle partnered with Tereina (SAP-backed) to embed USDC and EURC stablecoin payments directly into SAP's widely-used financial management software, allowing enterprise customers to send and receive stablecoins without leaving their accounting platform.",
+          "coins": "USDC, EURC",
+          "timeUTC": "2026-10-07",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem"
+        },
+        {
+          "headline": "Polygon bridges TRON's $94 billion USDT ecosystem for seamless cross-border transfers",
+          "what": "Polygon announced a bridge enabling frictionless movement of TRON's $94 billion in USDT between TRON and Ethereum-compatible networks without requiring wallet providers or traditional fiat ramps, simplifying institutional cross-border settlement.",
+          "coins": "MATIC, USDT",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails"
+        },
+        {
+          "headline": "Gate rebrands around 'Gate Money' — all-in-one app combining savings, conversion, and cards",
+          "what": "Gate repositioned around a unified money app (Gate Money) combining accounts, asset conversion, savings products, and debit card spending. The rebrand signals the exchange's expansion beyond trading into consumer fintech and wealth management.",
+          "coins": "GT, stablecoins",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/07/gate-bets-all-in-one-money-app-is-crypto-s-biggest-consumer-trend-this-year-and-next"
+        },
+        {
+          "headline": "Polymarket V2 upgrade live; existing positions will not auto-migrate to new contracts",
+          "what": "Polymarket released its V2 contract suite with a single ERC-1155 architecture and PUSD collateral support. Users must manually approve and migrate existing conditional token (CTF) positions; the upgrade will not automatically move them.",
+          "coins": "POLY, stablecoins",
+          "timeUTC": "2026-10-07",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/polymarkets-new-trading-system-wont-automatically-move-existing-bets-to-its-new-contracts/"
+        },
+        {
+          "headline": "Jito's JTX plans mobile app this fall and perpetual futures integration for winter",
+          "what": "Jito announced a roadmap including a mobile app launch this fall, an equities feature for Solana-based trading, and perpetual futures integration later in winter. The expansions broaden JTX's scope beyond spot trading.",
+          "coins": "SOL, JTX",
+          "timeUTC": "2026-10-07",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-07-jitos-jtx-plans-mobile-app-this-fall-eyes-perps-integration-later-this-winter-417905"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "OpenAI claims secret AI model cracked hundreds of math problems in single prompt; mathematicians demand proof",
+          "what": "OpenAI published 722 AI-written math papers, claiming most came from a single prompt by an unreleased model. Mathematicians have publicly called the claims unverified and requested receipts and peer review. This claim underlies the Justin Drake security warnings but remains scientifically unconfirmed.",
+          "coins": "BTC, ETH, all (security context)",
+          "timeUTC": "2026-10-07",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt"
+        },
+        {
+          "headline": "Hunter Biden confirms LAPTOP memecoin was trolling, not a rug pull",
+          "what": "Hunter Biden clarified that the LAPTOP memecoin was not a rug pull but rather a statement troll against Trump and similar grift attempts. A commissioned report later found thin liquidity and market-maker-linked gains during the launch phase.",
+          "coins": "LAPTOP (memecoin)",
+          "timeUTC": "2026-10-07",
+          "source": "Cointelegraph, The Block",
+          "url": "https://cointelegraph.com/news/hunter-biden-laptop-memecoin-troll-no-rug-pull"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-07",
+    "summary": "Bitcoin ETFs recorded net inflows of $118.8 million, led by Grayscale IBIT's $122 million, signaling institutional accumulation despite price weakness. Ethereum ETFs experienced the opposite: $201.9 million in net outflows, extending a six-consecutive-day withdrawal streak dominated by BlackRock's ETHA, bringing cumulative outflows to ~$408 million.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-118-8m-net-inflow-ethereum-etf-records-201-9m-net-outflow"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks, Thu 08 Oct, 08:30 UTC",
+      "typicalReaction": "Fed speakers move crypto volatility sharply, especially when discussing rate policy or inflation. Expect acute Bitcoin and altcoin directional swings."
+    },
+    {
+      "event": "US Initial Jobless Claims, Thu 08 Oct, 12:30 UTC",
+      "typicalReaction": "Weekly jobless claims drive risk-asset direction across markets; stronger-than-expected claims hit equities and crypto, weaker claims are bullish for risk assets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate that traders using leverage (borrowed money) pay to each other every 8 hours on perpetual contracts. Positive funding means long traders pay shorts (bullish pressure); negative funding means shorts pay longs (bearish pressure)."
+    },
+    {
+      "term": "Long and short",
+      "definition": "A long position means owning the asset or betting the price will rise. A short position means owing the asset or betting the price will fall. The long/short ratio compares how many traders hold long versus short positions."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The official price used to calculate profit/loss and liquidation on leveraged positions. It is typically the time-weighted average of trades across multiple exchanges, designed to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of outstanding derivative contracts (futures, perpetuals, options) still open, measured in coins or US dollars. Rising open interest with falling prices can signal liquidation risk."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage shift in total open positions over a period (usually 24 hours). A decrease means positions are closing; an increase means new contracts are being opened."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market-order buys to market-order sells. Above 1.0 means more buyers are being aggressive (pushing price up); below 1.0 means more sellers are aggressive (pushing price down)."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The long/short positioning of the largest traders on an exchange, not all traders. A ratio of 1.6× means top traders are 60% more long than short, a sign of insider confidence or conviction."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of tradeable assets (coins or stocks) that rose on a given day. Breadth below 30% is often bearish (most assets falling), above 70% is bullish (most rising). 15% is extreme weakness."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a leveraged position when losses exceed the trader's margin (collateral). During sharp price moves, liquidations can cascade, amplifying the decline."
+    },
+    {
+      "term": "Basis",
+      "definition": "The time period used for daily performance and funding calculations—either calendar day (utc-day) or rolling 24 hours (rolling-24h). Different bases show slightly different results."
+    },
+    {
+      "term": "Perpetual contract (perp)",
+      "definition": "A leveraged derivative that mimics owning the asset but never expires. Traders use it to amplify gains or hedge spot holdings without taking custody of coins."
+    },
+    {
+      "term": "Spot market",
+      "definition": "Buying and selling cryptocurrencies outright for immediate delivery, without leverage. Spot ETFs track this market and hold real Bitcoin or Ethereum."
+    },
+    {
+      "term": "ETF inflows and outflows",
+      "definition": "The net amount of money flowing into (inflows) or out of (outflows) exchange-traded funds. Large inflows to Bitcoin ETFs signal institutional demand; outflows suggest profit-taking or loss of interest."
+    }
+  ],
+  "_source": "cli"
+}

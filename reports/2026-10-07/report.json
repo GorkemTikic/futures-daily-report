@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07",
+  "kind": "market",
+  "dateLong": "Wednesday, 7 October 2026",
+  "coversUTC": "2026-10-07 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum fell 2.6% and 4.6% respectively following the FOMC Meeting Minutes release at 18:00 UTC, with widespread warnings about AI-driven threats to crypto wallet security weighing on sentiment across the board.",
+  "newsCount": 20,
+  "macro": {
+    "BTC": -2.5538483126359366,
+    "ETH": -4.544864592256373
+  },
+  "topMover": {
+    "symbol": "龙虾USDT",
+    "chgPct": -37.63636363636363
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "08 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

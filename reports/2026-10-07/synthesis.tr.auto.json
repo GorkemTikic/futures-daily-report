@@ -1,0 +1,270 @@
+{
+  "oneLine": "Bitcoin ve Ethereum sırasıyla %2,6 ve %4,6 düşüş kaydetti; FOMC Toplantı Tutanakları'nın saat 18:00 UTC'de yayımlanmasından sonra yapay zeka tarafından desteklenen cüzdan güvenliğine yönelik yaygın uyarılar pazar duygusunu ağırlaştırdı.",
+  "caveman": "7 Ekim Çarşamba günü Bitcoin ve Ethereum fiyatları düştü. Bitcoin yaklaşık 85.500 dolardan 83.300 dolara indi (%2,6 düşüş), Ethereum de 2.697 dolardan 2.573 dolara indi (%4,6 düşüş). Bunun nedeni Amerikan para otoritesi Federal Rezerv'in saat 18:00'de bir toplantının tutanaklarını yayımlaması oldu. Tüccarlar bundan faiz oranlarının daha uzun süre yüksek kalacağı anlamını çıkardılar. Ayrıca ünlü bir araştırmacı yapay zekanın kripto cüzdanlarının şifrelerini kuvantum bilgisayarlarından daha hızlı kırabileceği konusunda insanları uyardı. Bu haber herkeyi korkuttu. Bugün kripto piyasasında işlem gören paralar arasında sadece %15'i yükseldi; kalanı düştü. Bu, kripto sahibi olan insanlar için çok kötü bir gün oldu.",
+  "priceVolumeSummary": "Beş ana borsa (Binance, Bybit, OKX, Bitget, Gate) Bitcoin kapanışında yaklaşık 83.280 dolar ve Ethereum'da yaklaşık 2.573 dolar etrafında yakınsadı ve geniş bir fiyat uzlaşması gösterdi. Binance her iki pazarda da işlem hacmini liderlik etti (Bitcoin'de 13,7 milyar dolar, Ethereum'da 10,8 milyar dolar) ve OKX uzak ikinci sırada kaldı.",
+  "positioningSummary": "Finansman oranları Binance'de Bitcoin (−%1,09 yıllık) ve Ethereum (−%3,63 yıllık) için negatif döndü; bu, kısa pozisyon açılışı veya uzun pozisyon kapatışının gerçekleştiğini gösteren olağandışı bir dönüştür. Ethereum'daki açık faiz, madeni para miktarında %3,72 artışa rağmen dolar değerinde %1,04 düştü. Uzun baskınlığı belirgin kalmaya devam etti — Bitcoin'in en büyük tüccarları 1,63 kat uzun-kısa oranı tuttu, Ethereum'da perakende hesaplar 2,68 kat uzun — ancak taker alış/satış oranları satıcıları hafifçe tercih etti (Bitcoin 0,953, Ethereum 0,947). Pazar genişliği ciddi ölçüde negatif oldu: Binance vadeli işlemlerinde sadece %15'i gün içinde yükseldi; bu, altcoin'ler arasında yaygın likitasyon riski ve savunmacı konumlandırmayı yansıtıyor.",
+  "stocksSummary": "Hong Kong ve Çin anakarasının hisse senedi piyasaları tatil nedeniyle kapalıydı (Chung Yeung Festivali ve Ulusal Gün gözlenişi). Güney Kore'nin oturumu karışıktı: LG Electronics %7,7 düştü, Samsung EM ve MiniMax %5 düştü, SK Hynix sadece %0,2 düştü. ABD hisse senetleri sönük bir tavır gösterdi (SPY −%0,24, Nasdaq composite ETF −%0,29). Değerli metaller bölündü: altın spot %0,2 arttı, petrol ve endüstriyel metaller hafifçe düştü.",
+  "movers": [
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Likidite kısıtlamasına sahip küçük başlı token 331 milyon dolar işlem hacminde %37,1 düştü; tanımlanabilir haber katalizörü yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "METUSDT",
+      "explanation": "Ters hareket: küçük başlı token 255 milyon dolar hacimde %35,8 yükseldi; ilişkili duyuru veya ekosistem olayı yok; muhtemelen spekülatif toparlanma veya düşük likidite sarsıntısı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "explanation": "Başka bir likidite kısıtlaması olan token 92 milyon dolar hacimde %35 düştü; patern algoritmik likitasyon kaskadını temeli katalizörden ziyade gösteriyor.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "FOMC Toplantı Tutanakları saat 18:00 UTC'de yayımlandı; ekonomik politika duruşunu piyasaya iletildi",
+        "what": "Federal Açık Pazar Komitesi, 15–16 Eylül 2026 toplantısının tutanaklarını 7 Ekim tarihinde tam saat 18:00 UTC'de yayımladı. Zamanlama Bitcoin'de (−%2,6), Ethereum'da (−%4,6) ve risk varlıklarında geniş çapta keskin düşüşler ile çakıştı; tutanakların faiz politikası konusunda agresif veya kısıtlayıcı rehberlik içerdiğini işaret ediyor.",
+        "coins": "BTC, ETH, geniş pazar",
+        "timeUTC": "2026-10-07 18:00 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+      },
+      {
+        "headline": "Ethereum araştırmacısı Justin Drake yapay zekanın kripto cüzdan güvenliğini kuvantum bilgisayarlarından önce kırabileceği konusunda uyardı",
+        "what": "Ethereum Vakfı araştırmacısı Justin Drake, kripto varlıkları yapay zeka tarafından yönetilen kurtarma saldırılarından gizli tutan yeni adreslere taşıyarak acil 'sığınak modu' planlama önerdi. OpenAI'nin son matematik atılımlarına referans verildi ve yapay zeka tarafından yönetilen anahtar kurtarmanın cüzdan imzalarını kuvantum bilgisayarları bir tehdit haline gelmesinden yıllar önce tehlikeye atıp atamayacağını söyledi; bu, geleneksel güvenlik varsayımlarının aksine.",
+        "coins": "ETH, BTC, tüm hesap türleri",
+        "timeUTC": "2026-10-07 (gün içerisinde)",
+        "source": "The Block, Decrypt, CryptoSlate",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-07-ethereum-researcher-justin-drake-bunker-mode-planning-private-key-recovery-risk-417954"
+      },
+      {
+        "headline": "Bitmine'nin Ethereum biriktirme stratejisi sonuna yaklaşıyor; küresel arzının %5 sınırından 100.000 ETH uzağında",
+        "what": "Fundstrat'tan Tom Lee, Bitmine'nin — dünyanın en büyük Ethereum sahibi — küresel ETH arzının %5'lik kendine uyguladığı sınırına ulaştıktan sonra satın almayı durdureceğini ortaya koydu. Şirket bu sınıra yaklaşık 100.000 ETH (kabaca 6–7 haftalık satın alma) uzağında; bu da büyük bir kurumsal alıcının piyasadan kalıcı olarak çıkacağı anlamına geliyor.",
+        "coins": "ETH",
+        "timeUTC": "2026-10-07 (Token2049'da, Singapur'da duyuruldu)",
+        "source": "Decrypt, CoinDesk",
+        "url": "https://decrypt.co/380287/bitmine-ethereum-buying-will-stop-tom-lee"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Temsilciler Meclisi Mali Komisyon başkanı: SEC ve CFTC kripto kuralları gerekli açıklığın 'altında' kaldı",
+          "what": "Temsilciler Meclisi Mali Hizmetler Komitesi başkanı Temsilci French Hill, SEC ve CFTC tarafından yakın zamanda alınan düzenleyici önlemlerin başarısız Clarity Yasası tarafından belirlenen standartları karşılamadığını belirtti. 2027'de bir sonraki oturum başlamadan önce ABD kripto liderliğini sağlamak amacıyla Kongre'den 'kalıcı yasa değişikliği' talep etti.",
+          "coins": "Tümü (düzenleyici)",
+          "timeUTC": "2026-10-07",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380349/sec-cftc-crypto-rules-fall-short-clarity-french-hill"
+        },
+        {
+          "headline": "Europol kripto geliştiricileri ve borsaları şimdi kuantum sonrası geçişe başlamaya uyarıyor",
+          "what": "AB yaptırım uygulama kurumları, kuvantum bilgisayarlarının blokzincir karma işlemlerini bozmadan çok önce açığa çıkarılan özel anahtarları kıracağını vurguladı. Geliştiriciler, borsalar ve kullanıcıları gelecekteki yetkisiz fon transferlerini önlemek için hemen kuantum sonrası kriptografi geçişlerine başlamaya çağırdılar.",
+          "coins": "BTC, ETH, tümü",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/07/quantum-computers-threaten-exposed-private-keys-rather-than-blockchains-europol-warns"
+        },
+        {
+          "headline": "Tether ve Kazakistan merkez bankası tenge destekli stablecoin ve gerçek dünyadaki varlık tokenleştirmesini keşfediyor",
+          "what": "Tether, Kazakistan Ulusal Bankası ile tenge destekli bir stablecoin ve blokzincire gerçek dünyadaki varlıkları koymak için bir çerçeve çalışmasını ilan etti. Hareket, Orta Asya'da merkez bankası dijital para birimi ve tokenleştirme ilgisinin artışını yansıtıyor.",
+          "coins": "USDT",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization"
+        },
+        {
+          "headline": "Coinbase, Deribit'i entegre ederek ABD kurumsal müşterilerine türev işlem ve vadeli işlem erişimi sağladı",
+          "what": "Coinbase, Deribit ile entegrasyonunu ilan etti; ABD kurumsal müşterilerine türev işlem likidite erişimi sağlıyor, perakende seçenekleri 2026'nın geri kalanında gelecek. Hareket, düzenleyici gözetim altında türev işlem erişimini genişletiyor.",
+          "coins": "BTC, ETH, spot ve türev işlem",
+          "timeUTC": "2026-10-07",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinbase-deribit-us-crypto-options-perpetual-futures"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri 7 Ekim'de 118,8 milyon dolar net girişi kaydetti; Ethereum ETF'leri 201,9 milyon dolar çıkışı yaşadı",
+          "what": "ABD spot Bitcoin ETF'leri 7 Ekim 2026'da fiyat zayıflığına rağmen IBIT'in 122 milyon dolarlık öncülüğünde 118,8 milyon dolar net girişi kaydetti; kurumsal birikimi işaret ediyor. Ethereum ETF'leri 201,9 milyon dolar net çıkış kaydetti; altı ardışık günlük çıkış serisini BlackRock'un ETHA'sı ağırlıklı olarak uzattı ve kümülatif çıkışları yaklaşık 408 milyon dolara getirdi.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-07 (günlük kapanış)",
+          "source": "Farside Investors, SoSoValue",
+          "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-118-8m-net-inflow-ethereum-etf-records-201-9m-net-outflow"
+        },
+        {
+          "headline": "Zcash spot ETF 1 milyar doları aştı; SEC standartları şu anda ~15 tokenı kapsıyor",
+          "what": "Grayscale'in Krista Lynch, yeni kurulan Zcash ETF'nin 1 milyar dolarlık varlığı aştığını belirtti; bu Bitcoin ve Ethereum'un ötesinde talep gösteriyor. SEC listeleme standartlarının şu anda yaklaşık 15 tokenı uyum sağladığını; bu da daha odaklanmış ve çeşitlendirilmiş ETF lanmanlarını mümkün kılıyor.",
+          "coins": "ZEC, BTC, ETH",
+          "timeUTC": "2026-10-07",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953"
+        },
+        {
+          "headline": "Robinhood kurumsal bilançosuna 25 milyon dolar Bitcoin ekledi",
+          "what": "Robinhood, kendi kurumsal bilançosu için 25 milyon dolar değerinde Bitcoin satın aldı; bu, kripto sektöründe dahili bağlılığının bir açıklaması. YB Johann Kerbrat, satın almanın şirketin sektöre olan güvenini işaret ettiğini söyledi.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-07",
+          "source": "CryptoSlate, CoinDesk, The Block",
+          "url": "https://cryptoslate.com/robinhood-adds-25-million-of-bitcoin-to-its-own-balance-sheet/"
+        },
+        {
+          "headline": "XRP ETF'leri 1,7 milyar dolar tutarken geçen hafta sadece 4 milyon dolar net girişi gördü",
+          "what": "Franklin Templeton ve Canary 6 Ekim'de çıkışlar yaşadı ve izlenen beş XRP ETF'sinin birleşimi hafta içinde sadece 4 milyon dolar net girişi kaydetti. Devam eden cüzdan göçleri arz tarafı anlatılarını karmaşıklaştırıyor ve akış yorumlamalarında gürültü yaratıyor.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-06–07",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-etfs-now-hold-1-7-billion-but-took-in-just-4m-last-week/"
+        },
+        {
+          "headline": "ABD hükümeti 103 milyon dolar değerinde el konulan Bitcoin ve BNB'yi Coinbase Prime'a taşıdı; satış onaylanmadı",
+          "what": "Hükümetle bağlantılı cüzdan adresleri 833,6 BTC ve 40.285 BNB'yi Coinbase Prime mevduat adreslerine aktardı; bu, herhangi bir hükümetin kamuya açık olarak tuttuğu en büyük kripto varlığı temsil ediyor (Arkham Intelligence'a göre). Satış hakkında resmi bir açıklama yapılmamıştır.",
+          "coins": "BTC, BNB",
+          "timeUTC": "2026-10-07",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380313/us-government-moves-103-million-seized-bitcoin-bnb"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana ekosistemi: Orca DEX, Loopscale ile birleşti ve Formation Finance'i oluşturdu",
+          "what": "Solana tabanlı merkezi olmayan bir borsa olan Orca, Loopscale ile birleşti ve yapay zeka, robotika, enerji ve savunma sektörlerini hedefleyen Formation Finance'i oluşturdu. Hareket Solana'daki altyapı odaklı tekliflere doğru bir kaymanın işareti.",
+          "coins": "SOL",
+          "timeUTC": "2026-10-07",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924"
+        },
+        {
+          "headline": "Circle, SAP'ta gömülü USDC ve EURC ödeme işlemini işletmeler için kullanıma açtı",
+          "what": "Circle, Tereina (SAP destekli) ile ortaklık yaptı; USDC ve EURC stablecoin ödemelerini yaygın olarak kullanılan SAP mali yönetimi yazılımının doğrudan içine gömdü ve kurumsal müşteriler muhasebe platformlarını bırakmadan stablecoin göndermek ve almak yapabiliyor.",
+          "coins": "USDC, EURC",
+          "timeUTC": "2026-10-07",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem"
+        },
+        {
+          "headline": "Polygon, TRON'un 94 milyar dolar USDT ekosistemini köprüleştirdi; sorunsuz sınır ötesi transferleri sağladı",
+          "what": "Polygon, TRON'un 94 milyar dolarlık USDT'sinin TRON ile Ethereum uyumlu ağlar arasında cüzdan sağlayıcıları veya geleneksel fiat rampları gerektirmeden sorunsuz hareket etmesini sağlayan bir köprü ilan etti; kurumsal sınır ötesi uzlaşmasını basitleştiriyor.",
+          "coins": "MATIC, USDT",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails"
+        },
+        {
+          "headline": "Gate 'Gate Money' etrafında yeniden markalandı — tasarruflar, dönüştürme ve kartları birleştiren tüm içerikte uygulama",
+          "what": "Gate kendisini hesaplar, varlık dönüştürme, tasarruf ürünleri ve banka kartı harcaması birleştiren birleşik bir para uygulaması (Gate Money) etrafında yeniden konumlandırdı. Yeniden markalaşma, borsanın ticaretin ötesinde tüketici teknolojisi ve servet yönetimine genişlemesini işaret ediyor.",
+          "coins": "GT, stablecoin'ler",
+          "timeUTC": "2026-10-07",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/07/gate-bets-all-in-one-money-app-is-crypto-s-biggest-consumer-trend-this-year-and-next"
+        },
+        {
+          "headline": "Polymarket V2 yükseltmesi canlı; mevcut pozisyonlar otomatik olarak yeni sözleşmelere taşınmayacak",
+          "what": "Polymarket, tek ERC-1155 mimarisi ve PUSD teminat desteği ile V2 sözleşme paketini yayımladı. Kullanıcılar mevcut koşullu token (CTF) pozisyonlarını manuel olarak onaylamalı ve taşımalıdır; yükseltme bunları otomatik olarak taşımayacak.",
+          "coins": "POLY, stablecoin'ler",
+          "timeUTC": "2026-10-07",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/polymarkets-new-trading-system-wont-automatically-move-existing-bets-to-its-new-contracts/"
+        },
+        {
+          "headline": "Jito'nun JTX bu sonbahar mobil uygulama planlıyor ve kış ayları için vadeli işlem entegrasyonu hedefliyor",
+          "what": "Jito, bu sonbahar bir mobil uygulama lanmanı, Solana tabanlı ticaret için hisse senedi özelliği ve daha sonra kış aylarında vadeli işlem entegrasyonu içeren bir yol haritası ilan etti. Genişlemeler JTX'in kapsamını spot ticaretin ötesine genişletiyor.",
+          "coins": "SOL, JTX",
+          "timeUTC": "2026-10-07",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-07-jitos-jtx-plans-mobile-app-this-fall-eyes-perps-integration-later-this-winter-417905"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "OpenAI gizli yapay zeka modelinin tek bir istem içinde yüzlerce matematik problemini kırdığını iddia ediyor; matematikçiler kanıt talep ediyor",
+          "what": "OpenAI, 722 yapay zeka tarafından yazılan matematik makalesi yayımladı ve çoğunun yayımlanmamış bir model tarafından yapılan tek bir istemden geldiğini iddia etti. Matematikçiler kamuya iddiaların doğrulanmamış olduğunu ve makbuzları ile eş değerlendirmeyi talep ettiklerini söyledi. Bu iddia Justin Drake güvenlik uyarılarının temelini oluşturuyor fakat bilimsel olarak doğrulanmamış kalıyor.",
+          "coins": "BTC, ETH, tümü (güvenlik bağlamı)",
+          "timeUTC": "2026-10-07",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt"
+        },
+        {
+          "headline": "Hunter Biden LAPTOP memecoin'in trollüğü olduğunu doğrulad; rug pull değil",
+          "what": "Hunter Biden, LAPTOP memecoin'in rug pull olmadığını fakat Trump'a ve benzer dolandırıcılık girişimlerine karşı bir açıklama trollüğü olduğunu açıklığa kavuşturdu. Daha sonra yayımlanmış bir rapor, lansman aşamasında ince likidite ve pazar yapıcısı ile bağlantılı kazançları bulmuştur.",
+          "coins": "LAPTOP (memecoin)",
+          "timeUTC": "2026-10-07",
+          "source": "Cointelegraph, The Block",
+          "url": "https://cointelegraph.com/news/hunter-biden-laptop-memecoin-troll-no-rug-pull"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-07",
+    "summary": "Bitcoin ETF'leri, fiyat zayıflığına rağmen kurumsal birikimi işaret eden Grayscale IBIT'in 122 milyon dolarlık öncülüğünde 118,8 milyon dolar net girişi kaydetti. Ethereum ETF'leri bunun tam tersi oldu: altı ardışık günlük çıkış serisini BlackRock'un ETHA'sı ağırlıklı olarak uzatan 201,9 milyon dolar net çıkışı yaşadı; kümülatif çıkışlar ~408 milyon dolara ulaştı.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-118-8m-net-inflow-ethereum-etf-records-201-9m-net-outflow"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks, Thu 08 Oct, 08:30 UTC",
+      "typicalReaction": "Fed sözcüleri kripto volatilitesini keskin şekilde hareket ettiriyor; özellikle faiz politikası veya enflasyon hakkında konuşurken. Bitcoin ve altcoin'lerde keskin yönlü sallantıları bekleyin."
+    },
+    {
+      "event": "US Initial Jobless Claims, Thu 08 Oct, 12:30 UTC",
+      "typicalReaction": "Haftalık işsizlik talepleri piyasalar arasında risk varlığı yönünü belirliyor; beklentiyi aşan talepleri hisse senetleri ve kripto vuruyor, daha düşük talepleri risk varlığına iyidir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem sözleşmelerinde kaldıraç (ödünç alınan para) kullanan tüccarların her 8 saatte bir birbirlerine ödediği faiz oranı. Pozitif finansman uzun tüccarların kısa olanlara ödediği anlamına gelir (boğa baskısı); negatif finansman kısa olanların uzun olanlara ödediği anlamına gelir (ayı baskısı)."
+    },
+    {
+      "term": "Uzun ve kısa pozisyon",
+      "definition": "Uzun pozisyon varlığa sahip olmak veya fiyatın yükseleceğine bahis oynamak anlamına gelir. Kısa pozisyon varlığa borçlu olmak veya fiyatın düşeceğine bahis oynamak anlamına gelir. Uzun/kısa oranı kaç tüccarın uzun ve kaç tüccarın kısa pozisyon tuttuğunu karşılaştırır."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Kaldıraçlı pozisyonlarda kar/zararı hesaplamak ve likitasyonu belirlemek için kullanılan resmi fiyat. Tipik olarak, manipülasyonu önlemek için tasarlanan birden çok borsa arasındaki işlemlerin zaman ağırlıklı ortalamasıdır."
+    },
+    {
+      "term": "Açık ilgi",
+      "definition": "Hala açık olan türev sözleşmelerinin (vadeli işlem, perpetual, opsiyonlar) toplam sayısı; madeni para veya ABD doları cinsinden ölçülür. Açık ilginin fiyat düşüşü ile birlikte yükselişi likitasyon riskini işaret edebilir."
+    },
+    {
+      "term": "Açık ilgi değişimi",
+      "definition": "Toplam açık pozisyonların bir dönem içinde (genellikle 24 saat) yüzde kaymı. Azalış pozisyonların kapandığı anlamına gelir; artış yeni sözleşmelerin açıldığı anlamına gelir."
+    },
+    {
+      "term": "Taker alış/satış oranı",
+      "definition": "Piyasa emrinden alışların piyasa emrinden satışlara oranı. 1,0'ın üzerinde, daha fazla alıcının agresif olduğu anlamına gelir (fiyatı yukarı itmeleri); 1,0'ın altında, daha fazla satıcının agresif olduğu anlamına gelir (fiyatı aşağı itmeleri)."
+    },
+    {
+      "term": "En büyük tüccar uzun/kısa oranı",
+      "definition": "Borsada tüm tüccarlar değil, yalnızca en büyük tüccarların uzun/kısa konumlandırması. 1,6× oranı, en büyük tüccarların kısa olanlara kıyasla %60 daha uzun olduğu anlamına gelir; bu, içeriden gelen güven veya kararlılığın bir işareti."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir günde yükselen işlem yapılabilir varlıkların (madeni paralar veya hisse senetleri) yüzdesi. %30'ün altında genişlik genellikle ayı açısından olumsuz (çoğu varlık düşüyor), %70 üzeri boğa açısından olumsuz (çoğu yükseliyor). %15 uç zayıflıktır."
+    },
+    {
+      "term": "Likitasyon",
+      "definition": "Kayıplar tüccarın marjını (teminat) aştığında kaldıraçlı bir pozisyonun zorunlu kapatılması. Keskin fiyat hareketleri sırasında likitasyonlar basamak oluşturabilir; düşüşü genişletebilir."
+    },
+    {
+      "term": "Baz",
+      "definition": "Günlük performans ve finansman hesaplamaları için kullanılan zaman periyodu—takvim günü (utc-gün) veya yuvarlak 24 saat (yuvarlak-24s). Farklı bazlar hafifçe farklı sonuçlar gösterir."
+    },
+    {
+      "term": "Vadeli işlem sözleşmesi (perp)",
+      "definition": "Varlığa sahip olmayı taklit eden ancak asla sona ermemesi gereken kaldıraçlı bir türev. Tüccarlar bunu kazançları genişletmek veya spot tutulumlarını hedge etmek için madeni paraları elinde tutmadan kullanır."
+    },
+    {
+      "term": "Spot pazar",
+      "definition": "Kriptopara birliklerini kaldıraç olmadan hemen teslimat için satın alma ve satış. Spot ETF'leri bu pazarı takip eder ve gerçek Bitcoin veya Ethereum tutar."
+    },
+    {
+      "term": "ETF girişleri ve çıkışları",
+      "definition": "Borsada işlem gören fonlara (girişleri) veya dışına (çıkışları) akan net para miktarı. Bitcoin ETF'lerine büyük girişler kurumsal talep işaret eder; çıkışlar kâr alma veya ilgi kaybını düşündürür."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "92eef1e8dc75a750"
+}
