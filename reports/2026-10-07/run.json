@@ -1,0 +1,108 @@
+{
+  "runId": "2026-10-08T00:00:02.470Z",
+  "dateOverride": null,
+  "reuseSynthesis": false,
+  "startedAt": "2026-10-08T00:00:02.470Z",
+  "status": "ok",
+  "finishedAt": "2026-10-08T00:14:30.151Z",
+  "durationSec": 868,
+  "date": "2026-10-07",
+  "live": true,
+  "window": {
+    "label": "2026-10-07 00:00 → 24:00 UTC",
+    "startMs": 1791331200000,
+    "endMs": 1791417599999,
+    "dayAligned": true,
+    "rolling": false,
+    "asOfUTC": "00:00 UTC"
+  },
+  "sources": {
+    "exchanges": {
+      "online": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "count": 5,
+      "bySymbol": {
+        "BTC": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ],
+        "ETH": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ]
+      }
+    },
+    "calendar": {
+      "ok": true,
+      "reason": null
+    },
+    "news": {
+      "ok": true,
+      "sourcesOnline": [
+        "CoinDesk",
+        "The Block",
+        "Cointelegraph",
+        "CryptoSlate",
+        "Decrypt",
+        "SEC",
+        "Federal Reserve"
+      ],
+      "failed": [
+        {
+          "source": "CFTC",
+          "err": "Error: HTTP 403"
+        }
+      ],
+      "count": 52,
+      "backfill": false
+    },
+    "tradfi": {
+      "ok": true,
+      "reason": null,
+      "requested": true,
+      "backfill": false
+    },
+    "stocks": {
+      "ok": true,
+      "reason": null
+    },
+    "market": {
+      "ok": true,
+      "failed": []
+    },
+    "etfFlows": "pending-synthesis",
+    "backfill": null
+  },
+  "synthesis": {
+    "source": "cli",
+    "fellBack": false,
+    "cliOnly": true,
+    "errorKind": null
+  },
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "pdf": {
+    "en": true,
+    "tr": true,
+    "zh": true
+  },
+  "publish": {
+    "pushed": true,
+    "branch": "main"
+  },
+  "reasons": []
+}

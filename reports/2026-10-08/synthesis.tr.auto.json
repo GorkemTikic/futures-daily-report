@@ -1,0 +1,186 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, 8 Ekim'de FOMC Üyesi Waller'ın ek faiz artışlarını işaret etmesi nedeniyle keskin düştü ve Bitcoin'de Haziran'dan bu yana en büyük ETF çıkışını tetikledi, tasfiyeler yaşandı.",
+  "caveman": "8 Ekim'de Federal Reserve'nin üst düzey yetkililerinden Waller, Fed'in enflasyonu kontrol altına almak için muhtemelen faiz oranlarını artırmaya ihtiyaç duyacağını söyledi. Bu, tüccarları korkuttu çünkü daha yüksek faiz oranları borçlanmayı pahalılaştırır ve Bitcoin gibi riskli bahislerin fiyatını aşağı çeker. Böylece tüccarlar satmaya başladı—Bitcoin %1,9 düşüş göstererek 81.711 dolara, Ethereum %3,8 düşüş göstererek 2.474 dolara geriledi. Devasa bir miktarda pozisyon kapatılmak zorunda kaldı (1 milyar doların üzerinde tasfiye). İnsanlar Bitcoin ve Ethereum yatırım fonlarından para çekti (Bitcoin'den tek başına 484,9 milyon dolar, Haziran'dan bu yana en kötü gün). ABD hükümeti, yıllar önce hackerlardan ele geçirdiği 1 milyar dolarlık Bitcoin'i taşıdı—sadece yeni depolama alanına taşınmak, satılmamak. O gün kripto bahislerinin yalnızca 1/5'i kazanıyor durumundaydı. Kripto piyasaları için endişeli bir gün oldu.",
+  "priceVolumeSummary": "Bitcoin %1,9 düşerek 81.711 dolara, Ethereum %3,8 düşerek 2.474 dolara geriledi ve fiyatlar beş büyük borsa (Binance, OKX, Bybit, Bitget, Gate) arasında yakından harekete geçti. Binance, Bitcoin vadeli işlemlerde 18,0 milyar dolar, Ethereum vadeli işlemlerde 14,2 milyar dolar hacimle öncü konumdaydı.",
+  "positioningSummary": "Bitcoin tüccarları Binance'de ılımlı bir uzun eğilim tuttu (tüm hesaplarda 1,69:1 uzun-kısa oranı, en büyük tüccarlar arasında 1,62:1), ancak satış baskın oldu—alıcı satın alma-satış oranı 0,93 oldu, bu da biraz daha agresif satışı gösteriyor. Ethereum, daha yüksek fiyatlar için daha güçlü bir inanç gösterdi (3,38:1 uzun-kısa) ama daha keskin satış baskısı (0,85 alıcı oranı). Finansman oranları borsalar arasında keskin şekilde ayrıldı: Bitget'in Bitcoin oranı %10,95 yıllıklandırılmış seviyesinde oturdu (en yüksek), kısa satıcıları uzun vadeli pozisyon tutanlardan ücret toplamaya çekti, Binance'i ise sadece %1,93 oldu; Ethereum finansman OKX'te (%−5,5) ve Binance'de (%−1,6) derin negatife döndü, kısa satıcıları ödüllendirdi. Ethereum'da açık pozisyon %6,4 düştü, kaldıraçtan çıkışı işaret etti. En kritik olarak, Binance vadeli işlemlerinin yalnızca %20,7'si yukarıda duruyordu—en geniş risk-kaçış sinyali, hemen hemen her pozisyondan para kaçıyor.",
+  "stocksSummary": "Asya hisse senetleri keskin şekilde düştü, Koreli yarı iletkenler öncü konumdaydı: SK Hynix %−6,1, Samsung %−5,4, KOSPI endeksi %−4,2. Hong Kong teknolojisi daha sert çöktü—MiniMax %−16,7, Zhongji Innolight %−13,2, GigaDevice %−11,7; Çin'in CXMT %11,1 düştü. ABD hisse senetleri de düştü (S&P 500 %−0,42, Nasdaq %−1,22), kripto zayıflığıyla uyum içinde hareket etti. Tahvil getirileri yükseldi (ABD 10 yıllık hazine proxy IEF +%0,38), faiz artışı korkuları sabit geliri destekledi. Petrol emtiası İran jeopolitik gerilimleri nedeniyle trend bucağını kırdı WTI ham petrol +%2,4 ve Brent +%2,1 ile, ama risk varlıkları üniform olarak satıldı.",
+  "movers": [
+    {
+      "symbol": "OGNUSDT",
+      "explanation": "Origin Protocol token, gün içinde %96 oranında fırladı, ancak duyurulan herhangi bir katalist bulunamadı. Hamle, geniş pazar zayıflığı arasında meydana geldi, bu da karşıt bir ticarette spekülatif birikimi gösteriyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "RLCUSDT",
+      "explanation": "iExec RLC, yaklaşık %30 yükseldi, ancak 8 Ekim'deki belirli neden, kamuya açık duyurular veya haberlerde açıklanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Küçük ölçekli, zayıf işlem gören, %26'lık hamlenin tanımlanabilir kamuya açık katalizörü olmayan token.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ETF'leri Haziran'dan bu yana en büyük çıkışı yaşadığında Uptober kırmızıya döndü",
+        "what": "ABD spot Bitcoin ETF'leri 8 Ekim'de 484,9 milyon dolarlık net çıkış gördü, üç aydan uzun süredir en dik günlük çekilişti. Bu çıkış, Ekim'in ilk dört işlem gününden gelen kazançları sildi ve BlackRock'un IBIT'i (%−207,7M), Fidelity'nin FBTC'sini (%−105,1M) ve ARK'ın ARKB'sini (%−101,7M) çıkışlara öncülük etti.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-10-08",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red"
+      },
+      {
+        "headline": "ABD hükümeti Bitfinex hack'ine bağlı 1 milyar dolarlık bitcoini taşıdı, satış belirtisi yok",
+        "what": "ABD hükümeti, 2016 Bitfinex hack'ından ele geçirilen fonları tutan cüzdandan yaklaşık 1,01 milyar dolar değerinde 12.267 BTC transferi yaptı. Transfer, bir borsaya değil, etiketlenmemiş cüzdanlara gitti, bu da stratejik depolama alanına hareketi gösteriyor, satış değil. Mart 2025 yönetim emri, ele geçirilen Bitcoin'in Stratejik Bitcoin Rezervine gitmesini, satılmamasını zorunlu kılıyor.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-10-08 09:33 EDT (13:33 UTC)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated"
+      },
+      {
+        "headline": "Fed'in Waller, enflasyonla devam eden mücadeleye rağmen ek faiz artışlarının gerekli olduğunu işaret etti",
+        "what": "Federal Reserve Yöneticisi Christopher Waller, 08:30 UTC'de İstanbul Ekonomik Forumu'nda konuştu ve enflasyonın '2% hedefine zamanında dönüşünü' desteklemek için ek faiz artışlarının gerekli olacağını ifade etti. Açıklamaları, Fed politikası beklentilerinin daha az uyumluluğa doğru kaydığı sırada geldi ve tüccarlar, kripto dahil risk varlıklarını alarma geçiren hawkish rehberlik olarak yorumladılar. Konuşma, gün içi keskin pazar satışından hemen önce geldi.",
+        "coins": "Bitcoin, Ethereum (makro tetikleyici)",
+        "timeUTC": "2026-10-08 08:30 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "AB menkul kıymetler düzenleyicisi kripto platformlarına yetkisiz stablecoin'leri 3 ay içinde kaldırmalarını emretti",
+          "what": "ESMA (Avrupa Menkul Kıymetler ve Piyasalar Otoritesi), kripto platformlarına MiCA (Kripto-varlıklar Piyasasında Düzenleme) standartlarını karşılamayan stablecoin'lere 90 gün içinde yeni erişimi engellemeyi zorunlu kıldı. Yetkili platformlar uyum sağlamalı, ulusal yetkililer mevcut müşteri varlıklarını denetliyor.",
+          "coins": "Stablecoin'ler (tümü)",
+          "timeUTC": "2026-10-08",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins"
+        },
+        {
+          "headline": "NFL, Yüksek Mahkeme'de tahmin pazarı düzenleme savaşına katıldı",
+          "what": "Ulusal Futbol Ligi, ABD Yüksek Mahkemesi'nden Kalshi'ye karşı New Jersey'nin davasını dinlemesini isteyerek bir dostça rapor sundu ve spor tahmin pazarı sözleşmelerinin eyalet hukuku altında kumardır, federal düzenleme kapsamındaki takas değildir, iddia etti. Dosyalama, tahmin pazarlarını hangi ajansın kontrol ettiği konusundaki gerginliği ortaya koymaktadır.",
+          "coins": "Hiçbiri (sadece düzenleme)",
+          "timeUTC": "2026-10-08",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/08/nfl-joins-pushback-against-prediction-markets-as-u-s-supreme-court-asked-to-act"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "JPMorgan, bu yıl 50 milyar dolar kripto'ya akıntının meydana geldiğini tahmin ediyor çünkü momentum Q4'e doğru iyileşiyor",
+          "what": "JPMorgan analistleri, 2026 sırasında dijital varlıklara yaklaşık 50 milyar dolarlık net akıntının girdiğini, bu da 66 milyar dolarlık yıllıklandırılmış bir tempo olduğunu gösteriyor. Tahmin, 8 Ekim geri çekilmesine rağmen kurumsal ilginin güçlü kaldığını gösteriyor ve ETF'ler ile vadeli işlemler önemli mekanizm olarak alındı.",
+          "coins": "Bitcoin, Ethereum (geniş tabanlı)",
+          "timeUTC": "2026-10-08",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115"
+        },
+        {
+          "headline": "Securitize, Solana üzerinde 1:1 destekli tokenize edilmiş hisse senetleri başlattı, Apple, Nvidia ve Strategy ile başladı",
+          "what": "Securitize, Apple, Nvidia, Meta ve Microstrategy dahil olmak üzere gerçek hisse senetlerine tam 1:1 yedek ile Solana'da tokenize edilmiş ABD öz kaynakları konuşlandırdı. Sahipler temettü, oy hakkı ve USDC uzlaşması alırlar, uygun yatırımcılarına blockchain raylarında geleneksel hisse senetlerinin 24 saatlik ticaretini sundu.",
+          "coins": "Solana (kullanılan blockchain)",
+          "timeUTC": "2026-10-08",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana DEX Orca ve borç verme platformu Loopscale, Formation markası altında birleşti ve AI ve savunmayı finanse ediyor",
+          "what": "Orca ve Loopscale, Formation adlı yeni bir holding şirketi altında operasyonları birleştirdi, New York merkezli. Birleştirilmiş varlık, yapay zeka, enerji, robotik ve savunma varlıklarını finanse etmeyi hedefliyken sonunda kurumsal kullanım için düzenlenmiş ABD pazarlarına ulaşmayı planlıyor.",
+          "coins": "Solana (ekosistem)",
+          "timeUTC": "2026-10-08",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380522/solana-defi-firms-orca-and-loopscale-merge-under-new-formation-brand"
+        },
+        {
+          "headline": "Standard Chartered, Singapur'da kripto gözaltı hizmetlerini genişletecek",
+          "what": "Banka, Singapur ayakları arasında kripto gözaltı hizmetlerini genişletme planlarını duyurdu, BAE, Lüksemburg ve Hong Kong'daki mevcut operasyonlar temelinde yapılıyor. Genişletme, Asya-Pasifik'te düzenlenmiş gözaltı çözümleri için kurumsal talebini işaret ediyor.",
+          "coins": "Bitcoin, Ethereum (tutulan varlık sınıfları)",
+          "timeUTC": "2026-10-08",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017"
+        }
+      ],
+      "Risk and security": [
+        {
+          "headline": "Europol, kripto sektörünü şimdi kuantum dirençli cüzdan yükseltmeleri başlatmaya uyardı",
+          "what": "Avrupa hukuku uygulama ajansı Europol, kripto endüstrisine hemen kuantum dirençli cüzdan teknolojisine geçiş yapmasını uyararak, geçişin yıllar sürebileceğini ve cüzdan özel anahtarlarının kuantum saldırılarına birincil maruz kalmanın olduğunu uyardı. Ajans, kullanıcıların kuantum tehditleri ortaya çıkmadan önce yükseltmesi gerektiğini vurguladı.",
+          "coins": "Bitcoin, Ethereum (tüm kripto paralar)",
+          "timeUTC": "2026-10-08 (rapor günü haber beslemesinden)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/07/quantum-computers-threaten-exposed-private-keys-rather-than-blockchains-europol-warns"
+        },
+        {
+          "headline": "Vitalik Buterin, AI kriptografi tehditleri arasında acele geçişlere karşı uyardı",
+          "what": "Ethereum kurucu ortağı Vitalik Buterin, endüstriyi kriptografiye olası AI hızlandırılmış tehditleri ciddiye almaya ancak cüzdan geçişlerine acele etmemeye uyardı çünkü panikle yapılan hareketler yeni riskler yaratabilir. Buterin, cüzdan altyapısını yükseltmek için ölçülü, koordineli bir yaklaşımı önerdi.",
+          "coins": "Ethereum (ve tüm kripto paralar)",
+          "timeUTC": "2026-10-08 (rapor günü haber beslemesinden)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-08-vitalik-buterin-warns-hasty-wallet-migrations-418007"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-08",
+    "summary": "Bitcoin spot ETF'leri 8 Ekim'de 484,9 milyon dolarlık net çıkış kaydetti, bu Haziran 25, 2026'dan bu yana en büyük günlük çıkışı. BlackRock IBIT, 207,7 milyon dolar çıkışla çekilişlere öncülük etti ve bunu Fidelity FBTC (105,1M dolar çıkış), ARK 21Shares ARKB (101,7M dolar çıkış), Grayscale GBTC (39,3M dolar çıkış) ve Bitwise BITB (27,8M dolar çıkış) izledi. Bu tek gün, 1–4 Ekim'den tüm net akıntıları sildi. 8 Ekim için Ethereum ETF akıntısı mevcut kaynaklar tarafından ayrı olarak sınırlandırılmamıştır, ancak varlık 6 Ekim'de önemli çıkış (201,9M dolar) ve 7 Ekim'de (160,9M dolar) kaydetti ve 29 Eylül'de başlayan bir şeridi sürdürüyor.",
+    "source": "Farside Bitcoin ETF Flow Data / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Üyesi Waller 08:30 UTC'de 2026-10-08'de Konuşuyor",
+      "typicalReaction": "Fed yetkililerinin faiz oranı yolu ve enflasyon hakkındaki açıklamaları tipik olarak pazar risk iştahını değiştirir. 8 Ekim'deki Waller konuşması, ek faiz artışlarını işaret ederek geniş tabanlı risk-kaçış satışını tetikledi—tüccarlar, Fed'in borçlanma maliyetlerini daha uzun süre yüksek tutacağını sonuçlandırdı, kaldıraçlı pozisyonlar ve kripto dahil spekülatif varlıkları yaraladı. Bitcoin ve Ethereum sırasıyla %1,9 ve %3,8 oranında düştü ve 08:30 UTC konuşmasından sonra tasfiye ve ETF çıkışları izledi."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Tüccarlar arasında fiyatların yükseleceğine iddia edenler (uzun) ve tüccarlar arasında fiyatların düşeceğine iddia edenler (kısa) arasında periyodik bir ücret (genellikle her 8 saatte bir ödenir). Finansman pozitif ve yüksek olduğunda (örneğin, %10,95 yıllıklandırılmış), uzunlar kısalara ödeme yapar, bu da yükseliş duygusu gösterir ve kısa satıcıları uzun vadeli pozisyon tutanlardan ücret toplamaya çeker. Negatif olduğunda (örneğin, %−5,5), kısalar uzunlara ödeme yapar, bu da düşüş duygusu gösterir."
+    },
+    {
+      "term": "Uzun-kısa pozisyon oranı",
+      "definition": "Fiyatların yükseleceğini tahmin eden tüccarlar (uzun) ile fiyatların düşeceğini tahmin eden tüccarlar (kısa) arasındaki oranı. 1,69:1 oranı, her kısa pozisyon için 1,69 uzun pozisyon var demektir—yükseliş eğilimi. 1,0'ın altındaki oran, kısaların uzunlardan daha fazla olduğunu gösterir (düşüş eğilimi)."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Kâr/zarı hesaplamak ve tasfiye yı belirlemek için kullanılan vadeli işlem borsasındaki resmi fiyat. Tipik olarak spot fiyatından türetilir ve kapanış fiyatını manipülasyondan korumak için finansman tarafından ayarlanır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Bir pazardaki kaldıraçlı bahislere (uzun ve kısa kombinasyon) halihazırda kilitlenmiş toplam sermaye. Açık pozisyon yükselmesi daha fazla paranın bahislere girdiği anlamına gelir; düşen açık pozisyon, tüccarların pozisyon kapattığı ve parayı kaldırdığı anlamına gelir."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Bir gün başından gün sonuna kadar toplam açık pozisyondaki yüzde artış veya azalış. %−6,4 değişim, kaldıraçlı bahislerdeki sermayenin %6,4'ünün kaldırıldığı anlamına gelir, bu kaldıraçtan çıkış ve azalan inanç gösterir."
+    },
+    {
+      "term": "En üst düzey tüccar uzun-kısa oranı",
+      "definition": "Yalnızca en büyük hesap sahipleri arasındaki uzun ve kısa pozisyonları oranı. Bu genellikle 'akıllı para' konumlandırması için bir vekil olarak kullanılır, çünkü en büyük oyuncular tipik olarak daha iyi bilgiye sahiptir."
+    },
+    {
+      "term": "Alıcı-satıcı oranı",
+      "definition": "Mevcut fiyatlarda anında anlaşmalar alan tüccarlar arasında satın alma ve satış baskısı ölçüsü. 0,93 oranı biraz daha agresif satışı gösterir; 1,0'ın üzerindeki oran daha agresif satın almayı gösterir."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Gün içinde değeri artan bir pazardaki (sayıya göre) kripto para yüzdesini. Vadeli işlemlerin yalnızca %20,7'si yukarıda olduğunda, %79,3'ü düştü veya sabit kaldı—geniş, risk-kaçış sinyali."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Bir tüccarın kaldıraçlı pozisyonu, kayıplar teminatını aştığı için borsa tarafından otomatik olarak kapatılması. Tasfiyeler hızlı bir şekilde meydana gelen zorla satışlardır ve fiyatları daha da aşağı çekebilir."
+    },
+    {
+      "term": "Uptober",
+      "explanation": "Bitcoin'in ve kripto'nun söz konusu ayda tarihsel olarak güçlü mevsimsel performansını yansıtan Ekim için resmi olmayan takma ad. Terim, tüccarlar zayıf Eylül'lerden sonra beklenen Ekim kazançlarını gözlemledikçe popülarite kazandı."
+    },
+    {
+      "term": "Stratejik Bitcoin Rezervi",
+      "definition": "ABD hükümeti programı (yönetim emri tarafından kurulan), ele geçirilen ve kaybolan Bitcoin'leri süresiz olarak stratejik bir varlık olarak tutar ve satmaz. Rezerv, altın rezervlerine benzer uzun vadeli bir değer deposu olarak hareket eder."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "5af166995691c1fc"
+}

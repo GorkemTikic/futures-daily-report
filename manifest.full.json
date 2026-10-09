@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-08T00:14:24.046Z",
-  "count": 113,
+  "generatedAt": "2026-10-09T00:07:23.576Z",
+  "count": 114,
   "counts": {
-    "total": 113,
-    "market": 26,
+    "total": 114,
+    "market": 27,
     "divergence": 87,
     "degraded": 1
   },
-  "latest": "2026-10-07",
+  "latest": "2026-10-08",
   "reports": [
+    {
+      "date": "2026-10-08",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -1.9228045580790196,
+        "ETH": -3.838215802954746
+      },
+      "marketSummary": "Bitcoin and Ethereum fell sharply on 8 October as FOMC Member Waller signaled additional rate hikes ahead, triggering liquidations and the biggest Bitcoin ETF outflow since June.",
+      "oneLine": "Bitcoin and Ethereum fell sharply on 8 October as FOMC Member Waller signaled additional rate hikes ahead, triggering liquidations and the biggest Bitcoin ETF outflow since June.",
+      "newsCount": 11,
+      "topMover": {
+        "symbol": "OGNUSDT",
+        "chgPct": 100
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-08/summary_2026-10-08.html",
+        "pdf": "reports/2026-10-08/summary_2026-10-08.pdf",
+        "md": "reports/2026-10-08/summary_2026-10-08.md"
+      }
+    },
     {
       "date": "2026-10-07",
       "kind": "market",

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "kind": "market",
+  "dateLong": "Thursday, 8 October 2026",
+  "coversUTC": "2026-10-08 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum fell sharply on 8 October as FOMC Member Waller signaled additional rate hikes ahead, triggering liquidations and the biggest Bitcoin ETF outflow since June.",
+  "newsCount": 11,
+  "macro": {
+    "BTC": -1.9228045580790196,
+    "ETH": -3.838215802954746
+  },
+  "topMover": {
+    "symbol": "OGNUSDT",
+    "chgPct": 100
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "09 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
