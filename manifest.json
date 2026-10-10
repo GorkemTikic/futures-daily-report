@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-10T00:00:37.174Z",
+  "generatedAt": "2026-10-10T01:09:27.537Z",
   "count": 115,
   "counts": {
     "total": 115,
     "market": 28,
     "divergence": 87,
-    "degraded": 2
+    "degraded": 1
   },
   "latest": "2026-10-09",
   "head": 500,
@@ -19,12 +19,12 @@
       "dangerCount": null,
       "widest": null,
       "macro": {
-        "BTC": 1.05437552997145,
-        "ETH": 0.5055999999999999
+        "BTC": 1.0558438491497748,
+        "ETH": 0.49635012893786734
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum rose modestly on October 9 as US spot ETFs recorded significant outflows, while a $72–90 million hardware wallet theft linked to a Southeast Asian reseller and concerns about Tether's power to freeze stablecoins dominated the news.",
+      "oneLine": "Bitcoin and Ethereum rose modestly on October 9 as US spot ETFs recorded significant outflows, while a $72–90 million hardware wallet theft linked to a Southeast Asian reseller and concerns about Tether's power to freeze stablecoins dominated the news.",
+      "newsCount": 19,
       "topMover": {
         "symbol": "USUSDT",
         "chgPct": 101.3440693713224
@@ -37,14 +37,12 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-10-09/summary_2026-10-09.html",

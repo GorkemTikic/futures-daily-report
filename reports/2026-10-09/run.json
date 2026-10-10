@@ -1,0 +1,108 @@
+{
+  "runId": "2026-10-10T00:00:02.390Z",
+  "dateOverride": null,
+  "reuseSynthesis": false,
+  "startedAt": "2026-10-10T00:00:02.390Z",
+  "status": "degraded",
+  "finishedAt": "2026-10-10T00:00:55.781Z",
+  "durationSec": 53,
+  "date": "2026-10-09",
+  "live": true,
+  "window": {
+    "label": "2026-10-09 00:00 → 24:00 UTC",
+    "startMs": 1791504000000,
+    "endMs": 1791590399999,
+    "dayAligned": true,
+    "rolling": false,
+    "asOfUTC": "00:00 UTC"
+  },
+  "sources": {
+    "exchanges": {
+      "online": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "count": 5,
+      "bySymbol": {
+        "BTC": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ],
+        "ETH": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ]
+      }
+    },
+    "calendar": {
+      "ok": true,
+      "reason": null
+    },
+    "news": {
+      "ok": true,
+      "sourcesOnline": [
+        "CoinDesk",
+        "The Block",
+        "Cointelegraph",
+        "CryptoSlate",
+        "Decrypt",
+        "SEC",
+        "Federal Reserve"
+      ],
+      "failed": [
+        {
+          "source": "CFTC",
+          "err": "Error: HTTP 403"
+        }
+      ],
+      "count": 52,
+      "backfill": false
+    },
+    "tradfi": {
+      "ok": true,
+      "reason": null,
+      "requested": true,
+      "backfill": false
+    },
+    "stocks": {
+      "ok": true,
+      "reason": null
+    },
+    "market": {
+      "ok": true,
+      "failed": []
+    },
+    "etfFlows": "pending-synthesis",
+    "backfill": null
+  },
+  "synthesis": {
+    "source": "data-only",
+    "fellBack": true,
+    "cliOnly": true,
+    "errorKind": "cli-error"
+  },
+  "languages": [
+    "en"
+  ],
+  "pdf": {
+    "en": true
+  },
+  "publish": {
+    "pushed": true,
+    "branch": "main"
+  },
+  "reasons": [
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
+  ]
+}

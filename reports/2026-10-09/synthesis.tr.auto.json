@@ -1,0 +1,282 @@
+{
+  "oneLine": "9 Ekim'de Bitcoin ve Ethereum mütevazı bir şekilde yükselirken, ABD spot ETF'leri önemli ölçüde çıkış kaydetti; yaklaşık 72-90 milyon dolarlık donanım cüzdanı hırsızlığı Güneydoğu Asya'daki bir satıcıya bağlı olması ve Tether'ın stabilcoin'leri dondurma gücü haberleri domine etti.",
+  "caveman": "9 Ekim'de Bitcoin yaklaşık yüzde 1 yükseldi, Ethereum ise yaklaşık yüzde 0,5 yükseldi. En büyük haber bir hırsızlıktı: bilgisayar korsanları, Güneydoğu Asya'da CryptoBilis adlı bir şirketten donanım cüzdanı (kripto para saklamak için USB sürücüsü gibi özel cihazlar) satın alan insanlardan 72 ile 90 milyon dolar arasında kripto para çaldılar. Bu cüzdanları yapan Ledger araştırma yapıyor ama cihazların sahte olup olmadığını, gönderilmeden önce kırılıp kırılmadığını veya teslimatından sonra kurcalanıp kurcalanmadığını henüz bilmiyor. Aynı gün başka bir büyük haber ortaya çıktı: Tether (popüler bir kripto stablecoin'i USDT'yi yapan şirket) merkeziyetsiz bir ticaret platformu olan THORChain tarafından tutulan yaklaşık 1,45 milyon dolarlık kripto parayı yaklaşık 27 dakika boyunca donattı. Bu, Tether'ın merkeziyetsiz sistemlerde olması gerektiğinde bile insanların parasını kontrol edebilmesini gösterdi. Bu arada yatırımcılar Bitcoin ve Ethereum ETF'lerinden (bu madeni paraları takip eden yatırım fonları) para çekiyorlardı; Bitcoin ETF'leri bir günde 244 milyon dolar, Ethereum ETF'leri 72,5 milyon dolar kaybetti. Bitcoin ve Ethereum fiyatları nispeten istikrarlı kalsa da, güvenlik ve merkezileştirme endişeleri açısından endişeli bir gündü.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları beş büyük borsada (Binance, Bybit, OKX, Bitget, Gate) istikrarlı kaldı; Binance hacimde liderlik yaptı: BTC günlük kote hacimde 9,2 milyar dolar, ETH ise 5,7 milyar dolar.",
+  "positioningSummary": "Tüccarlar yükselişe eğilim gösterdiler: Bitcoin açık faiz yüzde 0,55 yükseldi, Binance'de finansman oranları pozitif (yıllıklandırılmış yüzde 3,81) olsa da Bybit'te negatif (yüzde -4,87) kaldı; açık pozisyonlar genel olarak 1,87'ye 1 oranında longları shorts'tan fazla idi ve en büyük tüccarlar 1,65'e 1 oranında daha da yükseliş yönündeydi. Ethereum 3,36'ya 1 oranında daha güçlü yükseliş konumlandırması gösterdi, açık faiz yüzde 0,86 yükseldi, ancak en iyi tüccarlar 1,69'a 1 oranındaydı. Her iki varlık da taker oranları aracılığıyla mütevazı satış baskısı gösterdi (BTC 0,92, ETH 0,93, her ikisi de 1,0'ın altında). Pazar genişliği güçlüydü: Binance'deki tüm kalıcı sözleşmelerin yüzde 82'si gün içinde yükseldi. Duyarlılık, önceki günün Açgözlülüğü (64) konumundan yine de Açgözlülüğe (59) hafif kayıp yaptı ve hafif risk-off ruh halini gösterdi.",
+  "stocksSummary": "ABD öz sermaye piyasaları mütevazı bir şekilde yükseldi (S&P 500 +yüzde 0,60, Nasdaq +yüzde 0,63) ve Hazine getirileri hafif yükselirken dolar sabit kaldı. Güney Kore'nin ana borsası Hangul Günü için kapalıydı. Hong Kong'da yarı iletken ve teknoloji şirketleri fırladı: Xiaomi +yüzde 9,04, MiniMax +yüzde 5,92 ve Tencent +yüzde 3,21. Çin'in küçük sermayeli kazananları CXMT +yüzde 2,63 ve Unitree Robotics +yüzde 3,52'yi içeriyordu. Altın esasen sabit kaldı (+yüzde 0,01) ve değerli metaller Hazine bonolarında zayıflık nedeniyle geniş ölçüde kazanç elde etti.",
+  "movers": [
+    {
+      "symbol": "USUSDT",
+      "explanation": "US token gün içinde yüzde 101 fırladı, işlem hacmi 607 milyon dolardı. Pazar haberleri veya duyurularında hiçbir açık kamu sebebi görülmüyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "explanation": "MAGIC token'ı yüzde 85 sıçradı, 316 milyon dolar işlem gördü. Haber beslemeleri veya platform duyurularında belirlenebilir bir katalizör yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "explanation": "KAIA token'ı 450 milyon dolarlık hacimde yüzde 61 tırmandı. Onaylanmış haber olayı veya katalizör belgelenmemiş.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Ledger, Güneydoğu Asya'daki bir satıcıya bağlı 72-90 milyon dolarlık donanım cüzdanı hırsızlığını araştırıyor",
+        "what": "Blokzincir araştırmacıları, Güneydoğu Asya'da satıcı CryptoBilis'ten cihaz satın alan Ledger donanım cüzdanı alıcılarından 72-90 milyon dolarlık şüpheli kripto para hırsızlıkları tahmin etmektedir. Ledger olayı 9 Ekim'de açıkladı ve cihazların sahte, fiziksel olarak oynanmış veya başka bir yolla tehlikeli hale getirilip getirilmediğini araştırıyor. Olay, donanım cüzdanlarını yetkisiz veya satıcı kanalları aracılığıyla satın almanın tedarik zinciri riskini vurgular.",
+        "coins": "Bitcoin, Ethereum, Tron ve etkilenen cihazlara saklanan diğer varlıklar",
+        "timeUTC": "2026-10-09 18:30 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/ledger-hack-scare-nears-90-million-as-tether-moves-to-freeze-stolen-usdt/"
+      },
+      {
+        "headline": "Tether, THORChain TRON kasalarında yaklaşık 1,45 milyon dolarlık tutarı yaklaşık 27 dakika boyunca dondurdu",
+        "what": "Tether, 9 Ekim'de THORChain'in altı TRON kasasından dördünü kara listeye aldı, platformun TRON ticaretini geçici olarak durdurdu ve yaklaşık 363.000 doların ödeme kuyruğuna girmesine neden oldu. Donma, adresler açılmadan önce yaklaşık 27 dakika sürdü. Olay, THORChain işlem imzalama yetkisini doğrulayıcı düğümler arasında dağıtırken, ihraçcı Tether'ın stabilcoin'leri tek taraflı olarak dondurma yeteneğini koruması ve merkeziyetsiz olması beklenen altyapı üzerinde merkezileştirilmiş kontrolle ilgili endişeleri artırması göstermektedir.",
+        "coins": "USDT (Tether stabilcoin'i)",
+        "timeUTC": "2026-10-09 20:50 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/tether-freezes-1-4m-in-tron-vaults-and-thorchain-stalls/"
+      },
+      {
+        "headline": "CFTC, tahmin piyasası olay sözleşmelerini federal denetim altında takaslar olarak sınıflandırmak için kural teklif ediyor",
+        "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC) 9 Ekim'de hemen yürürlüğe giren geçici bir nihai kural yayınladı ve 'olay sözleşmelerini' (spor, siyaset, kültür ve hava durumu tahminleri dahil) CFTC denetimi altında takaslar olarak sınıflandırmak için 30 günlük bir yorum dönemi ile resmi bir kural teklif etti. Hamle, Kalshi ve Polymarket gibi tahmin piyasası platformları üzerinde münhasır federal otoriteyi kurmayı ve eyalet kumar düzenleyicilerini yetki alanından çıkarmayı amaçlıyor. Duyuru, CFTC ve eyaletler arasında mevcut düzenleyici otorite konusundaki yasal anlaşmazlıkların ortasında geldi.",
+        "coins": "Belirli madeni para yok; tahmin piyasası düzenlemesi için daha geniş çerçeve",
+        "timeUTC": "2026-10-09 18:42 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Blockchain.com, düzenlenmiş ABD tahmin piyasaları ve kripto türevleri işletmek için CFTC onayı arıyor",
+          "what": "Blockchain.com, Emtia Vadeli İşlemler Ticaret Komisyonu'na (CFTC) Belirlenen Sözleşme Piyasası (DCM) ve Vadeli İşlemler Komisyon Tüccarı (FCM) lisansları için başvurdu; bu, şirketin ABD'de kendi düzenlenmiş tahmin piyasası ve türev platformunu işletmesini sağlayacaktır. Şu anda Blockchain.com, Polymarket ve Hyperliquid ile ortaklıklar aracılığıyla uluslararası tahmin piyasası hizmetleri sunmaktadır. Onay, yerel perakende ve kurumsal erişime izin verecektir.",
+          "coins": "Olay sözleşmeleri ve kripto türevleri",
+          "timeUTC": "2026-10-09 10:20 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380612/blockchain-cftc-prediction-markets-crypto-derivatives"
+        },
+        {
+          "headline": "Tayland'ın Menkul Kıymetler ve Borsa Komisyonu, 16 Ekim'de yürürlüğe girecek Bitcoin ve Ethereum ETF kurallarını yayınladı",
+          "what": "Tayland SEC, 9 Ekim'de yerel olarak listelenen Bitcoin ve Ethereum ETF'leri için düzenleyici kurallar yayınladı ve Tayland varlık yöneticilerinin Tayland borsasında kripto ETF'leri başlatmasına izin verdi. Kurallar 16 Ekim'de yürürlüğe girer ve emanet, maruz kalma ve ticaret gereksinimlerini uygular. Tayland başlangıçta kripto ETF tekliflerini Bitcoin ve Ethereum ile sınırlandırır.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-09 23:41 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132"
+        },
+        {
+          "headline": "Birleşik Krallık, iddia edilen Rusya yaptırımlarını aşındırma nedeniyle üç kripto borsası ve iki ödeme platformunu hedef alıyor",
+          "what": "Birleşik Krallık hükümeti, Rusya'nın finansal yaptırımlardan kaçmasına yardımcı olmakla suçlanan üç kripto borsası ve iki ödeme hizmeti üzerine yaptırım ilan etti. İki kripto platformu, Kremlin tarafından desteklenen A7 ağı içeren işlemlerle bağlantılıydı. Eylem, yaptırılan Rus kuruluşları tarafından kullanılan finansal kanalları kapatmak için devam eden çabaların bir parçasıdır.",
+          "coins": "Çok varlık; Rusya'ya bağlı hesaplara etki",
+          "timeUTC": "2026-10-09 23:15 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/09/uk-slaps-sanctions-on-three-crypto-exchanges-over-alleged-russia-links"
+        },
+        {
+          "headline": "XRP Ledger, kurumların hesap görevlerini paylaşmasına izin veren PermissionDelegationV1_1 değişikliğini başlattı",
+          "what": "XRP Ledger (XRPL), 8 Ekim'de kurumların birincil özel anahtarlarını paylaşmadan hesap görevlerini ve imzalama yetkisini devreden bir ağ yükseltmesi ile canlı yayına geçti. Bu özellik, anahtar güvenliğini korurken kurumsal hazine ve emanet kullanım durumlarını etkinleştirir.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-09 (8 Ekim aktivasyonu için duyuruldu)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ripple-wants-to-turn-xrpls-4-5-billion-in-tokenized-assets-into-round-the-clock-collateral/"
+        },
+        {
+          "headline": "Zcash geliştiricileri, kuantum dirençli ödeme gizliliği için Ocak 2027 hedefini belirlediler",
+          "what": "Zcash geliştiricileri, kripto para özel anahtarlarına yönelik potansiyel kuantum bilişim tehditleri hakkında 'bunker modu' tartışması hakkında topluluk endişesinin ardından Ocak 2027 tarafından halka açık ödemeler için kuantum dirençli şifreleme uygulamak için planlar ilan etti. Çaba, halka açık adreslerde oturan ZEC'nin yaklaşık yüzde 70'ini koruyacaktır.",
+          "coins": "ZEC (Zcash)",
+          "timeUTC": "2026-10-09 (8 Ekim'deki kuantum tartışmasının bağlamı)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/09/zcash-developers-set-january-target-for-quantum-resistant-payments-after-bunker-mode-scare"
+        },
+        {
+          "headline": "New York Başsavcısı, eski Celsius CEO'su Alex Mashinsky'den 35 milyon dolara kadar ve kripto endüstrisi yaşam boyu yasağı güvence altına aldı",
+          "what": "New York Başsavcısı Letitia James, Celsius kurucusu Alex Mashinsky ile (zaten dolandırıcılık için 12 yıl hizmet veriyor) Celsius müşterilerini başarısız borç verenin güvenliği konusunda yanıltmakla suçlanan medeni suçlamalar çözen bir uzlaşma sağladı. Uzlaşma, 35 milyon dolara kadar tazminat ve menkul kıymetler, emtia ve kripto endüstrilerinden kalıcı yasağı içerir.",
+          "coins": "Çok varlık; Celsius platformu uzlaşması",
+          "timeUTC": "2026-10-09 09:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "ABD spot Bitcoin ve Ethereum ETF'leri 9 Ekim'de önemli net çıkışlar kaydediyor",
+          "what": "Bitcoin ETF'leri 9 Ekim'de 244 milyon dolarlık net çıkış yaşadı (3 günlük kümülatif çıkışlar yaklaşık 728,9 milyon dolar ve 7 günlük çıkış 6.747 BTC). Ethereum ETF'leri 72,5 milyon dolarlık net çıkış gösterdi ve sekiz günlük kayıp serisini toplam 641,3 milyon dolara uzattı. Ekim net çıkışları BTC ETF'leri için 407,4 milyon dolar ve ETH ETF'leri için toplam 578,9 milyon dolar.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-09 (günlük)",
+          "source": "KuCoin / Farside Investors / SoSoValue",
+          "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-9"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Robinhood Chain, işlem sıralaması için öncelik gaz açık artırması teknolojisini araştırıyor",
+          "what": "Robinhood Chain, tüccarların öncelikli yürütme için ödeme yapmasına izin veren bir işlem sıralaması sistemi olan Öncelik Gaz Açık Artırmaları (PGA) uygulanmasını dikkate almaktadır. Bu, Arbitrum'un Timeboost sistemini benzer bir modelle yakın zamanda değiştirmesinden sonra gerçekleşmektedir.",
+          "coins": "Robinhood Chain'deki çok varlık",
+          "timeUTC": "2026-10-09 10:57 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/09/robinhood-chain-considers-technology-that-gives-paying-traders-priority"
+        },
+        {
+          "headline": "Ethereum Layer 2 Starknet, bağımsız Layer 1'e geçiş planını duyurduktan sonra yüzde 20 fırladı",
+          "what": "Starknet, Ethereum Layer 2'den bağımsız bir Layer 1 blokzincire geçişi 'aktif olarak dikkate aldığını' duyurdu ve 2027 yılına kadar ilk tam kuantum dirençli ağ olmak için planlarını belirtti. Token, duyuru üzerine yüzde 20 fırladı.",
+          "coins": "Starknet (STRK)",
+          "timeUTC": "2026-10-09 (önceki tartışmanın bağlamı)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1"
+        },
+        {
+          "headline": "Coinbase'in Base Layer 2, token haline getirilmiş ABD hisse senetlerinde şimdi günlük 70-100 milyon dolarlık hacim işlemektedir",
+          "what": "Base yaratıcısı Jesse Pollak, Coinbase'in token haline getirilmiş ABD hisse senetleri ürününün (altı hafta önce başlatılan) günlük 70-100 milyon dolarlık işlem hacmi üreterek varlık tokenizasyonu altyapısının erken benimsenmesini gösterdiğini bildirdi.",
+          "coins": "Base'deki token haline getirilmiş ABD öz sermayesi",
+          "timeUTC": "2026-10-09 22:19 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "DWF Labs yan kuruluşları, iddia edilen token kilitleme ihlali nedeniyle BitGo'ya 141 milyon dolarlık dava açıyor",
+          "what": "DWF Labs ile bağlantılı kuruluşlar, London Yüksek Mahkemesi'nde BitGo'nun Falcon Finance ve ESPORTS token'larını planlanan kilitleme süresi dolmadan yaklaşık iki ay önce indirimli fiyatla sattığını ve kütlevi fiyat düşüşüne neden olduğunu iddia eden bir dava açtı. DWF, 114 milyon dolarlık doğrudan zarar tazminatı talep etmektedir.",
+          "coins": "Falcon Finance, ESPORTS token'ları",
+          "timeUTC": "2026-10-09 06:43 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/09/dwf-labs-subsidiaries-sue-bitgo-for-usd141-million-over-alleged-token-lock-up-breach"
+        },
+        {
+          "headline": "Analiz: 'Kilitli' likidite, token izinleri aracılığıyla 14 milyon dolarlık kripto havuzu tahliyesini önlemede başarısız olmuştur",
+          "what": "Bitquery, 79AU token likidite havuzundan 14 milyon dolarlık bir tahliye iz başında token izinlerinin yapılandırılma biçimindeki bir kusura kadar gitti. Havuz, güvenlik önlemi olarak LP (likidite sağlayıcı) makbuzlarını yakıp tüketmişti, ancak 8 Ekim'de belgelenen kalan izin hakları 'kilitli' likidite mekanizmasına rağmen tahliyeye izin verdi.",
+          "coins": "79AU token'ı",
+          "timeUTC": "2026-10-09 13:27 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/locked-liquidity-did-not-stop-this-14-million-crypto-pool-drain"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Trump, ABD ara seçimleri öncesinde İran askeri müdahalesini reddediyor; Bitcoin risk duyarlılığında toparlanıyor",
+          "what": "Eski ABD Başkanı Trump, Kasım ara seçimleri öncesinde İran'a askeri müdahale planlamadığını duyurdu ve jeopolitik riski hafifletmektedir. Bitcoin ifadeden sonra 82.500 dolara toparlandı, ancak daha geniş pazar zayıflığı ortasında haftaya göre yaklaşık yüzde 4 daha düşük kaldı.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-09 09:10 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Hazine Departmanı, İran'a bağlı kripto varlıklarının 1 milyar dolarlık müsaderesini planlıyor",
+          "what": "ABD Hazine Sekreteri Scott Bessent, devam eden yaptırım uygulamasının bir parçası olarak bu hafta İran yaptırım ihlalleriyle ilişkili yaklaşık 1 milyar dolarlık kripto para müsaderesini planladığını duyurdu. Bessent, 'onun nerede olduğunu biliyoruz' diyerek tanımlanmış ve izlenebilir varlıkları önerdi.",
+          "coins": "Belirtilmemiş; İran'a bağlı hesaplar",
+          "timeUTC": "2026-10-09 12:39 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/scott-bessent-us-seize-crypto-iran-sanctions"
+        },
+        {
+          "headline": "Ethereum ücret yakılması 2026'da basılan yeni paraların sadece yüzde 2'sini kapsamaktadır",
+          "what": "9 Ekim itibariyle yapılan analiz, Ethereum'un ücret yakılması mekanizmasının brüt yeni ETH ihraçının yalnızca yüzde 2,07'sini kaldırdığını göstermektedir. Boşluk, stake etme ve doğrulayıcı ödüllerinden gelen pozitif finansmanın yakılma oranını aşmasını yansıtmakta ve mevcut ekonomik parametreler altında deflasyona giden yolu hakkında sorular ortaya koymaktadır.",
+          "coins": "Ethereum (ETH)",
+          "timeUTC": "2026-10-09 07:40 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/eth-fee-burns-cover-just-2-of-new-coins-printed-in-2026"
+        },
+        {
+          "headline": "Sam Altman tarafından desteklenen bitcoin hayat sigortacısı Meanwhile, Bain Capital Crypto'dan 37,5 milyon dolar topladı",
+          "what": "Bu arada, OpenAI CEO'su Sam Altman tarafından desteklenen bir bitcoin hayat sigortası ürünü olan Meanwhile, Bain Capital Crypto tarafından yönetilen 37,5 milyon dolarlık bir finansman turunu kapattı ve toplam finansmanı 180 milyon doları aşmaktadır. Şirket, bitcoin'i temel varlık olarak içeren sigorta ürünleri sunmaktadır.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-09 22:53 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-09",
+    "summary": "ABD spot Bitcoin ETF'leri 9 Ekim'de 244 milyon dolarlık net çıkış gösterdi, 7 günlük kümülatif çıkışlar yaklaşık 6.747 BTC'dir. Ethereum ETF'leri 72,5 milyon dolarlık net çıkış kaydetti ve sekiz günlük kayıp serisini toplam 641,3 milyon dolara uzattı. Ekim ayından itibaren BTC ETF çıkışlarında 407,4 milyon dolar ve ETH ETF çıkışlarında toplam 578,9 milyon dolar göstermektedir.",
+    "source": "KuCoin / Farside Investors / SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-9"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI (Oct 14, 01:30 UTC) and US CPI Report (Oct 14, 12:30 UTC)",
+      "typicalReaction": "Orta seviye etki. Bu rakamlar risk duyarlılığını ve merkez bankası faiz kararı beklentilerini etkileyebilir ve tipik olarak kripto parayı geleneksel piyasalarla aynı yönde hareket ettirir."
+    },
+    {
+      "event": "UK GDP, US Retail Sales, US Jobless Claims (Oct 15, 06:00–12:30 UTC)",
+      "typicalReaction": "Orta seviye etki. Büyük gelişmiş pazarlardan gelen ekonomik veriler ABD dolarının gücünü ve daha geniş varlık duyarlılığını etkiler, bu da sıklıkla kripto oynaklığına dönüşür."
+    },
+    {
+      "event": "China GDP and Canada CPI (Oct 19, 02:00 and 12:30 UTC)",
+      "typicalReaction": "Orta seviye etki. Asya GSYİH rakamları, Asya pazar saatleri sırasında Asya-Pasifik ticaret duyarlılığını ve risk iştahını etkiler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Kara listeye alınmış",
+      "definition": "Bir kripto para ihraçcısının (Tether gibi) bu adreslerden yapılan transferleri önleyebilmesi ve orada tutulan fonları etkili bir şekilde dondurması için kara listeye eklenen."
+    },
+    {
+      "term": "Belirlenen Sözleşme Piyasası (DCM)",
+      "definition": "Halka vadeli işlem sözleşmeleri ve olay sözleşmeleri sunmak için CFTC tarafından lisanslanan düzenlenmiş bir ABD vadeli işlem borsası."
+    },
+    {
+      "term": "ETF (Borsa Yatırım Fonu)",
+      "definition": "Bir varlık veya endeksi takip eden bir borsada işlem gören bir yatırım fonu (bu durumda Bitcoin veya Ethereum)."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Kalıcı vadeli işlem sözleşmelerinde long ve short pozisyonlar tutan tüccarlar arasında yapılan periyodik bir ödeme; pozitif oranlar longların short'ları ödediği anlamına gelir, negatif oranlar short'ların long'ları ödediği anlamına gelir. Yıllıklandırılmış finansman bunu yıllık bir yüzde olarak ifade eder."
+    },
+    {
+      "term": "Vadeli İşlemler Komisyon Tüccarı (FCM)",
+      "definition": "Müşteri fonlarını ve türev ticaret için risk yönetimini idare eden, CFTC tarafından aracı olarak hareket etmesi için lisanslanan bir ABD firması."
+    },
+    {
+      "term": "Donanım cüzdanı",
+      "definition": "Kripto para özel anahtarlarını çevrimdışı olarak güvenli bir şekilde depolamak ve yönetmek için kullanılan fiziksel bir cihaz (USB sürücü gibi) ve çevrimiçi depolama ile karşılaştırıldığında hacking riskini azaltır."
+    },
+    {
+      "term": "Long-kısa oranı",
+      "definition": "Bir pazarda yükselişe (long) pozisyon tutan tüccarların düşüşe (short) pozisyon tutanların oranı. 1,0'ın üstü daha fazla long anlamına gelir; 1,0'ın altı daha fazla short anlamına gelir."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Vadeli işlem borsaları tarafından gerçekleşmemiş kazanç ve kayıpları hesaplamak ve yetersiz finanse edilen pozisyonları ne zaman tasfiye edeceğini belirlemek için kullanılan fiyat. Genellikle temel varlığın spot fiyatını yakından takip eder."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Bir pazardaki varlıkların belirli bir günde yükselen (veya düşen) yüzdesi, kazanç/kayıpların geniş tabanlı mı yoksa birkaç varlık arasında mı yoğunlaştığını gösterir."
+    },
+    {
+      "term": "Net giriş / Net çıkış",
+      "definition": "Belirli bir günde ETF gibi bir yatırım ürününe akan (giriş) veya çıkan (çıkış) toplam para miktarı."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Bir pazardaki tüm ödenmemiş vadeli işlem sözleşmelerinin toplam değeri, madeni para veya ABD doları cinsinden ölçülür. Artış, artan kaldıraç ve kararlılık sinyali verir; azalma, pozisyonların kapandığını gösterir."
+    },
+    {
+      "term": "Satıcı",
+      "definition": "Ürünlerini nihai müşterilere satmak için üretici tarafından yetkili bir şirket, tipik olarak belirli bir coğrafi bölgede dağıtım için."
+    },
+    {
+      "term": "Spot ETF",
+      "definition": "Vadeli işlem sözleşmeleri yerine gerçek temel varlığı (Bitcoin veya Ethereum madeni paraları) doğrudan tutan ve yatırımcıların cüzdan yönetimi olmadan kripto sahibi olmalarına izin veren bir ETF."
+    },
+    {
+      "term": "Stabilcoin",
+      "definition": "Kararlı bir fiyat korumak için tasarlanmış, genellikle ABD doları gibi gerçek dünyadaki bir varlığa sabitlenmiş bir kripto para (örneğin USDT veya USDC)."
+    },
+    {
+      "term": "Takası",
+      "definition": "Düzenleyici açıdan, temel bir varlığın fiyat hareketlerine dayalı olarak ödemelerin değiş tokuş edildiği iki taraf arasında bir türev sözleşmesi. CFTC kuralları uyarınca, takasların işlem yapması için belirli lisanslar gereklidir."
+    },
+    {
+      "term": "Taker al/satış oranı",
+      "definition": "Agresif satın alma emirlerinin (taker'lar) hacmini agresif satış emirleriyle karşılaştıran bir oran. 1,0'ın üstü daha fazla satın alma baskısı anlamına gelir; 1,0'ın altı daha fazla satış baskısı anlamına gelir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "3a983834d6325b46"
+}
