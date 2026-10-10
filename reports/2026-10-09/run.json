@@ -1,20 +1,20 @@
 {
-  "runId": "2026-10-10T00:00:02.390Z",
+  "runId": "2026-10-10T01:00:02.944Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-10T00:00:02.390Z",
-  "status": "degraded",
-  "finishedAt": "2026-10-10T00:00:55.781Z",
-  "durationSec": 53,
+  "startedAt": "2026-10-10T01:00:02.944Z",
+  "status": "ok",
+  "finishedAt": "2026-10-10T01:09:32.854Z",
+  "durationSec": 570,
   "date": "2026-10-09",
   "live": true,
   "window": {
     "label": "2026-10-09 00:00 → 24:00 UTC",
     "startMs": 1791504000000,
     "endMs": 1791590399999,
-    "dayAligned": true,
+    "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "00:00 UTC"
+    "asOfUTC": "01:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -85,24 +85,24 @@
     "backfill": null
   },
   "synthesis": {
-    "source": "data-only",
-    "fellBack": true,
+    "source": "cli",
+    "fellBack": false,
     "cliOnly": true,
-    "errorKind": "cli-error"
+    "errorKind": null
   },
   "languages": [
-    "en"
+    "en",
+    "tr",
+    "zh"
   ],
   "pdf": {
-    "en": true
+    "en": true,
+    "tr": true,
+    "zh": true
   },
   "publish": {
     "pushed": true,
     "branch": "main"
   },
-  "reasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
-    "zh report unavailable"
-  ]
+  "reasons": []
 }
