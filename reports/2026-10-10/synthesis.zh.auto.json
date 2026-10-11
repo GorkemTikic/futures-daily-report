@@ -1,0 +1,170 @@
+{
+  "oneLine": "2026年10月10日星期六，正值2025年10月闪崩一周年——比特币和以太坊小幅上涨，市场涨势广泛，但以太坊ETF连续9天流出，而Starknet代币因第一层转型计划暴涨。",
+  "caveman": "比特币和以太坊在10月10日星期六都小幅上涨。比特币价格约82945美元，以太坊约2505美元。好消息是，大部分其他加密代币也上涨了——大约三分之二的代币——这说明买的人比卖的人多。一个叫Starknet（STRK）的代币猛涨了41%，因为团队说他们可能把它改成独立的区块链，而不是坐在以太坊上面，这样可以更好地保护它免受将来的计算机攻击。不好的一面是，有些人连续9天从以太坊投资基金中撤出资金，虽然比特币投资基金在周五吸引了一些新资金。这一天很重要，因为它是2025年10月10日大崩盘一周年，那次崩盘摧毁了数十亿美元。这一次很平静——是个正常的交易日。",
+  "priceVolumeSummary": "比特币和以太坊价格在所有五个主要交易所保持一致，比特币82945美元（上涨0.43%），以太坊2505美元（上涨0.74%），交易所之间没有明显的价格差异。所有交易所的交易量都很强劲：仅币安就看到比特币30.7亿美元和以太坊23.7亿美元的交易量。",
+  "positioningSummary": "比特币未平仓量小幅增长（上升0.51%至92586枚），但融资费率在不同交易所差异很大——主要交易所为负（币安-2.98%），Bybit激进性为正（+10.95%）——表明交易者对涨势是否能持续意见不一。看涨头寸超过看跌头寸1.48比1（大型交易者中1.61比1），意味着资金量大的交易者更加看涨。以太坊看涨倾向更强（广泛市场3.00比1，大型交易者1.75比1），未平仓量上升0.68%，尽管币安融资费率深度为负（-12.87%），表明做多头寸持有成本高昂。比特币吃单买卖比为1.07，以太坊为1.04，显示主动买单略多于卖单。市场广度强劲，币安永续合约中66.79%上涨。",
+  "stocksSummary": "2026年10月10日是星期六——亚洲股市（韩国、香港、中国）休市，没有现货交易。商品永续合约和美国股指跟踪基本没有变动。",
+  "movers": [
+    {
+      "symbol": "STRKUSDT",
+      "explanation": "Starknet宣布正在探索从以太坊第二层转向独立第一层区块链的转变，此举旨在加强对未来量子计算机威胁的安全防护。该代币在这一战略新闻上推涨41.3%。（资料来源：[KuCoin](https://www.kucoin.com/news/flash/strk-surges-40-amid-starknet-s-quantum-resistance-and-potential-l1-transition), [Crypto Briefing](https://cryptobriefing.com/strk-rallies-starknet-layer-1-transition/)）",
+      "hasCause": true
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "未找到该代币39.94%下跌的明确公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "explanation": "未找到该代币30.68%上涨的明确公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "比特币ETF回流；以太坊ETF连续9日流出",
+        "what": "美国现货比特币ETF在10月9日吸引2113万美元净流入，标志着在上周6.81亿美元流出后的反弹。相比之下，以太坊ETF上周流出5.421亿美元——自1月以来最差一周——连续9个交易日走低。贝莱德的ETHA基金单独流出4.77亿美元，占该类别总流出的88%。这种分化凸显了投资者在进入最后一个季度时更倾向于比特币而非以太坊。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-10 00:00",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+      },
+      {
+        "headline": "Starknet探索第一层转型和量子抗性升级，推动代币暴涨41%",
+        "what": "Starknet首席执行官Eli Ben-Sasson暗示团队正在考虑将Starknet从以太坊独立出来，作为自主第一层区块链运营。核心动力是量子抗性——Starknet的证明系统采用的哈希函数本质上比其他方法更能抵抗量子计算机攻击。该公告推动STRK在单日涨幅达41%，过去一周涨幅超过73%。",
+        "coins": "STRK",
+        "timeUTC": "2026-10-10 00:00",
+        "source": "KuCoin",
+        "url": "https://www.kucoin.com/news/flash/strk-surges-40-amid-starknet-s-quantum-resistance-and-potential-l1-transition"
+      },
+      {
+        "headline": "CFTC提议将预测市场合约分类为受管制掉期交易，寻求确立监管权",
+        "what": "美国商品期货交易委员会（CFTC）在10月9日提议，将Polymarket和Kalshi等平台上的事件合约分类为联邦监管下的'掉期交易'，要求这些平台遵守更严格的衍生品规则。该提议包括30天意见征询期和单独的临时规则以排除赌场式赌博。Kalshi上体育赛事合约据报占交易量的85%以上，这使监管澄清对预测市场行业具有重大意义。",
+        "coins": "Multiple",
+        "timeUTC": "2026-10-09 00:00",
+        "source": "CFTC / Decrypt",
+        "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC提议将预测市场合约分类为受管制掉期交易",
+          "what": "CFTC在10月9日提议将Polymarket和Kalshi上的事件合约分类为'掉期交易'，需要接受联邦监管，标志着对80多亿美元预测市场部门的重大监管澄清。",
+          "coins": "Multiple",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF回流；以太坊延续9日流出纪录",
+          "what": "美国现货比特币ETF在10月9日记录2113万美元净流入，此前一周流出6.81亿美元。以太坊ETF上周流出5.421亿美元——自1月以来最差——延续9日连续流出纪录。贝莱德ETHA占以太坊流出的88%。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+        },
+        {
+          "headline": "Solana ETF流入纪录14周后告终，以2480万美元流出收场",
+          "what": "美国现货Solana ETF在截至10月9日的一周内录得2480万美元净流出，打破了14周连续流入纪录——自2025年10月Solana ETF上线以来最长纪录。Bitwise的BSOL占该类别损失约2100万美元。",
+          "coins": "SOL",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "XRP账本修复十年前漏洞，可能导致数十亿伪造XRP",
+          "what": "研究人员发现并报告了XRP账本内置交易所中2015年以来就存在的一个漏洞，该漏洞可能允许攻击者创建和花费新的XRP，违反该加密货币固定的100亿枚硬币供应上限。该漏洞已在9月25日发布的xrpld 3.4.1中修复，在10月9日至10日进行了公开披露。RippleX未发现该漏洞在任何公共网络上被利用的证据。",
+          "coins": "XRP",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "背景信息：Meanwhile（Sam Altman支持的比特币寿险公司）融资3750万美元，由贝恩资本加密基金领投",
+          "what": "这家百慕大寿险公司提供以比特币计价的终身寿险，从贝恩资本加密基金、Haun Ventures、Pantera Capital和Apollo基金融资3750万美元。此轮融资跟进亚洲、欧洲和中东富有家族对比特币保险产品需求的增加，推动Meanwhile总融资超过1.8亿美元。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
+        },
+        {
+          "headline": "背景信息：2025年10月10日闪崩周年纪念——一年后，比特币收复部分失地但流动性隐患依然存在",
+          "what": "周六标志着2025年10月10日的一周年纪念，当时特朗普关税公告触发了加密期货中190亿美元的清算级联，在短短几分钟内摧毁了160万个多头头寸。比特币从约122000美元跌至约105000美元。一年后，比特币徘徊在82945美元附近——约低于闪崩前历史高点三分之一——分析人士指出，虽然比特币和以太坊的订单簿已加深，但杠杆交易和拥挤头寸带来的系统性风险仍然存在。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-09",
+    "summary": "美国现货比特币ETF在10月9日录得2113万美元净流入，结束四日下跌纪录。以太坊ETF在10月10日流出5610万美元，延续自9月29日以来9个连续交易日的损失，累计流出6.972亿美元。Solana ETF以2480万美元流出结束创纪录的14周流入运行。",
+    "source": "Farside Investors / The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI October 2026 – Wed 14 Oct, 01:30 UTC",
+      "typicalReaction": "强于预期的通胀可能压低包括加密货币在内的风险资产；低于预期的通胀支持风险偏好。"
+    },
+    {
+      "event": "US CPI Report October 2026 – Wed 14 Oct, 12:30 UTC",
+      "typicalReaction": "美国重要通胀数据。更高的CPI可能表明美联储会更长时间保持利率高企，可能抑制风险资产；较低的CPI支持加密货币，因为它暗示未来货币政策可能宽松。"
+    },
+    {
+      "event": "US Retail Sales and Initial Jobless Claims – Thu 15 Oct, 12:30 UTC",
+      "typicalReaction": "强劲的零售销售和弱劲的初请失业救济金表明经济强劲，这可能压低加密货币，因为它暗示利率将更高；弱劲数据支持风险偏好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货合约价格和现货价格之间的差异。可以表明交易者是看涨（正基差）还是看跌（负基差）。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "在永续期货合约中，多头头寸持有人向空头头寸持有人支付的利率（反之亦然）。正费率意味着多头支付空头；这发生在多头比空头多且交易者预期价格上涨时。负费率意味着空头支付多头。"
+    },
+    {
+      "term": "清算",
+      "definition": "当交易者在杠杆头寸中的损失增长到足够大，交易所自动平仓以防止进一步损失时。如果许多交易者同时被清算，可能触发强制卖出级联。"
+    },
+    {
+      "term": "多空比",
+      "definition": "衍生品交易所上未平仓多头合约数除以未平仓空头合约数。比率高于1.0意味着多头多于空头，暗示交易者预期价格上升；低于1.0意味着空头多于多头。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "衍生品交易所用来计算交易者永续期货上利润和损失的参考价格。与最后交易价格不同，旨在防止由于流动性不足而导致的极端波动。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "某一天上升的交易对（或代币）的百分比。更高的广度（例如66%）意味着大多数加密货币上升，暗示广泛基础强势；较低的广度意味着弱势是普遍的。"
+    },
+    {
+      "term": "未平仓量",
+      "definition": "衍生品市场中未平仓多头和空头合约的总数。未平仓量增长表明新资金进入；未平仓量萎缩表明退出或清算。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "没有到期日期的杠杆加密衍生品合约。交易者只要维持担保金就可以无限期持有它们，融资费率使多头和空头价格与现货市场保持一致。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "激进买单与激进卖单的比率。高于1.0意味着更多人在主动买入（推高价格）；低于1.0意味着更多激进卖单（推低价格）。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "cc9874a65e509d6a"
+}

@@ -1,0 +1,169 @@
+{
+  "oneLine": "On Saturday, October 10, 2026—the one-year anniversary of the October 2025 flash crash—Bitcoin and Ethereum posted modest gains as markets rallied broadly, but Ethereum ETF outflows extended to nine consecutive days while Starknet's token surged on Layer 1 transition plans.",
+  "caveman": "Bitcoin and Ethereum both went up a little bit on Saturday, October 10. Bitcoin is worth about $82,945 and Ethereum about $2,505. The exciting part is that most other crypto tokens also went up—about two-thirds of them—which means people were buying more than selling. One token called Starknet (STRK) jumped 41% because the team said they might move it to be its own blockchain instead of sitting on top of Ethereum, which would help protect it from future computer attacks. On the bad side, some people have been pulling money out of Ethereum investment funds for nine days in a row, though Bitcoin investment funds got some fresh money on Friday. This day was important because it was exactly one year since October 10, 2025, when a huge crash happened that wiped out billions of dollars. This time was calm—a normal market day.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices aligned across all five major venues, with Bitcoin at $82,945 (up 0.43%) and Ethereum at $2,505 (up 0.74%), showing no meaningful price drift between exchanges. Volume was very strong across all venues: Binance alone saw $3.07 billion in Bitcoin volume and $2.37 billion in Ethereum volume.",
+  "positioningSummary": "Bitcoin open interest grew slightly (up 0.51% to 92,586 coins), but funding rates split sharply by venue—negative at major houses (Binance at -2.98%), aggressively positive at Bybit (+10.95%)—signaling disagreement on whether the rally will hold. Long positions outnumbered shorts by 1.48-to-1 on the broad market (1.61-to-1 among top traders), meaning larger traders were even more bullish. Ethereum showed much heavier long lean (3.00-to-1 broad, 1.75-to-1 top traders), with open interest up 0.68% despite deep negative funding at Binance (-12.87%), suggesting the longs were expensive to hold. Taker buy/sell ratio was 1.07 for Bitcoin and 1.04 for Ethereum, showing slightly more aggressive buying than selling. Market breadth was strong at 66.79% of Binance perpetuals up on the day.",
+  "stocksSummary": "October 10, 2026 was a Saturday—the Asian equity markets (Korea, Hong Kong, China) were closed, so no cash trading occurred. The commodity perps and US equity trackers had minimal moves.",
+  "movers": [
+    {
+      "symbol": "STRKUSDT",
+      "explanation": "Starknet announced it is exploring a transition from being an Ethereum Layer 2 to becoming an independent Layer 1 blockchain, a move aimed at strengthening security against future quantum computer threats. The token rallied 41.3% on this strategic news. (Sources: [KuCoin](https://www.kucoin.com/news/flash/strk-surges-40-amid-starknet-s-quantum-resistance-and-potential-l1-transition), [Crypto Briefing](https://cryptobriefing.com/strk-rallies-starknet-layer-1-transition/))",
+      "hasCause": true
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "No clear public cause found for the 39.94% decline.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "explanation": "No clear public cause found for the 30.68% rise.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ETFs return to inflows; Ethereum ETFs extend nine-day outflow streak",
+        "what": "US spot Bitcoin ETFs attracted $21.13 million in inflows on October 9, marking a recovery after last week's $681 million outflow. In sharp contrast, Ethereum ETFs shed $542.1 million last week—their worst week since January—extending losses for nine straight trading days. BlackRock's ETHA fund alone lost $477 million, accounting for 88% of the category's total outflows. The divergence highlights investor preference for Bitcoin over Ethereum heading into the last quarter.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-10 00:00",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+      },
+      {
+        "headline": "Starknet explores Layer 1 transition and quantum-resistant upgrade, driving 41% token surge",
+        "what": "Starknet CEO Eli Ben-Sasson hinted that the team is considering moving Starknet off Ethereum to operate as an independent Layer 1 blockchain. The core motivation is quantum resistance—Starknet's proof system uses hash functions that are inherently more resistant to quantum computer attacks than other methods. The announcement drove STRK to a 41% single-day gain, with the token gaining over 73% in the past week.",
+        "coins": "STRK",
+        "timeUTC": "2026-10-10 00:00",
+        "source": "KuCoin",
+        "url": "https://www.kucoin.com/news/flash/strk-surges-40-amid-starknet-s-quantum-resistance-and-potential-l1-transition"
+      },
+      {
+        "headline": "CFTC proposes classifying prediction market contracts as regulated swaps, seeking to assert oversight",
+        "what": "The US Commodity Futures Trading Commission (CFTC) proposed on October 9 to classify event contracts on platforms like Polymarket and Kalshi as 'swaps' under federal regulation, requiring those platforms to comply with stricter derivatives rules. The proposal includes a 30-day comment period and a separate interim rule to exclude casino-style gambling. Event contracts on sports have reportedly accounted for over 85% of trading volume on Kalshi, making this regulatory clarity significant for the prediction market industry.",
+        "coins": "Multiple",
+        "timeUTC": "2026-10-09 00:00",
+        "source": "CFTC / Decrypt",
+        "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC proposes classifying prediction market contracts as regulated swaps",
+          "what": "The CFTC proposed on October 9 to classify event contracts on Polymarket and Kalshi as 'swaps' requiring federal oversight, marking a major regulatory clarification for the $8+ billion prediction market sector.",
+          "coins": "Multiple",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs return to inflows; Ethereum extends nine-day outflow streak",
+          "what": "US spot Bitcoin ETFs recorded $21.13 million inflows on October 9 after a $681 million weekly loss. Ethereum ETFs shed $542.1 million last week—their worst since January—extending a nine-day losing streak. BlackRock's ETHA accounted for 88% of Ethereum outflows.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+        },
+        {
+          "headline": "Solana ETF inflows snap record 14-week run, ending with $24.8 million in outflows",
+          "what": "US spot Solana ETFs recorded net outflows of $24.8 million for the week ending October 9, breaking a 14-week inflow streak—the longest since Solana ETFs launched in October 2025. Bitwise's BSOL accounted for roughly $21 million of the category's loss.",
+          "coins": "SOL",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "XRP Ledger patches decade-old bug that could have created billions in counterfeit XRP",
+          "what": "Researchers discovered and reported a flaw dating to 2015 in the XRP Ledger's built-in exchange that could have allowed attackers to create and spend new XRP, violating the cryptocurrency's fixed 100-billion-coin supply cap. The vulnerability was fixed in xrpld 3.4.1 released September 25, with public disclosure on October 9–10. RippleX found no evidence the flaw was exploited on any public network.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "CONTEXT: Meanwhile (Sam Altman–backed Bitcoin life insurer) raises $37.5 million led by Bain Capital Crypto",
+          "what": "The Bermuda-based insurer, which offers Bitcoin-denominated whole life insurance, raised $37.5 million from Bain Capital Crypto, Haun Ventures, Pantera Capital, and Apollo. The round follows increased demand for Bitcoin insurance products among high-net-worth families in Asia, Europe, and the Middle East, pushing Meanwhile's total funding past $180 million.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
+        },
+        {
+          "headline": "CONTEXT: October 10, 2025 flash crash anniversary—one year later, Bitcoin has reclaimed some ground but liquidity concerns persist",
+          "what": "Saturday marked the one-year anniversary of October 10, 2025, when a Trump tariff announcement triggered a $19 billion liquidation cascade in crypto futures, wiping out 1.6 million long positions in minutes. Bitcoin had fallen from ~$122,000 to ~$105,000 in hours. One year on, Bitcoin sits near $82,945—about one-third below the pre-crash all-time high—and analysts note that while order books have deepened for Bitcoin and Ethereum, systemic risks from leveraged trading and crowded bets remain.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-09",
+    "summary": "US spot Bitcoin ETFs recorded $21.13 million in net inflows on October 9, breaking a four-day losing streak. Ethereum ETFs posted $56.1 million in outflows on October 10, extending losses to nine consecutive trading days for a cumulative $697.2 million loss since September 29. Solana ETFs ended a record 14-week inflow run with $24.8 million in outflows for the week.",
+    "source": "Farside Investors / The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI October 2026 – Wed 14 Oct, 01:30 UTC",
+      "typicalReaction": "Stronger-than-expected inflation can pressure risk assets including crypto; weaker inflation supports risk appetite."
+    },
+    {
+      "event": "US CPI Report October 2026 – Wed 14 Oct, 12:30 UTC",
+      "typicalReaction": "Major US inflation data. Higher CPI may suggest the Fed will hold rates higher longer, potentially dampening risk assets; lower CPI supports crypto as it suggests easier monetary policy ahead."
+    },
+    {
+      "event": "US Retail Sales and Initial Jobless Claims – Thu 15 Oct, 12:30 UTC",
+      "typicalReaction": "Strong retail sales and weak jobless claims suggest economic strength, which can pressure crypto as it implies higher rates; weak data supports risk appetite."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between the price of a futures contract and the underlying spot price. Can indicate whether traders are bullish (positive basis) or bearish (negative basis)."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate that long-position holders pay to short-position holders (or vice versa) in perpetual futures contracts. Positive rates mean longs are paying shorts; this happens when longs outnumber shorts and traders expect higher prices. Negative rates mean shorts are paying longs."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a trader's losses in a leveraged position grow so large that the exchange automatically closes the position to prevent further losses. Can trigger a cascade of forced selling if many traders are liquidated at once."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of open long contracts divided by the number of open short contracts on a derivatives exchange. A ratio above 1.0 means more longs than shorts, suggesting traders expect prices to rise; below 1.0 means more shorts than longs."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used by derivatives exchanges to calculate trader profits and losses on perpetual futures. Different from the last traded price and designed to prevent extreme swings due to low liquidity."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of trading pairs (or coins) that rose on a given day. Higher breadth (e.g., 66%) means most cryptocurrencies are up, suggesting broad-based strength; lower breadth means weakness is widespread."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of unfilled long and short contracts in derivatives markets. Growing open interest suggests new money entering; shrinking open interest suggests exits or liquidations."
+    },
+    {
+      "term": "Perpetual futures",
+      "definition": "Leveraged crypto derivatives contracts with no expiration date. Traders can hold them indefinitely as long as they maintain collateral, and funding rates keep long and short prices aligned with the spot market."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buy orders to aggressive sell orders. Above 1.0 means more people are buying aggressively (pushing price up); below 1.0 means more aggressive selling (pushing price down)."
+    }
+  ],
+  "_source": "cli"
+}

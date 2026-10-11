@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "kind": "market",
+  "dateLong": "Saturday, 10 October 2026",
+  "coversUTC": "2026-10-10 00:00–23:59 UTC",
+  "oneLine": "On Saturday, October 10, 2026—the one-year anniversary of the October 2025 flash crash—Bitcoin and Ethereum posted modest gains as markets rallied broadly, but Ethereum ETF outflows extended to nine consecutive days while Starknet's token surged on Layer 1 transition plans.",
+  "newsCount": 9,
+  "macro": {
+    "BTC": 0.43129230284904413,
+    "ETH": 0.7472831551597902
+  },
+  "topMover": {
+    "symbol": "STRKUSDT",
+    "chgPct": 41.265060240963855
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "11 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

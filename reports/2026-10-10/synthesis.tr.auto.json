@@ -1,0 +1,170 @@
+{
+  "oneLine": "Cumartesi günü, 10 Ekim 2026'de—Ekim 2025 çöküşünün birinci yıldönümü—Bitcoin ve Ethereum piyasalar genel olarak yükselirken mütevazı kazançlar kaydetti, ancak Ethereum ETF çıkışları dokuz ardışık güne uzandı ve Starknet'in jetonu Layer 1 geçiş planları üzerine fırladı.",
+  "caveman": "Cumartesi günü, 10 Ekim'de Bitcoin ve Ethereum ikisi de biraz yükseldi. Bitcoin yaklaşık 82.945 dolar, Ethereum yaklaşık 2.505 dolar değerinde. En güzel kısım: diğer kripto token'larının çoğu da yükseldi—yaklaşık üçte ikisi—bu da insanların satmaktan daha fazla alıyor olduğu anlamına geliyor. Starknet (STRK) adında bir token yüzde 41 fırladı çünkü ekip onu Ethereum'un üzerinde durmak yerine kendi blockchain'i haline getirmeyi düşünüyor—bu gelecekteki bilgisayar saldırılarından korunmaya yardımcı olurdu. Kötü taraf: insanlar Ethereum yatırım fonlarından dokuz gün boyunca para çekmeye devam etti, ama Bitcoin yatırım fonları Cuma günü yeni para aldı. Bu gün önemliydi çünkü tam olarak bir yıl önce, 10 Ekim 2025'te, milyarları silip süpüren büyük bir çöküş yaşanmıştı. Bu sefer sakin bir gündü—normal bir pazar günü.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları beş ana borsada hizalı idi—Bitcoin 82.945 dolardan (yüzde 0,43 artış) ve Ethereum 2.505 dolardan (yüzde 0,74 artış) işlem gördü—borsalar arasında anlamlı bir fiyat farkı olmadı. Hacim tüm borsalarda çok güçlü idi: Binance tek başına Bitcoin hacminde 3,07 milyar dolar ve Ethereum hacminde 2,37 milyar dolar gördü.",
+  "positioningSummary": "Bitcoin açık faiz hafifçe arttı (yüzde 0,51 artışla 92.586 coin'e), ancak finansman oranları borsa tarafından keskin bir şekilde bölündü—büyük kurumlar arasında negatif (Binance'de yüzde -2,98), agresif bir şekilde pozitif (Bybit'te yüzde +10,95)—diyalog yükselişin tutacak mı tutmayacak mı konusunda anlaşmazlık gösteriyor. Uzun pozisyonlar geniş piyasada kısa olanları 1,48'e 1 oranında geçti (en iyi trader'lar arasında 1,61'e 1), bu da daha büyük trader'ların daha iyimser olduğu anlamına geliyor. Ethereum çok daha ağır uzun eğilim gösterdi (geniş piyasada 3,00'e 1, en iyi trader'lar arasında 1,75'e 1), Binance'de derin negatif finansman (yüzde -12,87) olmasına rağmen açık faiz yüzde 0,68 arttı; bu, uzun pozisyonlarının tutması için pahalı olduğunu gösteriyor. Taker alış/satış oranı Bitcoin için 1,07 ve Ethereum için 1,04 idi—satıştan biraz daha agresif alım gösteriyor. Pazar genişliği Binance perpetual'larında günde yüzde 66,79 yükseliş ile güçlü idi.",
+  "stocksSummary": "10 Ekim 2026 Cumartesi idi—Asya hisse piyasaları (Kore, Hong Kong, Çin) kapalı idi, bu nedenle nakit işlem yapılmadı. Emtia perpetual'ları ve ABD hisse izleyicileri asgari hareket gösterdi.",
+  "movers": [
+    {
+      "symbol": "STRKUSDT",
+      "explanation": "Starknet, Ethereum Layer 2'sinden bağımsız bir Layer 1 blockchain'e geçişi araştırdığını duyurdu; bu hareket gelecekteki kuantum bilgisayar tehditlerine karşı güvenliği güçlendirmeyi amaçlıyor. Token bu stratejik habere yüzde 41,3 oranında yükseldi. (Kaynaklar: [KuCoin](https://www.kucoin.com/news/flash/strk-surges-40-amid-starknet-s-quantum-resistance-and-potential-l1-transition), [Crypto Briefing](https://cryptobriefing.com/strk-rallies-starknet-layer-1-transition/))",
+      "hasCause": true
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "Yüzde 39,94'lük düşüş için net bir haber nedeni bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "explanation": "Yüzde 30,68'lik yükseliş için net bir haber nedeni bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ETF'leri geri akışlara dönüyor; Ethereum ETF'leri dokuz günlük çıkış serisini uzatıyor",
+        "what": "ABD spot Bitcoin ETF'leri 10 Ekim'de 21,13 milyon dolar giriş kaydetti—geçen haftanın 681 milyon dolar çıkışından sonra bir toparlanma olup. Keskin bir zıtlık içinde, Ethereum ETF'leri geçen hafta 542,1 milyon dolar kaybetti—Ocak ayından beri en kötü hafta—dokuz ardışık işlem günü boyunca kayıpları uzattı. Sadece BlackRock'ın ETHA fonu 477 milyon dolar kaybetti ve kategorinin toplam çıkışlarının yüzde 88'ini oluşturdu. Bu uyuşmazlık, dördüncü çeyreğe doğru Bitcoin'e karşı Ethereum'a olan yatırımcı tercihini vurguluyor.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-10 00:00",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+      },
+      {
+        "headline": "Starknet Layer 1 geçişi ve kuantum-dirençli yükseltme araştırıyor, token'i yüzde 41 fırlatıyor",
+        "what": "Starknet CEO'su Eli Ben-Sasson, ekibin Starknet'i Ethereum'dan çıkarıp bağımsız bir Layer 1 blockchain olarak çalıştırmayı düşündüğünü ima etti. Temel motivasyon kuantum direnci—Starknet'in kanıt sistemi, diğer yöntemlerden daha kuantum bilgisayar saldırılarına karşı doğal olarak daha dirençli olan hash işlevleri kullanıyor. Duyuru, STRK'yi tek günde yüzde 41 kazanç elde etmesine neden oldu ve token geçen hafta yüzde 73'ten fazla kazandı.",
+        "coins": "STRK",
+        "timeUTC": "2026-10-10 00:00",
+        "source": "KuCoin",
+        "url": "https://www.kucoin.com/news/flash/strk-surges-40-amid-starknet-s-quantum-resistance-and-potential-l1-transition"
+      },
+      {
+        "headline": "CFTC, tahmin piyasası sözleşmelerini düzenlenmiş takas olarak sınıflandırmayı önerdi, denetim hakkını iddia ediyor",
+        "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC), Polymarket ve Kalshi gibi platformlardaki etkinlik sözleşmelerini federal düzenleme kapsamında 'takas' olarak sınıflandırmayı 10 Ekim'de önerdi ve bu platformların daha katı türevler kurallarına uymasını istedi. Teklif, 30 günlük bir yorum dönemini ve kumarhane tarzı oyunu hariç tutan ayrı bir geçici kuralı içeriyor. Kalshi'deki spor hakkındaki etkinlik sözleşmeleri ticaret hacminin yüzde 85'ten fazlasını oluşturduktan sonra, bu düzenleyici netlik tahmin piyasası endüstrisi için önemli oluyor.",
+        "coins": "Multiple",
+        "timeUTC": "2026-10-09 00:00",
+        "source": "CFTC / Decrypt",
+        "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC, tahmin piyasası sözleşmelerini düzenlenmiş takas olarak sınıflandırmayı önerdi",
+          "what": "CFTC, 10 Ekim'de Polymarket ve Kalshi'deki etkinlik sözleşmelerini federal denetim gerektiren 'takas' olarak sınıflandırmayı önerdi; bu, 8 milyar dolardan fazla tahmin piyasası sektörü için büyük bir düzenleyici açıklık işareti.",
+          "coins": "Multiple",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri geri akışlara dönüyor; Ethereum dokuz günlük çıkış serisini uzatıyor",
+          "what": "ABD spot Bitcoin ETF'leri 10 Ekim'de 21,13 milyon dolar giriş kaydetti; haftalık kayıp 681 milyon dolar oldu. Ethereum ETF'leri geçen hafta 542,1 milyon dolar kaybetti—Ocak'tan beri en kötü hafta—dokuz günlük kaybı uzattı. BlackRock'ın ETHA, Ethereum çıkışlarının yüzde 88'ini oluşturdu.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+        },
+        {
+          "headline": "Solana ETF giriş serisini kırıyor—14 haftalık rekor, 24,8 milyon dolar çıkış ile bitiyor",
+          "what": "ABD spot Solana ETF'leri, 10 Ekim'de sonu için hafta boyunca 24,8 milyon dolar net çıkış kaydetti; bu, Solana ETF'leri Ekim 2025'te piyasaya çıktığından beri en uzun 14 haftalık giriş serisini kırdı. Bitwise'ın BSOL, kategorinin yaklaşık 21 milyon dolar kaybının kabul etti.",
+          "coins": "SOL",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "XRP Ledger, milyarlarca sahte XRP oluşturabilecek on yıllık hatayı yamalıyor",
+          "what": "Araştırmacılar, XRP Ledger'ın yerleşik değişim işleminde 2015'ten bu yana var olan bir kusuru keşfetti ve ortaya koydular; bu kusur saldırganların yeni XRP oluşturmasına ve harcamasına izin vererek kripto para biriminin sabit 100 milyar coin tedarik sınırını ihlal edebilirdi. Zafiyet, 25 Eylül'de yayımlanan xrpld 3.4.1'de düzeltildi ve 9-10 Ekim'de kamuya açıklandı. RippleX, kusurun hiçbir herkese açık ağda sömürüldüğüne dair kanıt bulamadı.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "İÇERİK: Bu arada (Sam Altman destekli Bitcoin hayat sigortacısı) 37,5 milyon dolar topluyor; Bain Capital Crypto öncülük ediyor",
+          "what": "Bermuda merkezli sigortacı—Bitcoin cinsinden bütün hayat sigortası sunan—Bain Capital Crypto, Haun Ventures, Pantera Capital ve Apollo'dan 37,5 milyon dolar topladı. Tur, Asya, Avrupa ve Orta Doğu'daki yüksek net değerli aileler arasında Bitcoin sigorta ürünlerine artan talep sayesinde, Meanwhile'ın toplam finansmanını 180 milyon doların üzerine çıkardı.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-09 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131"
+        },
+        {
+          "headline": "İÇERİK: 10 Ekim 2025 hızlı çöküş yıldönümü—bir yıl sonra Bitcoin biraz zemin geri kazandı ama likidite endişeleri devam ediyor",
+          "what": "Cumartesi, 10 Ekim 2025'in birinci yıldönümüydü; zamanki bir Trump tarife duyurusu kripto vadeli işlemlerde 19 milyar dolarlık tasfiye kaskadını tetikledi ve dakikalar içinde 1,6 milyon uzun pozisyonunu ortadan kaldırdı. Bitcoin, yaklaşık 122.000 dolardan saatler içinde yaklaşık 105.000 dolara düştü. Bir yıl sonra, Bitcoin 82.945 dolara yakın—çöküş öncesi all-time yükseğinin yaklaşık üçte bir altında—ve analistler Bitcoin ve Ethereum için emir defterlerinin derinleştiğini, ancak kaldıraçlı işlemlerden ve kalabalık bahislerden sistemik risklerin kalıcı olduğunu not ettiler.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-10 00:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-09",
+    "summary": "ABD spot Bitcoin ETF'leri 10 Ekim'de net olarak 21,13 milyon dolar giriş kaydetti ve dört günlük kayıp serisini kırdı. Ethereum ETF'leri 10 Ekim'de 56,1 milyon dolar çıkış yaşadı; 29 Eylül'den beri dokuz ardışık işlem günü boyunca toplam 697,2 milyon dolar kayıp uzattı. Solana ETF'leri hafta boyunca 24,8 milyon dolar çıkış ile rekor 14 haftalık giriş serisini sona erdirdi.",
+    "source": "Farside Investors / The Block",
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI October 2026 – Wed 14 Oct, 01:30 UTC",
+      "typicalReaction": "Beklenenden daha yüksek enflasyon kripto dahil risk varlıklarına baskı yapabilir; daha düşük enflasyon risk iştahını destekler."
+    },
+    {
+      "event": "US CPI Report October 2026 – Wed 14 Oct, 12:30 UTC",
+      "typicalReaction": "Büyük ABD enflasyon verileri. Yüksek CPI, Federal Rezerv'in oranları daha uzun süre yüksek tutacağını önerebilir ve bu da risk varlıklarına baskı yapabilir; düşük CPI, daha kolay para politikasının öncüsü olduğunu ima ederek kripto'yu destekler."
+    },
+    {
+      "event": "US Retail Sales and Initial Jobless Claims – Thu 15 Oct, 12:30 UTC",
+      "typicalReaction": "Güçlü perakende satışları ve zayıf işsizlik başvuruları ekonomik gücü ima eder, bu da oranların yüksek olacağını ima ederek kripto'ya baskı yapabilir; zayıf veriler risk iştahını destekler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Baz",
+      "definition": "Vadeli işlem sözleşmesinin fiyatı ile temel spot fiyatı arasındaki fark. Trader'ların iyimser (pozitif baz) veya kötümser (negatif baz) olup olmadığını gösterebilir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Kalıcı vadeli işlem sözleşmelerinde uzun pozisyon sahiplerinin kısa pozisyon sahiplerine ödediği (veya tam tersi) faiz oranı. Pozitif oranlar uzunların kısalara ödediği anlamına gelir; bu, uzunlar kısaları aştığında ve trader'lar yüksek fiyatları beklerken olur. Negatif oranlar kısaların uzunlara ödediği anlamına gelir."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Bir trader'ın kaldıraçlı pozisyondaki zararları çok büyüdüğünde ve borsa daha ileri zararları önlemek için pozisyonu otomatik olarak kapattığında. Birçok trader aynı anda tasfiye edilirse satış kaskadı tetikleyebilir."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Bir türev borsasındaki açık uzun sözleşmelerin sayısının açık kısa sözleşmelerin sayısına bölümü. 1,0'ın üzerindeki oran kısaları aşan uzunlar anlamına gelir; trader'lar fiyatların yükseleceğini bekliyor; 1,0'ın altındaki oran uzunları aşan kısaları anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Türev borsaları tarafından trader kar ve zararlarını perpetual vadeli işlemlerde hesaplamak için kullanılan referans fiyatı. Son işlem fiyatından farklı ve düşük likidite nedeniyle ekstrem dalgalanmaları önlemek için tasarlandı."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir gün içinde yükselen işlem çiftlerinin (veya coin'lerinin) yüzdesi. Daha yüksek genişlik (örneğin, yüzde 66), çoğu kripto para biriminin yükseldiği anlamına gelir ve geniş tabanlı gücü gösterir; daha düşük genişlik zayıflığın yaygın olduğu anlamına gelir."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Türev piyasalarında doldurulmamış uzun ve kısa sözleşmelerin toplam sayısı. Artan açık faiz yeni paranın girdiğini gösterir; azalan açık faiz çıkışları veya tasfiyeyi gösterir."
+    },
+    {
+      "term": "Kalıcı vadeli işlemler",
+      "definition": "Sona erme tarihi olmayan kaldıraçlı kripto türev sözleşmeleri. Trader'lar, teminat sağladıkları sürece onları süresiz tutabilirler ve finansman oranları uzun ve kısa fiyatları spot piyasası ile hizalı tutar."
+    },
+    {
+      "term": "Taker alış/satış oranı",
+      "definition": "Agresif satın alma emirlerinin agresif satış emirlerine oranı. 1,0'ın üzerindeki oran daha fazla insanın agresif bir şekilde satın aldığı anlamına gelir (fiyatı yükseltir); 1,0'ın altındaki oran daha agresif satış yapıldığı anlamına gelir (fiyatı düşürür)."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "cc9874a65e509d6a"
+}

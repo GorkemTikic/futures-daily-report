@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-10T02:11:43.066Z",
-  "count": 115,
+  "generatedAt": "2026-10-11T00:04:51.306Z",
+  "count": 116,
   "counts": {
-    "total": 115,
-    "market": 28,
+    "total": 116,
+    "market": 29,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-09",
+  "latest": "2026-10-10",
   "reports": [
+    {
+      "date": "2026-10-10",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.43129230284904413,
+        "ETH": 0.7472831551597902
+      },
+      "marketSummary": "On Saturday, October 10, 2026—the one-year anniversary of the October 2025 flash crash—Bitcoin and Ethereum posted modest gains as markets rallied broadly, but Ethereum ETF outflows extended to nine consecutive days while Starknet's token surged on Layer 1 transition plans.",
+      "oneLine": "On Saturday, October 10, 2026—the one-year anniversary of the October 2025 flash crash—Bitcoin and Ethereum posted modest gains as markets rallied broadly, but Ethereum ETF outflows extended to nine consecutive days while Starknet's token surged on Layer 1 transition plans.",
+      "newsCount": 9,
+      "topMover": {
+        "symbol": "STRKUSDT",
+        "chgPct": 41.265060240963855
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-10/summary_2026-10-10.html",
+        "pdf": "reports/2026-10-10/summary_2026-10-10.pdf",
+        "md": "reports/2026-10-10/summary_2026-10-10.md"
+      }
+    },
     {
       "date": "2026-10-09",
       "kind": "market",
