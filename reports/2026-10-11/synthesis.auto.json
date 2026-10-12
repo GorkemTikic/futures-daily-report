@@ -1,0 +1,233 @@
+{
+  "oneLine": "Bitcoin and Ethereum each rose less than 1% on October 11 as traders bet bullish but funding rates split sharply across exchanges, while Ethereum funds bled money for a ninth straight day and smaller coins surged on volume without clear catalysts.",
+  "caveman": "Bitcoin and Ethereum both went up a little (less than 1%) on October 11. More traders were betting prices would go up than down—especially on Ethereum, where long bets outnumbered short bets 3 to 1. But the cost to keep those bets open (called funding) was confusing: some exchanges charged 11% per year, others only 0.6%, showing traders weren't sure about direction. A few small coins had big rallies: MAGIC jumped 41% and Nervos (CKB) jumped 33%, both because of huge sudden trading volume, not because of any news. Money kept flowing out of Ethereum investment products (the 9th day in a row), though Bitcoin attracted a little new money. The day was calm but confused—some parts of the market were very bullish, others showed caution, and some coins moved for no clear public reason.",
+  "priceVolumeSummary": "Bitcoin closed at 83,715–83,735 across major exchanges, up 0.93–0.95% from open. Ethereum closed near 2,535, up 1.23–1.24%. Binance led volume for both: Bitcoin at 5.1 billion USD, Ethereum at 4.5 billion USD.",
+  "positioningSummary": "Traders favored long positions (bets on higher prices): Bitcoin's ratio of long to short bets on Binance was 1.48, and Ethereum's was 3.01—very bullish. But funding rates (the cost to hold those bets) contradicted this signal and split across exchanges. Bybit charged 10.95% annually for both coins (extremely high), signaling bulls worried about reversals; Binance charged only 0.6% for Bitcoin and 1.6% for Ethereum; OKX actually paid longs (negative rates of -1.2% for Bitcoin, -2.2% for Ethereum). The taker buy-sell ratio was near 0.97 for both coins, meaning slightly more aggressive selling despite bullish longs. Open interest (total bets) fell slightly on Binance (Bitcoin down 1.89%, Ethereum down 0.45%). Market breadth was positive: 67.6% of all Binance perpetual contracts rose, showing general strength. The picture: traders believed prices would go up, but they disagreed on conviction and accepted less leverage, and some capital moved to cash.",
+  "stocksSummary": "Asian equity markets (Korea, Hong Kong, China) were closed on October 11 (weekend), so the stock-futures moves in the data reflect earlier trading sessions or off-hours activity, not Oct 11 trading. Commodity futures on October 11 showed modest declines: WTI crude oil down 0.74%, Brent crude down 0.77%; precious metals flat to slightly up. US equity markets were also closed (weekend).",
+  "movers": [
+    {
+      "symbol": "MAGICUSDT",
+      "explanation": "Token rose 41.22% as trading volume surged 28× normal levels to 425 million USD. No clear public news event or announcement on October 11 identified as the cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "Token fell 36.47% with no clear public news catalyst identified. Web search found no specific statement or event tied to this token's crash on October 11.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CKBUSDT",
+      "explanation": "Nervos Network token rose 32.95% as trading volume spiked 143% above normal to 160 million USD. Altcoin sector showed general strength; the Aptos (APT) token unlock scheduled for October 11 may have contributed to broader altcoin momentum.",
+      "hasCause": true
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "XRP Ledger patches critical decade-old bug that could have minted 18.45 trillion XRP",
+        "what": "A security overflow bug in the XRP Ledger's payment engine could have allowed an attacker to mint spendable XRP far beyond the 100 billion token supply cap in a single transaction. RippleX fixed the flaw on September 25 with no evidence it was ever exploited in the wild. An AI security firm found the bug and received the maximum 250,000 USD bounty.",
+        "coins": "XRP",
+        "timeUTC": "2026-10-11 17:47 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230"
+      },
+      {
+        "headline": "Ledger hardware wallets found with hidden implants; supply-chain attack spreads to EU",
+        "what": "Ledger users discovered unauthorized hardware implants inside tampered wallet devices, including cellular transmitters that captured 24-word recovery phrases and transmitted them to attackers. The attack was isolated to a single reseller (MediaMarkt in Europe) with estimated losses exceeding 86 million USD. Devices passed all standard authenticity checks because the main security chip was untouched.",
+        "coins": "All cryptocurrencies",
+        "timeUTC": "2026-10-11 22:04 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest"
+      },
+      {
+        "headline": "Starknet developers signal Layer 1 independence; STRK surges 59% on quantum-security ambitions",
+        "what": "Starknet, a major Ethereum Layer 2, announced it is actively considering a transition to an independent Layer 1 blockchain with plans to achieve full quantum resistance by 2027. The move would free Starknet from Ethereum's constraints and align it with post-quantum security standards. STRK token surged 59% to 0.1192 USD on the announcement.",
+        "coins": "STRK (Starknet)",
+        "timeUTC": "2026-10-11 22:07 UTC (announcement Oct 8)",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/starknet-doubles-in-a-week-as-ethereum-exit-plan-ignites-2-billion-trading-frenzy/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "US Supreme Court predicting-markets battle heats up as CFTC and SEC trade authority claims",
+          "what": "Multiple industry groups filed amicus briefs asking the US Supreme Court to resolve ongoing disputes over whether federal regulators (CFTC/SEC) or state authorities control prediction-market platforms. No final ruling yet, but the case signals months of legal uncertainty ahead.",
+          "coins": "Polymarket, Kalshi, general derivatives",
+          "timeUTC": "2026-10-11 18:03 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs post modest 21.1 million USD inflows; Ethereum fund outflows extend to 9 straight days",
+          "what": "US spot Bitcoin ETFs recorded 21.1 million USD in net inflows on October 9 (latest reported date), the most recent positive session. Ethereum ETFs, by contrast, posted their ninth consecutive day of outflows with over 700 million USD total drained since late September. The divergence shows institutional capital rotating away from Ethereum into Bitcoin or alternative assets.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-09 (latest reported)",
+          "source": "SoSoValue / Farside Investors",
+          "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+        },
+        {
+          "headline": "MicroStrategy signals more Bitcoin treasury expansion in first week of October",
+          "what": "MicroStrategy's Saylor hinted the company will announce fresh Bitcoin purchases from the first week of October, extending the pattern of corporate treasury accumulation. Exact amount and timing not yet disclosed.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-11 17:11 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Optimism adds Uniswap's Unichain to its L2 operating portfolio, raising chain-consolidation concerns",
+          "what": "Optimism announced it will operate Uniswap's upcoming Unichain alongside other chains it manages. Critics raised concerns that concentrating multiple chain operations under one company creates a single point of failure and reduces decentralization, though Ethereum fallback routes remain independent per chain design.",
+          "coins": "OP (Optimism), UNI (Uniswap)",
+          "timeUTC": "2026-10-11 21:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jing-wangs-optimism-adds-unichain-to-its-operating-plans-while-users-exit-rights-remain-uneven/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lightning Network (Bitcoin): Unpatched LDK apps risk fund theft if peer reconnects with false claim",
+          "what": "LDK (Lightning Development Kit) released patches v0.2.7 and v0.1.13 closing a vulnerability where a reconnecting peer could make a false claim and trigger theft of on-chain funds. All Lightning apps using older versions are at risk. A separate LSPS2 payment-amount flaw was also patched.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-11 17:40 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/unpatched-ldk-apps-can-lose-bitcoin-when-a-lightning-peer-lies-after-reconnecting/"
+        },
+        {
+          "headline": "New iPhone spyware (P7 DarkSword) targets crypto wallets, harvests data every 15 seconds",
+          "what": "iVerify security researchers identified a spyware variant that, once installed on an iPhone, hunts for crypto wallet apps (including imToken) and exfiltrates data on a 15-second cycle. The threat requires prior device compromise via zero-day or phishing but does not require jailbreak.",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-11 12:46 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/new-iphone-spyware-can-hunt-for-crypto-wallets-and-extract-their-data-every-15-seconds/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "IMF analysis: Tokenized stocks are volatile, illiquid, and mostly trade after traditional market hours",
+          "what": "A new International Monetary Fund report found that over half of all tokenized-stock trading occurs outside US market hours, revealing demand for round-the-clock access. However, the roughly 2.3 billion USD market remains more volatile and less liquid than traditional equities, and regulatory clarity on settlement and dispute resolution remains unclear.",
+          "coins": "Tokenized stocks (Securitize, Ondo, others)",
+          "timeUTC": "2026-10-11 17:11 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
+        },
+        {
+          "headline": "Trump declares energy ceasefire between Russia and Ukraine; Zelensky says Ukraine supports it",
+          "what": "US President Trump declared a ceasefire on energy infrastructure, with Ukraine's Zelensky expressing support conditional on Russia reciprocating. The statement could reduce energy-market volatility tied to geopolitical risk, lowering energy prices and potentially affecting macro sentiment in crypto markets.",
+          "coins": "All (macroeconomic context)",
+          "timeUTC": "2026-10-11 15:27 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Some Aave loans sit near liquidation as collateral unlock periods lag rapid price moves",
+          "what": "Snapshot analysis of Aave's liquidity markets shows some borrowers with thin safety margins because they posted yield-bearing collateral (cTokens and staking tokens) that take hours or days to redeem for cash. Rapid price declines could trigger cascading liquidations if redemptions lag forced asset sales.",
+          "coins": "AAVE",
+          "timeUTC": "2026-10-11 19:27 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-yield-collateral-markets-reveal-a-thin-cushion-before-liquidation/"
+        },
+        {
+          "headline": "Zcash developers target January 2027 for quantum-resistant payment layer",
+          "what": "Zcash developers plan to deploy hash-based signatures (quantum-resistant) by January 2027 and are rolling out a privacy tool for rotating transparent addresses this week. The upgrade aims to protect Zcash users against future quantum-computer threats.",
+          "coins": "ZEC (Zcash)",
+          "timeUTC": "2026-10-11 12:46 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-09",
+    "summary": "Bitcoin ETFs recorded 21.1 million USD in net inflows on October 9. Ethereum ETFs posted their ninth consecutive session of outflows, extending a redemption streak that has drained over 700 million USD since late September. The divergence shows institutional capital rotating from Ethereum toward Bitcoin and other assets.",
+    "source": "SoSoValue / Farside Investors",
+    "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI (Oct 14, 01:30 UTC)",
+      "typicalReaction": "Medium impact; inflation data from China often affects broader risk sentiment and commodity prices, which can influence capital flows in crypto."
+    },
+    {
+      "event": "US CPI and Core CPI (Oct 14, 12:30 UTC)",
+      "typicalReaction": "High impact; central US inflation data often triggers sharp moves in both traditional markets and crypto due to its influence on Federal Reserve policy expectations."
+    },
+    {
+      "event": "US Retail Sales and PPI (Oct 15, 12:30 UTC)",
+      "typicalReaction": "High impact; these figures affect inflation expectations and economic growth forecasts, moving both stocks and crypto."
+    },
+    {
+      "event": "Fed Chairman Warsh speaks (Oct 16, 03:30 UTC)",
+      "typicalReaction": "High impact; Fed communications move equity and crypto markets due to their effect on interest-rate expectations."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between the mark price and the spot price of an asset. In perpetual contracts, basis determines how attractive a position is relative to spot trading."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of assets in a market that are rising (up) versus falling (down) on a given day. High breadth (70%+ up) suggests broad strength; low breadth suggests a rally driven by a few assets."
+    },
+    {
+      "term": "Collateral",
+      "definition": "Assets pledged by a trader as security against a loan or leverage. If the asset's value falls too much, the position is liquidated."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The periodic cost (or payment) that holders of long (bullish) or short (bearish) positions pay to each other, designed to pull the perpetual price toward the spot price. High positive rates favor short sellers; negative rates favor long holders. Rates vary by exchange."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowed funds used to increase the size of a trade or position beyond what a trader's own capital allows, amplifying both gains and losses."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a leveraged position when collateral drops below a threshold, triggering an automatic sale at whatever price the market will accept."
+    },
+    {
+      "term": "Long (long position)",
+      "definition": "A bet that an asset's price will rise. A 'long' or 'bullish' trader profits if the price goes up."
+    },
+    {
+      "term": "Long-short ratio",
+      "definition": "The ratio of long positions to short positions among all traders on an exchange or in a trading account. A ratio above 1 means more bullish bets; below 1 means more bearish bets."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The current reference price used for perpetual contracts, often a weighted average of prices across major spot and futures markets, used for calculating collateral and liquidation."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total number of open long and short positions on a perpetual contract or futures exchange. Rising OI suggests growing confidence or speculation; falling OI suggests traders closing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage change in open interest over a time period (typically one day). Positive change = new positions or leverage increasing; negative change = positions closing or leverage unwinding."
+    },
+    {
+      "term": "Perpetual contract (perpetual futures)",
+      "definition": "A derivatives contract that mimics a spot market but allows leverage, with no expiration date. The price is kept close to the spot price via the funding mechanism."
+    },
+    {
+      "term": "Short (short position)",
+      "definition": "A bet that an asset's price will fall. A 'short' or 'bearish' trader profits if the price goes down."
+    },
+    {
+      "term": "Taker buy-sell ratio",
+      "definition": "The ratio of aggressive buy orders (takers) to sell orders (takers) on an exchange. Above 1 = more aggressive buying; below 1 = more aggressive selling. Reflects immediate market sentiment."
+    },
+    {
+      "term": "Top-trader position ratio (top position ratio)",
+      "definition": "The ratio of long to short positions among the largest traders on an exchange, independent of retail sentiment. Shows where big money is betting."
+    }
+  ],
+  "_source": "cli"
+}

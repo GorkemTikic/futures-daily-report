@@ -1,0 +1,234 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, 11 Ekim'de yüzde 1'den az artış kaydederken, yatırımcılar boğa pozisyonu almasına rağmen finansman oranları borsalar arasında keskin bir şekilde ayrışmıştır; Ethereum fonları dokuz gün üst üste para akışına uğramış, daha küçük paralar ise net bir tetikleyici olmaksızın işlem hacmiyle sıçramıştır.",
+  "caveman": "Bitcoin ve Ethereum'un her ikisi de 11 Ekim'de biraz yükseldi (yüzde 1'den az). Daha fazla yatırımcı fiyatların yükseleceğine bahse giriyordu – özellikle Ethereum'da, uzun bahisler kısa bahisleri 3'e 1 oranında geçti. Ama bu bahisleri açık tutmanın maliyeti (finansman denir) kafa karıştırıcıydı: bazı borsalar yıllık yüzde 11 talep ederken, diğerleri sadece yüzde 0,6 talep etti ve bu yatırımcıların yönü konusunda emin olmadığını gösteriyor. Birkaç küçük token büyük yükselişler yaptı: MAGIC yüzde 41 ve Nervos (CKB) yüzde 33 sıçradı, ikisi de herhangi bir haber olmaksızın aniden çok yüksek işlem hacmi nedeniyle. Para, Ethereum yatırım ürünlerinden çıkmaya devam etti (dokuz gün üst üste), Bitcoin ise biraz yeni para çekti. Gün sakin fakat kafa karıştırıcıydı – piyasanın bazı kısımları çok boğacı görünüyordu, diğerleri dikkat gösteriyor, bazı tokenlar ise açık bir neden olmaksızın hareket ediyordu.",
+  "priceVolumeSummary": "Bitcoin, major borsalarda 83.715–83.735'te kapanış yaptı, açılıştan yüzde 0,93–0,95 oranında yükseldi. Ethereum yaklaşık 2.535'te kapandı, yüzde 1,23–1,24 yükseldi. Binance her iki para için de işlem hacmini öncü konumdaydı: Bitcoin 5,1 milyar USD, Ethereum 4,5 milyar USD.",
+  "positioningSummary": "Yatırımcılar uzun pozisyonları (daha yüksek fiyatlara bahisler) tercih etti: Binance'deki Bitcoin'in uzun-kısa bahis oranı 1,48 ve Ethereum'unki 3,01 idi – çok boğacı. Ama finansman oranları (bu bahisleri tutmanın maliyeti) bu sinyali çelişti ve borsalar arasında ayrıldı. Bybit her iki para için de yüzde 10,95 yıllık oranı talep etti (aşırı yüksek, boğaların ters dönüş konusunda endişeli olduğunu gösteriyor); Binance sadece Bitcoin için yüzde 0,6 ve Ethereum için yüzde 1,6 talep etti; OKX aslında uzunlara ödeme yaptı (Bitcoin için yüzde -1,2, Ethereum için yüzde -2,2 negatif oranlar). Taker al-sat oranı her iki para için de yaklaşık 0,97 idi – boğacı uzun bahislere rağmen biraz daha fazla agresif satış anlamına geliyor. Açık faiz (toplam bahisler) Binance'de hafifçe düştü (Bitcoin yüzde 1,89 düştü, Ethereum yüzde 0,45 düştü). Pazar genişliği pozitifti: Binance kalıcı kontraktlarının yüzde 67,6'sı yükseldi, genel gücü gösteriyor. Resim: yatırımcılar fiyatların yükseleceğine inanıyordu, ama onlar inanç konusunda anlaşamıyordu, daha az kaldıraç kabul etti ve bazı sermaye nakite taşındı.",
+  "stocksSummary": "Asya öz sermaye piyasaları (Kore, Hong Kong, Çin) 11 Ekim'de (hafta sonu) kapalıydı, bu nedenle verilerdeki hisse senedi-futures hareketleri önceki işlem oturumlarını veya pazarlık sonrası faaliyeti yansıtır, 11 Ekim işlemini değil. 11 Ekim'deki emtia vadeli işlemleri mütevazı düşüşler gösterdi: WTI ham petrol yüzde 0,74 düştü, Brent ham petrol yüzde 0,77 düştü; kıymetli metaller düz veya hafifçe yukarıydı. ABD öz sermaye piyasaları da kapalıydı (hafta sonu).",
+  "movers": [
+    {
+      "symbol": "MAGICUSDT",
+      "explanation": "Token, işlem hacmi normal seviyelerin 28 katına çıkarak 425 milyon USD'ye sıçradığı için yüzde 41,22 yükseldi. 11 Ekim'de nedenin ne olduğunu tanımlayan açık bir haber olayı veya duyuru bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "USUSDT",
+      "explanation": "Token, açık bir haber katalisörü olmaksızın yüzde 36,47 düştü. Web araması bu tokenin 11 Ekim'de çöküşüne bağlı belirli bir açıklama veya olay bulamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CKBUSDT",
+      "explanation": "Nervos Network tokeni, işlem hacmi normal seviyelerin yüzde 143 üzerine 160 milyon USD'ye sıçradığı için yüzde 32,95 yükseldi. Altcoin sektörü genel gücü gösterdi; 11 Ekim'de planlanmış Aptos (APT) token kilidinin açılması daha geniş altcoin momentumuna katkı sağlamış olabilir.",
+      "hasCause": true
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "XRP Ledger, 18,45 trilyon XRP basabilecek on yıllık bir kritik hatayı düzeltiyor",
+        "what": "XRP Ledger ödeme motorundaki bir güvenlik taşması hatası, bir saldırganın tek bir işlemde 100 milyar token arz kapağının çok ötesinde harcanan XRP basmasına izin verebiliyordu. RippleX, 25 Eylül'de hiç yararlanılmış olduğuna dair kanıt olmaksızın kusuru düzeltmiştir. Bir yapay zeka güvenlik firması kusuru buldu ve maksimum 250.000 USD ödülünü aldı.",
+        "coins": "XRP",
+        "timeUTC": "2026-10-11 17:47 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230"
+      },
+      {
+        "headline": "Ledger donanım cüzdanları gizli implantlarla bulundu; tedarik zinciri saldırısı AB'ye yayılıyor",
+        "what": "Ledger kullanıcıları, 24 kelimelik kurtarma ifadelerini yakalayan ve saldırganlara ileten hücresel alıcılar da dahil olmak üzere değiştirilmiş cüzdan cihazlarının içinde yetkisiz donanım implantları keşfettiler. Saldırı tek bir satıcı ile sınırlıydı (Avrupa'daki MediaMarkt) ve tahmini kayıplar 86 milyon USD'yi aşıyor. Cihazlar, ana güvenlik çipi dokunulmamış kaldığı için tüm standart kimlik doğrulama kontrollerini geçti.",
+        "coins": "Tüm kripto paralar",
+        "timeUTC": "2026-10-11 22:04 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest"
+      },
+      {
+        "headline": "Starknet geliştiricileri Layer 1 bağımsızlığını işaret ediyor; STRK kuantum güvenliği hedefleriyle yüzde 59 sıçradı",
+        "what": "Ethereum'un önemli bir Layer 2'si olan Starknet, 2027 yılına kadar tam kuantum direnci elde etme planları ile bağımsız bir Layer 1 blockchain'ine geçişi aktif olarak düşündüğünü açıkladı. Hareket, Starknet'i Ethereum'un kısıtlamalarından kurtaracak ve onu kuantum sonrası güvenlik standartlarıyla uyumlu hale getirecekti. STRK tokeni duyuru üzerine yüzde 59 sıçrayarak 0,1192 USD'ye yükseldi.",
+        "coins": "STRK (Starknet)",
+        "timeUTC": "2026-10-11 22:07 UTC (announcement Oct 8)",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/starknet-doubles-in-a-week-as-ethereum-exit-plan-ignites-2-billion-trading-frenzy/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "ABD Yüksek Mahkemesi tahmin pazarları savaşı kızışıyor CFTC ve SEC yetki taleplerini ticaret yapıyor",
+          "what": "Birden fazla endüstri grubu, ABD Yüksek Mahkemesi'nden federal düzenleyicilerin (CFTC/SEC) veya eyalet yetkili makamların tahmin piyasası platformlarını kontrol edip etmediği konusundaki devam eden anlaşmazlıkları çözmesini isteyen amicus mütalaası dosyaladı. Henüz kesin bir karar yok, ama dava aylar boyunca yasal belirsizliği gösteriyor.",
+          "coins": "Polymarket, Kalshi, genel türev ürünler",
+          "timeUTC": "2026-10-11 18:03 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/11/everyone-wants-scotus-to-take-up-prediction-markets-state-of-crypto"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri 21,1 milyon USD hafif giriş kaydediyor; Ethereum fonu çıkışları dokuz ardışık gün uzanıyor",
+          "what": "ABD spot Bitcoin ETF'leri 9 Ekim'de (son bildirilen tarih) net 21,1 milyon USD para girişi kaydetti, en son pozitif oturum. Ethereum ETF'leri buna karşılık dokuz ardışık çıkış gününe sahipti ve eylül sonundan beri 700 milyondan fazla USD boşaldı. Ayrışma, kurumsal sermayenin Ethereum'dan Bitcoin'e veya alternatif varlıklara döndüğünü gösteriyor.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-09 (latest reported)",
+          "source": "SoSoValue / Farside Investors",
+          "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+        },
+        {
+          "headline": "MicroStrategy, Ekim'in ilk haftasında daha fazla Bitcoin hazine genişletmesini gösteriyor",
+          "what": "MicroStrategy'nin Saylor, şirketin Ekim'in ilk haftasından taze Bitcoin satın alımlarını duyuracağını ipuçladı ve kurumsal hazine birikimi modelini uzatıyor. Tam tutar ve zamanlama henüz açıklanmamıştır.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-11 17:11 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Optimism, Uniswap'ın Unichain'ini L2 işletim portföyüne ekliyor, zincir konsolidasyonu endişelerini artırıyor",
+          "what": "Optimism, Uniswap'ın yaklaşan Unichain'ini yönettiği diğer zincirlerle birlikte işleteceğini duyurdu. Eleştirmenler, birden fazla zincir işlemini bir şirketin altında yoğunlaştırmanın tek bir başarısızlık noktası oluşturduğunu ve merkezi olmayan yapıyı azalttığını öne sürse de, Ethereum geri dönüş yolları her zincir tasarımı başına bağımsız kalıyor.",
+          "coins": "OP (Optimism), UNI (Uniswap)",
+          "timeUTC": "2026-10-11 21:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jing-wangs-optimism-adds-unichain-to-its-operating-plans-while-users-exit-rights-remain-uneven/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lightning Network (Bitcoin): Yamlanmamış LDK uygulamaları, eş yeniden bağlanırsa sahte talep riski altında",
+          "what": "LDK (Lightning Development Kit), v0.2.7 ve v0.1.13 yama sürümlerini yayınladı; yeniden bağlanan bir eş sahte talep yapabilir ve zincir üstü fonların hırsızlığını tetikleyebilir açığını kapatıyor. Eski sürümleri kullanan tüm Lightning uygulamaları risk altındadır. Ayrı bir LSPS2 ödeme miktarı kusuru da yamandı.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-11 17:40 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/unpatched-ldk-apps-can-lose-bitcoin-when-a-lightning-peer-lies-after-reconnecting/"
+        },
+        {
+          "headline": "Yeni iPhone casusluk yazılımı (P7 DarkSword) kripto cüzdanlarını hedef alıyor, 15 saniyede veri çıkarıyor",
+          "what": "iVerify güvenlik araştırmacıları, bir iPhone'a kurulduktan sonra kripto cüzdan uygulamalarını (imToken dahil) arayan ve 15 saniyelik döngüde veri çıkaran casusluk varyantını tanımladılar. Tehdit, zero-day veya kimlik avı yoluyla önceden cihaz güvenliğini ihlal etmeyi gerektiriyordu, ama jailbreak gerektirmiyordu.",
+          "coins": "Tüm kripto paralar",
+          "timeUTC": "2026-10-11 12:46 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/new-iphone-spyware-can-hunt-for-crypto-wallets-and-extract-their-data-every-15-seconds/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "IMF analizi: Token hale getirilmiş hisse senetleri değişken, likidi olmayan ve çoğunlukla geleneksel pazar saatleri dışında işlem görüyor",
+          "what": "Yeni bir Uluslararası Para Fonu raporu, tüm tokenlaştırılmış hisse senedi işlemlerinin yarısından fazlasının ABD pazar saatleri dışında gerçekleştiğini bularak, 24 saat erişim talebi ortaya koymaktadır. Ancak, yaklaşık 2,3 milyar USD pazarı geleneksel öz sermaye piyasasından daha değişken ve daha az likidi kalıyor ve yerleşim ve anlaşmazlık çözümü hakkında düzenleyici netlik belirsiz kalıyor.",
+          "coins": "Tokenlaştırılmış hisse senetleri (Securitize, Ondo, diğerleri)",
+          "timeUTC": "2026-10-11 17:11 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds"
+        },
+        {
+          "headline": "Trump, Rusya ve Ukrayna arasında enerji ateşkesini ilan ediyor; Zelensky Ukrayna'nın desteklediğini söylüyor",
+          "what": "ABD Başkanı Trump, enerji altyapısında ateşkesi ilan etti ve Ukrayna'nın Zelensky Rusya'nın karşılık vermesi koşuluyla desteği ifade etti. Bu açıklama, jeopolitik riske bağlı enerji piyasası oynaklığını azaltabilir, enerji fiyatlarını düşürebilir ve kripto piyasalarında makro duyarlılığı etkileyebilir.",
+          "coins": "Tüm (makroekonomik bağlam)",
+          "timeUTC": "2026-10-11 15:27 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bazı Aave kredileri, teminata karşı kilit açma dönemleri hızlı fiyat hareketleriyle geride kaldığı için tasfiyeye yakın oturuyor",
+          "what": "Aave likidite piyasalarının anlık analizi, teminat olarak yatırdığı getiri getiren varlıklar (cToken'ler ve bahis token'leri) nakit olarak kullanılması saatlerce veya günler sürdüğü için bazı borçluların ince güvenlik marjlarına sahip olduğunu gösteriyor. Hızlı fiyat düşüşleri, itfalar zorunlu varlık satışlarının gerisinde kalırsa kademeli tasfiyeler tetikleyebilir.",
+          "coins": "AAVE",
+          "timeUTC": "2026-10-11 19:27 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-yield-collateral-markets-reveal-a-thin-cushion-before-liquidation/"
+        },
+        {
+          "headline": "Zcash geliştiricileri, kuantum dirençli ödeme katmanı için Ocak 2027'yi hedefliyor",
+          "what": "Zcash geliştiricileri, ocak 2027'ye kadar hash tabanlı imzaları (kuantum direnci) dağıtmayı planlanıyor ve bu hafta şeffaf adresler döndürmek için gizlilik aracını dağıtıyor. Yükseltme, Zcash kullanıcılarını gelecekteki kuantum bilgisayar tehditlerine karşı korumayı amaçlıyor.",
+          "coins": "ZEC (Zcash)",
+          "timeUTC": "2026-10-11 12:46 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-09",
+    "summary": "Bitcoin ETF'leri 9 Ekim'de net 21,1 milyon USD para girişi kaydetti. Ethereum ETF'leri dokuz ardışık oturumda çıkış kaydetti ve eylül sonundan beri 700 milyondan fazla USD'yi kuram bu itfa serisini uzattı. Ayrışma, kurumsal sermayenin Ethereum'dan Bitcoin ve diğer varlıklara döndüğünü gösteriyor.",
+    "source": "SoSoValue / Farside Investors",
+    "url": "https://sosovalue.com/assets/etf/us-btc-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI (Oct 14, 01:30 UTC)",
+      "typicalReaction": "Orta etki; Çin'den enflasyon verileri genellikle daha geniş risk duyarlılığını ve emtia fiyatlarını etkiler ve bu da kripto'daki sermaye akışlarını etkileyebilir."
+    },
+    {
+      "event": "US CPI and Core CPI (Oct 14, 12:30 UTC)",
+      "typicalReaction": "Yüksek etki; merkezi ABD enflasyon verileri genellikle Federal Rezerv politikası beklentilerine etkisi nedeniyle hem geleneksel piyasalarda hem de kripto'da keskin hareketleri tetikler."
+    },
+    {
+      "event": "US Retail Sales and PPI (Oct 15, 12:30 UTC)",
+      "typicalReaction": "Yüksek etki; bu rakamlar enflasyon beklentilerini ve ekonomik büyüme tahminlerini etkiler, hem hisse senetlerini hem de kripto'yu hareket ettirir."
+    },
+    {
+      "event": "Fed Chairman Warsh speaks (Oct 16, 03:30 UTC)",
+      "typicalReaction": "Yüksek etki; Fed iletişimi faiz oranı beklentileri üzerine etkisi nedeniyle öz sermaye ve kripto piyasalarını hareket ettirir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Baz (Basis)",
+      "definition": "Mark fiyat ile bir varlığın spot fiyatı arasındaki fark. Kalıcı kontraktlarda, baz bir pozisyonun spot ticaretiyle karşılaştırıldığında ne kadar çekici olduğunu belirler."
+    },
+    {
+      "term": "Pazar genişliği (Market breadth)",
+      "definition": "Belirli bir günde yükselen (yukarı) olan ve düşen (aşağı) olan bir pazardaki varlıkların yüzdesi. Yüksek genişlik (yüzde 70+ yukarı) geniş gücü gösterir; düşük genişlik bir rallinin birkaç varlık tarafından yönlendirildiğini gösterir."
+    },
+    {
+      "term": "Teminat (Collateral)",
+      "definition": "Bir yatırımcı tarafından bir kredi veya kaldıraç karşı güvenlik olarak rehin verilen varlıklar. Varlığın değeri çok düşerse, pozisyon tasfiye edilir."
+    },
+    {
+      "term": "Finansman oranı (Funding rate)",
+      "definition": "Uzun (boğacı) veya kısa (ayıcı) pozisyonları tutan kişilerin birbirlerine ödediği periyodik maliyet (veya ödeme), kalıcı fiyatı spot fiyata çekmek için tasarlanmıştır. Yüksek pozitif oranlar kısa satıcıları destekler; negatif oranlar uzun tutucuları destekler. Oranlar borsaya göre değişir."
+    },
+    {
+      "term": "Kaldıraç (Leverage)",
+      "definition": "Bir yatırımcının kendi sermayesinin izin verdiğinden daha büyük bir ticaret veya pozisyon boyutunu artırmak için kullanılan ödünç alınan fonlar, hem kazançları hem de kayıpları artırır."
+    },
+    {
+      "term": "Tasfiye (Liquidation)",
+      "definition": "Teminat bir eşik altına düştüğü zaman kaldıraçlı pozisyonun zorunlu kapatılması, piyasanın kabul edeceği fiyatta otomatik satış tetikler."
+    },
+    {
+      "term": "Uzun (Uzun pozisyon)",
+      "definition": "Bir varlığın fiyatının yükseleceğine dair bir bahis. Bir 'uzun' veya 'boğacı' yatırımcı fiyat yükselirse kâr eder."
+    },
+    {
+      "term": "Uzun-kısa oranı (Long-short ratio)",
+      "definition": "Bir borsada veya ticaret hesabında tüm yatırımcılar arasındaki uzun pozisyonları ile kısa pozisyonların oranı. 1'den fazla bir oran daha boğacı bahisleri anlamına gelir; 1'den az daha ayıcı bahisleri anlamına gelir."
+    },
+    {
+      "term": "Mark fiyat (Mark price)",
+      "definition": "Kalıcı kontraktlar için kullanılan mevcut referans fiyat, sık sık major spot ve vadeli işlem piyasaları arasında ağırlıklı ortalama, teminat ve tasfiye hesaplaması için kullanılır."
+    },
+    {
+      "term": "Açık faiz (Open interest)",
+      "definition": "Kalıcı kontrat veya vadeli işlem borsasında açık uzun ve kısa pozisyonların toplam sayısı. Artan OI artan güven veya spekülasyonu gösterir; düşen OI pozisyon kapatma veya kaldıraç açılmasını gösterir."
+    },
+    {
+      "term": "Açık faiz değişikliği (Open-interest change)",
+      "definition": "Bir zaman dilimi (tipik olarak bir gün) üzerinde açık faiz yüzde değişimi. Pozitif değişim = yeni pozisyonlar veya kaldıraç artması; negatif değişim = pozisyon kapatma veya kaldıraç açılması."
+    },
+    {
+      "term": "Kalıcı sözleşme (Kalıcı vadeli işlemler)",
+      "definition": "Spot piyasasını taklit eden ama kaldıraca izin veren ve son kullanma tarihi olmayan bir türev sözleşmesi. Fiyat, finansman mekanizması yoluyla spot fiyatına yakın tutulur."
+    },
+    {
+      "term": "Kısa (Kısa pozisyon)",
+      "definition": "Bir varlığın fiyatının düşeceğine dair bir bahis. Bir 'kısa' veya 'ayıcı' yatırımcı fiyat düşerse kâr eder."
+    },
+    {
+      "term": "Taker al-sat oranı (Taker buy-sell ratio)",
+      "definition": "Bir borsada agresif satın alma siparişleri (taker'lar) ile satış siparişlerinin (taker'lar) oranı. 1'den fazla = daha fazla agresif satın almayı; 1'den az = daha fazla agresif satışı gösterir. Anlık pazar duygusunu yansıtır."
+    },
+    {
+      "term": "En iyi yatırımcı pozisyon oranı (En iyi pozisyon oranı)",
+      "definition": "Bir borsadaki en büyük yatırımcılar arasındaki uzun ve kısa pozisyonların oranı, perakende duyarlılıktan bağımsız. Büyük paranın nereye bahis yaptığını gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "b8a1766a0a397826"
+}

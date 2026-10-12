@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-11T00:04:51.306Z",
-  "count": 116,
+  "generatedAt": "2026-10-12T00:07:39.225Z",
+  "count": 117,
   "counts": {
-    "total": 116,
-    "market": 29,
+    "total": 117,
+    "market": 30,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-10",
+  "latest": "2026-10-11",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-10-11",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.9253000000000001,
+        "ETH": 1.2399498590784588
+      },
+      "marketSummary": "Bitcoin and Ethereum each rose less than 1% on October 11 as traders bet bullish but funding rates split sharply across exchanges, while Ethereum funds bled money for a ninth straight day and smaller coins surged on volume without clear catalysts.",
+      "oneLine": "Bitcoin and Ethereum each rose less than 1% on October 11 as traders bet bullish but funding rates split sharply across exchanges, while Ethereum funds bled money for a ninth straight day and smaller coins surged on volume without clear catalysts.",
+      "newsCount": 13,
+      "topMover": {
+        "symbol": "MAGICUSDT",
+        "chgPct": 41.21149897330595
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-11/summary_2026-10-11.html",
+        "pdf": "reports/2026-10-11/summary_2026-10-11.pdf",
+        "md": "reports/2026-10-11/summary_2026-10-11.md"
+      }
+    },
     {
       "date": "2026-10-10",
       "kind": "market",

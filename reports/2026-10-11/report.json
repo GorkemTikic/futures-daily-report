@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-11",
+  "kind": "market",
+  "dateLong": "Sunday, 11 October 2026",
+  "coversUTC": "2026-10-11 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum each rose less than 1% on October 11 as traders bet bullish but funding rates split sharply across exchanges, while Ethereum funds bled money for a ninth straight day and smaller coins surged on volume without clear catalysts.",
+  "newsCount": 13,
+  "macro": {
+    "BTC": 0.9253000000000001,
+    "ETH": 1.2399498590784588
+  },
+  "topMover": {
+    "symbol": "MAGICUSDT",
+    "chgPct": 41.21149897330595
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "12 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
