@@ -1,0 +1,207 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell 2–3% on geopolitical risk and ETF outflows; Blur NFT marketplace shutting down sent its token down 28%, while Gitcoin surged 54% on a Korean exchange listing.",
+  "caveman": "On October 12, Bitcoin and Ethereum both dropped about 2–3% because tensions between countries in the Middle East and Ukraine made people nervous about oil prices going up. When oil prices rise, people worry about inflation and tend to sell risky stuff like crypto, so both coins fell. At the same time, US investment funds that hold Bitcoin and Ethereum were pulling their money out (about $1.2 billion left in just one week), adding more selling pressure. On the bright side, two surprising things happened: Blur, a marketplace where people trade NFTs (special digital pictures), announced it's closing down, which made its token BLUR crash, and Gitcoin (GTC) jumped way up when a Korean exchange announced it would let people trade it there. Overall it was a worrying day—the market was broadly down, most coins were losing money, and the big traders were getting less confident.",
+  "priceVolumeSummary": "Bitcoin traded at consistent prices across all five major venues, closing near $81,813 on Binance (down 2.28%); Ethereum similarly uniform near $2,446 (down 3.54%). Binance dominated volume with $11.8 billion in BTC and $9.3 billion in ETH trading, roughly 2× the volume of competing exchanges.",
+  "positioningSummary": "Bitcoin funding remained elevated at 7.38% annualized, showing bulls still paid to hold longs despite the price decline; Ethereum's funding went negative on some venues (−2.08% on Bitget), signaling forced liquidations of leveraged longs. On Binance, Ethereum's open interest fell 4.64%, confirming deleveraging. Top traders held 1.55× long/short on Bitcoin and 1.54× on Ethereum—both still bullish, but Ethereum's taker buy/sell ratio dropped to 0.96 (below 1.0 means more aggressive selling). Across Binance perps, only 10% moved up; 714 out of 793 tokens were down, marking a sharp capitulation of breadth.",
+  "stocksSummary": "South Korean and Hong Kong chip stocks sold off hard: SK Hynix −5.3%, Samsung −5.9%, and leveraged plays like CSOP SK Hynix 2x −12.7% and CSOP Samsung 2x −12.7%. In the US, bearish semiconductor bets rallied (SOXS +12.2%) as traders hedged tech risk. Crude oil surged—WTI +2.47% and Brent +1.84%—driven by escalating Middle East tensions over Iran and Ukraine. Gold and silver dipped slightly (−0.52% and −1.13%), a typical flight-to-real-assets move overshadowed by oil volatility.",
+  "movers": [
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Gitcoin surged 54.3% after South Korean exchange Upbit announced it would add GTC trading pairs in KRW and USDT at 19:00 UTC on Oct 12, bringing the token to retail trading in a major Asian market.",
+      "hasCause": true
+    },
+    {
+      "symbol": "STRKUSDT",
+      "explanation": "Starknet's native token fell 31.0% with no clear public cause on this date; likely a pullback or technical retracement after earlier rallies.",
+      "hasCause": false
+    },
+    {
+      "symbol": "RSRUSDT",
+      "explanation": "Reserve Rights (RSR) jumped 30.0% with no identified public catalyst on the day.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Blur to shut down frontend next month as NFT trading volume dwindles",
+        "what": "The NFT marketplace announced it will deprecate its frontend on November 12, 2026, while the onchain protocol remains operational. Blend, its lending product, will also stop matching new loans on that date. The BLUR token fell more than 20% (data pack shows −28.5%) as the market reacted to the closure of the user-facing platform.",
+        "coins": "BLUR",
+        "timeUTC": "22:42 UTC, 2026-10-12",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363"
+      },
+      {
+        "headline": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
+        "what": "Middle East geopolitical escalation between Ukraine and Iran pushed crude oil prices sharply higher (WTI +2.47%, Brent +1.84%), triggering a broad sell-off in risk assets. Bitcoin fell below $83,000 and Ethereum declined 3.5% as traders reduced leverage and rotated into defensive positions ahead of major US economic data later in the week.",
+        "coins": "BTC, ETH",
+        "timeUTC": "17:30 UTC, 2026-10-12",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high"
+      },
+      {
+        "headline": "Ethereum ETFs extend outflow streak; Bitcoin ETFs lost $681 million in week",
+        "what": "Spot Bitcoin and Ethereum ETFs recorded a combined $1.22 billion in net outflows for the week ending October 12, with Bitcoin ETFs down $681 million and Ethereum ETFs down $542 million. This reversed three consecutive weeks of Bitcoin inflows and extended Ethereum's outflow streak to nine consecutive days, totaling approximately $635 million as rising Treasury yields and inflation concerns weighed on fund flows.",
+        "coins": "BTC, ETH",
+        "timeUTC": "12:00 UTC, 2026-10-12",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+      }
+    ],
+    "groups": {
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance launches AI trading tool after 150,000-user beta",
+          "what": "Binance released Binance AI, a free generative-UI trading interface, to all English-language users following a beta test with approximately 150,000 participants. The tool uses AI to help traders navigate and execute trades.",
+          "coins": "—",
+          "timeUTC": "19:24 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Standard Chartered offers RLUSD custody in Dubai and plans LMAX collateral link",
+          "what": "Standard Chartered's Dubai branch now provides custody for Ripple's RLUSD stablecoin and is planning integration with LMAX Group to enable RLUSD as collateral for institutional trading while coins remain in custody. This expands banking infrastructure for stablecoin adoption in the Middle East.",
+          "coins": "RLUSD",
+          "timeUTC": "08:49 UTC, 2026-10-12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
+        },
+        {
+          "headline": "Bitmine adds 12,532 ETH as Tom Lee flags potential 'largest-ever' crypto bull market",
+          "what": "Bitmine (BMNR) purchased 12,532 Ethereum, lifting its treasury to 6.03 million tokens (4.9% of total ETH supply) with 84% staked for rewards. Bitmine chairman Tom Lee cited a potential $2 trillion wealth transfer to younger investors as a catalyst for future crypto demand.",
+          "coins": "ETH",
+          "timeUTC": "13:36 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296"
+        },
+        {
+          "headline": "DeFi Development grows SOL holdings 12% as CHAD hits record highs",
+          "what": "DeFi Development (DFDV), a Nasdaq-listed Solana treasury company, added 22,070 SOL, bringing its holdings to 2.59 million SOL, while its preferred stock (CHAD) hit record highs despite market volatility.",
+          "coins": "SOL",
+          "timeUTC": "15:40 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307"
+        },
+        {
+          "headline": "Strategy adds 250 Bitcoin as holdings reach 848,250 BTC",
+          "what": "Michael Saylor's Strategy Inc. purchased 250 Bitcoin for approximately $21.5 million, bringing total holdings to 848,250 BTC (roughly 4% of the 21 million supply) worth approximately $71 billion. The company maintains a $4.88 billion cash reserve for future acquisitions.",
+          "coins": "BTC",
+          "timeUTC": "10:20 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275"
+        },
+        {
+          "headline": "Morgan Stanley expects to support tokenized equities in Q1 2027, digital asset strategy head says",
+          "what": "Morgan Stanley is actively building infrastructure for tokenized equities and plans to support them in the first quarter of 2027, while monitoring broader industry developments in asset tokenization.",
+          "coins": "—",
+          "timeUTC": "19:36 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger claims CryptoBilis cases are limited as up to $93M is traced, $10M frozen",
+          "what": "Ledger said every confirmed theft case involving the suspected $87–93 million drain tied to reseller CryptoBilis involves devices sold through that Southeast Asian distribution channel, not directly through Ledger. Law enforcement has traced up to $93 million and frozen $10 million so far. Ledger maintains its direct systems and sales are unaffected, but critics argue the company must answer for authorized reseller compromises.",
+          "coins": "—",
+          "timeUTC": "18:08 UTC, 2026-10-12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CFTC's new crypto framework could face 2028 election deadline, says TD Cowen",
+          "what": "TD Cowen analysts warned that newly proposed CFTC rules for leveraged and margined crypto trading may take too long to finalize, given the 2028 US election cycle and potential shifts in regulatory appetite. Regulatory uncertainty could affect leveraged trading platforms into next year.",
+          "coins": "—",
+          "timeUTC": "16:00 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358"
+        },
+        {
+          "headline": "Thailand wants a piece of the $120 billion Bitcoin and Ethereum ETF market, but on its own terms",
+          "what": "Thailand's Securities and Exchange Commission will allow Bitcoin and Ethereum ETF trading beginning October 16, 2026, under a new framework requiring mandatory product-risk education before trading. The move aims to tap the global $120 billion crypto-ETF market.",
+          "coins": "BTC, ETH",
+          "timeUTC": "17:00 UTC, 2026-10-12",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/thailand-wants-a-piece-of-the-120-billion-bitcoin-and-ethereum-etf-market-but-on-its-own-terms/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Global watchdog warns the $300 billion stablecoin market could face bank runs even with full reserves",
+          "what": "The Financial Stability Board (FSB) warned that stablecoin systems with separately backed issuers can face liquidity crises where redemption demand concentrates at one entity while moving reserves across borders faces frictions. Full collateralization does not eliminate bank-run risk in fragmented structures.",
+          "coins": "USDC, USDT",
+          "timeUTC": "23:50 UTC, 2026-10-12",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/global-watchdog-warns-the-300-billion-stablecoin-market-could-face-bank-runs-even-with-full-reserves/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-05 to 2026-10-09",
+    "summary": "Spot Bitcoin and Ethereum ETFs recorded a combined $1.22 billion in net outflows for the week, with Bitcoin ETFs down $681 million and Ethereum ETFs down $542 million. Bitcoin's outflows reversed three consecutive weeks of inflows, while Ethereum extended its outflow streak to nine consecutive trading days totaling approximately $635 million as rising Treasury yields and inflation concerns weighed on cryptocurrency sentiment.",
+    "source": "The Block / Farside Investors",
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Consumer Price Index (CPI) report scheduled for Wed 14 Oct, 12:30 UTC",
+      "typicalReaction": "High-impact inflation data typically moves Bitcoin and broader risk assets sharply; market is currently pricing for upside surprises, with options positioning heavily weighted to downside protection"
+    },
+    {
+      "event": "China CPI Wed 14 Oct, 01:30 UTC; China GDP Mon 19 Oct, 02:00 UTC",
+      "typicalReaction": "Asian macroeconomic data can shift sentiment around global growth and energy demand; oil-sensitive crypto assets may react to Chinese economic signals"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between the spot price (cash market) and the futures price. A positive basis means futures trade above spot (bullish); a negative basis means futures trade below spot (bearish)."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all assets that moved up (or down) on a given day. Breadth of 10% up means only 1 in 10 tokens gained value—a sign of concentrated moves and weak overall participation."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A daily sentiment gauge (0–100 scale) that measures whether crypto markets are dominated by fear (0–30), neutral (31–70), or greed (71–100). Used to spot potential reversals when sentiment reaches extremes."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate paid by traders holding leveraged positions (long or short) to the opposite side. Positive funding means long traders pay shorts (bullish signal), negative means shorts pay longs (bearish). Rates are paid every 8 hours on major exchanges."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of traders betting on price rises (longs) versus those betting on declines (shorts). A ratio above 1.0 means more longs exist; below 1.0 means more shorts. Extreme ratios can signal exhaustion (too many on one side)."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate trading profits/losses and trigger liquidations on perpetual (leveraged) contracts. It typically averages the spot price and futures price to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value of all open leveraged positions (long and short combined) on an exchange at a given time. Rising open interest signals more leverage entering the market; falling open interest means positions are being closed or liquidated."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "The percentage increase or decrease in total open interest over a day. A decline often signals deleveraging (forced or voluntary position closures) and can precede sharp price moves."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to hold a fixed value (usually $1 USD) by maintaining reserves or using algorithms. Common examples are USDC (dollar-backed) and USDT (dollar-backed Tether). Used as a safe harbor in volatile crypto markets."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market-buy orders (takers) versus market-sell orders. A ratio above 1.0 means more aggressive buying; below 1.0 means more aggressive selling. Reflects immediate momentum and sentiment."
+    },
+    {
+      "term": "Top position ratio (top trader long/short)",
+      "definition": "The long-to-short ratio among the largest traders on an exchange. Often more reliable than overall account ratios because it shows whether institutions are bullish or bearish."
+    }
+  ],
+  "_source": "cli"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-12",
+  "kind": "market",
+  "dateLong": "Monday, 12 October 2026",
+  "coversUTC": "2026-10-12 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum fell 2–3% on geopolitical risk and ETF outflows; Blur NFT marketplace shutting down sent its token down 28%, while Gitcoin surged 54% on a Korean exchange listing.",
+  "newsCount": 13,
+  "macro": {
+    "BTC": -2.2966735730876446,
+    "ETH": -3.5507532139758635
+  },
+  "topMover": {
+    "symbol": "GTCUSDT",
+    "chgPct": 54.34986484250014
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "13 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-12T00:07:39.225Z",
-  "count": 117,
+  "generatedAt": "2026-10-13T00:13:11.275Z",
+  "count": 118,
   "counts": {
-    "total": 117,
-    "market": 30,
+    "total": 118,
+    "market": 31,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-11",
+  "latest": "2026-10-12",
   "reports": [
+    {
+      "date": "2026-10-12",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -2.2966735730876446,
+        "ETH": -3.5507532139758635
+      },
+      "marketSummary": "Bitcoin and Ethereum fell 2–3% on geopolitical risk and ETF outflows; Blur NFT marketplace shutting down sent its token down 28%, while Gitcoin surged 54% on a Korean exchange listing.",
+      "oneLine": "Bitcoin and Ethereum fell 2–3% on geopolitical risk and ETF outflows; Blur NFT marketplace shutting down sent its token down 28%, while Gitcoin surged 54% on a Korean exchange listing.",
+      "newsCount": 13,
+      "topMover": {
+        "symbol": "GTCUSDT",
+        "chgPct": 54.34986484250014
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-12/summary_2026-10-12.html",
+        "pdf": "reports/2026-10-12/summary_2026-10-12.pdf",
+        "md": "reports/2026-10-12/summary_2026-10-12.md"
+      }
+    },
     {
       "date": "2026-10-11",
       "kind": "market",

@@ -1,0 +1,208 @@
+{
+  "oneLine": "比特币和以太坊因地缘政治风险和ETF净流出下跌2-3%;NFT交易平台Blur关闭导致其代币跌28%,而Gitcoin在韩国交易所上线后飙升54%。",
+  "caveman": "10月12日,比特币和以太坊都跌了约2-3%,原因是中东和乌克兰的局势紧张让人们担心油价会上升。油价上升时,人们会担心通货膨胀,通常会抛售加密货币这类风险资产,所以两种币都下跌了。同时,美国持有比特币和以太坊的投资基金在抛售资金(仅一周就有12亿美元流出),进一步加重了抛售压力。不过也发生了两件好事:Blur是一个让人们买卖NFT(特殊数字画)的平台,它宣布要关闭,导致它的代币BLUR暴跌;而Gitcoin(GTC)因为韩国交易所宣布要上线它,价格大涨。总的来说,这是个坏日子——整个市场都在跌,大多数币都在赔钱,大投资者的信心在下降。",
+  "priceVolumeSummary": "比特币在五大交易所的价格表现一致,在币安收于81813美元附近(跌2.28%);以太坊同样稳定,价格接近2446美元(跌3.54%)。币安交易量最大,比特币交易额118亿美元,以太坊93亿美元,约为其他交易所的2倍。",
+  "positioningSummary": "比特币融资利率保持高位,年化7.38%,说明尽管价格下跌,看涨者仍愿意付费持仓多头;以太坊在部分交易所融资利率转负(Bitget为−2.08%),表明杠杆多头被迫平仓。币安的以太坊未平仓头寸下降4.64%,确认去杠杆操作。大户在比特币上维持1.55倍的多空比,以太坊为1.54倍——两者仍看涨,但以太坊的吃单买卖比降至0.96(低于1.0表示抛售更激进)。在币安永续期货中,仅10%的币种上涨;793种币中有714种下跌,反映市场广泛的投降。",
+  "stocksSummary": "韩国和香港芯片股大幅下跌:SK海力士跌5.3%,三星跌5.9%,杠杆产品如CSOP SK海力士2倍和CSOP三星2倍各跌12.7%。在美国,看空芯片的投资品SOXS涨12.2%,交易员通过这种方式对冲科技风险。原油大涨——WTI涨2.47%,布伦特涨1.84%——由中东伊朗和乌克兰局势升级驱动。黄金和白银略有下跌(跌0.52%和1.13%),这是典型的转向真实资产的操作,但被油价波动压过。",
+  "movers": [
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Gitcoin飙升54.3%,因为韩国交易所Upbit宣布将在10月12日19:00 UTC上线GTC的KRW和USDT交易对,将这个代币带到亚洲零售市场交易。",
+      "hasCause": true
+    },
+    {
+      "symbol": "STRKUSDT",
+      "explanation": "Starknet原生代币STRK在这一天下跌31.0%,没有明确的公开原因;可能是之前涨幅后的回调或技术性回撤。",
+      "hasCause": false
+    },
+    {
+      "symbol": "RSRUSDT",
+      "explanation": "Reserve Rights(RSR)当天跳涨30.0%,没有发现明确的催化剂。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Blur宣布下月关闭前端,NFT交易量下滑",
+        "what": "NFT交易平台Blur宣布将在2026年11月12日关闭其前端,但链上协议保持运营。其借贷产品Blend也将在该日期停止匹配新贷款。BLUR代币下跌超过20%(数据显示跌28.5%),市场对用户端平台关闭做出反应。",
+        "coins": "BLUR",
+        "timeUTC": "2026-10-12 22:42 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363"
+      },
+      {
+        "headline": "乌克兰和伊朗冲突推高油价至一个月高位,比特币跌2.2%",
+        "what": "中东地缘政治升级,乌克兰和伊朗冲突推高原油价格(WTI涨2.47%,布伦特涨1.84%),引发风险资产的广泛抛售。比特币跌至83000美元以下,以太坊下跌3.5%,交易员在美国公布重大经济数据前降低杠杆并转向防守头寸。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-12 17:30 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high"
+      },
+      {
+        "headline": "以太坊ETF继续净流出,比特币ETF一周流出6.81亿美元",
+        "what": "截至10月12日一周,现货比特币和以太坊ETF合计净流出12.2亿美元,其中比特币ETF流出6.81亿美元,以太坊ETF流出5.42亿美元。这扭转了比特币连续三周的净流入,延续了以太坊连续九天的净流出(累计约6.35亿美元),原因是美债收益率上升和通胀担忧打压基金流入。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-12 12:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+      }
+    ],
+    "groups": {
+      "Exchange and platform changes": [
+        {
+          "headline": "币安发布AI交易工具,用户测试已超15万",
+          "what": "币安向所有英文用户推出Binance AI,这是一个免费的生成式界面交易工具,经过约15万用户的测试期。该工具利用AI帮助交易者浏览和执行交易。",
+          "coins": "—",
+          "timeUTC": "2026-10-12 19:24 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "渣打银行在迪拜提供RLUSD托管服务,计划与LMAX整合",
+          "what": "渣打银行迪拜分行现已提供Ripple稳定币RLUSD的托管服务,并计划与LMAX集团整合,使RLUSD可作为机构交易的抵押品同时币种保持在托管状态。这为中东稳定币采用扩展了银行基础设施。",
+          "coins": "RLUSD",
+          "timeUTC": "2026-10-12 08:49 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
+        },
+        {
+          "headline": "Bitmine增持12532枚以太坊,Tom Lee看好潜在\"最大牛市\"",
+          "what": "Bitmine(BMNR)购入12532枚以太坊,将其金库提升至603万枚代币(占总ETH供应的4.9%),其中84%已质押赚取收益。Bitmine董事长Tom Lee指出,年轻投资者可能发生的2万亿美元财富转移可能成为未来加密需求的催化剂。",
+          "coins": "ETH",
+          "timeUTC": "2026-10-12 13:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296"
+        },
+        {
+          "headline": "DeFi Development增持SOL,CHAD股价创新高",
+          "what": "纳斯达克上市的Solana金库公司DeFi Development(DFDV)增持22070枚SOL,持仓总量达259万枚SOL,其优先股CHAD尽管市场波动仍创历史新高。",
+          "coins": "SOL",
+          "timeUTC": "2026-10-12 15:40 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307"
+        },
+        {
+          "headline": "Strategy公司增持250枚比特币,持仓达848250枚",
+          "what": "迈克尔·赛勒的Strategy公司以约2150万美元购入250枚比特币,使总持仓达848250枚(约占2100万枚总供应量的4%),价值约710亿美元。该公司维持488亿美元现金储备用于未来收购。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-12 10:20 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275"
+        },
+        {
+          "headline": "摩根士丹利计划2027年Q1支持代币化股票",
+          "what": "摩根士丹利正在积极建设代币化股票的基础设施,计划在2027年第一季度提供支持,同时监测资产代币化的更广泛行业进展。",
+          "coins": "—",
+          "timeUTC": "2026-10-12 19:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger称CryptoBilis盗币案有限,追踪到9300万美元,冻结1000万美元",
+          "what": "Ledger称每一起确认的盗币案(涉及CryptoBilis渠道的8700万至9300万美元疑似流出)都涉及通过东南亚经销商渠道销售的设备,而非Ledger直接销售。执法部门已追踪到9300万美元,冻结了1000万美元。Ledger坚称其直接系统和销售未受影响,但批评人士认为公司必须对授权经销商被破坏负责。",
+          "coins": "—",
+          "timeUTC": "2026-10-12 18:08 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CFTC新加密框架可能面临2028选举截止期限,TD Cowen称",
+          "what": "TD Cowen分析师警告,新提议的CFTC杠杆和保证金加密交易规则可能耗时过长,考虑到2028年美国大选周期和监管态度可能转变。监管不确定性可能会影响杠杆交易平台直至明年。",
+          "coins": "—",
+          "timeUTC": "2026-10-12 16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358"
+        },
+        {
+          "headline": "泰国欲分享1200亿美元比特币和以太坊ETF市场,但要按其规则",
+          "what": "泰国证券交易委员会将从2026年10月16日开始允许比特币和以太坊ETF交易,新框架要求交易前必须进行强制性产品风险教育。此举旨在分享全球1200亿美元加密ETF市场。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-12 17:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/thailand-wants-a-piece-of-the-120-billion-bitcoin-and-ethereum-etf-market-but-on-its-own-terms/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "全球监管机构警告3000亿美元稳定币市场即使有充足储备也可能面临挤兑风险",
+          "what": "金融稳定委员会(FSB)警告,具有独立发行人的稳定币系统可能面临流动性危机,赎回需求集中于一个实体,同时跨境转移储备受摩擦。充分抵押并不能消除分散结构中的挤兑风险。",
+          "coins": "USDC, USDT",
+          "timeUTC": "2026-10-12 23:50 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/global-watchdog-warns-the-300-billion-stablecoin-market-could-face-bank-runs-even-with-full-reserves/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-05 to 2026-10-09",
+    "summary": "现货比特币和以太坊ETF一周合计净流出12.2亿美元,其中比特币ETF流出6.81亿美元,以太坊ETF流出5.42亿美元。比特币的净流出扭转了连续三周的净流入,而以太坊延续连续九个交易日的净流出(累计约6.35亿美元),原因是美债收益率上升和通胀担忧打压加密货币投资情绪。",
+    "source": "The Block / Farside Investors",
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Consumer Price Index (CPI) report scheduled for Wed 14 Oct, 12:30 UTC",
+      "typicalReaction": "高影响力的通胀数据通常会大幅推动比特币和广泛风险资产;市场目前定价为上行惊喜,期权头寸严重偏向下行保护"
+    },
+    {
+      "event": "China CPI Wed 14 Oct, 01:30 UTC; China GDP Mon 19 Oct, 02:00 UTC",
+      "typicalReaction": "亚洲宏观经济数据可能改变对全球增长和能源需求的情绪;对油价敏感的加密资产可能对中国经济信号做出反应"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "现货价格(现金市场)和期货价格之间的差异。正基差表示期货价格高于现货(看涨);负基差表示期货价格低于现货(看跌)。"
+    },
+    {
+      "term": "成交量广度",
+      "definition": "某一日内上涨(或下跌)的资产占比。广度10%上涨意味着只有1成10的代币上涨——这是集中行动和整体参与度弱的信号。"
+    },
+    {
+      "term": "恐惧和贪婪指数",
+      "definition": "日度情绪衡量指标(0-100规模),显示加密市场是否被恐惧(0-30)、中性(31-70)或贪婪(71-100)主导。用于在情绪极端时发现潜在反转。"
+    },
+    {
+      "term": "融资利率",
+      "definition": "持有杠杆头寸(多头或空头)的交易者支付给对方的利率。正融资利率表示多头支付空头(看涨信号),负融资利率表示空头支付多头(看跌信号)。主要交易所每8小时支付一次融资利率。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升(多头)的交易者与押注价格下跌(空头)的交易者比例。比例高于1.0表示多头更多;低于1.0表示空头更多。极端比例可能预示疲劳(一方过多)。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续(杠杆)合约交易利润/亏损和触发清算的参考价格。通常是现货价格和期货价格的平均值,防止被操纵。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "某一时间交易所上所有未平仓杠杆头寸(多头和空头合计)的总美元价值。未平仓头寸上升表示更多杠杆进入市场;下降表示头寸被平仓或被清算。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一日内总未平仓头寸的百分比增减。下降通常表示去杠杆(强制或主动平仓),可能先于剧烈价格波动。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "一种旨在保持固定价值(通常为1美元)的加密货币,通过维持储备或使用算法实现。常见例子是USDC(美元支持)和USDT(美元支持的Tether)。在波动的加密市场中用作避险。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "市场买单(主动成交方)与市场卖单的比例。高于1.0表示更积极的买入;低于1.0表示更积极的卖出。反映即时动能和情绪。"
+    },
+    {
+      "term": "大户多空比(顶级交易者多空比)",
+      "definition": "交易所最大交易者中的多空比例。通常比整体账户比例更可靠,因为它反映机构是看涨还是看跌。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "4ddec8b863476fdf"
+}

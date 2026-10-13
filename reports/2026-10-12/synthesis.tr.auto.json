@@ -1,0 +1,208 @@
+{
+  "oneLine": "Bitcoin ve Ethereum jeopolitik riskler ve ETF çıkışları nedeniyle %2–3 düştü; Blur NFT pazaryeri kapatılmasıyla token'ı %28 düştü, Gitcoin ise Koreli bir borsada listelenmesiyle %54 yükseldi.",
+  "caveman": "12 Ekim'de Bitcoin ve Ethereum ikisi de yaklaşık %2–3 düştü, çünkü Orta Doğu ve Ukrayna arasındaki gerginlik insanları endişelendirdi ve petrol fiyatlarının yükseleceğinden korktuler. Petrol fiyatları yükselirse, insanlar enflasyon konusunda endişelenir ve Bitcoin gibi riskli şeyleri satarlar, bu yüzden her iki coin düştü. Aynı zamanda, Bitcoin ve Ethereum tutan ABD yatırım fonları paralarını çekmişti (sadece bir haftada 1,2 milyar dolar) ve bu da satış baskısını artırdı. İyi tarafından, iki şaşırtıcı şey oldu: İnsanların NFT (özel dijital resimler) ticareti yaptığı bir yer olan Blur, kapanacağını duyurdu, bu da BLUR token'ını düşürdü, ve Gitcoin (GTC) Koreli bir borsanın onu ticarete açacağını duyurduğunda çok yükseldi. Genel olarak endişeli bir gündü—pazar geniş bir şekilde düştü, çoğu coin para kaybediyor ve büyük tüccarlar daha az güvenli hissediyorlardı.",
+  "priceVolumeSummary": "Bitcoin tüm beş büyük borsada tutarlı fiyatlarla işlem gördü, Binance'te 81.813$'a yakın kapandı (%2,28 düştü); Ethereum benzer şekilde 2.446$'a yakın uniform kaldı (%3,54 düştü). Binance, BTC'de 11,8 milyar dolar ve ETH'de 9,3 milyar dolar işlem hacmiyle pazar domine etti, bu rakip borsaların hacminin kabaca 2 katı.",
+  "positioningSummary": "Bitcoin finansmanı %7,38 yıllık olarak yüksek kaldı, bu da boğaların fiyat düşüşüne rağmen long pozisyon tutmak için hala ödeme yaptığını gösterdi; Ethereum'un finansmanı bazı borsalarda negatif oldu (Bitget'te −%2,08), zorunlu likidasyonları işaret etti. Binance'te Ethereum'un açık faizi %4,64 düştü, deleveraging'i doğruladı. En iyi tüccarlar Bitcoin'de 1,55× long/short ve Ethereum'de 1,54× tuttu—her ikisi hala yükseliş eğilimli, ancak Ethereum'un taker alım/satış oranı 0,96'ya düştü (%1,0'ın altı daha agresif satışı anlamına gelir). Binance perpsleri arasında sadece %10 yükseldi; 793 token'den 714'ü düştü, bu da genişliğin keskin bir teslimiyetini işaret etti.",
+  "stocksSummary": "Güney Kore ve Hong Kong çip stokları sert satıldı: SK Hynix −%5,3, Samsung −%5,9 ve CSOP SK Hynix 2x −%12,7 ve CSOP Samsung 2x −%12,7 gibi kaldıraçlı oyunlar. ABD'de, tüccarlar teknoloji riskinden korunurken düşüş eğilimli yarı iletken bahisleri yükseldi (SOXS +%12,2). Ham petrol hızla yükseldi—WTI +%2,47 ve Brent +%1,84—İran ve Ukrayna'da şiddetlenen Orta Doğu gerginliğinden kaynaklanıyor. Altın ve gümüş hafif düştü (−%0,52 ve −%1,13), tipik bir reel varlıklara kaçış hareketi ancak petrol oynaklığı tarafından gölgelendi.",
+  "movers": [
+    {
+      "symbol": "GTCUSDT",
+      "explanation": "Gitcoin, Güney Koreli borsa Upbit'in 12 Ekim'de 19:00 UTC'de KRW ve USDT'de GTC işlem çiftleri ekleyeceğini duyurmasından sonra %54,3 yükseldi, token'ı önemli bir Asya pazarında perakende ticarete getirdi.",
+      "hasCause": true
+    },
+    {
+      "symbol": "STRKUSDT",
+      "explanation": "Starknet'in yerli token'ı bu tarihte açık bir nedenle %31,0 düştü; muhtemelen önceki rallilerden sonra bir geri çekilme veya teknik retracement.",
+      "hasCause": false
+    },
+    {
+      "symbol": "RSRUSDT",
+      "explanation": "Reserve Rights (RSR) bu gün tanımlanmış bir kamu katalizörü olmaksızın %30,0 sıçradı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Blur, NFT işlem hacmi azaldığında ön yüzü sonraki ay kapatacak",
+        "what": "NFT pazaryeri, zincir üzerindeki protokol operasyonel kalırken, 12 Kasım 2026'da ön yüzünü kullanımdan kaldıracağını duyurdu. Blend, borç verme ürünü de bu tarihte yeni kredileri eşleştirmeyi durdurur. BLUR token, kullanıcıya bakan platformun kapanışına pazar tepki gösterirken %20'den fazla düştü (veri paketi −%28,5 gösteriyor).",
+        "coins": "BLUR",
+        "timeUTC": "22:42 UTC, 2026-10-12",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363"
+      },
+      {
+        "headline": "Bitcoin, Ukrayna, İran saldırıları petrole bir aylık yükseklere giderken %2,2 düştü",
+        "what": "Ukrayna ile İran arasındaki Orta Doğu jeopolitik tırmanışı ham petrol fiyatlarını keskin bir şekilde yükseltip (WTI +%2,47, Brent +%1,84), riskli varlıklarda geniş bir satış dalgasını tetikledi. Bitcoin 83.000$'ın altına düştü ve Ethereum, haftanın ilerleyen saatlerinde büyük ABD ekonomik verileri öncesinde tüccarlar kaldıraçı azalttığında ve savunma pozisyonlarına döndüğünde %3,5 düştü.",
+        "coins": "BTC, ETH",
+        "timeUTC": "17:30 UTC, 2026-10-12",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high"
+      },
+      {
+        "headline": "Ethereum ETF'leri çıkış serisini uzattı; Bitcoin ETF'leri haftada 681 milyon dolar kaybetti",
+        "what": "Spot Bitcoin ve Ethereum ETF'leri, 12 Ekim'de biten hafta için Bitcoin ETF'leri 681 milyon dolar aşağı ve Ethereum ETF'leri 542 milyon dolar aşağı olmak üzere birleşik 1,22 milyar dolar net çıkış kaydetti. Bu, Bitcoin'in üç art arda haftalık giriş akışını tersine çevirdi ve yükselen Hazine verimeri ve enflasyon endişeleri fon akışlarına ağırlık verirken Ethereum'un çıkış serisini dokuz art arda güne, toplam yaklaşık 635 milyon dolara uzattı.",
+        "coins": "BTC, ETH",
+        "timeUTC": "12:00 UTC, 2026-10-12",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+      }
+    ],
+    "groups": {
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance, 150.000 kullanıcılı beta'dan sonra yapay zeka ticaret aracını başlattı",
+          "what": "Binance, yaklaşık 150.000 katılımcıyla bir beta testini izleyerek, ücretsiz bir generatif kullanıcı arayüzü ticaret arayüzü olan Binance AI'yi tüm İngilizce konuşan kullanıcılara yayınladı. Araç, tüccarların işlem yapmaya yardımcı olmak için yapay zeka kullanır.",
+          "coins": "—",
+          "timeUTC": "19:24 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Standard Chartered, Dubai'de RLUSD velayeti sunuyor ve LMAX teminat bağlantısını planlıyor",
+          "what": "Standard Chartered'ın Dubai şubesi şimdi Ripple'ın RLUSD stabilcoin'i için velayeti sağlıyor ve paralar gözetim altında kalırken RLUSD'yi kurumsal ticaret için teminat olarak etkinleştirmek için LMAX Grubuyla entegrasyonu planlıyor. Bu, Orta Doğu'da stabilcoin benimsenmesi için bankacılık altyapısını genişletir.",
+          "coins": "RLUSD",
+          "timeUTC": "08:49 UTC, 2026-10-12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
+        },
+        {
+          "headline": "Bitmine 12.532 ETH ekliyor, Tom Lee olası 'şimdiye kadarki en büyük' kripto boğa pazarını işaret ediyor",
+          "what": "Bitmine (BMNR), 12.532 Ethereum satın aldı, hazinesini 6,03 milyon token'e yükseltti (toplam ETH arzının %4,9) ve %84'ü ödüller için stake edildi. Bitmine başkanı Tom Lee, genç yatırımcılara olası 2 trilyon dolar servet transferini gelecekteki kripto talebinin katalizörü olarak gösterdi.",
+          "coins": "ETH",
+          "timeUTC": "13:36 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296"
+        },
+        {
+          "headline": "DeFi Development SOL holdings'i %12 artırıyor, CHAD rekor seviyelere ulaşıyor",
+          "what": "Nasdaq'ta listelenen bir Solana hazine şirketi olan DeFi Development (DFDV), 22.070 SOL ekledi, holding'lerini 2,59 milyon SOL'a yükseltti, tercih edilen hisse senedi (CHAD) pazar oynaklığına rağmen rekor seviyelere ulaştı.",
+          "coins": "SOL",
+          "timeUTC": "15:40 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307"
+        },
+        {
+          "headline": "Strategy 250 Bitcoin ekliyor, holdings 848.250 BTC'ye ulaşıyor",
+          "what": "Michael Saylor'ın Strategy Inc., 250 Bitcoin'i yaklaşık 21,5 milyon dolara satın aldı, toplam holdings'i 848.250 BTC'ye yükseltti (21 milyon arzının kabaca %4'ü) yaklaşık 71 milyar dolar değerinde. Şirket, gelecekteki alımlar için 4,88 milyar dolarlık nakit rezerv tutuyor.",
+          "coins": "BTC",
+          "timeUTC": "10:20 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275"
+        },
+        {
+          "headline": "Morgan Stanley, dijital varlık stratejisi müdürü söyleyen Q1 2027'de tokenize hisse senetlerini desteklemesini bekliyor",
+          "what": "Morgan Stanley, tokenize hisse senetleri için aktif olarak altyapı kuruyor ve ilk çeyrek 2027'de bunları desteklemeyi planlıyor, aynı zamanda varlık tokenizasyonunda daha geniş endüstri gelişmelerini izliyor.",
+          "coins": "—",
+          "timeUTC": "19:36 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger, 93 milyon dolara kadar izlenerek, 10 milyon dolar dondurulurken CryptoBilis olaylarının sınırlı olduğunu iddia ediyor",
+          "what": "Ledger, yeniden satıcı CryptoBilis'e bağlı şüpheli 87–93 milyon dolar tahliyeyi içeren her onaylanmış hırsızlık olayının, Ledger aracılığıyla değil, o Güneydoğu Asya dağıtım kanalı aracılığıyla satılan cihazları içerdiğini söyledi. Kanun müşrehası 93 milyon dolara kadar izledi ve şu ana kadar 10 milyon doları dondurdu. Ledger, doğrudan sistemleri ve satışlarının etkilenmediğini iddia ediyor, ancak eleştirmenler şirketin yetkili yeniden satıcı uzlaştırmaları için cevap vermesi gerektiğini savunuyorlar.",
+          "coins": "—",
+          "timeUTC": "18:08 UTC, 2026-10-12",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CFTC'nin yeni kripto çerçevesi, TD Cowen söyleyen 2028 seçim tarihiyle karşı karşıya kalabilir",
+          "what": "TD Cowen analisti, yeni önerilen CFTC kurallarının kaldıraçlı ve marjlı kripto ticareti için, 2028 ABD seçim döngüsü ve düzenleyici iştahında olası değişiklikler göz önüne alındığında, sonlandırmak için çok uzun sürebileceğini uyardı. Düzenleyici belirsizlik, kaldıraçlı ticaret platformlarını gelecek yıla kadar etkileyebilir.",
+          "coins": "—",
+          "timeUTC": "16:00 UTC, 2026-10-12",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358"
+        },
+        {
+          "headline": "Tayland, 120 milyar dolar Bitcoin ve Ethereum ETF pazarının bir dilimini istiyor, ancak kendi şartları altında",
+          "what": "Tayland'ın Menkul Kıymetler ve Borsa Komisyonu, işlemden önce zorunlu ürün-risk eğitimi gerektiren yeni bir çerçeve altında, 16 Ekim 2026'dan itibaren Bitcoin ve Ethereum ETF ticaretine izin verecek. Hareket, küresel 120 milyar dolar kripto-ETF pazarına dokunmayı amaçlamaktadır.",
+          "coins": "BTC, ETH",
+          "timeUTC": "17:00 UTC, 2026-10-12",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/thailand-wants-a-piece-of-the-120-billion-bitcoin-and-ethereum-etf-market-but-on-its-own-terms/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Küresel bekçi, 300 milyar dolar stabilcoin pazarının tam rezervlerle bile banka çalışmalarıyla karşı karşıya kalabileceğini uyarıyor",
+          "what": "Mali İstikrar Kurulu (FSB), ayrı olarak desteklenen ihraççılarla stabilcoin sistemlerinin, itfa talebinin bir kuruluşta yoğunlaştığı ve rezervleri sınırlar ötesine taşımanın sürtünmelerle karşı karşıya kaldığı likidite krizleriyle karşı karşıya kalabileceğini uyardı. Tam teminatlandırma, parçalanmış yapılarda banka çalışması riskini ortadan kaldırmaz.",
+          "coins": "USDC, USDT",
+          "timeUTC": "23:50 UTC, 2026-10-12",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/global-watchdog-warns-the-300-billion-stablecoin-market-could-face-bank-runs-even-with-full-reserves/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-05 to 2026-10-09",
+    "summary": "Spot Bitcoin ve Ethereum ETF'leri, hafta için Bitcoin ETF'leri 681 milyon dolar aşağı ve Ethereum ETF'leri 542 milyon dolar aşağı olmak üzere birleşik 1,22 milyar dolar net çıkış kaydetti. Bitcoin'in çıkışları üç art arda haftalık giriş akışını tersine çevirdi, yükselen Hazine verimeri ve enflasyon endişeleri kripto sentiment'e ağırlık verirken Ethereum çıkış serisini dokuz art arda işlem gününe, toplam yaklaşık 635 milyon dolara uzattı.",
+    "source": "The Block / Farside Investors",
+    "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Consumer Price Index (CPI) report scheduled for Wed 14 Oct, 12:30 UTC",
+      "typicalReaction": "Yüksek etkili enflasyon verileri tipik olarak Bitcoin ve daha geniş riskli varlıkları keskin bir şekilde hareket ettirir; pazar şu anda yükselişte sürprizler için fiyatlandırılıyor, seçenekler konumlaması ağırlıklı olarak aşağı taraf korumasına ağırlıklandırılıyor."
+    },
+    {
+      "event": "China CPI Wed 14 Oct, 01:30 UTC; China GDP Mon 19 Oct, 02:00 UTC",
+      "typicalReaction": "Asya makroekonomik verileri, küresel büyüme ve enerji talebi etrafında sentimenti değiştirebilir; petrole duyarlı kripto varlıkları Çin ekonomik sinyallerine tepki verebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Baz",
+      "definition": "Spot fiyat (nakit pazar) ile vadeli işlem fiyatı arasındaki fark. Pozitif bir baz, vadeli işlemlerin spot'un üzerinde işlem gördüğü anlamına gelir (yükseliş eğilimli); negatif bir baz, vadeli işlemlerin spot'un altında işlem gördüğü anlamına gelir (düşüş eğilimli)."
+    },
+    {
+      "term": "Genişlik",
+      "definition": "Verilen bir gün üzerinde hareket eden tüm varlıkların yüzdesi. %10 yükselişin genişliği, sadece 10'da 1 token değer kazandığı anlamına gelir—konsantre hareketler ve zayıf genel katılımın işareti."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "Kripto pazarlarının korku (0–30), nötr (31–70) veya açgözlülük (71–100) tarafından hakim olup olmadığını ölçen günlük bir sentiment ölçüsü (0–100 ölçeği). Sentiment uç noktalara ulaştığında olası geri dönüşleri tespit etmek için kullanılır."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Kaldıraçlı pozisyonlar (long veya short) tutan tüccarlar tarafından karşı tarafa ödenen faiz oranı. Pozitif finansman, uzun tüccarların short'lara ödediği anlamına gelir (yükseliş sinyali), negatif kısa vadeler uzunlara öder (düşüş). Oranlar büyük borsalarda her 8 saatte bir ödenir."
+    },
+    {
+      "term": "Long/Short Oranı",
+      "definition": "Fiyat artışlarına bahis yapan tüccarların (longs) düşüşlere bahis yapanlara (shorts) oranı. 1,0'ın üzerindeki bir oran daha fazla uzun vadeler anlamına gelir; 1,0'ın altı daha fazla short'u anlamına gelir. Aşırı oranlar tükenmeyi işaret edebilir (bir tarafta çok fazla)."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Ticari karları/kayıpları hesaplamak ve kalıcı (kaldıraçlı) sözleşmelerde likidasyonları tetiklemek için kullanılan referans fiyat. Genellikle manipülasyonu önlemek için spot fiyatı ve vadeli işlem fiyatını ortalaması alır."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Belirli bir zamanda bir borsada açık kaldıraçlı pozisyonların (long ve short birleştirilmiş) toplam dolar değeri. Artan açık faiz, daha fazla kaldıracın pazara girdiğini işaret eder; düşen açık faiz, pozisyonların kapatıldığı veya tasfiye edildiği anlamına gelir."
+    },
+    {
+      "term": "Açık Faiz Değişimi",
+      "definition": "Toplam açık faizde bir gün boyunca yüzde artış veya azalış. Bir düşüş genellikle deleveraging'i (zorunlu veya gönüllü pozisyon kapatılması) işaret eder ve keskin fiyat hareketlerinden önce gelebilir."
+    },
+    {
+      "term": "Stabilcoin",
+      "definition": "Sabit bir değeri (genellikle 1 USD) tutmak için değişken tahakkuklar veya algoritmaları kullanarak tutmak için tasarlanmış bir kripto para. Yaygın örnekler USDC (dolar destekli) ve USDT (dolar destekli Tether)'dir. Oynak kripto pazarlarında güvenli liman olarak kullanılır."
+    },
+    {
+      "term": "Taker Alım/Satış Oranı",
+      "definition": "Pazar satın alma emirleri (taker'lar) ile pazar satış emirlerinin oranı. 1,0'ın üzerindeki bir oran daha agresif satın almayı anlamına gelir; 1,0'ın altı daha agresif satışı anlamına gelir. Anlık momentum ve sentiment'i yansıtır."
+    },
+    {
+      "term": "En İyi Pozisyon Oranı (en iyi tüccar long/short)",
+      "definition": "Bir borsadaki en büyük tüccarlar arasında long-short oranı. Genel hesap oranlarından genellikle daha güvenilirdir, çünkü kurumların yükseliş eğilimli mi yoksa düşüş eğilimli mi olduğunu gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "4ddec8b863476fdf"
+}
