@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-13",
+  "kind": "market",
+  "dateLong": "Tuesday, 13 October 2026",
+  "coversUTC": "2026-10-13 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum rose about 1.6% and 2.1% on October 13 as traders stayed long, but an $86 million hardware-wallet hack and South Korean stock crash sparked $800 million in crypto liquidations.",
+  "newsCount": 14,
+  "macro": {
+    "BTC": 1.617423635921402,
+    "ETH": 2.0889212351170876
+  },
+  "topMover": {
+    "symbol": "1000RATSUSDT",
+    "chgPct": -51.028202115158635
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "14 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

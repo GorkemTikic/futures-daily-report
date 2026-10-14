@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-13T00:13:11.275Z",
-  "count": 118,
+  "generatedAt": "2026-10-14T00:13:25.006Z",
+  "count": 119,
   "counts": {
-    "total": 118,
-    "market": 31,
+    "total": 119,
+    "market": 32,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-12",
+  "latest": "2026-10-13",
   "reports": [
+    {
+      "date": "2026-10-13",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 1.617423635921402,
+        "ETH": 2.0889212351170876
+      },
+      "marketSummary": "Bitcoin and Ethereum rose about 1.6% and 2.1% on October 13 as traders stayed long, but an $86 million hardware-wallet hack and South Korean stock crash sparked $800 million in crypto liquidations.",
+      "oneLine": "Bitcoin and Ethereum rose about 1.6% and 2.1% on October 13 as traders stayed long, but an $86 million hardware-wallet hack and South Korean stock crash sparked $800 million in crypto liquidations.",
+      "newsCount": 14,
+      "topMover": {
+        "symbol": "1000RATSUSDT",
+        "chgPct": -51.028202115158635
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-13/summary_2026-10-13.html",
+        "pdf": "reports/2026-10-13/summary_2026-10-13.pdf",
+        "md": "reports/2026-10-13/summary_2026-10-13.md"
+      }
+    },
     {
       "date": "2026-10-12",
       "kind": "market",

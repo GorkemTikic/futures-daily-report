@@ -1,0 +1,210 @@
+{
+  "oneLine": "Bitcoin and Ethereum rose about 1.6% and 2.1% on October 13 as traders stayed long, but an $86 million hardware-wallet hack and South Korean stock crash sparked $800 million in crypto liquidations.",
+  "caveman": "On Tuesday, October 13, Bitcoin went up 1.6% and Ethereum went up 2.1%. Most cryptocurrencies also went up (57% of all coins traded higher). But there were scary things happening. South Korea's technology stock market crashed badly—Samsung and SK Hynix both dropped hard—and this scared people enough that $800 million in crypto positions got closed out with losses. Bitcoin briefly dipped below $81,000 but then buyers stepped in and pushed it back up. An even bigger scare was about wallets: Ledger confirmed that some of its hardware wallets sold through a reseller called CryptoBilis had hidden computer chips inside that stole people's 24-word recovery phrases, and about $86 million was stolen. On the good side, an investment company called Strive bought another $280 million worth of Bitcoin during all this chaos. So it was a mixed day—prices went up, but people were worried about hacks and stock market crashes.",
+  "priceVolumeSummary": "All five major exchanges agreed on price: Bitcoin around $83,150 and Ethereum around $2,497. Binance led volume with $12.2 trillion in BTC perpetual contracts and $9.4 trillion in ETH, followed by OKX and Bybit.",
+  "positioningSummary": "Traders remained heavily long: Binance's BTC long/short ratio stood at 1.50, with the largest traders even more bullish at 1.61. Ethereum was even more skewed, with a 3.03 long/short ratio. Open interest in coins declined slightly (BTC down 0.98%, ETH down 0.30%), but USD value rose (BTC up 0.60%, ETH up 1.78%), meaning traders did not aggressively add leverage as prices climbed. Funding rates are mixed: OKX and Binance show neutral to slightly negative rates on BTC (suggesting no strong bullish expectation), while Bybit shows heavy positive funding at 10.95% (suggesting some traders still expect higher prices). However, taker buy/sell ratios below 1 (BTC 0.915, ETH 0.902) indicate aggressive selling is stronger than buying—prices rose on passive buying, not aggressive demand.",
+  "stocksSummary": "Asian equities fell sharply on October 13, likely on AI sector concerns. South Korean technology stocks led declines: SK Hynix dropped 5.236%, Samsung Electronics fell 3.878%, and the KOSPI 200 ETF (KODEX 200) slid 3.086%. This collapse triggered over $800 million in crypto liquidations. Hong Kong and China equities were mixed, with gains in some tech names (Zhongji Innolight +3.056%, Unitree Robotics +3.547%) offsetting weakness elsewhere. US stock markets opened lower in sympathy but recovered: the S&P 500 (SPY) closed nearly flat at −0.01%, and the Nasdaq (ONEQ) declined modestly at −0.15%. The US Dollar fell 0.378%, gold fell 0.211%, and Treasury bonds (IEF) ticked up 0.123% as yields declined.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "No clear public cause identified in available news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "explanation": "No clear public cause identified in available news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ARCUSDT",
+      "explanation": "No clear public cause identified in available news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Ledger confirms LTE implant in CryptoBilis-sold wallets steals recovery phrases; up to $86M suspected drain",
+        "what": "Ledger confirmed a hidden LTE chip in hardware wallets sold through CryptoBilis (a reseller in Southeast Asia) that steals users' 24-word recovery phrases during setup. The implant leaves the wallet's Secure Element untouched but transmits the phrase via cellular connection. Approximately $86 million is suspected to have been drained from affected users. MediaMarkt has suspended Ledger sales in Europe as a precaution.",
+        "coins": "BTC, ETH, all cryptocurrencies",
+        "timeUTC": "2026-10-13 12:00",
+        "source": "The Block, Decrypt, Cointelegraph",
+        "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+      },
+      {
+        "headline": "Strive buys $280 million in Bitcoin; raises $500M via new preferred shares paying 15% dividend",
+        "what": "Strive (a Nasdaq-listed Bitcoin treasury company) purchased 3,311 BTC for $280 million between October 5–9 at an average price of approximately $84,500, bringing total holdings to 32,773 BTC (the fifth-largest publicly traded corporate holder). Separately, Strive announced it is raising $500 million via a new preferred share class (SATS) offering a fixed 15% dividend yield at par, junior to its existing SATA class which pays a variable 13% yield.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-13 18:00",
+        "source": "The Block, Decrypt, Cointelegraph, CoinDesk",
+        "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
+      },
+      {
+        "headline": "South Korean tech stocks collapse, triggering $800M+ crypto liquidations as Bitcoin briefly dips below $81K",
+        "what": "South Korean technology stocks crashed on October 13, with SK Hynix dropping 5.236%, Samsung Electronics falling 3.878%, and the broader KOSPI market down 3.086%. The selloff—apparently tied to AI sector concerns—triggered a wave of cryptocurrency liquidations exceeding $800 million, with over $685 million in long positions forced closed. Bitcoin briefly fell below $81,000 before recovering to end the day at $83,125.",
+        "coins": "All, especially BTC",
+        "timeUTC": "2026-10-13 06:00",
+        "source": "CryptoSlate, Cointelegraph, The Block",
+        "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger confirms LTE implant in CryptoBilis units stealing recovery phrases; up to $86M drained",
+          "what": "Ledger confirmed a hidden LTE chip in wallets sold through the Southeast Asian reseller CryptoBilis that transmits users' 24-word recovery phrases during setup. Approximately $86 million has been traced as stolen. MediaMarkt suspended Ledger sales in Europe.",
+          "coins": "BTC, ETH, all cryptocurrencies",
+          "timeUTC": "2026-10-13 12:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+        },
+        {
+          "headline": "Trezor cuts authorized resellers as preventative step against hardware tampering",
+          "what": "After Ledger's implant discovery, Trezor announced it is removing unauthorized resellers from its list effective January 1, 2027. Chief Commercial Officer Danny Sanders called it a preventative measure to prevent similar tampering incidents.",
+          "coins": "BTC, ETH, all cryptocurrencies",
+          "timeUTC": "2026-10-13 15:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive buys $280M Bitcoin in largest acquisition since January; raises $500M new preferred shares",
+          "what": "Strive (Nasdaq: STRV) purchased 3,311 BTC for $280 million at ~$84,500/coin, bringing holdings to 32,773 BTC. Also announced $500 million raise via SATS preferred shares offering fixed 15% dividend. This positions Strive as the fifth-largest public Bitcoin holder.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-13 18:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
+        },
+        {
+          "headline": "Interactive Brokers expands crypto services with Ethereum staking via Zerohash",
+          "what": "Interactive Brokers now offers eligible clients the ability to stake ETH directly through its Client Portal, with execution provided by Zerohash. This expands traditional brokers' crypto offerings beyond trading.",
+          "coins": "ETH",
+          "timeUTC": "2026-10-13 17:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457"
+        },
+        {
+          "headline": "BNY Mellon and Citadel Securities test tokenized US Treasuries settlement",
+          "what": "BNY Mellon and Citadel Securities completed a test transaction showing how blockchain-based government bonds could help trading firms move collateral faster between settlement and financing. The test demonstrates faster funding cycles using tokenized assets.",
+          "coins": "None directly, but institutional blockchain infrastructure",
+          "timeUTC": "2026-10-13 10:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing"
+        },
+        {
+          "headline": "Federated Hermes joins Wall Street tokenization push with first onchain fund shares",
+          "what": "Federated Hermes ($911B asset manager) partnered with Prometheum to bring blockchain-based share classes of its funds to traditional brokerage accounts, advancing Wall Street adoption of tokenized financial products.",
+          "coins": "None directly, but institutional blockchain infrastructure",
+          "timeUTC": "2026-10-13 12:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance to shut down mining pool, cloud mining, and Pool Savings by November 10",
+          "what": "Binance announced discontinuation of its mining pool, cloud mining services, and Pool Savings offerings effective November 10, 2026, marking a strategic retreat from mining infrastructure.",
+          "coins": "BTC, other proof-of-work coins",
+          "timeUTC": "2026-10-13 11:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410"
+        },
+        {
+          "headline": "South Korea blocks 27 unregistered crypto exchanges including BitMart and KuCoin",
+          "what": "South Korean regulators escalated restrictions on unregistered exchanges, moving from app bans to website blocks targeting 27 platforms including BitMart and KuCoin. The goal is to stop investors from losing money on unregistered venues before filing complaints.",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 09:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+        },
+        {
+          "headline": "Russia's largest bank Sberbank secures approval to trade crypto; rollout planned for December 1",
+          "what": "Sberbank (Russia's largest bank) received regulatory approval to offer cryptocurrency trading to all clients, with a December 1 launch planned. The bank is already testing BTC, ETH, and USDT trading in its mobile app.",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "2026-10-13 08:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Australia moves to close crypto derivatives loophole after retail traders lose A$458 million",
+          "what": "Australian regulators proposed bringing qualifying token-settled derivatives within existing retail investor safeguards, while keeping some fixed-expiry crypto products outside the scope. The move follows significant retail losses in unregulated crypto derivatives.",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 02:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/australia-moves-to-close-crypto-derivatives-loophole-after-retail-traders-lose-a458-million/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "South Korean tech stocks plunge on AI sector concerns, triggering $800M crypto liquidations",
+          "what": "South Korean technology stocks crashed on October 13, with SK Hynix down 5.236%, Samsung Electronics down 3.878%, and the broader KOSPI market down 3.086%. The selloff triggered massive cryptocurrency liquidations (over $800 million, with $685 million in longs forced closed).",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 06:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US CPI Report October 2026: Core m/m expected 0.2% (prev 0.3%), headline m/m expected 0.6% (prev 0.4%), core y/y expected 2.5% (prev 2.4%), headline y/y expected 3.6% (prev 3.4%) — Wed Oct 14, 12:30 UTC",
+      "typicalReaction": "High-impact US inflation data typically triggers sharp moves in equities, bonds, and dollar strength. Hot CPI could push traders to exit crypto in favor of safe assets."
+    },
+    {
+      "event": "China CPI October 2026 — Wed Oct 14, 01:30 UTC",
+      "typicalReaction": "Chinese economic data can shift risk appetite in Asian equities and ripple into crypto trading, especially given South Korea's weak performance on Oct 13."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between futures prices and spot prices. When basis is zero, futures and spot are aligned."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of all trading pairs that closed higher vs. lower on the day. Breadth above 50% means more coins went up than down, showing broad-based strength."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A daily sentiment score (0–100) measuring whether traders are afraid or greedy. Below 25 = extreme fear, 75+ = extreme greed. On Oct 13 it was 57 (Greed), down from 69."
+    },
+    {
+      "term": "Funding rate (funding)",
+      "definition": "Interest charged between long and short traders on perpetual futures every 8 hours. Positive = longs pay shorts (bullish sentiment, expect prices to rise). Negative = shorts pay longs (bearish sentiment). Annualized funding shows what the rate would be if paid yearly."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closing of a leveraged position when collateral falls below the minimum required (maintenance margin). Results in realized losses and can happen in milliseconds during price drops."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The percentage of trader accounts holding long (bet price goes up) vs. short (bet price goes down) positions. A ratio of 1.50 means 1.5 longs for every 1 short (longs outnumber shorts)."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The price used to calculate gains, losses, and liquidations on perpetual contracts. Designed to stay close to spot price using funding rates, preventing artificial manipulation."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total dollar value (or coin quantity) of all open (unsettled) perpetual positions across all traders. Rising OI means new leverage is entering; falling OI means traders are closing bets."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The day-over-day change in total open interest. A positive change means traders added net leverage; negative means they reduced bets."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive market buy orders (takers) to aggressive market sell orders. Above 1 means more aggressive buying; below 1 means more aggressive selling. Traders buying passively don't move this metric."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The long/short ratio among only the largest traders (not all accounts). Signals how institutional money and whales are positioned; more bullish or bearish than retail sentiment."
+    }
+  ],
+  "_source": "cli"
+}

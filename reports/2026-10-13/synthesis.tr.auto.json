@@ -1,0 +1,211 @@
+{
+  "oneLine": "13 Ekim'de Bitcoin %1,6 ve Ethereum %2,1 oranında yükseldi; tüccarlar uzun pozisyonda kaldıkları halde, 86 milyon dolarlık donanım cüzdanı hack'i ve Güney Kore hisse senedi çöküşü, 800 milyon dolarlık kripto likidasyonu tetikledi.",
+  "caveman": "Salı günü, 13 Ekim'de Bitcoin %1,6 ve Ethereum %2,1 yükseldi. Çoğu kripto para da yükseldi (tüm madeni paraların %57'si daha yüksek işlem gördü). Ama korkutucu şeyler oluyordu. Güney Kore'nin teknoloji hisse senedi piyasası çöküş yaptı—Samsung ve SK Hynix ikisi de sert düştü—ve insanlar bu kadar korktu ki 800 milyon dolarlık kripto pozisyonu zararla kapandı. Bitcoin kısa süre 81.000 dolarının altına düştü ama alıcılar gelip onu geri itti. Daha da korkutucu bir şey vardı: cüzdan meselesi. Ledger, CryptoBilis adlı bir satıcı aracılığıyla sattığı donanım cüzdanlarında insanların 24 kelimelik kurtarma sözcüklerini çalan gizli bilgisayar yongaları olduğunu doğruladı; yaklaşık 86 milyon dolar çalındı. İyi taraftan, Strive adında bir yatırım şirketi, bütün bu kaos sırasında 280 milyon dolar değerinde Bitcoin satın aldı. Öyleyse karışık bir günü—fiyatlar yükseldi ama insanlar hack'ler ve hisse senedi piyasası çöküşleri hakkında endişelendiler.",
+  "priceVolumeSummary": "Beş büyük borsa fiyat konusunda uyumlu idi: Bitcoin yaklaşık 83.150 dolar, Ethereum yaklaşık 2.497 dolar. Binance, BTC vadeli işlemlerinde 12,2 trilyon dolar ve ETH'de 9,4 trilyon dolar işlem hacmiyle öncü konumdaydı; OKX ve Bybit'i takip etti.",
+  "positioningSummary": "Tüccarlar yoğun şekilde uzun pozisyonda kaldı: Binance'de BTC long/short oranı 1,50 idi; en büyük tüccarlar 1,61 ile daha da iyimser idi. Ethereum daha da eğilimli idi; 3,03 long/short oranı vardı. Coinlerde açık pozisyon hafifçe düştü (BTC %0,98, ETH %0,30), ancak USD değeri arttı (BTC %0,60, ETH %1,78); bu, tüccarların fiyatlar yükseldikçe agresif şekilde kaldıraç eklemedikleri anlamına geliyordu. Finansman oranları karışık: OKX ve Binance, BTC'de nötr ila hafifçe negatif oranlar gösterdi (güçlü yükseliş beklentisi olmadığını gösteriyor), Bybit ise %10,95'te ağır pozitif finansman gösterdi (bazı tüccarların daha yüksek fiyatlar beklediklerini gösteriyor). Ancak 1'in altında olan alıcı/satıcı oranları (BTC 0,915, ETH 0,902), agresif satışın satın almaktan daha güçlü olduğunu gösteriyor—fiyatlar pasif satın alma ile yükseldi, agresif talep ile değil.",
+  "stocksSummary": "Asya hisse senetleri 13 Ekim'de keskin şekilde düştü; muhtemelen yapay zeka sektörü endişeleri nedeniyle. Güney Kore teknoloji hisse senetleri düşüşe öncülük etti: SK Hynix %5,236, Samsung Electronics %3,878 düştü ve KOSPI 200 ETF'si (KODEX 200) %3,086 geriledi. Bu çöküş, 800 milyondan fazla dolarlık kripto likidasyonu tetikledi. Hong Kong ve Çin hisse senetleri karışık idi; bazı teknoloji isimlerindeki kazançlar (Zhongji Innolight +%3,056, Unitree Robotics +%3,547) başka yerlerdeki zayıflığı dengeledi. ABD hisse senedi piyasaları sempatik olarak açıldı ancak kurtarıldı: S&P 500 (SPY) neredeyse sabit kapandı (−%0,01), Nasdaq (ONEQ) mütevazı şekilde düştü (−%0,15). ABD Doları %0,378, altın %0,211 düştü ve Hazine bonoları (IEF) getiriler düştükçe %0,123 yükseldi.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "Mevcut haberlerde açık bir halk sebebi tanımlanmamıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "explanation": "Mevcut haberlerde açık bir halk sebebi tanımlanmamıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ARCUSDT",
+      "explanation": "Mevcut haberlerde açık bir halk sebebi tanımlanmamıştır.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Ledger, CryptoBilis tarafından satılan cüzdanlardaki LTE yongasının kurtarma ifadelerini çaldığını doğruladı; 86 milyona kadarı çalındığı şüpheleniliyor",
+        "what": "Ledger, Güneydoğu Asya'daki CryptoBilis satıcısı aracılığıyla satılan donanım cüzdanlarında, kullanıcıların 24 kelimelik kurtarma ifadelerini kurulum sırasında çalan gizli bir LTE yongası olduğunu doğruladı. Yonga, cüzdanın Secure Element'ini etkilemeden, ifadeyi hücresel bağlantı aracılığıyla iletir. Etkilenen kullanıcılardan yaklaşık 86 milyon dolar çalındığı şüpheleniliyor. MediaMarkt, Avrupa'da Ledger satışlarını bir ihtiyat olarak durdurdu.",
+        "coins": "BTC, ETH, all cryptocurrencies",
+        "timeUTC": "2026-10-13 12:00",
+        "source": "The Block, Decrypt, Cointelegraph",
+        "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+      },
+      {
+        "headline": "Strive 280 milyon dolara Bitcoin satın aldı; %15 temettü ödeyen yeni imtiyazlı hisseler aracılığıyla 500 milyon dolar topladı",
+        "what": "Strive (Nasdaq'ta işlem gören Bitcoin hazine şirketi), 5–9 Ekim arasında ortalama yaklaşık 84.500 dolar fiyattan 3.311 BTC satın aldı ve toplam holdingleri 32.773 BTC'ye çıkardı (halka açık en büyük beşinci kripto tutucusu). Ayrıca Strive, par değerine %15 sabit temettü getirisi sunan yeni imtiyazlı hisse sınıfı (SATS) aracılığıyla 500 milyon dolar toplandığını duyurdu; bu değişken %13 temettü ödeyen mevcut SATA sınıfından ikincil konumdadır.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-13 18:00",
+        "source": "The Block, Decrypt, Cointelegraph, CoinDesk",
+        "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
+      },
+      {
+        "headline": "Güney Kore teknoloji hisseleri çöküş yaptı; Bitcoin kısa süre 81.000 doların altına düştü; 800 milyondan fazla kripto likidasyonu tetiklendi",
+        "what": "Güney Kore teknoloji hisse senetleri 13 Ekim'de çöküş yaptı; SK Hynix %5,236, Samsung Electronics %3,878 düştü ve geniş KOSPI piyasası %3,086 düştü. Satış—muhtemelen yapay zeka sektörü endişelerine bağlı—800 milyondan fazla dolarlık kripto likidasyonu dalgasını tetikledi; 685 milyondan fazla uzun pozisyon zorunlu olarak kapatıldı. Bitcoin kısa süre 81.000 doların altına düştü ancak günü 83.125 dolardan kapatmak üzere kurtarıldı.",
+        "coins": "All, especially BTC",
+        "timeUTC": "2026-10-13 06:00",
+        "source": "CryptoSlate, Cointelegraph, The Block",
+        "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger, CryptoBilis birimlerindeki LTE yongasının kurtarma ifadelerini çaldığını doğruladı; 86 milyona kadarı çalındı",
+          "what": "Ledger, Güneydoğu Asya satıcısı CryptoBilis aracılığıyla satılan cüzdanlarda, kurulum sırasında kullanıcıların 24 kelimelik kurtarma ifadelerini çalan gizli bir LTE yongası olduğunu doğruladı. Yaklaşık 86 milyon dolar çalındığı izlendi. MediaMarkt, Avrupa'da Ledger satışlarını durdurdu.",
+          "coins": "BTC, ETH, all cryptocurrencies",
+          "timeUTC": "2026-10-13 12:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+        },
+        {
+          "headline": "Trezor, donanım kurcalanmasına karşı önlem olarak yetkisiz satıcıları kesiyor",
+          "what": "Ledger'ın yonga keşfinden sonra, Trezor, 1 Ocak 2027'den itibaren geçersiz satıcıları listesinden kaldırıyor. Baş Ticari Memur Danny Sanders bunu, benzer kurcalama olaylarını önlemek için bir önleyici ölçü olarak nitelendirdi.",
+          "coins": "BTC, ETH, all cryptocurrencies",
+          "timeUTC": "2026-10-13 15:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive, Ocak ayından bu yana en büyük satın almayı yaparak 280 milyon Bitcoin satın aldı; 500 milyon yeni imtiyazlı hisse topladı",
+          "what": "Strive (Nasdaq: STRV), ~84.500 dolar/madeni para fiyattan 3.311 BTC satın aldı ve holdingleri 32.773 BTC'ye çıkardı. Ayrıca %15 sabit temettü sunan SATS imtiyazlı hisseleri aracılığıyla 500 milyon dolar topladığını duyurdu. Bu, Strive'ı en büyük beşinci halka açık Bitcoin tutucusu konumuna getirdi.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-13 18:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
+        },
+        {
+          "headline": "Interactive Brokers, Zerohash aracılığıyla Ethereum stake'ine karşı kripto hizmetlerini genişletiyor",
+          "what": "Interactive Brokers artık uygun müşterilerine, yürütme Zerohash tarafından sağlanan, Client Portal aracılığıyla doğrudan ETH stake etme olanağı sunuyor. Bu, geleneksel brokerlerin kripto sunumlarını ticareti ötesine genişletiyor.",
+          "coins": "ETH",
+          "timeUTC": "2026-10-13 17:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457"
+        },
+        {
+          "headline": "BNY Mellon ve Citadel Securities, tokenleştirilmiş ABD Hazine bonoları takas testini yapıyor",
+          "what": "BNY Mellon ve Citadel Securities, blockchain tabanlı devlet bonolarının, ticaret firmalarının teminatı kapatma ve finansman arasında daha hızlı hareket etmesine nasıl yardımcı olabileceğini gösteren bir test işlemi tamamladı. Test, tokenleştirilmiş varlıklar kullanan daha hızlı finansman döngülerini gösteriyor.",
+          "coins": "None directly, but institutional blockchain infrastructure",
+          "timeUTC": "2026-10-13 10:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing"
+        },
+        {
+          "headline": "Federated Hermes, halka açık ilk zincir üzerindeki fon hisseleriyle Wall Street tokenleştirme atılımına katılıyor",
+          "what": "Federated Hermes (911 milyar dolarlık varlık yöneticisi), Prometheum ile ortaklığını yaparak, fon hisse sınıflarının blockchain tabanlı versiyonlarını geleneksel aracılık hesaplarına getirdi; Wall Street'in tokenleştirilmiş finansal ürünleri benimsemesini ilerletiyor.",
+          "coins": "None directly, but institutional blockchain infrastructure",
+          "timeUTC": "2026-10-13 12:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance, madencilik havuzunu, bulut madenciliğini ve Pool Tasarruflarını 10 Kasım'da kapatmayı duyurdu",
+          "what": "Binance, madencilik havuzu, bulut madenciliği hizmetleri ve Pool Tasarrufları teklifinin 10 Kasım 2026'dan itibaren sona ereceğini duyurdu; bu, madencilik altyapısından stratejik bir geri çekilişi işaret ediyor.",
+          "coins": "BTC, other proof-of-work coins",
+          "timeUTC": "2026-10-13 11:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410"
+        },
+        {
+          "headline": "Güney Kore, BitMart ve KuCoin dahil 27 kayıtlı olmayan kripto borsasını engelliyor",
+          "what": "Güney Kore düzenleyicileri, kayıtlı olmayan borsalara ilişkin kısıtlamaları keskinleştirerek, BitMart ve KuCoin dahil 27 platform hedefleyen uygulama yasaklarından web sitesi bloklarına geçti. Amaç, yatırımcıların kayıtlı olmayan yerlerde para kaybetmesini, şikayet başvurusu yapılmadan önce durdurmaktır.",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 09:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+        },
+        {
+          "headline": "Rusya'nın en büyük bankası Sberbank kripto ticareti onayı aldı; 1 Aralık'ta piyasaya sürülmeyi planlıyor",
+          "what": "Sberbank (Rusya'nın en büyük bankası), tüm müşterilere kripto ticareti sunmak için düzenleyici onay aldı; 1 Aralık piyasaya sürülmesi planlanıyor. Banka zaten mobil uygulamasında BTC, ETH ve USDT ticaretini test ediyor.",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "2026-10-13 08:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Avustralya, perakende tüccarları 458 milyon Avustralya doları kaybettikten sonra kripto türev açığını kapatmayı amaçlıyor",
+          "what": "Avustralya düzenleyicileri, bazı sabit vadeli kripto ürünlerini kapsam dışında tutarken, nitelikli token takas türev ürünlerini mevcut perakende yatırımcı korumaları içine almayı önerdi. Bu hareket, düzenlenmemiş kripto türev ürünlerinde önemli perakende kayıplarından sonra geldi.",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 02:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/australia-moves-to-close-crypto-derivatives-loophole-after-retail-traders-lose-a458-million/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Güney Kore teknoloji hisseleri yapay zeka sektörü endişeleri nedeniyle çakılıyor; 800 milyon kripto likidasyonu tetiklendi",
+          "what": "Güney Kore teknoloji hisse senetleri 13 Ekim'de çöküş yaptı; SK Hynix %5,236, Samsung Electronics %3,878 düştü ve geniş KOSPI piyasası %3,086 düştü. Satış, muazzam kripto likidasyonları tetikledi (800 milyondan fazla dolar, 685 milyon uzun zorunlu kapatıldı).",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 06:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US CPI Report October 2026: Core m/m expected 0.2% (prev 0.3%), headline m/m expected 0.6% (prev 0.4%), core y/y expected 2.5% (prev 2.4%), headline y/y expected 3.6% (prev 3.4%) — Wed Oct 14, 12:30 UTC",
+      "typicalReaction": "Yüksek etkili ABD enflasyon verileri tipik olarak hisse senetleri, bonolar ve dolar gücünde keskin hareketleri tetikler. Yüksek CPI, tüccarları kripto'ya karşı güvenli varlıklar lehine çıkmaya itebilir."
+    },
+    {
+      "event": "China CPI October 2026 — Wed Oct 14, 01:30 UTC",
+      "typicalReaction": "Çin ekonomik verileri Asya hisse senetlerinde risk iştahını değiştirebilir ve kripto ticaretine dalgalanabilir; özellikle 13 Ekim'de Güney Kore'nin zayıf performansı göz önüne alındığında."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Vadeli işlem fiyatları ile spot fiyatlar arasındaki fark. Basis sıfır olduğunda, vadeli işlemler ve spot hizalanmıştır."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "Gün içinde daha yüksek kapanan vs. daha düşük kapanan tüm ticaret çiftlerinin yüzdesi. %50'den yüksek breadth daha fazla madeni paranın yükseldiğini ve geniş tabanlı güçlüğü gösterdiğini gösterir."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "Tüccarların korklu mu yoksa açgözlü mü olduğunu ölçen günlük bir duyarlılık puanı (0–100). 25 altı = ekstrem korku, 75+ = ekstrem açgözlülük. 13 Ekim'de 57'ydi (Açgözlülük), 69'dan düştü."
+    },
+    {
+      "term": "Funding rate (funding)",
+      "definition": "Vadeli işlem sözleşmelerinde her 8 saatte bir uzun ve kısa tüccarlar arasında alınan faiz. Pozitif = uzunlar kısalara ödeme yapar (yükseliş duyarlılığı, fiyatların yükselmesini bekler). Negatif = kısalar uzunlara ödeme yapar (düşüş duyarlılığı). Yıllıklandırılmış finansman, yıl boyunca ödense oranın ne olacağını gösterir."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Teminat minimum gerekli düzeyinin altına düştüğünde (bakım marjı) kaldıraçlı bir pozisyonun zorunlu kapatılması. Gerçekleşmiş kayıp ile sonuçlanır ve fiyat düşüşleri sırasında milisaniyeler içinde meydana gelebilir."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "Uzun pozisyon tutan (fiyatın yükseleceğine bahis) vs. kısa pozisyon tutan (fiyatın düşeceğine bahis) tüccar hesaplarının yüzdesi. 1,50 oranı her 1 kısaya karşılık 1,5 uzun demektir (uzunlar kısaları aşar)."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Vadeli işlem sözleşmelerinde kazançları, kayıpları ve likidasyonları hesaplamak için kullanılan fiyat. Finansman oranlarını kullanarak spot fiyata yakın kalacak şekilde tasarlanmıştır; yapay manipülasyonu önler."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "Tüm tüccarlar arasında tüm açık (ödenmeyen) vadeli işlem pozisyonlarının toplam dolar değeri (veya madeni para miktarı). Yükselen OI yeni kaldıraçın girdiği anlamına gelir; düşen OI tüccarların bahislerini kapattığı anlamına gelir."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "Açık faizindeki gün değiştiğinde toplam açık pozisyondaki değişiklik. Pozitif değişiklik tüccarların net kaldıraç ekledikleri; negatif tüccarların bahislerini azalttığı anlamına gelir."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "Agresif pazar alış emirleri (alıcılar) ile agresif pazar satış emirleri oranı. 1'in üzerinde daha agresif satın alma anlamına gelir; 1'in altında daha agresif satış anlamına gelir. Pasif olarak satın alan tüccarlar bu metriği hareket ettirmez."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "Yalnızca en büyük tüccarlar arasındaki long/short oranı (tüm hesaplar değil). Kurumsal paranın ve balinalarının nasıl konumlandırıldığını gösterir; perakende duyarlılığından daha yüksek beklenti veya daha düşük beklenti."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "a6c82618140a8bc6"
+}

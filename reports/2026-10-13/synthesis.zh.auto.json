@@ -1,0 +1,211 @@
+{
+  "oneLine": "10月13日，比特币上涨1.6%，以太坊上涨2.1%，交易员继续做多，但一起价值8600万美元的硬件钱包黑客事件和韩国股市暴跌引发8亿美元的加密货币清算。",
+  "caveman": "10月13日星期二，比特币上升1.6%，以太坊上升2.1%。大多数加密货币也涨了（57%的币都往上走）。但有一些吓人的事发生了。韩国的科技股市暴跌——三星和SK海力士都跌得很惨——吓得人们把8亿美元的加密货币头寸平仓亏钱。比特币短暂跌到8.1万美元以下，但买家们马上买进，又把价格推回去了。更吓人的是钱包问题：Ledger确认它的一些硬件钱包通过叫CryptoBilis的经销商卖出去，里面装着偷取人们24个单词恢复词的隐藏芯片，大约8600万美元被偷了。好消息是，一个叫Strive的投资公司在这场混乱中又买了2.8亿美元的比特币。总的来说是混乱的一天——价格涨了，但人们很担心黑客和股市暴跌。",
+  "priceVolumeSummary": "五个主要交易所的价格一致：比特币约83150美元，以太坊约2497美元。币安交易量最大，比特币永续合约成交量12.2万亿美元，以太坊9.4万亿美元，其次是OKX和Bybit。",
+  "positioningSummary": "交易员继续看涨：币安的比特币多空比为1.50，大户更看涨，多空比达1.61。以太坊偏向更明显，多空比3.03。币种的未平仓头寸略有下降（比特币下跌0.98%，以太坊下跌0.30%），但美元价值上升（比特币上升0.60%，以太坊上升1.78%），说明交易员没有随着价格上涨而积极增加杠杆。融资费率不一致：OKX和币安的比特币费率中性至略微负值（表示没有强烈的看涨预期），而Bybit显示高额正费率10.95%（表示一些交易员仍然预期价格会上涨）。但是，吃单买卖比低于1（比特币0.915，以太坊0.902）表明主动卖出强于主动买进——价格上涨是因为被动买入，而非积极需求。",
+  "stocksSummary": "10月13日亚洲股市大幅下跌，可能与人工智能板块担忧有关。韩国科技股跌幅最大：SK海力士跌5.236%，三星电子跌3.878%，KOSPI 200 ETF (KODEX 200)下跌3.086%。这次暴跌引发8亿多美元的加密货币清算。香港和中国股市不一致，一些科技股上涨（中际创新+3.056%，宇树机器人+3.547%）抵消了其他地方的跌幅。美股开盘走低后反弹：标普500（SPY）几乎收平，跌0.01%，纳斯达克（ONEQ）小幅下跌0.15%。美元跌0.378%，黄金跌0.211%，美国国债（IEF）因收益率下降而小幅上升0.123%。",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "在现有新闻中没有发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "explanation": "在现有新闻中没有发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ARCUSDT",
+      "explanation": "在现有新闻中没有发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Ledger确认CryptoBilis销售的钱包内LTE芯片窃取恢复词，疑似损失8600万美元",
+        "what": "Ledger确认在通过东南亚经销商CryptoBilis销售的硬件钱包中发现了隐藏的LTE芯片，在设置时窃取用户的24个单词恢复词。这个芯片没有触及钱包的安全元件，但会通过蜂窝网络传输恢复词。疑似约8600万美元被窃取。MediaMarkt作为预防措施已暂停在欧洲销售Ledger。",
+        "coins": "BTC, ETH, all cryptocurrencies",
+        "timeUTC": "2026-10-13 12:00",
+        "source": "The Block, Decrypt, Cointelegraph",
+        "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+      },
+      {
+        "headline": "Strive投资2.8亿美元购买比特币；通过新优先股融资5亿美元，股息率15%",
+        "what": "Strive（纳斯达克上市的比特币金库公司）在10月5日至9日期间购买了3311枚比特币，成本2.8亿美元，平均价格约84500美元，使其总持有量达到32773枚比特币（上市公司中第五大持有者）。另外，Strive宣布通过新的优先股类别（SATS）融资5亿美元，提供固定15%的股息收益率，等级低于现有提供可变13%收益率的SATA类别。",
+        "coins": "BTC",
+        "timeUTC": "2026-10-13 18:00",
+        "source": "The Block, Decrypt, Cointelegraph, CoinDesk",
+        "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
+      },
+      {
+        "headline": "韩国科技股暴跌，引发8亿多美元加密货币清算，比特币一度跌破8.1万美元",
+        "what": "10月13日韩国科技股暴跌，SK海力士下跌5.236%，三星电子下跌3.878%，KOSPI市场整体下跌3.086%。这次抛售似乎与人工智能板块担忧有关，引发了超过8亿美元的加密货币清算浪潮，其中超过6.85亿美元的多头头寸被强制平仓。比特币短暂跌破8.1万美元，随后反弹，最终以83125美元收盘。",
+        "coins": "All, especially BTC",
+        "timeUTC": "2026-10-13 06:00",
+        "source": "CryptoSlate, Cointelegraph, The Block",
+        "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger确认CryptoBilis销售的钱包内LTE芯片窃取恢复词，疑似损失8600万美元",
+          "what": "Ledger确认在通过东南亚经销商CryptoBilis销售的硬件钱包中发现了隐藏的LTE芯片，窃取用户的24个单词恢复词。疑似约8600万美元被窃取。MediaMarkt暂停了在欧洲的Ledger销售。",
+          "coins": "BTC, ETH, all cryptocurrencies",
+          "timeUTC": "2026-10-13 12:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442"
+        },
+        {
+          "headline": "Trezor削减授权经销商，作为预防硬件篡改的措施",
+          "what": "在Ledger芯片事件曝光后，Trezor宣布将从2027年1月1日起撤销非授权经销商。首席商务官Danny Sanders称这是预防类似篡改事件的措施。",
+          "coins": "BTC, ETH, all cryptocurrencies",
+          "timeUTC": "2026-10-13 15:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive投资2.8亿美元购买比特币，这是自1月以来最大的收购；融资5亿美元新优先股",
+          "what": "Strive（纳斯达克：STRV）购买了3311枚比特币，成本2.8亿美元，平均价格约84500美元，使其总持有量达到32773枚比特币。另外宣布通过SATS优先股融资5亿美元，提供固定15%股息。这使Strive成为第五大上市公司比特币持有者。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-13 18:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-strive-buys-3311-bitcoin-280-million-largest-acquisition-since-january-418430"
+        },
+        {
+          "headline": "盈透证券通过Zerohash扩展加密服务，提供以太坊质押",
+          "what": "盈透证券现在向符合条件的客户提供通过客户端门户直接质押以太坊的能力，由Zerohash执行。这扩展了传统券商在加密货币领域的服务范围，不只是交易。",
+          "coins": "ETH",
+          "timeUTC": "2026-10-13 17:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457"
+        },
+        {
+          "headline": "美国银行纽约梅隆和Citadel Securities测试美国国债代币化结算",
+          "what": "美国银行纽约梅隆和Citadel Securities完成了测试交易，展示了基于区块链的政府债券如何帮助交易公司在清算和融资之间更快地移动担保品。该测试演示了使用代币化资产实现更快的融资周期。",
+          "coins": "None directly, but institutional blockchain infrastructure",
+          "timeUTC": "2026-10-13 10:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing"
+        },
+        {
+          "headline": "Federated Hermes加入华尔街代币化推动，推出首个链上基金份额",
+          "what": "Federated Hermes（管理资产911亿美元）与Prometheum合作，将其基金的基于区块链的份额类别引入传统经纪账户，推进华尔街对代币化金融产品的采用。",
+          "coins": "None directly, but institutional blockchain infrastructure",
+          "timeUTC": "2026-10-13 12:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "币安将于11月10日关闭挖矿池、云挖矿和矿池储蓄",
+          "what": "币安宣布自2026年11月10日起停止其挖矿池、云挖矿服务和矿池储蓄产品，这标志着对挖矿基础设施的战略撤退。",
+          "coins": "BTC, other proof-of-work coins",
+          "timeUTC": "2026-10-13 11:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-13-binance-to-shut-down-mining-pool-cloud-mining-and-related-services-418410"
+        },
+        {
+          "headline": "韩国封禁27个未注册加密交易所，包括BitMart和KuCoin",
+          "what": "韩国监管机构升级了对未注册交易所的限制，从应用禁令升级到网站封禁，针对包括BitMart和KuCoin在内的27个平台。目的是在投资者提出投诉前阻止他们在未注册平台上亏钱。",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 09:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+        },
+        {
+          "headline": "俄罗斯最大银行Sberbank获准交易加密货币，计划12月1日推出",
+          "what": "Sberbank（俄罗斯最大银行）获得监管批准向所有客户提供加密货币交易，计划12月1日推出。该银行已在其移动应用中测试比特币、以太坊和USDT交易。",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "2026-10-13 08:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "澳大利亚零售交易员损失4.58亿澳元后，政府采取行动关闭加密衍生品漏洞",
+          "what": "澳大利亚监管机构提议将符合条件的代币结算衍生品纳入现有零售投资者保护范围，同时对一些固定期限加密产品保持在范围外。此举旨在应对零售交易员在未受监管的加密衍生品上的重大亏损。",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 02:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/australia-moves-to-close-crypto-derivatives-loophole-after-retail-traders-lose-a458-million/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "韩国科技股因人工智能担忧而暴跌，引发8亿美元加密货币清算",
+          "what": "10月13日韩国科技股暴跌，SK海力士下跌5.236%，三星电子下跌3.878%，KOSPI市场整体下跌3.086%。这次抛售引发了大规模加密货币清算（超过8亿美元，其中6.85亿美元多头被强制平仓）。",
+          "coins": "All cryptocurrencies",
+          "timeUTC": "2026-10-13 06:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US CPI Report October 2026: Core m/m expected 0.2% (prev 0.3%), headline m/m expected 0.6% (prev 0.4%), core y/y expected 2.5% (prev 2.4%), headline y/y expected 3.6% (prev 3.4%) — Wed Oct 14, 12:30 UTC",
+      "typicalReaction": "高影响力的美国通胀数据通常会引发股票、债券和美元大幅波动。高通胀数据可能促使交易员退出加密货币，转向安全资产。"
+    },
+    {
+      "event": "China CPI October 2026 — Wed Oct 14, 01:30 UTC",
+      "typicalReaction": "中国经济数据可以改变亚洲股市的风险偏好，进而影响加密货币交易，特别是考虑到10月13日韩国的表现不佳。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货价格与现货价格之间的差异。当基差为零时，期货和现货一致。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "在交易日内，收盘上升的交易对相对于下降的交易对的百分比。广度高于50%意味着涨幅币种多于跌幅币种，显示市场普遍强势。"
+    },
+    {
+      "term": "恐惧和贪婪指数",
+      "definition": "一个衡量交易员是否害怕或贪婪的日间情绪评分（0-100）。低于25表示极端恐惧，75以上表示极端贪婪。10月13日为57（贪婪），低于69。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续期货中每8小时向多头和空头交易员收取的利息。正值=多头支付空头（看涨情绪，预期价格上升）。负值=空头支付多头（看跌情绪）。年化资金费率显示如果按年支付该费率会是多少。"
+    },
+    {
+      "term": "清算",
+      "definition": "当抵押品降至所需最低值（维持保证金）以下时，被迫平仓杠杆头寸。导致已实现损失，在价格下跌时可在毫秒内发生。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有多头（押注价格上升）相对于空头（押注价格下降）头寸的交易账户百分比。比率1.50表示每1个空头对应1.5个多头（多头数量超过空头）。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续合约的收益、损失和清算的价格。旨在利用资金费率保持接近现货价格，防止人为操纵。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "所有交易员的所有开放（未结算）永续头寸的总美元价值（或币量）。上升的未平仓头寸表示新杠杆进入；下降的未平仓头寸表示交易员在平仓赌注。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "总未平仓头寸的日间变化。正变化表示交易员增加了净杠杆；负变化表示他们减少了赌注。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "主动市价买单（吃单）相对于主动市价卖单的比率。高于1表示主动买入较多；低于1表示主动卖出较多。被动买入的交易员不会影响这个指标。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "仅在最大交易员（而非所有账户）中的多空比。表明机构资金和大户的头寸；比零售情绪更看涨或更看跌。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "a6c82618140a8bc6"
+}
