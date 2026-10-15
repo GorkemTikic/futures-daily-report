@@ -1,0 +1,274 @@
+{
+  "oneLine": "14 Ekim Çarşamba günü, beklentileri aşan ABD enflasyon verileri (başlık %3,7) Merkez Bankası faiz artırımı ihtimallerini artırdığı için Bitcoin ve Ethereum keskin düşüşler yaşadı, kripto ve geleneksel borsalar geriletildi.",
+  "caveman": "Çarşamba günü ABD hükümeti fiyatların beklenenden daha hızlı yükseldiğini açıkladı—enflasyon rakamı %3,7 ile çıktı ve bu tahmin edenlerin öngördüğünden daha yüksekti. Bu, Merkez Bankası faiz oranlarını tekrar yükseltmeye zorlanabileceği için insanları korkuttu. Faiz oranları yükseldiğinde, insanlar paralarını Bitcoin ve Ethereum gibi riskli şeylerden daha güvenli yerlere taşırlar. Bitcoin yaklaşık 81.641 dolara düştü ve değerinin neredeyse %2'sini kaybetti. Ethereum daha fazla düştü—yaklaşık %3. Borsa da düştü (büyük ABD hisse senedi endeksleri %1–1,8 düştü). Asya'da bilgisayar çip şirketleri faiz oranı endişesi ve Çin'in kendi bellek çipleri yapması nedeniyle daha sert bir şekilde çöktü. Çoğu jeton düştü: Binance'ta işlem gören jetonların sadece 100'de yaklaşık 13'ü yükseldi. Kripto tüccarları için endişe verici bir gündü.",
+  "priceVolumeSummary": "Bitcoin beş büyük piyasada 81.641–81.667 dolar arasında kapatılarak tutarlı bir şekilde %1,79–1,81 düştü. Ethereum piyasalar arasında %3,05–3,08 düşerek 2.420–2.422 dolar seviyelerine geriledi. Binance, BTC vadeli işlemlerinde 13,6 milyar dolar ve ETH'de 10,2 milyar dolar ile işlem hacminde öncü konumda olup, tüm büyük borsalar (Binance, Bybit, OKX, Bitget, Gate) arasında güçlü bir hacim dağılımı vardı.",
+  "positioningSummary": "Bitcoin finansman oranları farklılaştı: Binance negatif −%4,53 yıllıklandırılmış (daha az yükselişçi) iken, Bitget +%10,95'te ve OKX +%3,99'da pozitif kaldı. Üst seviye tüccarlar 1,52:1 uzun oranı tutarken, alıcı aktivitesi 0,996:1'de hafif düşüşçü (neredeyse eşit) olup, genel hesap uzun oranları 1,29:1 idi. Binance'taki açık faiz fiyat düşüşüne rağmen arttı. Ethereum, üst tüccarlarla 1,58:1 uzun ve hesaplarla 2,66:1 uzun daha güçlü bir kanaat gösterdi, ancak 1,044:1'deki alıcı satın alımı mütevazı kaldı. Ethereum finansman oranı %8,93 yıllıklandırılmış olup momentum'u yavaşlatabilir. Pazar genişliği zayıftı: Binance perpetual işlemlerinin sadece %12,9'u gün içinde yükseldi.",
+  "stocksSummary": "Asya yarı iletken hisseleri makro endişeler nedeniyle ağır kayıplar yaşadı. SK Hynix (KRX oturumu) %9,99 düştü, Samsung Electronics (KRX) %7,30 düştü ve Hanmi %9,78 düştü—üç faktör tarafından tetiklendi: artan faiz oranları ve YZ yatırım getirilerini tehdit eden daha yüksek finansman maliyetleri; Çin DRAM rakibi CXMT'nin yeni nesil bellek çiplerinin toplu üretimini duyurması; ve Gartner verisi 7 trilyon dolar projekte edilmiş YZ altyapı yatırımına karşı sadece 3,6 trilyon dolar veri merkezi gelirini göstererek zayıflama riskini artırması. ABD hisseleri de düştü: S&P 500 %1,08 düştü, Nasdaq %1,83 düştü. ABD doları %0,34 güçlendi ve altın risk-off hareketi olarak %0,27 yükseldi.",
+  "movers": [
+    {
+      "symbol": "ZEREBROUSDT",
+      "explanation": "Mikro-cap jeton 95,5 milyon dolar işlem hacmi ile. Açık bir nedeni yok; perakende alıcı ilgisi muhtemel.",
+      "hasCause": false
+    },
+    {
+      "symbol": "WALUSDT",
+      "explanation": "Orta-cap jeton tanımlanabilir bir haber tetikçisi olmamasına rağmen güçlü 607 milyon dolar işlem hacmi gördü. Açık bir nedeni yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Lobster jetonu olarak bilinir; 144 milyon dolar hacimde %38 düştü. Kripto haberlerinde açık bir neden belirlenmedi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Sıcak ABD enflasyonu Merkez Bankası faiz artırımı beklentilerini canlandırıyor, kripto satışını tetikliyor",
+        "what": "Eylül 2026 ABD tüketici enflasyonu (CPI) başlık bazında %3,7 ve yıl-yıl bazında temel fiyatlarda %2,6 ile çıktı, her ikisi de Wall Street tahminlerini aştı. Enerji fiyatları, özellikle benzin %9,1 yükseldi, aylık %0,6'lık artışı tetikledi. Beklentileri aşan veri, 27–28 Ekim politika toplantısından önce başka bir Merkez Bankası faiz artırımı beklentisini canlandırdı ve tüccarlar kriptodan uzaklaştığı için Bitcoin 82.000$ altına ve Ethereum %3 aşağıya indi.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-14 12:30 UTC",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+      },
+      {
+        "headline": "HEX ve PulseChain kurucusu Richard Heart İstanbul'da Interpol emri üzerine gözaltına alındı",
+        "what": "Türk polisi, HEX protokolü ve PulseChain ağının kurucusu Richard Heart'ı Beşiktaş'ta Finlandiya tarafından istenen Interpol Kırmızı Bildirisi sonrasında gözaltına aldı. Türk medyası ikametgahından 4 milyon dolar nakit ve 64 saatin ele geçirildiğini bildirdi. Gözaltı, yüksek profilli kripto şahsiyetlerine karşı yaptırım eylemleri yoğunlaştığında DeFi ekosistemi için düzenleyici ve yasal soruları gündeme getiriyor.",
+        "coins": "HEX, Pulse (PLS)",
+        "timeUTC": "2026-10-14 (late)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574"
+      },
+      {
+        "headline": "Kraken'in ana şirketi Payward Avrupa bankası satın alıyor, kripto ticaretinin ötesine genişliyor",
+        "what": "Kraken borsasının ana şirketi Payward, Litvanya'daki Saldo Bank'ı 181 milyon euro'ya satın almayı kabul etti, Payward'ı lisanslı bir Avrupa bankasına sahip olan ilk kripto şirketi yaptı. Satın alma, Payward'ın mevduat, kredi ve ödeme hizmetleri sunmasını sağlayan bir AB bankacılık lisansını güvence altına alır—kripto ve geleneksel finans arasında önemli bir kurumsal köprü oluşturur.",
+        "coins": "Cross-platform / institutional",
+        "timeUTC": "2026-10-14",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Patrick Witt Beyaz Saray kripto danışmanı rolünden ayrılıyor, Clarity Yasası durdu",
+          "what": "Trump yönetiminin en üst kripto politikası danışmanı Patrick Witt Beyaz Saray'dan ayrıldı. Ayrılış, kripto düzenlemesini açıklığa kavuşturmak için yapılan yasal çabaların yavaşladığı ve yılın son aylarına girerken yönetimin kripto politikası yönündeki olası değişimleri işaret eden bir zamanda gerçekleşti.",
+          "coins": "Sector-wide",
+          "timeUTC": "2026-10-14",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611"
+        },
+        {
+          "headline": "Güney Kore, BitMart ve KuCoin da dahil olmak üzere 27 kripto borsasını engelliyor",
+          "what": "Güney Kore finansal düzenleyicileri, BitMart ve KuCoin gibi büyük platformlar da dahil olmak üzere 27 kripto borsasının ülke içinde faaliyet göstermesinin engellenmesini açıkladı. Bu eylem, yerel kanun kapsamında daha katı uyum gerekliliklerinin ardından gelir ve dünyanın en büyük kripto pazarlarından birinde yüksek düzenleyici denetimi yansıtır.",
+          "coins": "Cross-exchange",
+          "timeUTC": "2026-10-13 (context)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+        },
+        {
+          "headline": "Illinois kripto vergisi 6 aylık duraktan sonra yeniden yasal zorlukla karşı karşıya",
+          "what": "Sektör kuruluşları, uygulamadaki 6 aylık gecikmeden sonra Illinois'in kripto varlık transferleri üzerindeki %0,2 vergisine karşı savaş vermek üzere yeniden bir araya geldi. Yasal savunucular, kripto ile diğer finansal varlıkların eşitsiz muamelesine ilişkin endişeler öne sürerek, vergiyi yürürlüğe girmeden önce iptal etmek için özet kararı istiyorlar.",
+          "coins": "Cross-sector",
+          "timeUTC": "2026-10-14",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cci-ba-fight-illinois-crypto-tax-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "headline": "Kalshi CEO'su içeriden öğrenenlerin ticareti endişeleri arasında tahmin piyasalarını savunuyor",
+          "what": "Düzenleyiciler kripto destekli tahmin piyasalarının daha katı denetimini tartarken, Kalshi'nin CEO'su Tarek Mansour, platformun şeffaflığının kötü niyetli aktörleri yakalamayı kolaylaştırdığını savundu. Platform, tahmin piyasalarını CFTC'nin mi yoksa bireysel ABD devletlerinin mi denetlemesi gerektiğine ilişkin devam eden bir yasal mücadelenin merkezindedir.",
+          "coins": "Cross-market",
+          "timeUTC": "2026-10-14",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "ABD spot Bitcoin ve Ethereum ETF'leri 13 Ekim'de net girişleri kaydetti",
+          "what": "Günün fiyat düşüşüne rağmen, ABD spot Bitcoin ETF'leri 13 Ekim'de (en son yayınlanan veri) 175,7 milyon dolar net girişi kaydetti; Fidelity FBTC (+103,1 milyon dolar) ve BlackRock IBIT (+65,9 milyon dolar) öncü konumda oldu. Ethereum ETF'leri 24,8 milyon dolar net girişi kaydetti. Hafta başından bu yana, BTC ETF'leri −479 milyon dolar ve ETH −552 milyon dolar gördü, hafta başındaki çıkışlardan sonra yenilenmiş perakende ilgisini işaret ediyor.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-13",
+          "source": "KuCoin (via Farside Investors)",
+          "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-175-7m-net-inflow-ethereum-etf-gains-24-8m"
+        },
+        {
+          "headline": "BlackRock'ın kripto ETF varlıkları %63 artarak 79,6 milyar dolara çıktı ancak 2025 zirvesinin altında kaldı",
+          "what": "Yatırımcılar alana dönerken BlackRock'ın kripto ETF holdingleri %63 artarak 79,6 milyar dolarlık varlığa ulaştı. Ancak bu, bir yıl önceki zirvesinin %23 altında kalıyor ve geçen yıl boyunca kripto kabulündeki ve yatırımcı hissiyatındaki daha geniş oynaklığı yansıtıyor.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak"
+        },
+        {
+          "headline": "Strive, 369 milyon dolar getiri sağlayan warrant kullanımlarından sonra 235 milyon dolar Bitcoin satın alıyor",
+          "what": "Michael Saylor'un Strive sermayesi, geleneksel warrant kullanımlarından 369,2 milyon dolar brüt gelir sağladı ve yaklaşık 2.822 Bitcoin satın almak için 235 milyon dolar kullandı. Bu hamle, Saylor'un mevcut ~848.250 BTC konumuna eklenerek, fiyat zayıflığı döneminde bile Bitcoin birikimine devam eden kurumsal iştahı yansıtıyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-14",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-14-strive-buys-235-million-in-bitcoin-warrant-yield-369-million-418556"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance yapay zeka ticaret arayüzü küresel devreye alma aşamasına giriyor",
+          "what": "Binance, yapay zeka destekli ticaret arayüzünü küresel olarak tüm kullanıcılara genişletti ve perakende tüccarların doğal dil istemle işlem yapmasını sağladı. Devreye alma, borsanın geleneksel brokerlerle rekabet etmek ve giriş engellerini düşürmek için yapay zeka destekli ticaret araçlarına ittiğini yansıtıyor.",
+          "coins": "Cross-platform",
+          "timeUTC": "2026-10-12 (context)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+        },
+        {
+          "headline": "Standard Chartered, zengin BAE müşterilerine ev içi saklama ile BTC ve ETH ticareti açıyor",
+          "what": "İngiliz banka, Dubai düzenleyici onayını kazanarak yüksek net değerli müşterilerin doğrudan banka hesapları aracılığıyla Bitcoin ve Ethereum satın almasını sağladı; Standard Chartered saklama ve uzlaştırmayı ev içinde sağlıyor. Bu hamle, Körfez İşbirliği Konseyi bölgesinde kurumsal köprüleri işaret ediyor ve Batı bankaların kripto hizmetlerini kademeli olarak benimsemeleri ile paralellik gösteriyor.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading"
+        },
+        {
+          "headline": "Rusya'nın Sberbank'ı 110 milyon perakende müşteri ile Bitcoin, Ethereum ticareti yapma onayı kazandı",
+          "what": "Rusya'nın en büyük bankası Sberbank, 110 milyon perakende müşteriye bankacılık uygulamaları aracılığıyla Bitcoin, Ethereum ve USDT ticareti sunma düzenleyici onayını aldı. Onay, Sberbank'a Rusya'nın yeni kripto yasası kapsamında hem saklama hem de borsa statüsü veriyor ve Doğu Avrupa'da perakende kabulü için önemli bir giriş noktasını işaret ediyor.",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "2026-10-14",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380981/sberbank-russia-bank-trade-crypto-bitcoin"
+        },
+        {
+          "headline": "StarkWare özel Polymarket ticareti için OffMarket'ı başlatıyor",
+          "what": "StarkWare, OffMarket'ı halkın kullanımına açtı ve Polymarket kullanıcılarının kimliklerini konumlarına herkese açık bir şekilde bağlamadan tahmin piyasası hisselerini ticareti yapmasını sağladı. Özellik, düzenleyici denetim döneminde en büyük ABD tahmin piyasası platformunda gizliliği artırıyor.",
+          "coins": "Cross-market",
+          "timeUTC": "2026-10-14",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-14-starkware-launches-offmarket-to-let-polymarket-users-trade-more-privately-418567"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger donanım cüzdanı tedarik zinciri implanları yedi Asya pazarına genişliyor; MediaMarkt satışları askıya alıyor",
+          "what": "Avrupa perakendecileri aracılığıyla satılan Ledger cihazlarında bulunduğu bildirilen donanım implanlarının ardından, Ledger yedi Asya pazarındaki satıcılardan cihazları raflardan kaldırmalarını istedi. Avrupa elektronik zinciri MediaMarkt Saturn da Ledger satışlarını askıya aldı. Son raporlara göre, tedarik zinciri saldırısı 86 milyon dolara kadar izlenmiş ve 10 milyon dolar yetkililer tarafından dondurulmuştur.",
+          "coins": "Cross-wallet / custody",
+          "timeUTC": "2026-10-13 (context)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380940/ledger-asks-resellers-in-seven-asian-markets-to-pull-devices-after-suspected-86m-drain"
+        },
+        {
+          "headline": "FBI, Rusça konuşan Amerikalıları hedef alan kripto dolandırıcılık ağını düzeliyor; 112 sunucu ele geçirildi",
+          "what": "Brooklyn savcıları ve FBI, ABD'deki Rusça konuşan toplulukları hedef alan yatırım dolandırıcılığı ile bağlantılı 112 sunucuyu ele geçirdi ve 241 web sitesini kapattı. Bu baskın, son aylarda organize kripto dolandırıcılığına karşı yapılan daha büyük adlî uygulamalardan birini temsil ediyor.",
+          "coins": "Cross-fraud",
+          "timeUTC": "2026-10-14",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/fbi-brooklyn-crypto-scam-112-servers-241-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD Hazine getiri oranları sıcak enflasyon baskısı üzerine 24 yıllık zirveye yaklaşıyor; risk varlıkları satılıyor",
+          "what": "%3,7'lik başlık CPI baskısının ardından, ABD Hazine getirileri 24 yıllık zirveye doğru yükseldi ve klasik risk-off döndürmede hisseleri ve kripto'yu aşağı çekti. 10 yıllık Hazine getiri oranı keskin bir şekilde yükseldi ve dijital varlıklar arasında kaldıraçlı konumlarda zorunlu tasfiyeler tetikledi. Hisse senedi endeksleri %1–1,8 düştü ve Asya hisseleri daha yüksek faiz oranı ortamına yanıt olarak %5–10 düştü.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14 12:30–16:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380950/bitcoin-falls-hot-inflation-fed-hike-odds"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Ripple, yeni ABD aracı kurumu ve Güney Kore kurumsal anlaşmaları ile menkul kıymet piyasalarını hedefliyor",
+          "what": "Ripple, menkul kıymet ticareti ve uzlaştırmaya yönelik itişin bir parçası olarak saklama ve tokenleştirme işbirliği ile dördüncü Kore kurumsal ortaklığını (Meritz) açıkladı. Şirket, potansiyel bir çok trilyon dolarılık menkul kıymet tokenleştirme pazarı için kendisini konumlandırırken, fiili anlaşma büyüklükleri ve zaman çizelgeleri belirlenmemiş kalıyor.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-14",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ripple-targets-trillion-dollar-securities-markets-with-new-us-brokerage-and-south-korean-deals/"
+        },
+        {
+          "headline": "Solana Alpenglow yükseltmesi 21 Ekim için planlandı; 12,8 saniyeden 150ms kesinliği hedefliyor",
+          "what": "Solana, TowerBFT oy mekanizmasını değiştiren 21 Ekim için önemli bir yükseltmeyi (Alpenglow) hazırlıyor ve işlem kesinliğini 12,8 saniyeden 150 milisaniye hedefine indirmeyi amaçlıyor. Yükseltme, oy işlemlerini blokların dışına taşıyacak ve potansiyel olarak ağ hızını ve doğrulayıcı ekonomisini iyileştirebilecek.",
+          "coins": "SOL",
+          "timeUTC": "2026-10-14 (announcement)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380974/solana-alpenglow-upgrade-date"
+        },
+        {
+          "headline": "Coins.ph kullanıcıları Filipin merkez bankası müdahale ettikçe uygulama kilidinin yüzüne vuruyor",
+          "what": "Coins.ph, Bangko Sentral ng Pilipinas (BSP) denizaşırı kumarhane operatörlerine karşı kontroller uygulamak için müdahale ederken 14 Ekim'de uygulama aksaklıklarını açıkladı. Coins.ph, BSP lisanslı statüsünü yeniden teyit etti ancak kullanıcılar erişim sorunları yaşadı; şirket işlemlerin devam ettiğini ancak uyum önlemlerinin güçlendirildiğini söyledi.",
+          "coins": "Cross-exchange (Philippines)",
+          "timeUTC": "2026-10-14",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/coins-ph-users-face-app-lockout-as-central-bank-intervenes/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-13",
+    "summary": "ABD spot Bitcoin ETF'leri 175,7 milyon dolar net girişi kaydetti (Fidelity FBTC +103,1 milyon dolar ve BlackRock IBIT +65,9 milyon dolar öncü). ABD spot Ethereum ETF'leri 24,8 milyon dolar girişi kaydetti (Grayscale +16,7 milyon dolar, Fidelity FETH +8,1 milyon dolar). Günün fiyat düşüşlerine rağmen, her iki varlık sınıfı alıcı ilgisini çekti ve hafta başındaki çıkış trendlerini tersine çevirdi.",
+    "source": "Farside Investors (via KuCoin)",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-175-7m-net-inflow-ethereum-etf-gains-24-8m"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK GDP October 2026 at Thu 15 Oct, 06:00 UTC",
+      "typicalReaction": "Yüksek etkili bir açıklama—veriler büyük bir sürpriz ise geleneksel pazarlarda oynaklık ve potansiyel kripto yayılımı bekleyin."
+    },
+    {
+      "event": "Core Retail Sales m/m and Retail Sales m/m at Thu 15 Oct, 12:30 UTC",
+      "typicalReaction": "Yüksek etkili ABD ekonomik verisi—Hazine getirileri ve ABD doları gücü/zayıflığında önemli hareketler. Kripto tipik olarak hisse senetlerindeki risk hissiyatı değişimlerini takip eder."
+    },
+    {
+      "event": "US Initial Jobless Claims at Thu 15 Oct, 12:30 UTC",
+      "typicalReaction": "Yüksek etkili istihdam verisi—ABD dolarını ve Hazine getirilerini hareket ettirir. Talepleri keskin bir şekilde sürpriz yaparsa Fed politikası yeniden fiyatlandırmasını izleyin."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Bu raporda, 'UTC-gün bazında' fiyat hareketinin tam bir UTC takvim günü (00:00–23:59 UTC) boyunca ölçülmesi anlamına gelir."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Gün içinde yükselişe geçen tüm işlem gören vadeli işlem sözleşmelerinin yüzdesi. Düşük genişlik (12,9% gibi) çoğu jetonun düştüğü anlamına gelir; yüksek genişlik pazarın genelinde geniş bir ralli anlamına gelir."
+    },
+    {
+      "term": "Core CPI",
+      "definition": "Temel enflasyon, başlık tüketici fiyat endeksi eksi enerji ve gıda fiyatlarıdır ve bunlar değişken olma eğilimindedir. Temel enflasyon, altta yatan fiyat eğilimini gösterir."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Vadeli işlem borsalarında her 8 saatte bir uzun tüccarların (fiyatın yükseleceğine bahis oynayan) kısa tüccarların (fiyatın düşeceğine bahis oynayan) ödediği küçük bir ödeme. Pozitif oranlar kısaları destekler; negatif oranlar uzunları destekler. Yıllıklandırılmış oranlar, oran bir yıl boyunca sabit tutulsa ne olacağını gösterir."
+    },
+    {
+      "term": "Headline CPI",
+      "definition": "Gıda ve enerji de dahil olmak üzere tüketici fiyatlarındaki toplam değişim. Genellikle temel enflasyondan daha değişkendir ancak sıradan insanlar için tam yaşam maliyeti resmini temsil eder."
+    },
+    {
+      "term": "Uzun Pozisyon / Uzun",
+      "definition": "Fiyatın yükseleceğine bahis. Uzun tüccarlar varlık yükselirse kâr eder; düşerse kaybeder."
+    },
+    {
+      "term": "Uzun/Kısa Oranı",
+      "definition": "Fiyatın yükseleceğine bahis oynayan tüccarların sayısı (uzun) bölü düşeceğine bahis oynayan sayısı (kısa). 1,0 üzerinde bir oran daha fazla uzun anlamına gelir (yükselişçi); 1,0 altında daha fazla kısa anlamına gelir (düşüşçü)."
+    },
+    {
+      "term": "Mark Fiyatı",
+      "definition": "Vadeli işlem sözleşmelerinde kâr ve zararı hesaplamak için kullanılan referans fiyatı, tipik olarak spot fiyat ve finansman ağırlıklı vadeli işlem fiyatlarının bir karışımı. Flash çöküşlerin tüccarları haksız bir şekilde tasfiyeyi önler."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Bir borsada açık vadeli işlem sözleşmelerine bağlı toplam para (USD cinsinden) veya jeton. Açık faiz arttıkça fiyat düşmesi kısaların yığıldığı anlamına gelebilir; yükselişle birlikte yükselişi uzun kanaat anlamına gelir."
+    },
+    {
+      "term": "Kısa Pozisyon / Kısa",
+      "definition": "Fiyatın düşeceğine bahis. Kısa tüccarlar varlık düşerse kâr eder; yükselirse kaybeder."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Mevcut siparişleri alan tüccarlar arasında satın alma hacmine satış hacminin oranı. 1,0 üzerinde bir oran daha agresif satın alma anlamına gelir; 1,0 altında daha agresif satış anlamına gelir."
+    },
+    {
+      "term": "En Üst Seviye Tüccar Oranı",
+      "definition": "Bir borsada en büyük tüccarlar ve balinalar arasında özellikle uzun/kısa oranı, tüm hesaplar değil. En büyük oyuncuların ne düşündüğünü gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "c2dfb4259ab4a41b"
+}

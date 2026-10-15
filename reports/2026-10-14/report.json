@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "kind": "market",
+  "dateLong": "Wednesday, 14 October 2026",
+  "coversUTC": "2026-10-14 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum fell sharply on Wednesday Oct 14 as hotter-than-expected US inflation data (3.7% headline) reignited Fed rate-hike expectations, pulling down crypto and traditional stock markets.",
+  "newsCount": 20,
+  "macro": {
+    "BTC": -1.7942413956520555,
+    "ETH": -3.0530468390171626
+  },
+  "topMover": {
+    "symbol": "ZEREBROUSDT",
+    "chgPct": 71.11717599741444
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "15 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

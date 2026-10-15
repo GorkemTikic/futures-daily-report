@@ -1,0 +1,273 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell sharply on Wednesday Oct 14 as hotter-than-expected US inflation data (3.7% headline) reignited Fed rate-hike expectations, pulling down crypto and traditional stock markets.",
+  "caveman": "On Wednesday, the US government announced that prices went up faster than expected—the inflation number came in at 3.7%, which was higher than forecasters predicted. This scared people because it might force the Federal Reserve to raise interest rates again. When interest rates go up, people move money away from risky things like Bitcoin and Ethereum to safer places. Bitcoin fell to about $81,641, losing almost 2% of its value. Ethereum fell more—about 3%. The stock market fell too (the big US stock indexes dropped 1–1.8%). In Asia, computer chip companies crashed even harder because of the interest rate worry and because China is making their own memory chips now. Most coins went down: only about 13 out of every 100 tokens traded up on Binance. It was a worrying day for crypto traders.",
+  "priceVolumeSummary": "Bitcoin closed at $81,641–81,667 across all five major venues with consistent losses of 1.79–1.81%. Ethereum fell 3.05–3.08% across venues to $2,420–2,422. Binance led volume with $13.6 billion in BTC perpetuals and $10.2 billion in ETH, with strong volume distribution across all major exchanges (Binance, Bybit, OKX, Bitget, Gate).",
+  "positioningSummary": "Bitcoin funding rates diverged: Binance went negative at −4.53% annualized (less bullish), while Bitget remained positive at +10.95% and OKX at +3.99%. Top-tier traders held a 1.52:1 long ratio while taker activity was slightly bearish at 0.996:1 (near parity), and overall account longs were 1.29:1. Open interest on Binance rose despite the price decline. Ethereum showed stronger conviction with top traders at 1.58:1 long and accounts at 2.66:1 long, though taker buying at 1.044:1 remained modest. Ethereum funding at 8.93% annualized could slow momentum. Market breadth was weak: only 12.9% of Binance perpetuals traded up on the day.",
+  "stocksSummary": "Asian semiconductor stocks suffered heavy losses on macro concerns. SK Hynix (KRX session) fell 9.99%, Samsung Electronics (KRX) fell 7.30%, and Hanmi fell 9.78%—driven by three factors: rising interest rates and higher financing costs threatening AI investment returns; Chinese DRAM competitor CXMT announcing mass production of next-generation memory chips; and Gartner data showing $7 trillion in projected AI infrastructure investment against only $3.6 trillion in data center revenue, raising impairment risk. US stocks also fell: the S&P 500 down 1.08%, Nasdaq down 1.83%. The US dollar strengthened 0.34% and gold rose 0.27% as a risk-off move.",
+  "movers": [
+    {
+      "symbol": "ZEREBROUSDT",
+      "explanation": "Micro-cap token with $95.5 million in volume. No clear public cause; retail buying interest likely.",
+      "hasCause": false
+    },
+    {
+      "symbol": "WALUSDT",
+      "explanation": "Mid-cap token saw strong $607 million volume despite no identifiable news trigger. No clear public cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "龙虾USDT",
+      "explanation": "Known as Lobster token; fell 38% on $144 million volume. No clear public cause identified in crypto news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Hot US inflation revives Fed rate-hike expectations, triggering crypto selloff",
+        "what": "September 2026 US consumer inflation (CPI) came in at 3.7% on a headline basis and 2.6% for core prices year-over-year, both beating Wall Street forecasts. Energy prices, particularly gasoline up 9.1%, drove the monthly 0.6% increase. The hotter-than-expected print reignited expectations for another Federal Reserve interest rate hike before the October 27–28 policy meeting, sending Bitcoin below $82,000 and Ethereum down 3% as traders rotated away from crypto.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-14 12:30 UTC",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+      },
+      {
+        "headline": "Hex and PulseChain founder Richard Heart detained in Istanbul on Interpol warrant",
+        "what": "Turkish police detained Richard Heart, founder of the HEX protocol and PulseChain network, in Beşiktaş following an Interpol Red Notice requested by Finland. Turkish media reported the seizure of $4 million in cash and 64 watches from his residence. The detention raises regulatory and legal questions for the DeFi ecosystem as enforcement actions against prominent crypto figures intensify.",
+        "coins": "HEX, Pulse (PLS)",
+        "timeUTC": "2026-10-14 (late)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-14-hex-pulsechain-founder-richard-heart-detained-istanbul-turkish-media-reports-418574"
+      },
+      {
+        "headline": "Kraken parent Payward acquires European bank, expanding beyond crypto trading",
+        "what": "Payward, the parent company of Kraken exchange, agreed to acquire Saldo Bank in Lithuania for €181 million, making Payward the first crypto company to own a licensed European bank. The acquisition secures an EU banking license enabling Payward to offer deposits, lending, and payment services—marking a major institutional bridge between crypto and traditional finance.",
+        "coins": "Cross-platform / institutional",
+        "timeUTC": "2026-10-14",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Patrick Witt exits White House crypto adviser role as Clarity Act stalls",
+          "what": "The Trump administration's top crypto policy adviser, Patrick Witt, has departed from the White House. The exit comes as legislative efforts to clarify crypto regulation have slowed, signaling potential shifts in the administration's crypto policy direction heading into the final months of the year.",
+          "coins": "Sector-wide",
+          "timeUTC": "2026-10-14",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611"
+        },
+        {
+          "headline": "South Korea blocks 27 crypto exchanges including BitMart and KuCoin",
+          "what": "South Korean financial regulators announced the blocking of 27 cryptocurrency exchanges from operating within the country, including major platforms BitMart and KuCoin. The action follows stricter compliance requirements under local law and reflects heightened regulatory scrutiny in one of the world's largest crypto markets.",
+          "coins": "Cross-exchange",
+          "timeUTC": "2026-10-13 (context)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+        },
+        {
+          "headline": "Illinois crypto tax faces renewed legal challenge after 6-month pause",
+          "what": "Industry organizations have regrouped to fight Illinois's 0.2% tax on crypto asset transfers after a 6-month delay in implementation. Legal advocates are seeking summary judgment to overturn the tax before it takes effect, citing concerns about unequal treatment of crypto versus other financial assets.",
+          "coins": "Cross-sector",
+          "timeUTC": "2026-10-14",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cci-ba-fight-illinois-crypto-tax-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "headline": "Kalshi CEO defends prediction markets amid insider trading concerns",
+          "what": "As regulators weigh stricter oversight of crypto-powered prediction markets, Kalshi's CEO Tarek Mansour argued that the platform's transparency makes it easier to catch bad actors. The platform is at the center of an ongoing legal battle over regulatory authority—whether the CFTC or individual US states should oversee prediction markets.",
+          "coins": "Cross-market",
+          "timeUTC": "2026-10-14",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "US spot Bitcoin and Ethereum ETFs record net inflows on Oct 13",
+          "what": "Despite the day's price decline, US spot Bitcoin ETFs recorded a net inflow of $175.7 million on October 13 (latest published data), led by Fidelity FBTC (+$103.1M) and BlackRock IBIT (+$65.9M). Ethereum ETFs posted $24.8 million in net inflows. Week-to-date, BTC ETFs saw −$479M and ETH saw −$552M, suggesting renewed retail interest after outflows earlier in the week.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-13",
+          "source": "KuCoin (via Farside Investors)",
+          "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-175-7m-net-inflow-ethereum-etf-gains-24-8m"
+        },
+        {
+          "headline": "BlackRock's crypto ETF assets surge 63% to $79.6B but remain below 2025 peak",
+          "what": "BlackRock's crypto ETF holdings surged 63% as investors returned to the space, reaching $79.6 billion in assets. However, this remains 23% below the year-ago peak, reflecting the broader volatility in crypto adoption and investor sentiment over the past year.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak"
+        },
+        {
+          "headline": "Strive acquires $235M in Bitcoin following warrant exercises yielding $369M",
+          "what": "Michael Saylor's Strive capital raised $369.2 million in gross proceeds from traditional warrant exercises and deployed $235 million to acquire approximately 2,822 Bitcoin. The move reflects continued institutional appetite for Bitcoin accumulation even during price weakness, adding to Saylor's existing ~848,250 BTC position.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-14",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-14-strive-buys-235-million-in-bitcoin-warrant-yield-369-million-418556"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance AI trading interface enters global rollout phase",
+          "what": "Binance expanded its AI-powered trading interface to all users globally, allowing retail traders to execute trades through natural language prompts. The rollout reflects the exchange's push into AI-assisted trading tools to compete with traditional brokers and lower barriers to entry.",
+          "coins": "Cross-platform",
+          "timeUTC": "2026-10-12 (context)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+        },
+        {
+          "headline": "Standard Chartered opens BTC and ETH trading to wealthy UAE clients with in-house custody",
+          "what": "The British bank won Dubai regulatory approval to let high-net-worth clients purchase Bitcoin and Ethereum directly through their bank accounts, with Standard Chartered providing custody and settlement in-house. The move signals institutional bridges in the Gulf Cooperation Council region and mirrors Western banks' gradual embrace of crypto services.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading"
+        },
+        {
+          "headline": "Russia's Sberbank wins approval to trade Bitcoin, Ethereum with 110M retail clients",
+          "what": "Sberbank, Russia's largest bank, secured regulatory approval to offer Bitcoin, Ethereum, and USDT trading to 110 million retail customers via its banking apps. The approval grants Sberbank both custody and exchange status under Russia's new crypto law, marking a major entry point for retail adoption in Eastern Europe.",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "2026-10-14",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380981/sberbank-russia-bank-trade-crypto-bitcoin"
+        },
+        {
+          "headline": "StarkWare launches OffMarket for private Polymarket trading",
+          "what": "StarkWare opened OffMarket to the public, enabling Polymarket users to trade prediction market shares without publicly linking their identity to their positions. The feature enhances privacy on the largest US prediction market platform during a period of regulatory scrutiny.",
+          "coins": "Cross-market",
+          "timeUTC": "2026-10-14",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-14-starkware-launches-offmarket-to-let-polymarket-users-trade-more-privately-418567"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger hardware wallet supply chain implants expand to seven Asian markets; MediaMarkt suspends sales",
+          "what": "Following reports of hardware implants discovered in Ledger devices sold through European retailers, Ledger requested resellers in seven Asian markets to remove devices from shelves. The European electronics chain MediaMarkt Saturn also suspended Ledger sales. As of recent reports, up to $86 million has been traced to the supply chain attack, with $10 million frozen by authorities.",
+          "coins": "Cross-wallet / custody",
+          "timeUTC": "2026-10-13 (context)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380940/ledger-asks-resellers-in-seven-asian-markets-to-pull-devices-after-suspected-86m-drain"
+        },
+        {
+          "headline": "FBI dismantles crypto scam network targeting Russian-speaking Americans; 112 servers seized",
+          "what": "Brooklyn prosecutors and the FBI seized 112 servers and shut down 241 websites linked to investment scams targeting Russian-speaking communities in the US. The takedown represents one of the larger law-enforcement actions against organized crypto fraud in recent months.",
+          "coins": "Cross-fraud",
+          "timeUTC": "2026-10-14",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/fbi-brooklyn-crypto-scam-112-servers-241-websites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US Treasury yields hit near 24-year highs on hot inflation print; risk assets sell off",
+          "what": "Following the 3.7% headline CPI print, US Treasury yields surged toward 24-year highs, pulling down equities and crypto in a classic risk-off rotation. The 10-year Treasury yield climbed sharply, triggering forced liquidations in leveraged positions across digital assets. Stock-market indices fell 1–1.8%, and Asian equities fell 5–10% in response to the higher-rate environment.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14 12:30–16:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380950/bitcoin-falls-hot-inflation-fed-hike-odds"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Ripple targets securities markets with new US brokerage and South Korean institutional deals",
+          "what": "Ripple announced a fourth Korean institutional partnership (Meritz) with custody and tokenization cooperation as part of a push into securities trading and settlement. The company is positioning itself for a potential multi-trillion-dollar securities tokenization market but actual deal sizes and timelines remain unspecified.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-14",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ripple-targets-trillion-dollar-securities-markets-with-new-us-brokerage-and-south-korean-deals/"
+        },
+        {
+          "headline": "Solana Alpenglow upgrade scheduled for October 21; targets 150ms finality from 12.8 seconds",
+          "what": "Solana is preparing a major upgrade (Alpenglow) for October 21 that replaces the TowerBFT voting mechanism, aiming to slash transaction finality from 12.8 seconds to a target of 150 milliseconds. The upgrade will pull vote transactions out of blocks entirely, potentially improving network speed and validator economics.",
+          "coins": "SOL",
+          "timeUTC": "2026-10-14 (announcement)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/380974/solana-alpenglow-upgrade-date"
+        },
+        {
+          "headline": "Coins.ph users face app lockout as Philippine central bank intervenes",
+          "what": "Coins.ph announced app disruptions on October 14 as the Bangko Sentral ng Pilipinas (BSP) intervened to enforce controls against offshore gambling operators. Coins.ph reaffirmed its BSP-licensed status but users experienced access issues; the company said operations continue but compliance measures are being strengthened.",
+          "coins": "Cross-exchange (Philippines)",
+          "timeUTC": "2026-10-14",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/coins-ph-users-face-app-lockout-as-central-bank-intervenes/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-13",
+    "summary": "US spot Bitcoin ETFs recorded net inflows of $175.7 million (led by Fidelity FBTC +$103.1M and BlackRock IBIT +$65.9M). US spot Ethereum ETFs posted inflows of $24.8 million (Grayscale +$16.7M, Fidelity FETH +$8.1M). Despite the day's price declines, both asset classes attracted buyer interest, reversing outflow trends from earlier in the week.",
+    "source": "Farside Investors (via KuCoin)",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-175-7m-net-inflow-ethereum-etf-gains-24-8m"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK GDP October 2026 at Thu 15 Oct, 06:00 UTC",
+      "typicalReaction": "High-impact release — expect volatility in traditional markets and potential crypto spillover if the data is a major surprise."
+    },
+    {
+      "event": "Core Retail Sales m/m and Retail Sales m/m at Thu 15 Oct, 12:30 UTC",
+      "typicalReaction": "High-impact US economic data — significant moves in Treasury yields and USD strength/weakness. Crypto typically follows risk sentiment shifts in equities."
+    },
+    {
+      "event": "US Initial Jobless Claims at Thu 15 Oct, 12:30 UTC",
+      "typicalReaction": "High-impact employment data — moves the USD and Treasury yields. Watch for Fed policy repricing if claims surprise sharply."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "In this report, 'utc-day basis' means the price movement is measured over a full UTC calendar day (00:00–23:59 UTC)."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of all traded perpetual contracts that went up on the day. Low breadth (like 12.9%) means most coins fell; high breadth means a broad rally across the market."
+    },
+    {
+      "term": "Core CPI",
+      "definition": "Core inflation is the headline consumer price index minus energy and food prices, which tend to be volatile. Core inflation shows the underlying price trend."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A small payment that long traders (those betting price will rise) pay to short traders (those betting price will fall) every 8 hours on futures exchanges. Positive rates favor shorts; negative rates favor longs. Annualized rates show what the rate would be if kept constant for a year."
+    },
+    {
+      "term": "Headline CPI",
+      "definition": "The total change in consumer prices, including food and energy. It's often more volatile than core inflation but represents the full cost-of-living picture for ordinary people."
+    },
+    {
+      "term": "Long position / long",
+      "definition": "A bet that the price will rise. Long traders profit if the asset goes up; they lose if it goes down."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting the price will rise (longs) divided by the number betting it will fall (shorts). A ratio above 1.0 means more longs than shorts (bullish); below 1.0 means more shorts (bearish)."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate profit and loss on futures contracts, typically a blend of the spot price and funding-weighted futures prices. It prevents flash crashes from liquidating traders unfairly."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total amount of money (in USD) or coins tied up in open futures contracts on an exchange. Rising open interest with falling price can mean shorts are piling in; rising with rising price means long conviction."
+    },
+    {
+      "term": "Short position / short",
+      "definition": "A bet that the price will fall. Short traders profit if the asset goes down; they lose if it goes up."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of buying volume to selling volume among traders who take existing orders (takers). A ratio above 1.0 means more aggressive buying; below 1.0 means more aggressive selling."
+    },
+    {
+      "term": "Top-tier trader ratio",
+      "definition": "The long/short ratio specifically among the largest traders and whales on an exchange, not all accounts. It shows what the biggest players believe."
+    }
+  ],
+  "_source": "cli"
+}
