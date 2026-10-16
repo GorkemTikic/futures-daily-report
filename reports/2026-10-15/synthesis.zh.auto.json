@@ -1,0 +1,400 @@
+{
+  "oneLine": "比特币和以太坊小幅上涨,但美国工厂物价大幅意外上升引发加密货币清算浪潮,山寨币和亚洲科技股急剧下跌,交易员们重新评估美联储加息的风险。",
+  "caveman": "周四上午,美国发布了一份重要的经济报告,显示工厂价格上升速度远快于预期——上升了1.3%而不是预期的0.6%。这让人们担心美联储可能会再次提高利率,所有人都感到紧张。与此同时,韩国股市暴跌了约8%,因为芯片公司看起来太贵了,人们害怕它们在人工智能上花钱太多。比特币和以太坊只是小幅上升,但数千名借钱进行加密货币投资的交易员在价格下跌时被迫卖出,很多人从比特币和以太坊投资基金中撤出了资金。到了一天的最后,一家叫Ledger的公司宣布了一款新设备来保护钱包免受黑客攻击。这是紧张的一天,不是平静的。",
+  "priceVolumeSummary": "比特币在币安上涨0.68%,收于$82,195,以太坊上涨0.83%至$2,441;五大交易所(币安、Bybit、OKX、Bitget、Gate)的价格走势相似。币安领导交易量,比特币交易量为$17.7亿,以太坊为$12.9亿,而Gate和OKX分别处理了约$8.7亿和$9.3亿。",
+  "positioningSummary": "比特币期货年化融资费率平均为5.94%(币安),以太坊为8.18%——温和的费率表明多头愿意支付费用给空头来持有多头头寸。币安数据显示,比特币交易员持有1.77倍的多头相对空头(最大交易员持有1.54比1的多头偏好),以太坊持有3.37比1(最大交易员1.61比1)——两者都处于大量多头头寸。然而,吃单者买卖比讲述了另一个故事:比特币交易员的积极卖单比率为0.97,以太坊为0.91,两者都低于1.0,意味着尽管多头偏好很强,但更多的交易员在积极卖出。市场广度为50.31%上升——几乎完全平衡,表明直到中午UTC的通胀冲击前市场犹豫不决。总的来说,交易员在杠杆上过度延伸,PPI意外数据翻转了他们的信心。",
+  "stocksSummary": "当AI芯片估值恐慌在夜间蔓延时,亚洲股权期货暴跌。韩国顶级芯片制造商首当其冲:SK海力士下跌1.6%,三星在合约间分化(–0.5%至–2.6%),汉米等小型企业下跌7%。香港以AI为重点的企业——智谱AI(–4.8%)、MiniMax(–7.1%)——大幅下跌,尽管防守性投资如小米(+5%)和腾讯(+1%)持稳。中国股票几乎没有动静。美国小盘股表现好坏参半。商品因地缘政治头条反弹:WTI原油+2.6%,黄金+1.1%,白银+2.4%,抵消铜(–0.8%)和天然气(–2.1%)的疲软。",
+  "movers": [
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT飙升113.5%,成交量$2.18亿;未找到明确的公开公告或新闻解释。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "explanation": "SIREN跳涨46.6%,成交量$1.03亿;市场新闻或公告中未找到可识别的催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "explanation": "TRUTH下跌26.1%,成交量$7900万;现有新闻或数据中未找到公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国生产者物价指数跃升1.3%,引发9.4亿美元加密货币清算浪潮",
+        "what": "2026年9月生产者通胀环比跃升至1.3%(预期0.6%),同比上升至6.3%(预期5.4%),创下2022年3月以来最大单月涨幅。能源价格推动了80%的增幅,原因是包括伊朗冲突在内的地缘政治紧张局势。这一冲击提高了美联储将保持利率在更高水平的预期,立即引发了加密货币保证金清算浪潮,杠杆交易员被迫平仓,到日末共报告了近9.4亿美元的加密货币清算。",
+        "coins": "BTC, ETH, altcoins",
+        "timeUTC": "2026-10-15 12:30 UTC",
+        "source": "US Bureau of Labor Statistics / Walter Bloomberg (X) / Bloomberg, CNBC, CNN",
+        "url": "https://x.com/DeItaone/status/2110712066533200250"
+      },
+      {
+        "headline": "韩国KOSPI指数暴跌7.57–8%,触发交易暂停,源于AI芯片估值崩溃",
+        "what": "韩国KOSPI基准指数在10月15日下跌7.57–8%,创6个月新低,当跌幅超过前收盘8%时触发自动20分钟交易暂停。崩跌集中在半导体巨头:三星下跌至9.5%,SK海力士下跌1.6%,投资者重新评估AI超大规模数据中心支出风险,担心来自中国芯片制造商的产能过剩。该指数已连续下跌7个交易日。这一走势在亚洲交易时段涟漪到全球加密货币和山寨币交易,拖累Solana、XRP和跟踪风险情绪的小市值币种。",
+        "coins": "SOL, XRP, altcoins",
+        "timeUTC": "2026-10-15 00:00–08:00 UTC (韩国市场时间)",
+        "source": "GuruFocus, Gulf News, Yahoo Finance, Invezz",
+        "url": "https://www.gurufocus.com/news/9124892/kospi-plummets-757-amidst-ai-chip-valuation-crisis"
+      },
+      {
+        "headline": "Ledger推出Atom Android安全设备,具有防篡改检测功能,计划2027年夏季发货",
+        "what": "Ledger宣布推出Atom,一款6.77英寸Android硬件钱包,配备内置AMOLED屏幕、高通处理器、防篡改检测(断电时仍可工作)和AI代理审批控制。定价:$849创始人版,$899常规版,发货时间为2027年Q3。Solana Mobile集成已确认。该设备代表Ledger对重大信任危机的回应:通过未授权的亚洲经销商出售的被破坏钱包导致8600万美元加密货币被盗。推出该设备标志着公司试图恢复硬件钱包安全信任。",
+        "coins": "All",
+        "timeUTC": "2026-10-15 14:00–16:00 UTC",
+        "source": "Cointelegraph, Decrypt, The Block, CoinDesk",
+        "url": "https://decrypt.co/381023/ledger-announces-atom-touchscreen-android-device"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "澳大利亚发布草案以采纳经合组织加密税务报告框架",
+          "what": "澳大利亚成为承诺采纳CARF(加密资产通用报告标准)的第77个司法管辖区。首次国际税务数据交换预计在2028年进行。该框架标准化了各国的加密账户持有人报告。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/australia-releases-draft-bill-to-adopt-oecd-crypto-tax-reporting-framework"
+        },
+        {
+          "headline": "俄罗斯确认P2P加密货币禁令从2027年7月1日开始生效",
+          "what": "俄罗斯人在2027年7月后将无法直接进行点对点加密货币交易;所有交易必须通过俄罗斯央行批准的经纪商或交易所进行。该规则继俄罗斯早前禁止从加密账户转账到自托管钱包之后。公民有至2027年7月1日的时间来适应。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381079/russia-ban-peer-to-peer-bitcoin-trading"
+        },
+        {
+          "headline": "白宫加密政策空缺加剧,Patrick Witt离职",
+          "what": "特朗普总统的加密顾问Patrick Witt证实离职,使数字资产办公室失去了关键谈判代表。他的离职时机是在政府旗舰加密法案在国会陷入僵局,SEC和CFTC之间的监管管辖权争议仍在继续之际。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large"
+        },
+        {
+          "headline": "瑞典央行提议数字克朗CBDC立法",
+          "what": "瑞典中央银行已建议立法者为可能的数字克朗做准备,理由是对外币稳定币和国内支付系统未来的担忧。与欧洲央行关于数字欧元的举措相呼应。",
+          "coins": "Stablecoins, sovereigns",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation"
+        },
+        {
+          "headline": "澳大利亚金融监管机构ASIC在许可截止前提议更严格的加密交易所规则",
+          "what": "澳大利亚金融监管机构ASIC提议了对托管、交易和金融稳定性保障的更严格规则,包括A$200,000最低托管门槛、资产和收入测试以及第三方托管人要求,以赶上其交易所许可截止期限。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline"
+        },
+        {
+          "headline": "Hex创始人Richard Heart在伊斯坦布尔被捕",
+          "what": "土耳其警方在其伊斯坦布尔住所逮捕了Hex创始人Richard Heart,并缴获了约400万美元现金和64块奢侈手表。逮捕是正在进行的监管和法律调查的一部分。",
+          "coins": "HEX",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report"
+        },
+        {
+          "headline": "Hyperliquid创始人主张对平台进行监管,而非对区块链进行监管",
+          "what": "Hyperliquid创始人Jeff Yan向彭博社表示,美国监管监督应针对使用区块链的交易平台,而非底层网络基础设施本身,这一区分可能会重塑监管机构对分散式交易所的方式。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/15/hyperliquid-founder-wants-u-s-oversight-of-trading-platforms-not-his-blockchain"
+        },
+        {
+          "headline": "前特朗普加密顾问Bo Hines从稳定币法案通过中获利",
+          "what": "《华尔街日报》报道称,前特朗普加密顾问Bo Hines共同创立的公司因GENIUS稳定币法案的通过而受益,引发了对政府加密政策中利益冲突的质疑。",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bo-hines-donald-trump-crypto-advisor-nxum-tether-conflict"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "万事达卡和BVNK推出全球货币平台用于法币和稳定币结算",
+          "what": "万事达卡已将BVNK(2026年8月以18亿美元收购)整合到新的'全球货币平台'中,允许银行、金融科技公司和企业通过单一API持有、转换和支出法币和稳定币。Nuvei和Marqeta是首批采用者。此发布代表了收购后首个主要产品整合。",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/381057/mastercard-bvnk-global-money-platform-fiat-stablecoins"
+        },
+        {
+          "headline": "比特币和以太坊现货ETF在10月14-15日录得合并净流出",
+          "what": "美国比特币现货ETF在10月14日录得$2.61亿净流出(富达FBTC–$1.527亿,贝莱德IBIT–$1.1亿,仅Bitwise BITB +$2200万),以太坊ETF录得$1.295亿流出(贝莱德ETHA–$1.1亿)。在10月15日,流出持续:赎回3,209枚BTC和38,915枚ETH,累计7天流出5,250枚BTC和133,537枚ETH。持续的机构赎回反映了通胀担忧和宏观不确定性。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14 to 2026-10-15",
+          "source": "Kucoin, Token Post",
+          "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-15"
+        },
+        {
+          "headline": "两家公司控制企业比特币购买,尽管更广泛采纳扩大",
+          "what": "River和可能另一个主要参与者控制了企业比特币收购的不成比例的大部分,尽管加密货币业务采纳扩大。这一集中反映了头条采纳和实际资本流动之间的区别。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/two-firms-control-corporate-bitcoin-buys-even-as-business-adoption-broadens/"
+        },
+        {
+          "headline": "贝莱德首席投资官Larry Fink警告AI数据中心停工可能引发衰退",
+          "what": "在贝莱德Q3财报后发言,首席投资官Larry Fink称AI基础设施支出对美国增长至关重要,以至于建设停顿将很危险,驳斥对超大规模数据中心能源使用的批评为'错误信息'。评论反映了对AI和能源需求的机构投资论点。",
+          "coins": "Indirect (macro sentiment)",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381068/blackrock-larry-fink-ai-data-center-halt-recession"
+        },
+        {
+          "headline": "DeFi Development提高CHAD股息至14%,因Solana金库扩大",
+          "what": "DeFi Development将其CHAD优先股股息从13%提高至14%,使用CHAD销售来扩大其Solana持有量。这一举动表明对SOL的信心,以及用于资助长期积累的收益。",
+          "coins": "SOL, CHAD",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694"
+        },
+        {
+          "headline": "纳斯达克上市Tron设立$2亿ATM发行以推动TRX收购",
+          "what": "Tron是一家纳斯达克上市的金库公司,持有约$2.37亿TRX代币,设立了$2亿按市价发行(ATM)股份发行,以筹集资本加速TRX购买,与其日常积累策略并行。",
+          "coins": "TRX",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nasdaq-tron-200m-atm-offering-fuel-trx-acquisitions"
+        },
+        {
+          "headline": "CleanSpark和BitFuFu比特币产量在9月下滑",
+          "what": "9月比特币矿业报告显示好坏参半的结果:CleanSpark正在终止每月产量披露,而BitFuFu面临其埃塞俄比亚矿业交易的不确定性。Canaan持有量保持平稳。该行业继续整合和地理风险敞口转移。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-15-cleanspark-bitfufu-bitcoin-production-slip-september-canaan-remains-flat-418686"
+        },
+        {
+          "headline": "Multiliquid代币化资产结算平台融资800万美元",
+          "what": "代币化资产结算平台Multiliquid在种子前和种子轮中完成了800万美元融资,Polychain Capital领投种子轮。该平台针对链上现实世界资产的机构结算。",
+          "coins": "Tokenized assets, RWAs",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "币安美国寻求潜在1亿美元融资轮中10亿美元估值",
+          "what": "币安美国正在10亿美元估值进行融资,融资轮目标约1亿美元,旨在恢复因币安2023年美国和解后流失的市场份额。融资将支持美国交易和托管服务的扩展。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-us-funding-valuation-billion"
+        },
+        {
+          "headline": "Farcaster被Balaji Srinivasan的Network School收购",
+          "what": "Balaji Srinivasan的Network School从Neynar收购了Farcaster社交网络。用户现在必须签署'社交智能合约'或失去写入权限并退回到只读模式。收购转变了平台的治理模式。",
+          "coins": "All (ecosystem)",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-15-network-school-acquires-farcaster-from-neynar-418720"
+        },
+        {
+          "headline": "Ripple Prime在Hyperliquid上添加现实世界资产永续合约",
+          "what": "Ripple Prime在Hyperliquid上推出了RWA(现实世界资产)永续合约,参考股票、ETF、金属、能源和货币,具有24/7交易和链上结算,扩大了代币化资产衍生品的可用性。",
+          "coins": "XRP, tokens on Hyperliquid",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "诈骗者在被篡改的Ledger钱包上丢失480万美元被盗资金",
+          "what": "一名盗窃加密货币并将资金存储在假冒Ledger设备上的诈骗者据称在被篡改的硬件钱包被发现并锁定时丢失了480万美元。该事件突显了经销商渠道篡改的危险,并验证了合法所有者的安全担忧。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/scammer-loses-48m-stored-on-tampered-ledgers-asia-express"
+        },
+        {
+          "headline": "韩国在金融部门破坏浪潮中点名Streami和Pravang",
+          "what": "韩国金融监督委员会将Streami和Pravang列为16家金融公司中的两家,这些公司在一波协调式破坏中被攻击,其中还影响了大型银行。金融监督委员会正在规划该部门更广泛的安全改革。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/south-korea-names-two-crypto-firms-in-breach-wave-that-also-hit-major-banks/"
+        },
+        {
+          "headline": "布鲁克林检察官和FBI破获俄语系加密货币诈骗网络",
+          "what": "执法部门摧毁了一个针对散居社区的俄语系大型加密货币诈骗团伙,通过虚假Facebook广告和虚假财务顾问,然后对受害者进行恢复诈骗。该网络据称盗窃了数千万美元。警方缴获了112台服务器和241个网站。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "比特币量子防护可能锁定合法所有者,研究人员警告",
+          "what": "分析师Nic Carter警告,虽然量子抗性签名可以保护比特币,但更安全的实施方式可能会阻止无法迁移或证明先前控制权的合法所有者访问其币。安全性和可访问性之间的权衡仍未解决。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/quantum-fixes-protect-bitcoin-but-legit-owners-risk-lockout/"
+        },
+        {
+          "headline": "10月12-15日8400万XRP流入交易所钱包(托管或卖出待定)",
+          "what": "链上追踪显示,10月12-15日期间8400万XRP流入了交易所钱包,引发了关于这些币是被卖出还是仅被托管的问题。余额数据无法确定已完成的销售。",
+          "coins": "XRP",
+          "timeUTC": "2026-10-12 to 2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-exchange-wallets-added-84-million-tokens-in-three-days-as-price-slipped-toward-1-30/"
+        },
+        {
+          "headline": "谷歌Willow量子芯片在魔态上减少40倍错误率",
+          "what": "谷歌DeepMind宣布推出Willow,一款量子处理器,在'魔态'上减少40倍错误——这是稀缺、昂贵的量子态,限制了当今机器的能力。Willow朝着更小、更实用的量子计算机迈进,最终朝着理论上可能威胁当今加密标准的机器(远未迫在眉睫)。",
+          "coins": "All (speculative, long-term risk/opportunity)",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381102/google-cracked-quantum-computing-biggest-bottlenecks"
+        },
+        {
+          "headline": "以太坊验证者退出计划仍将保留新参与者的收益壁垒",
+          "what": "提议的以太坊加速退出机制将减少退出质押的时间,但直接存款和汇集质押将继续承担非活跃质押资本的成本,意味着新验证者在收益开始累积前面临约三周的进入延迟。",
+          "coins": "ETH",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereums-faster-exit-plan-would-preserve-an-earnings-hurdle-for-new-stakers/"
+        },
+        {
+          "headline": "Starknet开放关于独立抗量子第1层的七日治理投票",
+          "what": "Starknet持有者正在投票是否研究一个新的、独立的第1层区块链,旨在抵抗量子计算攻击。投票反映了生态系统对长期加密安全的担忧。",
+          "coins": "STRK",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673"
+        },
+        {
+          "headline": "AI代理显示89%钱包充值率,但整体用户留存仍未计量",
+          "what": "Chainalysis报告称多天活跃钱包的89%充值率(计量重复用户行为),但该指标仅涵盖钱包的一个子集,使整体AI代理采纳和独立商业需求不清楚。",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ai-agents-keep-coming-back-for-crypto-as-x402-wallet-refill-rate-surges-to-89/"
+        },
+        {
+          "headline": "以太坊和山寨币面临宏观压力下的'超大幅下跌'",
+          "what": "市场分析师将以太坊、Solana、XRP和其他山寨币在10月15日的较大百分比下跌归因于宏观不确定性加剧和去杠杆化,而比特币因其更大的规模和作为对冲工具的用途而相对表现更好。",
+          "coins": "ETH, SOL, XRP, altcoins",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381034/ethereum-altcoins-see-outsized-drawdowns-due-to-macro-pressures"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-15",
+    "summary": "美国比特币和以太坊现货ETF分别在10月14日录得$2.61亿和$1.295亿合并净流出,流出在10月15日继续(赎回3,209枚BTC和38,915枚ETH)。七天累计流出:5,250枚BTC和133,537枚ETH。持续的赎回反映了在通胀和美联储加息担忧中机构的撤退。",
+    "source": "Kucoin, Token Post (ETF tracking data)",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-15"
+  },
+  "calendarNotes": [
+    {
+      "event": "Core PPI and Retail Sales (US) released at 12:30 UTC Oct 15",
+      "typicalReaction": "头条PPI大幅好于预期(+1.3% 环比对比 +0.6%),立即引发抛售,因美联储加息预期上升,随后6小时内加密货币市场保证金清算级联流动。"
+    },
+    {
+      "event": "Fed Chairman Warsh Speaks at 03:30 UTC Oct 16",
+      "typicalReaction": "来自美联储领导层的即将发言将密切关注任何关于利率政策方向的信号,特别是在10月15日通胀意外后。市场可能对利率持久性的额外评论进行定价。"
+    },
+    {
+      "event": "China GDP and Canada/UK/Japan CPI scheduled Oct 19–22",
+      "typicalReaction": "下周额外的重大经济数据可能会强化或挑战10月15日建立的通胀和利率叙事,影响加密货币套利交易和宏观头寸。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化百分比",
+      "definition": "将百分比费率计算为好像全年适用。例如,融资费率0.00005429(每8小时期间)通过乘以一年中的8小时期间数,年化为约5.94%。"
+    },
+    {
+      "term": "基础",
+      "definition": "用于计算每日价格变化的时间段类型。'UTC日'表示数据涵盖UTC午夜至午夜。'滚动24小时'表示连续的24小时窗口。"
+    },
+    {
+      "term": "广度",
+      "definition": "市场上所有资产中当日上涨价格的百分比。广度50%意味着赢家和输家数量大致相等。"
+    },
+    {
+      "term": "CARF",
+      "definition": "加密资产通用报告标准。经合组织框架,供各国共享关于加密货币账户持有人身份和交易的信息用于税务目的,类似于长期存在的银行账户FATCA标准。"
+    },
+    {
+      "term": "CBDC",
+      "definition": "中央银行数字货币。一个国家官方货币的数字版本,由中央银行而非商业银行或私人公司发行和控制。"
+    },
+    {
+      "term": "熔断机制",
+      "definition": "当指数或市场短时间内下跌预设百分比(例如韩国KOSPI下跌8%)时触发的自动交易暂停。暂停在5–20分钟内暂停交易以防止恐慌性抛售。"
+    },
+    {
+      "term": "ETF",
+      "definition": "交易所交易基金。持有比特币或以太坊并像普通股票一样在股票交易所上交易的基金。净流入表示投资者正在购买该基金;净流出表示他们正在赎回股份。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "多头和空头交易员在永续期货中的8小时期间利息支付。正费率意味着多头向空头支付(看涨情绪);负费率意味着空头向多头支付(看跌情绪)。年化后,这些小费率会累加。"
+    },
+    {
+      "term": "超大规模数据中心运营商",
+      "definition": "大规模技术公司(如Google、Amazon、Microsoft、Meta)构建和运营大型数据中心。2026年,超大规模数据中心运营商是人工智能基础设施的最大支出者。"
+    },
+    {
+      "term": "硬件钱包",
+      "definition": "物理设备(如USB驱动器或智能卡),将加密货币私钥离线存储,远离互联网。例子:Ledger、Trezor。应该防篡改。"
+    },
+    {
+      "term": "清算",
+      "definition": "当交易者的保证金头寸因损失超过抵押品而被强行平仓时。在加密中,清算级联发生在许多杠杆交易员被迫同时卖出时,通常由快速价格下跌触发。"
+    },
+    {
+      "term": "多空比",
+      "definition": "有多少交易者押注价格上升(多头)相对下降(空头)的比率。1.77的比率意味着每1个空头押注就有1.77个多头押注,表明看涨情绪更强。"
+    },
+    {
+      "term": "保证金",
+      "definition": "用于增加头寸规模的借用资金。拥有$1,000和10倍保证金的交易者可以控制$10,000的比特币。如果比特币下跌10%,交易者会丧失一切。保证金交易风险很高。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续期货合约损益的参考价格。它旨在通过平均近期交易和现货价格来防止操纵。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "市场上未平仓的多头和空头合约总数(以币或美元计量)。持仓量上升表明交易员正在建立新头寸;下降表明他们正在平仓。"
+    },
+    {
+      "term": "永续期货(perp)",
+      "definition": "没有到期日期的期货合约,允许交易员以杠杆押注未来价格走势。与标准期货不同,perp使用融资费率而非结算日期。"
+    },
+    {
+      "term": "时间点",
+      "definition": "在单一特定时刻捕获的数据(例如2026年10月15日00:00 UTC)。融资费率和持仓量是时间点数据;它们持续变化。不要跨不同时间比较它们,除非记下时间差异。"
+    },
+    {
+      "term": "现实世界资产(RWA)",
+      "definition": "被代币化并在区块链上交易的物理或传统金融资产(例如股票、债券、商品、房地产)。"
+    },
+    {
+      "term": "吃单者买卖比",
+      "definition": "积极的市场买单相对积极的市场卖单的比率。高于1.0意味着更多的买入压力;低于1.0意味着更多的卖出压力。0.97的比率意味着略多更积极的卖方。"
+    },
+    {
+      "term": "顶部头寸比",
+      "definition": "市场中最大交易者(账户规模前10%)之间多空比。更高的比率(例如1.54)表明最大参与者正在押注看涨。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "b8dd98e9c45da453"
+}

@@ -1,0 +1,399 @@
+{
+  "oneLine": "Bitcoin and Ethereum climbed modestly, but surging US factory inflation sparked liquidations and sharp losses in altcoins and Asian tech stocks as traders repriced rate-hike risk.",
+  "caveman": "A big economic report on Thursday morning showed that factory prices in the United States shot up way faster than expected — 1.3% instead of 0.6%. This made people worried the Federal Reserve might raise interest rates again, and everyone got nervous. At the same time, South Korea's stock market crashed about 8% because chip companies looked too expensive and people got scared about them spending too much money on artificial intelligence. Bitcoin and Ethereum went up just a little bit, but thousands of traders who borrowed money to bet on crypto had to sell when prices dropped, and a lot of people pulled money out of Bitcoin and Ethereum investment funds. At the end of the day, a company called Ledger announced a new device to protect wallets from hackers. It was a nervous day, not calm.",
+  "priceVolumeSummary": "Bitcoin rose 0.68% to close at $82,195 on Binance, while Ethereum gained 0.83% to $2,441; all five major exchanges (Binance, Bybit, OKX, Bitget, Gate) posted similar price action. Binance led volume for both assets with $17.7 billion in Bitcoin trading and $12.9 billion in Ethereum, while Gate and OKX handled roughly $8.7 billion and $9.3 billion respectively.",
+  "positioningSummary": "Bitcoin futures funding averaged 5.94% annualized (Binance), Ethereum 8.18% — moderate rates showing bulls willingly paid bears to hold longs. Binance data shows Bitcoin traders held 1.77 long positions for every short (the largest traders held 1.54-to-1 long bias), and Ethereum held 3.37-to-1 (largest traders 1.61-to-1) — heavy long positioning in both. However, taker buy/sell ratios tell a different story: Bitcoin traders' aggressive selling ratio was 0.97 and Ethereum's 0.91, both below 1.0, meaning more traders were aggressively selling than buying despite the long bias. Market breadth was 50.31% up — nearly perfectly balanced, suggesting indecision until the inflation shock hit at noon UTC. Altogether, traders were overextended on leverage before the PPI surprise flipped their confidence.",
+  "stocksSummary": "Asian equity perps plummeted as the AI-chip valuation scare spread overnight. South Korea's top chipmakers bore the brunt: SK Hynix fell 1.6%, Samsung split between contracts (–0.5% to –2.6%), and smaller players like Hanmi dropped 7%. Hong Kong's AI-focused names—Zhipu AI (–4.8%), MiniMax (–7.1%)—dumped, though defensive plays like Xiaomi (+5%) and Tencent (+1%) held up. Chinese stocks barely moved. US small-caps were mixed-positive. Commodities rallied on geopolitical headlines: WTI Crude +2.6%, gold +1.1%, silver +2.4%, offsetting weakness in copper (–0.8%) and natural gas (–2.1%).",
+  "movers": [
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT surged 113.5% with $218 million in volume; no clear public announcement or news explanation found.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "explanation": "SIREN jumped 46.6% on $103 million volume; no identifiable catalyst in market news or announcements.",
+      "hasCause": false
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "explanation": "TRUTH fell 26.1% on $79 million volume; no public cause identified in available news or data.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "US Producer Price Index surges 1.3% month-over-month, triggering $940M crypto liquidation wave",
+        "what": "September 2026 producer inflation jumped to 1.3% month-over-month (forecast 0.6%) and 6.3% year-over-year (forecast 5.4%), marking the largest monthly gain since March 2022. Energy prices drove 80% of the increase due to geopolitical tensions including the Iran conflict. The shock raised expectations the Federal Reserve will keep interest rates higher longer, immediately sparking a wave of margin liquidations in crypto as leveraged traders were forced to close positions, with nearly $940 million in crypto liquidations reported by day's end.",
+        "coins": "BTC, ETH, altcoins",
+        "timeUTC": "2026-10-15 12:30 UTC",
+        "source": "US Bureau of Labor Statistics / Walter Bloomberg (X) / Bloomberg, CNBC, CNN",
+        "url": "https://x.com/DeItaone/status/2110712066533200250"
+      },
+      {
+        "headline": "South Korea's KOSPI index plummets 7.57–8%, halts trading, on AI-chip valuation collapse",
+        "what": "South Korea's KOSPI benchmark fell 7.57–8% on October 15, hitting a 6-month low and triggering an automatic 20-minute trading halt when losses exceeded 8% from the prior close. The crash centered on semiconductor giants: Samsung fell up to 9.5%, SK Hynix 1.6% as investors repriced AI hyperscaler spending risk and feared oversupply from Chinese chipmakers. The index has now fallen for seven consecutive trading days. The move rippled into global crypto and altcoin trading during Asian hours, dragging down Solana, XRP, and smaller caps that track risk sentiment.",
+        "coins": "SOL, XRP, altcoins",
+        "timeUTC": "2026-10-15 00:00–08:00 UTC (Korean market hours)",
+        "source": "GuruFocus, Gulf News, Yahoo Finance, Invezz",
+        "url": "https://www.gurufocus.com/news/9124892/kospi-plummets-757-amidst-ai-chip-valuation-crisis"
+      },
+      {
+        "headline": "Ledger unveils Atom Android security device with anti-tamper detection, shipping summer 2027",
+        "what": "Ledger announced Atom, a 6.77-inch Android-based hardware wallet with built-in AMOLED display, Qualcomm processor, tamper detection (active even when powered off), and AI agent approval controls. Pricing: $849 Founders Edition, $899 regular, shipping Q3 2027. Integration with Solana Mobile confirmed. The device represents Ledger's response to a major trust crisis: compromised wallets sold through an unauthorized Asian reseller resulted in an $86 million cryptocurrency theft. The unveil signals the company's attempt to restore confidence in hardware wallet security.",
+        "coins": "All",
+        "timeUTC": "2026-10-15 14:00–16:00 UTC",
+        "source": "Cointelegraph, Decrypt, The Block, CoinDesk",
+        "url": "https://decrypt.co/381023/ledger-announces-atom-touchscreen-android-device"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Australia releases draft bill to adopt OECD crypto tax reporting framework",
+          "what": "Australia is the latest of 77 jurisdictions to commit to CARF (Common Reporting Standard for crypto assets). First international tax-data exchanges expected in 2028. The framework standardizes crypto account-holder reporting across countries.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/australia-releases-draft-bill-to-adopt-oecd-crypto-tax-reporting-framework"
+        },
+        {
+          "headline": "Russia confirms P2P crypto ban starting July 1, 2027",
+          "what": "Russians will no longer be able to trade crypto directly peer-to-peer after July 2027; all trades must route through Bank of Russia-approved brokers or exchanges. The rule follows Russia's earlier ban on transfers from crypto accounts to self-custody wallets. Citizens have until July 1, 2027 to adapt.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381079/russia-ban-peer-to-peer-bitcoin-trading"
+        },
+        {
+          "headline": "White House crypto policy vacancy looms as Patrick Witt departs",
+          "what": "President Trump's crypto adviser Patrick Witt confirmed his departure, leaving the digital assets office without a key negotiator. His exit comes as the administration's flagship crypto legislation remains stalled in Congress and regulatory jurisdiction disputes between SEC and CFTC simmer.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large"
+        },
+        {
+          "headline": "Sweden's Riksbank proposes digital krona CBDC legislation",
+          "what": "Sweden's central bank has recommended lawmakers prepare for a possible digital krona, citing concerns over foreign-currency stablecoins and the future of domestic payment systems. Echoes similar moves by the European Central Bank on the digital euro.",
+          "coins": "Stablecoins, sovereigns",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation"
+        },
+        {
+          "headline": "Australia's ASIC proposes stricter crypto exchange rules ahead of licensing deadline",
+          "what": "Australia's financial regulator ASIC has proposed tougher rules for custody, trading, and financial-stability safeguards, including a minimum A$200,000 custody floor, asset-and-revenue tests, and outside-custodian requirements, ahead of its exchange licensing deadline.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline"
+        },
+        {
+          "headline": "Hex founder Richard Heart arrested in Istanbul",
+          "what": "Turkish police arrested Hex founder Richard Heart at his Istanbul residence and seized approximately $4 million in cash and 64 luxury watches. The arrest is part of an ongoing regulatory and legal investigation.",
+          "coins": "HEX",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report"
+        },
+        {
+          "headline": "Hyperliquid founder argues for platform oversight, not blockchain regulation",
+          "what": "Hyperliquid founder Jeff Yan told Bloomberg that US regulatory oversight should target trading platforms using the blockchain, not the underlying network infrastructure itself, a distinction that could reshape how regulators approach decentralized exchanges.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/15/hyperliquid-founder-wants-u-s-oversight-of-trading-platforms-not-his-blockchain"
+        },
+        {
+          "headline": "Ex-Trump crypto adviser Bo Hines profited from stablecoin bill passage",
+          "what": "The Wall Street Journal reports that Bo Hines, a former Trump crypto adviser, co-founded a company that benefited from the passage of the GENIUS stablecoin bill, raising questions about conflicts of interest in the administration's crypto policy.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bo-hines-donald-trump-crypto-advisor-nxum-tether-conflict"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Mastercard and BVNK launch Global Money Platform for fiat and stablecoin settlement",
+          "what": "Mastercard has integrated BVNK (acquired August 2026 for $1.8B) into a new 'Global Money Platform' allowing banks, fintechs, and enterprises to hold, convert, and spend both fiat and stablecoins through a single API. Nuvei and Marqeta are among the first adopters. The launch represents the first major product integration post-acquisition.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/381057/mastercard-bvnk-global-money-platform-fiat-stablecoins"
+        },
+        {
+          "headline": "Bitcoin and Ethereum spot ETFs post combined outflows on Oct 14–15",
+          "what": "US Bitcoin spot ETFs recorded $261 million in outflows on October 14 (Fidelity FBTC –$152.7M, BlackRock IBIT –$110M, only Bitwise BITB +$2.2M), and Ethereum ETFs saw $129.5M outflows (BlackRock ETHA –$110M). On October 15, outflows continued: 3,209 BTC and 38,915 ETH redemptions, with a 7-day cumulative outflow of 5,250 BTC and 133,537 ETH. The sustained institutional redemptions reflect inflation concerns and macro uncertainty.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-14 to 2026-10-15",
+          "source": "Kucoin, Token Post",
+          "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-15"
+        },
+        {
+          "headline": "Two firms dominate corporate Bitcoin purchases despite broader adoption",
+          "what": "River and likely one other major player control a disproportionate share of corporate Bitcoin acquisitions, even as business adoption of crypto expands. The concentration highlights the distinction between headline adoption and actual capital flows.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/two-firms-control-corporate-bitcoin-buys-even-as-business-adoption-broadens/"
+        },
+        {
+          "headline": "BlackRock CIO Larry Fink warns AI data center halt could trigger recession",
+          "what": "Speaking after BlackRock Q3 earnings, CIO Larry Fink called AI infrastructure spending so central to US growth that a construction halt would be dangerous, dismissing criticism of hyperscaler energy use as 'misinformation.' The comments reflect institutional investment theses on AI and energy demand.",
+          "coins": "Indirect (macro sentiment)",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381068/blackrock-larry-fink-ai-data-center-halt-recession"
+        },
+        {
+          "headline": "DeFi Development boosts CHAD dividend to 14% as Solana treasury expands",
+          "what": "DeFi Development raised the dividend on its CHAD preferred stock from 13% to 14%, using CHAD sales to expand its Solana holdings. The move signals confidence in SOL and yields being used to fund long-term accumulation.",
+          "coins": "SOL, CHAD",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-15-defi-development-chad-dividend-rate-14-418694"
+        },
+        {
+          "headline": "Nasdaq-listed Tron sets up $200M ATM offering to fuel TRX acquisitions",
+          "what": "Tron, a Nasdaq-listed treasury company holding ~$237 million in TRX tokens, established a $200 million at-the-market (ATM) share offering to raise capital for accelerated TRX purchases alongside its daily accumulation strategy.",
+          "coins": "TRX",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nasdaq-tron-200m-atm-offering-fuel-trx-acquisitions"
+        },
+        {
+          "headline": "CleanSpark and BitFuFu bitcoin production slip in September",
+          "what": "Bitcoin mining reports from September show mixed results: CleanSpark is ending monthly production disclosures, while BitFuFu faces uncertainty over its Ethiopia mining deal. Canaan holdings remained flat. The sector continues consolidation and geographic exposure shifts.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-15-cleanspark-bitfufu-bitcoin-production-slip-september-canaan-remains-flat-418686"
+        },
+        {
+          "headline": "Multiliquid tokenized assets settlement platform raises $8M",
+          "what": "Multiliquid, a settlement platform for tokenized assets, closed $8 million across pre-seed and seed rounds with Polychain Capital leading the seed. The platform targets institutional settlement of on-chain real-world assets.",
+          "coins": "Tokenized assets, RWAs",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance.US seeks $1B valuation in potential $100M funding round",
+          "what": "Binance.US is fundraising at a $1 billion valuation in a round targeting ~$100 million, aiming to regain market share following Binance's 2023 US settlement. The round would support expansion of US trading and custody services.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-us-funding-valuation-billion"
+        },
+        {
+          "headline": "Farcaster acquired by Balaji Srinivasan's Network School",
+          "what": "Balaji Srinivasan's Network School acquired the Farcaster social network from Neynar. Users must now sign a 'social smart contract' or lose write access and fall back to read-only mode. The acquisition shifts the platform's governance model.",
+          "coins": "All (ecosystem)",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-15-network-school-acquires-farcaster-from-neynar-418720"
+        },
+        {
+          "headline": "Ripple Prime adds real-world asset perpetual swaps on Hyperliquid",
+          "what": "Ripple Prime launched RWA (real-world asset) perpetual swaps on Hyperliquid referencing equities, ETFs, metals, energy, and currencies with 24/7 trading and on-chain settlement, expanding the availability of tokenized asset derivatives.",
+          "coins": "XRP, tokens on Hyperliquid",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Scammer loses $4.8M in stolen funds on tampered Ledger wallets",
+          "what": "A scammer who stole cryptocurrency and stored the funds on counterfeit Ledger devices reportedly lost $4.8 million when the tampered hardware wallets were discovered and locked. The incident highlights the dangers of reseller-channel tampering and validates legitimate owners' security concerns.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/scammer-loses-48m-stored-on-tampered-ledgers-asia-express"
+        },
+        {
+          "headline": "South Korea names Streami and Pravang in financial-sector breach wave",
+          "what": "South Korea's Financial Supervisory Commission identified Streami and Pravang as two of 16 financial companies hit in a coordinated breach wave that also affected major banks. The FSC is planning wider security reforms across the sector.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/south-korea-names-two-crypto-firms-in-breach-wave-that-also-hit-major-banks/"
+        },
+        {
+          "headline": "Brooklyn prosecutors and FBI dismantle Russian-language crypto fraud network",
+          "what": "Law enforcement took down a major Russian-language crypto fraud operation targeting diaspora communities through fake Facebook ads and bogus financial advisers, then running recovery scams on victims. The network allegedly stole tens of millions. Police seized 112 servers and 241 websites.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin quantum fixes could lock out legitimate owners, researcher warns",
+          "what": "Analyst Nic Carter warns that while quantum-resistant signatures can protect Bitcoin, safer implementations could prevent legitimate owners who can't migrate or prove prior control from accessing their coins. The tradeoff between security and accessibility remains unresolved.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/quantum-fixes-protect-bitcoin-but-legit-owners-risk-lockout/"
+        },
+        {
+          "headline": "84 million XRP added to exchange wallets over Oct 12–15 (custody build or selling unclear)",
+          "what": "On-chain tracking shows 84 million XRP moved into exchange wallets during October 12–15, raising questions about whether the coins are being sold or merely held in custody. The balance data cannot establish completed sales.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-12 to 2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-exchange-wallets-added-84-million-tokens-in-three-days-as-price-slipped-toward-1-30/"
+        },
+        {
+          "headline": "Google's Willow quantum chip cuts error rates 40x on magic states",
+          "what": "Google DeepMind announced Willow, a quantum processor that reduces errors 40-fold on 'magic states'—the scarce, expensive quantum states that limit today's machines. Willow is a step toward smaller, practical quantum computers, and eventually toward machines that could theoretically threaten current encryption standards (far from imminent).",
+          "coins": "All (speculative, long-term risk/opportunity)",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381102/google-cracked-quantum-computing-biggest-bottlenecks"
+        },
+        {
+          "headline": "Ethereum validator exit plan would still preserve earnings barriers for new stakers",
+          "what": "Proposed Ethereum faster-exit mechanisms would reduce the time to exit staking, but direct deposits and pooled staking would continue bearing the cost of inactive staking capital, meaning new validators face an approximately three-week entry delay before earnings accrue.",
+          "coins": "ETH",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereums-faster-exit-plan-would-preserve-an-earnings-hurdle-for-new-stakers/"
+        },
+        {
+          "headline": "Starknet opens seven-day governance vote on independent post-quantum Layer 1",
+          "what": "Starknet holders are voting on whether to research a new, independent Layer 1 blockchain built to resist quantum computing attacks. The vote reflects ecosystem concerns over long-term encryption security.",
+          "coins": "STRK",
+          "timeUTC": "2026-10-15",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-15-starknet-opens-seven-day-vote-on-independent-layer-1-over-quantum-risks-418673"
+        },
+        {
+          "headline": "AI agents show 89% wallet refill rate, but overall user retention remains unmeasured",
+          "what": "Chainalysis reports a 89% refill rate for wallets active on multiple days (measuring repeat-user behavior), but the metric covers only a subset of wallets, leaving overall AI agent adoption and independent commercial demand unclear.",
+          "coins": "All",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ai-agents-keep-coming-back-for-crypto-as-x402-wallet-refill-rate-surges-to-89/"
+        },
+        {
+          "headline": "Ethereum and altcoins face 'outsized drawdowns' from macro pressures",
+          "what": "Market analysts attribute the larger percentage drops in Ethereum, Solana, XRP, and other altcoins on October 15 to heightened macro uncertainty and deleveraging, while Bitcoin held relatively better due to its larger size and use as a hedge.",
+          "coins": "ETH, SOL, XRP, altcoins",
+          "timeUTC": "2026-10-15",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381034/ethereum-altcoins-see-outsized-drawdowns-due-to-macro-pressures"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-15",
+    "summary": "US Bitcoin and Ethereum spot ETFs posted combined outflows of $261 million and $129.5 million respectively on October 14, with outflows continuing on October 15 (3,209 BTC and 38,915 ETH redeemed). Seven-day cumulative outflows: 5,250 BTC and 133,537 ETH. The sustained redemptions reflect institutional retreat amid inflation and Fed rate-hike concerns.",
+    "source": "Kucoin, Token Post (ETF tracking data)",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-etfs-record-net-outflows-on-october-15"
+  },
+  "calendarNotes": [
+    {
+      "event": "Core PPI and Retail Sales (US) released at 12:30 UTC Oct 15",
+      "typicalReaction": "Headline PPI beat forecast significantly (+1.3% MoM vs +0.6%), triggering immediate selloff as Fed rate-hike expectations rose and margin liquidations cascaded through crypto markets over the next 6 hours."
+    },
+    {
+      "event": "Fed Chairman Warsh Speaks at 03:30 UTC Oct 16",
+      "typicalReaction": "Upcoming remarks from Federal Reserve leadership will be closely watched for any signals on interest-rate policy direction following the inflation surprise. Market may price in additional commentary on rate persistence."
+    },
+    {
+      "event": "China GDP and Canada/UK/Japan CPI scheduled Oct 19–22",
+      "typicalReaction": "Additional major economic data points next week could either reinforce or challenge the inflation-and-rates narrative established on October 15, affecting crypto carry trades and macro positioning."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized percentage",
+      "definition": "A percentage rate calculated as if it applied for a full year. For example, a funding rate of 0.00005429 (per 8-hour period) annualizes to ~5.94% by multiplying by the number of 8-hour periods in a year."
+    },
+    {
+      "term": "Basis",
+      "definition": "The type of time period used to calculate daily price changes. 'UTC-day' means the data covers midnight to midnight in Coordinated Universal Time (UTC). 'Rolling-24h' means a continuous 24-hour window."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all assets in a market that rose in price during the day. 50% breadth means roughly equal numbers of winners and losers."
+    },
+    {
+      "term": "CARF",
+      "definition": "Common Reporting Standard for Crypto Assets. An OECD framework for countries to share information about cryptocurrency account holders' identities and transactions for tax purposes, similar to the long-standing FATCA standard for bank accounts."
+    },
+    {
+      "term": "CBDC",
+      "definition": "Central Bank Digital Currency. A digital version of a country's official money, issued and controlled by the central bank rather than by commercial banks or private companies."
+    },
+    {
+      "term": "Circuit breaker",
+      "definition": "An automatic trading halt triggered when an index or market falls by a preset percentage (e.g., 8% on South Korea's KOSPI) within a short time. The halt pauses trading for 5–20 minutes to prevent panic selling."
+    },
+    {
+      "term": "ETF",
+      "definition": "Exchange-Traded Fund. A fund that holds Bitcoin or Ethereum and trades on a stock exchange like a regular stock. Net inflow means investors are buying the fund; net outflow means they are redeeming shares."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "An 8-hour interest payment between long and short traders in perpetual futures. Positive rates mean longs pay shorts (bullish sentiment); negative rates mean shorts pay longs (bearish sentiment). Annualized, these small rates add up."
+    },
+    {
+      "term": "Hyperscaler",
+      "definition": "A massive technology company (e.g., Google, Amazon, Microsoft, Meta) that builds and operates huge data centers. In 2026, hyperscalers are the biggest spenders on artificial intelligence infrastructure."
+    },
+    {
+      "term": "Hardware wallet",
+      "definition": "A physical device (like a USB stick or smart card) that stores cryptocurrency private keys offline, away from the internet. Examples: Ledger, Trezor. Supposed to be tamper-proof."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a trader's margin position is forcibly closed because losses exceed their collateral. In crypto, a liquidation cascade happens when many leveraged traders are forced to sell at once, often triggered by a rapid price drop."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of how many traders are betting on prices going up (long) versus down (short). A ratio of 1.77 means 1.77 long bets for every 1 short bet, indicating more bullish sentiment."
+    },
+    {
+      "term": "Margin",
+      "definition": "Borrowed money used to increase the size of a position. A trader with $1,000 and 10× margin can control $10,000 of Bitcoin. If Bitcoin drops 10%, the trader loses everything. Margin trading is risky."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate profit/loss on a perpetual futures contract. It's designed to prevent manipulation by averaging recent trades and the underlying spot price."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of unfilled long and short contracts open in a market (measured in coins or in dollars). Rising open interest suggests traders are building new positions; falling suggests they are closing them."
+    },
+    {
+      "term": "Perpetual futures (perp)",
+      "definition": "A futures contract with no expiration date, allowing traders to bet on future price movements with leverage. Unlike standard futures, perps use a funding rate instead of a settlement date."
+    },
+    {
+      "term": "Point-in-time",
+      "definition": "Data captured at a single specific moment (e.g., 00:00 UTC on October 15). Funding rates and open interest are point-in-time; they change continuously. Do not compare them across different times without noting the time difference."
+    },
+    {
+      "term": "Real-world asset (RWA)",
+      "definition": "A physical or traditional financial asset (e.g., stocks, bonds, commodities, real estate) that is tokenized and traded on a blockchain."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A ratio of aggressive market buy orders to aggressive market sell orders. Above 1.0 means more buying pressure; below 1.0 means more selling pressure. A ratio of 0.97 means slightly more aggressive sellers."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "The long-to-short ratio among the largest traders (the top 10% by account size) in a market. A higher ratio (e.g., 1.54) indicates the biggest players are betting bullish."
+    }
+  ],
+  "_source": "cli"
+}

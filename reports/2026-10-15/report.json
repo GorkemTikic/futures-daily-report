@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "kind": "market",
+  "dateLong": "Thursday, 15 October 2026",
+  "coversUTC": "2026-10-15 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum climbed modestly, but surging US factory inflation sparked liquidations and sharp losses in altcoins and Asian tech stocks as traders repriced rate-hike risk.",
+  "newsCount": 32,
+  "macro": {
+    "BTC": 0.6952039987702768,
+    "ETH": 0.8324313605605214
+  },
+  "topMover": {
+    "symbol": "AGTUSDT",
+    "chgPct": 113.54332566507404
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "16 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

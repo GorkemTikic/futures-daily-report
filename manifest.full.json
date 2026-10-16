@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-15T00:10:06.613Z",
-  "count": 120,
+  "generatedAt": "2026-10-16T00:09:03.628Z",
+  "count": 121,
   "counts": {
-    "total": 120,
-    "market": 33,
+    "total": 121,
+    "market": 34,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-14",
+  "latest": "2026-10-15",
   "reports": [
+    {
+      "date": "2026-10-15",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.6952039987702768,
+        "ETH": 0.8324313605605214
+      },
+      "marketSummary": "Bitcoin and Ethereum climbed modestly, but surging US factory inflation sparked liquidations and sharp losses in altcoins and Asian tech stocks as traders repriced rate-hike risk.",
+      "oneLine": "Bitcoin and Ethereum climbed modestly, but surging US factory inflation sparked liquidations and sharp losses in altcoins and Asian tech stocks as traders repriced rate-hike risk.",
+      "newsCount": 32,
+      "topMover": {
+        "symbol": "AGTUSDT",
+        "chgPct": 113.54332566507404
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-15/summary_2026-10-15.html",
+        "pdf": "reports/2026-10-15/summary_2026-10-15.pdf",
+        "md": "reports/2026-10-15/summary_2026-10-15.md"
+      }
+    },
     {
       "date": "2026-10-14",
       "kind": "market",
