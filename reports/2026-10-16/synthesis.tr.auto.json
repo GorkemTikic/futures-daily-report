@@ -1,23 +1,23 @@
 {
-  "oneLine": "5 farklı borsa üzerinden toplanan pazar verileri; bu işlemde haber özeti hazırlanamamıştır.",
+  "oneLine": "5 borsadan toplanan pazar verileri; haber özeti bu çalıştırmada oluşturulamadı.",
   "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosunu inceleyiniz. (Otomatik özet bu dönemde hazırlanmadı — veriler doğrudan gösterilmiştir.)",
-  "positioningSummary": "Aşağıdaki pozisyon tablosunu inceleyiniz.",
+  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Bu çalıştırma için otomatik anlatı oluşturulamadı — rakamlar doğrudan gösterilmiştir.)",
+  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakınız.",
   "stocksSummary": "",
   "movers": [
     {
       "symbol": "AGTUSDT",
-      "explanation": "Bu çalıştırmada açıklama hazırlanmadı.",
+      "explanation": "Bu çalıştırma için anlatı oluşturulamadı.",
       "hasCause": false
     },
     {
       "symbol": "ZEREBROUSDT",
-      "explanation": "Bu çalıştırmada açıklama hazırlanmadı.",
+      "explanation": "Bu çalıştırma için anlatı oluşturulamadı.",
       "hasCause": false
     },
     {
       "symbol": "ICNTUSDT",
-      "explanation": "Bu çalıştırmada açıklama hazırlanmadı.",
+      "explanation": "Bu çalıştırma için anlatı oluşturulamadı.",
       "hasCause": false
     }
   ],

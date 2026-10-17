@@ -1,23 +1,23 @@
 {
-  "oneLine": "来自5个交易所的市场数据；此次运行无法生成新闻综合分析。",
+  "oneLine": "跨5个交易所收集的市场数据；本次运行未能进行新闻综合分析。",
   "caveman": "",
-  "priceVolumeSummary": "详见下方交易所表格。（此次运行无自动分析——直接显示数据。）",
-  "positioningSummary": "详见下方持仓表格。",
+  "priceVolumeSummary": "请参见下方交易所表格。（本次运行未生成自动化描述 — 数据直接展示。）",
+  "positioningSummary": "请参见下方持仓表格。",
   "stocksSummary": "",
   "movers": [
     {
       "symbol": "AGTUSDT",
-      "explanation": "此次运行无分析数据。",
+      "explanation": "本次运行未生成描述。",
       "hasCause": false
     },
     {
       "symbol": "ZEREBROUSDT",
-      "explanation": "此次运行无分析数据。",
+      "explanation": "本次运行未生成描述。",
       "hasCause": false
     },
     {
       "symbol": "ICNTUSDT",
-      "explanation": "此次运行无分析数据。",
+      "explanation": "本次运行未生成描述。",
       "hasCause": false
     }
   ],
