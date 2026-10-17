@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-17T01:08:50.480Z",
+  "generatedAt": "2026-10-17T02:07:29.884Z",
   "count": 122,
   "counts": {
     "total": 122,
     "market": 35,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-10-16",
   "head": 500,
@@ -22,9 +22,9 @@
         "BTC": -0.7538929440389258,
         "ETH": -0.7423886724271394
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum fell 0.75% as Federal Reserve Chairman Warsh offered no rate-cut signals while Asian tech stocks plummeted and oil surged.",
+      "oneLine": "Bitcoin and Ethereum fell 0.75% as Federal Reserve Chairman Warsh offered no rate-cut signals while Asian tech stocks plummeted and oil surged.",
+      "newsCount": 10,
       "topMover": {
         "symbol": "AGTUSDT",
         "chgPct": 70.28430912054814
@@ -41,10 +41,8 @@
         "tr",
         "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-10-16/summary_2026-10-16.html",
