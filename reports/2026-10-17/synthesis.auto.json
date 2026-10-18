@@ -1,0 +1,229 @@
+{
+  "oneLine": "Market-wide weakness hit most cryptocurrencies on October 17, with Bitcoin and Ethereum posting modest losses while 85% of smaller assets fell sharply.",
+  "caveman": "Today was a down day for almost all crypto. Bitcoin fell just a little (0.15%), and Ethereum fell a bit more (0.87%), which isn't very dramatic. But most other crypto coins fell much harder — about 85 out of every 100 coins went down. The total value of all crypto lost about 3%. People's feelings about the market shifted slightly — it's still more greedy than fearful, but the mood cooled from yesterday. We don't see one big news story explaining today's move; it looks like traders just felt less confident overall.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices stayed consistent across all five major trading venues (Binance, Bybit, OKX, Bitget, Gate). Bitcoin closed around $81,445–$81,455, down 0.15–0.17% on the day. Ethereum closed around $2,401, down 0.86–0.88%. Binance led volume in both: BTC $3.6 billion and ETH $4.1 billion traded.",
+  "positioningSummary": "Traders remain bullish despite the losses. Bitcoin's long-to-short ratio stood at 1.73, meaning longs outnumbered shorts; the largest traders leaned even more long at 1.78. Ethereum had stronger long bias at 2.92. Funding rates stayed positive across all exchanges (ranging 2–11% annualized), signaling traders still expect prices to rise. Taker buy pressure slightly exceeded sell pressure (1.05 ratio on BTC, 1.02 on ETH), showing traders buying into the weakness. Both BTC and ETH open interest fell slightly (−0.16% and −0.15%, respectively), suggesting some position liquidation. Market breadth—the percentage of all Binance perpetuals that gained on the day—was weak at just 14.88%, with 672 of 793 markets down.",
+  "stocksSummary": "Saturday October 17 was a weekend, so US and Asian stock markets (New York, Hong Kong, Korea, China) were closed. Asian-listed stock perps showed weakness—SK Hynix (down 2.45%), Samsung (down 1.71%), and AI firms Zhipu (down 3.45%) and GigaDevice (down 3.30%) traded lower—but these reflect no actual cash-market moves, only weekend perp trading. Oil was nearly flat (WTI +0.06%, Brent +0.13%). Gold spot price was essentially unchanged.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "Q surged 111.4% with $850 million in volume. No clear public cause identified in crypto news sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT jumped 35.7% with $843 million in volume. No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "AVA climbed 28.7% with $76 million in volume. No clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance Pool mining shutdown announced for November 10, 2026",
+        "what": "Binance announced it will shut down Binance Pool, Cloud Mining, and Pool Savings at 07:00 UTC on November 10. Miners have 24 days to redirect their equipment to another pool. Mining records remain viewable for 14 days after shutdown (until November 24). The exchange cited an ongoing review of products and services as the reason.",
+        "coins": "Bitcoin and other proof-of-work coins",
+        "timeUTC": "2026-10-17",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/binance-will-shut-its-mining-pool-on-nov-10-giving-miners-a-deadline-to-move/"
+      },
+      {
+        "headline": "Nine crypto firms form Quantum Alliance to defend against future quantum threats",
+        "what": "A coalition of blockchain companies—including Postquant Labs, Midnight Foundation, Hacken, Quantus, American Fortress, Intmax, Keystone, and Abelian—launched the Quantum Alliance on October 15-16. The group aims to create open standards for post-quantum security and to define and verify what it means for blockchains to be quantum-resistant. This comes after Google's Willow quantum processor demonstrated a 40-fold reduction in quantum errors on October 15, raising awareness that roughly 6.04 million BTC (30% of supply) sit in quantum-exposed addresses.",
+        "coins": "Bitcoin, Ethereum, all blockchains",
+        "timeUTC": "2026-10-15/16",
+        "source": "Decrypt, CoinDesk, CryptoSlate",
+        "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed"
+      },
+      {
+        "headline": "Goldman Sachs, Wells Fargo, and Morgan Stanley see tokenization as growth opportunity",
+        "what": "Three of the world's largest banks publicly framed tokenized assets and digital securities as business opportunities rather than threats. Goldman Sachs sees tokenization expanding its trading business and has joined a tokenization trial with DTCC (July 2026). Wells Fargo reports its tokenized deposit system is already processing cross-border payments in under two minutes and is in production. Morgan Stanley expects to support tokenized equities by Q1 2027, citing tokenization as a way to create demand for wealth management advisory services.",
+        "coins": "USDC, other stablecoins; institutional RWA tokens",
+        "timeUTC": "2026-10-17",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Fairshake Super PAC allocates $7 million more toward defeating US Senator Sherrod Brown",
+          "what": "An FEC filing showed the Defend American Jobs PAC (affiliated with the Fairshake crypto Super PAC) disclosed roughly $7 million in additional advertising spending against Ohio's Senator Sherrod Brown, a vocal crypto critic. The PAC's total spending against Brown now exceeds $46 million with days to go before the election. The spending reflects the crypto industry's organized effort to influence US electoral outcomes.",
+          "coins": "Cross-industry political spending",
+          "timeUTC": "2026-10-17",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381238/crypto-super-pac-fairshake-pours-millions-more-into-defeating-sherrod-brown"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "US spot Bitcoin and Ethereum ETFs record net outflows on October 16 (context)",
+          "what": "On October 16, spot Bitcoin ETFs posted $82.39 million in net outflows, led by BlackRock's IBIT ($71.78 million out). Ethereum ETFs shed $69.68 million the same day, with BlackRock's ETHA accounting for the entire net outflow. This marks a third consecutive trading day of ETH fund withdrawals. Cumulative ETF inflows for the year stand at $56.88 billion (BTC) and $12.94 billion (ETH).",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-16",
+          "source": "Farside Investors, CryptoBriefing",
+          "url": "https://cryptobriefing.com/bitcoin-etfs-82-million-outflows-october-16/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Bitget to discontinue services for some users",
+          "what": "Binance-affiliated exchange Bitget announced it will discontinue services for a subset of users in a one-off operational exercise. The exchange stated that all user funds are safe and that normal exchange operations will continue during the transition. No timeline was specified.",
+          "coins": "All Bitget-traded assets",
+          "timeUTC": "2026-10-17",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitget-to-discontinue-services-for-some-users-in-one-off-exercise"
+        },
+        {
+          "headline": "Polygon acquires Coinme to enter mainstream payments sector",
+          "what": "Ethereum layer-2 network Polygon announced an acquisition of Coinme, a payments and crypto-to-fiat service. Polygon CEO Marc Boiron said the deal will help Polygon control customer relationships and capture payments revenue that previously went to intermediaries like Visa and Stripe, positioning the blockchain for the payments market.",
+          "coins": "Polygon (MATIC), USDC",
+          "timeUTC": "2026-10-17",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger hardware wallet theft follow-up: Southeast Asia supply chain compromise",
+          "what": "A follow-up investigation found that cryptocurrency on Ledger hardware wallets sold through certain Southeast Asian resellers has been drained, even though the wallets appeared to function normally. This suggests tampering occurred before the wallets reached customers. Ledger has asked resellers in seven Asian markets to pull devices from sale. Earlier reports indicated scammers may have extracted $86 million from victims.",
+          "coins": "All crypto stored on affected Ledger devices",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/who-handled-your-wallet-before-you-did/"
+        },
+        {
+          "headline": "Eclair Lightning wallet patches browser-based command injection vulnerability",
+          "what": "Eclair, a Lightning Network wallet, released a patch on October 15 to block a cached-authentication route in its API that could allow a malicious web page to send commands to a user's Lightning node. The patch requires direct browser interfaces to use a backend, preventing unauthorized access.",
+          "coins": "Bitcoin (Lightning Network)",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/eclair-blocks-browser-requests-that-could-let-a-webpage-control-a-bitcoin-lightning-node/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US stock market closed on October 16; Asian markets closed on October 17 (weekend)",
+          "what": "October 17 was a Saturday, so Asian stock markets (Korea, Hong Kong, China) had no cash session. US equity markets closed on Friday October 16 with declines: S&P 500 (SPY) down 1.11%, Nasdaq Composite (ONEQ) down 2.12%. These US numbers are stale for the Oct 17 report.",
+          "coins": "N/A",
+          "timeUTC": "2026-10-16",
+          "source": "Twelve Data",
+          "url": "N/A"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Ethereum Hoodi scaling test scheduled for October 26 with 200 million gas target",
+          "what": "Ethereum developers announced a 200 million gas test (codenamed Glamsterdam) for October 26 as part of the Hoodi upgrade roadmap. The test requires node software upgrades. A mainnet activation date for the full upgrade has not yet been decided, but this represents ongoing Ethereum scaling work.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereum-sets-october-26-scaling-test-with-hoodi-node-upgrades-required/"
+        },
+        {
+          "headline": "Circle plans expansion into 40 emerging markets with USDC",
+          "what": "Circle, the issuer of USDC stablecoin, announced plans to enter approximately 40 emerging and developing markets across Southeast Asia, Latin America, Africa, and the Middle East. CEO Jeremy Allaire cited rising demand for stablecoins in those regions as a growth opportunity for Circle.",
+          "coins": "USDC",
+          "timeUTC": "2026-10-17",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circles-allaire-says-stablecoin-issuer-looking-to-enter-40-developing-markets-report"
+        },
+        {
+          "headline": "TRON processed $2.2 trillion in stablecoin volume; TRX supply grew 108 straight days",
+          "what": "Data analysis showed that TRON network moved $2.2 trillion in stablecoin transfers. However, TRX token supply has grown on 108 consecutive days (July 1–October 16) as new issuance outpaced burns. The growth reflects the dynamics of mining rewards versus fee-based burns on the network.",
+          "coins": "TRX, USDT, USDC (on TRON)",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/trons-stablecoin-growth-has-not-made-trx-deflationary/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-16",
+    "summary": "US spot Bitcoin ETFs recorded $82.39 million in net outflows on October 16, with BlackRock's IBIT leading withdrawals ($71.78 million). US spot Ethereum ETFs shed $69.68 million the same day, also led by BlackRock's ETHA. This marks the third consecutive trading day of ETH fund outflows. Cumulative 2026 inflows stand at $56.88 billion (BTC) and $12.94 billion (ETH).",
+    "source": "Farside Investors / CryptoBriefing",
+    "url": "https://cryptobriefing.com/bitcoin-etfs-82-million-outflows-october-16/"
+  },
+  "calendarNotes": [
+    {
+      "event": "China GDP (October 2026) — Monday, October 19 at 02:00 UTC",
+      "typicalReaction": "Major economic data can shift risk sentiment. Weaker China growth often pressures risk assets like crypto; stronger data can support them."
+    },
+    {
+      "event": "Canada CPI (October 2026) — Monday, October 19 at 12:30 UTC",
+      "typicalReaction": "Inflation data influences central bank rate expectations, which affects capital flows and crypto sentiment globally."
+    },
+    {
+      "event": "UK CPI Inflation (October 2026) — Wednesday, October 21 at 06:00 UTC",
+      "typicalReaction": "UK inflation trends influence Bank of England policy outlook, which can shift sterling and risk appetite globally."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate that traders who hold long positions (bets on price going up) pay to traders who hold short positions (bets on price going down) in perpetual futures contracts. A positive funding rate means longs are paying shorts. High funding rates signal most traders are bullish and willing to pay to stay long."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of outstanding derivative contracts (like perpetual futures) that have not been closed or settled. It measures how much traders collectively have at risk in the market. Rising open interest often signals conviction; falling open interest can signal liquidations or reduced trader engagement."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage change in total open interest over a period (usually a day). Positive change means more contracts were opened; negative change means contracts were closed or liquidated."
+    },
+    {
+      "term": "Long-to-short ratio (or long/short ratio)",
+      "definition": "The ratio of long positions (bets that price will rise) to short positions (bets that price will fall). A ratio of 2.0 means there are twice as many longs as shorts. Ratios above 1.0 indicate more bullish positioning; below 1.0 indicates more bearish positioning."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used in perpetual futures markets to calculate profits and losses and to trigger liquidations. It is designed to track the spot price more fairly than the last-traded price, which can be distorted by brief surges of trading activity."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buy orders (takers buying at the ask) to aggressive sell orders (takers selling at the bid) over a period. A ratio above 1.0 means more aggressive buying; below 1.0 means more aggressive selling. It indicates which side is initiating trades more actively."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of cryptocurrencies or other assets that gained price on a given day (or period), as a gauge of overall market health. High breadth (e.g., 70% up) suggests broad strength across many assets; low breadth (e.g., 15% up) suggests only a few leaders are up while most are down."
+    },
+    {
+      "term": "Top trader position ratio",
+      "definition": "The long-to-short ratio among the largest traders on a given exchange. It shows whether the biggest, most sophisticated traders are leaning long or short. A ratio of 1.8 means the largest traders have 1.8 times more long exposure than short."
+    },
+    {
+      "term": "Perpetual futures (or perps)",
+      "definition": "Derivative contracts that track the price of an underlying asset (like Bitcoin) but have no expiration date. Traders can go long (betting price rises) or short (betting price falls) with leverage, paying or receiving funding rates based on market imbalance."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowing money to increase the size of a position. For example, 5x leverage means you control 5 times the position size of your own capital. Leverage magnifies both gains and losses, and can lead to liquidation if the price moves against you."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to hold a stable value, typically pegged to a fiat currency like the US dollar (e.g., USDC, USDT). Stablecoins are used for payments, savings, and to move between crypto and traditional finance with minimal price risk."
+    },
+    {
+      "term": "Tokenization",
+      "definition": "The process of converting rights or assets into digital tokens on a blockchain. For example, a company can tokenize its shares, a bank can tokenize deposits, or an asset manager can tokenize fund shares. Tokenization can speed up trading, settlement, and ownership transfer."
+    },
+    {
+      "term": "Quantum threat (or quantum risk)",
+      "definition": "The theoretical risk that a sufficiently powerful quantum computer could break the elliptic curve cryptography used to secure Bitcoin and Ethereum private keys, allowing an attacker to steal coins. Current quantum computers are far too weak to pose this risk, but advances in quantum computing could threaten Bitcoin decades in the future."
+    },
+    {
+      "term": "Mining (or hash rate)",
+      "definition": "The process of solving complex mathematical puzzles to validate transactions and create new blocks on a proof-of-work blockchain (like Bitcoin). Miners compete to solve puzzles, and the winner receives newly minted cryptocurrency and transaction fees. Hash rate is the combined computational power of all miners."
+    },
+    {
+      "term": "Real-world assets (RWAs)",
+      "definition": "Tangible or intangible assets that exist outside the blockchain (e.g., real estate, commodities, company shares, bonds) that are tokenized or tracked on-chain for trading, settlement, or transparency purposes."
+    }
+  ],
+  "_source": "cli"
+}

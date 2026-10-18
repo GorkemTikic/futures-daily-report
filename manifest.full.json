@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-17T02:07:29.884Z",
-  "count": 122,
+  "generatedAt": "2026-10-18T00:08:28.236Z",
+  "count": 123,
   "counts": {
-    "total": 122,
-    "market": 35,
+    "total": 123,
+    "market": 36,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-16",
+  "latest": "2026-10-17",
   "reports": [
+    {
+      "date": "2026-10-17",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.16523596995843715,
+        "ETH": -0.877909856364536
+      },
+      "marketSummary": "Market-wide weakness hit most cryptocurrencies on October 17, with Bitcoin and Ethereum posting modest losses while 85% of smaller assets fell sharply.",
+      "oneLine": "Market-wide weakness hit most cryptocurrencies on October 17, with Bitcoin and Ethereum posting modest losses while 85% of smaller assets fell sharply.",
+      "newsCount": 13,
+      "topMover": {
+        "symbol": "QUSDT",
+        "chgPct": 111.42935641184148
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-17/summary_2026-10-17.html",
+        "pdf": "reports/2026-10-17/summary_2026-10-17.pdf",
+        "md": "reports/2026-10-17/summary_2026-10-17.md"
+      }
+    },
     {
       "date": "2026-10-16",
       "kind": "market",

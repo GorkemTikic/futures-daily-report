@@ -1,0 +1,230 @@
+{
+  "oneLine": "市场整体疲软波及大多数加密货币，10月17日比特币和以太坊跌幅温和，但小盘币中约85%大幅下跌。",
+  "caveman": "今天加密货币普遍下跌。比特币只跌了一点点（0.15%），以太坊跌幅稍大（0.87%），都不算特别严重。但其他大多数加密币跌得更狠——平均每100个币中有85个下跌。整个加密货币市场的总价值损失了约3%。人们对市场的看法有所转变——仍然偏乐观，但情绪比昨天冷静了些。我们没看到哪一条大新闻解释了今天的跌势；看起来交易者们的信心只是普遍下降了。",
+  "priceVolumeSummary": "比特币和以太坊价格在五大交易所（币安、Bybit、OKX、Bitget、Gate）表现一致。比特币收盘价约81,445–81,455美元，日跌幅0.15–0.17%。以太坊收盘价约2,401美元，日跌幅0.86–0.88%。币安交易量领先：比特币成交额36亿美元，以太坊成交额41亿美元。",
+  "positioningSummary": "尽管价格下跌，交易者仍保持看涨立场。比特币多空持仓比为1.73，说明多头头寸超过空头；大户更倾向多头，比率达1.78。以太坊多头倾向更强，比率为2.92。所有交易所的资金费率保持正值（年化费率在2–11%范围内），表明交易者仍预期价格上涨。主动买压略高于卖压（比特币比率1.05，以太坊1.02），显示交易者在下跌时逆势建仓。比特币和以太坊的未平仓头寸都小幅下降（分别为−0.16%和−0.15%），暗示部分头寸被强制平仓。市场广度——币安永续合约中当日上涨的市场占比——较弱，仅14.88%，793个市场中有672个下跌。",
+  "stocksSummary": "10月17日是周六，美国和亚洲股票市场（纽约、香港、韩国、中国）休市。亚洲上市股票永续合约表现疲软——SK Hynix（下跌2.45%）、三星（下跌1.71%）和AI企业智谱（下跌3.45%）和兆易创新（下跌3.30%）交易价格走低——但这些只是周末永续合约交易，不代表实际现货市场走势。石油基本持平（WTI +0.06%，布伦特油 +0.13%）。黄金现货价格基本没变。",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "Q币暴涨111.4%，成交额8.5亿美元。加密新闻源中未发现明确的上涨原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT币上涨35.7%，成交额8.43亿美元。未发现明确的上涨原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "AVA币上涨28.7%，成交额7600万美元。未发现明确的上涨原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "币安矿池宣布11月10日关闭",
+        "what": "币安宣布将在11月10日07:00 UTC关闭币安矿池、云挖矿和矿池储蓄服务。矿工有24天时间将设备重定向到其他矿池。关闭后的14天内（至11月24日）挖矿记录仍可查看。交易所称该决定源于对产品和服务的持续审查。",
+        "coins": "比特币和其他工作量证明币种",
+        "timeUTC": "2026-10-17",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/binance-will-shut-its-mining-pool-on-nov-10-giving-miners-a-deadline-to-move/"
+      },
+      {
+        "headline": "九家加密企业组建量子联盟应对未来量子威胁",
+        "what": "包括Postquant Labs、Midnight Foundation、Hacken、Quantus、American Fortress、Intmax、Keystone和Abelian在内的区块链企业联盟于10月15-16日推出量子联盟。该组织旨在为后量子安全创建开放标准，并定义和验证区块链对量子的耐受性。这一举措之前，谷歌的Willow量子处理器在10月15日证明了量子错误率下降了40倍，这引起了人们的关注，因为大约604万枚比特币（占总供应量的30%）存储在易受量子攻击的地址中。",
+        "coins": "比特币、以太坊和所有区块链",
+        "timeUTC": "2026-10-15/16",
+        "source": "Decrypt, CoinDesk, CryptoSlate",
+        "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed"
+      },
+      {
+        "headline": "高盛、富国银行和摩根士丹利将代币化视为增长机遇",
+        "what": "全球三家最大的银行公开将代币化资产和数字证券定位为商业机遇而非威胁。高盛认为代币化可扩展其交易业务，已参与与DTCC的代币化试点项目（2026年7月）。富国银行报告其代币化存款系统已在生产环境中运行，可在两分钟内处理跨境支付。摩根士丹利预计到2027年第一季度开始支持代币化股票，将代币化视为创造财富管理咨询服务需求的途径。",
+        "coins": "USDC、其他稳定币以及机构RWA代币",
+        "timeUTC": "2026-10-17",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Fairshake超级PAC再斥资700万美元打击美国参议员谢罗德·布朗",
+          "what": "美国联邦选举委员会(FEC)的一份文件显示，与Fairshake加密超级PAC关联的\"保卫美国工作\"PAC披露了约700万美元的追加广告支出，用于攻击俄亥俄州参议员、加密货币批评人士谢罗德·布朗。该PAC对布朗的总支出已超过4600万美元，距选举日仅剩数天。这笔支出反映了加密产业对美国选举结果有组织的影响力运作。",
+          "coins": "跨行业政治支出",
+          "timeUTC": "2026-10-17",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381238/crypto-super-pac-fairshake-pours-millions-more-into-defeating-sherrod-brown"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "美国现货比特币和以太坊ETF在10月16日录得净流出（背景）",
+          "what": "10月16日，现货比特币ETF录得8239万美元的净流出，其中贝莱德IBIT领跌（流出7178万美元）。以太坊ETF当日流出6968万美元，贝莱德ETHA账户贡献了全部净流出。这是以太坊基金连续第三个交易日出现流出。今年累计ETF净流入为比特币568.8亿美元，以太坊129.4亿美元。",
+          "coins": "比特币、以太坊",
+          "timeUTC": "2026-10-16",
+          "source": "Farside Investors, CryptoBriefing",
+          "url": "https://cryptobriefing.com/bitcoin-etfs-82-million-outflows-october-16/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Bitget将对部分用户停止服务",
+          "what": "币安关联交易所Bitget宣布将在一次一次性运营演练中对部分用户停止服务。交易所表示所有用户资金安全，且交易所正常运营将在过渡期间继续。未指定时间表。",
+          "coins": "所有Bitget交易的资产",
+          "timeUTC": "2026-10-17",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitget-to-discontinue-services-for-some-users-in-one-off-exercise"
+        },
+        {
+          "headline": "Polygon收购Coinme进入主流支付领域",
+          "what": "以太坊二层网络Polygon宣布收购支付和加密对法币服务商Coinme。Polygon首席执行官Marc Boiron表示，该交易将帮助Polygon控制客户关系，并获取之前流向Visa和Stripe等中介的支付收入，将该区块链定位于支付市场。",
+          "coins": "Polygon（MATIC）、USDC",
+          "timeUTC": "2026-10-17",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger硬件钱包失窃续：东南亚供应链遭破坏",
+          "what": "后续调查发现，通过某些东南亚经销商销售的Ledger硬件钱包上的加密货币已被清空，尽管钱包看起来功能正常。这表明在钱包送达客户前就发生了篡改。Ledger已要求七个亚洲市场的经销商下架设备。早前报道称诈骗者可能从受害者那里骗取了8600万美元。",
+          "coins": "受影响Ledger设备上存储的所有加密货币",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/who-handled-your-wallet-before-you-did/"
+        },
+        {
+          "headline": "Eclair Lightning钱包修复基于浏览器的命令注入漏洞",
+          "what": "Lightning Network钱包Eclair于10月15日发布补丁，封闭其API中的一条缓存认证路由。该路由可能允许恶意网页向用户的Lightning节点发送命令。补丁要求直接浏览器接口使用后端，防止未授权访问。",
+          "coins": "比特币（Lightning Network）",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/eclair-blocks-browser-requests-that-could-let-a-webpage-control-a-bitcoin-lightning-node/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美国股市10月16日休市；亚洲股市10月17日休市（周末）",
+          "what": "10月17日是周六，亚洲股票市场（韩国、香港、中国）无现金交易。美国股市于10月16日周五收盘时下跌：标普500（SPY）跌1.11%，纳斯达克综合指数（ONEQ）跌2.12%。这些美国数据对10月17日的报告来说已过时。",
+          "coins": "N/A",
+          "timeUTC": "2026-10-16",
+          "source": "Twelve Data",
+          "url": "N/A"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "以太坊Hoodi扩容测试定于10月26日进行，目标2亿Gas",
+          "what": "以太坊开发者宣布将于10月26日进行2亿Gas的测试（代号Glamsterdam），作为Hoodi升级路线图的一部分。该测试需要节点软件升级。完整升级的主网激活日期尚未确定，但这代表了以太坊扩容工作的持续推进。",
+          "coins": "以太坊",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereum-sets-october-26-scaling-test-with-hoodi-node-upgrades-required/"
+        },
+        {
+          "headline": "Circle计划USDC进入40个新兴市场",
+          "what": "USDC稳定币发行商Circle宣布计划进入约40个东南亚、拉丁美洲、非洲和中东新兴和发展中市场。首席执行官Jeremy Allaire表示这些地区对稳定币的需求上升为Circle提供了增长机遇。",
+          "coins": "USDC",
+          "timeUTC": "2026-10-17",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circles-allaire-says-stablecoin-issuer-looking-to-enter-40-developing-markets-report"
+        },
+        {
+          "headline": "TRON处理2.2万亿美元稳定币交易量；TRX供应连增108天",
+          "what": "数据分析显示TRON网络处理了2.2万亿美元的稳定币转账。然而，TRX代币供应在108个连续日期（7月1日至10月16日）中增长，因为新增发量超过了销毁量。这种增长反映了网络上挖矿奖励与基于费用的销毁之间的动态。",
+          "coins": "TRX、USDT、USDC（TRON上）",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/trons-stablecoin-growth-has-not-made-trx-deflationary/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-16",
+    "summary": "美国现货比特币ETF于10月16日录得8239万美元净流出，其中贝莱德IBIT领跌（流出7178万美元）。美国现货以太坊ETF同日流出6968万美元，也由贝莱德ETHA领跌。这是以太坊基金连续第三个交易日出现流出。2026年累计净流入为比特币568.8亿美元，以太坊129.4亿美元。",
+    "source": "Farside Investors / CryptoBriefing",
+    "url": "https://cryptobriefing.com/bitcoin-etfs-82-million-outflows-october-16/"
+  },
+  "calendarNotes": [
+    {
+      "event": "China GDP (October 2026) — Monday, October 19 at 02:00 UTC",
+      "typicalReaction": "重要经济数据可能改变风险情绪。较弱的中国增长通常会压制包括加密货币在内的风险资产；较强的数据可能会支撑它们。"
+    },
+    {
+      "event": "Canada CPI (October 2026) — Monday, October 19 at 12:30 UTC",
+      "typicalReaction": "通胀数据影响央行利率预期，进而影响全球资本流向和加密市场情绪。"
+    },
+    {
+      "event": "UK CPI Inflation (October 2026) — Wednesday, October 21 at 06:00 UTC",
+      "typicalReaction": "英国通胀趋势影响英格兰银行政策前景，可能改变英镑和全球风险偏好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "在永续期货合约中，持有多头头寸（押注价格上升）的交易者向持有空头头寸（押注价格下跌）的交易者支付的利率。正资金费率意味着多头在向空头支付。高资金费率表明大多数交易者看涨，愿意付费保持多头头寸。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "尚未平仓或结算的衍生合约（如永续期货）的总未平仓头寸数。它衡量交易者在市场中总体的风险敞口。未平仓头寸上升通常表示交易者的坚定信心；下降则可能表示头寸被平仓或交易者参与度下降。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一段时间内（通常一天）总未平仓头寸的百分比变化。正变化意味着开了更多合约；负变化意味着合约被平仓或强制平仓。"
+    },
+    {
+      "term": "多空持仓比（或多空比）",
+      "definition": "多头头寸（押注价格上升）与空头头寸（押注价格下跌）的比率。比率为2.0意味着多头头寸数量是空头的两倍。比率高于1.0表示更多看涨头寸；低于1.0表示更多看跌头寸。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "在永续期货市场中用于计算盈亏和触发强平的参考价格。其设计目的是比最后成交价更公平地跟踪现货价格，因为最后成交价可能被短暂的交易活动扭曲。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "一段时间内主动买单（买方以卖方报价成交）与主动卖单（卖方以买方报价成交）的比率。比率高于1.0表示更多主动买盘；低于1.0表示更多主动卖盘。它表明哪一方更积极地主动发起交易。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "特定日期或时期内价格上升的加密货币或其他资产所占的百分比，是衡量整体市场健康度的指标。高广度（如70%上升）表明许多资产普遍强势；低广度（如15%上升）表明只有少数领先资产上升，而大多数下跌。"
+    },
+    {
+      "term": "大户头寸比",
+      "definition": "特定交易所上最大交易者的多空持仓比。它显示最大、最老练的交易者是倾向多头还是空头。比率为1.8意味着最大的交易者多头敞口是空头敞口的1.8倍。"
+    },
+    {
+      "term": "永续期货（或永续合约）",
+      "definition": "跟踪底层资产（如比特币）价格但没有到期日期的衍生合约。交易者可以以杠杆做多（押注价格上升）或做空（押注价格下跌），根据市场失衡情况支付或获得资金费率。"
+    },
+    {
+      "term": "杠杆",
+      "definition": "借款以增加头寸规模。例如，5倍杠杆意味着你控制的头寸大小是自有资本的5倍。杠杆放大了收益和亏损，如果价格走势与你的头寸相反，可能导致强平。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "旨在保持稳定价值的加密货币，通常与法定货币（如美元）挂钩（如USDC、USDT）。稳定币用于支付、存储，以及在加密货币和传统金融之间转移，价格风险最小。"
+    },
+    {
+      "term": "代币化",
+      "definition": "将权利或资产转换为区块链上数字代币的过程。例如，公司可以代币化其股份，银行可以代币化存款，或资产管理人可以代币化基金份额。代币化可以加快交易、结算和所有权转移。"
+    },
+    {
+      "term": "量子威胁（或量子风险）",
+      "definition": "足够强大的量子计算机可能破坏用于保护比特币和以太坊私钥的椭圆曲线密码学的理论风险，从而使攻击者能够盗取硬币。当前的量子计算机远未能构成这一风险，但量子计算的进步可能在未来数十年内威胁比特币。"
+    },
+    {
+      "term": "挖矿（或哈希率）",
+      "definition": "解决复杂数学难题以验证交易并在工作量证明区块链（如比特币）上创建新块的过程。矿工竞争解决难题，赢家获得新铸造的加密货币和交易费。哈希率是所有矿工的联合计算能力。"
+    },
+    {
+      "term": "现实资产（RWAs）",
+      "definition": "区块链外存在的有形或无形资产（如不动产、商品、公司股份、债券），被代币化或在链上跟踪，用于交易、结算或透明度目的。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "d4b0aa45ada60b47"
+}

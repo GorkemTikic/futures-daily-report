@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-17",
+  "kind": "market",
+  "dateLong": "Saturday, 17 October 2026",
+  "coversUTC": "2026-10-17 00:00–23:59 UTC",
+  "oneLine": "Market-wide weakness hit most cryptocurrencies on October 17, with Bitcoin and Ethereum posting modest losses while 85% of smaller assets fell sharply.",
+  "newsCount": 13,
+  "macro": {
+    "BTC": -0.16523596995843715,
+    "ETH": -0.877909856364536
+  },
+  "topMover": {
+    "symbol": "QUSDT",
+    "chgPct": 111.42935641184148
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "18 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

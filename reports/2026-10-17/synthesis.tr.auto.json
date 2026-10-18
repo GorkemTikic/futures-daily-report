@@ -1,0 +1,230 @@
+{
+  "oneLine": "17 Ekim'de kripto para piyasasında geniş tabanlı bir zayıflık yaşandı; Bitcoin ve Ethereum mütevazı kayıplar kaydederken, küçük varlıkların %85'i keskin düşüşler gördü.",
+  "caveman": "Bugün kripto piyasası neredeyse tamamıyla düştü. Bitcoin çok az düştü (%0,15), Ethereum biraz daha fazla düştü (%0,87) — bu çok dramatik değil. Ama diğer kripto paralar çok daha sert düştü — yüz paradan 85'i aşağı gitti. Tüm kripto paraların toplam değeri yaklaşık %3 kaybetti. İnsanların piyasa hakkındaki hissi biraz değişti — hâlâ korkunçtan daha açgözlü ama ruh hali dünden soğudu. Bugünün hareketini açıklayan bir büyük haber hikâyesi görmüyoruz; tüccarlar genel olarak daha az güvenli hissettikleri görünüyor.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları beş büyük ticaret platformunda (Binance, Bybit, OKX, Bitget, Gate) tutarlı kaldı. Bitcoin yaklaşık $81,445–$81,455 seviyesinde kapandı ve günlük %0,15–0,17 düştü. Ethereum yaklaşık $2,401'de kapandı ve %0,86–0,88 düştü. Binance her ikisinde de hacmi liderlik etti: BTC'de $3,6 milyar ve ETH'de $4,1 milyar işlem gördü.",
+  "positioningSummary": "Tüccarlar zayıflığa rağmen yüksek beklentili kalıyor. Bitcoin'in uzun-kısa oranı 1,73'te duruyor, bu da uzun pozisyonların short'ları aştığı anlamına geliyor; en büyük tüccarlar 1,78'de daha da uzun yönlüydü. Ethereum daha güçlü bir uzun eğilimi gösterdi (2,92). Finansman oranları tüm borsalarda pozitif kaldı (yıllık %2–11 aralığında), tüccarların hâlâ fiyatların yükselmesini beklediklerini gösteriyor. Taker alış basıncı satış basıncını biraz aştı (BTC'de 1,05 oranı, ETH'de 1,02), tüccarların zayıflığa satın alarak tepki verdiğini gösteriyor. BTC ve ETH açık pozisyonları hafif düştü (sırasıyla −%0,16 ve −%0,15), bazı pozisyonların tasfiye edildiğini gösteriyor. Pazar genişliği — Binance perpetual'larının günlük kazanan yüzdesinin nispeti — %14,88'de zayıf, 793 piyasadan 672'si düştü.",
+  "stocksSummary": "17 Ekim Cumartesi günü bir hafta sonuydu, bu nedenle ABD ve Asya hisse senedi piyasaları (New York, Hong Kong, Kore, Çin) kapalıydı. Asya'da listelenmiş hisse perpetual'ları zayıflık gösterdi — SK Hynix (%2,45 aşağı), Samsung (%1,71 aşağı) ve yapay zeka firmaları Zhipu (%3,45 aşağı) ve GigaDevice (%3,30 aşağı) daha düşük işlem gördü — ama bunlar gerçek nakit piyasa hareketlerini yansıtmıyor, sadece hafta sonu perp ticaretini yansıtıyor. Petrol neredeyse sabit kaldı (WTI +%0,06, Brent +%0,13). Altın spot fiyatı esasen değişmedi.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "Q %111,4 yükseldi ve $850 milyon işlem hacmi gördü. Kripto haber kaynaklarında açık bir neden tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT %35,7 sıçradı ve $843 milyon işlem hacmi gördü. Açık bir neden tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "AVA %28,7 yükseldi ve $76 milyon işlem hacmi gördü. Açık bir neden tanımlanmadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance Pool madencilik kapatılması 10 Kasım 2026 için duyuruldu",
+        "what": "Binance, Binance Pool, Cloud Mining ve Pool Savings'i 10 Kasım'da saat 07:00 UTC'de kapatacağını duyurdu. Madenciler ekipmanlarını başka bir havuza yönlendirmek için 24 günü var. Madencilik kayıtları kapatılmadan sonra 14 gün boyunca görüntülenebilir (24 Kasım'a kadar). Borsa, ürün ve hizmetlerin devam eden incelemesini nedeni olarak gösterdi.",
+        "coins": "Bitcoin ve diğer proof-of-work paraları",
+        "timeUTC": "2026-10-17",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/binance-will-shut-its-mining-pool-on-nov-10-giving-miners-a-deadline-to-move/"
+      },
+      {
+        "headline": "Dokuz kripto şirketi gelecekteki kuantum tehditlerine karşı korunmak için Quantum Alliance'ı oluşturdu",
+        "what": "Postquant Labs, Midnight Foundation, Hacken, Quantus, American Fortress, Intmax, Keystone ve Abelian dahil olmak üzere bir blockchain şirketleri koalisyonu 15-16 Ekim'de Quantum Alliance'ı başlattı. Grup, kuantum sonrası güvenlik için açık standartlar oluşturma ve blockchain'lerin kuantum dirençli olması anlamına gelen şeyi tanımlama ve doğrulama amacı taşıyor. Bu, Google'ın 15 Ekim'de kuantum hatalarında 40 kat azalma gösteren Willow kuantum işlemcisini göstermesinin ardından geliyor ve yaklaşık 6,04 milyon BTC'nin (%30 arz) kuantum açığa maruz adreslerde bulunduğunun farkındalığını artırıyor.",
+        "coins": "Bitcoin, Ethereum, tüm blockchain'ler",
+        "timeUTC": "2026-10-15/16",
+        "source": "Decrypt, CoinDesk, CryptoSlate",
+        "url": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed"
+      },
+      {
+        "headline": "Goldman Sachs, Wells Fargo ve Morgan Stanley tokenizasyonu büyüme fırsatı olarak görüyor",
+        "what": "Dünyanın en büyük üç bankası, tokenize edilmiş varlıkları ve dijital menkul kıymetleri tehdit yerine iş fırsatları olarak kamuya açıkça çerçeveledi. Goldman Sachs tokenizasyonun ticaret işini genişleteceğini görüyor ve DTCC ile bir tokenizasyon denemesine katıldı (Temmuz 2026). Wells Fargo, tokenize edilmiş mevduat sisteminin sınır ötesi ödemeleri zaten iki dakikadan az bir sürede işlediğini ve üretimde olduğunu bildiriyor. Morgan Stanley, tokenize edilmiş öz sermayeyi Q1 2027'ye kadar desteklemeyi beklediğini söylüyor ve tokenizasyonu servet yönetimi danışmanlık hizmetlerine talep yaratmanın bir yolu olarak gösteriyor.",
+        "coins": "USDC, diğer stablecoin'ler; kurumsal RWA token'ları",
+        "timeUTC": "2026-10-17",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Fairshake Super PAC, ABD Senatörü Sherrod Brown'ı yenmek için 7 milyon doları daha ayırdı",
+          "what": "Bir FEC dosyası, Defend American Jobs PAC'ın (Fairshake kripto Super PAC ile bağlantılı) kripto eleştirmeni Ohio Senatörü Sherrod Brown'a karşı kabaca 7 milyon doları ek reklam harcaması için açıklandığını gösterdi. PAC'ın Brown'a karşı toplam harcaması şimdi 46 milyar doları aşıyor ve seçime birkaç gün kaldığında yapılıyor. Harcama, kripto endüstrisinin ABD seçim sonuçlarını etkileme konusundaki organize çabasını yansıtıyor.",
+          "coins": "Endüstri genelinde siyasi harcama",
+          "timeUTC": "2026-10-17",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381238/crypto-super-pac-fairshake-pours-millions-more-into-defeating-sherrod-brown"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "ABD spot Bitcoin ve Ethereum ETF'leri 16 Ekim'de net çıkışlar kaydetti (bağlam)",
+          "what": "16 Ekim'de spot Bitcoin ETF'leri 82,39 milyon doları net çıkışlar kaydetti, BlackRock'un IBIT'i çıkışlara öncülük etti (71,78 milyon dolar çıkış). Ethereum ETF'leri aynı gün 69,68 milyon dolar kaybetti, yine BlackRock'un ETHA'sı sorumlu. Bu, ETF fonu çıkışlarının art arda üçüncü işlem günüdür. 2026'nın kümülatif girişleri 56,88 milyar dolar (BTC) ve 12,94 milyar dolar (ETH)'dir.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-16",
+          "source": "Farside Investors, CryptoBriefing",
+          "url": "https://cryptobriefing.com/bitcoin-etfs-82-million-outflows-october-16/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Bitget bazı kullanıcılar için hizmetleri durduruyor",
+          "what": "Binance'ye bağlı borsa Bitget, belirli kullanıcılar için hizmetleri durduracağını duyurdu ve bunu tek seferlik bir operasyonel alıştırma olarak nitelendirdi. Borsa, tüm kullanıcı fonlarının güvenli olduğunu ve geçiş sırasında normal borsa operasyonlarının devam edeceğini belirtti. Zaman çizelgesi belirtilmedi.",
+          "coins": "Tüm Bitget tarafından işlem gören varlıklar",
+          "timeUTC": "2026-10-17",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitget-to-discontinue-services-for-some-users-in-one-off-exercise"
+        },
+        {
+          "headline": "Polygon, ana ödeme sektörüne girmek için Coinme'i satın alıyor",
+          "what": "Ethereum katman-2 ağı Polygon, ödeme ve kripto-to-fiat hizmeti sunan Coinme'i satın aldığını duyurdu. Polygon CEO'su Marc Boiron, anlaşmanın Polygon'un müşteri ilişkilerini kontrol etmesine ve daha önce Visa ve Stripe gibi aracılara giden ödeme gelirini yakalamasına yardımcı olacağını, blockchain'i ödeme pazarı için konumlandıracağını söyledi.",
+          "coins": "Polygon (MATIC), USDC",
+          "timeUTC": "2026-10-17",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger donanım cüzdanı hırsızlığı takibi: Güneydoğu Asya tedarik zinciri ihlali",
+          "what": "Takip etme araştırması, belirli Güneydoğu Asya satıcıları aracılığıyla satılan Ledger donanım cüzdanlarındaki kripto paraların, cüzdanlar normal olarak işleç görünse de tükendildiğini buldu. Bu, cüzdanların müşterilere ulaşmadan önce kurcalandığını gösteriyor. Ledger, yedi Asya pazarındaki satıcılarından cihazları satıştan çekmesini istedi. Önceki raporlar, dolandırıcıların mağdurlardan 86 milyon dolar çıkarmış olabileceğini gösterdi.",
+          "coins": "Etkilenen Ledger cihazlarda depolanan tüm kripto paralar",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/who-handled-your-wallet-before-you-did/"
+        },
+        {
+          "headline": "Eclair Lightning cüzdanı tarayıcı tabanlı komut enjeksiyonu açığını yamaladı",
+          "what": "Lightning Network cüzdanı Eclair, 15 Ekim'de kötü amaçlı bir web sayfasının bir kullanıcının Lightning düğümüne komut göndermsine izin verebilecek API'sinde önbelleğe alınmış kimlik doğrulamayı bloke etmek için bir yamalamayı yayınladı. Yamalama, yetkisiz erişimi önlemek için doğrudan tarayıcı arayüzlerinin bir arka uç kullanmasını gerektiriyor.",
+          "coins": "Bitcoin (Lightning Network)",
+          "timeUTC": "2026-10-15",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/eclair-blocks-browser-requests-that-could-let-a-webpage-control-a-bitcoin-lightning-node/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD borsa 16 Ekim'de kapandı; Asya piyasaları 17 Ekim'de (hafta sonu) kapandı",
+          "what": "17 Ekim Cumartesi günüydü, bu nedenle Asya hisse senedi piyasaları (Kore, Hong Kong, Çin) nakit oturumu yapmadı. ABD öz sermaye piyasaları 16 Ekim Cuma günü düşüşlerle kapandı: S&P 500 (SPY) %1,11 düştü, Nasdaq Composite (ONEQ) %2,12 düştü. Bu ABD numaraları 17 Ekim raporunda eski.",
+          "coins": "N/A",
+          "timeUTC": "2026-10-16",
+          "source": "Twelve Data",
+          "url": "N/A"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Ethereum Hoodi ölçeklendirme testi 26 Ekim'de 200 milyon gaz hedefiyle planlandı",
+          "what": "Ethereum geliştiricileri, Hoodi yükseltme yol haritasının bir parçası olarak 26 Ekim'de 200 milyon gaz testi (Glamsterdam kod adı) yapacaklarını duyurdu. Test, düğüm yazılımı yükseltmeleri gerektirir. Tam yükseltme için mainnet aktivasyon tarihi henüz karar verilmedi, ancak bu, devam eden Ethereum ölçeklendirme çalışmasını temsil ediyor.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereum-sets-october-26-scaling-test-with-hoodi-node-upgrades-required/"
+        },
+        {
+          "headline": "Circle, USDC ile 40 gelişmekte olan pazara genişleme planı yapıyor",
+          "what": "USDC stablecoin ihraçcısı Circle, Güneydoğu Asya, Latin Amerika, Afrika ve Orta Doğu'daki yaklaşık 40 gelişmekte olan ve az gelişmiş pazara girme planlarını duyurdu. CEO Jeremy Allaire, bu bölgelerde stablecoin'lere yönelik artan talep birleştirmeyi Circle için bir büyüme fırsatı olarak gösterdi.",
+          "coins": "USDC",
+          "timeUTC": "2026-10-17",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/circles-allaire-says-stablecoin-issuer-looking-to-enter-40-developing-markets-report"
+        },
+        {
+          "headline": "TRON 2,2 trilyon doları stablecoin hacmi işledi; TRX arzı 108 gün üst üste büyüdü",
+          "what": "Veri analizi, TRON ağının 2,2 trilyon doları stablecoin transferi taşıdığını gösterdi. Ancak TRX token arzı 108 ardışık gün boyunca (1 Temmuz–16 Ekim) büyüdü çünkü yeni sorun yanma oranını aştı. Büyüme, ağ üzerindeki madencilik ödülleri ve ücret tabanlı yanmalar arasındaki dinamikleri yansıtıyor.",
+          "coins": "TRX, USDT, USDC (on TRON)",
+          "timeUTC": "2026-10-17",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/trons-stablecoin-growth-has-not-made-trx-deflationary/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-16",
+    "summary": "ABD spot Bitcoin ETF'leri 16 Ekim'de 82,39 milyon doları net çıkışlar kaydetti, BlackRock'un IBIT'i çıkışlara öncülük etti (71,78 milyon dolar). ABD spot Ethereum ETF'leri aynı gün 69,68 milyon dolar kaybetti, yine BlackRock'un ETHA tarafından öncülük edilen. Bu, ETF fonu çıkışlarının art arda üçüncü işlem günüdür. 2026'nın kümülatif girişleri 56,88 milyar dolar (BTC) ve 12,94 milyar dolar (ETH)'dir.",
+    "source": "Farside Investors / CryptoBriefing",
+    "url": "https://cryptobriefing.com/bitcoin-etfs-82-million-outflows-october-16/"
+  },
+  "calendarNotes": [
+    {
+      "event": "China GDP (October 2026) — Monday, October 19 at 02:00 UTC",
+      "typicalReaction": "Büyük ekonomik veriler risk hissiyatını değiştirebilir. Zayıf Çin büyümesi genellikle kripto gibi risk varlıklarına baskı koyar; güçlü veri onları destekleyebilir."
+    },
+    {
+      "event": "Canada CPI (October 2026) — Monday, October 19 at 12:30 UTC",
+      "typicalReaction": "Enflasyon verileri merkez bankası oran beklentilerini etkiler, bu da küresel sermaye akışlarını ve kripto hissiyatını etkiler."
+    },
+    {
+      "event": "UK CPI Inflation (October 2026) — Wednesday, October 21 at 06:00 UTC",
+      "typicalReaction": "İngiltere enflasyon trendleri Bank of England politika görünümünü etkiler, bu da sterlin ve global risk iştahını değiştirebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman Oranı",
+      "definition": "Perpetual futures kontratlarında uzun pozisyon tutan tüccarların (fiyat artışına bahis) kısa pozisyon tutan tüccarların (fiyat düşüşüne bahis) ödediği faiz oranı. Pozitif finansman oranı, uzun pozisyonların kısa pozisyonlara ödediği anlamına gelir. Yüksek finansman oranları, çoğu tüccarın yüksek beklentili olduğunu ve uzun kalmak için ödemeye istekli olduğunu gösterir."
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Kapatılmayan veya uzlaştırılmayan toplam türev kontrat sayısı (perpetual futures gibi). Tüccarların toplamda piyasada ne kadar riske maruz kaldığını ölçer. Artan açık pozisyon genellikle inanç gösterir; düşen açık pozisyon tasfiye edilmeyi veya azalan tüccar katılımını gösterebilir."
+    },
+    {
+      "term": "Açık Pozisyon Değişimi",
+      "definition": "Belirli bir dönemdeki (genellikle bir gün) toplam açık pozisyonun yüzde değişimi. Pozitif değişim daha fazla kontratın açıldığı anlamına gelir; negatif değişim kontratların kapatıldığını veya tasfiye edildiğini anlamına gelir."
+    },
+    {
+      "term": "Uzun-Kısa Oranı",
+      "definition": "Uzun pozisyonların (fiyat artışına bahis) kısa pozisyonlara (fiyat düşüşüne bahis) oranı. 2,0 oranı, uzun pozisyonların short'tan iki kat fazla olduğu anlamına gelir. 1,0'dan yukarı oranlar daha yüksek beklentili pozisyonlandırmayı gösterir; 1,0'dan aşağısı daha düşük beklentili pozisyonlandırmayı gösterir."
+    },
+    {
+      "term": "Mark Fiyatı",
+      "definition": "Perpetual futures piyasalarında kar ve zararları hesaplamak ve tasfiye tetiklemek için kullanılan referans fiyat. Son işlem fiyatından daha adil bir şekilde spot fiyatını izlemek için tasarlanmıştır; son işlem fiyatı kısa süreli ticaret aktivitesi artışı ile çarpıtılabilir."
+    },
+    {
+      "term": "Taker Alış/Satış Oranı",
+      "definition": "Bir dönem boyunca saldırgan alış siparişlerinin (taker'ların ask'ta satın alması) saldırgan satış siparişlerine (taker'ların bid'de satması) oranı. 1,0'dan yukarı oran daha saldırgan satın almayı gösterir; 1,0'dan aşağı daha saldırgan satışı gösterir. Hangi tarafın ticaret başlatmada daha aktif olduğunu gösterir."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Genel pazar sağlığının bir göstergesi olarak belirli bir günde (veya dönemde) fiyat kazanan kripto paraların veya diğer varlıkların yüzdesi. Yüksek genişlik (örneğin %70 yukarı) birçok varlık arasında geniş tabanlı güçlüğü gösterir; düşük genişlik (örneğin %15 yukarı) sadece birkaç lider yukarıda iken çoğunun düştüğünü gösterir."
+    },
+    {
+      "term": "En Büyük Tüccar Pozisyon Oranı",
+      "definition": "Belirli bir borsada en büyük tüccarlar arasındaki uzun-kısa oranı. En büyük, en sofistike tüccarların uzun veya kısa tarafta eğilip eğilmediğini gösterir. 1,8 oranı, en büyük tüccarların kısa pozisyondan 1,8 kat daha fazla uzun maruziyeti olduğu anlamına gelir."
+    },
+    {
+      "term": "Perpetual Futures",
+      "definition": "Bir dayanak varlığın (Bitcoin gibi) fiyatını izleyen ancak vade süresi olmayan türev kontratlar. Tüccarlar kaldıraç ile uzun (fiyat artışına bahis) veya kısa (fiyat düşüşüne bahis) gidebilir, pazar dengesizliğine göre finansman oranları öderler veya alırlar."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Bir pozisyonun boyutunu artırmak için para ödünç almak. Örneğin, 5x kaldıraç, kendi sermayenin 5 katının pozisyon boyutunu kontrol ettiğiniz anlamına gelir. Kaldıraç hem kazançları hem de kayıpları artırır ve fiyat sizin aleyhine hareket ederse tasfiyeye yol açabilir."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "Tipik olarak ABD doları gibi bir fiat para birimine sabitlenmiş, istikrarlı bir değer tutacak şekilde tasarlanmış kripto para (örneğin USDC, USDT). Stablecoin'ler ödemeler, tasarruf ve kripto ile geleneksel finans arasında minimal fiyat riski ile hareket etmek için kullanılır."
+    },
+    {
+      "term": "Tokenizasyon",
+      "definition": "Hakları veya varlıkları bir blockchain üzerinde dijital token'lara dönüştürme süreci. Örneğin, bir şirket hisse senetlerini tokenize edebilir, bir banka mevduatları tokenize edebilir veya bir varlık yöneticisi fon paylarını tokenize edebilir. Tokenizasyon ticareti, ödemeyi ve mülkiyet devri hızlandırabilir."
+    },
+    {
+      "term": "Kuantum Tehdidi",
+      "definition": "Yeterince güçlü bir kuantum bilgisayarının Bitcoin ve Ethereum özel anahtarlarını güvenleştirmek için kullanılan eliptik eğri şifrelemeyi kırması ve bir saldırganın paraları çalmasına izin vermesi teorik riski. Mevcut kuantum bilgisayarlar bu riski oluşturmak için çok zayıftır, ancak kuantum bilişim alanındaki ilerlemeler gelecekte Bitcoin'i tehdit edebilir."
+    },
+    {
+      "term": "Madencilik",
+      "definition": "Proof-of-work blockchain'de (Bitcoin gibi) işlemleri doğrulamak ve yeni bloklar oluşturmak için karmaşık matematik bulmacalarını çözme süreci. Madenciler bulmacaları çözme için rekabet eder ve kazanan yeni basılan kripto para ve işlem ücretlerini alır. Hash rate tüm madencilerin birleşik hesaplama gücüdür."
+    },
+    {
+      "term": "Gerçek Dünya Varlıkları",
+      "definition": "Blockchain dışında var olan somut veya soyut varlıklar (örneğin gayrimenkul, emtialar, şirket hisseleri, tahviller) ticaret, ödeme veya şeffaflık amaçları için tokenize edilmiş veya zincirde izlenmiş."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "d4b0aa45ada60b47"
+}
