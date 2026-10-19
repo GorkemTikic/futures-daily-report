@@ -1,0 +1,170 @@
+{
+  "oneLine": "Bitcoin ve Ethereum Pazar günü mütevazı kazanımlar sağladı—sırasıyla %0,76 ve %0,31—pozitif finansman oranları boğa pozisyonlandırmasını desteklerken, ancak Richard Heart'ın tutuklanması, bir köprü saldırısı ve tokenize edilmiş hisse senetlerine karşı düzenleyici dirençten kaynaklanan önemli haberler güveni gölgeledi.",
+  "caveman": "Pazar günü Bitcoin biraz yükseldi (%1'den daha az) ve Ethereum daha da az yükseldi. Çoğu tüccar fiyatların yükselmeye devam edeceğine inanıyor—pozitif finansman oranları tüccarların pozisyonlarında kalmak için birbirlerine para ödedikleri anlamına geliyor. Ama altında ciddi kötü haberler var: ünlü bir kripto kurucusu Richard Heart Türkiye'de tutuklandı, birisi bir köprüyü (kripto para alışverişini blokzincirler arasında taşıyan sistem) hacklayarak para çaldı, ve hükümet kripto borsalarında hisse senedi ticareti yapmaya çalışan şirketlere karşı sert bir şekilde durduğunu gösteriyor. Yani fiyatlar çok az yükseldi ama gerçek atmosfer mutlu değil, endişeli.",
+  "priceVolumeSummary": "Beş büyük borsa (Binance, Bybit, OKX, Bitget, Gate) fiyatlarda anlaştı: Bitcoin yaklaşık $82,078 kapattı (%0,76 yükseliş) ve Ethereum yaklaşık $2,409 kapattı (%0,31 yükseliş). Binance hacim lideri oldu—BTC'de $7,89 milyar ve ETH'de $6,45 milyar—her ikisinde de sıradaki borsadan yaklaşık %50 daha fazla.",
+  "positioningSummary": "Tüccarlar boğa pozisyonunu tercih etti: finansman oranları Binance'de pozitif kaldı (Bitcoin %5,4, Ethereum %4,3 yıllıklandırılmış), ve uzun-kısa oranları boğaları destekledi (Bitcoin'de kısa başına 1,75 uzun, Ethereum'da 3,08). En büyük tüccarlar da ağırlıklı olarak uzun pozisyonda (Bitcoin 1,78, Ethereum 1,73). Ama saldırgan satış baskısı görüldü: alıcı/satıcı oranları 1'in altına düştü (Bitcoin 0,92, Ethereum 0,89—taker satıcılarından daha fazla satış yaptığı anlamına gelir), ve Binance türevlerinin sadece %39'u daha yüksekte kapattı—çoğu coin düştü. Açık faiz sabit kaldı (Bitcoin -0,44%, Ethereum +0,31%), tüccarların ne yeni pozisyonlar açmakta ne de aniden kapamaklarda hızlanmadığını gösteriyor.",
+  "stocksSummary": "Pazar—ABD, Kore, Hong Kong veya Çin'de nakit hisse senedi seansı yok. Altın %0,45 yükseldi (spot verisi, güncel). Petrol ~%1,4 düştü (WTI ve Brent). Asya teknolojisine karşı kripto türev vekilleri karışık sinyaller gösterdi: Güney Kore'nin SK Hynix ve Samsung Electronics her ikisi de kazandı (%1,0 ve %1,2), ancak LG Electronics %2,4 düştü, Hong Kong borsasında GigaDevice %2,8 yükseldi ama Pop Mart %1,8 düştü.",
+  "movers": [
+    {
+      "symbol": "ARIAUSDT",
+      "explanation": "ARIA %34,6 oranında yükseldi ve $144 milyon hacim gördü. Açık bir haber ya da tetikleyici bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "APRUSDT",
+      "explanation": "APR, $122 milyon hacimle %27,6 düştü. Düşüşü açıklayan halka açık bir haber yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT, $379 milyon hacimle %19,5 düştü ve günün en çok işlem gören hareketi oldu. Tanımlanabilir bir haber kaynağı yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC'in tokenize edilmiş hisse senetleri çerçevesi dokuz firma OKX-ICE ticaretine itiraz ederken yayıncıların direnciyle karşı karşıya",
+        "what": "Broadcom, Verizon, CoreWeave ve UnitedHealth dahil dokuz şirket, OKX ve ICE'nin hisselerini SEC'in beş yıllık İnovasyon İstisnası kapsamında tokenize etme planına resmi olarak itiraz etti. Mekan, 63 hisse senedini 7/24 blokzincir tabanlı ticareti desteklemek için planladı. Yayıncılar, istisnaya yerleştirilmiş itiraz mekanizması kapsamında tokenizasyonu engelleyebilir.",
+        "coins": "N/A (tokenize edilmiş hisse senetleri, kripto para değil)",
+        "timeUTC": "2026-10-18 (duyuru; itirazlar 15 Ekim tarihli)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing"
+      },
+      {
+        "headline": "Cysic köprüsü saldırıda $727k kaybediyor; saldırgan 10 milyon CYS token basıyor",
+        "what": "Bir saldırgan, 17 Ekim'de Cysic'in zincirler arası köprüsündeki bir veritabanı açığından yararlanarak 10 milyon CYS tokeni sahte olarak oluşturdu, 7,2 milyonunu sattı ve yaklaşık $727k kazancı Ethereum'a aktardı. Cysic, saldırganın adresini 76 dakika sonra kara listeye aldı ve köprü işlemlerini durdurdu. Şirket, olayın köprü işlemeyle sınırlı olduğunu ve ana ağı etkilemediğini söyledi.",
+        "coins": "CYS",
+        "timeUTC": "2026-10-17 12:31 UTC (saldırı); 2026-10-18 bildirildi",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
+      },
+      {
+        "headline": "Bitcoin ve Ethereum ETF net çıkışları hafta için yaklaşık $550 milyona ulaştı",
+        "what": "A.B.D. spot Bitcoin ETF'leri 12-16 Ekim haftasında $228,6 milyon net çıkış kaydetti ve bu, iki haftanın toplamı olan yaklaşık $910 milyonun bir parçasıdır. Ethereum ETF'leri aynı haftada $320,1 milyon kaybetti ve üç haftanın kaybedilen serisini sürdürdü. Birleştirilmiş kripto ETF çıkışları haftada $610,7 milyona ulaştı.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-16 (haftanın sonu)",
+        "source": "Farside Investors / SoSoValue / çeşitli kaynaklar",
+        "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-lose-910m-in-two-weeks-amid-rising-inflation-and-rate-hike-fears"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Beyaz Saray kripto başkanı Patrick Witt ayrılışını duyurdu",
+          "what": "Beyaz Saray'da kripto politikasına öncülük eden Patrick Witt, görevini terk edeceğini duyurdu. Ayrılışı, stablecoinler, tokenizasyon ve borsa denetimi etrafında devam eden düzenleyici belirsizlik ortasında gerçekleşiyor.",
+          "coins": "N/A",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto"
+        },
+        {
+          "headline": "Letonya kripto vergilendirmesinde reform yapıyor; 2027'de kripto vergi ödemelerine odaklanıyor",
+          "what": "Letonya parlamentosu, bireysel işlemleri vergilendirmek yerine çekimleri mevduatın üzerinde vergilendiren bir kanun geçirdi (net pozisyon temeli). Kanun, tek seferlik bir beyan mekanizması içeriyor ve 2027'de yürürlüğe girmesi planlanıyor.",
+          "coins": "N/A",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Visa, Mastercard ve Stripe kripto altyapısını genişletirken stablecoin ödemeleri %45 arttı",
+          "what": "Analitik firması Allium, stablecoin ödemelerinin yıldan bu yana $482 milyara ulaştığını bildirdi (Ekim 2026 itibariyle), bir yıl öncesine kıyasla %45 artış. Visa, Mastercard ve Stripe, fiat ödemelerini kripto altyapısına bağlamak için entegrasyonları genişletiyorlar.",
+          "coins": "USDC, USDT, diğer stablecoinler",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash"
+        },
+        {
+          "headline": "BIS çalışma makalesi: A.B.D. bankaları mevduat oranlarını yükselttiğinde stablecoin kabulü yavaşlıyor",
+          "what": "Uluslararası Yerleşmeler Bankası ekonomistleri, A.B.D. bankaları mevduat oranlarını yükselttiğinde stablecoin büyümesinin yavaşladığını, Circle'ın USDC'sinin oran hareketlerine en duyarlı olduğunu buldu. Bulgu, geleneksel finansın kripto adaptasyonuna doğrudan baskı yapabileceğini gösteriyor.",
+          "coins": "USDC, USDT",
+          "timeUTC": "2026-10-18",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "SEC, Coinbase ticaret hacmi ve Marathon madencilik çıktısı üzerine Cboe opsiyonlarını onayladı",
+          "what": "SEC, Coinbase'in ticaret hacmi ve Marathon Digital'in Bitcoin çıktısına dayalı olarak ödenen kazanç benzeri opsiyon sözleşmelerini onayladı ve gecikmeli veya eksik veriler için yerleştirilmiş prosedürler içeriyor.",
+          "coins": "COIN, MARA",
+          "timeUTC": "2026-10-18",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/sec-approves-coinbase-earnings-bets-that-stay-settled-when-the-numbers-change/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[Bağlam] Richard Heart (HEX kurucusu) İstanbul'da Interpol Kırmızı Bülteni üzerine alıkondu, polis $7,15 milyon ve soğuk cüzdanları ele geçirdi",
+          "what": "Richard Heart, Aralık 2024'te Finlandiya tarafından vergi kaçakçılığı ve saldırı suçlamalarıyla çıkarılan bir Interpol Kırmızı Bülteni üzerine 14-15 Ekim 2026'da İstanbul'da tutuklandı. Türk polis ve istihbaratı, 15 adres genelinde $7,15 milyon nakit, altı soğuk cüzdan, yedi silah ve mühimmat ele geçirdi. (Rapor günü dışında; bağlam için dahil edilen.)",
+          "coins": "HEX, PLS",
+          "timeUTC": "2026-10-14 (tutuklama); 2026-10-15 ile 2026-10-17 arası bildirildi",
+          "source": "The Block / CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-16",
+    "summary": "A.B.D. spot Bitcoin ETF'leri, 16 Ekim'de sona eren hafta için $228,6 milyon net çıkış kaydetti ve iki haftanın kaybedilen serisini yaklaşık $910 milyona uzattı. Ethereum ETF çıkışları daha dikti: aynı hafta için $320,1 milyon ve iShares Ethereum Trust'ın $299 milyon açığı vardı. Haftalık birleştirilmiş kripto ETF çıkışları $610,7 milyona ulaştı.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-lose-910m-in-two-weeks-amid-rising-inflation-and-rate-hike-fears"
+  },
+  "calendarNotes": [
+    {
+      "event": "China GDP October 2026, Monday 19 Oct, 02:00 UTC",
+      "typicalReaction": "Yüksek etkili yayın. Geleneksel piyasalarda (hisse senetleri, tahviller, para birimleri) oynaklık bekleyin ve bu kripto'ya sıçrayabilir."
+    },
+    {
+      "event": "Canada CPI October 2026, Monday 19 Oct, 12:30 UTC",
+      "typicalReaction": "Yüksek etkili yayın. Enflasyon verileri merkez bankası beklentilerini yönlendirebilir ve tüm piyasalarda risk duyarlılığını etkileyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel (Basis)",
+      "definition": "Spot fiyat (anında teslim için gerçek zamanlı fiyat) ile vadeli işlem fiyatı (gelecekteki teslim için sözleşme fiyatı) arasındaki fark. Pozitif temel, vadeli işlemlerin spot'un üzerinde işlem gördüğü anlamına gelir."
+    },
+    {
+      "term": "Pazar Genişliği (Market Breadth)",
+      "definition": "Günde daha yükseğe kapanan tüm ticaret edilebilir sözleşmelerin yüzdesi. Daha yüksek genişlik daha fazla coin/token'in kazandığı anlamına gelir; daha düşük genişlik geniş zayıflık sinyali verir."
+    },
+    {
+      "term": "Finansman Oranı (Funding Rate)",
+      "definition": "Tüccarların kalıcı vadeli işlem sözleşmelerinde uzun veya kısa pozisyonları açık tutmak için birbirlerine ödedikleri periyodik ücret. Pozitif oranlar uzunların kısalara ödediği anlamına gelir (boğa sinyali); negatif oranlar kısaların uzunlara ödediği anlamına gelir (ayı sinyali). Yıllıklandırılmış yüzde olarak ifade edilir."
+    },
+    {
+      "term": "Uzun/Kısa Oran (Long/Short Ratio)",
+      "definition": "Belirli bir borsada uzun sözleşme sahiplerinin kısa sözleşme sahiplerine bölünmesiyle elde edilen sayı. 1'den yukarı, daha fazla tüccarın fiyat yükselişine bahis oynadığı anlamına gelir; 1'den aşağı, daha fazla kişinin fiyat düşüşüne bahis oynadığı anlamına gelir."
+    },
+    {
+      "term": "İşaret Fiyatı (Mark Price)",
+      "definition": "Kalıcı vadeli işlemlerde finansman ödemelerini ve tasfiye işlemlerini kapatmak için kullanılan resmi fiyat, spot fiyat ve bir finansman bileşeninden hesaplanır. Gerçek piyasalardan aşırı kopuşu önler."
+    },
+    {
+      "term": "Net Akışlar (Net Flows)",
+      "definition": "Borsada işlem gören fonlara veya benzer ürünlere giren ve çıkan para arasındaki fark. Pozitif akışlar yatırımcı alışını gösterir; negatif akışlar yatırımcı satışını gösterir."
+    },
+    {
+      "term": "Açık Faiz (Open Interest)",
+      "definition": "Bir vadeli işlem piyasasında açık olan toplam uzun veya kısa pozisyon sayısı. Artan açık faiz tüccarların yeni pozisyonlar açtığı anlamına gelir; düşen açık faiz tüccarların pozisyonları kapatıyor anlamına gelir."
+    },
+    {
+      "term": "Kalıcı Vadeli İşlemler (Perpetuals)",
+      "definition": "Vade tarihi olmayan vadeli işlem sözleşmeleri. Tüccarlar pozisyonları süresiz olarak tutar ve sözleşme fiyatını spot fiyata yakın tutmak için periyodik finansman ücretleri öder/alır."
+    },
+    {
+      "term": "Taker Alış/Satış Oranı (Taker Buy/Sell Ratio)",
+      "definition": "Saldırgan satın almalar karşı satışların bir ölçüsü. Saldırgan satın almalar bölü saldırgan satışlar olarak hesaplanır. 1'den yukarı daha saldırgan satın alma anlamına gelir; 1'den aşağı daha saldırgan satış anlamına gelir. (Taker'lar pazar emri yürütürler; yapıcılar limit emirleri yayınlarlar.)"
+    },
+    {
+      "term": "Üst Pozisyon Oranı (Top Position Ratio)",
+      "definition": "Bir borsada tüm hesaplar değil, en büyük tüccarlar (balinalar) arasındaki uzun-kısa oranı. Büyük para haraketlerin yukarı veya aşağı gitmesine bahis oynadığını gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "2c6f4d9346a11e06"
+}

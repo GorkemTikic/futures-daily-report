@@ -1,0 +1,169 @@
+{
+  "oneLine": "Bitcoin and Ethereum gained modestly on Sunday—0.76% and 0.31% respectively—as positive funding rates sustained bullish positioning, but major news from Richard Heart's arrest, a bridge exploit, and regulatory pushback against tokenized stocks cast shadows on confidence.",
+  "caveman": "Bitcoin went up a little (less than 1%) and Ethereum went up even less on Sunday. Most traders are betting prices will keep going up (that's what positive funding means—traders paying each other to stay in their bets). But there's serious bad news underneath: a famous cryptocurrency founder named Richard Heart got arrested in Turkey, someone stole money by hacking a bridge (a place that moves crypto between blockchains), and the government is pushing back hard against companies trying to trade stocks on crypto exchanges. So prices went up tiny amounts, but the real feeling is worried, not happy.",
+  "priceVolumeSummary": "All five major venues (Binance, Bybit, OKX, Bitget, Gate) agreed on prices: Bitcoin closed around $82,078 (up 0.76%) and Ethereum around $2,409 (up 0.31%). Binance led volume decisively—$7.89 billion in BTC and $6.45 billion in ETH—roughly 50% more than the next exchange in each case.",
+  "positioningSummary": "Traders leaned bullish: funding rates stayed positive at Binance (Bitcoin 5.4%, Ethereum 4.3% annualized), and long-to-short ratios favored bulls (Bitcoin 1.75 longs per short, Ethereum 3.08). Top traders also heavily long (Bitcoin 1.78, Ethereum 1.73). However, aggressive selling pressure showed up: taker buy/sell ratios fell below 1 (Bitcoin 0.92, Ethereum 0.89, meaning more selling than buying by takers), and only 39% of Binance perpetuals closed higher—most coins fell. Open interest stayed flat (Bitcoin -0.44%, Ethereum +0.31%), suggesting traders neither rushed to add positions nor suddenly closed them.",
+  "stocksSummary": "Sunday—no cash equity sessions in US, Korea, Hong Kong, or China. Gold was up 0.45% (spot data, current). Oil fell ~1.4% (WTI and Brent). Crypto perpetual proxies for Asian tech showed mixed signals: South Korea's SK Hynix and Samsung Electronics both gained (1.0% and 1.2%), but LG Electronics fell 2.4%, and Hong Kong-listed GigaDevice rose 2.8% while Pop Mart dropped 1.8%.",
+  "movers": [
+    {
+      "symbol": "ARIAUSDT",
+      "explanation": "ARIA surged 34.6% with $144M in volume. No clear public catalyst or news found.",
+      "hasCause": false
+    },
+    {
+      "symbol": "APRUSDT",
+      "explanation": "APR fell 27.6% on $122M volume. No public news explaining the drop.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT dropped 19.5% on $379M volume, making it the day's most-traded mover. No identifiable public cause.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "SEC's tokenized stock framework faces issuer pushback as nine firms object to OKX-ICE trading",
+        "what": "Nine companies—including Broadcom, Verizon, CoreWeave, and UnitedHealth—formally objected to OKX and ICE's plan to tokenize their shares under the SEC's five-year Innovation Exemption. The venue planned to support 63 stocks with around-the-clock blockchain-based trading. Issuers can block tokenization under the exemption's built-in objection mechanism.",
+        "coins": "N/A (tokenized stocks, not crypto)",
+        "timeUTC": "2026-10-18 (announcement; objections dated Oct 15)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing"
+      },
+      {
+        "headline": "Cysic bridge loses $727k in attack; attacker mints 10 million CYS tokens",
+        "what": "An attacker exploited a database vulnerability in Cysic's cross-chain bridge on October 17 to create 10 million CYS tokens fraudulently, selling 7.2 million and bridging roughly $727k in proceeds to Ethereum. Cysic blacklisted the attacker's address 76 minutes later and suspended bridge operations. The company says the incident was limited to bridge processing and did not affect the mainnet.",
+        "coins": "CYS",
+        "timeUTC": "2026-10-17 12:31 UTC (exploit); 2026-10-18 reported",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
+      },
+      {
+        "headline": "Bitcoin and Ethereum ETF net outflows total nearly $550M for the week",
+        "what": "U.S. spot Bitcoin ETFs bled $228.6 million net outflows in the week of October 12–16, part of a two-week total near $910 million. Ethereum ETFs lost $320.1 million in the same week, extending a three-week losing streak. Combined crypto ETF outflows hit $610.7 million.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-16 (week ending)",
+        "source": "Farside Investors / SoSoValue / multiple sources",
+        "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-lose-910m-in-two-weeks-amid-rising-inflation-and-rate-hike-fears"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "White House crypto chief Patrick Witt announces departure",
+          "what": "Patrick Witt, who led crypto policy at the White House, announced he is leaving his post. His departure comes amid ongoing regulatory uncertainty around stablecoins, tokenization, and exchange oversight.",
+          "coins": "N/A",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto"
+        },
+        {
+          "headline": "Latvia passes crypto taxation overhaul; eyes crypto tax payments in 2027",
+          "what": "Latvia's parliament passed a law taxing crypto withdrawals above deposits (net-position basis) rather than taxing individual trades. The law includes a one-time declaration mechanism and is scheduled to take effect in 2027.",
+          "coins": "N/A",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Stablecoin payments surge 45% as Visa, Mastercard, and Stripe expand crypto rails",
+          "what": "Analytics firm Allium reported that stablecoin payments hit $482 billion year-to-date (through October 2026), up 45% from a year ago. Visa, Mastercard, and Stripe are expanding integrations to connect fiat payments to crypto rails.",
+          "coins": "USDC, USDT, other stablecoins",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash"
+        },
+        {
+          "headline": "BIS working paper: stablecoin adoption slows when U.S. banks raise deposit rates",
+          "what": "Bank for International Settlements economists found that stablecoin growth decelerates when U.S. banks raise deposit rates, with Circle's USDC most sensitive to rate moves. The finding suggests traditional finance can directly pressure crypto adoption.",
+          "coins": "USDC, USDT",
+          "timeUTC": "2026-10-18",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "SEC approves Cboe options on Coinbase trading volume and Marathon mining output",
+          "what": "The SEC approved new earnings-style options contracts that settle based on Coinbase's trading volume and Marathon Digital's Bitcoin output, with built-in procedures for delayed or missing data.",
+          "coins": "COIN, MARA",
+          "timeUTC": "2026-10-18",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/sec-approves-coinbase-earnings-bets-that-stay-settled-when-the-numbers-change/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[Context] Richard Heart (HEX founder) detained in Istanbul on Interpol Red Notice, police seize $7.15M and cold wallets",
+          "what": "Richard Heart was arrested in Istanbul on October 14–15, 2026, on an Interpol Red Notice issued by Finland in December 2024 citing tax evasion and assault charges. Turkish police and intelligence seized $7.15 million in cash, six cold wallets, seven firearms, and ammunition across 15 addresses. (Outside report day; included for context.)",
+          "coins": "HEX, PLS",
+          "timeUTC": "2026-10-14 (arrest); reported 2026-10-15 to 2026-10-17",
+          "source": "The Block / CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-16",
+    "summary": "U.S. spot Bitcoin ETFs recorded net outflows of $228.6 million for the week ending October 16, extending a two-week losing streak to nearly $910 million. Ethereum ETF outflows were steeper: $320.1 million for the same week, with the iShares Ethereum Trust accounting for $299 million. Combined crypto ETF outflows reached $610.7 million for the week.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-lose-910m-in-two-weeks-amid-rising-inflation-and-rate-hike-fears"
+  },
+  "calendarNotes": [
+    {
+      "event": "China GDP October 2026, Monday 19 Oct, 02:00 UTC",
+      "typicalReaction": "High-impact release. Expect volatility in traditional markets (stocks, bonds, currencies) that may spill into crypto."
+    },
+    {
+      "event": "Canada CPI October 2026, Monday 19 Oct, 12:30 UTC",
+      "typicalReaction": "High-impact release. Inflation data can drive central bank expectations and affect risk sentiment across all markets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between the spot price (real-time price for immediate delivery) and the futures price (contract price for future delivery). Positive basis means futures trade above spot."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of all tradable contracts that closed higher on the day. Higher breadth means more coins/tokens are winning; lower breadth signals broad weakness."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic fee traders pay each other to keep long or short positions open in perpetual futures contracts. Positive rates mean longs pay shorts (bullish signal); negative rates mean shorts pay longs (bearish signal). Expressed as an annualized percentage."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of long-contract holders divided by short-contract holders at a given exchange. Above 1 means more traders bet on a price rise; below 1 means more bet on a price fall."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The official price used to settle funding payments and liquidations in perpetual futures, calculated from spot price and a funding component. Prevents extreme disconnect from real markets."
+    },
+    {
+      "term": "Net flows (ETF flows)",
+      "definition": "The difference between money flowing into and out of exchange-traded funds or similar products. Positive flows indicate investor buying; negative flows indicate investor selling."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open long or short positions in a futures market. Rising open interest means traders are opening new positions; falling open interest means traders are closing positions."
+    },
+    {
+      "term": "Perpetuals (perps)",
+      "definition": "Futures contracts with no expiration date. Traders hold positions indefinitely and pay/receive periodic funding fees to keep the contract price close to the spot price."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying versus selling. Calculated as aggressive buys divided by aggressive sells. Above 1 means more aggressive buying; below 1 means more aggressive selling. (Takers execute market orders; makers post limit orders.)"
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long-to-short ratio among the largest traders (whales) at an exchange, not all accounts. Shows whether big money is betting on up or down moves."
+    }
+  ],
+  "_source": "cli"
+}

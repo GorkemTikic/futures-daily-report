@@ -1,0 +1,170 @@
+{
+  "oneLine": "周日比特币和以太坊小幅上涨，分别上升0.76%和0.31%。正向融资费率支撑了多头头寸，但Richard Heart被捕、跨链桥遭攻击以及政府对代币化股票的监管阻力等重大新闻削弱了市场信心。",
+  "caveman": "周日比特币涨了一点（不到1%），以太坊涨得更少。大多数交易者都在打赌价格会继续上涨（这就是正向融资的意思——交易者互相支付费用来维持他们的赌注）。但底下有严重的坏消息：一位著名的加密货币创始人Richard Heart在土耳其被逮捕，有人通过黑客攻击跨链桥来偷钱（跨链桥是在区块链之间转移加密货币的地方），政府也在严厉打击公司在加密交易所交易股票。所以价格涨了一点点，但真实的感觉是担心，不是高兴。",
+  "priceVolumeSummary": "五大交易所（Binance、Bybit、OKX、Bitget、Gate）价格一致：比特币收盘价约$82,078（上涨0.76%），以太坊约$2,409（上涨0.31%）。Binance交易量遥遥领先——比特币$7.89 billion、以太坊$6.45 billion——分别比第二大交易所高约50%。",
+  "positioningSummary": "交易者情绪偏多：Binance的融资费率为正（比特币年化5.4%、以太坊4.3%），表示多头需要支付空头费用，暗示看涨预期。多空头寸比也有利于多头（比特币约1.75倍，以太坊约3.08倍）。大户持仓也以多头为主（比特币1.78、以太坊1.73）。但同时出现了明显卖压：吃单买卖比跌破1.0（比特币0.92、以太坊0.89，表明主动卖出多于主动买入），Binance永续合约中只有39%的合约在收盘时上涨——大多数币种走弱。未平仓持仓基本持平（比特币-0.44%、以太坊+0.31%），表明交易者既未大幅增仓，也未明显减仓。",
+  "stocksSummary": "周日美国、韩国、香港、中国股市都休市。黄金上涨0.45%（现货）。原油下跌约1.4%（WTI和Brent）。亚洲科技股期货代理表现不一：SK Hynix和Samsung Electronics上涨（分别1.0%和1.2%），但LG Electronics下跌2.4%，香港上市的GigaDevice上涨2.8%，Pop Mart下跌1.8%。",
+  "movers": [
+    {
+      "symbol": "ARIAUSDT",
+      "explanation": "ARIA涨幅达34.6%，成交量$144M。未发现明确的公开催化剂或新闻。",
+      "hasCause": false
+    },
+    {
+      "symbol": "APRUSDT",
+      "explanation": "APR下跌27.6%，成交量$122M。未发现公开新闻解释此跌幅。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT下跌19.5%，成交量$379M，成为当天成交量最大的下跌币种。未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "九家公司反对OKX和ICE推出代币化股票，美国证监会框架遭发行方抵触",
+        "what": "包括Broadcom、Verizon、CoreWeave和UnitedHealth在内的九家公司正式反对OKX和ICE按照美国证监会五年创新豁免框架代币化他们股份的计划。该交易所计划支持63只股票进行全天候的区块链交易。在该豁免框架的内置异议机制下，发行方可以阻止代币化。",
+        "coins": "N/A (tokenized stocks, not crypto)",
+        "timeUTC": "2026-10-18 (announcement; objections dated Oct 15)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing"
+      },
+      {
+        "headline": "Cysic跨链桥遭攻击损失$727k，黑客伪造1000万个CYS代币",
+        "what": "攻击者在10月17日利用Cysic跨链桥的数据库漏洞，非法铸造1000万个CYS代币，并售出720万个，将约$727k的收益跨链桥接到以太坊。Cysic在76分钟后将攻击者地址入黑名单并暂停了桥接操作。公司表示此事件仅限于桥接处理，未影响主网。",
+        "coins": "CYS",
+        "timeUTC": "2026-10-17 12:31 UTC (exploit); 2026-10-18 reported",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863"
+      },
+      {
+        "headline": "比特币和以太坊现货ETF本周净流出近$550M",
+        "what": "美国现货比特币ETF在10月12-16周内净流出$228.6 million，为期两周总流出近$910 million的一部分。以太坊ETF在同周净流出$320.1 million，延续了三周的持续流出。加密货币ETF总流出达$610.7 million。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-16 (week ending)",
+        "source": "Farside Investors / SoSoValue / multiple sources",
+        "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-lose-910m-in-two-weeks-amid-rising-inflation-and-rate-hike-fears"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "白宫加密货币政策负责人Patrick Witt宣布离职",
+          "what": "白宫加密货币政策负责人Patrick Witt宣布他将离职。他的离职发生在关于稳定币、代币化和交易所监管的持续不确定性中。",
+          "coins": "N/A",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto"
+        },
+        {
+          "headline": "拉脱维亚通过加密货币税收改革，目标2027年开始征税",
+          "what": "拉脱维亚议会通过了一项法律，按照净头寸（提现减存入）而非单笔交易来对加密货币征税。该法律包含一次性申报机制，计划于2027年生效。",
+          "coins": "N/A",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "随着Visa、Mastercard和Stripe扩展加密支付渠道，稳定币支付激增45%",
+          "what": "数据分析公司Allium报告称，稳定币支付在2026年截至10月达到$482 billion，较去年同期增长45%。Visa、Mastercard和Stripe正在扩大集成，将法币支付连接到加密支付渠道。",
+          "coins": "USDC, USDT, other stablecoins",
+          "timeUTC": "2026-10-18",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash"
+        },
+        {
+          "headline": "国际清算银行研究：美国银行提高存款利率时稳定币采用率放缓",
+          "what": "国际清算银行经济学家发现，当美国银行提高存款利率时，稳定币增长会放缓，其中Circle的USDC对利率变化最敏感。这项发现表明传统金融可以直接影响加密货币的采用。",
+          "coins": "USDC, USDT",
+          "timeUTC": "2026-10-18",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "美国证监会批准Cboe推出基于Coinbase交易量和Marathon挖矿产量的期权",
+          "what": "美国证监会批准了新的收益风格期权合约，这些合约基于Coinbase的交易量和Marathon Digital的比特币产量来结算，并包含处理延迟或缺失数据的内置程序。",
+          "coins": "COIN, MARA",
+          "timeUTC": "2026-10-18",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/sec-approves-coinbase-earnings-bets-that-stay-settled-when-the-numbers-change/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[背景] Richard Heart（HEX创始人）因国际刑警组织红色通缉令在伊斯坦布尔被拘留，警方缴获$7.15M和冷钱包",
+          "what": "Richard Heart在2026年10月14-15日在伊斯坦布尔被逮捕，原因是芬兰在2024年12月发出的国际刑警组织红色通缉令，涉及逃税和暴力罪指控。土耳其警方和情报部门在15个地址中缴获了$7.15 million现金、6个冷钱包、7支枪支和弹药。（事件发生于报告日期之外，仅供参考。）",
+          "coins": "HEX, PLS",
+          "timeUTC": "2026-10-14 (arrest); reported 2026-10-15 to 2026-10-17",
+          "source": "The Block / CoinDesk",
+          "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-16",
+    "summary": "美国现货比特币ETF在截至10月16日的周内记录净流出$228.6 million，延续了为期两周的流出大约$910 million的趋势。以太坊ETF流出更为严重：同周净流出$320.1 million，其中iShares以太坊信托账户贡献了$299 million。该周加密货币ETF总流出达到$610.7 million。",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-lose-910m-in-two-weeks-amid-rising-inflation-and-rate-hike-fears"
+  },
+  "calendarNotes": [
+    {
+      "event": "China GDP October 2026, Monday 19 Oct, 02:00 UTC",
+      "typicalReaction": "高影响力数据。预计传统市场（股票、债券、汇率）会出现波动，可能波及加密货币市场。"
+    },
+    {
+      "event": "Canada CPI October 2026, Monday 19 Oct, 12:30 UTC",
+      "typicalReaction": "高影响力数据。通胀数据可能驱动央行预期变化并影响所有市场的风险情绪。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "现货价格（即时交割的实时价格）与期货价格（未来交割的合约价格）之间的差异。正基差意味着期货价格高于现货价格。"
+    },
+    {
+      "term": "涨跌广度",
+      "definition": "当日收盘上涨的可交易合约占总体的百分比。更高的涨跌广度意味着更多的币种/代币上涨，更低的涨跌广度表示市场整体疲弱。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "交易者在永续期货合约中为维持开放头寸而互相支付的定期费用。正向费率意味着多头支付空头（看涨信号），负向费率意味着空头支付多头（看跌信号）。以年化百分比表示。"
+    },
+    {
+      "term": "多空比",
+      "definition": "在特定交易所持有多头合约的交易者数量除以持有空头合约的交易者数量。高于1表示更多交易者看涨，低于1表示更多交易者看跌。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "在永续期货中用于结算融资费用和清算的官方价格，由现货价格和融资成分计算而来。防止价格与实际市场脱离过大。"
+    },
+    {
+      "term": "净流入",
+      "definition": "流入交易所交易基金或类似产品的资金与流出资金之间的差异。正流入表示投资者买入，负流入表示投资者卖出。"
+    },
+    {
+      "term": "未平仓持仓",
+      "definition": "期货市场中所有开放多头或空头头寸的总数。未平仓持仓上升意味着交易者在开启新头寸，下降意味着交易者在平仓。"
+    },
+    {
+      "term": "永续合约",
+      "definition": "没有到期日的期货合约。交易者可以无限期持有头寸，并支付/收取定期融资费用以保持合约价格接近现货价格。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "衡量主动买入与主动卖出的指标。计算方法为主动买入数量除以主动卖出数量。高于1表示主动买入更多，低于1表示主动卖出更多。（吃单者执行市价单，挂单者发布限价单。）"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "交易所中最大的交易者（鲸鱼）之间的多空比率，而非所有账户。反映大资金是在押注价格上升还是下降。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "2c6f4d9346a11e06"
+}

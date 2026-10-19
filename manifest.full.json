@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-18T00:08:28.236Z",
-  "count": 123,
+  "generatedAt": "2026-10-19T00:10:51.988Z",
+  "count": 124,
   "counts": {
-    "total": 123,
-    "market": 36,
+    "total": 124,
+    "market": 37,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-17",
+  "latest": "2026-10-18",
   "reports": [
+    {
+      "date": "2026-10-18",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.7618591573506209,
+        "ETH": 0.3222945372325052
+      },
+      "marketSummary": "Bitcoin and Ethereum gained modestly on Sunday—0.76% and 0.31% respectively—as positive funding rates sustained bullish positioning, but major news from Richard Heart's arrest, a bridge exploit, and regulatory pushback against tokenized stocks cast shadows on confidence.",
+      "oneLine": "Bitcoin and Ethereum gained modestly on Sunday—0.76% and 0.31% respectively—as positive funding rates sustained bullish positioning, but major news from Richard Heart's arrest, a bridge exploit, and regulatory pushback against tokenized stocks cast shadows on confidence.",
+      "newsCount": 9,
+      "topMover": {
+        "symbol": "ARIAUSDT",
+        "chgPct": 34.625571875752485
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-18/summary_2026-10-18.html",
+        "pdf": "reports/2026-10-18/summary_2026-10-18.pdf",
+        "md": "reports/2026-10-18/summary_2026-10-18.md"
+      }
+    },
     {
       "date": "2026-10-17",
       "kind": "market",

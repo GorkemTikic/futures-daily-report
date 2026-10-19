@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-18",
+  "kind": "market",
+  "dateLong": "Sunday, 18 October 2026",
+  "coversUTC": "2026-10-18 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum gained modestly on Sunday—0.76% and 0.31% respectively—as positive funding rates sustained bullish positioning, but major news from Richard Heart's arrest, a bridge exploit, and regulatory pushback against tokenized stocks cast shadows on confidence.",
+  "newsCount": 9,
+  "macro": {
+    "BTC": 0.7618591573506209,
+    "ETH": 0.3222945372325052
+  },
+  "topMover": {
+    "symbol": "ARIAUSDT",
+    "chgPct": 34.625571875752485
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "19 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
