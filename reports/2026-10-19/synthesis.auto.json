@@ -1,0 +1,326 @@
+{
+  "oneLine": "Bitcoin and Ethereum eased down slightly on Monday 19 October as major institutions continued accumulating bitcoin and new financial-sector tools launched for crypto payments.",
+  "caveman": "Bitcoin fell by 0.2% and Ethereum fell by 0.1% on Monday, October 19. It was a quiet day—not a crash, just a small decline. What mattered more was that really big companies kept buying lots of Bitcoin (Strive spent $335 million, and JPMorgan brought its dollar token to the Ethereum network). Computer chip companies in Asia rose sharply (Samsung and SK Hynix went up 5-6%) because everyone wants chips for artificial intelligence. New tools also launched: Mastercard and JPMorgan made fraud checkers for crypto payments, and Mesh connected to Visa so you can spend crypto at regular stores. A report showed that hackers are stealing more crypto, 55% more than last year, reaching $1.2 billion. Overall: a calm day with good long-term news about adoption, even though prices fell a tiny bit.",
+  "priceVolumeSummary": "All five major venues (Binance, Bybit, OKX, Gate, Bitget) agreed tightly on BTC price between $81,900–$81,916 and ETH between $2,406–$2,407. Binance led volume decisively, trading $10.6B on BTC and $6.7B on ETH, approximately double the next-largest venue on each asset.",
+  "positioningSummary": "Bitcoin funding remained positive at 1.01% annualized on Binance—a modest signal that leveraged longs slightly outweigh shorts. Open interest fell 0.33%, indicating deleveraging. The long/short account ratio was 1.76 and the top trader ratio 1.77, meaning both retail and institutional traders were heavily long. Taker buy/sell ratio stood at 1.02, showing slightly more aggressive buying than selling. Ethereum funding was lower at 0.58% annualized; open interest rose 0.64%, and the long/short ratio hit 3.40—an extreme long lean. Market breadth showed 59% of Binance perps closing higher. These numbers suggest institutional conviction persists despite the minor price decline.",
+  "stocksSummary": "Asian equities led: South Korea's SK Hynix jumped 5.14% and Samsung Electronics 6.08%, while Hong Kong leveraged chip plays surged further (CSOP Samsung 2x +10.73%, CSOP SK Hynix 2x +9.34%), driven by artificial-intelligence data-center chip demand. China's Unitree Robotics led regional gainers at +14.84%. US equities rebounded strongly: the Nasdaq-focused ONEQ ETF gained 1.08% and chip stocks like Western Digital rose 7.1%, suggesting technology leadership on the day. Gold fell 1.18% (perpetuals) and 0.20% (spot), while US 10-year Treasury yields moved higher (IEF down 0.38%), reflecting expectations of continued Federal Reserve policy tightening.",
+  "movers": [
+    {
+      "symbol": "BRUSDT",
+      "explanation": "No clear public cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "explanation": "No clear public cause.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "No clear public cause.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Strive buys $335 million in bitcoin, reaches 36,818 BTC",
+        "what": "The Nasdaq-listed bitcoin treasury company purchased $335 million in bitcoin after investors exercised $369 million in warrants, bringing its total holdings to 36,818 BTC. Strive also acquired an additional 1,223 BTC for $100 million earlier in the week, signaling sustained institutional appetite and capital flowing into bitcoin corporations.",
+        "coins": "BTC",
+        "timeUTC": "12:52 UTC",
+        "source": "Cointelegraph / The Block",
+        "url": "https://cointelegraph.com/news/strive-buys-335m-in-bitcoin-boosting-holdings-to-36818-btc"
+      },
+      {
+        "headline": "BlackRock files for bitcoin ETF with downside protection and upside exposure",
+        "what": "BlackRock, one of the world's largest asset managers, filed for a new bitcoin fund designed to offer downside protection while maintaining exposure to bitcoin price appreciation. This marks BlackRock's third bitcoin-linked ETF, further institutionalizing bitcoin access and signaling sustained confidence in spot market products.",
+        "coins": "BTC",
+        "timeUTC": "22:47 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
+      },
+      {
+        "headline": "JPMorgan brings JPM Coin to Ethereum, enabling instant dollar settlement on public blockchain",
+        "what": "JPMorgan deployed its dollar-backed token (JPM Coin) on the Ethereum blockchain for institutional clients, allowing dollar transfers to settle in seconds on a public network without traditional banking infrastructure. This marks a major step in connecting mainstream finance to decentralized blockchain systems.",
+        "coins": "ETH",
+        "timeUTC": "05:00 UTC",
+        "source": "Decrypt / CoinDesk",
+        "url": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Revolut secures Gibraltar crypto license for international expansion",
+          "what": "UK fintech Revolut obtained a Gibraltar Digital Asset Services License, enabling it to expand crypto offerings to additional markets globally. The license provides regulatory clarity for the company's international strategy.",
+          "coins": "Multi-asset",
+          "timeUTC": "05:35 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/revolut-secures-gibraltar-crypto-license-to-support-global-expansion"
+        },
+        {
+          "headline": "Tether CEO defends against Iran-volumes investigation, cites positive compliance work",
+          "what": "Tether's Paolo Ardoino responded to a senator's investigation into the stablecoin's Iran exposure, arguing that the company's positive work has led to lower Iran-related transaction volumes.",
+          "coins": "USDT",
+          "timeUTC": "03:01 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes"
+        },
+        {
+          "headline": "CFTC rebuffs CME's legal stance in perpetual futures dispute",
+          "what": "The US Commodity Futures Trading Commission rejected the CME's argument that its new bitcoin perpetual futures policy is causing harm. The outcome may determine whether perpetual futures remain accessible to US traders.",
+          "coins": "BTC",
+          "timeUTC": "04:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures"
+        },
+        {
+          "headline": "Nine major US companies object to OKX-ICE tokenized stock venue",
+          "what": "Verizon, Broadcom, UnitedHealth, and six other major corporations filed objections to having their shares traded on the planned OKX-ICE tokenized stock exchange, citing concerns over the listing arrangement.",
+          "coins": "Multi-asset (tokenized equities)",
+          "timeUTC": "04:50 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381349/why-some-america-biggest-companies-objecting-tokenized-shares"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy acquires another 267 bitcoin for $22 million, signaling continued accumulation",
+          "what": "Michael Saylor's bitcoin treasury company (Strategy) purchased an additional 267 BTC, bringing its total holdings to approximately 4% of the global bitcoin supply and generating $5.9 billion in unrealized gains.",
+          "coins": "BTC",
+          "timeUTC": "10:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895"
+        },
+        {
+          "headline": "Metaplanet acquires 93.7% stake in Super League gaming using 2,100 BTC",
+          "what": "Japanese bitcoin holder Metaplanet agreed to take majority control of Super League via a 2,100 BTC deal, providing it access to US capital markets and funding for future bitcoin purchases.",
+          "coins": "BTC",
+          "timeUTC": "04:28 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/metaplanet-super-league-2100-btc-us-bitcoin-treasury-deal"
+        },
+        {
+          "headline": "Bitmine adds 12,535 ETH to treasury, reaching 6.04 million tokens",
+          "what": "Mining-to-AI pivot company Bitmine purchased 12,535 Ethereum tokens last week, bringing its total treasury to 6.04 million ETH and overall investment holdings to $15.1 billion.",
+          "coins": "ETH",
+          "timeUTC": "04:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-bitmine-adds-12535-eth-as-treasury-reaches-6-04-million-tokens-421018"
+        },
+        {
+          "headline": "SkyAI liquidates entire Solana treasury, launches $201M buyback program",
+          "what": "The former medical-device maker sold all its Solana holdings and is now using its $223.8 million cash position to repurchase shares and warrants through October 29, signaling a shift away from direct crypto exposure.",
+          "coins": "SOL",
+          "timeUTC": "00:37 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Mesh partners with Visa to enable crypto spending at 175 million merchant locations",
+          "what": "Mesh and Visa announced an integration allowing users to spend cryptocurrency and stablecoins directly from wallet apps at any Visa-accepting merchant globally, without requiring asset sales or transfers.",
+          "coins": "Multi-asset",
+          "timeUTC": "00:16 UTC",
+          "source": "Cointelegraph / Decrypt",
+          "url": "https://cointelegraph.com/news/visa-mesh-partner-crypto-spending-175m-merchant-locations"
+        },
+        {
+          "headline": "Mastercard launches Stablecoin Security tool to screen payments for fraud and sanctions risks",
+          "what": "Mastercard unveiled an API-based risk-screening service launching in North America that combines payment and blockchain intelligence to detect fraud, scams, and sanctions exposure before stablecoin funds move on-chain.",
+          "coins": "USDC, USDT, stablecoins",
+          "timeUTC": "04:00 UTC",
+          "source": "Decrypt / The Block",
+          "url": "https://decrypt.co/381365/mastercard-brings-its-fraud-fighting-tools-to-stablecoin-payments"
+        },
+        {
+          "headline": "Zerohash launches tool to move crypto without copying wallet addresses",
+          "what": "Institutional-focused crypto infrastructure firm Zerohash released a new wallet transfer feature that reduces the operational and security friction of address management, as the company pursues a federal trust charter.",
+          "coins": "Multi-asset",
+          "timeUTC": "00:32 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/19/zerohash-rolls-out-a-new-tool-to-move-crypto-without-copying-wallet-addresses"
+        },
+        {
+          "headline": "AnchorWatch launches bitcoin custody service with $370M insurance per client",
+          "what": "Nevada-chartered bitcoin custody provider AnchorWatch began operations with optional insurance covering up to $370 million per client and a $10,000-per-month fee cap, targeting institutional operators.",
+          "coins": "BTC",
+          "timeUTC": "04:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-anchorwatch-bitcoin-custody-insurance-421011"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Crypto hacks surge 55% to $1.2 billion despite 30% drop in key theft",
+          "what": "Third-quarter hacking reports show total theft rising to $1.2 billion, a 55% increase from prior quarters, driven largely by smart-contract exploits and exchange failures like Bitget and Liquid. Meanwhile, direct key theft fell 30%, suggesting users are adopting better custody practices.",
+          "coins": "Multi-asset",
+          "timeUTC": "22:44 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-hacks-surge-55-to-1-2b-but-key-theft-drops-by-30/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Whale loses $469,000 on Hyperliquid but re-enters with $16M ETH short",
+          "what": "An unknown trader realized roughly $469,000 in losses on Hyperliquid after being liquidated, then immediately added 1,126 ETH worth of short positions—betting against ethereum—suggesting continued high conviction despite the setback.",
+          "coins": "ETH",
+          "timeUTC": "23:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hyperliquid-wallet-adds-to-eth-short-after-19-8m-in-forced-closures/"
+        },
+        {
+          "headline": "Abandoned Bitcoin wallet dormant since 2013 moves $33 million",
+          "what": "A Bitcoin address inactive for 13 years suddenly transferred 411 BTC worth approximately $33.4 million on October 19, according to Galaxy Research. The wallet is among those named in the 'Noah Doe' lawsuit against Satoshi Nakamoto.",
+          "coins": "BTC",
+          "timeUTC": "04:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381337/abandoned-bitcoin-wallet-noah-doe-lawsuit-moves-33-million"
+        },
+        {
+          "headline": "Cardano founder Hoskinson announces new programming language for network",
+          "what": "Charles Hoskinson stated via social media that he is developing a new programming language for Cardano that will bundle transaction requests with cryptographic proofs. No name, specifications, or release date were disclosed.",
+          "coins": "ADA",
+          "timeUTC": "06:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/19/cardano-founder-charles-hoskinson-is-building-a-new-programming-language-for-the-network"
+        },
+        {
+          "headline": "XRP Ledger publishes second amendment to repair uncollateralized lending feature",
+          "what": "XRP developers released a second amendment addressing issues with the ledger's new uncollateralized lending protocol while the original amendment still awaits validator approval, suggesting governance friction on the protocol upgrade.",
+          "coins": "XRP",
+          "timeUTC": "03:45 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381358/xrp-ledger-repairs-lending-protocol-before-live"
+        },
+        {
+          "headline": "Tether loses nearly $5 billion in exchange liquidity as rivals pay to compete",
+          "what": "Crystal and Allium data show USDT's share of exchange balances contracted in Q3 as USDC and Ripple's RLUSD paid for liquidity incentives, though Tether maintained dominance in classified payment volume.",
+          "coins": "USDT",
+          "timeUTC": "04:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-loses-nearly-5-billion-across-crypto-exchanges-as-usdc-and-rlusd-rivals-pay-to-win-liquidity/"
+        },
+        {
+          "headline": "Aave's proposed USAT gateway would require continuous approval to swap back",
+          "what": "Aave governance is reviewing a proposal for a USAT (dollar stablecoin) gateway that would permit transfers and GHO swaps freely but require separate authorization for return swaps and issuer redemptions.",
+          "coins": "AAVE, GHO, USAT",
+          "timeUTC": "05:53 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-proposed-usat-gateway-would-require-continuing-approval-to-swap-back/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "FOMC rate decision scheduled 28 Oct 18:00 UTC (9 days ahead)",
+      "typicalReaction": "Crypto typically reacts sharply to Federal Reserve rate announcements; higher rates usually pressure risk assets like bitcoin and ethereum. Markets will watch for inflation language and forward guidance."
+    },
+    {
+      "event": "Multiple central bank decisions and inflation reports (22–29 Oct)",
+      "typicalReaction": "Japanese CPI, UK inflation, US jobless claims, ECB decision, and German CPI all influence risk appetite. Stronger-than-expected inflation could push yields higher and weigh on crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Adoption",
+      "definition": "When more people or companies start using or accepting cryptocurrency."
+    },
+    {
+      "term": "Annualized",
+      "definition": "Expressed as a yearly rate. A funding rate of 0.5% per 8-hour period annualized becomes much higher when compounded over 365 days."
+    },
+    {
+      "term": "Bitcoin",
+      "definition": "The original and largest cryptocurrency, created in 2009. Often used as the primary reference asset for crypto markets."
+    },
+    {
+      "term": "Blockchain",
+      "definition": "The underlying technology behind cryptocurrencies—a decentralized ledger that records transactions across many computers."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of cryptocurrency markets moving up vs. down on a given day. High breadth (e.g., 59% up) suggests broad participation in gains."
+    },
+    {
+      "term": "Deleveraging",
+      "definition": "When traders reduce borrowed funds or close leveraged positions, often forcing price moves downward when many do so at once."
+    },
+    {
+      "term": "Ethereum",
+      "definition": "The second-largest cryptocurrency by market value, known for supporting smart contracts and decentralized applications."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "A fund that holds cryptocurrency or commodities and trades on a stock exchange like a regular stock. Allows people to own crypto exposure without managing private keys."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment (typically every 8 hours) between long and short traders on futures contracts. Positive rates mean long traders pay short traders, signaling optimism; negative rates go the other way."
+    },
+    {
+      "term": "Institutional",
+      "definition": "Large organizations like banks, investment firms, or corporations (as opposed to individual retail traders)."
+    },
+    {
+      "term": "Leverage / leveraged",
+      "definition": "Borrowing money to make a larger bet. Amplifies both gains and losses."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a leveraged position is forcibly closed due to losses exceeding the trader's initial margin."
+    },
+    {
+      "term": "Long / long position",
+      "definition": "A bet that an asset's price will rise. A long trader profits if the price goes up."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders betting that prices will rise (longs) versus those betting prices will fall (shorts). A ratio above 1 means more longs than shorts."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The current price used by a futures exchange to calculate profit and loss on derivatives positions. It may differ slightly from the spot price."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total notional value of all futures positions open at a given time. Rising open interest suggests traders are adding new positions; falling open interest means positions are closing."
+    },
+    {
+      "term": "Perpetual futures / perps",
+      "definition": "Derivative contracts that never expire, allowing traders to bet on price movements with leverage. Settlements happen via the funding rate."
+    },
+    {
+      "term": "Short / short position",
+      "definition": "A bet that an asset's price will fall. A short trader profits if the price goes down."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to maintain a stable value, usually pegged to the US dollar (e.g., USDC, USDT, USAT)."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The fraction of market orders (takers) that are buys versus sells. A ratio above 1 means more aggressive buying than selling."
+    },
+    {
+      "term": "Token",
+      "definition": "A digital asset built on a blockchain. Some tokens represent cryptocurrencies; others represent access to platforms or shared ownership."
+    },
+    {
+      "term": "Top trader / top position ratio",
+      "definition": "The long/short balance among the largest traders on an exchange. Signals what big money is betting on."
+    },
+    {
+      "term": "Treasury (crypto treasury)",
+      "definition": "Holdings of cryptocurrency kept on a corporation's balance sheet as an asset, similar to cash reserves."
+    },
+    {
+      "term": "Venue",
+      "definition": "A cryptocurrency exchange or trading platform (e.g., Binance, Bybit, OKX)."
+    }
+  ],
+  "_source": "cli"
+}

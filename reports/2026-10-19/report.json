@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "kind": "market",
+  "dateLong": "Monday, 19 October 2026",
+  "coversUTC": "2026-10-19 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum eased down slightly on Monday 19 October as major institutions continued accumulating bitcoin and new financial-sector tools launched for crypto payments.",
+  "newsCount": 22,
+  "macro": {
+    "BTC": -0.20117978356417376,
+    "ETH": -0.08840888903647215
+  },
+  "topMover": {
+    "symbol": "BRUSDT",
+    "chgPct": 53.727913279132785
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "20 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

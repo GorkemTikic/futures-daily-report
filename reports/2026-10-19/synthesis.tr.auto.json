@@ -1,0 +1,327 @@
+{
+  "oneLine": "19 Ekim Pazartesi günü Bitcoin ve Ethereum hafifçe düştü; bu sırada büyük kurumlar Bitcoin'i biriktirmeye devam etti ve kripto ödemeleri için yeni finansal araçlar devreye alındı.",
+  "caveman": "19 Ekim Pazartesi günü Bitcoin %0,2, Ethereum %0,1 düştü. Sessiz bir gündü—çöküş değil, sadece küçük bir düşüş. Daha önemli olan, dev şirketlerin Bitcoin'i satın almaya devam etmesiydi (Strive $335 milyon harcadı, JPMorgan dolar tokenini Ethereum ağına getirdi). Asya'daki bilgisayar çipi şirketleri keskin şekilde yükseldi (Samsung ve SK Hynix %5-6 arttı) çünkü herkes yapay zeka çipleri istiyor. Yeni araçlar da başlatıldı: Mastercard ve JPMorgan kripto ödemeler için dolandırıcılık denetçileri yaptı, Mesh ise Visa'ya bağlanarak normal mağazalarda kripto harcayabilmeyi sağladı. Bir rapor, hackerların kripto çaldığını, geçen yıla göre %55 daha fazla, $1,2 milyara ulaştığını gösterdi. Özet: fiyatlar küçük bir düşüş yaşasa da, benimseme açısından iyi uzun vadeli haberlerle dolu sakin bir gün.",
+  "priceVolumeSummary": "Beş büyük borsa (Binance, Bybit, OKX, Gate, Bitget) BTC fiyatı konusunda sıkı bir şekilde uzlaştı ($81,900–$81,916 aralığında) ve ETH ($2,406–$2,407 aralığında). Binance hacim konusunda kesin bir şekilde liderlik yaptı, BTC'de $10,6 milyar ve ETH'de $6,7 milyar işlem yaparak her varlıkta ikinci büyük borsanın yaklaşık iki katını işlem gördü.",
+  "positioningSummary": "Bitcoin finansman oranı Binance'de yıllıklandırılmış %1,01 seviyesinde pozitif kaldı; bu, kaldıraçlı alış pozisyonlarının kısa satış pozisyonlarını hafifçe aşmış olduğunun mütevazı bir sinyalidir. Açık faiz %0,33 düştü, kaldıraç azaltılmasını göstermektedir. Alış/satış hesap oranı 1,76 ve en büyük tüccar oranı 1,77 oldu; bu, hem perakende hem de kurumsal tüccarların ağırlıklı olarak alış pozisyonunda olduğu anlamına gelmektedir. Taker alış/satış oranı 1,02'de durdu, satıştan biraz daha agresif alış gösterilmektedir. Ethereum finansman oranı daha düşük yıllıklandırılmış %0,58 seviyesindeydi; açık faiz %0,64 arttı ve alış/satış oranı 3,40'a çıktı—aşırı bir alış eğilimi. Pazar genişliği Binance türev sözleşmelerinin %59'unun yükselerek kapandığını gösterdi. Bu rakamlar, minor fiyat düşüşüne rağmen kurumsal ikna ve güvenin devam ettiğini göstermektedir.",
+  "stocksSummary": "Asya hisse senetleri öncülük etti: Güney Kore'nin SK Hynix %5,14 sıçradı ve Samsung Electronics %6,08, Hong Kong'daki kaldıraçlı çip oyunları daha da hızlandı (CSOP Samsung 2x +%10,73, CSOP SK Hynix 2x +%9,34), yapay zeka veri merkezi çip talebinin etkisiyle. Çin'in Unitree Robotics bölgesel kazananlara öncülük etti +%14,84 ile. ABD hisse senetleri güçlü şekilde toparlandı: Nasdaq odaklı ONEQ ETF %1,08 kazandı ve Western Digital gibi çip hisse senetleri %7,1 yükseldi, günün teknoloji liderliğini göstermektedir. Altın %1,18 (türev sözleşmeler) ve %0,20 (spot) düştü, ABD 10 yıllık Hazine getiri oranları yükseldi (IEF %0,38 düştü), Federal Rezerv politikası sıkılaştırmasının devam edeceği beklentisini yansıtmaktadır.",
+  "movers": [
+    {
+      "symbol": "BRUSDT",
+      "explanation": "Açık bir genel neden bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "explanation": "Açık bir genel neden bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "Açık bir genel neden bulunmamaktadır.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Strive, Bitcoin'e $335 milyon harcıyor, 36.818 BTC'ye ulaşıyor",
+        "what": "Nasdaq'ta işlem gören Bitcoin hazine şirketi, yatırımcılar $369 milyon opsiyon kullandıktan sonra $335 milyon Bitcoin satın aldı, toplam varlıklarını 36.818 BTC'ye çıkardı. Strive aynı zamanda hafta başında ek 1.223 BTC'yi $100 milyon karşılığında satın aldı, süregelen kurumsal iştahı ve Bitcoin şirketlerine akan sermayeyi göstermektedir.",
+        "coins": "BTC",
+        "timeUTC": "12:52 UTC",
+        "source": "Cointelegraph / The Block",
+        "url": "https://cointelegraph.com/news/strive-buys-335m-in-bitcoin-boosting-holdings-to-36818-btc"
+      },
+      {
+        "headline": "BlackRock, düşüş korumalı ve yükseliş maruziyetli Bitcoin ETF'si için başvuruda bulunuyor",
+        "what": "Dünyanın en büyük varlık yöneticilerinden biri olan BlackRock, Bitcoin fiyat yükselişine maruziyeti korurken düşüş koruması sunmak amacıyla tasarlanan yeni bir Bitcoin fonu için başvuruda bulundu. Bu, BlackRock'ın üçüncü Bitcoin bağlantılı ETF'sidir, Bitcoin erişimini daha da kurumsal hale getiriyor ve spot piyasa ürünlerine karşı devam eden güveni göstermektedir.",
+        "coins": "BTC",
+        "timeUTC": "22:47 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
+      },
+      {
+        "headline": "JPMorgan, JPM Coin'i Ethereum'a getiriyor, halka açık blokzincirde anlık dolar ödemesini sağlıyor",
+        "what": "JPMorgan, dolar destekli tokenini (JPM Coin) kurumsal müşteriler için Ethereum blokzinciri üzerinde devreye aldı, dolar transferlerinin geleneksel bankacılık altyapısı olmadan halka açık bir ağda saniyeler içinde kapatılmasını sağlıyor. Bu, ana akım finansmanı merkezi olmayan blokzincir sistemlerine bağlamanın önemli bir adımıdır.",
+        "coins": "ETH",
+        "timeUTC": "05:00 UTC",
+        "source": "Decrypt / CoinDesk",
+        "url": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Revolut, uluslararası genişleme için Gibraltar kripto lisansını alıyor",
+          "what": "İngiltere fintech şirketi Revolut, Gibraltar Dijital Varlık Hizmetleri Lisansını aldı, kripto tekliflerini dünya çapında ek pazarlara genişletmesini sağladı. Lisans, şirketin uluslararası stratejisi için düzenleyici açıklık sağlamaktadır.",
+          "coins": "Multi-asset",
+          "timeUTC": "05:35 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/revolut-secures-gibraltar-crypto-license-to-support-global-expansion"
+        },
+        {
+          "headline": "Tether CEO'su İran hacim soruşturmasına karşı savunma yapıyor, olumlu uyum çalışmasını ileri sürüyor",
+          "what": "Tether'ın Paolo Ardoino, bir senatörün stablecoinin İran maruziyetine yönelik soruşturmasına yanıt verdi, şirketin olumlu çalışmalarının İran ile ilgili işlem hacimlerini azalttığını savundu.",
+          "coins": "USDT",
+          "timeUTC": "03:01 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes"
+        },
+        {
+          "headline": "CFTC, türev futures anlaşmazlığında CME'nin yasal pozisyonunu reddediyor",
+          "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu, CME'nin yeni Bitcoin türev futures politikasının zarar verdiği yönündeki argümanını reddetti. Sonuç, türev futures'ın ABD tacirler için erişilebilir kalıp kalmayacağını belirleyebilir.",
+          "coins": "BTC",
+          "timeUTC": "04:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures"
+        },
+        {
+          "headline": "Dokuz büyük ABD şirketi OKX-ICE tokenize hisse senedi mekanına itiraz ediyor",
+          "what": "Verizon, Broadcom, UnitedHealth ve altı diğer büyük şirket, planlanan OKX-ICE tokenize hisse senedi borsasında hisselerinin işlem görmesine itiraz dosyaladı, listeleme düzenlemesiyle ilgili endişeleri ileri sürdü.",
+          "coins": "Multi-asset (tokenized equities)",
+          "timeUTC": "04:50 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381349/why-some-america-biggest-companies-objecting-tokenized-shares"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy, 267 Bitcoin'i daha $22 milyon karşılığında satın alıyor, devam eden birikiş sinyali veriyor",
+          "what": "Michael Saylor'ın Bitcoin hazine şirketi (Strategy) ek 267 BTC satın aldı, toplam varlıklarını dünya Bitcoin arzının yaklaşık %4'üne çıkardı ve $5,9 milyar gerçekleşmemiş kar oluşturdu.",
+          "coins": "BTC",
+          "timeUTC": "10:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895"
+        },
+        {
+          "headline": "Metaplanet, 2.100 BTC kullanarak Super League oyunlarında %93,7 hissesi satın alıyor",
+          "what": "Japon Bitcoin sahibi Metaplanet, 2.100 BTC anlaşması aracılığıyla Super League'nin çoğunluk kontrolünü almayı kabul etti, ABD sermaye piyasalarına ve gelecekteki Bitcoin satın alımları için fon sağlıyor.",
+          "coins": "BTC",
+          "timeUTC": "04:28 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/metaplanet-super-league-2100-btc-us-bitcoin-treasury-deal"
+        },
+        {
+          "headline": "Bitmine, hazinesine 12.535 ETH ekliyor, 6,04 milyon tokene ulaşıyor",
+          "what": "Madencilikten yapay zekaya geçiş yapan şirket Bitmine, geçen hafta 12.535 Ethereum tokenini satın aldı, toplam hazinesini 6,04 milyon ETH'ye ve genel yatırım varlıklarını $15,1 milyara çıkardı.",
+          "coins": "ETH",
+          "timeUTC": "04:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-bitmine-adds-12535-eth-as-treasury-reaches-6-04-million-tokens-421018"
+        },
+        {
+          "headline": "SkyAI, tüm Solana hazinesini tasfiye ediyor, $201M geri satın alma programını başlatıyor",
+          "what": "Eski tıbbi cihaz üreticisi, tüm Solana varlıklarını sattı ve şimdi $223,8 milyon nakit pozisyonunu 29 Ekim'e kadar hisse ve opsiyon geri satın almak için kullanıyor, doğrudan kripto maruziyetinden uzaklaşan bir değişim sinyali veriyor.",
+          "coins": "SOL",
+          "timeUTC": "00:37 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Mesh, 175 milyon ticari konumda kripto harcamasını etkinleştirmek için Visa'yla ortaklık kuruyor",
+          "what": "Mesh ve Visa, kullanıcıların kripto para ve stablecoins'i cüzdan uygulamalarından doğrudan dünya çapında Visa kabul eden herhangi bir ticaret noktasında harcayabilmelerini sağlayan bir entegrasyonu duyurdu, varlık satışı veya transferi gerektirmeksizin.",
+          "coins": "Multi-asset",
+          "timeUTC": "00:16 UTC",
+          "source": "Cointelegraph / Decrypt",
+          "url": "https://cointelegraph.com/news/visa-mesh-partner-crypto-spending-175m-merchant-locations"
+        },
+        {
+          "headline": "Mastercard, ödemeleri dolandırıcılık ve yaptırım riskleri açısından kontrol etmek için Stablecoin Güvenlik aracını başlatıyor",
+          "what": "Mastercard, Kuzey Amerika'da başlatılan, ödeme ve blokzincir istihbaratını birleştirerek stablecoin fonları zincir üzerinde hareket etmeden önce dolandırıcılığı, sahtekarlığı ve yaptırım maruziyetini tespit eden API tabanlı bir risk tarama hizmetini ortaya çıkardı.",
+          "coins": "USDC, USDT, stablecoins",
+          "timeUTC": "04:00 UTC",
+          "source": "Decrypt / The Block",
+          "url": "https://decrypt.co/381365/mastercard-brings-its-fraud-fighting-tools-to-stablecoin-payments"
+        },
+        {
+          "headline": "Zerohash, cüzdan adreslerini kopyalamadan kripto taşımak için araç başlatıyor",
+          "what": "Kurumsal odaklı kripto altyapı şirketi Zerohash, şirket federal bir güven charter'ı aradığı için adres yönetiminin operasyonel ve güvenlik sürtüşmesini azaltan yeni bir cüzdan transferi özelliği yayımladı.",
+          "coins": "Multi-asset",
+          "timeUTC": "00:32 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/19/zerohash-rolls-out-a-new-tool-to-move-crypto-without-copying-wallet-addresses"
+        },
+        {
+          "headline": "AnchorWatch, müşteri başına $370M sigorta ile Bitcoin emanet hizmetini başlatıyor",
+          "what": "Nevada'da tescilli Bitcoin emanet sağlayıcı AnchorWatch, müşteri başına $370 milyona kadar kapsayan isteğe bağlı sigorta ve aylık $10.000 ücret üst sınırı ile kurumsal operatörleri hedeflemenin operasyonlarına başladı.",
+          "coins": "BTC",
+          "timeUTC": "04:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-anchorwatch-bitcoin-custody-insurance-421011"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Anahtar hırsızlığında %30 düşüş olmasına rağmen kripto hackları %55 artarak $1,2 milyara çıkıyor",
+          "what": "Üçüncü çeyrek hacking raporları, toplam hırsızlığın $1,2 milyara yükseldiğini göstermektedir; bu, önceki çeyreklerden %55 artış, başta Bitget ve Liquid gibi değişim hatalarıyla birlikte akıllı sözleşme kötüye kullanımları tarafından yürütülmektedir. Bu arada, doğrudan anahtar hırsızlığı %30 düştü; bu, kullanıcıların daha iyi emanet uygulamalarını benimsediğini göstermektedir.",
+          "coins": "Multi-asset",
+          "timeUTC": "22:44 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-hacks-surge-55-to-1-2b-but-key-theft-drops-by-30/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Balık Hyperliquid'de $469.000 kaybediyor ancak $16M ETH short'la yeniden giriyor",
+          "what": "Bilinmeyen bir tüccar, tasfiye edildikten sonra Hyperliquid'de yaklaşık $469.000 kaybı gerçekleştirdi, ardından hemen 1.126 ETH değerinde short pozisyon ekledi—Ethereum'a karşı bahis oynayarak—aksaklığa rağmen devam eden yüksek inancı göstermektedir.",
+          "coins": "ETH",
+          "timeUTC": "23:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hyperliquid-wallet-adds-to-eth-short-after-19-8m-in-forced-closures/"
+        },
+        {
+          "headline": "2013 yılından beri hareketsiz olan terkedilmiş Bitcoin cüzdanı $33 milyon taşıyor",
+          "what": "Galaxy Research'e göre 13 yıl boyunca hareketsiz kalan bir Bitcoin adresi, 19 Ekim'de yaklaşık $33,4 milyon değerinde 411 BTC transfer etti. Cüzdan, Satoshi Nakamoto'ya karşı açılan 'Noah Doe' davasında adı geçenler arasındadır.",
+          "coins": "BTC",
+          "timeUTC": "04:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381337/abandoned-bitcoin-wallet-noah-doe-lawsuit-moves-33-million"
+        },
+        {
+          "headline": "Cardano kurucusu Hoskinson, ağ için yeni programlama dilini duyuruyor",
+          "what": "Charles Hoskinson, sosyal medya aracılığıyla Cardano için işlem isteklerini şifreleme kanıtlarıyla birleştirecek yeni bir programlama dili geliştirdiğini açıkladı. Ad, teknik özellikler veya yayın tarihi açıklanmadı.",
+          "coins": "ADA",
+          "timeUTC": "06:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/19/cardano-founder-charles-hoskinson-is-building-a-new-programming-language-for-the-network"
+        },
+        {
+          "headline": "XRP Ledger, teminatsız kredi özelliğini onarmak için ikinci değişikliği yayımlıyor",
+          "what": "XRP geliştiricileri, defterin yeni teminatsız kredi protokolü ile ilgili sorunları ele alan ikinci bir değişikliği yayımladı; orijinal değişiklik hâlâ doğrulayıcı onayını beklemektedir, bu da protokol yükseltmesinde yönetim sürtüşmesini göstermektedir.",
+          "coins": "XRP",
+          "timeUTC": "03:45 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381358/xrp-ledger-repairs-lending-protocol-before-live"
+        },
+        {
+          "headline": "Tether, rakipler rekabet etmek için para öderken borsa likiditesinde neredeyse $5 milyar kaybediyor",
+          "what": "Crystal ve Allium verileri, USDT'nin borsa bakiyelerindeki payının Q3'te daraldığını göstermektedir; USDC ve Ripple'ın RLUSD likidite teşvikleri için ödeme yaptığı halde, Tether sınıflandırılmış ödeme hacminde hakimiyetini korudu.",
+          "coins": "USDT",
+          "timeUTC": "04:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-loses-nearly-5-billion-across-crypto-exchanges-as-usdc-and-rlusd-rivals-pay-to-win-liquidity/"
+        },
+        {
+          "headline": "Aave'nin önerilen USAT geçidi, geri takaslamak için sürekli onay gerektirir",
+          "what": "Aave yönetişimi, transferler ve GHO takas işlemlerine serbestçe izin verecek ancak geri takaslar ve ihraçcı itfalar için ayrı yetkilendirme gerektiren bir USAT (dolar stablecoini) geçidi için bir teklifi incelemektedir.",
+          "coins": "AAVE, GHO, USAT",
+          "timeUTC": "05:53 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-proposed-usat-gateway-would-require-continuing-approval-to-swap-back/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "FOMC rate decision scheduled 28 Oct 18:00 UTC (9 days ahead)",
+      "typicalReaction": "Kripto para, Federal Rezerv oran açıklamalarına genellikle keskin şekilde tepki verir; yüksek oranlar genellikle Bitcoin ve Ethereum gibi riskli varlıklara baskı uygular. Piyasalar enflasyon dili ve ileri rehberliği izleyecektir."
+    },
+    {
+      "event": "Multiple central bank decisions and inflation reports (22–29 Oct)",
+      "typicalReaction": "Japon CPI'si, İngiltere enflasyonu, ABD işsizlik talepleri, ECB kararı ve Alman CPI'si risk iştahını etkiler. Beklenenden daha yüksek enflasyon getiri oranlarını yükseltebilir ve kripto para üzerinde baskı oluşturabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Benimseme",
+      "definition": "Daha fazla kişi veya şirketin kripto para kullanmaya veya kabul etmeye başlaması."
+    },
+    {
+      "term": "Yıllıklandırılmış",
+      "definition": "Yıllık oran olarak ifade edilmesi. 8 saatlik dönem başına %0,5 olan bir finansman oranı, 365 gün boyunca birleştirildiğinde çok daha yüksek olur."
+    },
+    {
+      "term": "Bitcoin",
+      "definition": "2009 yılında oluşturulan orijinal ve en büyük kripto para. Genellikle kripto piyasaları için birincil referans varlık olarak kullanılır."
+    },
+    {
+      "term": "Blokzincir",
+      "definition": "Kripto paraların temel teknolojisi—pek çok bilgisayar arasındaki işlemleri kaydeden merkezi olmayan bir defteri."
+    },
+    {
+      "term": "Genişlik",
+      "definition": "Belirli bir gün kripto para piyasalarının yüzde kaçının yükseldiği veya düştüğü. Yüksek genişlik (örn. %59 yükseliş) kazançlara geniş katılımı gösterir."
+    },
+    {
+      "term": "Kaldıraç azaltılması",
+      "definition": "Tüccarlar ödünç alınan fonları azalttığında veya kaldıraçlı pozisyonları kapattığında, pek çok kişi aynı anda yaptığında genellikle fiyat hareketlerini aşağıya doğru zorlayan."
+    },
+    {
+      "term": "Ethereum",
+      "definition": "Pazar değerine göre ikinci en büyük kripto para, akıllı sözleşmeleri ve merkezi olmayan uygulamaları desteklemesiyle bilinir."
+    },
+    {
+      "term": "ETF (Borsada İşlem Gören Fon)",
+      "definition": "Kripto para veya emtiaları tutan ve normal bir hisse senedi gibi borsa'da işlem gören bir fon. İnsanların özel anahtarları yönetmeden kripto maruziyetine sahip olmalarına izin verir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem sözleşmelerinde alış ve kısa satış tüccarları arasında periyodik ödeme (genellikle 8 saatte bir). Pozitif oranlar alış tüccarlarının kısa satış tüccarlarına ödeme yaptığı, iyimserliği işaret ettiği anlamına gelir; negatif oranlar tersi yönde gider."
+    },
+    {
+      "term": "Kurumsal",
+      "definition": "Bankalar, yatırım firmaları veya şirketler gibi büyük kuruluşlar (bireysel perakende tüccarlarından farklı olarak)."
+    },
+    {
+      "term": "Kaldıraç / kaldıraçlı",
+      "definition": "Daha büyük bir bahis yapmak için para ödünç almak. Kazançları ve kayıpları her ikisini de artırır."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Kaldıraçlı bir pozisyon, kayıplar tüccarın ilk marjını aştığında zorla kapatılması."
+    },
+    {
+      "term": "Alış / alış pozisyonu",
+      "definition": "Bir varlığın fiyatının yükseleceğine dair bir bahis. Bir alış tüccarı fiyat yükselirse kâr eder."
+    },
+    {
+      "term": "Alış/satış oranı",
+      "definition": "Fiyatların yükseleceğine bahis yapan tüccarların (alışlar) fiyatların düşeceğine bahis yapanlar (kısa satışlar) ile oranı. 1'in üzerinde bir oran kısa satışlardan daha fazla alış anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Bir vadeli işlem borsasının türev pozisyonlardaki kar ve zararı hesaplamak için kullandığı cari fiyat. Spot fiyattan biraz farklı olabilir."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Belirli bir zamanda açık olan tüm vadeli işlem pozisyonlarının toplam nominal değeri. Artan açık faiz, tüccarların yeni pozisyon eklediğini gösterir; düşen açık faiz pozisyonların kapandığını gösterir."
+    },
+    {
+      "term": "Türev futures / perps",
+      "definition": "Hiçbir zaman süresi dolmayan türev sözleşmeler, tüccarların kaldıraç ile fiyat hareketlerine bahis yapmalarına izin verir. Uzlaştırmalar finansman oranı aracılığıyla gerçekleşir."
+    },
+    {
+      "term": "Kısa satış / kısa satış pozisyonu",
+      "definition": "Bir varlığın fiyatının düşeceğine dair bir bahis. Bir kısa satış tüccarı fiyat düşerse kâr eder."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "Genellikle ABD dolarına sabitlenmiş, istikrarlı bir değer korumak için tasarlanan bir kripto para (örn. USDC, USDT, USAT)."
+    },
+    {
+      "term": "Taker alış/satış oranı",
+      "definition": "Piyasa emirlerinin (alıcılar) alış ve satış arasında olan kısmı. 1'in üzerinde bir oran satıştan daha agresif alış anlamına gelir."
+    },
+    {
+      "term": "Token",
+      "definition": "Bir blokzincir üzerinde inşa edilen dijital bir varlık. Bazı tokenler kripto paraları temsil eder; diğerleri platformlara erişim veya paylaşılan mülkiyeti temsil eder."
+    },
+    {
+      "term": "En büyük tüccar / en büyük pozisyon oranı",
+      "definition": "Bir borsadaki en büyük tüccarlar arasındaki alış/satış dengesi. Büyük paranın neye bahis oynadığını gösterir."
+    },
+    {
+      "term": "Hazine (kripto hazinesi)",
+      "definition": "Nakit rezervleri gibi bir şirketin bilançosunda bir varlık olarak tutulan kripto para varlıkları."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Bir kripto para borsası veya ticaret platformu (örn. Binance, Bybit, OKX)."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "4b43170dcac9b067"
+}

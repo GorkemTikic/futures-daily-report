@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-19T00:10:51.988Z",
-  "count": 124,
+  "generatedAt": "2026-10-20T00:09:08.354Z",
+  "count": 125,
   "counts": {
-    "total": 124,
-    "market": 37,
+    "total": 125,
+    "market": 38,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-18",
+  "latest": "2026-10-19",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-10-19",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.20117978356417376,
+        "ETH": -0.08840888903647215
+      },
+      "marketSummary": "Bitcoin and Ethereum eased down slightly on Monday 19 October as major institutions continued accumulating bitcoin and new financial-sector tools launched for crypto payments.",
+      "oneLine": "Bitcoin and Ethereum eased down slightly on Monday 19 October as major institutions continued accumulating bitcoin and new financial-sector tools launched for crypto payments.",
+      "newsCount": 22,
+      "topMover": {
+        "symbol": "BRUSDT",
+        "chgPct": 53.727913279132785
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-19/summary_2026-10-19.html",
+        "pdf": "reports/2026-10-19/summary_2026-10-19.pdf",
+        "md": "reports/2026-10-19/summary_2026-10-19.md"
+      }
+    },
     {
       "date": "2026-10-18",
       "kind": "market",

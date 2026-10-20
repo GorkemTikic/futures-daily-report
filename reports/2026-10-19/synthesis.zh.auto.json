@@ -1,0 +1,327 @@
+{
+  "oneLine": "10月19日星期一，比特币和以太坊小幅下跌，与此同时大型机构继续积累比特币，金融领域推出了加密货币支付新工具。",
+  "caveman": "10月19日星期一，比特币下跌0.2%，以太坊下跌0.1%。这是平静的一天——不是崩盘，只是小幅下跌。更重要的是，大公司继续大量购买比特币（Strive花了3.35亿美元，摩根大通将其美元代币带到了以太坊网络）。亚洲的芯片公司股票大幅上涨（三星和SK海力士上升5-6%），因为每个人都想要人工智能芯片。同时推出了新工具：万事达和摩根大通为加密货币支付制作了欺诈检查器，Mesh连接到Visa，让你可以在普通商店用加密货币消费。一份报告显示黑客窃取的加密货币增加了55%，从去年的水平达到12亿美元。总的来说：虽然价格下跌了一点点，但这是一个平静的日子，有很多关于应用的好消息。",
+  "priceVolumeSummary": "五个主要交易所（币安、Bybit、OKX、Gate、Bitget）在比特币价格($81,900–$81,916)和以太坊价格($2,406–$2,407)上意见一致。币安交易量明显领先，比特币交易额为106亿美元，以太坊交易额为67亿美元，分别约为第二大交易所交易量的两倍。",
+  "positioningSummary": "币安上比特币资金费率保持正值，年化为1.01%——这温和地表明杠杆多头略多于空头。未平仓头寸下跌0.33%，表明市场去杠杆化。多空账户比例为1.76，顶级交易者比例为1.77，意味着散户和机构交易者都大量做多。Taker买卖比例为1.02，显示买入略多于卖出。以太坊资金费率较低，年化为0.58%；未平仓头寸上升0.64%，多空比例达到3.40——这是极端看多。市场广度显示币安永续期货59%上涨。这些数字表明尽管价格小幅下跌，机构仍然充满信心。",
+  "stocksSummary": "亚洲股市领涨：韩国SK海力士上涨5.14%，三星电子上涨6.08%，香港杠杆芯片产品涨幅更大（CSOP三星2x上涨10.73%，CSOP SK海力士2x上涨9.34%），受人工智能数据中心芯片需求驱动。中国宇树机器人以14.84%的涨幅领跑地区涨幅者。美股大幅反弹：纳斯达克聚焦型ONEQ ETF上涨1.08%，西部数据等芯片股上涨7.1%，显示科技股领涨。黄金下跌1.18%（永续合约）和0.20%（现货），美国10年期国债收益率上升（IEF下跌0.38%），反映市场对美联储继续收紧政策的预期。",
+  "movers": [
+    {
+      "symbol": "BRUSDT",
+      "explanation": "没有明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "explanation": "没有明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "explanation": "没有明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Strive花3.35亿美元购买比特币，总持仓达36,818 BTC",
+        "what": "这家纳斯达克上市的比特币资产公司在投资者行使3.69亿美元认股权证后，购买了3.35亿美元的比特币，使其总持仓达到36,818 BTC。Strive在本周早些时候还额外购买了1,223 BTC，花费1亿美元，表明机构对比特币的需求持续，资本不断流入比特币公司。",
+        "coins": "BTC",
+        "timeUTC": "12:52 UTC",
+        "source": "Cointelegraph / The Block",
+        "url": "https://cointelegraph.com/news/strive-buys-335m-in-bitcoin-boosting-holdings-to-36818-btc"
+      },
+      {
+        "headline": "贝莱德申报比特币ETF，提供下行保护和上行敞口",
+        "what": "全球最大资产管理公司之一的贝莱德申报了一只新的比特币基金，旨在提供下行保护，同时保持对比特币价格上升的敞口。这是贝莱德的第三只与比特币相关的ETF，进一步推进了比特币的机构化，也表明了对现货产品的持续信心。",
+        "coins": "BTC",
+        "timeUTC": "22:47 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
+      },
+      {
+        "headline": "摩根大通在以太坊上推出JPM Coin，实现公共区块链上的即时美元结算",
+        "what": "摩根大通在以太坊区块链上为机构客户部署了其美元支持的代币（JPM Coin），使美元转账能在不需要传统银行基础设施的公共网络上秒级结算。这是连接主流金融与去中心化区块链系统的重大一步。",
+        "coins": "ETH",
+        "timeUTC": "05:00 UTC",
+        "source": "Decrypt / CoinDesk",
+        "url": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Revolut获得直布罗陀加密许可证用于国际扩展",
+          "what": "英国金融科技公司Revolut获得直布罗陀数字资产服务许可证，使其能够向全球更多市场扩展加密业务。该许可证为公司的国际战略提供了监管清晰度。",
+          "coins": "Multi-asset",
+          "timeUTC": "05:35 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/revolut-secures-gibraltar-crypto-license-to-support-global-expansion"
+        },
+        {
+          "headline": "Tether首席执行官为伊朗交易量调查辩护，引用积极的合规工作",
+          "what": "Tether的首席执行官Paolo Ardoino回应了参议员对该稳定币伊朗敞口的调查，辩称公司的积极工作已导致伊朗相关交易量降低。",
+          "coins": "USDT",
+          "timeUTC": "03:01 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes"
+        },
+        {
+          "headline": "CFTC驳回CME在永续期货争议中的法律立场",
+          "what": "美国商品期货交易委员会（CFTC）驳回了CME关于其新比特币永续期货政策造成伤害的论证。这个结果可能决定永续期货是否仍对美国交易者开放。",
+          "coins": "BTC",
+          "timeUTC": "04:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures"
+        },
+        {
+          "headline": "九家主要美国公司反对OKX-ICE代币化股票交易所",
+          "what": "Verizon、Broadcom、UnitedHealth及其他六家主要企业对其股票在计划中的OKX-ICE代币化股票交易所上交易提出异议，理由是对上市安排有顾虑。",
+          "coins": "Multi-asset (tokenized equities)",
+          "timeUTC": "04:50 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381349/why-some-america-biggest-companies-objecting-tokenized-shares"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy以2,200万美元再次购买267比特币，表明持续积累",
+          "what": "迈克尔·塞勒的比特币资产公司(Strategy)额外购买了267枚BTC，使其总持仓达到全球比特币供应量的约4%，产生了59亿美元的未实现收益。",
+          "coins": "BTC",
+          "timeUTC": "10:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-we-found-room-for-more-orange-michael-saylors-strategy-buys-more-bitcoin-418895"
+        },
+        {
+          "headline": "Metaplanet使用2,100 BTC收购Super League游戏公司93.7%股份",
+          "what": "日本比特币持有者Metaplanet同意通过2,100 BTC的交易获得Super League的多数控制权，这为其提供了进入美国资本市场的途径和未来购买比特币的资金。",
+          "coins": "BTC",
+          "timeUTC": "04:28 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/metaplanet-super-league-2100-btc-us-bitcoin-treasury-deal"
+        },
+        {
+          "headline": "Bitmine向资产库中增加12,535枚ETH，总计604万代币",
+          "what": "从挖矿转向人工智能的公司Bitmine上周购买了12,535枚以太坊，使其总资产库达到604万枚ETH，总投资持仓达到151亿美元。",
+          "coins": "ETH",
+          "timeUTC": "04:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-bitmine-adds-12535-eth-as-treasury-reaches-6-04-million-tokens-421018"
+        },
+        {
+          "headline": "SkyAI清算全部Solana资产，启动2.01亿美元回购计划",
+          "what": "这家前医疗设备制造商售出了所有Solana持仓，现在使用其2.238亿美元的现金头寸在10月29日前回购股票和认股权证，表明其正转向远离直接加密货币敞口。",
+          "coins": "SOL",
+          "timeUTC": "00:37 UTC",
+          "source": "Cointelegraph / The Block",
+          "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Mesh与Visa合作，实现在1.75亿商户位置的加密支付",
+          "what": "Mesh和Visa宣布了一项整合，允许用户直接从钱包应用在全球任何接受Visa的商户处花费加密货币和稳定币，无需出售或转移资产。",
+          "coins": "Multi-asset",
+          "timeUTC": "00:16 UTC",
+          "source": "Cointelegraph / Decrypt",
+          "url": "https://cointelegraph.com/news/visa-mesh-partner-crypto-spending-175m-merchant-locations"
+        },
+        {
+          "headline": "万事达推出稳定币安全工具，筛选支付欺诈和制裁风险",
+          "what": "万事达推出了一项基于API的风险筛选服务，在北美推出，该服务结合支付和区块链情报来检测欺诈、诈骗和制裁敞口，在稳定币资金上链前进行。",
+          "coins": "USDC, USDT, stablecoins",
+          "timeUTC": "04:00 UTC",
+          "source": "Decrypt / The Block",
+          "url": "https://decrypt.co/381365/mastercard-brings-its-fraud-fighting-tools-to-stablecoin-payments"
+        },
+        {
+          "headline": "Zerohash推出工具实现无需复制钱包地址的加密转账",
+          "what": "专注于机构的加密基础设施公司Zerohash发布了新的钱包转账功能，减少了地址管理的操作和安全摩擦，同时公司正在申请联邦信任许可证。",
+          "coins": "Multi-asset",
+          "timeUTC": "00:32 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/19/zerohash-rolls-out-a-new-tool-to-move-crypto-without-copying-wallet-addresses"
+        },
+        {
+          "headline": "AnchorWatch推出比特币托管服务，每个客户保险额3.7亿美元",
+          "what": "内华达州许可的比特币托管提供商AnchorWatch开始运营，提供可选保险，每个客户最高保额为3.7亿美元，月费上限为1万美元，针对机构运营商。",
+          "coins": "BTC",
+          "timeUTC": "04:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-19-anchorwatch-bitcoin-custody-insurance-421011"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "尽管密钥盗窃下降30%，加密黑客事件仍增加55%至12亿美元",
+          "what": "第三季度黑客报告显示总盗窃额上升至12亿美元，较前几个季度增加55%，主要由智能合约漏洞和交易所故障（如Bitget和Liquid）驱动。与此同时，直接密钥盗窃下降30%，表明用户正在采用更好的托管实践。",
+          "coins": "Multi-asset",
+          "timeUTC": "22:44 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-hacks-surge-55-to-1-2b-but-key-theft-drops-by-30/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "鲸鱼在Hyperliquid损失46.9万美元，但以1,600万美元ETH空头重新进场",
+          "what": "一位未知交易者在Hyperliquid被清算后实现了约46.9万美元的损失，随后立即增加了1,126枚ETH的空头头寸——押注以太坊价格下跌——表明尽管经历了挫折，仍有高度的信念。",
+          "coins": "ETH",
+          "timeUTC": "23:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hyperliquid-wallet-adds-to-eth-short-after-19-8m-in-forced-closures/"
+        },
+        {
+          "headline": "自2013年以来闲置的被弃用比特币钱包移动3,300万美元",
+          "what": "根据Galaxy Research报告，一个13年未活跃的比特币地址突然在10月19日转移了411枚BTC，价值约3,340万美元。该钱包是'Noah Doe'诉讼中针对中本聪的被告之一。",
+          "coins": "BTC",
+          "timeUTC": "04:39 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381337/abandoned-bitcoin-wallet-noah-doe-lawsuit-moves-33-million"
+        },
+        {
+          "headline": "Cardano创始人Hoskinson宣布网络新编程语言",
+          "what": "Charles Hoskinson通过社交媒体表示他正在为Cardano开发新编程语言，该语言将把交易请求与密码学证明绑定。未披露名称、规格或发布日期。",
+          "coins": "ADA",
+          "timeUTC": "06:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/19/cardano-founder-charles-hoskinson-is-building-a-new-programming-language-for-the-network"
+        },
+        {
+          "headline": "XRP账本发布第二次修正案以修复无抵押借贷功能",
+          "what": "XRP开发者发布了第二项修正案，解决账本新无抵押借贷协议的问题，同时原始修正案仍在等待验证者批准，表明协议升级存在治理摩擦。",
+          "coins": "XRP",
+          "timeUTC": "03:45 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381358/xrp-ledger-repairs-lending-protocol-before-live"
+        },
+        {
+          "headline": "由于竞争对手付费竞争，Tether失去近50亿美元的交易所流动性",
+          "what": "Crystal和Allium数据显示USDT在Q3的交易所余额份额收缩，因为USDC和Ripple的RLUSD支付流动性激励，尽管Tether在分类支付量中保持优势。",
+          "coins": "USDT",
+          "timeUTC": "04:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-loses-nearly-5-billion-across-crypto-exchanges-as-usdc-and-rlusd-rivals-pay-to-win-liquidity/"
+        },
+        {
+          "headline": "Aave提议的USAT网关需要持续批准才能换回",
+          "what": "Aave治理部门正在审查USAT（美元稳定币）网关提案，该网关允许自由转账和GHO交换，但需要单独授权进行反向交换和发行人赎回。",
+          "coins": "AAVE, GHO, USAT",
+          "timeUTC": "05:53 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-proposed-usat-gateway-would-require-continuing-approval-to-swap-back/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "FOMC rate decision scheduled 28 Oct 18:00 UTC (9 days ahead)",
+      "typicalReaction": "加密货币通常对美联储利率宣布有强烈反应；更高的利率通常会对比特币和以太坊等风险资产造成压力。市场会关注通胀用语和前瞻指引。"
+    },
+    {
+      "event": "Multiple central bank decisions and inflation reports (22–29 Oct)",
+      "typicalReaction": "日本CPI、英国通胀、美国失业申请、欧央行决定和德国CPI都会影响风险偏好。高于预期的通胀可能推高收益率，对加密货币造成压力。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "应用",
+      "definition": "当越来越多的人或公司开始使用或接受加密货币时。"
+    },
+    {
+      "term": "年化",
+      "definition": "表示为年度利率。每8小时0.5%的资金费率在一年内复利后会变得更高。"
+    },
+    {
+      "term": "比特币",
+      "definition": "最初和最大的加密货币，创建于2009年。通常用作加密市场的主要参考资产。"
+    },
+    {
+      "term": "区块链",
+      "definition": "加密货币背后的底层技术——在许多计算机上记录交易的去中心化账本。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "在某一天加密货币市场上升与下跌的百分比。高广度（例如59%上升）表明广泛的涨幅参与。"
+    },
+    {
+      "term": "去杠杆化",
+      "definition": "当交易者减少借入资金或平仓杠杆头寸时，通常当许多人同时这样做时会迫使价格向下移动。"
+    },
+    {
+      "term": "以太坊",
+      "definition": "按市值第二大的加密货币，以支持智能合约和去中心化应用而闻名。"
+    },
+    {
+      "term": "ETF（交易所交易基金）",
+      "definition": "持有加密货币或商品并在股票交易所交易的基金，就像普通股票一样。允许人们拥有加密货币敞口而无需管理私钥。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "期货合约上多头和空头交易者之间的定期支付（通常每8小时一次）。正利率表示多头支付空头，表明乐观；负利率则相反。"
+    },
+    {
+      "term": "机构",
+      "definition": "大型组织，如银行、投资公司或企业（与个人散户交易者相对）。"
+    },
+    {
+      "term": "杠杆",
+      "definition": "借钱进行更大的押注。放大收益和损失。"
+    },
+    {
+      "term": "清算",
+      "definition": "当杠杆头寸由于损失超过交易者的初始保证金而被强制平仓时。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "押注资产价格上升。如果价格上升，多头交易者获利。"
+    },
+    {
+      "term": "多空比例",
+      "definition": "押注价格上升（多头）的交易者与押注价格下跌（空头）的交易者的比例。比例大于1表示多头多于空头。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货交易所用来计算衍生品头寸盈亏的当前价格。它可能与现货价格略有不同。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "在给定时间内所有开放期货头寸的总名义价值。上升的未平仓头寸表明交易者在增加新头寸；下降的未平仓头寸表明头寸在平仓。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "永不过期的衍生品合约，允许交易者以杠杆押注价格变动。通过资金费率进行结算。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "押注资产价格下跌。如果价格下跌，空头交易者获利。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "设计用来维持稳定价值的加密货币，通常与美元挂钩（例如USDC、USDT、USAT）。"
+    },
+    {
+      "term": "Taker买卖比",
+      "definition": "市场订单（Taker）中买入与卖出的比例。比例大于1表示买入比卖出更积极。"
+    },
+    {
+      "term": "代币",
+      "definition": "建立在区块链上的数字资产。有些代币代表加密货币；有些代表对平台的访问权或共享所有权。"
+    },
+    {
+      "term": "顶级交易者比例",
+      "definition": "交易所上最大交易者中的多空平衡。表示大资金在押注什么。"
+    },
+    {
+      "term": "资产库",
+      "definition": "企业资产负债表上持有的加密货币，类似于现金储备。"
+    },
+    {
+      "term": "交易所",
+      "definition": "加密货币交易所或交易平台（例如币安、Bybit、OKX）。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "4b43170dcac9b067"
+}
