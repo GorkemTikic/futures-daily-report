@@ -1,0 +1,215 @@
+{
+  "oneLine": "Bitcoin and Ethereum rose about 1.3–1.7% on BlackRock's biggest institutional buying day since September, boosted by JPMorgan's first long-term bullish forecast, though security concerns lingered as stolen funds continued moving through privacy mixers.",
+  "caveman": "Bitcoin and Ethereum both went up about 1.3–1.7% on Tuesday. The main reason: BlackRock (a really big investment company) bought $665 million of Bitcoin—the most they've bought in almost a year—and JPMorgan (a huge bank) announced that Bitcoin could go up 10% per year for the next 10–15 years, which made people more hopeful about crypto. But there's bad news too: hackers who stole money from a protocol called Drift back in April are still moving the stolen Ethereum through mixer services (like a money-laundering tool). The US stock market went up slightly. Most other cryptocurrencies also went up. Overall, it was a good day for crypto with strong buying from big institutions, but security worries didn't disappear.",
+  "priceVolumeSummary": "Bitcoin held steady around $82,920 and Ethereum around $2,447 across all five major exchanges (Binance, Bybit, OKX, Bitget, Gate)—prices matched closely. Binance led trading volume: $11.4 billion for Bitcoin and $8.4 billion for Ethereum, with total market volume strong across the board.",
+  "positioningSummary": "Funding rates were high (Bybit 10.95%, Binance 7.16% for Bitcoin), signaling traders betting heavily on prices rising. Long/short positioning showed strong bullish lean: among the largest Bitcoin traders, 1.83 longs per short, and among large Ethereum traders, 1.68 longs per short. Taker buy/sell ratios slightly favored aggressive buyers (Bitcoin 1.047, Ethereum 1.037). Open interest on Bybit rose 4.07%, meaning traders were adding borrowed money to bullish positions. Market breadth was very strong: 83.86% of Binance perpetual contracts were up on the day, showing broad-based strength.",
+  "stocksSummary": "Korean markets (KRX) had mixed moves: SK Hynix and Samsung led gains (+0.64%, +0.27%), but Hyundai, Hanmi, and LG Electronics fell sharply (-1.2%, -3.3%, -2.7%). Hong Kong (HKEX) also split: AI stocks Zhipu and MiniMax sold off (-3.4%, -6.0%), while semiconductor plays Zhongji Innolight and GigaDevice surged (+5.6%, +4.1%). China's Unitree Robotics jumped 6.78%. In the US session (NYSE/Nasdaq), semiconductor gains dominated: SMCI +15.98%, CYPH +12.75%, but NFLX dropped 7.1% and BWET fell 8.7%. Commodities were mixed: gold -0.44%, silver +1.56%, oil roughly flat. Overall, institutional strength in chip and AI plays, but selective profit-taking in mega-cap tech.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT surged 136.47% with $637 million in volume. No clear public news or announcement found to explain the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "DOODUSDT",
+      "explanation": "DOOD jumped 82.35% on $190 million volume. No identifiable catalyst in available news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "explanation": "IOST climbed 40.67% on $106 million volume. No obvious news-driven cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "BlackRock's Bitcoin ETF Records Biggest Inflow Since October 2025",
+        "what": "BlackRock's IBIT Bitcoin ETF pulled in $665.16 million on Monday, October 19, marking the largest single-day inflow in nearly a year. US spot Bitcoin ETFs saw net inflows of $527 million overall, with most buying coming from BlackRock, while Fidelity and Grayscale posted modest outflows. This signals institutional appetite returning despite macro uncertainty.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-19, reported 2026-10-20",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102"
+      },
+      {
+        "headline": "JPMorgan Issues First Long-Term Bitcoin Forecast: 10% Annual Returns",
+        "what": "JPMorgan Asset Management's 2027 Long-Term Capital Market Assumptions report projected Bitcoin to return 10% compounded annually over the next 10–15 years—higher than projected returns for US bonds (5.6–6.6%), gold (5.5%), and comparable to US equities (7.5–7.7%). The bank warned of 55% volatility and set a bear case at −9.7% and bull case at 17%, citing regulation clarity and improved price discovery as potential tailwinds.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-20T00:00:00Z",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-20-jpmorgan-bitcoin-10-year-return-forecast-ltcma-421436"
+      },
+      {
+        "headline": "Drift Protocol Attacker Washes $61M Ethereum Through Tornado Cash",
+        "what": "A wallet tied to the April 2026 Drift Protocol hack ($295 million total loss, attributed to North Korean threat actors) deposited 25,700 Ethereum (~$61 million) into the Tornado Cash mixer on October 20, completing the transfer in two hours after two months of dormancy. The attacker still controls approximately $194 million in stolen funds. The move complicates recovery efforts and highlights ongoing security risks.",
+        "coins": "ETH",
+        "timeUTC": "2026-10-20T00:00:00Z",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/drift-exploiter-eth-tornado-cash"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "France Approves 31% Capital Gains Tax on Stablecoin Trades",
+          "what": "France's parliament voted to impose a 31% capital gains tax on crypto-to-stablecoin trades starting January 2027, removing tax deferral for MiCA-compliant stablecoins. The amendment (I-3898) aims to capture gains on trades between volatile crypto and stable assets, affecting trading pairs involving USDC, USDT, and other regulated stablecoins.",
+          "coins": "Stablecoins (USDC, USDT, RLUSD, etc.)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy"
+        },
+        {
+          "headline": "Utah AG Sues Kalshi Prediction Market Over Unlicensed Gambling",
+          "what": "Utah's Attorney General filed suit against Kalshi (backed by Susquehanna trading firms) alleging the prediction market operates as an illegal gambling platform. The AG seeks to recover alleged gambling profits and bar Kalshi bets on sports, politics, and culture, calling the service a \"public nuisance.\"",
+          "coins": "None directly (regulatory action on crypto adjacent platform)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/utah-lawsuit-kalshi-susquehanna-prediction-markets-illegal-bets"
+        },
+        {
+          "headline": "CFTC's Innovation Task Force Plans Forum on AI and Super Intelligence in Trading",
+          "what": "The US Commodity Futures Trading Commission announced an October 28 inaugural \"Frontier Forum on Super Intelligence,\" convening panelists to discuss how advanced AI systems may impact futures markets and agentic finance (autonomous AI agents executing trades). The session signals regulatory focus on AI-driven trading risks.",
+          "coins": "All",
+          "timeUTC": "2026-10-20T15:00:00Z",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9312-26"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ethereum ETFs Extend Outflow Streak to Four Days, Contrasting Bitcoin Buying",
+          "what": "Spot Ethereum ETFs posted net outflows of $103.3 million on October 19, extending a losing streak to four consecutive days. October 2026 year-to-date saw net outflows exceeding $950 million on Ethereum ETFs, even as Bitcoin ETFs attracted institutional money. The divergence suggests a more guarded institutional outlook on Ethereum relative to Bitcoin.",
+          "coins": "ETH",
+          "timeUTC": "2026-10-19, reported 2026-10-20",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-etf-comeback-exposes-a-630-million-divide-with-ethereum-as-blackrock-dominates/"
+        },
+        {
+          "headline": "Ethereum Staking Hits Record 43.8 Million ETH as Yields Fall to 2.63%",
+          "what": "A record 43.8 million Ethereum (36% of total supply) was staked as of Q3, even as staking yields declined to 2.63%. Solana staking also hit a record 440.5 million SOL. The growth in locked staking despite lower yields suggests institutional commitment to proof-of-stake participation.",
+          "coins": "ETH, SOL",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-20-ethereum-solana-staking-record-yields-fall-bitwise-q3-421414"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Mastercard Opens Early Access to AI Agent Payments Following Successful Pilots",
+          "what": "Mastercard opened early access to Agent Pay for Machines, enabling autonomous AI agents to execute payments on the Mastercard network. Pilots included payments from Coinbase, Base blockchain, and Cloudflare, signaling momentum in autonomous agent monetization and stablecoin settlement.",
+          "coins": "USDC, stablecoins",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-20-mastercard-opens-early-access-to-ai-agent-payments-following-pilots-with-coinbase-base-and-cloudflare-421406"
+        },
+        {
+          "headline": "OKX Launches OKX Shield, Investor Protection Plan for US Market",
+          "what": "OKX debuted OKX Shield in the US on Tuesday, a protection and insurance offering aimed at risk-conscious traders and institutional investors. OKX co-chair Andrew Cuomo (former NY Governor) framed the launch as evidence of OKX's commitment to US market standards.",
+          "coins": "All (exchange-wide protection product)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-20-okx-putting-money-where-mouth-is-new-protection-plan-former-ny-gov-cuomo-421421"
+        },
+        {
+          "headline": "Blockchain.com Launches Crypto Options Trading on Seven Assets",
+          "what": "Blockchain.com now offers call and put options on BTC, ETH, SOL, HYPE, AVAX, XRP, and TRX, with expiries up to one week. The launch comes as the exchange pursues US derivatives licenses.",
+          "coins": "BTC, ETH, SOL, HYPE, AVAX, XRP, TRX",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-20-blockchain-com-launches-options-trading-bitcoin-ether-sol-421326"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Qubic Blockchain Restarts After $1.4M Hack, Opens Recovery Claims Until May 1, 2027",
+          "what": "Qubic's validators approved a recovery and restart plan following a $1.4 million hack, and opened claims for affected users until May 1, 2027. The network restarted with a plan to distribute recovery funds to legitimate claim holders.",
+          "coins": "QUBIC",
+          "timeUTC": "2026-10-20T23:59:00Z",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/qubic-restarts-blockchain-opens-recovery-claims-after-14m-hack"
+        },
+        {
+          "headline": "Crypto Wallet Security Crisis: NGRAVE Users Targeted in $2.65M Phishing Attack",
+          "what": "NGRAVE hardware wallet users fell victim to a large-scale phishing attack that moved approximately $2.65 million in stolen crypto. Bitquery confirmed trails of victims converting assets to XMR (Monero) on Hyperliquid, though not all transfers could be definitively tied to NGRAVE users.",
+          "coins": "XMR, multi-asset",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-wallet-security-crisis-deepens-as-ngrave-users-face-2-65-million-phishing-attack/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US Stocks Rise on Q3 Earnings Beat; Bitcoin Follows",
+          "what": "US equities gained modestly on better-than-expected Q3 corporate earnings, with the S&P 500 (SPY) up 0.335% and Nasdaq (ONEQ) up 0.019%. Bitcoin moved in sympathy with equity strength, reclaiming $83,000 mid-day before retreating. Oil fell slightly (WTI −0.193%), while the US dollar weakened (UUP −0.345%), supporting dollar-denominated commodities and crypto.",
+          "coins": "BTC, ETH (sentiment-linked)",
+          "timeUTC": "2026-10-20T13:30:00Z",
+          "source": "Data pack (tradfi)",
+          "url": null
+        },
+        {
+          "headline": "Asian Stock Markets Show Mixed Signals on Semiconductor and AI Concerns",
+          "what": "Korean chip stocks SK Hynix and Samsung led gains (+0.64%, +0.27%), but Hong Kong's AI names Zhipu and MiniMax fell sharply (-3.4%, −6.0%). China's Unitree Robotics outperformed at +6.78%. US tech: SMCI (server/AI) surged 15.98%, but NFLX fell 7.1%. The divergence signals selective appetite for AI infrastructure plays but caution on consumer-facing tech.",
+          "coins": "None (macro context)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "Data pack (stocks)",
+          "url": null
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-19",
+    "summary": "US spot Bitcoin ETFs saw net inflows of $527 million, with BlackRock's IBIT attracting $665.16 million—the biggest day since October 7, 2025. Fidelity and Grayscale posted modest outflows. Ethereum ETFs saw net outflows of $103.3 million, extending a four-day losing streak and October year-to-date outflows exceed $950 million.",
+    "source": "The Block, CryptoSlate",
+    "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK CPI Inflation October 2026 — Wednesday 21 Oct, 06:00 UTC (Medium–High impact)",
+      "typicalReaction": "Historically, CPI prints (especially above or below expectations) move UK sterling, gilt yields, and sometimes knock into risk assets if inflation surprises high. Crypto may see volatility spillover if the print affects Fed rate expectations or risk appetite."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The time period or reference used for measuring price changes. 'UTC-day' means a full calendar day in Coordinated Universal Time (UTC), 00:00–23:59."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of assets moving up vs. down on the day. 83.86% up means that on Binance perps, about 84 out of 100 contracts closed higher than they opened, showing market-wide strength."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment score from 0 (extreme fear) to 100 (extreme greed) that measures overall crypto market psychology. 55 is 'greed'—investors are optimistic but not panicking."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders on perpetual futures. When funding rates are positive, bullish traders (longs) pay bearish traders (shorts) to hold their positions, signaling strong bullish sentiment. Higher rates mean more bullish confidence."
+    },
+    {
+      "term": "Long/short ratio (account-level and top-position ratio)",
+      "definition": "Comparison of bullish accounts (betting price goes up) to bearish accounts (betting price goes down). A ratio above 1.0 means more bulls than bears. 1.83 means 1.83 bulls for every 1 bear. 'Top-position ratio' focuses on the largest traders; 'account-level' includes all traders."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate funding on perpetual futures, derived from the spot price and forward curve. It prevents manipulation and marks unrealized gains/losses on open positions."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total dollar value of all open positions (longs and shorts combined) on a perpetual futures market. Increasing OI means traders are adding leverage to the market; declining OI means positions are being closed. 'OI change' shows how much this grew or shrank during the day."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "A type of cryptocurrency derivatives contract with no expiration date. Traders can hold a bullish or bearish position indefinitely as long as they meet margin requirements. They track the spot price closely via funding rates and mark price."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buy orders (market buys that take liquidity) to sell orders. Above 1.0 means more aggressive buying; below 1.0 means more aggressive selling. Indicates short-term momentum direction."
+    },
+    {
+      "term": "Volume (quote basis)",
+      "definition": "The total dollar value of all contracts traded in a given period (versus 'base volume,' which counts coins). 'Quote basis' means the dollar amounts are summed; higher volume indicates more trading activity and liquidity."
+    }
+  ],
+  "_source": "cli"
+}

@@ -1,0 +1,216 @@
+{
+  "oneLine": "Bitcoin ve Ethereum Salı günü %1,3–%1,7 değer kazandı. BlackRock'ın yakın bir yıldır en yüksek seviyede Bitcoin alımı ve JPMorgan'ın Bitcoin'e uzun vadede yılda %10 getiri tahmini piyasaya umut verdi, ancak daha önce çalınan kripto paranın gizlilik hizmetlerinden geçtirilmeye devam edilmesi güvenlik endişelerini sürdürdü.",
+  "caveman": "Bitcoin ve Ethereum Salı günü %1,3–%1,7 değerlendi. Sebep: BlackRock isimli çok büyük bir yatırım şirketi 665 milyon dolarlık Bitcoin satın aldı—bu yaklaşık bir yıldır yaptıkları en büyük alım—ve JPMorgan isimli devasa bir banka Bitcoin'in önümüzdeki 10–15 yıl içinde her yıl %10 değer kazanabileceğini söyledi, bu da insanları daha iyimser yaptı. Ama kötü haber var: Nisan'da Drift protokolü isimli bir sistemden para çalan hackerlar hala o çalınan Ethereum'u gizlilik karıştırıcıları (para aklamaya benzer bir araç) üzerinden gönderiyor. Amerika borsası biraz yükselmişti. Diğer kripto paralar da çoğunlukla yükselmişti. Genel olarak, büyük şirketlerden güçlü alımlar olduğu iyi bir gün oluştu, ama güvenlik endişeleri ortadan kalkmadı.",
+  "priceVolumeSummary": "Bitcoin başlıca beş borsada (Binance, Bybit, OKX, Bitget, Gate) 82.920 dolar civarında sabit kaldı; Ethereum 2.447 dolar etrafında seyretti—fiyatlar borsalar arası yakından eşleşti. Binance işlem hacminde öncü konumdaydı: Bitcoin'de 11,4 milyar dolar ve Ethereum'da 8,4 milyar dolar cirosu var; genel piyasa hacmi tüm bordalar genelinde güçlüydü.",
+  "positioningSummary": "Finansman oranları yüksekti (Bybit %10,95, Binance %7,16 Bitcoin için), bu da tüccarların fiyatların yükselmesine karşı ağır bahisler yaptığını gösterdi. Uzun/kısa pozisyon dağılımı güçlü boğa eğilimi gösterdi: en büyük Bitcoin tüccarları arasında 1 kısa başına 1,83 uzun, büyük Ethereum tüccarları arasında 1 kısa başına 1,68 uzun. Alıcı/satıcı oranları ağresif alıcıları hafifçe destekledi (Bitcoin 1,047, Ethereum 1,037). Bybit'te açık pozisyonlar %4,07 arttı, yani tüccarlar boğa pozisyonlarına kaldıraçlı para ekliyordu. Piyasa genelliği çok güçlüydü: Binance kalıcı sözleşmelerinin %83,86'sı gün içinde değer kazandı, geniş tabanlı güç gösteriyordu.",
+  "stocksSummary": "Kore pazarları (KRX) karışık oyunlar gösterdi: SK Hynix ve Samsung kazançları öncü aldı (+%0,64, +%0,27), ancak Hyundai, Hanmi ve LG Electronics keskin düştü (--%1,2, --%3,3, --%2,7). Hong Kong (HKEX) da bölündü: Yapay zeka stokları Zhipu ve MiniMax sattı (--%3,4, --%6,0), yariiletken oynatıcıları Zhongji Innolight ve GigaDevice yükselmişti (+%5,6, +%4,1). Çin'in Unitree Robotics %6,78 sıçradı. ABD seansında (NYSE/Nasdaq), yariiletken kazançları egemenlik sağladı: SMCI +%15,98, CYPH +%12,75, ama NFLX %7,1 düştü ve BWET %8,7 geriledi. Emtialar karışıktı: altın --%0,44, gümüş +%1,56, petrol kabaca düz kaldı. Genel olarak, çip ve yapay zeka oyunlarında kurumsal güç, ama mega teknoloji şirketlerinde seçici kar almalar.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT %136,47 yükselmişti 637 milyon dolarlık hacim ile. Hareketi açıklamak için net bir haber veya duyuru bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "DOODUSDT",
+      "explanation": "DOOD 190 milyon dolarlık hacim üzerinde %82,35 zıplaması yaptı. Mevcut haberlerde tanımlanabilir bir tetikleyici bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "explanation": "IOST 106 milyon dolarlık hacim ile %40,67 tırmandı. Belirgin bir haber kaynaklı neden tespit edilmedi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "BlackRock'ın Bitcoin ETF'i Ekim 2025'ten Bu Yana En Büyük İnakışı Kaydetti",
+        "what": "BlackRock'ın IBIT Bitcoin ETF'i Pazartesi 19 Ekim'de 665,16 milyon dolar girdi—yaklaşık bir yıldır en büyük tek günlük giriş. Spot Bitcoin ETF'leri genel olarak 527 milyon dolar net giriş gördü, çoğu alım BlackRock'tan geldi, Fidelity ve Grayscale mütevazı çıkışlar kaydetti. Bu, makro belirsizliğe rağmen kurumsal iştahın döndüğünü gösteriyor.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-19, 2026-10-20'de bildirildi",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102"
+      },
+      {
+        "headline": "JPMorgan İlk Uzun Vadeli Bitcoin Tahmini Yayınladı: Yıllık %10 Getiri",
+        "what": "JPMorgan Asset Management'ın 2027 Uzun Vadeli Sermaye Piyasası Varsayımları raporu, Bitcoin'in önümüzdeki 10–15 yılda yıllık %10 oranında getiri sağlayacağını tahmin etti—ABD tahvillerinin tahmin edilen getirileri (%5,6–%6,6), altın (%5,5) ve ABD hisse senetlerine karşılaştırılabilir (%7,5–%7,7). Banka %55 oynaklık uyarısı yaptı ve ayı vakası --%9,7, boğa vakası %17 olarak belirledi; düzenleme netliği ve geliştirilmiş fiyat keşfi potansiyel rüzgarlar olarak gösterildi.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-20T00:00:00Z",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-20-jpmorgan-bitcoin-10-year-return-forecast-ltcma-421436"
+      },
+      {
+        "headline": "Drift Protokolü Saldırganı 61 Milyon Dolarlık Ethereum'u Tornado Cash'ten Yıkadı",
+        "what": "Nisan 2026 Drift Protokolü hacklarına bağlı bir cüzdan (295 milyon dolarlık toplam kayıp, Kuzey Kore uyuşturucu aktörlerine atfedildi) Ekim 20'de 25.700 Ethereum'u (~61 milyon dolar) Tornado Cash mikseri içine yatırdı; aktarımı iki aylık hareketsizlikten sonra iki saatte tamamlandı. Saldırgan hala yaklaşık 194 milyon dolar çalınan fonu kontrol ediyor. Hareket, kurtarma çabalarını karmaşıklaştırıyor ve devam eden güvenlik risklerini öne çıkarıyor.",
+        "coins": "ETH",
+        "timeUTC": "2026-10-20T00:00:00Z",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/drift-exploiter-eth-tornado-cash"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Fransa Sabit Para Alışverişinde %31 Sermaye Kazançları Vergisi Onayladı",
+          "what": "Fransa parlamentosu Ocak 2027'den başlamak üzere kripto-sabit para işlemleri üzerinde %31 sermaye kazançları vergisi koşmayı oyladı ve MiCA uyumlu sabit paralar için vergi ertelemesini kaldırdı. Değişiklik (I-3898) değişken kripto ile sabit varlıklar arasındaki işlemlerden kazanç yakalamayı hedefliyor, USDC, USDT ve diğer düzenlenmiş sabit para içeren işlem çiftlerini etkiliyor.",
+          "coins": "Sabit Paralar (USDC, USDT, RLUSD, vb.)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy"
+        },
+        {
+          "headline": "Utah Başsavcısı Kalshi Tahmin Pazarına Lisansız Kumar Nedeniyle Dava Açtı",
+          "what": "Utah'ın Başsavcısı Kalshi (Susquehanna ticaret firmaları tarafından desteklenen) aleyhine tahmin pazarının yasa dışı bir kumar platformu olarak faaliyet gösterdiğini iddia ederek dava açtı. Başsavcı iddia edilen kumar karlarını geri almayı talep ediyor ve Kalshi'nin spor, siyaset ve kültür üzerine bahisleri yasaklamayı istiyor, servisi \"kamu tehlikesi\" olarak nitelendirerek.",
+          "coins": "Hiçbiri doğrudan (kripto bitişik platformda düzenleyici işlem)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/utah-lawsuit-kalshi-susquehanna-prediction-markets-illegal-bets"
+        },
+        {
+          "headline": "CFTC'nin İnovasyon Görev Gücü Ticaret'te Yapay Zeka ve Süper Zekayla İlgili Forum Planlıyor",
+          "what": "ABD Emtialar Vadeli İşlemler Ticaret Komisyonu (CFTC) 28 Ekim'de ilk \"Süper Zeka Sınır Forumu\"nu açıklamış olup, gelişmiş yapay zeka sistemlerinin vadeli işlem piyasalarını nasıl etkileyebileceğini ve ajan finansmanı (otonomous yapay zeka ajanlarının işlemler yürütmesi) tartışması için panelisti bir araya getirmeyi planlamıştır. Oturum yapay zeka tarafından yönü belirlenmiş ticaret riskleri üzerindeki düzenleyici odaklanmayı gösterir.",
+          "coins": "Tümü",
+          "timeUTC": "2026-10-20T15:00:00Z",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9312-26"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ethereum ETF'leri Çıkış Serisini Dört Güne Uzattı; Bitcoin Alımlarıyla Kesişti",
+          "what": "Spot Ethereum ETF'leri Ekim 19'de net olarak 103,3 milyon dolar çıktı, kaybetme serisini dört gün arka arkaya yaşadı. Ekim 2026 yılını bugüne kadar Ethereum ETF'lerinde 950 milyon doları aşan net çıkışlar gördü, Bitcoin ETF'leri kurumsal paraları çekmiş olsa da. Farklılık Bitcoin'e kıyasla Ethereum'a karşı daha temkinli kurumsal görünümü gösteriyor.",
+          "coins": "ETH",
+          "timeUTC": "2026-10-19, 2026-10-20'de bildirildi",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-etf-comeback-exposes-a-630-million-divide-with-ethereum-as-blackrock-dominates/"
+        },
+        {
+          "headline": "Ethereum Stake'i Rekor 43,8 Milyon ETH'ye Çıktı; Getiriler %2,63'e Düştü",
+          "what": "Kayıt 43,8 milyon Ethereum (toplam arzın %36'sı) Q3 itibariyle stake edilmişti, hatta stake getirisi %2,63'e geriledi. Solana stake'i de rekor 440,5 milyon SOL'a çıktı. Daha düşük getirilere rağmen kilitlenmiş stake'te büyüme kurumsal katılımı hisse senedi kanıtına yapılmış bir taahhüt gösteriyor.",
+          "coins": "ETH, SOL",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-20-ethereum-solana-staking-record-yields-fall-bitwise-q3-421414"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Mastercard Başarılı Pilot Sonrası Yapay Zeka Ajanı Ödemeleri için Erken Erişim Açtı",
+          "what": "Mastercard, Makineler İçin Ajan Ödemesine (Agent Pay for Machines) erken erişimi açtı ve otonomous yapay zeka ajanlarının Mastercard ağında ödemeler yürütmesini sağladı. Pilot: Coinbase, Base blokzincir ve Cloudflare dahil olmak üzere, otonomous ajan paralandırması ve sabit para uzlaşmasında momentum gösteriyor.",
+          "coins": "USDC, sabit paralar",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-20-mastercard-opens-early-access-to-ai-agent-payments-following-pilots-with-coinbase-base-and-cloudflare-421406"
+        },
+        {
+          "headline": "OKX, ABD Pazarı İçin Yatırımcı Koruma Planı OKX Shield'i Başlattı",
+          "what": "OKX Salı günü ABD'de OKX Shield'i piyasaya çıkardı—risk bilinçli tüccarlar ve kurumsal yatırımcılar için koruma ve sigorta teklifi. OKX ortak başkanı Andrew Cuomo (eski New York Vali) lansman açılışını OKX'in ABD pazarı standartlarına taahhüdünün kanıtı olarak çerçeveledi.",
+          "coins": "Tümü (borsa genişleme koruma ürünü)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-20-okx-putting-money-where-mouth-is-new-protection-plan-former-ny-gov-cuomo-421421"
+        },
+        {
+          "headline": "Blockchain.com Yedi Varlıkta Kripto Opsiyon Alışverişi Başlattı",
+          "what": "Blockchain.com artık BTC, ETH, SOL, HYPE, AVAX, XRP ve TRX üzerinde alım ve satım opsiyonları sunuyor; vadeler bir haftaya kadar. Lansman borsa ABD türevleri lisanslarını takip ediyor.",
+          "coins": "BTC, ETH, SOL, HYPE, AVAX, XRP, TRX",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-20-blockchain-com-launches-options-trading-bitcoin-ether-sol-421326"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Qubic Blokzinciri Haklandan Sonra Baştan Başladı; Mayıs 1, 2027'ye Kadar Kurtarma Talepleri Açtı",
+          "what": "Qubic'in doğrulayıcıları 1,4 milyon dolarlık hacktan sonra kurtarma ve yeniden başlatma planını onayladı ve etkilenen kullanıcılar için Mayıs 1, 2027'ye kadar talep açtı. Ağ, meşru talep sahiplerine kurtarma fonlarını dağıtma planı ile yeniden başladı.",
+          "coins": "QUBIC",
+          "timeUTC": "2026-10-20T23:59:00Z",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/qubic-restarts-blockchain-opens-recovery-claims-after-14m-hack"
+        },
+        {
+          "headline": "Kripto Cüzdan Güvenlik Krizi: NGRAVE Kullanıcıları 2,65 Milyon Dolarlık Kimlik Avı Saldırısında Hedeflendi",
+          "what": "NGRAVE donanım cüzdanı kullanıcıları yaklaşık 2,65 milyon dolar kripto para taşıyan geniş kapsamlı bir kimlik avı saldırısının kurbanı oldu. Bitquery, kurbanlar'ın varlıkları Hyperliquid'de XMR'ye (Monero) dönüştürülme izlerini doğrulamış, ancak tüm transferleri açıkça NGRAVE kullanıcılarına bağlanabilmedi.",
+          "coins": "XMR, çoklu varlık",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/crypto-wallet-security-crisis-deepens-as-ngrave-users-face-2-65-million-phishing-attack/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD Hisse Senetleri Q3 Kazançları Aştıkça Yükseldi; Bitcoin Yanında Gitti",
+          "what": "ABD hisse senetleri Q3 kurumsal kazançları beklenenden daha iyi olması üzerine mütevazıdan daha yükselmişti—S&P 500 (SPY) %0,335 ve Nasdaq (ONEQ) %0,019 yükselmişti. Bitcoin öz sermaye gücü ile sempatik şekilde oynadı, gün ortasında 83.000 doları geri almadan önce geri çekildi. Petrol hafifçe düştü (WTI --%0,193), ABD doları zayıflandı (UUP --%0,345), dolar cinsinden emtia ve kripto'yu destekledi.",
+          "coins": "BTC, ETH (duygusal bağlantılı)",
+          "timeUTC": "2026-10-20T13:30:00Z",
+          "source": "Veri paketi (geleneksel finans)",
+          "url": null
+        },
+        {
+          "headline": "Asya Hisse Senetleri Pazarları Yariiletken ve Yapay Zeka Endişeleri Konusunda Karışık Sinyaller Gösteriyor",
+          "what": "Kore çip stokları SK Hynix ve Samsung kazançları öncü aldı (+%0,64, +%0,27), Hong Kong'un yapay zeka isimleri Zhipu ve MiniMax keskin düştü (--%3,4, --%6,0). Çin'in Unitree Robotics +%6,78 performans gösterdi. ABD teknolojisi: SMCI (sunucu/yapay zeka) sıçradı %15,98, ama NFLX %7,1 düştü. Farklılık yapay zeka altyapısı oyunları için seçici iştah gösteriyor ama tüketici yönelimli teknolojide dikkat çekiyor.",
+          "coins": "Yok (makro bağlam)",
+          "timeUTC": "2026-10-20T00:00:00Z",
+          "source": "Veri paketi (hisse senetleri)",
+          "url": null
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-19",
+    "summary": "Spot Bitcoin ETF'leri 527 milyon dolar net giriş gördü; BlackRock'ın IBIT, Ekim 7, 2025'ten bu yana en büyük gün olan 665,16 milyon dolar çekti. Fidelity ve Grayscale mütevazı çıkışlar kaydetti. Ethereum ETF'leri 103,3 milyon dolar net çıktı, dört günlük kayıp serisini uzattı; Ekim yılını bugüne kadar çıkışları 950 milyon doları aşmıştır.",
+    "source": "The Block, CryptoSlate",
+    "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK CPI Enflasyon Ekim 2026 — Çarşamba 21 Eki, 06:00 UTC (Orta–Yüksek etki)",
+      "typicalReaction": "Tarihsel olarak CPI baskıları (özellikle beklentilerin üzerinde veya altında) İngiliz sterlini, altın getirisini ve bazen makro belirsizliğe karşı risk varlıkları saç etkileni gösteriyor. Kripto enflasyon şaşkınlığı Fed faiz oranı beklentileri veya risk iştahını etkilerse volatilite nedeniyle sızıntı görebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel (Basis)",
+      "definition": "Fiyat değişiklikleri ölçmek için kullanılan zaman dilimi veya referans. 'UTC-gün' tam bir takvim günü anlamına gelir Koordineli Evrensel Saatte (UTC) 00:00–23:59."
+    },
+    {
+      "term": "Genişlik (Breadth)",
+      "definition": "Gün içinde yükselen ve düşen varlıkların yüzdesi. %83,86 yükselmek, Binance perps'te yaklaşık 100 sözleşmeden 84'ünün açılıştan daha yüksek kapanmıştır, piyasa genelinde gücü gösteriyor."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi (Fear & Greed Index)",
+      "definition": "Genel kripto piyasası psikolojisini ölçen 0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında bir duygu puanı. 55 'açgözlü'—yatırımcılar iyimser ama panik yapmıyor."
+    },
+    {
+      "term": "Finansman Oranı (Funding rate)",
+      "definition": "Kalıcı vadeli işlemler üzerinde tüccarlar arasında periyodik ödeme. Finansman oranları pozitif olduğunda, boğa tüccarları (uzunlar) ayı tüccarlarını (kısa) pozisyonlarını tutması için ödeme yapar—boğa duygusunun güçlü olduğunu gösterir. Daha yüksek oranlar daha boğa güveni demektir."
+    },
+    {
+      "term": "Uzun/Kısa Oranı (hesap düzeyi ve üst pozisyon oranı)",
+      "definition": "Boğa hesapları (fiyatın yükselmesine bahis) ile ayı hesapları (fiyatın düşmesine bahis) karşılaştırması. 1,0'dan yüksek oran daha fazla boğa anlamına gelir. 1,83 her 1 ayı için 1,83 boğa anlamına gelir. 'Üst pozisyon oranı' en büyük tüccarlara odaklanır; 'hesap düzeyi' tüm tüccarları içerir."
+    },
+    {
+      "term": "İşaretleme Fiyatı (Mark price)",
+      "definition": "Kalıcı vadeli işlemler üzerinde finansmanı hesaplamak için kullanılan referans fiyat; spot fiyat ve vadeli eğri türetildi. Manipülasyonu önler ve açık pozisyonlardaki gerçekleşmemiş kazanç/kayıpları işaretler."
+    },
+    {
+      "term": "Açık Pozisyon (Open interest, OI)",
+      "definition": "Kalıcı vadeli işlem pazarındaki tüm açık pozisyonların (uzunlar ve kısalar birleştirildi) toplam dolar değeri. Artan OI tüccarların pazara kaldıraç eklediğini anlamına gelir; düşen OI pozisyonların kapatıldığını. 'OI değişimi' gün içinde ne kadar büyüdüğü veya küçüldüğünü gösterir."
+    },
+    {
+      "term": "Kalıcı Vadeli İşlemler (Perpetual futures, perps)",
+      "definition": "Sona erme tarihi olmayan bir kripto para türevleri sözleşmesi türü. Tüccarlar marj gereksinimlerini karşıladıkça süresiz olarak boğa veya ayı pozisyonu tutabilir. Finansman oranları ve işaretleme fiyatı üzerinden spot fiyatı yakından takip ederler."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı (Taker buy/sell ratio)",
+      "definition": "Agresif alım emirleri (likiditeyi alan pazar alımları) ile satış emirleri oranı. 1,0'dan yüksek daha agresif alım demektir; 1,0'dan düşük daha agresif satış. Kısa vadeli momentum yönü gösterir."
+    },
+    {
+      "term": "Hacim (alıntı temeli) (Volume, quote basis)",
+      "definition": "Belirli bir dönemde işlem gören tüm sözleşmelerin toplam dolar değeri ('temel hacim' karşısında, paraları sayar). 'Alıntı temeli' dolar tutarlarının toplandığı anlamına gelir; daha yüksek hacim daha fazla ticaret etkinliğini ve likiditeyi gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "e61ab0398099446f"
+}

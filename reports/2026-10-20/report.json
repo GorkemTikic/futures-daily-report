@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "kind": "market",
+  "dateLong": "Tuesday, 20 October 2026",
+  "coversUTC": "2026-10-20 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum rose about 1.3–1.7% on BlackRock's biggest institutional buying day since September, boosted by JPMorgan's first long-term bullish forecast, though security concerns lingered as stolen funds continued moving through privacy mixers.",
+  "newsCount": 15,
+  "macro": {
+    "BTC": 1.307981077369137,
+    "ETH": 1.6991188676972198
+  },
+  "topMover": {
+    "symbol": "JCTUSDT",
+    "chgPct": 136.47830474268417
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "21 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

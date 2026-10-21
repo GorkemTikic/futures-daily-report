@@ -1,0 +1,278 @@
+{
+  "dateUTC": "2026-10-20",
+  "coversUTC": "2026-10-20 00:00–23:59 UTC",
+  "windowLabel": "2026-10-20 00:00 → 24:00 UTC",
+  "asOfUTC": "00:00 UTC",
+  "live": true,
+  "rolling": false,
+  "majors": {
+    "BTC": {
+      "Bitget": {
+        "venue": "Bitget",
+        "basis": "utc-day",
+        "open": 81912.5,
+        "high": 83409.8,
+        "low": 81163,
+        "close": 82983.9,
+        "chgPct": 1.307981077369137,
+        "volUSD": 3099534361.27902,
+        "fundingAnnPct": 2.9564999999999997,
+        "oiUSD": 2812015627.744609,
+        "mark": 82919.9
+      },
+      "Bybit": {
+        "venue": "Bybit",
+        "basis": "utc-day",
+        "open": 81900.8,
+        "high": 83429.2,
+        "low": 81150,
+        "close": 82991,
+        "chgPct": 1.3311225287176647,
+        "volUSD": 4780584961.457,
+        "fundingAnnPct": 10.950000000000001,
+        "oiUSD": 5057626747.96,
+        "oiChangePct": 4.07469243455874,
+        "mark": 82934.4
+      },
+      "Binance": {
+        "venue": "Binance",
+        "basis": "utc-day",
+        "open": 81903.3,
+        "high": 83420,
+        "low": 81146.4,
+        "close": 82984.8,
+        "chgPct": 1.3204596151803407,
+        "volUSD": 11440009823.0618,
+        "fundingAnnPct": 7.163489999999999,
+        "oiUSD": 7862024438.8699,
+        "longShortAccount": 1.6567,
+        "topPositionRatio": 1.8258,
+        "takerBuySellRatio": 1.0466,
+        "mark": 82923.1
+      },
+      "OKX": {
+        "venue": "OKX",
+        "basis": "utc-day",
+        "open": 81909.5,
+        "high": 83436.9,
+        "low": 81166,
+        "close": 82984.5,
+        "chgPct": 1.3124240777931742,
+        "volUSD": 6305855364.77427,
+        "fundingAnnPct": 5.9973649160568,
+        "oiUSD": 2431059654.697568,
+        "longShortAccount": 1.56,
+        "mark": 82917.9
+      },
+      "Gate": {
+        "venue": "Gate",
+        "basis": "utc-day",
+        "open": 81905.8,
+        "high": 83400,
+        "low": 81164.8,
+        "close": 82981.8,
+        "chgPct": 1.3137042797945933,
+        "volUSD": 5884296533.83262,
+        "fundingAnnPct": 4.7085,
+        "oiUSD": 4304520309.036961,
+        "mark": 82928.2
+      }
+    },
+    "ETH": {
+      "Bybit": {
+        "venue": "Bybit",
+        "basis": "utc-day",
+        "open": 2407.13,
+        "high": 2477.44,
+        "low": 2371.29,
+        "close": 2448.03,
+        "chgPct": 1.6991188676972198,
+        "volUSD": 2258772020.4429,
+        "fundingAnnPct": 10.950000000000001,
+        "oiUSD": 1909500096.47,
+        "oiChangePct": -1.2942303928439167,
+        "mark": 2447.54
+      },
+      "Bitget": {
+        "venue": "Bitget",
+        "basis": "utc-day",
+        "open": 2407.3,
+        "high": 2477.52,
+        "low": 2371.55,
+        "close": 2447.85,
+        "chgPct": 1.6844597682050315,
+        "volUSD": 1872467420.2497,
+        "fundingAnnPct": 7.446,
+        "oiUSD": 1829935345.6123989,
+        "mark": 2447.38
+      },
+      "OKX": {
+        "venue": "OKX",
+        "basis": "utc-day",
+        "open": 2407.06,
+        "high": 2477.75,
+        "low": 2369.03,
+        "close": 2448.07,
+        "chgPct": 1.703738170215957,
+        "volUSD": 6617426456.07373,
+        "fundingAnnPct": 10.56610843635735,
+        "oiUSD": 1433661559.3664043,
+        "longShortAccount": 1.94,
+        "mark": 2447.47
+      },
+      "Binance": {
+        "venue": "Binance",
+        "basis": "utc-day",
+        "open": 2407.01,
+        "high": 2477.7,
+        "low": 2370.74,
+        "close": 2447.78,
+        "chgPct": 1.6938026846585588,
+        "volUSD": 8368982262.26837,
+        "fundingAnnPct": 5.0359050000000005,
+        "oiUSD": 5601097829.823839,
+        "longShortAccount": 3.0371,
+        "topPositionRatio": 1.6829,
+        "takerBuySellRatio": 1.0366,
+        "mark": 2447.24
+      },
+      "Gate": {
+        "venue": "Gate",
+        "basis": "utc-day",
+        "open": 2407.15,
+        "high": 2477.16,
+        "low": 2371.47,
+        "close": 2448.03,
+        "chgPct": 1.6982738923623417,
+        "volUSD": 6428589807.91582,
+        "fundingAnnPct": 6.0225,
+        "oiUSD": 1804479211.3100004,
+        "mark": 2447.3
+      }
+    }
+  },
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "chgPct": 136.47830474268417,
+      "volUSD": 636937999.317009,
+      "basis": "utc-day"
+    },
+    {
+      "symbol": "DOODUSDT",
+      "chgPct": 82.35294117647058,
+      "volUSD": 189881794.486413,
+      "basis": "utc-day"
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "chgPct": 40.665508485901384,
+      "volUSD": 106081076.0232099,
+      "basis": "utc-day"
+    }
+  ],
+  "breadth": {
+    "up": 665,
+    "down": 127,
+    "flat": 1,
+    "total": 793,
+    "upPct": 83.85876418663304
+  },
+  "altcoins": [
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "price": 106.47,
+      "chgPct": 1.3710368466152505,
+      "volume": 1681090343.604,
+      "high": 108.22,
+      "low": 103.59
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "price": 1.3353,
+      "chgPct": 2.4474451434709255,
+      "volume": 578489148.46184,
+      "high": 1.3461,
+      "low": 1.2857
+    },
+    {
+      "symbol": "BNB",
+      "name": "BNB",
+      "price": 742.03,
+      "chgPct": 1.2789015368656682,
+      "volume": 233167001.6927,
+      "high": 743.44,
+      "low": 725.07
+    },
+    {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "price": 0.08182,
+      "chgPct": 2.6470957219922226,
+      "volume": 303972468.37132,
+      "high": 0.08224,
+      "low": 0.07843
+    },
+    {
+      "symbol": "ADA",
+      "name": "Cardano",
+      "price": 0.2239,
+      "chgPct": 2.6593305823016964,
+      "volume": 138600543.3189,
+      "high": 0.2266,
+      "low": 0.2145
+    },
+    {
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "price": 9.749,
+      "chgPct": 1.5203582213891575,
+      "volume": 122626478.104,
+      "high": 9.916,
+      "low": 9.382
+    },
+    {
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "price": 12.321,
+      "chgPct": 2.215032354405172,
+      "volume": 108807892.83611,
+      "high": 12.47,
+      "low": 11.83
+    },
+    {
+      "symbol": "SUI",
+      "name": "Sui",
+      "price": 1.0299,
+      "chgPct": 3.1034137551306467,
+      "volume": 226351807.63084,
+      "high": 1.0436,
+      "low": 0.9755
+    }
+  ],
+  "market": {
+    "totalMarketCap": 2796462617151.244,
+    "totalMarketCapChange24h": -1.4463162825527403,
+    "btcDominance": 59.54252335144996,
+    "ethDominance": 10.680188957839853,
+    "fearGreed": {
+      "value": 55,
+      "label": "Greed",
+      "date": "2026-10-20"
+    }
+  },
+  "sources": {
+    "exchanges": [
+      "Binance",
+      "Bybit",
+      "OKX",
+      "Bitget",
+      "Gate"
+    ],
+    "calendar": true,
+    "news": true,
+    "tradfi": true
+  }
+}
