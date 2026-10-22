@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-22T08:00:25.518Z",
+  "generatedAt": "2026-10-22T09:00:29.762Z",
   "count": 127,
   "counts": {
     "total": 127,
@@ -26,8 +26,8 @@
       "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
       "newsCount": 0,
       "topMover": {
-        "symbol": "BULLAUSDT",
-        "chgPct": 63.44299489506523
+        "symbol": "IRYSUSDT",
+        "chgPct": 36.17511520737327
       },
       "venues": [
         "Binance",

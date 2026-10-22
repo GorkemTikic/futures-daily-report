@@ -10,8 +10,8 @@
     "ETH": 1.01428495565822
   },
   "topMover": {
-    "symbol": "BULLAUSDT",
-    "chgPct": 63.44299489506523
+    "symbol": "IRYSUSDT",
+    "chgPct": 36.17511520737327
   },
   "venues": [
     "Binance",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "22 Oct 08:00 UTC",
+  "generatedAtUTC": "22 Oct 09:00 UTC",
   "languages": [
     "en"
   ],
