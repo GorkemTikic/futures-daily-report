@@ -1,0 +1,194 @@
+{
+  "oneLine": "Bitcoin ve Ethereum %1,3 kazanç ile sabit kaldı, geniş pazar %5 düşerken Asya yarı iletken sektörü çelişkili sinyaller gönderdi.",
+  "caveman": "21 Ekim'de Bitcoin ve Ethereum (en büyük iki kripto para) her biri yaklaşık %1,3 yükseldi, bu iyi bir haberdi. Fakat kripto dünyasında başka hemen hemen her şey düştü—100 coins'ten sadece 16 tanesinde artış vardı. Tüm pazar %5 küçüldü. Asıl hikaye teknoloji hisse senetlerinin her yerde (Kore, Hong Kong ve ABD) kötü geçtiği, özellikle yarı iletken ve çip şirketlerinin sert düşüş yaşadığıydı. Bitcoin ve Ethereum'un sabit kalması, çevredeki bu kaos içinde oldukça iyiydi. Bu bir günydü ki en büyük kripto araçları iyi durumda kaldı, ama başka her şey korkutuydı.",
+  "priceVolumeSummary": "Bitcoin tüm borsalarda $84,050'de kapandı, dar bir ranj içinde (hepsi +%1,28–1,30 arasında) ve Ethereum $2.472'de Binance, Bybit, OKX, Bitget ve Gate'te aynı şekilde senkronize olarak hareket etti. Binance, Bitcoin'de $12,66 milyar ve Ethereum'da $8,15 milyar işlem hacmi ile hacimde açık ara öncü oldu.",
+  "positioningSummary": "Bitcoin açık faiz %4,68 arttı, piyasaya yeni kaldıraç girişinin işaretini verirken, long/short pozisyonlandırması genel olarak alıcıların lehine 1,50'ye 1 oranında, en büyük tüccarlar arasında 1,84'e 1 oranında favori oldu. Ethereum açık faiz, 2,74'e 1 oranında daha ağır long eğilim olmasına rağmen aslında −%0,55 düştü. Finansman oranları keskin bir şekilde farklılaştı: Binance short'ları ücretlendirdi (−%1,48), Bybit short'ları daha sert ücretlendirdi (−%3,28), fakat Bitget ve Gate long'ları ağır şekilde ödedi (+%10,95), dengesiz pozisyonlandırma ve arbitraj fırsatları işaret ediyor. Alıcı aktivitesi her ikisinde hafif satın alma baskısı gösterdi (Bitcoin 1,02, Ethereum 1,03 alış/satış oranı). Pazar genişliği ciddi şekilde baskılandı—Binance perpetuallarının sadece %16'sı yükselişle kapandı, ana coinlerin altında geniş bir zayıflığı gösteriyor.",
+  "stocksSummary": "Asya hisse senedi piyasaları keskin bir çelişki gösterdi: gerçek Koreli nakit piyasası (KRX) Samsung Electronics +%5,67 ve SK Hynix +%5,81 ile keskin şekilde yükseldi, güçlü yarı iletken ihracat verileri nedeniyle, fakat bu hisse senetlerini takip eden Binance stock perpetualları önemli ölçüde düştü (SK Hynix perpetual −%4,94, Samsung −%4,08), perpetualların farklı referans fiyatlandırma kullanıyor olabileceğini veya spot piyasada geri kaldığını işaret ediyor. Hong Kong teknoloji hisse senetleri keskin şekilde düştü (Zhipu AI −%7,89, GigaDevice −%8,34, Tencent −%3,78). ABD yarı iletken ve teknoloji hisse senetleri daha da zayıfladı (Intel −%11,34, Lam Research −%10,73). Değerli metaller ve hammaddeler geniş şekilde satıldı (altın −%0,76, gümüş −%2,35, bakır −%1,63), geleneksel piyasalarda risk-off duyarlılığının tipik görüntüsü.",
+  "movers": [
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "Açık kamusal neden yok; token düşük likidite ticaretinde %63,44 kazanç elde etti, spekulatif veya manipülasyona açık micro-cap'lerin tipik görüntüsü.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IRYSUSDT",
+      "explanation": "Açık kamusal neden yok; token yükseltilmiş hacimde (+$147M) %36,18 yükseldi, muhtemelen perakende tarafından yönlendirilen spekülasyon.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ALTUSDT",
+      "explanation": "Açık kamusal neden yok; token negatif 24 saatlik momentum olmasına rağmen %29,65 sıçradı, gün içi volatilite veya taktik bir tersine dönüşü işaret ediyor.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Solana, işlem kesinliğini 150 milisaniyeye indiren Alpenglow konsensüs yükseltmesini etkinleştiriyor",
+        "what": "Solana ana ağı 21 Ekim'de epoch 1064'te Alpenglow'u etkinleştirdi, TowerBFT konsensüsünü yeni Votor protokolü ile değiştirdi. Yükseltme işlemlerin geri döndürülemez hale gelmesi için gereken zamanı yaklaşık 12,8 saniyeden 150 milisaniyeye kısaltıyor—kabaca %99 daha hızlı. Validatörler artık oyları zincir üzerinde kaydetmek yerine doğrudan birbirlerine gönderiyor, bunları toplu sertifikalar halinde paketliyor ve blokları bir veya iki turda sonuçlandırıyor.",
+        "coins": "SOL",
+        "timeUTC": "21 Oct ~15:00 UTC (epoch 1064 activation)",
+        "source": "CoinDesk, CryptoSlate, Bitcoin.com",
+        "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
+      },
+      {
+        "headline": "Tesla ve SpaceX birleşme komiteleri oluşturuyor; birleştirilmiş işletme 30.221 Bitcoin tutacak",
+        "what": "Her iki şirketin bağımsız yöneticileri, 20 Ekim'de SpaceX'in Q3 kazanç çağrısında Elon Musk'ın yorumlarını takiben potansiyel bir birleşmeyi değerlendirdiklerini duyurdu. Bu anlaşma Tesla'nın 11.509 BTC'si ve SpaceX'in 18.712 BTC'sini tek bir hazine haline getirerek ~$2,5 milyar değerinde Bitcoin tutacak ($83k/BTC'den), birleştirilmiş işletmeyi sayı açısından en büyük altıncı kamu kurumu Bitcoin sahibi haline getirecek.",
+        "coins": "BTC",
+        "timeUTC": "21 Oct (announced during SpaceX earnings call on 20 Oct, reported 21 Oct)",
+        "source": "CoinDesk, CryptoSlate, TokenPost",
+        "url": "https://www.coindesk.com/markets/2026/10/21/spacex-and-tesla-explore-merger-that-would-unite-more-than-30-000-bitcoin"
+      },
+      {
+        "headline": "OCC, GENIUS Yasası stablecoin kuralını kesinleştiriyor; bankacılık grupları getiri boşluklarına itiraz ediyor",
+        "what": "Para Denetleme Ofisi, GENIUS stablecoin yasasını uygulayan nihai düzenlemeleri yayınladı, 18 Ocak 2027'den itibaren geçerli olmak üzere rezervler, geri ödeme, vesayet, sermaye ve denetimler için federal standartlar belirliyor. Amerikan Bankacılar Birliği, nihai kuralı kripto platformlarının stablecoin getirisi sunma yeteneğini korumak için eleştirdi, OCC'nin bağlı şirketler ve dağıtım ortakları aracılığıyla dolaylı getiri düzenlemeleri karşı koruma tedbirlerini kaldırdığını ve Kongre'nin banka mevduatlarını koruma niyetini baltaladığını savundu.",
+        "coins": "USDC, USDT",
+        "timeUTC": "21 Oct (final rule published)",
+        "source": "The Block, Cointelegraph, OCC",
+        "url": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "OCC, GENIUS Yasası stablecoin kuralını kesinleştiriyor; bankacılık grupları getiri boşluklarına itiraz ediyor",
+          "what": "Para Denetleme Ofisi, GENIUS stablecoin yasasını uygulayan nihai düzenlemeleri yayınladı, 18 Ocak 2027'den itibaren geçerli olmak üzere rezervler, geri ödeme, vesayet, sermaye ve denetimler için federal standartlar belirliyor. Amerikan Bankacılar Birliği, nihai kuralı kripto platformlarının stablecoin getirisi sunma yeteneğini korumak için eleştirdi, OCC'nin bağlı şirketler ve dağıtım ortakları aracılığıyla dolaylı getiri düzenlemeleri karşı koruma tedbirlerini kaldırdığını savundu.",
+          "coins": "USDC, USDT",
+          "timeUTC": "21 Oct",
+          "source": "The Block, Cointelegraph",
+          "url": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629"
+        },
+        {
+          "headline": "Cardano Vakfı, AB'yi MiCA kurallarını DeFi ve staking'e genişletmemesi için uyarıyor",
+          "what": "Cardano Vakfı, AB düzenleyicilerini dijital varlık düzenlemesini teknoloji türü yerine finansal riske dayandırmaya çağırdı, MiCA (Kripto Varlıklarda Piyasalar) kurallarını merkeziyetsiz finansa ve stakinge genişletmenin AB genelinde kripto işletmeleri için çakışan belirsizlik yaratabilir uyarısında bulundu.",
+          "coins": "ADA",
+          "timeUTC": "21 Oct ~19:04 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cardano-foundation-urges-eu-against-expanding-mica-rules-to-defi-and-staking"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri 21 Ekim'de $528 milyon, Ethereum $14,9 milyon net giriş çekiyor",
+          "what": "ABD spot Bitcoin ETF'leri 21 Ekim'de $528,41 milyon net giriş kaydetti, ardışık üçüncü kazanç günü işaretleyip 3 günlük girişleri yaklaşık $1,08 milyara getirdi. BlackRock'ın IBIT $235 milyon ile lider konumdayken, Fidelity'nin FBTC $212,71 milyon ile izledi. Ethereum ETF girişleri $14,9 milyon beş günlük çıkış serisinin sonunu işaretledi. Birleşik BTC/ETH ETF net varlıkları $109,31 milyara ulaştı.",
+          "coins": "BTC, ETH",
+          "timeUTC": "21 Oct (daily close)",
+          "source": "Farside, KuCoin Flash, FinanceFeeds",
+          "url": "https://www.kucoin.com/news/flash/us-bitcoin-spot-etfs-see-524-8m-net-inflow-ethereum-etfs-see-14-9m-net-inflow-on-october-21"
+        },
+        {
+          "headline": "Grayscale, ayni işlem aboneliklerini 10 kripto ETF'i ve trust'ına genişletiyor",
+          "what": "Grayscale, 10 kripto para fonu için ayni işlem abonelik yeteneklerinin genişletilmesini duyurdu, uygun yatırımcıların kripto varlıklarını nakit için vergilendirilebilir satış tetiklemeden ETF/trust hisseleriyle takas etmelerine izin veriyor.",
+          "coins": "BTC, ETH, SOL, XRP",
+          "timeUTC": "21 Oct",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-21-grayscale-expands-in-kind-subscriptions-10-crypto-etfs-421559"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana, işlem kesinliğini 150 milisaniyeye indiren Alpenglow konsensüs yükseltmesini etkinleştiriyor",
+          "what": "Solana ana ağı 21 Ekim'de Alpenglow'u etkinleştirdi, TowerBFT konsensüsünü Votor protokolü ile değiştirdi. İşlem kesinliği yaklaşık 12,8 saniyeden 150 milisaniyeye düştü, validatörler oyları zincir üzerinde kaydetmek yerine doğrudan birbirlerine gönderiyor.",
+          "coins": "SOL",
+          "timeUTC": "21 Oct ~15:00 UTC (epoch 1064)",
+          "source": "CoinDesk, CryptoSlate, Bitcoin.com",
+          "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality"
+        },
+        {
+          "headline": "Dogecoin ekosistemi MyDoge kurucusu ile yeni özel şirket altında birleşiyor",
+          "what": "Dogecoin Vakfı ile kurulan ve MyDoge kurucusu Jordan Jefferson tarafından yönetilen yeni bir şirket, MyDoge cüzdanını, DogeOS uygulama platformunu ve Such App'i birleştirerek DOGE etrafında bir ekonomi inşa ediyor. Bu hamle ekosistem geliştirmesini koordine etmeyi amaçlıyor.",
+          "coins": "DOGE",
+          "timeUTC": "21 Oct ~17:32 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381541/dogecoin-gets-dedicated-company-build-ecosystem"
+        },
+        {
+          "headline": "Bybit, Robinhood ile rekabet etmek için büyük broker ortaklıkları aracılığıyla ABD genişlemesini işaret ediyor",
+          "what": "Bybit CEO'su Ben Zhou, borsanın doğrudan düzenlenmiş bir borsa başlatması yerine Interactive Brokers gibi büyük brokerler ile ortaklıklar yaparak ABD pazarına giriş yapacağını belirtti.",
+          "coins": "general",
+          "timeUTC": "21 Oct ~15:29 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/16/bybit-will-look-for-big-broker-partnerships-to-take-on-robinhood-in-the-u-s"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kripto güvenlik şefleri kritik PHP açıklarından uyarıyor; sistemler 21 Ekim'de yamalandı",
+          "what": "PHP, web sunucuları üzerinde kimlik doğrulamadan uzaktan kod yürütülmesine izin veren iki kritik açık (CVE-2024-XXXXX serisi) için 21 Ekim'de acil yama yayınladı. Kripto altyapı operatörleri eşlerine derhal yama uygulamalarını uyardı, çünkü açıklanmasından saatler içinde istismarlar konuşlandırıldı ve dünya çapında internet'e bakan PHP kurulumlarının tahminen %70'ini etkiledi.",
+          "coins": "general (infrastructure risk)",
+          "timeUTC": "21 Oct (patches released)",
+          "source": "CryptoSlate, Decrypt",
+          "url": "https://cryptoslate.com/crypto-security-chiefs-sound-alarm-as-php-emergency-patch-scrambles-devs-worldwide/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-21",
+    "summary": "ABD spot Bitcoin ETF'leri $528,41 milyon net giriş kaydetti, BlackRock IBIT ($235M) ve Fidelity FBTC ($212,71M) akışların %85'ini yönlendirdi. Ethereum spot ETF'leri $14,9 milyon net giriş ile beş günlük çıkış serisini sonlandırdı. Birleşik BTC/ETH net varlıkları $109,31 milyara ulaştı.",
+    "source": "Farside (Bitcoin and Ethereum ETF Flow Tracking)",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims: October 22, 2026 at 12:30 UTC",
+      "typicalReaction": "Yüksek etkili açıklama; baskı tahmininden önemli ölçüde sapıyorsa hisse senedi futures ve kripto volatilite bekleyin"
+    },
+    {
+      "event": "Japan CPI October 2026 at 23:30 UTC on October 22",
+      "typicalReaction": "Yüksek etkili açıklama; yen ve küresel risk duyarlılığı hareketlerini tetikleyebilir"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel Dönem",
+      "definition": "Fiyat ve hacim verilerinin raporlandığı dönem; 'utc-day' fiyat değişiminin UTC takvim günü (00:00–23:59 UTC) boyunca ölçüldüğü anlamına gelir"
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Yukarı hareket eden kripto varlıkların yüzdesine karşı aşağı hareket edenler; düşük pazar genişliği (örn. %16 yükseliş) zayıflığın geniş, birkaç coin'de yoğunlaşmadığını gösterir"
+    },
+    {
+      "term": "Korku & Açgözlülük Endeksi",
+      "definition": "Pazar volatilitesi, sosyal hacim ve diğer girdilere dayanan 0'dan (Aşırı Korku) 100'e (Aşırı Açgözlülük) değişen bir duyarlılık ölçüsü; tüccarların iyimser mi yoksa korkmuş mu olduğunu göstermesine yardımcı olur"
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Kalıcı fiyatını spot fiyata yakın tutmak için kullanılan bir futures kontratında long ve short tüccarları arasında periyodik ödeme; pozitif oranlar long'ların short'lara ödemeler yaptığı anlamına gelir, negatif oranlar short'ların long'lara ödemeler yaptığı anlamına gelir"
+    },
+    {
+      "term": "Finansman Oranı (Yıllıklandırılmış)",
+      "definition": "Kolay karşılaştırma için yıllık bir yüzdeye ölçeklendirilmiş finansman oranı; örneğin, %10,95 yıllıklandırılmış bir yıl boyunca long pozisyon tutarsanız ve oranlar sabit kalırsa, finansman için nominal pozisyonunuzun %10,95'ini ödersiniz"
+    },
+    {
+      "term": "Long/Short Oranı",
+      "definition": "Fiyatın yükseleceğini (long) ve düşeceğini (short) tahmin eden açık pozisyonların oranı; 1'in üzerindeki bir oran daha fazla tüccarın long olduğu anlamına gelir, 1'in altında daha fazla kişinin short olduğu anlamına gelir"
+    },
+    {
+      "term": "İşaretleme Fiyatı",
+      "definition": "Bir futures kontratında tasfiye ve finansman hesaplamaları için kullanılan, manipülasyonu önlemek ve spot fiyata yakın kalmak için tasarlanmış referans fiyat"
+    },
+    {
+      "term": "Net Giriş (ETF)",
+      "definition": "Bir borsada işlem gören fona akan yeni para miktarından geri ödemelerin çıkarılması; pozitif sayılar kurumlar tarafından satıştan daha fazla alım gösterir"
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Bir borsada ödenmemiş futures kontratlarında kilitli olan toplam para veya coin; artan açık faiz artan kaldıraç ve kanaat işaret eder, düşüş pozisyonlar kapatılıyor demektir"
+    },
+    {
+      "term": "Açık Faiz Değişimi",
+      "definition": "Raporlama dönemi boyunca toplam açık faizin yüzde artış veya azalış; pozitif değişim tüccarların yeni pozisyon açtığı veya mevcut pozisyonlara eklediği anlamına gelir, negatif kapandığı veya azaldığı anlamına gelir"
+    },
+    {
+      "term": "Alıcı Alış/Satış Oranı",
+      "definition": "Satmaya karşı agresif pazar siparişlerini satın almak için oran; 1'in üzerindeki bir oran daha fazla alıcının talep fiyatını karşıladığı (hevesle satın alma), 1'in altında daha fazla satıcının teklif fiyatını karşıladığı (hevesle satma) anlamına gelir"
+    },
+    {
+      "term": "En Büyük Pozisyon Oranı",
+      "definition": "Sadece en büyük tüccarlar arasında long/short dengesi (tüm hesaplar değil); 'akıllı para'nın kalabalıktan daha yükselişçi mi yoksa düşüşçü mi olduğunu görmek için kullanılır"
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "38d1c89543bbc36c"
+}

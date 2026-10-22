@@ -3,15 +3,15 @@
   "kind": "market",
   "dateLong": "Wednesday, 21 October 2026",
   "coversUTC": "2026-10-21 00:00–23:59 UTC",
-  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-  "newsCount": 0,
+  "oneLine": "Bitcoin and Ethereum held steady at +1.3% gains while the broader market collapsed 5% and Asian semiconductors sent conflicting signals.",
+  "newsCount": 11,
   "macro": {
     "BTC": 1.2906117933719674,
     "ETH": 1.01428495565822
   },
   "topMover": {
-    "symbol": "IRYSUSDT",
-    "chgPct": 36.17511520737327
+    "symbol": "BULLAUSDT",
+    "chgPct": 63.44299489506523
   },
   "venues": [
     "Binance",
@@ -20,14 +20,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "22 Oct 09:00 UTC",
+  "generatedAtUTC": "22 Oct 10:00 UTC",
   "languages": [
-    "en"
+    "en",
+    "tr",
+    "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
-    "zh report unavailable"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }
