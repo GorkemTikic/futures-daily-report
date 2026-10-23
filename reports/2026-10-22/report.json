@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "kind": "market",
+  "dateLong": "Thursday, 22 October 2026",
+  "coversUTC": "2026-10-22 00:00–23:59 UTC",
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
+  "macro": {
+    "BTC": -3.177447120869799,
+    "ETH": -3.4251837952815873
+  },
+  "topMover": {
+    "symbol": "MAGMAUSDT",
+    "chgPct": 56.68864741029689
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "23 Oct 00:00 UTC",
+  "languages": [
+    "en"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
+  ]
+}
