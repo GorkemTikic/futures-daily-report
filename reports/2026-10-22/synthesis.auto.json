@@ -1,0 +1,171 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell 3% on October 22 as Nasdaq tech stocks plunged 2.6%, but Bitcoin spot ETFs surprisingly recorded strong inflows.",
+  "caveman": "On October 22nd, Bitcoin and Ethereum both dropped about 3%. The big technology stocks (like Nvidia and Meta) fell sharply because people got worried that companies were spending too much money on AI. However, institutional investors like BlackRock and Fidelity bought Bitcoin during the dip—they added $528 million in Bitcoin ETF flows. This tells us that some big money saw the price drop as a buying opportunity, even though traders in the futures markets were also closing positions (open interest fell 2-5%). The biggest traders still held mostly long bets, but the overall market was worried: only 18 out of every 100 crypto coins went up. It was a worrying day because traditional stocks fell, but not because Bitcoin was unwanted.",
+  "priceVolumeSummary": "Bitcoin closed at $81,384 (down 3.17% to 3.18% across venues) and Ethereum at $2,388 (down 3.42% to 3.43%). Binance led volume by far, with $14.5 billion in Bitcoin and $8.7 billion in Ethereum trading—higher than all other venues combined.",
+  "positioningSummary": "Funding rates remained positive across all venues (0.573% to 1.04% annualized for Bitcoin, 0.33% to 1.10% for Ethereum), signaling traders still expected prices to stay elevated. However, open interest fell 2–5% as some traders closed positions. The largest traders on Binance held 1.65x more long (buy) positions than short (sell) positions on both Bitcoin and Ethereum, which normally supports prices, but buying pressure was only slightly above selling. The taker buy-to-sell ratio showed balanced activity on Ethereum (1.0048) and slight buying pressure on Bitcoin (1.0661). Market breadth was very weak: only 17.8% of Binance perpetual contracts went up, while 82.2% fell. Fear & Greed rose to 68 (Greed), up from 63 the prior day, suggesting some traders thought prices were oversold.",
+  "stocksSummary": "South Korean stocks fell sharply during the Korean trading session on October 22 (which overlaps with the UTC day): SK Hynix down 1.84%, Samsung Electronics down 3.04%, Hyundai Motor down 5.19%, and the KOSPI 200 ETF down 3.25%. Hong Kong equities were mixed: Xiaomi and MiniMax gained around 3–4%, while Tencent (both ticker 0700 and EM) fell slightly around 0.37–0.57%. US equities tracked the tech decline: S&P 500 down 1.21%, Nasdaq down 2.60%. Energy markets bucked the risk-off trend, with WTI crude oil up 1.65% and Brent crude up 2.52%, while gold fell 2.39% despite typical safe-haven demand. US 10-year Treasury bonds rallied (IEF up 1.08%) as investors moved to safety.",
+  "movers": [
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "MAGMA surged 56.69%, a large swing for a low-liquidity token. No clear public cause found in news or exchange announcements.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTRUSDT",
+      "explanation": "BTR gained 49.68% with $82 million in volume. No clear public cause found.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ALTUSDT",
+      "explanation": "ALT fell 37.96%, a sharp decline in a smaller token. No clear public cause found.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Tech stock selloff deepens amid AI spending concerns; crypto split between flows and prices",
+        "what": "The Nasdaq Composite fell 2.60% on October 22 as Meta, Tesla, and chipmakers disappointed on earnings and AI spending outlook. S&P 500 dropped 1.21%. Despite the broad selloff, Bitcoin spot ETFs recorded a strong $528 million net inflow—led by BlackRock's IBIT (+$235M) and Fidelity's FBTC (+$213M)—while Ethereum ETF flows turned flat. This suggests institutional investors viewed the crypto dip as a buying opportunity rather than a risk-off moment.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-10-22 14:30",
+        "source": "Stock market reports; Farside Investors (via Cointelegraph, The Block)",
+        "url": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904"
+      },
+      {
+        "headline": "Coinbase Ireland hit with €3.25 million fine for customer fund safeguarding failures",
+        "what": "Ireland's Central Bank fined Coinbase Ireland for failing to properly segregate customer funds and maintaining underfunded safeguarding accounts. The fine stemmed partly from 2023 instructions that directed customers to deposit into alternate accounts during Silvergate's collapse. Coinbase acknowledged the facts and agreed to accept sanctions.",
+        "coins": "General exchange regulation",
+        "timeUTC": "2026-10-22 03:29",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/381638/coinbase-fined-again-ireland-3-6m-fund-safeguarding"
+      },
+      {
+        "headline": "XRPL recovers from transaction delays; security upgrade postponed two weeks",
+        "what": "The XRP Ledger recovered from intermittent transaction-processing slowdowns on October 22. Developers announced that a critical security software upgrade will be delayed approximately two weeks due to ongoing preparation. The network's resilience during the slowdown limited disruption.",
+        "coins": "XRP",
+        "timeUTC": "2026-10-22 12:07",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/xrpl-recovers-from-network-slowdown-as-critical-security-upgrade-faces-two-week-delay/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Pentagon bans US military from betting on defense info in prediction markets",
+          "what": "The US Department of Defense issued guidance barring military personnel from using classified or sensitive military information to place wagers in prediction markets. The ban addresses concerns that trading activity could expose operational details to adversaries monitoring market movements.",
+          "coins": "General crypto infrastructure",
+          "timeUTC": "2026-10-22 12:04",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets"
+        },
+        {
+          "headline": "Senate investigator probing Tether payments to Bo Hines' consulting firm",
+          "what": "Senator Richard Blumenthal, ranking Democrat on the investigations subcommittee, expanded his crypto oversight portfolio to include scrutiny of Tether payments to a firm linked to Bo Hines, a former White House crypto adviser. The investigation targets potential conflicts of interest and influence.",
+          "coins": "Tether (USDT)",
+          "timeUTC": "2026-10-22 09:36",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm"
+        },
+        {
+          "headline": "OCC finalizes stablecoin rewards rule, drops affiliate presumption but bans yield programs",
+          "what": "The Office of the Comptroller of the Currency released its final GENIUS Act rule on stablecoin rewards. The rule removed a controversial affiliate-rewards presumption but retained a ban on yield-bearing stablecoin programs. Existing programs receive no grandfathering.",
+          "coins": "Stablecoins",
+          "timeUTC": "2026-10-22 05:46",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/occ-drops-proposed-affiliate-rewards-presumption-but-stablecoin-yield-ban-stays/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs erased October losses with $1.07 billion inflow over three days",
+          "what": "Spot Bitcoin ETFs recorded approximately $1.07 billion in net inflows over a three-day period, erasing October's cumulative outflows and bringing the month's total to roughly +$460 million net inflows despite ongoing price weakness. BlackRock and Fidelity led the recovery.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-22 06:44",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381611/bitcoin-etfs-erase-october-losses-1-billion-three-days"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Uniswap's aggregator hooks go live, routing trades through external liquidity pools",
+          "what": "Uniswap Labs launched aggregator hooks on Ethereum, Base, and Robinhood Chain. The feature allows Uniswap v4 to route trades through liquidity held on external venues, improving capital efficiency and competitive pricing across platforms.",
+          "coins": "Uniswap (UNI), Ethereum (ETH)",
+          "timeUTC": "2026-10-22 02:35",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Railway platform urges credential resets following alleged $371,000 crypto theft",
+          "what": "Railway, a developer platform, instructed all users to reset stored credentials after reports surfaced of approximately $371,000 in cryptocurrency theft. The incident highlights ongoing risks in platform security even as crypto custody infrastructure matures.",
+          "coins": "General crypto security",
+          "timeUTC": "2026-10-22 01:13",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/railway-credential-resets-crypto-theft-allegation/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Oil surges to five-month high as AI concerns sink tech; S&P 500 and Nasdaq fall sharply",
+          "what": "WTI crude oil climbed 1.65% and Brent crude 2.52%, reaching five-month highs as traders fled tech stocks amid AI spending doubts. The S&P 500 fell 1.21% and Nasdaq 2.60%, with the Semiconductor Index down 6.7%. Asian markets also declined.",
+          "coins": "General market correlation",
+          "timeUTC": "2026-10-22 00:53",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381613/oil-climbs-above-111-as-ai-stocks-slide-dragging-the-sp-500-and-global-markets-with-them"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-22",
+    "summary": "Bitcoin spot ETFs recorded a net inflow of $528 million on October 22. BlackRock's IBIT led with +$235 million, followed by Fidelity's FBTC with +$213 million. Ethereum ETFs posted essentially flat flows (~$0). October 2026 cumulative flows: Bitcoin +$460 million.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK Retail Sales October 2026",
+      "typicalReaction": "Scheduled for Fri 23 Oct, 06:00 UTC (tomorrow from report date). High-impact release — expect volatility in traditional markets that may spill into crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of assets in a market that moved up for the period. Low breadth (18% up on Oct 22) means most coins fell, a sign of broad weakness."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A 0–100 scale measuring market sentiment. Greed (above 50) means traders are optimistic; Fear (below 50) means pessimistic. Used to spot potential reversals."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "An interest rate traders pay (or receive) when holding positions in perpetual contracts. Positive funding means buyers are paying sellers to hold longs; it is annualized as a percentage yield."
+    },
+    {
+      "term": "Long / Short position",
+      "definition": "A long bet means the trader expects the price to rise; a short bet means they expect it to fall. A long/short ratio above 1.0 means more traders are long than short."
+    },
+    {
+      "term": "Mark price",
+      "definition": "An exchange's calculated fair price for a perpetual contract, used to trigger liquidations and prevent manipulation. It differs slightly from the last-traded price."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of unfilled contracts (longs + shorts combined) in a market. High open interest means large positions are at risk; falling open interest means traders are closing positions."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "The percentage change in total open contracts over the period. A decline means traders are de-risking; an increase means they are taking more risk."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive market-taker buys (those paying ask price) to market-taker sells (those hitting bid price). A ratio above 1.0 means more aggressive buying; below 1.0 means more aggressive selling."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long-to-short ratio among the largest traders on an exchange. A high ratio (e.g., 1.65) indicates the biggest money is bet on prices rising."
+    }
+  ],
+  "_source": "cli"
+}

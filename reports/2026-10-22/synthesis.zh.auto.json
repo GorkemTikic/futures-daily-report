@@ -1,0 +1,172 @@
+{
+  "oneLine": "比特币和以太坊在10月22日下跌3%，因纳斯达克科技股大幅下跌2.6%，但比特币现货ETF意外录得强劲净流入。",
+  "caveman": "10月22日，比特币和以太坊都下跌了约3%。大型科技公司的股票（如英伟达和Meta）跌幅很大，因为人们担心这些公司在人工智能上花钱太多。不过，贝莱德和富达这样的大投资机构在便宜的时候买比特币——他们花了5.28亿美元。这告诉我们，一些大资金把价格下跌看作是买入的好机会。虽然有些交易员在卖出（未平仓合约下降了2-5%），但最大的交易员仍然主要想买入。整个市场都很担心：每100种加密币中只有18种上升了。这是令人担忧的一天，因为普通股票跌了，但不是因为比特币没人要。",
+  "priceVolumeSummary": "比特币收盘价$81,384（各交易所下跌3.17%至3.18%），以太坊收盘价$2,388（下跌3.42%至3.43%）。币安交易量遥遥领先，比特币交易量达145亿美元，以太坊交易量达87亿美元——超过所有其他交易所的总和。",
+  "positioningSummary": "资金费率在所有交易所保持正值（比特币年化0.573%至1.04%，以太坊0.33%至1.10%），表明交易员仍预期价格保持高位。但由于有些交易员平仓，未平仓合约下跌2-5%。币安最大交易员在比特币和以太坊上的做多头寸比做空头寸多1.65倍，通常会支撑价格，但买盘压力仅略高于卖盘。以太坊吃单买卖比显示平衡（1.0048），比特币显示轻微买入压力（1.0661）。市场广度极弱：币安永续合约仅17.8%上升，82.2%下跌。恐惧和贪婪指数升至68（贪婪），比前一日的63上升，表明部分交易员认为价格被低估了。",
+  "stocksSummary": "10月22日韩国交易时段，韩国股市大幅下跌：SK海力士下跌1.84%，三星电子下跌3.04%，现代汽车下跌5.19%，KOSPI 200 ETF下跌3.25%。香港股市涨跌互现：小米和MiniMax上涨约3-4%，而腾讯（股代0700和EM）小幅下跌0.37-0.57%。美国股市跟随科技股下跌：标普500下跌1.21%，纳斯达克下跌2.60%。能源市场逆势上升，WTI原油上升1.65%，布伦特原油上升2.52%，而黄金下跌2.39%，尽管通常存在避险需求。美国10年期国债上升（IEF上升1.08%），因投资者转向安全资产。",
+  "movers": [
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "MAGMA飙升56.69%，对于流动性较低的代币来说波动很大。在新闻或交易所公告中未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTRUSDT",
+      "explanation": "BTR上升49.68%，成交量8200万美元。未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ALTUSDT",
+      "explanation": "ALT下跌37.96%，较小代币的急剧下跌。未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "科技股抛售加深，AI支出担忧加剧；加密货币资金和价格分化",
+        "what": "纳斯达克综合指数在10月22日下跌2.60%，Meta、特斯拉和芯片制造商在盈利和AI支出前景上令人失望。标普500下跌1.21%。尽管股市大幅下跌，比特币现货ETF仍录得强劲的5.28亿美元净流入——由贝莱德IBIT（+2.35亿美元）和富达FBTC（+2.13亿美元）领导——而以太坊ETF资金基本持平。这表明机构投资者将加密货币下跌视为买入机会，而非风险厌恶时刻。",
+        "coins": "比特币、以太坊",
+        "timeUTC": "2026-10-22 14:30",
+        "source": "Stock market reports; Farside Investors (via Cointelegraph, The Block)",
+        "url": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904"
+      },
+      {
+        "headline": "Coinbase爱尔兰因客户资金保障失败被罚325万欧元",
+        "what": "爱尔兰央行因Coinbase爱尔兰未能妥善隔离客户资金和维持资金不足的保障账户而处以罚款。罚款部分源于2023年的指导，该指导在Silvergate倒闭期间指示客户向替代账户存入资金。Coinbase承认事实并同意接受处罚。",
+        "coins": "一般交易所监管",
+        "timeUTC": "2026-10-22 03:29",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/381638/coinbase-fined-again-ireland-3-6m-fund-safeguarding"
+      },
+      {
+        "headline": "XRPL从交易延迟中恢复；安全升级延期两周",
+        "what": "XRP账本在10月22日从断断续续的交易处理缓慢中恢复。开发人员宣布，由于持续的准备工作，关键安全软件升级将延期约两周。该网络在缓慢期间的韧性限制了中断。",
+        "coins": "XRP",
+        "timeUTC": "2026-10-22 12:07",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/xrpl-recovers-from-network-slowdown-as-critical-security-upgrade-faces-two-week-delay/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "五角大楼禁止美军在预测市场中利用国防信息下注",
+          "what": "美国国防部发布指导，禁止军人使用机密或敏感军事信息在预测市场中下注。该禁令旨在解决交易活动可能向监控市场走向的对手暴露操作细节的顾虑。",
+          "coins": "一般加密货币基础设施",
+          "timeUTC": "2026-10-22 12:04",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets"
+        },
+        {
+          "headline": "参议院调查员调查Tether对Bo Hines咨询公司的付款",
+          "what": "调查小组委员会民主党资深议员理查德·布鲁门塔尔扩大加密货币监督范围，包括审查Tether对与前白宫加密顾问Bo Hines有关公司的付款。调查针对潜在的利益冲突和不当影响。",
+          "coins": "Tether (USDT)",
+          "timeUTC": "2026-10-22 09:36",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm"
+        },
+        {
+          "headline": "OCC最终确定稳定币奖励规则，放弃关联方推定但保留收益禁令",
+          "what": "货币监理署发布《GENIUS法案》关于稳定币奖励的最终规则。该规则删除了有争议的关联方奖励推定，但保留了对收益型稳定币计划的禁令。现有计划无过渡条款。",
+          "coins": "稳定币",
+          "timeUTC": "2026-10-22 05:46",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/occ-drops-proposed-affiliate-rewards-presumption-but-stablecoin-yield-ban-stays/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF三日净流入10.7亿美元，抹去十月亏损",
+          "what": "现货比特币ETF在三天内录得约10.7亿美元净流入，抹去十月累计净流出，使该月总流入达约4.60亿美元，尽管价格持续疲软。贝莱德和富达领导了这波复苏。",
+          "coins": "比特币",
+          "timeUTC": "2026-10-22 06:44",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381611/bitcoin-etfs-erase-october-losses-1-billion-three-days"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Uniswap聚合器钩子上线，通过外部流动性池路由交易",
+          "what": "Uniswap Labs在以太坊、Base和Robinhood Chain上推出聚合器钩子。该功能允许Uniswap v4通过外部场所持有的流动性路由交易，提高资本效率和跨平台竞争定价。",
+          "coins": "Uniswap (UNI)、以太坊 (ETH)",
+          "timeUTC": "2026-10-22 02:35",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Railway平台在据称371,000美元加密被盗后敦促重置凭据",
+          "what": "开发者平台Railway在约371,000美元加密货币被盗的报告出现后，指示所有用户重置存储的凭据。该事件凸显了即使加密托管基础设施不断成熟，平台安全仍存在的持续风险。",
+          "coins": "一般加密货币安全",
+          "timeUTC": "2026-10-22 01:13",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/railway-credential-resets-crypto-theft-allegation/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "AI担忧打压科技股，油价飙升至五个月高位；标普500和纳斯达克大幅下跌",
+          "what": "WTI原油上升1.65%，布伦特原油上升2.52%，因交易员因AI支出疑虑逃离科技股而达五个月高位。标普500下跌1.21%，纳斯达克下跌2.60%，半导体指数下跌6.7%。亚洲市场也下跌。",
+          "coins": "一般市场相关性",
+          "timeUTC": "2026-10-22 00:53",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381613/oil-climbs-above-111-as-ai-stocks-slide-dragging-the-sp-500-and-global-markets-with-them"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-22",
+    "summary": "比特币现货ETF在10月22日录得5.28亿美元净流入。贝莱德IBIT以+2.35亿美元领先，紧接着富达FBTC的+2.13亿美元。以太坊ETF基本持平（~$0）。2026年10月累计流量：比特币 +4.60亿美元。",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK Retail Sales October 2026",
+      "typicalReaction": "定于10月23日星期五06:00 UTC（报告日期次日）发布。高影响力数据——预期传统市场波动可能蔓延至加密市场。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "广度（市场广度）",
+      "definition": "在该期间市场中上升的资产的百分比。低广度（10月22日仅18%上升）表示大多数代币下跌，是广泛疲软的信号。"
+    },
+    {
+      "term": "恐惧和贪婪指数",
+      "definition": "衡量市场情绪的0-100标度。贪婪（高于50）表示交易者乐观；恐惧（低于50）表示悲观。用于发现潜在的反转。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "交易者在持有永续合约头寸时支付（或接收）的利率。正资金费率表示买家支付卖家以维持多头头寸；以年化百分比收益率表示。"
+    },
+    {
+      "term": "做多/做空头寸",
+      "definition": "做多头寸表示交易者预期价格上升；做空头寸表示预期价格下跌。做多/做空比率高于1.0表示更多交易者看涨而非看跌。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所为永续合约计算的公平价格，用于触发清算并防止操纵。与最后交易价格略有不同。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "市场中未平仓合约（多头+空头）的总数。高未平仓合约表示大头寸处于风险中；下降的未平仓合约表示交易者正在平仓。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "该期间总未平仓合约的百分比变化。下降表示交易者在降低风险；上升表示他们在承担更多风险。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "积极市场买盘（支付要价的）与市场卖盘（击出出价的）的比率。比率高于1.0表示更多积极买入；低于1.0表示更多积极卖出。"
+    },
+    {
+      "term": "最大头寸比例",
+      "definition": "交易所最大交易员中的做多/做空比率。高比例（如1.65）表示最大资金赌注是价格上升。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "e38bf4d1d23abefa"
+}

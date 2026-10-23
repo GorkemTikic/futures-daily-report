@@ -1,0 +1,172 @@
+{
+  "oneLine": "Bitcoin ve Ethereum 22 Ekim'de %3 düştü çünkü Nasdaq teknoloji hisseleri %2,6 düştü, ama Bitcoin spot ETF'leri şaşırtıcı bir şekilde güçlü giriş kaydetti.",
+  "caveman": "22 Ekim'de Bitcoin ve Ethereum yaklaşık %3 düştü. Büyük teknoloji şirketleri (Nvidia, Meta gibi) keskin bir şekilde düştü çünkü insanlar şirketlerin yapay zeka için çok para harcadığından endişe ediyor. Ama BlackRock ve Fidelity gibi büyük yatırımcılar fiyat düşüşü sırasında Bitcoin aldılar—Bitcoin ETF akışlarına 528 milyon dolar ekledi. Bu, bazı büyük paraların fiyat düşüşünü alım fırsatı olarak gördüğünü gösteriyor, türev piyasalardaki tüccarlar da pozisyonları kapatıyor olsa da (açık faiz %2-5 düştü). En büyük tüccarlar hâlâ çoğunlukla uzun bahisler tuttuyordu, ama genel pazar endişeliydi: her 100 kripto paradan sadece 18'i yükseldi. Bu endişeliydi çünkü geleneksel hisse senetleri düştü, ama Bitcoin istenmiyor olduğundan değil.",
+  "priceVolumeSummary": "Bitcoin 81.384 dolardan kapandı (tüm mekanlar arasında %3,17 ile %3,18 arasında düşüş) ve Ethereum 2.388 dolardan (%3,42 ile %3,43 arasında düşüş). Binance hacim olarak açık ara öncü konumdaydı, Bitcoin'de 14,5 milyar dolar ve Ethereum'da 8,7 milyar dolar işlem hacmi ile—diğer tüm mekanları birleştirenden daha yüksek.",
+  "positioningSummary": "Finansman oranları tüm mekanlar arasında pozitif kaldı (Bitcoin için yıllıklandırılmış %0,573 ile %1,04, Ethereum için %0,33 ile %1,10), tüccarların fiyatların yüksek kalacağını beklediğini gösteriyor. Ancak açık faiz %2–5 düştü çünkü bazı tüccarlar pozisyonları kapadı. Binance'deki en büyük tüccarlar Bitcoin ve Ethereum'da uzun (alış) pozisyonları kısa (satış) pozisyonlarından 1,65 kat daha fazla tuttuyordu, bu normalde fiyatları destekliyordu, ama alış baskısı satış baskısından sadece biraz daha yüksekti. Taker alış-satış oranı Ethereum'da dengeli faaliyet (1,0048) ve Bitcoin'de hafif alış baskısı (1,0661) gösterdi. Piyasa genişliği çok zayıftı: Binance kalıcı sözleşmelerinin sadece %17,8'i yükseldi, %82,2'si düştü. Korku ve Açgözlülük 68'e yükseldi (Açgözlülük), bir önceki günün 63'ünden, bazı tüccarların fiyatların aşırı satıldığını düşündüğünü gösteriyor.",
+  "stocksSummary": "Güney Koreli hisse senetleri 22 Ekim'de Kore işlem seansında keskin bir şekilde düştü (UTC günü ile çakışıyor): SK Hynix %1,84 düştü, Samsung Electronics %3,04 düştü, Hyundai Motor %5,19 düştü ve KOSPI 200 ETF %3,25 düştü. Hong Kong hisse senetleri karışık seyretti: Xiaomi ve MiniMax yaklaşık %3–4 yükseldi, Tencent (hem 0700 hem de EM) yaklaşık %0,37–0,57 hafif düştü. ABD hisse senetleri teknoloji düşüşünü takip etti: S&P 500 %1,21 düştü, Nasdaq %2,60 düştü. Enerji piyasaları risk-off eğiliminin dışında kaldı; WTI ham petrolü %1,65 ve Brent ham petrolü %2,52 yükseldi, altın tipik güvenli liman talebine rağmen %2,39 düştü. ABD 10 yıllık Hazine tahvilleri (IEF %1,08 yükseldi) yatırımcılar güvenliğe kaçtı.",
+  "movers": [
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "MAGMA %56,69 oranında fırladı, düşük likiditeye sahip bir token için büyük bir hamle. Haberler veya borsa duyurularında açık bir neden bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BTRUSDT",
+      "explanation": "BTR 82 milyon dolar hacimle %49,68 kazanç elde etti. Açık bir neden bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ALTUSDT",
+      "explanation": "ALT %37,96 düştü, daha küçük bir token'de keskin bir düşüş. Açık bir neden bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Teknoloji hisse senetleri satışı derinleşiyor; kripto akışlar ve fiyatlar arasında bölünüyor",
+        "what": "Nasdaq Bileşik Endeksi 22 Ekim'de %2,60 düştü çünkü Meta, Tesla ve çipset üreticileri kazançlar ve yapay zeka harcama görünümünde hayal kırıklığı yarattı. S&P 500 %1,21 düştü. Geniş satışa rağmen, Bitcoin spot ETF'leri güçlü 528 milyon dolar net giriş kaydetti—BlackRock'un IBIT'i (+235 milyon dolar) ve Fidelity'nin FBTC'si (+213 milyon dolar) başı çekti—Ethereum ETF akışları düzleşti. Bu, kurumsal yatırımcıların kripto düşüşünü risk-off momenti yerine alım fırsatı olarak gördüğünü gösteriyor.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-10-22 14:30",
+        "source": "Stock market reports; Farside Investors (via Cointelegraph, The Block)",
+        "url": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904"
+      },
+      {
+        "headline": "Coinbase Ireland, müşteri fonu koruma başarısızlığı nedeniyle 3,25 milyon euro para cezası aldı",
+        "what": "İrlanda Merkez Bankası, Coinbase Ireland'ı müşteri fonlarını düzgün şekilde ayırmadığı ve yetersiz finanse edilen koruma hesapları tuttuğu için cezalandırdı. Para ceza kısmen 2023 talimatlarından kaynaklandı; bu talimatlar Silvergate'in çökmesi sırasında müşterilerin alternatif hesaplara para yatırmasını istedi. Coinbase olguları kabul etti ve cezaları kabul etmeyi rıza gösterdi.",
+        "coins": "Genel borsa düzenlemesi",
+        "timeUTC": "2026-10-22 03:29",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/381638/coinbase-fined-again-ireland-3-6m-fund-safeguarding"
+      },
+      {
+        "headline": "XRPL işlem gecikmeleri iyileşti; güvenlik yükseltmesi iki hafta ertelendi",
+        "what": "XRP Ledger, 22 Ekim'de aralıklı işlem işleme yavaşlamalarından iyileşti. Geliştiriciler kritik bir güvenlik yazılımı yükseltmesinin devam eden hazırlık nedeniyle yaklaşık iki hafta erteleneceğini duyurdu. Ağın yavaşlama sırasında gösterdiği dayanıklılık bozulmayı sınırladı.",
+        "coins": "XRP",
+        "timeUTC": "2026-10-22 12:07",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/xrpl-recovers-from-network-slowdown-as-critical-security-upgrade-faces-two-week-delay/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Pentagon, ABD ordusunu savunma bilgilerine bahis oynamaktan yasaklıyor",
+          "what": "ABD Savunma Bakanlığı, asker personeline gizli veya hassas asker bilgilerini tahmini piyasalara bahis oynamak için kullanmaktan yasaklayan rehberlik yayınladı. Yasaklama, ticaret faaliyetinin operasyonel ayrıntıları piyasa hareketlerini izleyen düşmanlar tarafından ortaya çıkardığı endişesini ele alıyor.",
+          "coins": "Genel kripto altyapısı",
+          "timeUTC": "2026-10-22 12:04",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets"
+        },
+        {
+          "headline": "Senatör araştırmacısı Tether'in Bo Hines'ın danışmanlık firmasına ödemelerini inceliyor",
+          "what": "Senatör Richard Blumenthal, araştırma alt komitesi başkanı demokratı, kripto gözetim portföyünü Bo Hines'la bağlantılı bir firmaya yapılan Tether ödemelerinin incelemesini içerecek şekilde genişletti. Bo Hines Beyaz Saray kripto danışmanıdır. Soruşturma çıkar çatışmaları ve etki hedefliyor.",
+          "coins": "Tether (USDT)",
+          "timeUTC": "2026-10-22 09:36",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm"
+        },
+        {
+          "headline": "OCC stablecoin ödülleri kuralını kesinleştiriyor; bağlı ortaklık varsayımını bırakıyor ama getiri programlarını yasaklıyor",
+          "what": "Muhasebeci Denetleme Ofisi, stablecoin ödülleri hakkındaki GENIUS Yasası kuralını kesinleştirdi. Kural tartışmalı bir bağlı ortaklık-ödülleri varsayımını kaldırdı ama faiz getiren stablecoin programları yasağını tuttu. Mevcut programlar eski haklar almıyor.",
+          "coins": "Stabilcoinler",
+          "timeUTC": "2026-10-22 05:46",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/occ-drops-proposed-affiliate-rewards-presumption-but-stablecoin-yield-ban-stays/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri üç günde 1,07 milyar dolar akışla Ekim kayıplarını sildi",
+          "what": "Spot Bitcoin ETF'leri üç günlük bir dönemde yaklaşık 1,07 milyar dolar net giriş kaydetti, Ekim'in kümülatif çıkışlarını sildi ve devam eden fiyat zayflığına rağmen ayın toplam tutarını yaklaşık +460 milyon dolar net girişe getirdi. BlackRock ve Fidelity iyileşmeye öncülük etti.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-22 06:44",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381611/bitcoin-etfs-erase-october-losses-1-billion-three-days"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Uniswap'ın agregat hooks yayında, işlemler harici likidite havuzları aracılığıyla yönlendiriliyor",
+          "what": "Uniswap Labs, Ethereum, Base ve Robinhood Chain'de agregat hooks başlattı. Özellik, Uniswap v4'ün işlemleri harici mekanlar üzerinde tutulan likidite aracılığıyla yönlendirmesine izin verir, sermaye verimliliğini ve platformlar arasında rekabetçi fiyatlandırmayı iyileştirir.",
+          "coins": "Uniswap (UNI), Ethereum (ETH)",
+          "timeUTC": "2026-10-22 02:35",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Railway platformu, bildirilen 371.000 dolar kripto hırsızlığının ardından kimlik bilgileri sıfırlamayı istedi",
+          "what": "Railway, bir geliştirici platformu, yaklaşık 371.000 dolar kripto hırsızlığı raporlarının ardından tüm kullanıcılardan saklanan kimlik bilgilerini sıfırlamasını istedi. Olay, kripto gözaltı altyapısı olgunlaştığında bile platform güvenliğinde devam eden riskleri vurgulayan.",
+          "coins": "Genel kripto güvenliği",
+          "timeUTC": "2026-10-22 01:13",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/railway-credential-resets-crypto-theft-allegation/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Yapay zeka endişeleri teknoloji battıkça petrol fırladı; S&P 500 ve Nasdaq keskin şekilde düştü",
+          "what": "WTI ham petrolü %1,65 yükseldi ve Brent ham petrolü %2,52, tüccarlar yapay zeka harcama şüpheleri ortasında teknoloji hisselerine kaçarken beş aylık yükseklere ulaştı. S&P 500 %1,21 düştü ve Nasdaq %2,60, Yariiletken Endeksi %6,7 düştü. Asya pazarları da düştü.",
+          "coins": "Genel pazar korelasyonu",
+          "timeUTC": "2026-10-22 00:53",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381613/oil-climbs-above-111-as-ai-stocks-slide-dragging-the-sp-500-and-global-markets-with-them"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-22",
+    "summary": "Bitcoin spot ETF'leri 22 Ekim'de 528 milyon dolar net giriş kaydetti. BlackRock'un IBIT'i 235 milyon dolar ile başı çekti, Fidelity'nin FBTC'si 213 milyon dolar ile izledi. Ethereum ETF'leri esasen düz akışlar kaydetti (~0). 2026 Ekim kümülatif akışları: Bitcoin +460 milyon dolar.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK Retail Sales October 2026",
+      "typicalReaction": "Cuma 23 Ekim, 06:00 UTC'de (rapor tarihinden sonraki gün) planlanmıştır. Yüksek etkili sürüm—geleneksel piyasalarda oynaklık beklenmektedir, bu kripto'ya yayılabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Bir piyasada dönem için yükselen varlıkların yüzdesi. Düşük genişlik (22 Ekim'de %18 yükseldi) çoğu paranın düştüğü anlamına gelir, geniş zayflığın işareti."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "Piyasa duygululuğunu ölçen 0–100 arasında bir ölçek. Açgözlülük (%50 üzeri) tüccarların iyimser olduğu anlamına gelir; Korku (%50 altı) kötümser olduğu anlamına gelir. Potansiyel ters dönüşleri tespit etmek için kullanılır."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Kalıcı sözleşmelerde pozisyon tutuğunda tüccarların ödediği (veya aldığı) faiz oranı. Pozitif finansman alıcıların satıcılara uzun pozisyonları tutmak için ödediği anlamına gelir; yıllıklandırılmış bir yüzde getirisi olarak ifade edilir."
+    },
+    {
+      "term": "Uzun / Kısa Pozisyon",
+      "definition": "Uzun bahis tüccarın fiyatın yükseleceğini beklediği anlamına gelir; kısa bahis düşeceğini beklediği anlamına gelir. Uzun/kısa oranı 1,0'dan yüksek anlamına gelir daha fazla tüccar uzun işlem yapıyor."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Kalıcı bir sözleşme için bir borsa tarafından hesaplanan adil fiyat, tasfiye işlemleri tetiklemek ve manipülasyonu önlemek için kullanılır. Son işlem gördüğü fiyattan biraz farklılık gösterir."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Bir piyasada doldurulmamış sözleşmelerin toplam sayısı (uzunlar + kısalar birleşik). Yüksek açık faiz büyük pozisyonların risk altında olduğu anlamına gelir; açık faizin düşmesi tüccarların pozisyonları kapattığı anlamına gelir."
+    },
+    {
+      "term": "Açık Faiz Değişimi",
+      "definition": "Dönem boyunca toplam açık sözleşmelerdeki yüzde değişimi. Düşüş tüccarların riski azalttığı anlamına gelir; artış daha fazla risk aldığı anlamına gelir."
+    },
+    {
+      "term": "Taker Alış-Satış Oranı",
+      "definition": "Agresif piyasa taker alışlarının (talep fiyatını ödeyenler) agresif piyasa taker satışlarına (teklife vuranlar) oranı. 1,0'dan yüksek bir oran daha agresif alış anlamına gelir; 1,0'dan düşük daha agresif satış anlamına gelir."
+    },
+    {
+      "term": "En İyi Pozisyon Oranı",
+      "definition": "Bir borsada en büyük tüccarlar arasındaki uzun-kısa oranı. Yüksek bir oran (örn. 1,65) en büyük paranın fiyatların yükseleceğine bahis oynadığını gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "e38bf4d1d23abefa"
+}
