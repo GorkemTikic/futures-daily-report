@@ -1,0 +1,278 @@
+{
+  "oneLine": "Bitcoin ve Ethereum 2026-10-23'te yapay zeka sektörü korkularından kaynaklanan borsa zayıflığıyla her ikisi de yaklaşık %0,28 düştü; HSBC'nin 3,3 milyon kullanıcıya stablecoin dağıtımı ve yükselen petrol fiyatları kısmen dengeledi.",
+  "caveman": "Cuma günü 23 Ekim'de Bitcoin ve Ethereum her ikisi de çok az düştü—%1'den daha az. Ana sebep, normal borsanın (insanların şirket hisseleri aldığı yer) düşmesiydi. Yatırımcılar yapay zeka bilgisayarları çalıştırmanın ne kadar pahalı olduğundan endişelendiler. Hisse senetleri düştüğünde, Bitcoin da genellikle düşer; tüccarlar korkup satış yaparlar. Bir gün öncesinde insanlar Bitcoin yatırım fonlarından yaklaşık 636 milyon dolar çekip aldılar—bu büyük yatırımcıların sattığını gösteriyor. İyi haber var: HSBC, dünyanın en büyük bankalarından biri, 3,3 milyon insana Hong Kong doları ile desteklenen RedCoin adındaki yeni dijital parayı sundular. Ama bu satışları durdurmaya yetmedi. Küçük kriptopara parçalarının çoğu da düştü. Endişeli bir gün oldu ama Bitcoin 81 bin dolarının üstünde kaldı—yani tam çöküş olmadı.",
+  "priceVolumeSummary": "Bitcoin 81.160 dolardan kapandı (%0,28 düş) ve Ethereum 2.386,55 dolardan. Beş büyük borsa bu seviyeler etrafında sıkı fiyat uyumunu bildirdi. Binance, Bitcoin'de günlük 9,09 milyar dolar ve Ethereum'da 5,87 milyar dolar notional hacimle en büyük hacme sahipti; bu gün içinde diğer mekanlarla karşılaştırılabilirdi.",
+  "positioningSummary": "Finansman oranları yüksek kaldı—Bitcoin'in 8 saatlik 0,0000725 oranı yıllıklandırıldığında %7,94, Ethereum'un 0,00004541 oranı %4,97 oldu—bu düşüş gününe rağmen tüccarların hâlâ boğa pozisyonları tuttuğunu gösteriyor. Ancak açık faiz keskin bir şekilde geriledi: Bitcoin açık faizde %3,03, Ethereum %0,74 kaybetti; bu tüccarların kaldıraçlarını çözdüğünü gösteriyor. Tüm hesaplarda uzun-kısa oranları boğa canlı kaldı (Bitcoin 2,10, Ethereum 3,55), ama en büyük tüccarlar daha zayıf bağlılık gösterdiler (Bitcoin en büyük pozisyon oranı 1,48, Ethereum 1,65). Alıcı-satıcı oranları her iki varlık için 1,0'ın altına düştü (Bitcoin 0,91, Ethereum 0,95)—yani agresif satış günü domine etti; Bitcoin'de 1 birim alıcı alımı için 1,10 birim alıcı satışı oldu. Pazar genişliği zayıftı: Binance perpetuals'ların yalnızca %35'i yükselişle kapandı, geniş tabanlı kayıpları gösteriyor.",
+  "stocksSummary": "Asya hisse senetleri iki farklı resim verdi. Çin ve Hong Kong teknoloji hisseleri toparlandı: Unitree Robotics (Şanghay borsası) %18,5 yükseldi, Hong Kong'un Zhipu AI %5,9 arttı, MiniMax %9,9 tırmanırken, Güney Kore yarı iletkenleri sabit kaldı (SK Hynix +%0,3, Samsung +%0,9). ABD hisse senetleri yapay zeka endüstrisi endişesinden keskin düştü: S&P 500 %0,52 geriledi ve Nasdaq %0,21 düştü; bu gün içindeki kripto zayıflığını tetikledi. Petrol sert rallide yükseldi—WTI ham petrolü %3,4 yükseldi ve Nisan ortasından beri görülmeyen seviyelere ulaştı, Brent %2,2 arttı—muhtemelen jeopolitik gerginlik ve kalıcı talep beklentilerini yansıtıyor. Altın %0,18 düştü.",
+  "movers": [
+    {
+      "symbol": "IRYSUSDT",
+      "explanation": "Açık bir halka neden bulunmamıştır. 2,7 milyar dolarlık günlük hacim üzerinde %272 kazanç ve 0,10 dolarının altında fiyatlar, ya yeni bir borsa listeleme etkinliğini ya da perakende tüccarlarının yığılmasını gösteriyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "explanation": "Açık bir halka neden bulunmamıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Açık bir halka neden bulunmamıştır.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Canlı güncellemeler: Yapay zeka çöküşü azaldıkça ve petrol tırmandıkça Bitcoin 81.000 doların üstünde kalıyor",
+        "what": "ABD borsa zayıflığı yapay zeka sektörü endişeleri nedeniyle günün geniş satışını tetikledi; S&P 500 %0,52 geriledi ve Nasdaq %0,21 düştü. Bitcoin, geniş hisse senetleri piyasası baskısına rağmen 81.000 doların üstünde konsolidasyon sağladı; petrol ise jeopolitik ve talep faktörleri nedeniyle altı aylık zirvelere rallide yükseldi (Brent ham petrolü varil başına 116 dolarının üstünde).",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-23 various",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
+      },
+      {
+        "headline": "Bitcoin ETF'leri 636 milyon dolarlık çekişler önceki günün girişlerini silerken net çıkışlara geri dönüyor",
+        "what": "ABD spot Bitcoin ETF'leri Perşembe 22 Ekim'de 635,6 milyon dolarlık net çıkış kaydetti; BlackRock'un iShares Bitcoin Trust (IBIT) 254,1 milyon dolarlık çekişle öncü konumdaydu. Bu, 25 Haziran 2026'dan beri en büyük tek günlük çıkıştu ve üç günlük giriş serisini sonlandırarak kurumsal Bitcoin rotasyonunu sinyal etti.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-23 (reporting Oct 22 flows)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483"
+      },
+      {
+        "headline": "HSBC, ilk Hong Kong doları stablecoin'i RedCoin'i perakende kullanıcılara sunuyor",
+        "what": "HSBC, Hong Kong Doları stablecoin'i RedCoin'i 3,3 milyon PayMe uygulama kullanıcısına başlattı; eşler arası ve tüccar ödemelerini etkinleştirdi. Bu dağıtım, stablecoin ödeme kabul etme konusunda kurumsal ölçekli hareketi temsil ediyor ve bankacılık sektörünün dijital varlıklara kaymasını sinyal ediyor.",
+        "coins": "stablecoin ecosystem",
+        "timeUTC": "2026-10-23",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC, tokenleştirmeyi 2027 pazar incelemelerinde yüksek riskli alan olarak işaretliyor",
+          "what": "SEC'in Muhasebe Bölümü, tokenleştirilmiş menkul kıymetlerin 2027'de yapay zeka ve gelişmiş teknoloji riskleriyle birlikte inceleme odağı olacağını duyurdu. Bu atama, zincir üstü öz sermaye ve varlık ihraçı için ileri düzey düzenleyici incelemeyi sinyal ediyor.",
+          "coins": "tokenized-securities ecosystem",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities"
+        },
+        {
+          "headline": "Yeni OCC stablecoin kuralı geri alımları yeniden tanımlıyor; bankalar büyük değişimlerle yüzleşiyor",
+          "what": "Para Denetleyicisi Ofisi, stablecoin geri alım zaman çizelgelerini yeniden tanımlayan yeni bir kuralı sonuçlandırdı; ödeme başlatılması veya istenen ihraççı kredisinde sıradan iki iş günü sınırını sonlandırdı. Bankalar şimdi harici banka mevcudiyetini ayrı olarak değerlendirmeli ve uyum gereksinimlerini sıkılaştırmalıdır.",
+          "coins": "stablecoins",
+          "timeUTC": "2026-10-23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/new-occ-stablecoin-rule-resets-redemptions-and-banks-face-big-shifts/"
+        },
+        {
+          "headline": "ABD senatörü, eski Trump kripto danışmanıyla yapılan anlaşma sonrası Tether'i soruşturuyor",
+          "what": "Senatör Richard Blumenthal, eski Beyaz Saray kripto danışmanı Bo Hines tarafından ortak sahipliğinde bulunan Nxum'a yapılan ödemeler konusunda Tether'den kayıtlar talep etti. Bu soruşturma, Tether'in kurumsal ilişkileri ve harcamaları hakkında devam eden kongre incelemesini sinyal ediyor.",
+          "coins": "USDT",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal"
+        },
+        {
+          "headline": "New York AG, NovaTech kurucularından Ponzi şeması için 1,37 milyar dolar talep ediyor",
+          "what": "New York Başsavcısı, NovaTech kurucularından (ülkeden kaçanların) 1,37 milyar dolar ödenmesini talep eden mahkeme kararı istedi. Bu icra işlemi Ağustos 2025 varsayılan kararını takip ediyor ve NovaTech 1,16 milyar dolar toplarken yalnızca yatırılan varlıkların bir kısmını takas ettikten sonra geldi.",
+          "coins": "fraud/enforcement",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi"
+        },
+        {
+          "headline": "Netanyahu, İsrail'deki Bankacılık Yaptırımlarından Kaçmak İçin Kripto Planını Düşünüyor",
+          "what": "İsrail Başbakanı Netanyahu, seçimlerden önce İsrail'deki olası bankacılık yaptırımlarına hazırlanmak için bir blokzincir planı talep ettiğini belirtti. Bu hamle, finansal sistem kesintisine hazırlanmayı ve ekonomik işlevleri korumak için kriptonun potansiyel kullanımını sinyal ediyor.",
+          "coins": "blockchain infrastructure",
+          "timeUTC": "2026-10-23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri 635,6 milyon dolar çıkardı; BTC, tutunulan varlıkların tahmini 81.500 dolar maliyet esasını test ediyor",
+          "what": "Spot Bitcoin ETF'leri 22 Ekim'de 635,6 milyon dolarlık net çıkış kaydetti; en büyük fonlar (IBIT, FBTC) öncü konumdaydı. Bitcoin'in 81.000 dolar civarı fiyatı, büyük fon holdinglerinin tahmini maliyet esasını test ettiğini gösteriyor ve yeniden dengelemeyi tetikledi.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-23 (Oct 22 data)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-etf-outflows-holdings-cost-basis/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Phantom, Kalshi tahmin piyasalarını ABD kullanıcılarına sunuyor; devlet davalarına karşı 'güvenli ve rahat' olduğunu söylüyor",
+          "what": "Phantom cüzdanı, Kalshi'nin tahmin piyasalarını ABD kullanıcılarına entegre etti; CASH stablecoin'leriyle işlemleri finanse etti ve Michigan, Nevada ve Washington'da pazar kısıtlaması uyguladı. Bu hamle, devlet düzeyindeki yasal zorlukların ortasında tahmin piyasası erişimini cüzdan altyapısı aracılığıyla genişletiyor.",
+          "coins": "prediction-market ecosystem",
+          "timeUTC": "2026-10-23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652"
+        },
+        {
+          "headline": "Singapur, Malezya ve Tayland merkez bankaları Ripple, Visa ve Mastercard'ı içeren sınır ötesi stablecoin girişimini genişletiyor",
+          "what": "Malezya ve Tayland, Singapur'un sınır ötesi stablecoin ve tokenleştirilmiş mevduat kapatması için BLOOM girişimine katıldı; merkez bankaları tarafından desteklenen pilot projeyi Güneydoğu Asya'ya genişletti. Genişleme, gerçek dünya işlem akışları için Ripple, Visa ve Mastercard ortaklıklarını içeriyor.",
+          "coins": "USDT, stablecoins",
+          "timeUTC": "2026-10-23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
+        },
+        {
+          "headline": "Robinhood, tüccarlar spor bahislerinin ötesine geçtikçe Bitcoin, altın tahmin piyasalarında yükselişi görüyor",
+          "what": "Robinhood, tüccarlar spor bahislerinin ötesine geçtikçe Bitcoin, altın ve petrol tahmin piyasalarında hızlı büyüme bildirdi. Şirketin vadeli işlemler müdürü bu sözleşmelerin en hızlı büyüyen tahmin piyasaları arasında yer aldığını belirtti; bu kripto türevlerinin ana akım perakende benimsenmesini sinyal ediyor.",
+          "coins": "BTC, prediction markets",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports"
+        },
+        {
+          "headline": "Coinbase, fiyat çöküşü yatırımcı davalarını tetikledikten yıllar sonra bu Japon yen stablecoin'ini listeden çıkarıyor",
+          "what": "Coinbase, daha önceki bir fiyat çöküşü nedeniyle yatırımcı davası tetikleyen GMO Trust'ın Japon yen stablecoin'inin (GYEN) listesini kaldıracağını duyurdu. Hamle, GYEN'in doğrudan itfa modelina geçişini takip ediyor; sahipler 11 Kasım öncesinde dönüştürmeli veya çıkartmalıdır.",
+          "coins": "GYEN",
+          "timeUTC": "2026-10-23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/coinbase-to-drop-this-japanese-yen-stablecoin-years-after-its-price-crash-sparked-investor-lawsuits/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Initia, kötüye kullanım 2,6 milyar doları boşalttıktan sonra blokzinciri durduruyor",
+          "what": "Initia blokzinciri, güvenlik araştırmacıları yetkisiz token basımını ve Ethereum'a 2,7 milyon dolar varlık transferini belirledikten sonra seviye 1 ağını ve ilgili rollup'ları askıya aldı. Kötüye kullanım, protokolün güvenlik modelinde önemli bir güven kaybını temsil ediyor.",
+          "coins": "INITIA",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained"
+        },
+        {
+          "headline": "Hindistan'ın en büyük borsası, araştırmacılar 16 milyon dolarlık şüpheli çıkışlara işaret ettikten sonra saldırıyı reddediyor",
+          "what": "CoinDCX, blokzincir araştırmacıları borsaya bağlı adreslerden 16 milyon dolarlık çıkışları işaret ettikten sonra güvenlik ihlali reddetti. Red ve araştırmacı incelemesi, borsa saklama uygulamaları ve fon güvenliği konusunda devam eden endişeleri vurguluyor.",
+          "coins": "exchange security",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Borsalar yapay zeka sektörü endişeleri nedeniyle zayıflarken petrol altı aylık zirvelere tırmanıyor",
+          "what": "S&P 500 %0,52 geriledi ve Nasdaq %0,21 düştü; yapay zeka harcamalarının sürdürülemez olması endişeleri nedeniyle. WTI ham petrolü %3,4 yükseldi ve Brent %2,2 arttı; Nisan 2026'dan beri görülmeyen seviyelere ulaştı. Varlık arası hareketler makro belirsizliği gösteriyor; teknoloji endüstrisi endişeleri jeopolitik ve enerji arz faktörleriyle dengeleniyor.",
+          "coins": "macro context",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk, Yahoo Finance",
+          "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin Core, yapay zeka kod hatalarını bulduğunu kolaylaştırdıkça güvenlik kurallarını değiştiriyor",
+          "what": "Bitcoin geliştiricileri, yapay zeka sohbet robotlarının yeniden bulabileceği güvenlik kusurları için ayların uzun embasgosu sonlandıran bir politika değişikliği birleştirdiler. Değişiklik, yapay zeka destekli güvenlik açığı keşfinin geleneksel açıklamayı engellemeyi etkisiz hale getirdiğini kabul ediyor.",
+          "coins": "BTC protocol",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt"
+        },
+        {
+          "headline": "Çin, ulusal blokzincir ağı kurulumu için 2030 hedefi belirledi",
+          "what": "Çin'in beş yıllık dijital geliştirme planı, 2030 yılına kadar ticaret ve imalatta blokzincir benimsenmesini artırmayı ve teknik standartları güçlendirmeyi çağırıyor. Yol haritası, kripto pazarlarından ayrı blokzincir altyapısına devlet uzun vadeli taahhüdünü sinyal ediyor.",
+          "coins": "blockchain infrastructure",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/china-2030-national-blockchain-network-buildout"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-22",
+    "summary": "ABD spot Bitcoin ETF'leri Perşembe 22 Ekim 2026'da 635,6 milyon dolarlık net çıkış kaydetti. BlackRock'un iShares Bitcoin Trust (IBIT) 254,1 milyon dolarlık çekişle öncü konumdaydı; Fidelity Wise Origin Bitcoin (FBTC) 217,5 milyon dolar ve ARK 21Shares ARKB 109,4 milyon dolar çekişle takip etti. Bu, 25 Haziran 2026'dan beri en büyük tek günlük çıkıştu ve üç günlük giriş serisini sonlandırdı.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Rate Decision (Federal Reserve interest-rate announcement), Wed Oct 28 18:00 UTC",
+      "typicalReaction": "Yüksek etki: Federal Rezerv politikası değişiklikleri tipik olarak kripto dahil geniş risk varlık yeniden fiyatlandırmasını tetikler. Güvercin sürprizleri (daha yüksek oranlar) kripto satışlarını teteklemeye eğilimlidir; güvercin sürprizleri fiyatları destekleme eğilimindedir."
+    },
+    {
+      "event": "US Initial Jobless Claims, Thu Oct 29 12:30 UTC",
+      "typicalReaction": "Orta etki: Zayıf iş verileri tipik olarak piyasalar gevşek parasal politikayı fiyatlandırdıkça risk varlık rallilerini tetikler (kripto dahil); güçlü veriler risk varlıklarına baskı yapma eğilimindedir."
+    },
+    {
+      "event": "ECB Rate Decision, Thu Oct 29 12:45 UTC",
+      "typicalReaction": "Orta etki: Avrupa politikası kararları dolar gücü ve risk duygusunu etkiler. Kolaylaştırma politikası kriptoyı destekleme eğilimindedir; sıkılaştırma politikası fiyatlara baskı yapma eğilimindedir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Kalıcı vadeli işlemlerde uzun ve kısa pozisyon tutan tüccarlar arasında periyodik ödeme; türev sözleşme fiyatını spot piyasa fiyatı ile uyumlu tutmak için tasarlanmıştır. Pozitif finansman oranları uzun tüccarların kısa tüccarlara ödeme yapması anlamına gelir; negatif oranlar tersine çevrilir. Yüksek finansman oranları güçlü boğa konumlandırmasını gösterir ve aşırı ısınmayı sinyal edebilir."
+    },
+    {
+      "term": "Uzun pozisyon",
+      "definition": "Bir varlığın fiyatının yükseleceğine yapılan bahis. Uzun pozisyon tutan tüccarlar fiyat yükseldiğinde kâr alırlar ve düştüğünde zarar görürler."
+    },
+    {
+      "term": "Kısa pozisyon",
+      "definition": "Bir varlığın fiyatının düşeceğine yapılan bahis. Kısa pozisyon tutan tüccarlar fiyat düştüğünde kâr alırlar ve yükseldiğinde zarar görürler."
+    },
+    {
+      "term": "Uzun-kısa oranı",
+      "definition": "Boğa (uzun) pozisyon tutan tüccar hesapları veya sözleşme hacmi ile ayı (kısa) pozisyon tutanların oranı. 1,0'dan yüksek bir oran daha fazla boğa hesabı anlamına gelir; 1,0'dan düşük bir oran daha fazla ayı hesabı anlamına gelir."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Bir borsa veya piyasadaki tüm doldurulmamış (bekleyen) türev sözleşmelerin toplam notional değeri veya miktarı. Daha yüksek açık faiz piyasada daha fazla kaldıraç olduğunu gösterir; hızla yükselen veya düşen açık faiz konumlandırma değişimini sinyal edebilir."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Toplam açık faizde bir günden diğerine yüzde değişim. Pozitif değişim kaldıraçın arttığını; negatif değişim tüccarların pozisyonları açtığını gösterir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Kalıcı vadeli işlemler pozisyonları, likidasyonlar ve finansman ödemeleri hesaplamak için kullanılan bir referans fiyatı. Tipik olarak manipülasyonu önlemek için birden çok spot ve vadeli fiyat arasında medyan, ağırlıklı ortalama veya adil değer hesaplamadan elde edilir."
+    },
+    {
+      "term": "Alıcı-satıcı oranı",
+      "definition": "Pazar tarafından başlatılan işlemlerin (alıcı işlemleri) satışlara kıyasla satın alınmasının oranı. 1,0'dan yüksek bir oran satıştan daha agresif satın alma anlamına gelir; 1,0'dan düşük bir oran daha agresif satış anlamına gelir. 0,9–1,1 civarında oranlar dengeli baskıyı gösterir."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir dönemde daha yüksek karşı daha düşük kapanan bir piyasadaki varlıkların yüzdesi. Düşük genişlik (%35 yükseliş gibi) geniş tabanlı kayıpları gösterir; yüksek genişlik (%70 yükseliş gibi) geniş kazançları gösterir. Genişlik fiyat hareketlerinin birkaç lider tarafından mı yoksa birçok varlık arasında mı yapıldığını belirler."
+    },
+    {
+      "term": "Kalıcı vadeli işlemler",
+      "definition": "Temel spot fiyatı takip eden ancak sona erme tarihi olmayan kaldıraçlı türev sözleşmeleri; tüccarların pozisyonları süresiz olarak tutmalarına izin verir. Sözleşme fiyatını spot ile uyumlu tutmak için finansman oranları kullanırlar."
+    },
+    {
+      "term": "Kaldıraç",
+      "definition": "Ticaret maruziyetini artırmak için kullanılan ödünç alınan para. Örneğin, 10x kaldıraç, bir tüccarın kendi teminatından 10 kat daha fazla notional değeri kontrol etmesi anlamına gelir. Daha yüksek kaldıraç potansiyel kârları artırır ancak likidasyonun riskini de artırır."
+    },
+    {
+      "term": "Likidasyon",
+      "definition": "Teminat bakım eşiğinin altına düştüğünde kaldıraçlı ticaret pozisyonunun zorunlu kapatılması; tipik olarak olumsuz fiyat hareketleri tarafından tetiklenir. Likidasyonlar keskin pazar hareketleri sırasında kademeli hale gelerek kayıpları artırabilir."
+    },
+    {
+      "term": "Spot ETF (Bitcoin/Ethereum)",
+      "definition": "Türevler veya vadeli işlemler yerine gerçek Bitcoin veya Ethereum madeni paraları tutan bir borsa yatırım fonu. Net girişler temel varlığa yeni yatırım gösterir; net çıkışlar kurumsal satışı veya yeniden tahsisi gösterir."
+    },
+    {
+      "term": "Net giriş / çıkış",
+      "definition": "Toplam yeni mevduatlar eksi toplam çekiş olarak hesaplanan bir ETF veya fonda tutulan varlıklardaki net değişim. Pozitif akışlar yatırımcı ilgisini gösterir; negatif akışlar yatırımcı çıkışını veya yeniden tahsisini gösterir."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "İstikrarlı bir değeri korumak için tasarlanmış ve tipik olarak bir devlet parasına (örneğin ABD doları, Hong Kong doları) veya bir varlık sepetine sabitlenmiş bir kripto para. Öncelikle spekülasyon yerine ödemeler ve teminat için kullanılır."
+    },
+    {
+      "term": "Bitcoin hakimiyeti",
+      "definition": "Bitcoin tarafından tutulan toplam kripto para piyasası değerinin yüzdesi. Daha yüksek hakimiyet Bitcoin'in altcoinler karşısında gücünü gösterir; daha düşük hakimiyet altcoin gücünü gösterir."
+    },
+    {
+      "term": "En büyük tüccar oranı",
+      "definition": "Perakende hesaplardan ayrı olarak en büyük tüccar hesaplarının (tipik olarak konumu ile ilgili ilk %1'ler) long-kısa oranı; kurumsal veya balina tüccarlar arasındaki bağlılığı gösterir. Daha düşük oranlar büyük oyuncular arasında azalan bağlılığı sinyal edebilir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "df756bee0b2e5a07"
+}

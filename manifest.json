@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-24T03:00:26.226Z",
+  "generatedAt": "2026-10-24T04:09:22.926Z",
   "count": 129,
   "counts": {
     "total": 129,
     "market": 42,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-10-23",
   "head": 500,
@@ -20,11 +20,11 @@
       "widest": null,
       "macro": {
         "BTC": -0.28076737347958625,
-        "ETH": -0.0720126273304584
+        "ETH": -0.0649035240519784
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum both declined about 0.28% on 2026-10-23 as stock market weakness from AI sector fears triggered institutional selling, though HSBC's stablecoin rollout to 3.3 million users and rising oil prices offered some offset.",
+      "oneLine": "Bitcoin and Ethereum both declined about 0.28% on 2026-10-23 as stock market weakness from AI sector fears triggered institutional selling, though HSBC's stablecoin rollout to 3.3 million users and rising oil prices offered some offset.",
+      "newsCount": 18,
       "topMover": {
         "symbol": "IRYSUSDT",
         "chgPct": 272.0738222438077
@@ -37,14 +37,12 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-10-23/summary_2026-10-23.html",

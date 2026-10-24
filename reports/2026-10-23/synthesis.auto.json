@@ -1,0 +1,277 @@
+{
+  "oneLine": "Bitcoin and Ethereum both declined about 0.28% on 2026-10-23 as stock market weakness from AI sector fears triggered institutional selling, though HSBC's stablecoin rollout to 3.3 million users and rising oil prices offered some offset.",
+  "caveman": "On Friday, October 23, Bitcoin and Ethereum both went down by a tiny bit—less than 1%. The main reason was that the regular stock market (where people buy pieces of companies) dropped because investors got nervous about how expensive it is to run AI computers. When stocks go down, Bitcoin usually goes down too, because traders get scared. One day before, people also took about $636 million out of Bitcoin investment funds, which shows big investors were selling. Some good news: HSBC, one of the world's biggest banks, let 3.3 million people use a new digital money called RedCoin backed by Hong Kong dollars. But it wasn't enough to stop the selling. Most of the smaller cryptocurrencies went down too. It was a worrying day, but Bitcoin stayed above $81,000, so it wasn't a crash.",
+  "priceVolumeSummary": "Bitcoin closed at $81,160 (down 0.28%) and Ethereum at $2,386.55 (down 0.07%). All five major exchanges reported tight price agreement around these levels. Binance accounted for the largest volume, with $9.09 billion in Bitcoin daily notional and $5.87 billion in Ethereum, comparable to other venues across the day.",
+  "positioningSummary": "Funding rates remained elevated—Bitcoin's 8-hour rate of 0.0000725 annualized to 7.94%, and Ethereum's 0.00004541 annualized to 4.97%—showing traders still held bullish positions despite the down day. However, open interest declined sharply: Bitcoin lost 3.03% in OI and Ethereum lost 0.74%, indicating traders unwound leverage. Long-to-short ratios on all accounts stayed bullish (Bitcoin 2.10, Ethereum 3.55), but the largest traders showed weaker conviction (Bitcoin top-position ratio 1.48, Ethereum 1.65). Taker buy-to-sell ratios fell below 1.0 on both assets (Bitcoin 0.91, Ethereum 0.95), meaning aggressive selling dominated the day—for every 1 unit of taker buying there was 1.10 units of taker selling on Bitcoin. Market breadth was weak: only 35% of Binance perpetuals closed higher, signaling broad-based losses across the board.",
+  "stocksSummary": "Asian equities showed two stories. Chinese and Hong Kong tech stocks bounced: Unitree Robotics (Shanghai exchange) surged 18.5%, Hong Kong's Zhipu AI rose 5.9%, and MiniMax climbed 9.9%, while South Korean semiconductors held steady (SK Hynix +0.3%, Samsung +0.9%). US equities fell sharply on AI sector anxiety: the S&P 500 dropped 0.52% and Nasdaq fell 0.21%, driving the day's crypto weakness in tandem. Oil rallied hard—WTI crude jumped 3.4% to levels not seen since mid-April, and Brent rose 2.2%—likely reflecting geopolitical unease and persistent demand expectations. Gold edged down 0.18%.",
+  "movers": [
+    {
+      "symbol": "IRYSUSDT",
+      "explanation": "No clear public cause identified. The 272% gain on $2.7 billion in daily volume at sub-$0.10 prices suggests either a new exchange listing event or retail trader pile-in.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
+        "what": "US stock market weakness on AI sector concerns drove the day's broad selloff, with the S&P 500 falling 0.52% and the Nasdaq down 0.21%. Bitcoin consolidated above $81,000 despite broader equity market pressure, while oil rallied to six-month highs (Brent crude above $116/barrel) on geopolitical and demand factors.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-23 various",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
+      },
+      {
+        "headline": "Bitcoin ETFs swing back to net outflows as $636 million in withdrawals erase previous day's inflows",
+        "what": "US spot Bitcoin ETFs recorded net outflows of $635.6 million on Thursday, October 22, with BlackRock's iShares Bitcoin Trust (IBIT) leading withdrawals at $254.1 million. This was the largest single-day outflow since June 25, 2026, and ended a three-day inflow streak, signaling institutional rotation away from Bitcoin allocations.",
+        "coins": "BTC",
+        "timeUTC": "2026-10-23 (reporting Oct 22 flows)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483"
+      },
+      {
+        "headline": "HSBC rolls out its first HKD stablecoin RedCoin to retail users",
+        "what": "HSBC launched its Hong Kong Dollar stablecoin RedCoin to 3.3 million PayMe app users, enabling peer-to-peer and merchant payments. The rollout represents institutional adoption of stablecoin payments at scale and signals major banking sector movement into digital assets.",
+        "coins": "stablecoin ecosystem",
+        "timeUTC": "2026-10-23",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC flags tokenization as high-risk area in 2027 market examinations",
+          "what": "The SEC's Division of Examinations announced that tokenized securities will be a focus area in 2027, alongside AI and advanced technology risks. The designation signals regulatory scrutiny ahead for on-chain equity and asset issuance.",
+          "coins": "tokenized-securities ecosystem",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities"
+        },
+        {
+          "headline": "New OCC stablecoin rule resets redemptions, and banks face big shifts",
+          "what": "The Office of the Comptroller of the Currency finalized a new rule redefining stablecoin redemption timelines, ending the ordinary two-business-day limit at payment initiation or requested issuer credit. Banks must now assess external bank availability separately, tightening compliance requirements.",
+          "coins": "stablecoins",
+          "timeUTC": "2026-10-23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/new-occ-stablecoin-rule-resets-redemptions-and-banks-face-big-shifts/"
+        },
+        {
+          "headline": "US senator probes Tether after reported deal with ex-Trump crypto adviser",
+          "what": "Senator Richard Blumenthal demanded records from Tether over payments to Nxum, a firm co-owned by former White House crypto adviser Bo Hines. The inquiry signals ongoing congressional scrutiny of Tether's corporate relationships and spending.",
+          "coins": "USDT",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal"
+        },
+        {
+          "headline": "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme",
+          "what": "New York's attorney general requested a court order requiring NovaTech's founders (who fled the country) to pay $1.37 billion. The enforcement action follows an August 2025 default judgment and comes after NovaTech took in $1.16 billion while trading only a fraction of deposited assets.",
+          "coins": "fraud/enforcement",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi"
+        },
+        {
+          "headline": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
+          "what": "Israel's Prime Minister Netanyahu stated he has requested a blockchain plan to prepare for potential banking sanctions on Israel ahead of elections. The move signals preparation for financial system disruption and potential use of crypto to maintain economic functions.",
+          "coins": "blockchain infrastructure",
+          "timeUTC": "2026-10-23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs shed $635.6 million as BTC tests their holdings' estimated $81,500 cost basis",
+          "what": "Spot Bitcoin ETFs recorded $635.6 million in net outflows on October 22, with the largest funds (IBIT, FBTC) leading withdrawals. Bitcoin's price near $81,000 appeared to test the estimated cost basis of major fund holdings, prompting rebalancing.",
+          "coins": "BTC",
+          "timeUTC": "2026-10-23 (Oct 22 data)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-etf-outflows-holdings-cost-basis/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Phantom rolls out Kalshi prediction markets to US users, says it's 'confident and comfortable' amid state lawsuits",
+          "what": "The Phantom wallet integrated Kalshi's prediction markets for US users, funding trades with CASH stablecoins and applying market restrictions in Michigan, Nevada, and Washington. The move expands prediction market access through wallet infrastructure despite ongoing state-level legal challenges.",
+          "coins": "prediction-market ecosystem",
+          "timeUTC": "2026-10-23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652"
+        },
+        {
+          "headline": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
+          "what": "Malaysia and Thailand joined Singapore's BLOOM initiative for cross-border stablecoin and tokenized deposit settlement, expanding the central-bank-backed pilot to Southeast Asia. The expansion includes partnerships with Ripple, Visa, and Mastercard for real-world transaction flows.",
+          "coins": "USDT, stablecoins",
+          "timeUTC": "2026-10-23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
+        },
+        {
+          "headline": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+          "what": "Robinhood reported rapid growth in Bitcoin, gold, and oil prediction markets as traders diversify beyond sports betting. The company's head of futures noted these contracts rank among the fastest-growing prediction markets, signaling mainstream retail adoption of crypto derivatives.",
+          "coins": "BTC, prediction markets",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports"
+        },
+        {
+          "headline": "Coinbase to drop this Japanese yen stablecoin years after its price crash sparked investor lawsuits",
+          "what": "Coinbase announced the delisting of GMO Trust's Japanese yen stablecoin (GYEN), which suffered a price crash years prior that sparked investor litigation. The move follows GYEN's transition to a direct-redemption model, requiring holders to convert or withdraw before November 11.",
+          "coins": "GYEN",
+          "timeUTC": "2026-10-23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/coinbase-to-drop-this-japanese-yen-stablecoin-years-after-its-price-crash-sparked-investor-lawsuits/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Initia halts blockchain after exploit reportedly drains over $2.6M",
+          "what": "The Initia blockchain suspended its layer-1 network and associated rollups after security researchers identified unauthorized token minting and a $2.7 million asset transfer to Ethereum. The exploit represents a material loss of confidence in the protocol's security model.",
+          "coins": "INITIA",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained"
+        },
+        {
+          "headline": "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows",
+          "what": "CoinDCX denied a security breach after blockchain researchers flagged $16 million in outflows from addresses linked to the exchange. The denial and investigative scrutiny highlight ongoing concerns about exchange custody practices and fund security.",
+          "coins": "exchange security",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Stock markets weaken on AI sector concerns as oil surges to six-month highs",
+          "what": "The S&P 500 fell 0.52% and Nasdaq declined 0.21% on fears of unsustainable AI spending, while WTI crude jumped 3.4% and Brent rose 2.2% to levels not seen since April 2026. The cross-asset moves indicate macro uncertainty balancing tech-sector concerns against geopolitical and energy-supply factors.",
+          "coins": "macro context",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk, Yahoo Finance",
+          "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+          "what": "Bitcoin developers merged a policy change ending the months-long embargo for security flaws that AI chatbots could rediscover. The change reflects an acknowledgment that AI-powered vulnerability discovery has rendered traditional disclosure embargoes ineffective.",
+          "coins": "BTC protocol",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt"
+        },
+        {
+          "headline": "China targets 2030 for its national blockchain network buildout",
+          "what": "China's five-year digital development plan calls for wider blockchain adoption in trade and manufacturing alongside stronger technical standards by 2030. The roadmap signals long-term state commitment to blockchain infrastructure separate from crypto markets.",
+          "coins": "blockchain infrastructure",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/china-2030-national-blockchain-network-buildout"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-22",
+    "summary": "US spot Bitcoin ETFs recorded net outflows of $635.6 million on Thursday, October 22, 2026. BlackRock's iShares Bitcoin Trust (IBIT) led withdrawals with $254.1 million, followed by Fidelity Wise Origin Bitcoin (FBTC) at $217.5 million, and ARK 21Shares ARKB at $109.4 million. This was the largest single-day outflow since June 25, 2026, ending a three-day inflow streak.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Rate Decision (Federal Reserve interest-rate announcement), Wed Oct 28 18:00 UTC",
+      "typicalReaction": "High-impact: Fed policy changes typically drive broad risk-asset repricing, including crypto. Hawkish surprises (higher rates) tend to trigger crypto selloffs; dovish surprises tend to support prices."
+    },
+    {
+      "event": "US Initial Jobless Claims, Thu Oct 29 12:30 UTC",
+      "typicalReaction": "Medium-impact: Weak job data typically triggers risk-asset rallies (including crypto) as markets price in looser monetary policy; strong data tends to weigh on risk assets."
+    },
+    {
+      "event": "ECB Rate Decision, Thu Oct 29 12:45 UTC",
+      "typicalReaction": "Medium-impact: European policy decisions influence USD strength and risk sentiment. Easier policy tends to support crypto; tighter policy weighs on prices."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders holding long and short positions in perpetual futures, designed to keep the derivative contract price aligned with the spot market price. Positive funding rates mean long traders pay short traders; negative rates are the reverse. High funding rates suggest strong bullish positioning and may signal overheating."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will rise. Traders holding long positions profit when the price goes up and lose when it falls."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that an asset's price will fall. Traders holding short positions profit when the price goes down and lose when it rises."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The proportion of trader accounts or contract volume holding bullish (long) positions compared to bearish (short) positions. A ratio above 1.0 means more bullish accounts than bearish; below 1.0 means more bearish accounts."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total notional value or amount of all unfilled (outstanding) derivative contracts across an exchange or market. Higher open interest suggests greater leverage is in the market; rapidly rising or falling open interest can signal shifting trader positioning."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage shift in total open interest from one day to the next. Positive change means leverage increased; negative change means traders unwound positions."
+    },
+    {
+      "term": "Mark price",
+      "definition": "A reference price used for calculating perpetual futures positions, liquidations, and funding payments. It is typically derived from a median, weighted average, or fair-value calculation across multiple spot and futures prices to prevent manipulation."
+    },
+    {
+      "term": "Taker buy-to-sell ratio",
+      "definition": "The proportion of market-initiated trades (taker trades) that were buys versus sells. A ratio above 1.0 means more aggressive buying than selling; below 1.0 means more aggressive selling. Ratios near 0.9–1.1 suggest balanced pressure."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of assets in a market that closed higher versus lower for a given period. Low breadth (e.g., 35% up) indicates broad-based losses; high breadth (e.g., 70% up) indicates broad gains. Breadth helps determine whether price moves are driven by a few leaders or spread across many assets."
+    },
+    {
+      "term": "Perpetual futures",
+      "definition": "Leveraged derivative contracts that track an underlying spot price but have no expiration date, allowing traders to maintain positions indefinitely. They use funding rates to keep the contract price aligned with spot."
+    },
+    {
+      "term": "Leverage",
+      "definition": "Borrowed money used to amplify trading exposure. For example, 10x leverage means a trader controls 10 times more notional value than their own collateral. Higher leverage increases potential profits but also risk of liquidation."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "The forced closure of a leveraged trading position when collateral falls below the maintenance threshold, typically triggered by adverse price moves. Liquidations can cascade during sharp market moves, amplifying losses."
+    },
+    {
+      "term": "Spot ETF (Bitcoin/Ethereum)",
+      "definition": "An exchange-traded fund that holds actual Bitcoin or Ethereum coins rather than derivatives or futures. Net inflows indicate new investment in the underlying asset; net outflows indicate institutional selling or reallocation."
+    },
+    {
+      "term": "Net inflow / outflow",
+      "definition": "The net change in assets held by an ETF or fund, calculated as total new deposits minus total withdrawals. Positive flows show investor interest; negative flows show investor exit or reallocation."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to maintain a stable value, typically pegged to a government currency (e.g., US dollars, Hong Kong dollars) or a basket of assets. Used primarily for payments and collateral rather than speculation."
+    },
+    {
+      "term": "Bitcoin dominance",
+      "definition": "The percentage of total cryptocurrency market capitalization held by Bitcoin. Higher dominance indicates Bitcoin strength relative to altcoins; lower dominance indicates altcoin strength."
+    },
+    {
+      "term": "Top-position ratio (largest traders)",
+      "definition": "The long-to-short ratio specifically for the largest trader accounts (typically the top 1% by position size), showing the conviction of institutional or whale traders separate from retail accounts. Lower ratios can signal reduced conviction among big players."
+    }
+  ],
+  "_source": "cli"
+}

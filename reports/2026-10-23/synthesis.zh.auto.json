@@ -1,0 +1,278 @@
+{
+  "oneLine": "比特币和以太坊在2026年10月23日都下跌约0.28%，因为AI行业担忧引发的股市疲软触发了机构抛售，尽管汇丰银行向330万用户推出稳定币和油价上升提供了一些支持。",
+  "caveman": "周五10月23日，比特币和以太坊都跌了一点点——不到1%。主要原因是普通股市（人们买公司股份的地方）下跌了，因为投资者担心运行AI电脑太贵了。股市下跌的时候，比特币通常也会跌，因为交易者害怕了。前一天，人们还从比特币投资基金中取出了大约$636百万，这说明大投资者在抛售。一些好消息是：汇丰银行，世界上最大的银行之一，让330万人使用了一种叫红币的新数字货币，由香港港元支持。但这还不足以阻止抛售。大多数小一点的加密货币也下跌了。这是个令人担忧的一天，但比特币保持在$81,000以上，所以没有崩盘。",
+  "priceVolumeSummary": "比特币收盘于$81,160（下跌0.28%），以太坊收盘于$2,386.55（下跌0.07%）。所有五个主要交易所都报告了这些价格水平的紧密一致。币安报告了最大交易量，比特币日均名义价值为$9.09亿，以太坊为$5.87亿，与全天其他交易场所相当。",
+  "positioningSummary": "资金费率保持高位——比特币8小时费率0.0000725年化为7.94%，以太坊0.00004541年化为4.97%——显示交易者尽管在下跌的一天仍持有看涨头寸。然而，未平仓合约大幅下降：比特币未平仓合约下跌3.03%，以太坊下跌0.74%，表明交易者平仓了杠杆。所有账户的多空比仍然看涨（比特币2.10，以太坊3.55），但最大交易者的信心较弱（比特币头部持仓比例1.48，以太坊1.65）。挂单买卖比都跌至1.0以下（比特币0.91，以太坊0.95），意味着激进性抛售主导了这一天——对于比特币来说，每1个单位的挂单买入就有1.10个单位的挂单卖出。市场广度疲软：币安永续合约中只有35%收盘上涨，表明整个市场普遍亏损。",
+  "stocksSummary": "亚洲股市呈现两种走势。中国和香港科技股反弹：Unitree Robotics（上海交易所）飙升18.5%，香港的Zhipu AI上涨5.9%，MiniMax上涨9.9%，而韩国半导体表现平稳（SK Hynix +0.3%，Samsung +0.9%）。美国股市受AI行业焦虑严重下跌：标普500指数下跌0.52%，纳斯达克下跌0.21%，推动了加密货币的同步下跌。油价大幅反弹——WTI原油上涨3.4%至自4月中旬以来未见的水平，布伦特原油上涨2.2%——可能反映地缘政治不安和持续的需求预期。黄金小幅下跌0.18%。",
+  "movers": [
+    {
+      "symbol": "IRYSUSDT",
+      "explanation": "未发现明确的公开原因。在日交易量$2.7亿、价格低于$0.10的情况下，272%的涨幅表明要么是新交易所上市事件，要么是散户交易者的跟风。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "explanation": "未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "实时更新：随着AI下跌褪去和油价上升，比特币保持在$81,000上方",
+        "what": "美国股市因AI行业忧虑而走弱推动了当日的广泛抛售，标普500指数下跌0.52%，纳斯达克下跌0.21%。尽管面临更广泛的股市压力，比特币在$81,000上方盘整，而油价反弹至六个月高位（布伦特原油高于$116/桶）受地缘政治和需求因素驱动。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-10-23 various",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
+      },
+      {
+        "headline": "比特币ETF摆脱净流入，$636百万的提取消除了前一日的流入",
+        "what": "美国现货比特币ETF在2026年10月22日周四录得$635.6百万的净流出，BlackRock的iShares Bitcoin Trust (IBIT)领导提取，达$254.1百万。这是自2026年6月25日以来最大的单日流出，结束了三日流入连续，显示机构从比特币配置中轮换。",
+        "coins": "BTC",
+        "timeUTC": "2026-10-23 (reporting Oct 22 flows)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483"
+      },
+      {
+        "headline": "汇丰推出其首个港元稳定币RedCoin给零售用户",
+        "what": "汇丰向330万PayMe应用用户推出其香港港元稳定币RedCoin，实现点对点和商户支付。此次推出代表了稳定币支付的大规模机构采用，标志着主要银行部门进入数字资产。",
+        "coins": "stablecoin ecosystem",
+        "timeUTC": "2026-10-23",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC在2027年市场检查中标记代币化为高风险领域",
+          "what": "美国证券交易委员会(SEC)检查部门宣布代币化证券将是2027年的关注领域，同时还包括AI和先进技术风险。这项指定标志着链上股权和资产发行面临的监管审查即将来临。",
+          "coins": "tokenized-securities ecosystem",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities"
+        },
+        {
+          "headline": "新OCC稳定币规则重置赎回，银行面临巨大转变",
+          "what": "美国货币监理官(OCC)最终确定了新规则，重新定义稳定币赎回时间表，结束了在支付启动时或发行人要求信用的普通两个营业日限制。银行现在必须分别评估外部银行可用性，收紧合规要求。",
+          "coins": "stablecoins",
+          "timeUTC": "2026-10-23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/new-occ-stablecoin-rule-resets-redemptions-and-banks-face-big-shifts/"
+        },
+        {
+          "headline": "美国参议员在报道与前特朗普加密顾问的交易后调查Tether",
+          "what": "参议员Richard Blumenthal要求从Tether获取记录，涉及对Nxum的支付，该公司由前白宫加密顾问Bo Hines共同拥有。此次调查标志着国会对Tether的企业关系和支出持续审查。",
+          "coins": "USDT",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal"
+        },
+        {
+          "headline": "纽约检察长向NovaTech创始人寻求$1.37亿赔偿庞氏骗局",
+          "what": "纽约州检察长要求法院下令NovaTech创始人（已逃离该国）支付$1.37亿。此项执法行动遵循2025年8月的缺席判决，发生在NovaTech收取$1.16亿但仅交易了沉积资产的一小部分之后。",
+          "coins": "fraud/enforcement",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi"
+        },
+        {
+          "headline": "内塔尼亚胡考虑加密计划以规避对以色列的银行制裁",
+          "what": "以色列总理内塔尼亚胡表示他已要求制定区块链计划，为选举前对以色列的潜在银行制裁做准备。此举标志着对金融体系中断的准备和加密用于维持经济功能的潜在使用。",
+          "coins": "blockchain infrastructure",
+          "timeUTC": "2026-10-23",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF抛售$635.6百万，当BTC测试其持仓估计的$81,500成本基础",
+          "what": "现货比特币ETF在10月22日录得$635.6百万的净流出，最大基金(IBIT, FBTC)领导提取。比特币价格接近$81,000似乎测试了主要基金持仓的估计成本基础，促使重新平衡。",
+          "coins": "BTC",
+          "timeUTC": "2026-10-23 (Oct 22 data)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-etf-outflows-holdings-cost-basis/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Phantom向美国用户推出Kalshi预测市场，声称尽管州诉讼但'有信心和舒适'",
+          "what": "Phantom钱包为美国用户整合了Kalshi的预测市场，用CASH稳定币资助交易并在密西根州、内华达州和华盛顿州应用市场限制。尽管面临持续的州级法律挑战，此举通过钱包基础设施扩展了预测市场访问。",
+          "coins": "prediction-market ecosystem",
+          "timeUTC": "2026-10-23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652"
+        },
+        {
+          "headline": "新加坡、马来西亚和泰国央行扩大涉及Ripple、Visa和Mastercard的跨境稳定币倡议",
+          "what": "马来西亚和泰国加入新加坡的BLOOM倡议，用于跨境稳定币和代币化存款结算，将央行支持的试点扩展到东南亚。此扩展包括与Ripple、Visa和Mastercard的合作，用于真实交易流。",
+          "coins": "USDT, stablecoins",
+          "timeUTC": "2026-10-23",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
+        },
+        {
+          "headline": "Robinhood在交易者超越体育的预测市场中看到比特币、黄金预测市场激增",
+          "what": "Robinhood报告称，随着交易者超越体育博彩，比特币、黄金和油的预测市场迅速增长。公司期货负责人指出这些合约在增长最快的预测市场中排名靠前，标志着零售对加密衍生品的主流采用。",
+          "coins": "BTC, prediction markets",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports"
+        },
+        {
+          "headline": "Coinbase在日元稳定币价格崩溃引发投资者诉讼多年后拟下架该日元稳定币",
+          "what": "Coinbase宣布将GMO Trust的日元稳定币(GYEN)下架，该币多年前经历价格崩溃引发投资者诉讼。此举遵循GYEN向直接赎回模式的过渡，要求持有者在11月11日前兑换或提取。",
+          "coins": "GYEN",
+          "timeUTC": "2026-10-23",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/coinbase-to-drop-this-japanese-yen-stablecoin-years-after-its-price-crash-sparked-investor-lawsuits/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Initia在漏洞据报耗尽超$2.6百万后停止区块链",
+          "what": "Initia区块链在安全研究人员识别出未授权代币铸造和向以太坊转移$2.7百万资产的漏洞后暂停其第1层网络和相关rollups。此漏洞代表了对协议安全模型信心的重大丧失。",
+          "coins": "INITIA",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained"
+        },
+        {
+          "headline": "印度最大交易所在侦探指出$1600万可疑流出后否认被黑",
+          "what": "在区块链研究人员标记与交易所关联地址的$1600万流出后，CoinDCX否认了安全漏洞。此否认和调查审查突出了对交易所保管实践和资金安全的持续关注。",
+          "coins": "exchange security",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "股市因AI行业忧虑而走弱，油价急涨至六个月高位",
+          "what": "标普500指数因对AI支出不可持续的担忧下跌0.52%，纳斯达克下跌0.21%，而WTI原油上涨3.4%，布伦特原油上涨2.2%至自2026年4月以来未见的水平。跨资产走势表明宏观不确定性平衡科技行业忧虑和地缘政治及能源供应因素。",
+          "coins": "macro context",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk, Yahoo Finance",
+          "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "比特币核心改变安全规则，因为AI使发现代码漏洞危险地容易",
+          "what": "比特币开发者合并了一项政策变更，结束了对AI聊天机器人可能重新发现的安全缺陷的数月禁令期。此变更反映了对AI驱动的漏洞发现已使传统披露禁令失效的认可。",
+          "coins": "BTC protocol",
+          "timeUTC": "2026-10-23",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt"
+        },
+        {
+          "headline": "中国目标2030年推进其国家区块链网络建设",
+          "what": "中国五年数字发展计划呼吁在贸易和制造中更广泛的区块链采用，同时到2030年加强技术标准。路线图标志着国家对区块链基础设施的长期承诺，独立于加密市场。",
+          "coins": "blockchain infrastructure",
+          "timeUTC": "2026-10-23",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/china-2030-national-blockchain-network-buildout"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-22",
+    "summary": "美国现货比特币ETF在2026年10月22日周四录得$635.6百万的净流出。BlackRock的iShares Bitcoin Trust (IBIT)领导提取，达$254.1百万，其次是Fidelity Wise Origin Bitcoin (FBTC)的$217.5百万和ARK 21Shares ARKB的$109.4百万。这是自2026年6月25日以来最大的单日流出，结束了三日流入连续。",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Rate Decision (Federal Reserve interest-rate announcement), Wed Oct 28 18:00 UTC",
+      "typicalReaction": "高影响：美联储政策变化通常推动广泛风险资产重新定价，包括加密。鹰派惊人（更高利率）往往触发加密抛售；鸽派惊人往往支持价格。"
+    },
+    {
+      "event": "US Initial Jobless Claims, Thu Oct 29 12:30 UTC",
+      "typicalReaction": "中等影响：疲弱的就业数据通常触发风险资产反弹（包括加密），因为市场预价较宽松的货币政策；强劲数据往往给风险资产带来压力。"
+    },
+    {
+      "event": "ECB Rate Decision, Thu Oct 29 12:45 UTC",
+      "typicalReaction": "中等影响：欧洲政策决定影响美元强度和风险情绪。较宽松的政策往往支持加密；更紧的政策给价格带来压力。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "永续期货合约中持有多头和空头头寸的交易者之间的定期支付，旨在保持衍生品合约价格与现货价格对齐。正资金费率意味着多头交易者向空头交易者付款；负费率相反。高资金费率表明强看涨头寸，可能表明过热。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "对资产价格将上升的押注。持有多头头寸的交易者在价格上升时获利，在价格下跌时亏损。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "对资产价格将下降的押注。持有空头头寸的交易者在价格下跌时获利，在价格上升时亏损。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有看涨（多头）头寸与看跌（空头）头寸的交易者账户或合约规模的比例。高于1.0的比率意味着看涨账户多于看跌账户；低于1.0意味着看跌账户更多。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "交易所或市场中所有未成交（未结清）衍生品合约的总名义价值或数量。更高的未平仓合约表明市场中的杠杆更大；快速上升或下跌的未平仓合约可能标志着交易者头寸的转变。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "总未平仓合约从一天到下一天的百分比转变。正变化意味着杠杆增加；负变化意味着交易者平仓了头寸。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续期货头寸、清算和资金支付的参考价格。通常来自多个现货和期货价格的中位数、加权平均或公允价值计算，以防止操纵。"
+    },
+    {
+      "term": "挂单买卖比",
+      "definition": "市场启动交易（挂单交易）中买入对卖出的比例。高于1.0的比率意味着更多激进性买入而不是卖出；低于1.0意味着更多激进性卖出。接近0.9–1.1的比率表明价格压力平衡。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "给定时期内市场中收盘上涨的资产占关闭资产总数的百分比。低广度（例如35%上涨）表明广泛亏损；高广度（例如70%上涨）表明广泛收益。广度有助于确定价格走动是由少数领导者推动还是分散在许多资产中。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "追踪基础现货价格但没有到期日期的杠杆衍生品合约，允许交易者无限期维持头寸。它们使用资金费率保持合约价格与现货对齐。"
+    },
+    {
+      "term": "杠杆",
+      "definition": "用于放大交易敞口的借入资金。例如，10倍杠杆意味着交易者控制的名义价值是其自有抵押品的10倍。更高的杠杆增加潜在利润但也增加清算风险。"
+    },
+    {
+      "term": "清算",
+      "definition": "当抵押品跌至维持阈值以下时强制平仓杠杆交易头寸，通常由不利的价格走动触发。清算可能在急剧市场波动期间级联，放大亏损。"
+    },
+    {
+      "term": "现货ETF（比特币/以太坊）",
+      "definition": "持有实际比特币或以太坊代币而不是衍生品或期货的交易所交易基金。净流入表明对基础资产的新投资；净流出表明机构抛售或重新配置。"
+    },
+    {
+      "term": "净流入/流出",
+      "definition": "ETF或基金持有的资产净变化，计算为总新存款减去总提取。正流显示投资者兴趣；负流显示投资者退出或重新配置。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "旨在维持稳定价值的加密货币，通常与政府货币（例如美元、香港港元）或资产篮子挂钩。主要用于支付和抵押，而不是投机。"
+    },
+    {
+      "term": "比特币主导地位",
+      "definition": "比特币在总加密货币市值中所占的百分比。较高的主导地位表明相对于山寨币的比特币强度；较低的主导地位表明山寨币强度。"
+    },
+    {
+      "term": "头部持仓比例（最大交易者）",
+      "definition": "特别是最大交易者账户（通常是按头寸规模的前1%）的多空比，显示机构或鲸鱼交易者的信心，与散户账户分开。较低的比例可能表明大玩家信心减弱。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "df756bee0b2e5a07"
+}

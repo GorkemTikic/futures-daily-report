@@ -3,11 +3,11 @@
   "kind": "market",
   "dateLong": "Friday, 23 October 2026",
   "coversUTC": "2026-10-23 00:00–23:59 UTC",
-  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-  "newsCount": 0,
+  "oneLine": "Bitcoin and Ethereum both declined about 0.28% on 2026-10-23 as stock market weakness from AI sector fears triggered institutional selling, though HSBC's stablecoin rollout to 3.3 million users and rising oil prices offered some offset.",
+  "newsCount": 18,
   "macro": {
     "BTC": -0.28076737347958625,
-    "ETH": -0.0720126273304584
+    "ETH": -0.0649035240519784
   },
   "topMover": {
     "symbol": "IRYSUSDT",
@@ -20,14 +20,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "24 Oct 03:00 UTC",
+  "generatedAtUTC": "24 Oct 04:00 UTC",
   "languages": [
-    "en"
+    "en",
+    "tr",
+    "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)",
-    "tr report unavailable",
-    "zh report unavailable"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }
