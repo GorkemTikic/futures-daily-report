@@ -6,8 +6,8 @@
   "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
   "newsCount": 0,
   "macro": {
-    "BTC": -0.27855803517670324,
-    "ETH": -0.0649035240519784
+    "BTC": -0.28076737347958625,
+    "ETH": -0.0720126273304584
   },
   "topMover": {
     "symbol": "IRYSUSDT",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "24 Oct 02:00 UTC",
+  "generatedAtUTC": "24 Oct 03:00 UTC",
   "languages": [
     "en"
   ],
