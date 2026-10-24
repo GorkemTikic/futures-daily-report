@@ -1,15 +1,56 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-23T03:08:18.244Z",
-  "count": 128,
+  "generatedAt": "2026-10-24T00:00:24.917Z",
+  "count": 129,
   "counts": {
-    "total": 128,
-    "market": 41,
+    "total": 129,
+    "market": 42,
     "divergence": 87,
-    "degraded": 0
+    "degraded": 1
   },
-  "latest": "2026-10-22",
+  "latest": "2026-10-23",
   "reports": [
+    {
+      "date": "2026-10-23",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.28076737347958625,
+        "ETH": -0.0649035240519784
+      },
+      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "newsCount": 0,
+      "topMover": {
+        "symbol": "IRYSUSDT",
+        "chgPct": 272.0738222438077
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "narrative fell back to data-only (CLI-only backend)",
+        "tr report unavailable",
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-23/summary_2026-10-23.html",
+        "pdf": "reports/2026-10-23/summary_2026-10-23.pdf",
+        "md": "reports/2026-10-23/summary_2026-10-23.md"
+      }
+    },
     {
       "date": "2026-10-22",
       "kind": "market",
