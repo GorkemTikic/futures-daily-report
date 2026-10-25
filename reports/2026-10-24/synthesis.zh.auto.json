@@ -1,0 +1,200 @@
+{
+  "oneLine": "比特币和以太坊在10月24日星期六下跌，因美国因伊朗威胁而疏散中东人员，引发广泛抛售和841百万美元的强制平仓。",
+  "caveman": "周六，比特币跌幅约0.4%至8万美元附近，以太坊下跌1.2%至2,360美元。加密市场整体走弱，只有约28%的币种上涨。这是因为美国因伊朗威胁而从中东撤离使馆和军事基地人员。这类重大地缘政治新闻出现时，交易员往往会恐慌抛售。尽管多数交易员仍看好比特币（多空比2:1到3:1），但在快速下跌时还是蒙受损失——短短4小时内约6.97亿美元的多头头寸遭到强制平仓。包括Arthur Hayes在内的一些大户也在这天抛售了约2,600万美元的数字资产。整个市场笼罩在抛售压力中。",
+  "priceVolumeSummary": "五大交易所（币安、Bybit、OKX、Bitget、Gate）行情走势基本一致，比特币在80,860至80,870美元间波动，以太坊在2,363至2,364美元。币安交易量领先，比特币交易额89亿美元，以太坊67亿美元。",
+  "positioningSummary": "比特币资金费率保持在9.78%年化水平，说明看多的交易员要支付看空者更多利息，这通常暗示市场预期价格继续上涨，尽管当日下跌。比特币未平仓头寸增加1.64%，表明有新交易员开仓。整体多空比为2.1，大户多空比为1.69，都显示看多倾向，但大户没有散户那么乐观。吃单买卖比接近平衡（比特币1.00，以太坊0.99），说明来自主动交易者的买卖压力都不强。以太坊资金费率较低，为6.16%，未平仓头寸反而下跌3.1%——更多交易员在平仓而非新开仓。市场广度显示普遍疲弱：币安合约市场只有28.5%的品种上涨，70.4%下跌。",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT大幅上涨168.5%，交易量3.52亿美元，但没有公开新闻说明这个涨幅。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "explanation": "ORDER大幅上涨112.5%，交易量7.95亿美元，但没有公开新闻说明这个涨幅。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BMTUSDT",
+      "explanation": "BMT上涨65.1%，交易量3.19亿美元，但24小时内的变化为-15.4%，日内波动找不到公开新闻解释。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国因伊朗威胁疏散中东人员，触发加密货币抛售",
+        "what": "美国国务院在收到情报部门警告后，从中东各地使馆和军事基地撤离员工。情报显示伊朗大幅升级了针对美国人的行动，致命阴谋已进入高级阶段。这一新闻导致比特币跌破8万美元，为一个多月来首次，并引发841百万美元的强制平仓，其中包括697百万美元的多头头寸。",
+        "coins": "比特币（BTC）、以太坊（ETH）、所有主流币种",
+        "timeUTC": "2026-10-24 ~18:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations"
+      },
+      {
+        "headline": "比特币ETF因交易员平仓在10月22-23日录得7.73亿美元净流出",
+        "what": "美国现货比特币ETF经历自6月末以来最大的两日净流出，10月22日流出6.356亿美元，10月23日流出1.379亿美元。贝莱德旗下IBIT基金在10月23日净流出最多，达1.103亿美元。以太坊ETF延续四周跌势，本周净流出2.207亿美元。",
+        "coins": "比特币（BTC）、以太坊（ETH）",
+        "timeUTC": "2026-10-22 至 2026-10-23",
+        "source": "The Block / KuCoin",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483"
+      },
+      {
+        "headline": "Arthur Hayes平仓方向性头寸，链上分析师追踪2,600万美元抛售",
+        "what": "BitMEX创始人、Maelstrom基金经理Arthur Hayes宣布已通过平仓获利了结数字资产头寸。链上分析师在10月24日追踪到约2,600万美元的代币抛售，与该基金的行动相关。Hayes表示他平仓部分头寸是为了管理风险敞口。",
+        "coins": "以太坊（ETH）、其他未命名币种",
+        "timeUTC": "2026-10-24 ~07:00",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/arthur-hayes-exits-crypto-trading-positions-as-analysts-track-26-million-in-sales/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "阿根廷法院宣判总统米莱在LIBRA币案中无罪",
+          "what": "阿根廷法官关闭了针对总统哈维尔·米莱(Javier Milei)推广LIBRA币的刑事调查。该币在2024年崩盘，60页的判决书认为米莱的推广帖文本身不足以构成诈骗，尽管他的背书为币种吸引了广泛关注。",
+          "coins": "LIBRA（模因币，阿根廷）",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk / The Block",
+          "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra"
+        },
+        {
+          "headline": "22家公司反对OKX与ICE在SEC豁免下的代币化证券平台计划",
+          "what": "截至10月24日，包括富国银行、思科和美光科技在内的共22家公司已向美国证券交易委员会(SEC)提交异议，反对OKX与洲际交易所(ICE)在SEC创新豁免下推出24/7代币化证券交易平台的计划。异议方对监管模糊性和交易时段外的价格准确性表示担忧。",
+          "coins": "无（代币化权益/股票）",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan"
+        },
+        {
+          "headline": "美国《Clarity法案》停滞，亚洲和中东获得竞争优势",
+          "what": "原本旨在建立清晰加密监管框架的美国《Clarity法案》陷入停滞，迫使数字资产企业转向发展更快的亚洲和中东司法管辖区。Apex集团首席执行官Peter Hughes表示，这一延迟使美国公司陷入监管不确定性，而海外竞争对手获得了发展机会。",
+          "coins": "所有加密资产",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "富兰克林邓普顿向XRP账本添加1.5亿美元代币化基金份额",
+          "what": "富兰克林邓普顿在10月24日向XRP账本增加1.5亿美元代币化基金份额(FTFP)，分两次订购。资金流入由发行方授权的单一钱包，使该网络上该基金的代币总额增加近3倍。此举表明机构对在公有链上发行资产的兴趣与日俱增。",
+          "coins": "XRP",
+          "timeUTC": "2026-10-24 ~03:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "汇丰推出港元稳定币（红币），覆盖300万PayMe钱包用户",
+          "what": "汇丰在10月24日星期五为PayMe移动钱包的300万用户启用了港元稳定币（红币）。这家银行正在测试传统金融机构发行的数字代币是否能取代香港日常转账和账单支付。",
+          "coins": "红币（港元稳定币）",
+          "timeUTC": "2026-10-24",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets"
+        },
+        {
+          "headline": "Kraken撤销侵犯隐私的门罗币合规问询，但保留提现限额",
+          "what": "加密交易所Kraken在联合首席执行官Arjun Sethi承认询问不当后，撤销了曾要求门罗币用户报告消费习惯的合规要求。但Kraken仍保持对个人门罗币用户的1,500美元滚动30日提现限额，理由是反洗钱规则。",
+          "coins": "门罗币（XMR）",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/kraken-drops-monero-spending-questions-but-keeps-a-1500-rolling-30-day-withdrawal-cap-for-individuals/"
+        },
+        {
+          "headline": "纽交所母公司支持24/7代币化股票交易，不适用传统市场价格规则",
+          "what": "纽约证券交易所母公司与OKX共同推进在SEC豁免交易所上线24/7代币化股票交易的计划，允许股票代币全天交易，而无需传统市场的价格精准保护措施。",
+          "coins": "无（代币化权益）",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nyses-owner-is-backing-24-7-stock-tokens-without-wall-streets-usual-price-rules/"
+        },
+        {
+          "headline": "Circle推出USDC机构拍卖：机构收集散户赎回费用返利",
+          "what": "稳定币发行商Circle推出USDC机构拍卖赎回服务，允许符合资格的机构赚取由配对散户赎回方资助的返利。该举措让大户可以分享赎回费用，同时控制散户支付的成本。",
+          "coins": "USDC",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circles-new-usdc-auctions-let-institutions-collect-the-fees-others-pay-to-cash-out/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-23",
+    "summary": "美国现货比特币ETF在10月22至23日合计流出7.734亿美元，其中10月22日单日流出6.356亿美元，为自6月末以来最大单日流出。贝莱德IBIT基金在10月23日领跌，净流出1.103亿美元。尽管两日内反向波动，本周仍录得3.012亿美元净流入。以太坊ETF延续四周跌势，本周约净流出2.207亿美元。",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-see-773m-net-outflow-over-two-days-as-btc-tests-80k-support"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Rate Decision (U.S. Federal Reserve), Wednesday, Oct 28 at 18:00 UTC",
+      "typicalReaction": "高影响。主要加密资产驱动因素。美联储决议影响美元借贷成本和风险偏好。"
+    },
+    {
+      "event": "U.S. Personal Income and Outlays (PCE inflation) + Initial Jobless Claims, Thursday, Oct 29 at 12:30 UTC",
+      "typicalReaction": "中高影响。通胀和就业数据会影响市场对美联储政策的预期和风险情绪。"
+    },
+    {
+      "event": "Bank of Canada Rate Decision, Wednesday, Oct 28 at 13:45 UTC",
+      "typicalReaction": "中等影响。影响美元兑加元走势和整体风险偏好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "在永续合约市场中，看多头寸支付给看空头寸的利息费率。费率为正表示看多头寸在支付费用，通常说明市场过度看涨；费率为负表示看空方支付。费率每8小时重置一次。"
+    },
+    {
+      "term": "多空比（多空持仓比）",
+      "definition": "看多头寸账户数与看空头寸账户数的比值。比值大于1表示看多账户居多，小于1表示看空账户居多。该指标只反映账户数，不反映头寸规模。"
+    },
+    {
+      "term": "未平仓头寸（持仓量）",
+      "definition": "期货市场中未成交的买卖单总数，反映未平仓合约的数量。未平仓头寸增加表示有新资金入场，减少表示交易员在平仓获利或亏损。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "未平仓头寸的日度百分比变化。增加表示有更多交易员在开仓，减少表示交易员在平仓，这往往预示价格可能出现反向波动。"
+    },
+    {
+      "term": "大户多空比（大户头寸比）",
+      "definition": "仅统计最大交易者之间的多空比例——这是整体市场的一个子集。与总体多空比不同的是，它单独反映最大资金的动向。"
+    },
+    {
+      "term": "吃单买卖比（主动买卖比）",
+      "definition": "主动买入者与主动卖出者的比值。大于1表示主动买盘占优，小于1表示主动卖盘占优。根据每笔交易被成交的方向计算。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货合约用于计算盈利和亏损的参考价格。通常是最近现货价格的加权平均，目的是防止价格操纵，可能与最后成交价略有不同。"
+    },
+    {
+      "term": "基差",
+      "definition": "期货价格与现货价格的价差。正基差（期货价格高于现货）表示交易员预期价格上升，负基差表示预期下跌。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "一段时间内上涨、下跌或平盘的资产（币种、代币或永续合约）占比。广度高于50%表示市场整体强势，低于50%表示市场整体弱势。"
+    },
+    {
+      "term": "强制平仓（爆仓）",
+      "definition": "当交易员亏损超过所缴保证金时，交易所自动平仓其头寸。价格快速波动时，连锁强制平仓会加速价格下跌，因为被强制平仓的订单集中涌出。"
+    },
+    {
+      "term": "ETF净流",
+      "definition": "现货加密ETF每日净流入或净流出的资金总额。正流代表更多投资者通过基金买入，负流代表卖出或赎回。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "一种加密数字货币，设计目的是保持与现实资产1:1的固定价值，如与美元挂钩的USDC和USDT，或与港元挂钩的红币。用作交易对和加密市场内的价值储存手段。"
+    },
+    {
+      "term": "永续合约（永续期货）",
+      "definition": "允许交易员使用杠杆对价格方向下注且没有到期日期的合约。与普通期货不同，永续合约可持续交易，通过资金费率机制使合约价格与现货价格保持一致。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "10e56f5d80b733a0"
+}

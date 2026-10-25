@@ -1,0 +1,200 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, Cumartesi 24 Ekim'de ABD'nin İran tehditleri nedeniyle Orta Doğu'dan personel tahliyesi sırasında geniş ölçekli satışlar ve 841 milyon dolarlık likidasyonlar tetiklediği için düştü.",
+  "caveman": "Cumartesi günü Bitcoin yaklaşık %0,4 düşüş göstererek 80.800 dolar civarına indi, Ethereum ise %1,2 düşüş ile 2.360 dolara geriledi. Kripto pazarının büyük bölümü düştü — sadece %28'i yükselişte kaldı. Bunun nedeni ABD'nin İran'dan saldırı tehdidi nedeniyle Orta Doğu'daki büyükelçilikleri ve askeri üsleri tahliye etmesiydi. Bu tür jeopolitik haberler ortaya çıktığında, tüccarlar korkup satış yaparlar. Çoğu tüccar Bitcoin'in yükseleceğine bahse ediyor olsa da (2'ye 1 ve 3'e 1 oran), fiyat hızlı düştüğünde para kaybettiler — 4 saate 697 milyon dolar uzun pozisyon tasfiye oldu. Arthur Hayes gibi büyük tüccarlar da yaklaşık 26 milyon dolar değerinde coin sattılar. Satış baskısının olduğu endişe verici bir gündü.",
+  "priceVolumeSummary": "Beş ana borsa (Binance, Bybit, OKX, Bitget, Gate) fiyatta yakın bir anlaşma sağladı. Bitcoin 80.860–80.870 dolar aralığında, Ethereum ise 2.363–2.364 dolar aralığında işlem gördü. Binance BTC'de 8,9 milyar dolar ve ETH'de 6,7 milyar dolar işlem hacminde öncü oldu.",
+  "positioningSummary": "Bitcoin finansman oranı %9,78'de (yıllıklandırılmış) yüksek kaldı. Bu, uzun pozisyon alan tüccarların kısa pozisyon alanlara normalde olduğundan daha fazla ödeme yaptığı anlamına geliyor — piyasanın fiyatların yükselmesini beklediğinin işareti. Bitcoin açık faizi %1,64 arttı çünkü yeni tüccarlar pozisyon açtı. Uzun-kısa oranı genel olarak 2,1 ve en büyük tüccarlar arasında 1,69 idi — ikisi de yükselişe eğilimli ama en büyük tüccarlar daha küçük hesaplara kıyasla daha az yükselişçi. Alıcı-satıcı oranları neredeyse dengeli idi (BTC için 1,00, ETH için 0,99), bu aktif tüccarlardan güçlü bir satın alma veya satış baskısı olmadığını gösteriyor. Ethereum'un finansman oranı %6,16'da daha düşüktü ve açık faizi aslında %3,1 düştü — yeni pozisyon açanlardan daha fazla tüccar pozisyonlarını kapattı. Pazar genişliği geniş zayıflık gösterdi: Binance perpetuallarının sadece %28,5'i gün içinde yükselişte kalırken, %70,4'ü düştü.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT %168,5 sıçradı ve 352 milyon dolar işlem hacmi gördü, ancak hareketin açıklanacağı herhangi bir kamu haberi yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "explanation": "ORDER %112,5 sıçradı ve 795 milyon dolar işlem hacmi gördü, ancak hareketin açıklanacağı herhangi bir kamu haberi yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BMTUSDT",
+      "explanation": "BMT 24 saatlik pencerede -%15,4 değişimi raporlamış olmasına rağmen %65,1 sıçradı ve 319 milyon dolar işlem hacmi gördü, ancak gün içi hareketin açıklanacağı herhangi bir kamu haberi yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "ABD, İran tehditleri kripto satışını tetiklerken Orta Doğu'dan personeli tahliye ediyor",
+        "what": "ABD Dışişleri Bakanlığı, ABD istihbaratının İran'ın Amerikalıları hedef alma çabalarını önemli ölçüde artırdığını ve ölümcül planların ileri aşamalara ulaştığını uyarmasının ardından Orta Doğu'daki büyükelçilik ve askeri üslerden personeli tahliye etti. Haber Bitcoin'i bir aydan fazla bir süre sonra ilk kez 80.000 doların altına düşürdü ve 841 milyon dolarlık likidasyonları tetikledi — bunun içinde 697 milyon dolar uzun pozisyon likidasyonu vardı.",
+        "coins": "Bitcoin (BTC), Ethereum (ETH), tüm altcoinler",
+        "timeUTC": "2026-10-24 ~18:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations"
+      },
+      {
+        "headline": "Bitcoin ETF'leri tüccarlar pozisyonlarını açarken 22–23 Ekim'de 773 milyon dolarlık çıkış kaydetti",
+        "what": "ABD spot Bitcoin ETF'leri, Ekim 22'de 635,6 milyon dolar kaybedildikten sonra Ekim 23'te 137,9 milyon dolar kaybederek Haziran'ın sonundan bu yana en büyük iki günlük çıkışı yaşadı. BlackRock'un IBIT'i en büyük çekimi gördü (Ekim 23'te 110,3 milyon dolar). Ethereum ETF'leri dört haftalık kayıp serilerini uzattı ve hafta için net 220,7 milyon dolar çıkış yaşadı.",
+        "coins": "Bitcoin (BTC), Ethereum (ETH)",
+        "timeUTC": "2026-10-22 to 2026-10-23",
+        "source": "The Block / KuCoin",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483"
+      },
+      {
+        "headline": "Arthur Hayes pozisyonlarından çıkıyor; zincir analisti 26 milyon dolarlık satışları takip ediyor",
+        "what": "Kripto türev borsası BitMEX'in kurucusu ve Maelstrom yatırım fonu yöneticisi Arthur Hayes, yönlü kripto pozisyonlarından çıkarak kar elde ettiğini açıkladı. Zincir analisti, Ekim 24'te fona bağlı yaklaşık 26 milyon dolarlık token satışını takip etti. Hayes, riski yönetmek için maruz kalışı kapatmış olduğunu belirtti.",
+        "coins": "Ethereum (ETH), adlandırılmamış altcoinler",
+        "timeUTC": "2026-10-24 ~07:00",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/arthur-hayes-exits-crypto-trading-positions-as-analysts-track-26-million-in-sales/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Arjantin mahkemesi Başkan Milei'yi LIBRA memecoin cezai davasında aklaması",
+          "what": "Bir Arjantin hakim, 2024 yılında çöken LIBRA jetonunu desteklemesi nedeniyle Başkan Javier Milei'ye karşı cezai soruşturmayı kapattı. 60 sayfalık karar, Milei'nin LIBRA'yı destekleyen gönderisinin kendisinin, jetonun çektiği dikkat olmasına rağmen, cezai dolandırıcılık oluşturmadığı sonucuna vardı.",
+          "coins": "LIBRA (memecoin, Arjantin)",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk / The Block",
+          "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra"
+        },
+        {
+          "headline": "22 şirket OKX-ICE tokenleştirilmiş hisse senedi platformuna karşı itiraz ediyor",
+          "what": "Ekim 24 itibariyle Wells Fargo, Cisco ve Marvell Semiconductor dahil toplam 22 şirket, OKX ve Intercontinental Exchange'in SEC'in inovasyon muafiyeti altında 24/7 platformda tokenleştirilmiş menkul kıymet ticareti başlatma planlarına itiraz başvurusu yaptı. İtirazlar, normal işlem saatleri dışında düzenleyici belirsizlik ve fiyat doğruluğu konusundaki endişeleri vurguluyor.",
+          "coins": "Hiçbiri (tokenleştirilmiş öz sermaye/hisse senetleri)",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan"
+        },
+        {
+          "headline": "ABD Clarity Act takılıp kalıyor; Asya ve Orta Doğu rekabet avantajı kazanıyor",
+          "what": "ABD Clarity Act'inin başarısızlığı — kripto regülasyonu için açık kurallar oluşturmak için tasarlanan ancak takılı kalan yasa — dijital varlık işletmelerini Asya ve Orta Doğu'daki daha hızlı hareket eden yargı alanlarına doğru ittiği Apex Group CEO'su Peter Hughes'e göre. Gecikme ABD firmalarını düzenleyici belirsizlikte bırakırken offshore rakipler ilerlemeyi sürüyor.",
+          "coins": "Tüm kripto",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Franklin Templeton, XRP Ledger'a 150 milyon dolar tokenleştirilmiş fon hissesi ekliyor",
+          "what": "Franklin Templeton, tokenleştirilmiş fon hisselerinin (FTFP) 150 milyon dolarlık bir kısmını Ekim 24'te iki abonelik ile XRP Ledger'a ekledi. Yatırımlar, ihraçcı tarafından yetkilendirilmiş tek bir cüzdana gitti ve fonun ağdaki toplam jetonlarını neredeyse dörtleştirdi. Hamle, halka açık blokzincirde varlık ihraç etme konusundaki artan kurumsal iştahı gösteriyor.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-24 ~03:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "HSBC Hong Kong doları istikrarlı parasını (Red Coin) 3 milyon PayMe cüzdanında başlatıyor",
+          "what": "HSBC, Hong Kong doları istikrarlı parasını (Red Coin) Cuma 24 Ekim'de PayMe mobil cüzdan'ın 3 milyon kullanıcısı için etkinleştirdi. Banka, geleneksel finans kurumu tarafından verilen jetonun Hong Kong'da günlük nakit transferlerinin ve fatura ödemelerinin yerini alıp alamayacağını test ediyor.",
+          "coins": "Red Coin (HKD istikrarlı parası)",
+          "timeUTC": "2026-10-24",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets"
+        },
+        {
+          "headline": "Kraken, müdahaleci Monero uyum sorularından geri çekilir ancak çıkış sınırları korunur",
+          "what": "Kripto borsası Kraken, Monero müşterilerine harcama alışkanlıkları hakkında soru soran uyum taleplerini, ortaklaşa CEO'su Arjun Sethi soruların haklı olmadığını kabul ettikten sonra geri aldı. Ancak Kraken, anti-para aklama kurallarına dayanarak bireysel Monero kullanıcıları için 1.500 dolarlık 30 günlük çıkış sınırını korudu.",
+          "coins": "Monero (XMR)",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/kraken-drops-monero-spending-questions-but-keeps-a-1500-rolling-30-day-withdrawal-cap-for-individuals/"
+        },
+        {
+          "headline": "NYSE sahibi 24/7 hisse senedi tokenlerini Wall Street'in standart fiyat kuralları olmadan destekliyor",
+          "what": "New York Menkul Kıymetler Borsası'na (ICE) sahip olan şirket ve OKX, yeni SEC'ten muaf bir mekan üzerinde 24/7 tokenleştirilmiş hisse senedi ticareti planlarını sürdürüyor; bu da hisse senedi jetonlarının geleneksel piyasaların fiyat doğruluğu güveneklerinde işlem görmesine izin veriyor.",
+          "coins": "Hiçbiri (tokenleştirilmiş öz sermayeler)",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nyses-owner-is-backing-24-7-stock-tokens-without-wall-streets-usual-price-rules/"
+        },
+        {
+          "headline": "Circle USDC kurumsal müzayedelerini başlatıyor: kurumlar perakende geri ödemelerinden indirim toplıyor",
+          "what": "İstikrarlı para ihraçcısı Circle, kurumsal USDC müzayedesi geri ödemelerini başlattı ve uygun kurumların eşleştirilmiş perakende geri ödeyenler tarafından finanse edilen indirimler toplamasına izin veriyor. Hamle, büyük oyuncuların geri ödeme ücretlerinin bir kısmını kazanırken perakende müşterilerin ödediği miktarı sınırlanmasını sağlıyor.",
+          "coins": "USDC",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circles-new-usdc-auctions-let-institutions-collect-the-fees-others-pay-to-cash-out/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-23",
+    "summary": "ABD spot Bitcoin ETF'leri 22–23 Ekim'de 773,4 milyon dolar kaybetti; Haziran sonundan bu yana en büyük tek günlük çıkış (635,6 milyon dolar) Ekim 22'de yaşandı. BlackRock'un IBIT Ekim 23'te 110,3 milyon dolar ile çekişleri başında oldu. İki günlük geri dönüşe rağmen, hafta hala 301,2 milyon dolar net girişi gösterdi. Ethereum ETF'leri dört haftalık kayıp serisini uzattı ve Ekim 23'te sona eren hafta için yaklaşık 220,7 milyon dolar net çıkış yaşadı.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-see-773m-net-outflow-over-two-days-as-btc-tests-80k-support"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Faiz Kararı (ABD Federal Rezervi), Çarşamba, 28 Ekim saat 18:00 UTC",
+      "typicalReaction": "Yüksek etki. Kripto'nun ana önemli hareketi. Faiz kararları USD borçlanma maliyetlerini ve risk iştahını etkiler."
+    },
+    {
+      "event": "ABD Kişisel Gelir ve Harcamalar (PCE enflasyonu) + İlk İşsizlik Talepleri, Perşembe, 29 Ekim saat 12:30 UTC",
+      "typicalReaction": "Orta-yüksek etki. Enflasyon ve iş verileri Fed beklentilerini ve pazar risk duygusunu etkiler."
+    },
+    {
+      "event": "Kanada Merkez Bankası Faiz Kararı, Çarşamba, 28 Ekim saat 13:45 UTC",
+      "typicalReaction": "Orta etki. USD/CAD'yi ve genel risk iştahını etkiler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual futures piyasalarında uzun pozisyon alan tüccarların (alıcılar) kısa pozisyon alan tüccarlarına (satıcılar) ödediği faiz oranı. Yüksek pozitif oran, uzunların kısalara ödeme yaptığı anlamına gelir ve yükselişin aşırı heyecan göstergesidir; negatif oranlar, kısaların uzunlara ödeme yaptığı anlamına gelir. Oranlar her 8 saatte sıfırlanır."
+    },
+    {
+      "term": "Uzun-kısa oranı",
+      "definition": "Fiyatın yükseleceğine bahse eden (uzun pozisyon) tüccarlarla düşeceğine bahse eden (kısa pozisyon) tüccarlarının oranı. 1'den yukarı olan oran daha fazla uzun anlamına gelir; 1'den aşağı kısa anlamına gelir. Boyutu ölçmez, sadece hesap sayısını ölçer."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Futures piyasasında açık olan (henüz kapatılmamış) toplam satın alma veya satış emri sayısı. Artan açık faiz yeni para girdiğini gösterir; azalan açık faiz tüccarların pozisyonları kapattığını ve kar veya zarar alındığını gösterir."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Toplam açık sözleşmelerin günler arası yüzde kayması. Artış yeni pozisyon açan daha fazla tüccar anlamına gelir; azalış kapatan anlamına gelir ve genellikle fiyat tersine dönüşünden önce gelir."
+    },
+    {
+      "term": "En büyük tüccar uzun-kısa oranı",
+      "definition": "Sadece en büyük tüccarlar arasında uzun-kısa dengesi — piyasanın bir alt kümesi. Genel uzun-kısa'dan farklıdır çünkü en büyük paranın ne yaptığını izole eder."
+    },
+    {
+      "term": "Alıcı-satıcı oranı",
+      "definition": "Agresif alıcılara (alıcılar) karşı agresif satıcıları oranı. 1'den yukarı daha fazla agresif satın alma baskısı anlamına gelir; 1'den aşağı daha fazla agresif satış anlamına gelir. Her ticaretin piyasa fiyatında doldurduğu taraf tarafından ölçülür."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Futures sözleşmelerinin kar/zarar hesaplamak için kullandığı referans fiyat. Genellikle manipülasyonu önlemek için yakın spot (nakit) fiyatlarının ortalaması, son ticaret fiyatından biraz farklı olabilir."
+    },
+    {
+      "term": "Baz",
+      "definition": "Futures fiyatı ile spot (nakit) fiyatı arasındaki fark. Pozitif baz (futures spot üzerinde işlem) tüccarların yükselişi beklediği anlamına gelir; negatif baz düşüşü beklediğini gösterir."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir günde yükselen, düşen veya düz giden tüm varlıkların (coinler, jetonlar veya perpetuallar) yüzdesi. %50 üzerindeki genişlik geniş kuvveti gösterir; %50 altında geniş zayıflığı gösterir."
+    },
+    {
+      "term": "Likidasyonu",
+      "definition": "Zararlar açtığında yaştırdığı teminatı aştığında borsa tarafından bir tüccarın pozisyonunun otomatik olarak kapatılması. Keskin fiyat hareketleri sırasında, basamaklı tasfiye işlemleri zorunlu satışlar biriktikçe düşüşü hızlandırabilir."
+    },
+    {
+      "term": "ETF net akışları",
+      "definition": "Spot kripto ETF'lerine akan (girişler) veya dışarı akan (çıkışlar) günlük toplam para. Pozitif akışlar daha fazla yatırımcının fonlar aracılığıyla satın aldığı anlamına gelir; negatif akışlar satış veya geri ödemeyi anlamına gelir."
+    },
+    {
+      "term": "İstikrarlı para",
+      "definition": "ABD doları (USDC, USDT) veya başka bir para birimi (Hong Kong doları cinsinden Red Coin) gibi gerçek dünyada bir varlığa sabit bir değer (genellikle 1:1) tutmak için tasarlanmış kripto para. Ticaret çifti ve kripto içinde değer depolama aracı olarak kullanılır."
+    },
+    {
+      "term": "Perpetual futures (perpetuals)",
+      "definition": "Tüccarların kaldıraç ile fiyat yönü üzerine bahis yapmalarını ve hiçbir sona erme tarihi olmadan sözleşmeleri yapmasını sağlar. Normal futures'ın aksine, perpetuals sürekli işlem görür ve sözleşme fiyatını gerçek varlık fiyatına yakın tutmak için finansman oranlarını kullanır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "10e56f5d80b733a0"
+}

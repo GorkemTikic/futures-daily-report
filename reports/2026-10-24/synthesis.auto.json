@@ -1,0 +1,199 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell on Saturday, October 24, as U.S. Middle East evacuations over Iran threats triggered broad selling and $841 million in liquidations.",
+  "caveman": "On Saturday, Bitcoin dropped about 0.4% to around $80,800, and Ethereum fell 1.2% to $2,360. Most of the crypto market went down — only about 28% of coins and tokens were up. This happened because the U.S. was evacuating people from embassies and military bases in the Middle East because Iran might attack. When big geopolitical news like that happens, traders get worried and sell. Even though most traders were still betting on Bitcoin to go up (2-to-1 and 3-to-1 long), they lost money when the price dropped quickly — about $697 million in long positions got liquidated in 4 hours. Some big traders like Arthur Hayes also sold about $26 million in coins. It was a worrying day with selling pressure.",
+  "priceVolumeSummary": "All five major venues (Binance, Bybit, OKX, Bitget, Gate) agreed closely on price, with Bitcoin at $80,860–$80,870 and Ethereum at $2,363–$2,364. Binance led volume with $8.9 billion in BTC and $6.7 billion in ETH trading.",
+  "positioningSummary": "Bitcoin funding stayed elevated at 9.78% annualized, meaning traders betting long are paying shorts more than usual — a sign the market expects prices to keep rising, even as they fell. Open interest in Bitcoin grew 1.64% as new traders opened positions. The long-to-short ratio was 2.1 overall and 1.69 among the biggest traders — both bullish leanings, though the top traders were less bullish than smaller accounts. Taker buy-sell ratios were nearly balanced (1.00 for BTC, 0.99 for ETH), meaning no strong buying or selling pressure from aggressive traders. Ethereum's funding was lower at 6.16%, and its open interest actually fell 3.1% — more traders closed positions than opened new ones. Market breadth showed broad weakness: only 28.5% of all Binance perpetuals were up on the day, while 70.4% fell.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT jumped 168.5% with $352 million in volume, but no public news explains the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "explanation": "ORDER jumped 112.5% with $795 million in volume, but no public news explains the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BMTUSDT",
+      "explanation": "BMT jumped 65.1% with $319 million in volume despite reporting a -15.4% change in the 24-hour window, but no public news explains the intra-day move.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "U.S. evacuates Middle East personnel as Iran threats trigger crypto sell-off",
+        "what": "The U.S. State Department evacuated staff from embassies and military bases across the Middle East after U.S. intelligence warned that Iran had substantially increased efforts to target Americans and that lethal plotting had reached advanced stages. The news pushed Bitcoin below $80,000 for the first time in over a month and sparked $841 million in liquidations, including $697 million in long positions.",
+        "coins": "Bitcoin (BTC), Ethereum (ETH), all altcoins",
+        "timeUTC": "2026-10-24 ~18:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations"
+      },
+      {
+        "headline": "Bitcoin ETFs record $773 million outflow over Oct 22–23 as traders unwind positions",
+        "what": "U.S. spot Bitcoin ETFs experienced their largest two-day outflow since late June, losing $635.6 million on October 22 followed by $137.9 million on October 23. BlackRock's IBIT saw the biggest withdrawal ($110.3 million on Oct 23). Ethereum ETFs extended a four-week losing streak with $220.7 million in net withdrawals for the week.",
+        "coins": "Bitcoin (BTC), Ethereum (ETH)",
+        "timeUTC": "2026-10-22 to 2026-10-23",
+        "source": "The Block / KuCoin",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483"
+      },
+      {
+        "headline": "Arthur Hayes exits directional positions as on-chain analysts track $26 million in sales",
+        "what": "Arthur Hayes, founder of crypto derivatives exchange BitMEX and manager of Maelstrom investment fund, announced he had taken profits by exiting directional crypto positions. On-chain analysts tracked approximately $26 million in token sales linked to the fund during October 24. Hayes stated he had closed out exposure partly to manage risk.",
+        "coins": "Ethereum (ETH), unnamed altcoins",
+        "timeUTC": "2026-10-24 ~07:00",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/arthur-hayes-exits-crypto-trading-positions-as-analysts-track-26-million-in-sales/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Argentine court clears President Milei in LIBRA memecoin criminal case",
+          "what": "An Argentine judge closed a criminal investigation into President Javier Milei over his promotion of the LIBRA token, which crashed in 2024. The 60-page ruling found that Milei's post promoting LIBRA did not, by itself, establish criminal fraud despite the attention his endorsement drew to the token.",
+          "coins": "LIBRA (memecoin, Argentina)",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk / The Block",
+          "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra"
+        },
+        {
+          "headline": "22 companies now object to OKX-ICE tokenized stock platform under SEC exemption",
+          "what": "As of October 24, a total of 22 companies including Wells Fargo, Cisco, and Marvell Semiconductor have filed objections to OKX and Intercontinental Exchange's plan to launch tokenized securities trading on a 24/7 platform under the SEC's regulatory exemption for innovation. Objections cite concerns about regulatory ambiguity and price accuracy outside normal trading hours.",
+          "coins": "None (tokenized equity/stocks)",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan"
+        },
+        {
+          "headline": "U.S. Clarity Act stalls; Asia and Middle East gain competitive edge",
+          "what": "The failure of the U.S. Clarity Act — stalled legislation meant to establish clear crypto regulatory rules — is pushing digital asset businesses toward faster-moving jurisdictions in Asia and the Middle East, according to Apex Group CEO Peter Hughes. The delay leaves U.S. firms in regulatory limbo while offshore competitors advance.",
+          "coins": "All crypto",
+          "timeUTC": "2026-10-24",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Franklin Templeton adds $150 million in tokenized fund shares to XRP Ledger",
+          "what": "Franklin Templeton added $150 million in shares of its tokenized fund (FTFP) to the XRP Ledger on October 24 in two subscriptions. The deposits went to a single wallet authorized by the issuer, nearly quadrupling the fund's total tokens on the network. The move signals growing institutional appetite for issuing assets on public blockchains.",
+          "coins": "XRP",
+          "timeUTC": "2026-10-24 ~03:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "HSBC launches Hong Kong dollar stablecoin (Red Coin) in 3 million PayMe wallets",
+          "what": "HSBC enabled its Hong Kong dollar stablecoin (Red Coin) on Friday, October 24, for 3 million users of the PayMe mobile wallet. The bank is testing whether a traditional finance institution-issued token can replace everyday cash transfers and bill payments in Hong Kong.",
+          "coins": "Red Coin (HKD stablecoin)",
+          "timeUTC": "2026-10-24",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets"
+        },
+        {
+          "headline": "Kraken withdraws intrusive Monero compliance questions but maintains withdrawal caps",
+          "what": "Crypto exchange Kraken reversed compliance demands that asked Monero customers about their spending habits, after co-CEO Arjun Sethi admitted the questions were unjustified. However, Kraken maintained a $1,500 rolling 30-day withdrawal limit for individual Monero users, citing anti-money-laundering rules.",
+          "coins": "Monero (XMR)",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/kraken-drops-monero-spending-questions-but-keeps-a-1500-rolling-30-day-withdrawal-cap-for-individuals/"
+        },
+        {
+          "headline": "NYSE owner backs 24/7 stock tokens without Wall Street's standard price rules",
+          "what": "The company that owns the New York Stock Exchange (ICE) and OKX are proceeding with plans for 24/7 tokenized stock trading on a new SEC-exempted venue, allowing stock tokens to trade around the clock without the price-accuracy safeguards of traditional markets.",
+          "coins": "None (tokenized equities)",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nyses-owner-is-backing-24-7-stock-tokens-without-wall-streets-usual-price-rules/"
+        },
+        {
+          "headline": "Circle launches USDC institutional auctions: institutions collect rebates from retail redemptions",
+          "what": "Stablecoin issuer Circle launched institutional USDC auction redemptions, allowing eligible institutions to collect rebates funded by matched retail redeemers. The move lets large players earn a share of redemption fees while capping what retail customers pay.",
+          "coins": "USDC",
+          "timeUTC": "2026-10-24",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circles-new-usdc-auctions-let-institutions-collect-the-fees-others-pay-to-cash-out/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-23",
+    "summary": "U.S. spot Bitcoin ETFs lost $773.4 million over October 22–23, with the largest single-day outflow ($635.6M) since late June on October 22. BlackRock's IBIT led withdrawals with $110.3 million on Oct 23. Despite the two-day reversal, the week still showed net inflows of $301.2 million. Ethereum ETFs extended a four-week losing streak with approximately $220.7 million in net withdrawals for the week ending October 23.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-see-773m-net-outflow-over-two-days-as-btc-tests-80k-support"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Rate Decision (U.S. Federal Reserve), Wednesday, Oct 28 at 18:00 UTC",
+      "typicalReaction": "High impact. Major crypto mover. Rate decisions affect USD borrowing costs and risk appetite."
+    },
+    {
+      "event": "U.S. Personal Income and Outlays (PCE inflation) + Initial Jobless Claims, Thursday, Oct 29 at 12:30 UTC",
+      "typicalReaction": "Medium-to-high impact. Inflation and jobs data influence Fed expectations and market risk sentiment."
+    },
+    {
+      "event": "Bank of Canada Rate Decision, Wednesday, Oct 28 at 13:45 UTC",
+      "typicalReaction": "Medium impact. Affects USD/CAD and broader risk appetite."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate that traders betting long (buy) pay to traders betting short (sell) in perpetual futures markets. A high positive rate means longs are paying shorts, signaling overconfidence in a rise; negative rates mean shorts pay longs. Rates reset every 8 hours."
+    },
+    {
+      "term": "Long-to-short ratio (or long/short ratio)",
+      "definition": "The proportion of traders betting the price will rise (long positions) versus those betting it will fall (short positions). A ratio above 1 means more longs; below 1 means more shorts. Does not measure size, only account count."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of unfilled buy or sell orders (open contracts) in the futures market. Growing open interest shows new money entering; shrinking shows traders closing positions and taking profits or losses."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The day-over-day percentage shift in the total open contracts. An increase means more traders are opening new positions; a decrease means they are closing out, which often precedes a price reversal."
+    },
+    {
+      "term": "Top-trader long-to-short ratio (top position ratio)",
+      "definition": "The long-to-short balance among the largest traders only — a subset of the market. Differs from overall long-short because it isolates what the biggest money is doing."
+    },
+    {
+      "term": "Taker buy-sell ratio",
+      "definition": "The ratio of aggressive buyers (takers) versus aggressive sellers. Above 1 means more aggressive buying pressure; below 1 means more aggressive selling. Measured by the side of each trade filled at the market."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price that futures contracts use to calculate profit/loss. Usually an average of recent spot (cash) prices to prevent manipulation, it may differ slightly from the last trade price."
+    },
+    {
+      "term": "Basis",
+      "definition": "The difference between futures price and spot (cash) price. Positive basis (futures trading above spot) means traders expect a rise; negative basis suggests they expect a fall."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of all assets (coins, tokens, or perpetuals) that moved up, down, or flat on a given day. Breadth above 50% shows broad strength; below 50% shows broad weakness."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Automatic closing of a trader's position by the exchange when losses exceed the collateral they posted. During sharp price moves, cascading liquidations can accelerate the decline as forced sales pile up."
+    },
+    {
+      "term": "ETF net flows",
+      "definition": "The daily total of money flowing into (inflows) or out of (outflows) spot crypto ETFs. Positive flows mean more investors buying through funds; negative flows mean selling or redemption."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to hold a fixed value (usually 1:1) to a real-world asset like the U.S. dollar (USDC, USDT) or another currency (Red Coin to Hong Kong dollar). Used as a trading pair and store of value within crypto."
+    },
+    {
+      "term": "Perpetual futures (or perpetuals)",
+      "definition": "Contracts that let traders bet on price direction with leverage and no expiration date. Unlike regular futures, perpetuals trade continuously and use funding rates to keep the contract price close to the real asset price."
+    }
+  ],
+  "_source": "cli"
+}
