@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-24",
+  "kind": "market",
+  "dateLong": "Saturday, 24 October 2026",
+  "coversUTC": "2026-10-24 00:00–23:59 UTC",
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
+  "macro": {
+    "BTC": -0.38333768710970756,
+    "ETH": -1.2188836885792043
+  },
+  "topMover": {
+    "symbol": "JCTUSDT",
+    "chgPct": 168.51568477429228
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "25 Oct 00:00 UTC",
+  "languages": [
+    "en"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
+  ]
+}
