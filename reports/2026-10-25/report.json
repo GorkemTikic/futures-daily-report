@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-25",
+  "kind": "market",
+  "dateLong": "Sunday, 25 October 2026",
+  "coversUTC": "2026-10-25 00:00–23:59 UTC",
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
+  "macro": {
+    "BTC": -0.8971544137201701,
+    "ETH": -1.2351963079846573
+  },
+  "topMover": {
+    "symbol": "APRUSDT",
+    "chgPct": 42.230215827338135
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "26 Oct 00:00 UTC",
+  "languages": [
+    "en"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
+  ]
+}
