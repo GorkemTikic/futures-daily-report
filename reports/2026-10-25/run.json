@@ -1,10 +1,10 @@
 {
-  "runId": "2026-10-26T05:00:02.702Z",
+  "runId": "2026-10-26T06:00:02.386Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-26T05:00:02.702Z",
+  "startedAt": "2026-10-26T06:00:02.386Z",
   "status": "degraded",
-  "finishedAt": "2026-10-26T05:00:27.988Z",
+  "finishedAt": "2026-10-26T06:00:27.334Z",
   "durationSec": 25,
   "date": "2026-10-25",
   "live": true,
@@ -14,7 +14,7 @@
     "endMs": 1792972799999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "05:00 UTC"
+    "asOfUTC": "06:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -60,7 +60,7 @@
         "CFTC"
       ],
       "failed": [],
-      "count": 24,
+      "count": 28,
       "backfill": false
     },
     "tradfi": {
