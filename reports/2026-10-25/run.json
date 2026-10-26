@@ -1,20 +1,20 @@
 {
-  "runId": "2026-10-26T00:00:01.840Z",
+  "runId": "2026-10-26T01:00:02.393Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-26T00:00:01.840Z",
+  "startedAt": "2026-10-26T01:00:02.393Z",
   "status": "degraded",
-  "finishedAt": "2026-10-26T00:02:26.348Z",
-  "durationSec": 144,
+  "finishedAt": "2026-10-26T01:00:29.374Z",
+  "durationSec": 27,
   "date": "2026-10-25",
   "live": true,
   "window": {
     "label": "2026-10-25 00:00 → 24:00 UTC",
     "startMs": 1792886400000,
     "endMs": 1792972799999,
-    "dayAligned": true,
+    "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "00:00 UTC"
+    "asOfUTC": "01:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -60,7 +60,7 @@
         "CFTC"
       ],
       "failed": [],
-      "count": 19,
+      "count": 20,
       "backfill": false
     },
     "tradfi": {
@@ -93,15 +93,12 @@
     "en": true
   },
   "publish": {
-    "pushed": false,
-    "reason": "push-failed",
-    "branch": "main",
-    "detail": "spawnSync git ETIMEDOUT"
+    "pushed": true,
+    "branch": "main"
   },
   "reasons": [
     "narrative fell back to data-only (CLI-only backend)",
     "tr report unavailable",
-    "zh report unavailable",
-    "publish failed (push-failed)"
+    "zh report unavailable"
   ]
 }
