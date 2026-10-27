@@ -1,11 +1,11 @@
 {
-  "runId": "2026-10-26T22:00:02.420Z",
+  "runId": "2026-10-26T23:00:02.397Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-10-26T22:00:02.420Z",
+  "startedAt": "2026-10-26T23:00:02.397Z",
   "status": "degraded",
-  "finishedAt": "2026-10-26T22:00:33.141Z",
-  "durationSec": 31,
+  "finishedAt": "2026-10-26T23:00:27.345Z",
+  "durationSec": 25,
   "date": "2026-10-25",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1792972799999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "22:00 UTC"
+    "asOfUTC": "23:00 UTC"
   },
   "sources": {
     "exchanges": {
