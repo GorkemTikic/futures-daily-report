@@ -1,0 +1,104 @@
+{
+  "runId": "2026-10-27T00:00:01.871Z",
+  "dateOverride": null,
+  "reuseSynthesis": false,
+  "startedAt": "2026-10-27T00:00:01.871Z",
+  "status": "degraded",
+  "finishedAt": "2026-10-27T00:00:32.051Z",
+  "durationSec": 30,
+  "date": "2026-10-26",
+  "live": true,
+  "window": {
+    "label": "2026-10-26 00:00 → 24:00 UTC",
+    "startMs": 1792972800000,
+    "endMs": 1793059199999,
+    "dayAligned": true,
+    "rolling": false,
+    "asOfUTC": "00:00 UTC"
+  },
+  "sources": {
+    "exchanges": {
+      "online": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "count": 5,
+      "bySymbol": {
+        "BTC": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ],
+        "ETH": [
+          "Binance",
+          "Bybit",
+          "OKX",
+          "Bitget",
+          "Gate"
+        ]
+      }
+    },
+    "calendar": {
+      "ok": true,
+      "reason": null
+    },
+    "news": {
+      "ok": true,
+      "sourcesOnline": [
+        "CoinDesk",
+        "The Block",
+        "Cointelegraph",
+        "CryptoSlate",
+        "Decrypt",
+        "SEC",
+        "Federal Reserve",
+        "CFTC"
+      ],
+      "failed": [],
+      "count": 51,
+      "backfill": false
+    },
+    "tradfi": {
+      "ok": true,
+      "reason": null,
+      "requested": true,
+      "backfill": false
+    },
+    "stocks": {
+      "ok": true,
+      "reason": null
+    },
+    "market": {
+      "ok": true,
+      "failed": []
+    },
+    "etfFlows": "pending-synthesis",
+    "backfill": null
+  },
+  "synthesis": {
+    "source": "data-only",
+    "fellBack": true,
+    "cliOnly": true,
+    "errorKind": "cli-error"
+  },
+  "languages": [
+    "en"
+  ],
+  "pdf": {
+    "en": true
+  },
+  "publish": {
+    "pushed": true,
+    "branch": "main"
+  },
+  "reasons": [
+    "narrative fell back to data-only (CLI-only backend)",
+    "tr report unavailable",
+    "zh report unavailable"
+  ]
+}
