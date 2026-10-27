@@ -7,7 +7,7 @@
   "newsCount": 0,
   "macro": {
     "BTC": -0.0026210945690811555,
-    "ETH": 1.4768999999999999
+    "ETH": -0.21472774668997177
   },
   "topMover": {
     "symbol": "QUSDT",
@@ -20,7 +20,7 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "27 Oct 19:00 UTC",
+  "generatedAtUTC": "27 Oct 20:00 UTC",
   "languages": [
     "en"
   ],
