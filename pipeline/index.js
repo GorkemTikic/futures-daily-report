@@ -2,6 +2,8 @@
 //   node pipeline/index.js                     -> the most recent completed UTC day
 //   node pipeline/index.js --date 2026-09-13   -> a specific past UTC day (day-bounded)
 //   node pipeline/index.js --reuse-synthesis   -> reuse cached prose instead of regenerating
+//   node pipeline/index.js --date 2026-10-25 --from-datapack --force
+//                                              -> re-write a past day from its saved live data pack
 //
 // Produces reports/<date>/summary_<date>.{html,pdf} (+ .tr/.zh) in the shape the website
 // reads, plus report.json (manifest metadata + status) and run.json (per-run health).
@@ -11,6 +13,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 import { buildDataPack, resolveWindow } from "./datapack.js";
 import { synthesize, resolveTranslation, dataOnly } from "./synthesize.js";
 import { checkConsistency } from "./verify.js";
@@ -93,6 +96,31 @@ async function notify(kind, summary) {
   } catch (e) { console.warn(`notify failed: ${redact(String(e)).slice(0, 120)}`); }
 }
 
+// Once yesterday is done, an hourly run re-writes at most one older day of the last
+// week that went data-only or lost a translation (a 429 on the user's Claude limit made
+// 25-27 Oct 2026 data-only, and nothing retried them once the next day came). Only days
+// whose live data pack was saved, and whose only problems are the write-up or a
+// translation, so the redo keeps the day's own funding/OI/news data.
+function healOlderDay(latest) {
+  const fixable = /^(narrative fell back to data-only|[a-z]{2} (report unavailable|report skipped|PDF failed))/;
+  for (let i = 1; i <= 7; i++) {
+    const d = new Date(Date.parse(latest + "T00:00:00Z") - i * DAY_MS).toISOString().slice(0, 10);
+    const dir = path.join(ROOT, "reports", d);
+    try {
+      const m = JSON.parse(fs.readFileSync(path.join(dir, "report.json"), "utf8"));
+      const reasons = Array.isArray(m.degradedReasons) ? m.degradedReasons : [];
+      if (m.status !== "degraded" || !reasons.length || !reasons.every((r) => fixable.test(r))) continue;
+      if (!JSON.parse(fs.readFileSync(path.join(dir, "datapack.json"), "utf8")).live) continue;
+      // A file touched in the last hour means a run is (or just was) on this day.
+      if (fs.readdirSync(dir).some((f) => Date.now() - fs.statSync(path.join(dir, f)).mtimeMs < 3600000)) continue;
+    } catch { continue; }
+    console.log(`Re-writing ${d} from its saved data pack (it was degraded).`);
+    const r = spawnSync(process.execPath, [path.join(__dirname, "index.js"), "--date", d, "--from-datapack", "--force"], { cwd: ROOT, stdio: "inherit" });
+    return r.status ?? 1;
+  }
+  return 0;
+}
+
 async function main() {
   const config = JSON.parse(fs.readFileSync(path.join(ROOT, "config.json"), "utf8"));
   const args = process.argv.slice(2);
@@ -144,7 +172,7 @@ async function main() {
         if (m.status !== "degraded" && haveLangs) {
           console.log(`Report for ${win.dateUTC} already generated (status ok) — nothing to do.`);
           LOG_DATE = win.dateUTC; writeLog();
-          process.exit(0);
+          process.exit(healOlderDay(win.dateUTC));
         }
         // Degraded only because a translation is missing: keep the English (and any
         // finished translation) and fill just the gap, instead of rewriting the day.
@@ -167,8 +195,13 @@ async function main() {
 
   console.log(`Collecting data pack (exchanges, calendar, news, trad-fi, stocks)...`);
   let pack;
+  // --from-datapack (with --date): re-write a past day from the data pack saved by its
+  // own live run, so funding/OI/mark/news/TradFi stay as they were (a plain --date run
+  // is a backfill and drops them). Used to redo days that went data-only on a 429.
+  const savedPack = dateOverride && args.includes("--from-datapack") ? path.join(ROOT, "reports", dateOverride, "datapack.json") : null;
   try {
-    pack = await buildDataPack({ dateOverride, config });
+    pack = savedPack ? JSON.parse(fs.readFileSync(savedPack, "utf8")) : await buildDataPack({ dateOverride, config });
+    if (savedPack) console.log(`  using the saved data pack (${pack.live ? "live" : "backfill"} run of ${pack.generatedAtUTC})`);
   } catch (err) {
     // e.g. a future --date, or day-bounded data unfetchable -> refuse, non-zero (item 2)
     console.error(`FATAL: cannot build data pack: ${redact(String(err.message || err)).slice(0, 200)}`);
