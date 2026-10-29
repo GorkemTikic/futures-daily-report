@@ -1,0 +1,189 @@
+{
+  "oneLine": "美联储维持利率不变，两名官员投反对票支持加息；比特币和以太坊小幅上涨，基础设施升级和机构采用继续推进。",
+  "caveman": "美联储是管理美国利息成本的机构。他们决定不改变利息，但两个官员想提高它——这让一些交易员紧张。比特币涨0.54%（从$80,868升到$81,309），以太坊涨0.39%（从$2,349升到$2,359）。涨幅很小，因为大家都预期美联储这样做。有好消息帮加密币：Coinbase上线Ripple的新稳定币，信用评级很好；Bitwise公司说比特币到2036年可能值160万美元。其他加密币也都涨了一点。今天交易很平静，没有混乱。",
+  "priceVolumeSummary": "币安交易量最大，比特币$9.41亿，以太坊$6.64亿。五大交易所的价格聚集紧密——比特币约$81,250–$81,300，以太坊约$2,346–$2,347——显示市场对公允价值有强烈共识。",
+  "positioningSummary": "比特币融资利率维持高位，年化10.95%（OKX 10.90%），持仓量增长1.6%，显示多头信心充足。币安多空账户比为2.06:1，大型交易员更看涨为1.93:1，但接盘价买卖比0.96显示略微偏向卖方。以太坊走势类似：融资利率10.38%，持仓量涨0.79%，整体多空比3.06:1，大户多空比1.73:1，接盘价比率1.02显示略微买入优势。广度为正：币安永续合约57.1%收涨。恐惧贪婪指数维持中性51，比前一天48有所上升。",
+  "stocksSummary": "SK海力士因AI内存收入创纪录达100万亿韩元上升1.45%，管理层预计供应短缺持续到2030年。三星电子因财报压力下跌4.77%，拖累香港杠杆反向产品下跌9.95%。商品全面走弱：黄金下跌0.39%，WTI原油下跌1.89%，白银下跌1.82%，天然气下跌3.6%。芯片制造商走弱与AI相关计算需求走强形成对比。",
+  "movers": [
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "没有明显的公开原因。Idol (IDOL) 暴涨69.88%，交易量$5900万，可能反映交易所上市活动或小市值山寨币投机买入。",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "没有明显的公开原因。Q上升29.58%，交易量$3.28亿。涨势与山寨币整体走强一致，但缺乏确认的催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "没有明显的公开原因。EVAA上升29.47%，交易量$5.37亿，作为小市值山寨币更广泛反弹的一部分，没有明显的新闻驱动。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美联储维持利率不变；两名官员反对，支持加息",
+        "what": "美联储政策委员会（FOMC）将联邦基金利率维持在4.00%，但州长Lisa Cook和克利夫兰联储主席Beth Hammack投反对票，支持加息0.25%。不同意见很罕见，表明对通胀持久性的内部争论。结果符合市场预期，但不同意见突显了12月前的政策不确定性。",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "18:00 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      },
+      {
+        "headline": "Coinbase上市Ripple的RLUSD稳定币，具有投资级后盾",
+        "what": "Ripple的RLUSD稳定币在Moody's赋予投资级信用评级后在Coinbase零售、Prime和机构平台推出。该1:1 USD支持的代币已在XRP账本、以太坊和Base上线。这是Ripple机构采用的重要里程碑，扩展了用户的稳定币选择。",
+        "coins": "XRP, stablecoins",
+        "timeUTC": "17:03 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009"
+      },
+      {
+        "headline": "Bitwise发布比特币估值模型：2036年基础情景160万美元，牛市情景367万美元",
+        "what": "Bitwise发布机构研究，预测比特币通过2036年的年化回报率34%，基础情景160万美元，熊市情景130,686美元，牛市情景367万美元。该框架将黄金和比特币需求吸收作为长期价值创造的源头。这份分析在创纪录的ETF采用背景下，为机构投资者提供了多十年的配置论文。",
+        "coins": "BTC",
+        "timeUTC": "17:07 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-projects-34-annualized-returns-432010"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC主办24/7交易圆桌论坛",
+          "what": "美国商品期货交易委员会宣布召开圆桌讨论，讨论将期货和加密衍生品交易时间延长至24/7交易场所。该举措表明监管机构对连续交易基础设施的支持，反映市场参与者日益增长的需求。",
+          "coins": "General market infrastructure",
+          "timeUTC": "17:54 UTC",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9318-26"
+        },
+        {
+          "headline": "加密行业在《清晰法案》失败后为国会监督转变做准备",
+          "what": "随着《清晰法案》停滞，加密行业为新一届国会下的新监管环境做准备。选举后的动态可能重塑多个机构的监督重点和执法力度。",
+          "coins": "General policy",
+          "timeUTC": "15:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-28-crypto-braces-for-potential-shift-in-congressional-oversight-after-midterms-431949"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Avail在Hyperliquid永续期货上推出ShieldTX隐私工具",
+          "what": "Avail在Hyperliquid去中心化交易所上发布ShieldTX隐私增强工具，为每个永续期货头寸创建独立钱包。该工具保护交易员免受复制交易机器人追踪其头寸大小和进出时机。",
+          "coins": "HYPERLIQUID",
+          "timeUTC": "15:53 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-28-avail-launches-shieldtx-privacy-tool-targeting-copy-trading-bots-on-hyperliquid-431977"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "SK海力士创纪录季度，AI内存需求压倒供应",
+          "what": "韩国芯片制造商SK海力士报告创纪录季度收入超过100万亿韩元，由AI驱动的DRAM和HBM（高带宽内存）需求推动。管理层预计内存供应在2030年前保持紧张，目前库存在2029年前已售完。该结果表明AI相关行业的持续利好。",
+          "coins": "AI sector correlation, tech stocks",
+          "timeUTC": "23:29 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382114/sk-hynix-record-quarter-ai-memory-demand"
+        },
+        {
+          "headline": "Robinhood财报不及预期；加密交易疲软但基础设施产品推进",
+          "what": "Robinhood公布财报低于华尔街预期，反映加密货币交易疲软。不过分析师对该券商转向新基础设施产品（包括Phantom上的预测市场和永续期货）持乐观态度，视其为收入多元化途径。",
+          "coins": "HOOD sentiment, retail adoption",
+          "timeUTC": "18:01 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011"
+        },
+        {
+          "headline": "OpenAI计划购买Google TPU芯片，减少对Nvidia依赖",
+          "what": "据报道，OpenAI打算购买Google的张量处理单元（TPU）芯片，降低对Nvidia AI加速器的依赖。此举反映AI芯片市场竞争加剧和计算能力需求扩大，尽管两家公司均未确认细节或定价。",
+          "coins": "Tech sector / AI infrastructure correlation",
+          "timeUTC": "21:16 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382090/openai-plans-buy-google-ai-chips-looks-beyond-nvidia"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "比特币资产库：Datavault AI报告自6月以来无法访问BTC",
+          "what": "Datavault AI披露自6月以来无法从Biconomy提取比特币，宣布计划重述四份与1.5亿美元Scilex交易相关的财务报告。公司股票在披露后急剧下跌，引发对资产保管和资产负债表可靠性的质疑。",
+          "coins": "BTC",
+          "timeUTC": "23:55 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc"
+        },
+        {
+          "headline": "AI安全初创公司Upwind融资4亿美元，瞄准自主代理风险",
+          "what": "云和AI安全公司Upwind以38亿美元估值融资4亿美元，2026年收入同比四倍增长。公司专注于自主AI代理带来的新兴风险，反映机构对AI基础设施安全的广泛投资。",
+          "coins": "AI sector / tech correlation",
+          "timeUTC": "22:16 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382101/ai-security-startup-upwind-raises-400m"
+        },
+        {
+          "headline": "调查：22%美国人尝试过加密币，但持续采用停滞",
+          "what": "Ipsos为DeFi教育基金进行的调查发现，22%美国人曾拥有或使用过加密货币（比例从18%上升），但过去一年使用保持平稳13%。数据表明试用增长但持续采用有限，用户留存是持久挑战。",
+          "coins": "Retail adoption sentiment",
+          "timeUTC": "21:46 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382100/more-americans-tried-crypto-few-staying-survey"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan Rate Decision — Friday 30 Oct, 00:00 UTC",
+      "typicalReaction": "日本利率变动通常对加密币的直接冲击较小，但可能引发更广泛的风险资产重新配置。意外转变可能改变日元套利交易平仓动态。"
+    },
+    {
+      "event": "Eurozone GDP Flash — Friday 30 Oct, 10:00 UTC",
+      "typicalReaction": "欧洲经济数据影响欧元强度和广泛风险偏好。强于预期的数据可能支持欧元并压低风险资产（包括加密币）。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化融资利率",
+      "definition": "永续期货中融资费用的年百分比收益率，计算方法是将8小时融资利率乘以365÷8（或类似）。显示全年持有杠杆多头头寸的成本（或从空头获得的收益）。"
+    },
+    {
+      "term": "基准期间",
+      "definition": "价格和交易量统计的报告期间。'UTC-day'表示统计数据涵盖从00:00–23:59 UTC的一个日历日。"
+    },
+    {
+      "term": "广度",
+      "definition": "市场中当日收盘上升（或下跌）的资产百分比。57%广度意味着超过一半的代币上升，表示基础广泛的强势。"
+    },
+    {
+      "term": "恐惧贪婪指数",
+      "definition": "一个情绪指标，范围从0（极端恐惧）到100（极端贪婪），基于波动率、动量、社交媒体活动和市场主导地位。用于衡量散户情绪和风险偏好。"
+    },
+    {
+      "term": "融资利率",
+      "definition": "永续期货合约中多空交易员之间的定期支付。融资为正时，多头向空头支付。高融资利率表明强烈的看涨情绪和急剧反转的风险。"
+    },
+    {
+      "term": "多空比",
+      "definition": "所有交易员（账户比）或最大交易员（顶部头寸比）中开放多头头寸与空头头寸的比率。比率大于1意味着更多交易员押注价格上升。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货交易所中用于清算和融资计算的参考价格，通常从现货价格和近期交易推导得出。防止相对于实际可交易最后价格的操纵。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "永续期货中所有开放多头和空头头寸的总价值。增加表明新资本流入杠杆交易；下降表明头寸正在平仓。"
+    },
+    {
+      "term": "持仓量变化",
+      "definition": "一段时间内总持仓量的百分比变化。1.6%上升意味着新资本流入杠杆头寸（或现有头寸价值增加）。"
+    },
+    {
+      "term": "接盘价买卖比",
+      "definition": "市场接盘买入交易量与卖出交易量的比率。高于1.0意味着更积极的买入（买方吃掉卖单）；低于1.0意味着更积极的卖出（卖方吃掉买单）。0.96的比率显示略微更积极的卖出。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "336023c43cc237a0"
+}

@@ -1,0 +1,188 @@
+{
+  "oneLine": "The Federal Reserve held rates steady with two officials dissenting in favor of a hike; Bitcoin and Ethereum posted modest gains as infrastructure upgrades and institutional adoption continued.",
+  "caveman": "The Federal Reserve is the group that controls how expensive it is to borrow money in the USA. They decided to keep it the same, but two people there wanted to make it more expensive—this was a surprise that made some traders nervous. Bitcoin went up 0.54% (from $80,868 to $81,309) and Ethereum went up 0.39% (from $2,349 to $2,359). The moves were small because people mostly expected the Fed to do what they did. Some good news helped crypto: Coinbase added a new stablecoin from Ripple that has a good credit rating, and a company called Bitwise published research saying Bitcoin could be worth $1.6 million by 2036. Most other crypto coins went up a little too. The day was calm, not chaotic.",
+  "priceVolumeSummary": "Binance led volume with $9.41 billion in BTC and $6.64 billion in ETH trading. Prices clustered tightly across all five major exchanges—Bitcoin around $81,250–$81,300 and Ethereum around $2,346–$2,347—showing strong agreement on fair value.",
+  "positioningSummary": "Bitcoin funding remained elevated at 10.95% annualized (OKX 10.90%), while open interest grew 1.6%, signaling conviction among longs. The long-to-short account ratio was 2.06:1 on Binance, with the largest traders even more bullish at 1.93:1, but the taker buy/sell ratio of 0.96 showed slightly more aggressive selling. Ethereum followed a similar pattern: 10.38% funding, OI up 0.79%, heavily long at 3.06:1 overall and 1.73:1 among whales, with a 1.02 taker ratio indicating slight buying edge. Breadth was positive: 57.1% of Binance perps closed higher. The Fear & Greed Index held neutral at 51, up from 48 the prior day.",
+  "stocksSummary": "SK Hynix jumped 1.45% on record AI-memory revenue hitting 100 trillion won, with management projecting supply deficits through 2030. Samsung Electronics fell 4.77% on earnings pressure, dragging Hong Kong leveraged inverse bets down 9.95%. Commodities softened across the board: gold down 0.39%, WTI crude down 1.89%, silver down 1.82%, and natural gas down 3.6%. Chipmaker weakness contrasted with strength in AI-related compute demand.",
+  "movers": [
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "No clear public cause. Idol (IDOL) surged 69.88% with $59 million in volume, possibly reflecting exchange listing activity or speculative buying in smaller-cap alts.",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "No clear public cause. Q rose 29.58% on $328 million volume. The move aligns with broad altcoin strength but lacks confirmed catalysts.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "No clear public cause. EVAA gained 29.47% on $537 million volume as part of a broader smaller-cap altcoin rally, with no obvious news driver.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Federal Reserve holds rates steady; two officials dissent, favoring a hike",
+        "what": "The Federal Reserve's policy committee (FOMC) kept the federal funds rate at 4.00%, but Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented in favor of a 0.25% rate increase. Dissents are rare and signal internal debate over inflation persistence. The outcome met market expectations but the dissent underscores policy uncertainty heading into December.",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "18:00 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      },
+      {
+        "headline": "Coinbase lists Ripple's RLUSD stablecoin with investment-grade backing",
+        "what": "Ripple's RLUSD stablecoin launched on Coinbase retail, Prime, and institutional exchange platforms after Moody's assigned it an investment-grade credit rating. The 1:1 USD-backed token is live on XRP Ledger, Ethereum, and Base. This marks a major institutional adoption milestone for Ripple and broadens stablecoin optionality for users.",
+        "coins": "XRP, stablecoins",
+        "timeUTC": "17:03 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009"
+      },
+      {
+        "headline": "Bitwise publishes Bitcoin valuation model: $1.6M base case by 2036, up to $3.67M in bull scenario",
+        "what": "Bitwise released institutional research projecting 34% annualized Bitcoin returns through 2036, with a base case of $1.6 million, bear case of $130,686, and bull case of $3.67 million. The framework models gold and Bitcoin demand absorption as sources of long-term value creation. The analysis provides institutional investors with a multi-decade allocation thesis amid record ETF adoption.",
+        "coins": "BTC",
+        "timeUTC": "17:07 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-projects-34-annualized-returns-432010"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC to Host Roundtable on 24/7 Trading",
+          "what": "The Commodity Futures Trading Commission announced a roundtable discussion on extending trading hours for futures and crypto derivatives to 24/7 venues. The initiative signals regulatory appetite for continuous trading infrastructure and reflects growing demand from market participants.",
+          "coins": "General market infrastructure",
+          "timeUTC": "17:54 UTC",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9318-26"
+        },
+        {
+          "headline": "Crypto sector braces for Congressional oversight shift after Clarity Act failure",
+          "what": "With the Clarity Act stalled, the crypto industry is preparing for a new regulatory landscape under an incoming Congress. Post-election dynamics could reshape oversight priorities and enforcement intensity across multiple agencies.",
+          "coins": "General policy",
+          "timeUTC": "15:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-28-crypto-braces-for-potential-shift-in-congressional-oversight-after-midterms-431949"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Avail launches ShieldTX privacy tool for Hyperliquid perpetual futures",
+          "what": "Avail released ShieldTX, a privacy-enhancing tool on the Hyperliquid decentralized exchange that creates a separate wallet for each perpetual futures position. The tool protects traders from having their position sizes and entry/exit timing tracked by copy-trading bots.",
+          "coins": "HYPERLIQUID",
+          "timeUTC": "15:53 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-28-avail-launches-shieldtx-privacy-tool-targeting-copy-trading-bots-on-hyperliquid-431977"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "SK Hynix posts record quarter as AI memory demand overwhelms supply",
+          "what": "South Korean chipmaker SK Hynix reported record quarterly revenue exceeding 100 trillion won, driven by AI-driven demand for DRAM and HBM (high-bandwidth memory). Management projects memory supply will remain constrained through 2030, with current inventory sold out through 2029. The result signals sustained tailwinds for AI-adjacent sectors.",
+          "coins": "AI sector correlation, tech stocks",
+          "timeUTC": "23:29 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382114/sk-hynix-record-quarter-ai-memory-demand"
+        },
+        {
+          "headline": "Robinhood reports earnings miss; crypto weakness persists but infrastructure products advance",
+          "what": "Robinhood published earnings that missed Wall Street estimates amid cryptocurrency trading weakness. However, analysts remain bullish on the brokerage's pivot toward new infrastructure products, including prediction markets on Phantom and perpetual futures offerings, as revenue diversification avenues.",
+          "coins": "HOOD sentiment, retail adoption",
+          "timeUTC": "18:01 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011"
+        },
+        {
+          "headline": "OpenAI plans to purchase Google TPU chips, diversifying away from Nvidia",
+          "what": "OpenAI reportedly intends to buy Google's Tensor Processing Unit (TPU) chips, reducing dependency on Nvidia for AI accelerators. The move reflects intensifying competition in the AI chip market and expanding demand for compute capacity, though neither company has confirmed details or pricing.",
+          "coins": "Tech sector / AI infrastructure correlation",
+          "timeUTC": "21:16 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382090/openai-plans-buy-google-ai-chips-looks-beyond-nvidia"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin Treasury: Datavault AI reports inability to access BTC holdings since June",
+          "what": "Datavault AI disclosed that it has been unable to withdraw its Bitcoin from Biconomy since June and announced plans to restate four financial reports tied to a $150 million Scilex deal. The company's stock dropped sharply on the disclosure, raising questions about asset custody and balance-sheet reliability.",
+          "coins": "BTC",
+          "timeUTC": "23:55 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc"
+        },
+        {
+          "headline": "AI security startup Upwind raises $400M, targeting autonomous agent risks",
+          "what": "Cloud and AI security firm Upwind raised $400 million at a $3.8 billion valuation, with 2026 revenue quadrupling year-over-year. The firm focuses on emerging risks posed by autonomous AI agents, reflecting broader institutional investment in AI infrastructure security.",
+          "coins": "AI sector / tech correlation",
+          "timeUTC": "22:16 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382101/ai-security-startup-upwind-raises-400m"
+        },
+        {
+          "headline": "Survey: 22% of Americans have tried crypto, but sustained adoption stalled",
+          "what": "Ipsos survey conducted for the DeFi Education Fund found that 22% of Americans have ever owned or used crypto (up from 18%), but past-year usage remained flat at 13%. The data indicates growing trial but limited sustained adoption, with user retention a persistent challenge.",
+          "coins": "Retail adoption sentiment",
+          "timeUTC": "21:46 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382100/more-americans-tried-crypto-few-staying-survey"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan Rate Decision — Friday 30 Oct, 00:00 UTC",
+      "typicalReaction": "Japanese rate moves typically have modest direct impact on crypto but can trigger broader risk-asset repositioning. A surprise pivot could shift yen carry-trade unwinding dynamics."
+    },
+    {
+      "event": "Eurozone GDP Flash — Friday 30 Oct, 10:00 UTC",
+      "typicalReaction": "European economic data influences euro strength and broad risk appetite. A stronger-than-expected print could support EUR and pressure risk assets including crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized funding rate",
+      "definition": "The annual percentage yield of funding payments in perpetual futures, calculated by multiplying the 8-hourly funding rate by 365÷8 (or similar). Shows the cost of holding leveraged positions long (or earning yield on shorts) over a full year."
+    },
+    {
+      "term": "Basis",
+      "definition": "The reporting period for price and volume statistics. 'UTC-day' means the figures cover one calendar day from 00:00–23:59 UTC."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of assets in a market that closed higher (or lower) on the day. 57% breadth means more than half of all tokens rose, indicating broad-based strength."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment gauge ranging from 0 (extreme fear) to 100 (extreme greed), based on volatility, momentum, social media activity, and market dominance. Used to gauge retail emotion and risk appetite."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Periodic payment between long and short traders in perpetual futures contracts. When funding is positive, longs pay shorts. High funding suggests strong bullish sentiment and risk of a sharp reversal."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The ratio of open long positions to short positions among all traders (account ratio) or among the largest traders (top position ratio). A ratio above 1 means more traders are betting on a price rise."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used for liquidation and funding calculations on futures exchanges, typically derived from spot prices and recent trades. It prevents manipulation relative to actual tradable last prices."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of all open long and short positions in perpetual futures. An increase signals fresh capital flowing into leveraged trading; a decrease suggests positions are being closed."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage shift in total open interest over a period. A 1.6% rise means new capital entered leveraged positions (or existing positions grew in value)."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market-taker buy volume to sell volume. Above 1.0 means more aggressive buying (buyers hitting the ask); below 1.0 means more aggressive selling (sellers hitting the bid). A ratio of 0.96 shows slightly more aggressive selling."
+    }
+  ],
+  "_source": "cli"
+}

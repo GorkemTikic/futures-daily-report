@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-28T06:00:25.278Z",
-  "count": 133,
+  "generatedAt": "2026-10-29T15:09:22.691Z",
+  "count": 134,
   "counts": {
-    "total": 133,
-    "market": 46,
+    "total": 134,
+    "market": 47,
     "divergence": 87,
     "degraded": 3
   },
-  "latest": "2026-10-27",
+  "latest": "2026-10-28",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-10-28",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.5341688789748903,
+        "ETH": 0.395002873135131
+      },
+      "marketSummary": "The Federal Reserve held rates steady with two officials dissenting in favor of a hike; Bitcoin and Ethereum posted modest gains as infrastructure upgrades and institutional adoption continued.",
+      "oneLine": "The Federal Reserve held rates steady with two officials dissenting in favor of a hike; Bitcoin and Ethereum posted modest gains as infrastructure upgrades and institutional adoption continued.",
+      "newsCount": 12,
+      "topMover": {
+        "symbol": "IDOLUSDT",
+        "chgPct": 69.8812351543943
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-28/summary_2026-10-28.html",
+        "pdf": "reports/2026-10-28/summary_2026-10-28.pdf",
+        "md": "reports/2026-10-28/summary_2026-10-28.md"
+      }
+    },
     {
       "date": "2026-10-27",
       "kind": "market",

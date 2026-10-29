@@ -1,0 +1,189 @@
+{
+  "oneLine": "Federal Rezerv faiz oranlarını sabit tutarken iki yetkilisinin zam lehine oy kullanması; Bitcoin ve Ethereum altyapı yükseltmeleri ve kurumsal benimsenme devam ederken mütevazı kazançlar kaydetti.",
+  "caveman": "Federal Rezerv, ABD'de borç almanın ne kadar pahalı olduğunu kontrol eden kuruluştur. Bunu aynı tutmaya karar verdiler, ama oradaki iki kişi daha pahalı yapmak istedi—bu bir sürpriz oldu ve bazı tüccarları endişelendirdi. Bitcoin yüzde 0,54 arttı ($80.868'den $81.309'a) ve Ethereum yüzde 0,39 arttı ($2.349'dan $2.359'a). Hareketler küçüktü çünkü insanlar çoğunlukla Fed'in bunu yapacağını bekliyorlardı. Bazı iyi haberler kripto'ya yardımcı oldu: Coinbase, Ripple'dan iyi bir kredi notu alan yeni bir stablecoin ekledi ve Bitwise adlı bir şirket Bitcoin'in 2036 yılına kadar 1,6 milyon dolar değerinde olabileceğini söyleyen araştırma yayımladı. Çoğu diğer kripto paraları da biraz arttı. Gün sakindi, kaotik değildi.",
+  "priceVolumeSummary": "Binance, BTC'de 9,41 milyar dolar ve ETH ticaretinde 6,64 milyar dolar ile hacmi önde çıkardı. Fiyatlar beş ana borsa arasında sıkı şekilde kümelenmiş—Bitcoin yaklaşık 81.250–81.300 dolar ve Ethereum yaklaşık 2.346–2.347 dolar—adil değer konusunda güçlü bir anlaşma göstermektedir.",
+  "positioningSummary": "Bitcoin finansmanı yüksek seviyede kaldı, yıllıklandırılmış %10,95'te (OKX %10,90), açık faiz %1,6 arttı, uzun taraftakiler arasında kanaatin işaretini verdi. Binance'da uzun-kısa hesap oranı 2.06:1 idi, en büyük tüccarlar 1.93:1'de daha da boğa eğilimli, ancak 0.96 taker alış/satış oranı biraz daha agresif satışı gösterdi. Ethereum benzer bir deseni izledi: %10,38 finansman, açık faiz %0,79 arttı, genel olarak 3.06:1'de ve balinalar arasında 1.73:1'de ağır uzun, 1.02 taker oranı hafif alış avantajını gösterdi. Pazar genişliği olumlu idi: Binance perps'nin %57,1'i daha yüksek kapandı. Fear & Greed Index nötr seviyede 51'de kaldı, önceki günün 48'inden yüksek.",
+  "stocksSummary": "SK Hynix, yapay zeka belleği geliri rekor kırdığında 100 trilyon won'a ulaştığı için %1,45 sıçradı, yönetim 2030 yılına kadar arz açığını öngörmekte. Samsung Electronics, kazanç baskısı nedeniyle %4,77 düştü, Hong Kong kaldıraçlı ters bahisleri %9,95 aşağı çekti. Emtialar genelinde yumuşadı: altın %0,39 düştü, WTI ham petrol %1,89 düştü, gümüş %1,82 düştü ve doğal gaz %3,6 düştü. Çip üreticisi zayıflığı, yapay zeka ile ilişkili işlem gücü talebindeki güçle çelişkili idi.",
+  "movers": [
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "Açık bir genel neden yok. Idol (IDOL) %69,88 sıçradı, 59 milyon dolar hacimle, muhtemelen borsa listeleme etkinliğini veya daha küçük kapitalı alternatifler üzerinde spekülatif satın alımı yansıtıyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "Açık bir genel neden yok. Q, 328 milyon dolar hacimle %29,58 yükseldi. Hamle, geniş altcoin gücü ile uyumlu ancak doğrulanmış katalizörlerden yoksun.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "Açık bir genel neden yok. EVAA, 537 milyon dolar hacimle %29,47 kazandı; daha geniş bir daha küçük kapitalı altcoin rallis'nin parçası olarak, hiçbir bariz haber itici gücü olmadan.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Federal Rezerv oranları sabit tutuyor; iki yetkilinin zam lehinde oy kullanması",
+        "what": "Federal Rezerv'ün para politikası komitesi (FOMC) federal fon oranını %4,00'de tutarken, Vali Lisa Cook ve Cleveland Fed Başkanı Beth Hammack %0,25'lik bir faiz artışı lehinde oy verdiler. Muhalefet nadir görülmekte ve enflasyon kalıcılığı üzerine iç tartışmayı işaret eder. Sonuç pazar beklentilerini karşıladı ancak muhalefet Aralık'a giderken politika belirsizliğini vurgulamaktadır.",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "18:00 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      },
+      {
+        "headline": "Coinbase, yatırım derecesi destekli Ripple'ın RLUSD stablecoin'ini listeler",
+        "what": "Ripple'ın RLUSD stablecoin'i Moody's tarafından yatırım derecesi kredi notu aldıktan sonra Coinbase perakende, Prime ve kurumsal borsa platformlarında piyasaya sürüldü. 1:1 USD destekli jeton XRP Ledger, Ethereum ve Base'de canlı. Bu, Ripple için önemli bir kurumsal kabul dönüm noktasını işaret eder ve kullanıcılar için stablecoin seçeneklerini genişletir.",
+        "coins": "XRP, stablecoins",
+        "timeUTC": "17:03 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009"
+      },
+      {
+        "headline": "Bitwise, Bitcoin değerleme modeli yayımlar: 2036'ya kadar 1,6M dolar taban durum, boğa senaryosunda 3,67M dolara kadar",
+        "what": "Bitwise, 2036'ye kadar %34 yıllıklandırılmış Bitcoin getirileri öngören kurumsal araştırma yayımladı; 1,6 milyon dolar taban durum, 130.686 dolar ayı durumu ve 3,67 milyon dolar boğa durumu ile. Çerçeve, altın ve Bitcoin talebini uzun vadeli değer yaratmanın kaynakları olarak modellemektedir. Analiz, rekor ETF benimsemesi arasında kurumsal yatırımcılara çok onlu bir tahsis tezi sağlar.",
+        "coins": "BTC",
+        "timeUTC": "17:07 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-projects-34-annualized-returns-432010"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC, 24/7 Ticaret Konusunda Yuvarlak Masa Toplantısı Düzenleyecek",
+          "what": "Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC), vadeli işlemler ve kripto türevleri için ticaret saatlerini 24/7 mekanlarına genişletme konusunda yuvarlak masa tartışması duyurdu. Girişim, sürekli ticaret altyapısına karşı düzenleyici iştahı işaret eder ve pazar katılımcılarının artan talebini yansıtır.",
+          "coins": "General market infrastructure",
+          "timeUTC": "17:54 UTC",
+          "source": "CFTC",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9318-26"
+        },
+        {
+          "headline": "Kripto sektörü, Clarity Act başarısızlığından sonra Kongre denetimi kaymaya hazırlanıyor",
+          "what": "Clarity Act takılı kalmakla, kripto endüstrisi yeni bir seçim sonrasında gelen Kongre altında yeni bir düzenleyici ortama hazırlanıyor. Seçim sonrası dinamikleri birden fazla ajans arasında denetim önceliklerini ve yaptırım yoğunluğunu yeniden şekillendirebilir.",
+          "coins": "General policy",
+          "timeUTC": "15:36 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-28-crypto-braces-for-potential-shift-in-congressional-oversight-after-midterms-431949"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Avail, Hyperliquid perpetual vadeli işlemleri için ShieldTX gizlilik aracını başlatır",
+          "what": "Avail, Hyperliquid merkezi olmayan borsasında ShieldTX adlı bir gizlilik geliştirici aracı yayımladı; bu araç, her bir perpetual vadeli işlem pozisyonu için ayrı bir cüzdan oluşturur. Araç, tüccarları pozisyon boyutları ve giriş/çıkış zamanlamalarının kopya ticaret botları tarafından takip edilmesinden korur.",
+          "coins": "HYPERLIQUID",
+          "timeUTC": "15:53 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-28-avail-launches-shieldtx-privacy-tool-targeting-copy-trading-bots-on-hyperliquid-431977"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "SK Hynix, yapay zeka belleği talebinin arzı aştığı için rekor çeyrek rapor eder",
+          "what": "Güney Koreli çip üreticisi SK Hynix, yapay zeka tarafından yönlendirilen DRAM ve HBM (yüksek bant genişliğinde bellek) talebinin yönlendirdiği 100 trilyon won'u aşan rekor çeyrek geliri rapor etti. Yönetim, bellek arzının 2030 yılına kadar kısıtlı kalacağını, mevcut envanteri 2029 yılına kadar satıldığını öngörmektedir. Sonuç, yapay zeka ile bitişik sektörlere süregelen rüzgârları işaret eder.",
+          "coins": "AI sector correlation, tech stocks",
+          "timeUTC": "23:29 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382114/sk-hynix-record-quarter-ai-memory-demand"
+        },
+        {
+          "headline": "Robinhood, kazanç eksikliği rapor eder; kripto zayıflığı devam ediyor ancak altyapı ürünleri ilerliyor",
+          "what": "Robinhood, kripto ticaret zayflığı arasında Wall Street tahminlerinin gerisinde kalan kazançlar yayımladı. Bununla birlikte, analistler, brokerin Phantom'da tahmin pazarları ve perpetual vadeli işlem teklifleri dahil olmak üzere yeni altyapı ürünlerine geçiş konusundaki gelir çeşitlendirme yolları olarak boğa eğilimli kalır.",
+          "coins": "HOOD sentiment, retail adoption",
+          "timeUTC": "18:01 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011"
+        },
+        {
+          "headline": "OpenAI, Nvidia'dan uzaklaşarak Google TPU çiplerini satın almayı planlamaktadır",
+          "what": "OpenAI'ın Google'ın Tensor Processing Unit (TPU) çiplerini satın almayı amaçladığı bildirilmektedir; bu Nvidia'ya yapay zeka hızlandırıcılarına bağımlılığı azaltır. Hamle, yapay zeka çip pazarında artan rekabeti yansıtır ve işlem kapasitesi talebini genişletir, ancak hiçbir şirket ayrıntıları veya fiyatlandırmayı onaylamamıştır.",
+          "coins": "Tech sector / AI infrastructure correlation",
+          "timeUTC": "21:16 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382090/openai-plans-buy-google-ai-chips-looks-beyond-nvidia"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin Treasury: Datavault AI, Haziran'dan beri BTC varlıklarına erişemeyeceğini bildiriyor",
+          "what": "Datavault AI, Haziran'dan beri Bitcoin'ini Biconomy'den çekemeyen olduğunu açıkladı ve 150 milyon dolar Scilex anlaşması ile bağlantılı dört finansal raporun yeniden beyan edilmesini planladı. Şirketin hissesi açıklama sonrasında keskin düştü, varlık saklama ve bilanço güvenilirliğine ilişkin sorular ortaya çıkardı.",
+          "coins": "BTC",
+          "timeUTC": "23:55 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc"
+        },
+        {
+          "headline": "Yapay zeka güvenliği başlangıcı Upwind, 400 milyon dolar kaldırıyor, otonom ajan riskleri hedefliyor",
+          "what": "Bulut ve yapay zeka güvenliği firması Upwind, 3,8 milyar dolar değerlemede 400 milyon dolar kaldırdı; 2026 geliri yıldan yıla dört katlıydı. Firma, otonom yapay zeka ajanlarının ortaya çıkardığı risklere odaklanmaktadır; bu, yapay zeka altyapı güvenliğine karşı geniş kurumsal yatırımı yansıtır.",
+          "coins": "AI sector / tech correlation",
+          "timeUTC": "22:16 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382101/ai-security-startup-upwind-raises-400m"
+        },
+        {
+          "headline": "Anket: Amerikalıların %22'si kripto denemiş, ancak süregelen benimseme durdu",
+          "what": "DeFi Eğitim Fonu için yürütülen Ipsos anketi, Amerikalıların %22'sinin kripto sahibi veya kullanmış olduğunu bulmuştur (%18'den yükseltilerek), ancak geçen yıl kullanımı %13'te sabit kaldı. Veriler artan deneme ancak sınırlı süregelen benimseme göstermektedir; kullanıcı alıkoyması kalıcı bir sorun olmaya devam etmektedir.",
+          "coins": "Retail adoption sentiment",
+          "timeUTC": "21:46 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382100/more-americans-tried-crypto-few-staying-survey"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan Rate Decision — Friday 30 Oct, 00:00 UTC",
+      "typicalReaction": "Japon faiz hamleleri kripto üzerinde doğrudan mütevazı etkiye sahiptir, ancak geniş risk-varlık yeniden konumlandırmasını tetikleyebilir. Sürprizli bir dönüş, yen carry-trade geri alma dinamiklerini kaydırabilir."
+    },
+    {
+      "event": "Eurozone GDP Flash — Friday 30 Oct, 10:00 UTC",
+      "typicalReaction": "Avrupa ekonomik verileri euro gücünü ve geniş risk iştahını etkiler. Beklenenden daha güçlü bir baskı EUR'yi destekleyebilir ve kripto dahil risk varlıklarına baskı yapabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış finansman oranı",
+      "definition": "Perpetual vadeli işlemlerdeki finansman ödemelerinin yıllık yüzde getirisi, 8 saatlik finansman oranı 365÷8 ile çarpılarak hesaplanır (veya benzeri). Kaldıraçlı pozisyonları uzun tutmanın (veya kısa vadede getiri kazanmanın) bir tam yıl üzerinden maliyetini gösterir."
+    },
+    {
+      "term": "Taban",
+      "definition": "Fiyat ve hacim istatistikleri için raporlama dönemi. 'UTC-gün' rakamların 00:00–23:59 UTC'den bir takvim gününü kapsadığı anlamına gelir."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Bir pazardaki varlıkların gün içinde daha yüksek (veya daha düşük) kapanan yüzdesini. %57 genişlik, tüm jetonların yarısından fazlasının yükseldiği anlamına gelir; bu geniş tabanlı bir güç göstermektedir."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında değişen bir duyarlılık göstergesi; oynaklık, momentum, sosyal medya etkinliği ve pazar hakimiyetine dayanmaktadır. Perakende duygusunu ve risk iştahını ölçmek için kullanılır."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual vadeli işlemler sözleşmelerinde uzun ve kısa tüccarlar arasında periyodik ödeme. Finansman olumlu olduğunda, uzunlar kısalara ödeme yapar. Yüksek finansman güçlü boğa duyarlılığı ve keskin bir tersine dönüş riskini önerir."
+    },
+    {
+      "term": "Uzun-kısa oranı",
+      "definition": "Tüm tüccarlar (hesap oranı) arasında veya en büyük tüccarlar arasında (en iyi pozisyon oranı) açık uzun pozisyonların kısa pozisyonlara oranı. 1'den üstün bir oran, daha fazla tüccarın bir fiyat artışına bahse girdiklerini anlamına gelir."
+    },
+    {
+      "term": "Mark fiyatı",
+      "definition": "Vadeli işlem borsalarında tasfiye ve finansman hesaplamaları için kullanılan referans fiyatı; tipik olarak spot fiyatlardan ve son işlemlerden türetilir. Gerçek alınıp satılabilen son fiyatlara kıyasla manipülasyonu önler."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Perpetual vadeli işlemlerdeki tüm açık uzun ve kısa pozisyonların toplam değeri. Bir artış, kaldıraçlı ticarete taze bir sermayenin girdiğini gösterir (veya mevcut pozisyonlar değerde büyümüştür)."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Bir dönem içinde toplam açık faizde yüzde değişim. %1,6 artış, yeni sermayenin kaldıraçlı pozisyonlara girdiğini gösterir (veya mevcut pozisyonlar değerde büyümüştür)."
+    },
+    {
+      "term": "Taker alış/satış oranı",
+      "definition": "Pazar-alıcı alış hacminin satış hacmine oranı. 1,0'dan yüksek, daha agresif alışı (alıcılar soruşu isabet ediyor) anlamına gelir; 1,0'dan düşük, daha agresif satışı (satıcılar teklifi isabet ediyor) anlamına gelir. 0,96 oranı biraz daha agresif satışı gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "336023c43cc237a0"
+}

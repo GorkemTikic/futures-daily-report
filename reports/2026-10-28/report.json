@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-28",
+  "kind": "market",
+  "dateLong": "Wednesday, 28 October 2026",
+  "coversUTC": "2026-10-28 00:00–23:59 UTC",
+  "oneLine": "The Federal Reserve held rates steady with two officials dissenting in favor of a hike; Bitcoin and Ethereum posted modest gains as infrastructure upgrades and institutional adoption continued.",
+  "newsCount": 12,
+  "macro": {
+    "BTC": 0.5341688789748903,
+    "ETH": 0.395002873135131
+  },
+  "topMover": {
+    "symbol": "IDOLUSDT",
+    "chgPct": 69.8812351543943
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "29 Oct 15:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
