@@ -1,0 +1,142 @@
+{
+  "oneLine": "Salı, 27 Ekim: Bitcoin ve Ethereum her biri yaklaşık %1 kazandı, kurumsal desteklerin kripto düzenleme ve bankacılık entegrasyonuna yatırım yapması geniş pazar gücü ve uzun vadeli benimseme sinyali verdi.",
+  "caveman": "Salı günü Bitcoin %1'den az yükseldi, Ethereum biraz daha fazla yükseldi. Diğer paraların çoğu da yükseldi—her 100'den 77'si. Fiyatın yükselmesine bahis yapanlar, düşmesine bahis yapanlardan neredeyse 2 kat daha fazla oldu. Büyük haberler çıktı: Amerika'nın Hazine Sekreteri kripto paranın Amerika'nın parasını dünya çapında güçlü tuttuğunu söyledi, ve Ripple adında büyük bir kripto şirketi sonunda gerçek bir banka işletme izni aldı. Bitcoin'i ödünç veren ticcaretçiler hala para kazanıyorlar (bu fiyatların yüksek kalması bekleniyor demektir), ve küçük bir para %73 düşmüş olsa bile, genel pazar sakin ve yükseliş beklentisi taşıdı.",
+  "priceVolumeSummary": "Bitcoin %0,94 yükselişle $80.868'e, Ethereum %1,11 yükselişle $2.349,29'a çıktı. Binance işlem hacminde lider konumdaydı; Bitcoin için $8,24 milyar, Ethereum için $5,99 milyar işlem gördü. Fiyatlar beş büyük borsada sıkı bir şekilde uyumlu seyretti.",
+  "positioningSummary": "Bitcoin'in finansman oranı 8 saatlik periyotta 0,000057'de (yıllıklandırılmış %6,23), Ethereum'u 0,000084'te (yıllıklandırılmış %9,15) kalmıştır. Bu ticcaretçilerin fiyatların yükselmesini beklediğini ve uzun pozisyon almak için ödeme yapmaya istekli olduğunu göstermektedir. Bitcoin'in açık faiz dolar değeri %0,18, Ethereum'u %0,79 arttı; her iki parada fiyatlar yükselirken kaldıraç artışı görüldü. En büyük ticcaretçiler ağır şekilde uzun pozisyona yatırım yaptı: Bitcoin'in en yüksek pozisyon oranı 1,94'e 1, Ethereum'u 1,83'e 1'di; yani en büyük hesaplar fiyatların yükselmesini neredeyse 2'ye 1 oranında tercih ettiler. Binance'deki alıcı/satıcı oranları her iki para için hafif boğa eğiliminde oldu (BTC 1,04, ETH 1,02); ılımlı net satın alma baskısını gösteriyor. Tüm Binance vadeli işlemlerde piyasaların %77,6'sı günü pozitif kapadı, geniş bir gücü gösteriyor.",
+  "stocksSummary": "ABD hisse senetleri mütevazı yükseldi (S&P 500 +%0,56, Nasdaq +%1,16). Asya yarıiletken stokları sıçradı: SK Hynix, 27 Ekim'de rekor Q3 kazançlarını açıklayan ve net karı $30,1 milyara (yıl öncesine göre %216 artış) ulaşan şirketi %8,86 yükseldi. Samsung Electronics rekor kazanç sonuçları beklentisiyle %7,39 kazandı.",
+  "movers": [
+    {
+      "symbol": "AINUSDT",
+      "explanation": "Infinity Ground (AIN) tokeni token iyileştirme planını destekleyen $3 milyon geri satın alma açıklamasında %123,76 sıçradı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA tokeni teknik kırılma momentumunda %120,29 atladı; açık bir kamu katalizörü tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "Quack AI (Q) tokeni 27 Ekim'de daha geniş altcoin risk-off rotasyonunun bir parçası olarak %73,37 düştü.",
+      "hasCause": true
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Hazine Sekreteri Bessent kripto paranın ABD doları egemenliğini Çin'e karşı güçlendirdiğini söyledi",
+        "what": "Ripple'ın 27 Ekim'de düzenlediği Swell konferansında ABD Hazine Sekreteri Janet Bessent, istikrarlı paraların ve kripto altyapısının Amerika'nın dolar gücünü küresel ölçekte korumak ve Çin'in dijital para çabalarıyla rekabet etmek için stratejik araçlar olduğunu belirtti.",
+        "coins": "all",
+        "timeUTC": "2026-10-27 15:15 UTC (approx, during Swell event)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top"
+      },
+      {
+        "headline": "Ripple ulusal güven bankası olarak faaliyet göstermek için nihai ABD onayını aldı",
+        "what": "Ripple 27 Ekim'de ABD Para Denetleme Ofisi (OCC) tarafından ulusal bir güven bankası kurulması ve işletilmesi için nihai düzenleyici onay aldı. Bu, bir kripto para şirketinin ulusal güven bankası imtiyazı alması ilk kez olmaktadır.",
+        "coins": "XRP, RLUSD",
+        "timeUTC": "2026-10-27 14:00 UTC (approx)",
+        "source": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/banking-law/ripple-gets-final-us-approval-for-national-trust-bank"
+      },
+      {
+        "headline": "ABD CFTC, tahmin pazarı yetki alanını savunmak için Utah'ı dava etti",
+        "what": "CFTC 26 Ekim'de federal bir dava açtı ve 27 Ekim'de açıkladı; Utah'ın tahmin pazarlarına karşı kumar yasalarını uygulamasını engellemek için. Dava CFTC'nin federal olarak düzenlenmiş olay sözleşmeleri üzerindeki münhasır yetkisini savunmak amacıyla 10. eyalet düzeyinde müdahalesidir.",
+        "coins": "none",
+        "timeUTC": "2026-10-27 16:30 UTC (announcement)",
+        "source": "FinanceFeeds",
+        "url": "https://financefeeds.com/cftc-sues-utah-to-defend-federal-control-over-kalshi-and-prediction-markets/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Hazine: kripto, ABD doları rekabeti için Çin ile yarışmak için stratejik bir araçtır",
+          "what": "Hazine Sekreteri Bessent, istikrarlı paraları ve blokzincir altyapısını küresel ABD doları egemenliğini korumak ve Çin'in dijital para girişimleriyle rekabet etmek için hayati öğeler olarak tanımladı.",
+          "coins": "all",
+          "timeUTC": "2026-10-27 15:15 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri 27 Ekim'de $176M girişi gördü, Ethereum ETF'leri $60,2M çıkışı kaydetti",
+          "what": "Bitcoin spot ETF'leri 27 Ekim'de $176 milyon net girişi kaydetti; BlackRock'un IBIT'i $110,3 milyon giriş öncüsü oldu. Ethereum spot ETF'leri $60,2 milyon net çıkışı kaydetti; BlackRock'un ETHA'sı $93,3 milyon düştü.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-27 23:59 UTC",
+          "source": "Farside Investments",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "Ripple ulusal güven bankası işletme izni için OCC onayını aldı",
+          "what": "Ripple 27 Ekim'de ABD OCC'sinden nihai ulusal güven bankası imtiyazını aldı ve böyle bir onay alan ilk kripto para şirketi oldu. Banka RLUSD istikrarlı para rezervleri için saklayıcı olarak hizmet verecek.",
+          "coins": "XRP, RLUSD",
+          "timeUTC": "2026-10-27 14:00 UTC",
+          "source": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/banking-law/ripple-gets-final-us-approval-for-national-trust-bank"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-27",
+    "summary": "Bitcoin spot ETF'leri $176 milyon net girişi kaydetti; BlackRock IBIT (+$110,3M) öncü oldu. Ethereum spot ETF'leri $60,2 milyon net çıkışı kaydetti; BlackRock ETHA -$93,3M'de. Bu gün kurumsal yatırımcıların Bitcoin'i Ethereum'a tercih ettiklerini gösteriyor.",
+    "source": "Farside Investments",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Federal Funds Rate decision (Wed 28 Oct, 18:00 UTC, forecast 4.00%)",
+      "typicalReaction": "Yüksek etkili. Bitcoin ve altcoinler tipik olarak faiz beklentilerine dayanarak keskin hareket ederler. Faiz duraklaması veya indirim raliyeleri tetikler; faiz artırımı sinyalleri sıklıkla satışları tetikler."
+    },
+    {
+      "event": "FOMC Statement (Wed 28 Oct, 18:00 UTC)",
+      "typicalReaction": "Yüksek etkili. Yazılı açıklama, faiz yolu ve enflasyon görünümü yorumunu yönlendirir, kripto fiyat hareketlerini doğrudan etkiler."
+    },
+    {
+      "event": "FOMC Press Conference (Wed 28 Oct, 18:30 UTC)",
+      "typicalReaction": "Yüksek etkili. Fed Başkanı'nın açıklamaları ve tonu sıklıkla ticcaretçilerin pozisyonlarını ayarladıkça keskin gün içi hareketleri tetikler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Kaldıraçlı bahis yapan ticcaretçilerin vadeli işlem sözleşmelerinde her 8 saatte bir değiş tokuş yaptığı ödeme. Pozitif oran, uzun pozisyon ticcaretçilerinin kısa pozisyon ticcaretçilerine ödeme yaptığı anlamına gelir; piyasanın fiyatların yükselmesini beklediğini gösterir."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Vadeli işlem sözleşmelerinde kaldıraçlı pozisyonlarda kilitli olan toplam para miktarı. Artan açık faiz ticcaretçilerin kaldıraç eklediğini, azalan açık faiz pozisyon kapattığını gösterir."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Bir zaman diliminde açık faizin yüzdelik artışı veya azalışı. Ticcaretçilerin kaldıraç konusunda daha boğa mı, daha ayı mı eğilimli hale geldiğini gösterir."
+    },
+    {
+      "term": "Uzun/kısa oran",
+      "definition": "Fiyat yükselmelerine (uzun) karşı fiyat düşüşlerine (kısa) bahis yapan ticcaretçilerin sayısının karşılaştırması. 1'den yukarı uzun pozisyonları, 1'den aşağı kısa pozisyonları gösterir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Vadeli işlem sözleşmelerinde kar ve zararları hesaplamak için kullanılan mevcut referans fiyatı. Vadeli işlem ve spot fiyatlar arasında büyük boşlukları önlemek için tasarlanmıştır."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Satın alma ve satış agresyonunun ölçüsü. 1'den yukarı oran daha agresif satın almayı, 1'den aşağı daha agresif satışı gösterir."
+    },
+    {
+      "term": "En yüksek ticcaretçi pozisyon oranı",
+      "definition": "Yalnızca en büyük ticcaretçiler arasındaki uzun/kısa oranı. Kurumsal paranın boğa mı, ayı mı eğilimli olduğunu ortaya çıkarır."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir dönemde yükselen ve düşen tüm kripto para piyasalarının yüzdesel karşılaştırması. Yüksek genişlik (örneğin, %77 yukarı), geniş pazar gücünü gösterir."
+    },
+    {
+      "term": "İstikrarlı para",
+      "definition": "Sabit bir değeri (genellikle $1 USD) korumak için bankada tutulan gerçek dolarlarla desteklenen kripto para. Değeri sabit kalmak üzere tasarlanmıştır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "2847295636a687cb"
+}

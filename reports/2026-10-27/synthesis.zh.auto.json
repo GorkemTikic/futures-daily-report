@@ -1,0 +1,142 @@
+{
+  "oneLine": "10月27日（周二）：比特币和以太坊各上涨约1%，市场整体走强，机构对加密货币监管和银行合作的支持预示着长期采纳趋势。",
+  "caveman": "周二，比特币上涨不到1%，以太坊涨幅更大一些。大多数其他币也都上涨了——大约100个币里有77个在涨。看涨的交易者数量几乎是看跌交易者的2倍。有个大新闻：美国财政部长说加密货币有助于美元在世界上保持强势，还有一家叫瑞波的大公司终于获准设立真正的银行。出租比特币赚收益的人还在赚钱（这意味着价格预期会继续上涨），虽然有一个小币种暴跌73%，但整个市场保持平静和看涨。",
+  "priceVolumeSummary": "比特币上涨0.94%至$80,868，以太坊上涨1.11%至$2,349.29。币安成交量领先，比特币成交额82.4亿美元，以太坊成交额59.9亿美元，五大交易所价格走势紧密一致。",
+  "positioningSummary": "比特币资金费率保持正值，每8小时0.000057（年化6.23%），以太坊更高为0.000084（年化9.15%），说明交易者看涨后市，愿意为做多头寸付费。比特币未平仓合约美元价值增长0.18%，以太坊增长0.79%，两种币随着价格上升都显示杠杆增加。大户头寸明显偏多：比特币大户多空比为1.94:1，以太坊为1.83:1，说明大机构账户对上涨的押注约2:1。币安挂单买卖比两种币略微看涨（BTC 1.04, ETH 1.02），说明净买盘压力温和。币安所有永续合约中，77.6%的品种当日收涨，显示市场整体走强。",
+  "stocksSummary": "美股温和上涨（标普500指数+0.56%，纳斯达克+1.16%）。亚洲半导体股大涨：SK Hynix于10月27日公布创纪录的第三季度业绩（净利润301亿美元，同比增长216%）后上涨8.86%。Samsung Electronics因预期业绩创纪录而上涨7.39%。",
+  "movers": [
+    {
+      "symbol": "AINUSDT",
+      "explanation": "Infinity Ground（AIN）代币因宣布300万美元回购以支持代币救济计划而暴涨123.76%。",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA代币因技术面突破势头而跳涨120.29%；未发现明确的公开催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "Quack AI（Q）代币因10月27日山寨币风险规避轮动而暴跌73.37%。",
+      "hasCause": true
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "财政部长贝森特称加密货币强化美元对中国的主导地位",
+        "what": "美国财政部长贝森特在10月27日瑞波公司的Swell大会上表示，稳定币和加密货币基础设施是维持美元全球强势和对抗中国数字货币努力的战略工具。",
+        "coins": "all",
+        "timeUTC": "2026-10-27 15:15 UTC (approx, during Swell event)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top"
+      },
+      {
+        "headline": "瑞波获美国最终批准设立国家信托银行",
+        "what": "瑞波公司于10月27日获得美国货币监理署（OCC）的最终监管批准，获得国家信托银行执照，这是加密货币公司首次获此资格。",
+        "coins": "XRP, RLUSD",
+        "timeUTC": "2026-10-27 14:00 UTC (approx)",
+        "source": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/banking-law/ripple-gets-final-us-approval-for-national-trust-bank"
+      },
+      {
+        "headline": "美国CFTC起诉犹他州维护预测市场管辖权",
+        "what": "CFTC于10月26日提起联邦诉讼，10月27日宣布，以阻止犹他州对预测市场实施赌博法。这是CFTC第10次州级诉讼，目的是维护其对联邦监管事件合约的独占权。",
+        "coins": "none",
+        "timeUTC": "2026-10-27 16:30 UTC (announcement)",
+        "source": "FinanceFeeds",
+        "url": "https://financefeeds.com/cftc-sues-utah-to-defend-federal-control-over-kalshi-and-prediction-markets/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "财政部：加密货币是美元对华竞争的战略工具",
+          "what": "财政部长贝森特称，稳定币和区块链基础设施对维持美元全球主导地位和对抗中国数字货币计划至关重要。",
+          "coins": "all",
+          "timeUTC": "2026-10-27 15:15 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF 10月27日净流入1.76亿美元，以太坊ETF净流出6020万美元",
+          "what": "比特币现货ETF 10月27日录得净流入1.76亿美元，其中贝莱德IBIT净流入1.103亿美元领先。以太坊现货ETF净流出6020万美元，贝莱德ETHA下跌9330万美元。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-10-27 23:59 UTC",
+          "source": "Farside Investments",
+          "url": "https://farside.co.uk/btc/"
+        },
+        {
+          "headline": "瑞波获OCC批准设立国家信托银行",
+          "what": "瑞波于10月27日获美国OCC最终国家信托银行执照，成为首家获此批准的加密货币公司。该银行将充当RLUSD稳定币准备金的托管人。",
+          "coins": "XRP, RLUSD",
+          "timeUTC": "2026-10-27 14:00 UTC",
+          "source": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/banking-law/ripple-gets-final-us-approval-for-national-trust-bank"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-27",
+    "summary": "比特币现货ETF录得1.76亿美元净流入，贝莱德IBIT领先（+1.103亿美元）。以太坊现货ETF录得6020万美元净流出，贝莱德ETHA为-9330万美元，显示机构当日更偏好比特币而非以太坊。",
+    "source": "Farside Investments",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Federal Funds Rate decision (Wed 28 Oct, 18:00 UTC, forecast 4.00%)",
+      "typicalReaction": "高影响。比特币和山寨币通常根据利率预期大幅波动。暂停或下调通常触发上涨；升息信号常触发抛售。"
+    },
+    {
+      "event": "FOMC Statement (Wed 28 Oct, 18:00 UTC)",
+      "typicalReaction": "高影响。书面声明驱动对利率路径和通胀展望的解读，直接影响加密货币价格走势。"
+    },
+    {
+      "event": "FOMC Press Conference (Wed 28 Oct, 18:30 UTC)",
+      "typicalReaction": "高影响。美联储主席的言论和语气常引发日内剧烈波动，交易员随之调整头寸。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "交易者在期货合约上每8小时交换一次的杠杆交易支付。正值表示做多交易者向做空交易者付款，说明市场预期价格上升。"
+    },
+    {
+      "term": "未平仓合约量",
+      "definition": "期货合约中杠杆头寸当前锁定的总金额。未平仓合约量上升意味着交易者在加杠杆；下降意味着他们在平仓。"
+    },
+    {
+      "term": "未平仓合约量变化",
+      "definition": "一段时间内未平仓合约量的百分比增减。显示交易者对杠杆的看法是变得更看涨还是更看跌。"
+    },
+    {
+      "term": "多空比",
+      "definition": "看涨（做多）与看跌（做空）交易者数量的对比。高于1表示做多者更多；低于1表示做空者更多。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算期货合约盈亏的当前参考价格，旨在防止期货和现货价格之间出现大幅偏差。"
+    },
+    {
+      "term": "挂单买卖比",
+      "definition": "购买与销售激进程度的衡量。比率高于1表示购买更激进；低于1表示销售更激进。"
+    },
+    {
+      "term": "大户头寸比率",
+      "definition": "仅大交易者之间的多空比，揭示机构资金倾向看涨还是看跌。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "给定时期内上涨与下跌的加密货币市场百分比。高广度（如77%上升）表示整体走强。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "旨在通过由银行持有的真实美元支持而维持固定价值（通常为$1美元）的加密货币。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "2847295636a687cb"
+}

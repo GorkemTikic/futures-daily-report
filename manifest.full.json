@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-29T15:30:37.891Z",
+  "generatedAt": "2026-10-29T15:36:31.487Z",
   "count": 134,
   "counts": {
     "total": 134,
     "market": 47,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-10-28",
   "reports": [
@@ -60,9 +60,9 @@
         "BTC": 0.9438684126110369,
         "ETH": 1.111675389064864
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Tuesday, Oct 27: Bitcoin and Ethereum each gained about 1%, with broad-market strength as institutional backing for crypto regulation and banking integration signaled longer-term adoption.",
+      "oneLine": "Tuesday, Oct 27: Bitcoin and Ethereum each gained about 1%, with broad-market strength as institutional backing for crypto regulation and banking integration signaled longer-term adoption.",
+      "newsCount": 6,
       "topMover": {
         "symbol": "AINUSDT",
         "chgPct": 123.7552742616034
@@ -75,14 +75,12 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-10-27/summary_2026-10-27.html",
