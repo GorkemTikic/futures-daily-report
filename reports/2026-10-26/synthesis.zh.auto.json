@@ -1,0 +1,150 @@
+{
+  "oneLine": "比特币维持在 $80,857 左右，以太坊跌幅 0.2%，企业购买比特币和机构推出代币化基金提振情绪，交易员观望美联储和欧央行的关键决议。",
+  "caveman": "10月26日，比特币和以太坊基本没动——比特币一直在 $80,857 左右，以太坊只跌了一点点到 $2,349。一些小币种波动很大：有个叫Q的币跌了72%，没人知道为什么，但其他币涨了很多。交易员在借钱赌价格会涨（要交一点费用），整个市场来说更多钱进去了。在亚洲，SK Hynix 这样的芯片股涨了5%，因为大家都想要人工智能芯片。整个加密货币市场感觉平静——既不兴奋也不害怕（就是中立）。最大的新闻是像 Strive 这样的大公司买了很多比特币，投资公司 Aviva 把它的英镑基金放在了区块链上。真正的变数是美联储和欧央行本周就要宣布利率决定，这可能会震动整个市场。",
+  "priceVolumeSummary": "币安和所有主要交易所（Bybit、OKX、Bitget、Gate）显示紧密一致的价格：比特币在 $80,857–$80,862 左右，以太坊在 $2,348–$2,349 左右。币安交易量在所有交易所中领先，比特币交易额 $10.5B，以太坊交易额 $7.6B，其次是 OKX 的比特币 $5.6B 和以太坊 $6.0B。",
+  "positioningSummary": "资金费率保持温和看多：比特币年化 7.51%，以太坊年化 7.15%。持仓量分别增长 1.95%（比特币）和 2.04%（以太坊），说明新增杠杆进入市场。多空账户比例处于高位，比特币 2.17:1，以太坊 3.29:1，显示散户有很强的看多偏见。但大户的比例更温和，分别是 1.63:1 和 1.72:1，说明专业交易员保持谨慎。吃单买卖比略低于 1.0（比特币 0.93，以太坊 0.98），说明虽然多头盛行，但卖方稍微更激进。市场广度很好：币安永续合约中 77% 的品种收盘上涨。",
+  "stocksSummary": "亚洲股市因人工智能内存和芯片需求激增大幅上涨。韩国芯片公司 SK Hynix（内存专家）涨 5.1%，三星电子涨 3.7%，Hanmi 涨 4.6%，这些都是在 00:00–06:30 UTC 韩交所交易时段的涨幅。香港生成式人工智能巨头 Zhipu AI 在 01:30–08:00 UTC 港交所交易时段涨 9.6%。杠杆品种也跟风：CSOP SK Hynix 2倍 ETF 涨 10.1%。中国优树机器人在 01:30–07:00 UTC 上交所和深交所交易时段跌 3.3%，这是整体强劲中的一个小回调。大宗商品表现混合：黄金永续涨 1.2%，铜涨 1.7%，白银涨 1.0%，而 WTI 原油跌 1.4%，反映市场对增长和能源需求看法分化。",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "Q 币开盘约 $0.057，涨到最高 $0.214，收盘 $0.199，随后在 23:00 UTC 前崩盘到 $0.054——日内波幅 247.9%。24小时跌幅 −72.74% 意味着从前一交易日大幅反转。没有发现监管公告、交易所上市新闻或产品发布来解释这个波动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AIN 日内从约 $0.083 的开盘价涨 87.1%，收盘 $0.071，随后在 23:00 UTC 前涨到 $0.156。24小时涨幅 130.8% 说明进场时势头强劲。没有找到伴随的新闻公告或协议升级来说明这个走势。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "BULLA 开盘约 $0.092，日内涨 65.9% 至 $0.153，最高 $0.165，随后大幅下跌到 23:00 UTC 的 $0.068。24小时跌幅 55.4% 表示前一交易日有卖压。没有发现明确的公开催化剂。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Strive 以 $511 百万购入比特币，成为第二大企业比特币库",
+        "what": "Strive Inc. 购入 6,182 枚比特币，花费 $511.4 百万，总持仓增至 43,000 枚，平均成本 $82,732。该公司还宣布推出 $10 亿优先股来资助未来比特币购入，展示激进的企业资金库策略。",
+        "coins": "比特币（BTC）",
+        "timeUTC": "2026-10-26 (宣布；购入周期 10月17–23日)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+      },
+      {
+        "headline": "Aviva Investors 在 XRP 账本上推出 £22 亿英镑基金的代币化份额",
+        "what": "Aviva Investors 将其英镑流动性基金（资产规模 £22 亿）的代币化份额推上 XRP 账本，向新代币化份额部署 £50 百万。此举是对今年7月推出的美元代币化基金的扩展，推进机构用户对区块链基础设施的采用。",
+        "coins": "XRP（Ripple 协议）",
+        "timeUTC": "2026-10-26",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+      },
+      {
+        "headline": "比特币现货 ETF 净流入 $110.34 百万，以太坊现货基金净流出 $88.58 百万",
+        "what": "美国比特币现货 ETF 10月26日净流入 $110.34 百万，贝莱德 IBIT 基金贡献最大。以太坊净流出 $88.58 百万，贝莱德 ETHA 跌 $104.71 百万，部分被富达 FETH 的 $16.13 百万流入抵消。美联储决议前的流向分化反映投资者仓位分歧。",
+        "coins": "比特币（BTC）、以太坊（ETH）",
+        "timeUTC": "2026-10-26",
+        "source": "SoSoValue / Farside",
+        "url": "https://farside.co.uk/btc/"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive 以 $511 百万购入比特币，成为第二大企业比特币库",
+          "what": "Strive Inc. 购入 6,182 枚比特币，花费 $511.4 百万，总持仓增至 43,000 枚，平均成本 $82,732。该公司还宣布推出 $10 亿优先股来资助未来比特币购入。",
+          "coins": "比特币（BTC）",
+          "timeUTC": "2026-10-26",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+        },
+        {
+          "headline": "Aviva Investors 在 XRP 账本上推出 £22 亿英镑基金的代币化份额",
+          "what": "Aviva Investors 将其英镑流动性基金的代币化份额推上 XRP 账本，向新代币化份额部署 £50 百万。该基金持有高质量英镑计价短期债务，采用数字孪生模式运作。",
+          "coins": "XRP（Ripple 协议）",
+          "timeUTC": "2026-10-26",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+        },
+        {
+          "headline": "比特币现货 ETF 净流入 $110.34 百万，以太坊现货基金净流出 $88.58 百万",
+          "what": "美国比特币现货 ETF 在10月26日净流入 $110.34 百万，贝莱德 IBIT 基金贡献最大。以太坊净流出 $88.58 百万，贝莱德 ETHA 跌 $104.71 百万。",
+          "coins": "比特币（BTC）、以太坊（ETH）",
+          "timeUTC": "2026-10-26",
+          "source": "SoSoValue",
+          "url": "https://farside.co.uk/btc/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[背景] Zcash 十周年纪念掀起关于开发者补助的治理争议",
+          "what": "Zcash 在10月28日迎来十周年（背景信息）。联合创始人 Sean Bowe 提议取消自动拨款，理由是库金现值超 $125 百万。这场争议反映区块链从早期融资阶段向自给自足的转变。",
+          "coins": "Zcash（ZEC）",
+          "timeUTC": "2026-10-27/28（背景：报告日之后）",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-27-zcash-co-founder-proposes-ending-grants-subsidy-citing-125-million-treasury-431847"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-26",
+    "summary": "比特币现货 ETF 净流入 $110.34 百万，贝莱德 IBIT 基金是主要驱动力。以太坊现货 ETF 净流出 $88.58 百万：贝莱德 ETHA 下跌 $104.71 百万，部分被富达 FETH 的 $16.13 百万流入抵消。",
+    "source": "SoSoValue / Farside",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Federal Reserve (FOMC) Rate Decision and Press Conference — Oct 28, 18:00–18:30 UTC",
+      "typicalReaction": "加密市场大幅变动的重要触发点。美联储关于利率和通胀前景的信号通常会引发加密资产重新定价，因为利率会影响套利交易动态和风险偏好。预计整个加密现货和衍生品市场将出现高波动。"
+    },
+    {
+      "event": "Bank of Canada, Reserve Bank of New Zealand, Australia CPI — Oct 28, 00:30–13:45 UTC",
+      "typicalReaction": "次要变动因素。加拿大央行和新西兰央行的利率决议可能影响风险开启/关闭情绪。澳大利亚 CPI 会影响澳元套利交易和区域利率预期。"
+    },
+    {
+      "event": "Advance US GDP, Core PCE, US Personal Income — Oct 29, 12:30 UTC",
+      "typicalReaction": "高影响力经济数据。强劲的增长和通胀数据可能会施压美联储预期，可能抑制加密资产风险偏好；弱数据可能引发避险需求。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货合约的标记价格与标的现货价格的差异。在加密交易所中，基差帮助交易员判断多头持仓是在赚取还是支付资金费用。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "周期性费用，在持有永续期货多头和空头的交易者之间支付。正费率表示多头支付空头（看多偏见），负费率表示空头支付多头（看空偏见）。用百分比表示并按年化计算。"
+    },
+    {
+      "term": "多空账户比例",
+      "definition": "持有多头（看多）仓位的账户数与持有空头（看空）仓位的账户数的比值。高于 1.0 表示看多交易员更多；低于 1.0 表示看空交易员更多。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续期货仓位盈亏的参考价格，旨在通过对现货价格和近期资金费用机制求平均来防止操纵。与最后成交价略有不同。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "永续期货市场中所有未平仓合约的总数（或合约的美元价值）。持仓量增加表示新资本进场；下降表示仓位被平仓或被强平。"
+    },
+    {
+      "term": "持仓量变化",
+      "definition": "特定时期内持仓量的百分比增减（本报告中为日内变化）。正变化表示看多杠杆累积；负变化表示风险释放。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "立即成交卖盘的买单（主动买入）与立即成交买盘的卖单（主动卖出）的比值。高于 1.0 表示主动买入更多；低于 1.0 表示主动卖出更多。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "仅针对最大交易员和仓位计算的多空比，而非所有散户账户。通常比全体交易员比例更温和，显示专业级/机构级玩家的仓位。"
+    },
+    {
+      "term": "交易所",
+      "definition": "加密货币交易所或交易平台。本报告覆盖五个主要交易所：币安、Bybit、OKX、Bitget 和 Gate。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "f556d1694d58b5c1"
+}

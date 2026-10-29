@@ -1,0 +1,149 @@
+{
+  "oneLine": "Bitcoin held steady around $80,857 while Ethereum fell 0.2%, with corporate treasury buying and institutional tokenization announcements lifting sentiment as traders awaited major central bank decisions.",
+  "caveman": "On October 26, Bitcoin and Ethereum didn't move much—Bitcoin stayed around $80,857 and Ethereum dropped just a tiny bit to around $2,349. Some smaller coins had wild swings: one called Q crashed 72% because of something nobody can explain yet, while others jumped huge amounts. Traders were borrowing money to bet on prices going up (paying a small fee for that), and more money entered the market overall. In Asia, computer chip stocks like SK Hynix jumped 5% because everyone wants AI memory chips. The whole crypto market felt calm—not excited, not scared (neutral). The biggest news was that big companies like Strive bought lots of Bitcoin, and an investment company called Aviva put its sterling fund on the blockchain. The real wild card is the US Federal Reserve and European Central Bank are about to announce interest rate decisions this week, which could shake everything up.",
+  "priceVolumeSummary": "Binance and all major venues (Bybit, OKX, Bitget, Gate) showed tight agreement: Bitcoin around $80,857–$80,862, Ethereum around $2,348–$2,349. Binance led volume across all venues with $10.5B in BTC and $7.6B in ETH trading, followed closely by OKX at $5.6B BTC and $6.0B ETH.",
+  "positioningSummary": "Funding rates stayed moderately bullish: Bitcoin at 7.51% annualized, Ethereum at 7.15% annualized. Open interest grew by 1.95% for Bitcoin and 2.04% for Ethereum, signaling new leverage entering the market. Long/short account ratios were elevated at 2.17:1 for Bitcoin and 3.29:1 for Ethereum, showing strong retail bullish bias. However, top traders (largest positions) were less extreme at 1.63:1 and 1.72:1 respectively, suggesting sophisticated players remained cautious. Taker buy/sell ratios sat just below 1.0 (0.93 for BTC, 0.98 for ETH), indicating slightly more aggressive selling despite the long bias. Market breadth was strong: 77% of Binance perpetual contracts finished the day up.",
+  "stocksSummary": "Asian equities surged on AI-driven demand for memory and semiconductor capacity. South Korea's SK Hynix (memory specialist) jumped 5.1%, Samsung Electronics added 3.7%, and Hanmi rallied 4.6%, all in the 00:00–06:30 UTC session (KRX). Hong Kong's Zhipu AI, a major generative-AI provider, climbed 9.6% during the 01:30–08:00 UTC session (HKEX). Leveraged plays reflected the momentum: CSOP SK Hynix 2x ETF surged 10.1%. China's Unitree Robotics fell 3.3% in the 01:30–07:00 UTC session (SSE/SZSE), a modest pullback amid broader Asia strength. Commodities showed mixed action: gold perpetuals rose 1.2%, copper 1.7%, and silver 1.0%, while WTI crude oil fell 1.4%, reflecting bifurcated sentiment on growth versus energy demand.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "Q token opened around $0.057, rallied to a high of $0.214, closed at $0.199, then crashed to $0.054 by 23:00 UTC—a 247.9% intraday swing. The 24-hour move of −72.74% suggests a sharp reversal from prior sessions. No regulatory announcement, exchange listing news, or product launch was identified to explain the volatility.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AIN rose 87.1% intraday from an open around $0.083 to close at $0.071 and rally to $0.156 by 23:00 UTC. The 130.8% 24-hour gain indicates strong momentum into the day. No accompanying news announcement or protocol upgrade was found to account for the move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "BULLA opened around $0.092, rose 65.9% intraday to close at $0.153 with a high of $0.165, then fell sharply to $0.068 by 23:00 UTC. The 55.4% 24-hour loss suggests selling pressure from the prior session. No identifiable public catalyst.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Strive closes in on second-largest corporate Bitcoin treasury with $511 million purchase",
+        "what": "Strive Inc. acquired 6,182 Bitcoin for $511.4 million, raising its total holdings to 43,000 BTC at an average price of $82,732 per coin. The firm also announced a $1 billion preferred stock offering to fund future Bitcoin purchases, signaling an aggressive corporate treasury strategy.",
+        "coins": "Bitcoin (BTC)",
+        "timeUTC": "2026-10-26 (announced; purchase period Oct 17–23)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+      },
+      {
+        "headline": "Aviva Investors launches tokenized share class of £22 billion sterling fund on XRP Ledger",
+        "what": "Aviva Investors brought a tokenized share class of its Sterling Liquidity Fund (£22 billion in assets) to the XRP Ledger, deploying £50 million in the fund's new tokenized class. The move follows an earlier July launch of a USD-denominated tokenized fund on XRPL, expanding institutional use of blockchain infrastructure.",
+        "coins": "XRP (ripple protocol)",
+        "timeUTC": "2026-10-26",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+      },
+      {
+        "headline": "Bitcoin ETFs attract $110.34 million while Ethereum spot funds shed $88.58 million",
+        "what": "U.S. spot Bitcoin ETFs recorded $110.34 million in net inflows, with BlackRock's IBIT driving the gains. Ethereum saw $88.58 million in outflows as BlackRock's ETHA declined by $104.71 million, only partially offset by Fidelity's FETH inflow of $16.13 million. Diverging flows reflect mixed investor positioning ahead of Fed decisions.",
+        "coins": "Bitcoin (BTC), Ethereum (ETH)",
+        "timeUTC": "2026-10-26",
+        "source": "SoSoValue / Farside",
+        "url": "https://farside.co.uk/btc/"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive closes in on second-largest corporate Bitcoin treasury with $511 million purchase",
+          "what": "Strive Inc. acquired 6,182 Bitcoin for $511.4 million, raising its total holdings to 43,000 BTC at an average price of $82,732 per coin. The firm also announced a $1 billion preferred stock offering to fund future Bitcoin purchases.",
+          "coins": "Bitcoin (BTC)",
+          "timeUTC": "2026-10-26",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+        },
+        {
+          "headline": "Aviva Investors launches tokenized share class of £22 billion sterling fund on XRP Ledger",
+          "what": "Aviva Investors brought a tokenized share class of its Sterling Liquidity Fund to the XRP Ledger, deploying £50 million. The fund holds high-quality sterling-denominated short-term debt and operates on a digital twin model.",
+          "coins": "XRP (ripple protocol)",
+          "timeUTC": "2026-10-26",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+        },
+        {
+          "headline": "Bitcoin ETFs attract $110.34 million while Ethereum spot funds shed $88.58 million",
+          "what": "U.S. spot Bitcoin ETFs recorded $110.34 million in net inflows on October 26, with BlackRock's IBIT driving the gains. Ethereum saw $88.58 million in outflows as BlackRock's ETHA fell $104.71 million.",
+          "coins": "Bitcoin (BTC), Ethereum (ETH)",
+          "timeUTC": "2026-10-26",
+          "source": "SoSoValue",
+          "url": "https://farside.co.uk/btc/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[CONTEXT] Zcash 10-year anniversary sparks governance debate over developer subsidies",
+          "what": "Zcash reached its 10-year milestone on October 28 (context). Co-founder Sean Bowe proposed ending automatic grants funding, citing a treasury valuation exceeding $125 million. The debate highlights the blockchain's shift from early-stage funding to self-sufficiency.",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "2026-10-27/28 (context: just after report day)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-27-zcash-co-founder-proposes-ending-grants-subsidy-citing-125-million-treasury-431847"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-26",
+    "summary": "Bitcoin spot ETFs recorded $110.34 million in net inflows, with BlackRock's IBIT as the primary driver. Ethereum spot ETFs saw $88.58 million in net outflows: BlackRock's ETHA declined by $104.71 million, partially offset by Fidelity's FETH gaining $16.13 million.",
+    "source": "SoSoValue / Farside",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Federal Reserve (FOMC) Rate Decision and Press Conference — Oct 28, 18:00–18:30 UTC",
+      "typicalReaction": "Major crypto price mover. Fed signaling on interest rates and inflation outlook typically causes sharp crypto repricing as rates affect carry-trade dynamics and risk appetite. Expected to be high volatility across crypto spot and derivatives."
+    },
+    {
+      "event": "Bank of Canada, Reserve Bank of New Zealand, Australia CPI — Oct 28, 00:30–13:45 UTC",
+      "typicalReaction": "Secondary mover. BoC and RBNZ rate decisions can influence risk-off/risk-on sentiment. Australian CPI affects AUD carry trades and regional interest rate expectations."
+    },
+    {
+      "event": "Advance US GDP, Core PCE, US Personal Income — Oct 29, 12:30 UTC",
+      "typicalReaction": "High-impact economic data. Strong growth and inflation readings could pressure Fed expectations and may curb crypto risk appetite; weak readings could trigger safe-haven demand."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between a futures contract's mark price and the underlying spot price. On crypto exchanges, basis informs traders whether long positions are earning or paying funding."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic fee paid between traders holding long and short perpetual futures positions. Positive funding means longs pay shorts (bullish bias), negative means shorts pay longs (bearish bias). Expressed as a percentage and annualized in this report."
+    },
+    {
+      "term": "Long/short account ratio",
+      "definition": "The ratio of all accounts holding long (bullish) positions to those holding short (bearish) positions. Values above 1.0 indicate more bullish traders; below 1.0 indicate more bearish traders."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate profit and loss on perpetual futures positions, designed to prevent manipulation by averaging the spot price with recent funding mechanics. Differs slightly from the last-traded price."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open contracts (or dollar value of contracts) in a perpetual futures market. Growth indicates new capital entering; decline indicates positions being closed or liquidated."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in open interest over a specific period (in this report, the calendar day). Positive change signals bullish leverage accumulation; negative signals de-risking."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of buy orders that immediately match existing sell orders (aggressive buying) to sell orders that immediately match existing buy orders (aggressive selling). Values above 1.0 favor aggressive buying; below 1.0 favor aggressive selling."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The long/short ratio calculated only for the largest traders and positions, not all retail accounts. Often less extreme than the all-trader ratio, showing the positioning of sophisticated/institutional-scale players."
+    },
+    {
+      "term": "Venue",
+      "definition": "A cryptocurrency exchange or trading platform. This report covers five major venues: Binance, Bybit, OKX, Bitget, and Gate."
+    }
+  ],
+  "_source": "cli"
+}

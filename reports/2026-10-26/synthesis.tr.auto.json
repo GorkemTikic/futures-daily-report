@@ -1,0 +1,150 @@
+{
+  "oneLine": "Bitcoin $80,857 civarında sabit kalırken Ethereum %0,2 düştü. Şirketlerin hazinelerine Bitcoin satın alması ve kurumsal tokenizasyon duyuruları pazar duygusunu yükseltirken, tüccarlar merkez bankalarının önemli faiz kararlarını bekledi.",
+  "caveman": "26 Ekim'de Bitcoin ve Ethereum pek hareket etmedi. Bitcoin $80,857'de durdu, Ethereum ise $2,349'a hafifçe düştü. Bazı küçük paralar çok oynadı: Q isimli jeton %72 çöktü ama kimse neden olduğunu bilmiyor; bazıları ise muazzam şekilde yükseldi. Tüccarlar fiyatların yükseleceğine bahis oynamak için borç alıyor (bunun için küçük ücret ödüyorlar) ve daha fazla para pazara giriyor. Asya'da SK Hynix gibi çip şirketleri %5 yükseldi çünkü yapay zeka hafıza çipleri çok arıyor. Tüm kripto pazarı sakin görünüyordu—ne heyecanlı ne de korkulu (nötr). Büyük haber, Strive gibi şirketlerin tonla Bitcoin aldığı ve Aviva denilen bir yatırım firmasının sterlin fonunu blokzincire koyduğu oldu. Asıl soru işareti ise ABD Federal Rezervi ve Avrupa Merkez Bankası'nın bu hafta faiz kararını açıklaması—bu her şeyi değiştirebilir.",
+  "priceVolumeSummary": "Binance ve tüm ana borsalar (Bybit, OKX, Bitget, Gate) sıkı bir uyum gösterdi: Bitcoin yaklaşık $80,857–$80,862, Ethereum yaklaşık $2,348–$2,349. Binance tüm borsalarda hacim öncülüğü yaptı: BTC'de $10,5 milyar ve ETH'de $7,6 milyar işlem hacmi ile, bunu OKX'in $5,6 milyar BTC ve $6,0 milyar ETH'si yakından takip etti.",
+  "positioningSummary": "Finansman oranları ılımlı derecede yükselişçi kaldı: Bitcoin %7,51 yıllıklandırılmış, Ethereum %7,15 yıllıklandırılmış. Açık pozisyon Bitcoin için %1,95 ve Ethereum için %2,04 oranında arttı; pazara yeni kaldıraç girişi sinyali. Uzun/kısa hesap oranları Bitcoin'de 2,17:1 ve Ethereum'da 3,29:1 ile yüksek tutuldu; güçlü perakende yükselişçi eğilimi gösterdi. Ancak en büyük tüccarlar (en büyük pozisyonlar) daha az aşırıydı—sırasıyla 1,63:1 ve 1,72:1—bu da sofistike oyuncuların temkinli kaldığını gösterdi. Alıcı/satıcı oranları 1,0'ın az altında durdu (BTC %0,93, ETH %0,98); uzun yanlılığa rağmen biraz daha agresif satış yapıldığını gösterdi. Pazar genişliği güçlüydü: Binance perpetual kontratlarının %77'si günü yukarı kapatıp.",
+  "stocksSummary": "Asya hisse senetleri yapay zeka tarafından teşvik edilen hafıza ve yarıiletken kapasitesi talebinde sıçradı. Güney Kore'nin SK Hynix (hafıza uzmanı) %5,1 atladı, Samsung Electronics %3,7 ekledi, Hanmi ise %4,6 yükseldi—hepsi 00:00–06:30 UTC oturumunda (KRX). Hong Kong'un Zhipu AI (büyük bir yapay zeka sağlayıcısı) 01:30–08:00 UTC oturumunda (HKEX) %9,6 tırmandı. Kaldıraçlı oyunlar momentumu yansıttı: CSOP SK Hynix 2x ETF %10,1 sıçradı. Çin'in Unitree Robotics 01:30–07:00 UTC oturumunda (SSE/SZSE) %3,3 düştü—geniş Asya gücü ortasında mütevazı bir geri çekilme. Emtialar karışık işlem gördü: altın perpetual %1,2 yükseldi, bakır %1,7, gümüş %1,0, WTI ham petrol ise %1,4 düştü; bu büyüme ve enerji talebine karşı bölünmüş duyguyu yansıttı.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "Q jetonu yaklaşık $0.057'de açıldı, $0.214'ün en yükseğine çıktı, $0.199'de kapandı, sonra 23:00 UTC'ye kadar $0.054'e çöktü—günü içinde %247,9'luk bir salınım. 24 saatlik %−72,74'lük hareket, önceki seanslardan keskin bir tersine dönüş önerdi. Hiçbir yasal duyuru, borsa listeleme haberi veya ürün lansmanı, volatiliteyi açıklamak için bulunmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "AIN gün içinde %87,1 yükselişle yaklaşık $0.083'den başlayıp $0.071'de kapanış, 23:00 UTC'ye kadar $0.156'ya yükseldi. 24 saatlik %130,8'lik kazanç güne güçlü momentum gösterdi. Hareketi açıklamak için hiçbir eşlik eden haber duyurusu veya protokol yükseltmesi bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "BULLA yaklaşık $0.092'de açıldı, gün içinde %65,9 yükselerek $0.153'de kapandı ve $0.165 yüksekliğine çıktı, sonra 23:00 UTC'ye kadar $0.068'e keskin şekilde düştü. 24 saatlik %55,4'lük kayıp, önceki seanslardan satış baskısı önerdi. Tanımlanabilir halka açık katalizör yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Strive, $511 milyon satın almış ikinci en büyük kurumsal Bitcoin hazinesine yaklaşıyor",
+        "what": "Strive Inc., $511,4 milyon karşılığında 6.182 Bitcoin satın alarak, toplam varlıklarını coin başına $82.732 ortalama fiyattan 43.000 BTC'ye yükseltti. Firma ayrıca gelecekteki Bitcoin satın alımlarını finanse etmek için $1 milyar imtiyazlı hisse arzı duyurdu; bu, agresif bir kurumsal hazine stratejisini gösterdi.",
+        "coins": "Bitcoin (BTC)",
+        "timeUTC": "2026-10-26 (duyuruldu; satın alma dönemi Eki 17–23)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+      },
+      {
+        "headline": "Aviva Investors, £22 milyarlık sterlin fonunun tokenize hisse sınıfını XRP Ledger'da başlattı",
+        "what": "Aviva Investors, Sterling Likidite Fonunun (£22 milyar varlık) tokenize hisse sınıfını XRP Ledger'a getirdi, fonun yeni tokenize sınıfına £50 milyon yatırım yaptı. Hamle, daha önceki Temmuz ayında USD cinsinden tokenize fonun XRPL'de başlatılmasının ardından geldi; blokzincir altyapısının kurumsal kullanımını genişletti.",
+        "coins": "XRP (ripple protokolü)",
+        "timeUTC": "2026-10-26",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+      },
+      {
+        "headline": "Bitcoin ETF'leri $110,34 milyon çekti, Ethereum spot fonları $88,58 milyon kaybetti",
+        "what": "ABD spot Bitcoin ETF'leri $110,34 milyon net girişi kaydetti, BlackRock'ın IBIT kazançları yönlendirdi. Ethereum, $88,58 milyon çıkışa uğradı çünkü BlackRock'ın ETHA $104,71 milyon düştü; Fidelity'nin FETH'in $16,13 milyon girişi bunu kısmen telafi etti. Farklı akışlar, Fed kararlarından önce karışık yatırımcı konumlandırmasını gösterdi.",
+        "coins": "Bitcoin (BTC), Ethereum (ETH)",
+        "timeUTC": "2026-10-26",
+        "source": "SoSoValue / Farside",
+        "url": "https://farside.co.uk/btc/"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive, $511 milyon satın almış ikinci en büyük kurumsal Bitcoin hazinesine yaklaşıyor",
+          "what": "Strive Inc., $511,4 milyon karşılığında 6.182 Bitcoin satın alarak, toplam varlıklarını coin başına $82.732 ortalama fiyattan 43.000 BTC'ye yükseltti. Firma, gelecekteki Bitcoin satın alımlarını finanse etmek için $1 milyar imtiyazlı hisse arzı duyurdu.",
+          "coins": "Bitcoin (BTC)",
+          "timeUTC": "2026-10-26",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+        },
+        {
+          "headline": "Aviva Investors, £22 milyarlık sterlin fonunun tokenize hisse sınıfını XRP Ledger'da başlattı",
+          "what": "Aviva Investors, Sterling Likidite Fonunun tokenize hisse sınıfını XRP Ledger'a getirdi, £50 milyon yatırım yaptı. Fon, yüksek kaliteli sterlin cinsinden kısa vadeli borç senetleri tutar ve dijital ikiz modelde çalışır.",
+          "coins": "XRP (ripple protokolü)",
+          "timeUTC": "2026-10-26",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+        },
+        {
+          "headline": "Bitcoin ETF'leri $110,34 milyon çekti, Ethereum spot fonları $88,58 milyon kaybetti",
+          "what": "ABD spot Bitcoin ETF'leri 26 Ekim'de $110,34 milyon net girişi kaydetti, BlackRock'ın IBIT kazançları yönlendirdi. Ethereum, $88,58 milyon çıkışa uğradı çünkü BlackRock'ın ETHA $104,71 milyon düştü.",
+          "coins": "Bitcoin (BTC), Ethereum (ETH)",
+          "timeUTC": "2026-10-26",
+          "source": "SoSoValue",
+          "url": "https://farside.co.uk/btc/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[CONTEXT] Zcash'in 10 yıllık yıldönümü, geliştirici sübvansiyonları üzerine yönetişim tartışmasını tetikledi",
+          "what": "Zcash, 28 Ekim'de 10 yıllık dönüm noktasına ulaştı (bağlam). Kurucu ortaklardan Sean Bowe, $125 milyonu aşan hazine değerini gerekçe göstererek otomatik hibe finansmanını sona erdirmeyi önerdi. Tartışma, blokzincirin erken aşama finansmanından bağımsızlığa geçişini vurguluyor.",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "2026-10-27/28 (bağlam: rapor gününden hemen sonra)",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-27-zcash-co-founder-proposes-ending-grants-subsidy-citing-125-million-treasury-431847"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-26",
+    "summary": "Bitcoin spot ETF'leri $110,34 milyon net girişi kaydetti, BlackRock'ın IBIT ana yönlendirici ile. Ethereum spot ETF'leri $88,58 milyon net çıkışa uğradı: BlackRock'ın ETHA $104,71 milyon düştü, Fidelity'nin FETH'in $16,13 milyon kazancı tarafından kısmen dengelendi.",
+    "source": "SoSoValue / Farside",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Federal Reserve (FOMC) Rate Decision and Press Conference — Oct 28, 18:00–18:30 UTC",
+      "typicalReaction": "Kripto fiyatlarında büyük hareketçi. Fed'in faiz oranları ve enflasyon görünümü hakkında sinyalleri genellikle kripto fiyatını keskin şekilde yeniden fiyatlandırır, çünkü oranlar taşıma ticareti dinamikleri ve risk iştahını etkiler. Kripto spot ve türevler genelinde yüksek volatilite bekleniyor."
+    },
+    {
+      "event": "Bank of Canada, Reserve Bank of New Zealand, Australia CPI — Oct 28, 00:30–13:45 UTC",
+      "typicalReaction": "İkincil hareketçi. BoC ve RBNZ faiz kararları risk-off/risk-on duygusunu etkileyebilir. Avustralya TÜFE, AUD taşıma ticaretini ve bölgesel faiz oranı beklentilerini etkiler."
+    },
+    {
+      "event": "Advance US GDP, Core PCE, US Personal Income — Oct 29, 12:30 UTC",
+      "typicalReaction": "Yüksek etkili ekonomik veri. Güçlü büyüme ve enflasyon okumaları Fed beklentilerine baskı yapabilir ve kripto risk iştahını engelleyebilir; zayıf okumalar güvenli liman talebini tetikleyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Baz farkı",
+      "definition": "Bir vadeli kontratın işaretleme fiyatı ile temel alınan spot fiyat arasındaki fark. Kripto borsalarında, baz farkı uzun pozisyonların finansman oranı kazanıp kazanmadığını gösterir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual vadeli kontratlarında uzun ve kısa pozisyon tutan tüccarlar arasında ödenen dönemsel ücret. Pozitif finansman, uzunların kısalara ödediği anlamına gelir (yükselişçi eğilim); negatif finansman, kısaların uzunlara ödediği anlamına gelir (düşüşçü eğilim). Yüzde olarak ifade edilir ve bu raporda yıllıklandırılır."
+    },
+    {
+      "term": "Uzun/kısa hesap oranı",
+      "definition": "Uzun (yükselişçi) pozisyon tutan tüm hesapların, kısa (düşüşçü) pozisyon tutan hesaplara oranı. 1,0'ın üzerindeki değerler daha fazla yükselişçi tüccarı gösterir; 1,0'ın altındaki değerler daha fazla düşüşçü tüccarı gösterir."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Perpetual vadeli pozisyonlardaki kar ve zararı hesaplamak için kullanılan referans fiyat; manipülasyonu önlemek için spot fiyatı son finansman mekaniğiyle ortalaması alınacak şekilde tasarlanmış. Son işlem fiyatından biraz farklıdır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Perpetual vadeli pazarda açık kontratların toplam sayısı (veya kontratların dolar değeri). Büyüme pazara giren yeni sermayeyi gösterir; düşüş, pozisyonların kapatıldığını veya tasfiye edildiğini gösterir."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Belirli bir dönemdeki açık pozisyondaki yüzde artış veya azalış (bu raporda, takvim günü). Pozitif değişim yükselişçi kaldıraç birikimini gösterir; negatif değişim risk azaltmayı gösterir."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Mevcut satış emirleriyle hemen eşleşen satın alma emirlerinin (agresif satın alma), mevcut satın alma emirleriyle hemen eşleşen satış emirlerine (agresif satış) oranı. 1,0'ın üzerindeki değerler agresif satın almayı tercih eder; 1,0'ın altındaki değerler agresif satışı tercih eder."
+    },
+    {
+      "term": "En büyük tüccar uzun/kısa oranı",
+      "definition": "Yalnızca en büyük tüccarlar ve pozisyonlar için hesaplanan uzun/kısa oranı, tüm perakende hesapları değil. Çoğu zaman tüm tüccar oranından daha az aşırı; sofistike/kurumsal ölçekli oyuncuların konumlandırmasını gösterir."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Bir kripto para borsası veya ticaret platformu. Bu rapor beş ana borsayı kapsar: Binance, Bybit, OKX, Bitget ve Gate."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "f556d1694d58b5c1"
+}
