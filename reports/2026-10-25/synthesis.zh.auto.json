@@ -1,0 +1,199 @@
+{
+  "oneLine": "2026年10月25日星期日，比特币和以太坊分别下跌0.9%和1.2%，消息面平淡。虽然融资费率高企、多空比例偏多，但在美联储10月28日利率决议前，激进的卖盘压力抵消了这些看涨信号。",
+  "caveman": "10月25日星期日，比特币（最大的加密货币）下跌约0.9%，至约$79,950；以太坊（第二大的加密货币）下跌约1.2%，至约$2,312。跌幅不大——市场很平静。但这背后有两个矛盾的信号。首先，持有看涨头寸的成本（融资费率）很高，年化约11%，这通常意味着很多交易者认为价格会上升。确实有很多人在押注比特币上升（平均2.2个人看涨对应1个人看跌）。可是另一个信号却显示，实际上有更多人在拼命卖出而不是买入，这是个危险信号。当天下跌的永续合约比上升的多。原因很明确：所有人都在等美联储三天后（10月28日）宣布利率决议。所以交易者都很紧张，有人在平仓套利。这是个很平静的星期日，没什么戏剧，但每个人都在等着看结果。",
+  "priceVolumeSummary": "比特币和以太坊的标记价格在币安、Bybit、OKX、Bitget和Gate等交易所高度一致，彼此相差不超过0.1%。币安的交易量领先全市，比特币永续合约交易量达$5.5亿，以太坊交易量$4.8亿。Bybit和OKX各自的比特币交易量分别达$1.4亿至$1.8亿。",
+  "positioningSummary": "融资费率维持在高位，年化10.95%（币安），反映了持有看涨头寸的交易者成本高企。在币安，比特币的多空比为2.21，以太坊为3.39，表明散户头寸极度看涨。但最大交易者（机构）的比例更温和（比特币1.70，以太坊1.71），表明机构对这轮涨势的承诺不足。主动买卖比为0.96（比特币）和0.91（以太坊），显示激进的卖盘压力：比起主动买入的交易者，更多人在市场价格上主动卖出，这是看空信号，尽管多头比例很高。比特币未平仓量在币安下跌2.4%，以太坊基本持平，表明交易者在美联储决议前平掉了一些头寸。市场广度为负：币安永续合约中仅45.7%上涨，意味着下跌的合约比上升的多。",
+  "stocksSummary": "2026年10月25日（星期日），美国和亚洲股市因周末休市，币安的股票永续合约不能反映标的股票的波动。在CME Globex上交易的商品期货（周末也交易）中，黄金永续合约上涨0.31%，WTI原油下跌0.67%，天然气上涨1.81%。亚洲股市的主要涨跌（事后统计）：SK Hynix（存储芯片制造商）在韩国股市重新开盘后上涨2.86%；Unitree Robotics（在中国上市）在10月26日主要新闻发布前上涨0.83%。",
+  "movers": [
+    {
+      "symbol": "APRUSDT",
+      "explanation": "APR飙升42.2%，收报$0.03954，尽管此前24小时下跌18.92%。日内反转很剧烈，但没有披露的明确原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "CAPUSDT",
+      "explanation": "CAP反弹39.65%，至$0.11179，以弥补此前24小时8.48%的跌幅。反弹没有公布的原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "explanation": "ORDER下跌34.8%，至$0.04577，延续了24小时15.38%的跌幅，表明卖盘压力持续。没有公开的解释。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "AI巨头Anthropic申报IPO；披露上半年营收$16.3B、净亏损$80.7B",
+        "what": "Claude AI的开发者Anthropic在10月26日提交纳斯达克IPO申请，S-1登记声明显示该公司2026年上半年营收$16.3B，净亏损$80.7B。加密交易者对该公司的估值接近$1.9T。这项申报反映了投资者尽管面临巨额亏损和利率敏感性，仍持续看好AI基础设施。",
+        "coins": "所有加密货币——通过AI/科技信心和利率预期传导。",
+        "timeUTC": "2026-10-26 20:00 UTC (approx)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
+      },
+      {
+        "headline": "比特币国库公司Strategy和Strive创纪录购入",
+        "what": "10月26日，Strategy宣布斥资$2.05亿回购优先股同时暂停买入比特币；Strive同时部署$5.11亿购入比特币，与第二大企业国库相差不到1,000 BTC。综合来看，这反映了机构对长期持有比特币的信心，但Strategy转向股份回购也表明其对近期价格动量持谨慎态度。",
+        "coins": "BTC——机构资金流向和国库战略。",
+        "timeUTC": "2026-10-26 18:00 UTC (approx)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+      },
+      {
+        "headline": "印度CoinDCX确认$1,600万USDT失窃；黑客总损失接近$6,000万",
+        "what": "10月26日，孟买交易所CoinDCX确认，其去年遭遇$4,400万黑客攻击后，从已退役钱包中又失窃1,599万USDT。交易所承担此损失。这使该交易所已知黑客总损失接近$6,000万，引发了对主要交易所准备金充足性和安全协议的疑问。",
+        "coins": "USDT和所有交易所上市代币——对交易所托管和准备金的信心。",
+        "timeUTC": "2026-10-26 19:00 UTC (approx)",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "加拿大启动60天咨询期评议稳定币草案；要求1:1准备金",
+          "what": "10月26日，加拿大政府公布稳定币草案监管规则，要求非银行发行方维持1:1准备金，并在三个营业日内完成赎回结算。该规则延续了禁止向稳定币持有者支付利息的做法，与美国GENIUS Act模式一致。",
+          "coins": "USDC、USDT及其他加拿大发行的稳定币。",
+          "timeUTC": "2026-10-26 14:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381889/canada-draft-stablecoin-rules-redemption-fees-ban-yield"
+        },
+        {
+          "headline": "美国OCC完成规则制定；敦促社区银行成为稳定币发行方",
+          "what": "美国财政部货币监理署（OCC）在10月26日宣布，已完成《GENIUS法案》相关规则制定，邀请社区银行申请稳定币支付发行方执照。实施从2027年1月开始。此举可能加快美国银行支持的稳定币应用。",
+          "coins": "USDC、USDT及新发行的银行稳定币。",
+          "timeUTC": "2026-10-26 16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market"
+        },
+        {
+          "headline": "韩国再次考虑延迟加密税；现在瞄准2029年实施",
+          "what": "韩国议员正考虑第四次延迟2020年颁布的加密增益税的实施，推迟至2029年或以后。官员表示，如果没有美国数据分享（预计不会早于2029年），国内交易所用户将承担全部税收负担。",
+          "coins": "所有在韩国上市的加密代币。",
+          "timeUTC": "2026-10-26 08:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitwise上调2036年比特币目标价至$160万",
+          "what": "投资公司Bitwise在10月28日上调其12年期比特币价格预测至$160万，暗示年化收益率34%。这一上调反映了机构对比特币长期价值和宏观对冲作用的信心不断增强。",
+          "coins": "BTC。",
+          "timeUTC": "2026-10-28 10:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-432010"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aviva Investors在XRP账本上推出代币化英镑基金；Ripple合作",
+          "what": "英国资产管理公司Aviva Investors在10月26日于Ripple支持的XRP账本上推出其£22B英镑流动性基金的代币化份额类别，并承诺投入£5,000万（约$6,600万）支持该举措。这代表传统金融资产区块链结算的机构应用在增长。",
+          "coins": "XRP——区块链基础设施和代币化资产应用。",
+          "timeUTC": "2026-10-26 09:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+        },
+        {
+          "headline": "NBA与CFTC签署协议；采用Kalshi和Polymarket作为首选预测交易所",
+          "what": "美国职业篮球协会（NBA）与美国商品期货交易委员会（CFTC）在10月26日签署谅解备忘录，以建立NBA预测市场内幕交易防护措施。Kalshi和Polymarket被定为首选交易所，继之前与MLB和NHL的协议。",
+          "coins": "预测市场平台和衍生品基础设施。",
+          "timeUTC": "2026-10-26 19:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Electrum比特币钱包漏洞确认；恶意服务器转向用户资金",
+          "what": "安全研究人员在10月26日确认了Electrum比特币钱包软件中的一个漏洞，恶意服务器可以拦截待处理交易并将其转向攻击者地址。建议用户立即更新。",
+          "coins": "BTC——钱包安全。",
+          "timeUTC": "2026-10-26 17:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381844/bitcoin-wallet-flaw-trick-users-paying-attackers"
+        },
+        {
+          "headline": "Vultisig加密钱包修复关键私钥恢复漏洞",
+          "what": "Vultisig披露并合并了一项修复（2026年8月），针对一个关键漏洞：恶意ECDSA签名消息可能允许已被破坏的签署者在多条区块链上恢复用户的私钥。用户应验证他们运行的是最新版本。",
+          "coins": "多链；密钥管理安全。",
+          "timeUTC": "2026-08-19 UTC (patched; disclosed Oct 25)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/august-updates-block-critical-private-key-leak-in-crypto-wallet-vultisig/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美联储将于10月28日宣布利率决议；18:00 UTC发布FOMC声明",
+          "what": "美国联邦储备委员会定于10月28日18:00 UTC宣布货币政策决议，18:30 UTC举行新闻发布会。市场预期联邦基金利率将维持在4.00%。此宣布直接影响全球长期风险偏好和资产定价。",
+          "coins": "BTC、ETH——宏观情绪和利率预期。",
+          "timeUTC": "2026-10-28 18:00 UTC (scheduled)",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Federal Reserve Rate Decision & FOMC Statement, October 28 at 18:00 UTC",
+      "typicalReaction": "影响极大——加密市场对美国利率预期很敏感。维持不变（不降息）可能触发BTC/ETH下跌2-4%。降息信号通常在24小时内触发3-5%的反弹。"
+    },
+    {
+      "event": "US Advance GDP (q/q), Core PCE (m/m), and Jobless Claims, October 29 at 12:30 UTC",
+      "typicalReaction": "影响很大——好于预期的增长和更高的通胀读数通常损伤加密情绪（预示利率长期维持高位）。数据转弱则可提振风险偏好。"
+    },
+    {
+      "event": "ECB Rate Decision, October 29 at 12:45 UTC",
+      "typicalReaction": "影响中等偏高——欧洲政策举动可改变全球流动性情绪，通常随后影响美国风险偏好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "市场广度",
+      "definition": "在一个交易日内上涨的所有资产（这里指币安永续合约）的百分比。45.7%的市场广度意味着下跌的合约比上升的多，表明广泛的卖盘压力而非少数资产的集中反弹。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "永续期货中多头（看涨）和空头（看跌）交易者之间每8小时或每小时的支付。高费率（如年化10.95%）意味着多头头寸持有者向空头支付，这在市场非常看涨且多头需求超过供给时发生。当费率转负时，空头向多头支付。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "对资产价格上升的赌注。如果你购买比特币并预期价格上升，你就持有多头头寸。"
+    },
+    {
+      "term": "多空比",
+      "definition": "看涨（多头）交易者与看跌（空头）交易者的比例。比例2.21意味着每1个空头对应2.21个多头——强烈看涨倾向。比例高于2.0表示极度拥挤的看涨情绪，如果情绪转变可能预示反转。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "永续期货合约的官方价格，旨在紧跟现货（常规市场）价格，防止合约价格与现实相差太远。"
+    },
+    {
+      "term": "未平仓量",
+      "definition": "期货市场中所有当前未平仓（未结算）多头和空头头寸的总美元价值。未平仓量上升意味着新交易者进入杠杆交易；未平仓量下降意味着交易者平仓并去杠杆。"
+    },
+    {
+      "term": "未平仓量变化",
+      "definition": "从一个日期或时间到另一个日期或时间，总未平仓头寸的百分比增减。-2.4%的变化意味着市场中的总杠杆收缩，交易者平仓多于开仓。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "一种杠杆（借用资金）期货合约，没有到期日。交易者可以通过支付定期融资费无限期持有永续合约。与会到期的标准期货不同，永续合约除非交易者平仓，否则永不结算。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "对资产价格下降的赌注。如果你借入比特币、卖出，并预期价格下跌以便以更低的价格买回，你就持有空头头寸。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "一个时期内积极（市场价格）买入者与积极（市场价格）卖出者的比例。比例低于1意味着更多交易者积极卖出而非买入——看空信号。高于1表示积极买入。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "最大和最老练交易者（机构和高净值个人）的多空比，而非普通散户。这表明大资金的头寸方向，通常比散户比例更能预测未来走势。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "9135c0f42775af55"
+}

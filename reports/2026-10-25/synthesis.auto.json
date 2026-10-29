@@ -1,0 +1,198 @@
+{
+  "oneLine": "On Sunday 2026-10-25, Bitcoin and Ethereum fell 0.9% and 1.2% respectively on light news, with elevated funding costs and bullish long/short ratios offset by aggressive selling pressure ahead of the Federal Reserve's October 28 decision.",
+  "caveman": "On Sunday, October 25, Bitcoin (the biggest cryptocurrency) dropped about 0.9% to around $79,950, and Ethereum (the second-biggest) dropped about 1.2% to around $2,312. These were not huge moves—the market was pretty calm. But behind the scenes, there were two conflicting stories. First, the cost to hold a long position (called the funding rate) was very high at about 11% a year, which normally means lots of traders expect prices to go up. And indeed, many people were betting Bitcoin would rise (about 2.2 people betting up for every 1 betting down). BUT, the other signals said there was actually more people aggressively selling than buying, which is a warning sign. More perpetual contracts fell than rose that day. The reason for all this was clear: everyone was waiting for the US Federal Reserve to announce interest rate decisions three days later, on October 28. So traders were nervous and taking some money off the table. It was a calm Sunday with no drama, but everyone was watching the clock.",
+  "priceVolumeSummary": "Bitcoin and Ethereum marked prices were tightly consistent across Binance, Bybit, OKX, Bitget, and Gate, all agreeing within 0.1% of each other. Binance led overall volume with $5.5 billion in Bitcoin perpetuals and $4.8 billion in Ethereum, while Bybit and OKX each commanded 1.4–1.8 billion in Bitcoin volume respectively.",
+  "positioningSummary": "Funding rates stood elevated at 10.95% annualized (Binance), signaling sustained costs for traders holding bullish positions. On Binance, Bitcoin's long/short ratio of 2.21 and Ethereum's of 3.39 indicated very bullish retail positioning, while the largest traders' ratio (1.70 for Bitcoin, 1.71 for Ethereum) was more moderate, suggesting institutions were less committed to the rally. Taker buy/sell ratios of 0.96 (Bitcoin) and 0.91 (Ethereum) showed aggressive selling pressure: more traders aggressively sold at market price than bought, a bearish signal despite the high long ratios. Open interest fell 2.4% on Bitcoin (Binance) and was flat on Ethereum, indicating traders were closing some positions ahead of the Fed decision. Market breadth was negative: only 45.7% of Binance perpetuals rose, meaning more contracts fell than rose.",
+  "stocksSummary": "US and Asian equity markets were closed for the weekend on 2026-10-25 (Sunday), so stock perpetuals on Binance did not reflect moves in underlying equities. Commodity futures on CME Globex (which trade weekends) saw gold perps up 0.31%, WTI crude oil down 0.67%, and natural gas up 1.81%. Top movers in Asian stocks as reported retrospectively: SK Hynix (memory-chip maker) up 2.86% when Korean markets reopened; Unitree Robotics (China-listed) up 0.83% before any major news on Oct 26.",
+  "movers": [
+    {
+      "symbol": "APRUSDT",
+      "explanation": "APR surged 42.2% to close at 0.03954 despite a 24-hour prior decline of 18.92%. The intraday reversal was sharp but had no disclosed catalyst.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CAPUSDT",
+      "explanation": "CAP rallied 39.65% to 0.11179 to recover from an earlier 24-hour loss of 8.48%. No announced reason for the recovery.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "explanation": "ORDER dropped 34.8% to 0.04577, extending a 24-hour decline of 15.38%, suggesting ongoing selling pressure. No public explanation available.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "AI Giant Anthropic Files for IPO; Reports $16.3B Revenue, $80.7B Net Loss",
+        "what": "Anthropic, the maker of Claude AI, filed for a Nasdaq IPO on October 26 with an S-1 registration statement disclosing $16.3 billion in first-half 2026 revenue and an $80.7 billion net loss. Crypto traders valued the company near $1.9 trillion. The filing signals continued investor appetite for AI infrastructure despite large losses and potential rate sensitivity.",
+        "coins": "All crypto — sentiment via AI/tech confidence and rate expectations.",
+        "timeUTC": "2026-10-26 20:00 UTC (approx)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
+      },
+      {
+        "headline": "Bitcoin Treasury Firms Strategy and Strive Make Record Purchases",
+        "what": "On October 26, Strategy announced $205 million in preferred-stock buybacks while pausing Bitcoin purchases; Strive simultaneously deployed $511 million to buy Bitcoin, moving within 1,000 BTC of the second-largest corporate treasury. Combined, these reflect institutional conviction in long-term Bitcoin accumulation, though Strategy's shift to share buybacks signals caution on immediate price momentum.",
+        "coins": "BTC — institutional flow and treasury strategies.",
+        "timeUTC": "2026-10-26 18:00 UTC (approx)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+      },
+      {
+        "headline": "India's CoinDCX Confirms $16 Million USDT Loss; Total Hack Damages Near $60 Million",
+        "what": "On October 26, Mumbai-based exchange CoinDCX confirmed that 15.99 million USDT was drained from wallets it had retired following its $44 million hack last year. The exchange is absorbing the loss. This brings total known losses from hacks to nearly $60 million, raising questions about the adequacy of reserves and security protocols at major exchanges.",
+        "coins": "USDT and all exchange-listed tokens — confidence in exchange custody and reserves.",
+        "timeUTC": "2026-10-26 19:00 UTC (approx)",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Canada Opens 60-Day Consultation on Draft Stablecoin Rules; Requires 1:1 Reserves",
+          "what": "On October 26, the Canadian government unveiled draft stablecoin regulations requiring non-bank issuers to maintain one-to-one reserve backing and settle redemptions within three business days. The rules maintain a ban on paying interest to stablecoin holders, aligning with the US GENIUS Act model.",
+          "coins": "USDC, USDT, and other stablecoins issued from Canada.",
+          "timeUTC": "2026-10-26 14:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381889/canada-draft-stablecoin-rules-redemption-fees-ban-yield"
+        },
+        {
+          "headline": "US OCC Finalizes Rules; Calls on Community Banks to Become Stablecoin Issuers",
+          "what": "The US Office of the Comptroller of the Currency announced on October 26 that it has finalized rules under the GENIUS Act inviting community banks to obtain licenses as stablecoin payment issuers. Implementation begins in January 2027. The move could accelerate bank-backed stablecoin adoption in the US.",
+          "coins": "USDC, USDT, and new bank-issued stablecoins.",
+          "timeUTC": "2026-10-26 16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market"
+        },
+        {
+          "headline": "South Korea Mulls Delaying Crypto Tax Again; Now Eyeing 2029 Implementation",
+          "what": "South Korean lawmakers are considering a fourth delay to the 2020-enacted crypto gains tax, pushing implementation to 2029 or later. Officials cite concerns that without US data-sharing (not expected until 2029), domestic exchange users would bear the full tax burden.",
+          "coins": "All Korean-listed crypto tokens.",
+          "timeUTC": "2026-10-26 08:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitwise Raises Bitcoin Price Target to $1.6 Million by 2036",
+          "what": "Investment firm Bitwise upgraded its 12-year Bitcoin price forecast to $1.6 million on October 28, implying 34% annualized returns. The upgrade reflects broadening institutional confidence in Bitcoin's long-term value and its role as a macro hedge.",
+          "coins": "BTC.",
+          "timeUTC": "2026-10-28 10:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-432010"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aviva Investors Launches Tokenized Sterling Fund on XRP Ledger; Ripple Partnership",
+          "what": "UK asset manager Aviva Investors launched a tokenized share class of its £22 billion Sterling Liquidity Fund on the Ripple-backed XRP Ledger on October 26, committing £50 million ($66 million) to the initiative. This represents growing institutional adoption of blockchain-based settlement for traditional financial assets.",
+          "coins": "XRP — blockchain infrastructure and tokenized asset adoption.",
+          "timeUTC": "2026-10-26 09:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+        },
+        {
+          "headline": "NBA Signs CFTC Agreement; Adopts Kalshi and Polymarket as Preferred Prediction Exchanges",
+          "what": "The National Basketball Association and the US Commodity Futures Trading Commission signed a memorandum of understanding on October 26 to establish safeguards against insider trading in NBA prediction markets. Kalshi and Polymarket were named as preferred exchanges, following earlier deals with MLB and NHL.",
+          "coins": "Prediction-market platforms and derivatives infrastructure.",
+          "timeUTC": "2026-10-26 19:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Electrum Bitcoin Wallet Exploit Confirmed; Rogue Servers Redirect User Funds",
+          "what": "Security researchers confirmed on October 26 an exploit in Electrum Bitcoin wallet software where malicious servers could intercept pending transactions and redirect them to attacker addresses. Users are advised to update immediately.",
+          "coins": "BTC — wallet security.",
+          "timeUTC": "2026-10-26 17:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381844/bitcoin-wallet-flaw-trick-users-paying-attackers"
+        },
+        {
+          "headline": "Vultisig Crypto Wallet Patches Critical Private Key Recovery Flaw",
+          "what": "Vultisig disclosed and merged a fix (in August 2026) for a critical vulnerability in which a malicious ECDSA signing message could allow an already-compromised signer to recover a user's private key across multiple blockchains. Users should verify they are running the latest version.",
+          "coins": "Multi-chain; key management security.",
+          "timeUTC": "2026-08-19 UTC (patched; disclosed Oct 25)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/august-updates-block-critical-private-key-leak-in-crypto-wallet-vultisig/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Federal Reserve to Announce Rate Decision on October 28; FOMC Statement at 18:00 UTC",
+          "what": "The US Federal Reserve is scheduled to announce its monetary policy decision on October 28 at 18:00 UTC, with a press conference at 18:30 UTC. Markets expect the federal funds rate to hold at 4.00%. This announcement directly affects long-term risk appetite and asset pricing globally.",
+          "coins": "BTC, ETH — macro sentiment and interest-rate expectations.",
+          "timeUTC": "2026-10-28 18:00 UTC (scheduled)",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Federal Reserve Rate Decision & FOMC Statement, October 28 at 18:00 UTC",
+      "typicalReaction": "VERY HIGH IMPACT — Crypto markets are sensitive to US interest rate expectations. Hold (no cut) can trigger 2–4% BTC/ETH declines. Rate-cut signals typically trigger 3–5% rallies within 24 hours."
+    },
+    {
+      "event": "US Advance GDP (q/q), Core PCE (m/m), and Jobless Claims, October 29 at 12:30 UTC",
+      "typicalReaction": "HIGH IMPACT — Stronger-than-expected growth and higher inflation readings typically hurt crypto sentiment (signal higher-for-longer rates). Weaker data can boost risk appetite."
+    },
+    {
+      "event": "ECB Rate Decision, October 29 at 12:45 UTC",
+      "typicalReaction": "MEDIUM-HIGH IMPACT — European policy moves can shift global liquidity sentiment and often influence US risk appetite shortly thereafter."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all assets (here, Binance perpetual contracts) that gained value in a trading day. 45.7% breadth means more contracts fell than rose, showing broad selling pressure rather than a concentrated rally in a few assets."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "An 8-hourly or hourly payment between long (bullish) and short (bearish) traders in perpetual futures. High rates, like 10.95% annualized, mean long-position holders pay shorts, which happens when the market is very bullish and demand to go long exceeds supply. When rates turn negative, shorts pay longs."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will go up. If you buy Bitcoin expecting the price to rise, you hold a long position."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders betting up (long) versus down (short). A ratio of 2.21 means 2.21 long positions for every 1 short — a strongly bullish lean. Ratios above 2.0 signal very crowded bullish sentiment and can foreshadow reversals if sentiment shifts."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The official price of a perpetual futures contract, designed to track the spot (regular market) price closely and prevent contract prices from drifting far from reality."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value of all currently open (unsettled) long and short positions in a futures market. Rising open interest means new traders are entering leverage; falling open interest means traders are closing positions and deleveraging."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "The percentage increase or decrease in total open positions from one date or time to another. A -2.4% change means the total leverage in the market shrank, with traders closing more positions than opening."
+    },
+    {
+      "term": "Perpetual futures (perpetuals)",
+      "definition": "A leveraged (borrowed-money) futures contract with no expiration date. Traders can hold perpetuals indefinitely by paying periodic funding fees. Unlike standard futures that expire, perpetuals never settle unless the trader closes the position."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that an asset's price will go down. If you borrow Bitcoin, sell it, and expect the price to fall so you can buy it back cheaper, you hold a short position."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive (market-price) buyers to aggressive (market-price) sellers over a time period. A ratio below 1 means more traders aggressively sold than bought — a bearish signal. Above 1 signals aggressive buying."
+    },
+    {
+      "term": "Top position ratio (largest traders)",
+      "definition": "The long/short ratio among the largest and most sophisticated traders (institutions and high-net-worth individuals), not the average retail trader. This shows how big money is positioned and is often more predictive of future moves than retail ratios."
+    }
+  ],
+  "_source": "cli"
+}

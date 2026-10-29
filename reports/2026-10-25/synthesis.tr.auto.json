@@ -1,0 +1,199 @@
+{
+  "oneLine": "25 Ekim 2026 Pazar günü Bitcoin %0,9, Ethereum %1,2 geriledi. Yüksek finansman oranları ve güçlü uzun/kısa pozisyon oranlarına rağmen, Federal Rezerv'in 28 Ekim toplantısı öncesinde yoğun satış baskısı piyasayı baskıladı.",
+  "caveman": "25 Ekim Pazar günü Bitcoin (en büyük kripto) yaklaşık %0,9 düşerek 79.950$ civarında, Ethereum (ikinci en büyük) %1,2 düşerek 2.312$ civarında kapandı. Büyük hareketler değildi—pazar gayet sakinken. Ama perde arkasında iki çelişkili sinyal vardı. Birincisi: uzun pozisyon tutmanın maliyeti (finansman oranı denir) çok yüksekti, yıllık %11 civarında. Bu normalde çok fazla tüccarın fiyatın yükseleceğini beklediği anlamına gelir. Gerçekten de pek çok kişi Bitcoin'in yükseleceğine bahis oynuyordu—10 kişiye karşı 22 kişi. ANCAK, diğer sinyaller daha fazla insanın agresif olarak satıyor olduğunu gösteriyordu—bu kötü bir işarettir. O gün daha çok sözleşme düştü, yükseldi değil. Sebep belliydi: herkes ABD Merkez Bankası'nın üç gün sonra, 28 Ekim'de faiz kararını açıklamasını bekliyordu. Yani tüccarlar gergin ve biraz para masadan alıyorlardı. Sakin bir Pazar günü oldu, ama herkes saati izliyordu.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları Binance, Bybit, OKX, Bitget ve Gate'de tutarlı olarak %0,1 içinde uyumlu işlem gördü. Binance Bitcoin perpetual işlemde 5,5 milyar dolar, Ethereum'da 4,8 milyar dolar ile öncü konumdaydı; Bybit ve OKX her biri Bitcoin işlemde 1,4–1,8 milyar dolar hacmine sahipti.",
+  "positioningSummary": "Finansman oranları Binance'de yıllık %10,95 seviyesinde yükselmiş, boğa pozisyonu tutanlar için yüksek maliyetleri gösteriyordu. Binance'de Bitcoin'in 2,21 ve Ethereum'un 3,39 uzun/kısa oranı perakende tüccarlar arasında çok boğa eğilimini gösteriyordu; en büyük tüccarların oranı (Bitcoin 1,70, Ethereum 1,71) daha ılımlı, kurumsal yatırımcıların rali için daha az kararlı olduğunu gösteriyordu. Satıcı al/sat oranları Bitcoin'de 0,96, Ethereum'da 0,91, pazar fiyatında agresif satış baskısını gösteriyordu: daha fazla tüccar satın aldıktan ziyade satıyordu—yüksek uzun oranlara rağmen ayı sinyali. Açık pozisyonlar Binance'de Bitcoin'de %2,4 düştü, Ethereum'da sabit kaldı, tüccarlar Fed kararı öncesinde pozisyon kapattıklarını gösteriyordu. Pazar genişliği olumsuzdu: Binance perpetual sözleşmelerinin sadece %45,7'si yükseldi, daha fazlasının düştüğü anlamına gelir.",
+  "stocksSummary": "26 Ekim 2026 Pazar günü ABD ve Asyai borsalar hafta sonu kapalıydı; Binance'deki hisse senedi perpetual sözleşmeleri temel varlıklardaki hareketleri yansıtmadı. CME Globex'teki emtia vadeli işlemleri (hafta sonları işlem görür) altını %0,31 yukarıda, WTI ham petrolü %0,67 aşağıda, doğal gazı %1,81 yukarıda gördü. Asyai hisse senetlerinde rapor edilen en büyük hareketler: SK Hynix (%2,86, bellek çipi üreticisi, Kore piyasaları yeniden açıldığında); Unitree Robotics (%0,83, Çin'de listelenmiş, 26 Ekim'de önemli bir haber olmadan öncesi).",
+  "movers": [
+    {
+      "symbol": "APRUSDT",
+      "explanation": "APR yükselişin aksine %42,2 oranında 0,03954'e çıktı, önceki 24 saat içinde %18,92 düşüşün ardından. Gün içi geri dönüş keskin oldu ama hiçbir açık katalizör yoktu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CAPUSDT",
+      "explanation": "CAP önceki 24 saat içinde %8,48 kaybından geri dönüş için %39,65 oranında 0,11179'a yükseldi. Geri dönüş için açıklanmış bir sebep yoktu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "explanation": "ORDER %34,8 düşerek 0,04577'ye, önceki 24 saat içinde %15,38 düşüşün devamına işaret ederek düştü. Halka açık bir açıklama mevcut değildi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "AI Devi Anthropic Halka Arzını Başlattı; 16,3 Milyar Dolar Gelir, 80,7 Milyar Dolar Net Zarar",
+        "what": "Anthropic, Claude AI'ın yapımcısı, 26 Ekim'de S-1 kayıt beyannamesi ile Nasdaq halka arzı başvurusu yaptı; 2026 ilk yarısı 16,3 milyar dolar gelir ve 80,7 milyar dolar net zararını açıkladı. Kripto tüccarlar şirketi yaklaşık 1,9 trilyon dolar değerinde değerlendirdi. Dosyalama, büyük kayıplara ve potansiyel oran duyarlılığına rağmen AI altyapısına yönelik devam eden yatırımcı ilgisini gösteriyor.",
+        "coins": "Tüm kripto—AI/teknoloji güveni ve faiz beklentileri aracılığıyla duygu.",
+        "timeUTC": "2026-10-26 20:00 UTC (approx)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
+      },
+      {
+        "headline": "Bitcoin Hazine Şirketleri Strategy ve Strive Rekor Alımlar Yaptı",
+        "what": "26 Ekim'de Strategy 205 milyon dolar tercih hissesi geri satın alınmasını açıklarken Bitcoin alımlarını durdurdu; Strive aynı anda 511 milyon dolar Bitcoin satın almaya yatırım yaptı, ikinci en büyük kurumsal hazineye 1.000 BTC içinde yaklaştı. Birlikte, bu kurumsal Bitcoin birikimi için uzun vadeli kararlılığı gösteriyordu, ancak Strategy'nin hisse geri satın almaya kaydırılması anlık fiyat momentum hakkında temkinli bir işarettir.",
+        "coins": "BTC—kurumsal akışlar ve hazine stratejileri.",
+        "timeUTC": "2026-10-26 18:00 UTC (approx)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-26-strive-closes-in-second-largest-corporate-bitcoin-treasury-with-511-million-purchase-431729"
+      },
+      {
+        "headline": "Hindistan'ın CoinDCX 16 Milyon Dolar USDT Kaybını Doğruladı; Toplam Hack Zararları 60 Milyona Yakın",
+        "what": "26 Ekim'de Mumbai merkezli borsa CoinDCX, geçen yıl 44 milyon dolar hack'ini izleyen emekli cüzdanlardan 15,99 milyon USDT'nin drenajını doğruladı. Borsa zararı karşılayıyor. Bu, hack'lerden kaynaklanan toplam bilinen zararları yaklaşık 60 milyon dolara getiriyor ve borsalardaki yedekler ve güvenlik protokollerinin yeterliliği hakkında sorular ortaya koyuyor.",
+        "coins": "USDT ve tüm borsa listesi jetonları—borsa velayet ve yedeklere güven.",
+        "timeUTC": "2026-10-26 19:00 UTC (approx)",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Kanada Tasarı Stablecoin Kuralları Hakkında 60 Günlük Danışma Başlattı; 1:1 Yedek Gerektiriyor",
+          "what": "26 Ekim'de Kanada hükümeti, banka dışı ihraçcıların bire bir yedek destekleme ve üç iş günü içinde geri ödeme yapmasını gerektiren tasarı stablecoin düzenlemeleri açıkladı. Kurallar stablecoin sahiplerine faiz ödeme yasağını koruyor, ABD GENIUS Yasası modeli ile uyumlu.",
+          "coins": "USDC, USDT ve Kanada'dan ihraç edilen diğer stablecoinler.",
+          "timeUTC": "2026-10-26 14:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381889/canada-draft-stablecoin-rules-redemption-fees-ban-yield"
+        },
+        {
+          "headline": "ABD OCC Kuralları Kesinleştirdi; Toplum Bankalarına Stablecoin İhraçcısı Olma Çağrısı Yaptı",
+          "what": "ABD Para Kontrolörü Ofisi, 26 Ekim'de GENIUS Yasası kapsamındaki kuralları kesinleştirdiğini ve toplum bankalarının stablecoin ödeme ihraçcısı lisansı almasını davet eden kuralları yürürlüğe koyduğunu duyurdu. Uygulama Ocak 2027'de başlıyor. Hamle, banka tarafından desteklenen stablecoin benimsenmesini ABD'de hızlandırabilir.",
+          "coins": "USDC, USDT ve yeni banka tarafından ihraç edilen stablecoinler.",
+          "timeUTC": "2026-10-26 16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market"
+        },
+        {
+          "headline": "Güney Kore Kripto Vergisini Tekrar Ertelemeyi Düşünüyor; Şimdi 2029 Uygulaması Hedefleniyor",
+          "what": "Güney Kore yasama üyeleri, 2020'de yürürlüğe giren kripto kazançları vergisini dördüncü kez geciktirmeyi, uygulamayı 2029'a veya daha sonraya itmeyi göz önünde bulunduruyor. Yetkililer, ABD veri paylaşımı olmaksızın (2029'a kadar beklenmemiş), yerli borsa kullanıcılarının tam vergi yükünü taşıyacağını belirtiyorlar.",
+          "coins": "Tüm Kore listesi kripto jetonları.",
+          "timeUTC": "2026-10-26 08:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitwise Bitcoin Fiyat Hedefini 2036'a kadar 1,6 Milyon Dolara Yükseltti",
+          "what": "Yatırım firması Bitwise, 28 Ekim'de 12 yıllık Bitcoin fiyat tahminini 1,6 milyon dolara yükseltti, yıllık %34 getiri anlamına gelir. Yükseltme, Bitcoin'in uzun vadeli değeri ve makro koruma olarak rolü hakkında genişleyen kurumsal güveni gösteriyordu.",
+          "coins": "BTC.",
+          "timeUTC": "2026-10-28 10:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-432010"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aviva Investors XRP Ledger'da Tokenize Edilmiş Sterlin Fonunu Başlattı; Ripple Ortaklığı",
+          "what": "İngiltere varlık yöneticisi Aviva Investors, Ripple tarafından desteklenen XRP Ledger'da 22 milyar pound Sterlin Likidite Fonu'nun tokenize edilmiş hisse sınıfını 26 Ekim'de başlattı, girişime 50 milyon pound (66 milyon dolar) taahhüdü. Bu, geleneksel finansal varlıklar için blokzincir tabanlı yerleşim için artan kurumsal benimsemeyi temsil ediyor.",
+          "coins": "XRP—blokzincir altyapısı ve tokenize edilmiş varlık benimsemesi.",
+          "timeUTC": "2026-10-26 09:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+        },
+        {
+          "headline": "NBA CFTC Anlaşması İmzaladı; Kalshi ve Polymarket'i Tercih Edilen Tahmin Borsaları Olarak Kabul Etti",
+          "what": "NBA ve ABD Emtia Vadeli İşlemler Ticaret Komisyonu, 26 Ekim'de NBA tahmin piyasalarında içeriçi ticaretten korumak için tedbir kurmak üzere bir mutabakat zaptı imzaladı. Kalshi ve Polymarket, daha önceki MLB ve NHL anlaşmalarını takiben tercih edilen borsalar olarak adlandırıldı.",
+          "coins": "Tahmin piyasası platformları ve türevler altyapısı.",
+          "timeUTC": "2026-10-26 19:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Electrum Bitcoin Cüzdanı Açığı Doğrulandı; Sahte Sunucular Kullanıcı Fonlarını Yönlendiriyor",
+          "what": "Güvenlik araştırmacıları, 26 Ekim'de Electrum Bitcoin cüzdan yazılımında kötü amaçlı sunucuların beklemede olan işlemleri ele geçirip bunları saldırgan adreslerine yönlendirebileceği bir açığı doğruladı. Kullanıcılara hemen güncelleme yapması tavsiye ediliyor.",
+          "coins": "BTC—cüzdan güvenliği.",
+          "timeUTC": "2026-10-26 17:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/381844/bitcoin-wallet-flaw-trick-users-paying-attackers"
+        },
+        {
+          "headline": "Vultisig Kripto Cüzdanı Kritik Özel Anahtar Kurtarma Açığını Yamaladı",
+          "what": "Vultisig, kötü amaçlı ECDSA imza mesajının zaten gizliliği ihlal edilmiş bir imzalayanın birden çok blokzincir üzerinden kullanıcı özel anahtarını kurtarmasına izin veren kritik bir açığı (Ağustos 2026'da yamalandı) açıkladı ve düzeltmeyi birleştirdi. Kullanıcılar en son sürümü çalıştırdıklarını doğrulamalıdır.",
+          "coins": "Çok zincir; anahtar yönetimi güvenliği.",
+          "timeUTC": "2026-08-19 UTC (patched; disclosed Oct 25)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/august-updates-block-critical-private-key-leak-in-crypto-wallet-vultisig/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Federal Rezerv 28 Ekim'de Faiz Kararını Açıklayacak; FOMC Bildirisi 18:00 UTC'de",
+          "what": "ABD Federal Rezervi, para politikası kararını 28 Ekim'de 18:00 UTC'de açıklamaya, basın konferansını 18:30 UTC'de yapacağı planlanıyor. Piyasalar federal fon oranının %4,00'de kalmasını bekliyor. Bu duyuru, küresel olarak uzun vadeli risk iştahını ve varlık fiyatlandırmasını doğrudan etkiliyor.",
+          "coins": "BTC, ETH—makro duygu ve faiz oranı beklentileri.",
+          "timeUTC": "2026-10-28 18:00 UTC (scheduled)",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Federal Reserve Rate Decision & FOMC Statement, October 28 at 18:00 UTC",
+      "typicalReaction": "ÇOK YÜKSEK ETKİ — Kripto piyasaları ABD faiz oranı beklentilerine duyarlı. Tutma (kesinti yoksa) BTC/ETH'de %2–4 düşüş tetikleyebilir. Faiz kesinti sinyalleri genellikle 24 saat içinde %3–5 rali tetiklerler."
+    },
+    {
+      "event": "US Advance GDP (q/q), Core PCE (m/m), and Jobless Claims, October 29 at 12:30 UTC",
+      "typicalReaction": "YÜKSEK ETKİ — Beklentileri aşan büyüme ve yüksek enflasyon okumaları kripto duygusunu genellikle zedeler (yüksek-daha uzun oranları işaret). Zayıf veri risk iştahını artırabilir."
+    },
+    {
+      "event": "ECB Rate Decision, October 29 at 12:45 UTC",
+      "typicalReaction": "ORTA-YÜKSEK ETKİ — Avrupa politikası hareketleri küresel likidite duygusunu değiştirebilir ve kısa bir süre sonra ABD risk iştahını etkileyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Genişlik",
+      "definition": "Tüm varlıkların (burada, Binance perpetual sözleşmeleri) bir işlem gününde değer kazananlar yüzdesini belirtir. %45,7 genişlik, sözleşmelerin daha çoğunun düştüğü, birkaç varlıkta konsantre rali yerine geniş satış baskısı olduğu anlamına gelir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual vadeli işlemlerde uzun (boğa) ve kısa (ayı) tüccarlar arasında 8 saatlik veya saatlik ödeme. Yıllık %10,95 gibi yüksek oranlar, piyasa çok boğa eğilimi ve uzun pozisyon tutmanın talebinin arzı aştığı anlamına gelir. Oranlar negatif hale geldiğinde, ayılar uzunlara ödeme yapar."
+    },
+    {
+      "term": "Uzun pozisyon",
+      "definition": "Bir varlığın fiyatının yükseleceği yönünde bir bahis. Bitcoin satın almayı ve fiyatın yükselmeyi bekliyorsanız, uzun bir pozisyon tutarsınız."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Tüccarlar arasında yukarıya (uzun) karşı aşağıya (kısa) bahis oranı. 2,21 oranı her kısa pozisyona karşı 2,21 uzun pozisyon anlamına gelir—güçlü boğa eğilimi. 2,0 üstünün oranları çok kalabalık boğa duygusunu gösterir ve duygu değişirse geri dönüşler beklenebilir."
+    },
+    {
+      "term": "Mark fiyatı",
+      "definition": "Perpetual vadeli işlem sözleşmesinin resmi fiyatı, spot (normal pazar) fiyatını yakından takip etmek ve sözleşme fiyatlarının gerçeklikten çok uzağa kaymasını engellemek için tasarlanmıştır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Bir vadeli işlem piyasasında şu anda açık (gözden geçirilmemiş) tüm uzun ve kısa pozisyonların toplam dolar değeri. Artan açık pozisyon, yeni tüccarların kaldıraç girdisi anlamına gelir; düşen açık pozisyon tüccarlar kapatıyor ve deleveraj yapıyor demektir."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Açık pozisyonların toplam değerinde bir tarihten veya saatten diğerine yüzde artış veya azalış. -%2,4 değişim, piyasadaki toplam kaldıracın daraldığı, tüccarlar açmaktan daha fazla pozisyon kapattıkları anlamına gelir."
+    },
+    {
+      "term": "Perpetual vadeli işlemler (perpetuals)",
+      "definition": "Kaldıraçlı (ödünç alınan para) vadeli işlem sözleşmesi sona erme tarihi olmaksızın. Tüccarlar periyodik finansman ücreti ödeyerek perpetuals'ı süresiz olarak tutabilir. Sona erme tarihi olan standart vadeli işlemlerin aksine, perpetual sözleşmeler tüccar tarafından kapatılmadıkça hiçbir zaman kapanmaz."
+    },
+    {
+      "term": "Kısa pozisyon",
+      "definition": "Bir varlığın fiyatının düşeceği yönünde bir bahis. Bitcoin ödünç alıp satıyorsanız ve fiyatın düşeceğini beklediyseniz, kısa bir pozisyon tutarsınız."
+    },
+    {
+      "term": "Satıcı al/sat oranı",
+      "definition": "Bir süre boyunca agresif (pazar fiyatı) alıcılara karşı agresif (pazar fiyatı) satıcıların oranı. 1'in altındaki bir oran, daha fazla tüccarın satın aldıktan ziyade agresif olarak sattığı—ayı sinyali. 1 üstü agresif alım gösterir."
+    },
+    {
+      "term": "En büyük tüccar oranı (top pozisyon oranı)",
+      "definition": "En büyük ve en sofistike tüccarlar (kurumlar ve yüksek net değer kişiler) arasında uzun/kısa oranı, ortalama perakende tüccar değil. Bu büyük paranın nasıl konumlandığını gösterir ve genellikle perakende oranlarından gelecek hareketleri tahmin etme yönünde daha çok güç taşır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "9135c0f42775af55"
+}

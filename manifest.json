@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-29T15:09:22.691Z",
+  "generatedAt": "2026-10-29T15:22:39.098Z",
   "count": 134,
   "counts": {
     "total": 134,
     "market": 47,
     "divergence": 87,
-    "degraded": 3
+    "degraded": 2
   },
   "latest": "2026-10-28",
   "head": 500,
@@ -143,9 +143,9 @@
         "BTC": -0.8971544137201701,
         "ETH": -1.2351963079846573
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "On Sunday 2026-10-25, Bitcoin and Ethereum fell 0.9% and 1.2% respectively on light news, with elevated funding costs and bullish long/short ratios offset by aggressive selling pressure ahead of the Federal Reserve's October 28 decision.",
+      "oneLine": "On Sunday 2026-10-25, Bitcoin and Ethereum fell 0.9% and 1.2% respectively on light news, with elevated funding costs and bullish long/short ratios offset by aggressive selling pressure ahead of the Federal Reserve's October 28 decision.",
+      "newsCount": 12,
       "topMover": {
         "symbol": "APRUSDT",
         "chgPct": 42.230215827338135
@@ -158,14 +158,12 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-10-25/summary_2026-10-25.html",
