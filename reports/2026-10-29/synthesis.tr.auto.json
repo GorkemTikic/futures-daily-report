@@ -1,0 +1,238 @@
+{
+  "oneLine": "Bitcoin 29 Ekim'de Binance'nin tahmini 5,7 milyar dolarlık hack'i nedeniyle (kripto tarihinin en büyük hırsızlığı) yüzde 4,1 oranında düşüş göstererek $77,970'e geriledi ve geniş satış paniği başladı.",
+  "caveman": "Binance, dünyanın en büyük Bitcoin ve kripto para satın alma-satma yeri, ciddi bir güvenlik sorunuyla karşılaştı: birisi yaklaşık 5,7 milyar dolarlık müşteri parasını çaldı. Bu haber Perşembe günü yayıldığında insanlar korktu ve Bitcoin ile Ethereum'larını (en büyük iki kripto para) sattılar. Çok sayıda insan aynı anda sattığında fiyatlar düşer. Bitcoin $81,300'den yaklaşık $77,970'e indi; Ethereum ise yüzde 4,5 oranında düştü. Tether ve Circle gibi özel sabit paralar çıkaran şirketler hırsızlığa karşı korunmak için yaklaşık 2,6 milyar doları dondurdu. ABD hükümeti de o gün faiz oranlarıyla ilgili raporlar yayınladı ve durumu daha da kötüleştirdi. Çoğu küçük kripto para Bitcoin'den daha fazla düştü. Bu çok endişeli bir günydü—kripto para tüccarları için en kötü gün türüydü.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları Binance hack haberlerine rağmen beş büyük borsada istikrarlı kaldı. Bitcoin yüzde 4,1–4,13 oranında düştü; Ethereum tutarlı şekilde yüzde 4,5–4,51 oranında düştü. Binance, Bitcoin ticaretinde $20,3 milyar ve Ethereum ticaretinde $13,8 milyar ile hacim liderliğini yaptı; OKX ve Bybit takip etti.",
+  "positioningSummary": "Açık pozisyon, fiyat düşmesine rağmen gece boyunca keskin bir şekilde arttı—Bybit'te Bitcoin açık pozisyonu yüzde 8,3 artış, Ethereum yüzde 8,4 artış—fiyatlar çökerken bile tüccarların yeni uzun (fiyat yükseleceğine bahse giren) pozisyonlar açtığını göstererek düşüşü büyütmüş olabilecek aşırı güvene işaret ediyor. Finansman oranları bölündü: Binance yüzde 4 yıllıklandırılmış pozitif finansman gösterdi; bu uzunların kısa satanlara ödeme yaptığını gösteriyor; Bybit ise negatif yüzde 8,2 gösterdi, tam tersi. En büyük tüccarlar ağır uzun pozisyonlar tuttular (Bitcoin üst-tüccar oranı 1,86'ya-1 uzun, Ethereum 1,88'e-1 uzun). Pazar taraflılığı ağır şekilde olumsuzdu: Binance perpetuallerinin sadece yüzde 11,8'i yükseldi; yüzde 88,2'si düştü. Bitcoin'deki alıcı/satıcı oranı 0,99 idi (neredeyse dengeli, minimum agresif alım) ve Ethereum'da 1,02 (hafif alım); hiçbir tarafın gün içi akışta hakim olmadığını gösteriyor.",
+  "stocksSummary": "Asya hisse senedi türevleri ağır kripto bulaşmasını gösterdi; gerçek nakit pazar gücünden keskin şekilde sapıyordu. Güney Kore'nin gerçek hisse senedi piyasası yüzde 6,6 oranında hızla yükseldi; SK Hynix rekor kazançlarla yüzde 10 sıçradı, ancak Binance Kore perpetual futures SK Hynix'te yüzde 4 düştü ve Samsung yüzde 5,6 düştü—tüccarlar gerçek güç takip etmiyordu; muhtemelen Binance haberiyle korkuya kapılmıştı. Hong Kong ve Çin teknoloji perpetualleri her ikisi de keskin şekilde geriledi (Zhongji Innolight yüzde 13,5 düşüş, Zhipu AI yüzde 11,3 düşüş, Lenovo yüzde 10,9 düşüş), ABD teknoloji satışıyla uyumlu. ABD hisse senetleri çöktü: S&P 500 yüzde 0,38 düşüş, Nasdaq yüzde 1,43 düşüş; Intel yüzde 46 düştü ve Nvidia'ya bağımlı hisse senetleri kanamaya devam etti. Emtialar: altın yüzde 1,1 düştü ve kıymetli metaller yüzde 2–3,7 oranında düştü; ancak petrol hafif yükseldi (WTI +yüzde 0,9, Brent +yüzde 0,9), bu kısmi barınma talebini gösterse de enerjide panik yok.",
+  "movers": [
+    {
+      "symbol": "PARTIUSDT",
+      "explanation": "Yüzde 53,9 oranında yükseldi; hacimde $239 milyon. Kripto haberleri veya o günkü pazar olaylarında açık bir halk nedeni yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "Yüzde 28,6 oranında düştü; hacimde $297 milyon. Haberlerde veya o günkü pazar olaylarında açık bir neden yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Yüzde 25,2 oranında düştü; hacimde $167 milyon. Haberlerde veya o günkü pazar olaylarında açık bir neden yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance 5,7 milyar dolarlık hack'e uğradı—kripto tarihinin en büyük hırsızlığı",
+        "what": "Binance, dünyanın en büyük kripto borsası, 29 Ekim'de yaklaşık 5,7 milyar dolarlık varlık sıcak cüzdanlardan (çevrimiçi depolama) çalınan bir güvenlik ihlali yaşadı. Tether ve Circle hemen 1,79 milyar dolar USDT ve USDC sabit parasını dondurdu; hacker'ın nakit dönüştürmesini engelledi. Hack, Bitcoin'i $78,300'e çakması ve daha geniş pazarı sarsa uğrattı; çoğu kripto para yüzde 4–6 oranında düştü.",
+        "coins": "Bitcoin, Ethereum, all cryptocurrencies",
+        "timeUTC": "2026-10-29 11:12 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+      },
+      {
+        "headline": "Polymarket, üçüncü taraf sağlayıcı ihlalinden sonra 2,65 milyon dolarlık hack'e uğradı",
+        "what": "Polymarket, Ethereum'daki bir tahmin pazarı platformu, saldırganlar gözlüğü kırılmış bir üçüncü taraf sağlayıcıyı istismar ederek dakikalar içinde kullanıcı hesaplarından yaklaşık 2,65 milyon doları boşalttıktan sonra ticareti durdurdu. Platform kayıpları önlemek için iptal-yalnızca modunda (kullanıcılar yalnızca para çekebilir, ticaret yapamaz) yeniden açıldı. Kullanıcı veri ihlali rapor edilmedi; sadece finansal kayıp vardı.",
+        "coins": "Ethereum, POL",
+        "timeUTC": "2026-10-29 08:40 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+      },
+      {
+        "headline": "NYSE sahibi ICE, Trade[XYZ] ile ortaklık yaparak düzenlenmiş Hyperliquid perpetual futures'ı ABD'ye getiriyor",
+        "what": "Intercontinental Exchange (ICE), New York Borsası'nın sahibi, kripto startup'ı Trade[XYZ] aracılığıyla Hyperliquid teknolojisine dayalı ABD-düzenlenmiş perpetual futures'ı başlatmak için bir anlaşma imzaladı. Anlaşma 29 Ekim'de duyuruldu ve Hyperliquid'in token'ı (HYPE) yüzde 13–15 oranında sıçradı. Milyarder Stanley Druckenmiller girişimi desteklemek için ilk X paylaşımını yaptı; merkezi olmayan futures'a kurumsal güven işareti verdi.",
+        "coins": "Hyperliquid (HYPE)",
+        "timeUTC": "2026-10-29 09:08 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance 5,7 milyar dolarlık hack'e uğradı—kripto tarihinin en büyük hırsızlığı",
+          "what": "Binance, dünyanın en büyük kripto borsası, 29 Ekim'de yaklaşık 5,7 milyar dolarlık varlık sıcak cüzdanlardan (çevrimiçi depolama) çalınan bir güvenlik ihlali yaşadı. Tether ve Circle hemen 1,79 milyar dolar USDT ve USDC sabit parasını dondurdu; hacker'ın nakit dönüştürmesini engelledi. Hack, Bitcoin'i $78,300'e çakması ve daha geniş pazarı sarsa uğrattı; çoğu kripto para yüzde 4–6 oranında düştü.",
+          "coins": "Bitcoin, Ethereum, all cryptocurrencies",
+          "timeUTC": "2026-10-29 11:12 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+        },
+        {
+          "headline": "Polymarket, üçüncü taraf sağlayıcı ihlalinden sonra 2,65 milyon dolarlık hack'e uğradı",
+          "what": "Polymarket, Ethereum'daki bir tahmin pazarı platformu, saldırganlar gözlüğü kırılmış bir üçüncü taraf sağlayıcıyı istismar ederek dakikalar içinde kullanıcı hesaplarından yaklaşık 2,65 milyon doları boşalttıktan sonra ticareti durdurdu. Platform kayıpları önlemek için iptal-yalnızca modunda (kullanıcılar yalnızca para çekebilir, ticaret yapamaz) yeniden açıldı. Kullanıcı veri ihlali rapor edilmedi; sadece finansal kayıp vardı.",
+          "coins": "Ethereum, POL",
+          "timeUTC": "2026-10-29 08:40 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Utah, Kalshi ve yöneticileri iddia edilen yasadışı kumara karşı cezai dava açtı",
+          "what": "Utah Başsavcısı Derek Brown, Kalshi tahmin pazarları platformunu, CEO Tarek Mansour ve COO Luana Lopes Lara ile birlikte yetkisiz çevrimiçi kumarcılık tanıtımı suçlamasıyla yargıladı. Kalshi 28 Ekim'de 40 milyar dolar değerleme ile 1 milyar dolarlık fon kazanmış olsa da; düzenleyiciler yasal statüsünü sorgulamaya devam ediyor.",
+          "coins": "Kalshi (prediction-market protocol)",
+          "timeUTC": "2026-10-29 01:07 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104"
+        },
+        {
+          "headline": "KuCoin, Rusya ve Belarus'ta hizmetleri askıya aldı",
+          "what": "KuCoin, önemli bir kripto borsası, uluslararası yaptırımlara yasal ve düzenleyici uyumlaştırma gerekçesiyle Rusya ve Belarus'ta faaliyetleri durdurdu. MEXC ve Bitget Ekim ayının başında benzer çıkışları duyurmuştu; sektör genelinin Batı tarafından yaptırılan pazarlardan çekilmesini işaret etti.",
+          "coins": "all cryptocurrencies",
+          "timeUTC": "2026-10-29 13:55 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets"
+        },
+        {
+          "headline": "Circle, sabit para çıkaran uyum yükünü azaltmak için SEC kural değişiklikleri talep ediyor",
+          "what": "USDC sabit parasının çıkaran Circle, maliyetli düzenleyici örtüşmeyi azaltmak için farklı iş kolları (teklifler, aracılık sermayesi, müşteri rezervleri) için ayrı izinler talep eden bir mektup gönderdi. Talep, sabit para çıkaranlar ve ABD finansal düzenleyicileri arasında devam eden gerilimi yansıtıyor.",
+          "coins": "USDC, USD Coin",
+          "timeUTC": "2026-10-29 13:23 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circle-wants-sec-to-erase-a-costly-wall-street-rule-holding-stablecoins-back/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy, 20,9 milyar dolarlık bitcoin kazancında 19,5 milyar dolarlık Q3 net geliri rapor etti; 848,517 BTC tutuyor",
+          "what": "Bitcoin hazine şirketi ve halka açık bir firmadır olan Strategy Holdings, Q3'de 19,53 milyar dolarlık net geliri rapor etti; esas olarak Bitcoin varlıklarında 20,91 milyar dolarlık gerçekleşmemiş kazanç tarafından yönlendirildi. Şirket 848,517 BTC tutuyor ve imtiyazlı hissedarları günlük temettü ödemelerine taşıdı; 29 Ekim pazar çalkantısına rağmen bitcoin stratejisine güven işareti verdi.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-29 08:31 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141"
+        },
+        {
+          "headline": "Coinbase, kripto varlıklar üzerinde 719 milyon dolarlık Q3 karı rapor etti; gelir 1,22 milyar dolar seviyesinde sabit",
+          "what": "Önemli bir kripto borsası ve emanatçı olan Coinbase, kripto varlık varlıklarında kazançlar tarafından artırılan üçüncü çeyrek net gelirinde 719 milyon dolar kaydetti. 29 Ekim pazar spikeine rağmen ticaret hacimler sönük kaldığı için gelir 1,22 milyar dolar seviyesinde sabit kaldı. Kar, Coinbase'in artan Bitcoin ve Ethereum fiyatlarına yaptığı bahsi yansıtıyor.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-29 07:53 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains"
+        },
+        {
+          "headline": "Bitcoin ETF'leri 28 Ekim'de 137,3 milyon dolarlık net giriş görmüştür; Ethereum ETF'leri 21,4 milyon dolarlık net çıkış görmüştür",
+          "what": "ABD spot Bitcoin ETF'leri, 28 Ekim'de (Binance hack'ından bir gün önce) 137,3 milyon dolarlık net giriş kaydetti; ardışık üçüncü giriş günüdür. BlackRock'ın IBIT 136 milyon dolarlık liderlik yaptı. Ethereum ETF'leri, buna karşılık, 21,4 milyon dolarlık net çıkış gördü. Bu akışlar hack'ten önce kaydedildi ve 29 Ekim pazar panikini yansıtmaz.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-29 00:00 UTC",
+          "source": "KuCoin / Farside Investors",
+          "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-spot-etfs-see-137-3m-net-inflow-ethereum-etfs-record-21-4m-net-outflow-on-october-28"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "NYSE sahibi ICE, Trade[XYZ] ile ortaklık yaparak düzenlenmiş Hyperliquid perpetual futures'ı ABD'ye getiriyor",
+          "what": "Intercontinental Exchange (ICE), New York Borsası'nın sahibi, kripto startup'ı Trade[XYZ] aracılığıyla Hyperliquid teknolojisine dayalı ABD-düzenlenmiş perpetual futures'ı başlatmak için bir anlaşma imzaladı. Anlaşma 29 Ekim'de duyuruldu ve Hyperliquid'in token'ı (HYPE) yüzde 13–15 oranında sıçradı. Milyarder Stanley Druckenmiller girişimi desteklemek için ilk X paylaşımını yaptı; merkezi olmayan futures'a kurumsal güven işareti verdi.",
+          "coins": "Hyperliquid (HYPE)",
+          "timeUTC": "2026-10-29 09:08 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132"
+        },
+        {
+          "headline": "Kripto borsası HTX, FCA ile çözüm yaptıktan sonra UK'dan çıktı",
+          "what": "HTX, eski Huobi Global borsası, Birleşik Krallık Finansal Davranış Yetkilisi (FCA) ile çözüm yaptıktan sonra UK faaliyetlerini sonlandırdı. Borsa İngiliz müşterilerinden mevduat almayı durdurdu ve UK sakinlerini kripto promosyonlarla hedef almamayı kabul etti. Çözüm, yanıltıcı reklam üzerinde bir yıllık davayı sonlandırıyor.",
+          "coins": "all cryptocurrencies",
+          "timeUTC": "2026-10-29 11:51 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca"
+        },
+        {
+          "headline": "Curve Finance, ilk non-EVM dağıtımında Stellar'da başlatıldı",
+          "what": "Sabit para takasları için öncü merkezi olmayan bir borsa olan Curve Finance, 29 Ekim'de Stellar mainnet'e dağıtıldı. Bu, Curve'nin Ethereum Sanal Makinesi (EVM) ekosistemi dışında ilk yerel dağıtımını işaretler; ulaşımını Ethereum olmayan blokzincirlere genişleterek Stellar kullanıcılarına sabit para likiditesi sunuyor.",
+          "coins": "Curve (CRV)",
+          "timeUTC": "2026-10-29 04:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121"
+        },
+        {
+          "headline": "Polygon ve Solana, sabit para ödemelerini bankalara getirmek için ortaklık yapıyor",
+          "what": "Normalde rekabet eden iki ayrı blokzincir ağı olan Polygon ve Solana, Solana'nın sabit para etkinliğini Polygon'ın bankacılık, cüzdan ve ödeme altyapısıyla bağlamak için ortaklık duyurdular. Birleşik sistem, bankaların ve fintech'lerin her iki ağ arasında sabit paralarla ödeme yapmalarını amaçlıyor.",
+          "coins": "Polygon (MATIC), Solana (SOL)",
+          "timeUTC": "2026-10-29 12:23 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-28",
+    "summary": "Bitcoin ETF'leri 137,3 milyon dolarlık net giriş çekti (üçüncü gün); Ethereum ETF'leri 21,4 milyon dolarlık net çıkış gördü. Veriler 28 Ekim'dendir ve 29 Ekim Binance hack'ından önce akışları yansıtır.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Advance GDP q/q and Core PCE Price Index m/m released Oct 29 at 12:30 UTC",
+      "typicalReaction": "Her ikisi de yüksek etkili geleneksel finans olayları olarak rapor edildi. GSYİH tahmini yüzde 3,2; PCE tahmini aylık yüzde 0,3. Bu enflasyon ve büyüme baskıları geniş risk duyarlılığını yönlendirebilir ve dolar gücünü etkileyebilir; bu da kripto fiyatlarını etkiler."
+    },
+    {
+      "event": "Eurozone GDP Flash October 2026 scheduled for Fri 30 Oct, 10:00 UTC (tomorrow)",
+      "typicalReaction": "Yüksek etkili Avrupa ekonomik veri yayını. Sürpriz zayıf sonuç dolar gücünü ve geniş risk-off duygusunu yönlendirebilir; kripto üzerinde aşağı yönlü baskı oluşturabilir. Hem geleneksel hem de kripto pazarlarda oynaklık oluşturması bekleniyor."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Baz",
+      "definition": "Fiyat değişiklikleri ve hacmi rapor etmek için kullanılan zaman dönemi veya ölçüm yöntemi (örneğin, 'utc-day' UTC'de bir takvim günü anlamına gelir)."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Bir pazardaki paraların veya varlıkların yukarı veya aşağı hareket eden yüzdeleri. Yüksek genişlik (birçok para yukarı) geniş alımı işaret eder; düşük genişlik (çoğu para aşağı) geniş satışı işaret eder."
+    },
+    {
+      "term": "Borsa",
+      "definition": "İnsanların kripto paraları diğer kripto paralar veya geleneksel para ile ticarete yapmak için bir platform."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Perpetual futures tüccarlarının her 8 saatte bir birbirlerine yaptığı küçük ödeme. Pozitif oran, fiyatların yükseleceğine bahse giren (uzunlar) fiyatların düşeceğine bahse giren (kısalar) için ödeme yaptıkları anlamına gelir; ters de geçerli. Uç oranlar tek yönde aşırı güveni işaret eder."
+    },
+    {
+      "term": "Sıcak Cüzdan",
+      "definition": "Bir borsanın veya hizmetin para çekme ve mevduat için kullanılan kullanıcı fonları için internet bağlantılı dijital depolama. Sıcak cüzdanlar hacker'lar için çevrimdışı soğuk depolamadan daha kolay erişilebilir."
+    },
+    {
+      "term": "Uzun / Kısa (Pozisyon)",
+      "definition": "'Uzun' pozisyon, bir varlığın fiyatının yükseleceğine yapılan bahis; 'kısa' pozisyon, fiyatın düşeceğine yapılan bahis. Uzun/kısa oranı (örneğin, '2'ye-1 uzun') iki kez daha fazla tüccarın yükseleceğine bahse giren düşeceğine bahse gilen anlamına gelir."
+    },
+    {
+      "term": "Uzun/Kısa Oranı",
+      "definition": "Uzun (fiyat yükselmesine bahis) ve kısa (fiyat düşmesine bahis) pozisyonları olan hesap sahiplerinin oranı. 1'in üzerindeki oran daha fazla hesabın uzun olduğu anlamına gelir; 1'in altı daha fazla kısa olduğu anlamına gelir. Kaldıraç ile aynı değildir—sadece yön yanlılığı."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Perpetual futures'ta karları ve zararları hesaplamak için kullanılan referans fiyat. Manipülasyonu önlemek için son işlemler ve endekslerden hesaplanır."
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Belirli bir zamanda perpetual futures pazarında açık pozisyonların toplam değeri veya sayısı. Artan açık pozisyon daha fazla pozisyonun açıldığı anlamına gelir; düşen kapalı olduğu anlamına gelir."
+    },
+    {
+      "term": "Açık Pozisyon Değişimi",
+      "definition": "İki nokta arasında toplam açık pozisyonların yüzde değişimi. Düşen fiyatlara yükselen OI, yaklaşan zorunlu tasfiyenin uyarı işaretidir."
+    },
+    {
+      "term": "Perpetual Futures (Perpetueller)",
+      "definition": "Tüccarların sabit son tarih olmadan bir varlığın fiyatının yükseleceğine veya düşeceğine bahis yapmalarına izin veren kaldıraçlı bir sözleşme türü. Sona erme tarihi olan bir futures sözleşmesinin aksine, perpetueller indefinitif olarak açık kalabilir."
+    },
+    {
+      "term": "Sabit Para",
+      "definition": "Sabit bir değeri tutmak için tasarlanan kripto para türü (örneğin, 1 USDC = $1 USD). Sabit paralar, borsalar arasında fiyat riski olmadan para taşımanın güvenli bir yolu olarak kullanılır."
+    },
+    {
+      "term": "Alıcı Satıcı Oranı",
+      "definition": "Alıcıların satıcılara karşı bir dönem boyunca işlemleri ne kadar agresif başlattıklarının bir ölçüsü. 1'in üzerindeki oran alıcıların daha agresif olduğu anlamına gelir; 1'in altı satıcıların daha agresif olduğu anlamına gelir."
+    },
+    {
+      "term": "Üst-Tüccar Uzun/Kısa Oranı",
+      "definition": "Bir borsadaki en büyük tüccarlar arasında (tüm tüccarlar değil) uzun ve kısa pozisyon oranı. En büyük ve en akıllı paranın hangi yönde konumlandığını gösterir."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Bir pazarda bir dönem boyunca işlemlerin toplam değeri veya sayısı; genellikle 24 saat olarak ölçülür. Yüksek hacim aktif ticareti gösterir; düşük hacim likit olmayan veya ince pazarlar anlamına gelebilir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "ee3ee743d640aa0a"
+}

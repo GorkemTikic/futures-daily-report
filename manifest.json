@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-29T15:36:31.487Z",
-  "count": 134,
+  "generatedAt": "2026-10-30T00:10:21.861Z",
+  "count": 135,
   "counts": {
-    "total": 134,
-    "market": 47,
+    "total": 135,
+    "market": 48,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-28",
+  "latest": "2026-10-29",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-10-29",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -4.102807566050433,
+        "ETH": -4.507701504687049
+      },
+      "marketSummary": "Bitcoin crashed 4.1% to $77,970 on Oct 29 as a suspected $5.7 billion Binance hack—the largest crypto theft on record—panicked traders into broad selling.",
+      "oneLine": "Bitcoin crashed 4.1% to $77,970 on Oct 29 as a suspected $5.7 billion Binance hack—the largest crypto theft on record—panicked traders into broad selling.",
+      "newsCount": 15,
+      "topMover": {
+        "symbol": "PARTIUSDT",
+        "chgPct": 53.87188062773347
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-29/summary_2026-10-29.html",
+        "pdf": "reports/2026-10-29/summary_2026-10-29.pdf",
+        "md": "reports/2026-10-29/summary_2026-10-29.md"
+      }
+    },
     {
       "date": "2026-10-28",
       "kind": "market",

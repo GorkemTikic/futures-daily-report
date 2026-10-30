@@ -1,0 +1,237 @@
+{
+  "oneLine": "Bitcoin crashed 4.1% to $77,970 on Oct 29 as a suspected $5.7 billion Binance hack—the largest crypto theft on record—panicked traders into broad selling.",
+  "caveman": "Binance, the world's biggest place to buy and sell Bitcoin and other cryptocurrencies, had a serious security problem: someone stole about $5.7 billion of customer money. When this news spread on Thursday, people got scared and sold their Bitcoin and Ethereum (the two biggest cryptocurrencies). When a lot of people sell at the same time, prices fall. Bitcoin went from $81,300 down to about $77,970, and Ethereum fell about 4.5%. Companies like Tether and Circle that issue special stable coins froze about $2.6 billion to protect it from theft. The US government also released interest-rate reports that day which made things worse. Most smaller cryptocurrencies fell even more than Bitcoin. This was a very worrying day—the worst kind of day for crypto traders.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices were stable across all five major venues despite the Binance hack news. Bitcoin fell 4.1–4.13%, Ethereum fell 4.5–4.51% consistently. Binance led volume with $20.3 billion in Bitcoin and $13.8 billion in Ethereum trading, followed by OKX and Bybit.",
+  "positioningSummary": "Open interest rose sharply overnight despite the price fall—Bitcoin open interest up 8.3% on Bybit, Ethereum up 8.4%—showing traders were opening new long (bet-price-goes-up) positions even as prices crashed, a sign of overconfidence that may have amplified the decline. Funding rates split: Binance showed positive funding at 4% annualized, suggesting longs paying shorts; Bybit showed negative -8.2%, the opposite. The largest traders held heavy long positions (Bitcoin top-trader ratio 1.86-to-1 long, Ethereum 1.88-to-1 long). Market breadth was severely negative: only 11.8% of Binance perpetuals went up while 88.2% fell. Taker buy/sell ratio on Bitcoin was 0.99 (nearly balanced, minimal aggressive buying) and 1.02 on Ethereum (slight buying), showing neither side dominated intraday flow.",
+  "stocksSummary": "Asian stock derivatives showed heavy crypto contagion diverging sharply from actual cash-market strength. Korea's real stock market surged 6.6% with SK Hynix jumping 10% on record earnings, yet Binance Korea perp futures for SK Hynix fell 4% and Samsung fell 5.6%—traders were not following actual strength, likely spooked by Binance news. Hong Kong and China tech perps both declined steeply (Zhongji Innolight -13.5%, Zhipu AI -11.3%, Lenovo -10.9%), matching the US tech sell-off. US equities slumped: S&P 500 -0.38%, Nasdaq -1.43%, with Intel down 46% and Nvidia-dependent stocks bleeding. Commodities: gold fell 1.1% and precious metals declined 2–3.7%, but oil rose slightly (WTI +0.9%, Brent +0.9%), suggesting some haven demand but no panic in energy.",
+  "movers": [
+    {
+      "symbol": "PARTIUSDT",
+      "explanation": "Rose 53.9% with $239 million in volume. No clear public cause in crypto news or market events for the day.",
+      "hasCause": false
+    },
+    {
+      "symbol": "QUSDT",
+      "explanation": "Fell 28.6% with $297 million in volume. No clear public cause in news or market events for the day.",
+      "hasCause": false
+    },
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Fell 25.2% with $167 million in volume. No clear public cause in news or market events for the day.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance suffers $5.7 billion hack—largest crypto theft on record",
+        "what": "Binance, the world's largest crypto exchange, suffered a security breach on Oct 29 with approximately $5.7 billion in assets drained from hot wallets (online storage). Tether and Circle immediately froze $1.79 billion in USDT and USDC stablecoins to prevent the hacker from converting them to cash. The hack sent Bitcoin crashing to $78,300 and rattled the broader market, with most cryptocurrencies falling 4–6%.",
+        "coins": "Bitcoin, Ethereum, all cryptocurrencies",
+        "timeUTC": "2026-10-29 11:12 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+      },
+      {
+        "headline": "Polymarket suffers $2.65 million exploit after third-party provider breach",
+        "what": "Polymarket, a prediction-market platform on Ethereum, paused trading after attackers exploited a compromised third-party provider and drained approximately $2.65 million from user accounts in minutes. The platform resumed in cancel-only mode (users can only withdraw, not trade) to prevent further losses. No user data breach was reported, only the financial loss.",
+        "coins": "Ethereum, POL",
+        "timeUTC": "2026-10-29 08:40 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+      },
+      {
+        "headline": "NYSE owner ICE partners with Trade[XYZ] to bring regulated Hyperliquid perpetual futures to the US",
+        "what": "Intercontinental Exchange (ICE), owner of the New York Stock Exchange, signed an agreement to launch US-regulated perpetual futures built on Hyperliquid technology through Trade[XYZ], a crypto startup. The deal was announced on Oct 29 and sent Hyperliquid's token (HYPE) surging 13–15%. Billionaire Stanley Druckenmiller made his first X post ever to back the venture, signaling institutional confidence in decentralized futures.",
+        "coins": "Hyperliquid (HYPE)",
+        "timeUTC": "2026-10-29 09:08 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance suffers $5.7 billion hack—largest crypto theft on record",
+          "what": "Binance, the world's largest crypto exchange, suffered a security breach on Oct 29 with approximately $5.7 billion in assets drained from hot wallets (online storage). Tether and Circle immediately froze $1.79 billion in USDT and USDC stablecoins to prevent the hacker from converting them to cash. The hack sent Bitcoin crashing to $78,300 and rattled the broader market, with most cryptocurrencies falling 4–6%.",
+          "coins": "Bitcoin, Ethereum, all cryptocurrencies",
+          "timeUTC": "2026-10-29 11:12 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+        },
+        {
+          "headline": "Polymarket suffers $2.65 million exploit after third-party provider breach",
+          "what": "Polymarket, a prediction-market platform on Ethereum, paused trading after attackers exploited a compromised third-party provider and drained approximately $2.65 million from user accounts in minutes. The platform resumed in cancel-only mode (users can only withdraw, not trade) to prevent further losses. No user data breach was reported, only the financial loss.",
+          "coins": "Ethereum, POL",
+          "timeUTC": "2026-10-29 08:40 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Utah files criminal charges against Kalshi and executives over alleged illegal gambling",
+          "what": "Utah Attorney General Derek Brown charged Kalshi, a prediction-markets platform, along with CEO Tarek Mansour and COO Luana Lopes Lara, with promoting online gambling without authorization. Kalshi had won $1 billion in funding at a $40 billion valuation on Oct 28, but regulators continue to challenge its legal status.",
+          "coins": "Kalshi (prediction-market protocol)",
+          "timeUTC": "2026-10-29 01:07 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104"
+        },
+        {
+          "headline": "KuCoin suspends services in Russia and Belarus",
+          "what": "KuCoin, a major crypto exchange, halted operations in Russia and Belarus citing legal and regulatory compliance with international sanctions. MEXC and Bitget had announced similar exits earlier in October, signaling broader industry pull-back from Western-sanctioned markets.",
+          "coins": "all cryptocurrencies",
+          "timeUTC": "2026-10-29 13:55 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets"
+        },
+        {
+          "headline": "Circle seeks SEC rule changes to reduce stablecoin issuer compliance burden",
+          "what": "Circle, the issuer of USDC stablecoin, sent a letter to the US Securities and Exchange Commission requesting separate permissions for different business lines (offerings, brokerage capital, customer reserves) to reduce costly regulatory overlap. The request reflects ongoing tension between stablecoin issuers and US financial regulators.",
+          "coins": "USDC, USD Coin",
+          "timeUTC": "2026-10-29 13:23 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/circle-wants-sec-to-erase-a-costly-wall-street-rule-holding-stablecoins-back/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strategy reports $19.5 billion Q3 net income on $20.9 billion bitcoin gain; holds 848,517 BTC",
+          "what": "Strategy Holdings, a bitcoin treasury company and publicly traded firm, reported $19.53 billion in Q3 net income, predominantly driven by a $20.91 billion unrealized gain on its Bitcoin holdings. The company holds 848,517 BTC and moved preferred shareholders to daily dividend payments, signaling confidence in its bitcoin strategy despite Oct 29 market turmoil.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-10-29 08:31 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141"
+        },
+        {
+          "headline": "Coinbase reports $719 million Q3 profit on crypto holdings; revenue flat at $1.22 billion",
+          "what": "Coinbase, a major crypto exchange and custodian, posted $719 million in third-quarter net income, boosted by gains on its crypto asset holdings. Revenue held flat at $1.22 billion as trading volumes remained muted despite the Oct 29 market spike. The profit reflects Coinbase's bet on rising Bitcoin and Ethereum prices.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-29 07:53 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains"
+        },
+        {
+          "headline": "Bitcoin ETFs see $137.3 million net inflow on Oct 28; Ethereum ETFs see $21.4 million net outflow",
+          "what": "US spot Bitcoin ETFs recorded $137.3 million in net inflows on Oct 28 (the day before the Binance hack), marking the third consecutive day of inflows. BlackRock's IBIT led with $136 million. Ethereum ETFs, by contrast, saw $21.4 million in net outflows. These flows were recorded before the hack and do not reflect the Oct 29 market panic.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-10-29 00:00 UTC",
+          "source": "KuCoin / Farside Investors",
+          "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-spot-etfs-see-137-3m-net-inflow-ethereum-etfs-record-21-4m-net-outflow-on-october-28"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "NYSE owner ICE partners with Trade[XYZ] to bring regulated Hyperliquid perpetual futures to the US",
+          "what": "Intercontinental Exchange (ICE), owner of the New York Stock Exchange, signed an agreement to launch US-regulated perpetual futures built on Hyperliquid technology through Trade[XYZ], a crypto startup. The deal was announced on Oct 29 and sent Hyperliquid's token (HYPE) surging 13–15%. Billionaire Stanley Druckenmiller made his first X post ever to back the venture, signaling institutional confidence in decentralized futures.",
+          "coins": "Hyperliquid (HYPE)",
+          "timeUTC": "2026-10-29 09:08 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132"
+        },
+        {
+          "headline": "Crypto exchange HTX exits the UK after settling with FCA",
+          "what": "HTX, the former Huobi Global exchange, ceased UK operations after settling with the UK's Financial Conduct Authority (FCA). The exchange halted deposits from British customers and agreed not to target UK residents with crypto promotions. The settlement concludes a year of litigation over misleading advertising.",
+          "coins": "all cryptocurrencies",
+          "timeUTC": "2026-10-29 11:51 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca"
+        },
+        {
+          "headline": "Curve Finance launches on Stellar in first non-EVM deployment",
+          "what": "Curve Finance, a leading decentralized exchange for stablecoin swaps, deployed on Stellar mainnet on Oct 29. This marks Curve's first native deployment outside the Ethereum Virtual Machine (EVM) ecosystem, expanding its reach to non-Ethereum blockchains and offering Stellar users stablecoin liquidity.",
+          "coins": "Curve (CRV)",
+          "timeUTC": "2026-10-29 04:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121"
+        },
+        {
+          "headline": "Polygon and Solana partner to bring stablecoin payments to banks",
+          "what": "Polygon and Solana, two separate blockchain networks that normally compete, announced a partnership to connect Solana's stablecoin activity with Polygon's banking, wallet, and payment infrastructure. The combined system aims to let banks and fintechs settle payments in stablecoins across both networks.",
+          "coins": "Polygon (MATIC), Solana (SOL)",
+          "timeUTC": "2026-10-29 12:23 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-28",
+    "summary": "Bitcoin ETFs drew $137.3 million net inflow (third day running); Ethereum ETFs saw $21.4 million net outflow. Data is from Oct 28 and reflects flows before the Binance hack on Oct 29.",
+    "source": "Farside Investors",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Advance GDP q/q and Core PCE Price Index m/m released Oct 29 at 12:30 UTC",
+      "typicalReaction": "Both reported as high-impact traditional-finance events. GDP forecast 3.2%, PCE forecast 0.3% m/m. These inflation and growth prints can drive broad risk sentiment and affect dollar strength, which in turn influences crypto prices."
+    },
+    {
+      "event": "Eurozone GDP Flash October 2026 scheduled for Fri 30 Oct, 10:00 UTC (tomorrow)",
+      "typicalReaction": "High-impact European economic data release. A surprise weak result could drive dollar strength and broad risk-off sentiment, putting downward pressure on crypto. Expected to create volatility in both traditional and crypto markets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The time period or measurement method used to report price changes and volume (e.g., 'utc-day' means a calendar day in UTC)."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of coins or assets in a market that moved up versus down. High breadth (many coins up) signals broad buying; low breadth (most coins down) signals broad selling."
+    },
+    {
+      "term": "Exchange",
+      "definition": "A platform where people trade cryptocurrencies for other cryptocurrencies or traditional money."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A small payment perpetual-futures traders make to each other every 8 hours. A positive rate means those betting prices will rise (longs) pay those betting prices will fall (shorts), and vice versa. Extreme rates signal overconfidence in one direction."
+    },
+    {
+      "term": "Hot wallet",
+      "definition": "An exchange's or service's internet-connected digital storage for user funds, used for withdrawals and deposits. Hot wallets are easier for hackers to access than offline cold storage."
+    },
+    {
+      "term": "Long / short (position)",
+      "definition": "A 'long' position is a bet that an asset's price will rise; a 'short' position is a bet that it will fall. A long/short ratio (e.g., '2-to-1 long') means twice as many traders are betting up as betting down."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of account-holders with long (bet price rises) versus short (bet price falls) positions. A ratio above 1 means more accounts are long; below 1 means more are short. Not the same as leverage—just direction bias."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate profits and losses on perpetual futures. It is calculated from recent trades and indices to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value or number of open positions in a perpetual futures market at a specific point in time. Rising open interest means more positions are being opened; falling means they are being closed."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage change in total open positions between two points in time. Rising OI into falling prices is often a warning sign of forced liquidations to come."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "A type of leveraged contract that lets traders bet on an asset's price going up or down without a fixed expiration date. Unlike a futures contract with an end date, perpetuals can stay open indefinitely."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A type of cryptocurrency designed to hold a fixed value (e.g., 1 USDC = $1 USD). Stablecoins are used as a safe way to move money between exchanges without price risk."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of how aggressively buyers versus sellers are initiating trades during a period. A ratio above 1 means buyers are more aggressive; below 1 means sellers are more aggressive."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The long versus short position ratio among the largest traders on an exchange (not all traders). It shows which direction the biggest, smartest money is positioned."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total value or number of trades in a market during a period, usually measured in 24 hours. High volume indicates active trading; low volume can mean illiquid or thin markets."
+    }
+  ],
+  "_source": "cli"
+}

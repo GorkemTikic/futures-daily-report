@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "kind": "market",
+  "dateLong": "Thursday, 29 October 2026",
+  "coversUTC": "2026-10-29 00:00–23:59 UTC",
+  "oneLine": "Bitcoin crashed 4.1% to $77,970 on Oct 29 as a suspected $5.7 billion Binance hack—the largest crypto theft on record—panicked traders into broad selling.",
+  "newsCount": 15,
+  "macro": {
+    "BTC": -4.102807566050433,
+    "ETH": -4.507701504687049
+  },
+  "topMover": {
+    "symbol": "PARTIUSDT",
+    "chgPct": 53.87188062773347
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "30 Oct 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
