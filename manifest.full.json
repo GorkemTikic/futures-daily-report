@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-10-30T00:10:21.861Z",
-  "count": 135,
+  "generatedAt": "2026-10-31T00:08:10.523Z",
+  "count": 136,
   "counts": {
-    "total": 135,
-    "market": 48,
+    "total": 136,
+    "market": 49,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-29",
+  "latest": "2026-10-30",
   "reports": [
+    {
+      "date": "2026-10-30",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.8534106285149887,
+        "ETH": -0.4080255382252023
+      },
+      "marketSummary": "On October 30, the world's largest cryptocurrency exchange Binance disclosed a $6.3 billion hack tied to North Korea, sending Bitcoin down 0.8% and Ether down 0.4%, though markets showed remarkable resilience compared to past exchange security breaches.",
+      "oneLine": "On October 30, the world's largest cryptocurrency exchange Binance disclosed a $6.3 billion hack tied to North Korea, sending Bitcoin down 0.8% and Ether down 0.4%, though markets showed remarkable resilience compared to past exchange security breaches.",
+      "newsCount": 16,
+      "topMover": {
+        "symbol": "IDOLUSDT",
+        "chgPct": 70.93631348950498
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-10-30/summary_2026-10-30.html",
+        "pdf": "reports/2026-10-30/summary_2026-10-30.pdf",
+        "md": "reports/2026-10-30/summary_2026-10-30.md"
+      }
+    },
     {
       "date": "2026-10-29",
       "kind": "market",

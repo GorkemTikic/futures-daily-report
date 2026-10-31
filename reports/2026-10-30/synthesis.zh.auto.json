@@ -1,0 +1,224 @@
+{
+  "oneLine": "10月30日，全球最大加密货币交易所币安披露了一笔与朝鲜有关、价值63亿美元的黑客攻击，导致比特币下跌0.8%、以太坊下跌0.4%，但市场与过往交易所安全事件相比表现出了显著韧性。",
+  "caveman": "10月30日，比特币和以太坊下跌了。原因是黑客从币安偷走了63亿美元。币安是世界最大的加密货币交易所。比特币下跌0.8%，以太坊下跌0.4%。但这里有个好消息：八年前币安也被黑过一次，那次比特币下跌了11%。现在市场强多了，不会这么容易崩溃。美国FBI和特勤局在调查，专家认为黑客来自朝鲜。发行USDT和USDC的大公司在几小时内冻结了约30亿美元被盗的币，黑客没办法花。币安承诺用他们存的钱给所有人赔偿。这是个很吓人的一天，但市场比预期坚强。",
+  "priceVolumeSummary": "比特币在76,270至78,776美元之间交易，交易范围2,506美元，各大交易所价格在77,300美元附近基本一致。币安以187亿美元的比特币期货交易量领先，其次是OKX的101亿美元。",
+  "positioningSummary": "币安上，比特币多空比为2.37（看涨头寸明显更多），顶级交易员更加看涨，比例为1.92，但Taker买卖比为0.925，显示活跃交易员有轻微卖压。以太坊看涨情绪更极端，整体多空比为3.30，顶级交易员比例为1.78。比特币资金费率为正，年化10.95%，吸引买方，而以太坊资金费率深度为负，各交易所平均年化-15%，显示看跌情绪。比特币未平仓合约增加2.29%，以太坊下降3.57%，币安期货中59.3%的合约上涨，尽管发生黑客事件，仍显示适度看涨面。",
+  "stocksSummary": "亚洲股市在半导体领域广泛走弱：韩国SK海力士下跌3.7%、三星电子下跌2.3%，香港中际创新光下跌3.96%、AI公司智谱AI下跌5.2%。美国股市大幅下跌——标普500下跌1.77%、纳斯达克下跌2.84%——英特尔经历50年来最糟的一天，下跌23.68%，虽然盈利超预期但前景指引疲弱。Reddit在警告谷歌AI搜索正削减推荐流量后下跌30%。商品期货涨跌不一：黄金下跌3.05%、白银下跌5.17%、石油基本持平。",
+  "movers": [
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "IDOL暴涨70.94%，从低点0.0132美元交易至0.0314美元。加密新闻中未发现明显的信息驱动因素。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "SOPH跳升54.11%，达到0.00247美元。未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "explanation": "BEAMX上涨39.11%，接近0.0054美元。没有新闻解释这一涨幅。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "创纪录最大加密黑客攻击内幕：攻击者如何用63亿美元攻破币安",
+        "what": "币安披露了一笔与朝鲜有关、价值63亿美元的黑客攻击，创下加密货币盗窃纪录。黑客利用以太坊升级（EIP-7702）通过委托签名绕过安全检查来清空钱包。Tether和Circle在数小时内冻结了约17.9亿美元的USDT和USDC，FBI和特勤局启动调查，币安预留63.4亿美元弥补所有用户损失。",
+        "coins": "BTC, ETH, USDT, USDC",
+        "timeUTC": "Oct 30, 10:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
+      },
+      {
+        "headline": "币安黑客事件：为什么比特币没有像2018年那样崩溃",
+        "what": "63亿美元币安黑客事件后，比特币仅下跌约3%，而2018年币安遭攻击时比特币下跌约11%。较小的价格反应反映出市场更加成熟、抗风险能力更强，对单一交易所安全事件的敏感度降低。",
+        "coins": "BTC",
+        "timeUTC": "Oct 30, 07:45 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash"
+      },
+      {
+        "headline": "华尔街分析师在63亿美元币安黑客事件后敦促投资者买入加密股票",
+        "what": "Cantor Fitzgerald、TD Cowen和Compass Point的分析师在黑客事件后维持对加密股票的买入评级，将其定性为币安特有的失败而非系统性的加密威胁。他们建议机构投资者选择Coinbase和Robinhood等美国受监管的替代品来获得加密敞口。",
+        "coins": "BTC, ETH",
+        "timeUTC": "Oct 30, 03:50 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "币安黑客争分夺秒转移数十亿美元，试图在被冻结前逃脱",
+          "what": "攻击者急忙将被盗的稳定币兑换成发行者无法冻结的加密货币。Tether和Circle在数小时内冻结了数十亿美元资产，但黑客已经开始在多条区块链和多个交易所平台上分散资金。",
+          "coins": "USDT, USDC, BTC, ETH",
+          "timeUTC": "Oct 30, 09:40 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen"
+        },
+        {
+          "headline": "币安黑客部署前所未见的洗钱策略隐匿63亿美元盗窃",
+          "what": "区块链分析检测到前所未见的洗钱方法用于隐匿63亿美元被盗资产。攻击者迅速将被盗的币兑换成其他加密货币以打破交易链。",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 08:16 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft/"
+        },
+        {
+          "headline": "币安给出48小时提现目标，同时比特币存款保持开放",
+          "what": "币安宣布恢复完整客户提现的48小时目标，同时继续接受比特币和以太坊存款。交易所定于周一发布完整的准备金证明审计。",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 07:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-gives-48-hour-withdrawal-target-while-bitcoin-deposits-remain-open/"
+        },
+        {
+          "headline": "Trezor报告CryptoBilis销售的Safe 5中存在疑似硬件植入",
+          "what": "Trezor警告称可信报告表明CryptoBilis销售的Safe 5安全设备内存在硬件植入。用户被敦促立即将资金迁出受影响的设备。",
+          "coins": "All crypto",
+          "timeUTC": "Oct 30, 14:42 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "CFTC主席称币安黑客事件显示离岸交易所为何需要美国监管",
+          "what": "CFTC主席Michael Selig表示，64亿美元的盗窃案表明离岸加密货币交易所需要向美国监管机构注册并采用美国级别的网络安全标准。",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 04:22 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair"
+        },
+        {
+          "headline": "特朗普总统表示他们正在调查币安黑客事件，对加密规则的呼声日增",
+          "what": "特朗普总统表示政府正在调查币安黑客事件，立法者呼吁加强加密货币交易所监管。该事件预计将加快国会关于交易所监管的讨论。",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 03:52 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236"
+        },
+        {
+          "headline": "特勤局、FBI加入币安黑客事件调查，Circle冻结8.23亿美元",
+          "what": "FBI和美国特勤局加入了币安黑客事件的调查。Circle冻结了8.23亿美元的USDC，币安拨款63.4亿美元弥补所有用户损失。",
+          "coins": "USDC, BTC, ETH",
+          "timeUTC": "Oct 30, 01:43 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Coinbase第三季度净收入跃升66%，预测市场增长",
+          "what": "Coinbase报告第三季度净收入7.19亿美元，同比增长66%，由预测市场和衍生品业务增长推动。现货交易有所减弱，但被其他产品类别的收益抵消。",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 12:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189"
+        },
+        {
+          "headline": "Tether超额准备金几乎翻倍至80亿美元，第三季度利润达15亿美元",
+          "what": "Tether报告第三季度利润15亿美元，美元超额准备金增至80亿美元。这家稳定币发行商持有83.7亿美元的比特币。",
+          "coins": "USDT, BTC",
+          "timeUTC": "Oct 30, 03:08 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b"
+        },
+        {
+          "headline": "分析师称Strategy的优先股修复为比特币购买做好准备",
+          "what": "Strategy报告第三季度运营利润强劲，拥有48.3亿美元现金储备，将优先股重组为日分红。尽管首席财务官Andrew Kang辞职后股价下跌，分析师仍看好。",
+          "coins": "BTC",
+          "timeUTC": "Oct 30, 09:50 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "英特尔股票经历50年来最大跌幅，弱势前景掩盖AI芯片需求",
+          "what": "英特尔股价下跌23.68%，是50年来最糟的一天。公司虽然超过第三季度盈利预期，但发出弱势前景指引，理由是个人电脑市场长期下滑。对内存需求疲弱的担忧掩盖了AI芯片的强势。",
+          "coins": "N/A",
+          "timeUTC": "Oct 30, 02:33 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382287/intel-stock-suffers-worst-crash-in-50-years-as-weak-forecast-overshadows-ai-chip-demand"
+        },
+        {
+          "headline": "Reddit股价暴跌30%，谷歌AI搜索打击流量和用户增长",
+          "what": "Reddit股价下跌30%（周跌幅44%），首席执行官Steve Huffman警告谷歌AI搜索功能正在削减推荐流量。公司未能达到用户增长目标，并提供了疲弱的指引。",
+          "coins": "N/A",
+          "timeUTC": "Oct 30, 01:37 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "MetaMask增加Stellar集成，但跨链桥接需要手动设置",
+          "what": "MetaMask在10月29日发布了Stellar区块链集成，为现有多链账户添加了Stellar地址功能。接收USDC需要通过桥接界面手动注资和激活代币。",
+          "coins": "USDC",
+          "timeUTC": "Oct 29–30, 16:50 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/metamask-adds-stellar-integration-but-cross-chain-bridges-require-manual-setup/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-29",
+    "summary": "比特币现货ETF在10月29日录得1,710万美元的净流入。以太坊现货ETF继续其负面趋势，流出1.05亿美元，标志着以太坊连续第四天流出，尽管一些来源表示Fidelity的FETH流入被BlackRock的ETHA的更大流出所抵消。10月累计流向：比特币为正，以太坊下降约13.2亿美元（接近2025年11月的纪录流出）。",
+    "source": "TFTC, KuCoin",
+    "url": "https://www.tftc.io/bitcoin-etf-flows/october-2026"
+  },
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan Rate Decision (October 30, 00:00 UTC)",
+      "typicalReaction": "公布日在UTC市场开盘时做出决定。按兵不动或降息通常会削弱日元、提高风险偏好；加息会强化美元、可能降低对加密货币的需求。影响取决于日本收紧周期的叙事。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "永续期货合约中多头和空头交易者之间的定期支付，目的是将永续价格与现货价格保持一致。正费率意味着多头支付空头（看涨市场），负费率意味着空头支付多头（看跌市场）。年化资金费率是周期费率乘以每年的周期数。"
+    },
+    {
+      "term": "多空比",
+      "definition": "做多头寸的交易者或交易量与做空头寸的比例。做多头意味着押注价格上升，做空头意味着押注价格下跌。比例为2.0意味着做多头数是做空头数的两倍，表示看涨情绪。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "某资产未平仓衍生品合约（期货和永续合约）的总价值，以币或美元计算。未平仓合约越高，流动性越深，投机活动越活跃。未平仓合约的变化显示交易者是在增加还是减少头寸。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所用于计算资金费率和防止操纵的参考价格。标记价格通常是最近现货和永续价格的加权平均值，而不是实际最后成交价。"
+    },
+    {
+      "term": "Taker买卖比",
+      "definition": "市场买单（吃单者）与市场卖单（吃单者）的比例，显示活跃交易者是更积极地买入还是卖出。高于1.0表示买压更大，低于1.0表示卖压更大。"
+    },
+    {
+      "term": "市场面",
+      "definition": "市场上在某个时期内上涨（或下跌）的资产百分比。面高于50%表示广泛上涨，低于50%表示普遍疲弱。"
+    },
+    {
+      "term": "顶级交易员多空比",
+      "definition": "交易所上最大交易者或账户之间的多空比，与整体市场比例不同。顶级交易员的极端比例可能信号机构头寸或潜在反转。"
+    },
+    {
+      "term": "EIP-7702",
+      "definition": "以太坊协议升级，允许普通的外部所有账户临时执行智能合约代码，实现批量交易和账户抽象。币安黑客使用它来绕过正常的签名控制。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "一种设计用来维持稳定价值的加密货币，通常与美元等法定货币挂钩。USDT（Tether）和USDC（Circle）是最广泛使用的。"
+    },
+    {
+      "term": "热钱包",
+      "definition": "连接到互联网的加密货币钱包，用于频繁交易或提现。热钱包比冷存储更容易被黑客攻击，但能更快地处理交易。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "ab6b157afa30ed7f"
+}

@@ -1,0 +1,224 @@
+{
+  "oneLine": "30 Ekim'de dünyanın en büyük kripto borsası Binance'in Kuzey Kore bağlantılı 6,3 milyar dolarlık bir saldırıya uğradığı ortaya çıktı; Bitcoin %0,8 ve Ethereum %0,4 düştü, ancak piyasalar geçmişteki borsa güvenlik ihlalleriyle karşılaştırıldığında dikkat çekici bir dayanıklılık gösterdi.",
+  "caveman": "30 Ekim'de Bitcoin ve Ethereum düştü çünkü hackerlar dünyanın en büyük kripto borsası Binance'den 6,3 milyar dolar çaldı. Bitcoin %0,8 düştü, Ethereum %0,4 düştü. Ama iyi haber var: sekiz yıl önce Binance hacklansaydı, Bitcoin %11 düşmüş olurdu, bu yüzden pazar şimdi çok daha güçlü ve kolayca panik yapmıyor. FBI ve Gizli Servis soruşturma başlattı ve uzmanlar hackerlerin Kuzey Kore'den olduğunu düşünüyor. USDT ve USDC adlı dijital para çıkaran büyük şirketler çalınan paraların yaklaşık 3 milyarını dondurdu, böylece hackerlar onları harcayamadı. Binance herkese geri ödeme yapacağını söyledi, tasarruf ettikleri paralardan. Çok endişeli bir gündü ama pazar beklenenden daha iyi dayanıklılık gösterdi.",
+  "priceVolumeSummary": "Bitcoin, 76.270 dolardan 78.776 dolara kadar 2.506 dolarlık bir aralıkta işlem gördü; tüm ana borsalar 77.300 dolar civarında yakın anlaşmadaydı. Binance BTC vadeli işlemlerinde 18,7 milyar dolarlık hacimle başı çekti, bunu OKX'in 10,1 milyarı izledi.",
+  "positioningSummary": "Binance'te BTC uzun/kısa oranı 2,37'ydi (önemli ölçüde daha fazla boğa pozisyonu), en büyük traderlar 1,92'de daha da boğa eğilimli olup, taker alış/satış oranı 0,925 aktif traderlardan hafif satış baskısını gösterdi. ETH pozisyonu 3,30'da aşırı düzeyde boğa eğilimli olup, en büyük traderlar 1,78'de daha az aşırıydı. BTC fonlama oranı %10,95 annualize ile pozitifti ve alıcıları çekiyordu, ETH fonlama ise çeşitli borsalarda ortalama %15 annualize ile derin negatifti ve düşüş duygusunu işaret ediyordu. BTC açık faiz %2,29 arttı ve ETH %3,57 düştü, Binance perps'in %59,3'ü daha yüksek işlem gördü ve hack rağmen orta düzey boğa genişliğini gösterdi.",
+  "stocksSummary": "Asya öz sermaye piyasaları yarı iletkenler genelinde zayıfladı: Güney Kore'nin SK Hynix %3,7 düştü ve Samsung Electronics %2,3 düştü, Hong Kong'un Zhongji Innolight %3,96 düştü ve yapay zeka odaklı Zhipu AI %5,2 düştü. ABD hisse senetleri keskin düştü—S&P 500 %1,77 düştü, Nasdaq %2,84 düştü—Intel 50 yılın en kötü gününü yaşadı (−%23,68) kazançları yenmiş olmasına rağmen zayıf ileri rehberliği yayınladıktan sonra. Reddit %30 düştü, Google'ın yapay zeka aramasının yönlendirme trafiğini kestiği konusunda uyarılar yaptıktan sonra. Emtia vadeli işlemleri karışıktı: altın %3,05 düştü, gümüş %5,17 düştü, petrol büyük ölçüde sabit kaldı.",
+  "movers": [
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "IDOL %70,94 arttı, 0,0132 dolardan 0,0314 dolara işlem gördü. Kripto haberleri kapsamında açık bir sürücü yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "SOPH %54,11 arttı, 0,00247 dolara ulaştı. Kamuya açık bir sebep tespit edilmedi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "explanation": "BEAMX %39,11 arttı, 0,0054 dolara yakın tepesine ulaştı. Hareketi açıklayan bir haber yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Tarihin en büyük kripto saldırısının içinde: Saldırganlar 6,3 milyar dolarlık Binance'e nasıl girdi",
+        "what": "Binance, Kuzey Kore ile bağlantılı 6,3 milyar dolarlık bir saldırı açıkladı; bu, kayıtların tarihindeki en büyük kripto hırsızlığı. Hackerlar, temsilci imzası kullanarak cüzdanları boşaltmak için güvenlik kontrollerini aşmak amacıyla bir Ethereum yükseltmesinden (EIP-7702) yararlandı. Tether ve Circle saatlarca içinde yaklaşık 1,79 milyar USDT ve USDC'yi dondurdu, FBI ve Gizli Servis soruşturma başlattı ve Binance tüm kullanıcı kayıplarını karşılamak için 6,34 milyar dolar ayırdı.",
+        "coins": "BTC, ETH, USDT, USDC",
+        "timeUTC": "Oct 30, 10:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
+      },
+      {
+        "headline": "Binance Saldırısı: Bitcoin Neden 2018'deki Gibi Çökmedi",
+        "what": "Bitcoin, 6,3 milyar dolarlık Binance saldırısının ardından yaklaşık %3 düştü; 2018'deki Binance saldırısının ardından kabaca %11 düşmüştü. Daha küçük fiyat tepkisi, tek bir borsa güvenliği arızasına karşı daha olgun ve dayanıklı bir pazarı yansıtıyor.",
+        "coins": "BTC",
+        "timeUTC": "Oct 30, 07:45 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash"
+      },
+      {
+        "headline": "Wall Street analistleri, 6,3 milyar dolarlık Binance saldırısının ardından yatırımcılara kripto hisse senetleri satın almalarını tavsiye ediyor",
+        "what": "Cantor Fitzgerald, TD Cowen ve Compass Point'teki analistler, saldırıyı Binance'e özgü bir arıza olarak nitelendirerek saldırıdan sonra kripto hisse senetleri için satın al derecelendirmesini korudu. Kurumsal kripto maruziyeti için Coinbase ve Robinhood gibi ABD tarafından düzenlenen alternatifler önerdi.",
+        "coins": "BTC, ETH",
+        "timeUTC": "Oct 30, 03:50 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance hackerları dondurmadan önce milyarları taşımaya yarıştı",
+          "what": "Saldırganlar, çalınan sabit paraları ihraçılarının donduramayacağı kripto para birimlerine dönüştürmek için hızlandı. Tether ve Circle saatlarca içinde milyarları dondurdu, ancak hackerlar zaten fonları birden fazla zincir ve borsa platformları arasında dağıtmaya başlamışlardı.",
+          "coins": "USDT, USDC, BTC, ETH",
+          "timeUTC": "Oct 30, 09:40 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen"
+        },
+        {
+          "headline": "Binance hackerları 6,3 milyar dolarlık hırsızlığı gizlemek için hiç görülmemiş para aklama taktikleri kullanıyor",
+          "what": "Blokzincir analizi, 6,3 milyar dolarlık çalınan varlıkları gizlemek için daha önce kullanılmamış para aklama yöntemlerini tespit etti. Saldırganlar, işlem izlerini kırmak için çalınan paraları hızla diğer kripto para birimlerine dönüştürdü.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 08:16 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft/"
+        },
+        {
+          "headline": "Binance, Bitcoin mevduatları açık tutarken 48 saatlik çekilme hedefi veriyor",
+          "what": "Binance, Bitcoin ve Ethereum mevduatlarını kabul ederken tam müşteri çekme işlemlerini sürdürme için 48 saatlik bir hedef açıkladı. Borsa Pazartesi günü tam bir kanıt-of-rezerv denetimi yayınlamayı planlıyor.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 07:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-gives-48-hour-withdrawal-target-while-bitcoin-deposits-remain-open/"
+        },
+        {
+          "headline": "Trezor, CryptoBilis tarafından satılan Safe 5'te şüpheli donanım imlanı bildiriyor",
+          "what": "Trezor, CryptoBilis tarafından satılan bir Safe 5 güvenlik cihazının içinde donanım implantı olduğuna dair güvenilir bir rapor uyarısı yayınladı. Kullanıcılara etkilenen cihazlardan fonları hemen taşıması tavsiye edildi.",
+          "coins": "All crypto",
+          "timeUTC": "Oct 30, 14:42 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Binance Saldırısı Neden Kıyı Dışı Borsaların ABD Denetimine İhtiyaç Duyduğunu Gösteriyor, CFTC Başkanı Diyor",
+          "what": "CFTC Başkanı Michael Selig, 6,4 milyar dolarlık hırsızlığın kıyı dışı kripto para borsalarının ABD düzenlemecilerine kaydolması ve ABD seviyesinde siber güvenlik standartlarını benimsemesi gerektiğini gösterdiğini söyledi.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 04:22 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair"
+        },
+        {
+          "headline": "Başkan Trump, Binance saldırısına bakıldığını söylüyor ve kripto kuralları çağrıları artıyor",
+          "what": "Başkan Trump, yönetimin Binance saldırısını araştırdığını söyledi ve milletvekilleri daha güçlü kripto para borsası düzenlemelerini çağırıyor. Olay, borsa gözetimi konusunda kongre tartışmalarını hızlandırması bekleniyor.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 03:52 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236"
+        },
+        {
+          "headline": "Gizli Servis, FBI Binance Saldırısı Soruşturmasına Katılıyor; Circle 823 Milyon Doları Donduruyor",
+          "what": "FBI ve ABD Gizli Servisi Binance saldırısı soruşturmasına katıldı. Circle 823 milyon USDC'yi dondurdu, Binance ise tüm kullanıcı kayıplarını karşılamak için 6,34 milyar dolar ayırdı.",
+          "coins": "USDC, BTC, ETH",
+          "timeUTC": "Oct 30, 01:43 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Coinbase Q3 net geliri tahmin piyasaları kazandıkça %66 sıçrayıyor",
+          "what": "Coinbase, büyüyen tahmin piyasaları ve vadeli işlemler işletmeleri tarafından yönlendirilen Q3'te 719 milyon dolar net gelir bildirdi; bu önceki üç aya göre %66 artış. Spot ticaret zayıfladı ancak diğer ürün kategorilerindeki kazançlarla dengelendi.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 12:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189"
+        },
+        {
+          "headline": "Tether'in fazla rezervleri 8 milyara kadar neredeyse iki katına çıkıyor; Q3 kârı 1,5 milyara ulaşıyor",
+          "what": "Tether, Q3'te 1,5 milyar dolar kâr bildirdi ve fazla USD rezervleri 8 milyara tırmandı. Sabit para ihraçıcısı 8,37 milyar dolar Bitcoin tutuyor.",
+          "coins": "USDT, BTC",
+          "timeUTC": "Oct 30, 03:08 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b"
+        },
+        {
+          "headline": "Strategy'nin tercih edilen hisse senedi düzeltmesi yenilenen bitcoin satın almalarını kuruyor, analistler söylüyor",
+          "what": "Strategy, güçlü Q3 işletme kârı, 4,83 milyar dolarlık nakit rezervleri ve günlük temettüler için yeniden yapılandırılmış tercih edilen hisse senetleri bildirdi. Analistler CFO Andrew Kang'ın istifasından sonra hisse senedi düşmesine rağmen boğa eğilimli kaldı.",
+          "coins": "BTC",
+          "timeUTC": "Oct 30, 09:50 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Intel Hisse Senedi 50 Yılın En Kötü Çöküşünü Yaşıyor; Zayıf Tahmin AI Çip Talebini Gölgeleye Alıyor",
+          "what": "Intel hissesi %23,68 düştü; bu 50 yılın en kötü günü. Şirket Q3 kazançlarını yenmesine rağmen zayıf ileri rehberliği yayınladı ve uzun süreli PC pazarında düşüş nedeniyle endişe yaşandı. Hafıza talebinin zayıflığı endişeleri AI çip gücünü gölgeleye aldı.",
+          "coins": "N/A",
+          "timeUTC": "Oct 30, 02:33 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382287/intel-stock-suffers-worst-crash-in-50-years-as-weak-forecast-overshadows-ai-chip-demand"
+        },
+        {
+          "headline": "Reddit Hisse Senedi Google'ın AI Aramasının Trafiği Kestiği için %30 Düşüyor",
+          "what": "Reddit hissesi %30 düştü; hafta içinde %44 düşmüştü. CEO Steve Huffman, Google'ın yapay zeka destekli arama özelliklerinin yönlendirmeleri kestiğini uyardı. Şirket ayrıca kullanıcı büyümesi hedeflerini kaçırdı ve zayıf rehberliği sağladı.",
+          "coins": "N/A",
+          "timeUTC": "Oct 30, 01:37 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "MetaMask Stellar entegrasyonu ekliyor; çapraz zincir köprüleri manuel kurulumu gerektiriyor",
+          "what": "MetaMask, 29 Ekim'de Stellar blokzincir entegrasyonunu yayınladı ve mevcut çok zincirli hesaplara Stellar adres yeteneği ekledi. USDC almak, bir köprü ara yüzü aracılığıyla manuel finansman ve jeton etkinleştirmesi gerektirir.",
+          "coins": "USDC",
+          "timeUTC": "Oct 29–30, 16:50 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/metamask-adds-stellar-integration-but-cross-chain-bridges-require-manual-setup/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-29",
+    "summary": "Bitcoin spot ETF'leri 29 Ekim'de 17,1 milyon dolar net girişi kaydetti. Ethereum spot ETF'leri olumsuz serilerine devam etti; 105 milyon dolarlık çıkışlar kaydedildi ve bu dördüncü ardışık ETH çekilişi günüydü; ancak bazı kaynaklar Fidelity'nin FETH girişlerinin BlackRock'ın ETHA'dan daha büyük çıkışlarla dengelediğini söyledi. Ekim kümülatif akışları: BTC pozitif, ETH yaklaşık 1,32 milyar dolar düştü ve Kasım 2025 rekor çıkışlarına yaklaşıyor.",
+    "source": "TFTC, KuCoin",
+    "url": "https://www.tftc.io/bitcoin-etf-flows/october-2026"
+  },
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan Rate Decision (October 30, 00:00 UTC)",
+      "typicalReaction": "Pazar açılışında rapor kararı gerçekleşir. Oranı sabit tutma veya indirim tipik olarak yeni zayıflatır ve risk iştahını arttırır; oran artışları dolar gücünü arttırır ve kripto talebini azaltabilir. Etki, Japonya'nın sıkılaştırma döngüsü konusundaki anlatıya bağlıdır."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Fonlama Oranı",
+      "definition": "Kalıcı vadeli işlemler kontratlarında uzun ve kısa traderler arasında periyodik ödeme; kalıcı fiyatları spot fiyatı ile hizalamak için tasarlanmış. Pozitif oranlar uzunların kısalara ödeme yaptığı anlamına gelir (boğa pazarı); negatif oranlar kısaların uzunlara ödeme yaptığı anlamına gelir (ayı pazarı). Annualize fonlama, periyodik oranın yıl başına dönem sayısı ile çarpılmasıdır."
+    },
+    {
+      "term": "Uzun/Kısa Oranı",
+      "definition": "Uzun pozisyonlardaki (fiyatın yükseleceği bahisleri) traderlar veya ticaret hacmi ile kısa pozisyonlardaki (fiyatın düşeceği bahisleri) oranı. 2,0 oranı kısalara kıyasla iki kat daha fazla uzunluk olduğu anlamına gelir ve boğa duygusunu gösterir."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Bir varlık üzerine olağanüstü türev kontratlarının (vadeli işlemler ve kalıcı) toplam değeri; paralar veya USD cinsinden ölçüldü. Daha yüksek açık faiz daha derin likidite ve daha fazla spekülatif etkinliği gösterir. Açık faiz değişikliği traderların pozisyonları ekleyip eklemediğini veya azaltıp azaltmadığını gösterir."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Borsa tarafından fonlama oranlarını hesaplamak ve manipülasyonu önlemek için kullanılan referans fiyat. İşaret fiyatı tipik olarak son spot ve kalıcı fiyatların ağırlıklı ortalamasıdır; gerçek son ticaret fiyatı değildir."
+    },
+    {
+      "term": "Taker Alış/Satış Oranı",
+      "definition": "Pazar alış emirlerinin (alıcılar) pazar satış emirlerine (alıcılar) oranı; aktif traderların daha agresif bir şekilde alış veya satış yapıp yapmadığını gösterir. 1,0'den yüksek daha fazla satın alma baskısını gösterir; 1,0'den düşük daha fazla satış baskısını gösterir."
+    },
+    {
+      "term": "Piyasa Genişliği",
+      "definition": "Bir dönem sırasında daha yüksek (veya daha düşük) işlem gören piyasadaki varlıkların yüzdesi. Genişlik %50'nin üzerinde geniş tabanlı bir ralliye önerir; %50'nin altında yaygın zayıflığı önerir."
+    },
+    {
+      "term": "En Büyük Trader Uzun/Kısa Oranı",
+      "definition": "Bir borsa üzerinde en büyük traderlar veya hesaplar arasında uzun/kısa oranı; genel piyasa oranından ayrıdır. Üst traderlar arasında aşırı oranlar kurumsal konumlandırmayı veya potansiyel ters çevirmeleri işaret edebilir."
+    },
+    {
+      "term": "EIP-7702",
+      "definition": "Sıradan dış olarak sahip olunan hesapların geçici olarak akıllı kontrat kodunu yürütmelerine izin veren Ethereum protokol yükseltmesi; toplu işlemler ve hesap soyutlaması sağlar. Binance hackerları tarafından normal imzalama kontrollerini atlamak için kullanıldı."
+    },
+    {
+      "term": "Sabit Kripto Para",
+      "definition": "İstikrarlı bir değeri korumak için tasarlanmış ve tipik olarak ABD doları gibi itibari para birimlerine sabitlenmiş kripto para birimi. USDT (Tether) ve USDC (Circle) en yaygın kullanılanlarıdır."
+    },
+    {
+      "term": "Sıcak Cüzdan",
+      "definition": "Sık işlem veya çekilişler için kullanılan ve internete bağlı kripto para cüzdanı. Sıcak cüzdanlar soğuk depolamadan daha hackleme için daha savunmasızdır ama daha hızlı işlem işlemesini sağlar."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "ab6b157afa30ed7f"
+}

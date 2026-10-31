@@ -1,0 +1,223 @@
+{
+  "oneLine": "On October 30, the world's largest cryptocurrency exchange Binance disclosed a $6.3 billion hack tied to North Korea, sending Bitcoin down 0.8% and Ether down 0.4%, though markets showed remarkable resilience compared to past exchange security breaches.",
+  "caveman": "Bitcoin and Ethereum fell on October 30 because hackers stole 6.3 billion dollars from Binance, the biggest cryptocurrency exchange in the world. Bitcoin fell 0.8% and Ethereum fell 0.4%. But here's the good part: eight years ago when Binance was hacked before, Bitcoin fell 11%, so the market is much stronger now and doesn't panic easily. The FBI and Secret Service are investigating, and experts think the hackers were from North Korea. Big companies that issue digital money called USDT and USDC froze about 3 billion dollars of the stolen coins so hackers can't spend them. Binance promised to pay everyone back from money it saved up. It was a very worrying day, but the market held up better than expected.",
+  "priceVolumeSummary": "Bitcoin traded in a $2,506 range from $76,270 to $78,776, with all major venues in close agreement near $77,300. Binance led volume at $18.7 billion in BTC futures, followed by OKX at $10.1 billion.",
+  "positioningSummary": "On Binance, BTC long/short ratio was 2.37 (significantly more bullish longs), with top traders even more bullish at 1.92, but taker buy/sell ratio of 0.925 showed slight selling pressure from active traders. ETH positioning was more extremely bullish at 3.30 overall, though top traders less extreme at 1.78. BTC funding remained positive at 10.95% annualized, attracting buyers, while ETH funding deeply negative at an average of 15% annualized across venues, signaling bearish sentiment. BTC open interest rose 2.29% while ETH fell 3.57%, and 59.3% of Binance perps traded higher, showing moderate bullish breadth despite the hack.",
+  "stocksSummary": "Asian equity markets weakened across semiconductors: South Korea's SK Hynix fell 3.7% and Samsung Electronics 2.3%, while Hong Kong's Zhongji Innolight dropped 3.96% and AI-focused Zhipu AI fell 5.2%. US equities declined sharply—S&P 500 down 1.77%, Nasdaq down 2.84%—with Intel suffering its worst day in 50 years at −23.68% after beating earnings but issuing weak forward guidance. Reddit fell 30% following warnings that Google's AI search is cutting referral traffic. Commodity futures were mixed: gold down 3.05%, silver down 5.17%, oil largely flat.",
+  "movers": [
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "IDOL surged 70.94%, trading from a low of $0.0132 to $0.0314. No identifiable news driver in crypto coverage.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "SOPH jumped 54.11%, reaching $0.00247. No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "explanation": "BEAMX rose 39.11%, peaking near $0.0054. No news explaining the move.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
+        "what": "Binance disclosed a $6.3 billion hack tied to North Korea, the largest cryptocurrency theft on record. Hackers exploited an Ethereum upgrade (EIP-7702) to bypass security checks using delegated signing to drain wallets. Tether and Circle froze roughly $1.79 billion in USDT and USDC within hours, the FBI and Secret Service launched investigations, and Binance set aside $6.34 billion to cover all user losses.",
+        "coins": "BTC, ETH, USDT, USDC",
+        "timeUTC": "Oct 30, 10:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225"
+      },
+      {
+        "headline": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+        "what": "Bitcoin fell only about 3% following the $6.3 billion Binance hack, compared to roughly 11% when Binance was attacked in 2018. The smaller price reaction reflects a more mature and resilient market less vulnerable to single-exchange security failures.",
+        "coins": "BTC",
+        "timeUTC": "Oct 30, 07:45 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash"
+      },
+      {
+        "headline": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
+        "what": "Analysts at Cantor Fitzgerald, TD Cowen, and Compass Point maintained buy ratings for crypto equities after the hack, characterizing it as a Binance-specific failure rather than a systemic crypto threat. They recommended US-regulated alternatives like Coinbase and Robinhood for institutional crypto exposure.",
+        "coins": "BTC, ETH",
+        "timeUTC": "Oct 30, 03:50 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance hackers raced to move billions before it could be frozen",
+          "what": "Attackers rushed to convert stolen stablecoins into cryptocurrencies that issuers could not freeze. Tether and Circle moved within hours to freeze billions in assets, but hackers had already begun dispersing funds across multiple chains and exchange platforms.",
+          "coins": "USDT, USDC, BTC, ETH",
+          "timeUTC": "Oct 30, 09:40 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen"
+        },
+        {
+          "headline": "Binance hackers deploy never-seen-before laundering tactics to conceal $6.3 billion theft",
+          "what": "Blockchain analysis detected previously unseen money-laundering methods used to obscure the $6.3 billion in stolen assets. Attackers rapidly converted stolen coins into other cryptocurrencies to break transaction trails.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 08:16 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft/"
+        },
+        {
+          "headline": "Binance gives 48-hour withdrawal target while Bitcoin deposits remain open",
+          "what": "Binance announced a 48-hour target for resuming full customer withdrawals while accepting Bitcoin and Ethereum deposits. The exchange set Monday for publishing a full proof-of-reserves audit.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 07:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-gives-48-hour-withdrawal-target-while-bitcoin-deposits-remain-open/"
+        },
+        {
+          "headline": "Trezor reports suspected hardware implant in Safe 5 sold by CryptoBilis",
+          "what": "Trezor warned that a credible report indicated a hardware implant inside a Safe 5 security device sold by CryptoBilis. Users were urged to migrate funds from affected devices immediately.",
+          "coins": "All crypto",
+          "timeUTC": "Oct 30, 14:42 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Binance Hack Shows Why Offshore Exchanges Need US Oversight, CFTC Chair Says",
+          "what": "CFTC Chair Michael Selig stated that the $6.4 billion theft demonstrates the need for offshore cryptocurrency exchanges to register with US regulators and adopt US-grade cybersecurity standards.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 04:22 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair"
+        },
+        {
+          "headline": "President Trump says they're looking into Binance hack as calls grow for crypto rules",
+          "what": "President Trump stated the administration is investigating the Binance hack as lawmakers call for stronger cryptocurrency exchange regulations. The incident is expected to accelerate congressional discussions on exchange oversight.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 03:52 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236"
+        },
+        {
+          "headline": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
+          "what": "The FBI and US Secret Service joined the investigation of the Binance hack. Circle froze $823 million in USDC, while Binance allocated $6.34 billion to cover all user losses.",
+          "coins": "USDC, BTC, ETH",
+          "timeUTC": "Oct 30, 01:43 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Coinbase Q3 net income jumps 66% as prediction markets gain traction",
+          "what": "Coinbase reported $719 million in Q3 net income, up 66% quarter-over-quarter, driven by growing prediction markets and derivatives businesses. Spot trading weakened but was offset by gains in other product categories.",
+          "coins": "BTC, ETH",
+          "timeUTC": "Oct 30, 12:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189"
+        },
+        {
+          "headline": "Tether's excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+          "what": "Tether reported $1.5 billion in Q3 profit with excess USD reserves climbing to $8 billion. The stablecoin issuer holds $8.37 billion in Bitcoin.",
+          "coins": "USDT, BTC",
+          "timeUTC": "Oct 30, 03:08 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b"
+        },
+        {
+          "headline": "Strategy's preferred-stock fix sets up renewed bitcoin buying, analysts say",
+          "what": "Strategy reported strong Q3 operating profit with $4.83 billion in cash reserves and restructured preferred stock to daily dividends. Analysts remained bullish despite the stock's decline following CFO Andrew Kang's resignation.",
+          "coins": "BTC",
+          "timeUTC": "Oct 30, 09:50 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-30-strategy-mstr-preferred-stock-bitcoin-buying-analysts-432214"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Overshadows AI Chip Demand",
+          "what": "Intel shares fell 23.68%, the worst single day in 50 years, after the company beat Q3 earnings but issued weak forward guidance citing prolonged PC market decline. Concerns about memory demand weakness overshadowed AI chip strength.",
+          "coins": "N/A",
+          "timeUTC": "Oct 30, 02:33 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382287/intel-stock-suffers-worst-crash-in-50-years-as-weak-forecast-overshadows-ai-chip-demand"
+        },
+        {
+          "headline": "Reddit Stock Plunges 30% as Google's AI Search Hits Traffic and User Growth",
+          "what": "Reddit shares fell 30% (down 44% for the week) after CEO Steve Huffman warned that Google's AI-powered search features are cutting referrals. The company also missed user growth targets and provided weak guidance.",
+          "coins": "N/A",
+          "timeUTC": "Oct 30, 01:37 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "MetaMask adds Stellar integration, but cross-chain bridges require manual setup",
+          "what": "MetaMask released Stellar blockchain integration on October 29, adding Stellar address capability to existing multichain accounts. Receiving USDC requires manual funding and token activation through a bridge interface.",
+          "coins": "USDC",
+          "timeUTC": "Oct 29–30, 16:50 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/metamask-adds-stellar-integration-but-cross-chain-bridges-require-manual-setup/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-29",
+    "summary": "Bitcoin spot ETFs recorded $17.1 million in net inflows on October 29. Ethereum spot ETFs continued their negative streak with $105 million in outflows, marking the fourth consecutive day of ETH withdrawals, though some sources cite inflows from Fidelity's FETH offset by larger outflows from BlackRock's ETHA. October cumulative flows: BTC positive, ETH down approximately $1.32 billion (approaching November 2025 record outflows).",
+    "source": "TFTC, KuCoin",
+    "url": "https://www.tftc.io/bitcoin-etf-flows/october-2026"
+  },
+  "calendarNotes": [
+    {
+      "event": "Bank of Japan Rate Decision (October 30, 00:00 UTC)",
+      "typicalReaction": "On-report-day decision at market open UTC. Rate holds or cuts typically weaken the yen and boost risk appetite; rate hikes strengthen the dollar and can reduce demand for crypto. Impact depends on narrative around Japan's tightening cycle."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between long and short traders on perpetual futures contracts, designed to keep perpetual prices aligned with spot price. Positive rates mean longs pay shorts (bullish market); negative rates mean shorts pay longs (bearish market). Annualized funding is the periodic rate multiplied by the number of periods per year."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders or trading volume in long positions (bets that price will rise) compared to short positions (bets that price will fall). A ratio of 2.0 means there are twice as many longs as shorts, indicating bullish sentiment."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of outstanding derivative contracts (futures and perpetuals) on an asset, measured in coins or USD. Higher open interest indicates deeper liquidity and greater speculative activity. Open-interest change shows whether traders are adding to or reducing positions."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used by exchanges to calculate funding rates and prevent manipulation. Mark price is typically a weighted average of recent spot and perpetual prices, not the actual last trade price."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders (takers) to market sell orders (takers), showing whether active traders are more aggressively buying or selling. Above 1.0 indicates more buying pressure; below 1.0 indicates more selling pressure."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of assets in a market that traded higher (or lower) during a period. Breadth above 50% suggests a broad-based rally; below 50% suggests widespread weakness."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The long/short ratio among the largest traders or accounts on an exchange, distinct from the overall market ratio. Extreme ratios among top traders can signal institutional positioning or potential reversals."
+    },
+    {
+      "term": "EIP-7702",
+      "definition": "An Ethereum protocol upgrade that allows ordinary externally-owned accounts to execute smart contract code temporarily, enabling batched transactions and account abstraction. Used by the Binance hackers to bypass normal signing controls."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to maintain a stable value, typically pegged to a fiat currency like the US dollar. USDT (Tether) and USDC (Circle) are the most widely used."
+    },
+    {
+      "term": "Hot wallet",
+      "definition": "A cryptocurrency wallet connected to the internet and used for frequent trading or withdrawals. Hot wallets are more vulnerable to hacking than cold storage but enable faster transaction processing."
+    }
+  ],
+  "_source": "cli"
+}
