@@ -1,0 +1,162 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, Binance'in büyük $6,3 milyar hırsızlığın %90'ını hızla geri kazanması nedeniyle marjinal olarak yükselirken, sektördeki başka güvenlik ihlalleri ve daha küçük token'larda görülen genel zayıflık genel havayı dikkatli tutmuştur.",
+  "caveman": "Cumartesi günü büyük haber, dünyanın en büyük kripto borsası Binance'in Perşembe günü çalınan 6,3 milyar doların %90'ını geri kazandığını söylemesiydi. Bu, bir mağazanın soyulması ama hızlı bir şekilde malları tedarikçilerden geri alması gibi. Bitcoin çok az arttı (0,27%) ve Ethereum biraz daha fazla arttı (0,49%), bu iyi ama küçük bir artış. Ancak daha küçük kripto para birimlerinin %60'ı düştü, bu da insanların hala endişeli olduğunu gösteriyor. Gün çoğunlukla sakin geçti çünkü Binance hackerlik sorununu iyi yönetti ve daha büyük bir paniğe neden olmadı, ancak insanların paralarını borsalarda tutma konusunda endişeli olduğunu gösterdi.",
+  "priceVolumeSummary": "Bitcoin $77.522,60'da (0,27% artış) ve Ethereum $2.254,54'te (0,49% artış) olmak üzere beş büyük platform arasında kapandı; Binance, BTC'de $3,96 milyar ve ETH'de $2,17 milyar işlem hacmi ile hacmi liderlik etti.",
+  "positioningSummary": "Bitcoin finansman oranları %0,01 ham (%10,95 yıllıklaştırılmış) olarak sabit kaldı, Ethereum'unkuysa hafif negatife döndü (-0,00003045 ham (-3,33% yıllıklaştırılmış)), yani uzun (iyimser) pozisyonlar küçük maliyetler ödedi. Açık ilgi mütevazı şekilde arttı: Bitcoin Bybit'te %0,46 ve Ethereum Binance'de %1,34 artışla, tüccarların haftanın hackerine rağmen dikkatli bir şekilde kaldıraç eklediklerini gösteriyor. Uzun-kısa oranları güçlü bir şekilde iyimser kaldı—Bitcoin 2,84:1 ve Ethereum 2,91:1 (yaklaşık her 1 dolarlık kısa bahis için 3 dolar uzun bahis yapıldığı anlamına gelir)—ancak en büyük tüccarlar arasında eğilim daha az aşırıydı: Bitcoin'de 1,76 ve Ethereum'da 1,61. Taker alış/satış oranları her iki varlık için de 1,0'ın altına düştü (0,945), bu da agresif satıştan daha fazlası anlamına gelir. Pazar genişliği zayıftı, tüm perpetueller'in sadece %39'u yükseliyordu. Korku & Açgözlülük 30'da (Korku) dondu.",
+  "stocksSummary": "Asya borsa pazarları hafta sonu kapalıydı—Hong Kong, Kore veya anakarada Çin'de nakit oturumları yok. Binance'deki emtia perpetuelleri mütevazı hareketler gösterdi: altın aşağı %0,17, WTI ham aşağı %0,35, brent ham aşağı %0,27 ve bakır yukarı %0,23.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "31 Ekim'de açık bir kamu nedeni belirtilmedi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "31 Ekim'de açık bir kamu nedeni belirtilmedi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "31 Ekim'de açık bir kamu nedeni belirtilmedi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance, yeni $6,3 milyar ihlalinden sonra çalınan kripto'nun %90'ını değiştirdiğini söylüyor",
+        "what": "Binance, 31 Ekim'de 29 Ekim hackedinde çalınan 6,3 milyar doların %90'ını değiştirdiğini açıkladı. Borsa, Bitcoin, Ethereum, BNB, Solana, XRP ve yedi diğer büyük para biriminin bakiyelerini yenilemek için kurumsal fonlar, vadeli işlem yedeklemeleri ve sigorta fonunu (SAFU) kullandı. Kalan %10, borsanın pazar ve tezgah üstü anlaşmalarla satın aldığı daha az likid token'lardan oluşmakta, tam geri yükleme Pazar günü için hedeflenmektedir.",
+        "coins": "BTC, ETH, BNB, SOL, XRP, and others",
+        "timeUTC": "Oct 31, 2026 ~04:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach"
+      },
+      {
+        "headline": "Hacker'lar Name.com'da kayıtlı bir düzine DeFi web sitesini ele geçirdi, yaklaşık 138.000 dolar çaldı",
+        "what": "DeFi ile ilgili on iki web sitesi koordineli bir saldırıda ele geçirildi ve kayıt defteri kayıtları, bunların hepsinin Name.com'ı kayıt şirketi olarak kullandığını gösteriyor, bu da kayıt şirketi güvenlik altyapısında bir ihlali işaret ediyor. Saldırganlar, ele geçirilen alan adları arasında yaklaşık 138.000 dolar boşalttı, bu da alan adı kayıt şirketi güvenlik uygulamalarıyla ilgili acil endişeleri artırdı.",
+        "coins": "Multiple altcoins affected",
+        "timeUTC": "Oct 31, 2026 ~19:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251"
+      },
+      {
+        "headline": "Chainalysis, 'agresif agentic teknikleri' kullanan hacker'ın müşteri verilerine eriştiğini söylüyor",
+        "what": "Blockchain analitik firması Chainalysis, 31 Ekim'de saldırganların müşteri bilgilerinin hassas olmayan bilgilerine (adlar, e-posta adresleri ve şirket rolleri dahil olmak üzere) yetkisiz erişim sağlamak için gelişmiş yapay zeka tekniklerini kullandığı bir güvenlik ihlalini açıkladı. Firma, hangi müşteri kayıtlarının tamamen erişildiğini araştırıyor ve müşterileri şüpheli kimlik doğrulama girişimleri konusunda dikkatli olmaya çağırdı.",
+        "coins": "None—affects analytics infrastructure",
+        "timeUTC": "Oct 31, 2026 ~01:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance, yeni $6,3 milyar ihlalinden sonra çalınan kripto'nun %90'ını değiştirdiğini söylüyor",
+          "what": "Binance, 31 Ekim'de 29 Ekim hackedinde çalınan 6,3 milyar doların %90'ını değiştirdiğini açıkladı. Borsa, Bitcoin, Ethereum, BNB, Solana, XRP ve yedi diğer büyük para biriminin bakiyelerini yenilemek için kurumsal fonlar, vadeli işlem yedeklemeleri ve sigorta fonunu (SAFU) kullandı. Kalan %10, borsanın pazar ve tezgah üstü anlaşmalarla satın aldığı daha az likid token'lardan oluşmakta, tam geri yükleme Pazar günü için hedeflenmektedir.",
+          "coins": "BTC, ETH, BNB, SOL, XRP, and others",
+          "timeUTC": "Oct 31, 2026 ~04:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach"
+        },
+        {
+          "headline": "Chainalysis, 'agresif agentic teknikleri' kullanan hacker'ın müşteri verilerine eriştiğini söylüyor",
+          "what": "Blockchain analitik firması Chainalysis, 31 Ekim'de saldırganların müşteri bilgilerinin hassas olmayan bilgilerine (adlar, e-posta adresleri ve şirket rolleri dahil olmak üzere) yetkisiz erişim sağlamak için gelişmiş yapay zeka tekniklerini kullandığı bir güvenlik ihlalini açıkladı. Firma, hangi müşteri kayıtlarının tamamen erişildiğini araştırıyor ve müşterileri şüpheli kimlik doğrulama girişimleri konusunda dikkatli olmaya çağırdı.",
+          "coins": "None—affects analytics infrastructure",
+          "timeUTC": "Oct 31, 2026 ~01:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+        },
+        {
+          "headline": "Hacker'lar Name.com'da kayıtlı bir düzine DeFi web sitesini ele geçirdi, yaklaşık 138.000 dolar çaldı",
+          "what": "DeFi ile ilgili on iki web sitesi koordineli bir saldırıda ele geçirildi ve kayıt defteri kayıtları, bunların hepsinin Name.com'ı kayıt şirketi olarak kullandığını gösteriyor, bu da kayıt şirketi güvenlik altyapısında bir ihlali işaret ediyor. Saldırganlar, ele geçirilen alan adları arasında yaklaşık 138.000 dolar boşalttı, bu da alan adı kayıt şirketi güvenlik uygulamalarıyla ilgili acil endişeleri artırdı.",
+          "coins": "Multiple altcoins affected",
+          "timeUTC": "Oct 31, 2026 ~19:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Jupiter Lend'in geri çekilme likidesi sıfırın yakınından 29 milyon USDC'ye sıçradı",
+          "what": "Jupiter Lend, 31 Ekim'de mevcut USDC geri çekilme likidesi yaklaşık 29 milyona sıçrayarak Solana tabanlı borç verme platformunda rapor edilen toplam varlıkların yaklaşık %7'sini temsil ederek iyileşme gösterdi. Sıçrama, hafta başında geri çekilme likidisinin sıfıra yaklaştığı kriz düşük seviyelerinden kısmi bir iyileşmeyi işaret ediyor.",
+          "coins": "Solana ecosystem",
+          "timeUTC": "Oct 31, 2026 ~06:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jupiter-lend-usdc-withdrawal-liquidity-rebounds/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-30",
+    "summary": "Bitcoin spot ETF'leri 30 Ekim'de dört günlük giriş serisini tersine çevirerek 643,3 milyon dolarlık net çıkış kaydettirken, Ethereum ETF'leri Temmuz 2024'ten itiberen başlatılması sonrasında 23 günlük ardışık çıkış serisinin (31 Ekim itibarıyla) en uzunu olarak 156 milyon dolarlık net çıkış kaydetti.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://financefeeds.com/bitcoin-etf-outflows-of-643-million-on-30-october-end-a-four-day-inflow-streak-ibit-and-fbtc-led/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Manufacturing PMI (Monday 02 Nov, 15:00 UTC)",
+      "typicalReaction": "Üretim verisi, US büyümesinde zayıflık işareti verirse kripto'yu hareket ettirebilir; zayıf bir okuma risk-açık duyarlılığını destekleyebilir."
+    },
+    {
+      "event": "RBA Rate Decision (Tuesday 03 Nov, 00:00 UTC)",
+      "typicalReaction": "Merkez bankaları kararları küresel risk iştahını etkiler; faiz indirimleri tipik olarak kripto'yu destekler, faiz artışları onu ağırlaştırır."
+    },
+    {
+      "event": "US Employment Situation (Friday 06 Nov, 13:30 UTC)",
+      "typicalReaction": "Büyük işler raporu—güçlü istihdam verisi USD gücünü destekleyebilir ve kripto talebini azaltabilir; zayıf veriler risk varlıklarını yükseltebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Korku & Açgözlülük Endeksi",
+      "definition": "Pazar duygusunun günlük ölçüsü, 0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında değişir. Tüccarların panik halinde mi yoksa aşırı güvenli mi olduğunu gösterir."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Perpetual kontratlar üzerinde uzun (iyimser) ve kısa (kötümser) pozisyon tutan tüccarlar arasında her 8 saatte bir ödenen ücret. Pozitif oran longs'un shorts'a ödediği anlamına gelir; negatif, shorts'un longs'a ödediği anlamına gelir. Pazarın bir tarafının ne kadar kalabalık hale geldiğini düzenler."
+    },
+    {
+      "term": "Uzun veya Uzun Pozisyon",
+      "definition": "Fiyatın artacağına yapılan bahis. Uzun position'da olan tüccarlar varlığa sahip olur veya iyimser bir kontrat tutar."
+    },
+    {
+      "term": "Uzun-Kısa Oranı",
+      "definition": "Bir borsadaki tüm tüccarlar arasında iyimser (uzun) ila kötümser (kısa) bahislerin oranı. 2,8:1 oranı, her 1 dolarlık kısa bahis için yaklaşık 2,8 doların uzun bahis yapıldığı anlamına gelir."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Bir dönem içinde fiyatı artan tüm kripto para birimlerinin yüzdesi. Düşük genişlik (örn. %39 up), çoğu token'ın düştüğü anlamına gelir—zayıf genel pazar duygusunun işareti."
+    },
+    {
+      "term": "Net Giriş veya Net Çıkış",
+      "definition": "Borsada işlem gören fonlar (ETF'ler) veya borsalara giren veya çıkan toplam para miktarı. Girişler yeni paranın girdiği anlamına gelir; çıkışlar paranın çıktığı anlamına gelir."
+    },
+    {
+      "term": "Açık İlgi",
+      "definition": "Bir mekan üzerindeki tüm tüccarlar arasında kapatılmamış kontratlar veya kaldıraçlı pozisyonların toplam sayısı. Artan açık ilgi, tüccarların kaldıraç eklediğini gösterir; düşen açık ilgi, pozisyonların kapatıldığı anlamına gelir."
+    },
+    {
+      "term": "Açık İlgi Değişimi",
+      "definition": "Bir zaman periyodu içinde toplam açık ilginin yüzde kayması, tüccarların daha fazla mı yoksa daha az mı kaldıraçlı hale geldiğini gösterir."
+    },
+    {
+      "term": "Perpetual Kontrat veya Perpetual",
+      "definition": "Sona erme tarihi olmayan bir kripto para vadeli işlem kontratı. Tüccarlar, yeterli marj (teminat) tuttuğu sürece bunu süresiz olarak tutabilir. Finansman oranları, kontrat fiyatını gerçek spot fiyatına yakın tutar."
+    },
+    {
+      "term": "SAFU (Kullanıcılar için Güvenli Varlık Fonu)",
+      "definition": "Binance'in sigorta fonu, güvenlik ihlali veya borsa başarısızlığı durumunda kullanıcıları tazmin etmek için ayırılan. İşlem ücretlerinin küçük bir yüzdesinden finanse edilen."
+    },
+    {
+      "term": "Kısa veya Kısa Pozisyon",
+      "definition": "Fiyatın düşeceğine yapılan bahis. Kısa position'da olan tüccarlar, varlığın fiyatı düşerse kar elde eder."
+    },
+    {
+      "term": "Taker Alış/Satış Oranı",
+      "definition": "Agresif satın alma emirleri ('taker' alışı) ile agresif satış emirlerinin ('taker' satışı) oranı. 1,0'dan yüksek bir oran, daha fazla alıcının agresif bir şekilde satın aldığı anlamına gelir; 1,0'ın altında, daha fazla satıcının agresif bir şekilde sattığı anlamına gelir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "e5cb63c2e0c70635"
+}

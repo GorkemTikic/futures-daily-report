@@ -1,0 +1,161 @@
+{
+  "oneLine": "Bitcoin and Ethereum edged up as Binance rapidly recovered 90% of a record $6.3 billion theft, though security breaches elsewhere in the industry and broader weakness in smaller tokens kept the overall mood cautious.",
+  "caveman": "On Saturday, the big news was that Binance—the world's biggest crypto exchange—said it had recovered 90% of the $6.3 billion that was stolen from it on Thursday. That's like a store getting robbed but quickly getting the goods back from suppliers. Bitcoin went up a tiny bit (0.27%) and Ethereum went up a little more (0.49%), which is good but small. But 60% of smaller cryptocurrencies went down, which shows people were still nervous. The day was mostly calm because Binance handled the hack well and didn't let it cause a bigger panic, but it showed that people worry about keeping their money on exchanges.",
+  "priceVolumeSummary": "Bitcoin closed at $77,522.60 (up 0.27%) and Ethereum at $2,254.54 (up 0.49%) across all five major venues; Binance led volume with $3.96 billion in BTC and $2.17 billion in ETH trading.",
+  "positioningSummary": "Bitcoin funding rates held steady at 0.01% raw (10.95% annualized), while Ethereum's turned slightly negative at -0.00003045 raw (-3.33% annualized), meaning long (bullish) positions paid small costs to maintain. Open interest grew modestly: Bitcoin up 0.46% at Bybit and Ethereum up 1.34% at Binance, showing traders cautiously adding leverage despite the week's hack. Long-to-short ratios remained strongly bullish—Bitcoin at 2.84:1 and Ethereum at 2.91:1 (meaning roughly 3 dollars of long bets for every 1 dollar of shorts)—but among the largest traders, the tilt was less extreme at 1.76 for Bitcoin and 1.61 for Ethereum. Taker buy/sell ratios fell below 1.0 for both assets (0.945), meaning more aggressive selling than buying. Market breadth was weak, with only 39% of all perpetuals rising. Fear & Greed stayed frozen at 30 (Fear).",
+  "stocksSummary": "Asian stock markets were closed for the weekend—no cash sessions in Hong Kong, Korea, or mainland China. Commodity perpetuals on Binance showed modest moves: gold down 0.17%, WTI crude down 0.35%, brent crude down 0.27%, and copper up 0.23%.",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "No clear public cause identified on October 31.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "No clear public cause identified on October 31.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "No clear public cause identified on October 31.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+        "what": "Binance announced October 31 that it had replaced 90% of the $6.3 billion in cryptocurrency stolen in the October 29 hack. The exchange used corporate funds, futures reserves, and its insurance fund (SAFU) to replenish balances for Bitcoin, Ethereum, BNB, Solana, XRP, and seven other major coins. The remaining 10% consists of less-liquid tokens that the exchange is purchasing through market and over-the-counter deals, with full restoration targeted for Sunday.",
+        "coins": "BTC, ETH, BNB, SOL, XRP, and others",
+        "timeUTC": "Oct 31, 2026 ~04:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach"
+      },
+      {
+        "headline": "Hackers hijack a dozen DeFi websites all registered with Name.com, stealing about $138,000",
+        "what": "Twelve DeFi-related websites were compromised in a coordinated attack, with registry records showing they all use Name.com as their registrar, suggesting a breach in the registrar's security infrastructure. Attackers drained approximately $138,000 across the hijacked domains, raising immediate concerns about domain registrar security practices.",
+        "coins": "Multiple altcoins affected",
+        "timeUTC": "Oct 31, 2026 ~19:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251"
+      },
+      {
+        "headline": "Chainalysis says hacker using 'offensive agentic techniques' accessed customer data",
+        "what": "Blockchain analytics firm Chainalysis disclosed a security breach October 31 where attackers used advanced artificial intelligence techniques to gain unauthorized access to non-sensitive customer information including names, email addresses, and company roles. The firm is investigating which customer records were fully accessed and has urged customers to watch for suspicious authentication attempts.",
+        "coins": "None—affects analytics infrastructure",
+        "timeUTC": "Oct 31, 2026 ~01:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+          "what": "Binance announced October 31 that it had replaced 90% of the $6.3 billion in cryptocurrency stolen in the October 29 hack. The exchange used corporate funds, futures reserves, and its insurance fund (SAFU) to replenish balances for Bitcoin, Ethereum, BNB, Solana, XRP, and seven other major coins. The remaining 10% consists of less-liquid tokens that the exchange is purchasing through market and over-the-counter deals, with full restoration targeted for Sunday.",
+          "coins": "BTC, ETH, BNB, SOL, XRP, and others",
+          "timeUTC": "Oct 31, 2026 ~04:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach"
+        },
+        {
+          "headline": "Chainalysis says hacker using 'offensive agentic techniques' accessed customer data",
+          "what": "Blockchain analytics firm Chainalysis disclosed a security breach October 31 where attackers used advanced artificial intelligence techniques to gain unauthorized access to non-sensitive customer information including names, email addresses, and company roles. The firm is investigating which customer records were fully accessed and has urged customers to watch for suspicious authentication attempts.",
+          "coins": "None—affects analytics infrastructure",
+          "timeUTC": "Oct 31, 2026 ~01:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+        },
+        {
+          "headline": "Hackers hijack a dozen DeFi websites all registered with Name.com, stealing about $138,000",
+          "what": "Twelve DeFi-related websites were compromised in a coordinated attack, with registry records showing they all use Name.com as their registrar, suggesting a breach in the registrar's security infrastructure. Attackers drained approximately $138,000 across the hijacked domains, raising immediate concerns about domain registrar security practices.",
+          "coins": "Multiple altcoins affected",
+          "timeUTC": "Oct 31, 2026 ~19:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Jupiter Lend's withdrawal liquidity rebounds from near zero to 29 million USDC",
+          "what": "Jupiter Lend showed recovery October 31 with available USDC withdrawal liquidity rebounding to approximately 29 million, representing about 7% of reported total assets on the Solana-based lending platform. The rebound marks a partial recovery from crisis lows earlier in the week when withdrawal liquidity had approached zero.",
+          "coins": "Solana ecosystem",
+          "timeUTC": "Oct 31, 2026 ~06:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jupiter-lend-usdc-withdrawal-liquidity-rebounds/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-30",
+    "summary": "Bitcoin spot ETFs posted a $643.3 million net outflow on October 30, reversing a four-day inflow streak, while Ethereum ETFs recorded a $156 million net outflow as part of their longest consecutive outflow streak since launch in July 2024 (23 days as of October 31).",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://financefeeds.com/bitcoin-etf-outflows-of-643-million-on-30-october-end-a-four-day-inflow-streak-ibit-and-fbtc-led/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Manufacturing PMI (Monday 02 Nov, 15:00 UTC)",
+      "typicalReaction": "Manufacturing data can move crypto if it signals weakness in US growth; a weak reading may support risk-on sentiment."
+    },
+    {
+      "event": "RBA Rate Decision (Tuesday 03 Nov, 00:00 UTC)",
+      "typicalReaction": "Central bank decisions affect global risk appetite; rate cuts typically support crypto, rate hikes weigh on it."
+    },
+    {
+      "event": "US Employment Situation (Friday 06 Nov, 13:30 UTC)",
+      "typicalReaction": "Major jobs report—strong employment data can support USD strength and reduce crypto demand; weak data may boost risk assets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A daily gauge of market sentiment ranging from 0 (Extreme Fear) to 100 (Extreme Greed). Shows whether traders are panicked or overconfident."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A fee paid every 8 hours between traders holding long (bullish) and short (bearish) positions on perpetual contracts. A positive rate means longs pay shorts; negative means shorts pay longs. It regulates how crowded one side of the market becomes."
+    },
+    {
+      "term": "Long or long position",
+      "definition": "A bet that the price will go up. Traders who are long own the asset or hold a bullish contract."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The proportion of bullish (long) to bearish (short) bets across all traders on an exchange. A 2.8:1 ratio means roughly 2.8 dollars are bet long for every 1 dollar bet short."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of all cryptocurrencies that rose in price during a period. A low breadth (e.g., 39% up) means most tokens fell—a sign of weak overall market sentiment."
+    },
+    {
+      "term": "Net inflow or net outflow",
+      "definition": "The total amount of money flowing into or out of exchange-traded funds (ETFs) or exchanges. Inflows mean new money entering; outflows mean money leaving."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of unsettled contracts or leveraged positions across all traders on a venue. Growing open interest suggests traders are adding leverage; declining open interest means positions are being closed."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage shift in total open interest over a time period, showing whether traders are becoming more or less leveraged."
+    },
+    {
+      "term": "Perpetual contract or perpetual",
+      "definition": "A cryptocurrency futures contract with no expiration date. Traders can hold it indefinitely as long as they maintain enough margin (collateral). Funding rates keep the contract price near the actual spot price."
+    },
+    {
+      "term": "SAFU (Secure Asset Fund for Users)",
+      "definition": "Binance's insurance fund, set aside to compensate users in case of a security breach or exchange failure. Funded by a small percentage of trading fees."
+    },
+    {
+      "term": "Short or short position",
+      "definition": "A bet that the price will go down. Traders who are short profit if the asset's price falls."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The proportion of aggressive buy orders ('taker' buys) versus aggressive sell orders ('taker' sells). A ratio above 1.0 means more buyers are aggressively buying; below 1.0 means more sellers are aggressively selling."
+    }
+  ],
+  "_source": "cli"
+}

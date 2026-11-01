@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-31",
+  "kind": "market",
+  "dateLong": "Saturday, 31 October 2026",
+  "coversUTC": "2026-10-31 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum edged up as Binance rapidly recovered 90% of a record $6.3 billion theft, though security breaches elsewhere in the industry and broader weakness in smaller tokens kept the overall mood cautious.",
+  "newsCount": 7,
+  "macro": {
+    "BTC": 0.2781223764328153,
+    "ETH": 0.4890509647277121
+  },
+  "topMover": {
+    "symbol": "QUSDT",
+    "chgPct": -36.642306130734866
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "01 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

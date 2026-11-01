@@ -1,0 +1,162 @@
+{
+  "oneLine": "币安快速收回创纪录的63亿美元被盗资金的90%，比特币和以太坊小幅上涨，但业内其他安全漏洞和小币种普遍下跌抑制了市场情绪，整体保持谨慎。",
+  "caveman": "周六最大的新闻是全球最大的加密交易所币安宣布，已经从周四被盗的63亿美元中追回了90%。这就像一家商店被抢劫，但很快从供应商那里取回了大部分货物。比特币涨幅很小(0.27%)，以太坊涨幅略大(0.49%)，这是好消息但增幅不算大。但有60%的小币种下跌，说明人们仍然很紧张。这一天整体保持平静，因为币安妥善处理了黑客事件，没引发更大恐慌，但这也说明人们还是担心把钱放在交易所。",
+  "priceVolumeSummary": "比特币收盘价77,522.60美元(上涨0.27%)，以太坊收盘价2,254.54美元(上涨0.49%)，五大交易所整体如此；币安以比特币39.6亿美元和以太坊21.7亿美元的交易量领先。",
+  "positioningSummary": "比特币资金费率保持稳定，原始费率0.01%(年化10.95%)，以太坊略转负，原始费率-0.00003045(年化-3.33%)，意味着多头(看涨)持仓需支付小额费用来维持。未平仓头寸温和增长：比特币在Bybit上升0.46%，以太坊在币安上升1.34%，显示尽管本周遭遇黑客事件交易者仍谨慎增加杠杆。多空比保持强劲看涨——比特币2.84:1，以太坊2.91:1(意味着大约每1美元空头就有3美元多头下注)——但在最大交易者中，倾斜不那么极端，比特币1.76，以太坊1.61。吃单买卖比率跌破1.0(0.945)，意味着激进卖单多于激进买单。市场广度疲弱，仅39%永续合约上涨。恐惧和贪婪指数保持在30(恐惧)。",
+  "stocksSummary": "亚洲股市周末休市——香港、韩国、中国内地无现货交易。币安商品永续合约表现温和：黄金下跌0.17%，WTI原油下跌0.35%，布伦特原油下跌0.27%，铜上涨0.23%。",
+  "movers": [
+    {
+      "symbol": "QUSDT",
+      "explanation": "未在10月31日发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "未在10月31日发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "未在10月31日发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "币安称已在大规模63亿美元盗窃事件后补偿了90%被盗加密资产",
+        "what": "币安宣布10月31日已补偿10月29日黑客攻击中被盗的63亿美元中的90%。该交易所使用公司资金、期货准备金和保险基金(SAFU)补充比特币、以太坊、BNB、Solana、XRP和其他七种主要币种的余额。剩余10%由流动性较低的代币组成，该交易所通过市场和场外交易方式购买，目标周日前完全恢复。",
+        "coins": "BTC, ETH, BNB, SOL, XRP等",
+        "timeUTC": "Oct 31, 2026 ~04:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach"
+      },
+      {
+        "headline": "黑客劫持十多个由Name.com注册的DeFi网站，盗窃约138,000美元",
+        "what": "十多个DeFi相关网站在一次协调攻击中遭侵害，域名注册记录显示它们都使用Name.com作为注册商，表明注册商的安全基础设施可能被破坏。攻击者在被劫持的域名中共窃取约138,000美元，引发对域名注册商安全实践的直接担忧。",
+        "coins": "受影响的多个山寨币",
+        "timeUTC": "Oct 31, 2026 ~19:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251"
+      },
+      {
+        "headline": "Chainalysis称黑客使用'攻击性智能体技术'访问客户数据",
+        "what": "区块链分析公司Chainalysis在10月31日披露了一次安全漏洞，攻击者使用高级人工智能技术获得了对非敏感客户信息的未授权访问，包括姓名、电子邮件地址和公司职位。该公司正在调查哪些客户记录被完全访问，并敦促客户留意可疑的身份验证尝试。",
+        "coins": "无——影响分析基础设施",
+        "timeUTC": "Oct 31, 2026 ~01:00 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "币安称已在大规模63亿美元盗窃事件后补偿了90%被盗加密资产",
+          "what": "币安宣布10月31日已补偿10月29日黑客攻击中被盗的63亿美元中的90%。该交易所使用公司资金、期货准备金和保险基金(SAFU)补充比特币、以太坊、BNB、Solana、XRP和其他七种主要币种的余额。剩余10%由流动性较低的代币组成，该交易所通过市场和场外交易方式购买，目标周日前完全恢复。",
+          "coins": "BTC, ETH, BNB, SOL, XRP等",
+          "timeUTC": "Oct 31, 2026 ~04:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach"
+        },
+        {
+          "headline": "Chainalysis称黑客使用'攻击性智能体技术'访问客户数据",
+          "what": "区块链分析公司Chainalysis在10月31日披露了一次安全漏洞，攻击者使用高级人工智能技术获得了对非敏感客户信息的未授权访问，包括姓名、电子邮件地址和公司职位。该公司正在调查哪些客户记录被完全访问，并敦促客户留意可疑的身份验证尝试。",
+          "coins": "无——影响分析基础设施",
+          "timeUTC": "Oct 31, 2026 ~01:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+        },
+        {
+          "headline": "黑客劫持十多个由Name.com注册的DeFi网站，盗窃约138,000美元",
+          "what": "十多个DeFi相关网站在一次协调攻击中遭侵害，域名注册记录显示它们都使用Name.com作为注册商，表明注册商的安全基础设施可能被破坏。攻击者在被劫持的域名中共窃取约138,000美元，引发对域名注册商安全实践的直接担忧。",
+          "coins": "受影响的多个山寨币",
+          "timeUTC": "Oct 31, 2026 ~19:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Jupiter Lend的提现流动性从接近零反弹至2900万USDC",
+          "what": "Jupiter Lend在10月31日显示恢复迹象，可用USDC提现流动性反弹至约2900万，约占这个Solana生态借贷平台报告总资产的7%。这次反弹标志着从本周早期危机低点的部分恢复，当时提现流动性曾接近零。",
+          "coins": "Solana生态",
+          "timeUTC": "Oct 31, 2026 ~06:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jupiter-lend-usdc-withdrawal-liquidity-rebounds/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-30",
+    "summary": "比特币现货ETF在10月30日出现643.3百万美元的净流出，打破了四天净流入的连续纪录，以太坊ETF记录156百万美元净流出，成为自2024年7月上市以来最长的连续流出纪录(截至10月31日已23天)。",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://financefeeds.com/bitcoin-etf-outflows-of-643-million-on-30-october-end-a-four-day-inflow-streak-ibit-and-fbtc-led/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Manufacturing PMI (Monday 02 Nov, 15:00 UTC)",
+      "typicalReaction": "制造业数据如果表明美国经济增长放缓，可能推动加密货币波动；弱数据可能支持风险偏好情绪。"
+    },
+    {
+      "event": "RBA Rate Decision (Tuesday 03 Nov, 00:00 UTC)",
+      "typicalReaction": "央行决定影响全球风险偏好；降息通常支持加密货币，加息则对其不利。"
+    },
+    {
+      "event": "US Employment Situation (Friday 06 Nov, 13:30 UTC)",
+      "typicalReaction": "重要就业报告——强劲的就业数据可支持美元升值并减少加密货币需求；弱数据可能提振风险资产。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "恐惧和贪婪指数",
+      "definition": "一个范围在0(极端恐惧)到100(极端贪婪)的日常市场情绪衡量指标。显示交易者是否恐慌或过度自信。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "在永续合约上多头(看涨)和空头(看跌)头寸持有者之间每8小时支付一次的费用。正费率意味着多头向空头支付；负费率意味着空头向多头支付。它调节市场一侧变得多么拥挤。"
+    },
+    {
+      "term": "多头或多头持仓",
+      "definition": "对价格上涨的赌注。持有多头的交易者拥有资产或持有看涨合约。"
+    },
+    {
+      "term": "多空比",
+      "definition": "交易所所有交易者中看涨(多头)与看跌(空头)下注的比例。比率2.8:1意味着大约每有1美元的空头下注，就有2.8美元的多头下注。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "一个时期内上涨的加密货币占所有加密货币的百分比。低广度(例如39%上涨)意味着大多数代币下跌——这是市场整体情绪疲弱的信号。"
+    },
+    {
+      "term": "净流入或净流出",
+      "definition": "流入或流出交易所交易基金(ETF)或交易所的总金额。净流入意味着新资金进入；净流出意味着资金离开。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "交易所所有交易者的未平仓合约或杠杆持仓总数。未平仓头寸增加表明交易者在增加杠杆；未平仓头寸减少意味着持仓在平仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一个时期内总未平仓头寸的百分比变化，显示交易者杠杆是在增加还是减少。"
+    },
+    {
+      "term": "永续合约或永续",
+      "definition": "没有到期日期的加密货币期货合约。交易者可以无限期持有它，只要维持足够的保证金(抵押品)。资金费率保持合约价格接近现货价格。"
+    },
+    {
+      "term": "SAFU(用户安全资产基金)",
+      "definition": "币安的保险基金，为了在安全漏洞或交易所失败时补偿用户而预留。由交易手续费的一小部分资助。"
+    },
+    {
+      "term": "空头或空头持仓",
+      "definition": "对价格下跌的赌注。持有空头的交易者如果资产价格下跌就能获利。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "激进买单('吃单'买)与激进卖单('吃单'卖)的比例。比率高于1.0意味着更多买方在激进买入；低于1.0意味着更多卖方在激进卖出。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "e5cb63c2e0c70635"
+}
