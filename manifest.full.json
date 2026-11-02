@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-01T00:05:11.834Z",
-  "count": 137,
+  "generatedAt": "2026-11-02T00:06:09.322Z",
+  "count": 138,
   "counts": {
-    "total": 137,
-    "market": 50,
+    "total": 138,
+    "market": 51,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-10-31",
+  "latest": "2026-11-01",
   "reports": [
+    {
+      "date": "2026-11-01",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 1.0073646365863305,
+        "ETH": 0.8872760182601405
+      },
+      "marketSummary": "Bitcoin and Ethereum rose about 1% on November 1st as Binance reopened after the record $6.3 billion hack, triggering immediate $3.64 billion in customer withdrawals and rising market fear.",
+      "oneLine": "Bitcoin and Ethereum rose about 1% on November 1st as Binance reopened after the record $6.3 billion hack, triggering immediate $3.64 billion in customer withdrawals and rising market fear.",
+      "newsCount": 10,
+      "topMover": {
+        "symbol": "ESPORTSUSDT",
+        "chgPct": 101.29738267148014
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-01/summary_2026-11-01.html",
+        "pdf": "reports/2026-11-01/summary_2026-11-01.pdf",
+        "md": "reports/2026-11-01/summary_2026-11-01.md"
+      }
+    },
     {
       "date": "2026-10-31",
       "kind": "market",

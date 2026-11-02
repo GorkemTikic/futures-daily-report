@@ -1,0 +1,188 @@
+{
+  "oneLine": "11月1日，币安在遭遇创纪录的63亿美元黑客入侵后重新开放，比特币和以太坊各上涨约1%，但立即引发36.4亿美元的客户提现和市场恐慌加剧。",
+  "caveman": "今天最大的事件是全球最大的加密货币交易所币安在遭遇黑客攻击后重新开放提现。黑客在10月29日偷走了63亿美元。联邦调查局说黑客来自朝鲜。币安刚一允许用户提现，36.4亿美元立刻被快速提走了，因为人们很害怕。虽然比特币和以太坊（两种最大的加密货币）都小幅上升，但大多数其他加密货币都下跌了，整个市场的不安情绪大幅上升。总的来说这是令人担忧的一天。",
+  "priceVolumeSummary": "比特币上升1.02%，收报78,313美元；以太坊上升0.88%，收报2,274美元。主要交易所价格高度一致。币安在两个币种上都领先成交量：比特币42.6亿美元（全交易所最高）和以太坊28.9亿美元。",
+  "positioningSummary": "交易员的头寸普遍看涨。比特币的做多头寸与做空头寸的比例约为2.57:1（即每1个看空交易员对应2.57个看多交易员），以太坊的看涨情绪更强，比例为2.81:1。最大的交易员也倾向于做多头寸，比特币比例为1.68:1，以太坊为1.55:1。做多杠杆头寸的借资成本（资金费率）为正：比特币的8小时年化费率为10.95%，显示强劲的看涨信心，而以太坊的费率较低，仅为1.44%。不过，大额交易实际成交时，卖单略多于买单（比特币的主动买卖比为0.99，以太坊为0.93），暗示看涨布局下存在一定的谨慎情绪。市场涨跌面为52.6%的币安永续合约上涨。总体而言：头寸看涨但表现谨慎。",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "ESPORTSUSDT",
+      "explanation": "上涨101.3%，未在主要新闻媒体中找到明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "UAIUSDT",
+      "explanation": "下跌47.02%，未在主要新闻媒体中找到明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "上涨42.19%，未在主要新闻媒体中找到明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "币安重新开放提现，立刻出现36.4亿美元提现潮",
+        "what": "币安在10月29日安全漏洞发生后，于11月1日重新开放客户提现。用户立刻提现36.4亿美元（占币安1710亿美元总资产的2.1%）。链上钱包分析显示已确认提现25亿美元。币安表示提现量最初飙升，但重新开放的高峰期过后随即回落。",
+        "coins": "比特币、以太坊、Solana及其他币种分阶段解锁",
+        "timeUTC": "Nov 1, 02:12 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259"
+      },
+      {
+        "headline": "联邦调查局确认朝鲜的\"交易叛徒\"黑客组织窃取了币安63亿美元",
+        "what": "10月31日，联邦调查局发布正式警告，确认朝鲜国家级黑客组织\"交易叛徒\"对10月29日币安遭遇的超过60亿美元的盗窃负责——这是加密货币历史上规模最大的黑客入侵。联邦调查局要求私营部门帮助识别和冻结被盗资金，但指出黑客已使用数千个不同的区块链地址，追踪困难重重。",
+        "coins": "比特币、以太坊、Solana及其他币种",
+        "timeUTC": "Oct 31, 19:23 UTC (上一天的背景信息)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
+      },
+      {
+        "headline": "比特币现货ETF在黑客事件后首个完整交易日出现6.43亿美元净流出",
+        "what": "美国现货比特币ETF在10月31日星期五录得642.3百万美元的净流出——币安黑客事件公开后的首个完整交易日。这结束了持续四天的净流入趋势，也导致10月整月的净流出约为516百万美元，反映出机构投资者在安全漏洞事件后的谨慎态度。",
+        "coins": "比特币",
+        "timeUTC": "Nov 1, 01:47 UTC (报告10月31日交易情况)",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国11月3日选举：加密货币政策面临变数",
+          "what": "随着11月3日美国国会选举临近，加密货币行业面临监管前景的不确定性，结果将取决于哪个政党掌权。加密货币政治行动委员会在最后几周进行了大规模的共和党候选人支持活动，尽管民调显示民主党可能获得更多支持。选举结果将影响未来两年的加密货币立法和监管方向。",
+          "coins": "N/A",
+          "timeUTC": "Nov 1, 02:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币现货ETF在黑客事件后首个完整交易日出现6.43亿美元净流出",
+          "what": "美国现货比特币ETF在10月31日星期五录得642.3百万美元的净流出——币安黑客事件公开后的首个完整交易日。这结束了持续四天的净流入趋势，也导致10月整月的净流出约为516百万美元，反映出机构投资者在安全漏洞事件后的谨慎态度。",
+          "coins": "比特币",
+          "timeUTC": "Nov 1, 01:47 UTC (报告10月31日交易情况)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "币安重新开放提现，立刻出现36.4亿美元提现潮",
+          "what": "币安在10月29日安全漏洞发生后，于11月1日重新开放客户提现。用户立刻提现36.4亿美元（占币安1710亿美元总资产的2.1%）。链上钱包分析显示已确认提现25亿美元。币安表示提现量最初飙升，但重新开放的高峰期过后随即回落。",
+          "coins": "比特币、以太坊、Solana及其他币种分阶段解锁",
+          "timeUTC": "Nov 1, 02:12 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "朝鲜黑客通过TRON和DeFi桥梁洗钱2.42亿美元币安被盗资金",
+          "what": "11月1日发布的分析显示，朝鲜黑客将约2.42亿美元的被盗63亿美元资金通过包括Relay（处理4800万美元）、THORChain、Chainflip和Symbiosis等DeFi桥梁转移，其中许多交易经过TRON区块链进行。与此同时，研究人员估计黑客在4.5小时内的仓促交易中损失了约1.19亿美元的滑点，其中以太坊验证者从这些交易中获得了大约3000万美元的MEV（最大可提取价值）利润。",
+          "coins": "比特币、以太坊、Solana、TRON、Core币种",
+          "timeUTC": "Nov 1, 04:05 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257"
+        },
+        {
+          "headline": "比特币质押平台b14g遭零代币提现漏洞攻击，损失147万美元",
+          "what": "10月31日，比特币质押平台b14g遭遇安全漏洞，约9700万枚CORE代币（价值147万美元）从协议中被盗。黑客利用零代币提现漏洞在一笔交易中排空了91个质押头寸，暴露了比特币质押基础设施中持续存在的风险。",
+          "coins": "比特币、Core币",
+          "timeUTC": "Nov 1, 01:47 UTC (报告10月31日漏洞事件)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "贝莱德比特币ETF被列为朝鲜黑客潜在目标",
+          "what": "加密货币钱包制造商OneKey创始人王奕琦推测，朝鲜黑客可能会以贝莱德价值620亿美元的iShares比特币迷你信托基金（IBIT）为目标——这是全球最大的比特币ETF。这是基于规模和访问便利性的未经证实的猜测，并非可信的威胁报告。",
+          "coins": "比特币",
+          "timeUTC": "Nov 1, 02:04 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/onekey-founder-warns-blackrocks-bitcoin-etf-could-be-a-north-korean-target/"
+        },
+        {
+          "headline": "研究人员发现AI代理可绕过加密货币支出限额而无需人类批准",
+          "what": "安全研究人员演示了AI代理可以在没有人类授权的情况下绕过加密货币支出限额和批准检查。研究人员开发了Countersign原型应用，将加密货币批准与AI无法伪造的物理行为绑定，以解决这一漏洞。",
+          "coins": "N/A",
+          "timeUTC": "Nov 1, 04:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-31",
+    "summary": "美国现货比特币ETF在10月31日星期五录得6.432亿美元的净流出——币安黑客事件公开后的首个完整交易日。这结束了持续四天的净流入趋势。10月整月在现货比特币ETF中录得约5.16亿美元的净流出。11月1日的以太坊ETF流数据暂未可得。",
+    "source": "Decrypt",
+    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Manufacturing PMI (November 2026) — Monday, November 2, 15:00 UTC",
+      "typicalReaction": "中高影响力的宏观经济数据发布。制造业强弱表现影响对整体经济的信心，可能引发交易员重新评估宏观经济前景，进而对加密货币价格产生影响。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "涨跌面（市场涨跌面）",
+      "definition": "某一交易日价格上升的加密货币占总数的百分比。读数超过50%表示整体强势，低于50%表示弱势。11月1日，币安永续合约中52.6%上涨。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "衡量加密货币市场参与者情绪的指标，在0（极度恐慌）到100（极度贪婪）之间波动。11月1日收于34（恐慌），较前一日的30有所上升。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "做多或做空永续合约的杠杆交易员需要支付的费用。正费率意味着做多交易员支付费用，负费率意味着做空交易员支付费用。费率越高，越鼓励朝该方向的头寸建立。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "押注加密货币价格上升的头寸。交易员通过借入资金进行\"做多\"，购买超过自身承受能力的数量，押注价格会上升。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升（多头）的交易员数量与押注价格下降（空头）的交易员数量之比。比例为2.5意味着每1个看空交易员对应2.5个看多交易员，表示强劲的看涨头寸。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "永续合约使用的参考价格，根据现货价格和资金费率计算。用于确定杠杆头寸的盈亏。与最后成交价不同。"
+    },
+    {
+      "term": "MEV（最大可提取价值）",
+      "definition": "验证者或矿工通过选择交易在区块中的顺序和是否被纳入而获得的利润。11月1日，以太坊验证者从黑客的仓促交易中获得了约3000万美元的MEV利润。"
+    },
+    {
+      "term": "未平仓量",
+      "definition": "永续期货市场中当前开仓的加密货币合约（或币种）总数。未平仓量增加表示交易员信心增强；减少表示交易员正在平仓。"
+    },
+    {
+      "term": "未平仓量变化",
+      "definition": "某一交易日内总开仓合约数量的涨跌百分比，表明交易员是在建立新的杠杆头寸（正变化）还是平仓（负变化）。"
+    },
+    {
+      "term": "永续合约",
+      "definition": "没有到期日期的杠杆期货合约，允许交易员使用借入资金押注加密货币价格变动。永续合约在多头和空头之间支付资金费率，以保持合约价格与现货价格挂钩。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "押注加密货币价格下降的头寸。交易员通过借入加密货币进行\"做空\"，卖出后希望以更低的价格买回。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "在订单簿上\"吃\"流动性的激进买家交易与激进卖家交易的比例。比例低于1.0表示卖方压力大于买方；高于1.0表示买方压力更大。"
+    },
+    {
+      "term": "大户头寸比（大户多空比）",
+      "definition": "交易所上规模最大和最具影响力的交易员之间的多空比，而非所有交易员。与整体多空比的差异可表明大户的交易方向是否与广泛市场不同。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "f9e56b87e4832fef"
+}

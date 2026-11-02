@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-01",
+  "kind": "market",
+  "dateLong": "Sunday, 1 November 2026",
+  "coversUTC": "2026-11-01 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum rose about 1% on November 1st as Binance reopened after the record $6.3 billion hack, triggering immediate $3.64 billion in customer withdrawals and rising market fear.",
+  "newsCount": 10,
+  "macro": {
+    "BTC": 1.0073646365863305,
+    "ETH": 0.8872760182601405
+  },
+  "topMover": {
+    "symbol": "ESPORTSUSDT",
+    "chgPct": 101.29738267148014
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "02 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

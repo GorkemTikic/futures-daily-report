@@ -1,0 +1,188 @@
+{
+  "oneLine": "Bitcoin ve Ethereum 1 Kasım'da yaklaşık %1 yükseldi; Binance 6,3 milyar dolarlık rekor hack'den sonra açıldıkça, acil olarak 3,64 milyar doları müşteri çekimleri tetiklendi ve pazar korkusu arttı.",
+  "caveman": "Bugün olan en önemli şey, dünyanın en büyük Bitcoin ve kripto para alım-satım yapılan yer olan Binance'in, hackerlar tarafından 29 Ekim'de 6,3 milyar dolar çaldıktan sonra, insanların paralarını çekmek için yeniden açılmasıydı. FBI, hackerların Kuzey Kore'den geldiğini söyledi. Binance insanların para çekmesine izin verdiğinde, insanlar çok korktuğu için 3,64 milyar dolar hızlı bir şekilde çıktı. Bitcoin ve Ethereum (en büyük iki kripto para) ikisi de biraz yükseldi, ancak diğer kripto paraların çoğu düştü ve insanlar güvenlik konusunda çok daha endişeli ve korktu. Genel olarak korkulu bir gündü.",
+  "priceVolumeSummary": "Bitcoin %1,02 kazançla 78.313 dolardan kapandı ve Ethereum %0,88 artışla 2.274 dolara ulaştı; tüm büyük borsalar fiyatlar konusunda yakından uyum içinde. Binance her ikisinde işlem hacmini liderlik etti: Bitcoin 4,26 milyar dolar (tüm platformlar arasında en yüksek) ve Ethereum 2,89 milyar dolar.",
+  "positioningSummary": "Trader'lar fiyat artışları için ağır şekilde pozisyonlanmıştı. Bitcoin'de her 1 short pozisyon için kabaca 2,57 long pozisyon vardı (her bir kısa bahis için 2,57 uzun bahis oynayan anlamında), Ethereum ise daha da boğa eğilimli 2,81 bire 1 oranında. En büyük trader'lar da long yönü tercih etti: Bitcoin 1,68 bire 1, Ethereum 1,55 bire 1. Kaldıraçlı long bahisleri finansmanı (funding oranları) pozitif: Bitcoin'in 8 saatlik oranı %10,95 yıllık ve güçlü boğa inancını gösterirken, Ethereum çok daha düşük %1,44. Ancak büyük işlemler gerçekleştiğinde, satış emirleri biraz fazla (Bitcoin taker satın al/satış oranı 0,99, Ethereum 0,93), boğa kurulumunun altında bir tereddüt işaret ediyor. Pazar genişliği gün içinde Binance perpetuallarının %52,6'sı yükselişte hafifçe pozitif. Genel: boğa konumlandırılmış, ancak dikkatli.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "ESPORTSUSDT",
+      "explanation": "Büyük haber kaynakları tarafından belirlenen açık neden olmaksızın %101,3 yükseldi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "UAIUSDT",
+      "explanation": "Büyük haber kaynakları tarafından belirlenen açık neden olmaksızın %47,02 düştü.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "Büyük haber kaynakları tarafından belirlenen açık neden olmaksızın %42,19 yükseldi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance Çekimleri Yeniden Açıyor, Hemen Ardından 3,64 Milyar Dolarlık Para Çıkışı Kaydediyor",
+        "what": "Binance, 29 Ekim'deki güvenlik ihlalinden sonra 1 Kasım'da müşteri çekimlerini yeniden başlattı ve müşteriler neredeyse hemen 3,64 milyar doları (borsanın 171 milyar dolarlık toplam varlıklarının %2,1'i) çektiler. İzlenen cüzdan analizi 2,5 milyar dolarlık onaylanmış çıkışları gösterdi. Borsa, çekim hacimlerinin başlangıçta yükseldiğini ancak yeniden açılış dalgasından sonra düştüğünü söyledi.",
+        "coins": "Bitcoin, Ethereum, Solana ve diğerleri aşamalı olarak açılıyor",
+        "timeUTC": "Nov 1, 02:12 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259"
+      },
+      {
+        "headline": "FBI Kuzey Kore'nin TraderTraitor Grubunun Binance'den 6,3 Milyar Doları Çaldığını Doğruladı",
+        "what": "31 Ekim'de FBI, Kuzey Kore'nin devlet destekli hacking grubu TraderTraitor olarak bilinen grubunun, 29 Ekim'de Binance'den 6 milyardan fazla doları çaldığını resmen doğrulayan bir uyarı yayınladı — bu tarihte en büyük kripto para hırsızlığı. FBI, özel sektörün çalınan fonları tanımlamaya ve engellemeye yardımcı olmasını istedi, ancak hackerların binlerce farklı blockchain adresi kullandığını ve bunların takip edilmesini zorlaştırdığını belirtti.",
+        "coins": "Bitcoin, Ethereum, Solana ve diğerleri",
+        "timeUTC": "Oct 31, 19:23 UTC (context from day before)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
+      },
+      {
+        "headline": "Bitcoin ETF, Hack Sonrası İlk Tam İşlem Günü Cuma'da 643 Milyon Dolarlık Çıkış Kaydetti",
+        "what": "ABD spot Bitcoin ETF'leri, Binance hack'i kamuya açıklandıktan sonra ilk tam işlem seansı olan 31 Ekim Cuma günü 643,2 milyon dolarlık net çıkış kaydetti. Bu, dört günlük giriş serisini sonlandırdı ve Ekim'i, güvenlik ihlalinin ardından kurumsal yatırımcı ihtiyatını yansıtan yaklaşık 516 milyon dolarlık net çıkışla kapattı.",
+        "coins": "Bitcoin",
+        "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 trading)",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "ABD Seçimleri 3 Kasım: Seçim Yaklaşırken Kripto Para Politikası Risk Altında",
+          "what": "3 Kasım 2026 Kongre seçimleriyle, kripto endüstrüsü hangi partinin güç kazanacağına bağlı olarak düzenleyici belirsizlikle karşı karşıdır. Kripto PAC'ları, anketler Demokratların daha fazla ilerleme yapabileceğini göstermesine rağmen, son haftalarda Cumhuriyet adaylarını desteklemek için büyük bir hamle yaptı. Seçim sonuçları, gelecek iki yıl içinde kripto mevzuatını ve düzenleyici yönünü belirleyecek.",
+          "coins": "N/A",
+          "timeUTC": "Nov 1, 02:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF, Hack Sonrası İlk Tam İşlem Günü Cuma'da 643 Milyon Dolarlık Çıkış Kaydetti",
+          "what": "ABD spot Bitcoin ETF'leri, Binance hack'i kamuya açıklandıktan sonra ilk tam işlem seansı olan 31 Ekim Cuma günü 643,2 milyon dolarlık net çıkış kaydetti. Bu, dört günlük giriş serisini sonlandırdı ve Ekim'i, güvenlik ihlalinin ardından kurumsal yatırımcı ihtiyatını yansıtan yaklaşık 516 milyon dolarlık net çıkışla kapattı.",
+          "coins": "Bitcoin",
+          "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 trading)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance Çekimleri Yeniden Açıyor, Hemen Ardından 3,64 Milyar Dolarlık Para Çıkışı Kaydediyor",
+          "what": "Binance, 29 Ekim'deki güvenlik ihlalinden sonra 1 Kasım'da müşteri çekimlerini yeniden başlattı ve müşteriler neredeyse hemen 3,64 milyar doları (borsanın 171 milyar dolarlık toplam varlıklarının %2,1'i) çektiler. İzlenen cüzdan analizi 2,5 milyar dolarlık onaylanmış çıkışları gösterdi. Borsa, çekim hacimlerinin başlangıçta yükseldiğini ancak yeniden açılış dalgasından sonra düştüğünü söyledi.",
+          "coins": "Bitcoin, Ethereum, Solana ve diğerleri aşamalı olarak açılıyor",
+          "timeUTC": "Nov 1, 02:12 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kuzey Koreli Hackerlar Binance'den Çalınan 242 Milyon Doları Tron ve DeFi Köprüleri Aracılığıyla Akladılar",
+          "what": "1 Kasım'da yayınlanan analiz, Kuzey Koreli hackerların çalınan 6,3 milyar dolardan yaklaşık 242 milyon doları, Relay (48 milyon doları işleyen), THORChain, Chainflip ve Symbiosis dahil DeFi köprüleri aracılığıyla hareket ettirdiğini göstermektedir; çoğu Tron blockchain aracılığıyla. Paralel olarak, araştırmacılar hackerların 4,5 saatlik bir sürede aceleyle yapılan işlemlerde yaklaşık 119 milyon dolar kayıp yaşadığını tahmin ettiler ve Ethereum doğrulayıcıları bu işlemlerden yaklaşık 30 milyon doları MEV kârı yakaladılar.",
+          "coins": "Bitcoin, Ethereum, Solana, Tron, Core tokens",
+          "timeUTC": "Nov 1, 04:05 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257"
+        },
+        {
+          "headline": "Bitcoin Staking Platform b14g, Sıfır Token Çekimi Açığından 1,47 Milyon Dolar Kaybediyor",
+          "what": "31 Ekim'de Bitcoin staking platformu b14g, protokolden yaklaşık 97 milyon CORE token'i (1,47 milyon dolar) boşaltan bir güvenlik açığına maruz kaldı. Hacker, sıfır token çekimi zafiyetinden yararlanarak tek bir işlemde 91 staking pozisyonunu boşaltmış ve Bitcoin staking altyapısındaki devam eden riskleri ortaya koymamıştır.",
+          "coins": "Bitcoin, Core",
+          "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 exploit)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "BlackRock Bitcoin ETF, Potansiyel Kuzey Kore Hedefi Olarak İşaretlendi",
+          "what": "Kripto cüzdan üreticisi OneKey kurucusu Yishi Wang, Kuzey Koreli hackerların BlackRock'un 62 milyar dolarlık iShares Bitcoin Mini Trust (IBIT) olan en büyük Bitcoin ETF'sini hedef alabileceğini spekülasyon yaptı. Bu, ölçek ve erişim kolaylığına dayanan doğrulanmamış spekülasyon olup, güvenilir bir tehdit raporudur.",
+          "coins": "Bitcoin",
+          "timeUTC": "Nov 1, 02:04 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/onekey-founder-warns-blackrocks-bitcoin-etf-could-be-a-north-korean-target/"
+        },
+        {
+          "headline": "AI Ajanlar, Kripto Harcama Limitlerini İnsan Onayı Olmaksızın Atlatıyor, Araştırmacılar Buldu",
+          "what": "Güvenlik araştırmacıları, yapay zeka ajanlarının kripto para harcama limitlerini ve onay kontrollerini insan yetkilendirmesi olmaksızın atlatabildiğini gösterdi. Araştırmacılar, kripto para onaylarını yapay zekanın taklit edemeyeceği fiziksel eylemlere bağlayan Countersign adlı bir prototip uygulama oluşturdular.",
+          "coins": "N/A",
+          "timeUTC": "Nov 1, 04:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-31",
+    "summary": "ABD spot Bitcoin ETF'leri, Binance hack'i haberinden sonra ilk tam işlem seansı olan 31 Ekim Cuma günü 643,2 milyon dolarlık net çıkış kaydetti. Bu, dört günlük giriş serisini sonlandırdı. Ekim, spot Bitcoin ETF'leri arasında yaklaşık 516 milyon dolarlık net çıkışla kapandı. 1 Kasım için Ethereum ETF akış verileri mevcut değildir.",
+    "source": "Decrypt",
+    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Manufacturing PMI (November 2026) — Monday, November 2, 15:00 UTC",
+      "typicalReaction": "Orta-yüksek etkili makroekonomik açıklama. İmalat gücü/zayıflığı, genel ekonomiye olan güveni etkiler ve trader'ların makro görünümü yeniden değerlendirmesi kripto para piyasasını hareket ettirebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Breadth (pazar genişliği)",
+      "definition": "Belirli bir günde fiyatı yükselen kripto paraların yüzdesi. %50'nin üzerindeki bir değer genel gücü gösterir; %50'nin altında zayıflığı işaret eder. 1 Kasım'da Binance perpetuallarının %52,6'sı yükselişte idi."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "Kripto para piyasası katılımcılarının ne kadar korktuğunu veya açgözlü olduğunu ölçen, 0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında değişen bir duyarlılık göstergesi. 1 Kasım 34 (Korku) ile kapandı, bir önceki günün 30'undan yükselmişti."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Kaldıraçlı trader'ların perpetual sözleşmelerde long veya short bahislerini sürdürmek için ödemeleri gereken ücret. Pozitif finansman, bahis oynayan trader'ların ödediği anlamına gelir; negatif, bahis alanların ödediği anlamına gelir. Daha yüksek oranlar, o yöndeki pozisyon almayı teşvik eder."
+    },
+    {
+      "term": "Long position",
+      "definition": "Bir kripto paranın fiyatının yükselecek bahsi. Bir trader, gücünün üstünde satın almak için para ödünç alarak, fiyat artışlarına bahis oynamak için 'long' gider."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "Fiyat artışına bahis oynayan (long) trader sayısının fiyat düşüşüne bahis oynayan (short) sayısına bölümü. 2,5 oranı, her 1 short trader için 2,5 long trader, güçlü boğa konumlandırmasını gösterir."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Perpetual sözleşmeler için kullanılan referans fiyat; spot fiyat ve finansman oranlarından hesaplanan. Kaldıraçlı bahislerdeki kazanç/kayıpları belirlemek için kullanılır. Son işlem fiyatından farklıdır."
+    },
+    {
+      "term": "MEV (Maximal Extractable Value)",
+      "definition": "Doğrulayıcıların veya madencilerin bir blokta işlemlerin sırasını seçerek yapabileceği kâr. 1 Kasım'da Ethereum doğrulayıcıları hackerların aceleyle yapılan işlemlerinden yaklaşık 30 milyon dolarlık MEV kârı yakaladılar."
+    },
+    {
+      "term": "Open interest",
+      "definition": "Perpetual futures piyasalarında şu anda açık olan toplam kripto para sözleşmesi (veya coin) sayısı. Artan açık faiz, artan inancı gösterir; azalan, trader'ların pozisyonları kapadığını gösterir."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "Belirli bir günde toplam açık sözleşmelerdeki yüzde artış veya azalış; trader'ların yeni kaldıraçlı pozisyonlara girip girmediğini (pozitif değişim) veya çıkıp çıkmadığını (negatif değişim) gösterir."
+    },
+    {
+      "term": "Perpetual contract",
+      "definition": "Vade tarihi olmayan kaldıraçlı futures sözleşmesi; trader'ların ödünç para kullanarak kripto para fiyat hareketlerine bahis oynamasına izin verir. Perpetuals, sözleşme fiyatını spot fiyata sabitlemek için long ve short'lar arasında finansman oranları öder."
+    },
+    {
+      "term": "Short position",
+      "definition": "Bir kripto paranın fiyatının düşeceği bahsi. Bir trader, onu satmak için kripto paranı ödünç alarak ve daha ucuza geri satın almayı umarak 'short' gider."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "Bir emir kitabında likiditeyi 'alan' agresif alıcı işlemlerinin agresif satıcı işlemlerine oranı. 1,0'ın altındaki oran satış baskısından daha fazla agresif satış anlamına gelir; 1,0'ın üzerinde daha fazla satın alma baskısı anlamına gelir."
+    },
+    {
+      "term": "Top-trader position ratio (top position ratio)",
+      "definition": "Bir borsadaki tüm trader'lar değil, en büyük/en etkili trader'lar arasındaki long-short oranı. Genel long-short oranından sapma, balinalar'ın daha geniş pazardan farklı mı bahis oynadığını gösterebilir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "f9e56b87e4832fef"
+}

@@ -1,0 +1,187 @@
+{
+  "oneLine": "Bitcoin and Ethereum rose about 1% on November 1st as Binance reopened after the record $6.3 billion hack, triggering immediate $3.64 billion in customer withdrawals and rising market fear.",
+  "caveman": "The biggest thing that happened today was that Binance (the world's largest place to trade Bitcoin and other cryptocurrencies) opened back up for people to take their money out after hackers stole $6.3 billion from it on October 29. The FBI said the hackers were from North Korea. As soon as Binance let people withdraw their money, $3.64 billion left super fast because people were scared. Even though Bitcoin and Ethereum (the two biggest cryptocurrencies) both went up a tiny bit, most other cryptocurrencies went down, and people got much more worried and scared about security. It was a scary day overall.",
+  "priceVolumeSummary": "Bitcoin rose 1.02% to close at $78,313 and Ethereum gained 0.88% to $2,274, with all major exchanges in close agreement on prices. Binance led volume for both: Bitcoin $4.26 billion (largest across venues) and Ethereum $2.89 billion.",
+  "positioningSummary": "Traders were heavily positioned for price increases. On Bitcoin, there were roughly 2.57 long positions for every 1 short position (meaning 2.57 traders betting up for each betting down), while Ethereum was even more bullish at 2.81 to 1. The largest traders also favored going long, with Bitcoin at 1.68 to 1 and Ethereum at 1.55 to 1. The cost to borrow for leveraged long bets (funding rates) was positive: Bitcoin's 8-hour rate was 10.95% annualized, signaling strong bullish conviction, while Ethereum's was much lower at 1.44%. However, when large trades actually executed, slightly more were sell orders than buy orders (Bitcoin's taker buy-sell ratio was 0.99, Ethereum 0.93), suggesting some underlying hesitation beneath the bullish setup. Market breadth was slightly positive at 52.6% of all Binance perpetuals up on the day. Overall: positioned bullish but showing caution.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "ESPORTSUSDT",
+      "explanation": "Rose 101.3% with no clear public cause identified in major news sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "UAIUSDT",
+      "explanation": "Fell 47.02% with no clear public cause identified in major news sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "Rose 42.19% with no clear public cause identified in major news sources.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance Reopens Withdrawals, Sees $3.64 Billion in Immediate Outflows",
+        "what": "Binance resumed customer withdrawals on November 1 following the October 29 security breach, and customers withdrew $3.64 billion (2.1% of the exchange's $171 billion in total assets) almost immediately. Tracked wallet analysis showed $2.5 billion in confirmed outflows. The exchange said withdrawal volumes initially spiked but then declined after the reopening rush.",
+        "coins": "Bitcoin, Ethereum, Solana, and others in phased unlocking",
+        "timeUTC": "Nov 1, 02:12 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259"
+      },
+      {
+        "headline": "FBI Confirms North Korea's TraderTraitor Group Stole $6.3 Billion from Binance",
+        "what": "On October 31, the FBI released a formal alert confirming that North Korea's state-backed hacking group, known as TraderTraitor, was responsible for the October 29 theft of over $6 billion from Binance—the largest cryptocurrency hack in history. The FBI requested the private sector's help in identifying and blocking the stolen funds, but noted that hackers have already used thousands of distinct blockchain addresses, making tracking difficult.",
+        "coins": "Bitcoin, Ethereum, Solana, and others",
+        "timeUTC": "Oct 31, 19:23 UTC (context from day before)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
+      },
+      {
+        "headline": "Bitcoin ETF Sees $643 Million in Outflows Friday, First Full Trading Day After Hack",
+        "what": "US spot Bitcoin ETFs recorded net outflows of $643.2 million on Friday, October 31—the first complete trading session after the Binance hack became public. This ended a four-day inflow streak and left October with net outflows of approximately $516 million, reflecting institutional investor caution after the security breach.",
+        "coins": "Bitcoin",
+        "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 trading)",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "US Elections November 3: Crypto Policy at Stake as Election Nears",
+          "what": "With Congressional elections on November 3, 2026, the crypto industry faces regulatory uncertainty depending on which party gains power. Crypto PACs made a major final push supporting Republican candidates despite polling suggesting Democrats could gain ground. The election outcomes will shape crypto legislation and regulatory direction over the next two years.",
+          "coins": "N/A",
+          "timeUTC": "Nov 1, 02:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF Sees $643 Million in Outflows Friday, First Full Trading Day After Hack",
+          "what": "US spot Bitcoin ETFs recorded net outflows of $643.2 million on Friday, October 31—the first complete trading session after the Binance hack became public. This ended a four-day inflow streak and left October with net outflows of approximately $516 million, reflecting institutional investor caution after the security breach.",
+          "coins": "Bitcoin",
+          "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 trading)",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance Reopens Withdrawals, Sees $3.64 Billion in Immediate Outflows",
+          "what": "Binance resumed customer withdrawals on November 1 following the October 29 security breach, and customers withdrew $3.64 billion (2.1% of the exchange's $171 billion in total assets) almost immediately. Tracked wallet analysis showed $2.5 billion in confirmed outflows. The exchange said withdrawal volumes initially spiked but then declined after the reopening rush.",
+          "coins": "Bitcoin, Ethereum, Solana, and others in phased unlocking",
+          "timeUTC": "Nov 1, 02:12 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "North Korean Hackers Launder $242 Million of Stolen Binance Funds via Tron and DeFi Bridges",
+          "what": "Analysis published November 1 shows that the North Korean hackers moved approximately $242 million of the stolen $6.3 billion through DeFi bridges including Relay (which handled $48 million), THORChain, Chainflip, and Symbiosis, many via the Tron blockchain. In parallel, researchers estimated the hackers lost approximately $119 million in slippage on rushed trades over a 4.5-hour period, with Ethereum validators capturing roughly $30 million in MEV (maximal extractable value) profits from these transactions.",
+          "coins": "Bitcoin, Ethereum, Solana, Tron, Core tokens",
+          "timeUTC": "Nov 1, 04:05 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257"
+        },
+        {
+          "headline": "Bitcoin Staking Platform b14g Loses $1.47 Million to Zero-Token Withdrawal Exploit",
+          "what": "On October 31, the Bitcoin staking platform b14g suffered a security exploit that drained approximately 97 million CORE tokens ($1.47 million) from the protocol. The hacker exploited a zero-token withdrawal vulnerability to drain 91 staking positions in a single transaction, highlighting continued risks in Bitcoin staking infrastructure.",
+          "coins": "Bitcoin, Core",
+          "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 exploit)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "BlackRock Bitcoin ETF Flagged as Potential North Korean Target",
+          "what": "Crypto wallet maker OneKey founder Yishi Wang speculated that North Korean hackers could target BlackRock's $62 billion iShares Bitcoin Mini Trust (IBIT), the largest Bitcoin ETF. This is unconfirmed speculation based on the scale and ease of access, not a credible threat report.",
+          "coins": "Bitcoin",
+          "timeUTC": "Nov 1, 02:04 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/onekey-founder-warns-blackrocks-bitcoin-etf-could-be-a-north-korean-target/"
+        },
+        {
+          "headline": "AI Agents Bypass Crypto Spending Limits Without Human Approval, Researchers Find",
+          "what": "Security researchers demonstrated that AI agents can bypass cryptocurrency spending limits and approval checks without human authorization. The researchers built Countersign, a prototype app that ties cryptocurrency approvals to physical actions the AI cannot fake, to address the vulnerability.",
+          "coins": "N/A",
+          "timeUTC": "Nov 1, 04:40 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-10-31",
+    "summary": "US spot Bitcoin ETFs saw net outflows of $643.2 million on Friday, October 31—the first full trading session after the Binance hack announcement. This marked the end of a four-day inflow streak. October closed with net outflows of approximately $516 million across spot Bitcoin ETFs. Ethereum ETF flow data for November 1 is not available.",
+    "source": "Decrypt",
+    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
+  },
+  "calendarNotes": [
+    {
+      "event": "US ISM Manufacturing PMI (November 2026) — Monday, November 2, 15:00 UTC",
+      "typicalReaction": "Medium-to-high-impact macroeconomic release. Manufacturing strength/weakness affects confidence in broader economy and can influence risk sentiment, potentially moving crypto as traders reassess macro outlook."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of cryptocurrencies that rose in price on a given day. A reading above 50% suggests overall strength; below 50% suggests weakness. On November 1, 52.6% of Binance perpetuals were up."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A sentiment gauge measuring how fearful or greedy cryptocurrency market participants are feeling, on a scale from 0 (extreme fear) to 100 (extreme greed). November 1 closed at 34 (Fear), up from 30 the day before."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The fee leveraged traders pay to maintain long or short bets on perpetual contracts. Positive funding means traders betting up are paying; negative means traders betting down are paying. Higher rates encourage position-taking in that direction."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that a cryptocurrency's price will go up. A trader 'goes long' by borrowing money to buy more than they can afford, betting on price increases."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting on price increases (long) divided by those betting on price decreases (short). A ratio of 2.5 means 2.5 long traders for every 1 short trader, indicating strong bullish positioning."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used for perpetual contracts, calculated from the spot price and funding rates. Used to determine gains/losses on leveraged bets. Different from last-traded price."
+    },
+    {
+      "term": "MEV (Maximal Extractable Value)",
+      "definition": "The profit that validators or miners can make by choosing the order and inclusion of transactions in a block. On November 1, Ethereum validators captured about $30 million in MEV profits from the hackers' rushed trades."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of cryptocurrency contracts (or coins) that are currently open in perpetual futures markets. Increasing open interest suggests growing conviction; decreasing suggests traders are closing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage rise or fall in total open contracts on a given day, indicating whether traders are entering new leveraged positions (positive change) or exiting (negative change)."
+    },
+    {
+      "term": "Perpetual contract",
+      "definition": "A leveraged futures contract with no expiration date, allowing traders to bet on cryptocurrency price moves using borrowed money. Perpetuals pay funding rates between longs and shorts to keep the contract price anchored to the spot price."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that a cryptocurrency's price will go down. A trader 'goes short' by borrowing cryptocurrency to sell it, then hoping to buy it back cheaper."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buyer trades to aggressive seller trades that 'take' liquidity on an order book. A ratio below 1.0 means more aggressive selling pressure than buying; above 1.0 means more buying pressure."
+    },
+    {
+      "term": "Top-trader position ratio (top position ratio)",
+      "definition": "The long-to-short ratio among the largest/most influential traders on an exchange, not all traders. Divergence from the overall long-short ratio can signal whether whales are betting differently than the broader market."
+    }
+  ],
+  "_source": "cli"
+}
