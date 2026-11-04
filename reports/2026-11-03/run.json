@@ -1,11 +1,11 @@
 {
-  "runId": "2026-11-04T10:00:02.769Z",
+  "runId": "2026-11-04T11:00:02.974Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-11-04T10:00:02.769Z",
+  "startedAt": "2026-11-04T11:00:02.974Z",
   "status": "degraded",
-  "finishedAt": "2026-11-04T10:01:05.544Z",
-  "durationSec": 63,
+  "finishedAt": "2026-11-04T11:00:37.675Z",
+  "durationSec": 35,
   "date": "2026-11-03",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1793750399999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "10:00 UTC"
+    "asOfUTC": "11:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -93,12 +93,15 @@
     "en": true
   },
   "publish": {
-    "pushed": true,
-    "branch": "main"
+    "pushed": false,
+    "reason": "push-failed",
+    "branch": "main",
+    "detail": "remote: Internal Server Error        \nremote: Request ID 2B5D:14BCDF:5347D6C:73B875C:6AEB1094        \nremote: Time 2026-11-04T11:01:44Z\nTo https://github.com/GorkemTikic/futures-daily-report.git\n ! [r"
   },
   "reasons": [
     "narrative fell back to data-only (CLI-only backend)",
     "tr report unavailable",
-    "zh report unavailable"
+    "zh report unavailable",
+    "publish failed (push-failed)"
   ]
 }
