@@ -1,11 +1,11 @@
 {
-  "runId": "2026-11-04T18:00:03.014Z",
+  "runId": "2026-11-04T19:00:02.945Z",
   "dateOverride": null,
   "reuseSynthesis": false,
-  "startedAt": "2026-11-04T18:00:03.014Z",
+  "startedAt": "2026-11-04T19:00:02.945Z",
   "status": "degraded",
-  "finishedAt": "2026-11-04T18:00:38.378Z",
-  "durationSec": 35,
+  "finishedAt": "2026-11-04T19:00:29.119Z",
+  "durationSec": 26,
   "date": "2026-11-03",
   "live": true,
   "window": {
@@ -14,7 +14,7 @@
     "endMs": 1793750399999,
     "dayAligned": false,
     "rolling": false,
-    "asOfUTC": "18:00 UTC"
+    "asOfUTC": "19:00 UTC"
   },
   "sources": {
     "exchanges": {
@@ -93,15 +93,12 @@
     "en": true
   },
   "publish": {
-    "pushed": false,
-    "reason": "fetch-failed",
-    "branch": "main",
-    "detail": "fatal: unable to access 'https://github.com/GorkemTikic/futures-daily-report.git/': Could not resolve host: github.com\n"
+    "pushed": true,
+    "branch": "main"
   },
   "reasons": [
     "narrative fell back to data-only (CLI-only backend)",
     "tr report unavailable",
-    "zh report unavailable",
-    "publish failed (fetch-failed)"
+    "zh report unavailable"
   ]
 }
