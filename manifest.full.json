@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-05T12:06:13.798Z",
+  "generatedAt": "2026-11-05T23:50:22.682Z",
   "count": 141,
   "counts": {
     "total": 141,
@@ -411,9 +411,9 @@
         "BTC": -0.8971544137201701,
         "ETH": -1.2351963079846573
       },
-      "marketSummary": "On Sunday 2026-10-25, Bitcoin and Ethereum fell 0.9% and 1.2% respectively on light news, with elevated funding costs and bullish long/short ratios offset by aggressive selling pressure ahead of the Federal Reserve's October 28 decision.",
-      "oneLine": "On Sunday 2026-10-25, Bitcoin and Ethereum fell 0.9% and 1.2% respectively on light news, with elevated funding costs and bullish long/short ratios offset by aggressive selling pressure ahead of the Federal Reserve's October 28 decision.",
-      "newsCount": 12,
+      "marketSummary": "Bitcoin and Ethereum fell roughly 1% on a Sunday with heavy selling pressure, while traders remained deeply bullish; one token surged 42% on a vesting event and another rose 40% with no clear cause.",
+      "oneLine": "Bitcoin and Ethereum fell roughly 1% on a Sunday with heavy selling pressure, while traders remained deeply bullish; one token surged 42% on a vesting event and another rose 40% with no clear cause.",
+      "newsCount": 10,
       "topMover": {
         "symbol": "APRUSDT",
         "chgPct": 42.230215827338135
