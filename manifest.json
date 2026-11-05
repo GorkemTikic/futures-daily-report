@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-05T01:00:24.394Z",
+  "generatedAt": "2026-11-05T02:00:23.541Z",
   "count": 141,
   "counts": {
     "total": 141,
@@ -20,7 +20,7 @@
       "widest": null,
       "macro": {
         "BTC": 3.9261775303826734,
-        "ETH": 6.559337909683767
+        "ETH": 6.582338608235194
       },
       "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
       "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
