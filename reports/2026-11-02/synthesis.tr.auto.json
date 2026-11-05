@@ -1,0 +1,185 @@
+{
+  "oneLine": "2 Kasım'da Bitcoin ve Ethereum birer oranında düşerken, yatırımcılar Binance'daki dev hack'in yarattığı endişe nedeniyle daha küçük kripto paralara yönelmişler; borçlanma oranları rekor yüksekliklerde kalırken, pazar tabanı genişlemiştir.",
+  "caveman": "Pazartesi günü Bitcoin ve Ethereum'un fiyatları birer oranında düştü. Ama ilginç bir şey oldu: küçük kripto paralar yükseldi! İnsanlar endişeli oldukları için paralarını farklı coinlere taşıyorlardı. En korkutucu olay ise birkaç gün önce Kuzey Kore'li bilgisayar korsanlarının dünyanın en büyük kripto borsası Binance'dan milyarlarca dolar çalmış olmasıydı. Binance herkesin parasını geri vermeye çalışsa da, insanlar yine de korkuyorlardı - başka kötü şeyler olabilir mi diye. Korkulu bir gündü, fiyatlar düşmüştü ama hack ilk olduğunda kadar çılgın değildi.",
+  "priceVolumeSummary": "Beş büyük borsa (Binance, Bybit, OKX, Bitget, Gate) gün boyunca neredeyse aynı Bitcoin ve Ethereum fiyatlarını göstermişlerdir; Binance, BTC ticaretinde 8,97 milyar dolar ve ETH'de 7,48 milyar dolar işlem hacmiyle öncü rol oynamıştır. Bitcoin %1,94 düşüşle 76.791 dolara, Ethereum %0,94 düşüşle 2.252,80 dolara gerilemiştir.",
+  "positioningSummary": "Fiyat düşüşüne rağmen Bitcoin'in açık pozisyonları %1,93 arttı; bu, tüccarların uzun pozisyon kaldıracı eklediklerini ve 77.000 dolar altında satın alma konusunda güvenli olduklarını gösterir. Ethereum'un açık pozisyonları %2,01 düştü çünkü bazı long pozisyonları kapatıldı. Her iki varlık da %10,95 yıllıklandırılmış aşırı finansman oranları taşıdı - bu, normal seviyelerin çok üzerinde olup, yükselişe aşırı kaldıraç uygulandığını gösteriyor. Bitcoin'in en büyük tüccarları 1,67 kat long/short oranına sahiptir ve alıcı/satıcı oranı 1,05'te durmakta; bu hafif satın alma saldırganlığını gösterir. Önemli kripto paraların düştüğü halde Binance vadeli işlemlerinin %70'i gün içinde yükseldi - bu, paranın daha küçük altcoinlere kaydığının klasik bir işaretidir. Korku & Açgözlülük endeksi 34'ten 37'ye (Korku seviyesi) yükseldi ve borsadaki hack sonrası devam eden tedirginliği yansıttı.",
+  "stocksSummary": "Kore'nin yarı iletken hisse senetleri 2 Kasım'da Asya pazarlarını öncü aldı; SK Hynix %4,0 yükselirken, Samsung Electronics %3,6 arttı ve geniş KOSPI endeksi %2,2 yükseldi. Hong Kong'un çip-kaldıraç oyunları bu hareketi yansıttı; 2× SK Hynix ETF'i %7,4 sıçradı. Gün içinde yarı iletken gücünün arkasındaki neden mevcut duyurulardan net değildi.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE gün içinde %41,57 çöküşle 0,008861'den 0,004912'ye düşmüş, 158,6 milyon dolar hacim üzerinde 0,005044'te kapanmıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "explanation": "ARIA gün içinde %37,54 sıçramayla 0,08203'ten 0,13487'ye yükselmiş, 270,6 milyon dolar hacim üzerinde 0,11574'te kapanmıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "IDOL gün içinde %32,42 düşüşle 0,027763'ten 0,012378'ye gerilmiş, ancak önceki 24 saatte %20,4 yükselmiştir.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance'ın 6,3 milyar dolar hack'i sahte iş görüşmeleri ve iç AI aracının istismarıyla başladı",
+        "what": "3 Kasım'da Binance, Kuzey Kore bağlantılı saldırganların aylarca sahte işe alım görüşmeleri üzerinden çalışan kimlik bilgilerini ele geçirdiklerini gösteren ayrıntılı bir olay raporu yayınladı. Daha sonra saldırganlar, güvenlik cüzdanı imzalama altyapısına erişmek için (Ethereum'un EIP-7702 temsilci mekanizması üzerinden) ele geçirilen iç AI aracını istismar ederek 6,3 milyardan fazla dolar kripto para çaldılar. Binance, o zamandan beri çalınan varlıkların %90'ını değiştirdiğini söyledi.",
+        "coins": "BTC, ETH, all",
+        "timeUTC": "3 Nov, UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+      },
+      {
+        "headline": "CFTC, ABD ticareti için hisse senedi vadeli işlemlerini onayladı ve kripto-yerli ürünleri Wall Street'e getirdi",
+        "what": "3 Kasım'da ABD Emtia Vadeli İşlemler Ticaret Komisyonu, düzenlenmiş ABD borsalarında hisse senedi vadeli işlemlerini onayladı. Bu, kripto pazarlarına özgü bir ticaret ürününü genişletir - vadeli işlemler, süresi dolmayan kaldıraç ve long/short tüccarlar arasında finansman sağlar. Bu hamle, ABD'li tüccarları denizaşırı mekanların düzenlenmiş bir alternatifini sunmaktadır.",
+        "coins": "none",
+        "timeUTC": "3 Nov, UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street"
+      },
+      {
+        "headline": "CZ, AI tarafından yönlendirilen siber saldırıları uyarıyor ve endüstri çapında kripto güvenlik ittifakını çağırıyor",
+        "what": "Binance hack'i sonrasında verdiği ilk röportajda, Changpeng Zhao 3 Kasım'da yapay zekanın kripto sektörü genelinde siber saldırıların hızını ve karmaşıklığını hızlandırdığını söyledi. Yanıt vermek ve tehdit istihbaratını paylaşmak için bir endüstri güvenliği ittifakı çağırdı ve Binance ihlalinin muhtemelen AI tarafından yönlendirilen bir saldırı dalgasının başlangıcı olabileceğini belirtti.",
+        "coins": "BTC, ETH, all",
+        "timeUTC": "3 Nov, UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC, Canton Coin için hareketsiz kalma mektubu yayınladı ve onu dijital bir emtia olarak nitelendirdi",
+          "what": "SEC'in Kurumsal Finans Bölümü, Canton Coin'in programlı ihraç edilmesine karşı icra tavsiyesi vermeyeceğini belirtti ve token'i etkili bir şekilde bir menkul kıymet yerine dijital bir emtia olarak sınıflandırdı. Mektup, token sınıflandırması konusunda açıklık sağladı.",
+          "coins": "Canton Coin",
+          "timeUTC": "3 Nov, UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+        },
+        {
+          "headline": "Moskova Borsası Aralık'ta Bitcoin, Ethereum, USDT ticaretini başlatacak",
+          "what": "Rusya'nın ana borsası, ülkenin yeni kripto yasası altında 1 Aralık'tan başlayarak Bitcoin, Ethereum ve Tether ticaretine başlayacağını duyurdu. Nitelikli olmayan yatırımcılar yıllık satın alma sınırlamalarıyla karşı karşıya kalacaklardır.",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Amazon, Tesla, SpaceX, Netflix tokenize hisse senetlerini OKX-ICE platformundan engelledi",
+          "what": "Amazon, Tesla, SpaceX, Netflix ve Lam Research de dahil olmak üzere büyük teknoloji firmaları, hisse senedi token'lerinin planlanan OKX-ICE tokenize hisse senedi borsasında işlem görmesini engelleyen itirazlar bildirdiler. Toplam itirazlar 56 şirkete ulaştı ve orijinal listenin neredeyse %80'ini oluşturdular, proje etkili bir şekilde sökülmüş oldu.",
+          "coins": "none",
+          "timeUTC": "3 Nov, UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms"
+        },
+        {
+          "headline": "GitBook AI aracı güvenlik ihlaline uğradı ve kullanıcıları anahtarları değiştirmeye çağırdı",
+          "what": "Dokümantasyon platformu GitBook, saldırganların altyapı kimlik bilgilerine erişmek için AI destekli yöntemler kullandığını bildirdi. İhlal, bir kapatma ve kullanıcılar için acil token sıfırlamasını tetikledi.",
+          "coins": "all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Brezilya'nın Mercado Bitcoin, 40 milyon dolar hack sonrası müşterilere tam geri ödeme vaadiyle",
+          "what": "Brezilya'nın en büyük Bitcoin borsası, 40 milyon dolar hırsızlıktan kaynaklanan kaybı müşterilerin karşılamasını gerektirmeden tüm etkilenen kullanıcıları geri ödeyeceğini duyurdu. Para çekme işlemleri tam kurtarma için dondurulmuş kalmıştır.",
+          "coins": "BTC, all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382459/brazil-mercado-bitcoin-will-refund-users-40-million-hack"
+        },
+        {
+          "headline": "Chainalysis, AI tarafından yardımcı olan ihali açıklar; müşteri adları ve e-postalar ifşa oldu",
+          "what": "Blockchain analitik firması Chainalysis, bilgisayar korsanlarının altyapıya ihlal etmek ve müşteri adlarını ve e-posta adreslerini çalmak için AI destekli teknikler kullandığını bildirdi. Firma, blockchain verisi kaybı veya müşteri cüzdanlarının kaybını bildirmedi.",
+          "coins": "all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Kuzey Kore, Binance hack'ine katılımını yalanladı",
+          "what": "Kuzey Kore'nin devlet haber ajansı (KCNA), Binance hırsızlığına katılım konusunda resmi bir yalanlamada bulundu, ancak FBI, Kuzey Kore devlet destekli aktörlere atfetmişti. Yalanlamadan sonra birden fazla ABD ajansı ve kripto kaynağı Kuzey Kore katılımını doğruladı.",
+          "coins": "all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/north-korea-denies-role-in-6-billion-binance-hack-after-fbi-accusation/"
+        },
+        {
+          "headline": "Tether CEO şirketi 150.000 Bitcoin sahibi olduğunu iddia ediyor; reserve raporlarında 100.000 yazılı",
+          "what": "Lugano'da düzenlenen Plan ₿ Forumu'nda Tether CEO'su Paolo Ardoino şirketi 'az çok 150.000 Bitcoin' sahibi olduğunu söyledi, ancak şirketin Q3 reserve raporu sadece 100.060 BTC tutulduğunu ima ediyor. 50.000 BTC tutarsızlığı şeffaflık ve reserve muhasebesi hakkında sorular gündeme getiriyor.",
+          "coins": "BTC, USDT",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382474/tether-holds-150000-bitcoin-ceo-says"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) — Friday 6 Nov, 13:30 UTC",
+      "typicalReaction": "Yüksek etki taşıyan iş raporu tipik olarak keskin kripto dalgalanmasına neden olur; beklenenden daha güçlü istihdam, Fed'in oran kesme beklentisini azaltabilir ve Bitcoin'e baskı yapabilir."
+    },
+    {
+      "event": "Eurozone Flash CPI — Wednesday 4 Nov, 10:00 UTC",
+      "typicalReaction": "Orta etki taşıyan enflasyon verisi dolar gücünü etkileyebilir ve kripto pozisyonlandırmasını değiştirebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Gün içinde daha yüksek fiyatla işlem gören bireysel coinlerin yüksek fiyatla işlem görenlere karşı yüzdesi; yüksek genişlik, pazar içinde geniş tabanlı satın almayı gösterir."
+    },
+    {
+      "term": "Korku & Açgözlülük Endeksi",
+      "definition": "Duyarlılığı ölçen 0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında değişen bir ölçek; 50 altındaki değerler pazar kötümserliğini gösterir."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Vadeli işlem tüccarları arasında ödenen periyodik faiz oranı; yüksek ve pozitif olduğunda, long pozisyon sahipleri short pozisyon sahiplerine ödeme yaparak pazarın boğalar tarafından aşırı kaldıraçlandığını gösterir."
+    },
+    {
+      "term": "Long/Short Oranı",
+      "definition": "Boğa (long) pozisyonları tutan tüccarların, ayı (short) pozisyonları tutan tüccarlara oranı; 1'in üzerinde daha fazla boğa olduğunu gösterir."
+    },
+    {
+      "term": "Mark Fiyatı",
+      "definition": "Vadeli işlemlerde finansman ödemelerini ve likidasyonları hesaplamak için kullanılan referans fiyat; borsalar arasında spot fiyatları karışımından türetilir."
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Bir borsada ödenmemiş vadeli işlem sözleşmelerinin toplam sayısı, coin veya dolar olarak ölçülür; artan açık pozisyon, tüccarların kaldıraç eklediğini gösterir."
+    },
+    {
+      "term": "Açık Pozisyon Değişimi",
+      "definition": "Bir işlem günü içinde toplam ödenmemiş vadeli işlemlerdeki yüzde artış veya azalış; pazarın daha çok veya daha az kaldıraçlandığını gösterir."
+    },
+    {
+      "term": "Aşırı Kaldıraçlı",
+      "definition": "Tüccarlar, gerçek varlıklarına göre prudent olandan daha fazla para ödünç aldıklarında; fiyatlar onlara karşı hareket ederse zorunlu likidasyonlar riskini arttırır."
+    },
+    {
+      "term": "Sona Ermesiz Vadeli İşlemler",
+      "definition": "Vade tarihi olmayan vadeli işlem sözleşmeleri, tüccarların sınırsız kaldıraçlı pozisyonları tutmalarına izin verir; fiyatlar, long ve short tüccarlar arasında 'finansman oranı' ödemesi yoluyla spot pazarlarla uyumlu tutulur."
+    },
+    {
+      "term": "Taker Alıcı/Satıcı Oranı",
+      "definition": "Pazar alan satın alma emirlerinin, pazar alan satış emirlerine oranı; 1'in üzerinde daha agresif satın almayı, 1'in altında daha agresif satışı gösterir."
+    },
+    {
+      "term": "En Büyük Tüccarlar Long/Short Oranı",
+      "definition": "Bir borsadaki en büyük tüccarlar tarafından tutulan long pozisyonlarının short pozisyonlarına oranı; kurumsal paranın yönelim yanlılığını gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "c8816bc37140741c"
+}

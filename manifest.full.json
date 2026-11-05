@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-05T11:09:10.691Z",
+  "generatedAt": "2026-11-05T12:06:13.798Z",
   "count": 141,
   "counts": {
     "total": 141,
     "market": 54,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-11-04",
   "reports": [
@@ -99,9 +99,9 @@
         "BTC": -1.9090676883780369,
         "ETH": -0.9423549639636202
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum declined about 2% on November 2 as traders rotated into altcoins amid lingering caution over the massive Binance breach, while funding costs remained sky-high and broad market breadth strengthened.",
+      "oneLine": "Bitcoin and Ethereum declined about 2% on November 2 as traders rotated into altcoins amid lingering caution over the massive Binance breach, while funding costs remained sky-high and broad market breadth strengthened.",
+      "newsCount": 11,
       "topMover": {
         "symbol": "AKEUSDT",
         "chgPct": -41.57303370786517
@@ -114,14 +114,12 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-11-02/summary_2026-11-02.html",

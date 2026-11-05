@@ -1,0 +1,185 @@
+{
+  "oneLine": "11月2日，比特币和以太坊各跌约2%，交易员转向小币种，对币安遭大规模黑客攻击的担忧仍在施压，融资利率保持高位，但市场宽度走强。",
+  "caveman": "周一比特币和以太坊都跌了2%，但有个有趣的现象——小币种反而上涨了。人们在改变投资，因为他们很担心。最可怕的是朝鲜黑客从全球最大加密交易所币安偷走了数十亿美元，就发生在几天前。虽然币安在努力把钱还给客户，但大家还是很害怕会有更坏的事发生。那是紧张的一天，价格跌了，但没有黑客事件刚爆出时那么疯狂。",
+  "priceVolumeSummary": "五大交易所（币安、Bybit、OKX、Bitget、Gate）全天比特币和以太坊价格几乎完全一致，币安交易量领先，比特币交易额89.7亿美元，以太坊交易额74.8亿美元。比特币下跌1.94%至76791美元，以太坊下跌0.94%至2252.80美元。",
+  "positioningSummary": "尽管价格下跌，比特币未平仓合约增加1.93%，交易者在7.7万美元下方加码做多杠杆——显示购买信念坚定。以太坊未平仓合约下跌2.01%，部分多头被平仓。两种资产融资利率都极高，年化达10.95%，远超正常水平，表明市场过度杠杆化且严重集中在做多。比特币大户多空比为1.67倍，Taker买卖比1.05，显示小幅买方侵略。值得注意的是，币安永续期货有70%品种全天上涨，尽管主流币下跌——这是典型的资金轮动到小币种的信号。恐惧贪婪指数从34升至37（恐惧水平），反映黑客事件后市场仍存顾虑。",
+  "stocksSummary": "11月2日韩国半导体股领涨亚洲市场，SK海力士上涨4.0%，三星电子上涨3.6%，推动KOSPI指数上升2.2%。香港芯片杠杆产品也跟风，2倍SK海力士ETF跳涨7.4%。当日半导体走强的具体原因从公开信息中并不明确。",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE日内暴跌41.57%，从高点0.008861跌至低点0.004912，收盘0.005044，成交量1.586亿美元。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "explanation": "ARIA日内飙升37.54%，从0.08203升至0.13487，收盘0.11574，成交量2.706亿美元。",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "IDOL日内下跌32.42%，从高点0.027763跌至低点0.012378，虽然过去24小时内上涨20.4%。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "币安遭黑客攻击始于假招聘面试和内部AI工具被利用",
+        "what": "11月3日，币安发布详细事件报告，显示与朝鲜相关的黑客花数月时间通过假招聘面试获取员工证书。随后利用被攻破的内部AI工具访问热钱包签名基础设施（通过以太坊的EIP-7702委托机制），盗取超过63亿美元的加密资产。币安表示已补偿90%的被盗资产。",
+        "coins": "BTC, ETH, all",
+        "timeUTC": "3 Nov, UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+      },
+      {
+        "headline": "美国CFTC批准股票永续期货交易，将加密原生产品引入华尔街",
+        "what": "11月3日，美国商品期货交易委员会批准了在受监管的美国交易所上市股票永续期货。这一产品源自加密市场——永续期货允许使用杠杆且无到期日期，资金在多空交易者之间流动。该举措为美国交易者提供了离岸场所的监管替代品。",
+        "coins": "none",
+        "timeUTC": "3 Nov, UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street"
+      },
+      {
+        "headline": "赵长鹏警告AI驱动的网络攻击，呼吁行业建立加密安全联盟",
+        "what": "在币安黑客事件后首次接受采访时，赵长鹏在11月3日表示，人工智能正在加速加密行业网络攻击的速度和复杂性。他呼吁建立行业安全联盟来协调应对和共享威胁情报，表明币安黑客事件可能是AI驱动攻击浪潮的开始。",
+        "coins": "BTC, ETH, all",
+        "timeUTC": "3 Nov, UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国SEC对Canton Coin发布无异议函，称其为数字商品",
+          "what": "美国SEC企业融资部表示不会建议对Canton Coin的程序化发行采取执法行动，实际上是将该代币分类为数字商品而非证券。该函件为代币分类提供了明确的指导。",
+          "coins": "Canton Coin",
+          "timeUTC": "3 Nov, UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+        },
+        {
+          "headline": "莫斯科交易所将于12月启动比特币、以太坊和USDT交易",
+          "what": "俄罗斯主要交易所宣布从12月1日起在该国新加密法律框架下推出比特币、以太坊和Tether交易。非合格投资者将面临年度购买上限。",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "亚马逊、特斯拉、SpaceX、Netflix阻止其代币化股票在OKX-ICE交易",
+          "what": "包括亚马逊、特斯拉、SpaceX、Netflix和Lam Research在内的主要科技公司提交反对意见，阻止其股票代币在计划中的OKX-ICE代币化股票交易所交易。共收到56家公司的反对意见——占原名单近80%——实际上使该项目瓦解。",
+          "coins": "none",
+          "timeUTC": "3 Nov, UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms"
+        },
+        {
+          "headline": "GitBook遭AI代理安全漏洞攻击，敦促用户轮换密钥",
+          "what": "文档平台GitBook报告攻击者使用AI辅助方法获得了基础设施证书的访问权限。该漏洞导致系统关闭和用户紧急令牌重置。",
+          "coins": "all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "巴西Mercado Bitcoin承诺在黑客事件后全额赔付",
+          "what": "巴西最大的比特币交易所宣布将全额赔付所有受影响用户，不需要客户承担4000万美元的盗窃损失。在完全恢复期间，提现仍保持冻结。",
+          "coins": "BTC, all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382459/brazil-mercado-bitcoin-will-refund-users-40-million-hack"
+        },
+        {
+          "headline": "区块链分析公司Chainalysis披露AI辅助漏洞暴露客户信息",
+          "what": "区块链分析公司Chainalysis报告黑客使用AI辅助技术入侵基础设施，窃取了客户名称和电子邮件地址。该公司表示未报告区块链数据或客户钱包被盗。",
+          "coins": "all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "朝鲜否认参与币安黑客事件",
+          "what": "朝鲜官方通讯社（KCNA）发布官方声明否认参与币安盗窃事件，尽管美国联邦调查局已公开将其归因于朝鲜国家赞助行为者。美国多个机构和加密来源证实朝鲜参与后，朝鲜才发布了否认。",
+          "coins": "all",
+          "timeUTC": "3 Nov, UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/north-korea-denies-role-in-6-billion-binance-hack-after-fbi-accusation/"
+        },
+        {
+          "headline": "Tether首席执行官声称公司持有150000枚比特币，而储备报告仅为100000枚",
+          "what": "在卢加诺Plan ₿论坛上，Tether首席执行官Paolo Ardoino表示公司持有'大约150000枚比特币'，但公司Q3储备报告暗示仅持有100060枚BTC。这相差50000枚BTC的差异引发了对透明度和储备会计的疑问。",
+          "coins": "BTC, USDT",
+          "timeUTC": "3 Nov, UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382474/tether-holds-150000-bitcoin-ceo-says"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) — Friday 6 Nov, 13:30 UTC",
+      "typicalReaction": "高影响力的就业报告通常导致加密市场剧烈波动；强于预期的就业数据可能降低美联储降息预期，对比特币造成压力。"
+    },
+    {
+      "event": "Eurozone Flash CPI — Wednesday 4 Nov, 10:00 UTC",
+      "typicalReaction": "中等影响力的通胀数据可能影响美元强势并改变市场定位。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "市场宽度",
+      "definition": "每日上涨币种与下跌币种的百分比；宽度越高表示市场整体买盘越强。"
+    },
+    {
+      "term": "恐惧贪婪指数",
+      "definition": "市场情绪指标，范围从0（极度恐惧）到100（极度贪婪）；低于50表示市场悲观。"
+    },
+    {
+      "term": "融资利率",
+      "definition": "永续期货交易者之间定期支付的利率；当利率高且为正时，做多头的交易者向做空的交易者支付费用，表明市场多头杠杆过度。"
+    },
+    {
+      "term": "多空比",
+      "definition": "做多（看涨）交易者与做空（看跌）交易者的比例；超过1表示看涨交易者多于看跌交易者。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "在永续期货中用于计算融资支付和清算的参考价格；由跨交易所现货价格的混合推导。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "交易所未平仓期货合约总数，以币种或美元计量；未平仓合约上升表示交易者增加杠杆。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "一个交易日内未平仓合约总数的百分比增减；表明市场杠杆是增加还是减少。"
+    },
+    {
+      "term": "过度杠杆化",
+      "definition": "交易者相对于实际资产借入过多资金；如果价格向不利方向波动，增加被强制清算的风险。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "没有到期日期的期货合约，允许交易者无限期持有杠杆头寸；通过做多和做空之间的'融资利率'支付保持价格与现货市场一致。"
+    },
+    {
+      "term": "Taker买卖比",
+      "definition": "市场成交买单与卖单的比例；高于1表示更多的积极买盘，低于1表示更多的积极卖盘。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "交易所最大交易者持有的多头与空头头寸的比例；表示机构资金的方向偏好。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "c8816bc37140741c"
+}
