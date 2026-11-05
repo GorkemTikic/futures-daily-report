@@ -1,16 +1,57 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-04T23:00:27.613Z",
-  "count": 140,
+  "generatedAt": "2026-11-05T00:00:23.080Z",
+  "count": 141,
   "counts": {
-    "total": 140,
-    "market": 53,
+    "total": 141,
+    "market": 54,
     "divergence": 87,
-    "degraded": 2
+    "degraded": 3
   },
-  "latest": "2026-11-03",
+  "latest": "2026-11-04",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-11-04",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 3.9261775303826734,
+        "ETH": 6.582338608235194
+      },
+      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+      "newsCount": 0,
+      "topMover": {
+        "symbol": "ELSAUSDT",
+        "chgPct": 60.05205940897257
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en"
+      ],
+      "status": "degraded",
+      "degradedReasons": [
+        "narrative fell back to data-only (CLI-only backend)",
+        "tr report unavailable",
+        "zh report unavailable"
+      ],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-04/summary_2026-11-04.html",
+        "pdf": "reports/2026-11-04/summary_2026-11-04.pdf",
+        "md": "reports/2026-11-04/summary_2026-11-04.md"
+      }
+    },
     {
       "date": "2026-11-03",
       "kind": "market",
