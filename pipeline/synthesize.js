@@ -74,6 +74,7 @@ STRICT RULES:
 - No trading advice, predictions, or price targets. No support-operations content.
 - Every news item needs a real source name + URL and a UTC time. Each item covers ONE story — do not combine unrelated stories.
 - If there is genuinely little news, return fewer items — do not pad.
+- WRITE AS OF ${pack.dateUTC} 23:59 UTC, even if you are run days later. Web search can return news published after the report day — never use anything that happened after ${pack.dateUTC}, except calendarNotes for events scheduled in advance and RSS items marked outsideReportDay (labelled as context). ETF flows: use the report day's flow or the latest trading day before it, never a later day; write "etfFlows.date" as YYYY-MM-DD.
 
 DATA PACK:
 ${JSON.stringify({
@@ -293,6 +294,40 @@ const OUTPUT_SHAPE_ERRORS = new Set(["invalid", "unbalanced", "no-object"]);
 // The English write-up runs with web search and can take minutes, so one retry.
 const SYNTHESIS_ATTEMPTS = 2;
 
+// A write-up made days after its report day (the hourly heal, --from-datapack) can pull
+// later news through web search: 25 Oct and 2 Nov 2026 got all their news from the next
+// day, 3 Nov got 4 Nov ETF flows. Drop news whose every date is after the day, unless it
+// is labelled as context or a scheduled event, and ETF flows dated after the day.
+const MON = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+function datesIn(text, year) {
+  const s = String(text || "");
+  const out = [...s.matchAll(/(\d{4})-(\d{2})-(\d{2})/g)].map((m) => `${m[1]}-${m[2]}-${m[3]}`);
+  const md = (day, mon) => `${year}-${String(MON[mon.slice(0, 3).toLowerCase()]).padStart(2, "0")}-${day.padStart(2, "0")}`;
+  for (const m of s.matchAll(/\b(\d{1,2})\s+(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*/gi)) out.push(md(m[1], m[2]));
+  for (const m of s.matchAll(/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{1,2})\b/gi)) out.push(md(m[2], m[1]));
+  return out;
+}
+export function dropAfterDay(obj, dateUTC) {
+  const year = dateUTC.slice(0, 4);
+  const keep = (it) => {
+    const ds = datesIn(it && it.timeUTC, year);
+    if (!ds.length || ds.some((d) => d <= dateUTC)) return true;
+    return /context|scheduled|expected|upcoming|expir|decision|vote/i.test(`${it.timeUTC} ${it.headline}`);
+  };
+  let dropped = 0;
+  const filter = (arr) => { const out = (arr || []).filter(keep); dropped += (arr || []).length - out.length; return out; };
+  if (obj.news) {
+    obj.news.topThree = filter(obj.news.topThree);
+    for (const k of Object.keys(obj.news.groups || {})) obj.news.groups[k] = filter(obj.news.groups[k]);
+  }
+  if (obj.etfFlows) {
+    const dates = String(obj.etfFlows.date || "").match(/\d{4}-\d{2}-\d{2}/g) || [];
+    if (!dates.length || dates.some((d) => d > dateUTC)) { obj.etfFlows = null; dropped++; }
+  }
+  if (dropped) console.warn(`  synthesis: dropped ${dropped} item(s) dated after ${dateUTC}`);
+  return obj;
+}
+
 export async function synthesize(pack, config, dayDir, opts = {}) {
   // (a) manual override always wins
   const manual = readManual(dayDir, "synthesis.json", "synthesis.manual.json");
@@ -326,6 +361,7 @@ export async function synthesize(pack, config, dayDir, opts = {}) {
       try {
         const obj = await runBackend(backend, prompt, config, { useTools: true });
         if (!obj.oneLine) { const e = new Error("synthesis missing oneLine"); e.kind = "invalid"; throw e; }
+        dropAfterDay(obj, pack.dateUTC);
         try { fs.writeFileSync(path.join(dayDir, "synthesis.auto.json"), JSON.stringify({ ...obj, _source: backend }, null, 2), "utf8"); } catch {}
         return { ...obj, _source: backend, _fellBack: false, _cliOnly: cliOnly };
       } catch (err) {
