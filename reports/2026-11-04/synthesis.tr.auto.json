@@ -1,0 +1,164 @@
+{
+  "oneLine": "Bitcoin ve Ethereum Çarşamba günü, 4 Kasım'da, orta dönem seçimlerinin ardından kripto piyasaları tepki gösterirken yükselişe geçti; güçlü boğa pozisyonlandırması ve yüksek ETF girişlerine rağmen siyasi belirsizlik ve büyük borsalardaki güvenlik olayları piyasayı etkiledi.",
+  "caveman": "Çarşamba günü Bitcoin yüzde 3,9 oranında yükselerek yaklaşık 80.446 dolara, Ethereum ise yüzde 6,6 oranında sıçrayarak yaklaşık 2.419 dolara ulaştı. Borsadaki kripto paralarının neredeyse yüzde 60'ı o gün yükseldi. İnsanlar fiyatların yükselmeye devam edeceğine güçlü bahisler oynuyorlardı—her 1 satışa karşı 2'den fazla alış pozisyonu vardı. Fakat gerçek alım-satım işlemlerine bakınca, insanlar almaktan daha saldırgan şekilde satıyorlardı, yani fiyatlar yükselişe geçse bile içerde endişe vardı. ABD'de 3 Kasım'da ara seçimler yapıldı ve 4 Kasım'da sonuçlar açıklandı—Demokratlar Kongreyi kontrol altına aldı. ABD borsaları da o gün yükseldi. Ama Kore ve Asya'daki teknoloji şirketleri büyük darbe aldı—Samsung ve SK Hynix gibi çip üreticileri yaklaşık yüzde 10 düştü çünkü yatırımcılar yeni Demokrat hükümetinin yapay zeka alanında kural sıkılaştıracağı ve yatırımları azaltacağı konusunda endişe duydular. Bu arada iki kripto borsası (Mercado Bitcoin ve BitMart) birkaç gün önce yaşanan güvenlik olaylarını duyurdular. Karışık bir gün oldu: kripto zıpladı, kurumsal alıcılar geri geldi, ama Asya teknolojisi ve siyaset tüccarları endişelendirdi.",
+  "priceVolumeSummary": "Bitcoin 80.446,70 dolardan, Ethereum 2.419,01 dolardan kapandı; beş borsa da (Binance, Bybit, OKX, Bitget, Gate) birkaç dolar fark içinde uyumlu. Binance her iki kripto parası için hacim liderliğini korudu; Bitcoin günlük hacmi 19,7 milyar dolar, Ethereum'un 13,4 milyar dolar—herhangi bir rakip borsanın hacminin yaklaşık yüzde 50 üzeri.",
+  "positioningSummary": "Finansman oranları yıllık yüzde 10,95'te sabit kaldı, bu da güçlü boğa duyarlılığı ve kaldıraç almaya istekliliğini gösteriyor. Bitcoin açık pozisyonu Binance'de dolar cinsinden yüzde 1,29 arttı, ancak fiilen tutulan para miktarı yüzde 2,52 azaldı; bu, fiyatlar yükselirken tüccarların pozisyon büyüklüğünü küçülttüğünü gösteriyor. Ethereum açık pozisyonu yüzde 6,22 sıçradı, yine para miktarında hafif bir düşüş gözlendi. Bitcoin'in tüm hesaplar arasında long-short oranı 2,31:1, en büyük pozisyon sahiplerinde 1,74:1 idi. Ethereum tüm hesaplarda 2,29:1 long gösterdi, en büyük pozisyon sahiplerinde 1,56:1. Bitcoin'in alıcı-satıcı oranı 0,99, Ethereum'un 0,97; her ikisi de fiyatlar yükselişe geçse bile hafif satış baskısını gösteriyor. Pazar genişliği Binance perpetual'larının yüzde 59,6'sının o gün yükselişte olduğunu gösterdi—sağlıklı bir boğa durumu.",
+  "stocksSummary": "Asya hisse senedi piyasaları normal Çarşamba oturumlarında işlem gördü. Güney Kore teknoloji sektörü en çok dayak yedi; SK Hynix (ETHUSDT perps via Binance) yüzde 9,97 düştü ve Samsung yüzde 7,92 geriye gitti. Bu düşüşler 3 Kasım ABD ara seçimlerinin ardından (4 Kasım sonuçlar açıklandı) meydana geldi; Demokrat zaferinden sonra Demokrat Kongresin yapay zeka veri merkezi düzenlemelerini katılaştıracağı ve sermaye harcama onaylarını azaltacağı endişesi ortaya çıktı—Güney Koreli çip üreticilerinin satış beklentilerine doğrudan baskı yaptı. Hong Kong daha da kötü durumda: CSOP SK Hynix 2x yüzde 19,58 düştü, CSOP Samsung 2x yüzde 15,26 geriye gitti. Buna karşılık Xiaomi yüzde 8,75 kazandı ve Tencent yüzde 6,85–6,96 yükseldi; bu, bölgesel satışlara rağmen Çin tüketici teknolojisinin dirençli olduğunu gösteriyor. Çin'in küçük oynatıcıları (Unitree Robotics +3,22, CXMT −2,66) karışık sinyal verdi. Güney Kore KOSPI endeksi perpetual'ı yüzde 5,16 düştü. Geleneksel ABD hisse senetleri geri zıpladı: S&P 500 yüzde 1,65 yükselişte, Nasdaq yüzde 1,50, altın yüzde 1,63, dolar yüzde 0,38 düştü—seçim sonrası hisse senedi gücü ve düşen risk tahmini ile tutarlı. Petrol keskin düştü: WTI ham petrol yüzde −7,72, Brent yüzde −6,71; değerli metaller ise (platin +3,98, paladyum +3,44) kazançlarını korudu.",
+  "movers": [
+    {
+      "symbol": "ELSAUSDT",
+      "explanation": "Binance'de tek bir günde yüzde 60 sıçradı, 97,6 milyon dolar hacim ile işlem gördü. Halka açık açıklanmış bir neden bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CAPUSDT",
+      "explanation": "Yüzde 31,4 oranında sıçradı, 81,8 milyon dolar hacim ile işlem gördü. Halka açık açıklanmış bir neden bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "0,00215 dolara yüzde 38,2 düştü, 171,8 milyon dolar hacim ile işlem gördü—mutlak değerde en büyük hareket yapan. Halka açık açıklanmış bir neden bulunmamaktadır.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin orta dönem seçim sonuçlarının ardından 80.000 doların üzerine çıktı; kripto piyasaları toparlanıyor",
+        "what": "Bitcoin 3 Kasım ABD ara seçimlerinin ardından, Demokratların her iki Kongre odasını kontrol altına aldığı seçimler sonrasında 80.446 dolara yükseldi. Ethereum yüzde 6,6 oranında sıçrayarak 2.419 dolara ulaştı. Kurumsal alıcılar geri döndü: Bitcoin spot ETF'leri 74,6 milyon dolar net giriş kaydetti (Fidelity'nin FBTC başında 236,7 milyon dolar), Ethereum ETF'leri ise 53 milyon dolar net giriş gösterdi ve beş günlük çıkış trendini kırdı. Bu toparlanma, tokenizasyon ve blokzincir altyapısının düzenlemeler ne olursa olsun devam edebileceğine dair yatırımcı değerlendirmesindeki değişimi yansıtıyor.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-04 20:43 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030"
+      },
+      {
+        "headline": "Mercado Bitcoin 49 milyon dolarlık güvenlik olayının ardından aşamalı yeniden açılışını duyurdu",
+        "what": "Güney Amerika'nın önemli borsalarından Mercado Bitcoin, 2 Kasım tarihinde 10 blokzincir ağında yaklaşık 49 milyon dolar çalınan bir güvenlik olayının ardından 9 Kasım'dan itibaren aşamalı yeniden açılışını duyurdu. Saldırganlar geçerli imza anahtarlarını kullanarak hesapları boşalttı. Platform, kullanıcı hesap bakiyelerinin etkilenmediğini doğruladı ve tüm kayıpları şirket fonlarıyla karşılayacağına söz verdi. 9 Kasım'daki yeniden açılış yalnızca görüntüleme erişimi ile başlayacak; tam ticaret faaliyetinin devamı güvenlik denetimlerinin tamamlanmasını bekliyor.",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-04 23:33 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses"
+      },
+      {
+        "headline": "Kripto sektörü Demokratlar Kongre'yi ele geçirirken Washington stratejisini yeniden değerlendiriyor",
+        "what": "Ara seçimlerde Demokratların her iki Kongre odasını kazanmasının ardından, kripto sektörü iki yıllık inovasyon yanlısı, kripto dostlu iklimden keskin bir siyasi dönüş yaşadı. Analistler, sabitlenmemiş paralar ve tokenizasyon çabalarının mevcut SEC/CFTC düzenlemeleri altında bu kaymaya dirençli olabileceğine, fakat daha geniş kripto spesifik mevzuat (pazar yapısı tasarıları, düzenleyici açıklık) gibi konuların artık daha katı inceleme ve bir Demokrat Kongresin altında daha uzun bir zaman çizelgesine karşı karşıya kalacağına dikkat çekti.",
+        "coins": "Broad ecosystem",
+        "timeUTC": "2026-11-04 23:01 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Kripto karşıtlarına rağmen 241 sandalye kazanan kripto yanlısı adaylar",
+          "what": "Kripto Konseyi İnovasyon verileri, her iki partinin kripto yanlısı adaylarının Kongrede 241 sandalye kazandığını gösteriyor. Ancak, Demokratların her iki odayı da kontrol altına alması, politika merkezini pro-inovasyonlu kaldıraç çıkarma yerine daha katı tüketici koruması ve düzenleyici hesap vermeye doğru kaydırıyor.",
+          "coins": "Broad ecosystem",
+          "timeUTC": "2026-11-04 21:27 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/pro-crypto-candidates-sweep-241-seats-as-congress-shifts-power/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "BitMart 391.000 dolar güvenlik olayını bildirir; kurucu 'yetersiz personelli' güvenlik ekibini kabul edi",
+          "what": "BitMart 2-4 Kasım'da Layer 2 ağlarında (Base, Arbitrum, Optimism) 391.000 dolar çalınan bir güvenlik olayını doğruladı. Kurucu Sheldon Xia, devam eden kurumsal yeniden yapılanma sırasında güvenlik ekibinin yetersiz personelli olduğunu kabul etti. Araştırmalar, aynı hacker grubunun BitMart ve Mercado Bitcoin olaylarının ikisinin de arkasında olabileceğini gösteriyor.",
+          "coins": "General exchange security",
+          "timeUTC": "2026-11-04 22:38 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitmart-hack-security-staffing-crypto-exchange-restructuring"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin geliştiricileri BIP-54'ün sonraki soft fork olma olasılığını yüzde 80 olarak tahmin ediyor",
+          "what": "Geliştirici Matt Corallo, BIP-54 ('Büyük Fikir Birliği Temizliği'nin Bitcoin'in sonraki soft fork olma şansının yüzde 80 olduğunu tahmin ediyor. Teklifin dört fikir birliği zayıflığını hedeflediği: zaman çarpıtma saldırıları, zehir blokları, 64 baytlık işlem riskleri ve dublanan madencilik işlemlerinden kaynaklanan tekrar saldırıları. Test vektörleri 2025'in sonu itibariyle birleştirildi; signet testleri Şubat 2026'da başladı. Havuz operatörleri MARA ve ViaBTC zaten BIP-54 uyumlu bloklar üretiyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-04 22:52 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382568/why-bitcoin-next-soft-fork-could-feel-like-practice-run"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-04",
+    "summary": "Bitcoin spot ETF'leri 74,6 milyon dolar net giriş kaydetti; Fidelity'nin FBTC başında 236,7 milyon dolar ile BlackRock'ın IBIT çıkışını (−201,2 milyon dolar) telafi etti. Ethereum spot ETF'leri 53 milyon dolar net giriş gösterdi, beş günlük çıkış trendini kırdı. Kurumsal yeniden dengeleme ve seçim kaynaklı duyarlılık değişimleri bu girişleri yönlendirdi.",
+    "source": "Farside Investors / KuCoin",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-see-net-inflows-of-74-6m-and-53m-on-nov-4"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Thursday 05 Nov, 13:30 UTC)",
+      "typicalReaction": "Yüksek etkili yayın—haftalık işsiz başvuruları Federal Rezerv beklentilerini etkiler ve hisse senetleri ve kripto da dahil olmak üzere risk varlıklarında keskin hareketler tetikleyebilir. Bu, takvimde yüksek etkili olarak işaretlenmiştir."
+    },
+    {
+      "event": "Bank of England MPC Rate Decision (Thursday 05 Nov, 12:00 UTC)",
+      "typicalReaction": "Orta düzey etkili karar; İngiltere'nin parasal politika kararı küresel risk talebinde ve döviz piyasalarında dalgalanmaya neden olabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual futures sözleşmelerinde long ve short tüccarlar arasında ödenen bir ücret; sözleşme fiyatını spot fiyata yakın tutmak için. Finansman pozitif olduğunda (sıfırın üzerinde), long pozisyon sahipleri short pozisyon sahiplerine ödeme yapar, bu da boğa duygusunu gösterir. Burada yıllık yüzde olarak gösterilir."
+    },
+    {
+      "term": "Long pozisyon",
+      "definition": "Fiyatın yükselişe geçeceğine yapılan bahis. Fiyat yükselirse, tüccar kâr eder."
+    },
+    {
+      "term": "Short pozisyon",
+      "definition": "Fiyatın düşeceğine yapılan bahis. Fiyat düşerse, tüccar kâr eder."
+    },
+    {
+      "term": "Long-short oranı",
+      "definition": "Long pozisyonu tutan tüccarların sayısının short pozisyonu tutan tüccarların sayısına bölünmesi. 1'in üzerindeki oran daha fazla tüccarın yükselişe bahse oynandığını gösterir. 2,3:1 oranı her 1 short'a karşı 2,3 long olduğu anlamına gelir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Perpetual futures sözleşmelerinde kâr ve zararların hesaplanması için borsa tarafından kabul edilen fiyat. Genellikle gerçek dünya spot fiyatına yakın kalır."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Herhangi bir anda bir borsada açık olan toplam vadeli işlem sözleşme sayısı; tüccarların pozisyonlara kilitlenmiş toplam değerini temsil eder."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Açık pozisyon gün içinde ne kadar arttığı veya azaldığı. Artış yeni para girişini, düşüş tüccarların pozisyonları kapattığını öne sürüyor."
+    },
+    {
+      "term": "Alıcı-satıcı oranı",
+      "definition": "Piyasa katılımcılarının saldırganlığını ölçer. 1,0 oranı mükemmel dengedir. 1,0'ın altında (örneğin 0,99), satıcıların alıcılardan daha saldırgan şekilde davrandığını gösterir."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Yükselen varlıkların düşenlere karşı yüzdesi. Yüzde 59,6'ı up genişliği, borsadaki kripto paralarının yaklaşık 6'sından 10'unda o gün yükselişe geçtiği anlamına gelir."
+    },
+    {
+      "term": "Spread",
+      "definition": "Perpetual futures fiyatı ile temel alınan spot fiyat arasındaki fark. Perpetual futures'ın spot fiyata kıyasla aşırı fiyatlandırılmış mı yoksa düşük fiyatlandırılmış mı olduğunu ölçmek için kullanılır."
+    },
+    {
+      "term": "Spot fiyat",
+      "definition": "Bir kripto parası (Bitcoin, Ethereum vb.) için güncel gerçek dünya fiyatı; anında teslim için. Perpetual futures sözleşmeleri spot fiyata dayalı türev ürünlerdir."
+    },
+    {
+      "term": "Sonsuz vadeli futures",
+      "definition": "Hiçbir zaman sona ermeyecek futures sözleşmeleri (sona erme tarihine sahip geleneksel futures'ın aksine). Tüccarlar devam eden finansman ücretlerini ödedikleri sürece bunları sonsuza kadar tutabilirler."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Tüccarların kripto paralarını veya türev ürünlerini satın aldığı, sattığı ve ticaret yaptığı bir borsa veya platform."
+    },
+    {
+      "term": "ETF",
+      "definition": "Borsada işlem gören fon—Bitcoin, Ethereum veya diğer varlıkları elinde tutan ve borsa endekslerinde işlem gören bir yatırım ürünü. Net giriş daha fazla paranın giriş yaptığını, net çıkış daha fazla paranın çıktığını gösterir."
+    },
+    {
+      "term": "Soft fork",
+      "definition": "Blokzincir kurallarında geriye dönük olarak uyumlu bir güncelleme. Upgrade yapmayan eski düğümler ağa katılmaya devam edebilir; hard fork'un aksine."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "4a24590ab730f4c2"
+}

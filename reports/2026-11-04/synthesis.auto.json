@@ -1,0 +1,163 @@
+{
+  "oneLine": "Bitcoin and Ethereum surged on Wednesday, November 4, as crypto markets rebounded following midterm elections, with strong bullish positioning and high ETF inflows despite political uncertainty and security incidents at major exchanges.",
+  "caveman": "On Wednesday, Bitcoin went up 3.9% to about $80,446, and Ethereum jumped 6.6% to about $2,419. Nearly 60% of all crypto coins on the exchange went up that day. People were betting heavily that prices would keep going up—more than 2 longs for every 1 short. But when you look at who was actually buying and selling, people were selling slightly more aggressively than buying, which means they were nervous even though prices were rising. The US had midterm elections on November 3 and announced results on November 4—Democrats won control of Congress. US stock markets also went up that day. But in Korea and other parts of Asia, tech company stocks got hit hard—chips makers like Samsung and SK Hynix dropped almost 10% because investors feared the new Democratic government would make rules that slow down AI and reduce investment. Meanwhile, two crypto exchanges (Mercado Bitcoin and BitMart) reported security breaches that happened a few days earlier. It was a mixed day: crypto bounced back and institutional buyers came in, but Asian tech and political uncertainty made traders nervous.",
+  "priceVolumeSummary": "Bitcoin closed at $80,446.70 and Ethereum at $2,419.01, with all five venues (Binance, Bybit, OKX, Bitget, Gate) aligned within a few dollars. Binance led volume across both assets, with $19.7 billion in Bitcoin and $13.4 billion in Ethereum daily volume—about 50% higher than any single competitor.",
+  "positioningSummary": "Funding rates held steady at 10.95% annualized, indicating strong bullish sentiment and willingness to pay for leverage. Bitcoin open interest rose 1.29% in dollar value on Binance, though the number of coins actually decreased 2.52%, suggesting traders were reducing position size while prices climbed. Ethereum open interest jumped 6.22%, also with a slight reduction in coin count. Bitcoin's long-to-short ratio stood at 2.31:1 among all accounts, with top traders (largest positions) at 1.74:1. Ethereum showed 2.29:1 all-account longs, top traders at 1.56:1. Taker buy-to-sell ratios of 0.99 for Bitcoin and 0.97 for Ethereum both signal slightly more aggressive selling pressure despite rising prices. Market breadth showed 59.6% of Binance perpetuals up on the day—a healthy bull lead.",
+  "stocksSummary": "Asian equity markets traded during their regular Wednesday sessions. South Korea's tech sector bore the brunt, with SK Hynix (ETHUSDT perps via Binance) sliding 9.97% and Samsung down 7.92%. These declines followed the November 3 US midterm elections (announced November 4), where Democratic victories triggered fears that a Democratic Congress would tighten AI data center regulations and reduce capital expenditure approvals—directly pressuring Korean chipmakers' sales forecasts. Hong Kong fared worse: CSOP SK Hynix 2x fell 19.58%, CSOP Samsung 2x dropped 15.26%. Conversely, Xiaomi gained 8.75% and Tencent rose 6.85–6.96%, suggesting resilience in Chinese consumer tech despite regional sell-offs. China's modest movers (Unitree Robotics +3.22%, CXMT −2.66%) showed mixed sentiment. The Korean KOSPI index perp declined 5.16%. Traditional US equities rebounded: S&P 500 up 1.65%, Nasdaq up 1.50%, gold up 1.63%, and the dollar down 0.38%, consistent with post-election equity strength and falling risk premiums. Oil fell sharply: WTI crude −7.72%, Brent −6.71%, while precious metals (platinum +3.98%, palladium +3.44%) held gains.",
+  "movers": [
+    {
+      "symbol": "ELSAUSDT",
+      "explanation": "Jumped 60% in a single day on Binance with $97.6 million volume. No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "CAPUSDT",
+      "explanation": "Surged 31.4% with $81.8 million volume. No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "Plummeted 38.2% to $0.00215 on $171.8 million volume—the largest absolute mover by magnitude. No clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin rebounds above $80,000 as crypto markets digest midterm election results",
+        "what": "Bitcoin climbed to $80,446 following the November 3 US midterm elections, where Democrats won control of both chambers of Congress. Ethereum surged 6.6% to $2,419. Institutional buyers returned: Bitcoin spot ETFs saw $74.6 million net inflow (led by Fidelity's FBTC at $236.7 million), while Ethereum ETFs posted $53 million net inflow, ending a five-day outflow streak. The rebound reflects investor reassessment that tokenization and blockchain infrastructure may persist regardless of regulatory shifts.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-04 20:43 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030"
+      },
+      {
+        "headline": "Mercado Bitcoin announces phased reopening after $49 million security breach",
+        "what": "Mercado Bitcoin, a major Latin American exchange, announced phased reopening starting November 9 following a November 2 security breach that resulted in approximately $49 million stolen across 10 blockchains. Attackers used valid signing keys to drain funds. The platform confirmed user account balances were unaffected and pledged to cover all losses with company funds. November 9 reopening begins with view-only access; full trading resumption awaits completion of security audits.",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-04 23:33 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses"
+      },
+      {
+        "headline": "Crypto industry reassesses Washington strategy as Democrats gain Congressional control",
+        "what": "Following the Democratic sweep of both chambers in the midterm elections, the crypto industry faced a sharp political reversal from two years of a pro-innovation, pro-crypto climate. Analysts noted that stablecoins and tokenization efforts may weather the shift under existing SEC/CFTC regulations, but broader crypto-specific legislation (market structure bills, regulatory clarity) now faces tougher scrutiny and a longer timeline in a Democratic Congress.",
+        "coins": "Broad ecosystem",
+        "timeUTC": "2026-11-04 23:01 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Pro-crypto candidates win 241 seats despite Democratic Congressional sweep",
+          "what": "Crypto Council for Innovation data shows that pro-crypto candidates from both parties won 241 seats in Congress. However, the Democratic takeover of both chambers shifts the policy center toward stricter consumer protections and regulatory accountability rather than pro-innovation deregulation.",
+          "coins": "Broad ecosystem",
+          "timeUTC": "2026-11-04 21:27 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/pro-crypto-candidates-sweep-241-seats-as-congress-shifts-power/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "BitMart reports $391,000 breach; founder confirms 'severely understaffed' security team",
+          "what": "BitMart confirmed a November 2-4 security incident resulting in $391,000 stolen from Layer 2 networks (Base, Arbitrum, Optimism). Founder Sheldon Xia acknowledged the security team is understaffed during ongoing corporate restructuring. Investigations suggest the same hacking group may be behind both the BitMart and Mercado Bitcoin breaches.",
+          "coins": "General exchange security",
+          "timeUTC": "2026-11-04 22:38 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitmart-hack-security-staffing-crypto-exchange-restructuring"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin developers estimate 80% probability BIP-54 will be next soft fork",
+          "what": "Developer Matt Corallo estimates an 80% chance that BIP-54 ('Great Consensus Cleanup') becomes Bitcoin's next soft fork. The proposal targets four consensus vulnerabilities: time warp attacks, poison blocks, 64-byte transaction risks, and replay hazards from duplicate coinbase transactions. Test vectors were merged late 2025; signet testing began February 2026. Pool operators MARA and ViaBTC are already producing BIP-54-compatible blocks.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-04 22:52 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382568/why-bitcoin-next-soft-fork-could-feel-like-practice-run"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-04",
+    "summary": "Bitcoin spot ETFs recorded $74.6 million net inflow, led by Fidelity's FBTC (+$236.7M), offsetting BlackRock's IBIT outflow (-$201.2M). Ethereum spot ETFs saw $53 million net inflow, ending a five-day outflow streak. Institutional rebalancing and election-driven sentiment shifts drove the reinflows.",
+    "source": "Farside Investors / KuCoin",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-see-net-inflows-of-74-6m-and-53m-on-nov-4"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims (Thursday 05 Nov, 13:30 UTC)",
+      "typicalReaction": "High-impact release—weekly jobless claims influence Federal Reserve expectations and can trigger sharp moves in equities and risk assets including crypto. This is marked as high-impact in the calendar."
+    },
+    {
+      "event": "Bank of England MPC Rate Decision (Thursday 05 Nov, 12:00 UTC)",
+      "typicalReaction": "Medium-impact decision on UK monetary policy that can ripple through global risk appetite and currency markets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "A fee paid between long and short traders on futures contracts to keep the contract price close to the spot price. When funding is positive (above zero), longs pay shorts, indicating bullish sentiment. Expressed as an annual percentage here."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that price will go up. If price rises, the trader profits."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that price will go down. If price falls, the trader profits."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The number of traders holding long positions divided by the number holding short positions. A ratio above 1 means more traders are betting up. A ratio of 2.3:1 means 2.3 longs for every 1 short."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The agreed price used by the exchange to calculate profits and losses on futures contracts. It typically stays close to the real-world spot price."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of unsettled futures contracts open at an exchange at any moment, representing the total value traders have locked into positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "How much open interest grew or shrank during the day. A rise suggests new money entering, a drop suggests traders closing positions."
+    },
+    {
+      "term": "Taker buy-to-sell ratio",
+      "definition": "Measures the aggressiveness of market participants. A ratio of 1.0 is perfectly balanced. Below 1.0 (like 0.99) means slightly more traders are selling aggressively than buying."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of assets going up versus down. A breadth of 59.6% up means nearly 6 in 10 crypto coins on the exchange rose during the day."
+    },
+    {
+      "term": "Basis",
+      "definition": "The difference between the futures price and the underlying spot price. Used to measure whether futures are overpriced or underpriced relative to real-world rates."
+    },
+    {
+      "term": "Spot price",
+      "definition": "The current real-world price of an asset (Bitcoin, Ethereum, etc.) for immediate delivery. Futures contracts are derivatives based on the spot price."
+    },
+    {
+      "term": "Perpetual futures",
+      "definition": "Futures contracts that never expire (unlike traditional futures with expiration dates). Traders can hold them indefinitely as long as they pay ongoing funding fees."
+    },
+    {
+      "term": "Venue",
+      "definition": "An exchange or platform where traders buy, sell, and trade cryptocurrencies or derivatives."
+    },
+    {
+      "term": "ETF",
+      "definition": "Exchange-traded fund—an investment product that holds Bitcoin, Ethereum, or other assets and trades on stock exchanges. Net inflow means more money came in than went out; net outflow means more money left than entered."
+    },
+    {
+      "term": "Soft fork",
+      "definition": "An upgrade to a blockchain's rules that is backward-compatible. Old nodes that don't upgrade can still participate in the network, unlike a hard fork."
+    }
+  ],
+  "_source": "cli"
+}

@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-05T09:00:24.901Z",
+  "generatedAt": "2026-11-05T10:06:38.450Z",
   "count": 141,
   "counts": {
     "total": 141,
     "market": 54,
     "divergence": 87,
-    "degraded": 3
+    "degraded": 2
   },
   "latest": "2026-11-04",
   "head": 500,
@@ -22,9 +22,9 @@
         "BTC": 3.9261775303826734,
         "ETH": 6.582338608235194
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin and Ethereum surged on Wednesday, November 4, as crypto markets rebounded following midterm elections, with strong bullish positioning and high ETF inflows despite political uncertainty and security incidents at major exchanges.",
+      "oneLine": "Bitcoin and Ethereum surged on Wednesday, November 4, as crypto markets rebounded following midterm elections, with strong bullish positioning and high ETF inflows despite political uncertainty and security incidents at major exchanges.",
+      "newsCount": 6,
       "topMover": {
         "symbol": "ELSAUSDT",
         "chgPct": 60.05205940897257
@@ -37,14 +37,12 @@
         "Gate"
       ],
       "languages": [
-        "en"
+        "en",
+        "tr",
+        "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)",
-        "tr report unavailable",
-        "zh report unavailable"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-11-04/summary_2026-11-04.html",
