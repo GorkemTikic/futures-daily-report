@@ -3,8 +3,8 @@
   "kind": "market",
   "dateLong": "Thursday, 5 November 2026",
   "coversUTC": "2026-11-05 00:00–23:59 UTC",
-  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-  "newsCount": 0,
+  "oneLine": "Bitcoin fell 5.5% and Ethereum fell 7.7% as a Wall Street selloff—dragging stocks down 4-5.5%—triggered $1 billion in crypto liquidations; only 9% of Binance perpetual contracts were up on the day.",
+  "newsCount": 16,
   "macro": {
     "BTC": -5.500254756490077,
     "ETH": -7.703481174586941
@@ -20,14 +20,12 @@
     "Bitget",
     "Gate"
   ],
-  "generatedAtUTC": "06 Nov 00:00 UTC",
+  "generatedAtUTC": "06 Nov 00:47 UTC",
   "languages": [
     "en",
     "tr",
     "zh"
   ],
-  "status": "degraded",
-  "degradedReasons": [
-    "narrative fell back to data-only (CLI-only backend)"
-  ]
+  "status": "ok",
+  "degradedReasons": []
 }

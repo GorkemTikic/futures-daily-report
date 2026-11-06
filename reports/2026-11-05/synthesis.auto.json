@@ -1,0 +1,229 @@
+{
+  "oneLine": "Bitcoin fell 5.5% and Ethereum fell 7.7% as a Wall Street selloff—dragging stocks down 4-5.5%—triggered $1 billion in crypto liquidations; only 9% of Binance perpetual contracts were up on the day.",
+  "caveman": "Yesterday, people who trade normal stocks got very worried and sold a lot, which made all stock prices go down. The stock market had its worst day in a long time because people were worried about how much money companies are spending on artificial intelligence (AI). When stocks go down, people also sell Bitcoin and Ethereum, so those prices fell too. Bitcoin dropped 5.5% and Ethereum dropped 7.7%. This made some traders who borrowed money to buy crypto have to sell their positions fast to avoid bigger losses. Meanwhile, in Asia, Samsung and SK Hynix stocks fell 11-16% because of the same tech worries. It was a very worrying day for investors.",
+  "priceVolumeSummary": "Bitcoin closed around $76,050 across Binance and other major venues with 5.5% decline; Ethereum closed around $2,237 with 7.7% decline. Binance led BTC volume at $20.8 billion (quote), while on ETH, Binance also led at $13.7 billion.",
+  "positioningSummary": "Funding rates on BTC and ETH stayed high at 10.95% annualized on several venues—meaning long-position traders were paying shorts to hold those shorts, indicating overleverage before the crash. Open interest fell sharply: Binance BTC down 7.4%, Binance ETH down 9.4%, as liquidations forced traders to close positions. Long/short account ratios stayed elevated (BTC 1.39, ETH 1.83 on Binance), but the largest traders held even bigger long exposure (BTC top ratio 1.92, ETH top ratio 1.43), meaning they also got hurt. Taker buy/sell ratios stayed above 1 (BTC 1.06, ETH 1.06), suggesting some dip-buying despite the crash. Market breadth was severely bearish at just 9% of Binance perpetuals up and 91% down.",
+  "stocksSummary": "Asian equity markets collapsed in sympathy with the Wall Street selloff. Korea's KRX session saw SK Hynix fall 13.3%, Samsung Electronics drop 11.7%, and the broader KODEX 200 ETF fall 11%, driven by tech and semiconductor losses. Hong Kong saw steeper moves: the CSOP SK Hynix 2x leveraged fund crashed 23.2%, while Zhongji Innolight fell 14.1%. China's session was muted with Unitree Robotics down 0.1% and CXMT down 5.4%. The selloff reflected the same AI-spending concerns hitting US tech stocks: Nasdaq was down 5.5% and S&P 500 down 4.4%, dragging global equities lower.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Collapsed 44.7% with no clear public news event. Generic market selloff pressure or a delisting rumor not yet confirmed.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "explanation": "Rallied 23.8% mid-crash. No confirmed news; possible accumulation by insiders or a smaller-cap rebound after oversold conditions.",
+      "hasCause": false
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "explanation": "Fell 21.7% with no clear public cause. Likely caught in the broad liquidation wave affecting smaller altcoins.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin crashes below $76,000 as Wall Street selloff triggers $1 billion in liquidations",
+        "what": "A sharp reversal on Wall Street—driven by concerns over excessive AI spending after the Democratic midterm sweep—spilled into crypto markets. The S&P 500 fell 4.4%, the Nasdaq fell 5.5% (its worst day in 18 months), and crypto followed. Bitcoin dropped to $75,880, Ethereum to $2,234. Leveraged traders holding long positions faced $1+ billion in forced closures.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-05",
+        "source": "The Block, CoinDesk, The Motley Fool",
+        "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434"
+      },
+      {
+        "headline": "TraderTraitor hacking group confirms role in $6.3 billion Binance heist",
+        "what": "Investigators and exchanges confirmed that TraderTraitor—a sophisticated hacking group—orchestrated Binance's record-breaking $6.3 billion breach using fake job interviews to compromise employee credentials. This follows ongoing forensic work tracking stolen assets and raises broader security concerns across exchanges.",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-05",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist"
+      },
+      {
+        "headline": "Binance and Deribit revoke SignalPlus API keys after fake Teams invite breach",
+        "what": "The trading platform SignalPlus confirmed a breach where attackers compromised an engineer's computer via a fraudulent Microsoft Teams invite. Losses were under $82,000, which SignalPlus pledged to cover. Binance and Deribit preemptively revoked API access to prevent contagion.",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-05",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-keys-after-fake-teams-invite-attack"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Crypto ally French Hill loses House Financial Services Committee chair as Democrats take control",
+          "what": "Republican French Hill won reelection to Congress but will cede his leadership of the House Financial Services Committee when Democrats take control in January 2027. This shifts crypto policy leverage away from friendly hands.",
+          "coins": "Policy",
+          "timeUTC": "2026-11-05",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/crypto-ally-french-hill-wins-reelection-arkansas"
+        },
+        {
+          "headline": "South Korea proposes yet another delay on 22% crypto capital gains tax",
+          "what": "South Korea requested a further postponement of its crypto tax, now aimed at January 1, 2027, citing preparation needs. No replacement date has been settled. This marks the fourth delay on the controversial 22% gains tax.",
+          "coins": "Tax policy",
+          "timeUTC": "2026-11-05",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/south-korea-wants-to-delay-its-22-crypto-tax-again-and-give-investors-a-new-break-on-losses/"
+        },
+        {
+          "headline": "CFTC and Federal Reserve continue oversight following Binance security incident",
+          "what": "U.S. regulators contacted banks in the wake of the $6.3 billion Binance hack to assess security risks and exposure to cryptocurrency platforms. The Fed and OCC are monitoring transaction integrity.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "US spot Bitcoin and Ethereum ETFs record net inflows amid broader market crash",
+          "what": "Despite the severe selloff, Bitcoin ETFs saw a net inflow of 208 BTC and Ethereum ETFs saw a net inflow of 16,825 ETH on November 5. However, over the prior seven days both had suffered major outflows (Bitcoin ETFs down 14,117 BTC; Ethereum ETFs down 177,044 ETH).",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-11-05",
+          "source": "KuCoin",
+          "url": "https://www.kucoin.com/news/flash/us-bitcoin-etf-sees-net-inflow-of-208-btc-ethereum-etf-gains-16-825-eth"
+        },
+        {
+          "headline": "Payward (Kraken parent) and clients buy AAVE token stake on secondary market",
+          "what": "Payward disclosed undisclosed-size purchases of AAVE tokens on the open market alongside aligned clients, with a hint of potential future acquisitions. This is part of a broader institutional push into DeFi governance tokens.",
+          "coins": "AAVE",
+          "timeUTC": "2026-11-05",
+          "source": "The Block / CoinDesk",
+          "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798"
+        },
+        {
+          "headline": "Canary Capital launches Staked INJ ETF on Nasdaq with embedded staking rewards",
+          "what": "The new Staked INJ ETF (ticker INJC) debuted on Nasdaq, giving traditional investors exposure to Injective (INJ) tokens plus the ability to earn staking rewards directly reflected in the fund's net asset value.",
+          "coins": "INJ",
+          "timeUTC": "2026-11-05",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Base deploys Denim upgrade on mainnet with 200ms block times",
+          "what": "Coinbase's Base L2 activated its fourth network upgrade, Denim, replacing the prior Flashblocks system with five canonical blocks per second at consistent 200ms intervals. This improves transaction finality and reduces latency.",
+          "coins": "BASE ecosystem",
+          "timeUTC": "2026-11-05",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433"
+        },
+        {
+          "headline": "Gate Exchange CEO asserts exchange can survive a Binance-scale hack if cold storage holds",
+          "what": "Gate CEO Lin Han stated that proper cryptocurrency exchanges must prove they hold enough cold-stored assets to cover all customer balances even if hot wallets are fully drained. Gate is undergoing independent audit of its reserves in response to the Binance breach.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/05/gate-ceo-says-crypto-exchanges-must-prove-they-can-survive-a-hack-like-binance-s"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "India issues AI-assisted wallet-key theft warning after CERT-In detects CRAFTY FALCON campaign",
+          "what": "India's CERT-In advisory (CRAFTY FALCON) warns of AI-assisted hackers stealing cryptocurrency wallet private keys after detecting re-targeting and incomplete prior remediation. The campaign has expanded its scope and methods.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/india-warns-ai-assisted-hackers-are-stealing-crypto-wallet-keys/"
+        },
+        {
+          "headline": "Mercado Bitcoin claimed breach was contained, but blockchain data shows $48.6M drained across 11 chains",
+          "what": "The Brazilian exchange said its Monday hack was stopped, yet fresh forensic analysis by Decrypt traced $48.6 million across 11 different blockchains with thousands of customer deposit addresses drained hours after the exchange's official \"containment\" claim.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Wall Street enters 'correction' territory as Nasdaq suffers worst day in 18 months",
+          "what": "The S&P 500 dropped 4.36%, the Dow fell 1,800+ points, and the Nasdaq Composite plunged 5.52% to close at 24,315—entering a technical correction (>10% from peak). The Nasdaq 100 alone shed $2.3 trillion in a single day, the worst on record for that index. All 11 S&P sectors fell.",
+          "coins": "Market correlations",
+          "timeUTC": "2026-11-05",
+          "source": "Yahoo Finance, The Motley Fool",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[Context] Bitcoin traders face Friday's $2.7 billion options expiry with five-hour blind spot before Non-Farm Payrolls",
+          "what": "Deribit's Friday Bitcoin options expiry is scheduled 05:30 UTC, but US employment data lands at 13:30 UTC—leaving a dangerous five-hour gap where neither the expiry nor the payrolls data is known. This creates unusual hedging complexity for large-notional positions.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-05 (context for 2026-11-06)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-traders-face-fridays-2-7-billion-options-expiry-with-a-dangerous-five-hour-blind-spot/"
+        },
+        {
+          "headline": "[Context] Core Scientific to exit Bitcoin mining entirely by year-end as AI data-center business surges",
+          "what": "The former Bitcoin mining heavyweight said it will shut down all mining operations by December 2026 to pivot to pure-play data-center services for AI workloads. Mining now accounts for just 7.5% of quarterly revenue.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-05 (context: published after report day close)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-05",
+    "summary": "US spot Bitcoin ETFs recorded a net inflow of 208 BTC; Ethereum ETFs recorded a net inflow of 16,825 ETH. Both saw single-day inflows despite the severe market crash, though seven-day totals remained deeply negative (BTC ETFs down 14,117 BTC; ETH ETFs down 177,044 ETH).",
+    "source": "KuCoin (citing Farside/SoSoValue data)",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-etf-sees-net-inflow-of-208-btc-ethereum-etf-gains-16-825-eth"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Non-Farm Employment Change, Average Hourly Earnings, Unemployment Rate (Fri 06 Nov, 13:30 UTC)",
+      "typicalReaction": "This is the most important US jobs report of the month. It strongly moves crypto because job data shapes Federal Reserve decisions on interest rates. Expect high volatility in Bitcoin and all altcoins. If payrolls come in much hotter than expected (forecast 65K), risk-off selling may accelerate. If cooler, it could spark relief rallies."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all crypto perpetual contracts that were up on the day versus down. On 2026-11-05, only 9% were up and 91% were down, indicating extreme bearish pressure across the market."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate paid between long-position and short-position traders on a perpetual futures contract. A positive rate (like 10.95% annualized on this day) means longs are paying shorts; this happens when the market is very bullish and overlevered long. A high rate is often a sign of excessive confidence that can precede sharp corrections."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a trader's leveraged position when their account balance falls below the required margin. If a trader borrowed money to buy 10 Bitcoin and the price drops sharply, the exchange automatically sells their coins to recover the loan. Mass liquidations can amplify price declines."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that the price will go up. If you own Bitcoin expecting it to rise, you are 'long' Bitcoin."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of long-position accounts to short-position accounts on an exchange. A ratio of 1.4 means there are 1.4 times more longs than shorts. High ratios (above 2) suggest excessive bullishness and higher risk of a sharp correction."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The current fair-value price of a perpetual futures contract as calculated by the exchange, used to determine liquidations. It differs from the last trade price because it's a weighted average of recent trades and underlying spot prices to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar amount of all open long and short positions on a perpetual futures contract at an exchange. When open interest falls sharply, it means traders are closing positions. When it rises, it means new leverage is entering the market."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in the total dollar value of open positions over a time period (in this report, over the day). On 2026-11-05, Bitcoin open interest fell 7.4% on Binance, meaning billions of dollars in positions were closed or liquidated."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that the price will go down. If you have borrowed Bitcoin and sold it, hoping to buy it back cheaper later, you are 'short' Bitcoin."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buyer orders (takers) to aggressive seller orders on an exchange. A ratio above 1 means more buyers are hitting the ask price than sellers hitting the bid price, suggesting slightly bullish conviction. On 2026-11-05, the ratio stayed above 1 despite the crash, hinting at some dip-buying."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "The long/short ratio specifically among the largest traders (those holding the biggest positions) on an exchange, separate from the ratio of all accounts. If this is much higher than the overall ratio, it means whales are more bullish than the crowd, which can be a risk signal if the market turns."
+    }
+  ],
+  "_source": "cli"
+}

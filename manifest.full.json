@@ -1,12 +1,12 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-06T00:46:23.269Z",
+  "generatedAt": "2026-11-06T00:55:54.454Z",
   "count": 142,
   "counts": {
     "total": 142,
     "market": 55,
     "divergence": 87,
-    "degraded": 1
+    "degraded": 0
   },
   "latest": "2026-11-05",
   "reports": [
@@ -21,9 +21,9 @@
         "BTC": -5.500254756490077,
         "ETH": -7.703481174586941
       },
-      "marketSummary": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
-      "newsCount": 0,
+      "marketSummary": "Bitcoin fell 5.5% and Ethereum fell 7.7% as a Wall Street selloff—dragging stocks down 4-5.5%—triggered $1 billion in crypto liquidations; only 9% of Binance perpetual contracts were up on the day.",
+      "oneLine": "Bitcoin fell 5.5% and Ethereum fell 7.7% as a Wall Street selloff—dragging stocks down 4-5.5%—triggered $1 billion in crypto liquidations; only 9% of Binance perpetual contracts were up on the day.",
+      "newsCount": 16,
       "topMover": {
         "symbol": "JCTUSDT",
         "chgPct": -44.74843922144694
@@ -40,10 +40,8 @@
         "tr",
         "zh"
       ],
-      "status": "degraded",
-      "degradedReasons": [
-        "narrative fell back to data-only (CLI-only backend)"
-      ],
+      "status": "ok",
+      "degradedReasons": [],
       "flagged": [],
       "files": {
         "html": "reports/2026-11-05/summary_2026-11-05.html",

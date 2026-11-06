@@ -1,33 +1,230 @@
 {
-  "oneLine": "Pazar verileri 5 borsa üzerinden toplanmıştır; bu çalıştırma için haber sentezi kullanılamadı.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakın. (Bu çalıştırma için otomatik açıklama kullanılamadı — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakın.",
-  "stocksSummary": "",
+  "oneLine": "Bitcoin %5,5 ve Ethereum %7,7 oranında düştü; Wall Street'teki satışlar (hisse senetlerinde %4-5,5 düşüş) 1 milyar dolarlık kripto tasfiyesini tetikledi; Binance dünü dönem sonu açık pozisyonlarının sadece %9'u yükseliş trendi gösterdi.",
+  "caveman": "Dün, normal hisse senetleri ticareti yapan kişiler çok endişe edip pek çok hisse satmaya başladılar ve bu da tüm hisse fiyatlarını düşürdü. Borsa çok kötü bir gün yaşadı çünkü insanlar şirketlerin yapay zeka (AI) üzerine harcadığı paranın ne kadar olduğu konusunda endişeli. Hisse senedi fiyatları düştüğünde, insanlar Bitcoin ve Ethereum'u da satıyor, bu yüzden bu fiyatlar da düştü. Bitcoin %5,5 düştü ve Ethereum %7,7 düştü. Bu aynı zamanda kaldıraç kullanarak kripto satın almış olan bazı tüccarları aldığı parasını kaybetmekten korunmak için hızlı satış yapmaya zorladı. Aynı anda Asya'da Samsung ve SK Hynix hisse senetleri %11-16 oranında düştü çünkü aynı teknoloji endişeleri orada da yaşanıyor. Yatırımcılar için çok endişeli bir gün oldu.",
+  "priceVolumeSummary": "Bitcoin, Binance ve diğer büyük borsalarda %5,5 düşüşle yaklaşık 76.050 dolar seviyesinde kapandı; Ethereum %7,7 düşüşle yaklaşık 2.237 dolar seviyesinde kapandı. Binance BTC'de 20,8 milyar dolar ile işlem hacminde lider konumdaydı, ETH'de ise Binance 13,7 milyar dolar ile liderdi.",
+  "positioningSummary": "BTC ve ETH'deki finansman oranları birçok borsada yıllık %10,95 seviyesinde yüksek kaldı; bu da kısa pozisyonlar açık tutan tüccarların uzun pozisyon açık tutan tüccarları ödedikleri anlamına geliyor, bu da çöküş öncesinde aşırı kaldıraçlı olunduğunu gösteriyor. Açık pozisyonlar keskin şekilde düştü: Binance BTC %7,4 azaldı, Binance ETH %9,4 azaldı, çünkü tasfiyeler tüccarları pozisyonlarını kapatmaya zorladı. Uzun/kısa hesap oranları yüksek kaldı (BTC 1,39, ETH 1,83 Binance'de), ancak en büyük tüccarlar daha da büyük uzun pozisyon tuttular (BTC en yüksek oran 1,92, ETH en yüksek oran 1,43), bu da onları etkiledi. Alıcı/satıcı oranları 1 seviyesinin üstünde kaldı (BTC 1,06, ETH 1,06), bu da çöküşe rağmen bazı tüccarların düşen fiyatlardan satın aldığını gösteriyor. Pazar genişliği çok kötüydü, sadece Binance dünü dönem sonu açık pozisyonlarının %9'u yükseliş trendi gösterirken %91'i düşüş trendi gösterdi.",
+  "stocksSummary": "Asya hisse senedi piyasaları Wall Street satışlarına benzer şekilde çöktü. Kore'nin KRX seansında SK Hynix %13,3 düştü, Samsung Electronics %11,7 düştü ve geniş KODEX 200 ETF %11 düştü, bu da teknoloji ve yarı iletken kayıplarından kaynaklandı. Hong Kong'da daha keskin hareketler yaşandı: CSOP SK Hynix 2x kaldıraçlı fon %23,2 çöktü, Zhongji Innolight %14,1 düştü. Çin seansı sakin geçti, Unitree Robotics %0,1 düştü ve CXMT %5,4 düştü. Bu satışlar ABD teknoloji hisse senetlerini vuran aynı AI harcama endişelerini yansıttı: Nasdaq %5,5 düştü ve S&P 500 %4,4 düştü, bu da küresel hisse senetlerini aşağı çekti.",
   "movers": [
     {
       "symbol": "JCTUSDT",
-      "explanation": "Bu çalıştırma için açıklama yok.",
+      "explanation": "%44,7 çöktü, açık bir haberi yok. Genel pazar satış baskısı veya henüz doğrulanmamış bir kur dışı çıkarma söylentisi.",
       "hasCause": false
     },
     {
       "symbol": "ARIAUSDT",
-      "explanation": "Bu çalıştırma için açıklama yok.",
+      "explanation": "Çöküşün ortasında %23,8 yükseldi. Doğrulanmış bir haber yok; muhtemelen içeridekiler tarafından biriktirilme veya aşırı satılan koşullardan sonra küçük başlı bir toparlanma.",
       "hasCause": false
     },
     {
       "symbol": "HUMAUSDT",
-      "explanation": "Bu çalıştırma için açıklama yok.",
+      "explanation": "%21,7 düştü, açık bir nedeni yok. Büyük ölçekli tasfiye dalgasının daha küçük alternatif kripto paraları etkilemiş olması muhtemel.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "Bitcoin, Wall Street satışlarının 1 milyar dolarlık tasfiye tetiklemesiyle 76.000'in altına çöktü",
+        "what": "Wall Street'teki keskin bir geri dönüş—Demokratik ara seçimlerin ardından aşırı yapay zeka harcamalarına ilişkin endişelerden kaynaklandı—kripto pazarlarına sıçradı. S&P 500 %4,4 düştü, Nasdaq %5,5 düştü (18 ayın en kötü günü), kripto bunu takip etti. Bitcoin 75.880 dolara, Ethereum 2.234 dolara düştü. Uzun pozisyon tutan kaldıraçlı tüccarlar 1 milyardan fazla dolar tutarında zorunlu kapanışla karşı karşıya kaldı.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-05",
+        "source": "The Block, CoinDesk, The Motley Fool",
+        "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434"
+      },
+      {
+        "headline": "TraderTraitor hacking grubu 6,3 milyar dolarlık Binance hırsızlığındaki rolünü doğruladı",
+        "what": "Araştırmacılar ve borsalar, TraderTraitor adlı sofistike bir hacking grubunun sahte iş görüşmeleri kullanarak çalışan kimlik bilgilerini tehlikeye atarak Binance'nin rekor kıran 6,3 milyar dolarlık ihlaline işaret olduğunu doğruladı. Bu, çalınan varlıkları izleyen devam eden adli çalışmaları takip ediyor ve borsalar genelinde daha geniş güvenlik endişelerini ortaya çıkarıyor.",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-05",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist"
+      },
+      {
+        "headline": "Binance ve Deribit, sahte Teams daveti ihlalinden sonra SignalPlus API anahtarlarını geri çekti",
+        "what": "Ticaret platformu SignalPlus, bir mühendisinin bilgisayarının sahte bir Microsoft Teams daveti aracılığıyla tehlikeye atılması sonucunda meydana gelen bir ihlalin doğrulandığını açıkladı. Zararlar 82.000 doların altındaydı ve SignalPlus bunu karşılamayı taahhüt etti. Binance ve Deribit bulaşmayı önlemek için önceden API erişimini geri çekti.",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-05",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-keys-after-fake-teams-invite-attack"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Kripto dostluğuyla bilinen Kongre üyesi French Hill, Demokratlar iktidara gelince Finans Hizmetleri Komitesi başkanlığını bırakacak",
+          "what": "Cumhuriyet Kongre üyesi French Hill yeniden seçildi ancak Ocak 2027'de Demokratlar iktidara gelince Meclis Finansal Hizmetler Komitesi başkanlığını bırakacak. Bu, kripto politikası kaldıracını dostça ellerin dışında bırakıyor.",
+          "coins": "Policy",
+          "timeUTC": "2026-11-05",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/crypto-ally-french-hill-wins-reelection-arkansas"
+        },
+        {
+          "headline": "Güney Kore, %22 kripto sermaye kazancı vergisinde bir sonraki ertelemeyi teklif etti",
+          "what": "Güney Kore, kripto vergisini şimdi 1 Ocak 2027'ye kaydırmak istedi ve hazırlık ihtiyacını belirtti. Henüz değiştirilmiş bir tarih belirlenmedi. Bu, tartışmalı %22 kazanç vergisinde dördüncü erteleme.",
+          "coins": "Tax policy",
+          "timeUTC": "2026-11-05",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/south-korea-wants-to-delay-its-22-crypto-tax-again-and-give-investors-a-new-break-on-losses/"
+        },
+        {
+          "headline": "CFTC ve Federal Rezerv, Binance güvenlik olayından sonra gözetimi sürdürüyor",
+          "what": "ABD düzenleyicileri, 6,3 milyar dolarlık Binance hırsızlığının ardından bankalarla iletişime geçerek güvenlik risklerini ve kripto platformlarına maruziyeti değerlendirmek istedi. Fed ve OCC, işlem bütünlüğünü izliyor.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "ABD spot Bitcoin ve Ethereum ETF'leri geniş pazar çöküşünün ortasında net akışlar kaydetti",
+          "what": "Çöküşe rağmen Bitcoin ETF'leri 5 Kasım'da 208 BTC net akış ve Ethereum ETF'leri 16.825 ETH net akış kaydetti. Ancak önceki yedi gün içinde her ikisi de büyük çıkışlar yaşadı (Bitcoin ETF'leri 14.117 BTC düşüştü; Ethereum ETF'leri 177.044 ETH düşüştü).",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-11-05",
+          "source": "KuCoin",
+          "url": "https://www.kucoin.com/news/flash/us-bitcoin-etf-sees-net-inflow-of-208-btc-ethereum-etf-gains-16-825-eth"
+        },
+        {
+          "headline": "Payward (Kraken ana şirketi) ve müşterileri ikincil pazarda AAVE token payı satın aldı",
+          "what": "Payward, açık pazarda AAVE tokenleri ile ilişkili müşteriler tarafından satın alma yaptığını bildirdi ve olası gelecek satın almalar hakkında bir ipucu verdi. Bu, merkezi olmayan finansa (DeFi) yönetim tokenleri konusundaki kurumsal baskının bir parçası.",
+          "coins": "AAVE",
+          "timeUTC": "2026-11-05",
+          "source": "The Block / CoinDesk",
+          "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798"
+        },
+        {
+          "headline": "Canary Capital, Nasdaq'ta gömülü staking ödülleriyle Staked INJ ETF'sini başlattı",
+          "what": "Yeni Staked INJ ETF (sembol INJC) Nasdaq'ta ilk işlem gördü ve geleneksel yatırımcılara Injective (INJ) tokenlerine maruziyeti artı doğrudan fonun net varlık değerine yansıtılan staking ödüllerini kazanma yeteneğini verdi.",
+          "coins": "INJ",
+          "timeUTC": "2026-11-05",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Base, ana ağda 200ms blok zamanlarıyla Denim yükseltmesini konuşlandırdı",
+          "what": "Coinbase'in Base L2'si dördüncü ağ yükseltmesini etkinleştirdi; Denim, önceki Flashblocks sistemini saniyede beş kanonik blok ile tutarlı 200ms aralıkları ile değiştirdi. Bu, işlem sonuçlandırmasını iyileştirdi ve gecikmeyi azalttı.",
+          "coins": "BASE ecosystem",
+          "timeUTC": "2026-11-05",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433"
+        },
+        {
+          "headline": "Gate Exchange CEO'su, soğuk depolamada varlıklar varsa borsanın Binance ölçeğindeki bir hacki kaldırabileceğini iddia ediyor",
+          "what": "Gate CEO'su Lin Han, uygun kripto borsalarının, sıcak cüzdanlar tamamen boşaltılsa bile müşteri bakiyelerinin tamamını kapatmaya yetecek kadar soğuk depolanmış varlıkları tuttığunu kanıtlaması gerektiğini belirtti. Gate, Binance ihlali sonrasında rezervlerinin bağımsız bir denetiminden geçiyor.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/05/gate-ceo-says-crypto-exchanges-must-prove-they-can-survive-a-hack-like-binance-s"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Hindistan, CRAFTY FALCON kampanyasını tespit ettikten sonra yapay zeka destekli cüzdan anahtar hırsızlığı konusunda uyarı yayınladı",
+          "what": "Hindistan'ın CERT-In danışmanı (CRAFTY FALCON), yapay zeka destekli bilgisayar korsanları tarafından kripto cüzdan özel anahtarlarının çalındığı ve eksik önceki iyileştirmelerin yeniden hedeflendiği algılandığı konusunda uyarıyor. Kampanyanın kapsamı ve yöntemleri genişlemiştir.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/india-warns-ai-assisted-hackers-are-stealing-crypto-wallet-keys/"
+        },
+        {
+          "headline": "Mercado Bitcoin, hırsızlığın kontrol altına alındığını iddia etti, ancak blockchain verileri 11 zincir arasında 48,6 milyon doların boşaltıldığını gösteriyor",
+          "what": "Brezilya borsası Pazartesi hırsızlığının durdurulduğunu söyledi; ancak Decrypt'in taze adli tıbbi analizi, borsanın resmi \"kontrol\" iddiasından saatler sonra 11 farklı blokzincir arasında 48,6 milyon doların ve binlerce müşteri depozito adresinin boşaltıldığını izledi.",
+          "coins": "General",
+          "timeUTC": "2026-11-05",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Wall Street 'düzeltme' alanına girdi, Nasdaq 18 ayın en kötü gününü yaşadı",
+          "what": "S&P 500 %4,36 düştü, Dow 1.800+ puan düştü ve Nasdaq Composite %5,52 düşüş ile 24.315'e kapandı—teknik düzeltme alanına giriyor (tepeden %10 üzerinde). Tek başına Nasdaq 100 bir günde 2,3 trilyon doları sildi, bu o endeks için rekor kötü bir gün. S&P'nin tüm 11 sektörü düştü.",
+          "coins": "Market correlations",
+          "timeUTC": "2026-11-05",
+          "source": "Yahoo Finance, The Motley Fool",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[İçerik] Bitcoin tüccarları Cuma günü 2,7 milyar dolarlık opsiyon vadesinden beş saatlik kör noktadan önceki olmak üzere yüz yüzedir",
+          "what": "Deribit'in Cuma Bitcoin opsiyon vadesi 05:30 UTC'de planlanmış olup, ancak ABD istihdam verileri 13:30 UTC'de açıklanıyor; bu da ne vadenin ne de bordro verilerinin bilindiği tehlikeli beş saatlik bir boşluk yaratıyor. Bu, büyük tutarlı pozisyonlar için sıra dışı hedge karmaşıklığı yaratıyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-05 (context for 2026-11-06)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-traders-face-fridays-2-7-billion-options-expiry-with-a-dangerous-five-hour-blind-spot/"
+        },
+        {
+          "headline": "[İçerik] Core Scientific, AI veri merkezi işi artarken yıl sonuna kadar Bitcoin madenciliğinden tamamen çıkacak",
+          "what": "Eski Bitcoin madenciliği ağır sikletinin, Aralık 2026'ya kadar tüm madencilik faaliyetlerini kapatıp saf veri merkezi hizmetlerine pivot yapacağını söyledi. Madencilik şimdi üç aylık gelirin sadece %7,5'ini oluşturuyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-05 (context: published after report day close)",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges"
+        }
+      ]
+    }
   },
-  "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "etfFlows": {
+    "date": "2026-11-05",
+    "summary": "ABD spot Bitcoin ETF'leri 208 BTC net akış kaydetti; Ethereum ETF'leri 16.825 ETH net akış kaydetti. Şiddetli pazar çöküşüne rağmen her ikisi de tek günlük net akış gösterdi, ancak yedi günlük toplamlar çok negatif kaldı (Bitcoin ETF'leri 14.117 BTC düşüştü; ETH ETF'leri 177.044 ETH düşüştü).",
+    "source": "KuCoin (citing Farside/SoSoValue data)",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-etf-sees-net-inflow-of-208-btc-ethereum-etf-gains-16-825-eth"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Non-Farm Employment Change, Average Hourly Earnings, Unemployment Rate (Fri 06 Nov, 13:30 UTC)",
+      "typicalReaction": "Bu ayın en önemli ABD istihdam raporudur. İşgücü verileri Merkez Bankasının faiz oranı kararlarını şekillendirdiğinden kripto'yu güçlü şekilde hareket ettiriyor. Bitcoin ve tüm alternatif kripto paralarda yüksek oynaklık bekleyin. Bordro beklentiye göre çok daha yüksek gelirse (tahmin 65K), risk açısından düşüş satışları hızlanabilir. Daha düşükse, bu rahatlama rallilerine neden olabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Pazar genişliği",
+      "definition": "Dün açık pozisyonları dönem sonu kapanan tüm kripto türev sözleşmelerinin yükseliş gösterilen yüzdesi ile düşüş gösterilen yüzdesi. 5 Kasım 2026'da, sadece %9'u yükseliş gösterdi ve %91'i düşüş gösterdi, bu da pazar genelinde uç düşüş baskısını gösterdi."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Bir türev sözleşmesinde uzun pozisyon ve kısa pozisyon arasında ödenen faiz oranı. Pozitif bir oran (bu gün gibi %10,95 yıllık) uzun pozisyon tutan tüccarlar kısa pozisyon tutan tüccarları ödüyor anlamına geliyor; bu pazar çok yükseliş eğilimindeyken ve aşırı kaldıraçlı olduğunda olur. Yüksek bir oran sıklıkla keskin düzeltmeleri önceden gelen aşırı güveni gösterir."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Bir tüccarın marj altına düştüğünde kaldıraçlı pozisyonunun zorunlu kapanması. 10 Bitcoin satın almak için borç alan ve fiyat keskin düşen bir tüccar olursanız, borsa krediye geri dönemek için otomatik olarak para satıyor. Toplu tasfiyeler fiyat düşüşlerini artırabilir."
+    },
+    {
+      "term": "Uzun pozisyon",
+      "definition": "Fiyatın yükseleceğine dair bahis. Fiyatının yükseleceğini bekleyerek Bitcoin'e sahipseniz, Bitcoin'de 'uzun' pozisyonunuz var demektir."
+    },
+    {
+      "term": "Uzun/kısa oran",
+      "definition": "Bir borsada uzun pozisyon tutan hesapların kısa pozisyon tutan hesaplara oranı. 1,4 oranı uzun pozisyon tutan hesaplardan 1,4 kat daha fazlasının olduğu anlamına geliyor. Yüksek oranlar (2 üzerinde) aşırı yükseliş eğilimini ve keskin düzeltmenin daha yüksek riskini gösterir."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Borsanın türev sözleşmesinin mevcut adil değeri olarak hesapladığı fiyat, tasfiye belirlemek için kullanılır. Son işlem fiyatından farklıdır çünkü son işlemler ve temel spot fiyatlarının ağırlıklı ortalamasıdır, manipülasyonu önlemek için."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Bir borsada türev sözleşmesinde tüm açık uzun ve kısa pozisyonların toplam dolar tutarı. Açık pozisyon keskin düşerse, tüccarlar pozisyonlarını kapatıyor demektir. Yükselirse, yeni kaldıraç pazara giriyor anlamına geliyor."
+    },
+    {
+      "term": "Açık pozisyon değişimi",
+      "definition": "Açık pozisyonların toplam dolar değerinde belirli bir zaman diliminde yüzde artış veya azalma (bu raporda, gün üzerinde). 5 Kasım 2026'da Bitcoin açık pozisyonu Binance'de %7,4 düştü, bu da milyarlar dolar değerinde pozisyonun kapatıldığı veya tasfiye edildiği anlamına geliyor."
+    },
+    {
+      "term": "Kısa pozisyon",
+      "definition": "Fiyatın düşeceğine dair bahis. Bitcoin ödünç aldıktan ve sattıktan sonra daha düşük fiyata geri satın almayı umuyorsanız, Bitcoin'de 'kısa' pozisyonunuz var demektir."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Bir borsada agresif alıcı siparişlerin (alıcılar) agresif satıcı siparişlere (satıcılar) oranı. 1'den yüksek bir oran daha fazla alıcının istekleri fiyattan basıp satıcı talimatları basıyorsanız, hafif yükseliş eğilimi gösterir. 5 Kasım 2026'da, oran çöküşe rağmen 1'in üstünde kaldı, bazı dip alımını ima etti."
+    },
+    {
+      "term": "En yüksek pozisyon oranı",
+      "definition": "Uzun/kısa oran, özellikle en büyük tüccarlar (en büyük pozisyonları olanlar) arasında ve bir borsada tüm hesapların oranından ayrı. Bu genel orandan çok yüksekse, balina tüccarlar kalabalığından daha yükseliş eğilimindedir, pazar dönerse yüksek risk sinyali olabilir."
+    }
+  ],
   "_source": "cli-tr",
-  "_from": "ab8df46613bc063b"
+  "_from": "3913a4d666ae7222"
 }
