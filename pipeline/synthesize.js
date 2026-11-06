@@ -311,11 +311,11 @@ export function dropAfterDay(obj, dateUTC) {
   const year = dateUTC.slice(0, 4);
   const keep = (it) => {
     const ds = datesIn(it && it.timeUTC, year);
-    if (!ds.length || ds.some((d) => d <= dateUTC)) return true;
-    return /context|scheduled|expected|upcoming|expir|decision|vote/i.test(`${it.timeUTC} ${it.headline}`);
+    if (ds.every((d) => d <= dateUTC)) return true;
+    return /context|scheduled|expected|upcoming|expir|decision|vote|effective|announced/i.test(`${it.timeUTC} ${it.headline}`);
   };
-  let dropped = 0;
-  const filter = (arr) => { const out = (arr || []).filter(keep); dropped += (arr || []).length - out.length; return out; };
+  const dropped = [];
+  const filter = (arr) => (arr || []).filter((it) => keep(it) || (dropped.push(`${it.timeUTC} | ${it.headline}`), false));
   if (obj.news) {
     obj.news.topThree = filter(obj.news.topThree);
     for (const k of Object.keys(obj.news.groups || {})) obj.news.groups[k] = filter(obj.news.groups[k]);
@@ -324,10 +324,10 @@ export function dropAfterDay(obj, dateUTC) {
     const dates = String(obj.etfFlows.date || "").match(/\d{4}-\d{2}-\d{2}/g) || [];
     // ETFs don't trade at weekends: a flow dated Saturday or Sunday is misdated.
     const weekend = (d) => [0, 6].includes(new Date(d + "T00:00:00Z").getUTCDay());
-    if (!dates.length || dates.some((d) => d > dateUTC || weekend(d))) { obj.etfFlows = null; dropped++; }
+    if (!dates.length || dates.some((d) => d > dateUTC || weekend(d))) { dropped.push(`ETF flows dated ${obj.etfFlows.date}`); obj.etfFlows = null; }
   }
-  if (dropped) console.warn(`  synthesis: dropped ${dropped} item(s) dated after ${dateUTC}`);
-  return obj;
+  if (dropped.length) console.warn(`  synthesis: dropped ${dropped.length} item(s) dated after ${dateUTC}`);
+  return dropped;
 }
 
 export async function synthesize(pack, config, dayDir, opts = {}) {
@@ -359,11 +359,19 @@ export async function synthesize(pack, config, dayDir, opts = {}) {
     // that generation, as with translations: ask again before falling back to
     // data-only. Auth / rate-limit errors are not retried. (5 Oct 2026 went data-only
     // on a single "no JSON object in output" while both translations then succeeded.)
+    let lateNote = "";
     for (let attempt = 1; attempt <= SYNTHESIS_ATTEMPTS; attempt++) {
       try {
-        const obj = await runBackend(backend, prompt, config, { useTools: true });
+        const obj = await runBackend(backend, attempt > 1 && lateNote ? prompt + lateNote : prompt, config, { useTools: true });
         if (!obj.oneLine) { const e = new Error("synthesis missing oneLine"); e.kind = "invalid"; throw e; }
-        dropAfterDay(obj, pack.dateUTC);
+        const late = dropAfterDay(obj, pack.dateUTC);
+        // Later news slipped in (often on a late re-write): ask once more with the list,
+        // since the summary and caveman text may lean on the same later events.
+        if (late.length && attempt < SYNTHESIS_ATTEMPTS) {
+          lateNote = `\n\nYOUR LAST ANSWER USED NEWS FROM AFTER ${pack.dateUTC}, which this report must not contain:\n${late.map((x) => "- " + x).join("\n")}\nWrite the report again using only what was known by ${pack.dateUTC} 23:59 UTC. Search with the date in the query, give every news item a time on ${pack.dateUTC}, and keep the one-line summary, the caveman text and every summary free of later events and results.`;
+          console.warn("  synthesis: asking again without the later news");
+          continue;
+        }
         try { fs.writeFileSync(path.join(dayDir, "synthesis.auto.json"), JSON.stringify({ ...obj, _source: backend }, null, 2), "utf8"); } catch {}
         return { ...obj, _source: backend, _fellBack: false, _cliOnly: cliOnly };
       } catch (err) {
