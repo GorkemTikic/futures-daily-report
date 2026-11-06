@@ -1,174 +1,125 @@
 {
-  "oneLine": "Bitcoin and Ethereum each rose under 1% on Tuesday, November 3 as US Congressional Elections took place at 15:16 UTC and the CFTC approved equity perpetual futures, with altcoins broadly bullish and top traders heavily long.",
-  "caveman": "On Tuesday, November 3, two important things happened in the US: voters held Congressional midterm elections while crypto markets were open, and the government approved a new trading product called equity perpetual futures. Bitcoin went up 0.84% to $77,441 and Ethereum up 0.93% to $2,273—steady gains, not dramatic. About 7 out of 10 other cryptocurrencies also went up. The biggest traders bet heavily that prices would keep rising (about 2.6 traders betting UP for every 1 betting DOWN). One strange signal: Bitcoin funding was positive (longs paying shorts about 3% per year), meaning traders were confident Bitcoin would climb. But Ethereum's funding was negative, meaning shorts were confident even though the price went up. Asian computer-chip stocks fell a lot because a big company announced a huge AI spending plan, which made people worry about profit. It was a calm day—markets reacted to the election results but didn't panic.",
-  "priceVolumeSummary": "Bitcoin closed at $77,441.70 and Ethereum at $2,273.85, with all five major venues within $13 and $2 of these prices respectively, showing strong consensus. Binance led trading volume on both assets: $8.46 billion on Bitcoin and $5.57 billion on Ethereum, followed by Bybit, OKX, Bitget, and Gate.",
-  "positioningSummary": "Bitcoin's funding rate was positive at 3.16% annualized—a bullish signal that longs were willing to pay shorts for the privilege of staying long. Ethereum's funding was negative at −1.49%, suggesting shorts remained confident despite the price gain, creating a contrast between the two assets. Open interest rose modestly on Bitcoin (+0.48% in dollar terms) but more sharply on Ethereum (+2.63%), showing traders were adding leverage, especially on Ethereum. Long traders heavily outnumbered short traders across both: 2.6-to-1 on Bitcoin and 2.64-to-1 on Ethereum. The largest traders were even more bullish: 1.87-to-1 on Bitcoin and 1.60-to-1 on Ethereum. Buyers were slightly more aggressive than sellers (taker buy/sell ratio 1.02 on Bitcoin, 1.05 on Ethereum). Market breadth remained very strong with 70.4% of Binance altcoins advancing, showing the bullish sentiment was broad.",
-  "stocksSummary": "Asian semiconductor stocks fell sharply on November 3: South Korea's SK Hynix dropped 7.58% and Samsung 5.63%, with their leveraged ETFs hit harder (SK Hynix 2x down 14.73%, Samsung 2x down 10.93%). The primary catalyst was Oracle's announcement of a $20 billion AI fundraising plan, which triggered concerns about AI profitability and whether heavy AI spending could translate to returns. Chinese tech was mixed—AI stocks like Unitree Robotics and CXMT gained 2.54% and 5.87%, while Tencent and Xiaomi edged up. The KOSPI (Seoul stock index) fell 5.3% as South Korean investors net-sold on the AI doubts.",
+  "oneLine": "Congressional elections on Nov 3 swept Democrats into control of Congress, driving broad crypto market gains despite deteriorating sentiment.",
+  "caveman": "On Nov 3, Americans voted for Congress. Democrats won big and took control of both the House and Senate. This was a big change in political power. Bitcoin went up 0.8%, Ethereum went up 0.9%, and most crypto coins rose too (70% of them were up). But people felt more scared about the future even though prices rose. Asian tech stocks fell hard—Korea's big computer chip makers like SK Hynix dropped 7.6%. The election and its meaning for crypto rules was the biggest thing that happened.",
+  "priceVolumeSummary": "Bitcoin and Ethereum both gained roughly 0.8–0.9% on the day, with venues closely aligned on prices. Binance led volume for both assets, moving $8.46 billion of BTC and Bybit and OKX each handling over $4.5 billion of ETH.",
+  "positioningSummary": "Bitcoin traders held a bullish long-to-short bias of 2.57:1 across all accounts and 1.87:1 among the largest traders, while funding turned modestly positive at 3.16% annualized on Binance. Bitcoin open interest rose 0.48% in USD terms despite a slight decline in coins held. Ethereum showed even stronger long positioning at 2.64:1 on Binance but carried negative funding of -1.49% annually, signaling some resistance to further upside. Both assets saw modest taker buy pressure (1.02 and 1.05 ratios respectively), and 70.4% of Binance perpetual contracts were up for the day, reflecting broad market strength.",
+  "stocksSummary": "Korean semiconductor exporters fell sharply on Nov 3: SK Hynix dropped 7.6% and Samsung Electronics fell 5.6%, likely on election uncertainty and concern over US tech policy shifts under a Democratic Congress. Hong Kong index products tracking these names fell harder with leveraged products down 14–15%. US equity data from Nov 4 showed mixed tech performance with AI-related stocks under pressure and financial stocks gaining—suggesting market reassessment of regulatory risk after the elections.",
   "movers": [
     {
       "symbol": "AGTUSDT",
-      "explanation": "AGT fell 27.4% over the prior 24 hours but reversed sharply, closing the day up 32.9%, a strong recovery that suggests square-off buying or a short squeeze. No specific catalyst identified in public reporting.",
+      "explanation": "AGT surged 32.9% intraday despite losing 27.4% over the prior 24 hours, suggesting a sharp reversal and possible exchange listing event or liquidation cascade.",
       "hasCause": false
     },
     {
       "symbol": "HOTUSDT",
-      "explanation": "HOT dropped 19.1% in the prior 24 hours but rebounded 26.0% on the day, showing a similar reversal pattern to AGTUSDT. The rebound suggests algorithmic buying or liquidation cascade rather than news-driven movement.",
+      "explanation": "HOT rallied 25.9% intraday after declining 19.1% in the broader 24-hour window, similar reversal pattern to AGT with no clear public announcement.",
       "hasCause": false
     },
     {
       "symbol": "BMTUSDT",
-      "explanation": "BMT gained 10.4% over the prior 24 hours and continued upward with a 23.6% daily gain, showing sustained upward momentum. The consistency suggests continued buyer support or event-driven accumulation.",
+      "explanation": "BMT gained 23.6% on the day amid positive 24h performance, no clear catalyst identified.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "US Congressional Elections — Democrats win control of Congress",
-        "what": "US voters held Congressional midterm elections on November 3 at 15:16 UTC during the US market session. Early results indicated a Democratic sweep of both chambers of Congress. Markets initially reacted with caution—Bitcoin dipped below $76,000 as uncertainty peaked—but recovered above $78,000 by November 4 as traders absorbed the outcome. The political shift raises expectations for stricter crypto regulation under a Democratic-controlled SEC and CFTC, though removes near-term policy whiplash.",
-        "coins": "BTC, ETH, all crypto (regulatory exposure)",
-        "timeUTC": "2026-11-03 15:16",
-        "source": "ForexFactory Economic Calendar, CoinDesk, BraveNewCoin",
-        "url": "https://www.forexfactory.com/calendar.php"
+        "headline": "Democrats sweep Congressional elections, forcing crypto industry to rethink Washington strategy",
+        "what": "On Nov 3, Democrats won majorities in both the US House and Senate in midterm elections, marking a major political shift. Crypto super PACs spent over $176 million on the election but faced significant setbacks, with key pro-crypto candidates losing and the industry's primary policy vehicle, the Clarity Act, now likely dead in its current form.",
+        "coins": "BTC, ETH, all cryptos",
+        "timeUTC": "2026-11-03 15:16 UTC (elections), 2026-11-04 11:34 UTC (reporting)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362"
       },
       {
-        "headline": "CFTC Approves Equity Perpetual Futures — new US stock derivatives market launches",
-        "what": "The US CFTC approved equity perpetual futures under Regulation 40.3, allowing regulated platforms to offer Bitcoin-settled perpetual contracts on individual US stocks. Trading became effective November 3, 2026. Kalshi Inc. launched equity perps contracts the same day. This expands crypto exchanges' product range into equities derivatives and represents the second major perpetual-futures approval by the CFTC in 2026 (Bitcoin perps were approved earlier in the year).",
-        "coins": "BTC (settlement), crypto market structure",
-        "timeUTC": "2026-11-03 16:30",
-        "source": "CFTC, KuCoin, Bloomberg",
-        "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
-      },
-      {
-        "headline": "Oracle Announces $20B AI Fundraising — triggers Asian semiconductor sell-off",
-        "what": "Oracle announced a $20 billion AI infrastructure fundraising plan on November 3, immediately sparking concerns among investors about AI profitability and oversaturation of AI spending. South Korean semiconductor stocks (SK Hynix, Samsung) fell sharply, with the KOSPI index down 5.3% as foreign investors net-sold. The move highlights ongoing skepticism about whether massive AI infrastructure outlays can generate competitive returns.",
-        "coins": "Tech perps (HKEX/KRX equities affected), downstream to crypto sentiment",
-        "timeUTC": "2026-11-03 (announcement timing varies by report)",
-        "source": "SBS News, Invezz, FourWeekMBA",
-        "url": "https://invezz.com/au/news/2026/11/03/samsung-and-sk-hynix-stocks-plunge-as-a-dollar20-billion-ai-shock-rattles-markets"
+        "headline": "CFTC approves equity perpetual futures; Clarity Act likely dead under Democratic Congress",
+        "what": "The CFTC approved equity perpetual futures contracts, enabling retail and institutional traders to take positions on US stocks through crypto derivatives. However, the incoming Democratic Congress is expected to impose stricter oversight of crypto markets and is unlikely to pass the Clarity Act, which would have clarified regulatory authority.",
+        "coins": "General crypto policy",
+        "timeUTC": "2026-11-01 approx. (CFTC approval), 2026-11-04 14:48 UTC (policy analysis)",
+        "source": "CoinDesk, CFTC",
+        "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin"
       }
     ],
     "groups": {
-      "Regulation and policy": [
+      "Regulation and policy": [],
+      "Institutional flows and ETFs": [],
+      "Hacks, exploits and outages": [
         {
-          "headline": "US Congressional Elections shift political landscape — crypto faces tighter oversight",
-          "what": "Democratic victories in US Congressional midterms on November 3 will shift control of both chambers, changing crypto policy outlook. Industry observers noted the 'Clarity Act'—a bipartisan bill favored by the crypto industry—is unlikely to pass, and the SEC and CFTC will face Democratic-majority oversight, raising expectations for stricter rules on stablecoins, market structure, and exchange custody practices.",
-          "coins": "All crypto (regulatory risk)",
-          "timeUTC": "2026-11-04 (post-election reporting)",
-          "source": "CoinDesk, The Block",
-          "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin"
+          "headline": "French bank Crédit Mutuel Arkéa exploited for $133 million; attacker likely unaffiliated with North Korea",
+          "what": "A cyber attack on French financial institution Crédit Mutuel Arkéa resulted in approximately $133 million in theft, with analyst ZachXBT suggesting the attacker has no apparent connection to North Korea's Lazarus Group, indicating a separate, sophisticated criminal operation.",
+          "coins": "General cybersecurity concern",
+          "timeUTC": "2026-11-03 05:37 UTC approx.",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "BTC and ETH ETF flows show mixed sentiment around elections",
-          "what": "Bitcoin ETFs recorded a net outflow of $115.6 million on November 3 as election results came in, with IBIT accounting for $95 million of the outflow. Ethereum ETFs were heavier sellers with $85.3 million net outflow. On November 4, sentiment reversed: Bitcoin ETFs rebounded with $74.6 million net inflow (FBTC +$236.7M, offset by IBIT -$201.2M), and Ethereum saw $53 million inflow. The outflows on election day reflect risk-off positioning ahead of the results; the November 4 rebound suggests buyer relief after the Democratic sweep was absorbed.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-11-03 and 2026-11-04",
-          "source": "Farside Investors, SoSoValue",
-          "url": "https://farside.co.uk/btc/"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "CFTC Green-Lights Equity Perpetual Futures — Bitcoin-settled stock derivatives now live",
-          "what": "The CFTC approved equity perpetual futures under Regulation 40.3 effective November 3, 2026. These new contracts allow regulated crypto exchanges and platforms to offer perpetual derivatives on individual US stocks, settled in Bitcoin. Kalshi Inc. and other venues immediately launched trading. The products are classified as security futures under the Commodity Futures Modernization Act of 2000 and face joint CFTC/SEC oversight.",
-          "coins": "BTC (settlement), market structure",
-          "timeUTC": "2026-11-03 16:30",
-          "source": "CFTC, Bloomberg, KuCoin, News Bitcoin",
-          "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
-        }
-      ],
-      "Hacks, exploits and outages": [],
-      "Traditional markets": [
-        {
-          "headline": "Oracle $20B AI Spending Announcement Crashes Asian Semiconductors",
-          "what": "Oracle announced a $20 billion AI infrastructure fundraising commitment on November 3, immediately triggering a broad reassessment of AI profitability among investors. South Korean semiconductor stocks—SK Hynix (down 7.58%) and Samsung Electronics (down 5.63%)—fell sharply as foreign investors net-sold on concerns that massive AI capex cannot justify returns. The KOSPI index (Seoul) closed down 5.3%, with approximately $144 billion in market cap erased from Samsung and SK Hynix alone.",
-          "coins": "No direct crypto exposure; affects crypto sentiment via risk assets",
-          "timeUTC": "2026-11-03 (announcement)",
-          "source": "SBS News, Invezz, Seoul Economic Daily",
-          "url": "https://invezz.com/au/news/2026/11/03/samsung-and-sk-hynix-stocks-plunge-as-a-dollar20-billion-ai-shock-rattles-markets"
-        }
-      ],
-      "Unconfirmed and watch items": []
+      "Exchange and platform changes": [],
+      "Traditional markets": []
     }
   },
-  "etfFlows": {
-    "date": "2026-11-03 and 2026-11-04",
-    "summary": "Bitcoin spot ETFs: $115.6M net outflow on Nov 3 (IBIT -$95M), then $74.6M net inflow on Nov 4 (FBTC +$236.7M, IBIT -$201.2M). Ethereum spot ETFs: $85.3M net outflow on Nov 3, $53M net inflow on Nov 4. Nov 3 outflows reflect pre-election caution; Nov 4 inflows suggest relief buying after Democratic sweep.",
-    "source": "Farside Investors (Bitcoin) / SoSoValue (Ethereum)",
-    "url": "https://farside.co.uk/btc/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "US Congressional Elections (Nov 3, 15:16 UTC)",
-      "typicalReaction": "Crypto markets typically react sharply to political shifts affecting regulatory outlook. Democratic control of Congress raises expectations for stricter SEC/CFTC oversight of stablecoins and market structure—a medium-term headwind. However, regulatory clarity (once enacted) often reduces long-term uncertainty and can stabilize markets."
+      "event": "Congressional Elections (US House and Senate)",
+      "typicalReaction": "Risk-on assets like crypto tend to rally on clarity or dovish outcomes; Democratic sweep with pro-regulation lean generated initial volatility, then recovery as markets repriced regulatory risk."
     },
     {
-      "event": "CFTC Approves Equity Perpetual Futures (Nov 3, effective immediately)",
-      "typicalReaction": "Expansion of Bitcoin-settled products typically supports sentiment by deepening crypto's institutional role and use cases. Equity perps on crypto venues may drive incremental Bitcoin settlement demand."
+      "event": "Norges Bank Rate Decision (Nov 5, 09:00 UTC)",
+      "typicalReaction": "Potential mover for USD and risk assets; central bank decisions typically influence macro sentiment."
     },
     {
-      "event": "Norges Bank Rate Decision (Nov 5, 09:00 UTC) and Bank of England MPC Rate Decision (Nov 5, 12:00 UTC)",
-      "typicalReaction": "Central bank rate decisions often trigger volatility in risk assets including crypto. Hawkish surprises tend to weaken crypto; dovish surprises strengthen it relative to equities."
-    },
-    {
-      "event": "US Non-Farm Payrolls (Nov 6, 13:30 UTC)",
-      "typicalReaction": "Employment data is a major US economic release and often triggers crypto volatility due to inflation and monetary policy implications. Strong jobs growth can be risk-on (bullish); weak growth is risk-off (bearish)."
+      "event": "US Non-Farm Payrolls and Employment Data (Nov 6, 13:30 UTC)",
+      "typicalReaction": "High-impact data for USD, bonds, and equity risk appetite; crypto often follows equities on major labor-market surprises."
     }
   ],
   "glossary": [
     {
-      "term": "Funding rate",
-      "definition": "The amount (as a percentage per year) that traders holding long positions pay to those holding short positions, or vice versa. Positive funding means longs pay shorts—a bullish signal that leverage is favoring higher prices. Negative funding means shorts pay longs—bearish. Rates are quoted as 8-hour intervals, annualized for comparison across venues."
-    },
-    {
-      "term": "Long trader / Short trader",
-      "definition": "A long trader bets that the price will rise. A short trader bets that the price will fall. The ratio of long to short positions shows the balance of bullish vs. bearish traders."
-    },
-    {
-      "term": "Long/short ratio",
-      "definition": "The proportion of traders holding long positions compared to those holding short positions (e.g., 2.6-to-1 means 2.6 long traders for every 1 short trader). A higher ratio indicates more bullish positioning; a lower ratio more bearish."
-    },
-    {
-      "term": "Mark price",
-      "definition": "The settlement price used on a futures contract, typically a weighted average of the futures price and the spot price. Used to prevent manipulation and ensure contracts stay close to true market value."
-    },
-    {
-      "term": "Open interest",
-      "definition": "The total number of active long or short contracts that have not yet been closed. An increase in open interest means traders are adding to their positions (bullish if price rises, suggesting conviction); a decrease means traders are reducing exposure."
-    },
-    {
-      "term": "Open-interest change",
-      "definition": "The percentage increase or decrease in open interest over the report period, shown in dollar terms or in coin quantity. Rising open interest during an uptrend suggests strong momentum; falling suggests weakening conviction."
-    },
-    {
-      "term": "Taker buy/sell ratio",
-      "definition": "The proportion of aggressive buying (taker buy) to aggressive selling (taker sell) on a contract. A ratio above 1.0 indicates more aggressive buying than selling; below 1.0 indicates more selling pressure."
-    },
-    {
-      "term": "Top-position ratio",
-      "definition": "The long-to-short ratio among the largest traders on an exchange (typically the top 10–50 accounts by position size). This shows whether the biggest players are bullish or bearish; often more predictive than the broader trader population."
+      "term": "Basis (trading)",
+      "definition": "The price difference between the current market price (spot price) and the futures price for the same asset."
     },
     {
       "term": "Breadth",
-      "definition": "The percentage of assets in a market that gained value on the report day. High breadth (e.g., 70% of coins up) signals broad market strength; low breadth suggests weakness is concentrated in a few assets while most others are struggling."
+      "definition": "The percentage or count of assets in a market that are moving up or down in price; high breadth (e.g., 70% of coins up) suggests strong market-wide sentiment."
     },
     {
-      "term": "Perpetual contract / perpetual futures",
-      "definition": "A crypto derivative that mimics a spot price but never expires, unlike traditional futures. Traders pay each other funding rates to stay long or short indefinitely. Bitcoin-settled equity perpetuals allow trading stocks via Bitcoin-denominated contracts on crypto platforms."
+      "term": "Cold storage",
+      "definition": "Cryptocurrency held offline in vaults or hardware wallets, disconnected from the internet, used to protect assets from hacking."
     },
     {
-      "term": "Venue / exchange",
-      "definition": "A cryptocurrency platform where traders buy, sell, or trade futures contracts. This report covers Binance, Bybit, OKX, Bitget, and Gate—the five largest venues for crypto derivatives globally."
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment indicator ranging from 0 (Extreme Fear) to 100 (Extreme Greed) that measures cryptocurrency market emotion based on volatility, momentum, and social media trends."
     },
     {
-      "term": "Volume",
-      "definition": "The total notional US-dollar amount traded in a contract over the report day."
+      "term": "Funding rate",
+      "definition": "A periodic payment between long and short traders on perpetual futures, designed to keep the contract price close to the spot price. Positive funding means longs pay shorts; negative means shorts pay longs."
     },
     {
-      "term": "ETF outflow / inflow",
-      "definition": "The net change in assets under management for an exchange-traded fund. An outflow means investors net-redeemed shares (selling), suggesting bearish sentiment. An inflow means investors net-bought shares, suggesting bullish sentiment."
+      "term": "Long/short ratio",
+      "definition": "The ratio of traders holding long positions (betting price will rise) to those holding short positions (betting price will fall); ratios above 1.0 indicate more bullish positioning."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate funding and liquidations on futures exchanges, typically a weighted average of spot prices or index-based price."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total value of all outstanding long and short positions in a futures market; growth in OI suggests increasing leverage and potential volatility."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "The day-over-day percentage shift in total open interest, indicating whether traders are adding or reducing positions collectively."
+    },
+    {
+      "term": "Perpetual futures",
+      "definition": "Futures contracts with no expiry date, allowing traders to hold leveraged long or short positions indefinitely as long as they maintain collateral and pay funding rates."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders to sell orders; ratios above 1.0 indicate more aggressive buying by takers (traders accepting current ask prices)."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long-to-short ratio calculated only among the largest traders on an exchange, indicating whether the biggest players are leaning bullish or bearish."
     }
   ],
   "_source": "cli"

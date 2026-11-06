@@ -1,176 +1,127 @@
 {
-  "oneLine": "3 Kasım Salı günü Bitcoin ve Ethereum her biri %1'in altında yükseldi; aynı anda 15:16 UTC'de ABD Kongre Seçimleri gerçekleşti ve CFTC özsermaye perpetual vadeli işlemlerini onayladı; altcoinlerin genel trendi yükselişti ve büyük tüccarlar ağırlıklı olarak long pozisyondaydı.",
-  "caveman": "3 Kasım Salı günü ABD'de iki önemli şey oldu: seçmenler Kongre seçimlerini yaptılar (kripto piyasaları açıkken) ve hükümet 'özsermaye perpetual vadeli işlemler' denilen yeni bir işlem ürünü onayladı. Bitcoin %0,84 yükselişle $77.441'e, Ethereum %0,93 yükselişle $2.273'e ulaştı—sakin artışlar, dramatik değil. Diğer kripto paralara da 10'da 7'si yukarı gitti. En büyük tüccarlar fiyatların yükselmeye devam edeceğine ağırlıklı olarak bahis yaptı (her 1 düşüş bahsçısına karşı 2,6 yükseliş bahsçısı). Garip bir sinyal: Bitcoin finansmanı pozitifti (uzun pozisyon sahibi kısa pozisyon sahibine yıllık %3 oranında ödedi), bu tüccarların Bitcoin'in çıkacağına inanmakta olduğu anlamına geldi. Ama Ethereum'un finansmanı negatifti, yani kısa pozisyon sahipleri fiyat artmasına rağmen kendilerine güveniyordu. Asya bilgisayar çipi şirketlerinin hisseleri büyük düşüş yaptı çünkü büyük bir şirket devasa bir yapay zeka harcama planı açıkladı; bu da insanları kâr konusunda endişelendirdi. Sakin bir gündü—piyasalar seçim sonuçlarına tepki verdi ama paniğe kapılmadı.",
-  "priceVolumeSummary": "Bitcoin $77.441,70'de, Ethereum $2.273,85'te kapandı ve beş büyük borsa da bu fiyatlara sırasıyla $13 ve $2 içinde kalmış, güçlü uzlaşma gösteriyor. Binance her iki varlıkta da işlem hacminde öncü konumdaydı: Bitcoin'de $8,46 milyar ve Ethereum'da $5,57 milyar, arkasından Bybit, OKX, Bitget ve Gate geldi.",
-  "positioningSummary": "Bitcoin'in finansman oranı %3,16 annualize edilmiş pozitifti—uzun pozisyon sahiplerinin kısa pozisyon sahibine uzun kalmak için ödemeye istekli olduğunu gösteren yükseliş sinyali. Ethereum'un finansmanı −%1,49 negatifti, kısa pozisyon sahiplerinin fiyat artışına rağmen kendilerine güvendiğini gösteriyor, iki varlık arasında kontrast yaratıyor. Açık pozisyon Bitcoin'de mütevazı şekilde (+%0,48 dolar cinsinden) ama Ethereum'da daha keskin arttı (+%2,63), tüccarların kaldıraç eklediğini, özellikle Ethereum'da, gösteriyor. Uzun pozisyon tüccarları her iki varlıkta da kısa pozisyon tüccarlarını ağırlıklı olarak aştı: Bitcoin'de 2,6'ya 1, Ethereum'da 2,64'e 1. En büyük tüccarlar daha da yükselişe eğilimli idi: Bitcoin'de 1,87'ye 1, Ethereum'da 1,60'a 1. Alıcılar satıcılardan biraz daha agresifti (taker alış/satış oranı Bitcoin'de 1,02, Ethereum'da 1,05). Pazar genişliği çok güçlü kaldı; Binance altcoinlerinin %70,4'ü yükseliş gösteriyor, yükseliş hissiyatının geniş tabanlı olduğunu gösteriyor.",
-  "stocksSummary": "Asya yarıiletken hisseleri 3 Kasım'da keskin düşüş yaptı: Güney Kore'nin SK Hynix %7,58, Samsung %5,63 düştü, kaldıraçlı ETF'leri daha sert etkilendi (SK Hynix 2x %14,73 düştü, Samsung 2x %10,93 düştü). Birincil katalizör Oracle'ın $20 milyar yapay zeka altyapı fon toplama planının açıklanmasıydı; bu yapay zekanın karlılığı ve ağır yapay zeka harcamalarının getiri sağlayıp sağlayamayacağı konusunda endişeleri tetikledi. Çin teknolojisi karışık idi—Unitree Robotics ve CXMT gibi yapay zeka hisseleri %2,54 ve %5,87 kazandı, Tencent ve Xiaomi hafif yükseldi. KOSPI (Seul borsası) Güney Koreli yatırımcılar yapay zeka şüphelerine net satış yapınca %5,3 düştü.",
+  "oneLine": "3 Kasım'daki Kongre seçimlerinde Demokratlar kontrolü ele geçirerek kripto piyasasında geniş ölçekli kazançlar sağladı, ancak genel duygu bozulması devam etti.",
+  "caveman": "3 Kasım günü Amerikalılar Kongre seçimlerini yaptılar. Demokratlar çok büyük kazandı ve hem Temsilciler Meclisi'ni hem de Senato'yu kontrol altına aldı. Bu siyasette çok büyük bir değişiklikti. Bitcoin %0,8 yükseldi, Ethereum %0,9 yükseldi ve çoğu kripto paralarda da yükseliş oldu (%70 oranında). Ancak fiyatlar artmasına rağmen insanlar gelecekten daha çok korktu. Asya'daki teknoloji şirketleri çok sert düştü—Güney Kore'nin SK Hynix gibi çip üreticileri %7,6 kayıp verdi. Seçim ve bunun kripto kurallarına etkisi en önemli hadiseydi.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum gün içinde yaklaşık %0,8–0,9 oranında kazanç sağladı, borsalar fiyatlarda birbirine yakın davrandı. Binance BTC'de 8,46 milyar dolar, Bybit ve OKX ETH'de 4,5 milyardan fazla dolar işlem hacmi yöneteldi.",
+  "positioningSummary": "Bitcoin tüccarları tüm hesaplar arasında 2,57:1, en büyük tüccarlar arasında ise 1,87:1 oranında boğa yanlısı pozisyon tuttu. Finansman oranı Binance'te yıllık bazda %3,16'ya çıkarak hafif pozitif hale geldi. Bitcoin açık faizi dolar cinsinden %0,48 artmış olmasına rağmen tutulan miktar hafif azaldı. Ethereum Binance'te daha güçlü 2,64:1 uzun pozisyonlaması gösterdi ama yıllık -%1,49 negatif finansman oranı taşıyor; bu daha fazla yükselişe karşı engel anlamına geliyor. Her iki varlık da ılımlı alıcı baskısı (sırasıyla 1,02 ve 1,05 oranı) gördü ve Binance kalıcı vadeli işlemlerinin %70,4'ü gün içinde yükselişte, bu da pazar genişliğini gösteriyor.",
+  "stocksSummary": "Güney Kore'nin yarı iletken ihracatçıları 3 Kasım'da keskin düştü: SK Hynix %7,6 ve Samsung Electronics %5,6 kayıp verdi. Bunun nedeni seçim belirsizliği ve Demokrat Kongresi döneminde ABD teknoloji politikasının değişebileceğine dair kaygılar olabilir. Hong Kong endeks ürünleri bu şirketleri takip ederek kaldıraçlı ürünler %14–15 düştü. 4 Kasım verilerine göre ABD hisse senetlerinde AI ile ilgili hisse senetleri zayıf kaldı, finansal sektör hisse senetleri ise kazanç sağladı—bu seçim sonrasında yasal riski yeniden değerlendiren piyasayı gösteriyor.",
   "movers": [
     {
       "symbol": "AGTUSDT",
-      "explanation": "AGT önceki 24 saat içinde %27,4 düştü ama keskin şekilde tersine döndü ve gün içinde %32,9 yükselişle kapandı, açılmamış alışları veya kısa sıkışmayı öneren güçlü bir toparlanma. Kamuya açık raporlamada belirli bir katalizör tanımlanmadı.",
+      "explanation": "AGT gün içinde %32,9 yükseldi ama önceki 24 saatte %27,4 düşüş yaşadı. Bu keskin bir ters dönüş işareti; borsa listesi olayı ya da pozisyon tasfiyesi kaskadı olabilir.",
       "hasCause": false
     },
     {
       "symbol": "HOTUSDT",
-      "explanation": "HOT önceki 24 saat içinde %19,1 düştü ama gün içinde %26,0 toparlandı, AGTUSDT'ye benzer bir tersine dönüş paterni gösteriyor. Toparlanma, haber kaynaklı hareket yerine algoritmatik alışı veya likidasyonu tetikleme basamağını gösteriyor.",
+      "explanation": "HOT geniş 24 saatlik periyotta %19,1 düşüşten sonra gün içinde %25,9 ralli yaptı. AGT'ye benzer ters dönüş deseni görülüyor ama açık bir haber ya da duyuru yok.",
       "hasCause": false
     },
     {
       "symbol": "BMTUSDT",
-      "explanation": "BMT önceki 24 saat içinde %10,4 kazandı ve gün içinde %23,6 kazançla yükselişe devam etti, sürdürülen yükseliş momentumunu gösteriyor. Tutarlılık devam eden alıcı desteğini veya olay kaynaklı birikimi gösteriyor.",
+      "explanation": "BMT pozitif 24 saatlik performans ortasında gün içinde %23,6 kazanç elde etti, açık bir nedenin tanımı yapılamadı.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "ABD Kongre Seçimleri — Demokratlar Kongre Kontrolünü Kazandı",
-        "what": "ABD seçmenler 3 Kasım'da 15:16 UTC'de ABD piyasası seçim saati sırasında Kongre midterm seçimlerini yaptı. Erken sonuçlar her iki meclisin de Demokratlar tarafından kazanıldığını gösterdi. Piyasalar başlangıçta temkinli tepki verdi—belirsizlik tepe yaptığında Bitcoin $76.000'in altına düştü—ama tüccarlar sonucu hazırladığında 4 Kasım'a kadar $78.000 üzerine çıktı. Siyasi kayış, Demokrat kontrollü SEC ve CFTC altında daha katı kripto düzenlemelerine yönelik beklentileri artırıyor, ancak kısa vadeli politika dalgalanmasını ortadan kaldırıyor.",
-        "coins": "BTC, ETH, tüm kripto (düzenleme riski)",
-        "timeUTC": "2026-11-03 15:16",
-        "source": "ForexFactory Economic Calendar, CoinDesk, BraveNewCoin",
-        "url": "https://www.forexfactory.com/calendar.php"
+        "headline": "Demokratlar Kongre seçimlerinde başarılı oldu, kripto endüstrisi Washington stratejisini gözden geçirmek zorunda",
+        "what": "3 Kasım'da Demokratlar ara seçimlerde ABD Temsilciler Meclisi ve Senato'da çoğunluğu kazandı; bu büyük bir siyasi değişimdir. Kripto sektörü seçime 176 milyondan fazla dolar harcadı ancak önemli kayıplar verdi—pro-kripto adaylar seçimleri kaybetti ve sektörün ana politika aracı olan Clarity Yasası şu anda geçme ihtimali kalmadı.",
+        "coins": "BTC, ETH, all cryptos",
+        "timeUTC": "2026-11-03 15:16 UTC (seçimler), 2026-11-04 11:34 UTC (haber)",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362"
       },
       {
-        "headline": "CFTC Özsermaye Perpetual Vadeli İşlemlerini Onayladı — Yeni ABD hisse senedi türevleri piyasası açılıyor",
-        "what": "ABD CFTC, Düzenleme 40.3 kapsamında özsermaye perpetual vadeli işlemlerini onayladı; düzenlenmiş platformların bireysel ABD hisse senetleri üzerinde Bitcoin ile kapatılan perpetual sözleşmeleri sunmasına izin verdi. Ticaret 3 Kasım 2026'da yürürlüğe girdi. Kalshi Inc. aynı gün özsermaye perpetual sözleşmelerini başlattı. Bu kripto borsalarının ürün yelpazesini özsermaye türevlerine genişletiyor ve CFTC'nin 2026'daki ikinci önemli perpetual vadeli işlem onayını temsil ediyor (Bitcoin perpetual'lar yılın başında onaylandı).",
-        "coins": "BTC (kapatma), kripto piyasası yapısı",
-        "timeUTC": "2026-11-03 16:30",
-        "source": "CFTC, KuCoin, Bloomberg",
-        "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
-      },
-      {
-        "headline": "Oracle $20 Milyar Yapay Zeka Fon Toplaması Açıkladı — Asya yarıiletken satışını tetikledi",
-        "what": "Oracle 3 Kasım'da $20 milyar yapay zeka altyapı fon toplama planını açıkladı; derhal yatırımcılar arasında yapay zekanın karlılığı ve yapay zeka harcamalarının aşırı doygunluğu hakkında endişeleri tetikledi. Güney Koreli yarıiletken hisseleri (SK Hynix, Samsung) keskin düşüş yaptı; yabancı yatırımcılar net satış yaptığında KOSPI endeksi %5,3 düştü. Bu hamle, devasa yapay zeka altyapı harcamalarının rekabetçi getiriler sağlayıp sağlayamayacağı konusunda devam eden şüpheyi vurguluyor.",
-        "coins": "Teknoloji perpetual'ları (HKEX/KRX özsermayeler etkilendi), kripto hissi için alt akış",
-        "timeUTC": "2026-11-03 (announcement timing varies by report)",
-        "source": "SBS News, Invezz, FourWeekMBA",
-        "url": "https://invezz.com/au/news/2026/11/03/samsung-and-sk-hynix-stocks-plunge-as-a-dollar20-billion-ai-shock-rattles-markets"
+        "headline": "CFTC hisse senedi kalıcı vadeli işlemleri onayladı; Clarity Yasası Demokrat Kongresi altında rafa kaldırıldı",
+        "what": "CFTC hisse senedi kalıcı vadeli işlem sözleşmelerini onayladı. Bu, perakende ve kurumsal yatırımcıların kripto türevleri aracılığıyla ABD hisse senetlerine karşı pozisyon almalarını sağlıyor. Ancak yeni Demokrat Kongresi'nin kripto piyasalarına daha sıkı gözetim getirmesi bekleniyor ve Clarity Yasası—ki bu mevzuat yetkisini açıklamayı amaçlıyordu—geçme şansı çok düşük görünüyor.",
+        "coins": "General crypto policy",
+        "timeUTC": "2026-11-01 yaklaşık (CFTC onayı), 2026-11-04 14:48 UTC (analiz)",
+        "source": "CoinDesk, CFTC",
+        "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin"
       }
     ],
     "groups": {
-      "Regulation and policy": [
+      "Regulation and policy": [],
+      "Institutional flows and ETFs": [],
+      "Hacks, exploits and outages": [
         {
-          "headline": "ABD Kongre Seçimleri Siyasi Ortamı Değiştiriyor — Kripto Daha Sıkı Gözetim Karşılıyor",
-          "what": "3 Kasım'daki ABD Kongre midterm seçimlerindeki Demokrat zaferi her iki meclisi de kontrol etmeyi kaydıracak, kripto politika görünümünü değiştirecek. Endüstri gözlemcileri kripto endüstrisinin tercih ettiği iki parti tarafından desteklenen 'Clarity Act'ın—geçmesi olası olmadığını ve SEC ve CFTC'nin Demokrat çoğunluk gözetimine tabi tutulacağını, stabilcoin, pazar yapısı ve borsa saklama uygulamalarına ilişkin daha katı kurallar beklentisini artıracağını belirtti.",
-          "coins": "Tüm kripto (düzenleme riski)",
-          "timeUTC": "2026-11-04 (post-election reporting)",
-          "source": "CoinDesk, The Block",
-          "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin"
+          "headline": "Fransız bankası Crédit Mutuel Arkéa 133 milyon dolar için hacklendi; saldırganın Kuzey Kore ile bağlantısı olsa da olmasa da belirsiz",
+          "what": "Fransız finansman kurumu Crédit Mutuel Arkéa siber saldırıya maruz kaldı ve yaklaşık 133 milyon dolar çalındı. Analist ZachXBT saldırganın Kuzey Kore'nin Lazarus Grubu ile açık bir bağlantısı olmadığını söylüyor; bu ayrı, sofistike bir suç operasyonu olabilir.",
+          "coins": "General cybersecurity concern",
+          "timeUTC": "2026-11-03 05:37 UTC yaklaşık",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "BTC ve ETH ETF Akışları Seçimler Etrafında Karışık Duygulara İşaret Ediyor",
-          "what": "Seçim sonuçları geldiğinde Bitcoin ETF'leri 3 Kasım'da net $115,6 milyon çıkış kaydetti; IBIT çıkışın $95 milyonunu oluşturdu. Ethereum ETF'leri net $85,3 milyon çıkışla daha ağır satıcıydı. 4 Kasım'da duygular tersine döndü: Bitcoin ETF'leri net $74,6 milyon giriş ile toparlandı (FBTC +$236,7M, IBIT -$201,2M tarafından dengelendi), Ethereum $53 milyon giriş gördü. Seçim günündeki çıkışlar sonuçlardan önce risk-off konumlandırmayı yansıtıyor; 4 Kasım toparlanması Demokrat zaferi hazırlandıktan sonra alıcı rahatlığını gösteriyor.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-11-03 and 2026-11-04",
-          "source": "Farside Investors, SoSoValue",
-          "url": "https://farside.co.uk/btc/"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "CFTC Özsermaye Perpetual Vadeli İşlemlerine Yeşil Işık Verdi — Bitcoin ile Kapatılmış Hisse Senedi Türevleri Artık Canlı",
-          "what": "CFTC, 3 Kasım 2026 tarihinde yürürlüğe girmek üzere Düzenleme 40.3 kapsamında özsermaye perpetual vadeli işlemlerini onayladı. Bu yeni sözleşmeler, düzenlenmiş kripto borsaları ve platformlarının bireysel ABD hisse senetleri üzerinde Bitcoin ile kapatılmış perpetual türevleri sunmasına izin veriyor. Kalshi Inc. ve diğer mekanlar hemen ticarete başladı. Ürünler 2000 Emtia Vadeli İşlemler Modernizasyon Yasası kapsamında güvenlik vadeli işlemleri olarak sınıflandırılıyor ve CFTC/SEC ortaklaşa gözetimine tabi tutuluyor.",
-          "coins": "BTC (kapatma), pazar yapısı",
-          "timeUTC": "2026-11-03 16:30",
-          "source": "CFTC, Bloomberg, KuCoin, News Bitcoin",
-          "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
-        }
-      ],
-      "Hacks, exploits and outages": [],
-      "Traditional markets": [
-        {
-          "headline": "Oracle $20 Milyar Yapay Zeka Harcama Açıklaması Asya Yarıiletkenlerini Çökertti",
-          "what": "Oracle 3 Kasım'da $20 milyar yapay zeka altyapı fon toplama taahhüdünü açıkladı; derhal yatırımcılar arasında yapay zekanın karlılığının geniş çaplı yeniden değerlendirilmesini tetikledi. Güney Koreli yarıiletken hisseleri—SK Hynix (düşüş %7,58) ve Samsung Elektronik (düşüş %5,63)—yabancı yatırımcılar devasa yapay zeka capex'inin getirileri haklı çıkaramayacağı endişelerine net satış yaptığında keskin düşüş yaptı. KOSPI endeksi (Seul) %5,3 düşüşle kapandı; Samsung ve SK Hynix'ten yaklaşık $144 milyar piyasa değeri silindi.",
-          "coins": "Doğrudan kripto riski yok; risk varlıkları aracılığıyla kripto hissini etkiliyor",
-          "timeUTC": "2026-11-03 (announcement)",
-          "source": "SBS News, Invezz, Seoul Economic Daily",
-          "url": "https://invezz.com/au/news/2026/11/03/samsung-and-sk-hynix-stocks-plunge-as-a-dollar20-billion-ai-shock-rattles-markets"
-        }
-      ],
-      "Unconfirmed and watch items": []
+      "Exchange and platform changes": [],
+      "Traditional markets": []
     }
   },
-  "etfFlows": {
-    "date": "2026-11-03 and 2026-11-04",
-    "summary": "Bitcoin spot ETF'leri: 3 Kasım'da net $115,6M çıkış (IBIT -$95M), ardından 4 Kasım'da net $74,6M giriş (FBTC +$236,7M, IBIT -$201,2M). Ethereum spot ETF'leri: 3 Kasım'da net $85,3M çıkış, 4 Kasım'da net $53M giriş. 3 Kasım çıkışları seçim öncesi temkinliliğini yansıtıyor; 4 Kasım girişleri Demokrat zaferinden sonra rahatlama alımını gösteriyor.",
-    "source": "Farside Investors (Bitcoin) / SoSoValue (Ethereum)",
-    "url": "https://farside.co.uk/btc/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "US Congressional Elections (Nov 3, 15:16 UTC)",
-      "typicalReaction": "Kripto piyasaları tipik olarak düzenleme görünümünü etkileyen siyasi kayışlara keskin tepki verirler. Kongre'nin Demokrat kontrolü stabilcoin ve pazar yapısı üzerine daha katı SEC/CFTC gözetimine yönelik beklentileri artırıyor—orta vadeli bir rüzgar. Bununla birlikte, düzenleme netliği (uygulandığında) genellikle uzun vadeli belirsizliği azaltır ve piyasaları istikrara kavuşturabilir."
+      "event": "Congressional Elections (US House and Senate)",
+      "typicalReaction": "Bitcoin ve kripto gibi riskli varlıklar netlik veya kolaylaştırıcı sonuçlar karşısında rally yapar. Demokrat seçim zaferi başlangıçta oynaklık yarattı, ancak piyasalar yasal riski yeniden fiyatlandırırken toparlanma gösterdi."
     },
     {
-      "event": "CFTC Approves Equity Perpetual Futures (Nov 3, effective immediately)",
-      "typicalReaction": "Bitcoin ile kapatılan ürünlerin genişlemesi tipik olarak kripto'nun kurumsal rolünü ve kullanım durumlarını derinleştirerek duyguları destekler. Kripto mekanlarında özsermaye perpetual'ları artımlı Bitcoin kapatma talebini sürüyebilir."
+      "event": "Norges Bank Rate Decision (Nov 5, 09:00 UTC)",
+      "typicalReaction": "Dolar ve risk varlıkları için potansiyel hareketlenme; merkez bankası kararları makro duyguyu tipik olarak yönlendirir."
     },
     {
-      "event": "Norges Bank Rate Decision (Nov 5, 09:00 UTC) and Bank of England MPC Rate Decision (Nov 5, 12:00 UTC)",
-      "typicalReaction": "Merkez bankası faiz kararları genellikle kripto dahil risk varlıklarında oynaklık tetiklerler. Şahin sürprizi kripto'yu zayıflatmaya eğilimli; güvercin sürprizi özsermayeye göre güçlendirir."
-    },
-    {
-      "event": "US Non-Farm Payrolls (Nov 6, 13:30 UTC)",
-      "typicalReaction": "İstihdam verileri önemli bir ABD ekonomik açıklamasıdır ve enflasyon ve para politikası çıkarımları nedeniyle genellikle kripto oynaklığını tetiklerler. Güçlü istihdam büyümesi risk-on (yükseliş) olabilir; zayıf büyüme risk-off (düşüş)."
+      "event": "US Non-Farm Payrolls and Employment Data (Nov 6, 13:30 UTC)",
+      "typicalReaction": "Dolar, tahvil ve hisse senedi piyasası iştahı için yüksek etkileyici veri; kripto genellikle büyük istihdam raporu sürprizlerinde hisse senetlerini takip eder."
     }
   ],
   "glossary": [
     {
+      "term": "Basis (taban fark)",
+      "definition": "Cari pazar fiyatı (spot fiyatı) ile aynı varlık için vadeli işlem fiyatı arasındaki fark."
+    },
+    {
+      "term": "Genişlik",
+      "definition": "Bir piyasada fiyat açısından yükselen veya düşen varlıkların yüzde veya sayısı; yüksek genişlik (%70 oranında yükseliş gibi) güçlü pazar genişliğinde pozitif duygusunu gösterir."
+    },
+    {
+      "term": "Soğuk saklama",
+      "definition": "İnternetten bağlantısı kesilmiş kasa veya donanım cüzdanında tutulan kripto; varlıkları hackerlikten korumak için kullanılır."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında değişen, oynaklık, momentum ve sosyal medya hareketlerine dayalı kripto piyasası duygusunu ölçen gösterge."
+    },
+    {
       "term": "Finansman oranı",
-      "definition": "Uzun pozisyon tutan tüccarların kısa pozisyon tutanlarına veya tersi şekilde ödediği tutar (yıllık yüzde olarak). Pozitif finansman longs'un shorts'a ödediği anlamına gelir—kaldıraçın daha yüksek fiyatları desteklemekte olduğunu gösteren yükseliş sinyali. Negatif finansman shorts'un longs'a ödediği anlamına gelir—düşüş. Oranlar, mekanlar arasında karşılaştırma için 8 saatlik aralıklarla alıntılanır, annualize edilmiş."
+      "definition": "Kalıcı vadeli işlemlerde uzun pozisyon tutan tüccarlar ile kısa pozisyon tutan tüccarlar arasında yapılan periyodik ödeme. Sözleşme fiyatını spot fiyata yakın tutmak için tasarlanmıştır. Pozitif oran uzun sahibinin kısa sahibine ödeme yaptığı, negatif oran kısa sahibinin uzun sahibine ödeme yaptığı anlamına gelir."
     },
     {
-      "term": "Uzun pozisyon tüccarı / Kısa pozisyon tüccarı",
-      "definition": "Uzun pozisyon tüccarı fiyatın yükselişine bahis yapar. Kısa pozisyon tüccarı fiyatın düşüşüne bahis yapar. Uzun ve kısa pozisyonların oranı yükseliş ve düşüş tüccarlarının dengesini gösterir."
+      "term": "Uzun-kısa pozisyon oranı",
+      "definition": "Fiyatın yükseleceğine bahis oynayan (uzun) tüccarların, fiyatın düşeceğine bahis oynayan (kısa) tüccarların sayısına oranı. 1,0'dan yüksek oranlar daha fazla boğa yanlısı konumlandırmayı gösterir."
     },
     {
-      "term": "Uzun/Kısa oran",
-      "definition": "Uzun pozisyon tutan tüccarların kısa pozisyon tutanlarla karşılaştırıldığında oranı (örneğin, 2,6'ya 1 her 1 kısa pozisyon tüccarına karşılık 2,6 uzun pozisyon tüccarı anlamına gelir). Daha yüksek oran daha fazla yükseliş konumlandırmasını gösterir; daha düşük oran daha fazla düşüş."
+      "term": "İşaret fiyatı",
+      "definition": "Vadeli işlem borsalarında finansman oranı ve tasfiye hesaplaması için kullanılan referans fiyat; tipik olarak spot fiyatlarının ağırlıklı ortalaması veya endeks bazlı fiyattır."
     },
     {
-      "term": "İşaretleme fiyatı",
-      "definition": "Vadeli işlem sözleşmesinde kullanılan kapatma fiyatı, tipik olarak vadeli işlem fiyatı ve spot fiyatın ağırlıklı ortalaması. Manipülasyonu önlemek ve sözleşmelerin gerçek piyasa değerine yakın kalmasını sağlamak için kullanılır."
+      "term": "Açık faiz",
+      "definition": "Bir vadeli işlem piyasasında tüm açık (kapanmamış) uzun ve kısa pozisyonların toplam değeri. Açık faizde artış tüccarların toplu olarak pozisyon eklediğini ve potansiyel oynaklığı gösterir."
     },
     {
-      "term": "Açık pozisyon",
-      "definition": "Henüz kapatılmamış aktif uzun veya kısa sözleşmelerin toplam sayısı. Açık pozisyonda artış tüccarların pozisyonlarına ekledikleri anlamına gelir (fiyat yükselirse yükseliş, inanç gösterir); azalış tüccarların riskten kurtuldukları anlamına gelir."
+      "term": "Açık faiz değişim oranı",
+      "definition": "Gün içinde toplam açık faizde meydana gelen yüzdesel değişim; tüccarların toplu olarak pozisyon ekleyip eklememeleri ya da azaltıp azaltmadığını gösterir."
     },
     {
-      "term": "Açık pozisyon değişimi",
-      "definition": "Raporlama dönemi boyunca açık pozisyonda yüzde artış veya azalış, dolar cinsinden veya madeni para miktarı cinsinden gösterilir. Yükseliş trendi sırasında artan açık pozisyon güçlü momentumu gösterir; düşen inancın zayıfladığını gösterir."
+      "term": "Kalıcı vadeli işlemler",
+      "definition": "Son tarihi bulunmayan vadeli işlem sözleşmeleri. Yatırımcılar teminat tutup finansman oranı ödediği sürece uzun vadeli kaldıraçlı (uzun ya da kısa) pozisyonları belirsiz süre açık tutabilir."
     },
     {
-      "term": "Taker alış/satış oranı",
-      "definition": "Bir sözleşmedeki agresif alımın (taker alış) agresif satışa (taker satış) oranı. 1,0 üzerindeki bir oran satıştan daha agresif alımı gösterir; 1,0 altında daha fazla satış baskısını gösterir."
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Pazar satın alma siparişlerinin pazar satış siparişlerine oranı. 1,0'dan yüksek oranlar alıcıların daha agresif olduğunu (mevcut fiyatları kabul ederek satın aldığını) gösterir."
     },
     {
       "term": "En büyük pozisyon oranı",
-      "definition": "Bir borsada en büyük tüccarlar arasında uzun-kısa oran (tipik olarak pozisyon boyutuna göre ilk 10–50 hesap). Bu en büyük oyuncuların yükseliş mi düşüş mi eğilimde olduğunu gösterir; genellikle daha geniş tüccar nüfusundan daha tahmine dayalı."
-    },
-    {
-      "term": "Pazar genişliği",
-      "definition": "Raporlama günü bir piyasada değer kazanan varlıkların yüzdesi. Yüksek genişlik (%70 madeni para yükselişi gibi) geniş pazar gücünü gösterir; düşük genişlik zayıflığın birkaç varlıkta yoğunlaştığı ve çoğu başkasının mücadele etmekte olduğunu gösterir."
-    },
-    {
-      "term": "Perpetual sözleşme / Perpetual vadeli işlemler",
-      "definition": "Spot fiyatı taklit eden ancak geleneksel vadeli işlemlerden farklı olarak hiç sona ermeyen kripto türevi. Tüccarlar uzun veya kısa kalmak için birbirlerine finansman oranları öderler. Bitcoin ile kapatılan özsermaye perpetual'ları kripto platformlarında Bitcoin cinsinden sözleşmeler aracılığıyla hisse senetleri ticareti yapılmasına izin verir."
-    },
-    {
-      "term": "Mekan / Borsa",
-      "definition": "Tüccarların kripto vadeli işlem sözleşmeleri alıp, sattığı veya ticareti yaptığı kripto platformu. Bu rapor Binance, Bybit, OKX, Bitget ve Gate'i kapsar—dünya çapında kripto türevlerinin beş en büyük mekanı."
-    },
-    {
-      "term": "İşlem hacmi",
-      "definition": "Raporlama günü bir sözleşmede işlem gören toplam nominal ABD doları tutarı."
-    },
-    {
-      "term": "ETF çıkışı / girişi",
-      "definition": "Bir yatırım fonu için yönetim altındaki varlıklarda net değişim. Çıkış yatırımcıların net olarak pay geri aldığı (satış) anlamına gelir, düşüş duygusu gösterir. Giriş yatırımcıların net olarak pay aldığı anlamına gelir, yükseliş duygusu gösterir."
+      "definition": "Bir borsada yalnızca en büyük tüccarlar arasında hesaplanan uzun-kısa oranı. Piyasanın en güçlü oyuncularının boğa yanlısı mı ayı yanlısı mı konumda olduğunu gösterir."
     }
   ],
   "_source": "cli-tr",
-  "_from": "66ae5cbc3d088a29"
+  "_from": "300dfb52e85c349c"
 }

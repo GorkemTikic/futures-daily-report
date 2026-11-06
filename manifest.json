@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-06T00:19:55.427Z",
+  "generatedAt": "2026-11-06T00:25:00.400Z",
   "count": 142,
   "counts": {
     "total": 142,
@@ -102,9 +102,9 @@
         "BTC": 0.8121845916682764,
         "ETH": 0.9322312288583277
       },
-      "marketSummary": "Bitcoin and Ethereum each rose under 1% on Tuesday, November 3 as US Congressional Elections took place at 15:16 UTC and the CFTC approved equity perpetual futures, with altcoins broadly bullish and top traders heavily long.",
-      "oneLine": "Bitcoin and Ethereum each rose under 1% on Tuesday, November 3 as US Congressional Elections took place at 15:16 UTC and the CFTC approved equity perpetual futures, with altcoins broadly bullish and top traders heavily long.",
-      "newsCount": 7,
+      "marketSummary": "Congressional elections on Nov 3 swept Democrats into control of Congress, driving broad crypto market gains despite deteriorating sentiment.",
+      "oneLine": "Congressional elections on Nov 3 swept Democrats into control of Congress, driving broad crypto market gains despite deteriorating sentiment.",
+      "newsCount": 3,
       "topMover": {
         "symbol": "AGTUSDT",
         "chgPct": 32.9440688383528
