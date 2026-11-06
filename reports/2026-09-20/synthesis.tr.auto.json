@@ -99,12 +99,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-20",
-    "summary": "Bitcoin spot ETF'leri 433,03 milyon dolar net akış kaydetti; Ethereum spot ETF'leri 143,80 milyon dolar net akış çekti. Birleşik 577 milyon dolarlık akış kurumsal satın alma ilgisini yansıtıyor.",
-    "source": "Farside Investors / SoSoValue",
-    "url": "https://farside.co.uk/btc/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "Swiss National Bank (SNB) Rate Decision (September 24, 07:30 UTC)",
@@ -205,5 +200,6 @@
       "definition": "Hemen sonrasında bir tersine çevirme ile bir yönde ani keskin fiyat hareketi, tüccarları sıkıştırır ve stop-kayıpları tetikler."
     }
   ],
-  "_source": "cli-tr"
+  "_source": "cli-tr",
+  "_from": "0f6bb0ebc9792c3e"
 }

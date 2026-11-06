@@ -99,12 +99,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-20",
-    "summary": "Bitcoin spot ETFs recorded $433.03M net inflow; Ethereum spot ETFs drew $143.80M net inflow. Combined $577M inflow reflects institutional buying interest.",
-    "source": "Farside Investors / SoSoValue",
-    "url": "https://farside.co.uk/btc/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "Swiss National Bank (SNB) Rate Decision (September 24, 07:30 UTC)",

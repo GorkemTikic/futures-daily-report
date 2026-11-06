@@ -99,12 +99,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-20",
-    "summary": "比特币现货ETF录得4.3303亿美元净流入；以太坊现货ETF吸引1.4380亿美元净流入。合计5.77亿美元流入反映机构买入兴趣。",
-    "source": "Farside Investors / SoSoValue",
-    "url": "https://farside.co.uk/btc/"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "Swiss National Bank (SNB) Rate Decision (September 24, 07:30 UTC)",
@@ -205,5 +200,6 @@
       "definition": "价格突然向一个方向大幅波动，随后立即反向，措手不及地抓住交易者并触发止损。"
     }
   ],
-  "_source": "cli-zh"
+  "_source": "cli-zh",
+  "_from": "0f6bb0ebc9792c3e"
 }
