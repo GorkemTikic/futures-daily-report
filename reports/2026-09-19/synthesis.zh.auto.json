@@ -24,14 +24,6 @@
   "news": {
     "topThree": [
       {
-        "headline": "比特币ETF周五流入4330万美元，富达领衔机构需求",
-        "what": "美国现货比特币ETF在9月19日周五录得4330万美元净流入，其中富达的FBTC占3107万美元（占总流入的71%）。本周比特币ETF资产规模达1025.3亿美元，富达和贝莱德占日均流入的97%。这表明尽管之前波动，机构仍有持续的配置需求。",
-        "coins": "Bitcoin",
-        "timeUTC": "2026-09-19 00:00–23:59",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-      },
-      {
         "headline": "巴西禁止稳定币用于受监管的跨境支付，10月1日起生效",
         "what": "巴西央行(BCB)已禁止电子外汇提供商使用稳定币或加密货币结算受监管国际支付的境外部分，自2026年10月1日起生效（BCB第561号决议）。该规则不禁止加密货币所有权或交易，只禁止机构结算流。Wise、Nomad和Braza Bank等公司已将稳定币结算整合到跨境管道中，必须切换到传统外汇渠道。",
         "coins": "USDT, USDC",
@@ -83,16 +75,7 @@
           "url": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "比特币ETF周五流入4330万美元，富达领衔机构需求",
-          "what": "美国比特币ETF周五录得4330万美元净流入，富达的FBTC占3107万美元。比特币ETF板块本周表现积极，资产规模达1025.3亿美元，富达和贝莱德占日均流入的97%。这是机构持续兴趣的信号。",
-          "coins": "Bitcoin",
-          "timeUTC": "2026-09-19 00:00–23:59",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "Robinhood Chain手续费暴跌97%，交易量却维持在15亿美元/天",
@@ -205,5 +188,5 @@
     }
   ],
   "_source": "cli-zh",
-  "_from": "48be4f6122aa1e59"
+  "_from": "9ab56b7ae5ffe969"
 }

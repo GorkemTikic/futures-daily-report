@@ -24,14 +24,6 @@
   "news": {
     "topThree": [
       {
-        "headline": "Bitcoin ETF'leri cuma günü 433 milyon dolarlık giriş kaydetti, Fidelity kurumsal talebi liderliğinde",
-        "what": "ABD spot Bitcoin ETF'leri cuma günü 19 Eylül'de 433 milyon dolarlık net giriş kaydetti; Fidelity'nin FBTC'si 310,7 milyon doların (toplam yüzde 71) hesabını oluşturdu. Geniş haftayı kavrayan Bitcoin ETF varlıkları 102,53 milyar dolar civarındaydı; Fidelity ve BlackRock günlük girişlerin yüzde 97'sini ele geçirdi. Bu, önceki oynaklığa rağmen devam eden kurumsal iştahı gösteriyor.",
-        "coins": "Bitcoin",
-        "timeUTC": "2026-09-19 00:00–23:59",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-      },
-      {
         "headline": "Brezilya, 1 Ekim'den itibaren stablecoin'leri düzenlenen uluslararası ödemelerin dışında tutuyor",
         "what": "Brezilya Merkez Bankası (BCB), elektronik döviz sağlayıcılarını 1 Ekim 2026'dan itibaren geçerli olmak üzere (BCB No. 561 Kararnamesi) stablecoin veya kripto kullanarak düzenlenen uluslararası ödemelerin denizaşırı ayağını kapatmaktan yasakladı. Kural kripto sahipliğini veya ticareti yasaklamıyor, ancak kurumsal yerleştirme akışlarını yasaklıyor. Wise, Nomad ve Braza Bank gibi firmalar stablecoin yerleşimini sınır ötesi boru hatlarına yerleştirdi ve geleneksel döviz kanallarına geçmek zorundadır.",
         "coins": "USDT, USDC",
@@ -83,16 +75,7 @@
           "url": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin ETF'leri cuma günü 433 milyon dolarlık giriş kaydetti, Fidelity kurumsal talebi liderliğinde",
-          "what": "ABD Bitcoin ETF'leri cuma günü 433 milyon dolarlık net giriş kaydetti; Fidelity'nin FBTC, 310,7 milyon doların hesabını oluşturdu. Bitcoin ETF sektörü için pozitif bir hafta; varlıklar 102,53 milyar dolar civarında; Fidelity ve BlackRock günlük girişlerin yüzde 97'sini aldı. Süregelen kurumsal iştahının sinyali.",
-          "coins": "Bitcoin",
-          "timeUTC": "2026-09-19 00:00–23:59",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "Robinhood Chain ücretleri yüzde 97 çökerken işlemler günde 1,5 milyar dolar civarında kalıyor",
@@ -205,5 +188,5 @@
     }
   ],
   "_source": "cli-tr",
-  "_from": "48be4f6122aa1e59"
+  "_from": "9ab56b7ae5ffe969"
 }

@@ -38,14 +38,6 @@
         "timeUTC": "Oct 31, 19:23 UTC (context from day before)",
         "source": "CoinDesk",
         "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
-      },
-      {
-        "headline": "Bitcoin ETF Sees $643 Million in Outflows Friday, First Full Trading Day After Hack",
-        "what": "US spot Bitcoin ETFs recorded net outflows of $643.2 million on Friday, October 31—the first complete trading session after the Binance hack became public. This ended a four-day inflow streak and left October with net outflows of approximately $516 million, reflecting institutional investor caution after the security breach.",
-        "coins": "Bitcoin",
-        "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 trading)",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
       }
     ],
     "groups": {
@@ -59,16 +51,7 @@
           "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin ETF Sees $643 Million in Outflows Friday, First Full Trading Day After Hack",
-          "what": "US spot Bitcoin ETFs recorded net outflows of $643.2 million on Friday, October 31—the first complete trading session after the Binance hack became public. This ended a four-day inflow streak and left October with net outflows of approximately $516 million, reflecting institutional investor caution after the security breach.",
-          "coins": "Bitcoin",
-          "timeUTC": "Nov 1, 01:47 UTC (reporting on Oct 31 trading)",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "Binance Reopens Withdrawals, Sees $3.64 Billion in Immediate Outflows",

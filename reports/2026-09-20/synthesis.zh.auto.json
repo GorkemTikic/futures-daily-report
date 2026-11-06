@@ -67,16 +67,7 @@
           "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "比特币和以太坊现货ETF在9月20日录得5.77亿美元合并净流入",
-          "what": "美国现货比特币ETF出现4.3303亿美元净流入（Fidelity FBTC领导流入）；以太坊现货ETF吸引1.4380亿美元净流入。合计总额表明机构信心，尽管比特币日表现持平，以太坊涨幅温和。",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-20 (published end-of-day)",
-          "source": "Farside Investors / SoSoValue",
-          "url": "https://farside.co.uk/btc/"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "Gemini股票从IPO下跌80%；收入和托管资产下降中市值跌至7.53亿美元",
@@ -201,5 +192,5 @@
     }
   ],
   "_source": "cli-zh",
-  "_from": "0f6bb0ebc9792c3e"
+  "_from": "4df769c06b071903"
 }

@@ -59,16 +59,7 @@
           "url": "https://cryptoslate.com/esma-proposes-ending-eu-custody-and-transfer-services-for-non-compliant-stablecoins/"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin ETF'leri net girişleri sürdürürken, Ethereum ETF'leri hafta için çıkışlar kaydediyor",
-          "what": "ABD spot Bitcoin ETF'leri 3 Ekim'de $102,7–103 milyon net giriş kaydetti, kısa bir çıkış dönemini sona erdirdi. 28 Eylül–2 Ekim haftası için Bitcoin ETF'leri $82,9 milyon net giriş gördü (30 Eylül'deki çeyreklik sonu yeniden dengelemesini yansıtan önceki haftanın $2,39 milyarından keskin düşüş). Ethereum ETF'leri bunun aksine, aynı hafta için beş işlem günü içinde dört gün çıkış ile $118 milyon net çıkış kaydetti.",
-          "coins": "Bitcoin, Ethereum",
-          "timeUTC": "2026-10-03",
-          "source": "Cointelegraph, Farside Investors",
-          "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Hacks, exploits and outages": [
         {
           "headline": "Arbitrum, AI destekli saldırı riskleri nedeniyle yeni Stylus akıllı kontrat aktivasyonlarını duraklatıyor",
@@ -135,5 +126,5 @@
     }
   ],
   "_source": "cli-tr",
-  "_from": "f880c00b7934fcc5"
+  "_from": "df48a73e286c8231"
 }

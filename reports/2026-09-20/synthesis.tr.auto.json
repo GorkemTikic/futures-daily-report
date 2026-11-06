@@ -67,16 +67,7 @@
           "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin ve Ethereum spot ETF'ler 20 Eylül'de birleşik 577 milyon dolarlık net akışı kaydetti",
-          "what": "ABD spot Bitcoin ETF'leri 433,03 milyon dolar net akış gördü (Fidelity FBTC akışa liderlik etti); Ethereum spot ETF'leri 143,80 milyon dolar net akış çekti. Kombine toplam Bitcoin'in düz günlük performansı ve Ethereum'un mütevazı kazanımına rağmen kurumsal güveni gösterdi.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-20 (günün sonu yayınlandı)",
-          "source": "Farside Investors / SoSoValue",
-          "url": "https://farside.co.uk/btc/"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "Gemini'nin hissesi IPO'dan %80 çöktü; pazar değeri 753 milyon dolara düştü, gelir ve gözetim azaldı",
@@ -201,5 +192,5 @@
     }
   ],
   "_source": "cli-tr",
-  "_from": "0f6bb0ebc9792c3e"
+  "_from": "4df769c06b071903"
 }

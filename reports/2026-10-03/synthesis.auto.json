@@ -59,16 +59,7 @@
           "url": "https://cryptoslate.com/esma-proposes-ending-eu-custody-and-transfer-services-for-non-compliant-stablecoins/"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin ETFs resume net inflows while Ethereum ETFs post outflows for the week",
-          "what": "US spot Bitcoin ETFs recorded $102.7–103 million in net inflows on October 3, ending a brief outflow period. For the week of September 28–October 2, Bitcoin ETFs saw $82.9 million in net inflows (down sharply from $2.39 billion the prior week, reflecting quarter-end rebalancing on September 30). Ethereum ETFs, by contrast, posted $118 million in net outflows for the same week, with withdrawals on four of five trading days.",
-          "coins": "Bitcoin, Ethereum",
-          "timeUTC": "2026-10-03",
-          "source": "Cointelegraph, Farside Investors",
-          "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Hacks, exploits and outages": [
         {
           "headline": "Arbitrum pauses new Stylus smart-contract activations over AI-assisted attack risks",

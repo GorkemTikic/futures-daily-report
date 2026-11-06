@@ -59,16 +59,7 @@
           "url": "https://cryptoslate.com/esma-proposes-ending-eu-custody-and-transfer-services-for-non-compliant-stablecoins/"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "比特币ETF恢复净流入，而以太坊ETF当周录得净流出",
-          "what": "美国现货比特币ETF在10月3日录得102.7-103百万美元净流入，结束了短暂的净流出期。在9月28日至10月2日当周，比特币ETF录得82.9百万美元净流入（相比前一周239亿美元的净流入大幅下降，反映了9月30日季度末重新平衡）。相比之下，以太坊ETF在同一周录得1.18亿美元净流出，五个交易日中的四个交易日均有净流出。",
-          "coins": "Bitcoin, Ethereum",
-          "timeUTC": "2026-10-03",
-          "source": "Cointelegraph, Farside Investors",
-          "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Hacks, exploits and outages": [
         {
           "headline": "Arbitrum因AI辅助攻击风险暂停新Stylus智能合约激活",
@@ -135,5 +126,5 @@
     }
   ],
   "_source": "cli-zh",
-  "_from": "f880c00b7934fcc5"
+  "_from": "df48a73e286c8231"
 }

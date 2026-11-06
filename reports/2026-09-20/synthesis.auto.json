@@ -67,16 +67,7 @@
           "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin and Ethereum spot ETFs record $577M combined net inflow on September 20",
-          "what": "U.S. spot Bitcoin ETFs saw $433.03M net inflow (Fidelity FBTC led the inflow); Ethereum spot ETFs drew $143.80M net inflow. The combined total signals institutional confidence despite Bitcoin's flat daily performance and modest Ethereum gain.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-09-20 (published end-of-day)",
-          "source": "Farside Investors / SoSoValue",
-          "url": "https://farside.co.uk/btc/"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "Gemini's stock collapses 80% from IPO; market value falls to $753M amid revenue and custody declines",

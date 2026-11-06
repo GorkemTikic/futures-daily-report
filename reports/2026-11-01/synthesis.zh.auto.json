@@ -38,14 +38,6 @@
         "timeUTC": "Oct 31, 19:23 UTC (上一天的背景信息)",
         "source": "CoinDesk",
         "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
-      },
-      {
-        "headline": "比特币现货ETF在黑客事件后首个完整交易日出现6.43亿美元净流出",
-        "what": "美国现货比特币ETF在10月31日星期五录得642.3百万美元的净流出——币安黑客事件公开后的首个完整交易日。这结束了持续四天的净流入趋势，也导致10月整月的净流出约为516百万美元，反映出机构投资者在安全漏洞事件后的谨慎态度。",
-        "coins": "比特币",
-        "timeUTC": "Nov 1, 01:47 UTC (报告10月31日交易情况)",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
       }
     ],
     "groups": {
@@ -59,16 +51,7 @@
           "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "比特币现货ETF在黑客事件后首个完整交易日出现6.43亿美元净流出",
-          "what": "美国现货比特币ETF在10月31日星期五录得642.3百万美元的净流出——币安黑客事件公开后的首个完整交易日。这结束了持续四天的净流入趋势，也导致10月整月的净流出约为516百万美元，反映出机构投资者在安全漏洞事件后的谨慎态度。",
-          "coins": "比特币",
-          "timeUTC": "Nov 1, 01:47 UTC (报告10月31日交易情况)",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "币安重新开放提现，立刻出现36.4亿美元提现潮",
@@ -179,5 +162,5 @@
     }
   ],
   "_source": "cli-zh",
-  "_from": "8761f95aa162c69b"
+  "_from": "e73c1d4f3552e527"
 }

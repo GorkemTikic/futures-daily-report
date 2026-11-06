@@ -24,14 +24,6 @@
   "news": {
     "topThree": [
       {
-        "headline": "Bitcoin ETFs tap $433M inflow Friday, Fidelity leads institutional demand",
-        "what": "US spot Bitcoin ETFs recorded $433 million in net inflows on Friday, September 19, with Fidelity's FBTC accounting for $310.7 million (71% of total). Over the broader week, Bitcoin ETF assets stood at $102.53 billion, with Fidelity and BlackRock capturing 97% of daily inflows. This signals continued institutional appetite despite earlier volatility.",
-        "coins": "Bitcoin",
-        "timeUTC": "2026-09-19 00:00–23:59",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-      },
-      {
         "headline": "Brazil blocks stablecoins from regulated cross-border payments starting October 1",
         "what": "Brazil's Central Bank (BCB) has barred electronic foreign exchange providers from using stablecoins or crypto to settle the offshore leg of regulated international payments, effective October 1, 2026 (Resolution BCB No. 561). The rule does not ban crypto ownership or trading, but prohibits institutional settlement flows. Firms like Wise, Nomad, and Braza Bank built stablecoin settlement into their cross-border pipelines and must switch to traditional FX channels.",
         "coins": "USDT, USDC",
@@ -83,16 +75,7 @@
           "url": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report"
         }
       ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin ETFs tap $433M inflow Friday, Fidelity leads institutional demand",
-          "what": "US Bitcoin ETFs recorded $433M net inflows on Friday with Fidelity's FBTC capturing $310.7M. Positive week for Bitcoin ETF sector, with assets at $102.53B and Fidelity/BlackRock taking 97% of daily inflows. Signal of sustained institutional appetite.",
-          "coins": "Bitcoin",
-          "timeUTC": "2026-09-19 00:00–23:59",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-        }
-      ],
+      "Institutional flows and ETFs": [],
       "Exchange and platform changes": [
         {
           "headline": "Robinhood Chain fees collapse 97% even as transactions stay near $1.5B daily",
