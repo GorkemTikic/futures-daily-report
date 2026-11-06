@@ -1,186 +1,107 @@
 {
-  "oneLine": "Bitcoin and Ethereum fell roughly 1% on a Sunday with heavy selling pressure, while traders remained deeply bullish; one token surged 42% on a vesting event and another rose 40% with no clear cause.",
-  "caveman": "On Sunday, October 25, Bitcoin dropped almost 1% and Ethereum dropped about 1.2%. It was a calm day with not much big news. A lot of traders still thought prices would go up (the ratio of long bets to short bets was very high—2.2:1 for Bitcoin, 3.4:1 for Ethereum). But at the same time, smaller traders who jump in and out of positions were selling more than they were buying. One cryptocurrency, APR, jumped 42% because locked coins that the founders had became available to them that weekend. Another one, CAP, jumped 40%, but nobody can explain why—no news caused it. It was a down but peaceful day.",
-  "priceVolumeSummary": "Bitcoin and Ethereum prices tracked closely across all five major exchanges (Binance, Bybit, OKX, Bitget, Gate), with tight spreads showing good liquidity. Binance led volume decisively: Bitcoin $5.5 billion and Ethereum $4.8 billion USD.",
-  "positioningSummary": "Traders remained very bullish despite the price decline. On Binance, long positions outnumbered shorts by 2.2:1 for Bitcoin and 3.4:1 for Ethereum. The largest traders (top-position ratio) showed even stronger bullish bias at 1.7:1 on both. Funding rates stayed elevated at 10.95% annually for Bitcoin and 9.95% for Ethereum, meaning longs paid shorts premium. Open interest fell 2.4% for Bitcoin but held nearly flat for Ethereum, hinting at modest liquidations. Taker buy/sell ratios below 1.0 (0.96 for Bitcoin, 0.91 for Ethereum) revealed more aggressive selling by market-takers than buying. Market breadth was negative: only 45.7% of Binance perpetuals rose on the day.",
-  "stocksSummary": "Equity markets were closed (Sunday weekend). Commodity perpetuals on CME Globex (the only traditional-asset session open) were mixed: gold and copper rose 0.31% and 0.75%, while crude oil (WTI −0.67%, Brent −0.28%), silver, and most metals fell. Natural gas jumped 1.81%, and platinum dropped 2.14%.",
+  "oneLine": "Bitcoin and Ethereum fell 0.9–1.2% on October 25 as traders booked profits ahead of the Federal Reserve's October 28 decision, with market breadth skewed bearish and long positions crowded.",
+  "caveman": "On Sunday October 25, Bitcoin dropped 0.9% and Ethereum dropped 1.2%. More contracts went down than up—about 55% lost value. People are holding a lot of long bets (making money if price goes up), and the funding payments traders pay each other were high, which shows everyone is bullish. But this is risky because if the price drops even a little, many traders lose at once. The big reason for the fall is that people were selling to lock in gains before the US Federal Reserve makes a big interest-rate announcement on Wednesday. It was a nervous, cautious day.",
+  "priceVolumeSummary": "Bitcoin and Ethereum traded at tightly aligned prices across Binance, Bybit, OKX, Bitget, and Gate. Bitcoin volume dominated at $5.5 billion on Binance, with Ethereum at $4.8 billion; Binance set the pace on both.",
+  "positioningSummary": "Bitcoin's open interest fell 2.4%, signaling liquidation of long positions despite a 2.2× long-to-short ratio on Binance—indicating aggressive longs among smaller traders but the largest traders (top position ratio: 1.70) hold less extreme bets. Funding rates stayed elevated at 10.95% annualized on BTC and 9.95% on ETH, rewarding short-sellers and penalizing buyers, a sign traders expect consolidation. Taker buy–sell ratios of 0.96 (BTC) and 0.91 (ETH) show more aggressive selling pressure than buying. Market breadth was bearish: 45.7% of Binance perps rose, while 54.3% fell—a net sell signal for sentiment.",
+  "stocksSummary": "October 25 was a Sunday; Asian equity cash markets (Korea, Hong Kong, China) were closed. Commodity perps: gold up 0.31%, WTI crude down 0.67%, natural gas up 1.81%, copper up 0.75%.",
   "movers": [
     {
       "symbol": "APRUSDT",
-      "explanation": "APR (Capricorn) surged 42.23% on the back of an October 23 token unlock that released 92.8 million APR coins (33.4% of circulating supply) from the one-year vesting cliff for early investors and core team members. The token had been trading far below its all-time high.",
-      "hasCause": true
+      "explanation": "APR rallied 42% from 0.02763 to 0.03954 UTC-day. No clear public cause; the token may have responded to market flow shifts or order-book depth changes.",
+      "hasCause": false
     },
     {
       "symbol": "CAPUSDT",
-      "explanation": "CAP gained 39.65% with no identified public catalyst or news event on October 25.",
+      "explanation": "CAP surged 39.7% from 0.07985 to 0.11179. No clear public cause identified in market data or news sources.",
       "hasCause": false
     },
     {
       "symbol": "ORDERUSDT",
-      "explanation": "ORDER fell 34.79% with no clear public cause identified.",
+      "explanation": "ORDER fell 34.8% from 0.07030 to 0.04577. No clear public cause; the decline may reflect liquidations or holder selling pressure.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "APR token unlock releases 92.8M coins from vesting, driving 42% surge",
-        "what": "Capricorn (APR) token became available to early investors and core contributors on October 23, as the one-year vesting cliff for their allocations expired. By October 25, the token had rallied 42.23% on the unlock catalyst, though it remained well below its all-time high.",
-        "coins": "APR",
-        "timeUTC": "2026-10-23 (unlock event affecting Oct 25 price)",
-        "source": "Cryptocurrency market data and token event tracking",
-        "url": "https://www.kucoin.com/ (token unlock verified via exchange data)"
+        "headline": "[Context, Oct 26] Anthropic files blockbuster IPO worth up to $100 billion; AI market sentiment spills into crypto.",
+        "what": "The maker of Claude AI reported $16.3 billion in first-half revenue and $80.7 billion in net losses as it filed for a Nasdaq IPO. The announcement lifted tech sentiment and fueled speculation about AI infrastructure spending, which has knock-on effects on crypto mining and data-center demand.",
+        "coins": "BTC, ETH (macro impact)",
+        "timeUTC": "2026-10-26 (filed Monday; context for Oct 25 positioning)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
       },
       {
-        "headline": "Bitcoin spot ETF records $443M outflow on October 25",
-        "what": "Bitcoin spot ETFs saw net outflows of $443 million on October 25, 2026, reflecting profit-taking and investor hesitation ahead of the Federal Reserve's October 28 rate decision. Ethereum spot ETF data for this specific date was unavailable; however, October 2026 ended with $1.61 billion in total Ethereum ETF outflows—the largest monthly outflow since the products launched in July 2024.",
-        "coins": "BTC, ETH",
-        "timeUTC": "2026-10-25 (BTC flows)",
-        "source": "Farside Investors / SoSoValue (ETF flow aggregators)",
-        "url": "https://farside.co.uk/btc/ (Bitcoin ETF flow dashboard)"
+        "headline": "[Context, Oct 26] NBA joins CFTC prediction-market pact; crypto derivatives grow institutional traction.",
+        "what": "The National Basketball Association signed a memorandum of understanding with the Commodity Futures Trading Commission to enable prediction markets on games through venues like Kalshi and Polymarket. The deal signals regulator approval for crypto-native trading venues and reflects broader mainstream adoption.",
+        "coins": "Regulatory climate for crypto derivatives",
+        "timeUTC": "2026-10-26",
+        "source": "CFTC / The Block",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9314-26"
       },
       {
-        "headline": "South Korea considers fourth delay on crypto tax, pushing implementation to 2029",
-        "what": "South Korea's government, via the presidential office, backed postponing the cryptocurrency income tax from its original January 2027 target to potentially 2029, citing unfinished preparations and the difficulty of obtaining overseas trading data from the U.S. until 2029. This marks the fourth delay since the tax was first proposed in 2020.",
-        "coins": "General market sentiment",
-        "timeUTC": "2026-10-25",
-        "source": "South Korean regulatory announcements",
+        "headline": "[Context, Oct 26] South Korea considers delaying crypto tax to 2029 as data-sharing with US stalls.",
+        "what": "South Korea's government is mulling a fourth postponement of its cryptocurrency income tax from January 2027 to 2029, citing inability to obtain overseas trading data from US agencies until then. The delay removes a near-term regulatory headwind for Asian traders.",
+        "coins": "Regulatory impact (bullish for Korea market)",
+        "timeUTC": "2026-10-26 (announcement; policy context)",
+        "source": "CoinDesk",
         "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029"
       }
     ],
     "groups": {
-      "Regulation and policy": [
-        {
-          "headline": "South Korea considers fourth delay on crypto tax, pushing implementation to 2029",
-          "what": "South Korea's government backed postponing the cryptocurrency income tax from January 2027 to potentially 2029, citing unfinished preparations and difficulty obtaining overseas trading data from the U.S. until 2029.",
-          "coins": "General sentiment",
-          "timeUTC": "2026-10-25",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029"
-        },
-        {
-          "headline": "SEC targets tokenized securities as 2027 examination priority",
-          "what": "The U.S. Securities and Exchange Commission announced that tokenized securities will be a focal point of compliance examinations in 2027, signaling regulatory scrutiny of tokenization infrastructure and compliance practices.",
-          "coins": "General market",
-          "timeUTC": "2026-10-25",
-          "source": "SEC announcements",
-          "url": "https://www.sec.gov (regulatory filings and announcements)"
-        },
-        {
-          "headline": "OCC calls on community banks to become payment stablecoin issuers",
-          "what": "The U.S. Office of the Comptroller of the Currency (OCC) issued guidance encouraging smaller lenders to develop and issue stablecoins for payments as part of implementation of the GENIUS Act, set to take effect in January 2027.",
-          "coins": "Stablecoins, payments",
-          "timeUTC": "2026-10-26 (announced, context post-report day)",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act"
-        }
-      ],
-      "Institutional flows and ETFs": [
-        {
-          "headline": "Bitcoin spot ETF records $443M outflow on October 25",
-          "what": "Bitcoin spot ETFs saw net outflows of $443 million on October 25, reflecting profit-taking and investor caution ahead of the Federal Reserve's October 28 rate decision. October 2026 recorded $1.61 billion in total Ethereum ETF outflows, the largest monthly outflow since July 2024 launch.",
-          "coins": "BTC, ETH",
-          "timeUTC": "2026-10-25",
-          "source": "Farside Investors / SoSoValue",
-          "url": "https://farside.co.uk/btc/"
-        },
-        {
-          "headline": "Strategy pauses bitcoin buys, executes $205M preferred-stock buyback",
-          "what": "[Context: Oct 26] Bitcoin treasury firm Strategy made no Bitcoin purchases or sales last week, instead redirecting capital to a record $205 million in buybacks of its own STRC preferred stock, signaling a shift in capital allocation strategy. Strive, by contrast, bought $511 million in Bitcoin.",
-          "coins": "BTC",
-          "timeUTC": "2026-10-26 (post-report context)",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "Binance launches PREDICT futures with 5x leverage pre-market trading",
-          "what": "Binance announced perpetual futures trading for Predict.fun's PREDICT token with up to 5x leverage, enabling pre-market liquidity for new token listings.",
-          "coins": "PREDICT",
-          "timeUTC": "2026-10-25",
-          "source": "Binance announcements",
-          "url": "https://www.binance.com (official exchange announcements)"
-        },
-        {
-          "headline": "Anthropic files for blockbuster IPO, targeting mid-November pricing",
-          "what": "[Context: Oct 26] AI company Anthropic (maker of Claude) disclosed $16.3 billion in first-half 2026 revenue and an $80.7 billion net loss as it filed its S-1 registration statement, aiming to price its IPO in mid-November at up to $100 billion, triggering a rally in AI-related crypto holdings.",
-          "coins": "General risk sentiment",
-          "timeUTC": "2026-10-26 (post-report context)",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
-        }
-      ]
+      "Regulation and policy": [],
+      "Institutional flows and ETFs": [],
+      "Exchange and platform changes": []
     }
   },
   "etfFlows": {
-    "date": "2026-10-25",
-    "summary": "Bitcoin spot ETFs recorded $443 million in net outflows on October 25. Ethereum spot ETF flows for this specific date were unavailable; however, Ethereum ETFs recorded $1.61 billion in total monthly outflows for October 2026, their largest monthly drawdown since launching in July 2024.",
+    "date": "2026-10-23",
+    "summary": "US spot Bitcoin ETFs posted $443 million in net outflows on the last trading day before the report (Friday, Oct 23), as traders locked in gains ahead of the Federal Reserve's scheduled October 28 rate decision. Ethereum spot ETF flows for Oct 23 were not separately disclosed; however, ETH spot products recorded $1.61 billion in total outflows for October 2026, the largest monthly drain since July 2024 launch.",
     "source": "Farside Investors / SoSoValue",
     "url": "https://farside.co.uk/btc/"
   },
   "calendarNotes": [
     {
-      "event": "Federal Reserve FOMC Rate Decision, Statement, and Press Conference on October 28 at 18:00–18:30 UTC",
-      "typicalReaction": "High impact: Bitcoin and Ethereum typically rally hard on dovish surprises (no rate cut or hawkish language = selling); clarity on future rate cuts supports risk assets. All major crypto indices closely monitor Fed signals."
+      "event": "Federal Reserve Rate Decision and FOMC Statement (Wed 28 Oct, 18:00 UTC)",
+      "typicalReaction": "Historically, crypto rallies on 'dovish' rate holds (no hike) and declines on surprise hikes or hawkish guidance. Oct 25 selling reflects traders unwinding longs before the announcement."
     },
     {
-      "event": "US Advance GDP, Core PCE, and Jobless Claims on October 29 at 12:30 UTC",
-      "typicalReaction": "High impact: Strong GDP or inflation data may force the Fed to hold or tighten further; weak data supports crypto. PCE is the Fed's preferred inflation gauge."
-    },
-    {
-      "event": "Bank of Japan Rate Decision (October 30) and Eurozone GDP Flash (October 30)",
-      "typicalReaction": "Medium to high: Global central bank divergence affects carry-trade flows and risk sentiment. Weak European growth may support safe-haven demand."
+      "event": "US Advance GDP q/q, Core PCE, Initial Jobless Claims (Thu 29 Oct, 12:30 UTC)",
+      "typicalReaction": "Strong growth or inflation data can spook crypto; weak data may embolden rate-cut bets and lift sentiment."
     }
   ],
   "glossary": [
     {
-      "term": "Annualized funding rate",
-      "definition": "The yearly return that long-position holders pay to short-position holders (or vice versa) in perpetual futures, expressed as a percentage. High rates (above 10%) suggest longs are overconfident and paying a premium. 8-hour rates are multiplied by ~3 to annualize."
-    },
-    {
-      "term": "Breadth (market breadth)",
-      "definition": "The percentage of all instruments (cryptocurrencies or futures) that rose on the day. Below 50% indicates more losers than winners (bearish signal); above 50% indicates more winners (bullish signal). Binance breadth was 45.68% on October 25, showing slightly more losers."
-    },
-    {
       "term": "Funding rate",
-      "definition": "A periodic payment between long and short traders in perpetual futures. If positive, longs pay shorts; if negative, shorts pay longs. Reflects market sentiment (high positive rates = consensus is bullish)."
+      "definition": "A payment between traders taking opposite sides of a perpetual futures contract. When funding is positive, buyers pay sellers every 8 hours (at Binance). Elevated rates signal optimism and can incentivize shorting if unsustainably high."
     },
     {
-      "term": "Liquidations",
-      "definition": "Forced closeout of leveraged positions when losses exceed a trader's margin. Large liquidations cause price spikes and can trigger cascading losses."
+      "term": "Long-to-short ratio",
+      "definition": "The number of traders holding long (bet on price rising) positions divided by those holding short positions. A ratio above 1 means more people are bullish; a ratio like 2.2 signals bullish leaning but also concentration risk."
     },
     {
-      "term": "Long position / Long",
-      "definition": "A bet that price will rise. A long-position holder profits if the price goes up and loses if it goes down."
-    },
-    {
-      "term": "Long/short ratio",
-      "definition": "The ratio of long-position accounts to short-position accounts (e.g., 2.2:1 means 2.2 longs for every 1 short). Above 1.0 = bullish bias; below 1.0 = bearish bias."
+      "term": "Market breadth",
+      "definition": "The percentage of markets (cryptocurrencies or contracts) that moved up versus down in a given period. Breadth above 50% is bullish; below 50% is bearish."
     },
     {
       "term": "Mark price",
-      "definition": "The settlement price used in perpetual futures, usually based on an index of spot prices across exchanges. Used to calculate unrealized gains/losses and trigger liquidations."
+      "definition": "The reference price used to calculate funding and liquidations on futures contracts. It is typically the average of recent trades across major venues, designed to prevent manipulation."
     },
     {
-      "term": "Open interest (OI)",
-      "definition": "The total number of open positions (long and short combined) in a futures market, expressed in coins or USD. Rising OI suggests new money entering; falling OI suggests positions are closing."
+      "term": "Open interest",
+      "definition": "The total dollar value of all open (unrealized) futures positions in a market. Rising OI suggests fresh leverage entering; falling OI suggests positions are closing or being liquidated."
     },
     {
       "term": "Open-interest change",
-      "definition": "The daily percentage change in total open interest. Negative change = positions closing (bearish signal); positive = new positions opening (bullish signal)."
+      "definition": "The percentage shift in total open positions over a period (e.g., a day). Negative change indicates net liquidation or position closure; positive indicates new margin entered."
     },
     {
-      "term": "Short position / Short",
-      "definition": "A bet that price will fall. A short-position holder profits if the price goes down and loses if it goes up."
+      "term": "Taker buy–sell ratio",
+      "definition": "The ratio of buy orders filled at ask (aggressive buying) to sell orders filled at bid (aggressive selling). Above 1 means more aggressive buying; below 1 means more aggressive selling."
     },
     {
-      "term": "Taker buy/sell ratio",
-      "definition": "The ratio of market-buy orders (takers buying at the ask) to market-sell orders (takers selling at the bid). Above 1.0 = more aggressive buying; below 1.0 = more aggressive selling. October 25 showed 0.96 for Bitcoin and 0.91 for Ethereum, both indicating more aggressive selling."
-    },
-    {
-      "term": "Top-trader long/short ratio (top-position ratio)",
-      "definition": "The long/short ratio among the largest and most experienced traders on an exchange, not all accounts. High values (e.g., 1.7:1) indicate large traders are very bullish."
+      "term": "Top position ratio",
+      "definition": "The long-to-short ratio among the largest traders (those holding the biggest positions) on an exchange. It differs from the account ratio and can signal whether big players are aligned or hedging."
     }
   ],
   "_source": "cli"
