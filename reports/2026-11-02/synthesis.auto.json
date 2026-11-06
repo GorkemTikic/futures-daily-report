@@ -1,183 +1,106 @@
 {
-  "oneLine": "Bitcoin and Ethereum declined about 2% on November 2 as traders rotated into altcoins amid lingering caution over the massive Binance breach, while funding costs remained sky-high and broad market breadth strengthened.",
-  "caveman": "On Monday, Bitcoin and Ethereum each dropped about 2%, but something interesting happened: smaller cryptocurrencies actually went UP in price. People were moving their money to different coins because they were worried. The big scary thing was that hackers from North Korea had stolen billions of dollars from Binance, the world's biggest crypto exchange, just a couple of days before. Even though Binance was trying to give everyone their money back, people were still nervous and scared more bad things might happen. It was a worrying day with prices down, but not as crazy as when the hack first happened.",
-  "priceVolumeSummary": "All five major exchanges (Binance, Bybit, OKX, Bitget, Gate) showed nearly identical Bitcoin and Ethereum prices throughout the day, with Binance leading volume at $8.97 billion in BTC trading and $7.48 billion in ETH. Bitcoin fell 1.94% to $76,791 and Ethereum dropped 0.94% to $2,252.80.",
-  "positioningSummary": "Despite the price decline, Bitcoin's open interest rose 1.93% as traders added long-side leverage—a sign of conviction to buy below $77,000. Ethereum's open interest fell 2.01% as some longs were cleared. Both assets carried extreme funding rates of 10.95% annualized, well above normal levels, signaling heavy overleveraging to the upside. Bitcoin's top traders held a 1.67× long-to-short ratio and the taker buy/sell ratio stood at 1.05, showing slight buying aggression. Remarkably, 70% of all Binance perpetuals traded higher on the day despite major coins declining—a classic sign of money rotating into smaller altcoins. The Fear & Greed index ticked up to 37 (Fear level) from 34, reflecting ongoing unease after the exchange hack.",
-  "stocksSummary": "Korean semiconductor stocks led Asian markets on November 2, with SK Hynix climbing 4.0% and Samsung Electronics rising 3.6%, lifting the broader KOSPI index 2.2%. Hong Kong's chip-leverage plays mirrored the move, with a 2× SK Hynix ETF surging 7.4%. The driver of semiconductor strength on the day was not clear from available announcements.",
+  "oneLine": "Bitcoin fell 1.94% and Ethereum fell 0.94% on November 2 as traders rotated into altcoins amid lingering caution from the Binance hack, with market breadth remaining positive despite high funding rates signaling leveraged betting.",
+  "caveman": "On November 2, Bitcoin dropped 2 percent and Ethereum dropped 1 percent. Traders were still worried about a huge hack at an exchange called Binance that had happened a few days before—someone stole over $6 billion. Even though the big coins went down, lots of smaller cryptocurrencies actually went up that day, showing traders were betting on different things. The market felt nervous and fearful. Traders were paying very high fees to borrow money and bet that prices would keep falling, which usually means people expect trouble ahead. It was a worrying, cautious day.",
+  "priceVolumeSummary": "Bitcoin fell 1.94% to $76,791 and Ethereum fell 0.94% to $2,253, with prices consistent across all major venues. Bitcoin futures dominated volume at $8.97 billion on Binance, nearly 1.2 times Ethereum's $7.48 billion; no venue showed a material premium or discount.",
+  "positioningSummary": "Traders heavily favored long positions (bets on prices rising): Bitcoin's long-to-short ratio was 2.30, with the largest traders pushing even harder at 1.67-to-1. Ethereum showed even stronger bullish positioning at 2.56 long-to-short. However, the taker buy-to-sell ratios (1.05 for Bitcoin, 0.98 for Ethereum) revealed only modest aggressive buying, suggesting traders were hesitant despite their bullish posture. Funding rates remained extremely high at 10.95% annually for both coins—the premium traders pay to hold leveraged bets—typically a sign of overleveraged market conditions and anxiety. Bitcoin's open interest grew 1.93% despite the price drop, showing traders were adding leverage rather than closing positions; Ethereum's fell 2.01%, indicating some caution. Remarkably, 70% of all Binance perpetuals (over 560 of 804 pairs) traded up despite both major coins declining, revealing active rotation into alternative cryptocurrencies.",
+  "stocksSummary": "Asian semiconductor stocks surged during morning trading: South Korea's SK Hynix gained 3.996% and Samsung 3.61%, lifting the KOSPI index +2.205%. Hong Kong's leveraged chip-sector bets soared, with CSOP SK Hynix 2x climbing 7.443% and CSOP Samsung 2x rising 6.389%, suggesting regional chip demand strength. Later in the US session, crypto-linked equities drove gains: mining stock HUT jumped 16.73%, networking play ANET rose 16.20%, and semiconductor-heavy AMD climbed 10.50%, showing institutional interest in crypto-adjacent equity exposure.",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "AKE crashed 41.57% intraday from a high of 0.008861 to a low of 0.004912, closing at 0.005044 on $158.6 million volume.",
+      "explanation": "Crashed 41.6% with no clear public cause; possible liquidity crisis or forced liquidation in a low-volume altcoin.",
       "hasCause": false
     },
     {
       "symbol": "ARIAUSDT",
-      "explanation": "ARIA surged 37.54% intraday from 0.08203 to 0.13487, closing at 0.11574 on $270.6 million volume.",
+      "explanation": "Surged 37.5% with no clear public cause; may reflect speculative momentum in a thinly traded token without identified news catalyst.",
       "hasCause": false
     },
     {
       "symbol": "IDOLUSDT",
-      "explanation": "IDOL fell 32.42% intraday from a high of 0.027763 to a low of 0.012378, though it had climbed 20.4% over the prior 24 hours.",
+      "explanation": "Fell 32.4% intraday despite showing gains on 24-hour timeframes, suggesting sharp reversal or position unwinding with no identified cause.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [
-      {
-        "headline": "Binance's $6.3 billion hack began with fake job interviews and exploitation of internal AI tool",
-        "what": "On November 3, Binance released a detailed incident report showing North Korean-linked attackers spent months compromising employee credentials via fake recruitment interviews. They then exploited a compromised internal AI tool to access the hot-wallet signing infrastructure (via Ethereum's EIP-7702 delegation mechanism), stealing over $6.3 billion in crypto. Binance said it has since replaced 90% of stolen assets.",
-        "coins": "BTC, ETH, all",
-        "timeUTC": "3 Nov, UTC",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
-      },
-      {
-        "headline": "CFTC approves stock perpetual futures for US trading, bringing crypto-native products to Wall Street",
-        "what": "On November 3, the US Commodity Futures Trading Commission approved equity perpetual futures on regulated US exchanges. This extends a trading product native to crypto markets—perpetuals allow leverage with no expiration and financing between long and short traders. The move gives US traders a regulated alternative to offshore venues.",
-        "coins": "none",
-        "timeUTC": "3 Nov, UTC",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street"
-      },
-      {
-        "headline": "CZ warns of AI-driven cyberattacks, calls for industry-wide crypto security alliance",
-        "what": "In his first interview since the Binance hack, Changpeng Zhao stated on November 3 that artificial intelligence is accelerating the pace and sophistication of cyberattacks across the crypto sector. He called for an industry security alliance to coordinate response and share threat intelligence, signaling that the Binance breach is likely the start of a wave of AI-powered attacks.",
-        "coins": "BTC, ETH, all",
-        "timeUTC": "3 Nov, UTC",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458"
-      }
-    ],
+    "topThree": [],
     "groups": {
-      "Regulation and policy": [
-        {
-          "headline": "SEC issues no-action letter for Canton Coin, calling it a digital commodity",
-          "what": "The SEC's Division of Corporation Finance stated it will not recommend enforcement against Canton Coin's programmatic issuance, effectively classifying the token as a digital commodity rather than a security. The letter provides clarity on token classification.",
-          "coins": "Canton Coin",
-          "timeUTC": "3 Nov, UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
-        },
-        {
-          "headline": "Moscow Exchange to launch Bitcoin, Ethereum, USDT trading in December",
-          "what": "Russia's primary exchange announced it will begin trading Bitcoin, Ethereum, and Tether starting December 1 under the country's new crypto law. Non-qualified investors will face annual purchase limits.",
-          "coins": "BTC, ETH, USDT",
-          "timeUTC": "3 Nov, UTC",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december"
-        }
-      ],
-      "Exchange and platform changes": [
-        {
-          "headline": "Amazon, Tesla, SpaceX, Netflix block their tokenized shares from OKX-ICE venue",
-          "what": "Major tech firms including Amazon, Tesla, SpaceX, Netflix, and Lam Research filed objections blocking their stock tokens from trading on the planned OKX-ICE tokenized stock exchange. Total objections reached 56 companies—nearly 80% of the original roster—effectively dismantling the project.",
-          "coins": "none",
-          "timeUTC": "3 Nov, UTC",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms"
-        },
-        {
-          "headline": "GitBook suffers AI agent security breach, urges users to rotate keys",
-          "what": "Documentation platform GitBook reported that attackers used AI-assisted methods to gain access to infrastructure credentials. The breach prompted a shutdown and emergency token resets for users.",
-          "coins": "all",
-          "timeUTC": "3 Nov, UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach"
-        }
-      ],
-      "Hacks, exploits and outages": [
-        {
-          "headline": "Brazil's Mercado Bitcoin pledges full refund after $40 million hack",
-          "what": "Brazil's largest Bitcoin exchange announced it will refund all affected users without requiring customers to absorb the loss from a $40 million theft. Withdrawals remain frozen pending full recovery.",
-          "coins": "BTC, all",
-          "timeUTC": "3 Nov, UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/382459/brazil-mercado-bitcoin-will-refund-users-40-million-hack"
-        },
-        {
-          "headline": "Chainalysis discloses AI-assisted breach exposed customer names and emails",
-          "what": "Blockchain analytics firm Chainalysis reported that hackers used AI-assisted techniques to breach infrastructure and steal customer names and email addresses. The firm did not report loss of blockchain data or customer wallets.",
-          "coins": "all",
-          "timeUTC": "3 Nov, UTC",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
-        }
-      ],
-      "Unconfirmed and watch items": [
-        {
-          "headline": "North Korea denies involvement in Binance hack",
-          "what": "North Korea's state news agency (KCNA) issued an official denial of involvement in the Binance theft, despite the FBI's public attribution to North Korean state-sponsored actors. The denial came after multiple US agencies and crypto sources confirmed North Korean involvement.",
-          "coins": "all",
-          "timeUTC": "3 Nov, UTC",
-          "source": "CryptoSlate",
-          "url": "https://cryptoslate.com/north-korea-denies-role-in-6-billion-binance-hack-after-fbi-accusation/"
-        },
-        {
-          "headline": "Tether CEO claims company holds 150,000 Bitcoin versus 100,000 in reserve reports",
-          "what": "At Plan ₿ Forum in Lugano, Tether CEO Paolo Ardoino stated the company owns 'give or take 150,000 Bitcoin,' but the company's Q3 reserve report implies holdings of only 100,060 BTC. The 50,000 BTC discrepancy raises questions about transparency and reserve accounting.",
-          "coins": "BTC, USDT",
-          "timeUTC": "3 Nov, UTC",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/382474/tether-holds-150000-bitcoin-ceo-says"
-        }
-      ]
+      "Hacks, exploits and outages": [],
+      "Regulation and policy": [],
+      "Exchange and platform changes": [],
+      "Unconfirmed and watch items": []
     }
   },
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "US Employment Situation (Non-Farm Payrolls) — Friday 6 Nov, 13:30 UTC",
-      "typicalReaction": "High-impact jobs report typically causes sharp crypto volatility; stronger-than-expected employment may reduce Fed rate-cut expectations and pressure bitcoin."
+      "event": "Eurozone Flash CPI (Nov 4, 10:00 UTC) — medium impact on macroeconomic sentiment",
+      "typicalReaction": "Inflation expectations may shift crypto pricing vs. traditional assets; higher CPI could support rate-cut hopes or extend monetary tightening concern"
     },
     {
-      "event": "Eurozone Flash CPI — Wednesday 4 Nov, 10:00 UTC",
-      "typicalReaction": "Medium-impact inflation data may influence dollar strength and shift positioning in crypto."
+      "event": "US ISM Services PMI (Nov 4, 15:00 UTC) — medium-high impact on growth expectations",
+      "typicalReaction": "Strong services data could bolster risk sentiment and support altcoins; weak data typically triggers flight-to-safety, favoring Bitcoin"
+    },
+    {
+      "event": "US Employment Situation / Non-Farm Payrolls (Nov 6, 13:30 UTC) — high impact, tagged crypto-mover",
+      "typicalReaction": "Major swing catalyst; weak payrolls typically support crypto rally (rate-cut bets), strong payrolls risk reversal and liquidations in leveraged long positions"
     }
   ],
   "glossary": [
     {
+      "term": "Altcoin",
+      "definition": "Any cryptocurrency other than Bitcoin or Ethereum; includes thousands of smaller projects with varying liquidity and risk profiles."
+    },
+    {
       "term": "Breadth",
-      "definition": "The percentage of individual coins trading higher versus lower on the day; high breadth indicates broad-based buying across the market."
+      "definition": "The percentage of coins in a market that are moving up vs. down. High breadth (70%+ up) suggests broad market strength; low breadth suggests weakness is concentrated in major coins."
     },
     {
       "term": "Fear & Greed Index",
-      "definition": "A sentiment gauge ranging from 0 (extreme fear) to 100 (extreme greed); values below 50 indicate market pessimism."
+      "definition": "A sentiment gauge measuring market emotion on a scale from 0 (extreme fear) to 100 (extreme greed). Extremes often signal potential reversals."
     },
     {
       "term": "Funding rate",
-      "definition": "The periodic interest rate paid between perpetual futures traders; when high and positive, long-position holders pay short-position holders, indicating the market is overleveraged with bulls."
+      "definition": "A periodic fee traders pay to hold leveraged positions (bets using borrowed money). High funding rates signal overleveraging and anxiety; traders typically pay this every 8 hours on major exchanges."
     },
     {
-      "term": "Long/short ratio",
-      "definition": "The proportion of traders holding bullish (long) positions versus bearish (short) positions; above 1 means more bulls than bears."
+      "term": "Leverage",
+      "definition": "Using borrowed money to control a larger position than your own cash allows. Amplifies both gains and losses. A 10x leveraged position means a 1% price move causes a 10% gain or loss."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closing of a leveraged position when losses exceed the collateral (margin) backing it. Often triggers a cascade of automatic selling."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will rise. If you go long, you profit if the price goes up and lose if it goes down."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The balance between traders betting up (long) vs. down (short). A ratio of 2.3 means 2.3 traders are betting up for every 1 betting down."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price used to calculate funding payments and liquidations on perpetuals; derived from a mix of spot prices across venues."
+      "definition": "The price used to calculate leverage and trigger liquidations on derivatives. Usually the median of major exchange prices, preventing manipulation."
     },
     {
       "term": "Open interest",
-      "definition": "The total number of outstanding futures contracts at an exchange, measured in either coins or dollars; rising open interest means traders are adding leverage."
+      "definition": "The total notional value (in dollars or coins) of all derivative contracts currently open across all traders. Increasing open interest on a price decline often signals capitulation and potential reversal."
     },
     {
       "term": "Open-interest change",
-      "definition": "The percentage increase or decrease in total outstanding futures over a trading day; indicates whether the market is becoming more or less leveraged."
+      "definition": "How the total open interest moved during a period. Increases suggest new leverage entering the market; decreases suggest liquidations or position closes."
     },
     {
-      "term": "Overleveraged",
-      "definition": "When traders have borrowed more money than prudent relative to their actual assets; increases the risk of forced liquidations if prices move against them."
+      "term": "Perpetual futures",
+      "definition": "Derivative contracts that never expire and are constantly funded by traders to maintain a price close to spot (actual) prices. Used to take leveraged long or short bets without owning the underlying asset."
     },
     {
-      "term": "Perpetual futures (Perpetuals)",
-      "definition": "Futures contracts without expiration dates, allowing traders to hold leveraged positions indefinitely; prices are kept in line with spot markets via a 'funding rate' payment between longs and shorts."
+      "term": "Short position",
+      "definition": "A bet that an asset's price will fall. If you go short, you profit if the price drops and lose if it rises."
     },
     {
-      "term": "Taker buy/sell ratio",
-      "definition": "The ratio of market-taking buy orders to market-taking sell orders; above 1 indicates more aggressive buying, below 1 indicates more aggressive selling."
-    },
-    {
-      "term": "Top-trader long/short ratio",
-      "definition": "The ratio of long to short positions held by the largest traders on an exchange; indicates directional bias of institutional money."
+      "term": "Taker buy-to-sell ratio",
+      "definition": "The ratio of aggressive buyer-initiated trades vs. aggressive seller-initiated trades. Above 1.0 means more aggressive buying; below 1.0 means more aggressive selling. Values near 1.0 show balanced pressure."
     }
   ],
   "_source": "cli"

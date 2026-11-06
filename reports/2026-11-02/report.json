@@ -3,8 +3,8 @@
   "kind": "market",
   "dateLong": "Monday, 2 November 2026",
   "coversUTC": "2026-11-02 00:00–23:59 UTC",
-  "oneLine": "Bitcoin and Ethereum declined about 2% on November 2 as traders rotated into altcoins amid lingering caution over the massive Binance breach, while funding costs remained sky-high and broad market breadth strengthened.",
-  "newsCount": 11,
+  "oneLine": "Bitcoin fell 1.94% and Ethereum fell 0.94% on November 2 as traders rotated into altcoins amid lingering caution from the Binance hack, with market breadth remaining positive despite high funding rates signaling leveraged betting.",
+  "newsCount": 0,
   "macro": {
     "BTC": -1.9090676883780369,
     "ETH": -0.9423549639636202
