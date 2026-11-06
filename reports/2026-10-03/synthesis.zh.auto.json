@@ -81,12 +81,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-10-03",
-    "summary": "比特币ETF在10月3日录得102.7-103百万美元净流入。当周数据（9月28日-10月2日）显示比特币ETF录得82.9百万美元净流入，以太坊ETF录得1.18亿美元净流出。10月3日具体以太坊流量数据未获取；由于贝莱德ETHA/ETHB数据不完整，请谨慎使用当周数据。",
-    "source": "Farside Investors / Cointelegraph",
-    "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "US ISM Services PMI (October) — Monday 5 Oct, 14:00 UTC",
@@ -140,5 +135,5 @@
     }
   ],
   "_source": "cli-zh",
-  "_from": "7e1cf5597594220d"
+  "_from": "f880c00b7934fcc5"
 }

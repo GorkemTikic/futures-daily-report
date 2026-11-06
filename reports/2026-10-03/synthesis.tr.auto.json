@@ -81,12 +81,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-10-03",
-    "summary": "Bitcoin ETF'leri 3 Ekim'de $102,7–103 milyon net giriş kaydetti. Haftalık veriler (28 Eyl–2 Eki) Bitcoin ETF'lerinin $82,9 milyon net giriş ve Ethereum ETF'lerinin $118 milyon net çıkış ile olduğunu gösterdi. 3 Ekim'deki belirli Ethereum akışı verisi yoktu; BlackRock ETHA/ETHB verisi eksik olduğu için haftalık rakamları dikkatle kullanın.",
-    "source": "Farside Investors / Cointelegraph",
-    "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "US ISM Services PMI (October) — Monday 5 Oct, 14:00 UTC",
@@ -140,5 +135,5 @@
     }
   ],
   "_source": "cli-tr",
-  "_from": "7e1cf5597594220d"
+  "_from": "f880c00b7934fcc5"
 }

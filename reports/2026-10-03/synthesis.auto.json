@@ -81,12 +81,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-10-03",
-    "summary": "Bitcoin ETFs recorded net inflows of $102.7–103 million on October 3. Weekly data (Sep 28–Oct 2) showed Bitcoin ETFs with $82.9 million net inflows and Ethereum ETFs with $118 million net outflows. Oct 3 specific Ethereum flow data was not available; use weekly figures with caution as BlackRock ETHA/ETHB data was incomplete.",
-    "source": "Farside Investors / Cointelegraph",
-    "url": "https://cointelegraph.com/markets/bitcoin-etf-meet-uptober-103-million-inflow-btc-up"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "US ISM Services PMI (October) — Monday 5 Oct, 14:00 UTC",
