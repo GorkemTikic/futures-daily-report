@@ -25,6 +25,6 @@
   "wallClockMinutes": 45,
   "_wallClockMinutes": "Overall soft budget for one run. When exceeded, remaining optional work (translations, publish) is skipped, the run is marked degraded, and it exits non-zero rather than being killed mid-write by the scheduler's hard limit.",
 
-  "cliTimeoutMs": 300000,
+  "cliTimeoutMs": 600000,
   "_cliTimeoutMs": "Per-call timeout for a 'claude -p' synthesis/translation. On timeout the whole process tree is killed."
 }
