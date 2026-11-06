@@ -117,12 +117,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-10-31",
-    "summary": "US spot Bitcoin ETFs saw net outflows of $643.2 million on Friday, October 31—the first full trading session after the Binance hack announcement. This marked the end of a four-day inflow streak. October closed with net outflows of approximately $516 million across spot Bitcoin ETFs. Ethereum ETF flow data for November 1 is not available.",
-    "source": "Decrypt",
-    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "US ISM Manufacturing PMI (November 2026) — Monday, November 2, 15:00 UTC",

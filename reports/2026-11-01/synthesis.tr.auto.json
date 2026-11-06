@@ -117,12 +117,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-10-31",
-    "summary": "ABD spot Bitcoin ETF'leri, Binance hack'i haberinden sonra ilk tam işlem seansı olan 31 Ekim Cuma günü 643,2 milyon dolarlık net çıkış kaydetti. Bu, dört günlük giriş serisini sonlandırdı. Ekim, spot Bitcoin ETF'leri arasında yaklaşık 516 milyon dolarlık net çıkışla kapandı. 1 Kasım için Ethereum ETF akış verileri mevcut değildir.",
-    "source": "Decrypt",
-    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "US ISM Manufacturing PMI (November 2026) — Monday, November 2, 15:00 UTC",
@@ -184,5 +179,5 @@
     }
   ],
   "_source": "cli-tr",
-  "_from": "f9e56b87e4832fef"
+  "_from": "8761f95aa162c69b"
 }

@@ -117,12 +117,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-10-31",
-    "summary": "美国现货比特币ETF在10月31日星期五录得6.432亿美元的净流出——币安黑客事件公开后的首个完整交易日。这结束了持续四天的净流入趋势。10月整月在现货比特币ETF中录得约5.16亿美元的净流出。11月1日的以太坊ETF流数据暂未可得。",
-    "source": "Decrypt",
-    "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "US ISM Manufacturing PMI (November 2026) — Monday, November 2, 15:00 UTC",
@@ -184,5 +179,5 @@
     }
   ],
   "_source": "cli-zh",
-  "_from": "f9e56b87e4832fef"
+  "_from": "8761f95aa162c69b"
 }
