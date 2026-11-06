@@ -139,12 +139,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-19",
-    "summary": "美国现货比特币ETF周五录得4330万美元流入，富达的FBTC领衔，占总流入的71%（3107万美元）。比特币ETF资产规模达1025.3亿美元。以太坊ETF流入数据在9月19日没有日内粒度数据，但早期月度数据显示持续的正流入。数据来源：The Block和Farside Investors / SoSoValue。",
-    "source": "The Block / Farside Investors",
-    "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "Swiss National Bank Rate Decision — Thursday Sept 24, 07:30 UTC",
@@ -209,5 +204,6 @@
       "definition": "提供期货合约的加密货币交易所或交易平台（例如币安、Bybit、OKX）。"
     }
   ],
-  "_source": "cli-zh"
+  "_source": "cli-zh",
+  "_from": "48be4f6122aa1e59"
 }

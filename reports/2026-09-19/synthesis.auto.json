@@ -139,12 +139,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-19",
-    "summary": "US spot Bitcoin ETFs recorded $433M in Friday inflows, with Fidelity's FBTC leading at $310.7M (71% of total). Bitcoin ETF assets reached $102.53B. Ethereum ETF flows not available at intraday granularity for Sept 19, though early-month data showed consistent positive flows. Source: The Block and Farside Investors / SoSoValue.",
-    "source": "The Block / Farside Investors",
-    "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "Swiss National Bank Rate Decision — Thursday Sept 24, 07:30 UTC",

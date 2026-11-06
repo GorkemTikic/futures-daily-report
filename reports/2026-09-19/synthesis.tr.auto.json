@@ -139,12 +139,7 @@
       ]
     }
   },
-  "etfFlows": {
-    "date": "2026-09-19",
-    "summary": "ABD spot Bitcoin ETF'leri cuma günü 433 milyon dolarlık giriş kaydetti; Fidelity'nin FBTC, 310,7 milyon dolar (toplam yüzde 71) ile öncü konumdaydı. Bitcoin ETF varlıkları 102,53 milyar dolara ulaştı. Ethereum ETF akışları 19 Eylül için gün içi ayrıntı düzeyinde mevcut değil; ancak ay başı verileri tutarlı pozitif akışlar gösterdi. Kaynak: The Block ve Farside Investors / SoSoValue.",
-    "source": "The Block / Farside Investors",
-    "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871"
-  },
+  "etfFlows": null,
   "calendarNotes": [
     {
       "event": "İsviçre Ulusal Bankası Faiz Kararı — Perşembe 24 Eylül, 07:30 UTC",
@@ -209,5 +204,6 @@
       "definition": "Vadeli işlem sözleşmelerinin sunulduğu bir kripto para borsası veya alım satım platformu (örn., Binance, Bybit, OKX)."
     }
   ],
-  "_source": "cli-tr"
+  "_source": "cli-tr",
+  "_from": "48be4f6122aa1e59"
 }
