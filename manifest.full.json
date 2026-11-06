@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-06T00:08:21.868Z",
+  "generatedAt": "2026-11-06T00:08:29.605Z",
   "count": 142,
   "counts": {
     "total": 142,
@@ -1855,7 +1855,7 @@
       },
       "marketSummary": "Bitcoin and Ethereum rose modestly on steady volume, with open interest shrinking on Bitcoin despite high funding costs, as institutional Bitcoin ETF inflows offset mixed regulatory headwinds including Brazil's planned stablecoin settlement ban.",
       "oneLine": "Bitcoin and Ethereum rose modestly on steady volume, with open interest shrinking on Bitcoin despite high funding costs, as institutional Bitcoin ETF inflows offset mixed regulatory headwinds including Brazil's planned stablecoin settlement ban.",
-      "newsCount": 13,
+      "newsCount": 11,
       "topMover": {
         "symbol": "ONEUSDT",
         "chgPct": 95.9183673469388
