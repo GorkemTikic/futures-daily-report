@@ -1,11 +1,11 @@
 {
-  "runId": "2026-11-06T00:07:15.871Z",
+  "runId": "2026-11-06T00:08:26.532Z",
   "dateOverride": "2026-09-19",
   "reuseSynthesis": true,
-  "startedAt": "2026-11-06T00:07:15.871Z",
+  "startedAt": "2026-11-06T00:08:26.532Z",
   "status": "ok",
-  "finishedAt": "2026-11-06T00:07:25.486Z",
-  "durationSec": 10,
+  "finishedAt": "2026-11-06T00:08:34.474Z",
+  "durationSec": 8,
   "date": "2026-09-19",
   "live": true,
   "window": {

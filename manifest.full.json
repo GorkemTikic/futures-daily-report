@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-06T00:08:29.605Z",
+  "generatedAt": "2026-11-06T00:14:34.631Z",
   "count": 142,
   "counts": {
     "total": 142,
@@ -1814,8 +1814,8 @@
         "BTC": -0.14082929249284926,
         "ETH": 0.4506763945888482
       },
-      "marketSummary": "Bitcoin consolidated near $81,140 while Ethereum climbed 0.45%, institutional inflows totaled $577M into both spot ETFs, and three regulatory moves—SEC approving tokenized stocks, Visa closing rewards loopholes, and an EU staking review—reshaped the compliance landscape alongside scandals at Polymarket and broader platform challenges.",
-      "oneLine": "Bitcoin consolidated near $81,140 while Ethereum climbed 0.45%, institutional inflows totaled $577M into both spot ETFs, and three regulatory moves—SEC approving tokenized stocks, Visa closing rewards loopholes, and an EU staking review—reshaped the compliance landscape alongside scandals at Polymarket and broader platform challenges.",
+      "marketSummary": "Bitcoin consolidated near $81,140 while Ethereum climbed 0.45%, and three regulatory moves—SEC approving tokenized stocks, Visa closing rewards loopholes, and an EU staking review—reshaped the compliance landscape alongside scandals at Polymarket and broader platform challenges.",
+      "oneLine": "Bitcoin consolidated near $81,140 while Ethereum climbed 0.45%, and three regulatory moves—SEC approving tokenized stocks, Visa closing rewards loopholes, and an EU staking review—reshaped the compliance landscape alongside scandals at Polymarket and broader platform challenges.",
       "newsCount": 7,
       "topMover": {
         "symbol": "SAGAUSDT",
