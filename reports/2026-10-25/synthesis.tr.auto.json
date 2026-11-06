@@ -1,48 +1,48 @@
 {
-  "oneLine": "25 Ekim'de Bitcoin %0,9 ve Ethereum %1,2 düştü. Yatırımcılar Federal Rezerv'in 28 Ekim kararından önce kâr realizasyonu yapıyor, pazar genişliği olumsuz ve long pozisyonlar yoğun.",
-  "caveman": "Pazar günü 25 Ekim'de Bitcoin %0,9, Ethereum %1,2 düştü. Yükselen sözleşmelerden daha fazlası düştü—kabaca %55 değer kaybetti. İnsanlar çok fazla long bahsi tutuyor (fiyat yükselirse para kazanırlar). Yatırımcılar birbirlerine ödedikleri finansman oranları yüksekti — herkesin iyimser olduğunu gösteriyor. Ama riskli: fiyat biraz düşerse, birçok yatırımcı aynı anda kaybediyor. Asıl nedeni: Çarşamba günü Federal Rezerv'in faiz kararından önceki gün, insanlar kâr kilitleme için satış yapıyordu. Gergin ve ihtiyatlı bir gündü.",
-  "priceVolumeSummary": "Bitcoin ve Ethereum Binance, Bybit, OKX, Bitget ve Gate'de hemen hemen aynı fiyattan işlem gördü. Bitcoin hacimleri Binance'de 5,5 milyar dolar, Ethereum 4,8 milyar dolar; Binance pazar temposu belirledi.",
-  "positioningSummary": "Bitcoin'in açık faiz miktarı %2,4 düştü, long pozisyonların kapatılıyor olduğunu işaret ediyor. Binance'deki 2,2 katlı long/short oranına rağmen, küçük yatırımcılar arasında agresif long pozisyonları var; ancak en büyük yatırımcılar (en büyük pozisyon oranı: 1.70) daha tutumlu. Finansman oranları BTC'de yıllık %10,95, ETH'de %9,95 olarak yüksek kaldı — short satıcılarını ödüllendiriyor, alıcılarını cezalandırıyor ve yatırımcıların fiyat konsolidasyonu beklediğini gösteriyor. Taker alış/satış oranları BTC'de 0,96, ETH'de 0,91 — satış baskısı alış baskısından daha güçlü. Pazar genişliği olumsuz: Binance vadeli işlem sözleşmelerinin %45,7'si yükseldi, %54,3'ü düştü — bearish sinyal.",
-  "stocksSummary": "25 Ekim Pazar günüydü; Asya hisse senedi nakit piyasaları (Kore, Hong Kong, Çin) kapalıydı. Emtia vadeli işlemleri: altın %0,31 yükselişte, WTI %0,67 düşüşte, doğal gaz %1,81 yükselişte, bakır %0,75 yükselişte.",
+  "oneLine": "Bitcoin ve Ethereum, 25 Ekim'de Federal Rezerv'in 28 Ekim kararından önce yatırımcılar kâr realizasyonu yaptıkça %0,9–%1,2 düştü; pazar genişliği boğun lehinde, uzun pozisyonlar yoğun.",
+  "caveman": "Pazar günü 25 Ekim'de Bitcoin %0,9 ve Ethereum %1,2 düştü. Daha fazla kontrat düştü—yaklaşık %55'i değer kaybetti. İnsanlar çok sayıda uzun bahis tutuyor (fiyat yükselirse para kazanır) ve tüccarların birbirlerine ödediği finansman ödemeleri yüksekti, bu herkesin iyimser olduğunu gösteriyor. Ama bu risklidir çünkü fiyat biraz düşerse birçok tüccar bir anda kayıp veriyor. Düşüşün ana nedeni, insanların çarşamba günü ABD Federal Rezerv'in büyük bir faiz oranı kararı vermesinden önce kâr kilitlemeye çalışmalarıdır. Gergin ve temkinli bir gündü.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum, Binance, Bybit, OKX, Bitget ve Gate'de yakın seviyelerde işlem gördü. Bitcoin hacmi Binance'de 5,5 milyar dolar ile hâkimiyetini korudu, Ethereum 4,8 milyar dolar; Binance her ikisinde de hızı belirledi.",
+  "positioningSummary": "Bitcoin'in açık pozisyonu %2,4 düştü ve bu, uzun pozisyonların kapatıldığını gösterdi; ancak Binance'de 2,2 oranında uzun-kısa oranı vardı—küçük tüccarların agresif olduğunu ama en büyük tüccarların (en yüksek pozisyon oranı: 1,70) daha az aşırı bahisler tuttuğunu gösteriyor. Finansman oranları BTC'de %10,95 ve ETH'de %9,95 seviyesinde yüksek kaldı; bu, kısa satıcılara ödeme yaparken alıcıları cezalandırıyor ve tüccarların konsolidasyon beklediğinin işareti. Alıcı-satıcı oranları BTC'de 0,96 ve ETH'de 0,91 idi—satış baskısının alış baskısından daha güçlü olduğunu gösteriyor. Pazar genişliği boğun lehindeydi: Binance vadeli işlemlerinin %45,7'si yükseldi, %54,3'ü düştü—duygular için net satış sinyali.",
+  "stocksSummary": "25 Ekim Pazardı; Asya nakdi piyasaları (Güney Kore, Hong Kong, Çin) kapalıydı. Emtia vadeli işlemleri: altın %0,31 yükseldi, WTI ham petrol %0,67 düştü, doğal gaz %1,81 yükseldi, bakır %0,75 yükseldi.",
   "movers": [
     {
       "symbol": "APRUSDT",
-      "explanation": "APR %42 yükseldi, 0,02763'ten 0,03954'e. Açık bir sebep tespit edilmedi; token pazar akışı kaymaları veya emir defteri derinlik değişikliklerine tepki vermiş olabilir.",
+      "explanation": "APR, 0,02763'ten 0,03954'e %42 yükseldi (UTC günü). Haber kaynaklarında açık bir neden yoktur; token, pazar akışı değişikliklerine veya emir defteri derinliği değişikliklerine yanıt verebilir.",
       "hasCause": false
     },
     {
       "symbol": "CAPUSDT",
-      "explanation": "CAP %39,7 yükseldi, 0,07985'ten 0,11179'e. Açık bir sebep belirtilmedi.",
+      "explanation": "CAP, 0,07985'ten 0,11179'a %39,7 yükseldi. Pazar verileri veya haber kaynaklarında açık bir neden bulunamadı.",
       "hasCause": false
     },
     {
       "symbol": "ORDERUSDT",
-      "explanation": "ORDER %34,8 düştü, 0,07030'dan 0,04577'ye. Açık bir sebep yok; düşüş likidasyonlar veya satış baskısını yansıtıyor olabilir.",
+      "explanation": "ORDER, 0,07030'dan 0,04577'ye %34,8 düştü. Haber kaynaklarında açık bir neden yoktur; düşüş, tasfiyeler veya sahip satış baskısını yansıtabilir.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "[Bağlam, 26 Ekim] Anthropic 100 milyar dolara kadar değer gören devasa halka açılışını başvuruyor; yapay zeka pazar optimizmi kripto sektörüne taşınıyor.",
-        "what": "Claude AI yapan şirket, Nasdaq'ta halka açılış başvurusu yaparken ilk yarı dönem gelirleri 16,3 milyar dolar, net zararlar 80,7 milyar dolar olarak açıkladı. Duyuru teknoloji duygusunu yükseltti ve yapay zeka altyapı harcamalarına ilişkin spekülasyonları kızıştırdı; bu da kripto madenciliği ve veri merkezi talebinde dolaylı etkilere yol açıyor.",
+        "headline": "[Bağlam, 26 Ekim] Anthropic 100 milyar dolara kadar değerli işlem yapıcı halka arz başvurusu yaptı; yapay zeka pazar duygusu kripto'ya yayılıyor.",
+        "what": "Claude AI'ın üreticisi, ilk yarıyılda 16,3 milyar dolar gelir ve 80,7 milyar dolar net zarar rapor ederek Nasdaq halka arz başvurusu yaptı. Duyuru, teknoloji duygusunu yükseltti ve yapay zeka altyapısı harcamaları hakkında spekülasyonu tetikledi; bu, kripto madenciliği ve veri merkezi talebine dolaylı etkiler yaratıyor.",
         "coins": "BTC, ETH (makro etki)",
-        "timeUTC": "2026-10-26 (Pazartesi başvuru; 25 Ekim pozisyonlandırması için bağlam)",
+        "timeUTC": "2026-10-26 (Pazartesi başvuru; 25 Ekim konumlandırması için bağlam)",
         "source": "CoinDesk",
         "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
       },
       {
-        "headline": "[Bağlam, 26 Ekim] NBA CFTC tahmin piyasası anlaşmasına katılıyor; kripto türevleri kurumsal ilgi kazanıyor.",
-        "what": "Ulusal Basketbol Derneği, Kalshi ve Polymarket gibi platformlar aracılığıyla oyunlar hakkında tahmin piyasaları etkinleştirmek için Emtia Vadeli İşlem Ticaret Komisyonu'yla bir mutabakat anlaşması imzaladı. Anlaşma kripto tabanlı ticaret platformları için düzenleyici onayını gösteriyor ve daha geniş ana akım benimsemeyi yansıtıyor.",
-        "coins": "Kripto türevleri için düzenleyici iklim",
+        "headline": "[Bağlam, 26 Ekim] NBA, CFTC tahmin piyasası anlaşmasına katılıyor; kripto vadeli işlemler kurumsal çekimi artırıyor.",
+        "what": "Ulusal Basketbol Birliği, Emtia Vadeli İşlemler Ticaret Komisyonu ile Kalshi ve Polymarket gibi mekanları aracılığıyla oyunlarda tahmin piyasaları etkinleştirmek için bir mutabakat muhtırası imzaladı. Anlaşma, kripto-doğal ticaret mekanları için düzenleyici onayı gösteriyor ve daha geniş ana akım benimsenmesini yansıtıyor.",
+        "coins": "Kripto vadeli işlemleri için düzenleyici iklim",
         "timeUTC": "2026-10-26",
         "source": "CFTC / The Block",
         "url": "https://www.cftc.gov/PressRoom/PressReleases/9314-26"
       },
       {
-        "headline": "[Bağlam, 26 Ekim] Güney Kore kripto vergisini 2029'a ertelemeyi düşünüyor; ABD ile veri paylaşımı duraklanıyor.",
-        "what": "Güney Kore hükümeti, 2027 Ocak'tan 2029'a kadar kripto kazanç vergisini dördüncü kez ertelemeyi düşünüyor. Gerekçe: ABD kurumlarından yurt dışı ticaret verilerini o zamana kadar elde edemiyor. Bu erteleme Asya yatırımcıları için yakın vadeli düzenleyici engeli kaldırıyor.",
-        "coins": "Düzenleyici etki (Kore piyasası için olumlu)",
+        "headline": "[Bağlam, 26 Ekim] Güney Kore, verilerin ABD ile paylaşılmasının durması nedeniyle kripto vergisini 2029'a ertelemeyi düşünüyor.",
+        "what": "Güney Kore hükümeti, kripto gelir vergisini Ocak 2027'den 2029'a ertelemenin dördüncü ertelemesini düşünüyor; ABD kurumlarından yurt dışı ticaret verilerini 2029'a kadar alamayacağı gerekçesiyle. Gecikme, Asya tüccarları için yakın vadeli düzenleyici engeli ortadan kaldırıyor.",
+        "coins": "Düzenleyici etki (Kore piyasası için iyimser)",
         "timeUTC": "2026-10-26 (duyuru; politika bağlamı)",
         "source": "CoinDesk",
         "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029"
@@ -56,54 +56,54 @@
   },
   "etfFlows": {
     "date": "2026-10-23",
-    "summary": "ABD spot Bitcoin ETF'leri, rapor öncesi son işlem gününde (Cuma, 23 Ekim) 443 milyon dolar net akış kaybı kaydetti. Yatırımcılar Federal Rezerv'in planlanan 28 Ekim oran kararından önceki kâr realizasyonu yapıyordu. Ethereum spot ETF akışları 23 Ekim için ayrı olarak açıklanmadı; ancak ETH spot ürünleri Ekim 2026'de toplam 1,61 milyar dolar akış kaybı kaydetti — Temmuz 2024 lansmanından bu yana en büyük aylık çıkış.",
+    "summary": "ABD spot Bitcoin ETF'leri, raporun başladığı son işlem gününde (Cuma, 23 Ekim) 443 milyon dolar net çıkış kaydetti; tüccarlar Federal Rezerv'in planlanan 28 Ekim oran kararından önce kâr kilitledi. Ethereum spot ETF akışları 23 Ekim için ayrı olarak açıklanmadı.",
     "source": "Farside Investors / SoSoValue",
     "url": "https://farside.co.uk/btc/"
   },
   "calendarNotes": [
     {
       "event": "Federal Reserve Rate Decision and FOMC Statement (Wed 28 Oct, 18:00 UTC)",
-      "typicalReaction": "Tarihsel olarak kripto dovişken oran tutma (artış yok) durumlarında yükselir, sürpriz hike veya şahin rehberlik sonrasında düşer. 25 Ekim'deki satışlar yatırımcıların duyurulamamadan önce long pozisyonlarını kapatıyor."
+      "typicalReaction": "Tarihsel olarak, kripto 'tutumlu' oran tutuşlarında (hike yok) yükselir ve sürpriz hike'larda veya agresif rehberlikte düşer. 25 Ekim satışı, tüccarların duyurumdan önce uzun pozisyonlarını kapatmayı yansıtır."
     },
     {
       "event": "US Advance GDP q/q, Core PCE, Initial Jobless Claims (Thu 29 Oct, 12:30 UTC)",
-      "typicalReaction": "Güçlü büyüme veya enflasyon verisi kripto'yu rahatsız edebilir; zayıf veri oran indirim beklentilerini güçlendirebilir ve duyguyu yükseltebilir."
+      "typicalReaction": "Güçlü büyüme veya enflasyon verisi kripto'yu korku içinde bırakabilir; zayıf veri, oran kesintisi bahislerini cesur hale getirebilir ve duyguyu yükseltebilir."
     }
   ],
   "glossary": [
     {
-      "term": "Finansman Oranı",
-      "definition": "Perpetual vadeli işlem sözleşmesinde karşıt taraflarını tutan yatırımcılar arasında yapılan bir ödeme. Finansman pozitif olduğunda, alıcılar her 8 saatte bir satıcılarına ödeme yapar (Binance'de). Yüksek oranlar iyimserliği gösterir ve sürdürülemez düzeyde olursa kısa satış yapmayı teşvik edebilir."
+      "term": "Finansman oranı",
+      "definition": "Bir sonsuza kadar vadeli işlem sözleşmesinin karşı taraflarını tutan tüccarlar arasında bir ödeme. Finansman pozitifken, alıcılar her 8 saatte satıcılara (Binance'de) ödeme yapar. Yüksek oranlar iyimserliği gösterir ve eğer sürdürülemez ise kısa satış yapma teşviği verebilir."
     },
     {
-      "term": "Long/Short Oranı",
-      "definition": "Long pozisyonu (fiyat yükselirse kâr eden) tutan yatırımcı sayısının short pozisyonu tutan yatırımcı sayısına bölümü. 1'den yüksek oran daha fazla iyimserliği gösterir; 2,2 gibi bir oran iyimserliği işaret eder ancak yoğunluk riskini de gösterir."
+      "term": "Uzun-kısa oranı",
+      "definition": "Uzun pozisyon tutan (fiyat yükselirse para kazanır) tüccarların sayısı bölü kısa pozisyon tutanların sayısı. 1'in üzerindeki oran daha fazla insanın iyimser olduğunu; 2,2 gibi bir oran iyimser eğilimi ama aynı zamanda yoğunlaşma riskini gösterir."
     },
     {
-      "term": "Pazar Genişliği",
-      "definition": "Belirli bir dönemde yükselişe veya düşüşe geçen pazarların (kripto paralar veya sözleşmeler) yüzdesi. %50'nin üzerinde bullish; altında bearish'dir."
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir dönemde yukarı karşı aşağı hareket eden piyasaların (kripto para birimleri veya sözleşmeler) yüzdesi. %50'nin üzerindeki genişlik iyimserdir; %50'nin altında ayıdır."
     },
     {
-      "term": "Mark Fiyatı",
-      "definition": "Vadeli işlem sözleşmelerinde finansman ve likidasyonları hesaplamak için kullanılan referans fiyat. Tipik olarak ana merkezlerdeki son işlem fiyatlarının ortalamasıdır ve manipülasyonu önlemek için tasarlanmıştır."
+      "term": "İşaret fiyatı",
+      "definition": "Vadeli işlem sözleşmelerinde finansman ve tasfiye hesaplamak için kullanılan referans fiyat. Tipik olarak, manipülasyonu önlemek için tasarlanmış büyük mekanlar arasındaki son işlemlerinin ortalamasıdır."
     },
     {
-      "term": "Açık Faiz",
-      "definition": "Bir piyasadaki tüm açık (gerçekleşmemiş) vadeli işlem pozisyonlarının toplam dolar değeri. Artan açık faiz yeni kaldıraç girişini; azalan miktar pozisyonların kapatılıyor veya likide edildiğini gösterir."
+      "term": "Açık pozisyon",
+      "definition": "Bir piyasada tüm açık (gerçekleştirilmemiş) vadeli işlem pozisyonlarının toplam dolar değeri. Artan açık pozisyon, taze kaldıraç girişini gösterir; düşen açık pozisyon, pozisyonların kapatılıp kapatılmadığını veya tasfiye edilip edilmediğini gösterir."
     },
     {
-      "term": "Açık Faiz Değişimi",
-      "definition": "Belirli bir dönemde toplam açık pozisyonların yüzdesel değişimi (örneğin bir gün). Negatif değişim pozisyonların kapatılıyor veya likide edildiğini; pozitif değişim yeni marj girişini gösterir."
+      "term": "Açık pozisyon değişimi",
+      "definition": "Belirli bir dönemde (örn. bir gün) toplam açık pozisyonlardaki yüzde kaymı. Negatif değişim net tasfiyeyi veya pozisyon kapanışını gösterir; pozitif değişim yeni marjın girdiğini gösterir."
     },
     {
-      "term": "Taker Alış/Satış Oranı",
-      "definition": "Agresif olarak satın alınan (ask fiyatından) buy emirlerinin agresif olarak satılan (bid fiyatından) sell emirlerine oranı. 1'den yüksek daha agresif alışı; 1'den düşük daha agresif satışı gösterir."
+      "term": "Alıcı-satıcı oranı",
+      "definition": "Istenen fiyattan doldurulmuş alış emrinin (agresif alış) teklif fiyatından doldurulmuş satış emrine (agresif satış) oranı. 1'in üzerinde daha agresif satın almayı gösterir; 1'in altında daha agresif satışı gösterir."
     },
     {
-      "term": "En Büyük Pozisyon Oranı",
-      "definition": "En büyük pozisyonları tutan yatırımcılar (en fazla kaldıraç kullananlar) arasındaki long/short oranı. Hesap oranından farklı olabilir ve büyük oyuncuların uyumlu mu yoksa hedge mi yaptıklarını gösterir."
+      "term": "En büyük pozisyonlar oranı",
+      "definition": "Bir borsadaki en büyük tüccarlar (en büyük pozisyonları tutanlar) arasında uzun-kısa oranı. Hesap oranından farklı olabilir ve büyük oyuncuların uyumlu olup olmadığını veya hedge yapıp yapmadığını gösterebilir."
     }
   ],
   "_source": "cli-tr",
-  "_from": "673eb32c23615f24"
+  "_from": "eca540cc7b3c3907"
 }
