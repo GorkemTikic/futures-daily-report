@@ -74,7 +74,7 @@ STRICT RULES:
 - No trading advice, predictions, or price targets. No support-operations content.
 - Every news item needs a real source name + URL and a UTC time. Each item covers ONE story — do not combine unrelated stories.
 - If there is genuinely little news, return fewer items — do not pad.
-- WRITE AS OF ${pack.dateUTC} 23:59 UTC, even if you are run days later. Web search can return news published after the report day — never use anything that happened after ${pack.dateUTC}, except calendarNotes for events scheduled in advance and RSS items marked outsideReportDay (labelled as context). ETF flows: use the report day's flow or the latest trading day before it, never a later day; write "etfFlows.date" as YYYY-MM-DD.
+- WRITE AS OF ${pack.dateUTC} 23:59 UTC, even if you are run days later. Web search can return news published after the report day — never use anything that happened after ${pack.dateUTC}, except calendarNotes for events scheduled in advance and RSS items marked outsideReportDay (labelled as context). ETF flows: use the report day's flow or the latest trading day before it, never a later day; write "etfFlows.date" as YYYY-MM-DD. US spot ETFs don't trade on weekends or US market holidays, so on those days report the last trading day's flow under its own date. Never quote week-, month- or year-to-date totals that run past the report day.
 
 DATA PACK:
 ${JSON.stringify({
@@ -322,7 +322,9 @@ export function dropAfterDay(obj, dateUTC) {
   }
   if (obj.etfFlows) {
     const dates = String(obj.etfFlows.date || "").match(/\d{4}-\d{2}-\d{2}/g) || [];
-    if (!dates.length || dates.some((d) => d > dateUTC)) { obj.etfFlows = null; dropped++; }
+    // ETFs don't trade at weekends: a flow dated Saturday or Sunday is misdated.
+    const weekend = (d) => [0, 6].includes(new Date(d + "T00:00:00Z").getUTCDay());
+    if (!dates.length || dates.some((d) => d > dateUTC || weekend(d))) { obj.etfFlows = null; dropped++; }
   }
   if (dropped) console.warn(`  synthesis: dropped ${dropped} item(s) dated after ${dateUTC}`);
   return obj;
