@@ -1,6 +1,6 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-06T00:33:02.684Z",
+  "generatedAt": "2026-11-06T00:39:13.410Z",
   "count": 142,
   "counts": {
     "total": 142,
@@ -140,9 +140,9 @@
         "BTC": -1.9090676883780369,
         "ETH": -0.9423549639636202
       },
-      "marketSummary": "Bitcoin fell 1.94% and Ethereum fell 0.94% on November 2 as traders rotated into altcoins amid lingering caution from the Binance hack, with market breadth remaining positive despite high funding rates signaling leveraged betting.",
-      "oneLine": "Bitcoin fell 1.94% and Ethereum fell 0.94% on November 2 as traders rotated into altcoins amid lingering caution from the Binance hack, with market breadth remaining positive despite high funding rates signaling leveraged betting.",
-      "newsCount": 0,
+      "marketSummary": "On 2 November 2026, Bitcoin and Ethereum fell about 2% and 1% respectively as Binance reopened withdrawals after a major hack, triggering spot-ETF redemptions and broad selling, while Asian stocks rallied on Chinese government stimulus measures.",
+      "oneLine": "On 2 November 2026, Bitcoin and Ethereum fell about 2% and 1% respectively as Binance reopened withdrawals after a major hack, triggering spot-ETF redemptions and broad selling, while Asian stocks rallied on Chinese government stimulus measures.",
+      "newsCount": 8,
       "topMover": {
         "symbol": "AKEUSDT",
         "chgPct": -41.57303370786517

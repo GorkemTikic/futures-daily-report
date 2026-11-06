@@ -1,106 +1,192 @@
 {
-  "oneLine": "Bitcoin fell 1.94% and Ethereum fell 0.94% on November 2 as traders rotated into altcoins amid lingering caution from the Binance hack, with market breadth remaining positive despite high funding rates signaling leveraged betting.",
-  "caveman": "On November 2, Bitcoin dropped 2 percent and Ethereum dropped 1 percent. Traders were still worried about a huge hack at an exchange called Binance that had happened a few days before—someone stole over $6 billion. Even though the big coins went down, lots of smaller cryptocurrencies actually went up that day, showing traders were betting on different things. The market felt nervous and fearful. Traders were paying very high fees to borrow money and bet that prices would keep falling, which usually means people expect trouble ahead. It was a worrying, cautious day.",
-  "priceVolumeSummary": "Bitcoin fell 1.94% to $76,791 and Ethereum fell 0.94% to $2,253, with prices consistent across all major venues. Bitcoin futures dominated volume at $8.97 billion on Binance, nearly 1.2 times Ethereum's $7.48 billion; no venue showed a material premium or discount.",
-  "positioningSummary": "Traders heavily favored long positions (bets on prices rising): Bitcoin's long-to-short ratio was 2.30, with the largest traders pushing even harder at 1.67-to-1. Ethereum showed even stronger bullish positioning at 2.56 long-to-short. However, the taker buy-to-sell ratios (1.05 for Bitcoin, 0.98 for Ethereum) revealed only modest aggressive buying, suggesting traders were hesitant despite their bullish posture. Funding rates remained extremely high at 10.95% annually for both coins—the premium traders pay to hold leveraged bets—typically a sign of overleveraged market conditions and anxiety. Bitcoin's open interest grew 1.93% despite the price drop, showing traders were adding leverage rather than closing positions; Ethereum's fell 2.01%, indicating some caution. Remarkably, 70% of all Binance perpetuals (over 560 of 804 pairs) traded up despite both major coins declining, revealing active rotation into alternative cryptocurrencies.",
-  "stocksSummary": "Asian semiconductor stocks surged during morning trading: South Korea's SK Hynix gained 3.996% and Samsung 3.61%, lifting the KOSPI index +2.205%. Hong Kong's leveraged chip-sector bets soared, with CSOP SK Hynix 2x climbing 7.443% and CSOP Samsung 2x rising 6.389%, suggesting regional chip demand strength. Later in the US session, crypto-linked equities drove gains: mining stock HUT jumped 16.73%, networking play ANET rose 16.20%, and semiconductor-heavy AMD climbed 10.50%, showing institutional interest in crypto-adjacent equity exposure.",
+  "oneLine": "On 2 November 2026, Bitcoin and Ethereum fell about 2% and 1% respectively as Binance reopened withdrawals after a major hack, triggering spot-ETF redemptions and broad selling, while Asian stocks rallied on Chinese government stimulus measures.",
+  "caveman": "Bitcoin fell 2% and Ethereum fell 1% on November 2. The main reason was that Binance—a big company where people trade cryptocurrency—had shut down people's ability to withdraw their Bitcoin after thieves stole $6 billion worth. When Binance opened withdrawals again on November 2, lots of people rushed to move their Bitcoin to safer places, so prices dropped. At the same time, big investment funds that own Bitcoin also sold some, taking out about $400 million. Interestingly, 70% of smaller cryptocurrencies actually went UP that day, even though the big names fell. Stock markets in Asia (Korea, Hong Kong, China) did really well because China announced help for its markets. Overall, November 2 was a worrying day because it showed people didn't trust exchanges after the theft.",
+  "priceVolumeSummary": "Bitcoin closed around 76,800 USDT, down 1.94% from the 78,300 open, with venues closely aligned (Binance 76,791, Bybit 76,786, OKX 76,795). Ethereum closed around 2,252 USDT, down 0.94% from 2,274 open, also tightly clustered (Binance 2,252.8, Bybit 2,252.66, OKX 2,252.6). Binance led volume on both: Bitcoin $8.97 billion and Ethereum $7.48 billion out of combined multi-venue totals of roughly $21 billion and $21 billion respectively.",
+  "positioningSummary": "Bitcoin open interest rose 1.93% during the day to $7.68 billion, signaling elevated long positions despite the price drop. Ethereum open interest fell 2.01% to $5.44 billion. Funding rates were extremely high across all venues—Bitcoin and Ethereum both paid 10.95% annually (a huge cost for traders holding longs), which normally attracts shorts who collect this fee. Bitcoin's long/short account ratio was 2.30 (longs heavily favored), but the largest traders (top position ratio 1.67) showed less conviction—a sign that smart money was restraining bullish positions. Ethereum's ratio was even more bullish at 2.56, but top traders (1.54) were equally reserved. Both coins showed selling pressure in taker buy/sell ratios (Bitcoin 0.51, Ethereum 0.49)—traders buying were outnumbered by those selling aggressively. Market breadth was 70.15% up (564 coins gained, 236 fell), indicating strength in smaller altcoins and speculative plays while the two largest cryptocurrencies weakened.",
+  "stocksSummary": "South Korea's KOSPI index surged 2.38% with semiconductor strength: SK Hynix (+3.996%), Samsung Electronics (+3.61%), and the KOSPI 200 ETF (+2.205%) led on demand for chip stocks. Hong Kong's Hang Seng gained 0.42% as tech stocks climbed: Xiaomi (+1.099%), Tencent (+1.298%), and CSOP SK Hynix 2x leveraged fund (+7.443%) rose; some decliners like Zhongji Innolight (-3.703%) and MiniMax (-4.965%) offset gains. China's CSI 300 added 0.21% as government financial regulators announced a 15 billion US-dollar swap facility and met with major banks and securities firms on stimulus measures, supporting sentiment. The Asian rally reflected coordinated policy support and reduced tech sector pessimism despite global weakness.",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "Crashed 41.6% with no clear public cause; possible liquidity crisis or forced liquidation in a low-volume altcoin.",
+      "explanation": "AKE fell 41.57% from 0.008861 to 0.003969 on $158.6 million volume. No clear public cause identified in news sources or crypto announcements for this extreme single-day collapse.",
       "hasCause": false
     },
     {
       "symbol": "ARIAUSDT",
-      "explanation": "Surged 37.5% with no clear public cause; may reflect speculative momentum in a thinly traded token without identified news catalyst.",
+      "explanation": "ARIA surged 37.54% from 0.08203 to 0.12029 on $270.6 million volume. No identifiable news event or market catalyst in publicly available sources explains this parabolic gain.",
       "hasCause": false
     },
     {
       "symbol": "IDOLUSDT",
-      "explanation": "Fell 32.4% intraday despite showing gains on 24-hour timeframes, suggesting sharp reversal or position unwinding with no identified cause.",
+      "explanation": "IDOL fell 32.42% from 0.027763 to 0.016934 on $282.1 million volume. No associated news or on-chain developments found to explain the sharp decline despite heavy trading.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
+    "topThree": [
+      {
+        "headline": "Binance Withdrawals Reopen; Spot ETFs Record $539M Combined Outflow",
+        "what": "Binance resumed cryptocurrency withdrawals on November 2 after three days of closure following the $6.3 billion theft confirmed by the FBI on November 1. US spot Bitcoin ETFs recorded $398.6 million in net redemptions (led by BlackRock's IBIT at -$405.3 million) and Ethereum ETFs saw $139.7 million outflow, marking the sixth consecutive day of Ether fund outflows. Selling pressure from crypto exchange reserves and institutional fund redemptions drove prices lower despite strong breadth in smaller altcoins.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-02 08:00",
+        "source": "Farside Investors / SoSoValue, CoinDesk",
+        "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-539m-in-net-outflows-on-november-2"
+      },
+      {
+        "headline": "Asian Stock Markets Rally on Chinese Stimulus; Korea KOSPI Gains 2.38%",
+        "what": "South Korea's KOSPI index surged 2.38%, led by semiconductor stocks SK Hynix (+3.996%) and Samsung Electronics (+3.61%) on recovery hopes. Hong Kong's Hang Seng climbed 0.42% and tech index rose 2.25%. Mainland China's CSI 300 gained 0.21% after government announced a 15 billion US-dollar swap facility and held meetings with major banks and securities firms to discuss stock market support measures, ending a month of severe underperformance.",
+        "coins": "None directly (stock market movers)",
+        "timeUTC": "2026-11-02 06:30",
+        "source": "Financial media, Asia stock exchanges",
+        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-5002134"
+      },
+      {
+        "headline": "Fear Index Rises to 37 as Market Cap Falls 1.39%; Bitcoin Eyes $76K Support",
+        "what": "The Crypto Fear & Greed Index rose to 37 (Fear) from 34, reflecting uncertainty after the Binance breach and Ethereum ETF outflows. Global cryptocurrency market capitalization fell 1.39% to $2.63 trillion despite 70% of Binance perpetual contracts trading higher. Bitcoin tested the critical $76,000 support level multiple times during the day; technical analysts flagged this as a key breakpoint for further liquidations if broken.",
+        "coins": "Bitcoin, Ethereum, altcoins",
+        "timeUTC": "2026-11-02 20:00",
+        "source": "Crypto Fear & Greed Index, CoinMarketCap, technical analysis",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/02/crypto-market-today-nov-2-crypto-market-today-nov-2-bitcoin-and-altcoins-retreat-as-binance-withdrawals-spark-fresh-concerns/"
+      }
+    ],
     "groups": {
-      "Hacks, exploits and outages": [],
-      "Regulation and policy": [],
-      "Exchange and platform changes": [],
-      "Unconfirmed and watch items": []
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance Completes Initial Withdrawal Phase; 95% of Assets Replaced",
+          "what": "Binance disclosed that it had replaced 95% of the $6.3 billion stolen funds and reopened withdrawals progressively by asset type on November 2. The exchange attributed remaining gaps to lower-liquidity tokens and said it would continue systematic replacement. This triggered customer-initiated transfers out of Binance, contributing to the $398.6 million Bitcoin and $139.7 million Ethereum ETF redemptions as users moved to self-custody or cold storage.",
+          "coins": "Bitcoin, Ethereum, multiple altcoins",
+          "timeUTC": "2026-11-02 09:00",
+          "source": "Binance official statements, Crypto news aggregators",
+          "url": "https://cryptoslate.com/binance-says-thinly-traded-tokens-are-delaying-full-replacement-of-stolen-assets/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "[Context: Nov 3] Binance Hack Details Emerge: AI Tool Exploit, Multi-Month Campaign",
+          "what": "Binance's November 3 security report revealed that North Korean-linked hackers used fake job interviews to compromise employees over many months, then exploited an internal AI-assisted tool and stolen credentials to access wallet-signing infrastructure. The breach used Ethereum's EIP-7702 mechanism (account abstraction) to execute unauthorized transactions. This was the first detailed breakdown of how a $6.3 billion exchange theft occurred, raising industry-wide concerns about AI-assisted social engineering.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-11-03 12:00",
+          "source": "CoinDesk, Cointelegraph, Binance incident report",
+          "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "[Context: Nov 3] CFTC Approves Individual Stock Perpetual Futures for US Trading",
+          "what": "The US Commodity Futures Trading Commission (CFTC) approved regulated exchanges to offer perpetual futures contracts on individual stocks, bringing a cryptocurrency-native trading instrument to traditional equities for the first time in the US. Chair Michael Selig said this gave US traders a regulated alternative to offshore venues. The move followed Kalshi's filing in October for such contracts and marks a significant regulatory expansion of leveraged derivatives products.",
+          "coins": "Not applicable (equities/traditional markets)",
+          "timeUTC": "2026-11-03 14:00",
+          "source": "CFTC official statement, CoinDesk, The Block",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
+        },
+        {
+          "headline": "[Context: Nov 3] SEC Issues No-Action Letter on Canton Coin; Digital Commodity Designation",
+          "what": "The SEC's Division of Corporation Finance issued a no-action letter for Canton Coin (CC), stating it views the token as a digital commodity rather than a security. This means the SEC will not recommend enforcement action over CC's programmatic issuance process. The ruling provides regulatory clarity for programmatically-issued tokens and suggests the SEC's approach is narrowing the securities vs. commodity line.",
+          "coins": "Canton Coin (CC)",
+          "timeUTC": "2026-11-03 10:00",
+          "source": "SEC, The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[Context: Nov 3] Tether CEO Claims 150,000 Bitcoin Holdings; Exceeds Reserve Report by 50,000",
+          "what": "Tether CEO Paolo Ardoino told attendees at the Plan ₿ Forum in Lugano that the company owns 'give or take 150,000 Bitcoin,' but Tether's Q3 2026 reserve report showed only 100,060 Bitcoin backing USDT in circulation. The 50,000 BTC discrepancy (worth approximately $3.8 billion at current prices) raised questions about reserve composition and whether unreported Bitcoin is held for other purposes or represents a reporting lag.",
+          "coins": "Bitcoin, Tether (USDT)",
+          "timeUTC": "2026-11-03 09:00",
+          "source": "Decrypt, Plan ₿ Forum",
+          "url": "https://decrypt.co/382474/tether-holds-150000-bitcoin-ceo-says"
+        }
+      ]
     }
   },
-  "etfFlows": null,
+  "etfFlows": {
+    "date": "2026-11-02",
+    "summary": "US spot Bitcoin ETFs recorded $398.6 million in net outflows on November 2, with BlackRock's IBIT leading redemptions at -$405.3 million despite inflows into other issuers' funds. US spot Ethereum ETFs recorded $139.7 million in net outflows, extending a six-day redemption streak. Combined outflow of $539 million reflected institutional repositioning and retail de-risking following Binance's reopening of withdrawals after the $6.3 billion theft.",
+    "source": "Farside Investors, SoSoValue, CoinDesk",
+    "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-539m-in-net-outflows-on-november-2"
+  },
   "calendarNotes": [
     {
-      "event": "Eurozone Flash CPI (Nov 4, 10:00 UTC) — medium impact on macroeconomic sentiment",
-      "typicalReaction": "Inflation expectations may shift crypto pricing vs. traditional assets; higher CPI could support rate-cut hopes or extend monetary tightening concern"
+      "event": "US Employment Situation (Fri 6 Nov, 13:30 UTC) — forecast 65K jobs, previous 29K; Unemployment rate forecast 4.2%; Hourly earnings forecast +0.3%",
+      "typicalReaction": "Major crypto mover. Stronger-than-expected employment typically supports risk appetite and higher rates, pressuring Bitcoin. Weaker data could trigger haven-bid rallies in US Treasuries and flight to risk."
     },
     {
-      "event": "US ISM Services PMI (Nov 4, 15:00 UTC) — medium-high impact on growth expectations",
-      "typicalReaction": "Strong services data could bolster risk sentiment and support altcoins; weak data typically triggers flight-to-safety, favoring Bitcoin"
+      "event": "Eurozone Flash CPI (Wed 4 Nov, 10:00 UTC), Riksbank Rate Decision (4 Nov, 08:30 UTC), US ISM Services PMI (4 Nov, 15:00 UTC)",
+      "typicalReaction": "Medium-impact macro data. Inflation surprises can shift rate-hike expectations and alter carry-trade dynamics that support crypto risk trades."
     },
     {
-      "event": "US Employment Situation / Non-Farm Payrolls (Nov 6, 13:30 UTC) — high impact, tagged crypto-mover",
-      "typicalReaction": "Major swing catalyst; weak payrolls typically support crypto rally (rate-cut bets), strong payrolls risk reversal and liquidations in leveraged long positions"
+      "event": "Bank of England, Norges Bank rate decisions (Thu 5 Nov) — medium-impact central bank meetings",
+      "typicalReaction": "Regional policy shifts can influence dollar strength and global risk sentiment, typically secondary to Fed policy but watch for hawkish surprises."
     }
   ],
   "glossary": [
     {
-      "term": "Altcoin",
-      "definition": "Any cryptocurrency other than Bitcoin or Ethereum; includes thousands of smaller projects with varying liquidity and risk profiles."
+      "term": "Altcoins",
+      "definition": "Any cryptocurrency other than Bitcoin and Ethereum. Includes thousands of smaller tokens and projects traded on crypto exchanges."
+    },
+    {
+      "term": "Basis",
+      "definition": "The difference between the futures price (perpetual contract price) and the spot price (current market price). Wide basis can indicate leverage and positioning imbalances."
     },
     {
       "term": "Breadth",
-      "definition": "The percentage of coins in a market that are moving up vs. down. High breadth (70%+ up) suggests broad market strength; low breadth suggests weakness is concentrated in major coins."
+      "definition": "The percentage of assets in a market that moved in a particular direction (up or down). High up-breadth (70%+) suggests broad participation in gains; low breadth with index gains suggests concentration in fewer assets."
     },
     {
-      "term": "Fear & Greed Index",
-      "definition": "A sentiment gauge measuring market emotion on a scale from 0 (extreme fear) to 100 (extreme greed). Extremes often signal potential reversals."
+      "term": "Cold storage",
+      "definition": "Keeping cryptocurrency in offline storage (hardware wallets, paper wallets) not connected to the internet, used to prevent theft from exchange hacks."
+    },
+    {
+      "term": "Crypto Fear & Greed Index",
+      "definition": "A measure of market sentiment ranging from 0 (extreme fear) to 100 (extreme greed). Values below 50 indicate fear; values above 50 indicate greed."
+    },
+    {
+      "term": "ETF outflow / redemption",
+      "definition": "When investors sell shares of a Bitcoin or Ethereum ETF back to the issuer, triggering the issuer to reduce holdings. Large outflows can pressure prices as issuers sell underlying crypto."
     },
     {
       "term": "Funding rate",
-      "definition": "A periodic fee traders pay to hold leveraged positions (bets using borrowed money). High funding rates signal overleveraging and anxiety; traders typically pay this every 8 hours on major exchanges."
-    },
-    {
-      "term": "Leverage",
-      "definition": "Using borrowed money to control a larger position than your own cash allows. Amplifies both gains and losses. A 10x leveraged position means a 1% price move causes a 10% gain or loss."
-    },
-    {
-      "term": "Liquidation",
-      "definition": "Forced closing of a leveraged position when losses exceed the collateral (margin) backing it. Often triggers a cascade of automatic selling."
+      "definition": "A recurring payment between traders in perpetual futures contracts. When funding is positive (above zero), long traders pay short traders; this rate is an annualized percentage. High rates signal excess leverage and bullish crowding."
     },
     {
       "term": "Long position",
-      "definition": "A bet that an asset's price will rise. If you go long, you profit if the price goes up and lose if it goes down."
+      "definition": "A bet that an asset's price will go up. A trader who holds a long position profits if the price rises."
     },
     {
-      "term": "Long-to-short ratio",
-      "definition": "The balance between traders betting up (long) vs. down (short). A ratio of 2.3 means 2.3 traders are betting up for every 1 betting down."
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders holding long positions (betting price goes up) versus short positions (betting price goes down). A ratio above 1.0 means more longs; below 1.0 means more shorts."
     },
     {
       "term": "Mark price",
-      "definition": "The price used to calculate leverage and trigger liquidations on derivatives. Usually the median of major exchange prices, preventing manipulation."
+      "definition": "The reference price used to calculate profits and losses on perpetual futures, calculated from index prices and spot prices to prevent manipulation. Similar to but distinct from the last trade price."
     },
     {
       "term": "Open interest",
-      "definition": "The total notional value (in dollars or coins) of all derivative contracts currently open across all traders. Increasing open interest on a price decline often signals capitulation and potential reversal."
+      "definition": "The total value (in USD or coins) of all open derivative positions (longs and shorts) in a market. Rising open interest with rising price suggests conviction in the uptrend; rising OI with falling price suggests high leverage and risk of liquidations."
     },
     {
-      "term": "Open-interest change",
-      "definition": "How the total open interest moved during a period. Increases suggest new leverage entering the market; decreases suggest liquidations or position closes."
+      "term": "Perpetual futures / perps",
+      "definition": "A leveraged derivative contract that tracks an asset's price and never expires, unlike regular futures. Traders can hold positions indefinitely while paying or receiving funding rates."
     },
     {
-      "term": "Perpetual futures",
-      "definition": "Derivative contracts that never expire and are constantly funded by traders to maintain a price close to spot (actual) prices. Used to take leveraged long or short bets without owning the underlying asset."
+      "term": "Self-custody",
+      "definition": "Holding cryptocurrency directly in a personal wallet that you control, rather than on an exchange. Provides security but requires users to manage their own private keys."
     },
     {
       "term": "Short position",
-      "definition": "A bet that an asset's price will fall. If you go short, you profit if the price drops and lose if it rises."
+      "definition": "A bet that an asset's price will go down. A trader who holds a short position profits if the price falls."
     },
     {
-      "term": "Taker buy-to-sell ratio",
-      "definition": "The ratio of aggressive buyer-initiated trades vs. aggressive seller-initiated trades. Above 1.0 means more aggressive buying; below 1.0 means more aggressive selling. Values near 1.0 show balanced pressure."
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buy orders (takers) to sell orders (takers) in a market. Above 1.0 indicates more aggressive buyers than sellers; below 1.0 indicates more aggressive sellers."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The ratio of long to short positions held by the largest traders in a market (typically the top 10-20 accounts by size). Shows whether institutional traders are net-long or net-short."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total amount (usually in USD) of assets traded on an exchange or across all exchanges during a period, measured in quote currency (USDT, USD, etc.)."
     }
   ],
   "_source": "cli"

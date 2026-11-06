@@ -3,8 +3,8 @@
   "kind": "market",
   "dateLong": "Monday, 2 November 2026",
   "coversUTC": "2026-11-02 00:00–23:59 UTC",
-  "oneLine": "Bitcoin fell 1.94% and Ethereum fell 0.94% on November 2 as traders rotated into altcoins amid lingering caution from the Binance hack, with market breadth remaining positive despite high funding rates signaling leveraged betting.",
-  "newsCount": 0,
+  "oneLine": "On 2 November 2026, Bitcoin and Ethereum fell about 2% and 1% respectively as Binance reopened withdrawals after a major hack, triggering spot-ETF redemptions and broad selling, while Asian stocks rallied on Chinese government stimulus measures.",
+  "newsCount": 8,
   "macro": {
     "BTC": -1.9090676883780369,
     "ETH": -0.9423549639636202

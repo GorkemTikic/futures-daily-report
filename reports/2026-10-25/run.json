@@ -1,11 +1,11 @@
 {
-  "runId": "2026-11-06T00:25:06.824Z",
+  "runId": "2026-11-06T00:30:47.984Z",
   "dateOverride": "2026-10-25",
-  "reuseSynthesis": false,
-  "startedAt": "2026-11-06T00:25:06.824Z",
+  "reuseSynthesis": true,
+  "startedAt": "2026-11-06T00:30:47.984Z",
   "status": "ok",
-  "finishedAt": "2026-11-06T00:30:21.076Z",
-  "durationSec": 314,
+  "finishedAt": "2026-11-06T00:33:07.702Z",
+  "durationSec": 140,
   "date": "2026-10-25",
   "live": true,
   "window": {
@@ -81,9 +81,9 @@
     "backfill": null
   },
   "synthesis": {
-    "source": "cli",
+    "source": "auto-cache",
     "fellBack": false,
-    "cliOnly": true,
+    "cliOnly": false,
     "errorKind": null
   },
   "languages": [

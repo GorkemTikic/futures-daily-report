@@ -1,108 +1,194 @@
 {
-  "oneLine": "11月2日，比特币下跌1.94%，以太坊下跌0.94%。交易者在币安黑客事件余波中规避风险转向山寨币，市场广度保持积极，但资金费率高企反映过度杠杆迹象。",
-  "caveman": "11月2日，比特币跌了2%，以太坊跌了1%。交易者们都很担心前几天币安交易所遭黑客攻击，有人偷走了60多亿美元。虽然这两个大币种跌了，但那天有很多小币种反而涨了，说明交易者在改变策略。市场气氛很紧张害怕。交易者们要支付很高的费用来借钱打赌价格会继续下跌，这通常表示人们预期会有麻烦。那是个很谨慎、很令人担忧的一天。",
-  "priceVolumeSummary": "比特币下跌1.94%至$76,791，以太坊下跌0.94%至$2,253，各主要交易所价格保持一致。币安比特币期货成交量主导为$8.97亿，约为以太坊$7.48亿的1.2倍；各交易所均未出现明显溢价或折价。",
-  "positioningSummary": "交易者大量做多头寸：比特币做多做空比为2.30，大户推动比例更高至1.67:1。以太坊表现出更强看涨配置，多空比达2.56。然而主动买入卖出比（比特币1.05，以太坊0.98）仅反映温和的积极买盘，表明交易者尽管看涨但仍显犹豫。资金费率保持极高水平，两币种年化费率均为10.95%——交易者为持有杠杆头寸支付的溢价——通常代表市场过度杠杆和焦虑的信号。比特币未平仓合约尽管价格下跌仍增长1.93%，说明交易者在增加杠杆而非平仓；以太坊则下跌2.01%，显示谨慎态度。值得注意的是，币安永续合约中70%的交易对（804对中560对以上）在两大币种下跌情况下仍实现上涨，反映交易者正在积极向替代币转向。",
-  "stocksSummary": "亚洲早盘半导体股表现强劲：韩国SK海力士上涨3.996%，三星上涨3.61%，带动KOSPI指数上升2.205%。香港杠杆芯片板块走势火热，CSOP SK海力士2x基金上涨7.443%，CSOP三星2x基金上涨6.389%，暗示区域芯片需求旺盛。美股盘中后期，加密相关股票推高涨幅：挖矿股HUT飙升16.73%，网络设备商ANET上涨16.20%，半导体重仓股AMD上涨10.50%，显示机构对加密相关股票浓厚兴趣。",
+  "oneLine": "2026年11月2日，比特币和以太坊分别下跌约2%和1%，币安在重大盗窃事件后重新开放提币，引发现货ETF赎回和广泛抛售，同时亚洲股票因中国政府刺激措施上涨。",
+  "caveman": "11月2日比特币跌2%，以太坊跌1%。主要原因是币安——人们进行加密货币交易的大平台——在小偷盗走60亿美元后关闭了提币功能。11月2日币安重新开放提币时，很多用户赶紧把比特币转到安全地方，所以价格下跌。同时大型投资基金也卖出了约4亿美元。有意思的是，那天有70%的小币种反而上涨，尽管比特币和以太坊跌了。亚洲股市（韩国、香港、中国）表现不错，因为中国宣布了市场扶持措施。总体来说，11月2日令人担忧，显示人们对交易平台的信任下降了。",
+  "priceVolumeSummary": "比特币收盘约76,800 USDT，较78,300开盘价下跌1.94%，各交易所报价接近（币安76,791、Bybit 76,786、OKX 76,795）。以太坊收盘约2,252 USDT，较2,274开盘价下跌0.94%，报价也高度一致（币安2,252.8、Bybit 2,252.66、OKX 2,252.6）。币安领导交易量，比特币成交89.7亿美元，以太坊74.8亿美元，占全市场总成交量约210亿美元和210亿美元的大头。",
+  "positioningSummary": "比特币未平仓合约一日内上升1.93%至76.8亿美元，尽管价格下跌但显示多头头寸仍然充足。以太坊未平仓合约下跌2.01%至54.4亿美元。所有交易所资金费率处于极高水平——比特币和以太坊年化费率都为10.95%（对持有多头的交易者成本巨大），通常会吸引空头收取此费用。比特币多空账户比为2.30（多头占优），但大户持仓比仅为1.67，显示大资金对行情信心不足。以太坊多空比更加看涨至2.56，但大户比也仅为1.54，同样保持谨慎。两币种吃单买卖比显示抛售压力（比特币0.51、以太坊0.49），主动卖方交易者明显多于主动买方。市场广度为70.15%上升（564种币上涨、236种币下跌），显示小币种和投机类代币表现强劲，而两大主流币遭遇抛售。",
+  "stocksSummary": "韩国KOSPI指数飙升2.38%，芯片股领跑：SK海力士（+3.996%）、三星电子（+3.61%）和KOSPI 200 ETF（+2.205%）在芯片需求推动下领涨。香港恒生指数上升0.42%，科技股走高：小米（+1.099%）、腾讯（+1.298%）和CSOP SK海力士2倍杠杆基金（+7.443%）上扬，但中际光电（-3.703%）和MiniMax（-4.965%）等跌幅冲抵部分涨幅。中国沪深300指数上升0.21%，政府金融监管部门宣布150亿美元互换便利额度，并与主要银行和券商召开会议讨论刺激措施，提振市场情绪。亚洲涨势反映了政策协调支持和科技板块风险情绪改善。",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "暴跌41.6%，无明确公开原因；可能是低流动性山寨币的流动性危机或强制平仓。",
+      "explanation": "AKE从0.008861暴跌41.57%至0.003969，交易量1.586亿美元。公开新闻源和加密公告中未发现任何明确原因解释这一极端单日崩跌。",
       "hasCause": false
     },
     {
       "symbol": "ARIAUSDT",
-      "explanation": "飙升37.5%，无明确公开原因；可能反映交易清淡代币中的投机动能，未有已确认的消息催化。",
+      "explanation": "ARIA从0.08203飙升37.54%至0.12029，交易量2.706亿美元。公开可获得信息中未发现任何新闻事件或市场催化剂解释这一抛物线涨幅。",
       "hasCause": false
     },
     {
       "symbol": "IDOLUSDT",
-      "explanation": "日内下跌32.4%，尽管24小时内出现涨幅，暗示剧烈反转或头寸平仓，未有已知原因。",
+      "explanation": "IDOL从0.027763下跌32.42%至0.016934，交易量2.821亿美元。尽管交易活跃，但未发现相关新闻或链上动态解释这一下跌。",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
+    "topThree": [
+      {
+        "headline": "币安重新开放提币；现货ETF合计赎回5.39亿美元",
+        "what": "币安在11月1日FBI确认63亿美元盗窃后于11月2日恢复加密货币提币。美国现货比特币ETF录得3.986亿美元净赎回（贝莱德IBIT领跌-4.053亿美元），以太坊ETF赎回1.397亿美元，这是ETH基金连续第六天赎回。交易所储备卖压和机构基金赎回推低价格，尽管小币种成交热烈。",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-02 08:00",
+        "source": "Farside Investors / SoSoValue, CoinDesk",
+        "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-539m-in-net-outflows-on-november-2"
+      },
+      {
+        "headline": "亚洲股市因中国刺激措施反弹；韩国KOSPI涨2.38%",
+        "what": "韩国KOSPI指数劲升2.38%，芯片股SK海力士（+3.996%）和三星电子（+3.61%）领涨。香港恒生指数攀升0.42%，科技指数上升2.25%。内地沪深300指数涨0.21%，政府宣布150亿美元互换便利并与主要银行券商召开会议讨论股市扶持措施，扭转近月严重下滑局面。",
+        "coins": "None directly (stock market movers)",
+        "timeUTC": "2026-11-02 06:30",
+        "source": "Financial media, Asia stock exchanges",
+        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-5002134"
+      },
+      {
+        "headline": "恐惧指数升至37，市值下跌1.39%；比特币测试7.6万美元支撑",
+        "what": "加密恐惧与贪婪指数从34升至37（恐惧），反映币安黑客事件和以太坊ETF赎回带来的不确定性。全球加密市值下跌1.39%至2.63万亿美元，尽管币安永续合约70%上升。比特币多次测试7.6万美元关键支撑位；技术分析师警告若跌破此位或引发进一步爆仓。",
+        "coins": "Bitcoin, Ethereum, altcoins",
+        "timeUTC": "2026-11-02 20:00",
+        "source": "Crypto Fear & Greed Index, CoinMarketCap, technical analysis",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/02/crypto-market-today-nov-2-crypto-market-today-nov-2-bitcoin-and-altcoins-retreat-as-binance-withdrawals-spark-fresh-concerns/"
+      }
+    ],
     "groups": {
-      "Hacks, exploits and outages": [],
-      "Regulation and policy": [],
-      "Exchange and platform changes": [],
-      "Unconfirmed and watch items": []
+      "Exchange and platform changes": [
+        {
+          "headline": "币安完成初期提币阶段；95%被盗资金已补回",
+          "what": "币安披露已补回63亿美元被盗资金中的95%，于11月2日按资产类别逐步重新开放提币。交易所将剩余缺口归因于低流动性代币，称将继续系统补回。这引发用户从币安转出资金，促成3.986亿美元比特币和1.397亿美元以太坊ETF赎回，用户转向自保管或冷钱包。",
+          "coins": "Bitcoin, Ethereum, multiple altcoins",
+          "timeUTC": "2026-11-02 09:00",
+          "source": "Binance official statements, Crypto news aggregators",
+          "url": "https://cryptoslate.com/binance-says-thinly-traded-tokens-are-delaying-full-replacement-of-stolen-assets/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "[背景：11月3日] 币安黑客事件曝光：AI工具漏洞、多月入侵",
+          "what": "币安11月3日安全报告显示，与朝鲜关联的黑客通过虚假求职面试在数月内入侵员工，随后利用内部AI辅助工具和盗取凭证访问钱包签名基础设施。黑客利用以太坊EIP-7702机制（账户抽象）执行未授权交易。这是首次详细披露63亿美元交易所盗窃如何发生，引发全行业对AI社交工程的担忧。",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-11-03 12:00",
+          "source": "CoinDesk, Cointelegraph, Binance incident report",
+          "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "[背景：11月3日] 美CFTC批准个股永续合约交易",
+          "what": "美国商品期货交易委员会（CFTC）批准监管交易所提供个股永续合约，首次将加密原生交易工具引入美国传统股票市场。主席Michael Selig表示这给美国交易者提供了规范替代方案对抗离岸交易所。此举跟随Kalshi 10月申报此类合约，标志监管对杠杆衍生品扩大授权。",
+          "coins": "Not applicable (equities/traditional markets)",
+          "timeUTC": "2026-11-03 14:00",
+          "source": "CFTC official statement, CoinDesk, The Block",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
+        },
+        {
+          "headline": "[背景：11月3日] 美SEC对Canton Coin发不诉函；数字商品认定",
+          "what": "美证券交易委员会（SEC）公司融资部对Canton Coin（CC）发出不诉函，表示将该代币视为数字商品而非证券。这意味美SEC不建议对CC的程序化发行流程采取执法。此裁决为程序化发行代币提供监管清晰度，暗示美SEC对证券vs商品的划分线在收窄。",
+          "coins": "Canton Coin (CC)",
+          "timeUTC": "2026-11-03 10:00",
+          "source": "SEC, The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[背景：11月3日] Tether CEO声称持有15万比特币；超储备报告5万枚",
+          "what": "Tether CEO Paolo Ardoino在Lugano Plan ₿论坛上告诉与会者公司拥有\"大约15万比特币\"，但Tether 2026年第三季度储备报告仅显示10.006万比特币支撑USDT流通。5万比特币差异（按当前价格约38亿美元）引发对储备构成和未披露比特币是否为其他用途或代表报告滞后的疑问。",
+          "coins": "Bitcoin, Tether (USDT)",
+          "timeUTC": "2026-11-03 09:00",
+          "source": "Decrypt, Plan ₿ Forum",
+          "url": "https://decrypt.co/382474/tether-holds-150000-bitcoin-ceo-says"
+        }
+      ]
     }
   },
-  "etfFlows": null,
+  "etfFlows": {
+    "date": "2026-11-02",
+    "summary": "美国现货比特币ETF在11月2日录得3.986亿美元净赎回，贝莱德IBIT领跌-4.053亿美元尽管其他发行人基金有流入。美国现货以太坊ETF录得1.397亿美元净赎回，延续六天赎回潮。合计5.39亿美元赎回反映币安重新开放提币后机构调整头寸和零售降风险。",
+    "source": "Farside Investors, SoSoValue, CoinDesk",
+    "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-539m-in-net-outflows-on-november-2"
+  },
   "calendarNotes": [
     {
-      "event": "Eurozone Flash CPI (Nov 4, 10:00 UTC) — medium impact on macroeconomic sentiment",
-      "typicalReaction": "通胀预期可能改变加密货币相对传统资产的定价；更高的CPI可能支持降息预期或延长货币紧缩担忧"
+      "event": "US Employment Situation (Fri 6 Nov, 13:30 UTC) — forecast 65K jobs, previous 29K; Unemployment rate forecast 4.2%; Hourly earnings forecast +0.3%",
+      "typicalReaction": "主要加密行情驱动。就业数据强于预期通常支持风险资产上升和利率走高，压低比特币。弱于预期数据可能触发美债避险买入和风险资产集体下行。"
     },
     {
-      "event": "US ISM Services PMI (Nov 4, 15:00 UTC) — medium-high impact on growth expectations",
-      "typicalReaction": "强劲的服务业数据可能增强风险偏好并支持山寨币；弱数据通常触发避险情绪，利好比特币"
+      "event": "Eurozone Flash CPI (Wed 4 Nov, 10:00 UTC), Riksbank Rate Decision (4 Nov, 08:30 UTC), US ISM Services PMI (4 Nov, 15:00 UTC)",
+      "typicalReaction": "中等影响宏观数据。通胀意外可改变加息预期并影响支撑加密风险交易的套利动态。"
     },
     {
-      "event": "US Employment Situation / Non-Farm Payrolls (Nov 6, 13:30 UTC) — high impact, tagged crypto-mover",
-      "typicalReaction": "重大行情催化剂；弱就业数据通常支持加密货币上涨（降息预期），强数据可能引发反转和杠杆多头平仓"
+      "event": "Bank of England, Norges Bank rate decisions (Thu 5 Nov) — medium-impact central bank meetings",
+      "typicalReaction": "地区政策变化可影响美元强度和全球风险情绪，通常次于美联储政策但要防范鹰派意外。"
     }
   ],
   "glossary": [
     {
       "term": "山寨币",
-      "definition": "除比特币和以太坊外的任何加密货币；包括数千个流动性和风险水平各异的较小项目。"
+      "definition": "除比特币和以太坊外的任何加密货币。包括在加密交易所交易的数千种小币种和项目。"
     },
     {
-      "term": "市场广度",
-      "definition": "市场中上升币种占比对下降币种占比的对比。高广度（70%以上上升）表明市场整体强劲；低广度表明弱势集中于主流币。"
+      "term": "基差",
+      "definition": "期货价格（永续合约价格）与现货价格（当前市价）之差。基差过大表明杠杆和持仓失衡。"
     },
     {
-      "term": "恐惧与贪婪指数",
-      "definition": "衡量市场情绪的指标，等级从0（极度恐惧）到100（极度贪婪）。极端值通常预示潜在反转。"
+      "term": "涨跌家数",
+      "definition": "市场中朝某一方向移动的资产百分比（上升或下降）。高涨家数（70%以上）表示参与度广；指数涨但涨家数低表示涨幅集中在少数资产。"
+    },
+    {
+      "term": "冷钱包",
+      "definition": "将加密货币存储在离线（硬件钱包、纸钱包）未连网的地方，防止交易所黑客盗窃。"
+    },
+    {
+      "term": "加密恐惧与贪婪指数",
+      "definition": "衡量市场情绪的指标，范围0（极度恐惧）到100（极度贪婪）。低于50表示恐惧；高于50表示贪婪。"
+    },
+    {
+      "term": "ETF赎回",
+      "definition": "投资者将比特币或以太坊ETF份额卖回发行人，发行人减少持有。大额赎回会推低价格因为发行人需要抛售底层加密资产。"
     },
     {
       "term": "资金费率",
-      "definition": "交易者为持有杠杆头寸支付的定期费用（使用借入资金）。高资金费率表明过度杠杆和焦虑；交易者通常在主要交易所每8小时支付一次。"
+      "definition": "永续合约交易者之间定期支付的费用。当费率为正时，多头向空头支付；费率以年化百分比表示。高费率信号过度杠杆和多头拥挤。"
     },
     {
-      "term": "杠杆",
-      "definition": "使用借入资金控制比自有现金更大的头寸。放大收益和亏损。10倍杠杆头寸意味着1%的价格波动导致10%的收益或亏损。"
+      "term": "多头寸",
+      "definition": "做多资产价格上升的赌注。持有多头寸的交易者在价格上升时获利。"
     },
     {
-      "term": "强制平仓",
-      "definition": "当亏损超过支撑头寸的抵押品（保证金）时被迫平仓。通常触发自动卖出的级联反应。"
-    },
-    {
-      "term": "做多头寸",
-      "definition": "认为资产价格会上升的赌注。如果做多，价格上升时盈利，下降时亏损。"
-    },
-    {
-      "term": "做多做空比",
-      "definition": "看涨交易者与看跌交易者之间的平衡。比例2.3意味着每1个做空交易者对应2.3个做多交易者。"
+      "term": "多空比",
+      "definition": "持有多头寸（看涨）vs空头寸（看跌）交易者的比例。高于1.0表示多头更多；低于1.0表示空头更多。"
     },
     {
       "term": "标记价格",
-      "definition": "用于计算杠杆和触发衍生品平仓的价格。通常是主要交易所价格的中位数，防止操纵。"
+      "definition": "用于计算永续合约盈亏的参考价格，由指数价格和现货价格计算而来防止操纵。与最后成交价相似但不同。"
     },
     {
       "term": "未平仓合约",
-      "definition": "所有交易者当前开仓的所有衍生品合约的总名义价值（美元或币种）。未平仓合约在价格下跌中增长通常表明投降和潜在反转。"
+      "definition": "市场中所有未平仓衍生品头寸的总价值（美元或币值）。未平仓增加同时价格上升表示上升趋势坚定；未平仓增加同时价格下跌表示高杠杆和爆仓风险。"
     },
     {
-      "term": "未平仓合约变化",
-      "definition": "某个期间内未平仓合约的移动情况。增加表明新杠杆进入市场；减少表明平仓或头寸关闭。"
+      "term": "永续合约",
+      "definition": "追踪资产价格、永不到期的杠杆衍生品合约，不同于常规期货。交易者可无限期持有头寸但需支付或收取资金费率。"
     },
     {
-      "term": "永续期货",
-      "definition": "永不过期且由交易者持续资金化的衍生品合约，以保持价格接近现货价格。用于不拥有标的资产的情况下进行杠杆做多或做空。"
+      "term": "自我保管",
+      "definition": "直接在自己控制的个人钱包中持有加密货币，而非在交易所。提供更好安全但需用户自己管理私钥。"
     },
     {
-      "term": "做空头寸",
-      "definition": "认为资产价格会下降的赌注。如果做空，价格下降时盈利，上升时亏损。"
+      "term": "空头寸",
+      "definition": "做空资产价格下降的赌注。持有空头寸的交易者在价格下降时获利。"
     },
     {
-      "term": "主动买入卖出比",
-      "definition": "积极买方发起的交易对积极卖方发起交易的比率。高于1.0表示更多积极买盘；低于1.0表示更多积极卖盘。接近1.0表示买卖压力均衡。"
+      "term": "吃单买卖比",
+      "definition": "市场中主动买单（吃单）vs主动卖单（吃单）的比例。高于1.0表示主动买方多于卖方；低于1.0表示主动卖方多于买方。"
+    },
+    {
+      "term": "大户持仓比",
+      "definition": "市场最大交易者（通常前10-20账户）持有的多头与空头头寸比例。显示机构交易者是净多还是净空。"
+    },
+    {
+      "term": "交易量",
+      "definition": "一段时间内在交易所或全市场交易的总资产金额（通常以报价货币USD/USDT计），衡量交易活跃度。"
     }
   ],
   "_source": "cli-zh",
-  "_from": "986e0efc27ec0d0b"
+  "_from": "d58c7cc82e929954"
 }

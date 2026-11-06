@@ -1,108 +1,194 @@
 {
-  "oneLine": "2 Kasım'da Bitcoin %1,94 ve Ethereum %0,94 düşerken, tüccarlar Binance hack'inin etkisiyle temkinli davranışa rağmen altcoin'lere yöneldiler. Piyasa genişliği pozitif kalmış fakat yüksek finansman oranları aşırı kaldıraçlı pozisyonları işaret ediyordu.",
-  "caveman": "2 Kasım'da Bitcoin %2 düştü, Ethereum %1 düştü. Tüccarlar birkaç gün önce Binance adlı bir borsayı etkilemiş büyük bir hack'ten hala endişeliydi—birileri 6 milyar doların üzerinde para çalmıştı. Büyük kripto paralar düşse de, o gün birçok daha küçük kripto para gerçekten yükseldi ve tüccarların farklı şeyler için bahis yaptıklarını gösterdi. Piyasa huzursuz ve korkulu hissediliyordu. Tüccarlar fiyatların düşmeye devam edeceğine bahis yapmak için para ödünç alarak çok yüksek ücret ödüyorlardı—bu da insanlar kötü bir şey bekliyorlar demek oluyor. Kaygılı ve temkinli bir gündü.",
-  "priceVolumeSummary": "Bitcoin %1,94 düşerek $76,791'e ve Ethereum %0,94 düşerek $2,253'e geriledi; fiyatlar tüm büyük borsalarda tutarlı kaldı. Bitcoin vadeli işlemleri Binance'de $8,97 milyar hacimle egemen oldu, bu Ethereum'un $7,48 milyarının neredeyse 1,2 katıdır; hiçbir borsa önemli bir prim veya indirim göstermedi.",
-  "positioningSummary": "Tüccarlar uzun pozisyonları (fiyatların yükseleceğine dair bahisler) tercih ettiler: Bitcoin'in long-to-short oranı 2,30 oldu, en büyük tüccarlar 1,67-1'de daha da ileri gittiler. Ethereum 2,56 long-to-short'ta daha da güçlü yükseliş pozisyonu gösterdi. Ancak alıcı alış-satış oranları (Bitcoin için 1,05, Ethereum için 0,98) sadece mütevazı agresif alım gösterdi; tüccarlar yükseliş eğiliminde olmalarına rağmen temkinli davranıyorlardı. Finansman oranları her iki madeni para için %10,95 yıllık olarak çok yüksek kaldı—tüccarların kaldıraçlı bahisler tutmak için ödedikleri prim—genellikle aşırı kaldıraçlı piyasa koşulları ve endişenin işareti. Bitcoin'in açık faiz fiyat düşüşüne rağmen %1,93 arttı; tüccarların pozisyonları kapatmak yerine kaldıraç eklediklerini gösterdi. Ethereum'un %2,01 düştü, bir miktar temkinliği gösterdi. Dikkat çekici olarak, Binance vadeli işlemlerinin %70'i (804 çiftin 560'ından fazlası) her iki ana madeni para düşmesine rağmen yükseldi ve alternatif kripto paralara aktif rotasyonu gösterdi.",
-  "stocksSummary": "Asya yarı iletken hisse senetleri sabah ticaretinde yükseldi: Güney Kore'nin SK Hynix %3,996 kazandı ve Samsung %3,61, KOSPI endeksini +%2,205'e çıkardı. Hong Kong'un kaldıraçlı çip sektörü bahisleri yükseldi; CSOP SK Hynix 2x %7,443 yükseldi ve CSOP Samsung 2x %6,389 yükseldi, bölgesel çip talebinin güçlüğünü gösterdi. ABD seansının ilerleyen bölümünde kripto ile bağlantılı hisse senetleri kazançları yönlendirdi: madencilik hissesi HUT %16,73 sıçradı, ağ iletişim oyuncusu ANET %16,20 yükseldi ve yarı iletken ağırlıklı AMD %10,50 tırmandı; kurumsal yatırımcıların kripto-ilintili hisse senedi maruziyetine gösterdikleri ilgiyi ortaya koydu.",
+  "oneLine": "2 Kasım 2026'de Binance büyük bir hackten sonra para çekme işlemlerini yeniden açtığında Bitcoin ve Ethereum sırasıyla yaklaşık %2 ve %1 düştü. Bu durum spot-ETF'lerden para çıkışını ve geniş satış baskısını tetikledi. Aynı zamanda Asya hisse senetleri Çin hükümetinin teşvik önlemleri nedeniyle yükseldi.",
+  "caveman": "2 Kasım'da Bitcoin %2, Ethereum %1 düştü. Temel neden şu idi: Binance (kripto para alıp satılan büyük bir platform) hırsızlar 6 milyar dolarlık Bitcoin çaldıktan sonra insanların Bitcoin'lerini çekmesine izin vermemişti. 2 Kasım'da Binance para çekmeyi açınca, çok sayıda insan Bitcoin'lerini daha güvenli yerlere taşımak için acele etti ve fiyatlar düştü. Aynı zamanda Bitcoin'e sahip olan büyük yatırım fonları da satış yaptılar, yaklaşık 400 milyon dolar değerinde. İlginç bir şey: küçük kripto paraların %70'i o gün gerçekten YÜKSELDİ, hatta büyük isimler düşse bile. Asya'daki borsalar (Kore, Hong Kong, Çin) çok iyi performans gösterdi çünkü Çin piyasasını destekleyeceğini açıkladı. Özet olarak, 2 Kasım endişeli bir gün oldu çünkü bu hırsızlık insanları borsalara güvenmekten uzaklaştırdı.",
+  "priceVolumeSummary": "Bitcoin yaklaşık 76.800 USDT'de kapandı, açılış fiyatı 78.300'den %1,94 düşerek. Borsalar birbirine çok yakın (Binance 76.791, Bybit 76.786, OKX 76.795). Ethereum yaklaşık 2.252 USDT'de kapandı, açılış 2.274'ten %0,94 azalarak, yine düşük spreadle (Binance 2.252,8, Bybit 2.252,66, OKX 2.252,6). Binance her iki sıvı tarafında lider konumdaydı: Bitcoin 8,97 milyar dolar, Ethereum 7,48 milyar dolar hacim ile çok-borsa toplamından sırasıyla yaklaşık 21 milyar ve 21 milyar dolar.",
+  "positioningSummary": "Bitcoin açık pozisyon değeri gün içinde %1,93 artarak 7,68 milyar dolara yükseldi. Fiyat düşüşüne rağmen yüksek long pozisyonları işaret ediyor. Ethereum açık pozisyonu %2,01 azalarak 5,44 milyar dolara indi. Finansman oranları tüm borsalarda çok yüksekti - Bitcoin ve Ethereum her ikisi de yıllık %10,95 oranında ödeme yapıyordu (long tutunanlar için önemli bir maliyet). Bitcoin'in long/short hesap oranı 2,30 idi (longlar tercih ediliyor), ancak en büyük tüccarlar (en yüksek pozisyon oranı 1,67) daha az iddialı davrandılar - akıllı paranın boğa pozisyonlarını kontrol altında tuttuğunun göstergesi. Ethereum'un oranı daha boğacı 2,56 iken, en büyük tüccarlar (1,54) eşit derecede ihtiyatlıydı. Her iki madeni paranın alıcı/satıcı oranlarında satış baskısı vardı (Bitcoin 0,51, Ethereum 0,49) - agresif satanlar alıcılardan sayıca fazlaydı. Pazar genişliği %70,15 oranında artışta (564 madeni para yükseldi, 236 düştü), bu da küçük altcoinlerde ve spekülatif oyunlarda güç gösterirken iki büyük madeni para zayıf kaldı.",
+  "stocksSummary": "Güney Kore KOSPI endeksi %2,38 sıçradı, yarı iletken hisselerinin gücüyle: SK Hynix (+%3,996), Samsung Electronics (+%3,61) ve KOSPI 200 ETF (+%2,205) çip stoku talebinde öncü oldular. Hong Kong Hang Seng %0,42 yükselirken teknoloji stokları tırmanışa geçti: Xiaomi (+%1,099), Tencent (+%1,298) ve CSOP SK Hynix 2x kaldıraçlı fon (+%7,443) yükseldi; Zhongji Innolight (-3,703%) ve MiniMax (-4,965%) gibi bazı düşüşler kazançları kısmen dengeledi. Çin CSI 300 endeksi %0,21 artış kaydetti, hükümet finansal düzenleyicileri 15 milyar dolar swap tesisi açıklayıp büyük bankalar ve menkul kıymet firmaları ile teşvik önlemleri görüştükten sonra. Asya'nın bu rallisi, koordine edilmiş politika desteğini ve küresel zayıflığa rağmen teknoloji sektörü iyimserliğini yansıttı.",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "AKEUSDT %41,6 çöktü ve açık bir neden yoktu; düşük hacimli altcoin'de olası likidite krizi veya zorunlu tasfiye.",
+      "explanation": "AKE 0,008861'den 0,003969'a %41,57 düşüş kaydetti, 158,6 milyon dolar hacimde. Haber kaynakları veya kripto duyurularında bu aşırı tek günlük çöküşü açıklayan açık bir neden bulunamadı.",
       "hasCause": false
     },
     {
       "symbol": "ARIAUSDT",
-      "explanation": "ARIAUSDT %37,5 yükseldi ve açık bir neden yoktu; tanımlanan haber katalizörü olmayan ince işlem gören token'de spekülatif momentumu yansıtabilir.",
+      "explanation": "ARIA 0,08203'ten 0,12029'a %37,54 sıçrama yaptı, 270,6 milyon dolar hacimde. Genel kaynaklarda bu parabolik kazancı açıklayabilecek tanımlanabilir bir haber veya pazar katalizörü bulunmadı.",
       "hasCause": false
     },
     {
       "symbol": "IDOLUSDT",
-      "explanation": "IDOLUSDT gün içinde %32,4 düştü, 24 saatlik zaman dilimlerinde kazanç göstermesine rağmen; net nedeni olmayan keskin bir geri dönüşü veya pozisyon çözülmesini gösterdi.",
+      "explanation": "IDOL 0,027763'ten 0,016934'e %32,42 düştü, 282,1 milyon dolar yoğun işlem hacminde. Keskin düşüşü açıklayacak ilişkili haber veya zincir üstü gelişmeler bulunmadı.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
+    "topThree": [
+      {
+        "headline": "Binance Para Çekmeyi Yeniden Açtı; Spot ETF'ler 539 Milyon Dolar Çıkış Kaydetti",
+        "what": "Binance, FBI tarafından 1 Kasım'da onaylanan 6,3 milyar dolarlık hırsızlıktan sonra üç gün kapalı kaldıktan sonra 2 Kasım'da kripto para çekmeyi yeniden başlattı. ABD spot Bitcoin ETF'leri 398,6 milyon dolar net itfa kaydetti (BlackRock'ın IBIT başında -405,3 milyon dolar ile), Ethereum ETF'leri ise 139,7 milyon dolar çıkış gördü. Bu, Ether fonu çıkışlarının altıncı ardışık günüydü. Kripto borsası rezervlerinden ve kurumsal fon itfalarından kaynaklanan satış baskısı, küçük altcoinlerdeki güçlü geniş tabanına rağmen fiyatları düşürdü.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-02 08:00",
+        "source": "Farside Investors / SoSoValue, CoinDesk",
+        "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-539m-in-net-outflows-on-november-2"
+      },
+      {
+        "headline": "Asya Borsaları Çin Teşvikleriyle Yükseldi; Kore KOSPI %2,38 Kazandı",
+        "what": "Güney Kore KOSPI endeksi %2,38 sıçradı. Yarı iletken hisseleri SK Hynix (+%3,996) ve Samsung Electronics (+%3,61) toparlanma umudunda öncü oldu. Hong Kong Hang Seng %0,42 yükselirken, teknoloji endeksi %2,25 tırmandı. Çin anakarası CSI 300 endeksi %0,21 arttı. Hükümet 15 milyar dolarlık swap tesisi açıkladı ve borsayı destekleme önlemleri hakkında büyük bankalar ve menkul kıymet firmaları ile toplantılar yaptı. Bu, ağır bir ay altında performansın sona ermesini temsil ediyor.",
+        "coins": "Hiçbiri (hisse senedi piyasası hareketi)",
+        "timeUTC": "2026-11-02 06:30",
+        "source": "Mali medya, Asya borsa değişimleri",
+        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-5002134"
+      },
+      {
+        "headline": "Korku Endeksi 37'ye Yükseldi; Pazar Büyüklüğü %1,39 Düştü; Bitcoin 76.000 Desteğine Bakıyor",
+        "what": "Kripto Korku & Açgözlülük Endeksi 34'ten 37'ye (Korku) yükseldi. Binance ihlali ve Ethereum ETF çıkışlarından sonraki belirsizliği yansıtıyor. Küresel kripto para piyasası büyüklüğü %1,39 azalarak 2,63 trilyon dolara düştü. Binance perpetual kontratlarının %70'i daha yüksek işlem gördüğü halde. Bitcoin gün içinde 76.000 dolar kritik destek seviyesini birden fazla kez test etti. Teknik analistler bunu, kırılırsa daha fazla tasfiyeler için bir kırılma noktası olarak işaret etti.",
+        "coins": "Bitcoin, Ethereum, altcoinler",
+        "timeUTC": "2026-11-02 20:00",
+        "source": "Kripto Korku & Açgözlülük Endeksi, CoinMarketCap, teknik analiz",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/02/crypto-market-today-nov-2-crypto-market-today-nov-2-bitcoin-and-altcoins-retreat-as-binance-withdrawals-spark-fresh-concerns/"
+      }
+    ],
     "groups": {
-      "Hacks, exploits and outages": [],
-      "Regulation and policy": [],
-      "Exchange and platform changes": [],
-      "Unconfirmed and watch items": []
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance Para Çekme Aşamasını Tamamladı; Çalınan Varlıkların %95'i Yerine Kondu",
+          "what": "Binance, çalınan 6,3 milyar dolarlık fonların %95'ini yerine koyduğunu ve 2 Kasım'da varlık türüne göre kademeli olarak para çekmeyi yeniden açtığını açıkladı. Borsa kalan açıkları düşük likiditeye sahip tokenlere bağladı ve sistematik olarak yerine koyma yapacağını söyledi. Bu, müşterilerin Binance'tan para çıkarmasını tetikledi. Bunun sonucunda 398,6 milyon dolar Bitcoin ve 139,7 milyon dolar Ethereum ETF itfaları yaşandı. Kullanıcılar paraları özerklik depo veya soğuk depolamaya taşıyordu.",
+          "coins": "Bitcoin, Ethereum, çeşitli altcoinler",
+          "timeUTC": "2026-11-02 09:00",
+          "source": "Binance resmi açıklamalar, Kripto haber toplayıcıları",
+          "url": "https://cryptoslate.com/binance-says-thinly-traded-tokens-are-delaying-full-replacement-of-stolen-assets/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "[Bağlam: 3 Kas] Binance Hack Detayları Ortaya Çıktı: Yapay Zeka Aracı İstismarı, Aylarca Süren Kampanya",
+          "what": "Binance'ın 3 Kasım güvenlik raporunda Kuzey Kore bağlantılı hackerların sahte iş görüşmeleri yoluyla aylar boyunca çalışanları tehlikeye attığını, ardından çalınan kimlik bilgileri ve dahili yapay zeka aracını kullanarak cüzdan imzalama altyapısına eriştiklerini açıkladı. İhlal Ethereum'un EIP-7702 mekanizmasını (hesap soyutlaması) yetkisiz işlemleri yürütmek için kullanmıştır. Bu, 6,3 milyar dolarlık borsa hırsızlığının nasıl gerçekleştiğinin ilk ayrıntılı döküm olarak endüstri genelindeki yapay zeka destekli sosyal mühendislik endişesini arttırdı.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-11-03 12:00",
+          "source": "CoinDesk, Cointelegraph, Binance olayı raporu",
+          "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "[Bağlam: 3 Kas] CFTC Bireysel Hisse Senedi Perpetual Futures'ları ABD Ticareti İçin Onayladı",
+          "what": "ABD Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC), düzenli borsaların bireysel hisse senetleri üzerinde perpetual futures kontratları sunmasını onayladı. Bu, kripto para-yerli bir ticaret enstrümanını geleneksel hisse senetlerine ilk kez ABD'de getirdi. Başkan Michael Selig, bunun ABD tüccarlarına açık deniz mekanlarına düzenlenmiş bir seçenek verdiğini söyledi. Bu hareket, Ekim ayında Kalshi'nin bu tür kontratlar için yapılmış başvurusunun ardından geldi ve kaldıraçlı türevler ürünlerinin önemli düzenleme genişlemesini işaret etti.",
+          "coins": "Geçerli değil (hisse senetleri/geleneksel piyasalar)",
+          "timeUTC": "2026-11-03 14:00",
+          "source": "CFTC resmi açıklama, CoinDesk, The Block",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
+        },
+        {
+          "headline": "[Bağlam: 3 Kas] SEC, Canton Coin Üzerinde Düşüncesiz Mektup Verdi; Dijital Emtia Ataması",
+          "what": "SEC'in Şirket Finansmanı Bölümü Canton Coin (CC) için düşüncesiz bir mektup verdi. Canton Coin'i (CC) bir güvenlik değil dijital emtia olarak görüyor. Bu, SEC'in CC'nin programlı ihraç süreci konusunda uygulamada bulunmayacağı anlamına geliyor. Hüküm, programlı olarak verilen tokenler için düzenleme açıklığı sağlar. SEC'in menkul kıymetler ve emtia çizgisini daraltıyor.",
+          "coins": "Canton Coin (CC)",
+          "timeUTC": "2026-11-03 10:00",
+          "source": "SEC, The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "[Bağlam: 3 Kas] Tether CEO'su 150.000 Bitcoin Holdunusunu İddia Ediyor; Rapor Edilenin 50.000 Üzerinde",
+          "what": "Tether CEO'su Paolo Ardoino, Lugano'daki Plan ₿ Forum'a katılanlarına şirketin 'yaklaşık 150.000 Bitcoin' sahibi olduğunu söyledi. Ama Tether'in Q3 2026 rezerv raporu sadece 100.060 Bitcoin'i USDT'yi desteklemek için gösterdi. 50.000 BTC farkı (cari fiyatlarla yaklaşık 3,8 milyar dolar değerinde) rezerv bileşimi hakkında sorular ve hesaplanmayan Bitcoin'in başka amaçlar için tutulup tutulmadığı konusunda belirsizlik yarattı.",
+          "coins": "Bitcoin, Tether (USDT)",
+          "timeUTC": "2026-11-03 09:00",
+          "source": "Decrypt, Plan ₿ Forum",
+          "url": "https://decrypt.co/382474/tether-holds-150000-bitcoin-ceo-says"
+        }
+      ]
     }
   },
-  "etfFlows": null,
+  "etfFlows": {
+    "date": "2026-11-02",
+    "summary": "ABD spot Bitcoin ETF'leri 2 Kasım'da 398,6 milyon dolar net çıkış kaydetti. BlackRock'ın IBIT başında -405,3 milyon dolar itfa ile müdürlük yaptı. Diğer ihraçcıların fonlarında giriş olmasına rağmen. ABD spot Ethereum ETF'leri 139,7 milyon dolar net çıkış kaydetti. Altı günlük itfa serisini uzatıyor. Toplam 539 milyon dolar çıkış, Binance'ın 6,3 milyar dolarlık hırsızlıktan sonra para çekmeyi yeniden açmasının ardından kurumsal yeniden konumlandırmayı ve perakende riski azaltmayı yansıttı.",
+    "source": "Farside Investors, SoSoValue, CoinDesk",
+    "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-539m-in-net-outflows-on-november-2"
+  },
   "calendarNotes": [
     {
-      "event": "Eurozone Flash CPI (Nov 4, 10:00 UTC) — medium impact on macroeconomic sentiment",
-      "typicalReaction": "Enflasyon beklentileri kripto fiyatlandırmasını geleneksel varlıklara karşı değiştirebilir; daha yüksek CPI faiz indirim umutlarını destekleyebilir veya parasal sıkılaştırma endişesini uzatabilir."
+      "event": "US Employment Situation (Fri 6 Nov, 13:30 UTC) — forecast 65K jobs, previous 29K; Unemployment rate forecast 4.2%; Hourly earnings forecast +0.3%",
+      "typicalReaction": "Kripto para pazarı için büyük hareket yapıcı. Beklenenden daha güçlü işe alım tipik olarak risk iştahını destekler ve daha yüksek oranları, Bitcoin'e baskı yapar. Daha zayıf veri, ABD Hazinelerinde güvenli liman talebini ve riskten kaçışı tetikleyebilir."
     },
     {
-      "event": "US ISM Services PMI (Nov 4, 15:00 UTC) — medium-high impact on growth expectations",
-      "typicalReaction": "Güçlü hizmetler verileri risk duygusunu güçlendirebilir ve altcoin'leri destekleyebilir; zayıf veriler tipik olarak güvenliğe kaçışı tetikler ve Bitcoin'i tercih eder."
+      "event": "Eurozone Flash CPI (Wed 4 Nov, 10:00 UTC), Riksbank Rate Decision (4 Nov, 08:30 UTC), US ISM Services PMI (4 Nov, 15:00 UTC)",
+      "typicalReaction": "Orta etkili makro veriler. Enflasyon sürprizleri oran artışı beklentilerini değiştirebilir ve kripto risk ticaretlerini destekleyen taşıma-ticaret dinamiklerini değiştirebilir."
     },
     {
-      "event": "US Employment Situation / Non-Farm Payrolls (Nov 6, 13:30 UTC) — high impact, tagged crypto-mover",
-      "typicalReaction": "Büyük bir hareket katalizörü; zayıf bordro verileri tipik olarak kripto ralli'yi destekler (faiz indirim bahisleri), güçlü bordro verileri risk tersine çevirmesini ve kaldıraçlı uzun pozisyonlarda tasfiyeyi riske koyar."
+      "event": "Bank of England, Norges Bank rate decisions (Thu 5 Nov) — orta etkili merkez bankası toplantıları",
+      "typicalReaction": "Bölgesel politika değişiklikleri dolar gücünü ve küresel risk duygusunu etkileyebilir. Tipik olarak Fed politikasına ikinci seviye, ama hükümran sürprizleri takip edin."
     }
   ],
   "glossary": [
     {
-      "term": "Altcoin",
-      "definition": "Bitcoin veya Ethereum dışında herhangi bir kripto para; değişen likidite ve risk profilleri olan binlerce daha küçük projeyi içerir."
+      "term": "Altcoinler",
+      "definition": "Bitcoin ve Ethereum dışındaki herhangi bir kripto para. Kripto borsalarında işlem gören binlerce küçük token ve projeyi içerir."
+    },
+    {
+      "term": "Fark",
+      "definition": "Vadeli işlem fiyatı (perpetual kontrat fiyatı) ile spot fiyat (cari pazar fiyatı) arasındaki fark. Geniş fark kaldıraç ve konum dengesizliğini gösterebilir."
     },
     {
       "term": "Genişlik",
-      "definition": "Bir piyasadaki madeni paraların yukarı hareket eden yüzdesi ile düşüşe geçen yüzdesinin karşılaştırması. Yüksek genişlik (%70+ yükselen) geniş piyasa gücünü gösterir; düşük genişlik zayıflığın ana madeni paralarda yoğunlaştığını gösterir."
+      "definition": "Bir pazardaki belirli bir yönde hareket eden varlıkların yüzdesi (yukarı veya aşağı). Yüksek yukarı genişlik (%70+) kazançlarda geniş katılımı gösterir; endeks kazançlarıyla düşük genişlik daha az varlıkta yoğunlaşmayı gösterir."
     },
     {
-      "term": "Korku ve Açgözlülük Endeksi",
-      "definition": "Piyasa duygusunu 0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında bir ölçekte ölçen bir duygu göstergesi. Uçlar genellikle potansiyel tersine dönüşleri işaret eder."
+      "term": "Soğuk depo",
+      "definition": "Kripto parayı internet'e bağlı olmayan çevrimdışı depolamada tutmak (donanım cüzdanlar, kağıt cüzdanlar), borsa hacklerinden hırsızlığını önlemek için kullanılır."
+    },
+    {
+      "term": "Kripto Korku & Açgözlülük Endeksi",
+      "definition": "0'dan (aşırı korku) 100'e (aşırı açgözlülük) değişen pazar duygusunun ölçüsü. 50'nin altındaki değerler korku gösterir; 50 üzeri değerler açgözlülük gösterir."
+    },
+    {
+      "term": "ETF çıkışı / İtfa",
+      "definition": "Yatırımcılar Bitcoin veya Ethereum ETF hisselerini ihraçcıya geri sattıklarında tetiklenen işlem. Büyük çıkışlar fiyatlara baskı yapabilir çünkü ihraçcılar temel kripto paraları satarlar."
     },
     {
       "term": "Finansman Oranı",
-      "definition": "Tüccarların kaldıraçlı pozisyonları (ödünç para kullanarak yapılan bahisler) tutmak için ödedikleri dönemsel ücret. Yüksek finansman oranları aşırı kaldıraçlı pozisyon ve endişeyi gösterir; tüccarlar bunu tipik olarak büyük borsalarda her 8 saatte bir öderler."
+      "definition": "Perpetual futures kontratlarında tüccarlar arasında yinelenen ödeme. Finansman pozitif (sıfırın üzeri) olduğunda, long tüccarlar short tüccarlar öder; bu oran yıllık yüzdedir. Yüksek oranlar aşırı kaldıraç ve boğa yoğunlaşmasını gösterir."
     },
     {
-      "term": "Kaldıraç",
-      "definition": "Kendi paranızın izin verdiğinden daha büyük bir pozisyon kontrol etmek için ödünç para kullanmak. Hem kazançları hem de kayıpları artırır. 10 kat kaldıraçlı bir pozisyon, %1'lik bir fiyat hareketi %10 kazanç veya kayıp anlamına gelir."
+      "term": "Long Pozisyonu",
+      "definition": "Bir varlığın fiyatının yükseleceğine dair bir bahis. Long pozisyonu tutan bir tüccar fiyat yükselirse kar eder."
     },
     {
-      "term": "Tasfiye",
-      "definition": "Kayıplar onu destekleyen teminattı (marj) aşarsa, kaldıraçlı bir pozisyonun zorunlu kapatılması. Genellikle otomatik satışın bir yayılmasını tetikler."
-    },
-    {
-      "term": "Uzun Pozisyon",
-      "definition": "Bir varlığın fiyatının yükseleceğine dair bir bahis. Uzun pozisyon alırsanız, fiyat yükselirse kar edersiniz ve düşerse kaybedersiniz."
-    },
-    {
-      "term": "Uzun-Kısa Oranı",
-      "definition": "Tüccarların yukarı (uzun) vs. aşağı (kısa) bahis koşullarının dengesi. 2,3 oranı, her 1 aşağı bahis yapan trader için 2,3 trader'ın yukarı bahis yaptığı anlamına gelir."
+      "term": "Long/Short Oranı",
+      "definition": "Long pozisyonları (fiyatın yükseleceğine bahis) tutan tüccarlar ile short pozisyonları (fiyatın düşeceğine bahis) tutan tüccarların oranı. 1,0 üzerindeki oran daha fazla longu; 1,0 altındaki oran daha fazla shortu gösterir."
     },
     {
       "term": "İşaret Fiyatı",
-      "definition": "Türevler üzerinde kaldıraç hesaplamak ve tasfiyeyi tetiklemek için kullanılan fiyat. Genellikle büyük borsa fiyatlarının medyanı, manipülasyonu önler."
+      "definition": "Perpetual futures'ta kar ve kaybı hesaplamak için kullanılan referans fiyat. Manipülasyonu önlemek için endeks fiyatlarından ve spot fiyatlarından hesaplanan, son işlem fiyatından farklıdır."
     },
     {
-      "term": "Açık Faiz",
-      "definition": "Tüm tüccarlar arasında şu anda açık olan tüm türev sözleşmelerin toplam nominal değeri (dolar veya madeni para cinsinden). Fiyat düşüşü üzerine artan açık faiz genellikle teslimiyeti ve potansiyel tersine dönüşü gösterir."
+      "term": "Açık Pozisyon",
+      "definition": "Bir pazardaki tüm açık türev pozisyonlarının (long ve short) toplam değeri (USD veya madeni paralar). Artan açık pozisyon ile yükselen fiyat trende olan inancı gösterir; artan açık pozisyon ile düşen fiyat yüksek kaldıraç ve tasfiye riskini gösterir."
     },
     {
-      "term": "Açık Faiz Değişimi",
-      "definition": "Toplam açık faizin bir dönem içinde nasıl hareket ettiği. Artışlar yeni kaldıraçın piyasaya girdiğini gösterir; azalışlar tasfiye veya pozisyon kapatmalarını gösterir."
+      "term": "Perpetual Futures / Perps",
+      "definition": "Bir varlığın fiyatını takip eden ve hiç sona ermek olmayan kaldıraçlı türev kontrat. Düzenli futures'ın aksine, tüccarlar finansman oranlarını öderken veya alırken süresiz olarak pozisyon tutabilirler."
     },
     {
-      "term": "Kalıcı Vadeli İşlemler",
-      "definition": "Hiçbir zaman sona ermeyen ve fiyatı spot (gerçek) fiyatlara yakın tutmak için tüccarlar tarafından sürekli olarak finanse edilen türev sözleşmeler. Dayanak varlığa sahip olmadan kaldıraçlı uzun veya kısa bahisler almak için kullanılır."
+      "term": "Özerklik Depo",
+      "definition": "Kripto parayı bir borsa yerine kontrol ettiğiniz bir kişisel cüzdanda doğrudan tutmak. Güvenlik sağlar ama kullanıcıların kendi özel anahtarlarını yönetmesini gerektirir."
     },
     {
-      "term": "Kısa Pozisyon",
-      "definition": "Bir varlığın fiyatının düşeceğine dair bir bahis. Kısa pozisyon alırsanız, fiyat düşerse kar edersiniz ve yükselirse kaybedersiniz."
+      "term": "Short Pozisyonu",
+      "definition": "Bir varlığın fiyatının düşeceğine dair bir bahis. Short pozisyonu tutan bir tüccar fiyat düşerse kar eder."
     },
     {
-      "term": "Alıcı Alış-Satış Oranı",
-      "definition": "Agresif alıcı tarafından başlatılan işlemler vs. agresif satıcı tarafından başlatılan işlemlerin oranı. 1,0'ın üzerinde daha agresif alımı; 1,0'ın altında daha agresif satımı gösterir. 1,0'a yakın değerler dengeli baskıyı gösterir."
+      "term": "Taker Alım/Satış Oranı",
+      "definition": "Bir pazardaki agresif alış emirleri (taker) ile satış emirleri (taker) arasındaki oran. 1,0 üzeri daha fazla agresif alıcıları gösterir; 1,0 altı daha fazla agresif satıcıları gösterir."
+    },
+    {
+      "term": "En Yüksek Pozisyon Oranı",
+      "definition": "Bir pazardaki en büyük tüccarlar tarafından tutulan (tipik olarak büyüklüğe göre en üst 10-20 hesap) long ile short pozisyonlarının oranı. Kurumsal tüccarların net-long veya net-short olup olmadığını gösterir."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Bir dönem während bir borsa veya tüm borsalardaki işlem gören varlıkların toplam tutarı (genellikle USD), kote para biriminde (USDT, USD vb.) ölçülür."
     }
   ],
   "_source": "cli-tr",
-  "_from": "986e0efc27ec0d0b"
+  "_from": "d58c7cc82e929954"
 }
