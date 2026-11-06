@@ -1,0 +1,33 @@
+{
+  "oneLine": "Pazar verileri 5 borsa üzerinden toplanmıştır; bu çalıştırma için haber sentezi kullanılamadı.",
+  "caveman": "",
+  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakın. (Bu çalıştırma için otomatik açıklama kullanılamadı — rakamlar doğrudan gösterilmektedir.)",
+  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakın.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Bu çalıştırma için açıklama yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "explanation": "Bu çalıştırma için açıklama yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "explanation": "Bu çalıştırma için açıklama yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [],
+    "groups": {}
+  },
+  "etfFlows": null,
+  "calendarNotes": [],
+  "glossary": [],
+  "_source": "cli-tr",
+  "_from": "ab8df46613bc063b"
+}
