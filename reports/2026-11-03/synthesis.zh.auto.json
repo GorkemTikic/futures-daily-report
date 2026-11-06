@@ -1,127 +1,149 @@
 {
-  "oneLine": "11月3日国会选举中民主党赢得全面胜利，控制了国会，推动加密货币市场普遍上涨，尽管市场情绪有所恶化。",
-  "caveman": "11月3日，美国人投票选出国会议员。民主党大获全胜，同时控制了众议院和参议院。这是政治力量的重大转变。比特币上涨0.8%，以太坊上涨0.9%，大多数加密货币也上涨了（70%的币种上涨）。虽然价格上升，但人们对未来感到更加担忧。亚洲科技股大幅下跌——韩国的大型芯片制造商（如SK Hynix）下跌7.6%。这次选举以及它对加密货币监管的影响是发生的最大事件。",
-  "priceVolumeSummary": "比特币和以太坊当日均上涨约0.8-0.9%，各交易所价格基本一致。币安在两种资产的交易量中领先，比特币成交额达84.6亿美元，Bybit和OKX各自处理超45亿美元的以太坊交易。",
-  "positioningSummary": "比特币交易员在所有账户中持有看涨的多空头寸比为2.57:1，在大型交易员中为1.87:1。币安上的资金费率转为温和正值，年化为3.16%。比特币未平仓头寸虽然持币数略有下降，但美元计价上升0.48%。以太坊在币安上显示出更强的多头头寸，比率为2.64:1，但资金费率为负，年化-1.49%，暗示对进一步上涨有一定阻力。两种资产都看到适度的交易方买入压力（比率分别为1.02和1.05），币安永续合约中70.4%当日上涨，反映出广泛的市场强势。",
-  "stocksSummary": "11月3日韩国半导体出口商大幅下跌：SK Hynix下跌7.6%，三星电子下跌5.6%，可能因为选举不确定性和对民主党控制国会下美国科技政策转变的担忧。香港追踪这些公司的指数产品跌幅更大，杠杆产品下跌14-15%。11月4日美国股市数据显示科技表现混合，与人工智能相关的股票承压，金融股上涨，暗示市场在选举后重新评估了监管风险。",
+  "oneLine": "11月3日国会选举投票期间，比特币和以太坊各涨约0.8–0.9%，市场宽度表现强劲（70%币种上涨），尽管存在选举不确定性，市场仍消化币安黑客事件的冲击。",
+  "caveman": "11月3日，美国人投票选国会议员（结果要等那晚午夜以后才会知道）。那天，币安公布了黑客怎样偷走63.4亿美元的——骗子假扮招聘人员，用假面试让开发者下载有毒代码。到交易日结束时，比特币涨了0.8%，以太坊涨了0.9%，大部分加密币都涨了（占70%）。但那天上午发生了吓人的事——比特币跌了一下，超过2亿美元的杠杆交易被强制平仓。然后价格又反弹了。在韩国和香港，大科技公司的股指期货跌得很厉害——SK海力士跌了7.6%，三星跌了5.6%，大概是因为选举不确定和对美国科技政策变化的担忧。巴西的另一家交易所Mercado Bitcoin同一天也被黑了，丢了4,600万美元。那是很紧张的一天，但市场还是撑住了。",
+  "priceVolumeSummary": "比特币和以太坊当日在各主要交易所的涨幅约为0.8–0.9%，各交易所价格保持高度一致。币安成交量领先，比特币日交易额84.6亿美元，以太坊55.7亿美元。",
+  "positioningSummary": "比特币交易者在全部账户中持有2.57:1的多空比（看涨），大户中为1.87:1，币安资金费率为正3.16%（年化）。比特币未平仓头寸以美元计价上升0.48%，尽管持币数量略降。以太坊在币安的多头持仓更强劲，为2.64:1，但资金费率为负-1.49%（年化），反映市场对进一步上涨持谨慎态度。两种资产的主动买入压力温和（比率各为1.02和1.05），币安永续合约中70.4%在当日收盘上涨。尽管选举不确定和黑客清仓导致日内波动剧烈，但整体显示强势。市场情绪保持恐慌（恐惧贪婪指数26，较前一天的37有所缓解）。",
+  "stocksSummary": "11月3日，韩国半导体出口商大幅下跌：SK海力士跌7.6%，三星电子跌5.6%，可能受选举不确定性和对美国科技政策变化的担忧影响。香港追踪这些公司的指数产品跌幅更大，杠杆产品下跌14–15%。中国市场表现混合，宇树科技上涨2.5%，CXMT上涨5.9%。",
   "movers": [
     {
       "symbol": "AGTUSDT",
-      "explanation": "AGT日内飙升32.9%，尽管在过去24小时内下跌27.4%，暗示出现了急剧反转，可能是交易所上市事件或清算级联。",
+      "explanation": "AGT日内飙升32.9%，尽管过去24小时跌27.4%，这种急剧反转可能暗示交易所上市事件或清仓级联。",
       "hasCause": false
     },
     {
       "symbol": "HOTUSDT",
-      "explanation": "HOT日内反弹25.9%，在24小时内下跌19.1%后出现反转，与AGT出现类似的反转模式，没有明确的公开公告。",
+      "explanation": "HOT日内反弹25.9%，而过去24小时下跌19.1%，呈现与AGT相似的反转格局，无明确公开公告。",
       "hasCause": false
     },
     {
       "symbol": "BMTUSDT",
-      "explanation": "BMT当日上涨23.6%，同时24小时表现积极，未发现明确的催化剂。",
+      "explanation": "BMT日内上涨23.6%，过去24小时表现也为正。未识别出明确触发因素。",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "民主党赢得国会选举，迫使加密货币行业重新思考华盛顿战略",
-        "what": "11月3日，民主党在中期选举中赢得众议院和参议院的多数席位，标志着政治力量的重大转变。加密货币超级政治行动委员会在选举上花费了超过1.76亿美元，但面临重大挫折，关键的亲加密货币候选人落选，该行业的主要政策工具《清晰法案》在其目前的形式下可能已经死亡。",
+        "headline": "币安披露黑客入侵手段：利用假招聘面试窃取开发者凭据",
+        "what": "币安在11月3日披露了10月31日至11月1日期间63.4亿美元黑客事件的详情。攻击者冒充招聘人员，通过假招聘面试在编程任务中投递恶意代码，随后利用窃取的部署凭证入侵钱包签名系统。截至11月3日，币安已覆盖98%的受影响资产，并在格林威治时间04:00启动了第二阶段提现。净流出从77亿美元的峰值下降至日末的35亿美元，充提比恢复至78%，表明市场趋于稳定。",
         "coins": "BTC, ETH, all cryptos",
-        "timeUTC": "2026-11-03 15:16 UTC (elections), 2026-11-04 11:34 UTC (reporting)",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362"
+        "timeUTC": "2026-11-03 (disclosure)",
+        "source": "Bloomberg / KuCoin Market Report",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-03/binance-hackers-used-fake-job-interviews-in-6-3-billion-heist"
       },
       {
-        "headline": "CFTC批准股票永续期货；《清晰法案》在民主党控制国会下可能已死亡",
-        "what": "CFTC批准了股票永续期货合约，使零售和机构交易员能够通过加密货币衍生品对美国股票持仓。然而，即将执政的民主党国会预计将对加密货币市场施加更严格的监管，不太可能通过《清晰法案》，该法案原本会澄清监管权限。",
-        "coins": "General crypto policy",
-        "timeUTC": "2026-11-01 approx. (CFTC approval), 2026-11-04 14:48 UTC (policy analysis)",
-        "source": "CoinDesk, CFTC",
-        "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin"
+        "headline": "选举日加密市场大幅波动；超2亿美元杠杆多头遭平仓",
+        "what": "11月3日选举日投票期间，加密市场因选举结果不确定性和币安黑客事件讨论而出现剧烈日内波动。比特币在亚洲早盘跌破$77,000（2小时内下跌>1%），超2亿美元的杠杆多头头寸遭平仓，随后随着投票进展推进担忧缓解而反弹。11月3日早晚，比特币已修复涨幅，市场当日收高。",
+        "coins": "BTC, ETH, SOL",
+        "timeUTC": "2026-11-03 (throughout trading day)",
+        "source": "Fool / Yahoo Finance, TCB Daily",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/"
+      },
+      {
+        "headline": "Mercado Bitcoin遭黑成为11月3日第二起交易所被黑事件；4,600万美元被盗",
+        "what": "巴西加密交易所Mercado Bitcoin在11月3日UTC遭4,600万美元黑客攻击，暂停充提服务，公司承诺赔偿所有损失。该事件发生在美国选举投票进行和市场仍在消化币安黑客详情之际，加剧了整个行业的安全担忧。",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-03",
+        "source": "KuCoin Daily Market Report",
+        "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-3-2026"
       }
     ],
     "groups": {
-      "Regulation and policy": [],
-      "Institutional flows and ETFs": [],
       "Hacks, exploits and outages": [
         {
-          "headline": "法国银行Crédit Mutuel Arkéa遭黑客利用，损失1.33亿美元；攻击者可能与朝鲜无关",
-          "what": "对法国金融机构Crédit Mutuel Arkéa的网络攻击导致约1.33亿美元被盗，分析师ZachXBT认为攻击者与朝鲜的Lazarus Group没有明显联系，表明这是一起独立的复杂犯罪活动。",
-          "coins": "General cybersecurity concern",
-          "timeUTC": "2026-11-03 05:37 UTC approx.",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607"
+          "headline": "币安黑客入侵手段曝光：假招聘面试和编程任务中的恶意代码",
+          "what": "币安在11月3日披露，63.4亿美元黑客事件采用社交工程手段针对开发者。攻击者冒充招聘人员，通过假面试编程任务传播恶意代码，并利用窃取的凭证访问钱包签名系统。截至11月3日UTC，98%受影响资产已覆盖，第二阶段提现已启动，市场趋于稳定。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-11-03",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/binance-hackers-used-fake-job-interviews-in-6-3-billion-heist"
+        },
+        {
+          "headline": "Mercado Bitcoin遭4,600万美元盗窃；公司承诺赔偿所有损失",
+          "what": "巴西交易所Mercado Bitcoin在11月3日UTC遭4,600万美元黑客攻击，被迫暂停充提。该交易所表示将赔偿所有受影响用户，尽管此事件与币安黑客事件后的安全审查相吻合。",
+          "coins": "General exchange security",
+          "timeUTC": "2026-11-03",
+          "source": "KuCoin",
+          "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-3-2026"
         }
       ],
-      "Exchange and platform changes": [],
-      "Traditional markets": []
+      "Regulation and policy": [
+        {
+          "headline": "美国SEC澄清加密资产治理常见问题；香港计划24/7代币化结算试点（含稳定币）",
+          "what": "美国证交会发布新指引，澄清如何识别代币治理结构中的中央方。同时，香港金管局推进24/7代币化结算基础设施计划，表示计划在涉及外汇基金票据的试点中纳入稳定币，这对链上金融具有潜在重大意义。",
+          "coins": "General policy/stablecoins",
+          "timeUTC": "2026-11-03",
+          "source": "KuCoin Daily Report / Regulatory sources",
+          "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-3-2026"
+        }
+      ]
     }
   },
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Congressional Elections (US House and Senate)",
-      "typicalReaction": "加密货币等风险资产在市场明朗或鸽派结果时往往会上升；民主党的全面胜利伴随监管倾向导致初期波动，随后市场重新评估监管风险后出现反弹。"
+      "event": "US Congressional Elections (Nov 3, 15:16 UTC)",
+      "typicalReaction": "选举日，选举结果要等UTC午夜后才能知晓。投票期间，市场对民调和投票趋势反应敏感，波动性上升。由于监管政策存在不确定性，加密资产在重大政治事件期间通常会出现日内波动。"
     },
     {
       "event": "Norges Bank Rate Decision (Nov 5, 09:00 UTC)",
-      "typicalReaction": "美元和风险资产的潜在波动因素；央行决定通常会影响宏观情绪。"
+      "typicalReaction": "央行利率决议；可能影响美元和风险资产（包括加密资产）的吸引力。"
     },
     {
-      "event": "US Non-Farm Payrolls and Employment Data (Nov 6, 13:30 UTC)",
-      "typicalReaction": "对美元、债券和股票风险偏好有重大影响的数据；加密货币在劳动力市场重大意外时通常会跟随股票走势。"
+      "event": "US Employment Situation / Non-Farm Payrolls (Nov 6, 13:30 UTC)",
+      "typicalReaction": "高影响力的劳动力市场数据，通常会驱动美元、债券和股票的剧烈波动；加密资产对重大就业数据意外通常与股市风险情绪高度关联。"
     }
   ],
   "glossary": [
     {
       "term": "基差（交易）",
-      "definition": "同一资产的当前市场价格（现货价格）与期货价格之间的价格差异。"
+      "definition": "同一资产现货价格与期货价格之间的价差。"
     },
     {
       "term": "市场宽度",
-      "definition": "市场中上涨或下跌的资产的百分比或数量；高宽度（例如70%的币种上涨）表明市场情绪强劲。"
+      "definition": "市场上上涨或下跌的资产占比；高宽度（例如70%的币种上涨）表明市场情绪整体强势。"
     },
     {
-      "term": "冷存储",
-      "definition": "离线存储在保险库或硬件钱包中、与互联网断开的加密货币，用于保护资产免遭黑客攻击。"
-    },
-    {
-      "term": "恐惧与贪婪指数",
-      "definition": "一个情绪指标，范围从0（极度恐惧）到100（极度贪婪），根据波动性、动量和社交媒体趋势衡量加密货币市场情绪。"
+      "term": "恐惧贪婪指数",
+      "definition": "从0（极度恐惧）到100（极度贪婪）的情绪指标，根据波动性、动量和社交媒体趋势衡量加密市场情绪。"
     },
     {
       "term": "资金费率",
-      "definition": "永续期货中多头和空头交易员之间的定期支付，旨在保持合约价格接近现货价格。正资金费率表示多头支付空头；负费率表示空头支付多头。"
+      "definition": "永续期货中多空头之间的周期性结算费用，用于使合约价格与现货价格保持接近。正费率表示多头支付空头；负费率表示空头支付多头。"
     },
     {
-      "term": "多空头寸比",
-      "definition": "持有多头头寸（看好价格上升）的交易员数量与持有空头头寸（看好价格下跌）的交易员数量的比率；比率高于1.0表示更多的看涨头寸。"
+      "term": "爆仓",
+      "definition": "当保证金低于交易所最低要求时，杠杆头寸被强制平仓；在衍生品市场中常见，行情逆向移动会导致交易者保证金被抹平。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有多头头寸（看涨）的交易者与持有空头头寸（看跌）的交易者的比率；比率高于1.0表示看涨头寸更多。"
     },
     {
       "term": "标记价格",
-      "definition": "期货交易所用于计算资金费率和清算的参考价格，通常是现货价格或基于指数价格的加权平均值。"
+      "definition": "期货交易所用于计算资金费率和爆仓的参考价格，通常是现货价格的加权平均或基于指数的价格。"
     },
     {
       "term": "未平仓头寸（OI）",
-      "definition": "期货市场中所有未平仓多头和空头头寸的总值；未平仓头寸增长表明杠杆增加和潜在波动性增大。"
+      "definition": "期货市场中所有未结算多空头寸的总价值；OI增长表明杠杆增加和潜在波动性上升。"
     },
     {
       "term": "未平仓头寸变化",
-      "definition": "未平仓头寸总量的日环比百分比变化，表明交易员是在集体增加还是减少头寸。"
+      "definition": "未平仓头寸总额的日同比百分比变化，反映交易者是在集体增加还是减少头寸。"
     },
     {
       "term": "永续期货",
-      "definition": "没有到期日期的期货合约，允许交易员只要保持保证金和支付资金费率，就可以无限期地持有杠杆多头或空头头寸。"
+      "definition": "无到期日的期货合约，允许交易者在维持保证金并支付资金费率的前提下无限期持有杠杆多空头寸。"
     },
     {
-      "term": "交易方买卖比",
-      "definition": "市场买单与卖单的比率；比率高于1.0表示交易方更积极地买入（交易员接受当前卖价）。"
+      "term": "主动买入/卖出比",
+      "definition": "市场买单与卖单的比率；比率高于1.0表明主动买入（接受当前卖价的交易者）更积极。"
     },
     {
-      "term": "大户头寸比",
-      "definition": "仅在交易所最大交易员中计算的多空头寸比，表明最大的交易员是看涨还是看跌。"
+      "term": "大户多空比",
+      "definition": "交易所中最大交易者的多空头寸比率，反映大玩家是倾向看涨还是看跌。"
     }
   ],
   "_source": "cli-zh",
-  "_from": "300dfb52e85c349c"
+  "_from": "82a70c4e90ca9a63"
 }

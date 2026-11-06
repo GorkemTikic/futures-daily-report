@@ -1,75 +1,97 @@
 {
-  "oneLine": "Congressional elections on Nov 3 swept Democrats into control of Congress, driving broad crypto market gains despite deteriorating sentiment.",
-  "caveman": "On Nov 3, Americans voted for Congress. Democrats won big and took control of both the House and Senate. This was a big change in political power. Bitcoin went up 0.8%, Ethereum went up 0.9%, and most crypto coins rose too (70% of them were up). But people felt more scared about the future even though prices rose. Asian tech stocks fell hard—Korea's big computer chip makers like SK Hynix dropped 7.6%. The election and its meaning for crypto rules was the biggest thing that happened.",
-  "priceVolumeSummary": "Bitcoin and Ethereum both gained roughly 0.8–0.9% on the day, with venues closely aligned on prices. Binance led volume for both assets, moving $8.46 billion of BTC and Bybit and OKX each handling over $4.5 billion of ETH.",
-  "positioningSummary": "Bitcoin traders held a bullish long-to-short bias of 2.57:1 across all accounts and 1.87:1 among the largest traders, while funding turned modestly positive at 3.16% annualized on Binance. Bitcoin open interest rose 0.48% in USD terms despite a slight decline in coins held. Ethereum showed even stronger long positioning at 2.64:1 on Binance but carried negative funding of -1.49% annually, signaling some resistance to further upside. Both assets saw modest taker buy pressure (1.02 and 1.05 ratios respectively), and 70.4% of Binance perpetual contracts were up for the day, reflecting broad market strength.",
-  "stocksSummary": "Korean semiconductor exporters fell sharply on Nov 3: SK Hynix dropped 7.6% and Samsung Electronics fell 5.6%, likely on election uncertainty and concern over US tech policy shifts under a Democratic Congress. Hong Kong index products tracking these names fell harder with leveraged products down 14–15%. US equity data from Nov 4 showed mixed tech performance with AI-related stocks under pressure and financial stocks gaining—suggesting market reassessment of regulatory risk after the elections.",
+  "oneLine": "Congressional elections proceeded on Nov 3 as voting took place amid the Binance hack aftermath; Bitcoin and Ethereum each gained about 0.8–0.9% intraday, and market breadth held strong at 70% of coins up despite election-day uncertainty.",
+  "caveman": "On Nov 3, Americans voted for Congress (the results wouldn't be known until after midnight that night). During the day, Binance revealed how hackers had stolen $6.3 billion: they used fake job interviews to trick developers into downloading malicious code. Bitcoin went up 0.8% and Ethereum went up 0.9% by the end of the trading day, and most crypto coins were up (70% of them). But during the day there was a scary moment—early on, Bitcoin dropped and over $200 million in traders' risky bets got wiped out (liquidations). Then prices recovered. In Korea and Hong Kong, big tech companies' stock futures fell hard—SK Hynix dropped 7.6% and Samsung dropped 5.6%, probably because of election uncertainty and worries about US tech policy. Another exchange, Mercado Bitcoin in Brazil, also got hacked for $46 million that same day. It was a tense day, but the market held up.",
+  "priceVolumeSummary": "Bitcoin and Ethereum both gained roughly 0.8–0.9% on the day across all major venues, which stayed closely aligned on prices. Binance led volume for both assets, moving $8.46 billion of BTC and $5.57 billion of ETH.",
+  "positioningSummary": "Bitcoin traders held a bullish long-to-short bias of 2.57:1 across all accounts and 1.87:1 among the largest traders, with funding positive at 3.16% annualized on Binance. Bitcoin open interest rose 0.48% in USD terms despite a slight decline in coins held. Ethereum showed stronger long positioning at 2.64:1 on Binance but carried negative funding of -1.49% annually, signaling caution on further upside. Both assets saw modest taker buy pressure (1.02 and 1.05 ratios respectively), and 70.4% of Binance perpetual contracts closed up for the day, reflecting broad strength despite sharp intraday volatility tied to election uncertainty and hack liquidations. Market sentiment remained fearful (26 on the Fear & Greed Index, down from 37 the prior day).",
+  "stocksSummary": "Korean semiconductor exporters fell sharply during Nov 3: SK Hynix dropped 7.6% and Samsung Electronics fell 5.6%, likely on election uncertainty and pre-election concerns about potential US technology policy shifts. Hong Kong index products tracking these names fell harder, with leveraged products down 14–15%. Chinese markets saw mixed movement with Unitree Robotics up 2.5% and CXMT up 5.9%.",
   "movers": [
     {
       "symbol": "AGTUSDT",
-      "explanation": "AGT surged 32.9% intraday despite losing 27.4% over the prior 24 hours, suggesting a sharp reversal and possible exchange listing event or liquidation cascade.",
+      "explanation": "AGT surged 32.9% intraday despite losing 27.4% over the prior 24 hours, a sharp reversal suggesting possible exchange listing event or liquidation cascade.",
       "hasCause": false
     },
     {
       "symbol": "HOTUSDT",
-      "explanation": "HOT rallied 25.9% intraday after declining 19.1% in the broader 24-hour window, similar reversal pattern to AGT with no clear public announcement.",
+      "explanation": "HOT rallied 25.9% intraday after declining 19.1% in the broader 24-hour window, a similar reversal pattern to AGT with no clear public announcement.",
       "hasCause": false
     },
     {
       "symbol": "BMTUSDT",
-      "explanation": "BMT gained 23.6% on the day amid positive 24h performance, no clear catalyst identified.",
+      "explanation": "BMT gained 23.6% on the day amid positive 24-hour performance. No clear catalyst identified.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "Democrats sweep Congressional elections, forcing crypto industry to rethink Washington strategy",
-        "what": "On Nov 3, Democrats won majorities in both the US House and Senate in midterm elections, marking a major political shift. Crypto super PACs spent over $176 million on the election but faced significant setbacks, with key pro-crypto candidates losing and the industry's primary policy vehicle, the Clarity Act, now likely dead in its current form.",
+        "headline": "Binance reveals hack attack vector: fake job interviews used to compromise developer credentials",
+        "what": "Binance disclosed operational details of the Oct 31–Nov 1 $6.34 billion breach on Nov 3. Attackers posed as recruiters, used fake job interviews to deliver malicious code through coding assignments, then exploited stolen deployment credentials to access wallet signing systems. The exchange had covered 98% of affected assets and launched withdrawal phase 2 at 04:00 GMT Nov 3. Net outflows declined from a $7B peak to $3.5B by day's end, and the deposit-to-withdrawal ratio recovered to 78%, signaling stabilization.",
         "coins": "BTC, ETH, all cryptos",
-        "timeUTC": "2026-11-03 15:16 UTC (elections), 2026-11-04 11:34 UTC (reporting)",
-        "source": "The Block",
-        "url": "https://www.theblock.co/news/regulation/2026-11-04-democratic-sweep-congress-forces-crypto-industry-rethink-washington-strategy-434362"
+        "timeUTC": "2026-11-03 (disclosure)",
+        "source": "Bloomberg / KuCoin Market Report",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-03/binance-hackers-used-fake-job-interviews-in-6-3-billion-heist"
       },
       {
-        "headline": "CFTC approves equity perpetual futures; Clarity Act likely dead under Democratic Congress",
-        "what": "The CFTC approved equity perpetual futures contracts, enabling retail and institutional traders to take positions on US stocks through crypto derivatives. However, the incoming Democratic Congress is expected to impose stricter oversight of crypto markets and is unlikely to pass the Clarity Act, which would have clarified regulatory authority.",
-        "coins": "General crypto policy",
-        "timeUTC": "2026-11-01 approx. (CFTC approval), 2026-11-04 14:48 UTC (policy analysis)",
-        "source": "CoinDesk, CFTC",
-        "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin"
+        "headline": "Crypto markets show sharp intraday volatility on election day; over $200M in leveraged longs liquidated",
+        "what": "During Nov 3 election day voting, cryptocurrency markets experienced sharp intraday moves tied to election-result uncertainty and the ongoing Binance hack discourse. Bitcoin retreated to below $77,000 in early Asia trading (down >1% in under 2 hours) with over $200 million in leveraged long positions liquidated, before recovering as voting progress eased concerns. By early evening Nov 3, BTC had recovered and the market closed higher for the day.",
+        "coins": "BTC, ETH, SOL",
+        "timeUTC": "2026-11-03 (throughout trading day)",
+        "source": "Fool / Yahoo Finance, TCB Daily",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/crypto-market-today-nov-3-xrp-and-zcash-defy-recent-weakness-as-midterm-elections-take-center-stage/"
+      },
+      {
+        "headline": "Mercado Bitcoin breach adds second exchange hack to Nov 3 risk narrative; $46 million stolen",
+        "what": "Brazilian cryptocurrency exchange Mercado Bitcoin fell victim to a $46 million attack on Nov 3 UTC, suspending deposits and withdrawals while the company stated it would cover all losses. The breach occurred the same day election voting was underway and as market participants were still absorbing the Binance hack details, heightening security concerns across the sector.",
+        "coins": "General exchange security",
+        "timeUTC": "2026-11-03",
+        "source": "KuCoin Daily Market Report",
+        "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-3-2026"
       }
     ],
     "groups": {
-      "Regulation and policy": [],
-      "Institutional flows and ETFs": [],
       "Hacks, exploits and outages": [
         {
-          "headline": "French bank Crédit Mutuel Arkéa exploited for $133 million; attacker likely unaffiliated with North Korea",
-          "what": "A cyber attack on French financial institution Crédit Mutuel Arkéa resulted in approximately $133 million in theft, with analyst ZachXBT suggesting the attacker has no apparent connection to North Korea's Lazarus Group, indicating a separate, sophisticated criminal operation.",
-          "coins": "General cybersecurity concern",
-          "timeUTC": "2026-11-03 05:37 UTC approx.",
-          "source": "The Block",
-          "url": "https://www.theblock.co/news/web3/2026-11-03-french-bank-credit-mutuel-arkea-exploited-zachxbt-432607"
+          "headline": "Binance hack attack vector revealed: fake job interviews and malicious code in coding assignments",
+          "what": "Binance disclosed on Nov 3 that the $6.34 billion breach used social engineering and targeted developers. Attackers impersonated recruiters, delivered malicious code through fake job interview coding tasks, and exploited stolen credentials to access wallet signing systems. By Nov 3 UTC, 98% of affected assets were covered and withdrawal phase 2 had launched, stabilizing the market.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-11-03",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/binance-hackers-used-fake-job-interviews-in-6-3-billion-heist"
+        },
+        {
+          "headline": "Mercado Bitcoin hit with $46 million theft; company pledges to cover all losses",
+          "what": "Brazilian exchange Mercado Bitcoin suffered a $46 million hack on Nov 3 UTC, forcing suspension of deposits and withdrawals. The exchange stated it would compensate all affected users, though the incident coincided with heightened security scrutiny following the Binance breach.",
+          "coins": "General exchange security",
+          "timeUTC": "2026-11-03",
+          "source": "KuCoin",
+          "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-3-2026"
         }
       ],
-      "Exchange and platform changes": [],
-      "Traditional markets": []
+      "Regulation and policy": [
+        {
+          "headline": "SEC clarifies crypto-asset governance FAQs; Hong Kong plans 24/7 tokenized settlement trials with stablecoins",
+          "what": "The SEC released new clarifying guidance on identifying central parties in token governance structures. In parallel, Hong Kong's Monetary Authority advanced plans for 24/7 tokenized settlement infrastructure, signaling intent to include stablecoins in trials involving Exchange Fund Bills—a development potentially significant for on-chain finance.",
+          "coins": "General policy/stablecoins",
+          "timeUTC": "2026-11-03",
+          "source": "KuCoin Daily Report / Regulatory sources",
+          "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-3-2026"
+        }
+      ]
     }
   },
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Congressional Elections (US House and Senate)",
-      "typicalReaction": "Risk-on assets like crypto tend to rally on clarity or dovish outcomes; Democratic sweep with pro-regulation lean generated initial volatility, then recovery as markets repriced regulatory risk."
+      "event": "US Congressional Elections (Nov 3, 15:16 UTC)",
+      "typicalReaction": "Election day; results unknown until after UTC midnight. During voting, markets reacted to exit polls and voting trends with elevated volatility. Crypto typically shows intraday swings on major political events due to regulatory policy uncertainty."
     },
     {
       "event": "Norges Bank Rate Decision (Nov 5, 09:00 UTC)",
-      "typicalReaction": "Potential mover for USD and risk assets; central bank decisions typically influence macro sentiment."
+      "typicalReaction": "Central bank rate decision; potential mover for USD and risk-asset appetite including crypto."
     },
     {
-      "event": "US Non-Farm Payrolls and Employment Data (Nov 6, 13:30 UTC)",
-      "typicalReaction": "High-impact data for USD, bonds, and equity risk appetite; crypto often follows equities on major labor-market surprises."
+      "event": "US Employment Situation / Non-Farm Payrolls (Nov 6, 13:30 UTC)",
+      "typicalReaction": "High-impact labor-market data typically driving sharp USD, bond, and equity moves; crypto often correlates to equity risk sentiment on major employment surprises."
     }
   ],
   "glossary": [
@@ -79,11 +101,7 @@
     },
     {
       "term": "Breadth",
-      "definition": "The percentage or count of assets in a market that are moving up or down in price; high breadth (e.g., 70% of coins up) suggests strong market-wide sentiment."
-    },
-    {
-      "term": "Cold storage",
-      "definition": "Cryptocurrency held offline in vaults or hardware wallets, disconnected from the internet, used to protect assets from hacking."
+      "definition": "The percentage of assets in a market that are moving up or down in price; high breadth (e.g., 70% of coins up) suggests strong market-wide sentiment."
     },
     {
       "term": "Fear & Greed Index",
@@ -92,6 +110,10 @@
     {
       "term": "Funding rate",
       "definition": "A periodic payment between long and short traders on perpetual futures, designed to keep the contract price close to the spot price. Positive funding means longs pay shorts; negative means shorts pay longs."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a leveraged position when collateral drops below the exchange's minimum requirement; common in derivatives markets where a price move against a trader wipes out their margin."
     },
     {
       "term": "Long/short ratio",
@@ -119,7 +141,7 @@
     },
     {
       "term": "Top position ratio",
-      "definition": "The long-to-short ratio calculated only among the largest traders on an exchange, indicating whether the biggest players are leaning bullish or bearish."
+      "definition": "The long-to-short ratio among the largest traders on an exchange, indicating whether the biggest players are leaning bullish or bearish."
     }
   ],
   "_source": "cli"
