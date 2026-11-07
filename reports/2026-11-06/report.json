@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-06",
+  "kind": "market",
+  "dateLong": "Friday, 6 November 2026",
+  "coversUTC": "2026-11-06 00:00–23:59 UTC",
+  "oneLine": "Market data collected across 5 venues; news synthesis was unavailable for this run.",
+  "newsCount": 0,
+  "macro": {
+    "BTC": -0.3056165590521076,
+    "ETH": -0.0991
+  },
+  "topMover": {
+    "symbol": "AKEUSDT",
+    "chgPct": 78.18761384335153
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "07 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "degraded",
+  "degradedReasons": [
+    "narrative fell back to data-only"
+  ]
+}

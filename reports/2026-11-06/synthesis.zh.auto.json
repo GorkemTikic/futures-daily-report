@@ -1,0 +1,155 @@
+{
+  "oneLine": "比特币在11月6日下跌0.3%，主要交易所的监管压力和科技股疲软打压了加密货币情绪，但大多数山寨币和更广泛的市场宽度仍保持正面。",
+  "caveman": "星期五，比特币跌了一点点——不到半个百分点。以太坊基本没动。但真正的大事不是价格：是美国政府做了什么。财政部下令一个叫MEXC的大交易所停止处理交易，因为它帮助了坏人。同时，另一家叫Gnosis Pay的公司说黑客偷了客户的信用卡信息，但钱还在。以太坊的程序员要修复一个软件漏洞，防止二层网络出问题。在巴拉圭，人们害怕银行倒闭，开始买比特币和USDT，价格比平常高3%到13%。好消息：大多数小加密货币今天其实涨了，市场整体很健康。这是个矛盾的一天——有坏消息，但价格基本没动。",
+  "priceVolumeSummary": "比特币在所有主要交易所（币安、Bybit、OKX、Bitget、Gate）附近整固，价格约$75,817，交易价格一致。币安交易量领先，达$11.5亿USDT，其次是Bybit（$4.8亿），主要交易所总交易量约$32亿——流动性充足，分布均衡的交易日。",
+  "positioningSummary": "尽管价格下跌，比特币资金费率在各交易所仍保持高位，年化4.9%-11%，反映多头持续使用杠杆。未平仓量温和增长：Bybit的比特币未平仓量增长3.7%（以币计），币安增长2.0%，显示多头未认输。在币安，多空账户比率为2.92:1，大户比率为2.18:1——都偏向看涨——但主动买卖比率跌至0.97，表示卖方压力略有增加。市场宽度健康：币安永续合约中84%（676/804个）收盘上涨，表明资金未广泛逃离风险资产。",
+  "stocksSummary": "亚洲芯片股周五早盘大涨：三星和SK Hynix在韩国交易所涨幅约6-7.5%，香港上市的半导体杠杆基金涨幅11-14%，因前一天的AI抛售反转。美国科技股温和反弹（纳斯达克+1.1%），能源股跌幅1-2%，因市场担忧需求。这次反弹表明周四波动后的均值回归，而非风险情绪恶化。",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "78%暴涨没有明确的公开原因；这是上涨行情中常见的山寨币波动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONEUSDT",
+      "explanation": "在山寨币整体强势中上涨70%；未发现具体的催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "急剧下跌61%；未发现与该代币相关的新闻或监管行动。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国财政部因$16亿非法流量冻结MEXC",
+        "what": "金融犯罪执法网络(FinCEN)下令美国金融机构停止处理MEXC Global的转账。MEXC Global被指在2021年5月至2026年5月期间协助了与伊朗、俄罗斯、朝鲜和勒索软件相关的$16亿交易。这项禁令根据《打击俄罗斯洗钱法》发布，在联邦公报公布后30天生效。",
+        "coins": "MEXC Global (交易所)",
+        "timeUTC": "2026-11-06 07:33",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions"
+      },
+      {
+        "headline": "以太坊二层网络紧急软件更新修复状态根漏洞",
+        "what": "Reth、Optimism、Base和Tempo的开发者发布了补丁（Reth 2.10.0、op-reth 2.8.1、Base 1.5.3）来修复一个旧的状态根计算错误，该错误在特定交易条件下可能导致同步失败。用户资金未受风险，未发生确认损失；该修复被列为客户端正确性缺陷。",
+        "coins": "以太坊、二层协议",
+        "timeUTC": "2026-11-06 11:27",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks/"
+      },
+      {
+        "headline": "巴拉圭银行倒闭致比特币和USDT交易溢价3-13%",
+        "what": "在Ueno Bank于11月3日进入清算程序、300万客户被冻结账户后，点对点卖家开始对USDT（某些报价高达13%，币安P2P约3.4%）和比特币要求显著加价。巴拉圭人寻求替代资产，同时瓜拉尼对美元贬值10%。圣地亚哥·佩尼亚总统在11月5日宣布辞职。",
+        "coins": "比特币 (BTC)、系绳 (USDT)",
+        "timeUTC": "2026-11-06 08:00",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国财政部撤回争议性$250加密'旅行规则'监控提议",
+          "what": "财政部和美联储撤销了2020年的提议，该提议本应将旅行规则门槛从$3,000降低至$250，这将要求金融机构收集更多日常加密交易的详细数据。$3,000的门槛保持不变。这是自2026年10月以来第三个被取消的加密监控规则。",
+          "coins": "所有加密货币",
+          "timeUTC": "2026-11-06 07:50",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951"
+        },
+        {
+          "headline": "尼日利亚禁止算法稳定币，实施许可和资本规则",
+          "what": "尼日利亚中央银行发布许可规则，将稳定币发行者纳入直接监管，禁止算法稳定币，并要求与奈拉挂钩的代币资本为₦10亿（$7.44M），与外币挂钩的为₦15亿（$11.16M）。现有运营者有180天时间申请相应的许可证。",
+          "coins": "稳定币（所有类型）",
+          "timeUTC": "2026-11-06 15:50",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing"
+        },
+        {
+          "headline": "俄罗斯敲定零售加密交易规则，11月17日启动，年度购买额度有限",
+          "what": "俄罗斯中央银行敲定规则，允许零售投资者从11月17日起通过受管制的中介机构交易比特币、以太坊和USDT，非合格投资者每个中介每年购买限额为30万卢布（约$3,700）。合格投资者无限制。莫斯科交易所计划在12月启动。从2027年7月1日起，禁止直接点对点交易。",
+          "coins": "比特币 (BTC)、以太坊 (ETH)、系绳 (USDT)",
+          "timeUTC": "2026-11-06 11:14",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "泰国证券交易委员会对Bitget未授权交易所运营提起刑事诉讼，12月5日封禁",
+          "what": "泰国证券交易委员会对BG Limited（Bitget运营者）和推广者Kritsana Kritsananuwat提起刑事诉讼，指控他们在2022至2025年间为泰国用户运营未授权的数字资产交易所。监管机构将从2026年12月5日起封禁平台访问。Bitget计划收购本地GMO-Z许可证的前景不确定。",
+          "coins": "所有Bitget上市代币",
+          "timeUTC": "2026-11-06 14:53",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty"
+        },
+        {
+          "headline": "Hyperliquid Strategies申请成为美国期货委员会商人",
+          "what": "Hyperliquid Strategies向美国商品期货交易委员会(CFTC)申请注册为期货委员会商人(FCM)，这将允许该公司直接持有美国客户账户并在Hyperliquid许可市场上提供永续期货，而无需通过外部FCM。首席执行官David Schamis表示这是公司打算将Hyperliquid市场'上岸'的方式，尽管未保证获批时间或结果。",
+          "coins": "HYPE (Hyperliquid)",
+          "timeUTC": "2026-11-06 09:39",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Gnosis Pay披露旧版卡系统被黑，客户资金未受影响",
+          "what": "Gnosis Pay报告其旧版消费借记卡系统在11月3日遭到未授权访问，暴露了支付卡号、CVV代码、客户名称、地址和关联的钱包标识符。账户中的资金保持安全。旧版系统已计划于2026年12月20日停用，公司正与数据保护机构合作。",
+          "coins": "Gnosis DAO (USDC和其他稳定币，存储在卡中)",
+          "timeUTC": "2026-11-06 04:58",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Non-Farm Employment Change (forecast: 65K; previous: 29K; actual: TBD)",
+      "typicalReaction": "历来是重大市场推动因素；强劲的就业数据可能提高加息概率，对加密货币等风险资产产生压力。11月6日，公布时间定在13:30 UTC。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "在加密货币永续期货合约中，买卖双方定期支付的利息，用于保持期货价格与现货价格一致。正费率表示多头向空头支付；在看涨情绪中，这会吸引杠杆。"
+    },
+    {
+      "term": "未平仓量",
+      "definition": "交易所所有交易者的开仓合约（或加密衍生品中的币）总数。上升价格伴随未平仓量增长表示新的多头头寸进场；下降价格伴随未平仓量增长表示空头在开仓或多头未平仓。"
+    },
+    {
+      "term": "未平仓量变化",
+      "definition": "在特定期间（通常是一天）内开仓合约总数的百分比变动。用于判断交易者在给定价格水平是否在建立或平仓头寸。"
+    },
+    {
+      "term": "多空比",
+      "definition": "交易所交易者中看涨（多头）头寸与看跌（空头）头寸的比例。比率高于1.0表示多头更多；高于2.0表示头寸高度看涨。大户比率仅关注最大交易者的头寸。"
+    },
+    {
+      "term": "市场宽度",
+      "definition": "给定日期市场中上涨资产与下跌资产的百分比。高宽度（如84%上涨）表示广泛参与反弹；低宽度表示涨幅窄、可能脆弱的走势。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所用于计算永续期货合约资金费和结算的参考价格，通常是各交易所现货价格的时间加权平均值。与最后交易价格不同，以减少操纵。"
+    },
+    {
+      "term": "现货价格",
+      "definition": "资产在现货交易所（如Coinbase现货市场）上即时交割的价格，与期货或衍生品相对。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "给定交易所上激进买单（主动买方）与激进卖单的比例。高于1.0的比率表示买方更具进攻性；低于1.0表示卖方压力。不是独立的价格信号，但反映日内情绪。"
+    },
+    {
+      "term": "旅行规则",
+      "definition": "一项金融规定，要求汇款机构收集并共享超过一定阈值的交易客户信息（加密货币目前为$3,000）。旨在防止洗钱；批评者认为这会造成隐私和合规负担。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "dc7b7d115c50f1bc"
+}
