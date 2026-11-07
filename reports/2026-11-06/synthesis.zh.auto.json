@@ -1,106 +1,182 @@
 {
-  "oneLine": "比特币在11月6日下跌0.3%，主要交易所的监管压力和科技股疲软打压了加密货币情绪，但大多数山寨币和更广泛的市场宽度仍保持正面。",
-  "caveman": "星期五，比特币跌了一点点——不到半个百分点。以太坊基本没动。但真正的大事不是价格：是美国政府做了什么。财政部下令一个叫MEXC的大交易所停止处理交易，因为它帮助了坏人。同时，另一家叫Gnosis Pay的公司说黑客偷了客户的信用卡信息，但钱还在。以太坊的程序员要修复一个软件漏洞，防止二层网络出问题。在巴拉圭，人们害怕银行倒闭，开始买比特币和USDT，价格比平常高3%到13%。好消息：大多数小加密货币今天其实涨了，市场整体很健康。这是个矛盾的一天——有坏消息，但价格基本没动。",
-  "priceVolumeSummary": "比特币在所有主要交易所（币安、Bybit、OKX、Bitget、Gate）附近整固，价格约$75,817，交易价格一致。币安交易量领先，达$11.5亿USDT，其次是Bybit（$4.8亿），主要交易所总交易量约$32亿——流动性充足，分布均衡的交易日。",
-  "positioningSummary": "尽管价格下跌，比特币资金费率在各交易所仍保持高位，年化4.9%-11%，反映多头持续使用杠杆。未平仓量温和增长：Bybit的比特币未平仓量增长3.7%（以币计），币安增长2.0%，显示多头未认输。在币安，多空账户比率为2.92:1，大户比率为2.18:1——都偏向看涨——但主动买卖比率跌至0.97，表示卖方压力略有增加。市场宽度健康：币安永续合约中84%（676/804个）收盘上涨，表明资金未广泛逃离风险资产。",
-  "stocksSummary": "亚洲芯片股周五早盘大涨：三星和SK Hynix在韩国交易所涨幅约6-7.5%，香港上市的半导体杠杆基金涨幅11-14%，因前一天的AI抛售反转。美国科技股温和反弹（纳斯达克+1.1%），能源股跌幅1-2%，因市场担忧需求。这次反弹表明周四波动后的均值回归，而非风险情绪恶化。",
+  "oneLine": "周五，比特币下跌0.3%，以太坊上涨0.02%，因为美国就业数据（165,000相比预期65,000）超预期，引发加息预期和科技股抛售，导致430+百万美元的加密货币ETF流出。",
+  "caveman": "周五对加密货币市场是复杂又令人担忧的一天。比特币下跌不到1%，以太坊几乎没有波动。主要新闻是美国公布了就业数字——公司新招了165,000个工人，远远超过预期（大家只预计65,000个）。当新增工作很多时，美联储可能会提高利率。利率上升会让人们减少风险投资，比如卖掉比特币。同时，AI公司的股票大幅下跌，投资者也卖掉加密货币换现金。从比特币和以太坊基金流出了超过5亿美元。这是令人担忧的一天。",
+  "priceVolumeSummary": "比特币收盘价在$75,810–$75,917左右（下跌0.3%），以太坊在$2,237–$2,241左右（上涨0.02%）。币安交易所领先，比特币成交量$11.5B，以太坊成交量$6.8B。",
+  "positioningSummary": "融资费率在2.5%到11%年化之间（币安最高9.1%），比特币未平仓头寸在币安上升2%，以太坊上升2.8%。大型交易商保持大幅做多（比特币头部头寸比例2.18，以太坊2.15），但比特币的吃单买卖比为0.97，显示卖方力度略强。市场涨跌面强劲，72.8%的山寨币在上升，但恐贪指数从中性（50）暴跌至恐惧（28）。",
+  "stocksSummary": "亚洲股市上涨：韩国芯片制造商领涨（SK Hynix +4.4%, Samsung +5.2%），其次是香港杠杆交易（CSOP Samsung 2x +10.2%, CSOP SK Hynix 2x +8.1%）。美国科技股在就业数据强劲后大涨（QNTX +22.8%, OKLO +20.5%, RKLB +15.4%）。油价因需求担忧下跌（WTI -1.3%, Brent -1.9%），天然气上涨4.6%。",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "78%暴涨没有明确的公开原因；这是上涨行情中常见的山寨币波动。",
+      "explanation": "未发现明确的公开原因。",
       "hasCause": false
     },
     {
       "symbol": "ONEUSDT",
-      "explanation": "在山寨币整体强势中上涨70%；未发现具体的催化剂。",
+      "explanation": "未发现明确的公开原因。",
       "hasCause": false
     },
     {
       "symbol": "AINUSDT",
-      "explanation": "急剧下跌61%；未发现与该代币相关的新闻或监管行动。",
+      "explanation": "未发现明确的公开原因。",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "美国财政部因$16亿非法流量冻结MEXC",
-        "what": "金融犯罪执法网络(FinCEN)下令美国金融机构停止处理MEXC Global的转账。MEXC Global被指在2021年5月至2026年5月期间协助了与伊朗、俄罗斯、朝鲜和勒索软件相关的$16亿交易。这项禁令根据《打击俄罗斯洗钱法》发布，在联邦公报公布后30天生效。",
-        "coins": "MEXC Global (交易所)",
-        "timeUTC": "2026-11-06 07:33",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions"
+        "headline": "美国10月新增165,000个工作岗位，远超65,000预期",
+        "what": "美国劳工部发布10月就业数据，显示新增165,000个工作岗位，失业率下降至4.1%，远超65,000的预期。这一超预期结果增加了12月加息的可能性，对包括比特币在内的风险资产造成下行压力。",
+        "coins": "BTC, ETH, 所有山寨币",
+        "timeUTC": "13:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
       },
       {
-        "headline": "以太坊二层网络紧急软件更新修复状态根漏洞",
-        "what": "Reth、Optimism、Base和Tempo的开发者发布了补丁（Reth 2.10.0、op-reth 2.8.1、Base 1.5.3）来修复一个旧的状态根计算错误，该错误在特定交易条件下可能导致同步失败。用户资金未受风险，未发生确认损失；该修复被列为客户端正确性缺陷。",
-        "coins": "以太坊、二层协议",
-        "timeUTC": "2026-11-06 11:27",
-        "source": "CryptoSlate",
-        "url": "https://cryptoslate.com/ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks/"
+        "headline": "财政部切断MEXC Global，称其涉及伊朗、朝鲜和俄罗斯交易160亿美元",
+        "what": "美国财政部金融犯罪执法网络（FinCEN）下令美国金融机构停止处理与MEXC Global相关的转账，理由是该交易所涉及与受制裁政权相关的160亿美元交易。MEXC是全球交易量最大的加密交易所之一；该禁令将其切断了美元基础设施。",
+        "coins": "全部（影响整个交易所）",
+        "timeUTC": "21:02 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957"
       },
       {
-        "headline": "巴拉圭银行倒闭致比特币和USDT交易溢价3-13%",
-        "what": "在Ueno Bank于11月3日进入清算程序、300万客户被冻结账户后，点对点卖家开始对USDT（某些报价高达13%，币安P2P约3.4%）和比特币要求显著加价。巴拉圭人寻求替代资产，同时瓜拉尼对美元贬值10%。圣地亚哥·佩尼亚总统在11月5日宣布辞职。",
-        "coins": "比特币 (BTC)、系绳 (USDT)",
-        "timeUTC": "2026-11-06 08:00",
-        "source": "CryptoSlate",
-        "url": "https://cryptoslate.com/bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis/"
+        "headline": "科技股抛售蔓延，比特币和以太坊ETF流出430-540百万美元",
+        "what": "美国现货比特币和以太坊ETF在11月5日星期四记录了430-540百万美元的净流出，富达和贝莱德领跑这波抛售，因为科技股崩盘。流出在11月6日继续，新的科技担忧继续蔓延。",
+        "coins": "BTC, ETH",
+        "timeUTC": "周四11月5日（周五早间报道）",
+        "source": "Decrypt / The Block",
+        "url": "https://decrypt.co/382733/bitcoin-etfs-bleed-430-million-tech-rout-tests-wall-street"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "美国财政部撤回争议性$250加密'旅行规则'监控提议",
-          "what": "财政部和美联储撤销了2020年的提议，该提议本应将旅行规则门槛从$3,000降低至$250，这将要求金融机构收集更多日常加密交易的详细数据。$3,000的门槛保持不变。这是自2026年10月以来第三个被取消的加密监控规则。",
-          "coins": "所有加密货币",
-          "timeUTC": "2026-11-06 07:50",
+          "headline": "美国财政部撤回加密监管\"跨境规则\"提案",
+          "what": "美国财政部撤回了一项有争议的监管提案，该提案将扩大加密交易的合规要求。这一撤回消除了行业团体强烈反对的潜在合规负担。",
+          "coins": "全部",
+          "timeUTC": "20:37 UTC",
           "source": "The Block",
           "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951"
         },
         {
-          "headline": "尼日利亚禁止算法稳定币，实施许可和资本规则",
-          "what": "尼日利亚中央银行发布许可规则，将稳定币发行者纳入直接监管，禁止算法稳定币，并要求与奈拉挂钩的代币资本为₦10亿（$7.44M），与外币挂钩的为₦15亿（$11.16M）。现有运营者有180天时间申请相应的许可证。",
-          "coins": "稳定币（所有类型）",
-          "timeUTC": "2026-11-06 15:50",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing"
+          "headline": "希腊批准加密收益征10%税，质押和DeFi收入征15%税",
+          "what": "希腊通过了新的加密税收框架，资本利得税为10%，质押和DeFi收入税为15%，年度免税门槛为€500。年度收益低于该门槛的免税，投资者有12个月的时间申报过往持仓，无迟交罚款。",
+          "coins": "BTC, ETH, 山寨币",
+          "timeUTC": "20:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income"
         },
         {
-          "headline": "俄罗斯敲定零售加密交易规则，11月17日启动，年度购买额度有限",
-          "what": "俄罗斯中央银行敲定规则，允许零售投资者从11月17日起通过受管制的中介机构交易比特币、以太坊和USDT，非合格投资者每个中介每年购买限额为30万卢布（约$3,700）。合格投资者无限制。莫斯科交易所计划在12月启动。从2027年7月1日起，禁止直接点对点交易。",
-          "coins": "比特币 (BTC)、以太坊 (ETH)、系绳 (USDT)",
-          "timeUTC": "2026-11-06 11:14",
+          "headline": "特朗普政府推进允许加密资产进入401(k)退休计划",
+          "what": "允许在401(k)退休账户中进行包括加密货币在内的替代资产投资的提案已送达白宫进行最终审查。该提案将允许退休储蓄者分配部分账户到数字资产。",
+          "coins": "BTC, ETH",
+          "timeUTC": "18:29 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-06-trump-administration-moves-closer-allowing-crypto-401k-retirement-plans-435939"
+        },
+        {
+          "headline": "俄罗斯完成加密交易规则，11月17日启动在即",
+          "what": "俄罗斯完成了加密交易监管框架，允许散户投资者通过受监管的中介机构交易比特币、以太坊和USDT。莫斯科交易所计划在12月推出本地加密交易。",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "19:20 UTC",
           "source": "Cointelegraph",
           "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout"
+        },
+        {
+          "headline": "尼日利亚设立新的加密许可规则，禁止算法稳定币",
+          "what": "尼日利亚央行禁止算法稳定币并对稳定币发行者引入准备金要求。此举扩大了该国对加密支付服务的监管监督。",
+          "coins": "稳定币, 全部",
+          "timeUTC": "18:50 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive在10月增购15,124枚比特币，接近顶级企业库存持有者",
+          "what": "比特币库存公司Strive在10月以约12亿美元的价格买入15,124枚BTC，使其总持仓达到43,124枚BTC。该公司报告2026年第三季度净收入509百万美元。",
+          "coins": "BTC",
+          "timeUTC": "18:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/strive-buys-bitcoin-october-top-btc-corporate-holders"
         }
       ],
       "Exchange and platform changes": [
         {
-          "headline": "泰国证券交易委员会对Bitget未授权交易所运营提起刑事诉讼，12月5日封禁",
-          "what": "泰国证券交易委员会对BG Limited（Bitget运营者）和推广者Kritsana Kritsananuwat提起刑事诉讼，指控他们在2022至2025年间为泰国用户运营未授权的数字资产交易所。监管机构将从2026年12月5日起封禁平台访问。Bitget计划收购本地GMO-Z许可证的前景不确定。",
-          "coins": "所有Bitget上市代币",
-          "timeUTC": "2026-11-06 14:53",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty"
+          "headline": "币安撤销SignalPlus，黑客通过虚假Teams邀请入侵",
+          "what": "币安在交易平台SignalPlus遭未授权入侵后撤销其API密钥，黑客利用虚假的Microsoft Teams求职面试邀请进行了入侵。SignalPlus随后报告损失不足82,000美元并开始赔偿；Deribit也禁用了相关连接的密钥。",
+          "coins": "全部（交易所层面）",
+          "timeUTC": "16:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-cuts-off-trading-platform-signalplus-after-hackers-break-in-with-a-fake-teams-invite"
         },
         {
-          "headline": "Hyperliquid Strategies申请成为美国期货委员会商人",
-          "what": "Hyperliquid Strategies向美国商品期货交易委员会(CFTC)申请注册为期货委员会商人(FCM)，这将允许该公司直接持有美国客户账户并在Hyperliquid许可市场上提供永续期货，而无需通过外部FCM。首席执行官David Schamis表示这是公司打算将Hyperliquid市场'上岸'的方式，尽管未保证获批时间或结果。",
-          "coins": "HYPE (Hyperliquid)",
-          "timeUTC": "2026-11-06 09:39",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
+          "headline": "Hypercall推出首个Anthropic关联的IPO前期权市场",
+          "what": "交易平台Hypercall正在推出针对Anthropic IPO前股份的期权交易，提供看涨期权、看跌期权和复杂策略交易，仅在特定非美国司法管辖区可用。交易预计于周一开始。",
+          "coins": "无（IPO前股权市场）",
+          "timeUTC": "19:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-06-hypercall-anthropic-linked-pre-ipo-options-market-435453"
+        },
+        {
+          "headline": "Aave Labs收购Avon团队以扩展固定利率借贷",
+          "what": "Aave Labs收购了提供固定利率和浮动利率借贷的链上协议Avon的团队和技术。此项交易支持Aave进入固定利率产品领域的扩展。",
+          "coins": "AAVE, ETH",
+          "timeUTC": "18:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901"
+        },
+        {
+          "headline": "泰国欲阻止Bitget，加密交易所的本地收购面临不确定性",
+          "what": "泰国证券交易委员会对Bitget运营商提起刑事诉讼，称其在2022至2025年间为泰国用户运营无证加密交易所。此举使Bitget计划中的本地收购复杂化。",
+          "coins": "全部（交易所层面）",
+          "timeUTC": "17:53 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty"
         }
       ],
       "Hacks, exploits and outages": [
         {
-          "headline": "Gnosis Pay披露旧版卡系统被黑，客户资金未受影响",
-          "what": "Gnosis Pay报告其旧版消费借记卡系统在11月3日遭到未授权访问，暴露了支付卡号、CVV代码、客户名称、地址和关联的钱包标识符。账户中的资金保持安全。旧版系统已计划于2026年12月20日停用，公司正与数据保护机构合作。",
-          "coins": "Gnosis DAO (USDC和其他稳定币，存储在卡中)",
-          "timeUTC": "2026-11-06 04:58",
+          "headline": "Gnosis Pay数据泄露暴露卡片详情和客户个人信息",
+          "what": "加密借记卡提供商Gnosis Pay披露了其旧版借记卡系统遭未授权访问，暴露了客户卡片详情和个人信息。客户加密资金未受影响；该公司的企业卡平台未被破坏。",
+          "coins": "无（借记卡基础设施）",
+          "timeUTC": "15:38 UTC",
           "source": "Cointelegraph",
           "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information"
+        },
+        {
+          "headline": "以太坊软件漏洞触发二层网络紧急修复",
+          "what": "发现了与以太坊相关的关键软件漏洞，促使多个二层扩展网络发布紧急补丁。补丁已发布，但运营商的采用情况和对跨链路由的影响仍在监控中。",
+          "coins": "ETH",
+          "timeUTC": "16:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks"
+        },
+        {
+          "headline": "币安黑客将被盗代币兑换成1.24亿美元比特币",
+          "what": "取证公司Elliptic报告称，63亿美元币安黑客已将被盗代币兑换成约1.24亿美元的比特币。在63亿美元被盗金额中，28.5亿美元仍被冻结，大部分加密货币未被变现。",
+          "coins": "BTC, ETH, 被盗山寨币",
+          "timeUTC": "16:20 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Anthropic IPO估值在AI股票下跌后可能被砍半至1万亿美元",
+          "what": "投资者告诉《华尔街日报》，他们认为Anthropic在AI股票大幅下挫后1.5万亿美元的估值目标过高。预测市场押注12月上市，但最终估值仍不确定。",
+          "coins": "无（AI公司IPO）",
+          "timeUTC": "16:08 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382716/anthropic-ipo-valuation-could-fall-to-1-trillion-after-ai-stock-rout-report"
+        },
+        {
+          "headline": "巴拉圭银行危机中，比特币和USDT溢价吸引投资者",
+          "what": "在巴拉圭面临银行系统崩溃和货币不稳定之际，比特币和USDT在点对点市场上交易出现溢价。这场危机伴随美元对当地比索上涨10%。",
+          "coins": "BTC, USDT",
+          "timeUTC": "11月5日23:27 UTC（背景信息）",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis"
         }
       ]
     }
@@ -108,48 +184,60 @@
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Non-Farm Employment Change (forecast: 65K; previous: 29K; actual: TBD)",
-      "typicalReaction": "历来是重大市场推动因素；强劲的就业数据可能提高加息概率，对加密货币等风险资产产生压力。11月6日，公布时间定在13:30 UTC。"
+      "event": "Non-Farm Employment Change (Nov 6, 13:30 UTC): Actual 165,000 jobs added, beating forecast of 65,000 and previous month's 29,000.",
+      "typicalReaction": "就业数据超预期通常会增加加息预期，对包括比特币在内的风险资产造成下行压力。"
+    },
+    {
+      "event": "Average Hourly Earnings month-on-month (Nov 6, 13:30 UTC): Forecast 0.3%, previous 0.1% — actual result not yet published in data.",
+      "typicalReaction": "工资增长加快可以支持加息预期，进一步强化鹰派政策押注，对风险资产施压。"
+    },
+    {
+      "event": "US CPI Report (Nov 10, 13:30 UTC): Upcoming inflation data will be closely watched for Fed policy signals.",
+      "typicalReaction": "CPI数据是否低于或高于通胀目标将直接影响美联储加息决定，通常会大幅推动比特币和股市波动。"
     }
   ],
   "glossary": [
     {
+      "term": "基差",
+      "definition": "期货价格与现货价格的差异。正基差（期货价格更高）表示做多头寸，负基差表示做空头寸。"
+    },
+    {
+      "term": "涨跌面",
+      "definition": "市场上当日上升的资产占比。高涨跌面（超70%）表示市场广泛上升。"
+    },
+    {
+      "term": "恐贪指数",
+      "definition": "情绪指标，范围从0（极度恐惧）到100（极度贪婪）。低于30表示恐惧，高于70表示贪婪。"
+    },
+    {
       "term": "资金费率",
-      "definition": "在加密货币永续期货合约中，买卖双方定期支付的利息，用于保持期货价格与现货价格一致。正费率表示多头向空头支付；在看涨情绪中，这会吸引杠杆。"
+      "definition": "期货交易所中做多和做空交易者之间的定期支付。正费率表示做多方向空方支付；负费率表示做空方向多方支付。费率越高表示杠杆越大，风险越高。"
     },
     {
-      "term": "未平仓量",
-      "definition": "交易所所有交易者的开仓合约（或加密衍生品中的币）总数。上升价格伴随未平仓量增长表示新的多头头寸进场；下降价格伴随未平仓量增长表示空头在开仓或多头未平仓。"
-    },
-    {
-      "term": "未平仓量变化",
-      "definition": "在特定期间（通常是一天）内开仓合约总数的百分比变动。用于判断交易者在给定价格水平是否在建立或平仓头寸。"
-    },
-    {
-      "term": "多空比",
-      "definition": "交易所交易者中看涨（多头）头寸与看跌（空头）头寸的比例。比率高于1.0表示多头更多；高于2.0表示头寸高度看涨。大户比率仅关注最大交易者的头寸。"
-    },
-    {
-      "term": "市场宽度",
-      "definition": "给定日期市场中上涨资产与下跌资产的百分比。高宽度（如84%上涨）表示广泛参与反弹；低宽度表示涨幅窄、可能脆弱的走势。"
+      "term": "做多做空比",
+      "definition": "未平仓做多头寸与做空头寸的比例。比例高于1表示更多交易者押注价格上升；低于1表示更多交易者押注价格下跌。"
     },
     {
       "term": "标记价格",
-      "definition": "交易所用于计算永续期货合约资金费和结算的参考价格，通常是各交易所现货价格的时间加权平均值。与最后交易价格不同，以减少操纵。"
+      "definition": "用于计算资金支付和标记期货未实现盈亏的参考价格。它平滑现货价格波动以防止操纵。"
     },
     {
-      "term": "现货价格",
-      "definition": "资产在现货交易所（如Coinbase现货市场）上即时交割的价格，与期货或衍生品相对。"
+      "term": "未平仓头寸（OI）",
+      "definition": "交易所所有开仓期货合约的总价值。未平仓头寸上升通常表示新资金进场；下降表示头寸平仓。"
     },
     {
-      "term": "主动买卖比",
-      "definition": "给定交易所上激进买单（主动买方）与激进卖单的比例。高于1.0的比率表示买方更具进攻性；低于1.0表示卖方压力。不是独立的价格信号，但反映日内情绪。"
+      "term": "未平仓头寸变化",
+      "definition": "未平仓合约总数的日变化。正变化表示新的做多或做空合约开仓；负变化表示头寸平仓。"
     },
     {
-      "term": "旅行规则",
-      "definition": "一项金融规定，要求汇款机构收集并共享超过一定阈值的交易客户信息（加密货币目前为$3,000）。旨在防止洗钱；批评者认为这会造成隐私和合规负担。"
+      "term": "吃单买卖比",
+      "definition": "买方被动单（吃单）与卖方被动单的比例。高于1表示买方力度更强；低于1表示卖方力度更强。"
+    },
+    {
+      "term": "头部头寸比",
+      "definition": "交易所最大交易商之间做多和做空的比例。高比例（如2.0）表示大账户净做多头寸很重。"
     }
   ],
   "_source": "cli-zh",
-  "_from": "dc7b7d115c50f1bc"
+  "_from": "ddaec57e57126dbe"
 }

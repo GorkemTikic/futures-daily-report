@@ -1,106 +1,182 @@
 {
-  "oneLine": "Bitcoin retreated 0.3% through November 6 as regulatory pressure on major exchanges and weak technology stocks dampened crypto sentiment, though most altcoins and broader market breadth remained positive.",
-  "caveman": "On Friday, Bitcoin fell a little bit—less than half a percent—while Ethereum barely budged. The bigger story wasn't the price: it was what the US government did. The Treasury ordered a major crypto exchange called MEXC to stop processing money because it helped criminals. At the same time, another company called Gnosis Pay admitted hackers took customer payment card details, though the money itself stayed safe. Ethereum developers had to fix a tricky software bug in layer-2 networks to stop it from causing problems. Meanwhile, in Paraguay, people panicked about their bank failing and started buying Bitcoin and USDT instead at prices 3% to 13% higher than normal. The good news: most of the small cryptocurrencies actually went up today, and the overall breadth of the market was mostly positive. It was a mixed, worrying day—some bad news about security and rules, but prices mostly held steady.",
-  "priceVolumeSummary": "Bitcoin consolidated near $75,817 across all major venues (Binance, Bybit, OKX, Bitget, Gate) with close price agreement. Binance led volume at $11.5 billion USDT, followed by Bybit ($4.8B), with total venue volume across majors near $32 billion—a liquid, well-distributed trading day.",
-  "positioningSummary": "Bitcoin funding rates remained elevated at 4.9%–11% annualized across venues despite the day's price decline, signaling sustained leverage from longs. Open interest grew modestly: Bybit's Bitcoin OI rose 3.7% in coins, Binance's 2.0%, showing bulls not capitulating. On Binance, the long-short account ratio stood at 2.92:1 and the top-trader ratio at 2.18:1—both bullish-leaning—but the taker buy-sell ratio fell to 0.97, indicating slightly more aggressive selling pressure. Market breadth was healthy: 84% of Binance perps (676 of 804) closed in the green, suggesting money was not fleeing risk broadly.",
-  "stocksSummary": "Asian chip stocks surged Friday morning: Samsung and SK Hynix both gained roughly 6–7.5% on the KRX, with Hong Kong-listed leveraged semiconductor funds climbing 11–14% as the prior day's AI selloff reversed. US tech recovered modestly (Nasdaq +1.1%), while energy slipped 1–2% ahead of demand concerns. The rally suggests mean reversion after Thursday's volatility, not fundamental deterioration in risk appetite.",
+  "oneLine": "Bitcoin fell 0.3% and Ethereum rose 0.02% on Friday as stronger-than-expected US jobs data (165,000 vs. 65,000 forecast) triggered rate-hike expectations and a tech-stock selloff, leading to $430+ million in crypto ETF outflows.",
+  "caveman": "Friday was a mixed but worrying day in crypto. Bitcoin went down less than one percent while Ethereum barely moved. The big news was that the US government released employment numbers—companies hired 165,000 workers, way more than people expected (they thought 65,000). When lots of new jobs appear, the Federal Reserve might raise interest rates, which makes people sell their riskier investments like Bitcoin. At the same time, artificial-intelligence stocks dropped sharply, so investors sold crypto to get cash. Over half a billion dollars came out of Bitcoin and Ethereum funds. It was a worrying day.",
+  "priceVolumeSummary": "Bitcoin closed around $75,810–$75,917 (down 0.3%) and Ethereum around $2,237–$2,241 (up 0.02%) across major venues. Binance led volume with $11.5B in Bitcoin and $6.8B in Ethereum.",
+  "positioningSummary": "Funding rates ranged from 2.5% to 11% annualized (Binance highest at 9.1%), with Bitcoin open interest up 2% and Ethereum up 2.8% on Binance. Large traders stayed heavily long (top position ratio 2.18 for Bitcoin, 2.15 for Ethereum), but the taker buy/sell ratio of 0.97 for Bitcoin showed slightly more selling aggression. Market breadth was strong at 72.8% of altcoins trading up, though fear & greed plunged from neutral (50) to fear (28).",
+  "stocksSummary": "Asian equities rallied: Korean semiconductor makers led (SK Hynix +4.4%, Samsung +5.2%), followed by Hong Kong leveraged plays (CSOP Samsung 2x +10.2%, CSOP SK Hynix 2x +8.1%). US tech surged after strong jobs data (QNTX +22.8%, OKLO +20.5%, RKLB +15.4%). Oil fell on demand concerns (WTI -1.3%, Brent -1.9%), while natural gas rose 4.6%.",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "No clear public cause for the 78% surge; routine altcoin volatility in a broad up-market.",
+      "explanation": "No clear public cause reported.",
       "hasCause": false
     },
     {
       "symbol": "ONEUSDT",
-      "explanation": "Up 70% amid broad altcoin strength; no specific catalyst identified.",
+      "explanation": "No clear public cause reported.",
       "hasCause": false
     },
     {
       "symbol": "AINUSDT",
-      "explanation": "Sharp 61% decline; no identifiable news or regulatory action tied to the token.",
+      "explanation": "No clear public cause reported.",
       "hasCause": false
     }
   ],
   "news": {
     "topThree": [
       {
-        "headline": "US Treasury severs MEXC from US financial system over $16B in illicit flows",
-        "what": "FinCEN ordered US financial institutions to stop processing transfers involving MEXC Global, alleging it facilitated $16 billion in transactions linked to Iran, Russia, North Korea and ransomware between May 2021 and May 2026. The order is a funds-transmittal ban under the Combating Russian Money Laundering Act, taking effect 30 days after Federal Register publication.",
-        "coins": "MEXC Global (exchange)",
-        "timeUTC": "2026-11-06 07:33",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions"
+        "headline": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+        "what": "The US Labor Department released October employment data showing 165,000 jobs added and unemployment falling to 4.1%, significantly exceeding the 65,000 forecast. This stronger-than-expected result increases the likelihood of a December interest rate hike, putting downward pressure on risk assets including Bitcoin.",
+        "coins": "BTC, ETH, all altcoins",
+        "timeUTC": "13:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
       },
       {
-        "headline": "Ethereum layer-2 networks patch critical state-root bug in emergency software update",
-        "what": "Developers at Reth, Optimism, Base and Tempo released patches (Reth 2.10.0, op-reth 2.8.1, Base 1.5.3) to fix a legacy state-root calculation error that could have caused sync failures under specific transaction conditions. No user funds were at risk and no confirmed losses occurred; the fix was classified as a client-correctness defect.",
-        "coins": "Ethereum, layer-2 protocols",
-        "timeUTC": "2026-11-06 11:27",
-        "source": "CryptoSlate",
-        "url": "https://cryptoslate.com/ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks/"
+        "headline": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
+        "what": "The US Treasury's FinCEN ordered US financial institutions to stop processing transfers involving MEXC Global, citing $16 billion in transactions connected to sanctioned regimes. MEXC is one of the world's largest crypto exchanges by trading volume; the ban cuts it from US dollar infrastructure.",
+        "coins": "All (affects entire exchange)",
+        "timeUTC": "21:02 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957"
       },
       {
-        "headline": "Paraguay banking collapse drives Bitcoin and USDT to trade at 3–13% premiums over spot",
-        "what": "After Ueno Bank entered resolution on Nov 3, leaving 3 million customers locked out, peer-to-peer sellers began demanding significant markups on USDT (up to 13% on some offers, ~3.4% on Binance P2P) and Bitcoin as Paraguayans sought alternatives amid a 10% drop in the guaraní against the dollar. President Santiago Peña announced his resignation on Nov 5.",
-        "coins": "Bitcoin (BTC), Tether (USDT)",
-        "timeUTC": "2026-11-06 08:00",
-        "source": "CryptoSlate",
-        "url": "https://cryptoslate.com/bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis/"
+        "headline": "Bitcoin ETFs see $430–540 million in net outflows as tech selloff spreads",
+        "what": "US spot Bitcoin and Ethereum ETFs recorded net outflows of $430 million to $540 million on Thursday (November 5), with Fidelity and BlackRock leading the sell-off as technology stocks collapsed. The outflows continued into Friday amid fresh tech concerns.",
+        "coins": "BTC, ETH",
+        "timeUTC": "Thursday Nov 5 (reported Friday morning)",
+        "source": "Decrypt / The Block",
+        "url": "https://decrypt.co/382733/bitcoin-etfs-bleed-430-million-tech-rout-tests-wall-street"
       }
     ],
     "groups": {
       "Regulation and policy": [
         {
-          "headline": "US Treasury withdraws controversial $250 crypto 'travel rule' surveillance proposal",
-          "what": "The Treasury and Federal Reserve rescinded a 2020 proposal to lower the travel-rule threshold from $3,000 to $250, which would have required financial institutions to collect detailed data on more routine cryptocurrency transactions. The $3,000 threshold remains in place. This is the third crypto surveillance rule killed since October 2026.",
-          "coins": "All crypto",
-          "timeUTC": "2026-11-06 07:50",
+          "headline": "US Treasury walks back crypto surveillance 'travel rule' proposal",
+          "what": "The Treasury Department withdrew a controversial regulatory proposal that would have expanded compliance requirements for cryptocurrency transactions. The reversal removes a potential compliance burden that industry groups had strongly opposed.",
+          "coins": "All",
+          "timeUTC": "20:37 UTC",
           "source": "The Block",
           "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951"
         },
         {
-          "headline": "Nigeria bans algorithmic stablecoins, imposes licensing and capital rules",
-          "what": "Nigeria's central bank issued licensing rules placing stablecoin issuers under direct supervision, prohibiting algorithmic stablecoins and requiring ₦10 billion ($7.44M) capital for naira-pegged tokens and ₦15 billion ($11.16M) for foreign-currency-pegged ones. Existing operators have 180 days to apply for the appropriate licence.",
-          "coins": "Stablecoins (all types)",
-          "timeUTC": "2026-11-06 15:50",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing"
+          "headline": "Greece approves 10% tax on crypto gains and 15% levy on staking/DeFi income",
+          "what": "Greece passed a new crypto tax framework with a 10% capital gains levy, 15% on staking and DeFi income, and an annual exemption threshold of €500. Annual gains below that threshold are tax-exempt, and investors have 12 months to declare past holdings without late penalties.",
+          "coins": "BTC, ETH, altcoins",
+          "timeUTC": "20:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income"
         },
         {
-          "headline": "Russia finalizes retail crypto trading rules with Nov 17 launch and annual purchase caps",
-          "what": "The Bank of Russia finalized rules allowing retail investors to trade Bitcoin, Ethereum and USDT through regulated intermediaries starting Nov 17, with non-qualified investors capped at 300,000 rubles (~$3,700) annually per intermediary. Qualified investors face no limits. Moscow Exchange plans to launch in December. Direct P2P trading will be prohibited from July 1, 2027.",
-          "coins": "Bitcoin (BTC), Ethereum (ETH), Tether (USDT)",
-          "timeUTC": "2026-11-06 11:14",
+          "headline": "Trump administration moves closer to allowing crypto in 401(k) retirement plans",
+          "what": "A rule that would open 401(k) retirement accounts to alternative assets including cryptocurrencies has reached the White House for final review. The proposal would allow retirement savers to allocate a portion of their accounts to digital assets.",
+          "coins": "BTC, ETH",
+          "timeUTC": "18:29 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-06-trump-administration-moves-closer-allowing-crypto-401k-retirement-plans-435939"
+        },
+        {
+          "headline": "Russia finalizes crypto trading rules ahead of November 17 rollout",
+          "what": "Russia completed its regulatory framework for crypto trading, allowing retail investors to trade Bitcoin, Ethereum, and USDT through regulated intermediaries. Moscow Exchange is planning to launch native crypto trading in December.",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "19:20 UTC",
           "source": "Cointelegraph",
           "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout"
+        },
+        {
+          "headline": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
+          "what": "Nigeria's central bank banned algorithmic stablecoins and introduced reserve requirements for stablecoin issuers. The move expands regulatory oversight of crypto payment services in the country.",
+          "coins": "Stablecoins, all",
+          "timeUTC": "18:50 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive adds 15,124 Bitcoin in October, approaches top corporate treasury holders",
+          "what": "Bitcoin treasury firm Strive bought 15,124 BTC in October for approximately $1.2 billion, bringing its total holdings to 43,124 BTC. The company reported $509 million in net income for Q3 2026.",
+          "coins": "BTC",
+          "timeUTC": "18:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/strive-buys-bitcoin-october-top-btc-corporate-holders"
         }
       ],
       "Exchange and platform changes": [
         {
-          "headline": "Thailand SEC files criminal complaint against Bitget over unlicensed exchange operations; blocks access Dec 5",
-          "what": "Thailand's Securities and Exchange Commission filed a criminal complaint against BG Limited (Bitget's operator) and promoter Kritsana Kritsananuwat for running an unlicensed digital-asset exchange for Thai users from 2022 to 2025. The regulator will block platform access from December 5, 2026. Bitget's planned acquisition of local GMO-Z license remains uncertain.",
-          "coins": "All Bitget-listed tokens",
-          "timeUTC": "2026-11-06 14:53",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty"
+          "headline": "Binance cuts off SignalPlus after hackers break in via fake Microsoft Teams invite",
+          "what": "Binance revoked API keys for the trading platform SignalPlus after an unauthorized breach using a spoofed Microsoft Teams job interview. SignalPlus later reported losses under $82,000 and began reimbursement; Deribit also disabled connected keys.",
+          "coins": "All (exchange-level)",
+          "timeUTC": "16:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-cuts-off-trading-platform-signalplus-after-hackers-break-in-with-a-fake-teams-invite"
         },
         {
-          "headline": "Hyperliquid Strategies files CFTC application to become a US futures commission merchant",
-          "what": "Hyperliquid Strategies applied to the CFTC to register as a Futures Commission Merchant (FCM), which would allow the firm to hold US client accounts directly and offer perpetual futures on Hyperliquid permissioned markets without routing through an external FCM. CEO David Schamis said this is how the company intends to bring Hyperliquid markets 'onshore,' though no approval timeline or outcome is guaranteed.",
-          "coins": "HYPE (Hyperliquid)",
-          "timeUTC": "2026-11-06 09:39",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
+          "headline": "Hypercall to launch first Anthropic-linked pre-IPO options market",
+          "what": "Trading platform Hypercall is launching options trading on Anthropic's pre-IPO shares, with calls, puts, and complex strategies available in select non-US jurisdictions. Trading is expected to begin Monday.",
+          "coins": "N/A (pre-IPO equity market)",
+          "timeUTC": "19:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-06-hypercall-anthropic-linked-pre-ipo-options-market-435453"
+        },
+        {
+          "headline": "Aave Labs acquires Avon team for fixed-rate lending expansion",
+          "what": "Aave Labs acquired the team and technology of Avon, an onchain protocol offering fixed-rate and floating-rate lending. The deal supports Aave's expansion into fixed-rate products.",
+          "coins": "AAVE, ETH",
+          "timeUTC": "18:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901"
+        },
+        {
+          "headline": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+          "what": "Thailand's Securities and Exchange Commission filed a criminal complaint against Bitget's operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025. The action complicates Bitget's planned local acquisition.",
+          "coins": "All (exchange-level)",
+          "timeUTC": "17:53 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty"
         }
       ],
       "Hacks, exploits and outages": [
         {
-          "headline": "Gnosis Pay discloses legacy card system breach; customer funds unaffected",
-          "what": "Gnosis Pay reported unauthorised access to its legacy consumer debit card system on November 3, exposing payment card numbers, CVV codes, customer names, addresses and linked wallet identifiers. Funds in accounts remained secure. The legacy system is already scheduled to retire December 20, 2026, and the company is working with data protection authorities.",
-          "coins": "Gnosis DAO (USDC and other stablecoins held on cards)",
-          "timeUTC": "2026-11-06 04:58",
+          "headline": "Gnosis Pay data breach exposes card details and customer personal data",
+          "what": "Crypto debit card provider Gnosis Pay disclosed unauthorized access to its legacy debit card system on November 3, exposing customer card details and personal information. Customer crypto funds were not affected; the company's enterprise card platform was uncompromised.",
+          "coins": "N/A (debit card infrastructure)",
+          "timeUTC": "15:38 UTC",
           "source": "Cointelegraph",
           "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information"
+        },
+        {
+          "headline": "Ethereum software bug triggers emergency fixes across major layer-2 networks",
+          "what": "A critical Ethereum-related software vulnerability was identified, prompting emergency patches across multiple layer-2 scaling networks. Fixes have been published, though operator adoption and impact on cross-chain routes remain under monitoring.",
+          "coins": "ETH",
+          "timeUTC": "16:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks"
+        },
+        {
+          "headline": "Binance hackers swapped stolen tokens for $124 million in Bitcoin",
+          "what": "Forensics firm Elliptic reported that the $6.3 billion Binance hackers have swapped stolen tokens for approximately $124 million in Bitcoin. Of the $6.3 billion stolen, $2.85 billion remains frozen, and most crypto has not been cashed out.",
+          "coins": "BTC, ETH, stolen altcoins",
+          "timeUTC": "16:20 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Anthropic IPO valuation could be cut in half to $1 trillion after AI stock rout",
+          "what": "Investors told the Wall Street Journal they believe Anthropic's valuation target of $1.5 trillion is too high in the wake of recent AI stock selloffs. Prediction markets are betting on a December listing, but the final valuation remains uncertain.",
+          "coins": "N/A (AI company IPO)",
+          "timeUTC": "16:08 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382716/anthropic-ipo-valuation-could-fall-to-1-trillion-after-ai-stock-rout-report"
+        },
+        {
+          "headline": "Bitcoin and USDT attract premiums in Paraguay amid banking crisis",
+          "what": "Bitcoin and USDT traded at premiums in Paraguay's peer-to-peer markets as the country faced a banking collapse and currency instability. The turmoil coincided with a 10% surge in the US dollar against the local peso.",
+          "coins": "BTC, USDT",
+          "timeUTC": "23:27 UTC (Nov 5, context)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis"
         }
       ]
     }
@@ -108,46 +184,58 @@
   "etfFlows": null,
   "calendarNotes": [
     {
-      "event": "Non-Farm Employment Change (forecast: 65K; previous: 29K; actual: TBD)",
-      "typicalReaction": "Historically a major market mover; strong employment can raise odds of a rate hike, weighing on risk assets like crypto. On Nov 6, announcement was scheduled for 13:30 UTC."
+      "event": "Non-Farm Employment Change (Nov 6, 13:30 UTC): Actual 165,000 jobs added, beating forecast of 65,000 and previous month's 29,000.",
+      "typicalReaction": "Stronger-than-expected job growth typically boosts rate-hike expectations, creating downward pressure on risk assets like Bitcoin and crypto broadly."
+    },
+    {
+      "event": "Average Hourly Earnings month-on-month (Nov 6, 13:30 UTC): Forecast 0.3%, previous 0.1% — actual result not yet published in data.",
+      "typicalReaction": "Faster wage growth can support rate-hike expectations, reinforcing hawkish policy bets and pressuring risk assets."
+    },
+    {
+      "event": "US CPI Report (Nov 10, 13:30 UTC): Upcoming inflation data will be closely watched for Fed policy signals.",
+      "typicalReaction": "CPI misses or beats inflation targets directly affect Federal Reserve interest rate decisions and typically move Bitcoin and equities sharply."
     }
   ],
   "glossary": [
     {
+      "term": "Basis",
+      "definition": "The difference between the futures price and the spot price. A positive basis (futures higher) signals long positioning; negative basis signals short positioning."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of assets in a market that are trading up on the day. High breadth (over 70%) indicates broad-based strength."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment indicator ranging from 0 (extreme fear) to 100 (extreme greed). Readings below 30 signal fear, above 70 signal greed."
+    },
+    {
       "term": "Funding rate",
-      "definition": "The periodic interest paid between buyers and sellers of cryptocurrency perpetual futures contracts, used to keep the futures price in line with the spot price. A positive rate means long-position holders pay shorts; during bullish sentiment, this attracts leverage."
+      "definition": "A periodic payment between long and short traders on futures exchanges. Positive rates mean longs pay shorts; negative rates mean shorts pay longs. Higher rates indicate more leverage and risk."
     },
     {
-      "term": "Open interest",
-      "definition": "The total number of open contracts (or coins, in the case of crypto derivatives) across all traders on an exchange. Growing OI with rising prices suggests new bullish positions entering; growing OI with falling prices suggests shorts are opening or bulls are not closing."
-    },
-    {
-      "term": "Open-interest change",
-      "definition": "The percentage movement in total open contracts over a specific period (usually a day). Used to gauge whether traders are entering or exiting positions at a given price level."
-    },
-    {
-      "term": "Long-short ratio",
-      "definition": "The proportion of bullish (long) positions to bearish (short) positions among traders at an exchange. A ratio above 1.0 means more longs; above 2.0 indicates heavily bullish positioning. The top-trader ratio focuses only on the largest traders' positions."
-    },
-    {
-      "term": "Market breadth",
-      "definition": "The percentage of assets in a market that are trading up versus down on a given day. High breadth (e.g., 84% up) indicates broad participation in the rally; low breadth suggests a narrow, potentially fragile move."
+      "term": "Long/short ratio",
+      "definition": "The ratio of open long positions to open short positions. A ratio above 1 means more traders are betting on price increases; below 1 means more are betting on decreases."
     },
     {
       "term": "Mark price",
-      "definition": "The reference price used by an exchange to calculate funding and settlement on perpetual futures contracts, usually a time-weighted average of spot prices across venues. Differs from the last-traded price to reduce manipulation."
+      "definition": "The reference price used to calculate funding payments and mark unrealized gains/losses on futures. It smooths out spot price swings to prevent manipulation."
     },
     {
-      "term": "Spot price",
-      "definition": "The price at which an asset trades for immediate delivery on physical exchanges (e.g., coinbase spot market), as opposed to futures or derivatives."
+      "term": "Open interest (OI)",
+      "definition": "The total value of all open futures contracts at an exchange. Rising OI often indicates new money entering the market; falling OI suggests positions are closing."
     },
     {
-      "term": "Taker buy-sell ratio",
-      "definition": "The proportion of aggressive buy orders (takers) to aggressive sell orders on a given exchange. Ratios above 1.0 indicate more buyer aggression; below 1.0 indicate seller pressure. Not a standalone price signal but reflects intraday sentiment."
+      "term": "Open interest change",
+      "definition": "The day-to-day change in total open contracts. Positive change means new long or short contracts are opening; negative change means positions are closing."
     },
     {
-      "term": "Travel rule",
-      "definition": "A financial regulation requiring money transmitters to collect and share customer information on transactions above a threshold (currently $3,000 for crypto). Designed to prevent money laundering; critics argue it creates privacy and compliance burdens."
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of buy-side aggressive orders (takers) to sell-side aggressive orders. Above 1 signals more aggressive buying; below 1 signals more aggressive selling."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long-to-short ratio among the largest traders at an exchange. A high ratio (e.g., 2.0) means the biggest accounts are heavily net long."
     }
   ],
   "_source": "cli"

@@ -1,33 +1,243 @@
 {
-  "oneLine": "Pazar verileri 5 borsa'dan toplandı; bu çalıştırmada haber sentezi mevcut değildir.",
-  "caveman": "",
-  "priceVolumeSummary": "Aşağıdaki borsa tablosuna bakınız. (Bu çalıştırmada otomatik anlatım mevcut değil — rakamlar doğrudan gösterilmektedir.)",
-  "positioningSummary": "Aşağıdaki pozisyon tablosuna bakınız.",
-  "stocksSummary": "",
+  "oneLine": "Cuma günü Bitcoin %0,3 geriledi, Ethereum ise %0,02 yükseldi. ABD istihdam raporu (165.000 iş, 65.000 tahmin) faiz artırma beklentilerini ateşlendikten sonra teknoloji hisse senetlerinde satış başladı ve kripto fonlarından 430 milyon dolardan fazla çıkış yaşandı.",
+  "caveman": "Cuma günü kripto piyasasında karışık ama kaygılı bir gün oldu. Bitcoin yüzde birden az düştü, Ethereum neredeyse sabit kaldı. Asıl haber ABD'den: şirketler 165 bin kişi işe aldı - beklentinin 65 binden çok daha fazla. İşler arttığında Para Kurulu faiz oranlarını artırabilir ve o zaman yatırımcılar Bitcoin gibi riskli şeyleri satarlar. Bir de yapay zeka hisselerine satış baskısı geldi, yatırımcılar para toplamak için kripto sattılar. Bitcoin ve Ethereum fonlarından yarım milyardan fazla dolar çıktı. Korkulan bir gündü.",
+  "priceVolumeSummary": "Bitcoin 75.810-75.917 dolar arasında kapandı (%0,3 düşüş), Ethereum ise 2.237-2.241 dolar arasında (%0,02 yükseliş) seyretti. Binance en büyük hacim ile Bitcoin için 11,5 milyar, Ethereum için 6,8 milyar dolar işlem gördü.",
+  "positioningSummary": "Fon oranları yıllık %2,5 ile %11 arasında değişti (Binance'de en yüksek %9,1). Bitcoin açık pozisyonu %2 arttı, Ethereum ise %2,8 arttı. Büyük trader'lar güçlü bir şekilde uzun pozisyonda kaldılar (Bitcoin'de 2,18, Ethereum'da 2,15 oran). Bitcoin'de alıcı/satıcı oranı 0,97 olarak hafif satış baskısı gösterdi. Pazar genişliği %72,8 ile güçlüydü fakat Korku ve Açgözlülük endeksi nötr seviyeden (50) korku seviyesine (28) düştü.",
+  "stocksSummary": "Asya borsaları yükseldi: Kore yarıiletken üreticileri öncü (SK Hynix %4,4, Samsung %5,2). Güçlü istihdam verisi sonrası ABD teknoloji hisseleri sıçradı (QNTX %22,8, OKLO %20,5, RKLB %15,4). Petrol talepte endişeler nedeniyle geriledi (WTI -%1,3, Brent -%1,9), doğalgaz ise %4,6 yükseldi.",
   "movers": [
     {
       "symbol": "AKEUSDT",
-      "explanation": "Bu çalıştırmada anlatım mevcut değildir.",
+      "explanation": "Bilinen bir neden bildirilmedi.",
       "hasCause": false
     },
     {
       "symbol": "ONEUSDT",
-      "explanation": "Bu çalıştırmada anlatım mevcut değildir.",
+      "explanation": "Bilinen bir neden bildirilmedi.",
       "hasCause": false
     },
     {
       "symbol": "AINUSDT",
-      "explanation": "Bu çalıştırmada anlatım mevcut değildir.",
+      "explanation": "Bilinen bir neden bildirilmedi.",
       "hasCause": false
     }
   ],
   "news": {
-    "topThree": [],
-    "groups": {}
+    "topThree": [
+      {
+        "headline": "ABD Ekim ayında 165 bin iş açtı, tahminleri 100 bine yakın farkla aştı",
+        "what": "ABD Çalışma Bakanlığı Ekim istihdam verilerini açıkladı: 165 bin iş açılırken işsizlik %4,1'e indi. Tahmin 65 bindi. Beklentileri bu kadar aşan güçlü veri, Aralık ayında faiz artırılması ihtimalini artırdı; bu da Bitcoin gibi riskli varlıklar üzerinde aşağı yönlü baskı oluşturdu.",
+        "coins": "BTC, ETH, tüm altcoinler",
+        "timeUTC": "13:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
+      },
+      {
+        "headline": "Hazine MEXC Global'ı kapatıyor: İran, Kuzey Kore ve Rusya'ya 16 milyar dolarlık işlemler",
+        "what": "ABD Hazinesinin FinCEN bölümü MEXC Global'a ABD dolarındaki işlemlerini durdurmasını emretti. Sebep: 16 milyar dolar tutarında yaptırım altındaki ülkelere (İran, Kuzey Kore, Rusya) ait işlemler. MEXC dünyanın en büyük kripto borsalarından biri; bu karar onu ABD dolar sisteminden koparıyor.",
+        "coins": "Tümü (borsaya ait)",
+        "timeUTC": "21:02 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957"
+      },
+      {
+        "headline": "Bitcoin ve Ethereum ETF'lerinden 430-540 milyon dolar çıktı, teknoloji satışı hızlanıyor",
+        "what": "ABD'deki Bitcoin ve Ethereum ETF'lerinden 5 Kasım Perşembe günü net 430 milyon ile 540 milyon dolar arasında para çıktı. Fidelity ve BlackRock öncülüğünde satışlar yapıldı çünkü teknoloji hisse senetleri çakıldı. Çıkışlar Cuma günü de devam etti.",
+        "coins": "BTC, ETH",
+        "timeUTC": "5 Kasım Perşembe (Cuma sabahı raporlandı)",
+        "source": "Decrypt / The Block",
+        "url": "https://decrypt.co/382733/bitcoin-etfs-bleed-430-million-tech-rout-tests-wall-street"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "ABD Hazinesi kripto gözetim kuralını geri çekti",
+          "what": "Hazine Bakanlığı kripto işlemleri için uyum gerekliliklerini artıracak tartışmalı bir düzenleyici teklifi geri çekti. Bu karar endüstrinin şiddetle karşı çıktığı uyum yükünü ortadan kaldırıyor.",
+          "coins": "Tümü",
+          "timeUTC": "20:37 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951"
+        },
+        {
+          "headline": "Yunanistan kripto kazancına %10, stake/DeFi gelirine %15 vergi onayladı",
+          "what": "Yunanistan yeni kripto vergi sistemini yasalaştırdı: Kazançlara %10, stake ve DeFi gelirine %15 vergi. Yıllık 500 euro altında kazanç muaf; yatırımcılar geçmiş holdingleri 12 ay içinde beyan edebilir, ceza yok.",
+          "coins": "BTC, ETH, altcoinler",
+          "timeUTC": "20:36 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income"
+        },
+        {
+          "headline": "Trump yönetimi kripto'yu 401(k) emeklilik planlarında onaylamaya yaklaşıyor",
+          "what": "401(k) emeklilik hesaplarında kripto dahil alternatif varlıklara izin veren kural Beyaz Saray'a son inceleme için gitti. Tasarı, emekliliği planlayan kişilerin hesaplarının bir bölümünü kripto'ya ayırmasını sağlayacak.",
+          "coins": "BTC, ETH",
+          "timeUTC": "18:29 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-06-trump-administration-moves-closer-allowing-crypto-401k-retirement-plans-435939"
+        },
+        {
+          "headline": "Rusya kripto ticaret kurallarını bitirdi, 17 Kasım'da başlatacak",
+          "what": "Rusya kripto ticaret çerçevesini tamamladı. Bireylerin Bitcoin, Ethereum ve USDT'yi resmileştirilmiş aracılar üzerinden ticareti yapabileceği. Moskova Borsası Aralık ayında yerli kripto ticareti başlatmayı planlıyor.",
+          "coins": "BTC, ETH, USDT",
+          "timeUTC": "19:20 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout"
+        },
+        {
+          "headline": "Nijerya yeni kripto lisans kuralları getirdi, algoritmik stablecoin'leri yasakladı",
+          "what": "Nijerya Merkez Bankası algoritmik stablecoin'leri yasakladı ve stablecoin ihraç edenler için karşılık gereksinimi getirdi. Karar, ülkedeki kripto ödeme hizmetlerine yönelik gözetimi artırıyor.",
+          "coins": "Stablecoin'ler, tümü",
+          "timeUTC": "18:50 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Strive Ekim ayında 15.124 Bitcoin aldı, en büyük kurumsal hazinelere yaklaşıyor",
+          "what": "Bitcoin hazine şirketi Strive Ekim ayında 15.124 BTC satın aldı (yaklaşık 1,2 milyar dolar). Toplam holdinge 43.124 BTC'ye ulaştı. Şirket Q3 2026 için 509 milyon dolar net gelir bildirdi.",
+          "coins": "BTC",
+          "timeUTC": "18:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/strive-buys-bitcoin-october-top-btc-corporate-holders"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance SignalPlus'ı kapattı, fake Microsoft Teams daveti üzerinden hack",
+          "what": "Binance, trading platformu SignalPlus'ın API anahtarlarını iptal etti. Hacker'lar sahte Microsoft Teams iş görüşmesi daveti ile erişim sağlamıştı. SignalPlus 82 bin dolardan az kayıp bildirdi ve geri ödemeye başladı; Deribit de bağlı anahtarları devre dışı bıraktı.",
+          "coins": "Tümü (borsa seviyesi)",
+          "timeUTC": "16:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-cuts-off-trading-platform-signalplus-after-hackers-break-in-with-a-fake-teams-invite"
+        },
+        {
+          "headline": "Hypercall ilk Anthropic bağlantılı halka arz öncesi opsiyonlar piyasasını açıyor",
+          "what": "Trading platformu Hypercall, Anthropic'in halka arz öncesi hisselerine opsiyonlar (call, put ve kompleks stratejiler) ticaretini başlatıyor. Bazı non-ABD ülkelerinde alım-satım pazartesi başlaması bekleniyor.",
+          "coins": "Yok (halka arz öncesi hisse piyasası)",
+          "timeUTC": "19:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-06-hypercall-anthropic-linked-pre-ipo-options-market-435453"
+        },
+        {
+          "headline": "Aave Labs, sabit faiz kredisi için Avon ekibini satın aldı",
+          "what": "Aave Labs, sabit ve değişken faizli krediler sunan Avon protokolünün ekibini ve teknolojisini satın aldı. Anlaşma Aave'nin sabit faiz ürünlerine genişlemesini destekliyor.",
+          "coins": "AAVE, ETH",
+          "timeUTC": "18:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901"
+        },
+        {
+          "headline": "Tayland Bitget'i bloklama yolunda, yerel satın alma belirsiz durumda",
+          "what": "Tayland Menkul Kıymetler ve Borsa Komisyonu Bitget operatörüne karşı ceza davasına başladı. Suçlama: 2022-2025 arasında Tayland kullanıcılarına ruhsatsız kripto borsa hizmeti vermek. Bu hamle Bitget'in planlanan yerel satın almayı karmaşıklaştırıyor.",
+          "coins": "Tümü (borsa seviyesi)",
+          "timeUTC": "17:53 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Gnosis Pay veri ihlali: Kart bilgileri ve müşteri verilerine erişim sağlandı",
+          "what": "Kripto banka kartı sağlayıcısı Gnosis Pay, 3 Kasım'da eski banka kartı sistemine yetkisiz erişimi açıkladı. Müşteri kart bilgileri ve kişisel veriler sızdırıldı. Müşteri kripto fonları etkilenmedi; kurumsal kart platformu zarar görmedi.",
+          "coins": "Yok (banka kartı altyapısı)",
+          "timeUTC": "15:38 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information"
+        },
+        {
+          "headline": "Ethereum yazılım hatası, katman-2 ağlarında acil düzeltmeleri tetikledi",
+          "what": "Ethereum'a bağlı kritik bir yazılım açığı tespit edildi. Birçok katman-2 ölçekleme ağında acil yamalar yayınlandı. Yamaların operatörlerce uygulanması ve zincirler arası yolları etkileyip etkilemediği izleniyor.",
+          "coins": "ETH",
+          "timeUTC": "16:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks"
+        },
+        {
+          "headline": "Binance hacker'ları çalınan token'ları 124 milyon dolarlık Bitcoin'e çevirdi",
+          "what": "Güvenlik firması Elliptic raporladı: 6,3 milyar dolarlık Binance hacker'ları çalınan token'ları yaklaşık 124 milyon dolarlık Bitcoin'e dönüştürdü. 6,3 milyardan 2,85 milyar dolar hala dondurulmuş durumda, çoğu kripto nakit'e çevrilmedi.",
+          "coins": "BTC, ETH, çalınan altcoinler",
+          "timeUTC": "16:20 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Anthropic halka arz değeri yapay zeka hisse satışından yarıya inebilir",
+          "what": "Wall Street Journal'a göre yatırımcılar Anthropic'in 1,5 trilyon dolar hedefinin yapay zeka hisse satışları sonrası çok yüksek olduğunu düşünüyor. Tahmin piyasaları Aralık ayında listeleşmeye bahis oynuyor ama nihai değerleme hala belirsiz.",
+          "coins": "Yok (yapay zeka şirketi halka arz)",
+          "timeUTC": "16:08 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382716/anthropic-ipo-valuation-could-fall-to-1-trillion-after-ai-stock-rout-report"
+        },
+        {
+          "headline": "Paraguay'da para krizi ortasında Bitcoin ve USDT primli işlem gördü",
+          "what": "Ülkede bankacılık çöküşü ve para krizi yaşanırken, Bitcoin ve USDT kişisel satış piyasalarında prim yaptı. Kriz ABD doları'nın yerel para karşısında %10 yükselmesiyle paraleldi.",
+          "coins": "BTC, USDT",
+          "timeUTC": "23:27 UTC (5 Kas., bağlam)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis"
+        }
+      ]
+    }
   },
   "etfFlows": null,
-  "calendarNotes": [],
-  "glossary": [],
+  "calendarNotes": [
+    {
+      "event": "Non-Farm Employment Change (6 Kasım, 13:30 UTC): Gerçekleşen 165 bin iş, 65 bin tahmin ve önceki ayın 29 bini aştı.",
+      "typicalReaction": "Beklentiyi aşan güçlü istihdam büyümesi genellikle faiz artırma beklentisini yükseltir, Bitcoin ve geniş kripto piyasasında aşağı yönlü baskı oluşturur."
+    },
+    {
+      "event": "Average Hourly Earnings aylık (6 Kasım, 13:30 UTC): Tahmin %0,3, önceki %0,1 — gerçekleşen veri henüz yayınlanmadı.",
+      "typicalReaction": "Daha hızlı ücret büyümesi faiz artırma beklentisini destekler, devlet politikası üzerinde falkon etkisi yaratır ve riskli varlıkları baskılar."
+    },
+    {
+      "event": "ABD CPI Raporu (10 Kasım, 13:30 UTC): Yaklaşan enflasyon verilerine Merkez Bankası politika sinyalleri için dikkat.",
+      "typicalReaction": "CPI rakamlarının enflasyon hedeflerini aşması veya altında kalması Federal Rezerv faiz kararlarını doğrudan etkiler ve Bitcoin ile hisse senetlerini keskin hareket ettirir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Vadeli işlem (futures) fiyatı ile spot fiyat arasındaki fark. Pozitif basis (vadeli işlem yüksek), uzun pozisyonlama sinyali; negatif basis kısa pozisyonlama sinyali."
+    },
+    {
+      "term": "Breadth",
+      "definition": "Piyasada gün içinde yükselen varlıkların yüzdesi. Yüksek breadth (%70 üzeri) geniş tabanlı güç gösterir."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "Duygu göstergesi: 0 (aşırı korku) ile 100 (aşırı açgözlülük) arası. 30 altı korku, 70 üzeri açgözlülük sinyali."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Vadeli işlem borsalarında uzun ve kısa trader'lar arasındaki periyodik ödeme. Pozitif oranlar uzunlar'ın kısalara ödeme yaptığı anlamına gelir; negatif oranlar tersi. Yüksek oranlar daha fazla kaldıraç ve risk gösterir."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "Açık uzun pozisyonların kısa pozisyonlara oranı. 1 üzeri daha fazla yatırımcı fiyat artışına bahis oynuyor; 1 altı düşüşe bahis oynuyor."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Fon ödemelerini hesaplamak ve vadeli işlemlerdeki karı/zararı belirlemek için kullanılan referans fiyat. Spot fiyat dalgalanmalarını düzeltir, manipülasyonu engeller."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "Bir borsadaki tüm açık vadeli işlem sözleşmelerinin toplam değeri. OI yükseliş yeni paranın girdiğini; OI düşüşü pozisyonların kapatıldığını gösterir."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "Günü günden toplam açık sözleşmelerdeki değişim. Pozitif değişim yeni uzun/kısa sözleşmelerin açıldığını; negatif değişim pozisyonların kapatıldığını gösterir."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "Agresif alıcı (taker) emirlerinin agresif satıcı emirlerine oranı. 1 üzeri daha güçlü alış; 1 altı daha güçlü satış gösterir."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "Bir borsadaki en büyük trader'lar arasında uzun/kısa oranı. Yüksek oran (örnek 2,0), en büyük hesapların güçlü uzun pozisyonda olduğu anlamına gelir."
+    }
+  ],
   "_source": "cli-tr",
-  "_from": "dc7b7d115c50f1bc"
+  "_from": "ddaec57e57126dbe"
 }
