@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-07",
+  "kind": "market",
+  "dateLong": "Saturday, 7 November 2026",
+  "coversUTC": "2026-11-07 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum barely budged while regulatory pressure mounted on exchanges and institutional Bitcoin buying cooled, leaving the broader market in extreme fear on a weekend with all major cash markets closed.",
+  "newsCount": 8,
+  "macro": {
+    "BTC": 0.032581195769453196,
+    "ETH": 0.06614466015946308
+  },
+  "topMover": {
+    "symbol": "AKEUSDT",
+    "chgPct": 45.08050089445438
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "08 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

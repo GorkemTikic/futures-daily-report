@@ -1,0 +1,156 @@
+{
+  "oneLine": "比特币和以太坊几乎没有变动，同时交易所面临的监管压力加大，机构投资者购买比特币的热情冷却，整个市场陷入极度恐慌，而且所有主要现货市场都在周末休市。",
+  "caveman": "比特币和以太坊基本没动——只涨了一点点——但其他几乎所有的虚拟币都跌了。大家都害怕了。为什么呢？上一周发生了很多坏事。全球最大的交易所币安上周被黑客偷走了63亿美元，现在它的财务总监要离职了。泰国政府告诉另一个交易所Bitget必须关门。美国政府也不让另一个大交易所MEXC和美国银行做生意。还有，华尔街那些一直在买比特币的投资者现在开始卖了。最糟糕的是，一个FBI特工被抓住从别人的钱包里偷虚拟币。对虚拟币来说，这是个让人担忧的一天。",
+  "priceVolumeSummary": "比特币和以太坊价格在五大交易平台上紧密对齐，BTC报价75,815美元，ETH报价2,238美元，两者涨幅均不足0.1%。币安在两者的交易量上都领先，比特币交易额达25.4亿美元，以太坊交易额达19.1亿美元。",
+  "positioningSummary": "比特币多头头寸比空头头寸多3.13倍（币安），但吃单买卖比为0.975，显示卖方略显更为激进。以太坊的多空比更加看涨，达到3.95:1，但卖方压力相似（比率为0.9851）。比特币大户做多比例为2.09:1——仍然看涨但弱于整体市场。资金费率适中——比特币年化5.76%，以太坊4.99%——这意味着多头需支付小额费用来维持头寸。比特币未平仓量下降0.35%，表明机构交易者在平仓或获利了结。市场广度深度负面：币安永续合约中仅26.6%上涨，73.4%下跌。恐惧与贪婪指数跌至25，标记为\"极度恐慌\"，较前一日的28有所下降，虚拟币总市值下跌2.75%。",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "没有明确的公开原因。小盘代币，流动性低，容易因低交易量大幅波动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "没有明确的公开原因。似乎与日常市场活动或炒作有关，而不是新闻驱动。",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "没有明确的公开原因。又是一个低流动性小盘代币，日内波动原因不明。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "币安CFO在63亿美元破纪录黑客事件后九天宣布离职",
+        "what": "据联席CEO何一透露，币安CFO凯撒·吴将按照六个月前制定的交接计划离职去追求新机遇。时间上恰好是交易所公开其历史最大黑客事件一周多后。CFO的离职可能预示着例行管理变更，也可能反映对领导层应对黑客事件的信心下降。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-07 22:58 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992"
+      },
+      {
+        "headline": "泰国命令Bitget交易所于12月5日前关闭",
+        "what": "泰国金融监管机构下令主要虚拟币交易所Bitget于12月5日前停止运营。Bitget承诺在过渡期间提供关于服务转移的指导。此举反映了对在该地区运营的海外虚拟币平台的监管压力不断升级。",
+        "coins": "BTC, ETH, alts",
+        "timeUTC": "2026-11-07 23:00 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/thailand-is-cutting-off-bitget-users-have-until-december-5-to-prepare/"
+      },
+      {
+        "headline": "比特币ETF周流出12.8亿美元后转负，创自6月来最差周表现",
+        "what": "美国现货比特币ETF出现自6月来最大周流出——12.8亿美元——导致年初至今的累计流入转为流出。贝莱德业界领先的IBIT基金占周五流出的98%（403万美元），反映在整体科技股走弱背景下机构获利了结。",
+        "coins": "BTC",
+        "timeUTC": "2026-11-07 06:26 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国制裁41家涉嫌维持王子集团诈骗网络运作的公司",
+          "what": "美国财政部对41个实体进行制裁，称这些实体在王子集团控制下运营，目的是规避早前的限制并隐瞒所有权。此举冻结与实施金融欺诈的网络相关的企业资产。",
+          "coins": "general crypto",
+          "timeUTC": "2026-11-07 20:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-sanctions-hit-41-companies-accused-of-keeping-prince-groups-scam-network-running/"
+        },
+        {
+          "headline": "币安通知部分欧洲国家用户账户将于年底前关闭",
+          "what": "币安通知西班牙、法国和波兰的用户，账户将于12月31日关闭，立即生效。用户被要求在截止日期前提取虚拟币，原因是新增的监管费用和合规要求。",
+          "coins": "all",
+          "timeUTC": "2026-11-07 09:06 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "前FBI特工认罪：从35起调查相关钱包中窃取247万美元虚拟币",
+          "what": "一名前FBI特工认罪窃取至少247万美元的虚拟币，这些资金来自与35起调查相关的联邦调查局钱包。该特工必须支付至少240万美元的赔偿金，并放弃与此盗窃事件相关的任何故事销售收入。",
+          "coins": "BTC, ETH, alts",
+          "timeUTC": "2026-11-07 22:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988"
+        },
+        {
+          "headline": "Gnosis Pay数据泄露暴露银行卡号、家庭住址和关联虚拟币钱包",
+          "what": "虚拟币借记卡提供商Gnosis Pay披露了数据泄露事件，影响了客户的财务和个人信息。一名用户报告称泄露的数据将其家庭住址和银行卡号关联到了账户绑定的所有虚拟币钱包，增加了被定向诈骗的风险。Gnosis确认客户资金安全。",
+          "coins": "general",
+          "timeUTC": "2026-11-07 06:31 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "苹果和Meta完成科技巨头大撤退：所有\"美国七大科技股\"均拒绝在OKX-ICE代币化平台上市",
+          "what": "苹果和Meta要求将其股票排除在计划中的OKX-ICE代币化交易平台之外，至此美国七大科技公司（微软、英伟达、特斯拉、亚马逊、苹果、字母表、Meta）全数反对。这削弱了该平台作为基于虚拟币的替代股票交易平台的吸引力。",
+          "coins": "none",
+          "timeUTC": "2026-11-07 06:47 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-06",
+    "summary": "2026年11月6日周五（报告发布前最后交易日），美国现货比特币ETF流出412万美元。同期以太坊现货ETF流出9319万美元，其中灰度ETHA基金以9076万美元的流出额领先。当日加密现货ETF合计流出超过5亿美元。",
+    "source": "KuCoin",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-412m-net-outflow-on-nov-6"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI (Monday 09 Nov, 01:30 UTC) — medium impact",
+      "typicalReaction": "如果通胀数据出现意外将推动虚拟币波动；交易者会密切关注以追踪全球货币政策"
+    },
+    {
+      "event": "US CPI Report (Tuesday 10 Nov, 13:30 UTC) — medium impact",
+      "typicalReaction": "重大市场影响因素；美联储政策预期和比特币作为通胀对冲工具常对美国通胀数据反应剧烈"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "永续合约市场中交易者之间支付的费用。当资金费率为正时，多头头寸持有者向空头头寸持有者支付。高资金费率意味着多头过度乐观并支付溢价；低或负资金费率意味着空头过度悲观。"
+    },
+    {
+      "term": "多空比",
+      "definition": "交易所上多头头寸数量除以空头头寸数量。比率高于1表示更多交易者看涨；低于1表示更多交易者看跌。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "在某时期内上涨的虚拟币资产占全部虚拟币资产的百分比，与下跌的对比。高广度（大多数币上涨）表示市场整体健康；低广度（大多数币下跌）表示广泛疲弱。"
+    },
+    {
+      "term": "未平仓量 (OI)",
+      "definition": "交易所所有交易者未结算永续合约的总数。OI上升意味着交易者在增加新头寸；OI下降意味着交易者在平仓并降低杠杆。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "交易所上攻击性买单（吃单）与攻击性卖单之间的平衡。高于1.0表示买方更着急；低于1.0表示卖方更着急。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "交易所最大交易者之间的多空比，而非所有交易者。显示最大玩家在下注什么，被作为反向指标来观察散户情绪何时落后于机构行动。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "基于波动率、市场动能、交易量、社交媒体活动和调查数据的日度情绪指数，范围从0（极度恐慌）到100（极度贪婪）。极度恐慌（0-25）可能预示超卖；极度贪婪（75-100）可能预示超买。"
+    },
+    {
+      "term": "永续合约 (perps)",
+      "definition": "允许交易者使用杠杆押注虚拟币价格而无设定过期日期的合约。与现货市场不同，永续合约24/7交易，且在交易者之间结算而非与交易所作为交易对手方结算。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续合约头寸损益的参考价格，旨在防止操纵并使期货价格接近现货价格。与最后成交价不同。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "ceec59ecba0d1da6"
+}

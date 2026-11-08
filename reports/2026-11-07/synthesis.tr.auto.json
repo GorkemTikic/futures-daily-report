@@ -1,0 +1,156 @@
+{
+  "oneLine": "Bitcoin ve Ethereum ayı ayak yerinde kaldı. Borsalara kurulan düzenleme baskısı arttı, kurumsal Bitcoin alımları soğuk seyretti, pazar şiddetli korku içine gömüldü—üstelik hafta sonu, tüm büyük pazarlar kapak altındaydı.",
+  "caveman": "Bitcoin ve Ethereum neredeyse hiç yükselmedi. Diğer kripto paralar indi. Herkes korkmuştu. Neden? Bir hafta boyunca kötü haberler ardı ardına geldi. Binance (dünyanın en büyük kripto borsası) geçen hafta 6,3 milyar dolar soyguna uğradı, şimdi de muhasebe müdürü işten ayrıldı. Tayland, Bitget diye başka bir borsaya kapanmasını söyledi. Amerika da MEXC adındaki bir borsanın Amerikan bankalarıyla çalışmasını durdurmaya karar verdi. Wall Street'ten gelen para yatırımcılar Bitcoin satmaya başladı. Hatta FBI'ın eski müdürü insanların cüzdanlarından kripto çaldığı ortaya çıktı. Kripto için oldukça kötü bir gündü.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları beş büyük borsada uyumlu kaldı. BTC 75.815'te, ETH 2.238'de işlem gördü, her ikisi de %0,1'in altında artış kaydetti. İşlem hacminde Binance başı çekti: Bitcoin'de 2,54 milyar dolar, Ethereum'da 1,91 milyar dolar.",
+  "positioningSummary": "Bitcoin'de long pozisyonları short pozisyonlardan 3,13 kat fazlaydı (Binance), ancak alıcı/satıcı oranı 0,975 olarak ölçüldü—satış baskısının biraz ön plana çıktığı anlamına geliyordu. Ethereum'da durum daha yükselişçiydi (3,95:1 long/short oranı), ama benzer satış baskısı görülüyordu (0,9851 oranı). Büyük tüccarlar Bitcoin'de 2,09:1 oranında long tutuyordu—güçlü yükselişçi olmakla birlikte, geniş pazar ortalamasından daha az agresif. Finansman oranları mütevazıydı: Bitcoin %5,76 yıllık, Ethereum %4,99—long sahibleri tutma ücreti ödüyordu. Açık faiz Bitcoin'de %0,35 gerilemişti; kurumsal tüccarların pozisyon kapattığı ve kar aldığı sinyalini veriyordu. Pazar genişliği çok olumsuzdu: Binance vadeli işlemlerinde yalnız %26,6 yükselişe geçerken %73,4 düştü. Korku & Açgözlülük Endeksi 25'e indi—aşırı korku seviyesi—bir gün önceden 28'den gerilemişti. Toplam kripto pazar değeri %2,75 azalmıştı.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "Kamuya açık net bir sebebi yok. Küçük piyasa değerli, düşük likidite içeren bir token—az işlem hacminde keskin fiyat hareketlerine eğilimli.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "Belirgin bir haber nedeni yoktur. Spekülasyon veya olağan pazar aktivitesine bağlı görünüyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "Açık sebep bulunamadı. Yine düşük likidite ve açıklanamayan gün içi oynaklığı olan küçük değerli bir token.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance CFO, rekor 6,3 milyar dolar vurgundan 9 gün sonra görevden ayrıldı",
+        "what": "Binance'in CFO'su Kaiser Ng, altı ay önce başlatılan geçiş planı kapsamında yeni bir girişimi takip etmek için ayrılıyor—bunu ortak CEO Yi He açıkladı. Zamanlaması, borsanın en büyük hırsızlığını açıklamasından hemen sonra geldi. CFO'nun ayrılışı ya rutin bir yönetim değişikliğini ya da hack ile başa çıkma konusunda liderliğe olan güvensizliğin kaybını gösterebilir.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-07 22:58 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992"
+      },
+      {
+        "headline": "Tayland, Bitget'e 5 Aralık'a kadar kapanmasını emretti",
+        "what": "Tayland'ın mali düzenlemecisi Bitget'e 5 Aralık'a kadar faaliyetlerini durdurmalarını emretti. Bitget, geçiş sırasında hizmet erişimi hakkında rehberlik vereceğini söyledi. Bu hareket, bölgede faaliyet gösteren denizaşırı kripto platformlarına karşı yoğunlaşan düzenleme baskısını yansıtıyor.",
+        "coins": "BTC, ETH, alts",
+        "timeUTC": "2026-11-07 23:00 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/thailand-is-cutting-off-bitget-users-have-until-december-5-to-prepare/"
+      },
+      {
+        "headline": "Bitcoin ETF'leri 1,28 milyar dolar çıkışla 2026'da negatife geçti, Haziran'dan bu yana en kötü hafta",
+        "what": "ABD spot Bitcoin ETF'leri Haziran'dan bu yana en yüksek haftalık çıkışı kaydetti—1,28 milyar dolar—ve yıl başından beri toplam akışı pozitiften negatife çevirdi. Endüstri liderliğindeki BlackRock'un IBIT fonu Cuma günü çıkışların %98'ini oluşturdu (403 milyon dolar), geniş teknoloji hisse senedi zayıflığı ortamında kurumsal kar alma işaretini gösteriyor.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-07 06:26 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "ABD, Prince Group'un dolandırıcılık ağını devam ettirmekle suçlanan 41 şirketi yaptırım altına aldı",
+          "what": "ABD Hazinesinin, Prince Group'un kontrolü altında ve önceki yasakları aşmak için faaliyet gösteren 41 işletmeyi yaptırım altına aldığı açıklandı. Bu karar, mali dolandırıcılık işlemiyle bağlantılı şirketlerin varlıklarını dondurmuştur.",
+          "coins": "general crypto",
+          "timeUTC": "2026-11-07 20:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-sanctions-hit-41-companies-accused-of-keeping-prince-groups-scam-network-running/"
+        },
+        {
+          "headline": "Binance, bazı Avrupa ülkelerindeki kullanıcılara yıl sonuna kadar hesap kapatmalarını söyledi",
+          "what": "Binance, İspanya, Fransa ve Polonya'daki kullanıcılara 31 Aralık'ta hesaplarının kapanacağını bildirdi. Yeni düzenleme ücretleri ve uyum gereklilikleri nedeniyle kullanıcılardan kripto paralarını son tarihten önce çekmelerini istedi.",
+          "coins": "all",
+          "timeUTC": "2026-11-07 09:06 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Eski FBI ajanı, 35 soruşturmayla bağlantılı cüzdanlardan 2,47 milyon dolar kripto çaldığı için suçunu kabul etti",
+          "what": "Eski bir FBI ajanı, FBI cüzdanlarından 35 devam eden soruşturmayla bağlantılı olarak en az 2,47 milyon dolar kripto çaldığını kabul etti. Ajan en az 2,4 milyon dolar tazminat ödemeli ve hırsızlıkla ilgili her türlü gelirinden vazgeçmelidir.",
+          "coins": "BTC, ETH, alts",
+          "timeUTC": "2026-11-07 22:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988"
+        },
+        {
+          "headline": "Gnosis Pay ihlali kart numaralarını, ev adreslerini ve bağlantılı kripto cüzdanlarını açığa çıkardı",
+          "what": "Kripto banka kartı sağlayıcısı Gnosis Pay, müşteri mali ve kişisel verilerini etkileyen bir veri ihlalini açıkladı. Bir kullanıcı, açığa çıkan verilerinin ev adresini ve kart numarasını hesapla bağlantılı her kripto cüzdanına bağladığını bildirdi—bu da hedefli dolandırıcılık riskini artırıyor. Gnosis, müşteri fonlarının güvende olduğunu teyit etti.",
+          "coins": "general",
+          "timeUTC": "2026-11-07 06:31 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Apple ve Meta, son teknolojiyi tamamladı: Muhteşem Yedilinin tümü OKX-ICE token platformundan çekildi",
+          "what": "Apple ve Meta, planlanan OKX-ICE token hisse senedi platformundan paylarını tutmak istedi—bu sayede dünyanın en büyük yedi teknoloji şirketinin (Microsoft, Nvidia, Tesla, Amazon, Apple, Alphabet, Meta) hepsi itiraz etti. Bu, platformun kripto tabanlı alternatif hisse platformu olarak çekiciliğini baltalar.",
+          "coins": "none",
+          "timeUTC": "2026-11-07 06:47 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-06",
+    "summary": "ABD spot Bitcoin ETF'leri 6 Kasım Cuma günü (raporlama tarihinden önceki son işlem günü) net olarak 412 milyon dolar çıkış kaydetti. Ethereum spot ETF'leri aynı dönemde 93,19 milyon dolar çıkış yaşadı; Grayscale'in ETHA fonu Ethereum çıkışlarına 90,76 milyon dolarla öncü oldu. Söz konusu günde toplam kripto spot ETF çıkışı 500 milyon doları aştı.",
+    "source": "KuCoin",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-412m-net-outflow-on-nov-6"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI (Pazartesi 09 Kas, 01:30 UTC) — orta etki",
+      "typicalReaction": "Enflasyon beklentileri aşarsa kripto hareket edebilir; küresel para politikasını takip eden tüccarlar tarafından izlenir"
+    },
+    {
+      "event": "US CPI Report (Salı 10 Kas, 13:30 UTC) — orta etki",
+      "typicalReaction": "Pazar için büyük belirleyici; Fed politikası beklentileri ve Bitcoin'in enflasyon koruması olarak kullanılması ABD enflasyon verilerine sıklıkla keskin tepki gösterir"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman Oranı",
+      "definition": "Vadeli işlem piyasalarında tüccarlar arasında ödenecek bir ücret. Finansman pozitif olduğunda, long sahibi short sahibine ödeme yapar. Yüksek finansman, long sahibinin aşırı yükselişçi olduğu ve prim ödediği anlamına gelir; düşük veya negatif finansman, short sahibinin aşırı düşüşçü olduğunu gösterir."
+    },
+    {
+      "term": "Long/Short Oranı",
+      "definition": "Bir borsada long pozisyonlarının (fiyat yükseleceğine iddia) short pozisyonlara (fiyat düşeceğine iddia) oranı. 1'den yüksek oran daha fazla tüccarın yükselişçi olduğunu; 1'den düşük oran daha fazla tüccarın düşüşçü olduğunu gösterir."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Belirli bir dönemde yükselen kripto varlıklarının yüzdesi ile düşenlerin oranı. Yüksek genişlik (birçok coin yükselişe) sağlıklı bir pazar sinyali verir. Düşük genişlik (çoğu coin düşüşe) geniş zayıflık sinyali verir."
+    },
+    {
+      "term": "Açık Faiz (OI)",
+      "definition": "Bir borsada tüm tüccarlar arasında kapatılmayan vadeli işlem sözleşmelerinin toplam sayısı. Yükselen açık faiz, tüccarların yeni bahis eklediklerini; düşen açık faiz, pozisyon kapadıklarını ve kaldıracı azalttıklarını gösterir."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Bir borsada agresif alış emirleri (taker) ile agresif satış emirleri arasındaki denge. 1,0'den yüksek acele alıcıları; 1,0'den düşük acele satıcıları gösterir."
+    },
+    {
+      "term": "En Büyük Tüccar Oranı",
+      "definition": "Bir borsadaki tüm tüccarlar değil, en büyük tüccarlar arasındaki long/short oranı. En büyük oyuncuların ne bahis oynadığını gösterir ve perakende duygularının kurumsal hareketlerde geri kaldığı zamanları belirten karşıt sinyal olarak izlenir."
+    },
+    {
+      "term": "Korku & Açgözlülük Endeksi",
+      "definition": "Oynaklık, pazar momenti, hacim, sosyal medya aktivitesi ve anket verilerine dayanarak hesaplanan günlük duygu puanı (0 = aşırı korku, 100 = aşırı açgözlülük). Aşırı korku (0–25) aşırı satılı koşulları; aşırı açgözlülük (75–100) aşırı alınlı koşulları gösterebilir."
+    },
+    {
+      "term": "Vadeli İşlemler (Perpetual Futures)",
+      "definition": "Tüccarların belirli bir son tarih olmaksızın kripto fiyatı üzerine bahis oynamasına izin veren ve kaldıraç kullanan sözleşmeler. Spot piyasalardan farklı olarak, perps 24/7 işlem görür ve borsayla değil tüccarlar arasında kapatılır."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Vadeli işlem pozisyonunda kâr/zarar hesaplamak için kullanılan referans fiyat; manipülasyonu önlemek ve vadeli fiyatı spot fiyata yakın tutmak için tasarlanmıştır. Son işlem yapılan fiyattan farklıdır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "ceec59ecba0d1da6"
+}

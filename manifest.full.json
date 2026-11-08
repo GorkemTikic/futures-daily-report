@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-07T01:05:51.744Z",
-  "count": 143,
+  "generatedAt": "2026-11-08T00:17:29.047Z",
+  "count": 144,
   "counts": {
-    "total": 143,
-    "market": 56,
+    "total": 144,
+    "market": 57,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-06",
+  "latest": "2026-11-07",
   "reports": [
+    {
+      "date": "2026-11-07",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.032581195769453196,
+        "ETH": 0.06614466015946308
+      },
+      "marketSummary": "Bitcoin and Ethereum barely budged while regulatory pressure mounted on exchanges and institutional Bitcoin buying cooled, leaving the broader market in extreme fear on a weekend with all major cash markets closed.",
+      "oneLine": "Bitcoin and Ethereum barely budged while regulatory pressure mounted on exchanges and institutional Bitcoin buying cooled, leaving the broader market in extreme fear on a weekend with all major cash markets closed.",
+      "newsCount": 8,
+      "topMover": {
+        "symbol": "AKEUSDT",
+        "chgPct": 45.08050089445438
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-07/summary_2026-11-07.html",
+        "pdf": "reports/2026-11-07/summary_2026-11-07.pdf",
+        "md": "reports/2026-11-07/summary_2026-11-07.md"
+      }
+    },
     {
       "date": "2026-11-06",
       "kind": "market",

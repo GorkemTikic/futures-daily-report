@@ -1,0 +1,155 @@
+{
+  "oneLine": "Bitcoin and Ethereum barely budged while regulatory pressure mounted on exchanges and institutional Bitcoin buying cooled, leaving the broader market in extreme fear on a weekend with all major cash markets closed.",
+  "caveman": "Bitcoin and Ethereum stayed nearly flat—up just a tiny bit—but almost everything else in crypto went down. People were scared. The reason: a week of big scandals. Binance (the biggest exchange) was hacked last week for 6.3 billion dollars, and now its money person is leaving. Thailand told another exchange called Bitget to shut down. The US government also stopped a big exchange called MEXC from working with American banks. And Wall Street investors who had been buying Bitcoin started selling instead. On top of that, an FBI agent got caught stealing crypto from people's wallets. It was a worrying day for crypto.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices stayed tightly aligned across all five major venues, with BTC at 75,815 and ETH at 2,238, both up less than 0.1%. Binance led volume in both, with 2.54 billion dollars in BTC trading and 1.91 billion in ETH.",
+  "positioningSummary": "Bitcoin had 3.13 times more long positions than short ones (Binance), but the taker buy/sell ratio at 0.975 showed slightly more aggressive selling than buying. Ethereum's long/short ratio was even more bullish at 3.95:1, but with similar selling pressure (0.9851 ratio). Top traders on Bitcoin were 2.09:1 long—still strongly bullish but lighter than the broader market. Funding rates were modest—Bitcoin 5.76% annualized, Ethereum 4.99%—meaning longs were paying a small fee to hold. Open interest fell 0.35% on Bitcoin, signaling that institutional traders were closing positions or taking profits. Market breadth was deeply negative: only 26.6% of Binance perpetuals rose, while 73.4% fell. The Fear & Greed index hit 25, marking 'Extreme Fear,' down from 28 the day before, and total crypto market cap dropped 2.75%.",
+  "stocksSummary": "",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "No clear public cause. Small-cap token with low liquidity, prone to sharp moves on thin volume.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "explanation": "No clear public cause. Appears tied to routine market activity or speculation rather than news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "No clear public cause. Another low-liquidity small-cap token with unexplained intraday volatility.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance CFO steps down nine days after record $6.3B hack",
+        "what": "Binance CFO Kaiser Ng is departing to pursue a new venture under a transition plan put in place six months ago, according to co-CEO Yi He. The timing comes just over a week after the exchange disclosed its largest theft. The CFO's departure may signal either routine management change or loss of confidence in the leadership response to the hack.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-07 22:58 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992"
+      },
+      {
+        "headline": "Thailand orders Bitget to shut down by December 5",
+        "what": "Thailand's financial regulator instructed Bitget, a major cryptocurrency exchange, to cease operations by 5 December. Bitget promised guidance on service access during the transition. The move reflects escalating regulatory pressure on offshore crypto platforms operating in the region.",
+        "coins": "BTC, ETH, alts",
+        "timeUTC": "2026-11-07 23:00 UTC",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/thailand-is-cutting-off-bitget-users-have-until-december-5-to-prepare/"
+      },
+      {
+        "headline": "Bitcoin ETFs flip negative for 2026 after $1.28B weekly outflow, worst week since June",
+        "what": "US spot Bitcoin ETFs saw their largest weekly outflow since June—$1.28 billion—sending year-to-date flows from positive to negative. BlackRock's industry-leading IBIT fund accounted for 98% of Friday's outflows ($403 million), signaling institutional profit-taking amid broader tech stock weakness.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-07 06:26 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "US sanctions 41 companies accused of keeping Prince Group's scam network running",
+          "what": "The US Treasury sanctioned 41 entities it said were operating under Prince Group's control to circumvent earlier restrictions and conceal ownership. The action freezes assets of companies linked to a network that carried out financial fraud.",
+          "coins": "general crypto",
+          "timeUTC": "2026-11-07 20:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-sanctions-hit-41-companies-accused-of-keeping-prince-groups-scam-network-running/"
+        },
+        {
+          "headline": "Binance users in some European countries told to close accounts by year end",
+          "what": "Binance notified users in Spain, France, and Poland that accounts would close on 31 December, effective immediately. Users were told to withdraw their cryptocurrency before the deadline due to new regulatory fees and compliance requirements.",
+          "coins": "all",
+          "timeUTC": "2026-11-07 09:06 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ex-FBI agent pleads guilty to stealing $2.47M in crypto from wallets tied to 35 investigations",
+          "what": "A former FBI agent pleaded guilty to stealing at least $2.47 million in cryptocurrency from agency wallets tied to 35 ongoing investigations. The agent must pay at least $2.4 million in restitution and forfeit future earnings from any story sales related to the theft.",
+          "coins": "BTC, ETH, alts",
+          "timeUTC": "2026-11-07 22:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988"
+        },
+        {
+          "headline": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
+          "what": "Gnosis Pay, a crypto debit card provider, disclosed a data breach affecting customer financial and personal data. One user reported their exposed data linked a home address and card number to every crypto wallet tied to the account, raising risk of targeted scams. Gnosis confirmed customer funds remained safe.",
+          "coins": "general",
+          "timeUTC": "2026-11-07 06:31 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Apple and Meta complete tech exodus: all 'Magnificent Seven' stocks opt out of OKX-ICE tokenized venue",
+          "what": "Apple and Meta asked to keep their shares off the planned OKX-ICE tokenized stock venue, completing a sweep: all seven of the biggest US tech companies (Microsoft, Nvidia, Tesla, Amazon, Apple, Alphabet, Meta) have now objected. This undermines the venue's appeal as a crypto-based alternative share platform.",
+          "coins": "none",
+          "timeUTC": "2026-11-07 06:47 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-06",
+    "summary": "US spot Bitcoin ETF flows were negative by $412 million on Friday 2026-11-06, the last trading day before the report date. Ethereum spot ETFs saw outflows of $93.19 million over the same period, with Grayscale's ETHA fund leading ETH outflows at $90.76 million. Combined crypto spot ETF outflows on the day reached over $500 million.",
+    "source": "KuCoin",
+    "url": "https://www.kucoin.com/news/flash/bitcoin-spot-etfs-record-412m-net-outflow-on-nov-6"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI (Monday 09 Nov, 01:30 UTC) — medium impact",
+      "typicalReaction": "Can move crypto if inflation surprises; monitored by traders tracking global monetary policy"
+    },
+    {
+      "event": "US CPI Report (Tuesday 10 Nov, 13:30 UTC) — medium impact",
+      "typicalReaction": "Major market mover; Fed policy expectations and Bitcoin as inflation hedge often react sharply to US inflation data"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "A fee paid between traders in perpetual futures markets. When funding is positive, long-position holders pay short-position holders. High funding means longs are overly bullish and paying a premium; low or negative funding means shorts are overly bearish."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of long positions (bets price goes up) divided by the number of short positions (bets price goes down) at an exchange. A ratio above 1 means more traders are bullish; below 1 means more are bearish."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of all crypto assets that rose during a period, versus those that fell. High breadth (many coins up) signals healthy overall market. Low breadth (most coins down) signals broad weakness."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total number of unsettled perpetual futures contracts across all traders at an exchange. Rising OI means traders are adding new bets; falling OI means they are closing positions and reducing leverage."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The balance between aggressive buy orders (takers) and aggressive sell orders at an exchange. Above 1.0 means more buyers are in a hurry; below 1.0 means more sellers are in a hurry."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long/short ratio among the largest traders at an exchange, not all traders. Shows what the biggest players are betting and is watched as a contrarian signal for when retail sentiment lags institutional moves."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A daily sentiment score from 0 (extreme fear) to 100 (extreme greed), based on volatility, market momentum, volume, social media activity, and survey data. Extreme fear (0–25) can signal oversold conditions; extreme greed (75–100) can signal overbought conditions."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "Contracts that let traders bet on crypto price without a set expiry date, using leverage. Unlike spot markets, perps trade 24/7 and are settled between traders rather than with an exchange as counterparty."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate profit/loss on a perpetual futures position, designed to prevent manipulation and keep futures price close to spot. Differs from last traded price."
+    }
+  ],
+  "_source": "cli"
+}
