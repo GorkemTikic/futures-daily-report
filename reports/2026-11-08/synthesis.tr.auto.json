@@ -1,0 +1,200 @@
+{
+  "oneLine": "8 Kasım Pazar günü Bitcoin %1,3, Ethereum ise %5 düştü. Kripto piyasasının tamamı %5 geriledi, sadece %9'u yükselişe geçti ve kurumsal ETF fonları negatif akış gösterdi.",
+  "caveman": "8 Kasım Pazar günü Bitcoin ve Ethereum fiyatları düştü. Bitcoin %1,3 düştü ama Ethereum çok daha fazla, %5 düştü. Neredeyse tüm diğer kripto paralar da aşağı gitti. Kripto tüccarları ne kadar korktuğunu ölçen korku-açgözlülük endeksi çok ağır korkudan (25) normal korku (28) seviyesine çıktı. O gün sadece %9'u yükselmişti. Büyük teknoloji şirketlerinin hisseleri zaten Cuma günü düşmüştü ve tüccarlar hükümetin faiz oranları hakkında ne diyeceğini bekliyordu. Endişeli bir gündü.",
+  "priceVolumeSummary": "Bitcoin 74.700'e yakın kapandı, beş ana borsa arasında sıkı fiyat uyumluluğu ile %1,33 düşüş. Ethereum de 2.126'ya yakın kapandı, borsalar arasında yakın fiyatlar ile %5,03 düşüş. Binance, her iki piyasada da işlem hacminde lider konumdadır: Bitcoin'de 6,9 milyar dolar, Ethereum'da 5,8 milyar dolar.",
+  "positioningSummary": "Bitcoin'in 8 saatlik finansman oranı 0.00006086'da pozitif (yıllık %6,66), kaldıraçlı işlem yapan tüccarların fiyatların yükselmesini beklediklerini gösterse de açık faiz %1,83 düştü ve tüccarların bahislerini kapattığını veya azalttığını gösteriyor. Binance'de long/short oranı 3,08 ve en büyük tüccarlar oranı 1,87 idi (her ikisi de fiyat artışı bahislerini destekliyor), ancak alıcı/satıcı oranı 0,863 idi—1,0'ın altı agresif satış baskısının galip geldiğini gösteriyor. Ethereum negatif finansman oranlarına sahipti (-yıllık %9,18), bu da tüccarların düşük fiyat bahisleri tutmak için ödeme yaptığını gösteriyor, ancak açık faiz yine %2,22 düştü. Pazar genişliği çöktü: Binance kripto vadeli işlemlerinin sadece %8,6'sı gün içinde kârlıydı. Korku-açgözlülük endeksi 25'ten 28'e yükseldi, artan endişeyi gösteriyor.",
+  "stocksSummary": "ABD ve Asya hisse senedi piyasaları 8 Kasım Pazar günü kapalıydı. Son işlem seanslarında (6 Kasım Cuma), Asya yarı iletken hisseleri keskin düştü: Güney Kore'nin SK Hynix %5,1, LG Electronics %4,1 ve Samsung Electronics %2,7 düşüş gösterdi, geniş teknoloji sektörü zayıflığını yansıtıyor. Altın %0,27 düştü ve petrol yaklaşık %0,20 düştü. Bunlar rapor günü işlem gören tek geleneksel varlıklardı.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Çok küçük, düşük likidite pazarında aşırı oynaklık; açık kamuya açık haber veya sebep tespit edilmemiştir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "UAIUSDT",
+      "explanation": "Küçük, düşük likidite kripto parasında keskin çöküş; açık kamuya açık haber veya sebep tespit edilmemiştir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "explanation": "Küçük, düşük likidite pazarında güçlü ralli; açık kamuya açık haber veya sebep tespit edilmemiştir.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Web3Auth, 5,6 milyon doları açığa çıkan Keplr cüzdanlarından hackerlardan hızlı hareket ederek çıkartmayı başardığını söyledi",
+        "what": "Keplr cüzdan altyapısındaki bir güvenlik ihlali, kullanıcı cüzdan bilgilerini ortaya çıkardı. Web3Auth, saldırganlar onları almadan önce 5,6 milyon doları risk altındaki cüzdanlardan çıkarmak için hızlı hareket ettiğini söyledi, ancak şirket kurtarılmadan önce bazı fonların çalındığını belirtti.",
+        "coins": "Birden fazla blokzincir (Cosmos ekosistemi)",
+        "timeUTC": "2026-11-08 17:58 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029"
+      },
+      {
+        "headline": "Stabilcoin büyümesi durmuş, ancak ödeme patlaması durmuş değil",
+        "what": "Stabilcoin arzı (çıkarılan toplam miktar) bu yıl neredeyse hiç büyümedi, ancak stabilcoin kullanan işlem sayısı patladı. Circle'ın son kazanç raporu, ödenmemiş dolar ile gerçek ödeme aktivitesi arasındaki boşluğun genişlediğini gösteriyor—ödemeler patlarken token arzı eşleşmek için büyümüyor.",
+        "coins": "USDC, genel olarak stabilcoinler",
+        "timeUTC": "2026-11-08 18:36 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t"
+      },
+      {
+        "headline": "Vitalik Buterin, ETH'nin ücret yakıcı bir token olarak değil, bir değer saklama aracı olarak değerlendirilmesi gerektiğini söyledi",
+        "what": "Ethereum'un yaratıcısı Vitalik Buterin, Ethereum hakkında nasıl düşünülmesi gerektiğinde önemli bir değişim önerdi: işlem ücretlerinden değer alan bir token olarak değil, Bitcoin gibi bir tasarruf aracı olarak. Bu, Ethereum'un anlatısında ve uzun vadeli konumlandırmasında stratejik bir dönüşü temsil ediyor.",
+        "coins": "ETH",
+        "timeUTC": "2026-11-08 15:32 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Kalshi bahislerinizi kim durdurabilir? Washington çatışmayı tırmandırdı",
+          "what": "Kripto-doğal bir türev borsası olan Kalshi, yeni bir düzenleme talebine karşı karşıya. ABD türev borsaları uyum-ya-da-açıkla talebi alırken, mahkeme kararları Kalshi'nin ulusal erişim durumunu belirsiz tutuyor, kimin ne işlem yapabileceği konusundaki savaşı tırmandırıyor.",
+          "coins": "Spesifik yok",
+          "timeUTC": "2026-11-08 19:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/who-gets-to-block-your-kalshi-bets-washington-just-escalated-the-fight/"
+        },
+        {
+          "headline": "Binance Fransa, kullanıcıların hesaplarının 31 Aralık'ta kapatılacağını duyurdu",
+          "what": "Binance, İspanya, Fransa ve Polonya'daki kullanıcılara hesaplarının 31 Aralık'ta kapatılacağını bildirdi. Kullanıcılar, varlıklarını çekmezlerse 29 Kasım'dan başlayarak aylık ücretlendirilecek.",
+          "coins": "Tümü",
+          "timeUTC": "2026-11-08 12:44 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bir BlackRock fonu Bitcoin'in milyar dolarlık ETF çıkışında baskındır",
+          "what": "6 Kasım'da biten haftada Bitcoin ETF'leri yaklaşık 1,28 milyar dolar net çıkış gördü. BlackRock'ın IBIT fonu bu çıkışın yaklaşık 403 milyon doları oluşturdu (haftalık brüt çıkışların yaklaşık %88'i). Fidelity'nin Bitcoin ETF'si hafta için pozitif kaldı.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 16:57 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/one-blackrock-fund-dominates-bitcoins-billion-dollar-etf-exodus/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Hacklenmiş kripto cüzdan kurtarmanın tuzağı: hırsız hala anahtara sahip olabilir",
+          "what": "Bir cüzdan kurtarılsa ve fonları boşaltılsa bile, saldırgan cüzdanın özel anahtarını saklayabilir ve daha sonra erişimi yeniden sağlayabilir. Keplr'ın belgelenmiş yedekleme özellikleri, kullanıcıların tek giriş yöntemine olan bağımlılığını azaltmaya yardımcı olur ancak açığa çıkan bir anahtarın güvenli olduğunu kanıtlayamaz.",
+          "coins": "Cosmos ekosistemi varlıkları",
+          "timeUTC": "2026-11-08 18:54 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/the-catch-in-recovering-a-hacked-crypto-wallet-the-thief-may-still-have-a-key/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Seçim sonuçları kripto için ne anlama geliyor: Kripto Durumu",
+          "what": "Demokratlar yakın zamankı ABD seçimlerinde beklentileri aştı. Makale kripto düzenlemesi için çıkarımları analiz ediyor, ancak bölünmüş düzenleme görüşleri göz önüne alındığında endüstri için sonuç belirsiz kalmıştır.",
+          "coins": "Tümü",
+          "timeUTC": "2026-11-08 18:53 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bu Bitcoin Geliştericisinin Fikri Kuantum Saldırılarını Kaybedilen Bahis Haline Getirecek",
+          "what": "Cory Fields kuantum saldırısı savunması önerir: gelecekteki kuantum saldırganlarını savunmasız cüzdanlara dokunmadan önce Bitcoin teminat olarak yatırmaya zorlayın. Sahipleri ilk olarak paralarını kurtarırlarsa, teminatı tazminat olarak tutarlar. Konsept aşaması.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 13:41 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet"
+        },
+        {
+          "headline": "Bu Finlandiya evleri bitcoin madencilerinden ücretsiz ısı alıyor (BTC 70.000 doların üzerinde kaldığı sürece)",
+          "what": "Bir Finlandiya girişimi, evler için merkezi ısıtma olarak 30 Bitcoin madencilik sistemini işletir. Mevcut Bitcoin fiyatlarında (74.000 dolardan fazla), her birim maliyetinden biraz daha fazla elektrik kazanır, bonus olarak ücretsiz ısı sağlar.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 12:42 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000"
+        },
+        {
+          "headline": "Zincir üstü veriler NYT'nin 'şüpheli' seçim bahis hikayesinde içeriden öğrenenlerin ticareti teorisini şüpheye düşürüyor",
+          "what": "New York Times seçim sonuçları hakkında şüpheli bahisleri bildirdi. İki uzman blokzincir verilerini gözden geçirdi ve kanıtların yasa dışı içeriden öğrenenlerin ticaretinin meydana geldiğini güçlü bir şekilde göstermediği sonucuna vardı.",
+          "coins": "Yok",
+          "timeUTC": "2026-11-08 22:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-08-onchain-data-casts-doubt-on-insider-trading-theory-in-nyts-suspicious-election-betting-story-436034"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-06",
+    "summary": "Bitcoin spot ETF'leri 6 Kasım Cuma günü, rapor döneminden önceki son ABD işlem günü, 411,9 milyon dolar net çıkış gördü ve Ethereum spot ETF'leri 93,2 milyon dolar net çıkış gördü. BlackRock'ın IBIT o gün Bitcoin ETF brüt çıkışlarının yaklaşık 403 milyon doları (yaklaşık %88'i) oluşturdu.",
+    "source": "The Block (citing SoSoValue)",
+    "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI November 2026 — Monday 9 November 01:30 UTC",
+      "typicalReaction": "Yüksek etkili yayın. Büyük ekonomilerden enflasyon verileri, tüccarlar faiz oranı beklentilerini yeniden değerlendirdikçe geleneksel ve kripto piyasalarında oynaklığı tetikler."
+    },
+    {
+      "event": "US CPI and Core CPI — Tuesday 10 November 13:30 UTC",
+      "typicalReaction": "Yüksek etkili yayın. ABD enflasyon verileri dünya çapında izlenir; beklenenden daha iyi CPI (daha düşük enflasyon) sıklıkla kripto dahil risk varlıklarını destekler."
+    },
+    {
+      "event": "FOMC Minutes — Wednesday 18 November 19:00 UTC",
+      "typicalReaction": "Yüksek etkili yayın. Federal Rezerv toplantı tutanakları faiz oranı rehberliği ve ekonomik görünümü açıklar; kripto piyasaları parasal politika sinyallerine duyarlıdır."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış Yüzde (finansman oranları için)",
+      "definition": "Tam bir yıl boyunca devam ettiği varsayılan bir finansman oranı. 0,00006'lık bir 8 saatlik finansman oranı %6,66'ya yıllıklandırılır çünkü bir yılda bu tür 1.095 aralık vardır (365 gün × günde 3)."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Gün boyunca fiyatı yükselen tüm işlem çiftlerinin (kripto paralar) yüzdesi. Düşük genişlik (%9 gibi) çoğu madeni paranın düştüğü anlamına gelir; yüksek genişlik çoğunun yükseldiği anlamına gelir. Bir harekatin geniş tabanlı mı yoksa birkaç coin tarafından mı yönlendirildiğini gösterir."
+    },
+    {
+      "term": "Korku-Açgözlülük Endeksi",
+      "definition": "Trader duygularını ölçen 0'dan 100'e kadar bir sayı. 0–25 aşırı korku, 25–45 korku, 45–55 tarafsız, 55–75 açgözlülük, 75–100 aşırı açgözlülük. Daha yüksek sayılar tüccarların fiyatların yükselmesini bekledikleri anlamına gelir; daha düşük sayılar düşmesini bekledikleri anlamına gelir."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Fiyatların yükselmesine bahis yapan tüccarlar (long) ve fiyatların düşmesine bahis yapan tüccarlar (short) arasında bir ödeme. Pozitif oranlar long'ların short'lara ödeme yaptığı anlamına gelir; negatif oranlar short'ların long'lara ödeme yaptığı anlamına gelir. Tüccarların fiyatların yükselmesini mi yoksa düşmesini mi beklediklerini yansıtır."
+    },
+    {
+      "term": "Long / Long Pozisyon",
+      "definition": "Bir kripto paranın fiyatının yükselmesine yapılan bir bahis. Bir trader Bitcoin'de 'long' konumdaysa, onu sahip veya bir sahiplik pozisyonunu güçlendirmek için kaldıraç kullanıyor."
+    },
+    {
+      "term": "Long/Short Oranı",
+      "definition": "Fiyat artışına bahis yapan tüccarların sayısı (long), fiyat düşüşüne bahis yapanların sayısına (short) bölünür. 1,0'ın üzerindeki oran daha fazla long anlamına gelir; 1,0'ın altı daha fazla short anlamına gelir."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Kaldıraçlı işlem borsasında finansman ödemeleri ve marj gereksinimlerini hesaplamak için kullanılan referans fiyat. Genellikle gerçek zamanlı piyasa fiyatına yakın ancak biraz farklı olabilir."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Tüccarların kaldıraçlı pozisyon almak için ödünç aldığı toplam kripto para miktarı (madeni para veya USD değeri). Yüksek açık faiz, birçok kaldıraçlı bahsin ödenmemiş olduğu anlamına gelir; düşük açık faiz daha azını ödemez. Açık faiz düştüğünde, tüccarlar pozisyonları kapatıyor."
+    },
+    {
+      "term": "Açık Faiz Değişimi",
+      "definition": "Toplam açık faizin gün boyunca ne kadar arttığı veya azaldığı. Bir düşüş genellikle tüccarların kaldıracı azalttığı anlamına gelir, çünkü kazanan bahisleri kapattılar veya kayıpları kesip çıktılar."
+    },
+    {
+      "term": "Short / Short Pozisyon",
+      "definition": "Bir kripto paranın fiyatının düşeceğine yapılan bir bahis. Bitcoin'i short'lamak için kaldıraç kullanan bir trader, fiyatın düşmesini bekler ve düşerse kar elde eder."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Agresif işlem yönünün ölçüsü. Alıcılar, piyasa fiyatında hemen satın alan veya satan tüccarlardır. 0,863 oranı, her 0,863 dolar agresif satın almaya karşılık 1,00 dolar agresif satış olduğu anlamına gelir. 1,0'ın altı net satış baskısını gösterir."
+    },
+    {
+      "term": "En Büyük Tüccar Pozisyon Oranı",
+      "definition": "Bir borsa üzerindeki en büyük tüccarlar arasında, fiyat artışına bahis yapanların (long) fiyat düşüşüne bahis yapanlara (short) oranı. En büyük oyuncuların hangi yöne konumlandırıldığını gösterir. 1,87 oranı, en büyük tüccarların fiyat artışına ağır bir şekilde bahis yaptığı anlamına gelir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "ac408a29936fcf33"
+}

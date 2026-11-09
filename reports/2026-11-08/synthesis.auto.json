@@ -1,0 +1,199 @@
+{
+  "oneLine": "Bitcoin fell 1.3% and Ethereum fell 5% on Sunday 8 November as crypto markets dropped 5%, with only 9% of trading pairs advancing and institutional ETF flows turning negative.",
+  "caveman": "On Sunday, November 8, Bitcoin and Ethereum dropped in price. Bitcoin fell 1.3% but Ethereum fell much more at 5%. Nearly every other cryptocurrency also went down. The fear-and-greed index, which measures how scared crypto traders are, went from extreme fear (25) to regular fear (28). Only 9% of cryptocurrencies were up that day. Big technology stocks had already fallen on Friday, and traders were waiting to hear about interest rates from the government. It was a worrying day.",
+  "priceVolumeSummary": "Bitcoin closed near 74,700 with tight agreement across all five major exchanges, down 1.33%. Ethereum closed near 2,126 also with close pricing, down 5.03%. Binance led trading volume for both markets: $6.9 billion for Bitcoin and $5.8 billion for Ethereum.",
+  "positioningSummary": "Bitcoin's 8-hour funding rate was positive at 0.00006086 (6.66% annualized), suggesting traders with leverage still expected prices to rise, but open interest fell 1.83%, indicating they were closing or reducing bets. On Binance, the long/short ratio was 3.08 and the top traders' ratio was 1.87 (both favoring bets on price increases), yet the taker buy/sell ratio was 0.863—below 1.0 means aggressive selling pressure won out. Ethereum had negative funding rates (-9.18% annualized), meaning traders paid to hold short bets (bets on lower prices), but open interest still fell 2.22%. Market breadth collapsed: only 8.6% of Binance crypto futures were in profit on the day. The fear-and-greed index rose from 25 to 28, signaling increased worry.",
+  "stocksSummary": "US and Asian equity markets were closed on Sunday 8 November. On their last trading session (Friday 6 November), Asian semiconductor stocks fell sharply: South Korea's SK Hynix -5.1%, LG Electronics -4.1%, and Samsung Electronics -2.7%, reflecting broader tech sector weakness. Gold fell 0.27% and oil fell approximately 0.20%. These were the only tradfi assets trading during the report day.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Extreme volatility in a very small, low-liquidity market; no clear public news or cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "UAIUSDT",
+      "explanation": "Sharp collapse in a small, low-liquidity cryptocurrency; no clear public news or cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "explanation": "Strong rally in a small, low-liquidity market; no clear public news or cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Web3Auth says it frontran hackers by moving $5.6 million out of exposed Keplr wallets",
+        "what": "A security breach in Keplr wallet infrastructure exposed user wallet information. Web3Auth said it acted quickly to move $5.6 million out of at-risk wallets before attackers could take them, though the company indicated some funds were stolen before the rescue.",
+        "coins": "Multiple blockchains (Cosmos ecosystem)",
+        "timeUTC": "2026-11-08 17:58 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029"
+      },
+      {
+        "headline": "Stablecoin growth has stalled. The payments boom hasn't.",
+        "what": "Stablecoin supply (the total amount issued) barely grew this year, yet the number of transactions using stablecoins surged. Circle's latest earnings show the gap between dollars outstanding and actual payment activity is widening—payments are booming but the token supply isn't growing to match.",
+        "coins": "USDC, stablecoins generally",
+        "timeUTC": "2026-11-08 18:36 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t"
+      },
+      {
+        "headline": "Vitalik Buterin says ETH should be valued as a store of value, not a fee-burning token",
+        "what": "Ethereum's creator Vitalik Buterin proposed a significant shift in how Ethereum should be thought about: as a savings vehicle like Bitcoin rather than primarily as a token whose value comes from transaction fees. This represents a strategic pivot in Ethereum's narrative and long-term positioning.",
+        "coins": "ETH",
+        "timeUTC": "2026-11-08 15:32 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Who gets to block your Kalshi bets? Washington just escalated the fight",
+          "what": "Kalshi, a crypto-native derivatives exchange, faces a new regulatory demand. US derivatives exchanges received a comply-or-explain request while court rulings keep Kalshi's national access status uncertain, escalating the battle over who can trade what.",
+          "coins": "None specific",
+          "timeUTC": "2026-11-08 19:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/who-gets-to-block-your-kalshi-bets-washington-just-escalated-the-fight/"
+        },
+        {
+          "headline": "Binance France emails announce closure of its users' accounts on Dec. 31",
+          "what": "Binance notified users in Spain, France, and Poland that their accounts will close on December 31. Users will be charged monthly fees starting November 29 if they do not withdraw their assets.",
+          "coins": "All",
+          "timeUTC": "2026-11-08 12:44 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "One BlackRock fund dominates Bitcoin's billion-dollar ETF exodus",
+          "what": "In the week ending November 6, Bitcoin ETFs saw approximately $1.28 billion in net outflows. BlackRock's IBIT fund accounted for roughly $403 million of this outflow (about 88% of the week's gross outflows). Fidelity's Bitcoin ETF remained positive for the week.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 16:57 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/one-blackrock-fund-dominates-bitcoins-billion-dollar-etf-exodus/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "The catch in recovering a hacked crypto wallet: the thief may still have a key",
+          "what": "Even if a wallet is recovered and emptied of funds, the attacker may retain a private key to the wallet and can regain access later. Keplr's documented backup features help users reduce reliance on single login methods but cannot prove an exposed key is safe.",
+          "coins": "Cosmos ecosystem assets",
+          "timeUTC": "2026-11-08 18:54 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/the-catch-in-recovering-a-hacked-crypto-wallet-the-thief-may-still-have-a-key/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "What the election results mean for crypto: State of Crypto",
+          "what": "Democrats outperformed expectations in recent US elections. The article analyzes implications for crypto regulation, though the outcome for the industry remains uncertain given divided regulatory views.",
+          "coins": "All",
+          "timeUTC": "2026-11-08 18:53 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "This Bitcoin Developer's Idea Would Make Quantum Attacks a Losing Bet",
+          "what": "Cory Fields proposes a quantum-attack defense: force future quantum attackers to post Bitcoin as collateral before touching vulnerable wallets. If owners recover their coins first, they keep the collateral as compensation. Concept stage.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 13:41 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet"
+        },
+        {
+          "headline": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+          "what": "A Finnish startup operates 30 Bitcoin mining systems as central heating for homes. At current Bitcoin prices (above $74,000), each unit earns slightly more electricity than it costs, providing free heat as a bonus.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 12:42 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000"
+        },
+        {
+          "headline": "Onchain data casts doubt on insider-trading theory in NYT's 'suspicious' election betting story",
+          "what": "The New York Times reported suspicious bets on election outcomes. Two experts reviewed blockchain data and concluded the evidence does not strongly suggest illegal insider trading occurred.",
+          "coins": "None",
+          "timeUTC": "2026-11-08 22:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-08-onchain-data-casts-doubt-on-insider-trading-theory-in-nyts-suspicious-election-betting-story-436034"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-06",
+    "summary": "Bitcoin spot ETFs saw net outflows of $411.9 million and Ethereum spot ETFs saw net outflows of $93.2 million on Friday, the last US trading day before the report period. BlackRock's IBIT accounted for approximately $403 million (88%) of Bitcoin ETF gross outflows that day.",
+    "source": "The Block (citing SoSoValue)",
+    "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI November 2026 — Monday 9 November 01:30 UTC",
+      "typicalReaction": "High-impact release. Inflation data from major economies often triggers volatility in both traditional and crypto markets as traders reassess interest-rate expectations."
+    },
+    {
+      "event": "US CPI and Core CPI — Tuesday 10 November 13:30 UTC",
+      "typicalReaction": "High-impact release. US inflation data is watched globally; better-than-expected CPI (lower inflation) often supports risk assets including crypto."
+    },
+    {
+      "event": "FOMC Minutes — Wednesday 18 November 19:00 UTC",
+      "typicalReaction": "High-impact release. Federal Reserve meeting minutes reveal interest-rate guidance and economic outlook; crypto markets sensitive to monetary-policy signals."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized percentage (for funding rates)",
+      "definition": "A funding rate stated as if it continued for a full year. An 8-hour funding rate of 0.00006 annualizes to 6.66% because there are 1,095 such intervals in a year (365 days × 3 per day)."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all trading pairs (cryptocurrencies) that went up in price during the day. Low breadth (like 9%) means most coins fell; high breadth means most rose. Shows whether a move is broad-based or driven by a few coins."
+    },
+    {
+      "term": "Fear-and-greed index",
+      "definition": "A number from 0 to 100 measuring trader emotion. 0–25 is extreme fear, 25–45 is fear, 45–55 is neutral, 55–75 is greed, 75–100 is extreme greed. Higher numbers mean traders expect prices to rise; lower numbers mean they expect them to fall."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A payment between traders betting prices go up (longs) and traders betting prices go down (shorts). Positive rates mean longs pay shorts; negative rates mean shorts pay longs. Reflects whether traders expect prices to rise or fall."
+    },
+    {
+      "term": "Long / long position",
+      "definition": "A bet that a cryptocurrency's price will go up. If a trader is 'long' Bitcoin, they own it or are using leverage to amplify an ownership position."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting on price increases (longs) divided by the number betting on price decreases (shorts). A ratio above 1.0 means more longs; below 1.0 means more shorts."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate funding payments and margin requirements on a leveraged trading exchange. Usually close to the real-time market price but may differ slightly."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total amount of cryptocurrency (in coins or USD value) that traders have borrowed to take leveraged positions. High open interest means many leveraged bets are outstanding; low open interest means fewer. When open interest falls, traders are closing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "How much the total open interest grew or shrank during the day. A decline usually means traders reduced leverage, either because they closed winning bets or cut losses."
+    },
+    {
+      "term": "Short / short position",
+      "definition": "A bet that a cryptocurrency's price will go down. A trader using leverage to short Bitcoin expects the price to fall and profits if it does."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive trading direction. Takers are traders buying or selling immediately at market price. A ratio of 0.863 means for every $0.863 of aggressive buying, there was $1.00 of aggressive selling. Below 1.0 indicates net selling pressure."
+    },
+    {
+      "term": "Top trader position ratio",
+      "definition": "Among the largest traders on an exchange, the ratio of those betting on price increases (longs) to those betting on price decreases (shorts). Shows which direction the biggest players are positioned. A ratio of 1.87 means the largest traders are heavily betting on price increases."
+    }
+  ],
+  "_source": "cli"
+}

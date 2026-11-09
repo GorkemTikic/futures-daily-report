@@ -1,0 +1,200 @@
+{
+  "oneLine": "比特币在11月8日周日下跌1.3%，以太坊下跌5%，加密货币市场整体下跌5%，仅9%的交易对上升，机构ETF资金流入转负。",
+  "caveman": "11月8日周日，比特币和以太坊价格下跌。比特币下跌1.3%，以太坊跌幅更大，下跌5%。几乎所有其他加密货币也都下跌了。衡量加密交易者恐惧程度的恐惧贪婪指数从极度恐惧（25）升至普通恐惧（28）。这一天只有9%的加密货币价格上升。大型科技股在周五已经下跌，交易者们在等待政府关于利率的消息。那是令人担忧的一天。",
+  "priceVolumeSummary": "比特币收于74700附近，五大交易所价格高度一致，下跌1.33%。以太坊收于2126附近，价格也保持紧密联动，下跌5.03%。币安在两个市场的交易量领先：比特币成交量69亿美元，以太坊成交量58亿美元。",
+  "positioningSummary": "比特币8小时资金费率为正，为0.00006086（年化6.66%），表明使用杠杆的交易者仍预期价格上升，但未平仓头寸下跌1.83%，表明他们正在平仓或减少头寸。币安上，多空比率为3.08，大户比率为1.87（均偏向看涨），但吃单买卖比率为0.863——低于1.0表示卖方压力更大。以太坊资金费率为负（年化-9.18%），意味着交易者支付费用来持有空头头寸（看跌赌注），但未平仓头寸仍下跌2.22%。市场广度大幅下滑：币安加密期货中仅8.6%当日盈利。恐惧贪婪指数从25升至28，表明忧虑加深。",
+  "stocksSummary": "11月8日周日，美国和亚洲股市休市。在上一个交易日（11月6日周五），亚洲半导体股票大幅下跌：韩国SK Hynix -5.1%，LG Electronics -4.1%，Samsung Electronics -2.7%，反映了更广泛的科技部门疲软。黄金下跌0.27%，石油下跌约0.20%。这些是报告期内仅有的交易传统金融资产。",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "一个流动性极低的小型市场出现极端波动；未发现明确的公开新闻或原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "UAIUSDT",
+      "explanation": "一种流动性极低的小型加密货币大幅下跌；未发现明确的公开新闻或原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "explanation": "一个流动性极低的小型市场出现强劲反弹；未发现明确的公开新闻或原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Web3Auth称其抢在黑客之前转移了580万美元出被攻击的Keplr钱包",
+        "what": "Keplr钱包基础设施遭受安全漏洞，导致用户钱包信息泄露。Web3Auth表示迅速采取行动，在攻击者获取之前转移了580万美元出处于风险中的钱包，但公司表示部分资金在救援前已被盗。",
+        "coins": "Multiple blockchains (Cosmos ecosystem)",
+        "timeUTC": "2026-11-08 17:58 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029"
+      },
+      {
+        "headline": "稳定币增长停滞。但支付繁荣没有。",
+        "what": "稳定币供应量（发行总量）今年几乎没有增长，但使用稳定币的交易笔数激增。Circle最新财报显示已发行美元与实际支付活动之间的差距在扩大——支付在飙升但代币供应量未能相应增长。",
+        "coins": "USDC, stablecoins generally",
+        "timeUTC": "2026-11-08 18:36 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t"
+      },
+      {
+        "headline": "Vitalik Buterin称以太坊应被视为价值存储，而非燃烧费用代币",
+        "what": "以太坊创始人Vitalik Buterin提议对以太坊价值定位进行重大转变：作为类似比特币的储蓄工具，而不是主要从交易费获得价值的代币。这代表了以太坊叙事和长期定位的战略调整。",
+        "coins": "ETH",
+        "timeUTC": "2026-11-08 15:32 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "谁有权屏蔽你的Kalshi赌注？华盛顿刚刚升级了这场争端",
+          "what": "Kalshi作为一家加密原生衍生品交易所，面临新的监管要求。美国衍生品交易所收到合规或解释要求，而法院裁决使Kalshi的全国准入资格仍不明确，加剧了关于谁能交易什么的争端。",
+          "coins": "None specific",
+          "timeUTC": "2026-11-08 19:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/who-gets-to-block-your-kalshi-bets-washington-just-escalated-the-fight/"
+        },
+        {
+          "headline": "币安法国邮件宣布将于12月31日关闭用户账户",
+          "what": "币安通知西班牙、法国和波兰的用户，他们的账户将于12月31日关闭。如果用户未在11月29日起提取资产，将被收取月费。",
+          "coins": "All",
+          "timeUTC": "2026-11-08 12:44 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "一只贝莱德基金主导比特币十亿美元ETF外流",
+          "what": "在截至11月6日的一周内，比特币ETF流出约12.8亿美元。贝莱德的IBIT基金占该周流出的约4.03亿美元（约占该周总流出的88%）。富达的比特币ETF在该周仍为正流入。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 16:57 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/one-blackrock-fund-dominates-bitcoins-billion-dollar-etf-exodus/"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "恢复被黑客攻击的加密钱包的陷阱：小偷可能仍有密钥",
+          "what": "即使钱包被恢复且资金被清空，攻击者可能仍保留该钱包的私钥，可以稍后重新获得访问权限。Keplr的备份功能帮助用户减少对单一登录方式的依赖，但无法证明暴露的密钥是安全的。",
+          "coins": "Cosmos ecosystem assets",
+          "timeUTC": "2026-11-08 18:54 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/the-catch-in-recovering-a-hacked-crypto-wallet-the-thief-may-still-have-a-key/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "选举结果对加密货币意味着什么：加密货币状况",
+          "what": "民主党在最近的美国选举中表现超预期。文章分析了对加密货币监管的影响，但鉴于监管观点分歧，该行业的前景仍不确定。",
+          "coins": "All",
+          "timeUTC": "2026-11-08 18:53 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "这位比特币开发者的想法将使量子攻击成为亏损赌注",
+          "what": "Cory Fields提议了一种量子攻击防御：强制未来的量子攻击者在触及易受攻击的钱包之前质押比特币作为抵押品。如果所有者先恢复硬币，可保留抵押品作为补偿。处于概念阶段。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 13:41 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet"
+        },
+        {
+          "headline": "这些芬兰住宅从比特币矿工获得免费热量（只要BTC保持在70000美元以上）",
+          "what": "一家芬兰初创公司运营30套比特币挖矿系统作为住宅中央供暖。在当前比特币价格（超过74000美元）下，每个单元产生的电费略超成本，提供免费热量作为额外收益。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-08 12:42 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000"
+        },
+        {
+          "headline": "链上数据对纽约时报'可疑'选举投注故事中的内幕交易理论提出质疑",
+          "what": "《纽约时报》报道了关于选举结果的可疑投注。两位专家审查了区块链数据，得出结论认为证据不足以强烈表明发生了非法内幕交易。",
+          "coins": "None",
+          "timeUTC": "2026-11-08 22:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-08-onchain-data-casts-doubt-on-insider-trading-theory-in-nyts-suspicious-election-betting-story-436034"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-06",
+    "summary": "在报告期前最后一个美国交易日周五，比特币现货ETF流出4.119亿美元，以太坊现货ETF流出9320万美元。贝莱德的IBIT基金占比特币ETF总流出的约4.03亿美元（88%）。",
+    "source": "The Block (citing SoSoValue)",
+    "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984"
+  },
+  "calendarNotes": [
+    {
+      "event": "China CPI November 2026 — Monday 9 November 01:30 UTC",
+      "typicalReaction": "高影响力发布。来自主要经济体的通胀数据通常会在传统和加密市场引发波动，因为交易者会重新评估利率预期。"
+    },
+    {
+      "event": "US CPI and Core CPI — Tuesday 10 November 13:30 UTC",
+      "typicalReaction": "高影响力发布。美国通胀数据受到全球关注；好于预期的CPI（通胀较低）通常支持包括加密货币在内的风险资产。"
+    },
+    {
+      "event": "FOMC Minutes — Wednesday 18 November 19:00 UTC",
+      "typicalReaction": "高影响力发布。美联储会议纪要披露利率指引和经济前景；加密市场对货币政策信号敏感。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化百分比（资金费率）",
+      "definition": "资金费率按其持续整个完整年份计算的百分比表示。8小时资金费率0.00006年化为6.66%，因为一年内有1095个这样的时间段（365天×每天3个）。"
+    },
+    {
+      "term": "广度",
+      "definition": "当日价格上升的所有交易对（加密货币）的百分比。低广度（如9%）表示大多数币种下跌；高广度表示大多数上涨。显示市场走势是广泛的还是由少数币种驱动的。"
+    },
+    {
+      "term": "恐惧贪婪指数",
+      "definition": "一个0到100的数字，衡量交易者情绪。0-25为极度恐惧，25-45为恐惧，45-55为中性，55-75为贪婪，75-100为极度贪婪。数字越高表示交易者预期价格上升；数字越低表示预期下跌。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "看涨方（多头）和看跌方（空头）之间的支付。正费率表示多头支付空头；负费率表示空头支付多头。反映交易者是否预期价格上升或下跌。"
+    },
+    {
+      "term": "多头/多头头寸",
+      "definition": "押注加密货币价格上升。如果交易者'做多'比特币，他们拥有它或使用杠杆放大所有权头寸。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升的交易者数量除以押注价格下跌的交易者数量。比率高于1.0表示多头更多；低于1.0表示空头更多。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "在杠杆交易交易所上用于计算资金支付和保证金要求的参考价格。通常接近实时市场价格但可能略有差异。"
+    },
+    {
+      "term": "未平仓头寸/未平仓量",
+      "definition": "交易者借入用于建立杠杆头寸的加密货币总量（以币或美元价值计）。高未平仓量表示许多杠杆赌注在外；低未平仓量表示较少。未平仓量下降表示交易者正在平仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "总未平仓头寸在当日增加或减少的幅度。下降通常表示交易者减少杠杆，要么因为他们平掉了赚钱的赌注，要么因为他们止损。"
+    },
+    {
+      "term": "空头/空头头寸",
+      "definition": "押注加密货币价格下跌。使用杠杆做空比特币的交易者预期价格下跌，如果下跌则获利。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "激进交易方向的衡量指标。吃单者是以市场价格立即买入或卖出的交易者。0.863的比率表示每0.863美元的激进买入对应1.00美元的激进卖出。低于1.0表示净卖方压力。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "交易所最大交易者中，押注价格上升的交易者与押注价格下跌的交易者的比率。显示最大的参与者的头寸方向。1.87的比率表示最大交易者严重看涨。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "ac408a29936fcf33"
+}
