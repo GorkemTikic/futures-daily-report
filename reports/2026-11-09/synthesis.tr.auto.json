@@ -1,0 +1,184 @@
+{
+  "oneLine": "Bitcoin %0,67 oranında yükseldi; altcoinlerdeki geniş tabanlı güçlenme ve spot-ETF'lerinden yoğun çıkışlara rağmen yatırımcılar ABD enflasyon verisini bekliyor. Avalanche ise NYSE'nin bunu tokenleştirilmiş hisse senedi uzlaştırması için seçmesinin ardından %10 sıçradı.",
+  "caveman": "Bitcoin 9 Kasım'da biraz yükseldi—yüzde 1'den az. Ethereum de çok az yükseldi (yaklaşık yüzde 0,3). Diğer kripto paralıların çoğu iyi gitti, 100 tanesinden 83'ü yükseldi. Ama işte endişe verici kısım: Bitcoin'e yatırım yapan—bankalar aracılığıyla normal insanların satın aldığı ETF'ler gibi—çok sayıda insan satıyor ve milyarlarca dolar çekiyor. New York'taki Wall Street, blokzincir teknolojisiyle şirket hisse senetlerini ticareti için yeni bir yer inşa etmeyi duyurdu ve Avalanche'ı seçti. Avalanche'ın fiyatı %10 sıçradı. Binance'den bu yılın başında milyarlarca dolar çalan korsanlar hala çaldıkları parayı sahte paralar kullanarak gizlemeye çalışıyor. Güney Kore'deki çip şirketleri önceki hafta ağır kayıplarının ardından biraz toparlandı. Genel olarak gelecek için iyi haberler vardı ama üzücü olan para çıkışıydı.",
+  "priceVolumeSummary": "Beş büyük borsa Bitcoin fiyatında %0,2 içinde anlaşmaya vardı; Binance, Bybit, OKX, Bitget ve Gate hepsi 75.280 ile 75.327 dolar arasında kapandı. Binance günlük vadeli işlem hacminde 12,3 milyar dolarla baskındı—bunu en yakın rakibinden iki katından fazla; tüm borsalar arasında en yüksek toplam hacmi içeriyor.",
+  "positioningSummary": "Finansman oranları keskin ayrılık gösterdi: Binance %10,95 yıllıklandırılmış (fiyatların yükselmesini bekliyor) ama Gate %-50,37 ve Bitget sıfıra yakın, fikir birliği yok. Açık pozisyon Bitcoin'de %0,73, Ethereum'da %1,6 düştü—tüccarlar pozisyonları kapatıyor, risk almıyor. Büyük tüccarlar ağırlıklı olarak uzun pozisyonda: Binance'ın en büyük hesapları uzun-kısa oranında 2,0x; OKX 2,82'ye ulaştı. Bitcoin'deki alıcı/satıcı oranı 0,97'ydi (hafif net satış baskısı). Genel olarak Binance altcoin vadeli işlemlerinin %83,5'i yükseldi, spot-ETF'lerinden Bitcoin'de 1,3 milyar dolar, Ethereum'da 365 milyon dolar çıkışa rağmen geniş tabanı güçleme gösteriyor.",
+  "stocksSummary": "Güney Kore çip hisse senetleri 9 Kasım'da toparlandı: SK Hynix %4,51, Samsung Electronics %3,29, önceki haftanın ağır kayıplarından sonra. Hong Kong'un Hang Seng endeksi oturumda %0,13 düştü; Zhipu AI yapay zeka talebine bağlı olarak %8,7 yükseldi. Toparlanma yatırımcılar önceki haftanın satışını emdi ve ABD enflasyon verisini beklerken fırsat avcılığını yansıttı.",
+  "movers": [
+    {
+      "symbol": "INITUSDT",
+      "explanation": "Açık bir kamu sebebi yok; token düşük hacimde işlem görüyor ve manipülasyon ya da niş bir katalizörü yansıtıyor olabilir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "Açık bir kamu sebebi yok; ağır %45 çöküş ama duyurulan haber ya da olay yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "explanation": "Açık bir kamu sebebi yok; sınırlı hacim ve proje hakkında belirsizlik.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "NYSE, tokenleştirilmiş hisse senedi uzlaştırması için Avalanche'ı seçti, 24/7 ticaret platformunda",
+        "what": "Wall Street'in Intercontinental Exchange'i ve bağlı alternatif ticaret sistemi, tokenleştirilmiş menkul kıymetleri takas etmek ve uzlaştırmak için çekirdek defter teknolojisi olarak Avalanche'ı seçti, 2027 başında başlatılacak. Avalanche uzlaştırma için adanmış blokzincir olarak görev yapacak, ICE ticaret eşleşmesini yönetecek. Platform şirket hisselerinin tokenleştirilmiş biçimde 24/7 ticaretini sunmayı amaçlıyor.",
+        "coins": "AVAX",
+        "timeUTC": "06:40 UTC Nov 9",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"
+      },
+      {
+        "headline": "Kuzey Kore korsanları Binance hack fonlarını yıkamak için ev yapımı meme coin'ler bastırıyor: 6,3 milyar dolar",
+        "what": "Blokzincir analiz şirketi Elliptic, Kuzey Kore Lazarus Grubu ile ilişkili korsanları altı değersiz meme coin (Elon Musk ve hayvan karikatür logoları ile) oluştururken ve merkeziyetsiz borsa likidite havuzları aracılığıyla 117.000 NEAR token (~430.000 dolar) yönlendirilirken takip etti. Taktik çalınan fonların kaynağını belirsiz kılar ama kurtarılmasını engellemez; çalınan varlıklar zincir üzerinde izlenebilir kalır.",
+        "coins": "NEAR, stolen coins from Binance hack",
+        "timeUTC": "04:00 UTC Nov 9",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack"
+      },
+      {
+        "headline": "Bitmine, değer deposu olarak Ethereum'a kayış arasında 6,07 milyon ETH topluyor",
+        "what": "Bitcoin ve kripto yatırım şirketi Bitmine, analiz uzmanı Tom Lee tarafından yönetilen, 6,07 milyon ETH (13,56 milyar dolar değer, Ethereum'un dolaşan arzının %4,97'sini temsil)—arz hedefinin %5'ine yakın olarak açıkladı. Lee, Vitalik Buterin'in 8 Kasım Devcon 8 açıklamalarında Ethereum'un ücret yakan bir token değil bir değer deposu ve finansal altyapı platformu olarak değerlendirilmesi gerektiğini söyleyen birikimi finansal altyapı platformu olarak ilişkilendirdi. Kilometre taşı, ETH'ye uzun vadeli bir varlık olarak kurumsal güveni gösteriyor.",
+        "coins": "ETH",
+        "timeUTC": "06:08 UTC Nov 9",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ve Ethereum spot ETF'ler 9 Kasım'da son haftada masif çıkışlar gördü",
+          "what": "Bitcoin spot ETF'ler 9 Kasım'da son hafta boyunca 1,282 milyar dolar çıkış kaydetti, seçimden sonraki kazançlardan dönüşü uzatıyor. Ethereum ETF'ler aynı dönemde 365 milyon dolar çıkış yaşadı, altı haftanın kaybeden serisini sürdürdü. Yıl başından bu yana Bitcoin ETF'lerin net akışı 9 Kasım itibariyle negatif 914 milyon dolar.",
+          "coins": "BTC, ETH",
+          "timeUTC": "07:30 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Elizabeth Warren, tahmin piyasaları ve Trump ailesi kripto girişimlerinin Senat denetimine söz verdi",
+          "what": "Yeni onaylanan Senat Bankacılık Komitesi Başkanı Elizabeth Warren, 2024 seçiminde yükselen tahmin piyasalarını denetlemeyi ve World Liberty Financial da dahil olmak üzere Trump ailesi kripto iş girişimlerini araştırmayı amaçladığını söyledi. Tutum, bölünmüş bir Kongre altında kripto ve blokzincir inovasyonunda artan düzenleyici odağı gösteriyor.",
+          "coins": "WLFI, prediction market tokens",
+          "timeUTC": "08:44 UTC Nov 9",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898"
+        },
+        {
+          "headline": "Nijerya, dolar stabilcoin ihraçcılarını merkez bankası onayı olmadan perakende erişimden men ediyor",
+          "what": "Nijerya Merkez Bankası, ABD doları stabilcoin ihraçcılarına süregelen Sınıf 2 perakende erişimi için açık onay almalarını, yabancı lisansların yerel ihraç otoritesi ve token onayına ilişkin gereksinimi değiştirmediğini söyledi. Politika Afrika'nın en büyük ekonomisinde offshore stabilcoin kullanımı üzerindeki denetimi sıkılaştırıyor.",
+          "coins": "USDC, USDT, other dollar stablecoins",
+          "timeUTC": "04:10 UTC Nov 9",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nigeria-tells-dollar-stablecoin-issuers-go-local-or-lose-retail-access/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Formation Securities, 2027 başında Solana tokenleştirilmiş hisse platformu başlatmak için SEC'e başvurdu",
+          "what": "Formation Securities, SEC'e Galaxy Digital, Exodus ve Forward Industries hisse senetlerinin tokenleştirilmiş biçimlerinin ticareti için 24/7 alternatif ticaret sistemi işletme planını bildirdi; Solana blokzincirini ve SEC'in İnovasyon İstisnası altında çalışıyor. 2027 başında tam oy ve temettü haklarıyla kotasyonlar planlandı.",
+          "coins": "SOL",
+          "timeUTC": "08:32 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
+        },
+        {
+          "headline": "Robinhood, şirket çıkışlarına rağmen OKX–ICE platformunda kendi hissesinin tokenleştirilmesini destekliyor",
+          "what": "Aracı kurum Robinhood, hissedarı seçmek yerine tokenleştirilmiş piyasaları inşa etmeye yardımcı olmayı tercih ettiğini belirterek Intercontinental Exchange ve OKX'in yeni ortak girişiminde kendi öz sermayesinin tokenleştirilmesine destek verdiğini açıkladı. Hareket, çoğu S&P 500 şirketinin (Apple, Meta, Nvidia, Tesla) platformun erken açılışlarından çıkmasıyla çelişiyor.",
+          "coins": "OKX-issued tokens, ICE-issued tokens",
+          "timeUTC": "08:16 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/09/robinhood-backs-tokenization-of-its-stock-on-okx-ice-platform-even-as-most-companies-opt-out"
+        },
+        {
+          "headline": "Mercado Bitcoin, 2 Kasım hack'ından sonra aşamalı açılışa başladı; para çekme zaman çizelgesi belirsiz",
+          "what": "Brezilya'nın Mercado Bitcoin, müşteri erişiminin aşamalı açılışına başladı; kullanıcıların 2 Kasım'dan önceki bakiye anlık görüntülerini görmesine izin verdi. Tam para çekme kapasitesi henüz geri yüklenmedi. Aşamalı yeniden başlama, operasyonel tamamlanmaya acele etmeden güveni yeniden inşa etmeyi amaçlıyor.",
+          "coins": "BTC, ETH, other assets on Mercado Bitcoin",
+          "timeUTC": "07:18 UTC Nov 9",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ethereum Foundation ve Vitalik Buterin, 'intihar taahhüdü' anlaşmazlığının ardından işten çıkarmadan ötürü dava edildi",
+          "what": "Eski bir çalışan tarafından Ethereum Foundation ve Vitalik Buterin'e karşı, 'intihar taahhüdü' hakkında kayıtlı bir konuşmanın ardından ayrımcılık ve misilleme yaptığı iddiasıyla dava açıldı. Şikayet çalışan yönetiminin muhasebesi ve iddia edilen istihdam şartları ihlali üzerine odaklanıyor.",
+          "coins": "ETH",
+          "timeUTC": "07:23 UTC Nov 9",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD hisse senedi endeksleri enflasyon verisi öncesinde petrol düşüşü üzerinde ralli yaptı",
+          "what": "ABD hisse senetleri 9 Kasım'da güçlü kazanç gösterdi: S&P 500 (SPY) %2,37, Nasdaq Composite (ONEQ) %2,77. Ralli, düşen petrol fiyatları (WTI ham %4,66, Brent %-5,77) ve teknoloji hisse senetlerinde bargain avcılığı tarafından desteklendi, özellikle yarı iletkenler (SOXL %31,1). Duygu Salı günü ABD CPI raporundan önce kaymıştı.",
+          "coins": "none",
+          "timeUTC": "throughout trading hours Nov 9",
+          "source": "Twelve Data",
+          "url": "https://www.twelvedata.com"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-09",
+    "summary": "Bitcoin spot ETF'ler 9 Kasım'da son hafta boyunca 1,282 milyar dolar çıkış kaydetti; Ethereum spot ETF'ler aynı dönemde 365 milyon dolar çıkış gördü. Bitcoin ETF net akışları 9 Kasım itibariyle yıl başından bu yana negatif 914 milyon dolar.",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks — Tue 10 Nov, 09:00 UTC",
+      "typicalReaction": "BTC ve altcoinlerde yüksek oynaklık; Fed iletişimi kripto için büyük hareket yaratır"
+    },
+    {
+      "event": "US CPI Report (Core and Headline) — Tue 10 Nov, 13:30 UTC",
+      "typicalReaction": "Kripto ve hisse senetleri genelinde çok yüksek oynaklık; enflasyon verileri Fed faiz indirimleri ve dolar gücü beklentilerini şekillendirir"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem borsaları üzerinde uzun ve kısa tüccarlar arasındaki dönemsel ödeme. Pozitif oran uzunların kısalara ödediği anlamına gelir (fiyatların yükselmesine inanıştır). Yıllıklandırılmış oran o oranın tam yıl boyunca eşitliğini gösterir."
+    },
+    {
+      "term": "Açık pozisyon",
+      "definition": "Belirli bir zamanda piyasada aktif olan vadeli işlem sözleşmelerinin toplam sayısı. Açık pozisyon artışı tüccarların yeni pozisyon açtığı anlamına gelir; açık pozisyon düşüşü tüccarların pozisyonları kapadığı anlamına gelir."
+    },
+    {
+      "term": "Açık pozisyon değişikliği",
+      "definition": "Bir zaman periyodu boyunca toplam açık sözleşmelerdeki yüzde artış veya azalış. Düşen AP tüccarların pozisyonlardan çıktığı ve kaldıracı azalttığını gösterir."
+    },
+    {
+      "term": "Uzun/kısa pozisyon oranı",
+      "definition": "Yüksselişe oynayan (uzun) pozisyonlar ile düşüşe oynayan (kısa) pozisyonlar tutan tüccarların oranı. 1'in üzerindeki oran daha fazla tüccarın fiyatların yükselmesine oynadığını anlamına gelir; 1'in altında daha fazlasının düşüşe oynadığını anlamına gelir."
+    },
+    {
+      "term": "En büyük pozisyon oranı",
+      "definition": "Tüm tüccarlar değil, yalnızca en büyük hesap tüccarları arasındaki uzun/kısa oranı. Kurumsal yatırımcılar ve balinaların inancını gösterir."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Agresif satın almaya karşı satışın bir ölçüsü. 1,0'ın üzeri daha fazla alıcının var olan satış emirlerini aldığını (satın aldığını) anlamına gelir; 1,0'ın altında daha fazla satıcının var olan satın alma emirlerini aldığını (sattığını) anlamına gelir."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Vadeli işlem sözleşmeleri üzerinde kar ve zararları hesaplamak için kullanılan fiyat; sıklıkla manipülasyonu önlemek için tasarlanmış son dönem spot ve sonsuz vadeli işlem fiyatlarının ağırlıklı ortalaması."
+    },
+    {
+      "term": "Genişlik",
+      "definition": "Belirli bir günde fiyatça yükselen kripto paraların piyasadaki yüzdesi. Yüksek genişlik (üzeri %80) paraların genelinde gücü gösterir; düşük genişlik çoğu paranın düştüğünü gösterir."
+    },
+    {
+      "term": "Spot ETF giriş/çıkış",
+      "definition": "Yatırımcı parasının düzenlenen Bitcoin ve Ethereum ETF'lerine giriş veya çıkışı. Girişler kurumsal talebi gösterir; çıkışlar satış baskısı veya portföy yeniden dengelemesini gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "5b396d50f5591719"
+}

@@ -1,0 +1,183 @@
+{
+  "oneLine": "Bitcoin edged up 0.67% on broad altcoin strength as traders absorbed heavy spot-ETF outflows and awaited US inflation data, while Avalanche surged 10% after NYSE selected it for tokenized stock settlement.",
+  "caveman": "Bitcoin went up a little bit on November 9—less than 1%. Ethereum went up just a tiny bit too (about 0.3%). Most other cryptocurrencies did okay, with about 83 out of 100 going up. But here's the worry: lots of people who own Bitcoin through investments—like ETFs that regular people buy through their banks—were selling and pulling out billions of dollars. Wall Street in New York announced they would build a new place to trade company stocks using blockchain, and they picked Avalanche to run the computers. Avalanche's price jumped 10%. The hackers who stole billions from Binance earlier in the year are still hiding the money they took by using fake coins. Chip-making companies in South Korea bounced back a little bit after losing a lot the week before. Overall it was a day of good news for the future but sad money flowing out.",
+  "priceVolumeSummary": "All five major exchanges agreed on Bitcoin price within 0.2%, with Binance, Bybit, OKX, Bitget, and Gate all closing between $75,280 and $75,327. Binance dominated volume at $12.3 billion daily futures trading, more than double its nearest peer; this includes highest total volume across exchanges.",
+  "positioningSummary": "Funding rates split sharply: Binance at 10.95% annualized (expecting prices to rise), but Gate at -50.37% and Bitget near zero, showing no consensus. Open interest fell 0.73% on Bitcoin and 1.6% on Ethereum—traders closing positions instead of adding risk. Large traders leaned heavily long: Binance's biggest accounts were 2.0x more long than short; OKX's ratio reached 2.82. Taker buy/sell ratio on Bitcoin was 0.97 (slightly net selling pressure). Overall, 83.5% of Binance altcoin perps were up, showing broad strength despite spot-ETF outflows of $1.3 billion in Bitcoin and $365 million in Ethereum for the week.",
+  "stocksSummary": "South Korean chip stocks rebounded on Nov 9: SK Hynix +4.51%, Samsung Electronics +3.29%, after heavy losses the prior week. Hong Kong's Hang Seng fell 0.13% on the session; Zhipu AI rose 8.7% on AI demand. The rebound reflected bargain-hunting as investors absorbed prior week's selloff and awaited US inflation data.",
+  "movers": [
+    {
+      "symbol": "INITUSDT",
+      "explanation": "No clear public cause; token trades on low volume and may reflect manipulation or niche catalyst.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "No clear public cause; severe 45% collapse but no announced news or event.",
+      "hasCause": false
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "explanation": "No clear public cause; limited volume and opacity around the project.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "NYSE picks Avalanche for tokenized stock settlement in 24/7 trading platform",
+        "what": "Wall Street's Intercontinental Exchange and an affiliated alternative trading system selected Avalanche as the core ledger technology for clearing and settling tokenized securities, launching early 2027. Avalanche will serve as the dedicated blockchain for settlement while ICE handles trade matching. The platform aims to offer 24/7 trading of company shares in tokenized form.",
+        "coins": "AVAX",
+        "timeUTC": "06:40 UTC Nov 9",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"
+      },
+      {
+        "headline": "North Korean hackers mint homemade memecoins to launder $6.3 billion Binance hack funds",
+        "what": "Blockchain analysis firm Elliptic traced hackers linked to the North Korean Lazarus Group creating six worthless memecoins (with Elon Musk and animal cartoon logos) and routing 117,000 NEAR tokens (~$430,000) through decentralized exchange liquidity pools. The tactic obscures the stolen funds' origin but does not prevent recovery; stolen assets remain traceable on-chain.",
+        "coins": "NEAR, stolen coins from Binance hack",
+        "timeUTC": "04:00 UTC Nov 9",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack"
+      },
+      {
+        "headline": "Bitmine accumulates 6.07 million ETH amid shift toward Ethereum as store of value",
+        "what": "Bitcoin and crypto investment firm Bitmine, led by analyst Tom Lee, announced holdings of 6.07 million ETH (worth $13.56 billion, representing 4.97% of Ethereum's circulating supply)—nearly at its target of 5% of supply. Lee linked the accumulation to Vitalik Buterin's Nov 8 Devcon 8 remarks that Ethereum should be valued as a store of value and financial infrastructure platform, not just a fee-burning token. The milestone signals institutional confidence in ETH as a long-term holding.",
+        "coins": "ETH",
+        "timeUTC": "06:08 UTC Nov 9",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin and Ethereum spot ETFs see massive outflows in week ending Nov 9",
+          "what": "Bitcoin spot ETFs recorded $1.282 billion in outflows during the week through Nov 9, extending a reversal from post-election gains. Ethereum ETFs suffered $365 million in outflows over the same period, continuing a six-week losing streak. Year-to-date, Bitcoin ETFs are down $914 million.",
+          "coins": "BTC, ETH",
+          "timeUTC": "07:30 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Elizabeth Warren pledges Senate scrutiny of prediction markets and Trump family crypto ventures",
+          "what": "Newly confirmed Senate Banking Committee Chair Elizabeth Warren said she intends to scrutinize prediction markets—which surged in the 2024 election—and investigate Trump family cryptocurrency business ventures including World Liberty Financial. The stance signals heightened regulatory focus on crypto and blockchain innovation under a divided Congress.",
+          "coins": "WLFI, prediction market tokens",
+          "timeUTC": "08:44 UTC Nov 9",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898"
+        },
+        {
+          "headline": "Nigeria bars dollar stablecoin issuers from retail access without central bank approval",
+          "what": "Nigeria's Central Bank told issuers of US-dollar stablecoins they must secure explicit approval for continued Class 2 retail access, and foreign licenses do not replace the requirement for local issuance authority and token approval. The policy tightens control over offshore stablecoin use in Africa's largest economy.",
+          "coins": "USDC, USDT, other dollar stablecoins",
+          "timeUTC": "04:10 UTC Nov 9",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nigeria-tells-dollar-stablecoin-issuers-go-local-or-lose-retail-access/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Formation Securities files with SEC to launch Solana tokenized stock venue in early 2027",
+          "what": "Formation Securities notified the SEC of its plan to operate a 24/7 alternative trading system for tokenized shares of Galaxy Digital, Exodus, and Forward Industries, leveraging Solana blockchain and operating under the SEC's Innovation Exemption. Listings planned for early 2027 with full voting and dividend rights.",
+          "coins": "SOL",
+          "timeUTC": "08:32 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
+        },
+        {
+          "headline": "Robinhood backs tokenization of its own stock on OKX–ICE platform despite corporate opt-outs",
+          "what": "Brokerage Robinhood announced support for tokenizing its own equity on the Intercontinental Exchange and OKX's new joint venture, citing preference to help build tokenized markets rather than abstain. The move contrasts with most S&P 500 companies (Apple, Meta, Nvidia, Tesla) opting out of the platform's early rolls.",
+          "coins": "OKX-issued tokens, ICE-issued tokens",
+          "timeUTC": "08:16 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/09/robinhood-backs-tokenization-of-its-stock-on-okx-ice-platform-even-as-most-companies-opt-out"
+        },
+        {
+          "headline": "Mercado Bitcoin begins phased reopening after Nov 2 hack; withdrawals timeline unclear",
+          "what": "Brazil's Mercado Bitcoin started phased reopening of customer access, allowing users to view pre-hack balance snapshots from November 2. Full withdrawal capability has not yet resumed. The staged restart aims to rebuild confidence without rushing operational completion.",
+          "coins": "BTC, ETH, other assets on Mercado Bitcoin",
+          "timeUTC": "07:18 UTC Nov 9",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ethereum Foundation and Vitalik Buterin sued over firing following 'suicide pledge' dispute",
+          "what": "A lawsuit was filed against the Ethereum Foundation and Vitalik Buterin by a former employee alleging discrimination and retaliation after a recorded conversation regarding a 'suicide pledge.' The complaint centers on workplace conduct and alleged breach of employment terms.",
+          "coins": "ETH",
+          "timeUTC": "07:23 UTC Nov 9",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US equity indexes rally on oil decline ahead of inflation data",
+          "what": "US stocks posted strong gains on Nov 9: S&P 500 (SPY) +2.37%, Nasdaq Composite (ONEQ) +2.77%. The rally was supported by falling oil prices (WTI crude -4.66%, Brent -5.77%) and bargain-hunting in tech stocks, particularly semiconductors (SOXL +31.1%). Sentiment shifted ahead of Tuesday's US CPI report.",
+          "coins": "none",
+          "timeUTC": "throughout trading hours Nov 9",
+          "source": "Twelve Data",
+          "url": "https://www.twelvedata.com"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-09",
+    "summary": "Bitcoin spot ETFs recorded $1.282 billion in outflows during the week through Nov 9; Ethereum spot ETFs saw $365 million in outflows over the same period. Bitcoin ETF net flows are negative $914 million year-to-date as of Nov 9.",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks — Tue 10 Nov, 09:00 UTC",
+      "typicalReaction": "High volatility in BTC and altcoins; Fed communications are major crypto movers"
+    },
+    {
+      "event": "US CPI Report (Core and Headline) — Tue 10 Nov, 13:30 UTC",
+      "typicalReaction": "Very high volatility across crypto and equities; inflation data shapes expectations for Fed rate cuts and dollar strength"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "The periodic payment between long and short traders on futures exchanges. A positive rate means longs pay shorts (signaling belief prices will rise). An annualized rate shows what that rate equals over a full year."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of active futures contracts in the market at a given time. Rising open interest means traders are opening new positions; falling open interest means traders are closing positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in total open contracts over a time period. Falling OI suggests traders are exiting positions and reducing leverage."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders holding bullish (long) positions versus bearish (short) positions. A ratio above 1 means more traders are betting prices will rise; below 1 means more are betting on a fall."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "The long/short ratio among the largest-account traders only, not all traders. Signals conviction among institutions and whales."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying versus selling. Above 1.0 means more buyers are taking (buying) existing sell orders; below 1.0 means more sellers are taking (selling) existing buy orders."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The price used for calculating profits and losses on futures contracts, often a weighted average of recent spot and perpetual futures prices designed to prevent manipulation."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of cryptocurrencies in the market that moved up in price on a given day. High breadth (above 80%) signals broad strength across coins; low breadth signals most coins are falling."
+    },
+    {
+      "term": "Spot ETF inflow/outflow",
+      "definition": "Movement of investor money into or out of regulated Bitcoin and Ethereum ETFs. Inflows signal institutional demand; outflows signal selling pressure or portfolio rebalancing."
+    }
+  ],
+  "_source": "cli"
+}

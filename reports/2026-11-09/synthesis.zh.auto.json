@@ -1,0 +1,184 @@
+{
+  "oneLine": "比特币在市场广泛涨幅的支撑下小幅上涨0.67%,交易员应对现货ETF大额流出,同时等待美国通胀数据;纽约证交所选定雪崩币用于代币化股票结算后,雪崩币跳涨10%。",
+  "caveman": "11月9日比特币小幅上涨,不到1%。以太坊涨幅更小,约0.3%。大多数其他加密货币表现不错,大约100种中有83种上升。但有个麻烦:许多通过投资持有比特币的人在卖出——这些投资就像普通人通过银行买的基金——数十亿美元的钱流出去了。纽约华尔街宣布要建一个用区块链交易公司股票的新地方,他们选择了雪崩币来跑这些电脑。雪崩币价格一下子跳起来,涨了10%。今年早些时候从币安偷了数十亿美元的黑客现在用假币把钱藏起来。韩国的芯片工厂上周掉得很惨,今天反弹了一点。总的来说,这是未来消息不错,但钱在流出的一天。",
+  "priceVolumeSummary": "五家主要交易所对比特币价格高度一致,波差不超过0.2%,币安、Bybit、OKX、Bitget和Gate都在75280到75327美元之间收盘。币安日均期货交易量最高,达123亿美元,超过第二名两倍以上;这是所有交易所中最高的总交易量。",
+  "positioningSummary": "资金费率分歧严重:币安年化费率为10.95%(预期价格上升),但Gate为-50.37%,Bitget接近零,显示市场没有共识。比特币持仓量下跌0.73%,以太坊下跌1.6%——交易员在平仓而非增加杠杆。大户明显看多:币安最大账户的多头头寸是空头的2倍;OKX的比率达到2.82。比特币Taker买卖比为0.97(略有卖压)。总体而言,币安山寨币期货中83.5%上涨,显示板块普遍强势,尽管现货ETF周内流出比特币13亿美元、以太坊3.65亿美元。",
+  "stocksSummary": "11月9日韩国芯片股回暖:SK海力士+4.51%,三星电子+3.29%,此前一周跌幅沉重。香港恒生指数当日小跌0.13%;知谱AI上涨8.7%,得益于AI需求。反弹反映投资者在消化前周跌幅并等候美国通胀数据期间的逢低布局。",
+  "movers": [
+    {
+      "symbol": "INITUSDT",
+      "explanation": "无明确公开原因;代币交易量低迷,可能反映操纵或小众催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "无明确公开原因;大幅下跌45%但未见公告或事件。",
+      "hasCause": false
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "explanation": "无明确公开原因;交易量有限,该项目信息不透明。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "纽约证交所选定雪崩币,打造24/7代币化股票结算平台",
+        "what": "华尔街的洲际交易所及其关联交易系统选定雪崩币作为代币化证券的结算和交收核心技术,计划2027年初上线。雪崩币将作为结算专用区块链,由ICE负责交易撮合。该平台旨在提供24/7的公司股票代币化交易。",
+        "coins": "AVAX",
+        "timeUTC": "06:40 UTC Nov 9",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"
+      },
+      {
+        "headline": "朝鲜黑客自铸垃圾币,洗白币安黑客事件63亿美元赃款",
+        "what": "区块链分析公司Elliptic追踪到与朝鲜Lazarus组织关联的黑客创建了六种垃圾币(带有埃隆·马斯克和卡通动物标志),并通过去中心化交易所流动性池路由117000枚NEAR代币(约43万美元)。这种策略虽能掩盖赃款来源,但无法阻止链上追踪;被盗资产仍可在区块链上追踪。",
+        "coins": "NEAR, stolen coins from Binance hack",
+        "timeUTC": "04:00 UTC Nov 9",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack"
+      },
+      {
+        "headline": "Bitmine囤积607万枚以太坊,以太坊作为价值贮存工具的地位上升",
+        "what": "比特币和加密投资公司Bitmine及其分析师Tom Lee宣布持有607万枚以太坊(价值135.6亿美元,占以太坊流通供应量的4.97%)——接近其目标5%。Lee将此与Vitalik Buterin在11月8日Devcon 8大会上的论述相关联,后者认为以太坊应作为价值贮存和金融基础设施平台估值,而非仅作为费用销毁代币。此举预示机构对ETH长期持有的信心。",
+        "coins": "ETH",
+        "timeUTC": "06:08 UTC Nov 9",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币和以太坊现货ETF遭遇大额流出,截至11月9日",
+          "what": "截至11月9日一周,比特币现货ETF流出12.82亿美元,延续选举后涨幅回调的趋势。以太坊现货ETF同期流出3.65亿美元,持续六周下跌态势。截至11月9日,比特币ETF年迄今净流入为负9.14亿美元。",
+          "coins": "BTC, ETH",
+          "timeUTC": "07:30 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "伊丽莎白·沃伦誓言严查预测市场和特朗普家族加密项目",
+          "what": "新任参议院银行委员会主席伊丽莎白·沃伦表示将严格审查预测市场(在2024年大选中激增)并调查特朗普家族加密业务,包括世界自由金融(World Liberty Financial)。此举预示在分裂的国会下,加密和区块链创新将面临加强的监管审视。",
+          "coins": "WLFI, prediction market tokens",
+          "timeUTC": "08:44 UTC Nov 9",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898"
+        },
+        {
+          "headline": "尼日利亚禁止美元稳定币发行方未获央行批准的零售接入",
+          "what": "尼日利亚央行要求美元稳定币发行方必须获得明确批准以继续第二类零售接入,外国许可证不能取代本地发行权和代币审批的要求。该政策加强了对非洲最大经济体海外稳定币使用的控制。",
+          "coins": "USDC, USDT, other dollar stablecoins",
+          "timeUTC": "04:10 UTC Nov 9",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/nigeria-tells-dollar-stablecoin-issuers-go-local-or-lose-retail-access/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Formation Securities向美证交会申报,计划2027年初上线Solana代币化股票交易平台",
+          "what": "Formation Securities向美国证交会报备了其运营24/7代币化股票交易替代系统的计划,涵盖Galaxy Digital、Exodus和Forward Industries股票,利用Solana区块链并在美证交会创新豁免框架下运营。上线计划在2027年初,具备完整投票权和分红权。",
+          "coins": "SOL",
+          "timeUTC": "08:32 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
+        },
+        {
+          "headline": "Robinhood支持在OKX-ICE平台代币化自身股票,尽管多数公司退出",
+          "what": "券商Robinhood宣布支持在洲际交易所和OKX新合资企业上代币化自身股票,理由是更愿意帮助建立代币化市场而非退缩。此举与大多数标普500公司(苹果、Meta、英伟达、特斯拉)退出该平台早期上线的立场相悖。",
+          "coins": "OKX-issued tokens, ICE-issued tokens",
+          "timeUTC": "08:16 UTC Nov 9",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/09/robinhood-backs-tokenization-of-its-stock-on-okx-ice-platform-even-as-most-companies-opt-out"
+        },
+        {
+          "headline": "Mercado Bitcoin在11月2日黑客事件后逐步恢复;提币时间未明确",
+          "what": "巴西Mercado Bitcoin在黑客事件后开始分阶段恢复客户接入,允许用户查看11月2日黑客前的余额快照。完整提币功能尚未恢复。分阶段重启旨在重建信心,同时不仓促完成运营恢复。",
+          "coins": "BTC, ETH, other assets on Mercado Bitcoin",
+          "timeUTC": "07:18 UTC Nov 9",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "以太坊基金会和Vitalik遭起诉,'自杀誓言'纠纷引发解雇争议",
+          "what": "一名前员工向以太坊基金会和Vitalik Buterin提起诉讼,指控其在一份关于'自杀誓言'的录音对话后遭到歧视和报复。该诉讼聚焦于工作场所行为和指称的雇佣条款违约。",
+          "coins": "ETH",
+          "timeUTC": "07:23 UTC Nov 9",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美国股市在油价下跌和通胀数据前景下走强",
+          "what": "11月9日美国股市表现强劲:标普500指数(SPY)+2.37%,纳斯达克综合指数(ONEQ)+2.77%。涨势得益于油价下跌(WTI原油-4.66%,布伦特原油-5.77%)以及科技股逢低买入,尤其是半导体板块(SOXL+31.1%)。市场情绪在美国周二CPI报告前出现转向。",
+          "coins": "none",
+          "timeUTC": "throughout trading hours Nov 9",
+          "source": "Twelve Data",
+          "url": "https://www.twelvedata.com"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-09",
+    "summary": "截至11月9日一周,比特币现货ETF流出12.82亿美元,延续选举后涨幅回调的趋势。以太坊现货ETF同期流出3.65亿美元,持续六周下跌。截至11月9日,比特币ETF年迄今净流入为负9.14亿美元。",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks — Tue 10 Nov, 09:00 UTC",
+      "typicalReaction": "比特币和山寨币波动率极高;美联储通信是加密市场主要推动因素"
+    },
+    {
+      "event": "US CPI Report (Core and Headline) — Tue 10 Nov, 13:30 UTC",
+      "typicalReaction": "加密和股票市场波动率非常高;通胀数据决定美联储降息预期和美元走势"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "期货交易所多头交易者和空头交易者之间的定期支付。正费率表示多头向空头支付(预期价格上升)。年化费率显示该费率在整个年度的等值。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "特定时刻市场中活跃期货合约的总数。持仓量上升说明交易员在开仓;持仓量下降说明交易员在平仓。"
+    },
+    {
+      "term": "持仓量变化",
+      "definition": "某时段内总活跃合约数的百分比增减。持仓量下降表明交易员在离场并降低杠杆。"
+    },
+    {
+      "term": "多空比",
+      "definition": "看多头寸交易者数量与看空头寸交易者数量的比例。比值高于1表示更多交易员看涨;低于1表示更多交易员看跌。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "仅大账户交易者(非全部交易者)的多空头寸比。反映机构和大户的信心。"
+    },
+    {
+      "term": "Taker买卖比",
+      "definition": "激进买入与卖出的衡量指标。高于1.0表示更多买方在Taker成交(买入现有卖单);低于1.0表示更多卖方在Taker成交(卖出现有买单)。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算期货合约盈亏的价格,通常是近期现货价和永续期货价的加权平均,设计目的是防止操纵。"
+    },
+    {
+      "term": "涨跌面",
+      "definition": "特定交易日上涨的加密货币占市场总数的百分比。高涨跌面(超80%)预示市场普遍强势;低涨跌面预示大多数币种下跌。"
+    },
+    {
+      "term": "现货ETF流入/流出",
+      "definition": "投资者资金进出比特币和以太坊现货ETF的情况。流入预示机构需求;流出预示抛售压力或投资组合再平衡。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "5b396d50f5591719"
+}

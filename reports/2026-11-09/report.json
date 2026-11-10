@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-09",
+  "kind": "market",
+  "dateLong": "Monday, 9 November 2026",
+  "coversUTC": "2026-11-09 00:00–23:59 UTC",
+  "oneLine": "Bitcoin edged up 0.67% on broad altcoin strength as traders absorbed heavy spot-ETF outflows and awaited US inflation data, while Avalanche surged 10% after NYSE selected it for tokenized stock settlement.",
+  "newsCount": 11,
+  "macro": {
+    "BTC": 0.669732654913274,
+    "ETH": 0.3451453936726548
+  },
+  "topMover": {
+    "symbol": "INITUSDT",
+    "chgPct": 56.03333333333333
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "10 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-09T00:07:31.511Z",
-  "count": 145,
+  "generatedAt": "2026-11-10T00:08:41.478Z",
+  "count": 146,
   "counts": {
-    "total": 145,
-    "market": 58,
+    "total": 146,
+    "market": 59,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-08",
+  "latest": "2026-11-09",
   "reports": [
+    {
+      "date": "2026-11-09",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.669732654913274,
+        "ETH": 0.3451453936726548
+      },
+      "marketSummary": "Bitcoin edged up 0.67% on broad altcoin strength as traders absorbed heavy spot-ETF outflows and awaited US inflation data, while Avalanche surged 10% after NYSE selected it for tokenized stock settlement.",
+      "oneLine": "Bitcoin edged up 0.67% on broad altcoin strength as traders absorbed heavy spot-ETF outflows and awaited US inflation data, while Avalanche surged 10% after NYSE selected it for tokenized stock settlement.",
+      "newsCount": 11,
+      "topMover": {
+        "symbol": "INITUSDT",
+        "chgPct": 56.03333333333333
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-09/summary_2026-11-09.html",
+        "pdf": "reports/2026-11-09/summary_2026-11-09.pdf",
+        "md": "reports/2026-11-09/summary_2026-11-09.md"
+      }
+    },
     {
       "date": "2026-11-08",
       "kind": "market",
