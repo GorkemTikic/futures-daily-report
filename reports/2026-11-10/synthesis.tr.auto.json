@@ -1,0 +1,220 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, 10 Kasım'da ABD enflasyonunun beklentileri aşması nedeniyle keskin düştü. Bu, Federal Rezerv'in daha büyük oran artırımları yapacağı beklentilerini artırdı ve kripto piyasasını %4,5 aşağı itti.",
+  "caveman": "ABD hükümeti her şeyin ne kadar pahalı olduğunu ölçüyor. Salı günü Ekim rakamlarını açıkladılar: fiyatlar insanların beklediği %0,3 yerine %0,4 oranında yükselmiş. Bu herkeyi korkuttu çünkü Federal Rezerv faiz oranlarını daha çok artırabilir ve yüksek faiz oranları insanları Bitcoin gibi riskli bahislere karşı çevirip dağıtıyor. Bitcoin %2 düştü, Ethereum %4 düştü, başka her şey de aşağı gitti. Tüm kripto piyasası %4,5 küçüldü. Endişeli bir gündü.",
+  "priceVolumeSummary": "Bitcoin %2,08 düşüp 73.759,90'a indi, Ethereum %3,83 düşüp 2.052,11'e indi. Beş büyük borsanın (Binance, Bybit, OKX, Bitget, Gate) tamamı hemen hemen aynı fiyat düşüşünü gösterdi ve Binance'te BTC işlemleri 12,4 milyar dolar, ETH işlemleri 9,6 milyar dolarla işlem hacmini lider konumda yönetmiştir.",
+  "positioningSummary": "Bitcoin'de finansman oranı yıllık %10,6 pozitifti, ancak Ethereum'un Binance'te finansman oranı -%4,87'ye düştü; bu kısa satıcıların uzun pozisyon tutanlara ödeme yapması anlamına geliyordu ve tüccarların daha düşük fiyatlar beklediğinin göstergesi. Her iki token da uzun pozisyonları kısa pozisyonlarından fazlaydı (Bitcoin 2,77'ye 1, Ethereum 3,81'e 1), ama en büyük tüccarlar daha az iyimserdi (üst pozisyon oranları Bitcoin için 2,265, Ethereum için 1,908). Açık faiz her iki token'da düştü (Bitcoin -%1,12, Ethereum -%2,43). Binance perpetuals'ın sadece %44'ü gün sonunda yükselişle kapandı. Alıcı satın alma davranışı Bitcoin'de hafif güçlü (1,037 oranı) ancak Ethereum'da satış baskısı gözlemlendi (0,963 oranı).",
+  "stocksSummary": "Güney Koreli yarıiletken hisse senetleri Asya'nın erken saatlerinde kazanç kaydetti—SK Hynix +%4,0, Samsung +%1,7 teknoloji gücünün desteği altında. Hong Kong teknoloji hisseleri de Zhipu AI +%3,5 ve kaldıraçlı SK Hynix +%7,15 ile takip etti. ABD CPI saat 13:30 UTC'de sıcak verileriyle açıklanınca, duygusal ortam keskin şekilde değişti: S&P 500 %0,37 düştü, Nasdaq %0,74 düştü. Altın %0,37 yükseldi, ABD doları %0,62 güçlendi ve Treasury tahvil fiyatları getiriler yükseldikçe %0,86 aşağı indi—tipik risk-off hareketi.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT %51,45 düştü ve açık bir halk nedeni bulunmadı; düşük likidite koşullarında bu tür hareketler genellikle pozisyon geri çekilmesi veya ticaret derinliğinin azlığını yansıtır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONUSDT",
+      "explanation": "ON %39,33 düştü ve haber kaynaklarında açıklanmış herhangi bir gerekçe bulunmamaktadır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONEUSDT",
+      "explanation": "ONE geniş pazar zayıflığına rağmen gün içinde %25,93 yükseldi; mevcut haber kaynaklarında belirli bir tetikleyici tespit edilmemiştir.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "ABD enflasyonu beklentileri aştı, Bitcoin'i 74.000 doların altına itti",
+        "what": "Ekim CPI başlık rakamı %0,4 (beklenti %0,3) ve çekirdek rakamı %0,3 (beklenti %0,2) çıktı—beklentilerden sıcaktı. Bu Federal Rezerv'in daha büyük oran artırımları yapacağı beklentilerini artırdı ve Bitcoin ile Ethereum'u keskin şekilde aşağı itti. Analistler 73.000 dolar destek seviyesini ve 70.000 dolar yönündeki potansiyel hareketleri işaret etti.",
+        "coins": "Bitcoin, Ethereum, tüm altcoinler",
+        "timeUTC": "13:30",
+        "source": "CoinDesk, The Block, Decrypt",
+        "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+      },
+      {
+        "headline": "Goldman Sachs, Citigroup, BBVA Project Faro stabilcoinine 270 milyon dolar taahhüt etti",
+        "what": "Üç büyük banka, 2027'de piyasaya çıkmayı hedefleyen ABD doları stablecoin projesi olan Project Faro'yu destekledi. 270 milyon dolar taahhüdü beş yıllık operasyonları kapsıyor ve Tether ile Circle gibi kripto-doğal firmalar tarafından hakim olan piyasaya geleneksel borç verenler giriyor.",
+        "coins": "Stabilcoinler, USDT, USDC",
+        "timeUTC": "14:00",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027"
+      },
+      {
+        "headline": "Bitcoin geliştiricileri işlem ücretlerini %14-27 azaltabilecek üç BIP'i birleştirdi",
+        "what": "Geliştiriciler Bitcoin işlemlerinin tam toplulaştırılmasını sağlayan iyileştirmeleri birleştirdiler. Değişiklikler ortak ödemeler için ücretleri yaklaşık %14 veya konsolidasyon işlemleri için %27 düşürebilir, ancak cüzdan benimsenmesi ve tam aktivasyon zamanlaması hala çözülmemiş durumdadır.",
+        "coins": "Bitcoin",
+        "timeUTC": "around 14:30",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-devs-merge-3-new-bips-and-transaction-fees-could-plummet"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC Kalshi'yi sözleşme bildirim hataları nedeniyle yaklaşan suçlamalar konusunda uyardı",
+          "what": "Emtia Vadeli İşlemler Ticaret Komisyonu, tahmin piyasası operatörü Kalshi'yi sözleşme bildirimlerini etkileyen prosedürel hatalar nedeniyle suçlamalarla karşı karşıya olduğu konusunda uyardı. Politico'nun bildirimine göre, etkilenen sözleşmelerin çoğu canlı değildi.",
+          "coins": "Tahmin piyasaları",
+          "timeUTC": "13:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts"
+        },
+        {
+          "headline": "SEC 2026 mali yılı uygulama sonuçlarını açıklamaktadır",
+          "what": "Menkul Kıymetler ve Borsa Komisyonu, 30 Eylül 2026'da sona eren mali yıl için yıllık uygulama özeti yayınladı.",
+          "coins": "Kripto uygulaması",
+          "timeUTC": "15:15",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026"
+        },
+        {
+          "headline": "Kimber Digital Securities tokenize edilmiş varlıklar için broker-dealer statüsü kazandı",
+          "what": "Plume'un bir bağlı şirketi olan Kimber Digital Securities, tokenize edilmiş ABD hisse senetleri, ETF'ler ve tahvilleri öz-saklama cüzdanları aracılığıyla sunmak için SEC ve FINRA onaylarını aldı ve geleneksel hissedar hakları korundu.",
+          "coins": "Tokenize edilmiş menkul kıymetler, tokenizasyon",
+          "timeUTC": "14:45",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kimber-digital-securities-broker-dealer-tokenization"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Trump Media kripto yatırımlarından elde edilen 410 milyon dolarlık üç aylık karı açıkladı",
+          "what": "Truth Social'ın ana şirketi, dijital varlık ve öz sermaye kazançlarından elde edilen 409,7 milyon dolarlık üç aylık geliri bildirdi; hisse senedi 2024 zirvesinin %94'ünün altında kaldı.",
+          "coins": "Bitcoin, dijital varlıklar",
+          "timeUTC": "14:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382967/trump-media-posts-410-million-profit-bitcoin-gains"
+        },
+        {
+          "headline": "Forward Industries Solana hazinesini 50 milyon dolar kredi limiti ile 8,7 milyon SOL'a çıkardı",
+          "what": "Firma, token üç aylık en düşük seviyeye vurduğunda daha fazla SOL birikimini desteklemek için 50 milyon dolar kredi imkanı ve konut-bağlantılı yatırımlar ekledi.",
+          "coins": "Solana (SOL)",
+          "timeUTC": "14:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana Jupiter, token sepetleri, getiri kasaları ve portföy araçlarıyla ticareti aşan alanlara genişliyor",
+          "what": "Solana'nın en büyük ticaret platformu olan Jupiter, Solana Breakpoint'ten önce token sepetleri ve getiri kasaları da dahil olmak üzere dört yeni ürün başlattı. Platform 1,3 trilyon doları aşan işlem yönlendirdiğini söylüyor.",
+          "coins": "Solana (SOL)",
+          "timeUTC": "13:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382836/solanas-jupiter-expands-beyond-trading-with-token-baskets-yield-vaults-and-new-portfolio"
+        },
+        {
+          "headline": "Visa, kurumsal oyuncular için stablecoin kapatma seçeneği olarak Monad'ı ekledi",
+          "what": "Visa, stablecoin kapatma ağını genişletti ve katılan ihraçcı ile alıcılar için bir seçenek olarak Monad blockchain'i ekledi.",
+          "coins": "Stabilcoinler, Monad",
+          "timeUTC": "12:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Across Protocol, cüzdanların boşaltılması raporları nedeniyle kullanıcıları uygulamadan kaçınmaya uyardı",
+          "what": "Köprü protokolü, platform aracılığıyla fonların kaybolduğuna ilişkin birden fazla rapora karşılık kullanıcıları uyardı. Protokolün alanını etkileyen potansiyel bir güvenlik olayına yönelik bir soruşturma devam ediyordu.",
+          "coins": "Across, ACROSS",
+          "timeUTC": "11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/across-protocol-warns-avoid-app-drained-wallets"
+        },
+        {
+          "headline": "Mercado Bitcoin, 49 milyon dolar hacktikten sonra nakit çekim işlemlerini sürdürüyor",
+          "what": "Brezilya'nın en büyük kripto borsası, müşterilerin gelecek haftadan itibaren anlık ödeme sistemi aracılığıyla para yatırabilir ve çekebileceklerini söyledi. Kripto para transferleri askıya alınmış durumda.",
+          "coins": "BRL çiftleri",
+          "timeUTC": "11:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/pix-withdrawals-resume-mercado-bitcoin-hack"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Grayscale, Zcash reklam kampanyasının yanında 1 milyon dolar taahhüt ediyor—token ve ETF %12 düştü",
+          "what": "Grayscale, Zcash ETF ücretlerinden 1 milyon doları ekosistem kar amacı gütmeyen kuruluşlarına yönlendireceğini duyurdu ve gizlilik token'ı %11'den fazla düşerken ETF'si süregelen çıkışlar görürken ulusal bir reklam kampanyası başlattı.",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "12:30",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382962/grayscale-bets-1-million-on-zcash-as-privacy-coin-tumbles"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-09",
+    "summary": "Bitcoin spot ETF'leri 9 Kasım'da net 201,1 milyon dolar çıkış gördü; BlackRock'ın IBIT ETF'si 213,2 milyon dolar itfaya yol açtı. Ethereum spot ETF'leri net 184,6 milyon dolar çıkış kaydetti; BlackRock ETHA 119,3 milyon dolar düşüş yaşadı ve Grayscale 25 milyon dolar çıkış verdi. Bu, ardı ardına üçüncü ETF çıkış günüydü. Rapor oluşturmada 10 Kasım verileri henüz mevcut değildi.",
+    "source": "Farside Investors, KuCoin",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-recorded-net-outflows-of-201m-and-184-6m-on-nov-9"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks (09:00 UTC)",
+      "typicalReaction": "Federal Rezerv sözcüsü yorumları oran artırımı olasılığını tartışırken kripto piyasaları hareket ettirebilir. Waller oran kesintileri konusunda bilinen bir güvercin."
+    },
+    {
+      "event": "US October CPI Release (13:30 UTC) — headline 0.4%, core 0.3%, both above forecasts",
+      "typicalReaction": "Sıcak enflasyon verisi Federal Rezerv'in daha büyük oran artırımları yapacağı beklentilerini artırır; bu da Bitcoin ve Ethereum da dahil olmak üzere risk varlıklarının keskin satışını harekete geçirdi."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllık finansman oranı",
+      "definition": "Tüccarların perpetual vadeli işlem sözleşmeleri üzerinde birbirlerine ödediği yıllık getiri. Pozitif oranlar, uzunların kısa satıcılara ödeme yapması anlamına gelir; negatif oranlar, kısa satıcıların uzunlara ödeme yapması anlamına gelir. Yıl başına pozisyon değerinin yüzdesi olarak ifade edilir."
+    },
+    {
+      "term": "Basis",
+      "definition": "Bir vadeli işlem sözleşmesinin fiyatı ile dayanak varlığın spot fiyatı arasındaki fiyat farkı. Burada ticaret çiftini ifade etmek için kullanılır (örneğin, 24 saatlik açılış-yüksek-düşük-kapanış için UTC-günlük basis)."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Gün içinde daha yüksek kapanan tüm ticaret edilebilir sözleşmelerin yüzdesi. Yüksek genişlik (%50 üzeri), piyasanın geniş anlamda güçlü olduğu anlamına gelir; düşük genişlik (%50 altı), piyasanın zayıf olduğu anlamına gelir."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "Kripto piyasasında korkuyu (düşük değerler) ve açgözlülüğü (yüksek değerler) izleyen 0–100 duygu ölçeği. 50 altındaki değerler korku işareti verir; 50 üzeri açgözlülük işareti verir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem fiyatını spot fiyata yakın tutmak için perpetual sözleşmelerde uzun ve kısa tüccarlar arasındaki periyodik ödemeler. Yüksek oranlar ağır uzun pozisyonlaması önerir."
+    },
+    {
+      "term": "Uzun pozisyon",
+      "definition": "Bir varlığın fiyatının yükseleceğine dair bir bahis. Uzun pozisyon tutan bir tüccar fiyat yükselirse para kazanır."
+    },
+    {
+      "term": "Uzun/kısa oran",
+      "definition": "Uzun sözleşmelerin sayısı kısa sözleşmelere bölünerek elde edilen oran. 1'den yüksek oran daha yüksek beklenti pozisyonlaması anlamına gelir; 1'den düşük oran daha düşük beklenti pozisyonlaması anlamına gelir."
+    },
+    {
+      "term": "İşaretleme fiyatı",
+      "definition": "Perpetual vadeli işlem sözleşmeleri üzerinde kazanç veya kaybı hesaplamak için kullanılan referans fiyat; genellikle spot ve vadeli işlem fiyatlarının ağırlıklı ortalaması. Manipülasyonu önlemek için kullanılır."
+    },
+    {
+      "term": "Açık faiz (AF)",
+      "definition": "Bir borsadaki tüm ödenmemiş vadeli işlem sözleşmelerinin toplam değeri. Yükselen AF genellikle yeni paranın girdiğini işaret eder; düşen AF pozisyonların kapatılmakta olduğunu gösterir."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Ticaret döneminin başından sonuna kadar açık faizin yüzdelik artış veya azalışı. Yeni pozisyonların eklenip eklenmediğini veya pozisyonların kapatılıp kapatılmadığını belirlemeye yardımcı olur."
+    },
+    {
+      "term": "Kısa pozisyon",
+      "definition": "Bir varlığın fiyatının düşeceğine dair bir bahis. Kısa pozisyon tutan bir tüccar fiyat düşerse para kazanır."
+    },
+    {
+      "term": "Alıcı al/sat oranı",
+      "definition": "Agresif alım ile satış arasındaki bir ölçüm. 1,0'ın üzeri daha agresif alıcılar (yüksek beklenti) anlamına gelir; 1,0'ın altı daha agresif satıcılar (düşük beklenti) anlamına gelir."
+    },
+    {
+      "term": "En üst pozisyon oranı",
+      "definition": "Bir borsadaki en büyük tüccarlar arasında, uzun pozisyonların kısa pozisyonlara oranı. 'Akıllı paranın' neye bahis oynadığını işaret eder."
+    },
+    {
+      "term": "İşlem hacmi",
+      "definition": "Bir dönemde işlem gören varlıkların toplam değeri; USD cinsinden ölçülür. Daha yüksek hacim daha fazla ticaret faaliyeti ve tipik olarak daha likit fiyat keşfini önerir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "f65a758349eba908"
+}

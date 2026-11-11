@@ -1,0 +1,220 @@
+{
+  "oneLine": "美国10月通胀数据高于预期，引发市场对美联储加息的担忧，比特币和以太坊应声下跌，加密货币市场整体下跌4.5%。",
+  "caveman": "美国政府会定期公布物价上升的数据。上周二他们发布了10月的数据，发现物价上升了0.4%，而大家只预期0.3%。这让很多人很害怕，因为这意味着美联储可能会提高利息。利息高了，人们就不太想冒险投资比特币这样的东西。比特币跌了2%，以太坊跌了4%，几乎所有其他东西也都下跌了。整个加密货币市场缩小了4.5%。那是很令人担忧的一天。",
+  "priceVolumeSummary": "比特币下跌2.08%至73,759.90美元，以太坊下跌3.83%至2,052.11美元。币安、Bybit、OKX、Bitget、Gate五大交易所跌幅基本一致，其中币安交易量最大，比特币交易额达124亿美元，以太坊交易额达96亿美元。",
+  "positioningSummary": "比特币年化资金费率为正值10.6%，但币安以太坊资金费率转负至-4.87%，意味着空头支付多头——这表明交易者预期价格会下跌。两种币的多头头寸都多于空头（比特币2.77:1，以太坊3.81:1），但头部交易者的看多程度相对较低（比特币头部头寸比2.265，以太坊1.908）。两种币的未平仓合约都下降（比特币-1.12%，以太坊-2.43%）。币安永续合约中仅有44%在本日收高。比特币的挂单买盘显示轻微强势（比率1.037），而以太坊则面临卖压（比率0.963）。",
+  "stocksSummary": "韩国半导体股在亚洲早盘走强——SK Hynix +4.0%，Samsung +1.7%，得益于科技板块表现。香港科技股随后跟进，Zhipu AI +3.5%，杠杆SK Hynix +7.15%。一旦美国CPI在13:30 UTC公布的数据超预期，市场情绪急剧转变：标普500下跌0.37%，纳斯达克下跌0.74%。黄金小幅上升0.37%，美元走强0.62%，美国国债价格下跌0.86%，收益率上升——典型的风险厌恶操作。",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT下跌51.45%，没有明确的公开原因。低流动性币种的高波动通常反映头寸平仓或交易深度不足。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONUSDT",
+      "explanation": "ON下跌39.33%，新闻来源中未公布明确的原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONEUSDT",
+      "explanation": "ONE在市场整体下跌的情况下上升25.93%；尚未在可获得的新闻中发现具体的催化剂。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国通胀超预期，比特币跌破74000美元",
+        "what": "10月CPI数据公布，标题通胀率0.4%（预期0.3%），核心通胀率0.3%（预期0.2%），均高于预期。这加大了市场对美联储大幅加息的预期，导致比特币和以太坊应声大幅下跌。分析师标记了73000美元的支撑位，并预警可能下跌至70000美元。",
+        "coins": "比特币、以太坊、所有山寨币",
+        "timeUTC": "13:30",
+        "source": "CoinDesk, The Block, Decrypt",
+        "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+      },
+      {
+        "headline": "高盛、花旗、BBVA承诺投资2.7亿美元支持Faro稳定币项目",
+        "what": "三家大型银行支持了Faro项目，这是一个针对美元稳定币的风险投资，目标在2027年推出。这笔2.7亿美元的承诺涵盖五年的运营成本，传统金融机构正在进入由Tether和Circle等加密原生企业主导的市场。",
+        "coins": "稳定币、USDT、USDC",
+        "timeUTC": "14:00",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027"
+      },
+      {
+        "headline": "比特币开发者合并三项提案，可能将交易费降低14%-27%",
+        "what": "开发者合并了实现比特币交易完整聚合的改进方案。这些变更可能会使联合支付的费用降低约14%，或巩固交易的费用降低27%，但钱包采用率和具体激活时间仍未确定。",
+        "coins": "比特币",
+        "timeUTC": "约14:30",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-devs-merge-3-new-bips-and-transaction-fees-could-plummet"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国商品期货交易委员会警告Kalshi面临控诉，涉及合约通知程序错误",
+          "what": "美国商品期货交易委员会（CFTC）警告预测市场运营商Kalshi因程序错误影响合约通知而面临控诉。根据Politico报道，许多受影响的合约从未上线。",
+          "coins": "预测市场",
+          "timeUTC": "13:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts"
+        },
+        {
+          "headline": "美国证券交易委员会公布2026财年执法成果",
+          "what": "美国证券交易委员会(SEC)发布了截至2026年9月30日财政年度结束的年度执法摘要。",
+          "coins": "加密货币执法",
+          "timeUTC": "15:15",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026"
+        },
+        {
+          "headline": "Kimber Digital Securities获得证券经纪商资格用于代币化资产",
+          "what": "Plume旗下的Kimber Digital Securities获得美国证券交易委员会(SEC)和FINRA的批准，成为可通过自托管钱包提供代币化美国股票、ETF和债券的经纪商，同时保留传统股东权利。",
+          "coins": "代币化证券、代币化",
+          "timeUTC": "14:45",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kimber-digital-securities-broker-dealer-tokenization"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "特朗普传媒发布4.1亿美元季度利润，主要来自加密投资收益",
+          "what": "Truth Social的母公司报告季度收入4.097亿美元，主要来自数字资产和股票收益，但其股票相比2024年高点下跌超94%。",
+          "coins": "比特币、数字资产",
+          "timeUTC": "14:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382967/trump-media-posts-410-million-profit-bitcoin-gains"
+        },
+        {
+          "headline": "Forward Industries将Solana国库增至870万枚SOL，获5000万美元信贷额度",
+          "what": "该公司获得5000万美元信贷便利和与住房相关的投资支持，以推动进一步的SOL积累，而SOL触及三个月低点。",
+          "coins": "Solana (SOL)",
+          "timeUTC": "14:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana Jupiter扩展业务，推出代币篮子、收益金库和投资组合工具",
+          "what": "Solana最大的交易平台Jupiter推出了四款新产品，包括代币篮子和收益金库，并在Solana Breakpoint大会前夕宣布该平台已路由超1.3万亿美元的交易。",
+          "coins": "Solana (SOL)",
+          "timeUTC": "13:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382836/solanas-jupiter-expands-beyond-trading-with-token-baskets-yield-vaults-and-new-portfolio"
+        },
+        {
+          "headline": "Visa增加Monad作为机构稳定币结算选项",
+          "what": "Visa通过增加Monad区块链作为参与发行者和收单机构的稳定币结算选项，扩展了其稳定币结算网络。",
+          "coins": "稳定币、Monad",
+          "timeUTC": "12:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Across Protocol警告用户避免使用该应用，多份报告显示钱包资金被盗",
+          "what": "跨链桥接协议在多份资金损失报告后向用户发出警告。该协议正在调查可能影响该协议域名的安全事件。",
+          "coins": "Across, ACROSS",
+          "timeUTC": "11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/across-protocol-warns-avoid-app-drained-wallets"
+        },
+        {
+          "headline": "Mercado Bitcoin在4900万美元黑客事件后恢复提现",
+          "what": "巴西最大的加密交易所表示，客户从下周开始可通过即时支付系统进行存取款。加密货币转账仍保持暂停状态。",
+          "coins": "巴西雷亚尔交易对",
+          "timeUTC": "11:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/pix-withdrawals-resume-mercado-bitcoin-hack"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "灰度承诺投入100万美元支持Zcash宣传活动，该币及其ETF下跌12%",
+          "what": "灰度宣布将从Zcash ETF费用中拨出100万美元用于生态系统非营利组织，并启动全国性广告推广活动，尽管这种隐私币下跌超11%，其ETF持续遭遇净流出。",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "12:30",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382962/grayscale-bets-1-million-on-zcash-as-privacy-coin-tumbles"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-09",
+    "summary": "比特币现货ETF在11月9日遭遇2.011亿美元净流出，其中贝莱德IBIT经历2.132亿美元的赎回。以太坊现货ETF录得1.846亿美元净流出，贝莱德ETHA下降1.193亿美元，灰度遭遇2500万美元流出。这是连续第三个交易日的ETF流出。11月10日数据在报告生成时尚未可得。",
+    "source": "Farside Investors, KuCoin",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-recorded-net-outflows-of-201m-and-184-6m-on-nov-9"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks (09:00 UTC)",
+      "typicalReaction": "美联储官员发言可在涉及加息概率讨论时推动加密货币市场波动。沃勒是公认的降息派代表。"
+    },
+    {
+      "event": "US October CPI Release (13:30 UTC) — headline 0.4%, core 0.3%, both above forecasts",
+      "typicalReaction": "通胀数据高于预期会加大市场对美联储大幅加息的预期，这推动了包括比特币和以太坊在内的风险资产的大幅抛售。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化资金费率",
+      "definition": "交易者在永续期货合约中彼此支付的年度回报率。正费率表示多头向空头支付；负费率表示空头向多头支付。按头寸价值的年度百分比表示。"
+    },
+    {
+      "term": "基差",
+      "definition": "期货合约价格与标的资产现货价格之间的差异。此处用于表示交易对（例如，24小时开高低收的UTC日基差）。"
+    },
+    {
+      "term": "涨跌面",
+      "definition": "所有可交易合约中当日收高的百分比。高涨跌面（超50%）表示市场整体强势；低涨跌面（低于50%）表示市场弱势。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "0-100的情绪量表，追踪加密货币市场中的恐惧（低数值）和贪婪（高数值）。数值低于50表示恐惧；高于50表示贪婪。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续合约中多头和空头交易者之间的定期支付，用于保持期货价格接近现货价格。高费率通常表示多头头寸过多。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "看涨某资产价格的投资赌注。持有多头头寸的交易者在价格上升时获利。"
+    },
+    {
+      "term": "多空比",
+      "definition": "多头合约数量除以空头合约数量。比率高于1表示更多看多头寸；低于1表示更多看空头寸。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续期货合约损益的参考价格，通常是现货价格和期货价格的加权平均值。用于防止价格操纵。"
+    },
+    {
+      "term": "未平仓合约(OI)",
+      "definition": "交易所所有未平仓期货合约的总价值。未平仓合约上升通常表示新资金进入；下降表示头寸被平仓。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "交易周期开始到结束的未平仓合约百分比增减。帮助识别是否有新头寸被添加或头寸被平仓。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "看跌某资产价格的投资赌注。持有空头头寸的交易者在价格下跌时获利。"
+    },
+    {
+      "term": "挂单买卖比",
+      "definition": "主动买入对比主动卖出的衡量指标。高于1.0表示主动买家更多（看多）；低于1.0表示主动卖家更多（看空）。"
+    },
+    {
+      "term": "头部头寸比",
+      "definition": "交易所最大交易者中多头与空头头寸的比率。显示\"聪明钱\"的投资方向。"
+    },
+    {
+      "term": "交易量",
+      "definition": "一定时期内交易的总资产价值，以美元计算。交易量越高通常表示交易活动越活跃，价格发现机制越有效。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "f65a758349eba908"
+}

@@ -1,0 +1,219 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell sharply after US inflation beat forecasts on November 10, raising bets on bigger Fed rate hikes and driving the crypto market down 4.5%.",
+  "caveman": "The US government measures how expensive everything is getting. On Tuesday they released October numbers showing prices went up 0.4% instead of the 0.3% people expected. This scared everyone because it might make the Federal Reserve raise interest rates more, and higher interest rates make people less interested in risky bets like Bitcoin. Bitcoin dropped 2%, Ethereum dropped 4%, and almost everything else went down too. The whole crypto market got 4.5% smaller. It was a worrying day.",
+  "priceVolumeSummary": "Bitcoin fell 2.08% to 73,759.90, Ethereum fell 3.83% to 2,052.11. All five major exchanges (Binance, Bybit, OKX, Bitget, Gate) showed nearly identical price declines, with Binance leading volume at $12.4 billion in BTC trading and $9.6 billion in ETH.",
+  "positioningSummary": "Bitcoin had positive funding at 10.6% annualized, but Ethereum's funding went negative at -4.87% on Binance, meaning short sellers paid longs—a sign traders expected lower prices. Both coins had more long positions than short (Bitcoin 2.77-to-1, Ethereum 3.81-to-1), but the largest traders were less bullish (top position ratios 2.265 for Bitcoin, 1.908 for Ethereum). Open interest fell on both coins (Bitcoin -1.12%, Ethereum -2.43%). Only 44% of Binance perps closed higher on the day. Taker buying showed slight strength on Bitcoin (1.037 ratio) but selling pressure on Ethereum (0.963 ratio).",
+  "stocksSummary": "South Korean semiconductor stocks gained in early Asian hours—SK Hynix +4.0%, Samsung +1.7%, supported by tech strength. Hong Kong tech followed with Zhipu AI +3.5% and leveraged SK Hynix +7.15%. Once the US CPI came in hot at 13:30 UTC, sentiment shifted sharply: S&P 500 fell 0.37%, Nasdaq fell 0.74%. Gold edged up 0.37%, the US dollar strengthened 0.62%, and Treasury bond prices fell 0.86% as yields rose—typical risk-off moves.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "JCT fell 51.45% with no clear public cause; high volatility in low-liquidity names often reflects position unwinding or low trading depth.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONUSDT",
+      "explanation": "ON fell 39.33% with no clear public cause announced in news sources.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ONEUSDT",
+      "explanation": "ONE rose 25.93% on the day despite broader market weakness; no specific catalyst identified in available news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "US inflation beat forecasts, driving Bitcoin below $74,000",
+        "what": "October CPI came in at 0.4% headline (forecast 0.3%) and 0.3% core (forecast 0.2%), hotter than expected. This increased bets on bigger Fed rate hikes, pushing Bitcoin and Ethereum down sharply. Analysts flagged support levels at $73,000 and potential moves toward $70,000.",
+        "coins": "Bitcoin, Ethereum, all altcoins",
+        "timeUTC": "13:30",
+        "source": "CoinDesk, The Block, Decrypt",
+        "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+      },
+      {
+        "headline": "Goldman Sachs, Citigroup, BBVA commit $270 million to Project Faro stablecoin",
+        "what": "Three major banks backed Project Faro, a US dollar stablecoin venture targeting a 2027 launch. The $270 million commitment covers five years of operations as traditional lenders enter a market dominated by crypto-native firms like Tether and Circle.",
+        "coins": "Stablecoins, USDT, USDC",
+        "timeUTC": "14:00",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027"
+      },
+      {
+        "headline": "Bitcoin developers merge three BIPs that could cut transaction fees 14-27%",
+        "what": "Developers merged improvements that enable full aggregation of Bitcoin transactions. The changes could lower fees about 14% for joint payments or 27% for consolidation transactions, though wallet adoption and exact activation timing remain unresolved.",
+        "coins": "Bitcoin",
+        "timeUTC": "around 14:30",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-devs-merge-3-new-bips-and-transaction-fees-could-plummet"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC warns Kalshi of imminent charges over contract notification errors",
+          "what": "The Commodity Futures Trading Commission warned prediction market operator Kalshi that it faces charges over procedural errors affecting contract notifications. Many affected contracts were not live, according to Politico reporting.",
+          "coins": "Prediction markets",
+          "timeUTC": "13:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts"
+        },
+        {
+          "headline": "SEC announces fiscal year 2026 enforcement results",
+          "what": "The Securities and Exchange Commission released its annual enforcement summary for the fiscal year ended September 30, 2026.",
+          "coins": "Crypto enforcement",
+          "timeUTC": "15:15",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026"
+        },
+        {
+          "headline": "Kimber Digital Securities gains broker-dealer status for tokenized assets",
+          "what": "Kimber Digital Securities, a Plume affiliate, secured SEC and FINRA approvals to operate as a broker-dealer offering tokenized US stocks, ETFs, and bonds through self-custodial wallets, with traditional shareholder rights preserved.",
+          "coins": "Tokenized securities, tokenization",
+          "timeUTC": "14:45",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kimber-digital-securities-broker-dealer-tokenization"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Trump Media posts $410 million quarterly profit largely from crypto investments",
+          "what": "Truth Social's parent company reported $409.7 million in quarterly income mostly from digital-asset and equity gains, even as its stock remained over 94% below its 2024 peak.",
+          "coins": "Bitcoin, digital assets",
+          "timeUTC": "14:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382967/trump-media-posts-410-million-profit-bitcoin-gains"
+        },
+        {
+          "headline": "Forward Industries grows Solana treasury to 8.7 million SOL with $50M credit line",
+          "what": "The firm added a $50 million credit facility and housing-linked investments to support further SOL accumulation as the token hit a three-month low.",
+          "coins": "Solana (SOL)",
+          "timeUTC": "14:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana Jupiter expands beyond trading with token baskets, yield vaults, and portfolio tools",
+          "what": "Jupiter, Solana's largest trading platform, launched four new products including token baskets and yield vaults ahead of Solana Breakpoint. The platform says it has routed over $1.3 trillion in trades.",
+          "coins": "Solana (SOL)",
+          "timeUTC": "13:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382836/solanas-jupiter-expands-beyond-trading-with-token-baskets-yield-vaults-and-new-portfolio"
+        },
+        {
+          "headline": "Visa adds Monad as stablecoin settlement option for institutional players",
+          "what": "Visa expanded its stablecoin settlement network by adding Monad blockchain as an option for participating issuers and acquirers.",
+          "coins": "Stablecoins, Monad",
+          "timeUTC": "12:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Across Protocol warns users to avoid app amid reports of drained wallets",
+          "what": "The bridge protocol warned users after multiple reports of funds being lost through the platform. An investigation into a potential security incident affecting the protocol's domain was underway.",
+          "coins": "Across, ACROSS",
+          "timeUTC": "11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/across-protocol-warns-avoid-app-drained-wallets"
+        },
+        {
+          "headline": "Mercado Bitcoin resumes cash withdrawals after $49 million hack",
+          "what": "Brazil's largest crypto exchange said customers can deposit and withdraw money through the instant payment system starting next week. Cryptocurrency transfers remain suspended.",
+          "coins": "BRL pairs",
+          "timeUTC": "11:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/pix-withdrawals-resume-mercado-bitcoin-hack"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Grayscale pledges $1 million alongside Zcash ad campaign as token and ETF fall 12%",
+          "what": "Grayscale announced it would direct $1 million from Zcash ETF fees to ecosystem nonprofits and launched a national advertising push even as the privacy token fell over 11% and its ETF saw continued outflows.",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "12:30",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/382962/grayscale-bets-1-million-on-zcash-as-privacy-coin-tumbles"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-09",
+    "summary": "Bitcoin spot ETFs saw net outflows of $201.1 million on November 9, led by BlackRock's IBIT with $213.2 million in redemptions. Ethereum spot ETFs posted $184.6 million in net outflows, with BlackRock ETHA declining $119.3 million and Grayscale experiencing $25 million in outflows. This marked the third consecutive day of ETF outflows. November 10 data was not yet available as of report generation.",
+    "source": "Farside Investors, KuCoin",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-recorded-net-outflows-of-201m-and-184-6m-on-nov-9"
+  },
+  "calendarNotes": [
+    {
+      "event": "FOMC Member Waller Speaks (09:00 UTC)",
+      "typicalReaction": "Fed speaker commentary can move crypto markets when discussing rate hike probability. Waller is a known dove on rate cuts."
+    },
+    {
+      "event": "US October CPI Release (13:30 UTC) — headline 0.4%, core 0.3%, both above forecasts",
+      "typicalReaction": "Hot inflation data increases bets on bigger Fed rate hikes, which drove the sharp selloff in risk assets including Bitcoin and Ethereum."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized funding rate",
+      "definition": "The yearly return traders pay to each other on perpetual futures contracts. Positive rates mean longs pay shorts; negative means shorts pay longs. Expressed as a percentage of the position value per year."
+    },
+    {
+      "term": "Basis",
+      "definition": "The price difference between a futures contract and the spot price of the underlying asset. Used here to denote the trading pair (e.g., UTC-day basis for 24-hour open-high-low-close)."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all tradable contracts that closed higher on the day. High breadth (above 50%) means the market is broadly strong; low breadth (below 50%) means weak."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A 0–100 sentiment gauge tracking fear (low values) and greed (high values) in the crypto market. Values below 50 signal fear; above 50 signal greed."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The periodic payment between long and short traders on perpetual contracts to keep the futures price close to the spot price. High rates suggest heavy long positioning."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will go up. A trader holding a long position makes money if the price rises."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of long contracts divided by short contracts. A ratio above 1 means more bullish positioning; below 1 means more bearish positioning."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate gains or losses on perpetual futures contracts, usually a weighted average of spot and futures prices. Used to prevent manipulation."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total value of all outstanding futures contracts on an exchange. Rising OI often signals new money entering; falling OI suggests positions being closed."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in open interest from the start to the end of a trading period. Helps identify whether new positions are being added or positions are being closed."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that an asset's price will go down. A trader holding a short position makes money if the price falls."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying vs. selling. Above 1.0 means more aggressive buyers (bullish); below 1.0 means more aggressive sellers (bearish)."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "Among the largest traders on an exchange, the ratio of long to short positions. Signals what the 'smart money' is betting on."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total value of assets traded in a period, measured in USD. Higher volume suggests more trading activity and typically more liquid price discovery."
+    }
+  ],
+  "_source": "cli"
+}
