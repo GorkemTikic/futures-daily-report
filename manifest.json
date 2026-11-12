@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-11T02:09:02.934Z",
-  "count": 147,
+  "generatedAt": "2026-11-12T00:12:30.243Z",
+  "count": 148,
   "counts": {
-    "total": 147,
-    "market": 60,
+    "total": 148,
+    "market": 61,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-10",
+  "latest": "2026-11-11",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-11-11",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.3035524722783094,
+        "ETH": 0.14082036389150848
+      },
+      "marketSummary": "Bitcoin and Ethereum held steady near $74,000 and $2,056 as traders weighed weak ETF demand against large-wallet accumulation, while a $14.2 billion stablecoin withdrawal—the biggest since 2022—exposed the market's shrinking purchasing power.",
+      "oneLine": "Bitcoin and Ethereum held steady near $74,000 and $2,056 as traders weighed weak ETF demand against large-wallet accumulation, while a $14.2 billion stablecoin withdrawal—the biggest since 2022—exposed the market's shrinking purchasing power.",
+      "newsCount": 14,
+      "topMover": {
+        "symbol": "AGTUSDT",
+        "chgPct": 205.09708737864082
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-11/summary_2026-11-11.html",
+        "pdf": "reports/2026-11-11/summary_2026-11-11.pdf",
+        "md": "reports/2026-11-11/summary_2026-11-11.md"
+      }
+    },
     {
       "date": "2026-11-10",
       "kind": "market",

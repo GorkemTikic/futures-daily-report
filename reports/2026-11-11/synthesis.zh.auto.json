@@ -1,0 +1,214 @@
+{
+  "oneLine": "比特币和以太坊分别在74000美元和2056美元附近稳定，交易者权衡ETF需求疲软与大户囤币之间的关系，同时价值14.2亿美元的稳定币提现——自2022年以来最大规模——反映出市场购买力萎缩。",
+  "caveman": "比特币是数字货币，以太坊是另一种数字货币。今天价格基本没动。但发生了重要的事：人们在取出投资基金（ETF）里的比特币和以太坊的钱，稳定币（应该保持在1美元的特殊数字货币）消失了——这个月消失了价值14.2亿美元，这是2022年以来最多的。这很坏，因为这意味着用来买比特币、推高价格的钱更少了。但奇怪的是：最大的交易商（鲸鱼）在买更多比特币，而普通人在卖并亏损。韩国的电脑芯片公司表现很好（Samsung +5.8%，SK Hynix +6.7%），这让交易者对人工智能技术感觉好一点。小代币AGT跳涨了205%，因为大的代币释放即将到来。总体来说，这是令人担忧的一天，因为可用的钱更少，人们在撤出。",
+  "priceVolumeSummary": "比特币和以太坊价格在所有五大交易所（币安、Bybit、OKX、Bitget、Gate）内保持在窄幅区间内波动，价格差异不超过百分之几。币安成交量领先：BTC 93亿美元，ETH 62亿美元。",
+  "positioningSummary": "资金费率显示温和的看涨压力——币安比特币年化3.8%，以太坊6.4%——表明押注价格上升的交易者支付了少量费用。未平仓合约略有下降（Bybit比特币下降2.3%），但以太坊上升（币安上升0.4%），显示市场态度不统一。市场持仓高度倾向做多：比特币的多空比2.96，以太坊3.52都强烈看涨，但最大的交易商（头部持仓比2.23）没有整体市场那么看涨。盘中卖压明显：两者的主动买卖比都低于1.0（比特币0.93，以太坊0.90），意味着主动卖方多于主动买方。市场广度疲弱，币安永续合约仅33.6%上涨，表明大范围内卖盘压力。",
+  "stocksSummary": "亚洲半导体股票飙升，可能反映需求恢复：SK Hynix跳涨6.7%，Samsung Electronics 5.8%，香港中基光芯涨17.3%。杠杆半导体ETF跟随上涨，CSOP SK Hynix 2x涨12.6%，CSOP Samsung 2x涨10.4%。这种强势反映了对CoreWeave今日早些时候报告168%收入增长的乐观情绪，提振了AI基础设施人气。美股也上涨（S&P 500 +1.3%，Nasdaq +1.6%），但黄金和债券略有下跌，表明风险偏好情绪未能充分提振加密货币。",
+  "movers": [
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "阿拉亚治理代币飙升205%是因为计划在11月16日解锁1.6417亿个AGT（价值约407万美元），这引发了投机性买盘和事件前的布局。",
+      "hasCause": true
+    },
+    {
+      "symbol": "INITUSDT",
+      "explanation": "Initia的INIT代币暴跌39.4%是因为Initia第一层区块链在11月10日因从托管账户进行未经授权的转账而停止运营，导致330万美元损失。该链在11月2日之前遭受270万美元黑客攻击后刚刚恢复。",
+      "hasCause": true
+    },
+    {
+      "symbol": "ONUSDT",
+      "explanation": "22%下跌没有发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "稳定币供应量下降14.2亿美元，创2022年熊市以来最大跌幅",
+        "what": "过去30天稳定币供应量下降14.2亿美元，创2022年加密货币低迷期以来最大跌幅。根据Glassnode数据，USDT和USDC共下降近110亿美元，持有人将稳定币兑换为美元并从加密市场提现。分析师警告，供应量萎缩意味着市场反弹可用的购买力减少。",
+        "coins": "stablecoins, USDT, USDC",
+        "timeUTC": "2026-11-11",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907"
+      },
+      {
+        "headline": "比特币鲸鱼囤币，ETF投资者日均倾销数百万",
+        "what": "大型链上持有者在11月9日前一直在积累比特币，而现货ETF投资者则持续提现。这种分歧反映了相互矛盾的信号：机构ETF产品见资金流出，而最大的交易商相信复苏足以在当前价格买入。",
+        "coins": "BTC",
+        "timeUTC": "2026-11-11",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-whales-stack-coins-while-etf-investors-dump-millions-daily/"
+      },
+      {
+        "headline": "Initia区块链三周内遭遇第二次黑客攻击：损失330万美元",
+        "what": "Initia第一层区块链在11月10日因从托管账户进行未经授权的转账而停止运营，该网络损失330万美元。这是不到三周内的第二次重大安全事件，早前在11月2日因脚本缓存漏洞损失270万美元。频繁的黑客攻击引发了对运营安全的质疑。",
+        "coins": "INIT",
+        "timeUTC": "2026-11-10",
+        "source": "Protos",
+        "url": "https://protos.com/binance-labs-backed-initia-hacked-again-3-3m-lost-in-three-weeks/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC进入争夺美股永续衍生品监管权的竞争",
+          "what": "SEC正在参与一场监管纠纷，争论个股永续衍生品是否应该获准。这一举动表明美国监管机构在司法管辖权和加密原生衍生品产品监管方面的紧张关系日益加剧。",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427"
+        },
+        {
+          "headline": "未定案的美国众议院选举可能为国会送去更多加密友好派",
+          "what": "一些剩余的美国众议院选举出现支持加密的候选人和其他对数字资产没有表态的候选人，给加密倡导团体推动有利政策的机会。结果可能重塑下一届国会对加密的监管。",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/uncalled-midterm-races-add-more-crypto-supporters-congress"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币短期持有者向交易所发送36亿美元BTC亏本出手",
+          "what": "最近购买的比特币者将约36亿美元转移到交易所价格低于买入价，表明投资者投降。链上数据显示币安收到来自最近转移币的大量流入，表明被迫或防守性抛售。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-11",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383077/bitcoin-short-term-holders-send-3-illion-btc-exchanges-loss"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "德意志银行为公司和机构推出加密托管服务",
+          "what": "德意志银行推出了为欧洲机构和企业客户托管比特币、以太坊和部分稳定币的服务。这一举措代表了传统金融采用数字资产的里程碑。",
+          "coins": "BTC, ETH, stablecoins",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu"
+        },
+        {
+          "headline": "OKX-ICE代币化股票交易场所定于11月23日开业，超过70种资产",
+          "what": "OKX-ICE代币化证券交易场所将于11月23日推出，拥有超过70种资产，包括Strategy和Coinbase股票，在大多数传统蓝筹公司选择退出后。这次推出将对一个新的SEC豁免进行测试。",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month"
+        },
+        {
+          "headline": "Suiet钱包关闭，Sui生态面临逆风",
+          "what": "自托管钱包Suiet宣布关闭，API服务运行至11月14日。Sui的DeFi总锁定价值在过去一个月下降超过22%，表明生态活动减弱。",
+          "coins": "SUI",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem"
+        },
+        {
+          "headline": "Kraken的xStocks新增200只英国和欧盟股票，资产超11亿美元",
+          "what": "Kraken的代币化股票产品xStocks扩展了200只新的英国和欧盟股票，总托管资产超过11亿美元。每个代币都由股票支持，但不具有所有权。",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "币安黑客的XRP储备因交换路线关闭而快速下跌",
+          "what": "来自11月币安63亿美元黑客事件的被盗XRP继续减少，黑客难以转换持有。根据区块链分析公司Elliptic，剩余XRP降至约6000万枚，因为交换中断复杂化了进一步转换。",
+          "coins": "XRP, BTC (hack impact)",
+          "timeUTC": "2026-11-11",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-hackers-xrp-stockpile-rapidly-crashes-driven-by-bitcoin-swaps/"
+        },
+        {
+          "headline": "比特币核心修补可能导致挖矿停止的高严重性漏洞",
+          "what": "比特币核心修补了三个漏洞，其中一个可能阻止矿工构建新区块。最严重的漏洞构成了拒绝服务风险，而不是盗窃矢量。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-11",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383044/bitcoin-core-patches-bug-could-have-stalled-btc-mining"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "美股因AI乐观情绪而上涨，CoreWeave报告收入增长168%",
+          "what": "标普500指数上涨1.3%，纳斯达克上涨1.6%，因AI基础设施提供商CoreWeave的强劲收益提振了情绪。这次上涨提升了全球半导体股，包括SK Hynix和Samsung。",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "野村考虑出售加密业务Laser Digital",
+          "what": "这家日本金融集团正在考虑剥离Laser Digital，该部门在欧洲运营中已连续四个季度亏损。出售将表明一家主要机构参与者的胃口减弱。",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nomura-sale-crypto-unit-laser-digital"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-10",
+    "summary": "美国现货比特币ETF在11月10日录得950万美元净流出，连续第四天流出。贝莱德的IBIT占流出的7820万美元。以太坊ETF仅录得132万美元流出，比11月9日1.846亿美元流出下降99%。截至目前，比特币ETF月度流出总额约16亿美元，覆盖11月的六个流出日。",
+    "source": "Kraken, Glassnode (via Glassnode Insights)",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-see-net-outflows-of-201m-and-184-6m-respectively"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK GDP November 2026 — Thursday 12 Nov, 07:00 UTC",
+      "typicalReaction": "高影响力传统市场事件。如果数据出现意外变化，特别是改变对英国利率的预期，波动性通常会延伸到加密市场。"
+    },
+    {
+      "event": "US Initial Jobless Claims — Thursday 12 Nov, 13:30 UTC",
+      "typicalReaction": "高影响力美国经济数据。强劲的首次申请人数可能触发加密市场的风险厌恶走势；弱首次申请人数可能支持风险偏好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "资金费率",
+      "definition": "在永续期货合约中长头寸和短头寸交易者之间的定期付款。正费率意味着长头交易者向短头支付，鼓励空头开仓。负费率意味着空头向多头支付，鼓励多头开仓。费率越高表明市场对价格上升越有信心。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格将上升的交易者数量（多头）除以押注价格将下降的交易者数量（空头）。比例2.9意味着每1个空头对应2.9个多头——看涨的市场结构。比例高于2.0被认为是非常看涨；低于1.0是看跌。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于结算永续期货合约的参考价格。计算方法旨在防止极端波动，通常接近现货价格（常规交易所的价格）。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "期货交易所上仍然开放且未结算的合约总数（或合约价值对应的币数）。增加表明交易者在开新头寸；减少表明头寸被平仓或被强制清算。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "一段时间内（通常24小时）未平仓合约的百分比变化。下降2.3%意味着未结算头寸总额下降——交易者在退出或被迫出场。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "衡量即时价格行动中主动买盘与主动卖盘的比例。比例1.0意味着主动买卖相等。高于1.0有利于买方；低于1.0有利于卖方。比例0.93意味着卖方略微更主动。"
+    },
+    {
+      "term": "头部持仓比",
+      "definition": "交易所最大交易商的多空比，不是所有账户。提供关于最大资金在做什么的见解，与散户交易者分开。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "给定日期内市场中上升与下降资产的百分比。广度33.6%上涨意味着币安永续合约中约三分之一上升，三分之二下降——这是大范围卖盘的信号。"
+    },
+    {
+      "term": "ETF",
+      "definition": "持有比特币、以太坊或其他资产并在常规股票交易所交易的投资基金。当投资者购买ETF时，他们拥有基础资产的一份，无需直接持有。流入意味着新资金在买入；流出意味着资金被提取。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "设计为保持稳定价值的加密货币，通常与美元1:1挂钩。例如USDT（Tether）和USDC（Circle）。它们在加密市场中用作现金。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "6bac14ca0ee3da8d"
+}

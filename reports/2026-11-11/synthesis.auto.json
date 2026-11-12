@@ -1,0 +1,213 @@
+{
+  "oneLine": "Bitcoin and Ethereum held steady near $74,000 and $2,056 as traders weighed weak ETF demand against large-wallet accumulation, while a $14.2 billion stablecoin withdrawal—the biggest since 2022—exposed the market's shrinking purchasing power.",
+  "caveman": "Bitcoin is digital money, Ethereum is another kind. Today, the prices barely moved. But something important happened: people are taking money OUT of Bitcoin and Ethereum investment funds (ETFs), and stablecoins (special cryptocurrencies that are supposed to stay at $1) disappeared from the market—$14.2 billion worth in just one month, the most since 2022. That's bad because it means less money available to buy Bitcoin and make the price go up. But here's the strange part: the biggest traders (whales) are BUYING more Bitcoin while regular people are selling and taking losses. South Korea's computer chip companies did really well (Samsung +5.8%, SK Hynix +6.7%), which made traders feel a bit better about AI technology. The small token AGT jumped 205% because a big token release is coming soon. Overall, this was a worrying day because less money is available and people are pulling out.",
+  "priceVolumeSummary": "Bitcoin and Ethereum prices stayed within tight ranges across all five major exchanges (Binance, Bybit, OKX, Bitget, Gate), with prices agreeing within fractions of a percent. Binance led volume: $9.3 billion USD for BTC and $6.2 billion for ETH.",
+  "positioningSummary": "Funding rates showed modest bullish pressure—Bitcoin at 3.8% annualized on Binance and Ethereum at 6.4%—indicating traders betting on up moves paid small fees. Open interest fell slightly on Bitcoin (down 2.3% on Bybit) but rose on Ethereum (up 0.4% on Binance), showing mixed conviction. Market positioning remained stretched long: Bitcoin's long-to-short ratio of 2.96 and Ethereum's 3.52 were heavily bullish, but the largest traders (top position ratio 2.23 for Bitcoin) were less bullish than the broader market. Intraday selling pressure was evident: taker buy/sell ratios fell below 1.0 for both (0.93 for Bitcoin, 0.90 for Ethereum), meaning aggressive sellers outnumbered buyers. Market breadth was weak at only 33.6% of Binance perpetuals up on the day, signaling broad-based selling.",
+  "stocksSummary": "Asian semiconductor stocks surged, likely signaling demand recovery: SK Hynix jumped 6.7%, Samsung Electronics 5.8%, and Zhongji Innolight in Hong Kong leapt 17.3%. Leveraged semiconductor ETFs followed, with CSOP SK Hynix 2x up 12.6% and CSOP Samsung 2x up 10.4%. This strength reflected optimism after CoreWeave reported 168% revenue growth earlier in the day, boosting AI infrastructure sentiment. US stocks also rose (S&P 500 +1.3%, Nasdaq +1.6%), but gold and bonds fell slightly, suggesting a risk-on tone that did not fully lift crypto.",
+  "movers": [
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "Alaya Governance Token surged 205% due to a scheduled token unlock of 164.17 million AGT (worth approximately $4.07 million USD) set for November 16, which sparked speculative buying and positioning ahead of the event.",
+      "hasCause": true
+    },
+    {
+      "symbol": "INITUSDT",
+      "explanation": "Initia's INIT token crashed 39.4% after the Initia Layer 1 blockchain was halted on November 10 due to unauthorized transfers from escrow accounts, resulting in $3.3 million in losses. The chain had only just recovered on November 2 after a previous $2.7 million hack.",
+      "hasCause": true
+    },
+    {
+      "symbol": "ONUSDT",
+      "explanation": "No clear public cause identified for the 22% decline.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Stablecoin Supply Drops $14.2 Billion in Largest Contraction Since 2022 Bear Market",
+        "what": "Total stablecoin supply fell $14.2 billion over the past 30 days, the largest decline since the 2022 crypto downturn, according to Glassnode. USDT and USDC together shed nearly $11 billion as holders redeemed stablecoins for dollars and withdrew cash from the crypto market. Analysts warn the shrinking supply leaves less purchasing power available for a market recovery.",
+        "coins": "stablecoins, USDT, USDC",
+        "timeUTC": "2026-11-11",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907"
+      },
+      {
+        "headline": "Bitcoin Whales Stack Coins While ETF Investors Dump Millions Daily",
+        "what": "Large on-chain holders accumulated Bitcoin through November 9 while spot ETF investors withdrew funds consistently. This divergence reflects conflicting signals: institutional ETF products seeing outflows while the largest traders believe in the recovery enough to buy at current prices.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-11",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-whales-stack-coins-while-etf-investors-dump-millions-daily/"
+      },
+      {
+        "headline": "Initia Blockchain Halted After Second Hack in Three Weeks: $3.3 Million Lost",
+        "what": "The Initia Layer 1 blockchain stopped operations on November 10 after unauthorized transfers from escrow accounts cost the network $3.3 million. This marks the second major security incident in less than three weeks, following a $2.7 million loss from a script caching bug on November 2. The repeated hacks raised questions about operational security.",
+        "coins": "INIT",
+        "timeUTC": "2026-11-10",
+        "source": "Protos",
+        "url": "https://protos.com/binance-labs-backed-initia-hacked-again-3-3m-lost-in-three-weeks/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC Enters Fight Over Who Regulates Perpetual Derivatives on Stocks in the US",
+          "what": "The SEC is stepping into a regulatory dispute over whether perpetual derivatives on individual stocks should be approved. The move signals growing tension between US regulators over jurisdiction and oversight of crypto-native derivatives products.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427"
+        },
+        {
+          "headline": "Uncalled US House Races Could Send More Crypto Allies to Congress",
+          "what": "Several remaining US House races feature pro-crypto candidates and others without stated positions on digital assets, giving crypto advocacy groups an opportunity to push for favorable policies. The outcome could reshape crypto regulation in the next Congress.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/uncalled-midterm-races-add-more-crypto-supporters-congress"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin Short-Term Holders Send $3.6 Billion in BTC to Exchanges at a Loss",
+          "what": "Recent Bitcoin buyers moved approximately $3.6 billion to exchanges below their entry prices, indicating capitulation. On-chain data shows Binance saw sharp inflows from recently moved coins, suggesting forced or defensive selling.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-11",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383077/bitcoin-short-term-holders-send-3-illion-btc-exchanges-loss"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Deutsche Bank Launches Crypto Custody for Companies and Institutions",
+          "what": "Deutsche Bank went live with a custody service holding Bitcoin, Ethereum, and select stablecoins for institutional and corporate clients in Europe. The offering represents a milestone in traditional finance adoption of digital assets.",
+          "coins": "BTC, ETH, stablecoins",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu"
+        },
+        {
+          "headline": "OKX-ICE Tokenized Stock Venue Sets November 23 Launch with Over 70 Assets",
+          "what": "The OKX-ICE tokenized securities venue will debut on November 23 with more than 70 assets, including Strategy and Coinbase shares after most traditional blue-chip companies opted out. The launch puts a new SEC exemption to the test.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month"
+        },
+        {
+          "headline": "Suiet Wallet Shutting Down as Sui Ecosystem Faces Headwinds",
+          "what": "The self-custodial Suiet wallet announced shutdown with API services running through November 14. Sui's DeFi total value locked has fallen more than 22% over the past month, signaling weakening ecosystem activity.",
+          "coins": "SUI",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem"
+        },
+        {
+          "headline": "Kraken's xStocks Adds 200 UK and EU Shares as Assets Top $1.1 Billion",
+          "what": "Kraken's tokenized equity product xStocks expanded with 200 new UK and EU shares as total assets under custody exceeded $1.1 billion. Each token is backed by a share but confers no ownership rights.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance Hacker's XRP Stockpile Rapidly Crashing as Swap Routes Close",
+          "what": "Stolen XRP from the $6.3 billion Binance hack in November continues to diminish as the hacker struggles to convert holdings. Remaining XRP fell to about 60 million as swap interruptions complicate further conversions, according to blockchain analysis firm Elliptic.",
+          "coins": "XRP, BTC (hack impact)",
+          "timeUTC": "2026-11-11",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-hackers-xrp-stockpile-rapidly-crashes-driven-by-bitcoin-swaps/"
+        },
+        {
+          "headline": "Bitcoin Core Patches High-Severity Bug That Could Have Halted Mining",
+          "what": "Three bugs, including one capable of preventing miners from building new blocks, have been patched in Bitcoin Core. The most serious bug posed a denial-of-service risk rather than a theft vector.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-11",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383044/bitcoin-core-patches-bug-could-have-stalled-btc-mining"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "US Stocks Rally on AI Optimism as CoreWeave Reports 168% Revenue Jump",
+          "what": "The S&P 500 rose 1.3% and Nasdaq 1.6% as strong earnings from AI infrastructure provider CoreWeave lifted sentiment. The rally boosted semiconductor stocks globally, including SK Hynix and Samsung.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Nomura Exploring Sale of Crypto Unit Laser Digital",
+          "what": "The Japanese financial conglomerate is considering divesting Laser Digital, which has posted four straight quarterly losses in its European operations. A sale would signal reduced appetite from a major institutional player.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nomura-sale-crypto-unit-laser-digital"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-10",
+    "summary": "US spot Bitcoin ETFs recorded $95 million in net outflows on November 10, extending withdrawals to a fourth straight day. BlackRock's IBIT accounted for $78.2 million of the outflows. Ethereum ETFs recorded only $1.32 million in outflows, a 99% decline from the $184.6 million outflow on November 9. Month-to-date outflows now total approximately $1.6 billion for Bitcoin ETFs across November's six outflow days.",
+    "source": "Kraken, Glassnode (via Glassnode Insights)",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-see-net-outflows-of-201m-and-184-6m-respectively"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK GDP November 2026 — Thursday 12 Nov, 07:00 UTC",
+      "typicalReaction": "High-impact traditional market event. Volatility typically extends to crypto markets on data surprises, especially if the figure shifts expectations for UK interest rates."
+    },
+    {
+      "event": "US Initial Jobless Claims — Thursday 12 Nov, 13:30 UTC",
+      "typicalReaction": "High-impact US economic data. Strong claims figures can trigger risk-off moves across crypto; weak claims may support risk appetite."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders with long and short positions on perpetual futures contracts. Positive rates mean long traders pay shorts, encouraging shorts to open. Negative rates mean shorts pay longs, encouraging longs to open. Higher rates suggest the market is more confident about price increases."
+    },
+    {
+      "term": "Long-to-short ratio (long/short ratio)",
+      "definition": "The number of traders betting prices will go up (longs) divided by the number betting prices will go down (shorts). A ratio of 2.9 means 2.9 longs for every 1 short—a bullish market structure. Ratios above 2.0 are considered very bullish; below 1.0 is bearish."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used for settling perpetual futures contracts. It is calculated to prevent extreme moves and is usually close to the spot price (the price on regular exchanges)."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of contracts (or coins' worth of contracts) still open and unsettled on a futures exchange. An increase suggests traders are opening new positions; a decrease suggests positions are being closed or liquidated."
+    },
+    {
+      "term": "Open-interest change (OI change)",
+      "definition": "The percentage shift in open interest over a period (usually 24 hours). A decline of 2.3% means the total amount of unsettled positions fell—traders are exiting or being forced out."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying versus aggressive selling in the immediate price action. A ratio of 1.0 means equal aggressive buying and selling. Above 1.0 favors buyers; below 1.0 favors sellers. A ratio of 0.93 means sellers are slightly more aggressive."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long-to-short ratio among the largest traders on an exchange, not all accounts. Provides insight into what the biggest money is doing, separately from retail traders."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of assets in a market that are moving up versus down on a given day. A breadth of 33.6% up means about one-third of Binance's perpetual contracts rose, while two-thirds fell—a sign of broad selling."
+    },
+    {
+      "term": "ETF (exchange-traded fund)",
+      "definition": "An investment fund that holds Bitcoin, Ethereum, or other assets and trades on a regular stock exchange. When investors buy an ETF, they own a share of the underlying asset without holding it directly. Inflows mean new money is buying; outflows mean money is being withdrawn."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "A cryptocurrency designed to maintain a stable value, usually pegged to the US dollar at $1. Examples include USDT (Tether) and USDC (Circle). They are used as cash in crypto markets."
+    }
+  ],
+  "_source": "cli"
+}

@@ -1,0 +1,214 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, sırasıyla 74.000 dolar ve 2.056 dolar civarında sabit kaldı. Yatırımcılar zayıf ETF talebini büyük cüzdan birikimlerine karşı tartarken, 14,2 milyar dolarlık stablecoin çıkışı — 2022'den bu yana en büyük — piyasanın azalan satın alma gücünü ortaya çıkardı.",
+  "caveman": "Bitcoin dijital para, Ethereum başka bir dijital para. Bugün fiyatlar neredeyse hareket etmedi. Ama önemli bir şey oldu: insanlar Bitcoin ve Ethereum yatırım fonlarından (ETF'ler) para çıkarıyorlar. Stablecoinler (1 dolar kalması gereken özel kripto paralar) de piyasadan kayboldu — 14,2 milyar dolar, sadece bir ayda! 2022'den bu yana en çoğu. Bu kötü çünkü Bitcoin almak için daha az para var. Ama garip bir şey var: en büyük tüccarlar (balinalar) daha fazla Bitcoin alıyorken, küçük yatırımcılar satıyor ve para kaybediyor. Kore'nin bilgisayar çip şirketleri çok iyi gitti (Samsung +%5,8, SK Hynix +%6,7). Bu tüccarları AI teknolojisi hakkında biraz daha iyi hissettirdi. AGT adlı küçük token %205 atladı çünkü yakında büyük bir coin piyasaya çıkacak. Genel olarak, bu endişe verici bir gündü — daha az para var, insanlar çıkıyor.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum fiyatları beş büyük borsada (Binance, Bybit, OKX, Bitget, Gate) dar aralıklarda kaldı. Fiyatlar yüzde birler düzeyinde uyumlu. Binance hacim açısından öncü: BTC için 9,3 milyar dolar, ETH için 6,2 milyar dolar.",
+  "positioningSummary": "Finansman oranları mütevazı yükseliş baskısı gösterdi — Binance'de Bitcoin %3,8 ve Ethereum %6,4 yıllıklandırılmış. Yükselen fiyata bahis yapan tüccarlar küçük ücretler ödedi. Açık faiz Bitcoin'de biraz düştü (%2,3 azalış Bybit'te), ama Ethereum'da arttı (%0,4 artış Binance'te). Karışık bir sinyal. Pazar pozisyonu hala uzun yönlü açılmış: Bitcoin'in long/short oranı 2,96 ve Ethereum'un 3,52 çok yükseliş. Ama en büyük tüccarlar (Bitcoin için en büyük pozisyon oranı 2,23) genel piyasadan daha az yükseliş. Gün içi satış baskısı açık: alıcı/satıcı oranları her iki tarafta 1,0'ın altında (Bitcoin için 0,93, Ethereum için 0,90). Agresif satıcılar alıcılardan daha fazla. Pazar genişliği zayıf — Binance vadeli işlemlerin sadece %33,6'sı yükseldi. Geniş tabanlı satış sinyali.",
+  "stocksSummary": "Asya yarı iletken hisseleri yükseldi — talep iyileşmesinin sinyali: SK Hynix %6,7 atladı, Samsung Electronics %5,8, Hong Kong'daki Zhongji Innolight %17,3 sıçradı. Kaldıraçlı yarı iletken ETF'leri bunu takip etti: CSOP SK Hynix 2x %12,6 artış, CSOP Samsung 2x %10,4 artış. Bu güç, CoreWeave'nin %168 gelir büyümesini rapor ettikten sonra ortaya çıkan iyimserlikten kaynaklanıyor — AI altyapısı duygusunu artırdı. ABD hisseleri de yükseldi (S&P 500 +%1,3, Nasdaq +%1,6), ama altın ve tahviller biraz düştü. Risk-açı tonu gösteriyor, ama kriptoya tam destek vermedi.",
+  "movers": [
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "Alaya Governance Token, 16 Kasım için planlanan 164,17 milyon AGT tokeninin açılmasının (yaklaşık 4,07 milyon dolar değerinde) neden olduğu spekülatif alımlar ve pozisyon almadan %205 atladı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "INITUSDT",
+      "explanation": "Initia'nın INIT tokeni, 10 Kasım'da Initia Layer 1 blok zincirinin yetkisiz emanet hesabı transferleri nedeniyle durdurulmasından sonra %39,4 çöktü. 3,3 milyon dolar kaybına neden oldu. Zincir, 2 Kasım'da önceki 2,7 milyon dolar hackten sonra toparlanmıştı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "ONUSDT",
+      "explanation": "%22 düşüş için açık bir neden bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Stablecoin Arzı 14,2 Milyar Dolar Düştü — 2022 Ayı Piyasasından Bu Yana En Büyük Daralma",
+        "what": "Glassnode'ye göre, toplam stablecoin arzı son 30 günde 14,2 milyar dolar düştü. 2022 kripto gerilişinden bu yana en büyük düşüş. USDT ve USDC birlikte yaklaşık 11 milyar dolar azaldı. Sahipleri stablecoinleri dolar karşılığında geri aldı ve kripto piyasasından nakit çekti. Analistler, azalan arzın piyasa toparlanması için daha az satın alma gücü bıraktığı konusunda uyarıyor.",
+        "coins": "stablecoins, USDT, USDC",
+        "timeUTC": "2026-11-11",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907"
+      },
+      {
+        "headline": "Bitcoin Balinalar Para Biriktirirken ETF Yatırımcıları Günde Milyonlar Satıyor",
+        "what": "Büyük zincir üstü sahipleri 9 Kasım'a kadar Bitcoin biriktirdiler. Spot ETF yatırımcıları ise tutarlı şekilde para çektiler. Bu farklılık çelişkili sinyalleri gösteriyor: kurumsal ETF ürünleri para çıkışı görüyor iken, en büyük tüccarlar toparlanmaya yeterince inanıyor ve mevcut fiyatlardan alım yapıyorlar.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-11",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-whales-stack-coins-while-etf-investors-dump-millions-daily/"
+      },
+      {
+        "headline": "Initia Blok Zinciri Üç Hafta İçinde İkinci Hack Sonrası Durdu: 3,3 Milyon Dolar Kaybedildi",
+        "what": "Initia Layer 1 blok zinciri, 10 Kasım'da yetkisiz emanet hesabı transferleri sonrası operasyonları durdurdu. Ağ 3,3 milyon dolar kaybetti. Bu, 2 Kasım'da script önbelleğe alma hatası nedeniyle 2,7 milyon dolar kaybından sonra üç haftada ikinci büyük güvenlik olayı. Tekrarlanan hackler operasyonel güvenlik hakkında soru işaretleri ortaya çıkardı.",
+        "coins": "INIT",
+        "timeUTC": "2026-11-10",
+        "source": "Protos",
+        "url": "https://protos.com/binance-labs-backed-initia-hacked-again-3-3m-lost-in-three-weeks/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "SEC, ABD'de Hisse Senetleri Üzerindeki Vadeli İşlemleri Kimin Düzenleyeceği Konusunda Kavgaya Giriyor",
+          "what": "SEC, bireysel hisse senetleri üzerindeki vadeli işlemlerin onaylanıp onaylanmaması konusundaki düzenleme anlaşmazlığına girişiyor. Bu adım, ABD düzenleyicileri arasında kripto-doğal vadeli işlem ürünlerinin yetki alanı ve gözetimi üzerinde artan gerilimi gösteriyor.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427"
+        },
+        {
+          "headline": "Kesinleşmemiş ABD Temsilciler Meclisi Yarışları Kongre'ye Daha Fazla Kripto Dostunu Gönderebilir",
+          "what": "Kalan birkaç ABD Temsilciler Meclisi yarışında kripto yanlısı adaylar ve dijital varlıklar hakkında açık pozisyonu olmayan adaylar var. Bu, kripto savunuculuk gruplarına lehte politika peşinde koşma fırsatı veriyor. Sonuç, gelecek Kongre'de kripto düzenlemesini yeniden şekillendirebilir.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/uncalled-midterm-races-add-more-crypto-supporters-congress"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin Kısa Vadeli Sahipleri 3,6 Milyar Dolar BTC'yi Kaybına Borsalara Gönderdi",
+          "what": "Son Bitcoin alıcıları yaklaşık 3,6 milyar dolar BTC'yi alış fiyatlarının altında borsalara taşıdılar. Pes etmeyi gösteriyor. Zincir üstü veriler, Binance'in yakın zamanda taşınan coinlerden keskin girişleri gördüğünü gösteriyor. Zorla veya savunmacı satışı işaret ediyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-11",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383077/bitcoin-short-term-holders-send-3-illion-btc-exchanges-loss"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Deutsche Bank, Şirketler ve Kurumlar İçin Kripto Saklama Hizmetini Başlattı",
+          "what": "Deutsche Bank, Avrupa'daki kurumsal ve şirket müşterileri için Bitcoin, Ethereum ve seçili stablecoinleri tutan bir saklama hizmetini canlı hale getirdi. Bu teklif, geleneksel finans tarafından dijital varlıkları alımında bir dönüm noktasıdır.",
+          "coins": "BTC, ETH, stablecoins",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu"
+        },
+        {
+          "headline": "OKX-ICE Tokenleştirilmiş Hisse Senedi Platformu 23 Kasım'da 70'ten Fazla Varlıkla Başlayacak",
+          "what": "OKX-ICE tokenleştirilmiş menkul kıymet platformu 23 Kasım'da 70'ten fazla varlıkla debüt yapacak. Strategy ve Coinbase hisseleri dahil. Çoğu geleneksel mavi çip şirketi çıktı. Başlatma yeni bir SEC muafiyetini teste koyuyor.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month"
+        },
+        {
+          "headline": "Suiet Cüzdan Kapanıyor — Sui Ekosistemi Zorlukla Karşı Karşıya",
+          "what": "Kendi saklama hizmetli Suiet cüzdanı kapanışını duyurdu. API hizmetleri 14 Kasım'a kadar çalışacak. Sui'nin DeFi toplam kilitli değeri son ay içinde %22'den fazla düştü. Zayıflayan ekosistem aktivitesinin sinyali.",
+          "coins": "SUI",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem"
+        },
+        {
+          "headline": "Kraken'in xStocks, 200 UK ve AB Hissesini Ekliyor — Varlıklar 1,1 Milyar Doları Aştı",
+          "what": "Kraken'in tokenleştirilmiş öz sermaye ürünü xStocks, 200 yeni UK ve AB hissesiyle genişledi. Saklama altındaki toplam varlıklar 1,1 milyar doları aştı. Her token bir hisse tarafından destekleniyor ama mülkiyet hakkı vermez.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance Hacker'ın XRP Stoğu Değişim Yolları Kapanırken Hızla Çöküyor",
+          "what": "Kasım ayında 6,3 milyar dolarlık Binance hackinden çalınan XRP, hacker dönüştürme de zorluk çektikçe azalmaya devam ediyor. Kalan XRP, değişim kesintileri daha fazla dönüştürmeyi zorlaştırırken yaklaşık 60 milyona düştü. Blok zinciri analiz firması Elliptic'e göre.",
+          "coins": "XRP, BTC (hack impact)",
+          "timeUTC": "2026-11-11",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-hackers-xrp-stockpile-rapidly-crashes-driven-by-bitcoin-swaps/"
+        },
+        {
+          "headline": "Bitcoin Core, Madenciliği Durdurabilecek Yüksek Önem Dereceli Hatayı Yamadı",
+          "what": "Bitcoin Core'da madencilerin yeni blok oluşturmasını engelleyebilecek olan da dahil olmak üzere üç hata yamandı. En ciddi hata, hırsızlık vektörü yerine hizmet reddi riski oluşturdu.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-11",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383044/bitcoin-core-patches-bug-could-have-stalled-btc-mining"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "ABD Hisseleri AI İyimserliğiyle Yükseliyor — CoreWeave %168 Gelir Atışını Rapor Ediyor",
+          "what": "S&P 500 %1,3 ve Nasdaq %1,6 yükseldi. AI altyapısı sağlayıcısı CoreWeave'nin güçlü kazançları duyguyu kaldırdı. Ralli, küresel olarak SK Hynix ve Samsung dahil olmak üzere yarı iletken hisselerini artırdı.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Nomura, Kripto Bölümü Laser Digital'i Satışını Araştırıyor",
+          "what": "Japon finansal holdingi Laser Digital'i elden çıkarmayı düşünüyor. Laser Digital, Avrupa operasyonlarında dört ardışık çeyrek kayıp kaydetti. Satış, büyük bir kurumsal oyuncudan azalan iştahı işaret edecektir.",
+          "coins": "N/A",
+          "timeUTC": "2026-11-11",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/nomura-sale-crypto-unit-laser-digital"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-10",
+    "summary": "ABD spot Bitcoin ETF'leri 10 Kasım'da net 95 milyon dolar para çıkışı kaydetti. Dördüncü ardışık günü uzattı. BlackRock'un IBIT'i para çıkışının 78,2 milyonunu oluşturdu. Ethereum ETF'leri sadece 1,32 milyon dolar para çıkışı kaydetti. Önceki gün 184,6 milyon dolarlık para çıkışından %99 azalış. Kasım ayı başından bu yana toplam para çıkışları yaklaşık 1,6 milyar dolar. Bitcoin ETF'leri için Kasım'ın altı para çıkış gününde.",
+    "source": "Kraken, Glassnode (via Glassnode Insights)",
+    "url": "https://www.kucoin.com/news/flash/us-bitcoin-and-ethereum-spot-etfs-see-net-outflows-of-201m-and-184-6m-respectively"
+  },
+  "calendarNotes": [
+    {
+      "event": "UK GDP November 2026 — Thursday 12 Nov, 07:00 UTC",
+      "typicalReaction": "Yüksek etkili geleneksel pazar olayı. Volatilite tipik olarak veri sürprizlerinde kripto piyasalarına yayılır. Özellikle rakam UK faiz oranı beklentilerini değiştirirse."
+    },
+    {
+      "event": "US Initial Jobless Claims — Thursday 12 Nov, 13:30 UTC",
+      "typicalReaction": "Yüksek etkili ABD ekonomik verileri. Güçlü işsizlik başvuruları kripto piyasaları genelinde risk-kapalı hareketleri tetikleyebilir. Zayıf veriler risk iştahını destekleyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Finansman Oranı",
+      "definition": "Vadeli işlem sözleşmelerinde long ve short pozisyon tutan tüccarlar arasında periyodik ödeme. Pozitif oranlar, long tüccarlar short satıcılarını ödüyor, shortları açmayı teşvik ediyor. Negatif oranlar, short satıcılar long tüccarları ödüyor, longları açmayı teşvik ediyor. Yüksek oranlar, piyasanın fiyat artışlarına daha yüksek güvenini gösteriyor."
+    },
+    {
+      "term": "Long/Short Oranı",
+      "definition": "Fiyatların yükseleceğine bahis yapan tüccar sayısı (long) bölü fiyatların düşeceğine bahis yapanlar (short). 2,9 oranı her 1 short'a karşı 2,9 long anlamına geliyor — yükseliş pazar yapısı. 2,0'ın üzerindeki oranlar çok yükseliş, 1,0'ın altı ise düşüş olarak kabul edilir."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Vadeli işlem sözleşmelerinin kapatılmasında kullanılan referans fiyatı. Aşırı hareketleri önlemek için hesaplanır. Genellikle spot fiyata (normal borsalardaki fiyat) yakındır."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Vadeli işlem borsasında hala açık ve kapatılmamış sözleşmelerin toplam sayısı (veya kripto karşılığı). Artış, tüccarların yeni pozisyon açtığını; azalış, pozisyonların kapatıldığını veya tasfiye edildiğini gösteriyor."
+    },
+    {
+      "term": "Açık Faiz Değişimi",
+      "definition": "Bir zaman diliminde (genellikle 24 saat) açık faizin yüzde değişimi. %2,3'lük bir düşüş, kapatılmamış pozisyonların toplam miktarının düştüğü anlamına geliyor. Tüccarlar pozisyonlarından çıkıyor veya zorunlu olarak çıkarılıyor."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Anlık fiyat hareketinde agresif alım ve agresif satım ölçüsü. 1,0 oranı eşit agresif alım ve satım anlamına geliyor. 1,0'ın üzerinde alıcıların lehine, 1,0'ın altında satıcıların lehine. 0,93 oranı satıcıların biraz daha agresif olduğu anlamına geliyor."
+    },
+    {
+      "term": "En Büyük Pozisyon Oranı",
+      "definition": "Bir borsadaki tüm hesaplar değil, en büyük tüccarlar arasındaki long/short oranı. En büyük paranın ne yaptığının içgörüsünü sağlıyor. Perakende tüccarlardan ayrı olarak."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Belirli bir günde bir pazardaki varlıkların yükselen yüzdesi ve düşen yüzdesinin karşılaştırması. %33,6'lık bir genişlik, Binance'in vadeli işlemlerinin yaklaşık üçte biri yükseldiği, üçte ikisinin düştüğü anlamına geliyor. Geniş tabanlı satışın sinyali."
+    },
+    {
+      "term": "ETF (Borsa Yatırım Fonu)",
+      "definition": "Bitcoin, Ethereum veya diğer varlıkları tutan ve normal bir borsa'da işlem gören yatırım fonu. Yatırımcılar bir ETF satın aldığında, temel varlığın bir payına sahip olurlar. Doğrudan tutmak zorunda değildir. Para girişleri yeni paranın alım yaptığı anlamına; para çıkışları paranın çekildiği anlamına gelir."
+    },
+    {
+      "term": "İstikrarlı Kripto Para",
+      "definition": "İstikrarlı bir değer korumak için tasarlanan kripto para. Genellikle ABD doları başına 1 dolara tutturulur. USDT (Tether) ve USDC (Circle) örneklerdir. Kripto piyasalarında nakit olarak kullanılır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "6bac14ca0ee3da8d"
+}

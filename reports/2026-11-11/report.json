@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-11",
+  "kind": "market",
+  "dateLong": "Wednesday, 11 November 2026",
+  "coversUTC": "2026-11-11 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum held steady near $74,000 and $2,056 as traders weighed weak ETF demand against large-wallet accumulation, while a $14.2 billion stablecoin withdrawal—the biggest since 2022—exposed the market's shrinking purchasing power.",
+  "newsCount": 14,
+  "macro": {
+    "BTC": 0.3035524722783094,
+    "ETH": 0.14082036389150848
+  },
+  "topMover": {
+    "symbol": "AGTUSDT",
+    "chgPct": 205.09708737864082
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "12 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
