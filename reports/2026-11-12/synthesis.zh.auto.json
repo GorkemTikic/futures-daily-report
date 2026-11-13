@@ -1,0 +1,218 @@
+{
+  "oneLine": "11月12日，比特币下跌3.45%，以太坊下跌1.77%，英伟达首席执行官辞职引发科技股抛售，同时美国司法部从朝鲜币安黑客事件中追回12亿美元。",
+  "caveman": "比特币是一种数字货币，人们像交易股票一样交易它。今天它的价值下降了3.45%。以太坊是另一种数字货币，下降了1.77%。导致一切下跌的主要原因是英伟达的首席执行官詹森·黄今天不得不辞职。这个消息一出来，人们就感到害怕，开始卖掉他们的数字货币。与此同时，美国司法部做了一件好事：他们控制了价值12亿美元的资金，这些资金是朝鲜从币安（一个大型数字货币交易所）偷走的。今天市场上的恐惧情绪有所增加。这是一个令人担忧的一天，但不是灾难——只是人们因为英伟达的消息而感到紧张。",
+  "priceVolumeSummary": "五大交易所对比特币价格约为71,454美元达成一致。币安以112.5亿美元的交易量领先，其次是OKX，交易量为69.3亿美元。比特币和以太坊与英伟达首席执行官辞职引发的更广泛科技股抛售同步下跌。",
+  "positioningSummary": "比特币融资率保持在每8小时0.0001（年化10.95%），显示多头仍愿意支付来维持多头头寸，但信心混合。在币安，最大的交易者持有2.29比1的多空比，表明机构交易者仍然看多，尽管挂单买卖比仅为1.014（买盘压力仅略高于卖盘压力）。未平仓头寸在部分平台上升（Bybit +6.52%），但在其他平台持平或下降（币安 +1.08%），表明交易者在调整头寸而非增加新头寸。市场广度较弱：仅39.95%的加密资产当日上涨。",
+  "stocksSummary": "亚洲半导体股表现参差不齐：韩国SK海力士上升1.79%，三星电子上升3.41%，但香港科技股如智谱AI下跌6.752%，MiniMax下跌5.582%。美国杠杆交易所交易基金随着交易者对英伟达崩盘的反应而波动：反向半导体SOXS下跌8.156%，而看多SOXL上升9.162%，显示恐慌轮换。油价领导大宗商品上涨（WTI +2.775%，布伦特油价 +3.082%），因为交易者寻求通胀对冲，但贵金属下跌（黄金永续合约 -2.398%，白银 -2.256%）。传统股票指数收盘下跌0.35–0.40%（标普500、纳斯达克），确认了科技股领导的抛售。",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "在新闻中未找到明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BARDUSDT",
+      "explanation": "在新闻中未找到明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "在新闻中未找到明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "英伟达首席执行官詹森·黄辞职，引发7.5亿美元加密货币清算和比特币创12周新低",
+        "what": "詹森·黄在领导他联合创办的公司33年后退出了英伟达首席执行官一职。公司首席财务官科莱特·克雷斯接任临时首席执行官。这一意外辞职引发了广泛的科技股抛售，导致比特币跌至8月20日以来的最低水平，加密货币期货清算金额达7.5亿美元。",
+        "coins": "比特币、以太坊、科技敏感型代币",
+        "timeUTC": "2026-11-12 11:37",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026-11-12/nvidia-shares-plunge-10-as-jensen-huang-resigns"
+      },
+      {
+        "headline": "美国司法部从朝鲜币安黑客事件中追回12亿美元，关闭盗窃4亿美元的FaceStealer深度伪造诈骗",
+        "what": "美国司法部获得法庭授权，以没收由朝鲜军方黑客（代号TraderTraitor）在2024年从币安偷走的12亿美元。联邦特工还关闭了用于FaceStealer计划的云基础设施，该计划使用人工智能深度伪造视频通话欺骗加密货币工作人员安装恶意软件。这次没收行动代表了有记录以来最大的单起加密货币盗窃追回行动。",
+        "coins": "币安、被盗加密货币、无具体代币",
+        "timeUTC": "2026-11-12 19:22",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026-11-12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
+      },
+      {
+        "headline": "特朗普政府提名商品期货交易委员会和证券交易委员会候选人，MicroStrategy被移出MSCI指数",
+        "what": "美国总统唐纳德·特朗普一年来首次为商品期货交易委员会和证券交易委员会各提名两位候选人，预示着加密货币和衍生品的新监管时代。与此同时，MSCI确认将持有387,860个比特币的MicroStrategy从其股票指数中删除，结束了该公司获得被动资本的重要机构渠道。",
+        "coins": "比特币（通过MicroStrategy持有）、一般加密货币监管",
+        "timeUTC": "2026-11-12 19:07",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026-11-12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "纽约金融服务部为加密货币公司设定新的广告标准",
+          "what": "纽约金融服务部发布了新的指导意见，概述了加密货币公司建立管理广告和营销实践的政策和程序的期望。",
+          "coins": "一般加密货币行业",
+          "timeUTC": "2026-11-12 15:43",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-12-nydfs-sets-fresh-advertising-standards-crypto-firms-439014"
+        },
+        {
+          "headline": "美国司法部、银行、去中心化金融公司主张伊利诺伊州加密货币税不可执行，法庭上提出质疑",
+          "what": "美国司法部、商会、投资集团以及包括a16z、Paradigm和Uniswap在内的去中心化金融公司提交法庭陈述意见，主张伊利诺伊州0.2%的加密货币交易税按现状不可执行，违反联邦法律。业内律师表示，这项税收会增加巨大的合规成本，即使在交易没有利润的情况下也适用。",
+          "coins": "一般加密货币、去中心化金融",
+          "timeUTC": "2026-11-12 14:32",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026-11-12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court"
+        },
+        {
+          "headline": "路易斯安那州起诉Kalshi、Robinhood和其他预测市场平台",
+          "what": "路易斯安那州加入了起诉预测市场平台的美国各州不断增加的名单，在关于衍生品市场监管的州与联邦当局之间日益升级的监管斗争中，将Kalshi和Robinhood列为被告。",
+          "coins": "预测市场代币（如有）",
+          "timeUTC": "2026-11-12 17:31",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052"
+        },
+        {
+          "headline": "Kalshi因Polymarket投资冲突终止唐纳德·特朗普Jr.的顾问合同",
+          "what": "预测市场平台Kalshi终止了与唐纳德·特朗普Jr.的顾问关系，称这一决定是相互的，并在1789资本对竞争对手预测平台Polymarket的投资之后做出。公司否认此举是出于政治动机。",
+          "coins": "预测市场",
+          "timeUTC": "2026-11-12 18:05",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-ends-donald-trump-jr-advisory-role-polymarket-investment"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币和以太坊现货交易所交易基金大幅流出，机构削减风险",
+          "what": "美国现货比特币交易所交易基金在11月12日录得262.8百万美元（3,621个比特币）的净流出，而以太坊交易所交易基金流出1.32亿美元（66,020个以太坊）。贝莱德的IBIT基金在机构削减对科技股抛售期间的敞口时领导了卖压。这延续了比特币交易所交易基金为期七天的流出，总计14.1亿美元。",
+          "coins": "比特币、以太坊",
+          "timeUTC": "2026-11-12 (daily close)",
+          "source": "Phemex / multiple trackers",
+          "url": "https://phemex.com/news/article/bitcoin-and-ethereum-etfs-post-major-net-outflows-in-single-day-and-weekly-totals-103331"
+        },
+        {
+          "headline": "Gemini交易量下跌73%，第三季度收入降至4100万美元",
+          "what": "由温克莱沃斯支持的加密货币交易所Gemini报告第三季度收入为4100万美元，交易量较前一时期下降73%。股票盘后上涨超过6%，但年至今仍下跌约75%。",
+          "coins": "一般交易所",
+          "timeUTC": "2026-11-12 18:18",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "美国存管结算公司将Solana添加到华尔街代币化路线图，目标2027年推出",
+          "what": "美国存管结算公司宣布将把代币化的股票、交易所交易基金和美国国债带到Solana区块链，将其2027年路线图扩展到之前宣布的Stellar和Arc区块链之外。这是第三个主要的美国代币化股票平台场所（继Avalanche用于纽约证券交易所和Arc用于纳斯达克之后）。",
+          "coins": "Solana",
+          "timeUTC": "2026-11-12 13:05",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026-11-12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout"
+        },
+        {
+          "headline": "Visa将西联USDPT稳定币添加到VisaNet结算网络",
+          "what": "Visa和Anchorage Digital宣布合格的机构现在可以使用西联的USDPT稳定币（由Anchorage Digital银行发行和托管）来结算VisaNet支付义务。这是稳定币首次整合到Visa的结算基础设施中。",
+          "coins": "USDPT（西联稳定币）",
+          "timeUTC": "2026-11-12 13:20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520"
+        },
+        {
+          "headline": "Tether Gold发行方完成四大会计师事务所审计，追随USDT步伐",
+          "what": "毕马威美国公司完成了对TG Commodities（Tether Gold的发行方）的审计，并对其2025年财务账户发表了无保留意见。这是继Tether Limited完成稳定币业务的四大会计师事务所审计之后的事。",
+          "coins": "Tether Gold（XAUT）",
+          "timeUTC": "2026-11-12 12:43",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-12-tether-gold-issuer-follows-usdt-to-complete-big-four-audit-438849"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "朝鲜黑客推出模因币来清洗63亿美元币安黑客事件所得",
+          "what": "在美国司法部的没收行动之后，有报告称朝鲜黑客正在创建模因币来清洗从63亿美元币安黑客事件中盗取的剩余资金。这是已知的国家行为者首次使用低流动性加密资产进行洗钱的事件之一。",
+          "coins": "各种模因币（未指定）",
+          "timeUTC": "2026-11-12 18:43",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express"
+        },
+        {
+          "headline": "Maple Finance联合创始人和首席运营官因战略分歧退出",
+          "what": "Maple Finance联合创始人乔·弗拉纳根和首席运营官瑞安·奥谢亚因对公司战略方向的分歧而离开去中心化金融协议。尽管公司报告收入增长，但Maple的治理代币SYRUP下跌。",
+          "coins": "Maple（MAPLE）/ SYRUP",
+          "timeUTC": "2026-11-12 19:39",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/maple-finance-strategy-rift-co-founder-coo-exit"
+        },
+        {
+          "headline": "Zcash跌破1000美元，因沉寂钱包向交易所转账",
+          "what": "隐私币Zcash跌破每个代币1000美元，因为杠杆交易者放弃看多头寸，沉寂钱包向交易所转账持有资产导致卖压加剧。此举延续了隐私资产长达数周的下跌。",
+          "coins": "Zcash（ZEC）",
+          "timeUTC": "2026-11-12 15:31",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zcash-loses-1000-as-dormant-wallets-send-zec-coins-to-exchanges"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-12",
+    "summary": "美国现货比特币交易所交易基金发布了262.8百万美元（3,621个比特币）的净流出，而以太坊交易所交易基金的净流出为1.32亿美元（66,020个以太坊）。贝莱德的IBIT基金在交易者在英伟达领导的科技股抛售期间削减风险敞口时领导了机构卖出。",
+    "source": "Phemex, Tokenpost, multiple ETF trackers",
+    "url": "https://phemex.com/news/article/bitcoin-and-ethereum-etfs-post-major-net-outflows-in-single-day-and-weekly-totals-103331"
+  },
+  "calendarNotes": [
+    {
+      "event": "Eurozone GDP Flash November 2026 (Fri 13 Nov, 10:00 UTC)",
+      "typicalReaction": "高影响力经济数据。如果数据较弱，预计传统市场波动加剧，加密货币面临风险规避压力。"
+    },
+    {
+      "event": "US PPI and Core PPI m/m (Fri 13 Nov, 13:30 UTC)",
+      "typicalReaction": "高影响力通胀数据。强于预期的读数通常会强化美元并对风险资产施加压力；较弱的读数可能支持加密货币和股票。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "计算周期",
+      "definition": "用于衡量价格变化的时间段。UTC日是指单个日历日的00:00–23:59 UTC。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "市场中上涨（价格上升）与下跌（价格下降）的资产占比。以占总数的百分比衡量。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "衡量市场情绪的流行指标，范围从0（极度恐惧）到100（极度贪婪）。读数低于25表示恐惧；高于75表示贪婪。"
+    },
+    {
+      "term": "融资率",
+      "definition": "永续期货合约上多头和空头交易者每8小时支付一次的费用。当融资为正时，多头支付空头（看多偏差）。当为负时，空头支付多头（看空偏差）。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有看多头寸（多头）与看空头寸（空头）的交易者数量比较。比率高于1表示多头居多；低于1表示空头居多。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货交易所设定的官方参考价格，用于计算利润和亏损以及触发清算。通常是现货价格和期货价格的平均值，以防止操纵。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "交易所或市场上所有活跃（未平仓）期货头寸的总美元价值。未平仓头寸上升表明交易者在增加新头寸；下降表明头寸正在平仓。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "交易日期间未平仓头寸的百分比增减。正变化表示新资金进入市场；负变化表示资金离开。"
+    },
+    {
+      "term": "挂单买卖比",
+      "definition": "衡量积极买卖压力的指标。比率高于1.0表示更多买订单在市场上成交（积极买入）；低于1.0表示更多卖订单在市场上成交（积极卖出）。"
+    },
+    {
+      "term": "顶级交易者多空比",
+      "definition": "仅在交易所最大交易者中计算的多空比，而不是所有交易者。它反映专业交易者或大户交易者的头寸。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "2f15a7f2047e1e6e"
+}

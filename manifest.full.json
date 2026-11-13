@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-12T00:12:30.243Z",
-  "count": 148,
+  "generatedAt": "2026-11-13T00:06:15.668Z",
+  "count": 149,
   "counts": {
-    "total": 148,
-    "market": 61,
+    "total": 149,
+    "market": 62,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-11",
+  "latest": "2026-11-12",
   "reports": [
+    {
+      "date": "2026-11-12",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -3.444673023013146,
+        "ETH": -1.7666692616091322
+      },
+      "marketSummary": "Bitcoin fell 3.45% and Ethereum fell 1.77% on November 12 as Nvidia's CEO resignation triggered a tech selloff, while the DOJ seized $1.2 billion from North Korea's Binance hack.",
+      "oneLine": "Bitcoin fell 3.45% and Ethereum fell 1.77% on November 12 as Nvidia's CEO resignation triggered a tech selloff, while the DOJ seized $1.2 billion from North Korea's Binance hack.",
+      "newsCount": 15,
+      "topMover": {
+        "symbol": "JCTUSDT",
+        "chgPct": -52.79824736108345
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-12/summary_2026-11-12.html",
+        "pdf": "reports/2026-11-12/summary_2026-11-12.pdf",
+        "md": "reports/2026-11-12/summary_2026-11-12.md"
+      }
+    },
     {
       "date": "2026-11-11",
       "kind": "market",

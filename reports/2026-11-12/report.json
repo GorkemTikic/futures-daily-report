@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-12",
+  "kind": "market",
+  "dateLong": "Thursday, 12 November 2026",
+  "coversUTC": "2026-11-12 00:00–23:59 UTC",
+  "oneLine": "Bitcoin fell 3.45% and Ethereum fell 1.77% on November 12 as Nvidia's CEO resignation triggered a tech selloff, while the DOJ seized $1.2 billion from North Korea's Binance hack.",
+  "newsCount": 15,
+  "macro": {
+    "BTC": -3.444673023013146,
+    "ETH": -1.7666692616091322
+  },
+  "topMover": {
+    "symbol": "JCTUSDT",
+    "chgPct": -52.79824736108345
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "13 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

@@ -1,0 +1,217 @@
+{
+  "oneLine": "Bitcoin fell 3.45% and Ethereum fell 1.77% on November 12 as Nvidia's CEO resignation triggered a tech selloff, while the DOJ seized $1.2 billion from North Korea's Binance hack.",
+  "caveman": "Bitcoin is digital money that people trade like stocks. Today it went down 3.45% in value. Ethereum, another digital money, went down 1.77%. The big reason everything fell was that Jensen Huang, the person who runs Nvidia (a huge computer chip company), had to resign today. When that news came out, people got scared and sold their digital money. Meanwhile, the U.S. Justice Department did something good: they got control of $1.2 billion that North Korea had stolen from Binance, a big digital money exchange. The scared feeling in the market grew a little today. This was a worrying day, but not a disaster—just people being nervous because of the Nvidia news.",
+  "priceVolumeSummary": "All five major exchanges agreed Bitcoin was around $71,454. Binance led the volume at $11.25 billion USD, followed by OKX at $6.93 billion. Bitcoin and Ethereum fell in lockstep with the broader tech selloff triggered by Nvidia's CEO resignation.",
+  "positioningSummary": "Bitcoin funding rates remained at 0.0001 per 8 hours (10.95% annualized), showing longs still willing to pay to stay long, but conviction was mixed. On Binance, the largest traders held a 2.29-to-1 long-to-short ratio, suggesting institutional traders remained long, though the taker buy-to-sell ratio was just 1.014 (only slightly more buying pressure than selling). Open interest rose on some venues (Bybit +6.52%) but was flat to down elsewhere (Binance +1.08%), indicating traders were repositioning rather than adding net-new bets. Market breadth was weak: only 39.95% of crypto assets were up for the day.",
+  "stocksSummary": "Asian semiconductor stocks were mixed: South Korea's SK Hynix gained 1.79% and Samsung Electronics rose 3.41%, but Hong Kong tech faces like Zhipu AI fell 6.752% and MiniMax dropped 5.582%. US leverage ETFs gyrated as traders reacted to Nvidia's collapse: the inverse semiconductor SOXS fell 8.156%, while bullish SOXL gained 9.162%, showing panic rotations. Oil led commodities higher (WTI +2.775%, Brent +3.082%) as traders sought inflation hedges, but precious metals declined (gold perp -2.398%, silver -2.256%). Traditional stock indices closed down 0.35–0.40% (S&P 500, Nasdaq), confirming the tech-led selloff.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "No clear public cause identified in news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BARDUSDT",
+      "explanation": "No clear public cause identified in news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "No clear public cause identified in news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Nvidia CEO Jensen Huang resigns, triggering $750M in crypto liquidations and Bitcoin plunge to 12-week low",
+        "what": "Jensen Huang stepped down as CEO of Nvidia after 33 years leading the company he co-founded. Colette Kress, the company's CFO, took over as interim CEO. The surprise resignation sparked a broad tech selloff that sent Bitcoin to its lowest level since August 20, with $750 million in crypto futures liquidated.",
+        "coins": "Bitcoin, Ethereum, tech-exposed altcoins",
+        "timeUTC": "2026-11-12 11:37",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026-11-12/nvidia-shares-plunge-10-as-jensen-huang-resigns"
+      },
+      {
+        "headline": "DOJ seizes $1.2 billion from North Korea's Binance hack, shuts down FaceStealer deepfake scam that stole $400M",
+        "what": "The U.S. Department of Justice obtained court authority to seize more than $1.2 billion stolen from Binance in 2024 by North Korean military hackers known as TraderTraitor. Federal agents also shut down cloud infrastructure used in the FaceStealer scheme, which used AI deepfake video calls to trick crypto workers into installing malware. The seizure represents the largest single crypto-theft recovery action on record.",
+        "coins": "Binance, stolen crypto, no specific altcoins",
+        "timeUTC": "2026-11-12 19:22",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026-11-12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
+      },
+      {
+        "headline": "Trump administration names CFTC and SEC nominees as MicroStrategy gets removed from MSCI indexes",
+        "what": "U.S. President Donald Trump named two nominees each to the Commodity Futures Trading Commission and Securities and Exchange Commission for the first time in a year, signaling a new regulatory era for crypto and derivatives. Separately, MSCI confirmed it is removing MicroStrategy (which holds 387,860 Bitcoin) from its stock indexes, ending a significant institutional channel for passive capital into the company.",
+        "coins": "Bitcoin (via MicroStrategy holdings), general crypto regulation",
+        "timeUTC": "2026-11-12 19:07",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026-11-12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "NYDFS sets fresh advertising standards for crypto firms",
+          "what": "The New York Department of Financial Services issued new guidance outlining expectations for crypto companies to establish policies and procedures governing advertising and marketing practices.",
+          "coins": "General crypto industry",
+          "timeUTC": "2026-11-12 15:43",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-12-nydfs-sets-fresh-advertising-standards-crypto-firms-439014"
+        },
+        {
+          "headline": "DOJ, banks, DeFi firms argue Illinois crypto tax is unenforceable, challenge in court",
+          "what": "The U.S. Justice Department, the Chamber of Commerce, investment groups, and DeFi firms including a16z, Paradigm, and Uniswap filed court briefs arguing that Illinois's 0.2% crypto transaction tax is unenforceable as written and violates federal law. Industry lawyers say the tax would raise massive compliance costs by applying even when trades yield no profit.",
+          "coins": "General crypto, DeFi",
+          "timeUTC": "2026-11-12 14:32",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026-11-12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court"
+        },
+        {
+          "headline": "Louisiana sues Kalshi, Robinhood, and other prediction markets",
+          "what": "Louisiana joined the growing list of U.S. states suing prediction market platforms, naming Kalshi and Robinhood among defendants in an escalating regulatory fight between state and federal authorities over derivatives market oversight.",
+          "coins": "Prediction market tokens (if any)",
+          "timeUTC": "2026-11-12 17:31",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052"
+        },
+        {
+          "headline": "Kalshi ends Donald Trump Jr.'s advisory contract over Polymarket investment conflict",
+          "what": "Prediction market platform Kalshi ended its advisory relationship with Donald Trump Jr., saying the decision was mutual and followed 1789 Capital's investment in rival prediction platform Polymarket. The company denied the move was politically motivated.",
+          "coins": "Prediction markets",
+          "timeUTC": "2026-11-12 18:05",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-ends-donald-trump-jr-advisory-role-polymarket-investment"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin and Ethereum spot ETFs post heavy outflows as institutions trim risk",
+          "what": "U.S. spot Bitcoin ETFs recorded a net outflow of $262.8 million (3,621 BTC) on November 12, while Ethereum ETFs saw $132.41 million in outflows (66,020 ETH). BlackRock's IBIT fund led the selling pressure as institutions trimmed exposure during the tech-triggered selloff. This extended a seven-day streak of outflows totaling $1.41 billion in Bitcoin ETFs.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-11-12 (daily close)",
+          "source": "Phemex / multiple trackers",
+          "url": "https://phemex.com/news/article/bitcoin-and-ethereum-etfs-post-major-net-outflows-in-single-day-and-weekly-totals-103331"
+        },
+        {
+          "headline": "Gemini trading volume drops 73%, Q3 revenue falls to $41 million",
+          "what": "The Winklevoss-backed crypto exchange Gemini reported Q3 revenue of $41 million with trading volume declining 73% from the previous period. The stock rose more than 6% after-hours, though it remains down approximately 75% year-to-date.",
+          "coins": "General exchange",
+          "timeUTC": "2026-11-12 18:18",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "DTCC adds Solana to wall-street tokenization roadmap, targeting 2027 launch",
+          "what": "The Depository Trust & Clearing Corporation announced it will bring tokenized stocks, ETFs, and U.S. Treasuries to the Solana blockchain, expanding its 2027 roadmap beyond previously announced blockchains Stellar and Arc. This marks the third major U.S. tokenized stock platform venue (after Avalanche for NYSE and Arc for Nasdaq).",
+          "coins": "Solana",
+          "timeUTC": "2026-11-12 13:05",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026-11-12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout"
+        },
+        {
+          "headline": "Visa adds Western Union USDPT stablecoin to VisaNet settlement network",
+          "what": "Visa and Anchorage Digital announced that eligible institutions can now use Western Union's USDPT stablecoin (issued and custodied by Anchorage Digital Bank) to settle VisaNet payment obligations. This marks the first stablecoin integration into Visa's settlement infrastructure.",
+          "coins": "USDPT (Western Union stablecoin)",
+          "timeUTC": "2026-11-12 13:20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520"
+        },
+        {
+          "headline": "Tether Gold issuer completes Big Four audit, following USDT lead",
+          "what": "KPMG U.S. completed an audit of TG Commodities (the issuer of Tether Gold) and issued an unqualified, or clean, opinion on its 2025 financial accounts. This follows Tether Limited's own completion of Big Four audits for its stablecoin operations.",
+          "coins": "Tether Gold (XAUT)",
+          "timeUTC": "2026-11-12 12:43",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-12-tether-gold-issuer-follows-usdt-to-complete-big-four-audit-438849"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "North Korean hackers launch memecoins to launder $6.3 billion Binance hack proceeds",
+          "what": "Following the DOJ's seizure action, reports emerged that North Korean hackers are creating memecoins to launder the remaining stolen funds from the $6.3 billion Binance hack. This is one of the first known instances of state actors using low-liquidity crypto assets for money laundering.",
+          "coins": "Various memecoins (unspecified)",
+          "timeUTC": "2026-11-12 18:43",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express"
+        },
+        {
+          "headline": "Maple Finance co-founder and COO exit over strategy disagreements",
+          "what": "Maple Finance co-founder Joe Flanagan and Chief Operating Officer Ryan O'Shea are leaving the DeFi protocol over disagreements about the firm's strategic direction. SYRUP, Maple's governance token, fell despite the company reporting revenue growth.",
+          "coins": "Maple (MAPLE) / SYRUP",
+          "timeUTC": "2026-11-12 19:39",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/maple-finance-strategy-rift-co-founder-coo-exit"
+        },
+        {
+          "headline": "Zcash falls below $1,000 as dormant wallets dump coins to exchanges",
+          "what": "Privacy coin Zcash fell below $1,000 per token as leveraged traders abandoned bullish positions and selling pressure intensified from dormant wallets sending holdings to exchanges. The move extended a weeks-long decline in privacy-focused assets.",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "2026-11-12 15:31",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zcash-loses-1000-as-dormant-wallets-send-zec-coins-to-exchanges"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-12",
+    "summary": "US spot Bitcoin ETFs posted a net outflow of $262.8 million (3,621 BTC), while Ethereum ETFs saw $132.41 million in net outflows (66,020 ETH). BlackRock's IBIT led the institutional selling as traders trimmed risk exposure during the Nvidia-led tech selloff.",
+    "source": "Phemex, Tokenpost, multiple ETF trackers",
+    "url": "https://phemex.com/news/article/bitcoin-and-ethereum-etfs-post-major-net-outflows-in-single-day-and-weekly-totals-103331"
+  },
+  "calendarNotes": [
+    {
+      "event": "Eurozone GDP Flash November 2026 (Fri 13 Nov, 10:00 UTC)",
+      "typicalReaction": "High-impact economic data. Expect increased volatility in traditional markets and risk-off pressure in crypto if the reading is weak."
+    },
+    {
+      "event": "US PPI and Core PPI m/m (Fri 13 Nov, 13:30 UTC)",
+      "typicalReaction": "High-impact inflation data. Stronger-than-expected readings typically strengthen the U.S. dollar and pressure risk assets; weaker readings may support crypto and equities."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The time period used to measure price changes. UTC day means 00:00–23:59 UTC on a single calendar day."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of assets in the market that are up (rising in price) versus down (falling in price) on a given day. Measured as a percentage of the total."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A popular measure of market sentiment ranging from 0 (extreme fear) to 100 (extreme greed). Readings below 25 indicate fear; above 75 indicate greed."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A fee paid every 8 hours between long and short traders on perpetual futures contracts. When funding is positive, longs pay shorts (bullish bias). When negative, shorts pay longs (bearish bias)."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "A comparison of how many traders hold bullish positions (long) versus bearish positions (short). A ratio above 1 means more longs; below 1 means more shorts."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The official reference price set by a futures exchange, used to calculate profit and loss and to trigger liquidations. It is typically the average of spot price and futures price to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total dollar value of all active (open) futures positions on an exchange or market. Rising open interest suggests traders are adding new bets; falling open interest suggests positions are being closed."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "The percentage increase or decrease in open interest during a trading day. Positive change means new money entered the market; negative means money left."
+    },
+    {
+      "term": "Taker buy-to-sell ratio",
+      "definition": "A measure of aggressive buying and selling pressure. A ratio above 1.0 means more buy orders are hitting the market (aggressive buying); below 1.0 means more sell orders are hitting (aggressive selling)."
+    },
+    {
+      "term": "Top trader long-to-short ratio",
+      "definition": "The long-to-short ratio calculated only among the largest traders on an exchange, not all traders. It reflects the positioning of professional or whale traders specifically."
+    }
+  ],
+  "_source": "cli"
+}

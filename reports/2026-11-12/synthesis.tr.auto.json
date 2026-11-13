@@ -1,0 +1,218 @@
+{
+  "oneLine": "Bitcoin 12 Kasım'da %3.45 düşerken, Ethereum %1.77 geriledi. Nvidia CEO'sunun istifası teknoloji satışını tetiklerken, ABD Adalet Bakanlığı Kuzey Kore'nin Binance hack'inden $1.2 milyar aldı.",
+  "caveman": "Bitcoin dijital paradır, insanlar onu hisse senedi gibi takas eder. Bugün değeri %3.45 düştü. Ethereum, başka bir dijital para, %1.77 düştü. Her şeyin düşmesinin büyük nedeni Jensen Huang'ın istifa etmek zorunda kalması oldu. Jensen Huang Nvidia'yı yönetiyor—bilgisayar çipi yapan çok büyük şirket. Bu haber çıkınca insanlar korktu ve dijital paralarını sattılar. Bu arada ABD Adalet Bakanlığı iyi birşey yaptı: Kuzey Kore'nin Binance'den çalmış olduğu $1.2 milyarın kontrolünü ele geçirdiler. Pazardaki korku bugün biraz arttı. Endişeli bir gündü ama felaket değildi—sadece insanlar Nvidia haberi yüzünden sinirli oldular.",
+  "priceVolumeSummary": "Beş büyük borsa Bitcoin'in yaklaşık $71,454'ten olduğu konusunda hemfikirdi. Binance işlem hacminde başı çekerek $11.25 milyar USD'de işlem gördü, bunu OKX'in $6.93 milyarı izledi. Bitcoin ve Ethereum, Nvidia CEO'su istifası tarafından tetiklenen geniş kapsamlı teknoloji satışına paralel olarak düştü.",
+  "positioningSummary": "Bitcoin finansman oranları 8 saatte 0.0001'de kaldı (%10.95 yıllıklandırılmış), uzun pozisyon tutanların hala ödemeye istekli olduğunu gösteriyor, ama güven karışıktı. Binance'de en büyük tüccarlar 2.29'a 1'lik uzun-kısa oranına sahip, kurumsal tüccarların hala uzun pozisyonda olduğunu gösteriyor; ancak alıcı-satıcı oranı yalnızca 1.014'tü (satıştan sadece biraz daha fazla alım baskısı). Açık faiz bazı piyasalarda arttı (Bybit +%6.52) ama diğer yerlerde sabit kaldı ya da düştü (Binance +%1.08), tüccarların yeni bahisler eklemek yerine pozisyonlarını yeniden ayarladıklarını gösteriyor. Pazar genişliği zayıftı: kripto varlıklarının sadece %39.95'i gün için artışta oldu.",
+  "stocksSummary": "Asya yarı iletken hisseleri karışıktı: Güney Kore'nin SK Hynix %1.79 kazandı ve Samsung Electronics %3.41 yükseldi, ama Hong Kong'un Zhipu AI gibi teknoloji şirketleri %6.752 düştü ve MiniMax %5.582 geriledi. ABD kaldıraçlı ETF'ler tüccarlar Nvidia'nın çöküşüne tepki verdikçe dalgalandı: ters yönlü yarı iletken SOXS %8.156 düştü, sürü hareketi SOXL %9.162 kazandı ve paniğin rotasyonunu gösterdi. Petrol emtiaları öncü oldu (WTI +%2.775, Brent +%3.082) çünkü tüccarlar enflasyon koruması aradılar, ama kıymetli metaller geriledi (altın vadeli -%2.398, gümüş -%2.256). Geleneksel borsa endeksleri %0.35–0.40 aşağı kapandı (S&P 500, Nasdaq), teknoloji öncülüğündeki satışı doğruladı.",
+  "movers": [
+    {
+      "symbol": "JCTUSDT",
+      "explanation": "Haberlerde açık bir neden tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BARDUSDT",
+      "explanation": "Haberlerde açık bir neden tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "explanation": "Haberlerde açık bir neden tanımlanmadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Nvidia CEO Jensen Huang istifa ediyor, $750M kripto tasfiyesi ve Bitcoin 12 haftalık düşüşü tetikliyor",
+        "what": "Jensen Huang, kurucusu olduğu Nvidia'yı 33 yıl boyunca yönettikten sonra CEO görevinden istifa etti. Şirketin Mali İşler Başkanı Colette Kress, geçici CEO olarak yönetimi devraldı. Şaşırtıcı istifa geniş kapsamlı bir teknoloji satışını tetikledi ve Bitcoin'i 20 Ağustos'tan bu yana en düşük seviyesine indirdi; $750 milyon kripto vadeli işlem sözleşmesi tasfiye edildi.",
+        "coins": "Bitcoin, Ethereum, teknoloji-odaklı altcoinler",
+        "timeUTC": "2026-11-12 11:37",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026-11-12/nvidia-shares-plunge-10-as-jensen-huang-resigns"
+      },
+      {
+        "headline": "Adalet Bakanlığı Kuzey Kore'nin Binance hack'inden $1.2 milyar ele geçiriyor, $400M çalan FaceStealer derin sahte sahtekarlığını kapatıyor",
+        "what": "ABD Adalet Bakanlığı, 2024 yılında TraderTraitor olarak bilinen Kuzey Kore askerî siber korsanları tarafından Binance'den çalınan $1.2 milyardan fazlasını ele geçirmek için mahkeme yetkisini aldı. Federal ajanlar ayrıca FaceStealer planında kullanılan bulut altyapısını kapatırken, bu plan kripto çalışanlarını kötü amaçlı yazılım kurdurmaya ikna etmek için yapay zeka derin sahte video çağrıları kullanıyordu. Bu el koyma rekor işi temsil ediyor—kripto hırsızlığı kurtarma işlemlerinde en büyüğü.",
+        "coins": "Binance, çalınan kripto, belirli altcoin yok",
+        "timeUTC": "2026-11-12 19:22",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026-11-12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
+      },
+      {
+        "headline": "Trump yönetimi CFTC ve SEC adaylarını belirtirken MicroStrategy MSCI endekslerinden kaldırılıyor",
+        "what": "ABD Başkanı Donald Trump ilk kez bir yıldır Emtia Vadeli İşlemler Ticaret Komisyonu ve Menkul Kıymetler Borsası Komisyonu'na birer iki aday belirtti, kripto ve türev ürünler için yeni bir düzenleme çağını işaret ediyor. Ayrı olarak MSCI, MicroStrategy'i (387,860 Bitcoin tuttuğu halde) hisse senedi endekslerinden kaldırdığını doğruladı, şirkete pasif sermaye için önemli bir kurumsal kanalı sonlandırıyor.",
+        "coins": "Bitcoin (MicroStrategy holdingleri aracılığıyla), genel kripto düzenlemesi",
+        "timeUTC": "2026-11-12 19:07",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026-11-12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "NYDFS kripto firmalar için yeni reklam standartları belirliyor",
+          "what": "New York Hazine Departmanı (NYDFS), kripto şirketlerine reklam ve pazarlama uygulamaları yönetimi konusunda politika ve prosedür oluşturma beklentilerine ilişkin yeni yönergeyi yayınladı.",
+          "coins": "Genel kripto endüstrisi",
+          "timeUTC": "2026-11-12 15:43",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-12-nydfs-sets-fresh-advertising-standards-crypto-firms-439014"
+        },
+        {
+          "headline": "Adalet Bakanlığı, bankalar, DeFi firmalar Illinois kripto vergisinin uygulanamaz olduğunu iddia ederek mahkemeye meydan okuyor",
+          "what": "ABD Adalet Bakanlığı, Ticaret Odası, yatırım grupları ve DeFi firmaları (a16z, Paradigm, Uniswap dahil) Illinois'in %0.2 kripto işlem vergisinin yazıldığı şekilde uygulanamaz olduğunu ve federal kanuna aykırı olduğunu iddia ederek mahkeme dilekçeleri sundular. Endüstri avukatları verginin kâr vermeyen işlemlerde dahi uygulandığı için muhasebe maliyetlerini büyük ölçüde artıracağını söylüyor.",
+          "coins": "Genel kripto, DeFi",
+          "timeUTC": "2026-11-12 14:32",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026-11-12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court"
+        },
+        {
+          "headline": "Louisiana Kalshi, Robinhood ve diğer tahmin pazarlarına dava açıyor",
+          "what": "Louisiana, ABD eyaletlerinin artan bir listesine katılarak tahmin pazar platformlarına dava açarken Kalshi ve Robinhood'u davalılar arasında adlandırıyor—bu, devlet ve federal makamlar arasında türev pazar gözetimi üzerinde süregelen düzenleme savaşını kızıştırıyor.",
+          "coins": "Tahmin pazar tokenları (varsa)",
+          "timeUTC": "2026-11-12 17:31",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-12-louisiana-sues-kalshi-robinhood-other-prediction-markets-escalating-regulatory-fight-439052"
+        },
+        {
+          "headline": "Kalshi, Polymarket yatırım çatışması nedeniyle Donald Trump Jr.'ın danışman sözleşmesini sonlandırıyor",
+          "what": "Tahmin pazar platformu Kalshi, Donald Trump Jr. ile danışman ilişkisini sonlandırırken, 1789 Capital'ın rival tahmin platformu Polymarket'e yaptığı yatırım sonrasında kararın karşılıklı olduğunu söyledi. Şirket hamlemenin siyasi olarak motive edilmediğini reddetti.",
+          "coins": "Tahmin pazarları",
+          "timeUTC": "2026-11-12 18:05",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/kalshi-ends-donald-trump-jr-advisory-role-polymarket-investment"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ve Ethereum spot ETF'ler kurumlar risk azaltırken yoğun çıkışlar kaydediyor",
+          "what": "ABD spot Bitcoin ETF'leri 12 Kasım'da net 262.8 milyon dolar çıkış (3,621 BTC) kaydederken, Ethereum ETF'leri 132.41 milyon dolar net çıkış (66,020 ETH) gördü. BlackRock'un IBIT fonu Nvidia öncülüğündeki teknoloji satışı sırasında kurumsal satış baskısında başı çekti. Bu, Bitcoin ETF'lerinde toplam 1.41 milyar dolar çıkış içeren yedi günlük çıkış serisini uzattı.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-11-12 (günlük kapanış)",
+          "source": "Phemex / birçok izleme platformu",
+          "url": "https://phemex.com/news/article/bitcoin-and-ethereum-etfs-post-major-net-outflows-in-single-day-and-weekly-totals-103331"
+        },
+        {
+          "headline": "Gemini işlem hacmi %73 düşüyor, Q3 geliri $41 milyona düşüyor",
+          "what": "Winklevoss tarafından desteklenen kripto borsası Gemini, Q3 gelirinin $41 milyon olduğunu ve işlem hacminin önceki dönemden %73 düştüğünü bildirdi. Hisse senedi mesai sonrası %6'nın üzerine yükseldi, ancak yıl için başından bu yana yaklaşık %75 aşağıda kaldı.",
+          "coins": "Genel borsa",
+          "timeUTC": "2026-11-12 18:18",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "DTCC Solana'yı Wall Street tokenizasyon yol haritasına ekliyor, 2027 lansman hedefliyor",
+          "what": "Mevduat Güven ve Takas Kurumu (DTCC), tokenize edilmiş hisse senetleri, ETF'ler ve ABD Hazine Tahvilleri'ni Solana blockchain'ine getirecek olduğunu açıkladı; bu önceden duyurulan Stellar ve Arc blockchain'lerinin ötesinde 2027 yol haritasını genişletiyor. Bu, tokenize edilmiş hisse senedi platformu yetkisine sahip üçüncü büyük ABD mekanını temsil ediyor (Avalanche NYSE için ve Arc Nasdaq için sonra).",
+          "coins": "Solana",
+          "timeUTC": "2026-11-12 13:05",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026-11-12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout"
+        },
+        {
+          "headline": "Visa Western Union USDPT stabilcoin'i VisaNet yerleşim ağına ekliyor",
+          "what": "Visa ve Anchorage Digital, uygun kurumların artık Western Union'ın USDPT stablecoin'i (Anchorage Digital Bank tarafından ihraç edilmiş ve saklanmış) kullanarak VisaNet ödeme yükümlülüklerini kapatabileceklerini duyurdu. Bu Visa'nın yerleşim altyapısında ilk stablecoin entegrasyonunu temsil ediyor.",
+          "coins": "USDPT (Western Union stablecoin)",
+          "timeUTC": "2026-11-12 13:20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520"
+        },
+        {
+          "headline": "Tether Gold yayıncısı Big Four denetimini tamamlıyor, USDT'yi takip ediyor",
+          "what": "KPMG ABD, Tether Gold yayıncısı TG Commodities'nin denetimini tamamladı ve 2025 mali hesapları hakkında niteliksiz, yani temiz, görüş yayınladı. Bu Tether Limited'in kendi stablecoin operasyonları için Big Four denetimlerini tamamlamasını takip ediyor.",
+          "coins": "Tether Gold (XAUT)",
+          "timeUTC": "2026-11-12 12:43",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-12-tether-gold-issuer-follows-usdt-to-complete-big-four-audit-438849"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kuzey Kore hackerları $6.3 milyarlık Binance hack gelirlerini para aklamak için memecoin'ler oluşturuyor",
+          "what": "Adalet Bakanlığı'nın el koyma işleminin ardından Kuzey Kore hackerlarının çalınan fonların geri kalanını para aklamak için memecoin'ler oluşturduğu bildirildi. Bu, devlet aktörlerinin düşük likiditeyli kripto varlıkları para aklamak için kullanması bilinen ilk örneklerden biri.",
+          "coins": "Çeşitli memecoin'ler (belirsiz)",
+          "timeUTC": "2026-11-12 18:43",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express"
+        },
+        {
+          "headline": "Maple Finance kurucu ortağı ve COO strateji uyuşmazlıkları nedeniyle ayrılıyor",
+          "what": "Maple Finance kurucu ortağı Joe Flanagan ve İcra Kurulu Başkanı Ryan O'Shea firmanın stratejik yönü konusundaki uyuşmazlıklar nedeniyle DeFi protokolünden ayrılıyor. Maple'ın yönetişim tokeni SYRUP, şirketin gelir büyümesi raporlamış olmasına rağmen düştü.",
+          "coins": "Maple (MAPLE) / SYRUP",
+          "timeUTC": "2026-11-12 19:39",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/maple-finance-strategy-rift-co-founder-coo-exit"
+        },
+        {
+          "headline": "Zcash $1,000'ın altına düşüyor, uyuyan cüzdanlar paraları borsalara gönderiyor",
+          "what": "Gizlilik yazması Zcash kaldıraçlı tüccarlar düşüş pozisyonlarından çıkarken ve uyuyan cüzdanlardan borsaya gönderilen satış baskısı arttığında $1,000 başına düştü. Bu hamle, gizlilik-odaklı varlıklardaki haftalarca devam eden düşüşü uzattı.",
+          "coins": "Zcash (ZEC)",
+          "timeUTC": "2026-11-12 15:31",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/zcash-loses-1000-as-dormant-wallets-send-zec-coins-to-exchanges"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-12",
+    "summary": "ABD spot Bitcoin ETF'leri 262.8 milyon dolar net çıkış (3,621 BTC) kaydederken, Ethereum ETF'leri 132.41 milyon dolar net çıkış (66,020 ETH) gördü. BlackRock'un IBIT fonu Nvidia teknoloji satışı sırasında kurumsal satış baskısında başı çekti.",
+    "source": "Phemex, Tokenpost, birçok ETF izleme platformu",
+    "url": "https://phemex.com/news/article/bitcoin-and-ethereum-etfs-post-major-net-outflows-in-single-day-and-weekly-totals-103331"
+  },
+  "calendarNotes": [
+    {
+      "event": "Eurozone GDP Flash November 2026 (Fri 13 Nov, 10:00 UTC)",
+      "typicalReaction": "Yüksek etkili ekonomik veri. Geleneksel pazarlarda volatilite artışını bekleyin; kripto piyasasında sayı zayıfsa düşüş baskısına (riskten kaçış) hazır olun."
+    },
+    {
+      "event": "US PPI and Core PPI m/m (Fri 13 Nov, 13:30 UTC)",
+      "typicalReaction": "Yüksek etkili enflasyon verisi. Beklentiden güçlü okumalar tipik olarak ABD dolarını güçlendirirken riskli varlıklara baskı yapar; zayıf okumalar kripto ve hisse senetleri destekleyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Fiyat değişimlerini ölçmek için kullanılan zaman dönemi. UTC günü, tek bir takvim gününde 00:00–23:59 UTC anlamına gelir."
+    },
+    {
+      "term": "Breadth",
+      "definition": "Piyasadaki yükselen (fiyatı artan) varlıklar ile düşen (fiyatı düşen) varlıkların toplamın yüzdesine oranı. Belirli bir günde toplam yüzde olarak ölçülür."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında değişen popüler pazar duyarlılığı ölçüsü. 25'in altı okumalar korkuyu; 75'in üstü açgözlülüğü gösterir."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Vadeli işlem sözleşmelerinde her 8 saatinde uzun ve kısa tüccarlar arasında ödenen ücret. Finansman pozitif olduğunda, uzunlar kısalara ödeme yapar (boğa eğilimi). Negatif olduğunda, kısalar uzunlara ödeme yapar (ayı eğilimi)."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "Boğa pozisyonları (uzun) tutan tüccarlar ile ayı pozisyonları (kısa) tutan tüccarların karşılaştırması. 1'nin üzerindeki oran daha fazla uzun anlamına gelir; 1'nin altı daha fazla kısa anlamına gelir."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Vadeli işlem borsası tarafından ayarlanan resmi referans fiyat; kâr ve zararı hesaplamak ve tasfiye işlemlerini tetiklemek için kullanılır. Manipülasyonu önlemek için tipik olarak spot fiyat ile vadeli işlem fiyatının ortalamasıdır."
+    },
+    {
+      "term": "Open interest",
+      "definition": "Bir borsa veya pazardaki tüm aktif (açık) vadeli işlem pozisyonlarının toplam dolar değeri. Yükselen açık faiz tüccarların yeni bahisler eklediğini gösterirken; düşen açık faiz pozisyonların kapatıldığını gösterir."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "Bir işlem günü sırasında açık faizde yüzde artış veya azalış. Pozitif değişim yeni paranın pazara girdiğini; negatif değişim paranın çıktığını gösterir."
+    },
+    {
+      "term": "Taker buy-to-sell ratio",
+      "definition": "Agresif alım ve satış baskısının bir ölçüsü. 1.0'ın üzerindeki oran piyasaya daha fazla alım emrinin isabet ettiğini (agresif alım) gösterirken; 1.0'ın altı daha fazla satış emrinin isabet ettiğini (agresif satış) gösterir."
+    },
+    {
+      "term": "Top trader long-to-short ratio",
+      "definition": "Sadece borsada tüm tüccarları değil en büyük tüccarlar arasında hesaplanan uzun-kısa oranı. Profesyonel veya balina tüccarları özelinde konumlandırmayı yansıtır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "2f15a7f2047e1e6e"
+}
