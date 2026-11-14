@@ -1,0 +1,221 @@
+{
+  "oneLine": "13 Kasım'da Bitcoin ve Ethereum %4,4 oranında düşüş yaşayarak 12 haftanın en düşük seviyelerine indi. ABD doları faiz beklentileriyle güçlenirken, yatırımcı sermayesi Anthropic'in kayda değer halka arzına yöneldi.",
+  "caveman": "Bitcoin ve Ethereum Cuma günü 13 Kasım'da %4,4 düştü—normalden çok daha büyük bir düşüş. Bitcoin Ağustos'tan beri ilk kez 70.000 doların altına indi. ABD doları güçlendi çünkü insanlar Federal Rezerv'in faiz oranlarını uzun süre yüksek tutacağını düşünüyor ve dolar güçlü olunca insanlar kripto istemiyorlar. 100 cointen sadece 26'si o gün yükseldi, yani neredeyse her şey birlikte düştü. Büyük tacirler hâlâ daha yüksek fiyatlara bahis koyuyordu ama adi tacirler daha sert satıyorlardı. İki büyük Bitcoin şirketi zarar kaybına uğrayarak varlık satmak zorunda kaldı çünkü ödünç aldıkları paranın alınma riski vardı—çok para borçlanıldığının ve insanların bunu çektiğinin işareti. Çok endişeli bir gündü.",
+  "priceVolumeSummary": "Beş ana borsa (Binance, Bybit, OKX, Bitget, Gate) fiyatta yakından uyum sağladı; Bitcoin yaklaşık 68.350–68.400 dolar ve Ethereum yaklaşık 1.934 dolar seviyesinde işlem gördü. Binance hacmi oldukça fazlaydı: Bitcoin'de 19,4 milyar dolar ve Ethereum'da 11,3 milyar dolar—diğer borsaların toplamından yaklaşık iki kat daha fazla.",
+  "positioningSummary": "Bitcoin'de uzun pozisyon tutan tacirler, kısa pozisyon tutanlardan 3,18 kata fazlaydı; en büyük tacirler 2,31 kata 1 oranında uzun yöneliş göstererek büyük paranın daha yüksek fiyatlara inanmaya devam ettiğini işaret ediyordu. Fakat taraf alan tacirler satışta biraz daha agresifti (oran 0,91, 1,0'dan az), perakende satış baskısı gösteriyordu. Bitcoin açık faiz %7 düştü ve tasfiye işlemleri 1,6 milyarı aştı—aşırı kaldıraçlı tacirler pozisyonlarını kapatmaya zorlandı. Ethereum aynı örüntüyü izledi: 3,5 kata 1 uzun yöneliş, en büyük tacirler 1,83 kata 1 uzun, ancak açık faizde %5 düşüş. Krahın ortasında, finansman oranları bazı borsa platformlarında yüksek kaldı (Bybit yıllık %10,95), uzun pozisyon tutanların hâlâ kısa tutanlara ödeme yaptığını göstererek. Pazar genişliği keskin biçimde kötüleşti: Binance vadeli işlemleriyle yükselen paraların yüzde 26'si vardı. Korku & Açgözlülük endeksi 28 (Korku) düzeyinden 20 (Aşırı Korku) seviyesine düştü.",
+  "stocksSummary": "Asya yarı iletken hisse senetleri 13 Kasım işlem seansında geniş kayıplara uğradı; Nvidia liderlik belirsizliğiyle bağlantılı. Güney Kore: SK Hynix %9,2 düştü, Samsung Electronics KRX saatlerinde %6,1 düşüş kaydetti. Hong Kong daha dik kayıplar gördü—Zhongji Innolight (optik bileşenler) %15,4 düştü, Zhipu AI %12,5 düştü ve kaldıraçlı SK Hynix takip %17,2 düşüş gösterdi. ABD hisse senetleri hafif düşüşteydi (S&P 500 -%0,38, Nasdaq -%0,90), dolar endeksi %0,27 yükselişle, güvenliğe kaçışı yansıttı.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "Akash Network'ün AKT tokeni 12-13 Kasım'da Solana üzerine başlatıldı; Cosmos'tan iki yıllık göç penceresiyle. 2 Kasım'da yapılan bir yönetim oylamasında %97 topluluk onayı aldığı için, Jupiter ve Raydium'da %350'lik sıçramaya açık katalizör sağladı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "explanation": "13 Kasım'da kripto haber kaynaklarında veya ana izleme platformlarında net bir nedenle ilgili bilgi bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "13 Kasım'da kripto haber kaynaklarında veya ana izleme platformlarında net bir nedenle ilgili bilgi bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin 68.000 dolara düştü; Anthropic halka arzı frenzysi pazar endişelerini artırdı",
+        "what": "Bitcoin, yatırımcılar sermayeyi Anthropic'in beklenen dev halka arzına (1,4 trilyon dolar değerleme hedefi) yöneltirken ve ABD doları Federal Rezerv'in daha yüksek faiz oranları beklentisiyle yükselirken Ağustos'tan beri ilk kez 70.000 doların altına düştü. Analistler sermaye yönelimini Anthropic'e ve geniş risk-azaltma eğilimini belirttiler; tasfiye işlemleri 1,6 milyarı aştı.",
+        "coins": "Bitcoin, Ethereum (tüm ana altcoinler ilk iki parayla birlikte düştü)",
+        "timeUTC": "2026-11-13 17:53 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off"
+      },
+      {
+        "headline": "Bitcoin firması Nakamoto, Kraken'a 165 milyon dolar borçlu—tüm pazar değerinden fazla",
+        "what": "Nakamoto, bir Bitcoin hazine firması, Kraken'a 165 milyon dolar USDT borçlu (ödeme 30 Haziran ve 4 Aralık 2027'de); pazar değeri 13 Kasım'da yaklaşık 104 milyon dolar. Nakamoto'nun Bitcoin'inin yaklaşık %70'i—118.000 dolara yakın satın alınan 4.283 cointen 3.030'u—teminat olarak rehin verildi; 13 Kasım fiyatlarında 69.000 doların altında, marj hızla daraldı. Kardeş firma BTCS, 64 milyon dolar Aave kredisini sürdürmek için 13 Kasım'da Ethereum'u zarar kaybına satış yaptı; Bitcoin hazine şirketlerinde ortaya çıkan kaldıraç stresini vurgulayan olaylar.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-13 05:17 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value"
+      },
+      {
+        "headline": "ABD mahkemeleri 1,2 milyar dolar çalıntı Binance fonu hedef alırken DOJ kripto uygulamasını yoğunlaştırıyor",
+        "what": "ABD Adalet Bakanlığı, 29 Ekim Binance hack'inde çalınan 6,3 milyar doların 1,2 milyar dolarlık kısmını ele geçirme yetkisi aldı; Kuzey Kore'ye bağlı askeri hackerler tarafından yapıldığı tahmin ediliyor. Çalınan kripto'nun 2,7 milyardan fazlası koordine çabalarla dondurulmuş; ancak 12 Kasım'daki DOJ açıklaması fonları mağdurlara iade etme zaman çizelgesi vermedi. Ayrıca federal ajanlar 400 milyon doları aşkın çalıntı olan 'FaceStealer' planının altyapısını ele geçirdi.",
+        "coins": "Bitcoin ve diğer ana kripto paralar (hack'te çalınanlar)",
+        "timeUTC": "2026-11-13 22:07 UTC (raporlanan; eylem 12 Kasım 22:00 UTC'de açıklandı)",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/binance-funds-theft-us-court-orders-cover-over-1-2-billion-with-return-unresolved/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Meclis Denetim Başkanı hükümet yetkililerinin tahmin pazar bahislerinin yasaklanmasını çağırıyor",
+          "what": "Meclis Denetim Komitesi, federal çalışanların Polymarket ve Kalshi gibi tahmin pazar platformlarını kullanmasını sınırlamayı çağırdı; hükümet yetkililerinin, askeri personelin ve güvenlik izni sahiplerinin kuşkulu içeriden öğrenilmiş bilgi ticaretini belirtti. CFTC başkanı, eyaletlerin yöneticileri cezaevi riskiyle karşı karşıya bırakmaması gerektiğini yanıtladı.",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207"
+        },
+        {
+          "headline": "ABD düzenleyicileri kripto güven tüzüğü üzerine ilerliyor, Senato incelemesi artıyor",
+          "what": "Coinbase'in güven şirketi son düzenleme onayı aldı; milletvekilleri kripto firmalarından ilişki çatışması konusunda uyum kayıtlarını istedi; kurumsal kripto saklama alanında iki taraflı denetim sinyali verdi.",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:20 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri yılbaşından bu yana 1,5 milyar dolar net çıkış kaydetti",
+          "what": "ABD spot Bitcoin ETF'leri 12 Kasım'da sona eren hafta içinde 643,6 milyon dolar net çıkış kaydederek, yılbaşından bu yana net çıkışları 1,56 milyar dolara çıkardı. Bu, 500 milyon doları aşan net çıkış gösteren 2026'nın 12. haftasını işaretledi; kurumsal itfalar ve düşen fiyatlara işaret ediyordu.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 12:45 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11-13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year"
+        },
+        {
+          "headline": "JPMorgan'ın Bitcoin ve Kripto Bağlantılı Varlıkları 1 Milyar Dolara Yaklaşıyor",
+          "what": "JPMorgan'ın Q3 13F başvurusu, Bitcoin ETF, Grayscale ve Coinbase varlıklarında yaklaşık 981 milyon dolar gösterdi; Robinhood ve madenci hisse senetleri dahil edildiğinde 1 milyar doları aşması muhtemel; pazar zayıflığına rağmen devam eden kurumsal tahsisi gösteriyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 16:49 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Hyperliquid, Bybit, Kraken ve OKX'i geride bırakarak açık faizde öne çıktı; Q3'te pozisyonlar %80 arttı",
+          "what": "Hyperliquid'in ana merkezi borsalar genelinde vadeli işlem açık faizindeki payı Q3 2026'da %11,7'ye ulaştı; Bybit, Kraken ve OKX'i geride bırakarak, positions %80 oranında çeyrek sonunda büyüdü.",
+          "coins": "Bitcoin, Ethereum, altcoinler",
+          "timeUTC": "2026-11-13 10:17 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-13-hyperliquid-leapfrogs-bybit-kraken-okx-in-open-interest-q3-positions-grow-440053"
+        },
+        {
+          "headline": "Kraken ana şirketi Payward, Q3'te ayarlanmış EBITDA'da %66 düşüş kaydetti; ABD tahmin pazarlarını planlıyor",
+          "what": "Payward, Q3'te ayarlanmış EBITDA'da yıl-öncesi %66 düşüşü bildirdi; 60 milyona düşerken, finanse edilen hesaplar %37 büyüdü. Şirket spot ticaret ötesine genişlemeyi işaret etti; ABD tahmin pazarları ve kişisel finans yapay zekası ajanı dahil.",
+          "coins": "",
+          "timeUTC": "2026-11-13 03:51 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-13-kraken-parent-payward-posts-66-drop-q3-adjusted-ebitda-plans-us-prediction-markets-and-personal-finance-ai-agent-439721"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "XRP kredileri 883 tasfiyeyi tetikledi; 53 milyon dolar daha risk altında",
+          "what": "Base'deki kredi protokolünün borç alanları, teminat tasfiye edildiğinden 4,18 milyon cbXRP (sarılı XRP) teslim etti; XRP gün içinde %2,9 düşerken 53 milyon dolar pozisyon daha ileri tasfiye riski altında.",
+          "coins": "XRP",
+          "timeUTC": "2026-11-13 19:16 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk/"
+        },
+        {
+          "headline": "FBI, mağdurların yüzlerini deepfake videolarda değiştirerek hedef alan 400 milyon dolarlık aktif kripto dolandırıcılığı uyarıyor",
+          "what": "FBI, 'FaceStealer' kampanyası hakkında uyarı yayınladı; Kuzey Kore hackerları çalıntı hesapları ve web kamerası görüntüsünü yeniden kullanıyor; mağdurları sahte toplantılar ve kripto transferlerine çekerek 400 milyon doları aştı.",
+          "coins": "",
+          "timeUTC": "2026-11-13 08:56 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fbi-warns-facestealer-turns-crypto-victims-into-bait-for-the-next-attack/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Eski Nvidia Yöneticisi Jensen Huang'ın Yerini Alabilir mi? Arm'ın Rene Haas Aday Ortaya Çıkıyor",
+          "what": "Nvidia'nın yönetim kurulu, liderlik belirsizliği sonrası Jensen Huang'ın yerini almak için Arm'ın CEO'su Rene Haas'ı aday olarak ele aldığı bildiriliyor; bazı çalışanlar şirket kurucusunun dönüşünü savunuyor. Belirsizlik, Asya genelinde yarı iletken hisse senetlerinin keskin düşüşüyle çakıştı (SK Hynix -%9,2, Samsung -%6,1).",
+          "coins": "",
+          "timeUTC": "2026-11-13 20:42 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383276/nvidia-arm-ceo-rene-haas-replace-jensen-huang"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Meta, nakit yerine itibar puanları kullanan tahmin pazar uygulamasını test ediyor: WSJ",
+          "what": "Meta çalışanları, doğru çağrıları nakit yerine itibar puanlarıyla ödüllendiren Takes adlı tahmin uygulamasını test ediyor; şirket yasal savaşlar ısındığında tahmin pazar alanına rakip olmak için konumlanıyor.",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:35 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215"
+        },
+        {
+          "headline": "Blockstream, Thales ile Bitcoin saklama sistemi başlattı; daha basit çevrimdışı güvenliği savunuyor",
+          "what": "Blockstream, işlem imzalamak için adanmış donanım kullanan yeni Bitcoin saklama sistemi yayınladı; kurucu Adam Back, çevrimdışı güvenliğin hot wallet yaklaşımına kıyasla siber riskleri azalttığını savunuyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 20:49 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-launches-bitcoin-custody-system"
+        },
+        {
+          "headline": "Bitcoin madencileri Paraguay'a yıllık 350 milyon dolar ödüyor, ancak yapay zeka onları dışarı itiyordu",
+          "what": "Paraguay'ın devlet hizmeti, küresel Bitcoin madenciliği kapasitesinin %4'ünü sağlayan güç sözleşmelerinin 31 Aralık 2027'de sona eceğini söyledi; yenileme beklenmiyordu çünkü ülke daha yüksek marjlı yapay zeka veri merkezi sözleşmelerine yöneliyor. Sona erişi, dünyanın en verimli madencilerinden bazılarını yer değiştirecekti.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 21:50 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Core PPI a/a (Ekim verileri) 13:30 UTC'de açıklandı — gerçek %0,3 (tahmin %0,4, önceki %0,8). PPI a/a gerçek %0,3 (tahmin %0,4, önceki %1,4). Beklenenden daha düşük başlık PPI, Federal Rezerv'in daha az agresif olma umuduna katkıda bulundu, ancak duyarlılık dolar gücü ve Anthropic halka arzı üzerine odaklandığı için zayıf kaldı.",
+      "typicalReaction": "Daha düşük PPI baskıları tipik olarak kripto gibi risk varlıklarını destekler (daha az faiz artışı korkusu), ancak pazar tepkisi sönük kaldı çünkü yatırımcılar dolar gücü ve Anthropic halka arzına odaklandı."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Teminat",
+      "definition": "Bir kredi için güvenlik olarak rehin verilen varlıklar. Eğer varlık belirli bir seviyenin altında değer kaybederse, borç veren bunu alabilir ve borç alanı pozisyonlarını kapatmaya zorlayabilir."
+    },
+    {
+      "term": "Korku & Açgözlülük Endeksi",
+      "definition": "Pazar duyarlılığının 0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında değişen bir ölçü. Düşük değerler yaygın endişeyi; yüksek değerler aşırı güveni işaret eder."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlem borsalarında tacirler arasındaki periyodik ödeme. Finansman pozitifse, uzun tacirler kısa tutanlara pozisyonlarını tutmaları için ödeme yaparlar. Yüksek finansman oranı uzun tacirların çok güvende olduğu (ve yüksek fiyat ödediği) anlamına gelir."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Kaldıraçlı bir tacirin pozisyonu, teminatı gerekli minimumun altına düştüğünde zorunlu olarak kapatıldığında. Borsa otomatik olarak varlıklarını satar, genellikle zararlı."
+    },
+    {
+      "term": "Uzun / kısa oran",
+      "definition": "Fiyatların yükselişine bahis koyan (uzun) tacirler ile fiyatların düşüşüne bahis koyan (kısa) tacirler arasındaki oran. 1,0'dan yukarı olan oran daha fazla uzun anlamına gelir; 1,0'dan aşağı daha fazla kısa anlamına gelir."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Belirli bir günde piyasada yükselen varlıklar ile düşen varlıklar arasındaki yüzde. Yüksek genişlik (birçok coin yükselmiş) geniş sağlığı işaret eder; düşük genişlik (birkaç coin yükselmiş) zayıflığı işaret eder."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Kaldıraçlı bir tacinin tasfiyeye yakın olup olmadığını hesaplamak için kullanılan referans fiyat. Tipik olarak spot fiyat ile vadeli işlem fiyatının ortalaması ve son fiyatla manipüle edilme olasılığı daha düşüktür."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Bir borsada tüm açık vadeli işlem sözleşmelerinin toplam değeri. Artan açık faiz tacirler yeni bahisler eklendiğini anlamına gelir; düşen açık faiz pozisyonları kapatıldığını (sık sık zorunlu tasfiyeler) anlamına gelir."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Bir gün veya zaman döneminde toplam açık faizde yüzde artışı veya azalması. Büyük düşüş ağır tasfiyeler veya tacirler en kütlesel çıkışı işaret eder."
+    },
+    {
+      "term": "PPI (Üretici Fiyat Endeksi)",
+      "definition": "Tüketicilere ulaşmadan önce mal ve hizmetlerin toptan seviyesinde enflasyon ölçüsü. Federal Rezerv faiz oranlarını yükseltip yükseltmeyeceğine karar vermek için bunu izler."
+    },
+    {
+      "term": "Taraf alan alıcı/satıcı oranı",
+      "definition": "Agresif alıcılar (satış fiyatında satın alan taraf alanlar) ile agresif satıcılar (teklif fiyatında satan taraf alanlar) arasındaki oran. 1,0'dan aşağı olan oran daha agresif satıcıları; 1,0'dan yukarı daha agresif alıcıları anlamına gelir."
+    },
+    {
+      "term": "En büyük pozisyon oranı (en büyük tacir uzun/kısa oranı)",
+      "definition": "Bir borsadaki tüm tacirler ile karşılaştırıldığında en büyük tacirler arasındaki uzun-kısa oranı. Hangi büyük paranın bahis koduğu gösterir ve akıllı para yönelimi sinyali olarak sık sık kullanılır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "aac70be32aac12f3"
+}

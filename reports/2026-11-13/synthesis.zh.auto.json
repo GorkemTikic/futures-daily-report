@@ -1,0 +1,221 @@
+{
+  "oneLine": "比特币和以太坊在11月13日双双下跌4.4%，创12周新低——美元升值（市场预期美联储维持高利率），投资者资金涌向Anthropic的大型新股发行。",
+  "caveman": "比特币和以太坊在星期五11月13日都跌了4.4%，跌幅比平时更大。比特币自8月以来首次跌破7万美元。美元变强了，因为人们认为美联储会保持高利率很长时间，美元强的时候，人们就不太想要加密货币。那一天只有26个币里面有1个涨了，所以几乎所有币都一起跌。大交易员还在买，期待价格涨，但普通交易员在更猛地卖。两家大比特币公司被迫以亏损价格卖资产，因为他们借的钱快被收走了——这说明借太多钱了，现在大家都害怕了。那是很危险的一天。",
+  "priceVolumeSummary": "五个主要交易所（币安、Bybit、OKX、Bitget、Gate）的价格几乎一样——比特币在68,350-68,400美元之间，以太坊在1,934美元。币安的交易量最大，比特币成交194亿美元，以太坊成交113亿美元——大概是其他交易所加起来的两倍。",
+  "positioningSummary": "看好比特币的交易员比看空的多3.18倍；最大的交易员看好的比看空的多2.31倍，说明大资金还在期待价格涨。但主动卖的交易员（比例0.91，小于1.0）比主动买的多，说明散户在卖。比特币未平仓合约减少7%，清算超过16亿美元——说明很多人借钱交易，现在被迫平仓了。以太坊也是这样：看好的比看空的多3.5倍，最大交易员看好的比看空的多1.83倍，但未平仓合约也减少5%。虽然价格暴跌，但一些交易所的资金费率还很高（Bybit年化10.95%），说明看好的交易员还在付钱给看空的。只有26%的币安永续合约在涨。害怕指数从28（害怕）下降到20（极度害怕）。",
+  "stocksSummary": "11月13日亚洲半导体股票普遍下跌，因为英伟达领导层出现不确定性。韩国：SK海力士跌9.2%，三星电子在KRX时段跌6.1%。香港跌得更厉害——中际旭创（光学零件）跌15.4%，智谱AI跌12.5%，SK海力士追踪杠杆基金跌17.2%。美国股票略跌（标普500跌0.38%，纳斯达克跌0.90%），美元指数涨0.27%，说明大家在往安全的地方躲。",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "Akash Network的AKT代币在11月12-13日在Solana上线，从Cosmos转移有两年时间窗口；11月2日的治理投票获得社区97%支持，这就是AKT在Jupiter和Raydium涨350%的清楚原因。",
+      "hasCause": true
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "explanation": "11月13日没有在加密货币新闻来源或主要追踪平台上找到清楚的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "11月13日没有在加密货币新闻来源或主要追踪平台上找到清楚的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "比特币跌至68,000美元，Anthropic新股发行热引发市场恐慌",
+        "what": "比特币自8月以来首次跌破7万美元，因为投资者把钱转向Anthropic的大型新股发行（目标估值1.4万亿美元），美元升值（市场预期美联储会提高利率）。分析师指出，资金转向Anthropic和更大的风险规避情绪，清算金额超过16亿美元。",
+        "coins": "比特币、以太坊（所有主要竞争币都和前两大币一起下跌）",
+        "timeUTC": "2026-11-13 17:53 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off"
+      },
+      {
+        "headline": "比特币公司Nakamoto欠Kraken 1.65亿美元，超过自己的全部市值",
+        "what": "Nakamoto是一家公开交易的比特币库存公司，欠Kraken 1.65亿个USDT（分别在2027年6月30日和12月4日到期），但它在11月13日的市值只有大约1.04亿美元。Nakamoto大约70%的比特币（4,283个中的3,030个，每个买价接近118,000美元）被用作借款抵押；在11月13日价格低于69,000美元的情况下，安全边际快没有了。一家姐妹公司BTCS在11月13日以亏损价格卖了以太坊，为了维持一笔6,400万的Aave借款，说明比特币库存公司中出现了杠杆压力。",
+        "coins": "比特币、以太坊",
+        "timeUTC": "2026-11-13 05:17 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value"
+      },
+      {
+        "headline": "美国法院下令扣押12亿美元被盗币安资金，司法部加大加密货币执法力度",
+        "what": "美国司法部获得法院授权，要扣押10月29日币安被黑事件中的12亿美元（被盗总金额63亿美元），黑客与朝鲜军方有关联。被盗加密货币中已有27亿多美元被冻结；不过司法部在11月12日的公告没有说什么时候能还给受害人。另外，联邦特工还破获了\"FaceStealer\"诈骗团伙的基础设施，这个诈骗团伙偷了超过4亿美元。",
+        "coins": "被盗的比特币和其他主要加密货币",
+        "timeUTC": "2026-11-13 22:07 UTC（报道时间；行动在11月12日22:00 UTC宣布）",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/binance-funds-theft-us-court-orders-cover-over-1-2-billion-with-return-unresolved/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "众议院监督委员会主席呼吁禁止政府官员在预测市场下注",
+          "what": "众议院监督委员会要求限制联邦雇员使用Polymarket和Kalshi等预测市场平台，理由是怀疑政府官员、军人和安全审查持证人利用内幕信息下注。商品期货交易委员会主席回应说各州不应该因为司法权问题让公司高管有坐牢的风险。",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207"
+        },
+        {
+          "headline": "美国监管机构推进加密货币信托特许，参议院审查加强",
+          "what": "Coinbase的信托公司获得了最终监管批准，与此同时议员们要求加密货币公司提供合规记录，调查是否存在利益冲突，表明两党继续对加密货币机构资产保管进行审查。",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:20 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF年初至今净流出已达15亿美元",
+          "what": "到11月12日一周为止，美国现货比特币ETF净流出6.436亿美元，年初至今净流出总计15.6亿美元。这是2026年第12周净流出超过5亿美元，说明机构投资者持续赎回，同时价格在下跌。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-13 12:45 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026-11-13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year"
+        },
+        {
+          "headline": "摩根大通的比特币和加密相关持仓接近10亿美元",
+          "what": "摩根大通第三季度13F文件显示约9.81亿美元的比特币ETF、灰度和Coinbase持仓，加上Robinhood和矿工股票可能超过10亿美元，说明机构在市场弱势的情况下仍在配置加密资产。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-13 16:49 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Hyperliquid超过Bybit、Kraken和OKX，第三季度未平仓合约增长80%",
+          "what": "Hyperliquid在2026年第三季度的永续合约未平仓合约占主要中心化交易所总额的比例达到11.7%，超过Bybit、Kraken和OKX等老牌交易所，季度未平仓合约增长80%。",
+          "coins": "比特币、以太坊、山寨币",
+          "timeUTC": "2026-11-13 10:17 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-13-hyperliquid-leapfrogs-bybit-kraken-okx-in-open-interest-q3-positions-grow-440053"
+        },
+        {
+          "headline": "Kraken母公司Payward第三季度调整后息税折旧摊销前利润下降66%，计划进军美国预测市场",
+          "what": "Payward报告第三季度调整后息税折旧摊销前利润同比下降66%至6,000万美元，尽管注资账户数量增长37%。公司表示将扩展到现货交易以外的领域，包括美国预测市场和个人财务AI代理。",
+          "coins": "",
+          "timeUTC": "2026-11-13 03:51 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-13-kraken-parent-payward-posts-66-drop-q3-adjusted-ebitda-plans-us-prediction-markets-and-personal-finance-ai-agent-439721"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "XRP借贷触发883次清算，5,300万美元面临风险",
+          "what": "Base上的借贷协议中，借款人失去了418万个cbXRP（包装XRP）作为抵押被清算，还有5,300万美元的头寸在XRP下跌2.9%的情况下面临进一步清算的风险。",
+          "coins": "XRP",
+          "timeUTC": "2026-11-13 19:16 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk/"
+        },
+        {
+          "headline": "FBI警告4亿美元活跃加密诈骗，黑客用深度伪造视频冒充受害人",
+          "what": "FBI发布警告，朝鲜黑客在\"FaceStealer\"活动中重复使用被盗账户和摄像头录像，已骗取4亿多美元，通过冒充受害人邀请他们的朋友参加假会议和加密转账来实施诈骗。",
+          "coins": "",
+          "timeUTC": "2026-11-13 08:56 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fbi-warns-facestealer-turns-crypto-victims-into-bait-for-the-next-attack/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "前英伟达高管能否接替黄仁勋？Arm首席执行官Rene Haas成为候选人",
+          "what": "据报道，英伟达董事会已接触Arm首席执行官Rene Haas作为接替黄仁勋的候选人，以应对该芯片制造商的领导层不确定性，同时一些员工倡议让公司创始人回归。这种不确定性恰好与亚洲半导体股票大幅下跌相重合（SK海力士跌9.2%，三星跌6.1%）。",
+          "coins": "",
+          "timeUTC": "2026-11-13 20:42 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383276/nvidia-arm-ceo-rene-haas-replace-jensen-huang"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Meta测试信誉点数而非现金的预测市场应用：华尔街日报",
+          "what": "Meta员工正在测试一个叫Takes的预测应用，用信誉点数而不是真钱奖励正确预测，这让Meta在预测市场竞争加剧和监管争议升温的时刻，做好了与其他平台竞争的准备。",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:35 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215"
+        },
+        {
+          "headline": "Blockstream与Thales推出比特币保管系统，主张更简单的离线安全方案",
+          "what": "Blockstream推出了新的比特币保管系统，使用专业硬件进行交易签名，创始人Adam Back主张离线安全可以比热钱包方式降低网络风险。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-13 20:49 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-launches-bitcoin-custody-system"
+        },
+        {
+          "headline": "比特币矿工每年向巴拉圭支付3.5亿美元，但AI正在赶走他们",
+          "what": "巴拉圭国家电力公司表示，为全球4%比特币矿力供电的合同电价44美元/兆瓦时将在2027年12月31日到期，不会续签，因为该国转向利润更高的AI数据中心合同。这个截止日期将导致全球一些效率最高的矿工被迫离场。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-13 21:50 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Core PPI m/m (October data) released at 13:30 UTC — actual 0.3% (forecast 0.4%, previous 0.8%). PPI m/m actual 0.3% (forecast 0.4%, previous 1.4%). Cooler-than-expected headline PPI added to hopes for a less aggressive Federal Reserve, but sentiment remained weak as markets feared persistent underlying inflation.",
+      "typicalReaction": "生产者物价指数越低，通常对加密货币这样的风险资产有利（害怕加息的人变少了），但市场反应平淡，因为投资者更关注美元升值和Anthropic新股发行。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "抵押品",
+      "definition": "作为贷款担保而质押的资产。如果资产价值低于一定水平，贷方可以把它没收，迫使借方平仓。"
+    },
+    {
+      "term": "害怕与贪婪指数",
+      "definition": "衡量市场情绪的指标，范围从0（极度害怕）到100（极度贪婪）。数值低说明大家都很担心；数值高说明大家太自信了。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "期货交易所中交易员之间的定期转账。如果资金费率为正，看好的交易员要付钱给看空的交易员。资金费率越高，说明看好的交易员信心越强（付的钱越多）。"
+    },
+    {
+      "term": "清算",
+      "definition": "当杠杆交易员的抵押品低于最低要求时，他们的头寸被强制平仓。交易所自动卖出他们的资产，往往亏本。"
+    },
+    {
+      "term": "多空比",
+      "definition": "看好价格会涨的交易员数量和看好价格会跌的交易员数量之间的比例。比例大于1说明看好的更多；小于1说明看空的更多。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "某一天市场中上涨的资产占总资产的百分比。广度高（很多币在涨）说明市场健康；广度低（只有少数币在涨）说明市场虚弱。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用来判断杠杆交易员是否接近清算的参考价格。通常是现货价格和期货价格的平均值，比最后成交价更难被单笔交易操纵。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "交易所中所有未平仓期货合约的总价值。未平仓合约增加说明交易员在增加新的赌注；减少说明头寸在平仓（往往是被迫清算）。"
+    },
+    {
+      "term": "未平仓合约变化",
+      "definition": "某个时间段内未平仓合约总额的增减百分比。大幅下降说明有大量清算或交易员集中离场。"
+    },
+    {
+      "term": "生产者物价指数（PPI）",
+      "definition": "衡量批发价格通胀水平的指标——商品和服务在到达消费者之前的价格上升程度。美联储看这个指标来决定是否要提高利率。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "主动按卖价买入的交易员（买方吃单）和主动按买价卖出的交易员（卖方吃单）的比例。比例小于1说明主动卖的更多；大于1说明主动买的更多。"
+    },
+    {
+      "term": "大户多空比（大户多空比）",
+      "definition": "交易所中最大交易员的多空比例，相对于所有交易员的多空比。这显示大资金在押什么方向，往往用来判断聪慧资金的方向。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "aac70be32aac12f3"
+}

@@ -1,0 +1,220 @@
+{
+  "oneLine": "Bitcoin and Ethereum both fell 4.4% on November 13 to hit 12-week lows as the US dollar strengthened on rising interest-rate expectations and investor capital flowed toward Anthropic's blockbuster IPO.",
+  "caveman": "Bitcoin and Ethereum both went down 4.4% on Friday, November 13—bigger than a normal drop. Bitcoin fell below $70,000 for the first time since August. The US dollar got stronger because people think the Federal Reserve will keep interest rates high for a long time, and when the dollar is strong, people don't want crypto as much. Only 26 out of every 100 coins went up that day, so almost everything dropped together. Big traders still bet on higher prices, but regular traders were selling harder. Two big Bitcoin companies had to sell assets at a loss because their borrowed money was at risk of being taken—a sign that too much money was borrowed and now people are scared. It was a very worrying day.",
+  "priceVolumeSummary": "All five major venues (Binance, Bybit, OKX, Bitget, Gate) agreed closely on price, with Bitcoin trading around $68,350–$68,400 and Ethereum around $1,934. Binance led volume by far, with $19.4 billion in Bitcoin turnover and $11.3 billion in Ethereum—roughly double the other venues combined.",
+  "positioningSummary": "Bitcoin long traders outnumbered short traders 3.18-to-1, with the largest traders at a 2.31-to-1 long bias, suggesting big money still expected higher prices. However, taker traders were slightly more aggressive sellers (0.91 ratio, below 1.0), indicating retail selling pressure. Bitcoin open interest dropped 7%, and liquidations exceeded $1.6 billion—showing overleveraged traders forced to close positions. Ethereum echoed the pattern: 3.5-to-1 long bias, top traders 1.83-to-1 long, but -5% open-interest decline. Despite the crash, funding rates stayed elevated on some venues (Bybit 10.95% annualized), reflecting long traders still paying shorts to hold. Market breadth deteriorated sharply: only 26% of Binance perpetuals were up. The Fear & Greed index fell from 28 (Fear) to 20 (Extreme Fear).",
+  "stocksSummary": "Asian semiconductor stocks suffered broad losses during Nov 13 trading sessions, tied to Nvidia leadership uncertainty. South Korea: SK Hynix fell 9.2%, Samsung Electronics down 6.1% during KRX hours. Hong Kong saw steeper declines—Zhongji Innolight (optical components) fell 15.4%, Zhipu AI fell 12.5%, and leveraged SK Hynix tracking fell 17.2%. US equities were slightly down (S&P 500 -0.38%, Nasdaq -0.90%), while the dollar index rose 0.27%, reflecting flight to safety.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "Akash Network's AKT token launched on Solana on Nov 12-13 with a two-year migration window from Cosmos; a governance vote on Nov 2 had received 97% community approval for the blockchain move, providing clear catalyst for the 350% surge across Jupiter and Raydium.",
+      "hasCause": true
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "explanation": "No clear public cause found in crypto news sources or major tracking platforms on Nov 13.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "No clear public cause found in crypto news sources or major tracking platforms on Nov 13.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+        "what": "Bitcoin fell below $70,000 for the first time since August as investors redirected capital toward Anthropic's anticipated blockbuster IPO (targeting $1.4 trillion valuation) and the US dollar rallied on expectations of higher interest rates from the Federal Reserve. Analysts noted the capital shift to Anthropic and broader risk-off sentiment, with liquidations exceeding $1.6 billion.",
+        "coins": "Bitcoin, Ethereum (all major altcoins declined alongside the top two)",
+        "timeUTC": "2026-11-13 17:53 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off"
+      },
+      {
+        "headline": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+        "what": "Nakamoto, a public Bitcoin treasury firm, owes Kraken $165 million USDT (due June 30 and Dec 4, 2027) while its market value stood at ~$104 million on Nov 13. Approximately 70% of Nakamoto's Bitcoin—3,030 of 4,283 coins purchased near $118,000 each—are pledged as collateral; at Nov 13 prices below $69,000, the margin is narrowing rapidly. A sister firm, BTCS, also sold Ethereum at a loss on Nov 13 to maintain a $64 million Aave loan, highlighting emerging leverage stress across Bitcoin treasury companies.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-13 05:17 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value"
+      },
+      {
+        "headline": "US courts target $1.2 billion in stolen Binance funds as DOJ escalates crypto enforcement",
+        "what": "The US Department of Justice secured court authorization to seize $1.2 billion of the $6.3 billion stolen in the October 29 Binance hack, attributed to North Korean military-linked hackers. More than $2.7 billion of the stolen crypto has already been frozen through coordinated efforts; however, the DOJ announcement on Nov 12 did not provide a timeline for returning funds to victims. Separately, federal agents seized infrastructure used in the 'FaceStealer' scheme, which stole over $400 million in a separate operation.",
+        "coins": "Bitcoin and other major cryptocurrencies (stolen in the hack)",
+        "timeUTC": "2026-11-13 22:07 UTC (reported; action announced Nov 12 22:00 UTC)",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/binance-funds-theft-us-court-orders-cover-over-1-2-billion-with-return-unresolved/"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "House Oversight Chair calls for possible ban on government officials' prediction market bets",
+          "what": "The House Oversight Committee called for limits on federal employees' use of prediction market platforms like Polymarket and Kalshi, citing suspected insider trading by government officials, military personnel, and security clearance holders. A CFTC chairman responded that states should not put executives at risk of jail over jurisdictional disputes.",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:27 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207"
+        },
+        {
+          "headline": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+          "what": "Coinbase's trust company received final regulatory clearance while lawmakers sought compliance records from crypto firms on potential conflicts of interest, signaling continued bipartisan scrutiny of crypto institutional custody.",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:20 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs now down $1.5 billion in net outflows year-to-date",
+          "what": "US spot Bitcoin ETFs posted $643.6 million in net outflows through the week ending Nov 12, extending year-to-date outflows to $1.56 billion. This marks the 12th week of 2026 with net outflows exceeding $500 million, signaling sustained institutional redemptions alongside falling prices.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 12:45 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11-13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year"
+        },
+        {
+          "headline": "JPMorgan's Bitcoin and Crypto-Linked Holdings Approach $1 Billion",
+          "what": "JPMorgan's Q3 13F filing showed approximately $981 million in Bitcoin ETF, Grayscale, and Coinbase holdings, likely exceeding $1 billion when including Robinhood and miner stocks, signaling continued institutional allocation despite market weakness.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 16:49 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Hyperliquid leapfrogs Bybit, Kraken and OKX in open interest as Q3 positions grow 80%",
+          "what": "Hyperliquid's share of perpetual open interest across major centralized exchanges reached 11.7% in Q3 2026, surpassing established venues Bybit, Kraken, and OKX, with positions growing 80% quarter-over-quarter.",
+          "coins": "Bitcoin, Ethereum, altcoins",
+          "timeUTC": "2026-11-13 10:17 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-13-hyperliquid-leapfrogs-bybit-kraken-okx-in-open-interest-q3-positions-grow-440053"
+        },
+        {
+          "headline": "Kraken parent Payward posts 66% drop in Q3 adjusted EBITDA, plans US prediction markets",
+          "what": "Payward reported Q3 adjusted EBITDA fell 66% year-over-year to $60 million despite growing funded accounts 37%. The company signaled expansion beyond spot trading, including US prediction markets and a personal finance AI agent.",
+          "coins": "",
+          "timeUTC": "2026-11-13 03:51 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-13-kraken-parent-payward-posts-66-drop-q3-adjusted-ebitda-plans-us-prediction-markets-and-personal-finance-ai-agent-439721"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "XRP loans trigger 883 liquidations, and $53 million remains at risk",
+          "what": "Borrowers on Base's lending protocol surrendered 4.18 million cbXRP (wrapped XRP) as collateral was liquidated, with $53 million in positions remaining at risk of further liquidation as XRP fell 2.9% on the day.",
+          "coins": "XRP",
+          "timeUTC": "2026-11-13 19:16 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk/"
+        },
+        {
+          "headline": "FBI warns active $400 million crypto scam targets victims by replacing their faces in deepfake videos",
+          "what": "The FBI issued a warning about North Korean hackers reusing stolen accounts and webcam footage in the 'FaceStealer' campaign, which has stolen over $400 million by impersonating victims to draw their contacts into fake meetings and crypto transfers.",
+          "coins": "",
+          "timeUTC": "2026-11-13 08:56 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/fbi-warns-facestealer-turns-crypto-victims-into-bait-for-the-next-attack/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Could a Former Nvidia Executive Replace Jensen Huang? Arm's Rene Haas Emerges as Candidate",
+          "what": "Nvidia's board has reportedly approached Arm's CEO Rene Haas as a candidate to replace Jensen Huang following leadership uncertainty at the chip maker, while some employees advocate for the company founder's return. The uncertainty coincided with semiconductor stocks falling sharply across Asia (SK Hynix -9.2%, Samsung -6.1%).",
+          "coins": "",
+          "timeUTC": "2026-11-13 20:42 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383276/nvidia-arm-ceo-rene-haas-replace-jensen-huang"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Meta tests prediction market app using credibility points instead of cash: WSJ",
+          "what": "Meta employees are testing Takes, a prediction app that rewards correct calls with credibility points instead of real money, positioning the company to compete in the prediction market space as regulatory battles heat up.",
+          "coins": "",
+          "timeUTC": "2026-11-13 19:35 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215"
+        },
+        {
+          "headline": "Blockstream launches Bitcoin custody system with Thales, advocating simpler offline security",
+          "what": "Blockstream debuted a new Bitcoin custody system using dedicated hardware for transaction signing, with founder Adam Back arguing that offline security reduces cyber risks compared to hot-wallet approaches.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 20:49 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-launches-bitcoin-custody-system"
+        },
+        {
+          "headline": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+          "what": "Paraguay's state utility says power contracts supplying 4% of global Bitcoin mining capacity at $44 per megawatt-hour expire Dec. 31, 2027, with no renewal expected as the country pivots toward higher-margin AI data center contracts. The expiry will displace some of the world's most efficient miners.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-13 21:50 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Core PPI m/m (October data) released at 13:30 UTC — actual 0.3% (forecast 0.4%, previous 0.8%). PPI m/m actual 0.3% (forecast 0.4%, previous 1.4%). Cooler-than-expected headline PPI added to hopes for a less aggressive Federal Reserve, but sentiment remained weak as markets feared persistent underlying inflation.",
+      "typicalReaction": "Lower PPI prints typically support risk assets like crypto (less rate-hike fear), but the market reaction was muted as investors focused on dollar strength and the Anthropic IPO instead."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Collateral",
+      "definition": "Assets pledged as security for a loan. If the asset falls in value below a certain level, the lender can take it, forcing the borrower to close their position."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A measure of market sentiment ranging from 0 (Extreme Fear) to 100 (Extreme Greed). Low values signal widespread worry; high values signal overconfidence."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders on futures exchanges. If funding is positive, long traders pay short traders to hold their bets. A high funding rate means long traders are very confident (and paying a high price to hold)."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a leveraged trader's position is forcibly closed because their collateral fell below the minimum required. The exchange automatically sells their assets, often at a loss."
+    },
+    {
+      "term": "Long / short ratio",
+      "definition": "The ratio of traders betting prices will rise (longs) versus traders betting prices will fall (shorts). A ratio above 1.0 means more longs; below 1.0 means more shorts."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of assets in a market that are rising versus falling on a given day. High breadth (many coins up) signals broad health; low breadth (few coins up) signals weakness."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate whether a leveraged trader is close to liquidation. It is typically the average of the spot price and the futures price, and is less likely to be manipulated by a single trade than the last price."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of all open futures contracts on an exchange. Rising open interest means traders are adding new bets; falling open interest means positions are closing (often forced liquidations)."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The percentage increase or decrease in total open interest over a day or time period. A large drop signals heavy liquidations or traders exiting en masse."
+    },
+    {
+      "term": "PPI (Producer Price Index)",
+      "definition": "A measure of inflation at the wholesale level—how much prices have risen for goods and services before they reach consumers. The Federal Reserve watches this to decide whether to raise interest rates."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of aggressive buyers (takers who buy at the ask price) versus aggressive sellers (takers who sell at the bid price). A ratio below 1.0 means more aggressive sellers; above 1.0 means more aggressive buyers."
+    },
+    {
+      "term": "Top-position ratio (top trader long/short ratio)",
+      "definition": "The long-to-short ratio among the largest traders on an exchange, as opposed to all traders. This shows what the biggest money is betting on and is often used as a signal of smart-money direction."
+    }
+  ],
+  "_source": "cli"
+}
