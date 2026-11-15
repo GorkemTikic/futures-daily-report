@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-14T00:07:18.381Z",
-  "count": 150,
+  "generatedAt": "2026-11-15T00:08:45.874Z",
+  "count": 151,
   "counts": {
-    "total": 150,
-    "market": 63,
+    "total": 151,
+    "market": 64,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-13",
+  "latest": "2026-11-14",
   "reports": [
+    {
+      "date": "2026-11-14",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -6.088811892352588,
+        "ETH": -8.31933644375324
+      },
+      "marketSummary": "Bitcoin and Ethereum plunged on Nov 14—Bitcoin fell 6.1% to close near $64,125, Ethereum dropped 8.3% to near $1,768—amid accelerating ETF outflows, broad liquidations, and a major DeFi hack of Kava Lend.",
+      "oneLine": "Bitcoin and Ethereum plunged on Nov 14—Bitcoin fell 6.1% to close near $64,125, Ethereum dropped 8.3% to near $1,768—amid accelerating ETF outflows, broad liquidations, and a major DeFi hack of Kava Lend.",
+      "newsCount": 9,
+      "topMover": {
+        "symbol": "KAVAUSDT",
+        "chgPct": -58.97775813816468
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-14/summary_2026-11-14.html",
+        "pdf": "reports/2026-11-14/summary_2026-11-14.pdf",
+        "md": "reports/2026-11-14/summary_2026-11-14.md"
+      }
+    },
     {
       "date": "2026-11-13",
       "kind": "market",

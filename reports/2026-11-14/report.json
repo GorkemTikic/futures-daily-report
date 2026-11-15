@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-14",
+  "kind": "market",
+  "dateLong": "Saturday, 14 November 2026",
+  "coversUTC": "2026-11-14 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum plunged on Nov 14—Bitcoin fell 6.1% to close near $64,125, Ethereum dropped 8.3% to near $1,768—amid accelerating ETF outflows, broad liquidations, and a major DeFi hack of Kava Lend.",
+  "newsCount": 9,
+  "macro": {
+    "BTC": -6.088811892352588,
+    "ETH": -8.31933644375324
+  },
+  "topMover": {
+    "symbol": "KAVAUSDT",
+    "chgPct": -58.97775813816468
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "15 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

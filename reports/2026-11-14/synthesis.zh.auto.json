@@ -1,0 +1,161 @@
+{
+  "oneLine": "11月14日，比特币和以太坊暴跌——比特币下跌6.1%，收盘价接近64,125美元；以太坊下跌8.3%，收盘价接近1,768美元——原因是ETF加速出逃、大规模爆仓和Kava Lend遭受重大黑客攻击。",
+  "caveman": "11月14日星期六，比特币下跌6%，以太坊下跌8%。Kava平台（一个人们可以借入和借出加密货币的平台）遭到重大黑客攻击——小偷偷走了约400万枚KAVA代币，导致价格暴跌59%。很多普通投资者持有的比特币基金（ETF）撤出资金——仅上周就约15亿美元。大多数人都害怕并选择卖出而不是买入。每100种加密货币中，只有6种上涨。这是非常令人恐惧和担忧的一天。",
+  "priceVolumeSummary": "比特币收盘价在64,122-64,131美元之间（相比开盘价68,280-68,286美元下跌6.1%），以太坊收盘价在1,768-1,769美元之间（相比开盘价1,929美元下跌8.3%），各交易所数据基本一致。币安交易量领先，比特币交易量184亿美元，以太坊交易量136亿美元，其次是OKX的比特币103亿美元和以太坊96亿美元。",
+  "positioningSummary": "币安比特币资金费率为正的5.1%年化利率，但未平仓合约减少6.5%——这意味着交易者平仓多头头寸的速度比开新头寸更快，这是强制抛售的迹象。以太坊资金费率略为负的-5.9%。币安上比特币的多空比为3.23:1，以太坊为3.78:1，显示看涨情绪多于看跌，但顶级交易者（最大头寸持有者）更加谨慎——他们的多空比仅为比特币2.11:1和以太坊1.94:1。Taker买卖比为比特币0.90和以太坊0.97，显示更多的激进卖出而非买入。市场涨跌面极度失衡：币安永续期货中仅6.1%上涨，93.4%下跌——这是完全投降的信号。",
+  "stocksSummary": "星期六没有现货股票交易。与加密相关的美国股票在永续期货上大幅下跌（MSTU -21.8%，MSTR -11%，COIN -7.7%）。亚洲股票期货与加密货币疲软保持一致：韩国期货下跌0.0-2.6%（KOSPI ETF -2.1%），香港科技期货下跌0.2-4.8%（Zhipu AI、MiniMax跌幅最大）。大宗商品多数下跌：黄金-1.83%，白银-3.27%，油价平盘。期货市场的整体疲软反映了广泛的风险规避去杠杆。",
+  "movers": [
+    {
+      "symbol": "KAVAUSDT",
+      "explanation": "Kava Lend是Kava上的一个DeFi借贷平台，11月14日遭到黑客攻击，失窃约380万美元。约4,920万枚KAVA代币被跨链到BNB链并售出，换得约210万美元的BNB和USDT。由于被盗供应充斥市场，代币从接近$0.067跌至$0.028。",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA当日上涨31%。未报告任何公开新闻或可识别的原因；这种低流动性代币的涨幅可能反映了平台特定活动、投机或算法交易，但没有明确的外部解释。",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT当日下跌30%。未报告任何公开新闻或可识别的原因；与EVAA类似，这种低流动性下跌没有确认的外部驱动因素。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Kava Lend遭黑客攻击失窃约380万美元，KAVA代币暴跌近40%",
+        "what": "约4,920万枚KAVA代币通过LayerZero跨链到BNB链并售出，换得约210万美元的BNB和USDT。黑客攻击加速了市场看跌情绪，引发KAVA在11月14日下跌-59%。",
+        "coins": "KAVA",
+        "timeUTC": "2026-11-14 ~14:54 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+      },
+      {
+        "headline": "比特币ETF连续第二周流出10亿美元，除一只基金外其他加密基金继续失血",
+        "what": "截至11月14日的一周内，美国现货加密ETF共计净流出约15.5亿美元，仅Avalanche基金录得22.7万美元净流入。这种机构资本持续出逃标志着连续第二周大规模流出，预示投降。",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-14 ~10:11 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+      },
+      {
+        "headline": "比特币跌至三个月低点，跌破64,000美元，分析师警告第四波投降潮",
+        "what": "比特币跌破64,000美元创三个月新低，引发连锁多头爆仓。分析师James Check指出，交易者正在以他们三个月前希望买入的价格卖出，这标志着关键的投降点。",
+        "coins": "BTC",
+        "timeUTC": "2026-11-14 ~08:20 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kava Lend遭黑客攻击失窃约380万美元，KAVA代币暴跌近40%",
+          "what": "约4,920万枚KAVA代币被盗，通过LayerZero跨链到BNB链并售出，换得约210万美元的BNB和USDT。这次攻击和随后的代币大量抛售直接引发了KAVA的严重下跌。",
+          "coins": "KAVA",
+          "timeUTC": "2026-11-14 ~14:54 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF连续第二周流出10亿美元，除一只基金外其他加密基金继续失血",
+          "what": "截至11月14日的一周内，美国现货加密ETF共计净流出约15.5亿美元，仅Avalanche基金录得22.7万美元净流入。这种连续两周的大规模流出模式反映了机构的投降，市场情绪极度恐惧。",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-11-14 ~10:11 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "币安称被盗加密货币已补偿但部分用户需要等待",
+          "what": "币安将其储备快照披露扩展至198种代币，继续推进从最近黑客攻击中的恢复工作。分阶段提取仍在进行中；储备证明认证审计仍待完成。",
+          "coins": "multi-token",
+          "timeUTC": "2026-11-14 ~09:01 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-says-stolen-crypto-has-been-replaced-but-some-customers-have-to-wait/"
+        },
+        {
+          "headline": "以太坊扩展项目MegaETH裁员20%，转向追求AI业务",
+          "what": "MegaETH的母公司（MEGA）裁减20%的员工同时转向AI推理产品。该项目的DeFi锁定总价值从2.45亿美元暴跌至880万美元，表明用户信心严重丧失。",
+          "coins": "ETH",
+          "timeUTC": "2026-11-14 ~08:20 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11-14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business"
+        },
+        {
+          "headline": "哈萨克斯坦计划第一季度推出代币化政府债券，继2200万美元纸币销售之后",
+          "what": "哈萨克斯坦宣布计划在2027年第一季度发行代币化政府债券，此前成功售出2200万美元的代币化央行纸币。这一举措代表机构对区块链结算基础设施的持续采用。",
+          "coins": "stablecoin infrastructure",
+          "timeUTC": "2026-11-14 ~18:45 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "英国、新加坡和泰国央行测试跨境外汇结算，稳定币应用获得进展",
+          "what": "Meridian FX APAC项目展示了如何在传统结算系统和基于区块链的网络之间协调交易。该试验标志着中央银行数字货币（CBDC）互操作性和稳定币基础设施采用的进展。",
+          "coins": "stablecoin infrastructure",
+          "timeUTC": "2026-11-14 ~16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan GDP November 2026 — Sunday 15 Nov, 23:50 UTC",
+      "typicalReaction": "高影响力传统市场数据发布。疲弱的GDP可能会强化风险规避情绪并延长加密货币抛售；更强的数据可能缓解近期投降恐惧并允许反弹。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "投降",
+      "definition": "失利头寸最后持有者的广泛恐慌抛售，通常伴随极高成交量和情绪驱动的决策。投降通常是局部市场底部的信号。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "持有永续期货合约杠杆头寸的交易者支付的定期成本。正资金费率意味着多头交易者向空头交易者支付（看涨过度）；负资金费率意味着空头向多头支付（看跌过度）。年化百分比 = 资金费率 × 365。"
+    },
+    {
+      "term": "恐惧和贪婪指数",
+      "definition": "从0（极度恐惧）到100（极度贪婪）的日常市场情绪指标。数值低于25表示极度恐惧；高于75表示极度贪婪。11月14日的读数13反映了极度恐慌。"
+    },
+    {
+      "term": "爆仓",
+      "definition": "当亏损超过交易者的抵押品（保证金）时，杠杆头寸被迫自动平仓。在关键价格水平的大规模爆仓通常会引发连锁抛售压力。"
+    },
+    {
+      "term": "多空比",
+      "definition": "交易品种未平仓多头合约与空头合约的比例。3.23:1的比例意味着多头是空头的3.23倍，表示看涨头寸。下降的比例表示交易者正在平仓多头。"
+    },
+    {
+      "term": "市场涨跌面",
+      "definition": "在特定时期内，所有交易对中上涨、下跌或持平的交易对的百分比。市场涨跌面6.1%意味着每100种币中只有6种上涨；涨跌面低于20%表示弱势或投降。"
+    },
+    {
+      "term": "未平仓合约",
+      "definition": "交易所或交易品种上所有活跃杠杆合约（多头+空头）的总价值或数量。未平仓合约下降表示去杠杆（交易者平仓）；未平仓合约上升表示新增杠杆进入。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "24/7交易且永不过期的杠杆衍生品合约。没有结算日期；交易者支付或获得定期资金费率来保持头寸开放。允许在不拥有资产的情况下对任何资产进行押注。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "交易所上激进买单与激进卖单的比例。高于1的比例表示激进买入更多；低于1表示激进卖出更多。比特币上的0.90表示更多买家在投降而非新买家进入。"
+    },
+    {
+      "term": "顶级交易者多空比",
+      "definition": "最大交易者（最高账户规模等级）中的多空头寸比例。通常与散户比例不同；顶级交易者比例低于散户平均水平表明聪明资金的看涨程度低于群体。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "0105cb7b3bbc1a26"
+}

@@ -1,0 +1,160 @@
+{
+  "oneLine": "Bitcoin and Ethereum plunged on Nov 14—Bitcoin fell 6.1% to close near $64,125, Ethereum dropped 8.3% to near $1,768—amid accelerating ETF outflows, broad liquidations, and a major DeFi hack of Kava Lend.",
+  "caveman": "Bitcoin fell 6% and Ethereum fell 8% on Saturday, Nov 14. A major hack happened at Kava, a platform where people lend and borrow cryptocurrency—thieves stole about $4 million in KAVA tokens, which crashed the price 59%. A lot of regular investors' Bitcoin funds (ETFs) pulled money out—about $1.5 billion last week alone. Most people got scared and sold, not bought. Out of every 100 cryptocurrencies, only 6 went up. It was a very scary, worrying day.",
+  "priceVolumeSummary": "Bitcoin closed around $64,122–$64,131 (down 6.1% from the $68,280–$68,286 open) and Ethereum closed around $1,768–$1,769 (down 8.3% from the $1,929 open), with all venues closely aligned. Binance led volume with $18.8 billion in Bitcoin and $13.6 billion in Ethereum, followed by OKX at $10.3 billion and $9.6 billion.",
+  "positioningSummary": "Bitcoin funding was positive at 5.1% annualized on Binance, yet open interest fell 6.5%—meaning traders liquidated long positions faster than opening new ones, a sign of forced selling. Ethereum funding was slightly negative at -5.9%. Across Binance, long-to-short ratios were 3.23:1 for Bitcoin and 3.78:1 for Ethereum, showing more bullish leaning than bearish, but top-tier traders (largest position holders) were more cautious—their ratios were only 2.11:1 for Bitcoin and 1.94:1 for Ethereum. Taker buy-to-sell ratios of 0.90 (Bitcoin) and 0.97 (Ethereum) showed more aggressive selling than buying. Market breadth was extreme: only 6.1% of all Binance perpetuals rose; 93.4% fell—a complete capitulation signal.",
+  "stocksSummary": "Saturday had no cash equity sessions. Crypto-adjacent US stocks fell sharply on perpetuals (MSTU -21.8%, MSTR -11%, COIN -7.7%). Asian equity perps aligned with crypto weakness: Korean perps down 0.0–2.6% (KOSPI ETF -2.1%), Hong Kong tech perps down 0.2–4.8% (Zhipu AI, MiniMax hardest hit). Commodities mostly declined: gold -1.83%, silver -3.27%, oil flat. The uniform weakness across perps reflected broad risk-off deleveraging.",
+  "movers": [
+    {
+      "symbol": "KAVAUSDT",
+      "explanation": "Kava Lend, a DeFi lending platform on Kava, suffered a hack on Nov 14 that stole approximately $3.8 million. About 49.2 million KAVA tokens were bridged to BNB Chain and sold for roughly $2.1 million in BNB and USDT. The token fell from near $0.067 to $0.028 as stolen supply flooded the market.",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA rose 31% on the day. No public news or identifiable cause was reported; this low-liquidity token move may reflect platform-specific activity, speculation, or algorithmic trading without clear external explanation.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT fell 30% on the day. No public news or identifiable cause was reported; like EVAA, this low-liquidity move has no confirmed external driver.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
+        "what": "Approximately 49.2 million KAVA tokens were bridged to BNB Chain via LayerZero and sold for roughly $2.1 million in BNB and USDT. The hack accelerated market bearishness and triggered KAVA's -59% decline on Nov 14.",
+        "coins": "KAVA",
+        "timeUTC": "2026-11-14 ~14:54 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+      },
+      {
+        "headline": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+        "what": "U.S. spot crypto ETFs recorded approximately $1.55 billion in combined net outflows during the week ending Nov 14, with only Avalanche funds posting an inflow of $227,000. This sustained exodus of institutional capital marks the second consecutive week of major outflows, signaling capitulation.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-14 ~10:11 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+      },
+      {
+        "headline": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
+        "what": "Bitcoin broke below $64,000 to reach its lowest price in three months, triggering cascading long liquidations. Analyst James Check noted that traders are selling at prices they wished they had bought three months earlier, marking a key capitulation point.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-14 ~08:20 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
+          "what": "Approximately 49.2 million KAVA tokens were stolen, bridged to BNB Chain via LayerZero, and sold for roughly $2.1 million in BNB and USDT. The attack and subsequent token dump on markets directly triggered KAVA's severe decline.",
+          "coins": "KAVA",
+          "timeUTC": "2026-11-14 ~14:54 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+          "what": "U.S. spot crypto ETFs posted $1.55 billion in combined net outflows during the week ending Nov 14, with only Avalanche funds recording an inflow ($227,000). This two-week pattern of massive outflows reflects institutional capitulation into extreme-fear market conditions.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-11-14 ~10:11 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance says stolen crypto has been replaced but some customers have to wait",
+          "what": "Binance expanded its reserve snapshot disclosure to 198 tokens, continuing its recovery effort from the recent hack. Phased withdrawals remain in progress; proof-of-reserves attestation is still pending.",
+          "coins": "multi-token",
+          "timeUTC": "2026-11-14 ~09:01 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-says-stolen-crypto-has-been-replaced-but-some-customers-have-to-wait/"
+        },
+        {
+          "headline": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+          "what": "MegaETH's parent company (MEGA) laid off 20% of staff while pivoting to AI inference products. The project's DeFi total value locked collapsed from $245 million to $8.8 million, indicating sharp loss of user confidence.",
+          "coins": "ETH",
+          "timeUTC": "2026-11-14 ~08:20 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11-14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business"
+        },
+        {
+          "headline": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
+          "what": "Kazakhstan announced plans to issue tokenized government bonds in Q1 2027, following a successful $22 million sale of tokenized central bank notes. The initiative represents continued institutional adoption of blockchain settlement infrastructure.",
+          "coins": "stablecoin infrastructure",
+          "timeUTC": "2026-11-14 ~18:45 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
+          "what": "Project Meridian FX APAC demonstrated how transactions can be coordinated across traditional settlement systems and blockchain-based networks. The trial marks progress in central bank digital currency (CBDC) interoperability and stablecoin infrastructure adoption.",
+          "coins": "stablecoin infrastructure",
+          "timeUTC": "2026-11-14 ~16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan GDP November 2026 — Sunday 15 Nov, 23:50 UTC",
+      "typicalReaction": "High-impact traditional-market data release. Weak GDP could reinforce risk-off sentiment and extend the crypto selloff; stronger data may ease near-term capitulation fears and allow a bounce."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Capitulation",
+      "definition": "Widespread panic selling by the last remaining holders of losing positions, often marked by extreme volume and emotion-driven decisions. Capitulation is often a sign of a local market bottom."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The periodic cost paid by traders holding leveraged positions in perpetual futures contracts. Positive funding means long traders pay short traders (bullish overhang); negative funding means shorts pay longs (bearish overhang). Annualized percentage = funding rate × 365."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A daily market sentiment gauge from 0 (extreme fear) to 100 (extreme greed). Values below 25 indicate extreme fear; above 75 indicate extreme greed. Nov 14's reading of 13 reflected extreme panic."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced automatic closure of a leveraged position when losses exceed the trader's collateral (margin). Large liquidations at key price levels often trigger cascading sell pressure."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The ratio of open long contracts to open short contracts on a trading symbol. A ratio of 3.2:1 means 3.2 times more longs than shorts, indicating bullish positioning. A falling ratio signals traders unwinding long bets."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of all trading pairs that moved up, down, or stayed flat in a given period. Market breadth of 6% up means only 6 out of every 100 coins gained value; breadth under 20% signals weakness or capitulation."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total value or count of active leveraged contracts (longs + shorts) on an exchange or symbol. Falling open interest indicates deleveraging (traders closing positions); rising OI indicates new leverage entering."
+    },
+    {
+      "term": "Perpetual futures / Perps",
+      "definition": "Leveraged derivative contracts that trade 24/7 and never expire. No settlement date; traders pay or receive periodic funding rates to keep positions open. Allow betting on any asset without owning it."
+    },
+    {
+      "term": "Taker buy-to-sell ratio",
+      "definition": "The ratio of aggressive buy orders to aggressive sell orders on an exchange. A ratio above 1 indicates more aggressive buying; below 1 indicates more aggressive selling. 0.90 on Bitcoin signals more buyers are capitulating than new buyers entering."
+    },
+    {
+      "term": "Top-trader long-to-short ratio (top-position ratio)",
+      "definition": "The long-to-short positioning ratio among the largest traders (top tier of account sizes). Often diverges from the retail ratio; a lower top-trader ratio than retail average signals smart money is less bullish than the crowd."
+    }
+  ],
+  "_source": "cli"
+}

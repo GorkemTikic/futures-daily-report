@@ -1,0 +1,161 @@
+{
+  "oneLine": "Bitcoin ve Ethereum 14 Kasım'da ciddi şekilde düştü—Bitcoin %6,1 düşüşle 64.125 dolara yakın kapandı, Ethereum %8,3 düşüşle 1.768 dolara yakın kapandı—hızlanan ETF çıkışları, geniş ölçekli pozisyon tasfiyesi ve Kava Lend'e yapılan büyük bir DeFi saldırısının ardından.",
+  "caveman": "14 Kasım Cumartesi günü Bitcoin %6 ve Ethereum %8 düştü. Kava adlı bir platformda büyük bir saldırı oldu. Kava, insanların kripto para ödünç verdikleri ve borç aldıkları bir platform. Hırsızlar yaklaşık 4 milyon KAVA jetonu çaldı ve bunlar fiyatı %59 düşürdü. Bir sürü normal yatırımcı Bitcoin fonlarını (ETF'ler) geri çektiler—sadece geçen hafta yaklaşık 1,5 milyar dolar. İnsanlar korktu ve satış yaptılar, alış değil. Her 100 kripto paradanın sadece 6'sı yükseldi. Çok korkutucu, endişeli bir gündü.",
+  "priceVolumeSummary": "Bitcoin 64.122–64.131 dolar civarında kapandı ($68.280–$68.286 açılıştan %6,1 düşüş) ve Ethereum 1.768–1.769 dolar civarında kapandı ($1.929 açılıştan %8,3 düşüş), tüm borsalarda fiyatlar uyumlu. Binance Bitcoin'de 18,8 milyar dolar ve Ethereum'da 13,6 milyar dolar işlem hacmi ile başı çekti, bunu OKX 10,3 milyar dolar ve 9,6 milyar dolar işlem hacmi ile takip etti.",
+  "positioningSummary": "Bitcoin'in finansman oranı Binance'de yıllıklandırılmış olarak %5,1 pozitif olmasına rağmen açık faiz %6,5 düştü—bu, tüccarların yeni pozisyon açmaktan daha hızlı uzun pozisyonları kapattığını, zorunlu satışın bir işareti olduğunu gösteriyor. Ethereum finansman oranı hafif negatif, -%5,9 idi. Binance'de uzun/kısa oranları Bitcoin için 3,23:1 ve Ethereum için 3,78:1 idi, bu yükselişe yönelik daha güçlü bir eğilimi gösteriyordu, ancak üst düzey tüccarlar (en büyük pozisyon sahipleri) daha temkinli davrandılar—onların oranları Bitcoin için sadece 2,11:1 ve Ethereum için 1,94:1 idi. Alıcı/satıcı oranları Bitcoin için 0,90 ve Ethereum için 0,97 idi ve agresif satışın agresif satın almadan fazla olduğunu gösteriyordu. Pazar genişliği aşırıydı: Binance vadeli işlem sözleşmelerinin sadece %6,1'i yükseldi; %93,4'ü düştü—tam bir teslim olma işareti.",
+  "stocksSummary": "Cumartesi günü nakit hisse senedi oturumları yapılmadı. Kripto-ilişkili ABD hisse senetleri vadeli işlemlerde keskin düştü (MSTU -%21,8, MSTR -%11, COIN -%7,7). Asya hisse vadeli işlemleri kripto zayıflığı ile uyumluydu: Kore vadeli işlemleri %0,0–2,6 düştü (KOSPI ETF -%2,1), Hong Kong teknoloji vadeli işlemleri %0,2–4,8 düştü (Zhipu AI, MiniMax en çok etkilendi). Emtialar çoğunlukla düştü: altın -%1,83, gümüş -%3,27, petrol sabit. Vadeli işlemler arasındaki düzgün zayıflık, geniş ölçekli risk-off kaldıraç azalmasını yansıttı.",
+  "movers": [
+    {
+      "symbol": "KAVAUSDT",
+      "explanation": "Kava ağında bulunan bir DeFi borç verme platformu olan Kava Lend, 14 Kasım'da yaklaşık 3,8 milyon dolar çalan bir saldırıya uğradı. Yaklaşık 49,2 milyon KAVA jetonu LayerZero aracılığıyla BNB Chain'e köprülenmiş ve kabaca 2,1 milyon dolar değerinde BNB ve USDT için satılmıştır. Jeton 0,067 dolardan yaklaşık 0,028 dolara düştü, çalınan arz piyasaya taştı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA gün içinde %31 yükseldi. Kamuya açık haber veya tanımlanabilir bir neden bildirilmedi; bu düşük likidite jeton hareketi platforma özgü faaliyeti, spekülasyonu veya açık bir dış açıklama olmayan algoritmik ticareti yansıtabilir.",
+      "hasCause": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "explanation": "AGT gün içinde %30 düştü. Kamuya açık haber veya tanımlanabilir bir neden bildirilmedi; EVAA gibi, bu düşük likidite hareketi de onaylanmış bir dış tetikleyiciye sahip değildir.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Kava Lend hacker saldırısında yaklaşık 3,8 milyon dolar kaybediyor, KAVA jetonu neredeyse %40 düşüyor",
+        "what": "Yaklaşık 49,2 milyon KAVA jetonu LayerZero aracılığıyla BNB Chain'e köprülenmiş ve kabaca 2,1 milyon dolar değerinde BNB ve USDT için satılmıştır. Saldırı pazar pessimizmine hızlanma vermiş ve KAVA'nın 14 Kasım'da -%59 düşüşünü tetiklemiştir.",
+        "coins": "KAVA",
+        "timeUTC": "2026-11-14 ~14:54 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+      },
+      {
+        "headline": "Bitcoin ETF'leri arka arkaya ikinci hafta 1 milyar dolar kaybediyor, kripto fonları kanını döküyor",
+        "what": "ABD spot kripto ETF'leri 14 Kasım'da sona eren hafta boyunca takriben 1,55 milyar dolar birleşik net çıkışı kayıt altına aldı; sadece Avalanche fonları 227.000 dolar giriş kaydetti. Kurumsal sermayenin bu devam eden göçü, arka arkaya ikinci haftanın büyük çıkışlarını işaret ediyor ve teslim olma sinyali veriyor.",
+        "coins": "BTC, ETH",
+        "timeUTC": "2026-11-14 ~10:11 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+      },
+      {
+        "headline": "Bitcoin 3 aylık düşük seviyenin altında 64.000 dolara çakılıyor, analist dördüncü teslim olma dalgasını işaret ediyor",
+        "what": "Bitcoin 64.000 doların altına inişti ve üç aylık en düşük fiyatına ulaştı, basamaklı uzun pozisyon tasfiyesi tetikledi. Analist James Check, tüccarların üç ay önce satın almış olmak istedikleri fiyatlardan satış yaptıklarını ve bunun önemli bir teslim olma noktasını işaret ettiğini belirtti.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-14 ~08:20 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Kava Lend hacker saldırısında yaklaşık 3,8 milyon dolar kaybediyor, KAVA jetonu neredeyse %40 düşüyor",
+          "what": "Yaklaşık 49,2 milyon KAVA jetonu çalınmış, LayerZero aracılığıyla BNB Chain'e köprülenmiş ve kabaca 2,1 milyon dolar değerinde BNB ve USDT için satılmıştır. Saldırı ve müteakip jeton satışı piyasalarda KAVA'nın ciddi düşüşünü doğrudan tetiklemiştir.",
+          "coins": "KAVA",
+          "timeUTC": "2026-11-14 ~14:54 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri arka arkaya ikinci hafta 1 milyar dolar kaybediyor, kripto fonları kanını döküyor",
+          "what": "ABD spot kripto ETF'leri 14 Kasım'da sona eren hafta boyunca takriben 1,55 milyar dolar birleşik net çıkışı kayıt altına aldı; sadece Avalanche fonları 227.000 dolar giriş kaydetti. İki haftayı kapsayan bu büyük çıkış modeli, kurumsal sermayenin yer aldığını ve teslim olma sinyali verdiğini gösteriyor.",
+          "coins": "BTC, ETH",
+          "timeUTC": "2026-11-14 ~10:11 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance çalınan kripto paranın yerini aldığını söylüyor ama bazı müşteriler beklemeyi gerektirir",
+          "what": "Binance rezerv anlık görüntüsü açıklamasını 198 jetona genişletti, yakın tarihli hacker saldırısından kurtulma çabasını sürdürdü. Aşamalı çekmeler devam etmektedir; rezerv kanıtı doğrulanması hala beklemede.",
+          "coins": "multi-token",
+          "timeUTC": "2026-11-14 ~09:01 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-says-stolen-crypto-has-been-replaced-but-some-customers-have-to-wait/"
+        },
+        {
+          "headline": "Ethereum ölçekleme projesi MegaETH, yapay zeka işi takip ederken personeli %20 azaltıyor",
+          "what": "MegaETH'nin ana şirketi (MEGA), yapay zeka çıkarım ürünlerine dönerken personelin %20'sini işten çıkardı. Projenin DeFi toplam kilitli değeri 245 milyon dolardan 8,8 milyon dolara çöktü, kullanıcı güvenindeki keskin kaybı gösteriyor.",
+          "coins": "ETH",
+          "timeUTC": "2026-11-14 ~08:20 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11-14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business"
+        },
+        {
+          "headline": "Kazakistan, 22 milyon dolarlık not satışından sonra birinci çeyrekte tokenize hükümet tahvillerini planlıyor",
+          "what": "Kazakistan, merkez bankası notlarının başarılı 22 milyon dolarlık tokenize satışını takiben 2027 Q1'de tokenize hükümet tahvilleri çıkarma planlarını açıkladı. Girişim, blockchain takas altyapısının devam eden kurumsal olarak benimsenmesini temsil ediyor.",
+          "coins": "stablecoin infrastructure",
+          "timeUTC": "2026-11-14 ~18:45 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "İngiltere, Singapur ve Tayland merkez bankaları stablecoin'ler ilerleme kaydederken sınır ötesi döviz takas testini yapıyor",
+          "what": "Project Meridian FX APAC, işlemlerin geleneksel takas sistemleri ve blockchain tabanlı ağlar arasında nasıl koordine edilebileceğini gösterdi. Deneme, merkez bankası dijital para birimi (CBDC) birlikte çalışabilirliği ve stablecoin altyapı benimsenmesindeki ilerlemeyi işaret ediyor.",
+          "coins": "stablecoin infrastructure",
+          "timeUTC": "2026-11-14 ~16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan GDP November 2026 — Sunday 15 Nov, 23:50 UTC",
+      "typicalReaction": "Yüksek etkili geleneksel pazar veri yayını. Zayıf GSYİH risk-off duygusunu güçlendirebilir ve kripto satışını uzatabilir; daha güçlü veriler yakın vadeli teslim olma korkularını hafifletebilir ve bir sıçramaya izin verebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Teslim Olma",
+      "definition": "Kaybedilen pozisyonların son kalan sahipleri tarafından yaygın panik satışı, genellikle aşırı hacim ve duygu yönünden karar verilen satışlarla işaretlenmiş. Teslim olma genellikle yerel bir pazar tabanının işareti."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Vadeli işlem sözleşmelerinde kaldıraçlı pozisyonları tutan tüccarlar tarafından ödenen periyodik maliyet. Pozitif finansman, uzun tüccarların kısa tüccarlara ödediği anlamına gelir (yükselişe yönelik fazlalık); negatif finansman, kısaların uzunlara ödediği anlamına gelir (düşüşe yönelik fazlalık). Yıllıklandırılmış yüzde = finansman oranı × 365."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında günlük pazar duygusu göstergesi. 25'in altındaki değerler aşırı korku gösterir; 75'in üstü aşırı açgözlülüğü gösterir. 14 Kasım'ın 13 okuması aşırı paniği yansıttı."
+    },
+    {
+      "term": "Pozisyon Tasfiyesi",
+      "definition": "Kayıplar tüccarın teminatını (marj) aştığında kaldıraçlı pozisyonun zorunlu otomatik kapatılması. Önemli fiyat seviyeleri tetiklenen büyük tasfiyeler sıklıkla basamaklı satış baskısını tetikler."
+    },
+    {
+      "term": "Uzun/Kısa Oranı",
+      "definition": "Bir sembol üzerinde açık uzun sözleşmelerin açık kısa sözleşmelere oranı. 3,2:1 oranı, 3,2 kat daha fazla uzun olduğu anlamına gelir, yükselişe yönelik konumlandırma gösterir. Düşen oran, tüccarların uzun bahisleri açma sinyali verir."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Belirli bir dönemde yükselen, düşen veya sabit kalan tüm ticari çiftlerin yüzdesi. %6 yükseliş pazar genişliği, sadece her 100 madeni paranın 6'sının değer kazandığı anlamına gelir; %20'nin altındaki genişlik zayıflık veya teslim olma sinyali verir."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Bir borsada veya sembolde aktif kaldıraçlı sözleşmelerin toplam değeri veya sayısı (uzunlar + kısaları). Düşen açık faiz kaldıraç azalmasını gösterir (tüccarlar pozisyonları kapatıyor); yükselen açık faiz yeni kaldıracın giriş göstergesi."
+    },
+    {
+      "term": "Vadeli İşlem Sözleşmeleri",
+      "definition": "24/7 işlem gören ve asla sona ermeyen kaldıraçlı türev sözleşmeleri. Takas tarihi yok; tüccarlar pozisyonları açık tutmak için periyodik finansman oranları öder veya alır. Herhangi bir varlık üzerine sahibi olmadan bahis yapılmasına izin verir."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Bir borsada agresif satın alma siparişlerinin agresif satış siparişlerine oranı. 1'in üzerindeki oran daha agresif satın almayı gösterir; 1'in altı daha agresif satışı gösterir. Bitcoin'de 0,90 agresif satıcıların agresif alıcılardan fazla olduğunu gösterir."
+    },
+    {
+      "term": "Üst Düzey Tüccar Uzun/Kısa Oranı",
+      "definition": "En büyük tüccarlar (hesap büyüklüğünün en üst katmanı) arasında uzun/kısa konumlandırma oranı. Sıklıkla perakende oranından farklıdır; üst tüccar oranı perakende ortalamasından daha düşükse, büyük yatırımcılar sıradan yatırımcılardan daha az iyimser demektir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "0105cb7b3bbc1a26"
+}
