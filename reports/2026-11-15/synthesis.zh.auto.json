@@ -1,0 +1,154 @@
+{
+  "oneLine": "比特币和以太坊在11月15日反弹1.8–3.7%，但市场仍处于极度恐慌状态，山寨币普遍上涨被持续的ETF流出和卖盘压力所抵消。",
+  "caveman": "星期日11月15日，比特币上升了约2%，以太坊上升了约4%。大多数其他硬币也上升了——其中87%的硬币。但整个市场变小了，因为人们通过加密经纪商的投资产品（称为ETF）进行了卖出。本周早些时候，比特币下跌了那么多，以至于人们被强制平仓——被迫在交易计算机做出决定时以最坏的时机卖出。尽管今天价格上升了，但大交易者展望未来时在能卖出的时候卖出，这意味着他们不确定这次上升是否会持续。恐惧指数保持在10，最可怕的程度。这是一个人们失去信心的一天，尽管价格反弹了。",
+  "priceVolumeSummary": "比特币和以太坊走势紧密相关，比特币价格为$65,310，以太坊价格为$1,834。币安在交易量上领先，比特币成交额$16.2 billion，以太坊成交额$10.2 billion，约为次大交易平台的两倍。",
+  "positioningSummary": "大交易者持有更多的多头头寸而非空头：币安比特币多头头寸为3.08倍，最大交易者中为1.81倍；以太坊类似，分别为2.93倍和1.65倍。但是吃单买/卖比率——衡量买方或卖方积极程度的指标——对两者都跌破1.0（比特币0.92，以太坊0.89），这意味着卖方更积极。资金费率大多为负或接近零，表明多头交易者向空头支付，这是看跌信号。市场广度较强，86.7%的硬币上升，但这种强度与交易者当时的卖盘压力不匹配。",
+  "stocksSummary": "亚洲现货股票市场在周日休市。商品期货（在CME Globex上24小时交易）表现不一：黄金期货上涨2.2%，白银上涨3.6%，铜上涨0.7%，而石油下跌0.3%。",
+  "movers": [
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA暴涨93.8%，成交额$612 million。未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "RAREUSDT",
+      "explanation": "RARE飙升46.9%，成交额$79 million。未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "SOPH暴跌45.4%，成交额$199 million。未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美国投资者抛售推动比特币从近期高点下跌",
+        "what": "来自Anchorage Digital的数据表明，本周早些时候美国投资者推动了比特币的抛售，市场跌至近四个月低点$62,000附近，之后反弹。币安创始人CZ否认交易所本身有过抛售任何持仓。这次波动在单个24小时内引发了$2 billion的强制平仓。",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-15 22:51 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807"
+      },
+      {
+        "headline": "比特币ETF流出在11月加速至$2.1 billion",
+        "what": "美国现货比特币ETF仅在周五就赎回了$185.4 million，标志着连续第七天的流出。11月迄今的总流出现已达到约$2.1 billion，投资者正在从这些产品中提取资金。",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-15 18:01 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+      },
+      {
+        "headline": "XRP跌至自2024年11月以来的最低水平",
+        "what": "随着更广泛的加密货币市场压力上升，XRP暴跌至自2024年11月以来的最低价格。ETF流出和稳定币供应萎缩被列为下跌的主要驱动因素。",
+        "coins": "XRP",
+        "timeUTC": "2026-11-15 03:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币ETF在11月面临$2.1 billion流出",
+          "what": "美国现货比特币ETF正经历连续第七天的流出，仅周五就赎回了$185.4 million。11月迄今的总流出现已达到约$2.1 billion，投资者正在提取资金。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-15 18:01 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+        },
+        {
+          "headline": "华尔街公司竞争链上美元市场",
+          "what": "包括高盛、花旗、SoFi、万事达、Visa和Circle在内的传统金融巨头正在竞相主导区块链上美元代币市场——这一领地长期由Tether和Circle控制。高盛和花旗正在联合开发'Project Faro'，据报道分配了$270 million。",
+          "coins": "USDT, USDC",
+          "timeUTC": "2026-11-15 17:21 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "预测市场和民调都在2026年中期选举预测中出现偏差",
+          "what": "对预测市场的分析显示，到2026年选举周期结束时，它们与传统民调基本一致，尽管两者在预测结果上都有明显错误。",
+          "coins": "general crypto policy",
+          "timeUTC": "2026-11-15 13:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "韩国Coinone交易所警告数据泄露",
+          "what": "Coinone披露了一起客户数据泄露事件，可能暴露的信息包括密码、银行账号、身份证号和加密钱包地址。交易所警告用户钓鱼和身份盗窃的风险增加。",
+          "coins": "general",
+          "timeUTC": "2026-11-15 01:27 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Tether XAUT寻求与传统黄金ETF竞争",
+          "what": "Tether的黄金代币（XAUT）旨在与机构级黄金ETF竞争。Anchorage Digital正在支持该代币的机构销售和客户融资安排。",
+          "coins": "XAUT",
+          "timeUTC": "2026-11-15 12:32 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-wants-its-gold-token-to-rival-etfs/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-13",
+    "summary": "在11月13日周五，报告日期前最后一个美国交易日，比特币和以太坊现货ETF出现明显流出，延续了一周的赎回趋势。",
+    "source": "Data pending verification",
+    "url": null
+  },
+  "calendarNotes": [
+    {
+      "event": "Japan GDP released at 23:50 UTC on November 15 (end of report day)",
+      "typicalReaction": "中等影响——国内经济数据；可能导致尾盘波动"
+    },
+    {
+      "event": "Canada CPI November 2026 scheduled for Monday 16 Nov, 13:30 UTC",
+      "typicalReaction": "高影响——重大经济数据发布通常会推动传统市场波动并蔓延至加密市场；预计价格波动"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "市场广度",
+      "definition": "交易所上所有交易硬币中当日上涨的百分比。更高的广度（如86.7%）表明市场广泛走强，但如果最大的硬币表现不佳，则可能掩盖弱势。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续合约交易者每8小时相互支付的费用，以保持价格一致。正费率意味着多头交易者向空头支付（表明看涨成本高），负费率意味着空头向多头支付（表明看空成本高）。"
+    },
+    {
+      "term": "强制平仓",
+      "definition": "当交易者的损失消耗掉他们的安全垫（保证金）时，交易所自动平仓。这迫使他们在最糟糕的时刻卖出。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升的交易者数量除以押注价格下跌的交易者数量。3.0的比率意味着每1个空头对应3个多头。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续合约的利润和损失的参考价格，通常是主要交易所近期交易的平均值。"
+    },
+    {
+      "term": "未平仓头寸（OI）",
+      "definition": "永续合约上所有未平仓头寸（多头和空头头寸合计）的总美元价值。上升的OI表明交易者变得更有信心或更积极；下降的OI表明他们在平仓。"
+    },
+    {
+      "term": "吃单买/卖比率",
+      "definition": "衡量买方相对于卖方的积极程度。高于1.0的比率意味着激进的买方占主导；低于1.0意味着激进的卖方处于控制地位。"
+    },
+    {
+      "term": "顶部头寸比率",
+      "definition": "交易所中仅最大交易者之间的多空比。通常用作聪明资金头寸的信号。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "49c9c68f6724b746"
+}

@@ -1,0 +1,153 @@
+{
+  "oneLine": "Bitcoin and Ethereum recovered 1.8–3.7% on November 15, but the market remained in extreme fear, with broad gains across altcoins offset by continued ETF outflows and selling pressure.",
+  "caveman": "Bitcoin went up about 2% and Ethereum went up about 4% on Sunday, November 15. Most other coins went up too—87% of them. But the whole market got smaller because people sold through crypto brokers' investment products called ETFs. Earlier in the week Bitcoin fell so much that people got liquidated—forced to sell at the worst time when trading computers made decisions for them. Even though prices went up today, big traders looking ahead are selling when they can, which means they're not sure the rise will stick. The fear meter stayed at 10, the scariest it gets. This was a day of people losing confidence, even as prices bounced.",
+  "priceVolumeSummary": "Bitcoin and Ethereum moved closely together, with Bitcoin at $65,310 and Ethereum at $1,834. Binance led in volume with $16.2 billion in Bitcoin and $10.2 billion in Ethereum trading, roughly double the next-largest venues.",
+  "positioningSummary": "Large traders held more long positions than short: 3.08× long at Binance for Bitcoin and 1.81× among the largest traders, similar ratios for Ethereum at 2.93× and 1.65×. But the taker buy/sell ratio—a measure of how aggressively buyers or sellers are acting—fell below 1.0 for both (Bitcoin 0.92, Ethereum 0.89), meaning sellers were more aggressive. Funding rates were mostly negative or near-zero, signaling that long traders were paying shorts, a bearish sign. Market breadth was strong at 86.7% of coins up, but that strength didn't match the selling pressure from traders acting in the moment.",
+  "stocksSummary": "Asian cash equity markets were closed on Sunday. Commodities (which trade 24 hours on CME Globex) were mixed: gold perpetuals jumped 2.2%, silver 3.6%, and copper 0.7%, while oil lost 0.3%.",
+  "movers": [
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA surged 93.8% with $612 million in volume. No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "RAREUSDT",
+      "explanation": "RARE jumped 46.9% with $79 million in volume. No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "SOPH crashed 45.4% with $199 million in volume. No clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin falls from recent highs as US investors sell",
+        "what": "Data from Anchorage Digital suggests US-based investors drove the Bitcoin selloff earlier in the week, with the market hitting a four-month low near $62,000 before recovering. Binance founder CZ denied the exchange itself had sold any holdings. The move triggered $2 billion in liquidations in a single 24-hour period.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-15 22:51 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807"
+      },
+      {
+        "headline": "Bitcoin ETF outflows accelerate to $2.1 billion in November",
+        "what": "US spot Bitcoin ETFs shed $185.4 million on Friday alone, marking the seventh straight day of outflows. November losses now total approximately $2.1 billion as investors pull capital from the products.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-15 18:01 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+      },
+      {
+        "headline": "XRP falls to lowest level since November 2024",
+        "what": "XRP tanked to its lowest price since November 2024 as broader cryptocurrency market pressures mounted. ETF outflows and shrinking stablecoin supply are cited as major drivers of the downturn.",
+        "coins": "XRP",
+        "timeUTC": "2026-11-15 03:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETFs face $2.1 billion outflows in November",
+          "what": "US spot Bitcoin ETFs are on their seventh consecutive day of outflows, losing $185.4 million on Friday alone. November total outflows now stand at approximately $2.1 billion as investors withdraw capital.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-15 18:01 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+        },
+        {
+          "headline": "Wall Street firms competing for onchain dollar market",
+          "what": "Traditional finance giants including Goldman Sachs, Citigroup, SoFi, Mastercard, Visa, and Circle are racing to dominate the market for dollar tokens on blockchains—a space long controlled by Tether and Circle. Goldman and Citi are jointly developing 'Project Faro' with a reported $270 million allocation.",
+          "coins": "USDT, USDC",
+          "timeUTC": "2026-11-15 17:21 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Prediction markets and polls both missed on 2026 midterm calls",
+          "what": "Analysis of prediction markets shows they largely aligned with traditional polling by the end of the 2026 election cycle, though both had notable errors in calling the outcomes.",
+          "coins": "general crypto policy",
+          "timeUTC": "2026-11-15 13:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "South Korean Coinone exchange warns of data breach",
+          "what": "Coinone disclosed a customer data breach with potentially exposed information including passwords, bank account numbers, national identification numbers, and crypto wallet addresses. The exchange warned users of increased risk of phishing and identity theft.",
+          "coins": "general",
+          "timeUTC": "2026-11-15 01:27 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Tether XAUT seeks to rival traditional gold ETFs",
+          "what": "Tether's gold token (XAUT) aims to compete with institutional gold ETFs. Anchorage Digital is supporting institutional sales and client financing arrangements for the token.",
+          "coins": "XAUT",
+          "timeUTC": "2026-11-15 12:32 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-wants-its-gold-token-to-rival-etfs/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-13",
+    "summary": "On Friday November 13, the last US trading day before the report date, Bitcoin and Ethereum spot ETFs experienced significant outflows, continuing a week-long withdrawal trend.",
+    "source": "Data pending verification",
+    "url": null
+  },
+  "calendarNotes": [
+    {
+      "event": "Japan GDP released at 23:50 UTC on November 15 (end of report day)",
+      "typicalReaction": "Medium impact—domestic economic data; potential late-session movement"
+    },
+    {
+      "event": "Canada CPI November 2026 scheduled for Monday 16 Nov, 13:30 UTC",
+      "typicalReaction": "High impact—major economic release typically drives volatility in traditional markets and spillover to crypto; plan for price swings"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all coins trading on an exchange that moved up on the day. Higher breadth (like 86.7%) suggests broad market strength, but can mask weakness if the largest coins are struggling."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A fee that traders on perpetual contracts pay each other every 8 hours to keep prices aligned. A positive rate means long traders pay shorts (suggesting optimism is expensive); negative rates mean shorts pay longs (suggesting pessimism is expensive)."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a trader's position is automatically closed by the exchange because losses ate up their safety cushion (margin). This forces them to sell at the worst possible moment."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting on the price going up divided by those betting on it going down. A ratio of 3.0 means 3 longs for every 1 short."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate profits and losses on perpetual contracts, usually the average of recent trades across major exchanges."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total dollar value of all unsettled bets (long and short positions combined) on a perpetual contract. Rising OI suggests traders are becoming more confident or aggressive; falling OI suggests they are closing bets."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of how aggressively buyers versus sellers are acting. A ratio above 1.0 means aggressive buyers are dominating; below 1.0 means aggressive sellers are in control."
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long/short ratio among only the largest traders on an exchange. Often used as a signal of smart money positioning."
+    }
+  ],
+  "_source": "cli"
+}

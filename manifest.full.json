@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-15T00:08:45.874Z",
-  "count": 151,
+  "generatedAt": "2026-11-16T00:07:55.651Z",
+  "count": 152,
   "counts": {
-    "total": 151,
-    "market": 64,
+    "total": 152,
+    "market": 65,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-14",
+  "latest": "2026-11-15",
   "reports": [
+    {
+      "date": "2026-11-15",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 1.858155785061461,
+        "ETH": 3.7223214891547696
+      },
+      "marketSummary": "Bitcoin and Ethereum recovered 1.8–3.7% on November 15, but the market remained in extreme fear, with broad gains across altcoins offset by continued ETF outflows and selling pressure.",
+      "oneLine": "Bitcoin and Ethereum recovered 1.8–3.7% on November 15, but the market remained in extreme fear, with broad gains across altcoins offset by continued ETF outflows and selling pressure.",
+      "newsCount": 8,
+      "topMover": {
+        "symbol": "EVAAUSDT",
+        "chgPct": 93.8556067588326
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-15/summary_2026-11-15.html",
+        "pdf": "reports/2026-11-15/summary_2026-11-15.pdf",
+        "md": "reports/2026-11-15/summary_2026-11-15.md"
+      }
+    },
     {
       "date": "2026-11-14",
       "kind": "market",

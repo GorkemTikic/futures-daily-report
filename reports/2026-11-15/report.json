@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-15",
+  "kind": "market",
+  "dateLong": "Sunday, 15 November 2026",
+  "coversUTC": "2026-11-15 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum recovered 1.8–3.7% on November 15, but the market remained in extreme fear, with broad gains across altcoins offset by continued ETF outflows and selling pressure.",
+  "newsCount": 8,
+  "macro": {
+    "BTC": 1.858155785061461,
+    "ETH": 3.7223214891547696
+  },
+  "topMover": {
+    "symbol": "EVAAUSDT",
+    "chgPct": 93.8556067588326
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "16 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

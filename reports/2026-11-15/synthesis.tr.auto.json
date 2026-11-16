@@ -1,0 +1,154 @@
+{
+  "oneLine": "Bitcoin ve Ethereum 15 Kasım'da %1,8–3,7 oranında değer kazandı, fakat pazar hala derin korku içindeydi. Altcoinlerdeki geniş kazançlara rağmen, kripto ETF'lerinden devam eden çıkışlar ve satış baskısı pazarı sıkıştırmaya devam etti.",
+  "caveman": "15 Kasım Pazar günü: Bitcoin yaklaşık %2 yükseldi, Ethereum yaklaşık %4 yükseldi. Diğer paralar da çoğunlukla yükseldi. Ama toplam olarak pazar küçüldü çünkü insanlar kripto yatırım ürünlerinden (ETF) para çekti. Hafta başında Bitcoin çok düşmüştü ve insanlar zararı kabul edip sattılar. Bugün fiyatlar yükseldi ama büyük yatırımcılar hala güvenli değiller. Korku ölçeği en yüksekti. Kısacası: fiyatlar iyileşti ama güven geri gelmedi.",
+  "priceVolumeSummary": "Bitcoin ve Ethereum birbirine paralel hareket etti; Bitcoin 65.310 dolar, Ethereum 1.834 dolar konumundaydı. Binance, işlem hacmi açısından başı çekti: Bitcoin'de 16,2 milyar dolar, Ethereum'da 10,2 milyar dolar işlem gerçekleşti—bir sonraki en büyük piyasaların yaklaşık iki katı.",
+  "positioningSummary": "Büyük yatırımcılar uzun pozisyonlara (fiyat yükseleceği fikri) kısa pozisyonlardan (fiyat düşeceği fikri) daha fazla sahipti: Binance'de Bitcoin için 3,08 kat, en büyük oyuncular arasında 1,81 kat. Ethereum'da da benzer: 2,93 kat ve 1,65 kat. Ama alıcı/satıcı oranı düştü (Bitcoin 0,92, Ethereum 0,89)—satıcılar daha güçlüydü. Uzun yatırımcılar kısa yatırımcılara ödeme yapıyorlardı—bu endişe işareti. Pazarda çoğu para yükseldi (%86,7), ancak satış baskısı hala güçlüydü.",
+  "stocksSummary": "Asya hisse senedi piyasaları Pazar günü kapalıydı. Emtialar (CME Globex'te 24 saat işlem görenler) karışıktı: altın vadeli işlemleri %2,2 yükseldi, gümüş %3,6, bakır %0,7, petrol ise %0,3 düştü.",
+  "movers": [
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA %93,8 oranında sıçradı, 612 milyon dolar hacim ile. Net bir nedeni bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "RAREUSDT",
+      "explanation": "RARE %46,9 yükseldi, 79 milyon dolar hacim ile. Açık bir neden belirlenemedi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "explanation": "SOPH %45,4 düştü, 199 milyon dolar hacim ile. Kamuya bilinen bir neden yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin son yükseklerden düşüyor—ABD yatırımcıları satıyor",
+        "what": "Anchorage Digital'in verilerine göre ABD merkezli yatırımcılar haftanın başında Bitcoin satışını tetikledi; pazar 62.000 dolar civarında dört aylık düşüşe gitti ve sonra toparlandı. Binance kurucusu CZ, borsa'nın kendisinin hiçbir holding sattığını reddetti. Hareket, tek bir 24 saatlik dönemde 2 milyar dolarlık likidasyona neden oldu.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-15 22:51 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807"
+      },
+      {
+        "headline": "Bitcoin ETF çıkışları Kasım'da 2,1 milyar dolara hızlandı",
+        "what": "ABD spot Bitcoin ETF'leri Cuma günü 185,4 milyon dolar kaybetti—yedi gün üst üste çıkış. Kasım kayıpları şu ana kadar yaklaşık 2,1 milyar dolara ulaştı; yatırımcılar ürünlerden para çekiyor.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-15 18:01 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+      },
+      {
+        "headline": "XRP, Kasım 2024'ten bu yana en düşük seviyeye düştü",
+        "what": "XRP, daha geniş kripto pazar baskıları ortasında Kasım 2024'ten bu yana en düşük fiyatına düştü. ETF çıkışları ve stablecoin arzının küçülmesi, düşüşün ana nedenleri olarak gösteriliyor.",
+        "coins": "XRP",
+        "timeUTC": "2026-11-15 03:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin ETF'leri Kasım'da 2,1 milyar dolar çıkış ile karşı karşıya",
+          "what": "ABD spot Bitcoin ETF'leri yedi gün üst üste çıkış yaşıyor, Cuma günü 185,4 milyon dolar kaybetti. Kasım'daki toplam çıkışlar yaklaşık 2,1 milyar dolara ulaştı—yatırımcılar sermaye çekiyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-15 18:01 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+        },
+        {
+          "headline": "Wall Street firmaları zincirdeki dolar pazarında yarışıyor",
+          "what": "Goldman Sachs, Citigroup, SoFi, Mastercard, Visa ve Circle gibi geleneksel finans devleri, blokzincirlerde dolar tokenlerinin pazarında baskın olmak için yarışıyor—uzun yıllar Tether ve Circle'ın kontrolünde olan bir alan. Goldman ve Citi, 270 milyon dolar tahsisi ile 'Project Faro' üzerinde ortak geliştirme yapıyor.",
+          "coins": "USDT, USDC",
+          "timeUTC": "2026-11-15 17:21 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Tahmin piyasaları ve anketler 2026 orta vadeli seçimlerinde hatalı",
+          "what": "Tahmin piyasalarının analizi, 2026 seçim döngüsünün sonunda geleneksel anketlerle büyük oranda uyumlu olduklarını gösteriyor, ancak her ikisinin de sonuçları çağırırken kayda değer hatalar vardı.",
+          "coins": "genel kripto politikası",
+          "timeUTC": "2026-11-15 13:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Güney Kore Coinone borsası veri ihlali konusunda uyarıyor",
+          "what": "Coinone, müşteri verilerinin hacklenmesini açıkladı—şifreler, banka hesap numaraları, milli kimlik numaraları ve kripto cüzdan adresleri ortaya çıkabilir. Borsa, kullanıcıları kimlik avı ve kimlik hırsızlığı riski konusunda uyardı.",
+          "coins": "genel",
+          "timeUTC": "2026-11-15 01:27 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Tether XAUT, geleneksel altın ETF'leriyle rekabet etmeyi amaçlıyor",
+          "what": "Tether'in altın tokeni (XAUT), kurumsal altın ETF'leri ile rekabet etmeyi hedefliyor. Anchorage Digital, token için kurumsal satış ve müşteri finansmanı düzenlemelerini destekliyor.",
+          "coins": "XAUT",
+          "timeUTC": "2026-11-15 12:32 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/tether-wants-its-gold-token-to-rival-etfs/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-13",
+    "summary": "13 Kasım Cuma günü, rapor tarihinden önceki son ABD ticaret günü, Bitcoin ve Ethereum spot ETF'leri önemli çıkışlar yaşadı—haftanın tamamında çekilim trendi devam etti.",
+    "source": "Data pending verification",
+    "url": null
+  },
+  "calendarNotes": [
+    {
+      "event": "Japan GDP released at 23:50 UTC on November 15 (end of report day)",
+      "typicalReaction": "Orta düzey etki—yerli ekonomik veri; rapor günü sonunda hareket mümkün"
+    },
+    {
+      "event": "Canada CPI November 2026 scheduled for Monday 16 Nov, 13:30 UTC",
+      "typicalReaction": "Yüksek etki—büyük ekonomik verisi tipik olarak geleneksel piyasalarda oynaklık sürütür ve kripto'ya yayılır; fiyat dalgalanmalarına hazır olun"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Genişlik",
+      "definition": "Borsa'da işlem gören paralar arasında gün içinde yükselen olanların yüzdesi. Daha yüksek genişlik (%86,7 gibi) geniş pazar gücü gösterirse de, en büyük paralar mücadele ediyorsa zayıflığı maskeleyebilir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual (vadeli) kontrat yatırımcılarının birbirine 8 saatte bir ödediği ücret, fiyatları çizgide tutmak için. Pozitif oran, uzun yatırımcılarının short'lara ödediği anlamı (iyimserlik pahalı); negatif oran, short'ların uzunlara ödediği anlamı (kötümserlik pahalı)."
+    },
+    {
+      "term": "Likidasyonu",
+      "definition": "Bir yatırımcının pozisyonu otomatik olarak kapatıldığında, zararlar güvenlik payını tükettiğinde borsa tarafından. Bu onu en kötü fiyattan satmaya zorlar."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Fiyatın yükseleceğine bahis yapan yatırımcıların sayısının, düşüceğine bahis yapanların sayısına bölümü. 3,0 oranı, her kısa için 3 uzun anlamı."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Perpetual kontratlar üzerinde kar/zarar hesaplamak için kullanılan referans fiyat, tipik olarak büyük borsalardaki son işlemlerin ortalaması."
+    },
+    {
+      "term": "Açık ilgi",
+      "definition": "Perpetual kontrat üzerindeki tüm kapatılmamış bahislerin (uzun ve kısa pozisyonların toplamı) toplam dolar değeri. Yükselen açık ilgi, yatırımcıların daha güvensiz veya agresif hale geldiğini gösterir; düşen açık ilgi, bahisleri kapatıyor olduklarını gösterir."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Alıcıların satıcılara karşı ne kadar agresif hareket ettiğini gösteren ölçü. 1,0'dan yüksek oran agresif alıcıların baskı yaptığı; 1,0'dan düşük oran agresif satıcıların kontrolde olduğu."
+    },
+    {
+      "term": "En büyük pozisyon oranı",
+      "definition": "Sadece en büyük yatırımcıların uzun/kısa oranı. Genellikle akıllı para konumlandırması sinyali olarak kullanılır."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "49c9c68f6724b746"
+}
