@@ -1,0 +1,281 @@
+{
+  "oneLine": "2026年11月16日周一，比特币和以太坊各跌幅不足1%，但清算浪潮和英伟达领导层危机在科技及加密市场中引发恐慌情绪，恐惧指数达到极端水平。",
+  "caveman": "比特币和以太坊都只跌了一点点（不足1%），这通常不会很可怕。但英伟达公司出了大问题。英伟达是世界上最重要的电脑芯片制造商。它的CEO詹森·黄被迫下台，而且公司说他再也不会回来了。这把所有押注人工智能的人都吓坏了，他们争相抛售加密货币和股票来保护自己的钱。很多人赔大了，被迫快速卖出，导致价格跌得更深。普通股票市场跌了2%，芯片公司股票跌了15到20%。专家说人们现在处于极度恐惧中。那真是糟糕的一天。",
+  "priceVolumeSummary": "五大期货交易所的比特币价格聚集在64,860美元左右，以太坊聚集在1,820美元左右，显示价格基本一致。币安的比特币期货交易量领先，达118亿美元，其次是OKX和Bybit；总成交量巨大，反映出参与抛售的交易者十分活跃。",
+  "positioningSummary": "除币安外的大多数交易所显示比特币正融资费率（年化2.9–7.4%），这反映交易者押注价格会保持高位，但币安融资费率保持中性。未平仓头寸保持巨大：币安一家平台上比特币约60亿美元，以太坊约41亿美元。最大交易者持有的多头头寸远多于空头头寸（比特币比例1.79，以太坊比例1.50），意味着他们在下跌中蒙受最大损失。小交易者卖出的积极性略高于买入（比特币0.998，以太坊1.03）。币安永续合约中只有24%在当日上涨；市场深度看空。恐惧贪婪指数达到10分满分100 — 极度恐惧。",
+  "stocksSummary": "英伟达CEO危机波及整个半导体行业，亚洲和美国半导体股票崩盘。韩国股票下跌：SK Hynix下跌9.6%，三星下跌6.3%。香港科技股跌幅更大：MiniMax下跌19.7%，智谱AI下跌14.6%，SK Hynix 2倍杠杆下跌18.4%。美国芯片股崩跌最惨：英特尔下跌19.1%，半导体3倍看涨ETF (SOXL)下跌16.4%（反向ETF SOXS上涨16.6%）。原油下跌3.6%，白银下跌3.6%，反映市场对需求萎缩的担忧。",
+  "movers": [
+    {
+      "symbol": "BLESSUSDT",
+      "explanation": "涨幅107.7%，成交量4.42亿美元。没有明显的公开原因；可能是投机动量或低流动性资产的炒作。",
+      "hasCause": false
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "explanation": "上涨49.8%，成交量1.26亿美元。没有明显的公开原因；这是小盘山寨币在孤立反弹中的典型表现。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "下跌34.5%，成交量7070万美元。被广泛的市场抛售所波及，但没有发现具体的催化剂。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "英伟达股价下跌4%，董事会否决CEO詹森·黄复职",
+        "what": "英伟达董事会确认不会让被迫下台的CEO詹森·黄复职。董事会正在调查其行为。这个震撼触发了全球AI板块的股票和加密资产的级联抛售，半导体股票跌幅15–20%。",
+        "coins": "比特币、以太坊、所有科技相关的山寨币",
+        "timeUTC": "2026-11-16（持续中）",
+        "source": "Cointelegraph, CoinDesk, Decrypt",
+        "url": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return"
+      },
+      {
+        "headline": "20亿美元清算浪潮席卷市场，比特币面临跌破6万美元风险",
+        "what": "多头头寸级联清算在周末和周一期间引发20亿美元的强制卖盘。债券收益率上升、ETF资金外流和杠杆交易者平仓形成了自我强化的下跌螺旋。比特币盘中触及62,100美元。",
+        "coins": "比特币、以太坊",
+        "timeUTC": "2026-11-15 至 2026-11-16",
+        "source": "CoinDesk, Decrypt",
+        "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
+      },
+      {
+        "headline": "美联储主席沃什模拟AI\"超级智能\"情景，包括失业风险",
+        "what": "美联储主席凯文·沃什表示美联储正在研究三种可能的AI未来情景：强劲生产力增长、温和增长或失业和股市调整。这种前瞻性的不确定性加剧了宏观逆风。",
+        "coins": "比特币、以太坊（宏观驱动因素）",
+        "timeUTC": "2026-11-16",
+        "source": "Decrypt, Federal Reserve",
+        "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美CFTC批准首个基于区块链的衍生品交易基础设施（Backpack、tZERO）",
+          "what": "美国商品期货交易委员会批准使用区块链技术运营衍生品交易所和清算运营。这是首个获得监管批准的本地区块链衍生品交易基础设施。",
+          "coins": "区块链基础设施代币",
+          "timeUTC": "2026-11-16",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591"
+        },
+        {
+          "headline": "Custodia Bank最高法院诉讼失败，无法获得美联储直接账户",
+          "what": "美国最高法院拒绝受理Custodia Bank的上诉，该行一审败诉，美联储有权拒绝加密友好银行的直接支付接入申请。这阻断了该银行进入美联储支付基础设施的道路。",
+          "coins": "托管、银行基础设施",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access"
+        },
+        {
+          "headline": "民主党参议员要求美CFTC放弃对预测市场的执法要求",
+          "what": "四名民主党参议员命令美CFTC撤销其指令，该指令要求Kalshi等平台违抗州政府禁令。监管机构和法院在管辖权上产生冲突。",
+          "coins": "预测市场代币（Kalshi、Polymarket）",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans"
+        },
+        {
+          "headline": "德国议会通过加密资产扣押法，无需刑事指控",
+          "what": "德国议会支持一项法案，允许海关部门冻结价值超过10万欧元的加密资产及其他资产，期限达30天，无需刑事案件，但经法院批准可延期。法律专家警告这可能会将举证责任转移给资产持有者。",
+          "coins": "德国托管的所有加密货币",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/policy/2026-11-16-german-parliament-proposes-crypto-seizures-without-criminal-charges"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "比特币现货ETF11月净流出达21亿美元，连续七日下跌",
+          "what": "美国比特币和以太坊现货ETF在11月16日经历连续第七日净流出，11月总净流出达21亿美元。比特币ETF今年全年已下跌15亿美元。",
+          "coins": "比特币、以太坊",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, Phemex",
+          "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+        },
+        {
+          "headline": "MicroStrategy（Strategy）持续增持比特币；Bitmine增加14亿美元头寸",
+          "what": "Strategy在下跌期间增持1,476枚比特币，累计持有850,849枚BTC。Bitmine达到以太坊流通量的4.9%。Cypherpunk以约920美元均价收购3,775枚Zcash。Strive等公司也披露了增持计划。",
+          "coins": "比特币、以太坊、Zcash",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/383347/saylor-strategy-buying-bitcoin-adding-little-orange-dip"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana区块链六年后正式退出测试阶段",
+          "what": "Solana采用共享版本编号系统，官方退出测试版状态。核心协议、钱包、交易和应用保持不变；此次更新主要是命名惯例的改变。",
+          "coins": "Solana (SOL)",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
+        },
+        {
+          "headline": "Coinbase和Broadridge提议代币化股票披露标准",
+          "what": "两家公司提议建立标准，连接代币化股票持有者与企业披露信息和投票材料，通过数字钱包实现，但这不会创造股东权利。",
+          "coins": "代币化股票",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices"
+        },
+        {
+          "headline": "OKX创始人徐明星与币安CEO张健因十月下跌事件旧恨重提",
+          "what": "OKX创始人徐明星指责币安和CEO张健导致了十月的连续抛售，声称他们误导客户。张健反驳币安在买入而非卖出。这场纷争在周一市场暴跌时再度浮出水面。",
+          "coins": "比特币、整体市场情绪",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lighter去中心化交易所API密钥泄露，损失1,550万美元",
+          "what": "该DEX发现一个交易API密钥遭到泄露，攻击者因此成功提走1,039万USDC。调查人员追踪资金流向Hyperliquid。Lighter暂停所有提币以进行调查。",
+          "coins": "USDC、Lighter上的所有资产",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk, CryptoSlate",
+          "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
+        },
+        {
+          "headline": "Trezor三个月内第二次遭物流合作方数据泄露（27,000个订单）",
+          "what": "硬件钱包公司透露其物流合作方Skladon在三个月内第二次遭到数据泄露，客户地址和订单详情被曝露。Trezor警告客户可能面临诈骗电话和人身安全风险。",
+          "coins": "所有硬件钱包用户",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, The Block",
+          "url": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data"
+        },
+        {
+          "headline": "Safe钱包损失650万美元；Zodiac怀疑密钥遭泄露",
+          "what": "Safe协议多签钱包损失650万美元。Zodiac联合创始人表示密钥可能遭泄露加上过度宽松的钱包设置导致了盗窃，而非智能合约本身存在漏洞。",
+          "coins": "Safe (SAFE)、所有受影响Safe钱包中的资产",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/safe-wallet-reportedly-loses-millions-after-key-compromise"
+        },
+        {
+          "headline": "前罗宾汉工程师认罪Hyperliquid内幕交易",
+          "what": "翟怀松承认利用关于加密资产上币的机密信息在Hyperliquid永续交易中进行交易，获利125,523美元。他已认罪电信欺诈。",
+          "coins": "Hyperliquid永续、相关上币的加密资产",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid"
+        },
+        {
+          "headline": "比特币闪电网络开发者修复可能导致已结算支付遗漏的漏洞",
+          "what": "LND（闪电网络守护进程）发布了对更新日志溢出漏洞的修复，该漏洞可能在通道状态在系统崩溃后重建时导致已结算支付（HTLC）被遗漏。",
+          "coins": "比特币闪电网络",
+          "timeUTC": "2026-11-16（已于11月11日发布）",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-lightning-developers-patch-bug-that-could-make-completed-payments-disappear/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "标普500下跌1.9%，纳指下跌2.5%，科技板块崩盘",
+          "what": "美国股市周一大幅下跌。纳指跌幅更大反映了英伟达领导层危机引发的AI和半导体板块崩盘。美元上涨0.2%，反映投资者向安全资产逃离。",
+          "coins": "比特币、以太坊（风险关联度）",
+          "timeUTC": "2026-11-16",
+          "source": "Twelve Data",
+          "url": "https://www.tradingview.com (US market data)"
+        },
+        {
+          "headline": "油价下跌3.6%，白银下跌3.6%，商品市场因需求萎缩忧虑而下挫",
+          "what": "WTI原油下跌3.6%，布伦特油下跌3.3%，白银下跌3.6%，钯下跌3.5%。现货黄金下跌0.17%，但美国国债价格上涨0.22%（收益率下降），显示投资者从商品和股票双双向债券逃离。",
+          "coins": "比特币、以太坊（宏观对冲相关度）",
+          "timeUTC": "2026-11-16",
+          "source": "Twelve Data",
+          "url": "https://www.cmegroup.com/markets/commodities (CME Globex)"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "币安黑客事件可能推动机构转向链外托管，FalconX高管警告",
+          "what": "币安黑客新闻曝光后，FalconX的Joshua Lim表示该事件可能促使大型机构将加密资产转出交易所，改为自我保管或第三方托管，从而改变2027年的交易模式。",
+          "coins": "比特币、以太坊、所有币安存放的资产",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Retail Sales m/m (Core and headline) — Tue 17 Nov, 13:30 UTC",
+      "typicalReaction": "高影响力经济数据。如果零售额低于预期，说明消费支出放缓，可能缓和美联储降息预期，利好加密资产等风险资产。如果数据强劲，则会收紧劳动力市场，支持美元走强。无论哪种情况，比特币、以太坊和传统市场都会出现剧烈波动。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化融资费率",
+      "definition": "日融资费率的年度当量，用于计算永续期货中多头和空头交易者之间的周期性支付。正数表示多头向空头支付（暗示看涨杠杆）；负数表示空头向多头支付。"
+    },
+    {
+      "term": "周期",
+      "definition": "用于计算价格变化和交易量的24小时时间段；本报告中指UTC日历日（00:00–23:59 UTC）。"
+    },
+    {
+      "term": "看空",
+      "definition": "市场情绪或交易行为显示交易者预期价格下跌或缺乏信心。"
+    },
+    {
+      "term": "涨跌幅度",
+      "definition": "特定日期内所有可交易资产（币种或永续合约）中价格上升的资产占比，与下跌资产的对比。涨幅低于30%表示深度看空情绪。"
+    },
+    {
+      "term": "极度恐惧",
+      "definition": "恐惧贪婪指数上10分（满分100），表示恐慌抛售和投降。"
+    },
+    {
+      "term": "恐惧贪婪指数",
+      "definition": "情绪测量指标，范围从0（恐慌）到100（贪婪），汇总波动率、动量、社交媒体和其他信号；每日更新。"
+    },
+    {
+      "term": "融资费率",
+      "definition": "永续期货中多头和空头交易者之间的周期性支付（通常每8小时一次），用于使合约价格与现货价格保持一致。正费率表示多头向空头支付；负费率表示空头向多头支付。"
+    },
+    {
+      "term": "清算",
+      "definition": "当交易者的杠杆头寸亏损超过已缴纳保证金时被强制平仓。头寸按市场价格卖出，增加下行压力。"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "押注资产价格上升的交易；交易者拥有或控制该资产（或期货合约）。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "永续期货中使用的公平价值参考价格，用于计算融资费和防止操纵；通常是现货价格和期货价格的中位数或时间加权平均值。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "期货市场中所有开放多头和空头头寸的总价值（以美元计）。未平仓头寸高表示参与度强；在下行走势中未平仓头寸增加通常预示清算。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "追踪现货价格（如比特币）且无到期日期的衍生品合约，允许交易者持有杠杆多头或空头头寸。"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "押注资产价格下跌的交易；交易者借出或控制衍生品，在价格下跌时获利。"
+    },
+    {
+      "term": "买卖方比率",
+      "definition": "市场交易中由买方启动（看涨交易中的买方）的比例与由卖方启动（看跌交易中的卖方）的比例。比率超过1.0表示买盘更积极；低于1.0表示卖盘更积极。"
+    },
+    {
+      "term": "头部交易者多空比",
+      "definition": "交易所最大交易者持有的多头头寸与空头头寸的比例。比例远高于1.0表示最大账户多数为多头，在价格下跌时易遭清算。"
+    },
+    {
+      "term": "交易所",
+      "definition": "加密货币交易所或交易平台（如币安、Bybit、OKX）。"
+    },
+    {
+      "term": "成交量",
+      "definition": "特定时期内交易所或交易对执行的所有交易的总价值；以报价货币计量（如BTCUSDT的美元）。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "0038abdc89855726"
+}

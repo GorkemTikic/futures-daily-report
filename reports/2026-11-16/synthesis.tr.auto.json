@@ -1,0 +1,281 @@
+{
+  "oneLine": "16 Kasım 2026 Pazartesi günü Bitcoin ve Ethereum birer yüzde 1'in altında değer kaybetti, fakat likidasyonlar ve Nvidia CEO krizinin teknoloji ve kripto pazarlarına yaydığı panik korkunun en yüksek seviyesine çıktı.",
+  "caveman": "Bitcoin ve Ethereum'un her ikisi de biraz değer kaybetti (yüzde 1'den az), bu normal şartlarda korkutucu olmaz. Ama dünyanın en önemli bilgisayar çiplerini yapan Nvidia şirketinde çok büyük bir kriz yaşandı: CEO Jensen Huang görevinden alındı ve şirket onun geri gelmeyeceğini söyledi. Bu, yapay zeka üzerine para yatıran insanları çok korkuttu, hızlıca kripto ve hisse senetlerini satmaya başladılar. Çok sayıda insan büyük kayıplar yaşadı ve hızlı satış yapmak zorunda kaldı, bu fiyatları daha da aşağı çekti. Adi borsa yüzde 2 düştü, çip şirketlerinin hisseleri yüzde 15-20 düştü. Uzmanlar insanların şimdi aşırı derecede korktuğunu söylüyorlar. Çok endişe verici bir gündü.",
+  "priceVolumeSummary": "Beş büyük vadeli işlem borsası Bitcoin için 64.860 civarında, Ethereum için 1.820 civarında birleşti ve fiyat uyumluluğu net şekilde görüldü. Binance, Bitcoin vadeli işlemlerde 11,8 milyar USD'lik işlem hacmiyle öncü konumdaydı, bunu OKX ve Bybit izledi; toplam hacim çok yüksekti ve satışa katılımın yoğun olduğunu gösterdi.",
+  "positioningSummary": "Çoğu borsa Bitcoin'de pozitif finansman oranları gösterdi (%2,9–%7,4 yıllık), fiyatların yüksek kalacağına bahse girdi, Binance hariç (nötr). Açık pozisyon devasa kaldı: Binance'ta Bitcoin için 6 milyar dolar civarında, Ethereum için 4,1 milyar dolar civarında. En büyük yatırımcılar uzun pozisyonlarını kısa pozisyonlarından çok daha fazla tuttu (Bitcoin oranı 1,79, Ethereum oranı 1,50), bu da onların çöküşte en ağır kayıpları aldığı anlamına geliyor. Küçük yatırımcılar satışta alışverişten biraz daha agresif davrandı (Bitcoin 0,998, Ethereum 1,03). Binance'ın tüm perpetual ürünlerinin sadece %24'ü gün içinde yükseldi; pazar tamamen düşüş eğilimindeydi. Korku ve Açgözlülük Endeksi 100'den 10'a ulaştı - aşırı korku.",
+  "stocksSummary": "Nvidia CEO krizi sektörde dalgalanır iken Asya ve ABD yarı iletken hisseleri çöktü. Kore hisseleri düştü: SK Hynix %9,6 düştü, Samsung %6,3 düştü. Hong Kong teknoloji hisseleri daha dik düştü: MiniMax %19,7 düştü, Zhipu AI %14,6 düştü, SK Hynix 2x kaldıraç %18,4 düştü. ABD çip hisseleri en sert çöktü: Intel %19,1 düştü, Yarı İletken 3x boğa ETF'si (SOXL) %16,4 düştü (ters SOXS %16,6 yükseldi). Ham petrol %3,6 düştü, gümüş %3,6 düştü, talep kaybı korkularını işaret etti.",
+  "movers": [
+    {
+      "symbol": "BLESSUSDT",
+      "explanation": "%107,7 sıçradı, 442 milyon USD işlem hacmi ile. Net bir kamusal neden yok; muhtemelen spekülatif momentum veya düşük likidite hype'ı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "explanation": "%49,8 yükseldi, 126 milyon USD hacim ile. Net bir kamusal neden yok; düşük market cap'li altcoinler için izole rallilerde tipik bir desen.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "%34,5 düştü, 70,7 milyon USD hacim ile. Daha geniş pazar satışında yakalandı ama spesifik bir katalizör belirlenmedi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Nvidia hisseleri %4 düştü, yönetim kurulu CEO Jensen Huang'un geri dönüşünü dışladı",
+        "what": "Nvidia yönetim kurulu, geçen hafta görevinden alınan CEO Jensen Huang'u görevine iade etmeyeceğini teyit etti. Yönetim kurulu onun davranışlarını soruşturuyor. Bu şok dünyadaki yapay zeka sektörü hisse senetleri ve kripto satışlarında bir domino etkisini tetikledi, yarı iletken hisseleri %15-20 kaybetti.",
+        "coins": "Bitcoin, Ethereum, all tech-linked altcoins",
+        "timeUTC": "2026-11-16 (ongoing)",
+        "source": "Cointelegraph, CoinDesk, Decrypt",
+        "url": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return"
+      },
+      {
+        "headline": "Bitcoin 60.000 doların altına düşme riskiyle karşı karşıya, piyasayı 2 milyar dolar likidasyonlar tarayıp geçiyor",
+        "what": "Uzun pozisyonların domino etkisinde olan likidasyonları hafta sonu ve Pazartesi günü 2 milyar USD'lik satışları zorladı. Yükselen tahvil getirileri, ETF çıkışları ve kaldıraçlı yatırımcıların bahislerini kapatması kendini güçlendiren bir aşağı yönlü sarmal yarattı. Bitcoin gün içinde 62.100'e dokundu.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-15 to 2026-11-16",
+        "source": "CoinDesk, Decrypt",
+        "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
+      },
+      {
+        "headline": "Fed Başkanı Warsh işsizlik de dahil olmak üzere yapay zeka 'süper-zeka' senaryolarını modellemeye alıyor",
+        "what": "Fed Başkanı Kevin Warsh, Federal Rezerv'in üç olası yapay zeka geleceğini incelediğini söyledi: güçlü verimlilik kazançları, ılımlı büyüme veya işsizlik ve borsa düzeltmesi. Bu ileriye dönük belirsizlik makroekonomik rüzgarlara eklendi.",
+        "coins": "Bitcoin, Ethereum (macro driver)",
+        "timeUTC": "2026-11-16",
+        "source": "Decrypt, Federal Reserve",
+        "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC ilk blockchain tabanlı türev ürün altyapısını onayladı (Backpack, tZERO)",
+          "what": "Emtia Vadeli İşlemler Ticaret Komisyonu blockchain kullanarak türev ürün borsaları ve takas işlemleri yürütmek için düzenleyici onay verdi. Bu, blockchain yerel borsaları altyapısının ilk düzenlenmiş setini teşkil ediyor.",
+          "coins": "Blockchain infrastructure tokens",
+          "timeUTC": "2026-11-16",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591"
+        },
+        {
+          "headline": "Custodia Bank, Federal Rezerv hesabı için Yüksek Mahkeme'ye açtığı davayı kaybetti",
+          "what": "ABD Yüksek Mahkemesi, Federal Rezerv'in banka erişim başvurularını reddetmesine izin veren alt mahkeme kararına karşı Custodia Bank'ın temyizini dinlemeyi reddetti. Bu, kripto dostu bankanın Federal Rezerv ödeme altyapısına doğrudan erişimini engelledi.",
+          "coins": "Custody, banking infrastructure",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access"
+        },
+        {
+          "headline": "Demokrat senatörler CFTC'ye tahmin piyasası yaptırım taleplerinden geri çekilmesini söyledi",
+          "what": "Dört Demokrat senatör, CFTC'ye tahmin piyasalarına yönelik eyalet yasaklarına karşı gelmesi için Kalshi gibi platformlara verdiği direktifi tersine çevirmesini emretti. Düzenleyici kurum ve mahkemeler yetki konusunda çelişkide.",
+          "coins": "Prediction market tokens (Kalshi, Polymarket)",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans"
+        },
+        {
+          "headline": "Alman yasama organı cezai suçlama olmadan kripto el koyma yasasını kabul etti",
+          "what": "Alman parlamentosu, gümrük otoritelerine 100.000 eurodan fazla değerindeki kripto ve diğer varlıkları cezai dosya açılmaksızın 30 güne kadar dondurma yetkisi veren bir tasarıyı destekledi, uzantılar için mahkeme gözetimi ile. Hukuk uzmanları bunun ispat yükünü varlık sahiplerine kaydırabileceği konusunda uyarıyor.",
+          "coins": "All cryptocurrencies in German custody",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin spot ETF çıkışları Kasım'da 2,1 milyar USD'ye ulaştı, 7 günlük kayıp serisini uzattı",
+          "what": "ABD Bitcoin ve Ethereum spot ETF'leri 16 Kasım'da arka arkaya yedinci gün net çıkış yaşadı, Kasım için toplam 2,1 milyar USD çekilişe katkı sağladı. Bitcoin ETF'leri bu yıl için 1,5 milyar USD kayıpla karşı karşıya.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, Phemex",
+          "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+        },
+        {
+          "headline": "MicroStrategy (Strategy) Bitcoin satın almaya devam ediyor; Bitmine 1,4 milyar USD pozisyon ekledi",
+          "what": "Strategy düşüş sırasında 1.476 Bitcoin ekledi, birikimini 850.849 BTC'ye çıkardı. Bitmine Ethereum arzının %4,9'una ulaştı. Cypherpunk ~920 USD ortalama fiyattan 3.775 Zcash satın aldı. Strive ve Strive da ek satın almalarını açıkladı.",
+          "coins": "Bitcoin, Ethereum, Zcash",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/383347/saylor-strategy-buying-bitcoin-adding-little-orange-dip"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana blockchain 6+ yıl sonra 'beta' etiketini bıraktı",
+          "what": "Solana paylaşılan bir sürüm numaralandırma sistemine geçti ve resmi olarak beta durumundan çıktı. Çekirdek protokol, cüzdanlar, işlemler ve uygulamalar değişmedi; güncelleme esas olarak bir adlandırma kuralıdır.",
+          "coins": "Solana (SOL)",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
+        },
+        {
+          "headline": "Coinbase ve Broadridge tokenleştirilmiş hisse açıklama standardı önerdi",
+          "what": "İki firma, tokenleştirilmiş hisse sahiplerini kurumsal açıklamalar ve oy verme materyalleri ile dijital cüzdanlar aracılığıyla bağlamak için bir standart önerdi, ancak bu hissedar haklarını oluşturmaz.",
+          "coins": "Tokenized stocks",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices"
+        },
+        {
+          "headline": "OKX kurucusu Star Xu, Binance ile Ekim çöküşleri konusundaki çatışmayı canlandırdı",
+          "what": "OKX kurucusu Star Xu, art arda gelen Ekim satışlarından Binance ve CEO CZ'yi suçladı, müşterileri yanıltmakla itham etti. CZ, Binance'ın satış yapmadığını, satın aldığını karşı atakta bulundu. Pazar Pazartesi günü çöküş yaşadıkça bu çatışma yeniden ortaya çıktı.",
+          "coins": "Bitcoin, general market sentiment",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lighter merkezi olmayan borsa API anahtar sızıntısı saldırısında 15,5 milyon USD kaybetti",
+          "what": "DEX, bir ticari API anahtarının tehlikeye atıldığını ve saldırganların 10,39 milyon USDC'yi çıkarmalarına izin verdiğini keşfetti. Araştırmacılar fonları Hyperliquid'e kadar takip etti. Lighter araştırma sırasında tüm çekilişleri durdurdu.",
+          "coins": "USDC, all assets on Lighter",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk, CryptoSlate",
+          "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
+        },
+        {
+          "headline": "Trezor üç ayda ikinci kez sevkiyat ortağı veri ihlalinden etkilendi (27.000 sipariş)",
+          "what": "Donanım cüzdan şirketi, bir sevkiyat ortağı olan Skladon'un üç ayda ikinci kez ihlal edildiğini, müşteri adreslerini ve sipariş ayrıntılarını ifşa ettiğini açıkladı. Trezor potansiyel dolandırıcılık aramaları ve fiziksel güvenlik riskleri konusunda uyardı.",
+          "coins": "All hardware wallet users",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, The Block",
+          "url": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data"
+        },
+        {
+          "headline": "Safe cüzdan 6,5 milyon USD kaybetti; Zodiac anahtar ihlalinden şüpheleniliyor",
+          "what": "Safe protokolü çok imzalı cüzdan 6,5 milyon USD kaybetti. Zodiac'ın kurucu ortağı, muhtemelen ihlal edilmiş bir anahtar ve çok izinli cüzdan ayarlarının hırsızlığı etkinleştirdiğini, akıllı sözleşmelerdeki bir kusur olmadığını önerdi.",
+          "coins": "Safe (SAFE), all assets in affected Safe wallets",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/safe-wallet-reportedly-loses-millions-after-key-compromise"
+        },
+        {
+          "headline": "Eski Robinhood mühendisi Hyperliquid'de insider ticaretten suçu kabul etti",
+          "what": "Huaisong Xiang, kripto listeleri hakkında gizli bilgileri kullanarak Hyperliquid perpetuallarında ticaret yaptığını, 125.523 USD kar elde ettiğini kabul etti. Kablolu dolandırıcılık suçundan suçu kabul etti.",
+          "coins": "Hyperliquid perps, cryptos listed",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid"
+        },
+        {
+          "headline": "Bitcoin Lightning Network geliştiricileri kapatılmış ödemeyi atlayabilecek hatayı yamaladı",
+          "what": "LND (Lightning Network Daemon), bir güncelleştirim günlüğü taşmasının çökmeden sonra kanal durumu yeniden oluşturulurken kapatılmış ödemeleri (HTLC'ler) atlayabilecek bir düzeltme yayınladı.",
+          "coins": "Bitcoin Lightning Network",
+          "timeUTC": "2026-11-16 (released 11 Nov)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-lightning-developers-patch-bug-that-could-make-completed-payments-disappear/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "S&P 500 %1,9 düştü, Nasdaq teknoloji sektörü çökerken %2,5 düştü",
+          "what": "ABD hisse senedi endeksleri Pazartesi günü keskin bir şekilde düştü. Nasdaq'ın daha büyük düşüşü, Nvidia'nın liderlik krizinin tetiklediği yapay zeka ve yarı iletken sektörü çöküşünü yansıtıyor. Dolar %0,2 yükseldi, güvenli liman araştırmasını işaret etti.",
+          "coins": "Bitcoin, Ethereum (risk correlations)",
+          "timeUTC": "2026-11-16",
+          "source": "Twelve Data",
+          "url": "https://www.tradingview.com (US market data)"
+        },
+        {
+          "headline": "Petrol %3,6 düştü, gümüş %3,6 düştü, emtialar talep kaybı korkusu altında kırıldı",
+          "what": "WTI ham petrol %3,6 düştü, Brent %3,3 düştü, gümüş %3,6 ve paladyum %3,5 düştü. Spot altın %0,17 düştü ama ABD Hazine tahvil fiyatları %0,22 yükseldi (getiriler düştü), emtialar ve hisse senetlerinden tahvillere güvenli liman araştırmasını gösterdi.",
+          "coins": "Bitcoin, Ethereum (macro hedge correlations)",
+          "timeUTC": "2026-11-16",
+          "source": "Twelve Data",
+          "url": "https://www.cmegroup.com/markets/commodities (CME Globex)"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Binance hack kurumları dış saklama alanına itebilir, FalconX yöneticisi uyarıyor",
+          "what": "Binance hack haberi sonrası FalconX'in Joshua Lim, olayın büyük kurumları kripto'yu borsalardan çıkaracağını ve kendi saklama veya üçüncü taraf kasalarına taşıyacağını, 2027'de ticaret alışkanlıklarını değiştireceğini söyledi.",
+          "coins": "Bitcoin, Ethereum, all Binance-deposited assets",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Retail Sales m/m (Core and headline) — Tue 17 Nov, 13:30 UTC",
+      "typicalReaction": "YÜKSEK ETKİLİ ekonomik veri. Perakende satışlar beklentilerden zayıfsa, tüketicilerin harcamalarının yavaşladığını işaret eder ve Fed oran indirimi beklentilerini rahatlatabilir, kripto gibi riskli varlıkları destekler. Daha güçlü ise, işgücü piyasalarını sıkılaştırır ve doları destekleyebilir. Her iki durumda da Bitcoin, Ethereum ve geleneksel piyasalarda keskin hareketler beklenir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış Finansman Oranı",
+      "definition": "Perpetual vadeli işlemlerde uzun ve kısa pozisyon yatırımcıları arasındaki günlük ödemenin yıllık eşdeğeri. Pozitif, uzunların kısalara ödeme yaptığı (boğa kaldıracısı önerimi), negatif kısaların uzunlara ödeme yaptığı anlamına gelir."
+    },
+    {
+      "term": "Dönem",
+      "definition": "Fiyat değişiklikleri ve ticaret hacmini hesaplamak için kullanılan 24 saatlik dönem; bu raporda UTC takvim günü (00:00–23:59 UTC)."
+    },
+    {
+      "term": "Düşüş Eğilimi",
+      "definition": "Pazar duygusu veya yatırımcıların fiyatların düşeceğini beklediği veya güven eksikliğini önerdiği işlem."
+    },
+    {
+      "term": "Genişlik",
+      "definition": "Belirli bir günde fiyat yükselen tüm ticareti yapılabilir varlıkların (madeni paralar veya perpetuallar) yüzdesi, karşı düşenlerin yüzdesi. %30'un altındaki genişlik derin düşüş eğilimini işaret eder."
+    },
+    {
+      "term": "Aşırı Korku",
+      "definition": "Korku ve Açgözlülük Endeksi'nde 100'de 10 puan, panik satışları ve pes etmeyi gösterir."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "0 (panik) ile 100 (eufori) arasında değişen, oynaklık, momentum, sosyal medya ve diğer sinyalleri bir araya getiren duygu ölçüsü; günlük güncellendi."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Perpetual vadeli işlemlerde uzun ve kısa pozisyon yatırımcıları arasındaki periyodik ödeme (genellikle 8 saatlik), sözleşme fiyatlarını spot fiyatlarla uyumlu tutmak için kullanılır. Pozitif oranlar uzunların kısalara ödeme yaptığı, negatif oranlar kısaların uzunlara ödeme yaptığı anlamına gelir."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Yatırımcının kayıpları yatırılan teminat aştığında kaldıraçlı pozisyonunun zorunlu kapanması. Pozisyon piyasada satılır, aşağı yönlü baskı ekler."
+    },
+    {
+      "term": "Uzun Pozisyon",
+      "definition": "Bir varlığın fiyatının yükseleceğine yapılan bahis; yatırımcı varlığa (veya vadeli işlem sözleşmesine) sahip olur veya kontrol eder."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Perpetual vadeli işlemlerde finansman hesaplamak ve manipülasyonu önlemek için kullanılan gerçeğe uygun değer referans fiyatı; genellikle spot fiyatların ve vadeli işlem fiyatlarının medyanı veya zaman ağırlıklı ortalaması."
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Vadeli işlem piyasasında tüm açık uzun ve kısa pozisyonların toplam değeri (USD). Yüksek açık pozisyon güçlü katılımı önerir; düşüş hareketinde yükselen açık pozisyon genellikle likidasyonlardan önce gelir."
+    },
+    {
+      "term": "Perpetual Vadeli İşlemler (Perps)",
+      "definition": "Vade tarihi olmayan spot fiyatı (örneğin Bitcoin) takip eden türev sözleşmeler, yatırımcıların kaldıraçlı uzun veya kısa pozisyonlar almasına izin verir."
+    },
+    {
+      "term": "Kısa Pozisyon",
+      "definition": "Bir varlığın fiyatının düşeceğine yapılan bahis; yatırımcı fiyat düşerse kâr etmek için borç alır veya türev kontrol eder."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Pazar işlemleri arasında alıcılar (boğa işlemleri içinde taker'lar) ve satıcılar (ayı işlemleri içinde taker'lar) tarafından başlatılan ticaretin oranı. 1,0'ın üzerindeki oranlar daha agresif alışı gösterir; 1,0'ın altındakiler daha agresif satışı gösterir."
+    },
+    {
+      "term": "En Büyük Yatırımcı Uzun/Kısa Oranı",
+      "definition": "Borsada en büyük yatırımcılar tarafından tutulan uzun ve kısa pozisyonların oranı. 1,0'ın önemli ölçüde üzerindeki oranlar, en büyük hesapların çoğunlukla uzun olduğu ve fiyatlar düşerse likidasyona karşı savunmasız olduğu anlamına gelir."
+    },
+    {
+      "term": "Borsa",
+      "definition": "Kripto para borsası veya ticaret platformu (örneğin Binance, Bybit, OKX)."
+    },
+    {
+      "term": "İşlem Hacmi",
+      "definition": "Rapor döneminde bir borsa veya çiftte yürütülen tüm işlemlerin toplam değeri (USD); alıntı para biriminde ölçülür (örneğin BTCUSDT için USD)."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "0038abdc89855726"
+}

@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-16T00:07:55.651Z",
-  "count": 152,
+  "generatedAt": "2026-11-17T00:09:42.467Z",
+  "count": 153,
   "counts": {
-    "total": 152,
-    "market": 65,
+    "total": 153,
+    "market": 66,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-15",
+  "latest": "2026-11-16",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-11-16",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -0.6639156631117962,
+        "ETH": -0.8019189358628294
+      },
+      "marketSummary": "Bitcoin and Ethereum each fell under 1% on Monday 16 Nov 2026, but liquidations and a Nvidia leadership crisis spread terror through tech and crypto markets to extreme fear.",
+      "oneLine": "Bitcoin and Ethereum each fell under 1% on Monday 16 Nov 2026, but liquidations and a Nvidia leadership crisis spread terror through tech and crypto markets to extreme fear.",
+      "newsCount": 20,
+      "topMover": {
+        "symbol": "BLESSUSDT",
+        "chgPct": 107.619359058208
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-16/summary_2026-11-16.html",
+        "pdf": "reports/2026-11-16/summary_2026-11-16.pdf",
+        "md": "reports/2026-11-16/summary_2026-11-16.md"
+      }
+    },
     {
       "date": "2026-11-15",
       "kind": "market",

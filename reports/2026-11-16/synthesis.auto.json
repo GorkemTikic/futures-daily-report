@@ -1,0 +1,280 @@
+{
+  "oneLine": "Bitcoin and Ethereum each fell under 1% on Monday 16 Nov 2026, but liquidations and a Nvidia leadership crisis spread terror through tech and crypto markets to extreme fear.",
+  "caveman": "Bitcoin and Ethereum both fell a tiny bit (less than 1%), which normally wouldn't be scary. But the company Nvidia, which makes the most important computer chips in the world, had a huge crisis: its CEO Jensen Huang was forced out, and the company said he won't come back. This terrified people betting on artificial intelligence, so they rushed to sell their crypto and stocks to protect their money. Lots of people lost big bets and had to sell quickly, pushing prices down even more. The regular stock market fell 2%, and chip company stocks fell 15 to 20%. Experts say people are now extremely afraid. It was a very worrying day.",
+  "priceVolumeSummary": "All five major futures exchanges converged on Bitcoin around 64,860 and Ethereum around 1,820, showing clear price agreement. Binance led trading volume with 11.8 billion USD in Bitcoin futures, followed by OKX and Bybit; the total volume was enormous, reflecting intense participation in the selloff.",
+  "positioningSummary": "Most exchanges showed positive funding rates on Bitcoin (2.9–7.4% per year), betting prices would stay high, except Binance which was neutral. Open interest stayed massive: Bitcoin around 6 billion USD and Ethereum around 4.1 billion USD on Binance alone. The largest traders held far more long bets than short bets (Bitcoin ratio 1.79, Ethereum ratio 1.50), meaning they took the heaviest losses in the crash. Small traders showed slightly more aggression selling than buying (Bitcoin 0.998, Ethereum 1.03). Only 24% of all Binance perpetuals rose on the day; the market was deeply bearish. The Fear and Greed Index hit 10 out of 100 — extreme fear.",
+  "stocksSummary": "Asian and US semiconductor stocks collapsed as Nvidia's CEO crisis rippled through the sector. Korean stocks fell: SK Hynix down 9.6%, Samsung down 6.3%. Hong Kong tech stocks fell steeper: MiniMax down 19.7%, Zhipu AI down 14.6%, SK Hynix 2x leverage down 18.4%. US chip stocks crashed hardest: Intel down 19.1%, Semiconductor 3x bull ETF (SOXL) down 16.4% (inverse SOXS up 16.6%). Crude oil fell 3.6% and silver fell 3.6%, signaling demand destruction fears.",
+  "movers": [
+    {
+      "symbol": "BLESSUSDT",
+      "explanation": "Jumped 107.7% with volume of 442 million USD. No clear public cause; likely speculative momentum or low-liquidity hype.",
+      "hasCause": false
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "explanation": "Rose 49.8% with 126 million USD volume. No clear public cause; typical pattern for low-cap altcoins during isolated rallies.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "Fell 34.5% with 70.7 million USD volume. Caught in the broader market selloff but no specific catalyst identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Nvidia shares fall 4% as board rules out CEO Jensen Huang return",
+        "what": "Nvidia's board confirmed it will not reinstate CEO Jensen Huang, who was forced out last week. The board is investigating his conduct. This shock triggered a cascade of AI-sector stock and crypto selloffs worldwide, with semiconductor stocks losing 15–20%.",
+        "coins": "Bitcoin, Ethereum, all tech-linked altcoins",
+        "timeUTC": "2026-11-16 (ongoing)",
+        "source": "Cointelegraph, CoinDesk, Decrypt",
+        "url": "https://cointelegraph.com/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return"
+      },
+      {
+        "headline": "Bitcoin risks falling below $60,000 as $2 billion in liquidations sweep market",
+        "what": "Cascading liquidations of long positions forced 2 billion USD in sales over the weekend and Monday. Rising bond yields, ETF outflows, and leveraged traders unwinding bets created a self-reinforcing downward spiral. Bitcoin touched 62,100 intraday.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-15 to 2026-11-16",
+        "source": "CoinDesk, Decrypt",
+        "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
+      },
+      {
+        "headline": "Federal Reserve Chair Warsh models AI 'super-intelligence' scenarios including job losses",
+        "what": "Fed Chair Kevin Warsh said the Federal Reserve is studying three possible AI futures: strong productivity gains, moderate growth, or job losses and a stock market correction. This forward-looking uncertainty added to macro headwinds.",
+        "coins": "Bitcoin, Ethereum (macro driver)",
+        "timeUTC": "2026-11-16",
+        "source": "Decrypt, Federal Reserve",
+        "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC approves first blockchain-based derivatives infrastructure (Backpack, tZERO)",
+          "what": "The Commodity Futures Trading Commission granted regulatory approval to operate derivatives exchanges and clearing operations using blockchain. This marks the first regulated set of blockchain-native exchange infrastructure.",
+          "coins": "Blockchain infrastructure tokens",
+          "timeUTC": "2026-11-16",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591"
+        },
+        {
+          "headline": "Custodia Bank loses Supreme Court bid for direct Federal Reserve account",
+          "what": "The US Supreme Court refused to hear Custodia Bank's appeal of a lower court ruling allowing the Federal Reserve to reject banking-access applications. This blocks the crypto-friendly bank from direct Fed payment infrastructure.",
+          "coins": "Custody, banking infrastructure",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access"
+        },
+        {
+          "headline": "Democratic senators tell CFTC to back off prediction market enforcement demands",
+          "what": "Four Democratic senators ordered the CFTC to reverse its directive to platforms like Kalshi to defy state bans on prediction markets. The regulatory agency and courts are in conflict over jurisdiction.",
+          "coins": "Prediction market tokens (Kalshi, Polymarket)",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans"
+        },
+        {
+          "headline": "German lawmakers pass crypto seizure law without criminal charges required",
+          "what": "German parliament backed a bill allowing customs authorities to freeze crypto and other assets worth over 100,000 euros for up to 30 days without a criminal case, with court oversight for extensions. Legal experts warn it may shift burden of proof to asset holders.",
+          "coins": "All cryptocurrencies in German custody",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk, Cointelegraph",
+          "url": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Bitcoin spot ETF outflows reach 2.1 billion USD in November, extending 7-day losing streak",
+          "what": "US Bitcoin and Ethereum spot ETFs suffered their seventh consecutive day of net outflows on 16 Nov, contributing to a November total of 2.1 billion USD in withdrawals. Bitcoin ETFs are now down 1.5 billion USD for the full year.",
+          "coins": "Bitcoin, Ethereum",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, Phemex",
+          "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+        },
+        {
+          "headline": "MicroStrategy (Strategy) keeps buying Bitcoin; Bitmine adds 1.4 billion USD of positions",
+          "what": "Strategy added 1,476 Bitcoin during the dip, bringing its stash to 850,849 BTC. Bitmine reached 4.9% of Ethereum supply. Cypherpunk bought 3,775 Zcash at ~920 USD average. Strive and Strive also disclosed additions.",
+          "coins": "Bitcoin, Ethereum, Zcash",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/383347/saylor-strategy-buying-bitcoin-adding-little-orange-dip"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Solana blockchain drops 'beta' label after 6+ years",
+          "what": "Solana moved to a shared version-numbering system and officially exited beta status. The core protocol, wallets, transactions, and apps remain unchanged; the update is primarily a naming convention.",
+          "coins": "Solana (SOL)",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
+        },
+        {
+          "headline": "Coinbase and Broadridge propose tokenized stock disclosure standard",
+          "what": "The two firms proposed a standard to connect tokenized stock holders with corporate disclosures and voting materials via digital wallets, though this would not create shareholder rights.",
+          "coins": "Tokenized stocks",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices"
+        },
+        {
+          "headline": "OKX founder Star Xu reignites feud with Binance over October crashes",
+          "what": "OKX founder Star Xu blamed Binance and CEO CZ for successive October sell-offs, accusing them of misleading customers. CZ countered that Binance is buying, not selling. The clash resurfaced as markets tanked on Monday.",
+          "coins": "Bitcoin, general market sentiment",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lighter decentralized exchange loses 15.5 million USD to API key leak exploit",
+          "what": "The DEX discovered that a trading API key was compromised, allowing attackers to drain 10.39 million USDC. Investigators traced the funds to Hyperliquid. Lighter suspended all withdrawals while investigating.",
+          "coins": "USDC, all assets on Lighter",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk, CryptoSlate",
+          "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit"
+        },
+        {
+          "headline": "Trezor hit by second shipping partner data breach in three months (27,000 orders)",
+          "what": "The hardware wallet company revealed that Skladon, a shipping partner, was breached for a second time in three months, exposing customer addresses and order details. Trezor warned of potential scam calls and physical security risks.",
+          "coins": "All hardware wallet users",
+          "timeUTC": "2026-11-16",
+          "source": "Decrypt, The Block",
+          "url": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data"
+        },
+        {
+          "headline": "Safe wallet loses 6.5 million USD; Zodiac suspects key compromise",
+          "what": "The Safe protocol multi-sig wallet lost 6.5 million USD. Zodiac's co-founder suggested a likely-compromised key and overly permissive wallet settings enabled the theft, not a flaw in Smart contracts.",
+          "coins": "Safe (SAFE), all assets in affected Safe wallets",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/safe-wallet-reportedly-loses-millions-after-key-compromise"
+        },
+        {
+          "headline": "Former Robinhood engineer pleads guilty to insider trading on Hyperliquid",
+          "what": "Huaisong Xiang admitted to using confidential information about crypto listings to place trades on Hyperliquid perpetuals, profiting 125,523 USD. He pleaded guilty to wire fraud.",
+          "coins": "Hyperliquid perps, cryptos listed",
+          "timeUTC": "2026-11-16",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid"
+        },
+        {
+          "headline": "Bitcoin Lightning Network developers patch bug that could omit settled payments",
+          "what": "LND (Lightning Network Daemon) released a fix for an update-log overflow that could cause settled payments (HTLCs) to be omitted when channel state is rebuilt after a crash.",
+          "coins": "Bitcoin Lightning Network",
+          "timeUTC": "2026-11-16 (released 11 Nov)",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-lightning-developers-patch-bug-that-could-make-completed-payments-disappear/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "S&P 500 falls 1.9%, Nasdaq tumbles 2.5% as tech sector plunges",
+          "what": "US stock indices fell sharply on Monday. The Nasdaq's larger decline reflects the AI and semiconductor sector crash triggered by Nvidia's leadership crisis. The dollar rose 0.2%, signaling flight to safety.",
+          "coins": "Bitcoin, Ethereum (risk correlations)",
+          "timeUTC": "2026-11-16",
+          "source": "Twelve Data",
+          "url": "https://www.tradingview.com (US market data)"
+        },
+        {
+          "headline": "Oil falls 3.6%, silver 3.6%, commodities crack under demand-destruction fears",
+          "what": "WTI crude oil dropped 3.6%, Brent 3.3%, silver 3.6%, and palladium 3.5%. Gold spot fell 0.17% but US Treasury bond prices rose 0.22% (yields fell), showing flight to safety from both commodities and equities into bonds.",
+          "coins": "Bitcoin, Ethereum (macro hedge correlations)",
+          "timeUTC": "2026-11-16",
+          "source": "Twelve Data",
+          "url": "https://www.cmegroup.com/markets/commodities (CME Globex)"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Binance hack may push institutions to outside custody, FalconX exec warns",
+          "what": "Following the Binance hack news, FalconX's Joshua Lim said the incident could push large institutions to move crypto off exchanges and into self-custody or third-party vaults, changing trading patterns in 2027.",
+          "coins": "Bitcoin, Ethereum, all Binance-deposited assets",
+          "timeUTC": "2026-11-16",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Retail Sales m/m (Core and headline) — Tue 17 Nov, 13:30 UTC",
+      "typicalReaction": "HIGH-impact economic data. If retail sales are weaker than expected, it signals slowing consumer spending and may ease Fed rate-cut expectations, boosting risk assets like crypto. If stronger, it tightens labor markets and may support the dollar. Either way, expect sharp moves in Bitcoin, Ethereum, and traditional markets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized funding rate",
+      "definition": "The yearly equivalent of the daily payment between long and short traders in perpetual futures. Positive means longs pay shorts (suggesting bullish leverage); negative means shorts pay longs."
+    },
+    {
+      "term": "Basis",
+      "definition": "The 24-hour period used to calculate price changes and trading volume; in this report, UTC calendar day (00:00–23:59 UTC)."
+    },
+    {
+      "term": "Bearish",
+      "definition": "Market sentiment or action suggesting traders expect prices to fall or lack confidence."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of all tradeable assets (coins or perps) that rose in price on a given day, versus those that fell. Breadth below 30% signals deep bearish sentiment."
+    },
+    {
+      "term": "Extreme Fear",
+      "definition": "A score of 10 out of 100 on the Fear and Greed Index, indicating panic selling and capitulation."
+    },
+    {
+      "term": "Fear and Greed Index",
+      "definition": "A sentiment measure ranging from 0 (panic) to 100 (euphoria) that aggregates volatility, momentum, social media, and other signals; updated daily."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The periodic payment (usually 8-hourly) between long and short traders in perpetual futures, used to keep contract prices aligned with spot prices. Positive rates mean longs pay shorts; negative means shorts pay longs."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closure of a trader's leveraged position when losses exceed the collateral posted. The position is sold at market, adding downward pressure."
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will rise; the trader owns or controls the asset (or a futures contract)."
+    },
+    {
+      "term": "Mark price",
+      "definition": "A fair-value reference price used in perpetual futures to calculate funding and prevent manipulation; typically the median or time-weighted average of spot prices and futures prices."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value (in USD) of all open long and short positions in a futures market. High open interest suggests strong participation; rising open interest in a down move often precedes liquidations."
+    },
+    {
+      "term": "Perpetual futures (perps)",
+      "definition": "Derivative contracts that track a spot price (e.g., Bitcoin) with no expiration date, allowing traders to take leveraged long or short positions."
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that an asset's price will fall; the trader borrows or controls a derivative to profit if the price drops."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The proportion of market trades initiated by buyers (takers in bull trades) versus sellers (takers in bear trades). Ratios above 1.0 show more aggressive buying; below 1.0 show more aggressive selling."
+    },
+    {
+      "term": "Top trader long/short ratio",
+      "definition": "The ratio of long to short positions held by the largest traders on an exchange. Ratios significantly above 1.0 mean the biggest accounts are mostly long and vulnerable to liquidation if prices fall."
+    },
+    {
+      "term": "Venue",
+      "definition": "A cryptocurrency exchange or trading platform (e.g., Binance, Bybit, OKX)."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total value (in USD) of all trades executed on a venue or pair in the reporting period; measured in quote currency (e.g., USD for BTCUSDT)."
+    }
+  ],
+  "_source": "cli"
+}
