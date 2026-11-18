@@ -1,0 +1,219 @@
+{
+  "oneLine": "Bitcoin ve Ethereum sabit kaldı, ancak pazar korkusu devam ederken, düzenleyiciler tahmin pazarlarına sert müdahale yaptı ve bir Ethereum teknik riski uygulama geliştiricileri arasında endişe yarattı.",
+  "caveman": "Bitcoin 64.900 dolar civarında, Ethereum 1.824 dolar civarında kaldı — ikisi de biraz yükseldi. Bugün kripto paraların çoğu yükseldi (dörtte üçü kadarı), ama tüccarlar korkuyorlardı ve pek hareket etmediler. En önemlileri: hükümet bir bahis şirketini durdurmaya çalıştı, Ethereum'da yazılım sorunu var ve binlerce uygulamayı bozabilir, Binance'e daha önce saldırı yapan hackerler çalınan paraları taşıdılar — ama BlackRock ve ARK gibi büyük şirketler yine de kripto aldılar. Endişeli ama sessiz bir gündü.",
+  "priceVolumeSummary": "Bitcoin beş ana borsada 64.900 dolar civarında, Ethereum 1.824 dolar civarında kaldı; fiyatlar sıkı şekilde kümelenmiş ve borsalar arasında anlaşmazlık yok. Binance her iki parada da en yüksek işlem hacmini kaydetti: Bitcoin'de 13,9 milyar dolar, Ethereum'da 9,4 milyar dolar; diğer borsalar (Bybit, OKX, Bitget, Gate) her çift için 1,5 milyar ile 7,5 milyar dolar arasında değişiyordu.",
+  "positioningSummary": "Bitcoin tüccarları Binance'de 2,6'ya 1 oranında net long pozisyonundaydı; en büyük tüccarlar 1,76'ya 1 oranında daha düşkündü. Ethereum da 2,5'e 1 genel long eğilimi ve en iyi tüccarlar için 1,59'a 1 oranında benzer durum gösteriyordu. Ancak her iki parada 0,95 yakınlarında alıcı alış/satış oranları, satıcıların alıcılardan biraz daha agresif olduğunu göstererek bullish pozisyona rağmen dikkatli davrandığını işaret ediyordu. Finansman oranları bölündü: Bybit ve Binance çok yüksek oranlar (%10–11 yıllıklandırılmış) alıyordu — güçlü bullish bahisleri işaret eden — ama OKX %−1,2'ye döndü; yönü konusunda anlaşmazlığı ima ediyordu. Pazar genişliği güçlü kaldı, Binance perplexlerinin %74'ü yükselişte işlem görüyordu. Bitcoin açık faiz Binance'de 5,97 milyar dolar, Ethereum 4,28 milyar dolarıydı.",
+  "stocksSummary": "Asya yariiletken hisseleri günü öncü çıktı: Güney Kore'nin SK Hynix %4,8 yükseldi, Samsung %2,3 kazandı; Hong Kong'da kaldıraçlı yariiletken ETF'leri fırladı (CSOP SK Hynix 2x +%9,1). Hong Kong teknolojisi karışık hareketler gösterdi (Zhipu AI +%2,7, Tencent −%3,1); Çin robotikası (Unitree) %9,3 düştü. ABD yariiletken ETF'leri takip etti: Nvidia liderlik geçişi çözüldüğü için SOXL %11,3 yükseldi (yönetim kurulu Jensen Huang'ın iadesini dışladı). Petrol ve gaz mütevazı kazanımlar tuttu (WTI +%0,7, doğal gaz +%2,3); altın ve platin düştü (altın perps −%0,4, platin −%1,1).",
+  "movers": [
+    {
+      "symbol": "BREVUSDT",
+      "explanation": "Açık kamuya ait neden yok; 566 milyon dolar hacmi gerçek perakende talebini veya mevcut haberlerde açıklanmayan bir token olayını gösteriyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "explanation": "Açık kamuya ait neden yok; 360 milyon dolar hacmi aktif ticaret olduğunu gösteriyor ama doğrulanmış bir katalizör bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "Açık kamuya ait neden yok; 169 milyon dolar hacim ama %29,7 kazancı açıklayan haber yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Ethereum'un Glamsterdam yükseltmesi 15.000'e kadar otomatik uygulamayı bozma riski taşıyor",
+        "what": "Geliştiriciler, planlı yükseltmedeki iki ölçekleme değişikliğinin bazı akıllı sözleşmelerin güvendiği varsayımları bozduğu konusunda uyarı yaptılar. Temel geliştiriciler değişiklikleri yeniden düşünmeyi planlıyorlar; 3,3 kat kapasite artışını binlerce uygulamayı bozma riski ile karşı karşıya bırakıyor. Bağımsız denetimler yüzlerce ayrı uyumluluk sorunu ortaya çıkarmıştır.",
+        "coins": "Ethereum (ETH)",
+        "timeUTC": "2026-11-17 20:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts"
+      },
+      {
+        "headline": "Binance hack'i: saldırganlar iki hafta sessizlikten sonra 137 milyon dolar Ethereum taşıyorlar",
+        "what": "Ekim ayında rekor Binance hırsızlığına bağlı cüzdanlar 63 milyon dolar eter taşıdı; ardından analistler daha büyük bir transfer dalgasını işaret etti. Hackerler, ABD kurtarma çabaları devam ederken bazı Bitcoin'leri değiştirmiş gösteriyor. Bu, saldırganların aktif kaldığını ve çalınan fonları taşıdığını doğruluyor.",
+        "coins": "Ethereum (ETH), Bitcoin (BTC), Binance compromised funds",
+        "timeUTC": "2026-11-17 02:00 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks"
+      },
+      {
+        "headline": "Dünya Bankası kalkınma ödemeleri için stabilcoin'leri test etmek üzere Circle ve Citi'yi seçiyor",
+        "what": "Dünya Bankası, Circle'ın USDC stabilcoin'i ve blockchain altyapısının kalkınma fonlarının dağıtımını hızlandırıp maliyetleri azaltıp azaltamayacağını test edecek. Bu, geleneksel finans iş akışlarında kripto ödemeleri için önemli bir kurumsal test durumunu temsil ediyor.",
+        "coins": "USDC (Circle), Ethereum (infrastructure)",
+        "timeUTC": "2026-11-17 06:00 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383485/world-bank-circle-citi-test-stablecoins-development-payments"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC, manipülasyon endişeleri nedeniyle Kalshi Trump bahis pazarlarını durdurdu",
+          "what": "CFTC, manipülasyon riskleri hakkında endişe duyduktan sonra Kalshi'nin Trump ile ilgili bahis pazarları hakkında durdurma kararı verdi ve platforma kontratlarını savunması için 11 Aralık'a kadar süre verdi. Emir, siyasi tahmin pazarlarının nasıl sınıflandırılacağı ve denetleneceği konusundaki devam eden yasal gerilimi yansıtıyor.",
+          "coins": "N/A (regulatory)",
+          "timeUTC": "2026-11-17 15:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review"
+        },
+        {
+          "headline": "Trump'ın CFTC adayları tahmin pazarı mücadelesi kızışırken Senat incelemesine karşı karşıya",
+          "what": "Başkan Donald Trump'ın CFTC'ye atadığı adaylar Senat duruşmalarında spor bahisleri ve tahmin pazarlarını düzenleme konusundaki görüşlerini açıklamışlardır. Onay süreci, CFTC ile diğer kurumlar arasında yasal sınırlar konusunda devam eden anlaşmazlığı göstermektedir.",
+          "coins": "N/A (regulatory)",
+          "timeUTC": "2026-11-17 16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909"
+        },
+        {
+          "headline": "Fed'in Waller, tokenleştirilmiş finans konusundaki uyarısında Binance hack'ini gösteriyor",
+          "what": "Fed Vali Christopher Waller, geleneksel finansal varlıklar blokzincire taşındığında dolandırıcılık, güvenliği ihlal edilen anahtarlar ve başarısız işlemlerden kimin sorumlu olduğu sorusunu sordu. Binance hack'ini, düzenleyicilerin tokenleştirilmiş finansta endişe ettiği operasyonel risklerin somut bir örneği olarak gösterdi.",
+          "coins": "Tokenized assets, Bitcoin, Ethereum",
+          "timeUTC": "2026-11-17 14:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "BlackRock'ın IBIT Bitcoin ETF çıkış serisini sonlandırırken yedi rakip kan kaybetmeye devam ediyor",
+          "what": "16 Kasım'da (son işlem günü), BlackRock'ın iShares Bitcoin Mini Trust (IBIT), giriş kaydeden tek Bitcoin ETF'iydi; yedi rakip çıkış gösterdi. Bu, haftadan beri devam eden çıkış serisini kırarken, fon yöneticileri arasında devam eden sermaye rotasyonunu gösteriyor.",
+          "coins": "Bitcoin (BTC)",
+          "timeUTC": "2026-11-16 20:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/blackrock-single-handedly-ends-bitcoin-etfs-1-9-billion-exodus-as-seven-rivals-keep-bleeding/"
+        },
+        {
+          "headline": "Cathie Wood'un ARK'ı NVDA düşerken kripto hisse senetlerinde 40 milyon dolar satın alıyor",
+          "what": "ARK Invest, kazanç öncesi Nvidia hisselerini 85 milyon dolarla kesti; 16 Kasım'ın satışında Block, Circle ve Coinbase'den 40 milyon dolar satın aldı. Bu hareketler, Wood'un son teknoloji düşüşünden sonra kripto altyapısını daha iyi değer olarak gördüğünü gösteriyor.",
+          "coins": "Spot BTC/ETH ETFs via Circle, Coinbase, Block",
+          "timeUTC": "2026-11-16 20:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks"
+        },
+        {
+          "headline": "JPMorgan ve DBS, stabilcoin olmadan 24/7 dolar transferi sunuyor",
+          "what": "JPMorgan ve Singapur'un DBS Bankası, stabilcoin veya aracılar kullanmadan gerçek zamanlı dolar transferleri için Singapur-ABD bağlantısı açılştı. Ant International ilk müşteri olmasına rağmen ücretler ve işletme sermayesi tasarrufları açıklanmamıştır. Hizmet, merkez bankalarının tokenleştirilmiş hatları keşfettiğini ima ediyor.",
+          "coins": "Digital USD (settlement layer)",
+          "timeUTC": "2026-11-17 08:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jpmorgan-and-dbs-offer-24-7-dollar-transfers-without-stablecoins/"
+        },
+        {
+          "headline": "Hong Kong ve Swift, para birimleri arasında tokenleştirilmiş mevduatları test ediyor",
+          "what": "Hong Kong ve SWIFT, dijital merkez bankası parası (CBDC'ler) ile ilgili daha önceki çalışmalar üzerine inşa ederek, tokenleştirilmiş banka mevduatlarını para birimleri arasında bağlamaya yönelik çabaları genişletti. Pilot uygulamalar, sınır ötesi uzlaştırma verimliliğine artan ilgi gösteriyor.",
+          "coins": "Digital assets (tokenized deposits)",
+          "timeUTC": "2026-11-17 09:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coinbase, Morpho aracılığıyla zincir üstü kripto kredilerini New York'a genişletiyor",
+          "what": "Coinbase, zincir üstü borçlanma ürününü (Coinbase Borrow) Morpho protokolü aracılığıyla New York sakinlerine genişletti; Bitcoin, Ethereum ve Solana teminat olarak kabul ediliyor. Genişleme, en büyük ABD finans merkezinde düzenleyici engelleri kaldırıyor.",
+          "coins": "Bitcoin (BTC), Ethereum (ETH), Solana (SOL)",
+          "timeUTC": "2026-11-17 11:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
+        },
+        {
+          "headline": "Anchorage ve Kalshi Prime, kurumların saklanan Bitcoin'i marj olarak kullanmasına izin veriyor",
+          "what": "Anchorage Digital müşterileri, federal olarak tüzük haline getirilmiş bankasında tutulan Bitcoin ve stabilcoin'leri Kalshi Prime'ın CFTC tarafından düzenlenen türev ürünler piyasasında marj olarak taahhüt edebilirler. Hizmet, kurumsal saklama alanını düzenlenen kaldıraçla birleştirerek profesyonel tüccarlar için engelleri düşürüyor.",
+          "coins": "Bitcoin (BTC), stablecoins",
+          "timeUTC": "2026-11-17 13:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lighter olayı, çekilme kontrollerinin ötesindeki riskleri ortaya çıkarıyor",
+          "what": "Lighter'da (bir emir akışı altyapısı sağlayıcısı) 10,4 milyon dolarlık açıktan sonra, güvenlik araştırmacıları kripto platformlarının bir API anahtarının kullanabileceği her rota — ticaret, dahili transferler ve paylaşılan havuzlar dahil — üzerinde uygulanabilir sınırlara ihtiyaç duyduğunu vurguladı. Yalnızca çekilme kontrolleri yetersizdir.",
+          "coins": "Ethereum (ETH) and altcoins on Lighter",
+          "timeUTC": "2026-11-17 02:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/lighter-incident-exposes-risks-beyond-withdrawal-controls"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Nvidia kazancı beklentiyi aştı, yönetim kurulu Jensen Huang'ın iadesini dışladı",
+          "what": "Nvidia tahminleri aşan kazançlar bildirdi ve güçlü rehberlik verdi; hisse geri alım yetkilendirmesine 150 milyar dolar ekledi. Ancak, yönetim kurulu kovulan kurucu ortak Jensen Huang'ın iadesini resmi olarak reddetti ve yeni bir CEO için bir arama firması tuttu; güçlü finansal sonuçların yanı sıra liderlik belirsizliği ekledi.",
+          "coins": "Semiconductor stocks (reflects in SOXL, SOXS, broader tech)",
+          "timeUTC": "2026-11-17 01:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+        },
+        {
+          "headline": "Druckenmiller bakır kısa satıyor, 2027'de ekonomik zayıflık konusunda uyarıyor",
+          "what": "Milyarder yatırımcı Stanley Druckenmiller, bakır kısa satış yaptığını ve 2027'de potansiyel ekonomik zayıflık konusunda uyarı yaptığını söyledi. Sermaye korumayı önceliklendiriyor ve yapay zeka odağını altyapı oyunlarından uygulamalara kaydırıyor; emtia bağlantılı risk varlıkları hakkında dikkat öneriniyor.",
+          "coins": "Bitcoin and crypto (macro hedge narratives)",
+          "timeUTC": "2026-11-17 14:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11-17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "UK CPI Inflation November 2026 — Wed 18 Nov, 07:00 UTC",
+      "typicalReaction": "USD çiftleri ve risk varlıkları üzerinde orta etki; veriler önemli ölçüde şaşırtırsa kripto küçük hareketler görebilir."
+    },
+    {
+      "event": "FOMC Meeting Minutes — Wed 18 Nov, 19:00 UTC",
+      "typicalReaction": "Bitcoin ve altcoin'ler üzerinde yüksek etki. Tutanaklar sıklıkla Fed politikası taraflılığını ortaya koymakta ve oran yolu değişikliklerini veya enflasyon endişelerini işaret ederse keskin hareketleri tetikleyebilmektedir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel",
+      "definition": "Vadeli sözleşme fiyatı ile dayanak spot fiyat arasındaki fark. Pozitif temel (vadeli kontratlar spot'tan daha yüksek işlem görüyorsa) genellikle tüccarların fiyatların yükseleceğini beklediğini gösterir."
+    },
+    {
+      "term": "Genişlik",
+      "definition": "Gün içinde yükselen ve düşen kripto para veya varlıkların yüzdesi. Yüksek genişlik (örneğin %74 yükselişte) pazarın çoğunun yükselmekte olduğunu ve sadece birkaç büyük kripto paranın değil gösterir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Kalıcı sözleşmelerde (vade sonunda müdahalesi olmayan vadeli işlemler) uzun ve kısa pozisyonlar tutan tüccarlar arasında periyodik ödeme. Yüksek pozitif finansman, long'ların short'lara ödeme yaptığını ve bullish bahisler gerçekleştiğini gösterir; negatif finansman, ayıların boğaları ödediğini gösterir."
+    },
+    {
+      "term": "Uzun/kısa oran",
+      "definition": "Fiyatın artacağına bahis yapan (uzun) tüccarların sayısının düşeceğine bahis yapan (kısa) tüccarlarla karşılaştırıldığı oran. 2,6 oranı her 1 short için 2,6 long anlamına gelir. Daha yüksek oranlar bullish; daha düşük oranlar bearish."
+    },
+    {
+      "term": "İşaret fiyatı",
+      "definition": "Borsanın kalıcı sözleşmelerdeki kar ve zararı hesaplamak için kullandığı referans fiyatı. Genellikle son işlem fiyatına yakındır ancak tam olarak değildir; manipülasyonu önlemek için tasarlanmıştır."
+    },
+    {
+      "term": "Açık faiz",
+      "definition": "Açık (kapatılmamış) kalıcı sözleşmelerin veya vadeli işlem pozisyonlarının toplam sayısı. Yüksek ve artan açık faiz, daha fazla paranın gelecekteki fiyat hareketlerine bahis yaptığını gösterir; düşen açık faiz tüccarların pozisyonlarından çıkıyor anlamına gelir."
+    },
+    {
+      "term": "Açık faiz değişikliği",
+      "definition": "Toplam açık faizin bir dönem içinde ne kadar arttığı veya azaldığı. Artan açık faiz genellikle güven veya trend oluşumunu gösterir; düşen açık faiz belirsizlik veya tersine dönüşü gösterir."
+    },
+    {
+      "term": "Alıcı alış/satış oranı",
+      "definition": "Agresif alış ve agresif satış arasındaki bir ölçü. 1,0'ın üzerindeki oranlar alıcıların daha agresif olduğunu (bullish); 1,0'ın altındaki oranlar satıcıların daha agresif olduğunu (bearish) gösterir. 1,0 yakınındaki değerler dengeli baskıyı gösterir."
+    },
+    {
+      "term": "En büyük tüccar uzun/kısa oranı",
+      "definition": "Tüm tüccarlar değil, en büyük tüccarlar arasındaki (pozisyon büyüklüğüne göre ölçülen) uzun/kısa dengelemi. En büyük paranın ne yaptığını ortaya koymakta ve genellikle daha küçük tüccarları öncü çıkarmaktadır."
+    },
+    {
+      "term": "Platform",
+      "definition": "Bir kripto para borsası veya ticaret platformu (Binance, Bybit, OKX, vb. gibi)."
+    },
+    {
+      "term": "Hacim",
+      "definition": "Raporlama döneminde işlem gören kripto paranın toplam dolar değeri. Daha yüksek hacim genellikle daha fazla likiditeyi ve potansiyel olarak daha güvenilir fiyatları anlamına gelir; düşük hacim fiyatları hareket ettirmenin daha kolay olabileceğini gösterebilir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "8ab2973e0e49b327"
+}

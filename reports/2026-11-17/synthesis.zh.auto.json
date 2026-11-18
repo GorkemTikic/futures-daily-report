@@ -1,0 +1,219 @@
+{
+  "oneLine": "比特币和以太坊保持稳定，市场恐慌情绪挥之不去，监管部门打击预测市场，以太坊技术风险引发应用开发者担忧。",
+  "caveman": "比特币稳定在64900美元，以太坊稳定在1824美元——两者都涨了一点点。大部分加密货币今天都涨了（大约四分之三），但交易员们很害怕，不敢大额操作。最重要的三件事：政府叫停了一个投注网站，以太坊软件快要出问题，可能会搞坏很多应用，还有一群黑客从以前盗取币安的事件中窃取的钱被转移出去了——但黑石和方舟这样的大投资公司还在继续买加密货币。这是个紧张但很安静的一天。",
+  "priceVolumeSummary": "比特币保持在64900美元附近，以太坊保持在1824美元附近，五大主流交易所的价格紧密集中，交易所间无分歧。币安成交量领先：比特币139亿美元，以太坊94亿美元，其他交易所（Bybit、OKX、Bitget、Gate）每个交易对成交量在15亿至75亿美元之间。",
+  "positioningSummary": "币安比特币交易者多头头寸比2.6比1，大型交易者更看好至1.76比1。以太坊显示类似多头倾向，整体2.5比1，大户1.59比1。但两个交易对的主动买卖比都接近0.95，表明买家不如卖家积极，尽管头寸看好却显得谨慎。资金费率出现分歧：Bybit和币安的费率非常高（年化10%-11%），显示强烈的多头押注，但OKX转为负值-1.2%，暗示对方向存在分歧。市场宽度保持强势，币安永续合约交易中74%上涨。币安比特币未平仓头寸59.7亿美元，以太坊42.8亿美元。",
+  "stocksSummary": "亚洲半导体股领跑：韩国SK海力士涨4.8%，三星涨2.3%，香港杠杆半导体ETF暴涨（CSOP SK海力士2倍杠杆+9.1%）。香港科技股涨跌互现（智普AI+2.7%，腾讯-3.1%），中国机器人企业宇树科技跌9.3%。美国半导体ETF跟涨：SOXL涨11.3%，因为英伟达董事会确认不会让黄仁勋回归。石油和天然气涨幅温和（WTI+0.7%，天然气+2.3%），黄金和铂金下跌（黄金永续-0.4%，铂金-1.1%）。",
+  "movers": [
+    {
+      "symbol": "BREVUSDT",
+      "explanation": "没有明确的公开原因；5.66亿美元成交量表明存在真实的散户需求或未被解释的代币事件。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "explanation": "没有明确的公开原因；3.6亿美元成交量显示活跃交易，但未找到确认的催化剂。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "没有明确的公开原因；1.69亿美元成交量但无新闻解释29.7%的涨幅。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "以太坊格兰斯特丹升级风险波及最多15000个自动应用",
+        "what": "开发者警告称计划升级中的两项扩容改动会破坏某些智能合约的运行假设。核心开发者计划重新考虑这些改动，在3.3倍容量提升和破坏数千个应用的风险之间平衡。独立审计已发现数百个独立的兼容性问题。",
+        "coins": "以太坊 (ETH)",
+        "timeUTC": "2026-11-17 20:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts"
+      },
+      {
+        "headline": "币安黑客事件：攻击者沉默两周后转移1.37亿美元以太坊",
+        "what": "与10月币安创纪录盗窃相关的钱包转移了6300万美元以太坊，随后分析师发现更大规模的转账浪潮。黑客据称交换了部分比特币，美国追回工作仍在进行。这证实攻击者仍活跃并在转移盗取资金。",
+        "coins": "以太坊 (ETH)、比特币 (BTC)、币安被盗资金",
+        "timeUTC": "2026-11-17 02:00 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks"
+      },
+      {
+        "headline": "世界银行与Circle和花旗合作试点稳定币用于发展援助支付",
+        "what": "世界银行将测试Circle的USDC稳定币和区块链基础设施是否能加速并降低发展基金拨款成本。这是加密支付在传统金融工作流中的重要制度级试验。",
+        "coins": "USDC (Circle)、以太坊 (基础设施)",
+        "timeUTC": "2026-11-17 06:00 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383485/world-bank-circle-citi-test-stablecoins-development-payments"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国商品期货委员会叫停Kalshi特朗普相关市场，理由是操纵风险",
+          "what": "美国商品期货委员会（CFTC）对Kalshi的特朗普相关预测市场发布暂停令，理由是存在操纵风险，要求该平台在12月11日前进行辩护。该命令反映了监管部门在如何分类和监管政治预测市场上的持续紧张关系。",
+          "coins": "不适用 (监管)",
+          "timeUTC": "2026-11-17 15:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review"
+        },
+        {
+          "headline": "特朗普提名的美国商品期货委员会成员面临参议院审查，预测市场监管权争夺升级",
+          "what": "唐纳德·特朗普总统提名的美国商品期货委员会成员在参议院听证会上阐述了对体育博彩和预测市场监管的看法。确认程序表明在美国商品期货委员会和其他机构之间的监管边界问题上存在持续分歧。",
+          "coins": "不适用 (监管)",
+          "timeUTC": "2026-11-17 16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909"
+        },
+        {
+          "headline": "美联储沃勒指币安黑客事件警示代币化金融风险",
+          "what": "美联储理事克里斯托弗·沃勒质疑谁应对欺诈、被盗密钥和交易失败负责，当传统金融资产转移到区块链时。他以币安黑客事件为具体例子说明监管部门对代币化金融运营风险的担忧。",
+          "coins": "代币化资产、比特币、以太坊",
+          "timeUTC": "2026-11-17 14:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "贝莱德IBIT结束比特币ETF出金潮，七大竞争对手继续失血",
+          "what": "11月16日（最新交易日），贝莱德旗下iShares比特币迷你信托基金（IBIT）是唯一录得资金流入的比特币ETF，而七个竞争对手发生提现。这打破了长达一周的出金潮，但显示基金经理间的资金轮换仍在继续。",
+          "coins": "比特币 (BTC)",
+          "timeUTC": "2026-11-16 20:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/blackrock-single-handedly-ends-bitcoin-etfs-1-9-billion-exodus-as-seven-rivals-keep-bleeding/"
+        },
+        {
+          "headline": "凯西·伍德的方舟在英伟达跳水时买入4000万美元加密股票",
+          "what": "方舟投资管理公司在11月16日的抛售中减持了8500万美元英伟达股票，同时买入了4000万美元的Block、Circle和Coinbase股票。这些举动表明伍德认为在科技类股大幅下跌后，加密基础设施有更好的价值。",
+          "coins": "通过Circle、Coinbase、Block的现货BTC/ETH ETF",
+          "timeUTC": "2026-11-16 20:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks"
+        },
+        {
+          "headline": "摩根大通和星展银行推出24小时美元转账，无需使用稳定币",
+          "what": "摩根大通与新加坡星展银行推出新加坡-美国实时美元转账通道，无需使用稳定币或中介。蚂蚁国际是首个客户，但费用和营运资本节省情况未披露。该服务提示中央银行正在探索代币化清算路径。",
+          "coins": "数字美元 (清算层)",
+          "timeUTC": "2026-11-17 08:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jpmorgan-and-dbs-offer-24-7-dollar-transfers-without-stablecoins/"
+        },
+        {
+          "headline": "香港和环球同业银行电讯协会测试跨币种代币化存款",
+          "what": "香港和SWIFT扩大了连接跨币种代币化银行存款的工作，以往的工作涉及数字央行货币（CBDC）。这些试点表明市场对跨境清算效率的兴趣与日俱增。",
+          "coins": "数字资产 (代币化存款)",
+          "timeUTC": "2026-11-17 09:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coinbase将链上加密借贷扩展至纽约，合作方为Morpho",
+          "what": "Coinbase通过Morpho协议将其链上借贷产品（Coinbase Borrow）扩展至纽约居民，接受比特币、以太坊和Solana作为抵押。该扩展消除了美国最大金融中心的监管壁垒。",
+          "coins": "比特币 (BTC)、以太坊 (ETH)、Solana (SOL)",
+          "timeUTC": "2026-11-17 11:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
+        },
+        {
+          "headline": "Anchorage和Kalshi Prime让机构用托管比特币作为保证金",
+          "what": "Anchorage Digital的客户现在可以将其联邦特许银行托管的比特币和稳定币作为保证金用于Kalshi Prime的美国商品期货委员会监管衍生品交易所。该服务连接了制度级托管与监管杠杆，降低了专业交易者的准入门槛。",
+          "coins": "比特币 (BTC)、稳定币",
+          "timeUTC": "2026-11-17 13:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lighter事件暴露提现管制以外的风险",
+          "what": "Lighter（订单流基础设施提供商）遭遇1040万美元漏洞后，安全研究人员指出加密平台需要对API密钥能使用的每条通道都施加可强制执行的限制——包括交易、内部转账和共享池。仅有的提现管制还不够。",
+          "coins": "Lighter上的以太坊 (ETH) 和山寨币",
+          "timeUTC": "2026-11-17 02:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/lighter-incident-exposes-risks-beyond-withdrawal-controls"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "英伟达财报超预期，董事会正式排除黄仁勋回归的可能",
+          "what": "英伟达报告财务表现超预期并发布强劲指引，新增1500亿美元股票回购授权。但董事会正式拒绝了联合创始人黄仁勋回归的可能性，并聘请猎头寻找新首席执行官，给优异的财务表现中增加了领导层不确定性。",
+          "coins": "半导体股票 (反映在SOXL、SOXS、更广泛的科技股)",
+          "timeUTC": "2026-11-17 01:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+        },
+        {
+          "headline": "德鲁肯米勒做空铜矿，预警2027年经济衰退",
+          "what": "亿万富翁投资者斯坦利·德鲁肯米勒表示自己做空铜矿，并警告2027年可能出现经济衰退。他优先关注资本保护，并将AI投资重点从基础设施转向应用，表明对商品相关风险资产持谨慎态度。",
+          "coins": "比特币和加密货币 (宏观对冲叙事)",
+          "timeUTC": "2026-11-17 14:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "UK CPI Inflation November 2026 — Wed 18 Nov, 07:00 UTC",
+      "typicalReaction": "对美元对和风险资产有中等影响；如果数据大幅超预期，加密货币可能出现小幅波动。"
+    },
+    {
+      "event": "FOMC Meeting Minutes — Wed 18 Nov, 19:00 UTC",
+      "typicalReaction": "对比特币和山寨币有高度影响。议会纪要往往会揭示美联储政策偏向，如果暗示降息路径改变或通胀担忧加重，可能引发大幅波动。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货合约与现货价格之间的价差。正基差（期货高于现货）通常表示交易者预期价格上升。"
+    },
+    {
+      "term": "市场宽度",
+      "definition": "上升和下降的币种或资产所占的百分比。高宽度（如74%上升）表示大部分市场在上升，不仅仅是少数大币种。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续合约（无到期日的期货）中多头和空头交易者之间的定期支付。高正费率表示多头在向空头支付，意味看好情绪强烈；负费率表示空头在向多头支付。"
+    },
+    {
+      "term": "多空比",
+      "definition": "预期价格上升（多头）的交易者数与预期下降（空头）的交易者数之比。比例为2.6表示每1个空头对应2.6个多头。比例越高越看好；比例越低越看空。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所用于计算永续合约利润和亏损的参考价格。通常接近但不完全等于最后交易价格，旨在防止操纵。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "未平仓（未关闭）的永续合约或期货头寸总数。高且上升的未平仓头寸表示更多资金押注未来价格走势；下降的未平仓头寸表示交易者在平仓离场。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "特定时期内总未平仓头寸的增长或下降幅度。未平仓头寸上升通常表示信心或趋势在形成；下降表示不确定性或反向。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "积极购买与积极卖出的衡量标准。比例高于1.0表示买方更积极（看好）；低于1.0表示卖方更积极（看空）。接近1.0的数值表示买卖压力均衡。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "最大交易者（按头寸规模衡量）中的多空平衡，不是所有交易者。它揭示大资金在做什么，通常会领先小交易者。"
+    },
+    {
+      "term": "交易所",
+      "definition": "加密货币交易所或交易平台（如币安、Bybit、OKX等）。"
+    },
+    {
+      "term": "成交量",
+      "definition": "报告时期内加密货币的总交易美元价值。成交量越高通常表示流动性越好、价格越可靠；成交量低时价格容易被推动。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "8ab2973e0e49b327"
+}

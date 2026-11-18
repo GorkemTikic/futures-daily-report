@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-17",
+  "kind": "market",
+  "dateLong": "Tuesday, 17 November 2026",
+  "coversUTC": "2026-11-17 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum held steady while market fear persisted, as regulators cracked down on prediction markets and an Ethereum technical risk raised concerns for app developers.",
+  "newsCount": 15,
+  "macro": {
+    "BTC": 0.08712870065662656,
+    "ETH": 0.24125651227714673
+  },
+  "topMover": {
+    "symbol": "BREVUSDT",
+    "chgPct": 92.71074674746035
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "18 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

@@ -1,0 +1,218 @@
+{
+  "oneLine": "Bitcoin and Ethereum held steady while market fear persisted, as regulators cracked down on prediction markets and an Ethereum technical risk raised concerns for app developers.",
+  "caveman": "Bitcoin stayed around $64,900 and Ethereum at $1,824 — both up just a bit. Most cryptocurrencies went up today (about three-quarters of them), but traders were scared and not doing much. The main things that mattered: the government told a betting site to stop, there's a problem coming with Ethereum software that might break a bunch of apps people use, and hackers from an old attack on Binance moved a ton of stolen money around — but big investment companies like BlackRock and ARK kept buying crypto anyway. It was a worried but quiet day.",
+  "priceVolumeSummary": "Bitcoin held near $64,900 and Ethereum near $1,824 across all five major venues, with prices tightly clustered and no disagreement between exchanges. Binance led volume on both: $13.9B for Bitcoin and $9.4B for Ethereum, with other venues (Bybit, OKX, Bitget, Gate) ranging from $1.5B to $7.5B per pair.",
+  "positioningSummary": "Bitcoin traders were net long by 2.6-to-1 on Binance, with the largest traders even more bullish at 1.76-to-1 long. Ethereum showed similar long bias at 2.5-to-1 overall and 1.59-to-1 for top traders. However, taker buy/sell ratios near 0.95 on both pairs suggested buyers were slightly less aggressive than sellers, showing caution despite bullish positioning. Funding rates were split: Bybit and Binance charged very high rates (10–11% annualized) signaling strong bullish betting, but OKX turned negative at −1.2%, hinting at disagreement on direction. Market breadth stayed strong with 74% of Binance perps trading up. Bitcoin open interest stood at $5.97B and Ethereum at $4.28B on Binance alone.",
+  "stocksSummary": "Asian semiconductor stocks led the day: South Korea's SK Hynix jumped 4.8% and Samsung gained 2.3%, while leveraged semiconductor ETFs in Hong Kong surged (CSOP SK Hynix 2x +9.1%). Hong Kong tech showed mixed moves (Zhipu AI +2.7%, Tencent −3.1%), while Chinese robotics (Unitree) fell 9.3%. US semiconductor ETFs followed: SOXL rose 11.3% as the Nvidia leadership transition settled (the board ruled out reinstating Jensen Huang). Oil and gas held modest gains (WTI +0.7%, natural gas +2.3%), while gold and platinum dipped (gold perps −0.4%, platinum −1.1%).",
+  "movers": [
+    {
+      "symbol": "BREVUSDT",
+      "explanation": "No clear public cause; volume of $566M suggests real retail demand or a token event not explained in available news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "explanation": "No clear public cause; $360M volume indicates active trading but no confirmed catalyst found.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "No clear public cause; $169M volume but no news explaining the 29.7% gain.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
+        "what": "Developers warned that two scaling changes in the planned upgrade break assumptions some smart contracts rely on. Core developers plan to reconsider the changes, pitting a 3.3x capacity boost against the risk of disrupting thousands of applications. Independent audits have uncovered hundreds of separate compatibility problems.",
+        "coins": "Ethereum (ETH)",
+        "timeUTC": "2026-11-17 20:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts"
+      },
+      {
+        "headline": "Binance hack: attackers move $137M in Ethereum after two weeks of silence",
+        "what": "Wallets linked to October's record Binance theft moved $63M in ether, followed by analysts flagging a larger wave of transfers. Hackers reportedly swapped some Bitcoin as US recovery efforts continue. This confirms the attackers remain active and are moving stolen funds.",
+        "coins": "Ethereum (ETH), Bitcoin (BTC), Binance compromised funds",
+        "timeUTC": "2026-11-17 02:00 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks"
+      },
+      {
+        "headline": "World Bank taps Circle and Citi to test stablecoins for development payments",
+        "what": "The World Bank will test whether Circle's USDC stablecoin and blockchain infrastructure can speed up and reduce costs of disbursing development funds. This represents a major institutional test case for crypto payments in traditional finance workflows.",
+        "coins": "USDC (Circle), Ethereum (infrastructure)",
+        "timeUTC": "2026-11-17 06:00 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383485/world-bank-circle-citi-test-stablecoins-development-payments"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "CFTC halts Kalshi Trump mention markets over manipulation concerns",
+          "what": "The CFTC issued a stay on Kalshi's Trump-related mention markets after raising concerns about manipulation risks, giving the platform until Dec. 11 to defend its contracts. The order reflects ongoing regulatory tension over how to classify and oversee political prediction markets.",
+          "coins": "N/A (regulatory)",
+          "timeUTC": "2026-11-17 15:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cftc-kalshi-trump-mention-markets-review"
+        },
+        {
+          "headline": "Trump's CFTC picks face Senate scrutiny as prediction market turf war heats up",
+          "what": "President Donald Trump's nominees to the CFTC revealed their views on regulating sports betting and prediction markets during Senate hearings. The confirmation process signals ongoing disagreement over regulatory boundaries between CFTC and other agencies.",
+          "coins": "N/A (regulatory)",
+          "timeUTC": "2026-11-17 16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909"
+        },
+        {
+          "headline": "Fed's Waller cites Binance hack in warning over tokenized finance",
+          "what": "Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains. He cited the Binance hack as a concrete example of the operational risks regulators worry about in tokenized finance.",
+          "coins": "Tokenized assets, Bitcoin, Ethereum",
+          "timeUTC": "2026-11-17 14:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "BlackRock's IBIT ends Bitcoin ETF outflow streak as seven rivals keep bleeding",
+          "what": "On November 16 (latest trading day), BlackRock's iShares Bitcoin Mini Trust (IBIT) was the only Bitcoin ETF to record inflows, while seven competitors posted withdrawals. This breaks the week-long outflow streak but shows continued capital rotation among fund managers.",
+          "coins": "Bitcoin (BTC)",
+          "timeUTC": "2026-11-16 20:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/blackrock-single-handedly-ends-bitcoin-etfs-1-9-billion-exodus-as-seven-rivals-keep-bleeding/"
+        },
+        {
+          "headline": "Cathie Wood's ARK buys $40M in crypto stocks as NVDA tumbles",
+          "what": "ARK Invest trimmed $85M in Nvidia shares ahead of earnings while buying $40M in Block, Circle and Coinbase during November 16's selloff. The moves suggest Wood sees crypto infrastructure as a better value after the recent tech drawdown.",
+          "coins": "Spot BTC/ETH ETFs via Circle, Coinbase, Block",
+          "timeUTC": "2026-11-16 20:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks"
+        },
+        {
+          "headline": "JPMorgan and DBS offer 24/7 dollar transfers without stablecoins",
+          "what": "JPMorgan and Singapore's DBS Bank launched a Singapore-US link for real-time dollar transfers without using stablecoins or intermediaries. Ant International is the first client, though fees and working capital savings remain undisclosed. The service hints at central banks exploring tokenized rails.",
+          "coins": "Digital USD (settlement layer)",
+          "timeUTC": "2026-11-17 08:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/jpmorgan-and-dbs-offer-24-7-dollar-transfers-without-stablecoins/"
+        },
+        {
+          "headline": "Hong Kong and Swift test tokenized deposits across currencies",
+          "what": "Hong Kong and SWIFT expanded efforts to connect tokenized bank deposits across currencies, building on earlier work involving digital central bank money (CBDCs). The pilots signal growing interest in cross-border settlement efficiency.",
+          "coins": "Digital assets (tokenized deposits)",
+          "timeUTC": "2026-11-17 09:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Coinbase expands onchain crypto loans to New York via Morpho",
+          "what": "Coinbase extended its onchain borrowing product (Coinbase Borrow) to New York residents through Morpho protocol, with Bitcoin, Ethereum and Solana accepted as collateral. The expansion removes regulatory barriers in the largest US financial hub.",
+          "coins": "Bitcoin (BTC), Ethereum (ETH), Solana (SOL)",
+          "timeUTC": "2026-11-17 11:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842"
+        },
+        {
+          "headline": "Anchorage and Kalshi Prime let institutions use custodied bitcoin as margin",
+          "what": "Anchorage Digital customers can now pledge Bitcoin and stablecoins held at its federally chartered bank as margin on Kalshi Prime's CFTC-regulated derivatives venue. The service bridges institutional custody with regulated leverage, lowering barriers for professional traders.",
+          "coins": "Bitcoin (BTC), stablecoins",
+          "timeUTC": "2026-11-17 13:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Lighter incident exposes risks beyond withdrawal controls",
+          "what": "Following the $10.4M exploit at Lighter (an order-flow infrastructure provider), security researchers highlighted that crypto platforms need enforceable limits on every route an API key can use—including trades, internal transfers and shared pools. Withdrawal controls alone are insufficient.",
+          "coins": "Ethereum (ETH) and altcoins on Lighter",
+          "timeUTC": "2026-11-17 02:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/lighter-incident-exposes-risks-beyond-withdrawal-controls"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Nvidia earnings beat, board rules out Jensen Huang comeback",
+          "what": "Nvidia reported earnings that topped estimates and issued strong guidance, adding $150B to its share buyback authorization. However, the board formally rejected a comeback for ousted co-founder Jensen Huang and hired a search firm for a new CEO, adding leadership uncertainty alongside the strong financial results.",
+          "coins": "Semiconductor stocks (reflects in SOXL, SOXS, broader tech)",
+          "timeUTC": "2026-11-17 01:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+        },
+        {
+          "headline": "Druckenmiller short copper, warns of economic weakness in 2027",
+          "what": "Billionaire investor Stanley Druckenmiller said he is short copper and warned of potential economic weakness ahead in 2027. He is prioritizing capital preservation and shifting his AI focus from infrastructure plays toward applications, suggesting caution on commodity-linked risk assets.",
+          "coins": "Bitcoin and crypto (macro hedge narratives)",
+          "timeUTC": "2026-11-17 14:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026-11-17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "UK CPI Inflation November 2026 — Wed 18 Nov, 07:00 UTC",
+      "typicalReaction": "Medium impact on USD pairs and risk assets; crypto may see minor movement if data surprises significantly."
+    },
+    {
+      "event": "FOMC Meeting Minutes — Wed 18 Nov, 19:00 UTC",
+      "typicalReaction": "High impact on Bitcoin and altcoins. Minutes often reveal Fed policy bias and can trigger sharp moves if they signal rate-path changes or inflation concerns."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The price difference between a futures contract and the underlying spot price. A positive basis (futures trading higher than spot) usually means traders expect prices to rise."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of coins or assets that moved up versus down on the day. High breadth (like 74% up) means most of the market is rising, not just a few big coins."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders holding long and short positions on perpetual contracts (futures with no expiration). High positive funding means longs are paying shorts, signaling bullish betting; negative funding means bears are paying bulls."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The number of traders betting price will go up (long) compared to those betting it will go down (short). A ratio of 2.6 means 2.6 longs for every 1 short. Higher ratios are bullish; lower ratios are bearish."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price an exchange uses to calculate profit and loss on perpetual contracts. It is usually close to but not exactly the last traded price, designed to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open (not closed) perpetual contracts or futures positions. High and rising open interest means more money is betting on future price moves; falling OI means traders are exiting positions."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "How much the total open interest grew or shrank over a period. Rising OI often signals confidence or a trend building; falling OI signals uncertainty or a reversal."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying versus aggressive selling. Ratios above 1.0 mean buyers are more aggressive (bullish); below 1.0 means sellers are more aggressive (bearish). Values near 1.0 show balanced pressure."
+    },
+    {
+      "term": "Top-trader long/short ratio",
+      "definition": "The long/short balance among the largest traders (measured by position size), not all traders. It reveals what the biggest money is doing and often leads smaller traders."
+    },
+    {
+      "term": "Venue",
+      "definition": "A cryptocurrency exchange or trading platform (such as Binance, Bybit, OKX, etc.)."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar value of crypto traded over the reporting period. Higher volume usually means more liquidity and potentially more reliable prices; lower volume can mean prices are easier to move."
+    }
+  ],
+  "_source": "cli"
+}
