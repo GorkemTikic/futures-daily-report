@@ -1,0 +1,258 @@
+{
+  "oneLine": "美联储会议记录在19:00 UTC发布，透露可能偏鹰派的立场，联储官员沃勒在当日早些时候呼吁12月加息50个基点，引发风险资产广泛下跌。比特币下跌2.9%，以太坊下跌2.6%。",
+  "caveman": "今天美联储（美国管理货币的央行）公布了之前会议的记录。一位名叫克里斯托弗·沃勒的官员说他们应该在12月份大幅加息，以此让人们认真对待通胀问题。美联储加息意味着借钱会更贵，所以人们会把钱转移到更安全的地方，比如储蓄账户和债券，而不是像比特币这样风险更高的东西。因为这个消息，比特币下跌了2.9%，以太坊下跌了2.6%。几乎所有其他加密货币也都跌了——只有26.6%的交易对上涨。大型比特币挖矿公司还卖出了2300多万美元的比特币，他们想用这些钱来建造人工智能计算机。这是加密货币市场充满担忧和恐慌的一天。",
+  "priceVolumeSummary": "比特币以63,037美元收盘，以太坊以1,776美元收盘，整个交易日各交易所价格保持一致。币安主导交易量，比特币成交131亿美元，以太坊成交74亿美元——远超其他交易所，大约是第二名的两倍。",
+  "positioningSummary": "资金费率处于中等偏高水平（比特币年化10.31%，以太坊10.74%），表明多头仍愿意支付费用来维持空头的交易机会，尽管价格已经下跌。多空比保持偏多仓位（比特币全部账户2.77，大户1.80；以太坊2.57和1.68），但没有提供任何支撑：市场广度极度看空，币安永续合约中只有26.66%的交易对比昨日上涨。交易量趋向卖盘（以太坊0.95，比特币1.01），表明机构大量抛售，尽管价格已经下跌。这是典型的恐慌和被迫平仓，头寸被测试，多头开始投降。",
+  "stocksSummary": "亚洲股市小幅下跌：韩国三星海力士下跌2.13%，香港腾讯下跌2.82%，中国宇树机器人下跌2.27%。商品永续合约随大市风险规避轮动，铜下跌5.43%，白银4.27%，WTI原油3.08%，黄金永续合约2.87%——硬商品跌幅异常剧烈。传统美股市场表现不一（标普500 ETF -0.31%，纳斯达克 ETF +0.41%，10年期国债价格 +0.29%），这是典型的避险资金流向，股票抛售但债券反弹。",
+  "movers": [
+    {
+      "symbol": "PIEVERSEUSDT",
+      "explanation": "上涨71.68%，成交量2.47亿美元；新闻中未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "explanation": "上涨63.35%，成交量3.07亿美元；新闻中未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "上涨57.48%，成交量8.69亿美元；新闻中未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "美联储公布FOMC会议记录；释放加息鹰派信号",
+        "what": "联邦公开市场委员会在2026年11月18日19:00 UTC公布了10月27-28日会议的记录。记录表明美联储普遍支持进一步加息，这打击了市场对长期暂停加息的希望。这直接打压了股票和加密资产，因为这些资产在加息预期上升时通常会下跌。",
+        "coins": "BTC、ETH、广泛市场",
+        "timeUTC": "2026年11月18日 19:00 UTC",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+      },
+      {
+        "headline": "美联储官员克里斯托弗·沃勒呼吁12月加息50个基点",
+        "what": "美联储官员克里斯托弗·沃勒告诉投资者，美联储必须在12月加息50个基点（增加0.5个百分点），或至少在1月加息。他说这个举动应该让人们对通胀问题'震惊'。这个鹰派立场在FOMC会议记录发布前就已经冲击市场，增加了抛售压力。",
+        "coins": "BTC、ETH、风险资产广泛",
+        "timeUTC": "2026年11月18日（交易日早些时候）",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+      },
+      {
+        "headline": "比特币矿商Marathon Digital卖出366枚BTC（2333万美元）；矿商转向AI基础设施建设",
+        "what": "Marathon Digital Holdings (MARA) 在11月18日卖出366枚比特币，这是2026年全年卖出总量405.81万枚中的一部分。该矿商正在将资金转向AI数据中心建设。这种来自大型持有者的系统性卖出在市场已经充满弱势情绪的一天增加了价格下行压力。",
+        "coins": "BTC、采矿业",
+        "timeUTC": "2026年11月18日",
+        "source": "KuCoin Flash News / Farside",
+        "url": "https://www.kucoin.com/news/flash/mara-sells-366-btc-worth-23-33m-total-of-2026-sales-reach-40-581-btc"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "美国参议员敦促财政部长贝森特为稳定币发行者提供'平等对待'安全港",
+          "what": "参议员正在敦促财政部确保在州框架下运营的稳定币发行者获得免受联邦限制的保护，以此平衡州特许和联邦监管发行者之间的竞争环境。这表明稳定币融入受监管支付系统的立法势头仍在继续。",
+          "coins": "USDC、USDT、稳定币",
+          "timeUTC": "2026年11月18日",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501"
+        },
+        {
+          "headline": "Backpack获得美国商品期货交易委员会批准，成为首家美国受监管链上衍生品交易所",
+          "what": "Backpack获得美国商品期货交易委员会指定为衍生品清算机构和指定合约市场，完成了美国监管框架。这为一个完全合规的美国加密期货交易所的启动铺平了道路，可能会与币安和Bybit等离岸交易所展开竞争。",
+          "coins": "加密货币期货广泛",
+          "timeUTC": "2026年11月18日",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-18-backpack-completes-regulatory-framework-us-entry-442980"
+        },
+        {
+          "headline": "德国推进180天比特币冻结权限，无需接触私钥",
+          "what": "德国联邦议院支持一项法案，该法案将允许当局在没有接触私钥的情况下冻结交易所持有的比特币长达180天。该提案针对交易所持有的资产，同时还为自管资产的没收建立了程序。这表明整个欧盟对加密资产没收采取了更严格的态度。",
+          "coins": "BTC",
+          "timeUTC": "2026年11月18日",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/germany-moves-to-freeze-bitcoin-for-up-to-180-days-even-without-access-to-private-keys/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "美国比特币现货ETF在11月18日出现523.2百万美元净流出——连续第七周下跌",
+          "what": "比特币现货ETF在11月18日出现523.2百万美元的净流出，这是持续七周的抛售的一部分。这是连续第二周出现超过5亿美元的流出，反映了机构和散户的赎回，因为价格下跌和美联储鹰派立场打击了风险胃口。",
+          "coins": "BTC、现货ETF",
+          "timeUTC": "2026年11月18日（交易日）",
+          "source": "Farside Investors",
+          "url": "https://farside.co.uk/bitcoin-etfs/"
+        },
+        {
+          "headline": "美国以太坊现货ETF在11月18日出现2914万美元净流出",
+          "what": "以太坊现货ETF在11月18日出现2914万美元的净流出（1.6279万枚ETH），反映了更广泛的市场弱势和机构去杠杆。整个2026年，以太坊在流入/流出方面一直落后于比特币。",
+          "coins": "ETH、现货ETF",
+          "timeUTC": "2026年11月18日（交易日）",
+          "source": "SoSoValue",
+          "url": "https://sosovalue.com/assets/etf/us-eth-spot"
+        },
+        {
+          "headline": "CoinShares加密资产管理公司卖出所有以太坊和一半的Solana头寸",
+          "what": "CoinShares清算了1660万美元的以太坊和270万美元的Solana，释放了1930万美元的资金。此举被归因于投资组合再平衡，因为替代币的表现不如比特币。这些交易反映了机构加密基金的谨慎定位。",
+          "coins": "ETH、SOL",
+          "timeUTC": "2026年11月18日",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana"
+        },
+        {
+          "headline": "Bitwise在第三季度调整中卖出2370万枚XRP，同时堆积1.26亿枚",
+          "what": "第三季度美国证券交易委员会披露显示，Bitwise卖出了2370万枚XRP换取现金，同时又积累了1.26亿枚XRP，这表明一种再平衡策略。11月流出的结算细节仍待进一步披露。",
+          "coins": "XRP",
+          "timeUTC": "2026年11月18日",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitwise-offloads-23-7m-xrp-while-silently-stacking-126m-more/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Payward（Kraken母公司）收购首席执行官Jesse Powell的风险投资基金Tribe Capital",
+          "what": "支付公司Payward是加密交易所Kraken的母公司，正在收购Tribe Capital，这是由现任Kraken首席执行官Jesse Powell领导的风险投资公司（Powell于2024年10月被任命为Kraken联合首席执行官）。此举将Powell的投资整合在Payward旗下，并标志着该公司在风险投资方面的增长。",
+          "coins": "Kraken平台",
+          "timeUTC": "2026年11月18日",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/18/payward-the-owner-of-crypto-exchange-kraken-is-buying-its-ceo-s-venture-capital-business-tribe"
+        },
+        {
+          "headline": "币安从阿布扎比法院获得65亿美元全球冻结令以追回黑客盗窃资产",
+          "what": "币安从阿布扎比全球市场法院获得65亿美元冻结令，针对2026年10月黑客事件中被盗资产。该令涵盖26,000个钱包地址，允许通过区块链方式发送法律通知，为跨境加密资产追回建立了新的先例。",
+          "coins": "BTC、ETH、被盗资产",
+          "timeUTC": "2026年11月18日",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack"
+        },
+        {
+          "headline": "Variational以15亿美元估值融资1.1亿美元以扩展Omni链上衍生品业务",
+          "what": "衍生品协议Variational（为Omni平台提供支持）以15亿美元估值融资1.1亿美元，由贝恩资本加密基金支持。Omni已处理超过4750亿美元的交易量，正在扩展到传统商品与加密期货并行。",
+          "coins": "Omni、衍生品、广泛加密货币",
+          "timeUTC": "2026年11月18日",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto"
+        },
+        {
+          "headline": "Bullish第三季度业绩超预期：调整后利润增长35%，尽管现货交易量下降",
+          "what": "加密交易所Bullish报告第三季度调整后利润同比增长35%，超过预期，尽管数字资产现货交易量下降23%。公司因机构服务受益，并授权实施股票回购，这表明尽管零售表现不佳，公司仍然充满信心。",
+          "coins": "Bullish平台",
+          "timeUTC": "2026年11月18日",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-18-bullishs-q3-adjusted-profit-rises-35-digital-asset-sales-fall-23-443456"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger硬件钱包篡改调查范围扩大：柏林和迪拜设施遭怀疑",
+          "what": "Ledger证实怀疑被篡改的硬件植入物在柏林遭篡改，正在检查迪拜两个怀疑单位，将调查范围扩大到东南亚之外。公司建议自2026年1月以来在柏林购买设备的客户联系支持。这是首次确认的亚洲外植入物。",
+          "coins": "BTC、ETH、硬件安全",
+          "timeUTC": "2026年11月18日",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia"
+        },
+        {
+          "headline": "Lighter Network遭遇1040万美元加密漏洞；暂停所有提款",
+          "what": "衍生品平台Lighter Network遭遇1040万美元的漏洞利用，作为回应暂停了所有客户提款。该事件暴露了提款控制系统的风险，并引发了对该平台安全态势和用户资金托管的疑问。",
+          "coins": "LIGHTER、衍生品用户",
+          "timeUTC": "2026年11月18日",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Anthropic以每股83美元定价IPO；代币化股票同步上线",
+          "what": "人工智能公司Anthropic于11月18日以每股83美元定价IPO，融资约813亿美元，公司上市后估值超过5万亿美元。IPO定价于11月18日进行；公开交易于11月19日开始。Ondo宣布将在IPO首日推出代币化Anthropic股票（ANTon），使加密持有者能够在链上跟踪股票。",
+          "coins": "BTC、ETH、加密流动性（IPO抽血叙事）",
+          "timeUTC": "2026年11月18日（定价）",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-is-said-to-price-ipo-at-83-per-share"
+        },
+        {
+          "headline": "美国股指发出混合信号：标普500下跌0.31%，纳斯达克上升0.41%，国债反弹",
+          "what": "标普500 ETF（SPY）在11月18日下跌0.31%，而纳斯达克 ETF（ONEQ）上升0.41%——这是典型的'科技反弹'日。10年期国债 ETF（IEF）上升0.29%（收益率下降），反映了典型的风险规避轮动进入安全资产，因为美联储加息预期打击了股票市场。",
+          "coins": "BTC、ETH、广泛风险资产",
+          "timeUTC": "2026年11月18日（美国交易时段）",
+          "source": "TradingView",
+          "url": "https://www.tradingview.com"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "比特币矿商Marathon和Riot削减产能，转向AI数据中心建设",
+          "what": "Marathon Digital（MARA）和Riot Blockchain正在积极清算比特币头寸以资助人工智能基础设施扩张。Marathon已卖出超10亿美元的BTC，并宣布了与俄亥俄州电厂相关的1.85亿美元债券发行。Riot在第三季度减少了79%的持有量。这种转变表明大型矿商现在认为AI计算是优于比特币积累的更优先资本配置。",
+          "coins": "BTC、MARA、RIOT",
+          "timeUTC": "2026年11月18日（全天进行中）",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11-14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-18",
+    "summary": "2026年11月18日，美国现货比特币和以太坊ETF共计净流出5.5234亿美元。比特币ETF引领外流潮，净流出5.232亿美元，以太坊ETF流出2914万美元。这是连续第二天出现大额比特币ETF流出（11月17日流出2.399亿美元），反映了美联储官员沃勒的鹰派50个基点加息呼吁和19:00 UTC发布的FOMC会议记录之后机构和散户的避险行为。",
+    "source": "Farside Investors & SoSoValue",
+    "url": "https://farside.co.uk/bitcoin-etfs/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims: November 19, 2026 at 13:30 UTC Thursday",
+      "typicalReaction": "美国关键经济数据发布。强劲的初失业金申请通常会打压加密货币和风险资产；疲弱的数据可以支撑反弹。明天的发布时间恰好在今天美联储驱动的抛售之后，所以市场会密切关注是否有劳动力市场压力的迹象。预期传统股票和加密货币的波动性都会很大。"
+    },
+    {
+      "event": "Japan CPI (Consumer Price Index) November 2026 at 23:30 UTC Thursday",
+      "typicalReaction": "日本关键经济数据发布。高通胀可能让日本央行保持鹰派；低通胀可能缓解政策压力。这份报告在美国市场收盘后发布，但会影响亚洲交易和日元相关货币对，对全球加密波动性有溅射效应。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基点",
+      "definition": "百分比的千分之一（0.01%）。利率变化通常用基点表示；加息50个基点意味着加息0.50%。"
+    },
+    {
+      "term": "市场广度",
+      "definition": "在某个时期内上涨的交易对或资产与下跌的交易对或资产之间的百分比。广度高（许多上涨者）表示整体情绪强劲；广度低（少数上涨者）表示疲弱或恐慌。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "在永续期货中，持有多头头寸的交易者支付给持有空头头寸的交易者的利息（或反之）。高资金费率鼓励空头；低或负费率鼓励多头。资金费率每8小时重置一次。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有多头头寸（押注价格会上升）的交易者与持有空头头寸（押注价格会下跌）的交易者之间的比较。比率高于1意味着多头更多；低于1意味着空头更多。"
+    },
+    {
+      "term": "清算",
+      "definition": "当交易者账户保证金不足时被迫平仓的交易头寸。在市场崩溃中，连锁清算可以加速价格下跌。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所用来计算永续期货交易者损益的参考价格。用于确定交易者账户何时保证金不足并触发清算。"
+    },
+    {
+      "term": "持仓兴趣",
+      "definition": "在给定时间所有交易者持有的期货合约或头寸的总数。在下跌中，持仓兴趣上升表明有新空头进入；下降表明被迫平仓。"
+    },
+    {
+      "term": "永续合约",
+      "definition": "没有到期日期的期货合约，允许交易者无限期地持有多头或空头头寸。永续合约由持续的利息（资金费率）资金而非固定的合约到期日期。"
+    },
+    {
+      "term": "现货市场",
+      "definition": "买卖资产以立即交割的市场，以当前价格进行（相对于期货市场，你在期货市场中锁定未来的价格）。"
+    },
+    {
+      "term": "交易量买卖比",
+      "definition": "积极买盘与卖盘压力的衡量。比率高于1意味着更多市场买单（主动方）撤销卖价；低于1意味着更多市场卖单（主动方）撤销买价。"
+    },
+    {
+      "term": "交易所",
+      "definition": "加密货币交易所或交易平台，可进行期货或现货交易（例如币安、Bybit、OKX、Bitget、Gate）。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "193f1c87a71046c8"
+}

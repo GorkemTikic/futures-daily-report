@@ -1,0 +1,257 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell 2.9% and 2.6% as Federal Reserve meeting minutes at 19:00 UTC revealed a potentially hawkish stance, and Fed Governor Waller called for a shock 50-basis-point December rate hike earlier in the day, spooking risk assets broadly.",
+  "caveman": "Today the Federal Reserve (the US bank that controls money) published notes from a past meeting, and one official named Christopher Waller said they should raise interest rates by a huge amount in December to 'shock' people about inflation being too high. When the Fed raises interest rates, it makes borrowing more expensive, so people move their money to safer places like savings accounts and bonds instead of risky bets like Bitcoin. Bitcoin fell 2.9% and Ethereum fell 2.6% because of this news. Almost every other cryptocurrency fell too — only 26.6% of trading pairs went up. Big Bitcoin mining companies also sold over $23 million worth of Bitcoin they were holding so they could build artificial intelligence computers instead. It was definitely a worried and scary day for people who own crypto.",
+  "priceVolumeSummary": "Bitcoin closed at $63,037 and Ethereum at $1,776, with trading venues aligned on prices throughout the day. Binance dominated volume, trading $13.1 billion in Bitcoin and $7.4 billion in Ethereum — by far the largest venue and roughly double the second-place exchange.",
+  "positioningSummary": "Funding rates sat at moderately elevated levels (Bitcoin 10.31% annualized, Ethereum 10.74%), signaling longs remained willing to pay shorts for the opportunity to stay long, even as prices fell. Long/short ratios stayed skewed toward longs (Bitcoin 2.77 among all accounts, 1.80 among the largest traders; Ethereum 2.57 and 1.68), but this provided no support: market breadth was severely bearish, with only 26.66% of Binance perps trading higher than yesterday. Taker buy/sell tilted toward selling (Ethereum 0.95, Bitcoin 1.01), indicating aggressive institutional selling despite prices already down. This was classic panic and forced liquidation, with positions being tested and longs giving up.",
+  "stocksSummary": "Asian equities posted modest declines: South Korea's SK Hynix fell 2.13%, Hong Kong's Tencent dropped 2.82%, and China's Unitree Robotics fell 2.27%. Commodity perps matched the broad risk-off rotation, with copper down 5.43%, silver 4.27%, WTI crude 3.08%, and gold perps 2.87% — unusually sharp losses for hard commodities. Traditional US markets were mixed (S&P 500 ETF -0.31%, Nasdaq ETF +0.41%, 10-year Treasury prices +0.29%), a classic flight-to-safety pattern where stocks sold but bonds rallied.",
+  "movers": [
+    {
+      "symbol": "PIEVERSEUSDT",
+      "explanation": "Jumped 71.68% with $247 million in volume; no clear public cause identified in news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "explanation": "Surged 63.35% on $307 million volume; no clear public cause identified in news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "Rose 57.48% on $869 million volume; no clear public cause identified in news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Federal Reserve Releases FOMC Meeting Minutes; Hawkish Signals on Future Rate Hikes",
+        "what": "The Federal Open Market Committee released minutes from its October 27–28 meeting at 19:00 UTC on November 18. The minutes indicated broad Fed support for additional interest rate hikes, cooling market hopes for a lengthy pause. This directly spooked equities and crypto assets, which typically sell off when rates are expected to rise.",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "19:00 UTC, 18 Nov 2026",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+      },
+      {
+        "headline": "Fed Governor Christopher Waller Calls for 50-Basis-Point Rate Hike in December",
+        "what": "Federal Reserve Governor Christopher Waller told investors the Fed must deliver a 50-basis-point (half a percentage point) rate increase in December or signal a January increase. He said the move should 'shock people' into taking inflation seriously. This hawkish surprise hit markets during the trading day before FOMC minutes released, adding to selling pressure.",
+        "coins": "BTC, ETH, risk assets broadly",
+        "timeUTC": "Nov 18, 2026 (earlier in day)",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+      },
+      {
+        "headline": "Bitcoin Miner Marathon Digital Sells 366 BTC ($23.33M) as Miners Pivot to AI Infrastructure",
+        "what": "Marathon Digital Holdings (MARA) sold 366 Bitcoin on November 18, adding to 2026's year-to-date liquidation of 40,581 BTC. The miner is shifting capital into AI data center buildout. This systematic selling by large holders created downward price pressure on a day when broader market sentiment was already weak.",
+        "coins": "BTC, mining sector",
+        "timeUTC": "Nov 18, 2026",
+        "source": "KuCoin Flash News / Farside",
+        "url": "https://www.kucoin.com/news/flash/mara-sells-366-btc-worth-23-33m-total-of-2026-sales-reach-40-581-btc"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "US Senators Push Treasury Secretary Bessent for 'Equal Footing' Stablecoin Safe Harbor Under GENIUS Act",
+          "what": "Senators are pressing the Treasury to ensure stablecoin issuers operating under state frameworks receive a safe harbor from federal restrictions, leveling the competitive field between state-chartered and federally-regulated issuers. This signals ongoing legislative momentum for stablecoin integration into regulated payment systems.",
+          "coins": "USDC, USDT, stablecoins",
+          "timeUTC": "18 Nov 2026",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501"
+        },
+        {
+          "headline": "Backpack Secures CFTC Approval, Becoming First US-Regulated Onchain Derivatives Exchange",
+          "what": "Backpack obtained CFTC designation as a derivatives clearing organization and designated contract market, completing its US regulatory framework. This clears the way for a fully compliant US-based crypto futures exchange to launch, potentially competing with offshore venues like Binance and Bybit.",
+          "coins": "Crypto futures broadly",
+          "timeUTC": "18 Nov 2026",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-18-backpack-completes-regulatory-framework-us-entry-442980"
+        },
+        {
+          "headline": "Germany Moves Toward 180-Day Bitcoin Seizure Powers Without Private Key Access",
+          "what": "The German Bundestag is backing a bill that would allow authorities to freeze Bitcoin held on exchanges for up to 180 days without needing access to private keys. The proposal targets exchange-held assets while also establishing procedures for seizing self-custody holdings. This signals a tougher EU-wide stance on crypto asset seizure.",
+          "coins": "BTC",
+          "timeUTC": "18 Nov 2026",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/germany-moves-to-freeze-bitcoin-for-up-to-180-days-even-without-access-to-private-keys/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "US Bitcoin Spot ETFs Post $523.2 Million Outflow on November 18 — Seventh Week of Losses",
+          "what": "Bitcoin spot ETFs saw net outflows of $523.2 million on November 18, continuing a sell-off that has lasted seven weeks. This is the second consecutive week of outflows above $500 million and reflects institutional and retail redemptions as prices fell and Fed hawkishness spooked risk appetite.",
+          "coins": "BTC, spot ETFs",
+          "timeUTC": "18 Nov 2026 (trading day)",
+          "source": "Farside Investors",
+          "url": "https://farside.co.uk/bitcoin-etfs/"
+        },
+        {
+          "headline": "US Ethereum Spot ETFs Post $29.14 Million Outflow on November 18",
+          "what": "Ethereum spot ETFs posted net outflows of $29.14 million (16,279 ETH) on November 18, mirroring the broader market weakness and institutional de-risking. Ethereum has trailed Bitcoin in inflows/outflows throughout 2026.",
+          "coins": "ETH, spot ETFs",
+          "timeUTC": "18 Nov 2026 (trading day)",
+          "source": "SoSoValue",
+          "url": "https://sosovalue.com/assets/etf/us-eth-spot"
+        },
+        {
+          "headline": "CoinShares Crypto Asset Manager Sells All Ethereum, Half Its Solana Holdings",
+          "what": "CoinShares liquidated $16.6 million in Ethereum and $2.7 million in Solana, freeing up $19.3 million in capital. The move was attributed to portfolio rebalancing as altcoins underperformed Bitcoin. The sales reflect cautious positioning by institutional crypto funds.",
+          "coins": "ETH, SOL",
+          "timeUTC": "18 Nov 2026",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana"
+        },
+        {
+          "headline": "Bitwise Offloads 23.7M XRP While Stacking 126M More in Q3 Shuffle",
+          "what": "Q3 SEC disclosures show Bitwise sold 23.7 million XRP for cash while simultaneously accumulating 126 million XRP, suggesting a rebalancing strategy. The settlement details for November outflows remain unclear pending further disclosure.",
+          "coins": "XRP",
+          "timeUTC": "18 Nov 2026",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitwise-offloads-23-7m-xrp-while-silently-stacking-126m-more/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Payward (Kraken Parent) Acquires CEO Jesse Powell's Venture Fund Tribe Capital",
+          "what": "Payward, the parent company of crypto exchange Kraken, is buying Tribe Capital, the venture firm led by CEO Jesse Powell (appointed co-CEO of Kraken in October 2024). The move consolidates Powell's investments under the Payward umbrella and signals the company's growth in venture investing.",
+          "coins": "Kraken platform",
+          "timeUTC": "18 Nov 2026",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/18/payward-the-owner-of-crypto-exchange-kraken-is-buying-its-ceo-s-venture-capital-business-tribe"
+        },
+        {
+          "headline": "Binance Obtains $6.5 Billion Worldwide Freezing Order From Abu Dhabi Court in Hack Recovery",
+          "what": "Binance won a $6.5 billion freezing order from the Abu Dhabi Global Market Courts targeting assets stolen in the October 2026 hack. The order covers 26,000 wallet addresses and allows legal notices to be served via blockchain, establishing a novel precedent for cross-border crypto asset recovery.",
+          "coins": "BTC, ETH, stolen assets",
+          "timeUTC": "18 Nov 2026",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack"
+        },
+        {
+          "headline": "Variational Raises $110 Million at $1.5 Billion Valuation for Omni Onchain Derivatives Expansion",
+          "what": "The derivatives protocol Variational (which powers the Omni platform) raised $110 million at a $1.5 billion valuation, backed by Bain Capital Crypto. Omni has processed over $475 billion in volume and is expanding into traditional commodities alongside crypto futures.",
+          "coins": "Omni, derivatives, broad crypto",
+          "timeUTC": "18 Nov 2026",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto"
+        },
+        {
+          "headline": "Bullish Q3 Earnings Beat: Adjusted Profit Up 35% Despite Spot Trading Volume Decline",
+          "what": "Bullish crypto exchange reported Q3 adjusted profit rose 35% year-over-year, beating estimates, despite digital asset spot trading volumes falling 23%. The company benefited from institutional services and authorized a share buyback, signaling confidence despite retail weakness.",
+          "coins": "Bullish platform",
+          "timeUTC": "18 Nov 2026",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-18-bullishs-q3-adjusted-profit-rises-35-digital-asset-sales-fall-23-443456"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger Hardware Wallet Tampering Investigation Expands: Berlin and Dubai Units Suspected",
+          "what": "Ledger confirmed suspected hardware implants were tampered with in Berlin and is examining two suspected units in Dubai, expanding the investigation beyond Southeast Asia. The company advised customers who purchased devices in Berlin since January 2026 to contact support. This represents the first confirmed cases of implants outside Asia.",
+          "coins": "BTC, ETH, hardware security",
+          "timeUTC": "18 Nov 2026",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia"
+        },
+        {
+          "headline": "Lighter Network Loses $10.4 Million to Crypto Exploit; Suspends All Withdrawals",
+          "what": "Lighter Network, a derivatives platform, suffered a $10.4 million exploit and suspended all customer withdrawals in response. The incident exposed risks in withdrawal control systems and raised questions about the platform's security posture and user fund custody.",
+          "coins": "LIGHTER, derivatives users",
+          "timeUTC": "18 Nov 2026",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Anthropic Prices IPO at $83 Per Share; Tokenized Shares to Launch Simultaneously",
+          "what": "AI company Anthropic priced its IPO at $83 per share on November 18, raising approximately $81.3 billion and valuing the company at over $5 trillion post-money. The IPO pricing occurred Nov 18; public trading began Nov 19. Ondo announced it would launch a tokenized Anthropic stock (ANTon) on the IPO opening day, allowing crypto holders to track shares on-chain.",
+          "coins": "BTC, ETH, crypto liquidity (IPO drain narrative)",
+          "timeUTC": "18 Nov 2026 (pricing)",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-is-said-to-price-ipo-at-83-per-share"
+        },
+        {
+          "headline": "US Stock Indices Post Mixed Signals: S&P 500 Down 0.31%, Nasdaq Up 0.41%, Treasuries Rally",
+          "what": "The S&P 500 ETF (SPY) fell 0.31% on November 18, while the Nasdaq ETF (ONEQ) edged up 0.41% — a typical \"tech bounce\" day. The 10-year Treasury ETF (IEF) rose 0.29% (yields fell), reflecting a classic risk-off rotation into safety as Fed rate hike expectations rattled equities.",
+          "coins": "BTC, ETH, risk assets broadly",
+          "timeUTC": "18 Nov 2026 (US trading session)",
+          "source": "TradingView",
+          "url": "https://www.tradingview.com"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin Miners Marathon and Riot Cutting Production, Pivoting to AI Data Center Buildout",
+          "what": "Marathon Digital (MARA) and Riot Blockchain are aggressively liquidating Bitcoin holdings to fund artificial intelligence infrastructure expansion. Marathon has sold $1 billion+ in BTC and announced a $185 million debt offering tied to an Ohio power plant. Riot reduced holdings 79% in Q3. This shift signals that large miners now view AI computing as a higher-priority capital allocation than Bitcoin accumulation.",
+          "coins": "BTC, MARA, RIOT",
+          "timeUTC": "18 Nov 2026 (ongoing throughout day)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11-14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-18",
+    "summary": "US spot Bitcoin and Ethereum ETFs posted combined net outflows of $552.34 million on November 18, 2026. Bitcoin ETFs led the exodus with a $523.2 million outflow, while Ethereum ETFs saw $29.14 million leave. This marks the second consecutive day of substantial Bitcoin ETF outflows (Nov 17 saw $239.9M out) and reflects institutional and retail flight-to-safety following Fed Governor Waller's hawkish 50-basis-point rate hike call and the FOMC meeting minutes released at 19:00 UTC.",
+    "source": "Farside Investors & SoSoValue",
+    "url": "https://farside.co.uk/bitcoin-etfs/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims: November 19, 2026 at 13:30 UTC Thursday",
+      "typicalReaction": "High-impact US economic data release. Strong claims numbers historically hurt crypto and risk assets; weak numbers can support rallies. Tomorrow's release comes after today's Fed-driven selloff, so markets will be watching closely for signs of labor-market stress. Expect volatility in both traditional equities and crypto."
+    },
+    {
+      "event": "Japan CPI (Consumer Price Index) November 2026 at 23:30 UTC Thursday",
+      "typicalReaction": "High-impact Japanese economic data. Hot inflation could keep the Bank of Japan hawkish; cold inflation could ease policy pressure. This release lands after US market close but affects Asian trading and yen crosses, with spillover to global crypto volatility."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis points",
+      "definition": "One hundredth of a percentage point (0.01%). Interest rate changes are often described in basis points; a 50-basis-point increase means raising rates by 0.50%."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of trading pairs or assets that rose during a time period versus the percentage that fell. High breadth (many gainers) suggests strong overall sentiment; low breadth (few gainers) suggests weakness or panic."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Interest that traders holding long positions pay to traders holding short positions (or vice versa) on perpetual futures. High funding rates incentivize shorts; low or negative rates incentivize longs. Rates reset every 8 hours."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The comparison of traders holding long positions (betting price will rise) to those holding short positions (betting price will fall). A ratio above 1 means more longs; below 1 means more shorts."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Forced closing of a trader's position when their account margin runs out of collateral. During market crashes, cascading liquidations can accelerate price declines."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price an exchange uses to calculate trader profit and loss in perpetual futures. Used to determine when a trader's account runs out of collateral and triggers liquidation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of futures contracts or positions held across all traders at a given time. Rising open interest in a down move suggests new shorts are entering; falling suggests forced liquidations."
+    },
+    {
+      "term": "Perpetuals (perps)",
+      "definition": "Futures contracts with no expiration date, allowing traders to hold long or short positions indefinitely. Perpetuals are funded by ongoing interest (the funding rate) rather than a fixed contract expiration."
+    },
+    {
+      "term": "Spot market",
+      "definition": "The market where you buy or sell an asset for immediate delivery at the current price (as opposed to a futures market where you lock in a future price)."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying versus selling pressure. A ratio above 1 means more market buy orders (takers) hitting the bid; below 1 means more market sell orders (takers) hitting the ask."
+    },
+    {
+      "term": "Venue",
+      "definition": "A crypto exchange or trading platform where futures or spot trading takes place (e.g., Binance, Bybit, OKX, Bitget, Gate)."
+    }
+  ],
+  "_source": "cli"
+}

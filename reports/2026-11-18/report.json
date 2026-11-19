@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-18",
+  "kind": "market",
+  "dateLong": "Wednesday, 18 November 2026",
+  "coversUTC": "2026-11-18 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum fell 2.9% and 2.6% as Federal Reserve meeting minutes at 19:00 UTC revealed a potentially hawkish stance, and Fed Governor Waller called for a shock 50-basis-point December rate hike earlier in the day, spooking risk assets broadly.",
+  "newsCount": 19,
+  "macro": {
+    "BTC": -2.9000352742379523,
+    "ETH": -2.6152032676334356
+  },
+  "topMover": {
+    "symbol": "PIEVERSEUSDT",
+    "chgPct": 71.68387222438646
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "19 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

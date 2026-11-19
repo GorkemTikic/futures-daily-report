@@ -1,0 +1,258 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, Federal Rezerv FOMC toplantı tutanakları (saat 19:00 UTC) olası agresif bir tutum gösterdikten sonra sırasıyla %2.9 ve %2.6 oranında düştü; Fed Başkanı Waller gün içinde Aralık ayında şok etkili %50 baz puan oran artışı yapılmasını talep etti, bu da bütün risk varlıklarında satış baskısı yarattı.",
+  "caveman": "Federal Rezerv (ABD'nin para yönetimi yapan bankası) bugün geçmiş bir toplantının tutanaklarını yayınladı; Rezerv'in üst düzey bir yetkilisi olan Christopher Waller enflasyonun çok yüksek olduğunu göstermek için Aralık ayında faiz oranlarında koca bir artış yapılması gerektiğini söyledi. Fed faiz oranlarını artırdığında krediler pahalılaşır, insanlar paralarını Bitcoin gibi riskli yatırımlar yerine tasarruf hesapları ve tahvillere taşırlar. Bitcoin %2.9 ve Ethereum %2.6 oranında düştü bu haberin yüzünden. Hemen hemen tüm kripto paralar düştü — işlem hacminin yalnızca %26.6'sı yükseldi. Bitcoin madencilerinin büyük şirketleri ise yapay zeka bilgisayarları inşa etmek için tuttukları Bitcoin'den 23 milyondan fazla dolar satıştılar. Kripto para sahibi insanlar için kesinlikle endişeli ve korkulu bir gün oldu.",
+  "priceVolumeSummary": "Bitcoin 63.037 dolardan, Ethereum ise 1.776 dolardan kapandı; bütün işlem platformlarında fiyatlar eşleşti. Binance en büyük işlem hacmini dominatörlüğü altında tuttu: Bitcoin'de 13.1 milyar dolar, Ethereum'da 7.4 milyar dolar işlem gördü — açık ara en büyük platform ve ikinci sıradaki borsanın kabaca iki katı kadar işlem.",
+  "positioningSummary": "Finansman oranları (Bitcoin yıllık %10.31, Ethereum %10.74) orta-yüksek seviyelerde kaldı; bu, fiyatlar düşerken bile long pozisyonları tutanları (buy tarafı) şort satanlar (sell tarafı) karşısında desteklediğini gösteriyor. Long/short oranları hala long tarafına yatık kaldı (Bitcoin tüm hesaplar arasında 2.77, en büyük tüccarlar arasında 1.80; Ethereum 2.57 ve 1.68), ama bu fiyatlara destek sağlamadı: pazar genişliği ağır düşüştü, Binance kripto vadeli işlemlerinin sadece %26.66'sı dünden yüksek kapandı. Alıcı/satıcı dengesinde satış tarafı öne çıktı (Ethereum 0.95, Bitcoin 1.01), fiyatlar zaten düşmesine rağmen kurumsal satışların agresif olduğunu gösteriyor. Bu tam anlamıyla panik ve zorunlu pozisyon kapanması olayıydı; long tutanlar pes ediyorlardı.",
+  "stocksSummary": "Asya hisse senetleri mütevazı düşüşler yaşadı: Güney Kore'nin SK Hynix %2.13 düştü, Hong Kong'un Tencent'i %2.82 geriledi, Çin'in Unitree Robotics ise %2.27 azaldı. Emtia vadeli işlemleri de geniş risk kaçış rotasyonuna uydu; bakır %5.43, gümüş %4.27, WTI ham petrol %3.08, altın vadeli işlemleri %2.87 — sert emtia malları için alışılmadık keskin kayıplar. Geleneksel ABD piyasaları karışık kaldı (S&P 500 ETF -0.31%, Nasdaq ETF +0.41%, 10 yıllık Hazine fiyatları +0.29%), güvenli bölgeye kaçış tipik deseni; hisse senetleri satılıyor ama tahviller yükseliyor.",
+  "movers": [
+    {
+      "symbol": "PIEVERSEUSDT",
+      "explanation": "%71.68 yükseldi, 247 milyon dolar işlem gördü; haberlerde açık bir neden tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "explanation": "%63.35 oranında sıçradı, 307 milyon dolar işlem hacmi; haberlerde açık bir neden tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "%57.48 yükseldi, 869 milyon dolar işlem gördü; haberlerde açık bir neden tanımlanmadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Federal Rezerv FOMC Toplantı Tutanaklarını Yayınladı; Gelecek Oran Artışlarında Agresif Sinyaller",
+        "what": "Federal Açık Piyasa Komitesi, 27-28 Ekim'de yapılan toplantının tutanaklarını 18 Kasım'da saat 19:00 UTC'de yayınladı. Tutanaklar Fed'in ek faiz artışlarını geniş şekilde desteklediğini göstererek piyasaların uzun bir duraklama umudunu söndürdü. Bu hisse senetleri ve kripto varlıkları doğrudan korkuttu; oranların yükselmesi beklendiğinde bu varlıklar genellikle düşüş gösterir.",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "19:00 UTC, 18 Kas 2026",
+        "source": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+      },
+      {
+        "headline": "Fed Başkanı Christopher Waller Aralık Ayında %50 Baz Puan Oran Artışı Talep Etti",
+        "what": "Federal Rezerv Başkanı Christopher Waller yatırımcılara Fed'in Aralık ayında %50 baz puan (yarım puan) faiz artışı yapması ya da Ocak ayında bir artış sinyali vermesi gerektiğini söyledi. Hareketi, insanları enflasyon konusunda ciddi olmaya 'şoklama' amacıyla olarak tanımladı. Bu agresif sürpriz, FOMC tutanaklarının yayınlanmasından önceki işlem günü piyasalara vurdu, satış baskısını arttırdı.",
+        "coins": "BTC, ETH, risk assets broadly",
+        "timeUTC": "18 Kas 2026 (gün içinde daha erken)",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+      },
+      {
+        "headline": "Bitcoin Madencisi Marathon Digital 366 BTC Satıştı (23.33 Milyon Dolar); Madenciler Yapay Zeka Altyapısına Yöneldi",
+        "what": "Marathon Digital Holdings (MARA) 18 Kasım'da 366 Bitcoin sattı, 2026 yıl başından bugüne 40.581 BTC'lik tasfiyeyi tamamladı. Madenci şirketi yapay zeka veri merkezi kurulumuna yatırım kaydırmakta. Bu büyük sahiplerin sistematik satışı, daha geniş piyasa duyarlılığı zaten zayıf iken Bitcoin fiyatı üzerinde aşağı yönlü baskı yarattı.",
+        "coins": "BTC, mining sector",
+        "timeUTC": "18 Kas 2026",
+        "source": "KuCoin Flash News / Farside",
+        "url": "https://www.kucoin.com/news/flash/mara-sells-366-btc-worth-23-33m-total-of-2026-sales-reach-40-581-btc"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "ABD Senatörleri Hazine Bakanı Bessent'ten Stablecoin GENIUS Kanununda 'Eşit Koşullar' Talep Etti",
+          "what": "Senatörler, devlet çerçeveleri altında faaliyet gösteren stablecoin ihraççılarının federal kısıtlamalardan muafiyet almasını talep ediyor; böylece eyalet ve federal düzlemde düzenlenen ihraççılar arasında rekabet şartları eşitlenir. Bu, stablecoin'lerin düzenlenmiş ödeme sistemlerine entegrasyonu için devam eden yasa koyma ivmesine işaret ediyor.",
+          "coins": "USDC, USDT, stablecoins",
+          "timeUTC": "18 Kas 2026",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501"
+        },
+        {
+          "headline": "Backpack CFTC Onayı Aldı, ABD'nin İlk Düzenlenen Zincir Üstü Türev Borsası Oldu",
+          "what": "Backpack, CFTC tarafından türev takas kuruluşu ve belirlenmiş sözleşme piyasası olarak atandı; ABD düzenleyici çerçevesini tamamladı. Bu, tam uyumlu ABD merkezli kripto vadeli işlem borsasının başlamasını sağlıyor; muhtemelen Binance ve Bybit gibi denizaşırı platformlarla rekabet edecek.",
+          "coins": "Crypto futures broadly",
+          "timeUTC": "18 Kas 2026",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-18-backpack-completes-regulatory-framework-us-entry-442980"
+        },
+        {
+          "headline": "Almanya 180 Günlük Bitcoin Blokajı Yetkilerine Doğru İlerliyor; Özel Anahtar Erişimine Gerek Yok",
+          "what": "Alman Bundestag'ı borsalarda tutulan Bitcoin'i özel anahtar erişimi olmadan 180 güne kadar dondurma yetkisi veren bir kanunu destekliyor. Teklif, borsada tutulan varlıkları hedef alırken kendi anahtarlarıyla tutulan varlıkları müsadere etme prosedürleri de belirliyor. Bu, AB genelinde kripto varlık müsaderesine karşı daha sert bir tutumun işareti.",
+          "coins": "BTC",
+          "timeUTC": "18 Kas 2026",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/germany-moves-to-freeze-bitcoin-for-up-to-180-days-even-without-access-to-private-keys/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "ABD Bitcoin Spot ETF'ler 18 Kasım'da 523.2 Milyon Dolar Çıkış Yaptı — Yedinci Hafta Kayıp",
+          "what": "Bitcoin spot ETF'leri 18 Kasım'da 523.2 milyon dolar net çıkış gördü; bu yedi haftalık satış trendinin devamı. Bu, 500 milyonu aşan çıkışın ard arda ikinci haftası ve kurumsal ve perakende müşterilerin fiyatlar düştükçe ve Fed agresif tutumu piyasayı korkutmaya başladıkça fonlarını geri çekmesini gösteriyor.",
+          "coins": "BTC, spot ETFs",
+          "timeUTC": "18 Kas 2026 (işlem günü)",
+          "source": "Farside Investors",
+          "url": "https://farside.co.uk/bitcoin-etfs/"
+        },
+        {
+          "headline": "ABD Ethereum Spot ETF'ler 18 Kasım'da 29.14 Milyon Dolar Çıkış Yaptı",
+          "what": "Ethereum spot ETF'leri 18 Kasım'da 29.14 milyon dolar net çıkış yaptı (16.279 ETH), daha geniş pazar zayıflığı ve kurumsal riskleri azaltma hareketine uyum gösteriyor. Ethereum, 2026 boyunca akışlarda Bitcoin'den geri kalmaya devam etti.",
+          "coins": "ETH, spot ETFs",
+          "timeUTC": "18 Kas 2026 (işlem günü)",
+          "source": "SoSoValue",
+          "url": "https://sosovalue.com/assets/etf/us-eth-spot"
+        },
+        {
+          "headline": "CoinShares Kripto Varlık Yöneticisi Tüm Ethereum ve Solana'nın Yarısını Satıştı",
+          "what": "CoinShares 16.6 milyon dolar Ethereum ve 2.7 milyon dolar Solana satışı ile 19.3 milyon dolar sermaye serbest bıraktı. Hamle, altcoin'lerin Bitcoin'den daha az getiri sağlaması nedeniyle portföy yeniden dengelemesine atfedildi. Satışlar kurumsal kripto fonlarının temkinli pozisyonlanmasını gösteriyor.",
+          "coins": "ETH, SOL",
+          "timeUTC": "18 Kas 2026",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana"
+        },
+        {
+          "headline": "Bitwise 23.7M XRP Satıştı, Q3 Ayarlamada 126M Daha Topladı",
+          "what": "Q3 SEC açıklamalarında Bitwise 23.7 milyon XRP'yi nakit için satarken aynı zamanda 126 milyon XRP biriktirdiğini gösteriyor; bu yeniden dengeleme stratejisine işaret ediyor. Kasım çıkışları için takas detayları henüz belirsiz; daha sonra açıklanması bekleniyor.",
+          "coins": "XRP",
+          "timeUTC": "18 Kas 2026",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitwise-offloads-23-7m-xrp-while-silently-stacking-126m-more/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Payward (Kraken'in Ana Şirketi) CEO Jesse Powell'ın Yatırım Fonu Tribe Capital'i Satın Alıyor",
+          "what": "Kraken kripto borsasının ana şirketi Payward, CEO Jesse Powell (Ekim 2024'te Kraken'e ortaklık direktörü olarak atanan) tarafından yönetilen yatırım şirketi Tribe Capital'i satın almaktadır. Hamle Powell'ın yatırımlarını Payward çatısı altında birleştiriyor ve şirketin girişim yatırımlarında büyümesini gösteriyor.",
+          "coins": "Kraken platform",
+          "timeUTC": "18 Kas 2026",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/18/payward-the-owner-of-crypto-exchange-kraken-is-buying-its-ceo-s-venture-capital-business-tribe"
+        },
+        {
+          "headline": "Binance, Hack Geri Kazanımında Abu Dabi Mahkemesinden 6.5 Milyar Dolarlık Küresel Blokaj Emri Aldı",
+          "what": "Binance, Ekim 2026 hack'inde çalınan varlıkları hedef alan Abu Dabi Global Market Mahkemesi'nden 6.5 milyar dolar blokaj emri kazandı. Emir 26.000 cüzdan adresini kapsıyor ve blockchain üzerinden yasal ihbarlara izin veriyor; bu sınır ötesi kripto varlık geri kazanımı için yeni bir emsali ortaya koymaktadır.",
+          "coins": "BTC, ETH, stolen assets",
+          "timeUTC": "18 Kas 2026",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack"
+        },
+        {
+          "headline": "Variational 1.5 Milyar Dolar Değerleme Üzerinden Omni Zincir Üstü Türev Genişlemesi İçin 110 Milyon Dolar Topladı",
+          "what": "Türev protokolü Variational (Omni platformunu güçlendir) Bain Capital Crypto tarafından desteklenen 1.5 milyar dolar değerleme üzerinden 110 milyon dolar topladı. Omni 475 milyardan fazla işlem hacmi işlemiş ve kripto vadeli işlemlerinin yanı sıra geleneksel emtialara genişliyor.",
+          "coins": "Omni, derivatives, broad crypto",
+          "timeUTC": "18 Kas 2026",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto"
+        },
+        {
+          "headline": "Bullish Q3 Kazanç Hedefi Aştı: Ayarlanmış Kâr %35 Yükseldi; Spot Ticaret Hacmi Düştü",
+          "what": "Bullish kripto borsası Q3'te ayarlanmış kâr yıldan yıla %35 yükselişle tahmini aştı; buna rağmen dijital varlık spot ticaret hacimleri %23 düştü. Şirket kurumsal hizmetlerden faydalandı ve hisse geri satın alma yetkisi verdi; bu perakende zayıflığına rağmen güven gösteriyor.",
+          "coins": "Bullish platform",
+          "timeUTC": "18 Kas 2026",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-18-bullishs-q3-adjusted-profit-rises-35-digital-asset-sales-fall-23-443456"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Ledger Donanım Cüzdanı Kurcalama Soruşturması Genişliyor: Berlin ve Dubai Birimleri Şüpheli",
+          "what": "Ledger Berlin'de kurcalanan donanım implantları olduğunu doğruladı ve Dubai'de iki şüpheli birimi inceliyor; soruşturma Güneydoğu Asya'nın ötesine genişledi. Şirket Ocak 2026'dan bu yana Berlin'de cihaz satın alan müşterileri desteğe başvurmaya davet etti. Bu Asya dışında implantların ilk doğrulanan vakalarıdır.",
+          "coins": "BTC, ETH, hardware security",
+          "timeUTC": "18 Kas 2026",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia"
+        },
+        {
+          "headline": "Lighter Network 10.4 Milyon Dolar Kripto Istismarında Kaybetti; Tüm Para Çekme İşlemlerini Durdurdu",
+          "what": "Türev platformu Lighter Network 10.4 milyon dolar istismara maruz kaldı ve cevap olarak tüm müşteri para çekme işlemlerini askıya aldı. Olay para çekme kontrol sistemlerindeki riskleri ortaya koymakta ve platformun güvenlik duruşu ve kullanıcı fon muhafazası konularında soru işaretleri yaratmakta.",
+          "coins": "LIGHTER, derivatives users",
+          "timeUTC": "18 Kas 2026",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Anthropic Halka Arzını Hisse Başına 83 Dolardan Fiyatlandırdı; Tokenize Hisseler Aynı Anda Başlayacak",
+          "what": "Yapay zeka şirketi Anthropic halka arzını 18 Kasım'da hisse başına 83 dolardan fiyatlandırdı; yaklaşık 81.3 milyar dolar topladı ve şirketi halka arz sonrası 5 trilyon dolardan fazla değerde koydu. Halka arz fiyatlandırması 18 Kasım'da gerçekleşti; kamu ticareti 19 Kasım'da başladı. Ondo, halka arz açılış günü kripto sahibi olacakları hisse senetlerini zincir üzerinde takip etmek için tokenize Anthropic hissesi (ANTon) başlatacağını duyurdu.",
+          "coins": "BTC, ETH, crypto liquidity (IPO drain narrative)",
+          "timeUTC": "18 Kas 2026 (fiyatlandırma)",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-is-said-to-price-ipo-at-83-per-share"
+        },
+        {
+          "headline": "ABD Hisse Senedi Endeksleri Karışık Sinyaller Verdi: S&P 500 -0.31%, Nasdaq +0.41%, Hazineler Yükseldi",
+          "what": "S&P 500 ETF (SPY) 18 Kasım'da %0.31 düştü, Nasdaq ETF (ONEQ) %0.41 oranında arttı — tipik 'teknoloji toparlanması' günü. 10 yıllık Hazine ETF'si (IEF) %0.29 yükseldi (verim düştü); Fed faiz artışı beklentileri borsa pazarını rahatsız ettikçe güvenli alana kaçış tipik rotasyonu.",
+          "coins": "BTC, ETH, risk assets broadly",
+          "timeUTC": "18 Kas 2026 (ABD işlem seansı)",
+          "source": "TradingView",
+          "url": "https://www.tradingview.com"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin Madencileri Marathon ve Riot Üretim Kesiyorlar; Yapay Zeka Veri Merkezi Kurulumuna Yöneliyorlar",
+          "what": "Marathon Digital (MARA) ve Riot Blockchain, yapay zeka altyapısı genişletme finansmanı için Bitcoin varlıklarını agresif şekilde tasfiye ediyor. Marathon 1 milyardan fazla BTC satmış ve Ohio elektrik santraline bağlı 185 milyon dolar borç verme duyurmuş. Riot Q3'te varlıkları %79 oranında azalttı. Bu kaymış, büyük madencilerin now Bitcoin birikiminden ziyade yapay zeka hesaplamayı daha yüksek yatırım önceliği olarak gördüğünün sinyalidir.",
+          "coins": "BTC, MARA, RIOT",
+          "timeUTC": "18 Kas 2026 (gün boyunca devam eden)",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11-14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-18",
+    "summary": "ABD spot Bitcoin ve Ethereum ETF'leri 18 Kasım 2026 tarihinde toplam 552.34 milyon dolar net çıkış yaptı. Bitcoin ETF'leri 523.2 milyon dolar çıkışla başı çekti; Ethereum ETF'lerinden ise 29.14 milyon dolar çıktı. Bu, Bitcoin ETF çıkışlarının ard arda ikinci gün anlamına geliyor (17 Kasım 239.9 milyon dolar çıktı) ve Fed Başkanı Waller'ın agresif %50 baz puan oran artışı çağrısı ile saat 19:00 UTC'deki FOMC tutanaklarının yayınlanmasını takiben kurumsal ve perakende fon çekilişine güvenli havaya kaçışı yansıtıyor.",
+    "source": "Farside Investors & SoSoValue",
+    "url": "https://farside.co.uk/bitcoin-etfs/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Initial Jobless Claims: November 19, 2026 at 13:30 UTC Thursday",
+      "typicalReaction": "Yüksek etkili ABD ekonomi veri takvimi. Güçlü işsiz maaşı rakamları tarihsel olarak kripto ve risk varlıklarına zarar verir; zayıf rakamlar rallileri destekleyebilir. Yarın yayınlanacak veriler bugünün Fed kaynaklı satış dalgasından sonra geliyor; piyasalar işgücü pazar stresinin işaretleri açısından yakından izleyecek. Hem geleneksel hisse senetleri hem de kripto'da oynaklık bekleyin."
+    },
+    {
+      "event": "Japan CPI (Consumer Price Index) November 2026 at 23:30 UTC Thursday",
+      "typicalReaction": "Yüksek etkili Japon ekonomik veri takvimi. Sıcak enflasyon Japonya Merkez Bankası'nı agresif tutabilir; soğuk enflasyon politika baskısını hafifletebilir. Bu takvim seansı ABD piyasası kapanışından sonra gerçekleşse de Asya ticareti ve yen geçişlerine etki ediyor; küresel kripto oynaklığına akıntı yaratıyor."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Baz puan",
+      "definition": "Yüzde noktasının yüzde birdeşi (%0.01). Faiz oranı değişimleri sıklıkla baz puan cinsinden anlatılır; 50 baz puan artışı oranları %0.50 oranında yükseltmek demektir."
+    },
+    {
+      "term": "Pazar genişliği (market breadth)",
+      "definition": "Belirli bir dönem içinde yükselen işlem çiftleri ya da varlıkların yüzdesinin düşenlerin yüzdesine karşı karşılaştırılması. Yüksek genişlik (çok sayıda yükselen) güçlü genel duyarlılık gösterir; düşük genişlik (az yükselen) zayıflık ya da paniği gösterir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Vadeli işlemlerde long pozisyonu tutan tüccarlar tarafından short satanlar (ya da tam tersi) yatırımcılara ödenen faiz. Yüksek finansman oranları short açmaya teşvik ediyor; düşük ya da negatif oranlar long açmaya teşvik ediyor. Oranlar her 8 saatte bir sıfırlanır."
+    },
+    {
+      "term": "Long/short oranı",
+      "definition": "Fiyatın yükseleceğini öngören long pozisyonları tutan tüccarlar ile fiyatın düşeceğini öngören short pozisyonları tutan tüccarların karşılaştırılması. 1'den fazla oran daha fazla long demek; 1'den az oran daha fazla short demek."
+    },
+    {
+      "term": "Tasfiye (liquidation)",
+      "definition": "Tüccarın hesap marjı teminat bitmek yerine varusan pozisyonun zorla kapatılması. Piyasa çöküşlerinde ardışık tasfiyeler fiyat düşüşünü hızlandırabiliyor."
+    },
+    {
+      "term": "İşaretleme fiyatı (mark price)",
+      "definition": "Vadeli işlem borsasının tüccar kar/zararını hesaplamak için kullandığı referans fiyat. Tüccarın hesabı teminat bitmek mi belirlemede kullanılır ve tasfiyeyi tetikler."
+    },
+    {
+      "term": "Açık pozisyon (open interest)",
+      "definition": "Belirli bir anda tüm tüccarlar tarafından tutulan toplam vadeli işlem sözleşme ya da pozisyon sayısı. Düşüş hareketi sırasında artan açık pozisyon yeni short girişi gösterir; azalış zorunlu tasfiyeyi gösterir."
+    },
+    {
+      "term": "Vadeli işlemler (perpetuals, perps)",
+      "definition": "Vade tarihi olmayan vadeli işlem sözleşmeleri; tüccarların belirsiz bir süre boyunca long ya da short pozisyon tutmasına izin veriyor. Vadeli işlemler sabit sözleşme vadesine yerine devam eden finansman oranı (finansman oranı) ile finanse edilir."
+    },
+    {
+      "term": "Spot piyasa",
+      "definition": "Mevcut fiyattan anlık teslimatla varlık alıp satıldığı piyasa (vadeli işlem piyasasında gelecek fiyat kilitlendiği aksine)."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Agresif satın alma ile agresif satış baskısının ölçümü. 1'den fazla oran daha fazla piyasa satın alma emri (alıcılar) demek; 1'den az oran daha fazla piyasa satış emri (satıcılar) demek."
+    },
+    {
+      "term": "Platform (venue)",
+      "definition": "Vadeli işlem ya da spot ticareti yapıldığı kripto borsası ya da ticaret platformu (örn. Binance, Bybit, OKX, Bitget, Gate)."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "193f1c87a71046c8"
+}

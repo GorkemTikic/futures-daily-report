@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-18T00:06:09.140Z",
-  "count": 154,
+  "generatedAt": "2026-11-19T00:06:10.386Z",
+  "count": 155,
   "counts": {
-    "total": 154,
-    "market": 67,
+    "total": 155,
+    "market": 68,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-17",
+  "latest": "2026-11-18",
   "reports": [
+    {
+      "date": "2026-11-18",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -2.9000352742379523,
+        "ETH": -2.6152032676334356
+      },
+      "marketSummary": "Bitcoin and Ethereum fell 2.9% and 2.6% as Federal Reserve meeting minutes at 19:00 UTC revealed a potentially hawkish stance, and Fed Governor Waller called for a shock 50-basis-point December rate hike earlier in the day, spooking risk assets broadly.",
+      "oneLine": "Bitcoin and Ethereum fell 2.9% and 2.6% as Federal Reserve meeting minutes at 19:00 UTC revealed a potentially hawkish stance, and Fed Governor Waller called for a shock 50-basis-point December rate hike earlier in the day, spooking risk assets broadly.",
+      "newsCount": 19,
+      "topMover": {
+        "symbol": "PIEVERSEUSDT",
+        "chgPct": 71.68387222438646
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-18/summary_2026-11-18.html",
+        "pdf": "reports/2026-11-18/summary_2026-11-18.pdf",
+        "md": "reports/2026-11-18/summary_2026-11-18.md"
+      }
+    },
     {
       "date": "2026-11-17",
       "kind": "market",
