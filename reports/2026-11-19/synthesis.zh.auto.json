@@ -1,0 +1,265 @@
+{
+  "oneLine": "比特币和以太坊分别下跌1.7%和1.1%，因为科技股大幅下跌且市场极度恐慌，Anthropic IPO引发市场不确定性，$1.5B资金从Sky稳定币储备中流出（发现了非法活动）。",
+  "caveman": "星期四，比特币下跌1.7%，以太坊下跌1.1%，因为几乎所有东西都在那天被抛售。美国股市跌得更厉害（纳斯达克下跌2.2%），当股票下跌时，人们经常也会卖出加密货币。主要原因是Anthropic（一家人工智能公司）在纳斯达克开始卖股票 —— 开盘价远超发行价，但之后价格下跌了，这让大家都很紧张并继续抛售。市场达到了极度恐慌水平（有史以来最可怕的水平）。那天几乎十分之八的加密货币都亏了 —— 不只是比特币，整个市场都在下跌。这绝对是非常令人担忧的一天。",
+  "priceVolumeSummary": "比特币在五个主要交易所一致下跌1.70%-1.72%，以太坊下跌1.10%-1.11%，显示价格高度一致。币安领导交易量：比特币永续合约$15.6十亿，以太坊永续合约$8.7十亿。",
+  "positioningSummary": "资金费率保持正值（比特币年化+2.23%，以太坊年化+5.23%），表示多头交易者在向空头支付。不过，吃单买卖比显示卖压（比特币0.97，以太坊1.00中性）。市场广度严重恶化：币安永续合约中仅22%上涨，78%下跌——极度看空。在大户中，多头仍占优势（最大头寸比例双方均为1.87），账户多空比倾向多头（比特币3.60，以太坊2.94），但极度恐慌情绪驱动了更广泛的抛售。",
+  "stocksSummary": "亚洲股市大幅下跌。香港科技股领跌：MiniMax −8.9%，Zhipu AI −7.6%，腾讯 −5.7%。韩国半导体制造商也下跌：三星 −3.3%，LG −3.5%，SK Hynix −1.6%。商品期货跟随传统市场下跌：黄金期货 −3.6%，白银 −6.4%，铜 −2.1%，而原油期货小幅上升（WTI +0.9%，Brent +1.2%）。",
+  "movers": [
+    {
+      "symbol": "NAORISUSDT",
+      "explanation": "未在市场新闻中找到明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "未在市场新闻中找到明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "explanation": "未在市场新闻中找到明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "比特币跌向$62k，市场陷入极度恐慌",
+        "what": "比特币经历连续第六个周下跌，周四跌至$62k。技术面显示死亡交叉和极度超卖。币安永续合约中仅22%上涨，显示极度恐慌抛售。",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-19 15:00",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo"
+      },
+      {
+        "headline": "$1.5B从Sky的USDS稳定币储备中流出，发现朝鲜黑客活动",
+        "what": "区块链取证追踪到$518百万的非法活动——包括2025年Bybit黑客事件的收益——流经Sky协议储备。这一发现引发USDS收缩35%，一位与Poloniex有关的大额持有人撤回了近$1.5十亿的USDC来支持稳定币。尽管大量资金流出，USDS仍保持$1的价格。",
+        "coins": "DAI, USDS",
+        "timeUTC": "2026-11-19 10:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/19/sky-s-usds-stablecoin-shrinks-35-as-usd1-5-billion-exits-reserves-after-illicit-finance-report"
+      },
+      {
+        "headline": "Anthropic在纳斯达克首次亮相，$111.50上涨34%，之后回落至$100以下",
+        "what": "这家人工智能公司以每股$83的价格发行IPO，估值约为$1万亿。股票以$111.50在纳斯达克开盘，高于发行价34%，日内高点超过$115，最后收盘低于$100。这次波动首秀突显了投资者对人工智能估值和更广泛科技行业疲软的不确定性。",
+        "coins": "none (traditional finance context)",
+        "timeUTC": "2026-11-19 13:30",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/19/anthropic-opens-for-trade-at-usd11-50-up-34-from-ipo-price"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "币安获得$6.5B冻结令，锁定十月黑客事件的所得资产",
+          "what": "币安获得法院下令冻结总计$6.5十亿资产，冻结目标是持有十月价值$600百万以上黑客事件被盗加密货币的钱包。币安表示已使用自有资金和保险储备完全补偿所有被盗资产，展示了对平台恢复的机构信心。",
+          "coins": "Bitcoin, Ethereum, various",
+          "timeUTC": "2026-11-19 05:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
+        },
+        {
+          "headline": "美国证监会起诉8家科罗拉多实体通过虚假加密平台诈骗$37M",
+          "what": "美国证券交易委员会起诉8家科罗拉多实体——可能由海外个人运营——通过虚假加密资产交易平台诈骗美国投资者$37百万以上。",
+          "coins": "various",
+          "timeUTC": "2026-11-19 10:30",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors"
+        },
+        {
+          "headline": "花旗银行：安全漏洞后AI银行代理失效客户需承担损失",
+          "what": "花旗银行更新的条款规定，由AI银行代理引起的损失客户需要承担，即使在安全漏洞之后。这项政策跟在第三方供应商漏洞影响支付系统之后，提出了自动化代理在事件后运行时客户保护的问题。",
+          "coins": "none (banking policy)",
+          "timeUTC": "2026-11-19 09:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "特朗普的美国证监会提名人支持代币化股票的正式规则制定",
+          "what": "前CFTC委员Kristin Johnson（民主党人）和前美国证监会助手Steven Levine（共和党人）都在银行委员会听证会上出现并支持代币化股票交易的正式规则制定程序，表示两党对结构化监管的支持。",
+          "coins": "none (policy)",
+          "timeUTC": "2026-11-19 14:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks"
+        },
+        {
+          "headline": "CFTC主席Selig阐述Hyperliquid等链上交易所进入美国零售市场的途径",
+          "what": "CFTC主席Michael Selig表示，像Hyperliquid这样的平台可以通过两条途径进入美国零售市场，前提是遵循与传统交易所相同的监管规则。这澄清了去中心化交易所寻求美国批准的监管框架。",
+          "coins": "various (Hyperliquid perps)",
+          "timeUTC": "2026-11-19 11:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106"
+        },
+        {
+          "headline": "MoonPay申请美国国家银行牌照用于稳定币发行和托管",
+          "what": "MoonPay宣布正在向美国监管机构申请国家信托银行牌照，以在联邦监督下提供稳定币发行、赎回、储备管理和数字资产托管服务。",
+          "coins": "stablecoins",
+          "timeUTC": "2026-11-19 09:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services"
+        },
+        {
+          "headline": "美国政府与TRM Labs合作推出网络犯罪中心追踪诈骗加密货币",
+          "what": "美国与区块链取证公司TRM Labs合作推出威胁破坏中心，帮助联邦调查人员追踪受害者资金并识别诈骗者使用的加密钱包。",
+          "coins": "various",
+          "timeUTC": "2026-11-19 11:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-19-us-launches-cybercrime-center-with-trm-labs-to-help-trace-crypto-tied-to-scams-443599"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "1inch将Hyperliquid永续合约整合到其dApp平台",
+          "what": "1inch用户现在可以直接使用持有的代币为Hyperliquid永续合约头寸提供资金，这些代币会自动转换为USDC并存入其Hyperliquid账户余额。这一整合简化了零售用户的跨平台交易。",
+          "coins": "various (Hyperliquid perps)",
+          "timeUTC": "2026-11-19 03:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574"
+        },
+        {
+          "headline": "Hashi比特币金融协议在Sui主网上启动",
+          "what": "Hashi（hBTC代币）在Sui上线，使比特币存款可用于Fluid贷款和Upshift金库策略。该协议将比特币流动性引入Sui生态。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
+        },
+        {
+          "headline": "蚂蚁国际推出鲸鱼协调协议用于代币化资产结算",
+          "what": "蚂蚁（马云的金融科技部门）推出了一个协议，使代币化银行存款与代币化货币市场基金之间能够实时结算，扩展了机构代币化金融基础设施。",
+          "coins": "none (institutional settlement)",
+          "timeUTC": "2026-11-19 08:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-19-ant-international-protocol-tokenized-assets-443586"
+        }
+      ],
+      "Blockchain and technology": [
+        {
+          "headline": "以太坊Glamsterdam升级因智能合约兼容性问题可能延至2027年5月",
+          "what": "以太坊开发者与50多个受影响项目取得联系，讨论可能中断多达15,000个现有智能合约的天然气定价提案。这些改变的复杂性已提出将Glamsterdam升级从原定2026年时间延迟至2027年5月的可能性。",
+          "coins": "Ethereum",
+          "timeUTC": "2026-11-19 03:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027"
+        },
+        {
+          "headline": "分析：700多万比特币地址面临量子计算安全漏洞",
+          "what": "CryptoSlate研究人员确认了大约700多万比特币地址可能面临未来量子计算攻击的漏洞。近四分之三的匹配来自历史链上分析，实际风险取决于钱包支出条件。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 02:30",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/over-7-million-bitcoin-could-face-a-quantum-security-reckoning-after-new-discovery/"
+        },
+        {
+          "headline": "Ledger首席技术官Charles Guillemet在任职9年后即将离职",
+          "what": "Charles Guillemet（帮助建立Ledger Donjon安全实验室并担任公司首席技术官9年）宣布离职。Guillemet表示这一举措已计划了数月。",
+          "coins": "none (personnel)",
+          "timeUTC": "2026-11-19 00:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company"
+        }
+      ],
+      "Institutional and traditional markets": [
+        {
+          "headline": "代币化股票在更广泛加密货币抛售中达到$4B链上价值",
+          "what": "11月19日，链上交易的代币化股票资产总价值突破$4十亿，表明机构投资者对基于区块链的股票的兴趣，尽管整个加密货币市场大幅抛售。",
+          "coins": "various (tokenized equities)",
+          "timeUTC": "2026-11-19 10:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829"
+        },
+        {
+          "headline": "新加坡央行发行$77M代币化国债，通过批发CBDC结算",
+          "what": "新加坡金融管理局（MAS）在其新加坡元测试网络上发行了代币化国债，并以批发央行数字货币（CBDC）结算交易，展示了代币化基础设施日益增长的机构采用。",
+          "coins": "SGD (central bank digital currency)",
+          "timeUTC": "2026-11-19 09:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "随着资金费率转向正值，比特币套利交易可能在2027年蓬勃发展",
+          "what": "银行分析师预测，2027年对比特币杠杆的新需求将推动套利交易，此前2026年经历67个连续负资金费率日。如果在新杠杆需求下执行，这一策略可能表现超过国债。",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 05:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/a-bitcoin-trade-that-doesnt-need-prices-to-rise-could-beat-treasury-bills-in-2027/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan CPI (November 2026) released at 23:30 UTC on Nov 19",
+      "typicalReaction": "中等影响事件；在报告日期后期发布，在随后的亚洲交易时段可能会出现波动反应"
+    },
+    {
+      "event": "UK Retail Sales (November 2026) scheduled for Fri 20 Nov, 07:00 UTC",
+      "typicalReaction": "高影响传统市场发布；预期周五上午UTC时间加密市场会出现波动溢出"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货合约与标的现货价格之间的价差，用来衡量期货是否以溢价（高于）或折扣（低于）当前市场价格交易"
+    },
+    {
+      "term": "市场广度",
+      "definition": "给定一天内上升与下降资产的百分比或数量；市场广度低于50%（下跌多于上升）表示市场疲软或看空"
+    },
+    {
+      "term": "死亡交叉",
+      "definition": "一种技术模式，其中短期移动平均线（通常为50日线）跌破长期移动平均线（通常为200日线），通常被视为看空信号"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续合约市场中的周期性支付，其中持有多头头寸的交易者向持有空头头寸的交易者支付（反之亦然），旨在保持合约价格与现货价格一致"
+    },
+    {
+      "term": "多头头寸",
+      "definition": "押注资产价格会上升的交易；如果价格上升，持有者获利"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有多头头寸的交易者与持有空头头寸的交易者的比例；比例高于1.0意味着多头更多"
+    },
+    {
+      "term": "标记价格",
+      "definition": "在永续合约中使用的参考价格，用于计算利润和损失；通过使用现货和期货价格的加权平均值来防止操纵"
+    },
+    {
+      "term": "持仓量",
+      "definition": "合约市场中未平仓头寸的总数；持仓量上升表示更多杠杆进入市场，持仓量下降表示头寸被平仓"
+    },
+    {
+      "term": "持仓量变化",
+      "definition": "日对日的未平仓头寸总数增加或减少；正变化意味着更多杠杆进入市场，负数意味着杠杆退出"
+    },
+    {
+      "term": "永续合约",
+      "definition": "跟踪现货价格但没有到期日期的衍生品合约，允许交易者以8小时资金费率结算的杠杆多头或空头头寸"
+    },
+    {
+      "term": "空头头寸",
+      "definition": "押注资产价格会下降的交易；如果价格下降，持有者获利"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "市场买单与卖单的比例；高于1.0表示吃单方更多激进买入，低于1.0表示吃单方更多激进卖出"
+    },
+    {
+      "term": "头部头寸比",
+      "definition": "市场中最大交易者的多空比；表明最大账户是更看涨还是更看空"
+    },
+    {
+      "term": "交易量",
+      "definition": "特定时间段内在交易所交易的资产总价值或数量；交易量通常表示对价格走势的信心更强"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "d646b33559b98a0d"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-19",
+  "kind": "market",
+  "dateLong": "Thursday, 19 November 2026",
+  "coversUTC": "2026-11-19 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum fell 1.7% and 1.1% amid broad tech selloff and extreme fear, as Anthropic IPO triggered market uncertainty and $1.5B fled Sky's stablecoin reserves after illicit activity discovery.",
+  "newsCount": 19,
+  "macro": {
+    "BTC": -1.7159810252098153,
+    "ETH": -1.1029039195595094
+  },
+  "topMover": {
+    "symbol": "NAORISUSDT",
+    "chgPct": 33.040035195776504
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "20 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

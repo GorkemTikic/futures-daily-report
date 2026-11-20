@@ -1,0 +1,264 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell 1.7% and 1.1% amid broad tech selloff and extreme fear, as Anthropic IPO triggered market uncertainty and $1.5B fled Sky's stablecoin reserves after illicit activity discovery.",
+  "caveman": "On Thursday, Bitcoin dropped 1.7% and Ethereum dropped 1.1% because almost everything was selling off that day. The U.S. stock market fell harder (Nasdaq down 2.2%), and when stocks drop, people often sell cryptocurrencies too. A big reason was that Anthropic, an AI company, started selling stock on the Nasdaq — it opened way above its asking price but then prices came back down, which made everyone nervous and kept selling. The market hit extreme fear levels (the scariest level ever recorded). Almost 8 out of every 10 cryptocurrencies lost money that day — it wasn't just Bitcoin, everything was down. This was definitely a very worrying day.",
+  "priceVolumeSummary": "Bitcoin fell consistently 1.70%–1.72% and Ethereum fell 1.10%–1.11% across all five major exchanges, showing excellent price agreement. Binance led trading volume: $15.6 billion in Bitcoin perpetuals and $8.7 billion in Ethereum perpetuals.",
+  "positioningSummary": "Funding rates stayed positive (Bitcoin +2.23% annualized, Ethereum +5.23% annualized), meaning traders holding long positions were paying shorts. However, taker buy-to-sell ratios showed selling pressure (Bitcoin 0.97, Ethereum 1.00 neutral). Market breadth collapsed: only 22% of Binance perpetuals traded higher while 78% declined—extremely bearish. Among the largest traders, long dominance persisted (top position ratio 1.87 for both), and account long-to-short ratios favored longs (Bitcoin 3.60, Ethereum 2.94), yet extreme fear sentiment drove the broader selloff.",
+  "stocksSummary": "Asian equities fell sharply. Hong Kong tech led the decline: MiniMax −8.9%, Zhipu AI −7.6%, Tencent −5.7%. Korean semiconductor makers also fell: Samsung −3.3%, LG −3.5%, SK Hynix −1.6%. Commodity futures followed traditional markets lower: gold perps −3.6%, silver −6.4%, copper −2.1%, while crude oil futures rose modestly (WTI +0.9%, Brent +1.2%).",
+  "movers": [
+    {
+      "symbol": "NAORISUSDT",
+      "explanation": "No clear public cause found in market news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "No clear public cause found in market news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "explanation": "No clear public cause found in market news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin falls toward $62k as market enters extreme fear",
+        "what": "Bitcoin hit its sixth straight weekly decline, trading as low as $62k on Thursday amid a broad market selloff. Technical analysis shows a death cross pattern and deeply oversold momentum. Only 22% of Binance perpetuals traded higher, indicating extreme panic selling.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-19 15:00",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo"
+      },
+      {
+        "headline": "$1.5B exits Sky's USDS stablecoin reserves after North Korean hacker discovery",
+        "what": "Blockchain forensics traced $518 million in illicit activity—including proceeds from the 2025 Bybit hack—flowing through Sky's protocol reserves. The discovery triggered a 35% contraction in USDS, as a large holder linked to Poloniex withdrew nearly $1.5 billion of USDC backing the stablecoin. USDS held its $1 peg despite the exodus.",
+        "coins": "DAI, USDS",
+        "timeUTC": "2026-11-19 10:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/19/sky-s-usds-stablecoin-shrinks-35-as-usd1-5-billion-exits-reserves-after-illicit-finance-report"
+      },
+      {
+        "headline": "Anthropic debuts on Nasdaq at $111.50, up 34%, before retreating below $100",
+        "what": "The AI company priced its IPO at $83 per share on November 19, valuing it at approximately $1 trillion. Shares opened on the Nasdaq 34% higher at $111.50, hitting intraday highs above $115, before closing below $100. The volatile debut highlighted investor uncertainty about AI valuations and broader tech sector weakness.",
+        "coins": "none (traditional finance context)",
+        "timeUTC": "2026-11-19 13:30",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/19/anthropic-opens-for-trade-at-usd11-50-up-34-from-ipo-price"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance wins $6.5B freeze order on October hack proceeds",
+          "what": "Binance obtained court-ordered asset freezes totaling $6.5 billion against wallets holding cryptocurrency stolen in October's $600 million+ hack. The exchange said it has fully replaced all stolen assets using its own funds and insurance reserves, demonstrating institutional confidence in the platform's recovery.",
+          "coins": "Bitcoin, Ethereum, various",
+          "timeUTC": "2026-11-19 05:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
+        },
+        {
+          "headline": "SEC charges 8 Colorado entities for $37M fake crypto platform fraud",
+          "what": "The Securities and Exchange Commission charged eight Colorado-based entities—likely operated by individuals overseas—with defrauding U.S. investors of more than $37 million through fake crypto asset trading platforms.",
+          "coins": "various",
+          "timeUTC": "2026-11-19 10:30",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors"
+        },
+        {
+          "headline": "Citibank: customers liable when AI banking agents fail after security breaches",
+          "what": "Citibank's updated terms place liability on customers for losses caused by AI banking agents, even after security breaches. The policy follows a third-party vendor breach affecting payment systems, raising questions about customer protection when automated agents operate post-incident.",
+          "coins": "none (banking policy)",
+          "timeUTC": "2026-11-19 09:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Trump's SEC nominees back formal rulemaking for tokenized stocks",
+          "what": "Former CFTC Commissioner Kristin Johnson (Democrat) and ex-SEC aide Steven Levine (Republican) both appeared before the Senate Banking Committee and endorsed a formal rulemaking process for tokenized stock trading, signaling bipartisan support for structured regulation.",
+          "coins": "none (policy)",
+          "timeUTC": "2026-11-19 14:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks"
+        },
+        {
+          "headline": "CFTC Chair Selig outlines path for onchain venues like Hyperliquid to enter U.S. retail markets",
+          "what": "CFTC Chair Michael Selig stated that platforms like Hyperliquid can enter the U.S. retail market through two pathways, provided they follow the same regulatory rules as traditional exchanges. This clarifies the regulatory framework for decentralized exchanges seeking U.S. approval.",
+          "coins": "various (Hyperliquid perps)",
+          "timeUTC": "2026-11-19 11:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106"
+        },
+        {
+          "headline": "MoonPay applies for U.S. national bank charter for stablecoin issuance and custody",
+          "what": "MoonPay announced it is seeking a national trust bank charter from U.S. regulators to offer stablecoin issuance, redemption, reserve management, and digital asset custody services under federal oversight.",
+          "coins": "stablecoins",
+          "timeUTC": "2026-11-19 09:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services"
+        },
+        {
+          "headline": "U.S. government launches cybercrime center with TRM Labs to trace scam cryptocurrency",
+          "what": "The U.S. launched a Threat Disruption Center in partnership with blockchain forensics firm TRM Labs to help federal investigators trace victims' funds and identify cryptocurrency wallets used by scammers.",
+          "coins": "various",
+          "timeUTC": "2026-11-19 11:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-19-us-launches-cybercrime-center-with-trm-labs-to-help-trace-crypto-tied-to-scams-443599"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "1inch integrates Hyperliquid perpetual futures into its dApp platform",
+          "what": "1inch users can now fund positions on Hyperliquid's perpetual futures exchange directly with tokens they hold, which are automatically routed to USDC and deposited to their Hyperliquid balance. This integration simplifies cross-platform trading for retail users.",
+          "coins": "various (Hyperliquid perps)",
+          "timeUTC": "2026-11-19 03:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574"
+        },
+        {
+          "headline": "Hashi Bitcoin finance protocol launches on Sui mainnet",
+          "what": "Hashi (hBTC token) went live on Sui, enabling Bitcoin deposits for use in Fluid loans and Upshift vault strategies. The protocol bridges Bitcoin liquidity to the Sui ecosystem.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
+        },
+        {
+          "headline": "Ant International launches Whale Orchestration Protocol for tokenized asset settlement",
+          "what": "Ant (Jack Ma's fintech arm) introduced a protocol enabling real-time settlement between tokenized bank deposits and tokenized money market funds, expanding infrastructure for institutional tokenized finance.",
+          "coins": "none (institutional settlement)",
+          "timeUTC": "2026-11-19 08:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-19-ant-international-protocol-tokenized-assets-443586"
+        }
+      ],
+      "Blockchain and technology": [
+        {
+          "headline": "Ethereum Glamsterdam upgrade may slip to May 2027 over smart contract compatibility concerns",
+          "what": "Ethereum developers contacted over 50 affected projects to discuss proposed changes to gas pricing that could disrupt up to 15,000 existing smart contracts. The complexity of these changes has raised the possibility of delaying the Glamsterdam upgrade from its original 2026 timeline to May 2027.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-11-19 03:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027"
+        },
+        {
+          "headline": "Analysis: 7+ million Bitcoin addresses face quantum computing security vulnerability",
+          "what": "CryptoSlate researchers identified approximately 7 million Bitcoin addresses potentially vulnerable to future quantum computing attacks. Nearly three-quarters of the matches came from historical on-chain analysis, and the actual risk depends on wallet spending conditions.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 02:30",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/over-7-million-bitcoin-could-face-a-quantum-security-reckoning-after-new-discovery/"
+        },
+        {
+          "headline": "Ledger CTO Charles Guillemet to depart after nine years at hardware wallet maker",
+          "what": "Charles Guillemet, who helped establish Ledger's Donjon security lab and served as the company's Chief Technology Officer for nine years, announced his departure. Guillemet said the move has been planned for several months.",
+          "coins": "none (personnel)",
+          "timeUTC": "2026-11-19 00:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company"
+        }
+      ],
+      "Institutional and traditional markets": [
+        {
+          "headline": "Tokenized stocks reach $4B in onchain value amid broader crypto selloff",
+          "what": "Total value of tokenized stock assets traded onchain crossed $4 billion on November 19, demonstrating institutional investor interest in blockchain-based equities even as the broader crypto market sold off sharply.",
+          "coins": "various (tokenized equities)",
+          "timeUTC": "2026-11-19 10:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829"
+        },
+        {
+          "headline": "Singapore's central bank issues $77M in tokenized bills settled via wholesale CBDC",
+          "what": "Singapore's Monetary Authority (MAS) issued tokenized bills natively on its Singapore Dollar Test Network and settled transactions in wholesale central bank digital currency (CBDC), demonstrating growing institutional adoption of tokenization infrastructure.",
+          "coins": "SGD (central bank digital currency)",
+          "timeUTC": "2026-11-19 09:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin carry trades may boom in 2027 as funding rates turn positive",
+          "what": "Banking analysts predict renewed demand for Bitcoin leverage will lift carry trades in 2027, following 67 consecutive days of negative funding rates in 2026. This strategy could outperform Treasury bills if executed on renewed leverage demand.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 05:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/a-bitcoin-trade-that-doesnt-need-prices-to-rise-could-beat-treasury-bills-in-2027/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan CPI (November 2026) released at 23:30 UTC on Nov 19",
+      "typicalReaction": "Medium-impact event; released late in the report day, potential for volatile reaction in Asian trading hours that follow"
+    },
+    {
+      "event": "UK Retail Sales (November 2026) scheduled for Fri 20 Nov, 07:00 UTC",
+      "typicalReaction": "High-impact traditional market release; expect volatility spillover into crypto markets Friday morning UTC"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The price difference between a futures contract and the underlying spot price, used to measure whether futures are trading above (premium) or below (discount) the current market price"
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage or count of assets that moved up versus down on a given day; breadth below 50% (more down than up) signals weak or bearish market conditions"
+    },
+    {
+      "term": "Death cross",
+      "definition": "A technical pattern where a shorter-term moving average (usually 50-day) crosses below a longer-term moving average (usually 200-day), often interpreted as a bearish signal"
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment in perpetual futures markets where traders holding long positions pay traders holding short positions (or vice versa), designed to keep contract prices aligned with spot price"
+    },
+    {
+      "term": "Long position",
+      "definition": "A bet that an asset's price will rise; the holder benefits if the price increases"
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders holding long positions (betting price will rise) compared to those holding short positions (betting price will fall); ratios above 1.0 mean more longs"
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used in perpetual futures contracts to calculate profits and losses; designed to prevent manipulation by using a weighted average of spot and futures prices"
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open (unsettled) positions in a futures market; rising OI shows growing leverage, falling OI shows positions being closed"
+    },
+    {
+      "term": "Open interest change",
+      "definition": "The day-over-day increase or decrease in total open positions; positive change means more leverage entering the market, negative means leverage exiting"
+    },
+    {
+      "term": "Perpetual futures",
+      "definition": "Derivative contracts that track a spot price with no expiration date, allowing traders to take leveraged long or short positions with 8-hour funding rate settlements"
+    },
+    {
+      "term": "Short position",
+      "definition": "A bet that an asset's price will fall; the holder benefits if the price decreases"
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders to sell orders; above 1.0 indicates more aggressive buying, below 1.0 indicates more aggressive selling by takers (users accepting posted prices)"
+    },
+    {
+      "term": "Top position ratio",
+      "definition": "The long-to-short ratio among the largest traders in the market; indicates whether the biggest accounts are more bullish or bearish"
+    },
+    {
+      "term": "Volume",
+      "definition": "The total value or quantity of assets traded on an exchange over a specific period; higher volume usually indicates stronger conviction behind a price move"
+    }
+  ],
+  "_source": "cli"
+}

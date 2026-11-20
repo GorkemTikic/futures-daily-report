@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-19T00:06:10.386Z",
-  "count": 155,
+  "generatedAt": "2026-11-20T00:09:27.398Z",
+  "count": 156,
   "counts": {
-    "total": 155,
-    "market": 68,
+    "total": 156,
+    "market": 69,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-18",
+  "latest": "2026-11-19",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-11-19",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -1.7159810252098153,
+        "ETH": -1.1029039195595094
+      },
+      "marketSummary": "Bitcoin and Ethereum fell 1.7% and 1.1% amid broad tech selloff and extreme fear, as Anthropic IPO triggered market uncertainty and $1.5B fled Sky's stablecoin reserves after illicit activity discovery.",
+      "oneLine": "Bitcoin and Ethereum fell 1.7% and 1.1% amid broad tech selloff and extreme fear, as Anthropic IPO triggered market uncertainty and $1.5B fled Sky's stablecoin reserves after illicit activity discovery.",
+      "newsCount": 19,
+      "topMover": {
+        "symbol": "NAORISUSDT",
+        "chgPct": 33.040035195776504
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-19/summary_2026-11-19.html",
+        "pdf": "reports/2026-11-19/summary_2026-11-19.pdf",
+        "md": "reports/2026-11-19/summary_2026-11-19.md"
+      }
+    },
     {
       "date": "2026-11-18",
       "kind": "market",

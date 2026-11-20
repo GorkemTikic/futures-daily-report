@@ -1,0 +1,265 @@
+{
+  "oneLine": "Bitcoin ve Ethereum, geniş bir teknoloji satışı ve aşırı korku ortamında %1,7 ve %1,1 düştü; Anthropic IPO'su pazar belirsizliğini tetiklerken, Sky stabilcoin rezervlerinden yasadışı faaliyet keşfedilmesi sonrasında 1,5 milyar dolar çıktı.",
+  "caveman": "Perşembe günü Bitcoin %1,7 ve Ethereum %1,1 düştü çünkü neredeyse her şey o gün satılıyordu. ABD borsası daha sert düştü (Nasdaq %2,2 düşüş), ve hisse senetleri düştüğünde insanlar genellikle kripto para da satarlar. Önemli bir neden Anthropic adlı bir yapay zeka şirketi Nasdaq'ta hisse satmaya başlıyor olmasıydı — açılış fiyatı sorulandan çok yüksekti ama sonra fiyatlar geri düştü, bu da herkesi endişelendirdi ve satışları sürdürdü. Pazar aşırı korku seviyesine ulaştı (kayıtlı en korkutucu seviye). Hemen hemen her 10 kriptopara parasının 8'i o gün para kaybetti — sadece Bitcoin değil, her şey düştüydü. Bu kesinlikle çok endişe verici bir gündü.",
+  "priceVolumeSummary": "Bitcoin tüm beş büyük borsada tutarlı bir şekilde %1,70–%1,72 düşerken, Ethereum %1,10–%1,11 düştü; mükemmel fiyat uyumunu gösteriyor. Binance ticaret hacminde lider: Bitcoin perpetual vadeli işlemlerinde 15,6 milyar dolar ve Ethereum perpetual vadeli işlemlerinde 8,7 milyar dolar.",
+  "positioningSummary": "Finansman oranları pozitif kaldı (Bitcoin +%2,23 yıllıklandırılmış, Ethereum +%5,23 yıllıklandırılmış), bu da uzun pozisyon tutan tüccarların kısa satıcılara ödeme yaptığı anlamına geliyor. Ancak alıcı-satıcı oranları satış baskısını gösteriyor (Bitcoin 0,97, Ethereum 1,00 nötr). Pazar genişliği çöktü: Binance perpetual vadeli işlemlerinin sadece %22'si yükselmişken %78'i düştü — aşırı düşüş eğilimli. En büyük tüccarlar arasında uzun pozisyon baskınlığı devam etti (her ikisi için de en yüksek pozisyon oranı 1,87), ve hesap uzun-kısa oranları uzun pozisyonları destekledi (Bitcoin 3,60, Ethereum 2,94), ancak aşırı korku duygusu daha geniş satışı tetikledi.",
+  "stocksSummary": "Asya hisse senetleri keskin bir şekilde düştü. Hong Kong teknolojisi düşüşe öncülük etti: MiniMax −%8,9, Zhipu AI −%7,6, Tencent −%5,7. Kore yarı iletken üreticileri de düştü: Samsung −%3,3, LG −%3,5, SK Hynix −%1,6. Emtia vadeli işlemleri geleneksel piyasaları takip etti: altın perpetual −%3,6, gümüş −%6,4, bakır −%2,1, ham petrol vadeli işlemleri mütevazı bir şekilde yükseldi (WTI +%0,9, Brent +%1,2).",
+  "movers": [
+    {
+      "symbol": "NAORISUSDT",
+      "explanation": "Pazarın haberlerinde net bir neden bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "Pazarın haberlerinde net bir neden bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "explanation": "Pazarın haberlerinde net bir neden bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin, pazar aşırı korku alanına girdiğinde 62 bin dolara doğru düşüyor",
+        "what": "Bitcoin, geniş bir pazar satışı ortamında Perşembe günü 62 bin dolara kadar düşerek altıncı haftalık düşüşünü kaydetti. Teknik analiz ölü haç (death cross) deseni ve derin satılmış momentum gösteriyor. Binance perpetual vadeli işlemlerinin sadece %22'si yükselmişti; bu aşırı panik satışını gösteriyor.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-19 15:00",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo"
+      },
+      {
+        "headline": "Kuzey Kore hackerinin keşfedilmesi sonrasında Sky'ın USDS stabilcoin rezervlerinden 1,5 milyar dolar çıkıyor",
+        "what": "Blockchain adli tıpı, 2025 Bybit hackleme gelirlerini de içeren 518 milyon doların yasadışı faaliyetinin Sky protokol rezervleri aracılığıyla aktığını takip etti. Keşif USDS'de %35'lik bir daralma tetikledi; Poloniex ile bağlantılı büyük bir sahibinin stabilcoin'i destekleyen neredeyse 1,5 milyar dolar USDC'yi çekmesiyle. USDS, bu göçün rağmen 1 dolar sabitini korudu.",
+        "coins": "DAI, USDS",
+        "timeUTC": "2026-11-19 10:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/19/sky-s-usds-stablecoin-shrinks-35-as-usd1-5-billion-exits-reserves-after-illicit-finance-report"
+      },
+      {
+        "headline": "Anthropic Nasdaq'ta 111,50 dolardan %34 artışla başladıktan sonra 100 doların altına gerilemeden açılış yapıyor",
+        "what": "Yapay zeka şirketi, 19 Kasım'da hisse başına 83 dolardan IPO'sunu fiyatlandırdı; valüasyonunu yaklaşık 1 trilyon dolar olarak belirledi. Hisseler Nasdaq'ta %34 daha yüksek olan 111,50 dolardan açıldı; gün içi 115 doların üzerine yükselen en yüksek seviyelere ulaştı, ancak 100 doların altında kapandı. Bu oynak başlangıç, yapay zeka valuasyonları hakkında yatırımcı belirsizliğini ve daha geniş teknoloji sektörü zayıflığını vurguladı.",
+        "coins": "yok (geleneksel finans bağlamı)",
+        "timeUTC": "2026-11-19 13:30",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/19/anthropic-opens-for-trade-at-usd11-50-up-34-from-ipo-price"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance, Ekim hacking geliri üzerine 6,5 milyar dolarlık donma emri kazanıyor",
+          "what": "Binance, Ekim ayındaki 600 milyon dolar üzeri hacklemede çalınan kripto parayı tutan cüzdanlarla ilgili toplam 6,5 milyar dolarlık mahkeme tarafından emredilen varlık dondurmasını elde etti. Borsa, kendi fonları ve sigorta rezervlerini kullanarak çalınan tüm varlıkları tamamen değiştirdiğini söyledi; platform kurtarması konusunda kurumsal güveni gösteriyor.",
+          "coins": "Bitcoin, Ethereum, çeşitli",
+          "timeUTC": "2026-11-19 05:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft"
+        },
+        {
+          "headline": "SEC, 37 milyon dolarlık sahte kripto platformu dolandırıcılığı için 8 Colorado kuruluşunu suçluyor",
+          "what": "Menkul Kıymetler ve Borsa Komisyonu, sekiz Colorado merkezli kuruluşu — muhtemelen denizaşırı bireyler tarafından işletilen — sahte kripto varlık ticaret platformları aracılığıyla ABD yatırımcılarından 37 milyon doların üzerinde dolandırmakla suçladı.",
+          "coins": "çeşitli",
+          "timeUTC": "2026-11-19 10:30",
+          "source": "SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors"
+        },
+        {
+          "headline": "Citibank: Müşteriler, güvenlik ihlali sonrası yapay zeka bankacılık aracıları başarısız olduğunda sorumlu",
+          "what": "Citibank'ın güncellenmiş şartları, güvenlik ihlali sonrasında bile yapay zeka bankacılık aracıları tarafından neden olan kayıplar için sorumluluğu müşterilere yükler. Bu politika, ödeme sistemlerini etkileyen üçüncü taraf satıcı ihlalinin ardından gelir; otomatik aracılar olay sonrasında çalıştığında müşteri koruması hakkında sorular gündeme getiriyor.",
+          "coins": "yok (bankacılık politikası)",
+          "timeUTC": "2026-11-19 09:00",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Trump'ın SEC adayları, tokenize edilmiş hisse senetleri için resmi kural koymayı destekliyor",
+          "what": "Eski CFTC Komiseri Kristin Johnson (Demokrat) ve eski SEC yardımcısı Steven Levine (Cumhuriyetçi) her ikisi de Senato Bankacılık Komitesi'ne çıktılar ve tokenize edilmiş hisse ticareti için resmi bir kural koyma sürecini onayladılar; yapılandırılmış düzenleme için iki partili desteği gösteriyor.",
+          "coins": "yok (politika)",
+          "timeUTC": "2026-11-19 14:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks"
+        },
+        {
+          "headline": "CFTC Başkanı Selig, Hyperliquid gibi zincir üstü mekanların ABD perakende pazarlarına girmesi için yolu açıklıyor",
+          "what": "CFTC Başkanı Michael Selig, Hyperliquid gibi platformların, geleneksel borsalarla aynı düzenleyici kuralları takip etmeleri koşuluyla, iki yoldan ABD perakende pazarına girebileceğini belirtti. Bu, ABD onayı arayan merkezi olmayan borsalar için düzenleyici çerçeveyi netleştiriyor.",
+          "coins": "çeşitli (Hyperliquid perps)",
+          "timeUTC": "2026-11-19 11:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-19-cftc-chair-selig-hyperliquid-onchain-venues-the-us-444106"
+        },
+        {
+          "headline": "MoonPay, stabilcoin ihraç ve gözeti için ABD ulusal banka tüzüğü başvurusu yapıyor",
+          "what": "MoonPay, federal gözetim altında stabilcoin ihraç, geri satın alma, rezerv yönetimi ve dijital varlık gözeti hizmetleri sunmak için ABD düzenleyicilerinden ulusal bir güven bankası tüzüğü aradığını duyurdu.",
+          "coins": "stabilcoin'ler",
+          "timeUTC": "2026-11-19 09:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services"
+        },
+        {
+          "headline": "ABD hükümeti, dolandırıcılık kripto parasını takip etmek için TRM Labs ile siber suç merkezini başlatıyor",
+          "what": "ABD, federal araştırmacıların mağdurların fonlarını takip etmelerine ve dolandırıcılar tarafından kullanılan kripto para cüzdanlarını tanımlamalarına yardımcı olmak amacıyla blockchain adli tıpı firması TRM Labs ile ortaklıkta Tehdit Yıkım Merkezi'ni başlattı.",
+          "coins": "çeşitli",
+          "timeUTC": "2026-11-19 11:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-19-us-launches-cybercrime-center-with-trm-labs-to-help-trace-crypto-tied-to-scams-443599"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "1inch, Hyperliquid perpetual vadeli işlemlerini dApp platformuna entegre ediyor",
+          "what": "1inch kullanıcıları artık Hyperliquid'in perpetual vadeli işlem borsasında pozisyonları tuttukları tokenler ile doğrudan finanse edebiliyor; bunlar otomatik olarak USDC'ye yönlendiriliyor ve Hyperliquid bakiyelerine yatırılıyor. Bu entegrasyon perakende kullanıcılar için platformlar arası ticareti basitleştiriyor.",
+          "coins": "çeşitli (Hyperliquid perps)",
+          "timeUTC": "2026-11-19 03:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-19-1inch-integrates-hyperliquid-perpetual-futures-443574"
+        },
+        {
+          "headline": "Hashi Bitcoin finans protokolü Sui ana ağında başlatılıyor",
+          "what": "Hashi (hBTC token) Sui'de canlı yayına geçti; Bitcoin mevduatlarının Fluid kredileri ve Upshift kasa stratejilerinde kullanılmasını sağlıyor. Protokol Bitcoin likiditeğini Sui ekosistemihine köprülendirilyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 00:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608"
+        },
+        {
+          "headline": "Ant International, tokenize edilmiş varlık takas için Whale Orchestration Protocol'ü başlatıyor",
+          "what": "Ant (Jack Ma'nın fintech kolu) tokenize edilmiş banka mevduatları ile tokenize edilmiş para piyasası fonları arasında gerçek zamanlı takas sağlayan bir protokol tanıttı; kurumsal tokenize finans için altyapıyı genişletiyor.",
+          "coins": "yok (kurumsal takas)",
+          "timeUTC": "2026-11-19 08:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-19-ant-international-protocol-tokenized-assets-443586"
+        }
+      ],
+      "Blockchain and technology": [
+        {
+          "headline": "Ethereum Glamsterdam yükseltmesi, akıllı kontrat uyumluluğu endişeleri nedeniyle Mayıs 2027'ye kaymış olabilir",
+          "what": "Ethereum geliştiricileri, 15.000'e kadar mevcut akıllı kontratı bozabilecek, gaz fiyatlandırması için önerilen değişiklikleri tartışmak için 50'den fazla etkilenen projeyle iletişime geçti. Bu değişikliklerin karmaşıklığı, Glamsterdam yükseltmesini orijinal 2026 zaman çizelgesinden Mayıs 2027'ye erteleme olasılığını gündeme getirdi.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-11-19 03:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027"
+        },
+        {
+          "headline": "Analiz: 7+ milyon Bitcoin adresi kuantum bilişim güvenlik açığına karşı karşı",
+          "what": "CryptoSlate araştırmacıları, yaklaşık 7 milyon Bitcoin adresinin gelecekteki kuantum bilişim saldırılarına karşı potansiyel olarak savunmasız olduğunu tanımladılar. Eşleşmelerin yaklaşık üçte ikisi tarihsel zincir üstü analizden geldi ve gerçek risk cüzdan harcama koşullarına bağlıdır.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 02:30",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/over-7-million-bitcoin-could-face-a-quantum-security-reckoning-after-new-discovery/"
+        },
+        {
+          "headline": "Ledger CTO Charles Guillemet, donanım cüzdan üreticisinde dokuz yıldan sonra ayrılıyor",
+          "what": "Ledger'ın Donjon güvenlik laboratuvarını kurmaya yardımcı olan ve şirketin Baş Teknoloji Müdürü olarak dokuz yıl görev yapan Charles Guillemet, ayrılışını duyurdu. Guillemet, harekatin birkaç ay öncesinden planlandığını söyledi.",
+          "coins": "yok (personel)",
+          "timeUTC": "2026-11-19 00:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/ledger-cto-charles-guillemet-to-leave-after-nine-years-at-company"
+        }
+      ],
+      "Institutional and traditional markets": [
+        {
+          "headline": "Tokenize edilmiş hisse senetleri, daha geniş kripto satışı ortamında zincir üstü değerde 4 milyar dolara ulaşıyor",
+          "what": "Zincir üstünde ticareti yapılan tokenize edilmiş hisse varlıklarının toplam değeri 19 Kasım'da 4 milyar doları geçti; daha geniş kripto pazarı keskin bir şekilde satılırken bile kurum yatırımcılarının blokzincir tabanlı hisse senetlerine olan ilgisini gösteriyor.",
+          "coins": "çeşitli (tokenize edilmiş hisse senetleri)",
+          "timeUTC": "2026-11-19 10:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-19-tokenized-stocks-shrug-off-crypto-selloff-442829"
+        },
+        {
+          "headline": "Singapur'un merkez bankası, toptan CBDC aracılığıyla karşılaştırılan 77 milyon dolarlık tokenize edilmiş senetler yayınlıyor",
+          "what": "Singapur Merkezi Bankası (MAS), Singapur Doları Test Ağı'nda native olarak tokenize edilmiş senetler yayınladı ve işlemleri toptan merkez bankası dijital para (CBDC) ile karşılaştırdı; tokenize altyapısının artan kurumsal benimsenmesini gösteriyor.",
+          "coins": "SGD (merkez bankası dijital para)",
+          "timeUTC": "2026-11-19 09:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Bitcoin taşıma işlemleri, finansman oranları pozitif hale dönerken 2027'de patlayabilir",
+          "what": "Bankacılık analisti, 2026'da 67 ardışık negatif finansman oranı günü sonrasında, Bitcoin kaldıracına yenilenen talebinin 2027'de taşıma işlemlerini yükselteceğini tahmin ediyor. Bu strateji, yenilenen kaldıraç talebinde uygulanırsa Hazine bonolarından daha iyi performans gösterebilir.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-19 05:00",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/a-bitcoin-trade-that-doesnt-need-prices-to-rise-could-beat-treasury-bills-in-2027/"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Japan CPI (November 2026) released at 23:30 UTC on Nov 19",
+      "typicalReaction": "Orta seviye etki olayı; rapor gününün sonunda yayınlandı; bunu takip eden Asya ticaret saatlerinde değişken reaksiyon potansiyeli"
+    },
+    {
+      "event": "UK Retail Sales (November 2026) scheduled for Fri 20 Nov, 07:00 UTC",
+      "typicalReaction": "Yüksek etki geleneksel pazar yayını; Cuma sabahı UTC'de kripto pazarlarına oynaklık yayılması beklenir"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel Fiyat Farkı",
+      "definition": "Vadeli işlem kontratı ile dayanak spot fiyat arasındaki fiyat farkı; vadeli işlemlerin mevcut piyasa fiyatının üstünde (prim) veya altında (indirim) işlem gördüğünü ölçmek için kullanılır"
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Belirli bir günde fiyatı yükselen varlıklar ile düşen varlıkların yüzdesi veya sayısı; genişlik %50'nin altında (düşenler yükselişlerden fazla) zayıf veya düşüş eğilimli piyasa koşullarını gösterir"
+    },
+    {
+      "term": "Ölü Haç",
+      "definition": "Daha kısa dönemli bir hareketli ortalamanın (genellikle 50 günlük) daha uzun dönemli bir hareketli ortalamanın (genellikle 200 günlük) altından geçtiği teknik bir desen; genellikle düşüş eğilimi sinyali olarak yorumlanır"
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Perpetual vadeli işlem piyasalarında, uzun pozisyon tutan tüccarlar kısa pozisyon tutanlarına (veya tam tersi) ödeme yapan periyodik bir ödeme; kontrat fiyatlarını spot fiyatla uyumlu tutmak için tasarlanmıştır"
+    },
+    {
+      "term": "Uzun Pozisyon",
+      "definition": "Bir varlığın fiyatının yükseleceği şeklinde bir bahis; tutucu fiyat artarsa kar eder"
+    },
+    {
+      "term": "Uzun/Kısa Oran",
+      "definition": "Uzun pozisyon tutan tüccarların kısa pozisyon tutanlara kıyasla oranı; 1,0 üzerindeki oranlar daha fazla uzun pozisyon anlamına gelir"
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Perpetual vadeli işlem kontratlarında kâr ve zararları hesaplamak için kullanılan referans fiyat; spot ve vadeli işlem fiyatlarının ağırlıklı ortalaması kullanılarak manipülasyon önlemek için tasarlanmıştır"
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Vadeli işlem piyasasında açık (henüz kapatılmamış) pozisyonların toplam sayısı; artan açık pozisyon artan kaldıracı, düşen açık pozisyon pozisyonların kapatılmasını gösterir"
+    },
+    {
+      "term": "Açık Pozisyon Değişimi",
+      "definition": "Toplam açık pozisyonlarda günden güne artış veya azalış; pozitif değişim piyasaya daha fazla kaldıracın girdiğini, negatif değişim kaldıracın çıktığını gösterir"
+    },
+    {
+      "term": "Perpetual Vadeli İşlemler",
+      "definition": "Spot fiyatı takip eden ve hiçbir son tarihi olmayan türev sözleşmeler; tüccarların 8 saatlik finansman oranı anlaşmaları ile kaldıraçlı uzun veya kısa pozisyon almasına izin verir"
+    },
+    {
+      "term": "Kısa Pozisyon",
+      "definition": "Bir varlığın fiyatının düşeceği şeklinde bir bahis; tutucu fiyat düşerse kar eder"
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Piyasa satın alma siparişlerinin satış siparişlerine oranı; 1,0 üzerinde daha agresif satın almayı, 1,0 altında alıcılar (postalanan fiyatları kabul edenler) tarafından daha agresif satışı gösterir"
+    },
+    {
+      "term": "En Yüksek Pozisyon Oranı",
+      "definition": "Piyasadaki en büyük tüccarlar arasında uzun-kısa oranı; en büyük hesapların daha boğa veya ayı eğilimli olup olmadığını gösterir"
+    },
+    {
+      "term": "İşlem Hacmi",
+      "definition": "Belirli bir dönemde bir borsada ticareti yapılan varlıkların toplam değeri veya miktarı; daha yüksek hacim genellikle bir fiyat hareketinin arkasında daha güçlü bir inanç anlamına gelir"
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "d646b33559b98a0d"
+}
