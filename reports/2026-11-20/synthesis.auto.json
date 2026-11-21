@@ -1,0 +1,160 @@
+{
+  "oneLine": "Bitcoin fell below $59,000 on Friday, its lowest level since July, as a U.S. stock market rout and continued fallout from Anthropic's IPO triggered a broad cryptocurrency and tech selloff.",
+  "caveman": "Bitcoin and Ethereum both fell sharply on Friday—Bitcoin dropped about 5% and Ethereum dropped about 8%—because traders worldwide got scared and started selling. The main reason was that the U.S. stock market fell hard (more than 3% for the big companies and over 5% for technology stocks), which made people nervous about all kinds of investments. Anthropic, a company that makes AI technology, had just started trading its stock on Thursday and its share price kept falling Friday, adding to the panic. At the same time, almost all other cryptocurrencies also fell (only about 1 out of 10 coins went up), showing how scared everyone was. It was a very worrying day.",
+  "priceVolumeSummary": "Bitcoin closed Friday at $58,915 on Binance, down 4.9%, with all major exchanges trading in tight agreement (prices within a $1,100 range). Binance led trading volume with $24.8 billion in BTC, followed by OKX ($13.7 billion) and Bybit ($9.4 billion).",
+  "positioningSummary": "Traders had built large long (bullish) positions on both Bitcoin and Ethereum before Friday, with account long-to-short ratios of 3.44:1 and 3.06:1 respectively, and the largest traders favoring the long side by roughly 2:1. However, the day saw aggressive selling pressure—Bitcoin's taker buy-to-sell ratio was 0.983 (more sells), and despite Ethereum's slight buying pressure at 1.009, both faced steep declines. Funding rates turned deeply negative (Bitcoin -6.65% annualized, Ethereum -20.63% annualized), meaning short traders were paying long traders to hold positions, a bearish signal. With only 10.5% of Binance perpetuals finishing the day in the green, the selloff was one-sided and affected nearly all cryptocurrencies.",
+  "stocksSummary": "Asian stock markets crashed in line with crypto, with semiconductors leading losses: South Korea's SK Hynix fell 8.9%, Samsung Electronics 9.6%, and Hong Kong's Zhipu AI fell 11.7%. Hong Kong's MiniMax crashed 19.9%, reflecting broad tech repricing. U.S. semiconductor leveraged ETFs were hit hardest (SOXL down 25%, NVDL Nvidia 3x bull ETF down 23%), following reports that the SEC is probing Nvidia for accounting issues. Unitree Robotics in China was an outlier, rising 1.1%.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE crashed 42% with no clear news catalyst, joining the broader crypto market selloff.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ZECUSDT",
+      "explanation": "Zcash fell 15% despite positive news of DCG's Fortitude mining firm clearing a Nasdaq listing vote, suggesting profit-taking during the broader tech rout overwhelmed the news.",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA rose 15% with no identified public catalyst; possible bargain-hunting during the selloff.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin crashes to $59,000, lowest level since July",
+        "what": "Bitcoin fell to $58,915 on Friday, its lowest level since July, as U.S. stocks sold off sharply (S&P 500 down 3.5%, Nasdaq down 5.3%) and traders rushed to raise cash. The move was driven by continued fallout from Anthropic's IPO the day before and broader risk-off sentiment. All major cryptocurrencies sold off with 90% of coins on Binance finishing the day in the red.",
+        "coins": "Bitcoin (BTC)",
+        "timeUTC": "2026-11-20",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play"
+      },
+      {
+        "headline": "Wrapped Monero token crashes 99.8% after $13.5M exploit",
+        "what": "Wagyu's XMR1 (Wrapped Monero) token crashed 99.8% on Friday after an attacker accessed the deployer account and withdrew 5.2 million tokens, selling a portion for $13.5 million. The operator blamed a security breach in the web hosting layer and promised to reimburse affected traders. The exploit triggered panic selling that wiped out nearly all remaining token value.",
+        "coins": "Monero (XMR)",
+        "timeUTC": "2026-11-20",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit"
+      },
+      {
+        "headline": "U.S. Senate passes bill to ban prediction market bets on war and death",
+        "what": "The U.S. Senate passed the DEATH BETS Act on Friday, which would ban prediction market contracts tied to war, assassinations, terrorism, and death. The move responds to concerns that traders could profit from inside information on military events or political assassinations. The bill targets prediction market exchanges like Kalshi, which had been offering such contracts.",
+        "coins": "None (regulatory)",
+        "timeUTC": "2026-11-20",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Hong Kong extends crypto licensing rules to brokers, advisers, and custodians",
+          "what": "Hong Kong's Securities and Futures Commission moved Friday to expand its regulatory framework, bringing crypto brokers, investment advisers, asset managers, and custodians under licensing requirements. The move strengthens the territory's crypto regulatory clarity and paves the way for institutional market infrastructure.",
+          "coins": "None (regulatory framework)",
+          "timeUTC": "2026-11-20",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians"
+        },
+        {
+          "headline": "MoonPay applies for national trust bank charter",
+          "what": "Crypto payments firm MoonPay applied for a federal trust bank charter on Friday to expand custody and stablecoin services under federal oversight. The application joins a rush of crypto companies seeking bank charters, though these applications now face growing political scrutiny.",
+          "coins": "None (institutional infrastructure)",
+          "timeUTC": "2026-11-20",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383688/moonpay-applies-for-national-trust-bank-charter-to-grow-custody-and-stablecoin-business"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ark Invest buys $91M Anthropic shares on IPO debut, trims Ethereum and Solana ETF holdings",
+          "what": "Ark Invest purchased 934,968 Anthropic shares across six ETFs on the AI company's Nasdaq debut Friday, spending approximately $91 million. At the same time, Ark trimmed a combined $4.1 million from its Ethereum and Solana staking ETF holdings, shifting capital away from crypto despite the market selloff.",
+          "coins": "Ethereum (ETH), Solana (SOL)",
+          "timeUTC": "2026-11-20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance hack laundering escalates with $149M in bitcoin mixing",
+          "what": "Elliptic reported Friday that the amount of bitcoin from the Binance hack being mixed through coinjoins surged to $149 million. The hackers continue moving stolen funds through multiple wallets and cross-chain bridges, though little appears to have been cashed out yet.",
+          "coins": "Bitcoin (BTC)",
+          "timeUTC": "2026-11-20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Nvidia shares hit 52-week low as SEC probes accounting practices",
+          "what": "Nvidia's stock fell to a 52-week low on Friday after reports that SEC enforcement staff are examining potential accounting issues at the chipmaker. The probe adds to pressure on the company following CEO Jensen Huang's recent resignation, and contributed to the broader tech selloff that dragged down crypto.",
+          "coins": "None (traditional markets)",
+          "timeUTC": "2026-11-20",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Australia CPI (November 2026) on Wednesday 25 Nov at 00:30 UTC",
+      "typicalReaction": "Medium-impact data; inflation reading could shift risk-asset sentiment if CPI surprises significantly"
+    },
+    {
+      "event": "U.S. PCE inflation and jobless claims on Wednesday 25 Nov at 13:30 UTC",
+      "typicalReaction": "High-impact data; inflation and labor data drive Fed rate expectations and affect risk appetite across crypto and stocks"
+    },
+    {
+      "event": "Germany CPI Flash (November 2026) on Friday 27 Nov at 13:00 UTC",
+      "typicalReaction": "Medium-impact; European inflation data affects broader risk sentiment"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "In futures trading, the difference between the spot price (cash price) and the futures price."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of coins or tokens that ended the trading day higher (up), lower (down), or unchanged, showing how broad the market move was. High upPct means most coins rose; low upPct means most coins fell."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment measure ranging from 0 (Extreme Fear) to 100 (Extreme Greed) that reflects how scared or confident crypto traders are. Extreme Fear is when most traders are very worried."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "The interest rate that long (bullish) traders pay to short (bearish) traders to hold positions. Negative rates mean shorts are paying longs—a signal that bearish traders are in control. Positive rates mean longs are paying shorts—a signal that bullish traders are dominant."
+    },
+    {
+      "term": "Long-to-short ratio",
+      "definition": "The ratio of bullish (long) traders to bearish (short) traders in an account. A ratio of 3:1 means there are three times as many longs as shorts."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate profits and losses on a futures contract, often a weighted average of recent trades and spot price designed to prevent manipulation."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open (unfilled) futures contracts or derivatives positions at an exchange. Rising open interest means traders are adding new positions; falling open interest means positions are being closed."
+    },
+    {
+      "term": "Open-interest change",
+      "definition": "The increase or decrease in the total number of open contracts during the trading day, showing whether traders are adding or removing risk from the market."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders (takers buying at the ask) to market sell orders (takers selling at the bid). Above 1.0 means more buyers are taking the ask (aggressive buying); below 1.0 means more sellers are taking the bid (aggressive selling)."
+    },
+    {
+      "term": "Top-trader position ratio",
+      "definition": "The long-to-short ratio among only the largest traders (not all accounts), showing whether the biggest money is betting on prices rising or falling."
+    }
+  ],
+  "_source": "cli"
+}

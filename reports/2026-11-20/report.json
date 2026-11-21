@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-20",
+  "kind": "market",
+  "dateLong": "Friday, 20 November 2026",
+  "coversUTC": "2026-11-20 00:00–23:59 UTC",
+  "oneLine": "Bitcoin fell below $59,000 on Friday, its lowest level since July, as a U.S. stock market rout and continued fallout from Anthropic's IPO triggered a broad cryptocurrency and tech selloff.",
+  "newsCount": 8,
+  "macro": {
+    "BTC": -4.963741157216343,
+    "ETH": -7.661829753562227
+  },
+  "topMover": {
+    "symbol": "AKEUSDT",
+    "chgPct": -42.017285592174
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "21 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

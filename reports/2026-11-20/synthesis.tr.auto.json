@@ -1,0 +1,161 @@
+{
+  "oneLine": "Bitcoin Cuma günü 59.000 doların altına düşerek Temmuz ayından bu yana en düşük seviyesine geriledi. Bunun nedeni ABD borsa çöküşü ve Anthropic'in halka arzından sonra devam eden satışlar olup, geniş çaplı kripto ve teknoloji hisse senedi satışlarını tetikledi.",
+  "caveman": "Cuma günü Bitcoin ve Ethereum'un fiyatı keskin biçimde düştü. Bitcoin yaklaşık %5 oranında, Ethereum ise yaklaşık %8 oranında gerilemişti. Bunun nedeni dünya çapındaki tüccarların korkup satışa başlamalarıydı. Temel sebebi ise ABD'deki hisse senedi borsasının keskin bir şekilde çökmüş olmasıydı (büyük şirketlerin hisseleri %3'ten, teknoloji şirketlerinin hisseleri ise %5'ten fazla düştü). Bu durum insanları tüm yatırım türlerine karşı endişeli hale getirdi. Ayrıca Anthropic isimli yapay zeka şirketi Perşembe günü halka arzına başlamış ve Cuma günü hisse fiyatı düşmeye devam etmişti; bu da paniği daha da artırdı. Neredeyse tüm diğer kripto para birimleri de düştü—sadece her 10'dan 1'i fiyat artışı yaşadı. Çok korkutucu bir gündü.",
+  "priceVolumeSummary": "Bitcoin Cuma günü Binance'de 58.915 dolardan kapandı, %4,9 oranında düştü ve tüm ana borsalar sıkı bir şekilde anlaşma içinde işlem yaptı (fiyatlar 1.100 dolar aralığında). Binance, 24,8 milyar dolarlık BTC işlem hacmi ile öncü konumdaydı; bunu OKX (13,7 milyar dolar) ve Bybit (9,4 milyar dolar) izledi.",
+  "positioningSummary": "Tüccarlar Cuma öncesinde hem Bitcoin hem de Ethereum üzerinde büyük long (yükselis) pozisyonlar kurmuşlardı; hesap long-to-short oranları sırasıyla 3,44:1 ve 3,06:1 idi ve en büyük tüccarlar yaklaşık 2:1 oranında long tarafını tercih etmişlerdi. Ancak gün içinde güçlü satış baskısı yaşandı—Bitcoin'in alıcı-satıcı oranı 0,983 (daha fazla satış) oldu ve Ethereum'un hafif alıcı baskısı 1,009 olmasına rağmen, her ikisi de keskin düşüşle karşı karşıya kaldı. Finansman oranları derin negatif seviyelere geldi (Bitcoin -%6,65 yıllık, Ethereum -%20,63 yıllık); bu, short tüccarların long tüccarlarına pozisyon tutmaları için ödeme yaptığını ve bunun düşüş eğilimi sinyali olduğunu gösterir. Binance perpetuals işlemlerinin sadece %10,5'i günü yeşilde kapatmasıyla, satış tek taraflı oldu ve neredeyse tüm kripto para birimlerini etkiledi.",
+  "stocksSummary": "Asya borsaları kripto pazarına uyum sağlayarak çöktü; yarıiletkenler kayıpları öncü konumdaydı: Güney Kore'nin SK Hynix %8,9 düştü, Samsung Electronics %9,6 düştü ve Hong Kong'un Zhipu AI %11,7 düştü. Hong Kong'un MiniMax %19,9 çöktü ve geniş teknoloji yeniden değerlendirmesini yansıttı. ABD yarıiletken kaldıraçlı ETF'ler en sert şekilde vuruldu (SOXL %25 düştü, NVDL Nvidia 3x bull ETF %23 düştü); SEC'in Nvidia'yı muhasebe sorunları nedeniyle soruşturduğu raporları izlediler. Çin'de Unitree Robotics istisna olarak %1,1 yükseldi.",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE %42 oranında çöktü ve hiç açık haber katalizörü olmadı; geniş kripto pazar satışına katıldı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "ZECUSDT",
+      "explanation": "Zcash %15 düştü; DCG'nin Fortitude madencilik firmasının Nasdaq listeleme oylaması geçmesi hakkında olumlu haberlere rağmen, geniş teknoloji satışında kâr alışı haberi bastırdı.",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA %15 yükseldi; açık haber katalizörü belirlenemedi; satış sırasında pazarlık avı mümkün olabilir.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin çöküyor, 59.000 dolara düşerek Temmuz ayından bu yana en düşük seviye",
+        "what": "Bitcoin Cuma günü 58.915 dolara düşerek Temmuz ayından bu yana en düşük seviyesine geriledi. ABD hisseleri keskin bir şekilde satıldı (S&P 500 %3,5 düştü, Nasdaq %5,3 düştü) ve tüccarlar nakit para toplamak için acele etti. Hareket, bir gün önceki Anthropic'in halka arzından sonra devam eden satışlar ve geniş çaplı risk-off duyarlılığı tarafından tetiklendi. Neredeyse tüm ana kripto para birimleri satıldı; Binance'deki madeni paraların %90'ı günü kırmızıda kapattı.",
+        "coins": "Bitcoin (BTC)",
+        "timeUTC": "2026-11-20",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play"
+      },
+      {
+        "headline": "Wrapped Monero token %99,8 çöküyor; 13,5 milyon dolarlık exploit sonrası",
+        "what": "Wagyu'nun XMR1 (Wrapped Monero) token'ı Cuma günü %99,8 çöktü; saldırgan dağıtıcı hesaba erişerek 5,2 milyon token çektikten sonra bir kısmını 13,5 milyon dolar karşılığında sattı. İşletmeci, web barındırma katmanında bir güvenlik ihlali olduğunu suçladı ve etkilenen tüccarları geri ödemeyi vaat etti. Exploit, paniğin satışını tetikledi ve neredeyse tüm kalan token değerini sildi.",
+        "coins": "Monero (XMR)",
+        "timeUTC": "2026-11-20",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit"
+      },
+      {
+        "headline": "ABD Senatı, savaş ve ölüm üzerine bahis yapmayı yasaklayan tasarıyı geçiriyor",
+        "what": "ABD Senatı, Cuma günü DEATH BETS Yasası'nı geçirdi; bu yasa, savaş, suikast, terörizm ve ölüm ile bağlantılı tahmin pazar kontratlarını yasaklayacak. Hareket, tüccarların askeri olaylar veya siyasi suikastlar hakkındaki iç bilgilerden kar elde etme endişelerine yanıt olarak yapıldı. Tasarı, Kalshi gibi bu tür kontratlar sunmakta olan tahmin pazar borsalarını hedeflemektedir.",
+        "coins": "None (regulatory)",
+        "timeUTC": "2026-11-20",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Hong Kong, kripto lisanslama kurallarını aracılara, danışmanlara ve gözetim sağlayıcılarına uzatıyor",
+          "what": "Hong Kong'un Menkul Kıymetler ve Vadeli İşlemler Komisyonu, Cuma günü düzenleyici çerçevesini genişletmeyi taşıdı; kripto aracıları, yatırım danışmanları, varlık yöneticileri ve gözetim sağlayıcıları lisanslama gereklilikleri altına alındı. Hamle, bölgenin kripto düzenleyici netliğini güçlendirir ve kurumsal pazar altyapısının yolunu açar.",
+          "coins": "None (regulatory framework)",
+          "timeUTC": "2026-11-20",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians"
+        },
+        {
+          "headline": "MoonPay, ulusal tröst bankası charter'ı için başvuru yapıyor",
+          "what": "Kripto ödeme firması MoonPay, Cuma günü federal tröst bankası charter'ı için başvuru yaptı; bu, federal denetim altında gözetim ve stablecoin hizmetlerini genişletme amaçlıdır. Başvuru, kripto şirketlerinin banka charter'ı aradığı duruma katılıyor; ancak bu başvurular şu anda artan politik incelemeyle karşı karşıyadır.",
+          "coins": "None (institutional infrastructure)",
+          "timeUTC": "2026-11-20",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383688/moonpay-applies-for-national-trust-bank-charter-to-grow-custody-and-stablecoin-business"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ark Invest, IPO açılışında 91 milyon dolar Anthropic hisse satın alıyor, Ethereum ve Solana ETF'lerini kesiyor",
+          "what": "Ark Invest, yapay zeka şirketinin Nasdaq açılışında Cuma günü altı ETF'de 934.968 Anthropic hissesi satın aldı; harcama yaklaşık 91 milyon dolardı. Aynı zamanda Ark, birleştirilmiş 4,1 milyon doları Ethereum ve Solana staking ETF'lerinden kesti; pazar satışına rağmen kripto'dan sermaye kaydırdı.",
+          "coins": "Ethereum (ETH), Solana (SOL)",
+          "timeUTC": "2026-11-20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Binance hack para aklama; 149 milyon dolar bitcoin mixing'de",
+          "what": "Elliptic, Cuma günü Binance hack'ından bitcoin miktarının coinjoin'ler aracılığıyla karışması 149 milyon dolara çıktığını bildirdi. Hackerler, çalınan fonları birden fazla cüzdan ve cross-chain köprü aracılığıyla taşımaya devam ediyor; ancak henüz çok az miktarı nakde çevrilmiş gibi görünüyor.",
+          "coins": "Bitcoin (BTC)",
+          "timeUTC": "2026-11-20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Nvidia hisseleri SEC soruşturması ortasında 52 haftalık düşüğe çarpıyor",
+          "what": "Nvidia'nın hissesi Cuma günü 52 haftalık düşüğe düştü; SEC yaptırım personelinin çip yapıcısında potansiyel muhasebe sorunlarını incelediği raporları izlediler. Soruşturma, CEO Jensen Huang'ın yakın zamandaki istifasından sonra şirkete uygulanan baskıya eklenmiştir ve kripto'yu aşağı çeken geniş teknoloji satışına katkıda bulunmuştur.",
+          "coins": "None (traditional markets)",
+          "timeUTC": "2026-11-20",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Australia CPI (November 2026) on Wednesday 25 Nov at 00:30 UTC",
+      "typicalReaction": "Orta derecede etkili veri; enflasyon okuması beklenenden önemli ölçüde farklı olması halinde risk varlığı duyarlılığını kaydırdı"
+    },
+    {
+      "event": "U.S. PCE inflation and jobless claims on Wednesday 25 Nov at 13:30 UTC",
+      "typicalReaction": "Yüksek derecede etkili veri; enflasyon ve işgücü verileri Fed faiz oranı beklentilerini ve kripto ile hisse senetleri arasında risk iştahını kontrol eder"
+    },
+    {
+      "event": "Germany CPI Flash (November 2026) on Friday 27 Nov at 13:00 UTC",
+      "typicalReaction": "Orta derecede etkili; Avrupa enflasyon verileri geniş çaplı risk duyarlılığını etkiler"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Vadeli işlem ticaretinde, spot fiyat (nakit fiyat) ile vadeli işlem fiyatı arasındaki fark."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Madeni paraların veya token'ların ticaret günü daha yüksek (yukarı), daha düşük (aşağı) veya değişmeden kapandığının yüzdesi; pazar hareketinin ne kadar geniş olduğunu gösteriyor. Yüksek upPct çoğu madeni paranın yükseldiği anlamına gelir; düşük upPct çoğu madeni paranın düştüğü anlamına gelir."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında değişen ve kripto tüccarlarının ne kadar korktuğunu veya güvende olduğunu yansıtan bir duyarlılık ölçüsü. Aşırı Korku, tüccarların çoğunun çok endişeli olduğu zamandır."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Long (yükselis) tüccarların short (düşüş) tüccarlarına pozisyon tutmaları için ödedikleri faiz oranı. Negatif oranlar short tüccarların long tüccarlarına ödeme yaptığı anlamına gelir—bu düşüş eğilimi sinyalidir. Pozitif oranlar long tüccarların short tüccarlarına ödeme yaptığı anlamına gelir—bu yükselis eğilimi sinyalidir."
+    },
+    {
+      "term": "Long-to-Short Oranı",
+      "definition": "Bir hesaptaki yükselis (long) tüccarların sayısının düşüş (short) tüccarlarının sayısına oranı. 3:1 oranı, long'ların short'lardan üç kat daha fazla olduğu anlamına gelir."
+    },
+    {
+      "term": "İşaretleme Fiyatı",
+      "definition": "Vadeli işlem kontratındaki kar ve zararları hesaplamak için kullanılan referans fiyat; genellikle son işlemlerin ve spot fiyatın ağırlıklı ortalaması olup manipülasyonu önlemek için tasarlanmıştır."
+    },
+    {
+      "term": "Açık Faiz",
+      "definition": "Bir borsada açık (kapatılmamış) vadeli işlem kontratlarının veya türev pozisyonlarının toplam sayısı. Artan açık faiz tüccarların yeni pozisyon eklediği anlamına gelir; düşen açık faiz pozisyonların kapatıldığı anlamına gelir."
+    },
+    {
+      "term": "Açık Faiz Değişimi",
+      "definition": "Ticaret günü içinde açık kontratların toplam sayısında meydana gelen artış veya azalış; tüccarların pazara risk ekleyip eklemediğini veya çıkartıp çıkartmadığını gösterir."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Pazar alış emirlerinin (alıcıları satış fiyatından alan) pazar satış emirlerine (satıcıları alış fiyatından alan) oranı. 1,0'ın üzerindelik oranlar daha fazla alıcının satış fiyatını kabul ettiği anlamına gelir (saldırgan alış); 1,0'ın altındaki oranlar daha fazla satıcının alış fiyatını kabul ettiği anlamına gelir (saldırgan satış)."
+    },
+    {
+      "term": "En Büyük Tüccar Pozisyon Oranı",
+      "definition": "Sadece en büyük tüccarlar arasındaki (tüm hesaplar değil) long-to-short oranı; en büyük paranın fiyatların yükselmesine mi yoksa düşmesine mi bahis yapıldığını gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "50678967af0099c9"
+}

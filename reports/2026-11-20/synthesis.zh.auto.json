@@ -1,0 +1,161 @@
+{
+  "oneLine": "比特币在周五跌至59,000美元以下,是自7月以来的最低水平,因为美国股市大幅下跌和Anthropic的IPO后续冲击引发了加密货币和科技股的广泛抛售。",
+  "caveman": "比特币和以太坊在周五都大幅下跌——比特币下跌约5%,以太坊下跌约8%——因为全球交易员感到害怕,开始大量抛售。主要原因是美国股市大幅下跌(大型公司下跌超过3%,科技股下跌超过5%),这让人们对各种投资都感到担忧。一家叫Anthropic的AI公司在周四刚刚上市,周五股价继续下跌,加剧了市场恐慌。与此同时,几乎所有其他加密货币也都下跌了(币安的币中只有约十分之一上升),说明整个市场都很害怕。这是令人非常担心的一天。",
+  "priceVolumeSummary": "比特币在币安周五收盘价为$58,915,下跌4.9%,所有主要交易所价格十分接近(价格差异在$1,100以内)。币安领导BTC交易量,达248亿美元,其次是OKX(137亿美元)和Bybit(94亿美元)。",
+  "positioningSummary": "交易员在周五之前在比特币和以太坊上建立了大额多头头寸,账户多空比分别为3.44:1和3.06:1,最大的交易员看涨比例约为2:1。但是周五出现了激进的抛售压力——比特币的吃单买卖比为0.983(卖盘更多),尽管以太坊有轻微的买盘压力1.009,两者都面临急剧下跌。资金费率转为深度负值(比特币年化-6.65%,以太坊年化-20.63%),意味着空头交易员向多头交易员支付费用来维持头寸,这是看跌信号。由于币安永续期货中只有10.5%在当日收涨,抛售是单边的,影响了几乎所有加密货币。",
+  "stocksSummary": "亚洲股市跟随加密货币下跌,半导体板块领跌:韩国SK海力士下跌8.9%,三星电子下跌9.6%,香港智谱AI下跌11.7%。香港MiniMax暴跌19.9%,反映出广泛的科技股调整。美国半导体杠杆ETF遭受最严重打击(SOXL下跌25%,NVDL英伟达3倍做多ETF下跌23%),源于SEC正在调查英伟达会计问题的报道。中国的宇树机器人是异类,上升1.1%。",
+  "movers": [
+    {
+      "symbol": "AKEUSDT",
+      "explanation": "AKE暴跌42%,没有明确的新闻催化剂,只是加入了更大范围的加密货币市场抛售。",
+      "hasCause": false
+    },
+    {
+      "symbol": "ZECUSDT",
+      "explanation": "Zcash下跌15%,尽管有DCG旗下Fortitude矿业公司通过纳斯达克上市投票的积极新闻,但在更广泛的科技股崩盘中,获利了结压力压倒了这一消息。",
+      "hasCause": true
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA上升15%,没有发现明确的公开催化剂;可能是在抛售期间的低价买入。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "比特币跌至$59,000,创自7月以来的最低水平",
+        "what": "比特币在周五跌至$58,915,创自7月以来的最低水平,因为美国股市大幅抛售(标普500指数下跌3.5%,纳斯达克指数下跌5.3%)和交易员争相筹集现金。这一跌幅由前一天Anthropic的IPO后续影响和更广泛的风险规避情绪驱动。所有主要加密货币都出现了抛售,币安上90%的币在当日收跌。",
+        "coins": "Bitcoin (BTC)",
+        "timeUTC": "2026-11-20",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play"
+      },
+      {
+        "headline": "包装门罗币代币在$13.5M漏洞后暴跌99.8%",
+        "what": "Wagyu的XMR1(包装门罗币)代币在周五暴跌99.8%,因为一名攻击者访问了部署者账户并提取了520万个代币,并出售了部分获得$13.5百万。运营方指责网络托管层存在安全漏洞,并承诺补偿受影响的交易员。这次漏洞引发了恐慌性抛售,几乎清空了所有剩余的代币价值。",
+        "coins": "Monero (XMR)",
+        "timeUTC": "2026-11-20",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit"
+      },
+      {
+        "headline": "美国参议院通过法案禁止战争和死亡预测市场投注",
+        "what": "美国参议院在周五通过了《死亡赌注法案》,该法案将禁止与战争、暗杀、恐怖主义和死亡相关的预测市场合约。此举旨在解决交易员可能从军事事件或政治暗杀的内部信息获利的担忧。该法案针对Kalshi等一直提供此类合约的预测市场交易所。",
+        "coins": "None (regulatory)",
+        "timeUTC": "2026-11-20",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "香港将加密货币许可规则扩展至经纪商、顾问和保管机构",
+          "what": "香港证券及期货事务监察委员会在周五采取措施扩展其监管框架,将加密货币经纪商、投资顾问、资产管理公司和保管机构纳入许可证要求。此举加强了该地区加密货币监管的清晰度,为机构市场基础设施铺平了道路。",
+          "coins": "None (regulatory framework)",
+          "timeUTC": "2026-11-20",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians"
+        },
+        {
+          "headline": "MoonPay申请国家信托银行执照",
+          "what": "加密支付公司MoonPay在周五申请了联邦信托银行执照,以便在联邦监管下扩展托管和稳定币服务。该申请加入了加密公司申请银行执照的浪潮,尽管这些申请现在面临日益增长的政治审查。",
+          "coins": "None (institutional infrastructure)",
+          "timeUTC": "2026-11-20",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383688/moonpay-applies-for-national-trust-bank-charter-to-grow-custody-and-stablecoin-business"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "ARK Invest在IPO首日购买$91M Anthropic股票,减持以太坊和Solana ETF",
+          "what": "ARK Invest在AI公司纳斯达克上市首日,通过六只ETF购买了934,968股Anthropic股票,支出约$91百万。与此同时,ARK从其以太坊和Solana质押ETF中共减持了$41百万,在市场抛售期间将资本转向其他领域。",
+          "coins": "Ethereum (ETH), Solana (SOL)",
+          "timeUTC": "2026-11-20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "币安黑客洗钱升级,混币规模达$149M比特币",
+          "what": "椭圆形公司报告说,来自币安黑客事件的被混币比特币规模在周五升至$149百万。黑客继续通过多个钱包和跨链桥接移动被盗资金,但看起来很少有资金被兑现。",
+          "coins": "Bitcoin (BTC)",
+          "timeUTC": "2026-11-20",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "英伟达股价创52周新低,因SEC调查会计惯例",
+          "what": "英伟达股票在周五跌至52周低位,原因是报道称美国证券交易委员会执法人员正在审查该芯片制造商的潜在会计问题。该调查加重了公司面临的压力,该公司CEO詹森·黄最近辞职,并对拖累加密货币的更广泛科技股抛售做出了贡献。",
+          "coins": "None (traditional markets)",
+          "timeUTC": "2026-11-20",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "Australia CPI (November 2026) on Wednesday 25 Nov at 00:30 UTC",
+      "typicalReaction": "中等影响数据;如果通胀数据出现显著偏差,可能会改变风险资产情绪"
+    },
+    {
+      "event": "U.S. PCE inflation and jobless claims on Wednesday 25 Nov at 13:30 UTC",
+      "typicalReaction": "高影响数据;通胀和就业数据推动美联储利率预期,影响加密货币和股票的风险偏好"
+    },
+    {
+      "event": "Germany CPI Flash (November 2026) on Friday 27 Nov at 13:00 UTC",
+      "typicalReaction": "中等影响;欧洲通胀数据影响更大范围的风险情绪"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货交易中现货价格(现金价格)与期货价格之间的差异。"
+    },
+    {
+      "term": "涨跌面",
+      "definition": "交易日结束时上涨、下跌或持平的币或代币的百分比,显示市场波动有多广泛。高涨幅百分比意味着大多数币上升;低涨幅百分比意味着大多数币下跌。"
+    },
+    {
+      "term": "恐惧贪婪指数",
+      "definition": "一个从0(极度恐惧)到100(极度贪婪)的情绪指标,反映加密交易员有多害怕或自信。极度恐惧是指大多数交易员非常担心的时候。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "多头(看涨)交易员向空头(看跌)交易员支付以维持头寸的利率。负费率意味着空头向多头支付——这是空头交易员控制的信号。正费率意味着多头向空头支付——这是多头交易员主导的信号。"
+    },
+    {
+      "term": "多空比",
+      "definition": "账户中看涨(多头)交易员与看跌(空头)交易员的比例。3:1的比例意味着多头交易员数量是空头的三倍。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算期货合约损益的参考价格,通常是最近交易和现货价格的加权平均值,旨在防止价格操纵。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "交易所未平仓(未成交)期货合约或衍生品头寸的总数。持仓量上升意味着交易员在增加新头寸;持仓量下降意味着头寸在平仓。"
+    },
+    {
+      "term": "持仓量变化",
+      "definition": "交易日内开仓合约总数的增减,显示交易员是在增加还是减少市场风险。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "市场买单(吃卖价的买方)与市场卖单(吃买价的卖方)的比例。高于1.0意味着更多买方在吃卖价(积极买入);低于1.0意味着更多卖方在吃买价(积极卖出)。"
+    },
+    {
+      "term": "头部交易员头寸比",
+      "definition": "仅最大交易员(而非所有账户)中的多空比,显示最大的资金是在押注价格上升还是下跌。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "50678967af0099c9"
+}
