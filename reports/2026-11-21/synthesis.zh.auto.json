@@ -1,0 +1,232 @@
+{
+  "oneLine": "比特币从两年来的最低价格反弹，周六收盘上涨2%，期间发生了18亿美元的平仓，以太坊上涨3.9%，Chainflip遭遇486万美元的黑客攻击。",
+  "caveman": "比特币周六的行情非常剧烈。早上价格直接跌到57,000美元——这是两年来的最低点。投资者开始恐慌并大量抛售，这导致那些借钱买比特币的交易员被强制平仓。这一轮下跌造成了18亿美元的亏损。不过到了下午，比特币反弹回升，收盘价接近60,200美元，比开盘价上涨了2%。以太坊也跟着涨了3.9%。坏消息是Chainflip被黑了——这是一个在不同区块链之间转移资金的平台，黑客偷走了系统的密钥，窃取了486万美元。整个市场都很紧张（恐惧指数一直是12，最严重的水平），所以大投资者都在观望，不敢入场。",
+  "priceVolumeSummary": "比特币在币安收盘价为60,191美元，上涨2.14%，Bybit、OKX和Gate的价格跟得很紧（涨幅都在2.14%-2.16%）。以太坊上涨3.87%至1,684.86美元。币安的交易量最大：比特币成交额212亿美元，以太坊成交额104亿美元。",
+  "positioningSummary": "融资利率出现分化：比特币的资金费率略显负值，年化为−2.95%（币安），以太坊转为正值，年化为2.98%。大户头寸保持多头占优（比特币前五大持仓比例1.68，以太坊1.62）。两个主流币的吃单卖单比都低于1（比特币0.945，以太坊0.915），说明做空盘面的力量较强。多空账户比维持较高水平（比特币3.48，以太坊2.84），反映机构投资者多头仓位较重。币安永续合约中58.6%的交易对上涨，市场宽度指标改善，显示早间抛售后市场在逐步恢复。",
+  "stocksSummary": "亚洲和美国股市周末休市。大宗商品合约涨幅温和：黄金+0.41%，原油+0.31%至0.37%，铜+0.49%。",
+  "movers": [
+    {
+      "symbol": "SKYAIUSDT",
+      "explanation": "未发现明显公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "未发现明显公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "未发现明显公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "比特币在18亿美元平仓潮后反弹至6万美元上方",
+        "what": "比特币周六早间跌破57,000美元——创两年新低，引发了18亿美元的做多仓位被强制平仓。这波下跌在日间反转，比特币最终回升至6万美元上方，累计上涨2.14%。",
+        "coins": "BTC",
+        "timeUTC": "2026-11-21 16:30 UTC (approximate)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+      },
+      {
+        "headline": "跨链协议Chainflip的FLIP币在遭486万美元黑客攻击后暴跌30%",
+        "what": "Chainflip的以太坊金库遭黑客攻击，损失486万美元的ETH和稳定币（520.2个ETH、325万USDC和75.8万USDT），黑客利用了被攻破的验证者签名密钥完成了窃取。Chainflip随后暂停了协议运行，FLIP代币下跌34%。",
+        "coins": "FLIP",
+        "timeUTC": "2026-11-21 15:14 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
+      },
+      {
+        "headline": "XRP在多头平仓和ETF资产跌破10亿美元后下跌10%",
+        "what": "XRP在周六的平仓潮中创出11月以来新低，大部分XRP平仓来自做多头寸。XRP的ETF资产规模也跌破了10亿美元，进一步加重了抛压。",
+        "coins": "XRP",
+        "timeUTC": "2026-11-21 03:52 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "俄罗斯允许比特币交易，莫斯科交易所筹备12月推出",
+          "what": "从11月22日起，俄罗斯交易所在中央银行批准规则后可以开始交易比特币，但客户暂时不能用它进行支付。莫斯科交易所计划在12月1日进行试运行。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-21 18:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-bitcoin-trading-rules-moscow-exchange/"
+        },
+        {
+          "headline": "香港推动将加密资产保管人和顾问纳入监管范围",
+          "what": "香港证监会提议扩大持牌制度的覆盖范围，将加密资产保管人和顾问纳入其中，以加强投资者保护。该法案将在12月2日首次在立法会提交审议。",
+          "coins": "",
+          "timeUTC": "2026-11-21 03:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill"
+        },
+        {
+          "headline": "新加坡拟测试AI代理进行稳定币支付",
+          "what": "新加坡计划建立一个沙盒，测试银行和支付服务商如何在AI代理执行数字货币支付前验证其权限，这将进一步拓展稳定币的应用场景。",
+          "coins": "",
+          "timeUTC": "2026-11-21 16:13 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/singapore-wants-to-test-stablecoin-payments-by-ai-agents/"
+        },
+        {
+          "headline": "美国议员提议预测市场举报人最高可获30%奖励",
+          "what": "新的举报人条款规定，在违法罚款超过100万美元的预测市场欺诈案件中，可向举报人提供罚款的10%至30%作为奖励，目的是遏止预测市场中的内幕交易行为。",
+          "coins": "",
+          "timeUTC": "2026-11-21 06:05 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Cyber遭疑似100万美元桥接漏洞攻击，Upbit和Bithumb冻结提现",
+          "what": "韩国交易所Upbit和Bithumb已暂停CYBER代币的充提，原因是疑似发生了安全事件。该事件涉及资金规模约100万美元。",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-21 17:37 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "BTCS向SEC披露其5400万美元Aave借贷面临清算风险",
+          "what": "以太坊财库公司BTCS向SEC披露，其在Aave借入的5400万美元因为ETH价格下跌而面临清算风险。公司在10天内减少了约1000万美元的Aave债务，但抵押品压力仍然很大。",
+          "coins": "ETH",
+          "timeUTC": "2026-11-21 10:50 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+        },
+        {
+          "headline": "Aave的40亿美元USDC借贷上限可能仅剩1.9亿美元可供提现",
+          "what": "按照11月20日晚期的供应量，如果Aave的USDC新借贷上限40亿美元被填满，存款人仅能提现约1.9亿美元USDC，这引发了市场对流动性的担忧。",
+          "coins": "USDC",
+          "timeUTC": "2026-11-21 17:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/"
+        },
+        {
+          "headline": "币安可在区块链确认后仍继续持有MEXC充值资金",
+          "what": "币安通知用户，即使MEXC充值已在区块链确认，币安仍可能继续持有这些资金，可能导致用户虽然链上已结算但仍无法使用。这反映了主流交易所在充值处理中存在的风险。",
+          "coins": "",
+          "timeUTC": "2026-11-21 06:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-can-hold-mexc-deposits-even-after-the-blockchain-clears-them/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "以太坊Glamsterdam升级延期暴露其大型升级的困境",
+          "what": "以太坊基金会研究人员宣布，该网络的重大升级Glamsterdam已延期至2027年。这种反复延期的现象暴露了协议开发进度与升级交付能力之间日益扩大的矛盾。",
+          "coins": "ETH",
+          "timeUTC": "2026-11-21 10:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereums-glamsterdam-delay-reveals-a-troubling-pattern-behind-its-biggest-network-upgrades/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "诈骗分子使用虚假加密交易所诈骗3700万美元",
+          "what": "美国证监会指控8家科罗拉多州注册的实体（疑似在海外运营）冒充合法顾问和加密平台，甚至伪造证监会证书和备案文件，诈骗美国投资者3700多万美元。",
+          "coins": "",
+          "timeUTC": "2026-11-21 15:34 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec"
+        },
+        {
+          "headline": "黑客在53小时内替换托管DeepSeek模型并移除安全防护",
+          "what": "Prime Intellect报告称黑客在53小时内替换了一个托管的DeepSeek AI模型，并移除了其安全过滤。被篡改的模型在有害测试中的拒绝率为0，而正版模型能拒绝240个测试中的198个。",
+          "coins": "",
+          "timeUTC": "2026-11-21 20:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hackers-swapped-a-hosted-deepseek-model-for-53-hours-and-stripped-away-its-safety-protections/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-20",
+    "summary": "美国现货比特币和以太坊ETF在11月20日（报告前最后的美国交易日）录得了大额净流出。比特币ETF流出9,745个BTC（约5.9987亿美元），以太坊ETF流出80,219个ETH（约1.3956亿美元）。11月16日至20日的一周内，比特币和以太坊ETF累计流出14.7亿美元，贝莱德基金在两类ETF上的流出均居首位。",
+    "source": "Farside Investors & SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-net-outflows-on-november-20"
+  },
+  "calendarNotes": [
+    {
+      "event": "Australia CPI (November 2026) on November 25 at 00:30 UTC",
+      "typicalReaction": "中等影响数据；美元走弱通常对加密资产有利。"
+    },
+    {
+      "event": "US Personal Income, PCE, and Initial Jobless Claims on November 25 at 13:30 UTC",
+      "typicalReaction": "美国中等影响数据；弱于预期的数据可能缓解美联储紧缩预期，利好加密资产。"
+    },
+    {
+      "event": "Germany and Eurozone CPI (flash) on November 27 and December 1",
+      "typicalReaction": "中等影响通胀数据；可能影响美元/欧元走势和广泛的风险偏好。"
+    },
+    {
+      "event": "US ISM Manufacturing PMI on December 1 at 15:00 UTC",
+      "typicalReaction": "中等影响经济数据；弱数据可能缓解衰退担忧，有利于加密资产。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "抵押品",
+      "definition": "在借贷或杠杆头寸中锁定的资产，用作担保。如果抵押品价值跌至一定程度，你的头寸会被自动平仓（清算）。"
+    },
+    {
+      "term": "ETF（交易所交易基金）",
+      "definition": "跟踪资产价格（如比特币或以太坊）并在交易所交易的金融产品。美国现货ETF实际持有真实的比特币或以太坊，而不是期货合约。"
+    },
+    {
+      "term": "ETF流入/流出",
+      "definition": "当投资者购买ETF时为流入，会向基金中添加新的比特币或以太坊。当投资者赎回时为流出，比特币或以太坊会从基金中移除。净流出意味着赎回的人多于申购的人。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "衡量市场情绪的指标，范围从0（极度恐惧）到100（极度贪婪）。极度恐惧表示市场非常担忧；极度贪婪表示人们信心爆棚。"
+    },
+    {
+      "term": "融资利率",
+      "definition": "永续期货交易者之间定期支付的费用。融资利率为正时，做多者向做空者支付；为负时，做空者向做多者支付。融资利率越高说明交易者的信心越片面。"
+    },
+    {
+      "term": "清算",
+      "definition": "当交易者的杠杆头寸因为抵押品价值跌破最低要求而被强制平仓。交易所会自动卖出头寸，通常会造成亏损，以归还债务。"
+    },
+    {
+      "term": "做多/做空",
+      "definition": "做多头寸是赌资产价格上升。做空头寸是赌资产价格下跌。多空比反映有多少交易者在赌价格上升对比赌价格下跌。"
+    },
+    {
+      "term": "多空比",
+      "definition": "做多头寸数量与做空头寸数量的比例。多空比大于1说明做多的人更多（看涨）。多空比小于1说明做空的人更多（看跌）。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所用来判断杠杆头寸是否应被清算的参考价格。通常是多个交易场所价格的加权平均，用来防止价格被操纵。"
+    },
+    {
+      "term": "市场宽度",
+      "definition": "市场中上升的币种占比与下跌的币种占比。宽度高（更多币上升）表示市场走势稳健；宽度低表示疲弱集中在少数资产。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "永续期货合约中所有未平仓头寸的总数。持仓量上升说明交易者在增加杠杆；持仓量下降说明头寸在平仓。"
+    },
+    {
+      "term": "吃单买量/卖量比",
+      "definition": "市价买单与市价卖单的比例。大于1说明买盘更主动，表现为更强的上升压力；小于1说明卖盘更主动，表现为更强的下跌压力。"
+    },
+    {
+      "term": "前五大持仓比例",
+      "definition": "最大交易者（成交量最高的账户）的多空比。这个指标很关键，因为大户的头寸通常比散户的头寸更能推动价格。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "c31c92b5ca891d88"
+}

@@ -1,0 +1,231 @@
+{
+  "oneLine": "Bitcoin recovered from its lowest price in two years to close Saturday up 2% after $1.8 billion in liquidations, while Ethereum gained 3.9% and Chainflip suffered a $4.86 million hack.",
+  "caveman": "Bitcoin had a scary, wild day on Saturday. Early in the day it dropped to $57,000—the lowest it's been in two years. People panicked and started selling, which forced traders who had borrowed money to buy Bitcoin to sell their positions quickly. This wiped out $1.8 billion in bets. But later in the day Bitcoin bounced back up and closed around $60,200, up 2% from where it started. Ethereum also climbed 3.9%. The bad news: Chainflip, a protocol that moves money between blockchains, got hacked for $4.86 million when someone stole the system's signing key. The whole market was extremely nervous (fear level stayed at 12, the most extreme), so big investors were staying away.",
+  "priceVolumeSummary": "Bitcoin closed 2.14% higher at $60,191 on Binance, with Bybit, OKX, and Gate tracking closely (2.14–2.16% gains). Ethereum gained 3.87% to $1,684.86. Binance led trading volume: $21.2 billion in BTC volume and $10.4 billion in ETH volume.",
+  "positioningSummary": "Funding rates split: Bitcoin held a slight negative at −2.95% annualized (Binance), while Ethereum turned positive at 2.98%. Large traders remained long-heavy (Bitcoin top-position ratio 1.68, Ethereum 1.62). Both majors showed modest selling pressure in taker buy/sell ratios (BTC 0.945, ETH 0.915 — below 1 indicates more aggressive selling). Long/short account ratios stayed elevated (Bitcoin 3.48, Ethereum 2.84), reflecting institutional longs. Market breadth improved to 58.6% of Binance perps trading higher, suggesting broad recovery from the morning selloff.",
+  "stocksSummary": "Asian and US equity markets closed for the weekend. Commodity perps moved modestly higher: gold +0.41%, crude oil +0.31–0.37%, copper +0.49%.",
+  "movers": [
+    {
+      "symbol": "SKYAIUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+        "what": "Bitcoin fell below $57,000—its lowest price in two years—early Saturday, triggering $1.8 billion in forced liquidations of leveraged long positions. The sell-off reversed during the day, with Bitcoin recovering to close above $60,000, up 2.14%.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-21 16:30 UTC (approximate)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+      },
+      {
+        "headline": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+        "what": "Chainflip lost $4.86 million in ETH and stablecoins (520.2 ETH, 3.25 million USDC, 758,000 USDT) from its Ethereum vault when an attacker used what appears to be a compromised validator signing key to withdraw funds. Chainflip paused the protocol; the FLIP token dropped 34%.",
+        "coins": "FLIP",
+        "timeUTC": "2026-11-21 15:14 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
+      },
+      {
+        "headline": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+        "what": "XRP broke its previous November lows during Saturday's crypto liquidation wave, with long positions accounting for most of the XRP liquidations. The token's ETF assets also fell below $1 billion, adding to selling pressure.",
+        "coins": "XRP",
+        "timeUTC": "2026-11-21 03:52 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Russia allows Bitcoin trading as sanctioned Moscow Exchange prepares December launch",
+          "what": "From November 22, Russian exchanges can begin trading Bitcoin once the central bank approves rules, though customers cannot yet use it for payments. Moscow Exchange plans a pilot launch December 1.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-21 18:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-bitcoin-trading-rules-moscow-exchange/"
+        },
+        {
+          "headline": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
+          "what": "Hong Kong's securities regulator proposed extending licensing rules to crypto custodians and advisers to strengthen investor protections. The bill is set for first reading in the Legislative Council on December 2.",
+          "coins": "",
+          "timeUTC": "2026-11-21 03:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill"
+        },
+        {
+          "headline": "Singapore wants to test stablecoin payments by AI agents",
+          "what": "Singapore is planning a sandbox to test how banks and payment providers verify an AI agent's authority before executing payments in digital money, expanding the use case for stablecoins.",
+          "coins": "",
+          "timeUTC": "2026-11-21 16:13 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/singapore-wants-to-test-stablecoin-payments-by-ai-agents/"
+        },
+        {
+          "headline": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
+          "what": "New whistleblower provisions would offer 10% to 30% of monetary sanctions in qualifying prediction market fraud cases exceeding $1 million in penalties, aiming to curb insider trading in prediction markets.",
+          "coins": "",
+          "timeUTC": "2026-11-21 06:05 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
+          "what": "South Korean exchanges Upbit and Bithumb suspended deposits and withdrawals for the CYBER token, citing a suspected security incident. The incident is estimated to involve around $1 million.",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-21 17:37 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "BTCS warns SEC its $54 million Aave loan could be liquidated",
+          "what": "BTCS, an Ethereum treasury firm, disclosed to the SEC that its $54 million Aave loan is under liquidation pressure as ETH prices declined. The firm cut its reported Aave debt by about $10 million in ten days but collateral remains strained.",
+          "coins": "ETH",
+          "timeUTC": "2026-11-21 10:50 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+        },
+        {
+          "headline": "Aave's $4 billion USDC borrow cap could leave just $190 million available for withdrawals",
+          "what": "If Aave's new $4 billion cap on USDC borrowing fills at late November 20 supply levels, only about $190 million USDC would remain available for depositors to withdraw, raising concerns about liquidity.",
+          "coins": "USDC",
+          "timeUTC": "2026-11-21 17:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/"
+        },
+        {
+          "headline": "Binance can hold MEXC deposits even after the blockchain clears them",
+          "what": "Binance told customers it may hold MEXC deposits even after blockchain confirmation, potentially delaying access to funds despite on-chain settlement. This highlights deposit processing risks on major exchanges.",
+          "coins": "",
+          "timeUTC": "2026-11-21 06:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-can-hold-mexc-deposits-even-after-the-blockchain-clears-them/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Ethereum's Glamsterdam delay reveals troubling pattern behind its biggest network upgrades",
+          "what": "Ethereum Foundation researchers announced that Glamsterdam, the network's major upgrade, has slipped into 2027. The repeated delays expose a growing disconnect between the protocol's development pace and its ability to meet upgrade deadlines.",
+          "coins": "ETH",
+          "timeUTC": "2026-11-21 10:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereums-glamsterdam-delay-reveals-a-troubling-pattern-behind-its-biggest-network-upgrades/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Fraudsters used fake crypto exchanges to steal $37 million",
+          "what": "The SEC alleged that eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of more than $37 million.",
+          "coins": "",
+          "timeUTC": "2026-11-21 15:34 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec"
+        },
+        {
+          "headline": "Hackers swapped a hosted DeepSeek model for 53 hours and stripped away its safety protections",
+          "what": "Prime Intellect reported that hackers replaced a hosted DeepSeek AI model for 53 hours, removing safety filters. The compromised model refused none of its harmful test prompts, compared to 198 of 240 rejections in the legitimate version.",
+          "coins": "",
+          "timeUTC": "2026-11-21 20:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hackers-swapped-a-hosted-deepseek-model-for-53-hours-and-stripped-away-its-safety-protections/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-20",
+    "summary": "US spot Bitcoin and Ethereum ETFs recorded heavy net outflows on November 20 (the most recent US trading day before the report). Bitcoin ETFs saw outflows of 9,745 BTC (~$599.87 million), while Ethereum ETFs experienced outflows of 80,219 ETH (~$139.56 million). The week of November 16–20 saw $1.47 billion in combined BTC and ETH ETF outflows, with BlackRock's funds leading withdrawals from both groups.",
+    "source": "Farside Investors & SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-net-outflows-on-november-20"
+  },
+  "calendarNotes": [
+    {
+      "event": "Australia CPI (November 2026) on November 25 at 00:30 UTC",
+      "typicalReaction": "Medium-impact data; USD weakness typically positive for crypto."
+    },
+    {
+      "event": "US Personal Income, PCE, and Initial Jobless Claims on November 25 at 13:30 UTC",
+      "typicalReaction": "Medium-impact US data; weaker data may ease Fed tightening fears, supporting crypto."
+    },
+    {
+      "event": "Germany and Eurozone CPI (flash) on November 27 and December 1",
+      "typicalReaction": "Medium-impact inflation data; could affect USD/EUR and broader risk appetite."
+    },
+    {
+      "event": "US ISM Manufacturing PMI on December 1 at 15:00 UTC",
+      "typicalReaction": "Medium-impact economic data; weakness could ease recession concerns and support crypto."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Collateral",
+      "definition": "Assets locked up as security for a loan or leveraged position. If the value of your collateral falls below a certain level, your position can be automatically closed (liquidated)."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "A financial product that tracks the price of an asset (like Bitcoin or Ethereum) and trades on a stock exchange. US spot ETFs hold actual Bitcoin or Ethereum, not futures contracts."
+    },
+    {
+      "term": "ETF inflow / outflow",
+      "definition": "When investors buy into an ETF (inflow), new Bitcoin or Ethereum is added to the fund. When investors sell out (outflow), Bitcoin or Ethereum is removed. Net outflows mean more people are selling than buying."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment gauge ranging from 0 (Extreme Fear) to 100 (Extreme Greed). Extreme Fear means the market is very scared; Extreme Greed means people are overconfident."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders in perpetual futures contracts. When funding is positive, bullish traders (longs) pay bearish traders (shorts); when negative, shorts pay longs. High funding rates suggest traders are overconfident in one direction."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a trader's leveraged position is forcibly closed because their collateral value fell below the minimum. The exchange automatically sells their position, often at a loss, to cover the debt."
+    },
+    {
+      "term": "Long / short",
+      "definition": "A long position is a bet that an asset's price will rise. A short position is a bet that it will fall. The long/short ratio shows how many traders are betting on price increases versus decreases."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders holding long positions versus short positions. A ratio above 1 means more longs (bullish). A ratio below 1 means more shorts (bearish)."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used by exchanges to calculate whether a leveraged position should be liquidated. It's usually a weighted average of prices across multiple venues to prevent manipulation."
+    },
+    {
+      "term": "Market breadth",
+      "definition": "The percentage of coins in the market that are rising versus falling. High breadth (more coins up) suggests broad strength; low breadth suggests weakness is concentrated in a few assets."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total number of open (unfilled) leveraged positions on a perpetual futures contract. Rising open interest suggests traders are adding more leverage; falling open interest suggests positions are closing."
+    },
+    {
+      "term": "Taker buy / sell ratio",
+      "definition": "The ratio of market buy orders to sell orders. Above 1 means more aggressive buying pressure; below 1 means more aggressive selling pressure. Signals what type of trader is driving price moves."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "The long/short ratio among the largest traders (highest-volume accounts). Useful because big traders' positions often move price more than retail traders."
+    }
+  ],
+  "_source": "cli"
+}

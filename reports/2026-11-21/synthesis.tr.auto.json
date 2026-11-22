@@ -1,0 +1,232 @@
+{
+  "oneLine": "Bitcoin iki yılın en düşük seviyesinden toparlanarak cumartesi günü %2 yükselişle kapattı ve 1,8 milyar dolarlık tasfiyeler yaşandı; Ethereum %3,9 kazandı, Chainflip ise 4,86 milyon dolarlık bir hack'e maruz kaldı.",
+  "caveman": "Cumartesi bitcoin'e çok kötü bir gün oldu. Sabah 57.000 dolara kadar düştü—iki yılda en düşük fiyat. İnsanlar çok korktular ve satmaya başladılar. Borç para alarak bitcoin alan tüccarlar hızlı satmak zorunda kaldılar. Bu, 1,8 milyar dolarlık bahisleri yok etti. Öğleden sonra bitcoin geri toparlandı ve 60.200 dolar civarlı kapattı—başladığından %2 daha yukarı. Ethereum de %3,9 yükseldi. Kötü haber: Chainflip adlı bir sistem hack'lendi ve 4,86 milyon dolar çalındı. Birisi güvenlik anahtarını eline geçirdi. Tüm pazar çok korkuyordu (korku seviyesi 12—en yüksek), bu yüzden büyük yatırımcılar uzaktan takip ediyorlardı.",
+  "priceVolumeSummary": "Bitcoin Binance'de 60.191 dolara kapandı—%2,14 yüksek. Bybit, OKX ve Gate yakından takip etti (%2,14–%2,16 kazançlar). Ethereum %3,87 yükseldi, 1.684,86 dolara çıktı. Binance en büyük işlem hacmine sahip: BTC'de 21,2 milyar dolar, ETH'de 10,4 milyar dolar.",
+  "positioningSummary": "Finansman oranları farklılaştı: Bitcoin hafif negatif kaldı −%2,95 yıllıklandırılmış (Binance), Ethereum ise pozitif dönüştü %2,98. Büyük tüccarlar yüksek long pozisyonuna sahip kaldılar (Bitcoin en yüksek pozisyon oranı 1,68, Ethereum 1,62). Her iki önemli kripto para, alıcı/satıcı oranlarında ılımlı satış baskısı gösterdi (BTC 0,945, ETH 0,915—1'in altında daha agresif satışı gösterir). Long/short hesap oranları yüksek kaldı (Bitcoin 3,48, Ethereum 2,84), kurumsal long'ları yansıtıyor. Pazar genişliği Binance perpetual'larının %58,6'sinin daha yüksek işlem gördüğü seviyeye çıktı; bu, sabah satışlarından geniş bir toparlanma olduğunu gösteriyor.",
+  "stocksSummary": "Asya ve ABD hisse senedi piyasaları hafta sonunda kapandı. Emtia vadeli kontratları ılımlı yükseldi: altın +%0,41, ham petrol +%0,31–%0,37, bakır +%0,49.",
+  "movers": [
+    {
+      "symbol": "SKYAIUSDT",
+      "explanation": "Belirli bir kamu nedeni tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "Belirli bir kamu nedeni tanımlanmadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "Belirli bir kamu nedeni tanımlanmadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin $1,8 milyar kripto tasfiye dalgasından sonra 60.000 dolar üzerine toparlandı",
+        "what": "Bitcoin cumartesi sabahında 57.000 dolara düştü—iki yılın en düşük fiyatı—ve marjlı long pozisyonlarının 1,8 milyar dolarlık zorunlu tasfiyesini tetikledi. Satış basıncı gün içinde tersine döndü ve Bitcoin 60.000 dolar üzerinde kapanarak %2,14 yükseldi.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-21 16:30 UTC (yaklaşık)",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+      },
+      {
+        "headline": "Zincirler arası protokol Chainflip'in FLIP'i, şüpheli 4,86 milyon dolarlık vault sızıntısından sonra %30 düştü",
+        "what": "Chainflip, Ethereum vault'undan 4,86 milyon dolarlık ETH ve stablecoin kaybetti (520,2 ETH, 3,25 milyon USDC, 758.000 USDT). Bir saldırgan, gözaltına alınmış bir doğrulayıcı imzalama anahtarını kullanarak fonları çekti. Chainflip protokolü durdurdu; FLIP tokeni %34 düştü.",
+        "coins": "FLIP",
+        "timeUTC": "2026-11-21 15:14 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
+      },
+      {
+        "headline": "XRP, long bahislerin kapandığı ve ETF varlıklarının 1 milyar dolar altına düştüğü için %10 geriledi",
+        "what": "XRP, cumartesi günkü kripto tasfiye dalgasında önceki kasım düşük seviyelerini kırdı ve çoğu XRP tasfiyesi long pozisyonlarından kaynaklandı. Token'ın ETF varlıkları da 1 milyar dolarının altına düştü ve satış baskısını arttırdı.",
+        "coins": "XRP",
+        "timeUTC": "2026-11-21 03:52 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Rusya Bitcoin ticaretine izin verdi; yaptırım gören Moskova Borsası Aralık lansmanını hazırlıyor",
+          "what": "22 Kasım'dan itibaren Rus borsaları, merkez bankası kuralları onayladığında Bitcoin ticaretini başlatabilir; ancak müşteriler henüz ödeme için kullanamaz. Moskova Borsası 1 Aralık'ta bir pilot lansman planlıyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-21 18:33 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/russia-bitcoin-trading-rules-moscow-exchange/"
+        },
+        {
+          "headline": "Hong Kong kripto saklama şirketleri ve danışmanları lisans kuralları altına getirmeye çalışıyor",
+          "what": "Hong Kong'un menkul kıymetler düzenleyicisi, yatırımcı korumalarını güçlendirmek için kripto saklama şirketleri ve danışmanlara lisans kurallarını genişletmeyi önerdi. Tasarı 2 Aralık'ta Yasama Konseyi'nde ilk okumaya sunulacak.",
+          "coins": "",
+          "timeUTC": "2026-11-21 03:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill"
+        },
+        {
+          "headline": "Singapur yapay zeka ajanlarının stablecoin ödemelerini test etmek istiyor",
+          "what": "Singapur, bankalar ve ödeme sağlayıcılarının dijital para ödemelerini yürütmeden önce bir yapay zeka ajanının yetkisini nasıl doğrulayacağını test etmek için bir sandbox planlamaktadır. Bu, stablecoinler için kullanım alanını genişletiyor.",
+          "coins": "",
+          "timeUTC": "2026-11-21 16:13 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/singapore-wants-to-test-stablecoin-payments-by-ai-agents/"
+        },
+        {
+          "headline": "ABD'li yasa koyucular tahmin piyasası ihbar edenler için %30'a kadar ödül önerdi",
+          "what": "Yeni ihbar edici hükümleri, 1 milyon doları aşan cezalarda nitelikli tahmin piyasası dolandırıcılığı davalarında parasal yaptırımların %10 ile %30'unu sunacaktır. Amaç, tahmin piyasalarında içeriden haber ticaretini sınırlamaktır.",
+          "coins": "",
+          "timeUTC": "2026-11-21 06:05 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Cyber şüpheli 1 milyon dolarlık köprü saldırısını araştırıyor; Upbit ve Bithumb transferleri dondurdu",
+          "what": "Güney Kore borsaları Upbit ve Bithumb, şüpheli bir güvenlik olayı nedeniyle CYBER tokeni için mevduat ve çekişleri askıya aldı. Olayın yaklaşık 1 milyon dolar tutarında olduğu tahmin ediliyor.",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-21 17:37 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "BTCS, SEC'e 54 milyon dolarlık Aave kredisinin tasfiye edilebileceğini uyardı",
+          "what": "Ethereum hazine şirketi BTCS, SEC'e 54 milyon dolarlık Aave kredisinin tasfiye baskısı altında olduğunu açıkladı çünkü ETH fiyatları düştü. Şirket bildirilen Aave borcunu on günde yaklaşık 10 milyon dolar azalttı ancak teminat hala sıkıntılı.",
+          "coins": "ETH",
+          "timeUTC": "2026-11-21 10:50 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+        },
+        {
+          "headline": "Aave'nin 4 milyar dolarlık USDC ödünç üst sınırı, çekim için sadece 190 milyon dolar bırakabilir",
+          "what": "Aave'nin USDC ödünç almada yeni 4 milyar dolarlık üst sınırı, 20 Kasım geç saatlerdeki arz seviyelerinde doldurulursa, mudiler için sadece yaklaşık 190 milyon dolar USDC kalacaktır. Bu, likidite konusunda endişe yaratıyor.",
+          "coins": "USDC",
+          "timeUTC": "2026-11-21 17:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/"
+        },
+        {
+          "headline": "Binance, blokzincir tarafından temizlendikten sonra bile MEXC mevduatlarını tutabilir",
+          "what": "Binance, müşterilerine MEXC mevduatlarını blokzincir doğrulamasından sonra bile tutabileceğini söyledi ve bu, zincir üzerinde ödeme yapılsa bile fon erişimini geciktirebilir. Bu, büyük borsalardaki mevduat işleme risklerini vurguluyor.",
+          "coins": "",
+          "timeUTC": "2026-11-21 06:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/binance-can-hold-mexc-deposits-even-after-the-blockchain-clears-them/"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Ethereum'un Glamsterdam gecikmesi, en büyük ağ yükseltmelerinin arkasındaki endişe verici örüntüyü ortaya koydü",
+          "what": "Ethereum Vakfı araştırmacıları, Glamsterdam ağ yükseltmesinin 2027'ye kaydığını duyurdu. Tekrarlanan gecikmeler, protokolün geliştirme hızı ile yükseltme süre sınırlarını karşılama yeteneği arasındaki kopukluğu ortaya koyuyor.",
+          "coins": "ETH",
+          "timeUTC": "2026-11-21 10:20 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/ethereums-glamsterdam-delay-reveals-a-troubling-pattern-behind-its-biggest-network-upgrades/"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Dolandırıcılar 37 milyon dolar çalmak için sahte kripto borsaları kullandı",
+          "what": "SEC, Colorado'da kayıtlı sekiz işletmenin (büyük olasılıkla yurt dışından işletiliyor) meşru danışmanlar ve kripto platformları olduğunu iddia ederek—hatta SEC sertifikaları ve dosyalarını taklit ederek—ABD yatırımcılarından 37 milyon dolardan fazla dolandırdığını iddia etti.",
+          "coins": "",
+          "timeUTC": "2026-11-21 15:34 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec"
+        },
+        {
+          "headline": "Hackerlar barındırılan bir DeepSeek modelini 53 saat boyunca değiştirdi ve güvenlik korumalarını kaldırdı",
+          "what": "Prime Intellect, hackerların barındırılan bir DeepSeek yapay zeka modelini 53 saat boyunca değiştirdiğini ve güvenlik filtrelerini kaldırdığını bildirdi. Tehlikeli test istekleri hiçbirini reddetmedi. Meşru sürüm 240'ın 198'ini reddetmişti.",
+          "coins": "",
+          "timeUTC": "2026-11-21 20:30 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hackers-swapped-a-hosted-deepseek-model-for-53-hours-and-stripped-away-its-safety-protections/"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-20",
+    "summary": "ABD spot Bitcoin ve Ethereum ETF'leri 20 Kasım'da (rapor öncesindeki son ABD işlem günü) ağır net çıkışlar kaydetti. Bitcoin ETF'leri 9.745 BTC çıkışı gördü (~599,87 milyon dolar), Ethereum ETF'leri ise 80.219 ETH çıkışı yaşadı (~139,56 milyon dolar). 16-20 Kasım haftasında 1,47 milyar dolarlık birleşik BTC ve ETH ETF çıkışları görüldü; BlackRock'ın fonları her iki gruptan çekilişlere öncülük etti.",
+    "source": "Farside Investors & SoSoValue",
+    "url": "https://www.kucoin.com/news/flash/u-s-bitcoin-and-ethereum-etfs-record-net-outflows-on-november-20"
+  },
+  "calendarNotes": [
+    {
+      "event": "Australia CPI (November 2026) on November 25 at 00:30 UTC",
+      "typicalReaction": "Orta düzey etki verisi; USD zayıflığı genellikle kripto için pozitif."
+    },
+    {
+      "event": "US Personal Income, PCE, and Initial Jobless Claims on November 25 at 13:30 UTC",
+      "typicalReaction": "Orta düzey ABD verisi; zayıf veriler Fed sıkılaştırma korkularını hafifletebilir, kripto desteği sağlayabilir."
+    },
+    {
+      "event": "Germany and Eurozone CPI (flash) on November 27 and December 1",
+      "typicalReaction": "Orta düzey enflasyon verisi; USD/EUR ve daha geniş risk iştahını etkileyebilir."
+    },
+    {
+      "event": "US ISM Manufacturing PMI on December 1 at 15:00 UTC",
+      "typicalReaction": "Orta düzey ekonomik veri; zayıflık durgunluk endişelerini hafifletebilir ve kripto desteği sağlayabilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Teminat",
+      "definition": "Bir kredi veya marjlı pozisyon için güvenlik olarak kilitlenen varlıklar. Teminattınızın değeri belirli bir seviyenin altına düşerse, pozisyonunuz otomatik olarak kapatılabilir (tasfiye edilir)."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "Bir varlığın fiyatını takip eden ve borsada işlem gören bir finansal ürün (Bitcoin veya Ethereum gibi). ABD spot ETF'leri gerçek Bitcoin veya Ethereum tutar, vadeli kontratlar değil."
+    },
+    {
+      "term": "ETF girişi / çıkışı",
+      "definition": "Yatırımcılar bir ETF'ye satın aldığında (giriş), fona yeni Bitcoin veya Ethereum eklenir. Yatırımcılar satışa çıktığında (çıkış), Bitcoin veya Ethereum kaldırılır. Net çıkışlar daha fazla insanın alış yerine satış yaptığı anlamına gelir."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında değişen bir duygu ölçüsü. Aşırı Korku piyasanın çok korktuğu anlamına gelir; Aşırı Açgözlülük insanların aşırı güvenli olduğu anlamına gelir."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Perpetual vadeli kontratlar arasında tüccarlar arasında düzenli bir ödeme. Finansman pozitif olduğunda, yükseliş eğilimindeki tüccarlar (long'lar) düşüş eğilimindeki tüccarlara (short'lar) ödeme yapar; negatif olduğunda, short'lar long'lara ödeme yapar. Yüksek finansman oranları tüccarların bir yönde aşırı güvenli olduğunu gösterir."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Bir tüccarın marjlı pozisyonu, teminat değeri minimum seviyenin altına düştüğü için zorla kapatıldığında. Borsa otomatik olarak borcu karşılamak için pozisyonu satar, genellikle kayıpla."
+    },
+    {
+      "term": "Long / short",
+      "definition": "Long pozisyon bir varlığın fiyatının yükseleceğine yönelik bir bahis. Short pozisyon fiyatın düşeceğine yönelik bir bahis. Long/short oranı kaç tüccarın fiyat artışlarına karşı düşüşlere bahis oynadığını gösterir."
+    },
+    {
+      "term": "Long/short oranı",
+      "definition": "Long pozisyonları tutan tüccarların short pozisyonlarına kıyasla oranı. 1'in üzerindeki oran daha fazla long'u (yükseliş eğilimini) anlamına gelir. 1'in altındaki oran daha fazla short'u (düşüş eğilimini) anlamına gelir."
+    },
+    {
+      "term": "Mark fiyatı",
+      "definition": "Borsaların marjlı bir pozisyonun tasfiye edilip edilmeyeceğini hesaplamak için kullandığı referans fiyat. Genellikle manipülasyonu önlemek için birden fazla mekan arasında fiyatların ağırlıklı ortalamasıdır."
+    },
+    {
+      "term": "Pazar genişliği",
+      "definition": "Piyasada yükselen kripto paraların düşenlere kıyasla yüzdesi. Yüksek genişlik (daha fazla yükselen para) geniş bir güç gösterir; düşük genişlik zayıflığın birkaç varlıkta yoğunlaştığını gösterir."
+    },
+    {
+      "term": "Açık pozisyon sayısı",
+      "definition": "Perpetual vadeli kontratta açık (doldurulmamış) marjlı pozisyonların toplam sayısı. Artan açık pozisyon sayısı tüccarların daha fazla kaldıraç eklediklerini gösterir; düşen açık pozisyon sayısı pozisyonların kapandığını gösterir."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Pazar satın alma siparişlerinin satış siparişlerine oranı. 1'in üzerinde daha agresif satın alma baskısı anlamına gelir; 1'in altında daha agresif satış baskısı anlamına gelir. Fiyat hareketlerini hangi türde tüccarın tetiklediğini gösterir."
+    },
+    {
+      "term": "En yüksek pozisyon oranı",
+      "definition": "En büyük tüccarlar (en yüksek hacimli hesaplar) arasındaki long/short oranı. Faydalı çünkü büyük tüccarların pozisyonları perakende tüccarlardan daha çok fiyatı hareket ettiriyor."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "c31c92b5ca891d88"
+}
