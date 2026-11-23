@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-22",
+  "kind": "market",
+  "dateLong": "Sunday, 22 November 2026",
+  "coversUTC": "2026-11-22 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum both rose 1.7–2.3% with slightly easing fear, but multiple bridge hacks and exchange deposit halts dominated the day.",
+  "newsCount": 13,
+  "macro": {
+    "BTC": 1.7529022578377993,
+    "ETH": 2.292772099759037
+  },
+  "topMover": {
+    "symbol": "EVAAUSDT",
+    "chgPct": -63.917701334489266
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "23 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

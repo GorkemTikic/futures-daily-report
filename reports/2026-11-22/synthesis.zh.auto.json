@@ -1,0 +1,217 @@
+{
+  "oneLine": "比特币和以太坊都上涨了 1.7–2.3%，恐慌情绪略有缓解，但多个跨链桥遭黑客攻击和交易所暂停充币主导了行情。",
+  "caveman": "今天比特币和以太坊都涨了大约 1.7 到 2.3%，还不错。但一些小币种表现很糟：EVAA 跌了 64%，BULLA 涨了 60%。更大的问题是有好几个运营跨链桥的公司被黑客攻击了。Chainflip 损失了 1200 万美元，Fusionist 损失了 200 万美元多，其他也遇到了问题。韩国一些交易所因为安全担忧停止了人们转移加密货币。虽然比特币和以太坊涨了，交易者不那么害怕了，但因为所有这些安全问题，这一天仍然很令人担忧。",
+  "priceVolumeSummary": "比特币在五大交易所紧密一致地交易，价格在 $61,240–$61,250 之间，以太坊在 $1,723–$1,724 附近。币安交易量最大，比特币交易额达 120 亿美元，以太坊 61 亿美元——约为其他大交易所的两倍。",
+  "positioningSummary": "交易者的信号混合。主动买卖比率（主动卖出多于买入：BTC 0.991，ETH 1.011）表明谨慎态度，但最大交易者持有强劲的做多头寸（大户多空比：BTC 1.78，ETH 1.71）。账户级别的多空比看涨（BTC 2.19，ETH 1.87），意味着大多数交易者押注价格上升。资金费率不一致：币安比特币资金费率非常高（10.95% 年化），暗示超买，但其他交易所较低或为负（Bitget -4.16%）。市场宽度为正：币安永续合约中 66.7% 上涨。恐惧与贪婪指数保持在 11（极度恐惧），从前一天的 12 几乎没有改善。未平仓头寸仍然很大（币安单独 BTC 57 亿美元，ETH 40 亿美元）。",
+  "stocksSummary": "周日美国股市（纽约证交所/纳斯达克）和亚洲股市没有现金交易。商品期货（CME）有交易：黄金上涨 1.42%，白银上涨 2.07%；原油下跌（WTI 下跌 1.20%，布伦特下跌 1.11%）。一些在韩国和香港上市的半导体股票表现强劲（SK Hynix +4.6%，CSOP SK Hynix 2x +9.3%），反映的是周末散户活动，而不是官方市场交易。",
+  "movers": [
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "新闻中未发现明确的公开原因。64% 的崩跌极端且无任何官方事件解释。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "新闻中未发现明确的公开原因。60% 的涨幅没有相应的公告或事件。",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "新闻中未发现明确的公开原因。51% 的崩跌与任何报告的事件或新闻都无关。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Chainflip 确认损失 1200 万美元；向攻击者提供 10% 赏金",
+        "what": "跨链交易协议 Chainflip 披露被盗 122.9 枚 BTC 和 ETH，总价值 1200 万美元。该协议向攻击者提供 10% 赏金（120 万美元）以在 11 月 23 日前归还剩余 90% 的资金，将归还视为白帽恢复并承诺撤销执法投诉。",
+        "coins": "BTC, ETH, stablecoins",
+        "timeUTC": "2026-11-22 04:52 UTC",
+        "source": "The Block, Cointelegraph",
+        "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829"
+      },
+      {
+        "headline": "同一天多个桥遭攻击：Fusionist 370 万美元流出，CYBER 意外铸币",
+        "what": "Fusionist 的 ACE 桥遭 200 万美元攻击，随后因交易者清空而扩大到 370 万美元损失。另外，Cyber 代币报告在 Solana 上出现意外铸币且代币从其以太坊桥锁定箱流出。韩国交易所 Upbit 和 Bithumb 因涉嫌安全事件暂停了 CYBER 充币和提币。",
+        "coins": "CYBER, various",
+        "timeUTC": "2026-11-22 00:03–16:30 UTC",
+        "source": "The Block, CryptoSlate, Cointelegraph",
+        "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
+      },
+      {
+        "headline": "比特币的量子计算漏洞扩展到桥和托管方",
+        "what": "CoinDesk 的安全研究人员警告说，量子计算机不仅对比特币核心网络构成长期威胁，还对桥、托管方和数百万枚币构成威胁。升级安全和将资金转移到更安全的协议可能需要多年时间，在过渡期间暴露生态系统中的隐藏风险。",
+        "coins": "BTC",
+        "timeUTC": "2026-11-22 10:20 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Fusionist ACE 桥：200 万美元攻击导致 370 万美元流出",
+          "what": "一个交易者在攻击发生后将约 50 美元变成了近 17,700 美元。这个事件引发了恐慌性提现，最终导致桥完全被掏空。",
+          "coins": "various",
+          "timeUTC": "2026-11-22 00:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
+        },
+        {
+          "headline": "Bithumb 因涉嫌安全问题暂停 CYBER 充币和提币",
+          "what": "韩国交易所 Bithumb 暂停了 CYBER 代币的充币和提币交易，但保持交易本身开放，原因是涉嫌安全事件。",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-22 00:12 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bithumb-halts-cyber-deposits-and-withdrawals-while-trading-stays-open/"
+        },
+        {
+          "headline": "CYBER 桥攻击：Solana 上出现意外铸币，锁定资金从以太坊桥流出",
+          "what": "Cyber 代币报告在 Solana 区块链上出现意外铸币和代币从其以太坊桥锁定箱流出，促使启动调查。韩国交易所 Upbit 和 Bithumb 作为预防措施冻结了转账。",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-22 16:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit"
+        },
+        {
+          "headline": "Kraken 上比特币闪跌至 $17K；交易所维持所有交易",
+          "what": "Kraken 临时显示比特币价格为 $17,000（相比实际市场价格 $61,000+），触发了清算。交易所表示未发现任何安全漏洞或被破坏账户的证据，并以实际成交价维持了所有交易。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-22 14:39 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "英国禁止加密交易所在自己的平台上做市",
+          "what": "英国监管机构修改规则，使现货比特币交易所免于主要交易许可，但交易所被禁止在新规下在自己的平台上为现货加密货币做市。",
+          "coins": "BTC, spot crypto",
+          "timeUTC": "2026-11-22 05:45 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/uk-to-ban-crypto-exchanges-from-making-markets-on-their-own-platforms-as-bitcoin-rules-change/"
+        },
+        {
+          "headline": "参议员希望州许可稳定币发行者在 1 月 18 日截止日期后继续运营",
+          "what": "美国参议员正在推动州许可公司在 1 月 18 日截止日期后继续发行稳定币。财政部的提案承认对合格联邦申请人的豁免，但纽约州要求澄清其自有州发行人的情况。",
+          "coins": "stablecoins",
+          "timeUTC": "2026-11-22 01:19 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/senators-want-state-licensed-firms-to-keep-issuing-stablecoins-after-jan-18/"
+        }
+      ],
+      "Market developments": [
+        {
+          "headline": "比特币收复 $61,000；币安永续交易中买家积极",
+          "what": "比特币从疲软中恢复，白天收复 $61,000。周日突破 $61,000 时，币安永续交易的净买量几乎是现货市场的十倍，显示杠杆交易者积极。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-22 09:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/"
+        },
+        {
+          "headline": "特朗普举办第二场迷因币晚宴，TRUMP 代币从峰值下跌 99%",
+          "what": "前总统特朗普举办第二场迷因币主题晚宴，参与者包括拳击手弗洛伊德·梅威瑟、《鲨鱼池》投资者凯文·奥利里和 NBA 冠军特里斯坦·汤普森。他自己的 TRUMP 代币从峰值下跌了 99%。",
+          "coins": "TRUMP memecoin",
+          "timeUTC": "2026-11-22 02:38 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "XRP 账本试验在 6,324 笔交易中结算了 213,000 个付费 AI 请求",
+          "what": "t54 Labs 报告称，XRP 账本 AI 代理支付测试在 6,324 笔交易中结算了超过 213,000 个付费请求，每个付费请求的错误率为 0.36 drops。11 月的两次检查显示一位商家收到了 RLUSD（Ripple 的美元稳定币）。",
+          "coins": "XRP, RLUSD",
+          "timeUTC": "2026-11-22 02:31 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-ledger-trial-settled-213000-paid-ai-requests-in-6324-transactions/"
+        },
+        {
+          "headline": "柏林外发现更多被篡改的 Ledger 钱包；调查进行中",
+          "what": "Ledger 正在调查柏林和阿联酋发现的被篡改硬件钱包的新报告。公司的调查继续进行以确定受影响设备的范围。",
+          "coins": "various (affects all hardware-secured coins)",
+          "timeUTC": "2026-11-22 00:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Core PCE (inflation), Prelim GDP, Initial Jobless Claims on Wednesday 2026-11-25 at 13:30 UTC",
+      "typicalReaction": "高影响力的美国经济数据可能引发广泛的加密货币波动。好于预期的 GDP 或通胀可能因联邦政策担忧而削弱加密货币；较弱的数据可能帮助风险资产。比特币和以太坊通常在重要美国数据发布时跟随宏观风险情绪。"
+    },
+    {
+      "event": "Australia CPI on Wednesday 2026-11-25 at 00:30 UTC",
+      "typicalReaction": "中等影响；澳大利亚 CPI 影响亚太地区风险偏好，但对加密货币的直接影响有限，除非出现重大意外并改变全球央行预期。"
+    },
+    {
+      "event": "Germany CPI Flash and US ISM Manufacturing on Friday 2026-11-27 and Tuesday 2026-12-01",
+      "typicalReaction": "中等影响。制造业疲软或通缩信号可能支持加密货币；通胀意外可能引发抛售。欧元区数据影响欧元和全球风险情绪。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基差",
+      "definition": "期货价格与现货价格之间的差异。在加密货币中，基差显示交易者愿意为高于现货市场价格的杠杆敞口支付多少费用。"
+    },
+    {
+      "term": "市场宽度",
+      "definition": "上涨的币种或代币相对于下跌币种的百分比。66.7% 的市场宽度意味着币安永续合约的三分之二上涨，显示基础广泛的市场强势。"
+    },
+    {
+      "term": "跨链桥",
+      "definition": "一条数字通道，让交易者能够将加密货币从一个区块链转移到另一个区块链。例如，一个桥可以让你将基于比特币的代币移到以太坊或其他链上。桥依赖代码来锁定和解锁资金，当黑客发现代码中的错误时就会发生攻击。"
+    },
+    {
+      "term": "恐惧与贪婪指数",
+      "definition": "一个从 0（极度恐惧）到 100（极度贪婪）的评分，用来衡量交易者的情绪和心态。极度恐惧（0–25）意味着交易者非常害怕；11 的读数表明强烈悲观和恐慌性抛售的风险。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "永续期货合约中持有相反头寸的交易者之间的定期支付。高资金费率（超过每 8 小时 0.1% 或年化 10%+）意味着做多者向做空者支付，表明做多者可能过度杠杆；负资金费率意味着做空者向做多者支付。资金费率帮助保持期货价格与现货一致。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升的交易者（做多）与押注价格下降的交易者（做空）的比率。比率 2.19 意味着每一个做空者对应 2.19 个做多者，表明强势看涨头寸。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "用于计算永续期货合约上利润、损失和清算的价格。它通常是买卖价格的中点，防止交易者利用临时价格尖峰来触发清算。"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "期货交易所在给定时刻所有开放杠杆头寸的总价值。高未平仓头寸意味着许多交易者在使用杠杆；未平仓头寸的突然下降通常表示清算。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "未平仓头寸在一天内增长或收缩的幅度。增长通常表示交易者在增加杠杆（如果价格随之上升则看涨）；急剧下降表示强制清算。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "一种杠杆合约，永远交易而没有到期日期，不像常规期货。交易者可以用他们自己的钱乘以杠杆来做多（押注更高价格）或做空（押注更低价格）——意味着既有更大的赢利也有更大的损失。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "交易所上市场买单（主动买入）与市场卖单（主动卖出）的比率。超过 1.0 意味着更多买家愿意按卖价买入；低于 1.0 意味着更多卖家愿意按买价卖出，表明卖压。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "交易所上最大杠杆交易者之间的多空比，而不是所有交易者。它显示最大资金在押注什么，可以成为领先指标。"
+    },
+    {
+      "term": "交易所",
+      "definition": "加密交易所平台（币安、Bybit、OKX 等），在这里交易期货。交易所可能有略微不同的价格和资金费率。"
+    },
+    {
+      "term": "成交量",
+      "definition": "交易所在一天内交易的合约总美元价值。高交易量通常意味着强劲的动量和深厚的流动性；低交易量表明订单簿稀疏和更宽的买卖差。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "034b8efeb9562ce1"
+}

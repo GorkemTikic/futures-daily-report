@@ -1,0 +1,216 @@
+{
+  "oneLine": "Bitcoin and Ethereum both rose 1.7–2.3% with slightly easing fear, but multiple bridge hacks and exchange deposit halts dominated the day.",
+  "caveman": "Bitcoin and Ethereum both went up about 1.7 to 2.3% today—a good day for them. Some smaller coins crashed hard: one called EVAA dropped 64%, while another called BULLA jumped 60%. The bigger problem was that several companies that run bridges (digital tunnels people use to move crypto between different blockchains) got hacked. A protocol called Chainflip lost $12 million, Fusionist lost $2 million or more, and other bridge companies had problems too. Some exchanges in South Korea even had to stop letting people move their crypto because of these hacks. Even though Bitcoin and Ethereum went up and traders got a little less scared, it was still a worrying day because of all the security problems.",
+  "priceVolumeSummary": "Bitcoin traded in tight agreement across five major venues at $61,240–$61,250, while Ethereum stayed near $1,723–$1,724. Binance led volume with $12.0 billion in Bitcoin trading and $6.1 billion in Ethereum—about twice the volume of other large venues.",
+  "positioningSummary": "Traders showed mixed signals. The taker buy/sell ratio (more aggressive selling than buying: 0.991 for BTC, 1.011 for ETH) suggested caution, but the largest traders held strong long bets (top-position ratio 1.78 for BTC, 1.71 for ETH). Account-level long/short ratios were bullish (BTC 2.19, ETH 1.87), meaning most traders bet on higher prices. Funding rates were divided: Bitcoin funding was very high on Bybit (10.95% annualized), suggesting overbought conditions, but low or negative on other venues (Bitget at -4.16%). Market breadth was positive: 66.7% of Binance perpetuals rose on the day. The Fear & Greed index stayed at 11 (Extreme Fear), barely improved from 12 the day before. Open interest remained heavy ($5.7 billion in BTC, $4.0 billion in ETH on Binance alone).",
+  "stocksSummary": "Sunday had no cash sessions for US equities (NYSE/Nasdaq) or Asian stock exchanges. Commodity futures (CME) did trade: gold rose 1.42%, silver up 2.07%; crude oil fell (WTI down 1.20%, Brent down 1.11%). Some South Korean and Hong Kong listed semiconductor stocks showed strength (SK Hynix +4.6%, CSOP SK Hynix 2x +9.3%) reflecting weekend retail activity, not an official market session.",
+  "movers": [
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "No clear public cause found in news. The 64% crash was extreme but unexplained by announced events.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "No clear public cause found in news. The 60% surge had no corresponding announcement or event.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "No clear public cause found in news. The 51% crash was not tied to any reported incident or news.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Chainflip confirms $12 million hack; offers attacker 10% bounty",
+        "what": "The cross-chain trading protocol Chainflip disclosed a theft of 122.9 BTC and ETH totaling $12 million. The protocol offered the attacker a 10% bounty ($1.2 million) to return the remaining 90% by November 23, treating a return as a white-hat recovery and promising to withdraw law enforcement complaints.",
+        "coins": "BTC, ETH, stablecoins",
+        "timeUTC": "2026-11-22 04:52 UTC",
+        "source": "The Block, Cointelegraph",
+        "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829"
+      },
+      {
+        "headline": "Multiple bridge exploits on same day: Fusionist $3.7M drain, CYBER unexpected minting",
+        "what": "Fusionist's ACE bridge suffered a $2 million exploit that spiraled into a $3.7 million drainage as traders emptied the bridge. Separately, Cyber token reported unexpected minting on Solana and tokens moving out of its Ethereum bridge lockbox. South Korean exchanges Upbit and Bithumb suspended CYBER deposits and withdrawals citing a suspected security incident.",
+        "coins": "CYBER, various",
+        "timeUTC": "2026-11-22 00:03–16:30 UTC",
+        "source": "The Block, CryptoSlate, Cointelegraph",
+        "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
+      },
+      {
+        "headline": "Bitcoin's quantum computing vulnerability extends to bridges and custodians",
+        "what": "Security researchers at CoinDesk warn that quantum computers pose a long-term threat not just to Bitcoin's core network but also to bridges, custodians, and millions of coins. Upgrading security and moving funds to safer protocols could take years, exposing a hidden risk in the ecosystem during the transition.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-22 10:20 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Fusionist ACE bridge: $2 million exploit leads to $3.7 million drain",
+          "what": "One trader turned about $50 into nearly $17,700 in the wake of the exploit. The incident triggered a panic withdrawal that cascaded into a full bridge drain.",
+          "coins": "various",
+          "timeUTC": "2026-11-22 00:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
+        },
+        {
+          "headline": "Bithumb halts CYBER deposits and withdrawals citing suspected security issue",
+          "what": "South Korean exchange Bithumb suspended CYBER token trading for deposits and withdrawals while keeping trading itself open, citing a suspected security incident.",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-22 00:12 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bithumb-halts-cyber-deposits-and-withdrawals-while-trading-stays-open/"
+        },
+        {
+          "headline": "CYBER bridge exploit: unexpected minting on Solana, locked funds moving out of Ethereum bridge",
+          "what": "Cyber token reported unexpected minting on the Solana blockchain and tokens moving out of its Ethereum bridge lockbox, prompting an investigation. South Korean exchanges Upbit and Bithumb froze transfers as a precaution.",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-22 16:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit"
+        },
+        {
+          "headline": "Bitcoin flash crash to $17K on Kraken; exchange upholds all trades",
+          "what": "Kraken temporarily showed Bitcoin price at $17,000 (versus actual market price $61,000+), triggering liquidations. The exchange said it found no evidence of a security breach or compromised accounts and upheld all trades at their actual execution prices.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-22 14:39 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "UK to ban crypto exchanges from making markets on their own platforms",
+          "what": "UK regulators are changing rules so that spot Bitcoin exchanges are exempt from principal-dealing permission, but exchanges are prohibited from making markets in spot crypto on their own platforms under new regulations.",
+          "coins": "BTC, spot crypto",
+          "timeUTC": "2026-11-22 05:45 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/uk-to-ban-crypto-exchanges-from-making-markets-on-their-own-platforms-as-bitcoin-rules-change/"
+        },
+        {
+          "headline": "Senators want state-licensed stablecoin issuers to continue after January 18 deadline",
+          "what": "US Senators are pushing for state-licensed firms to keep issuing stablecoins after the January 18 deadline. The Treasury's proposal recognizes waivers for eligible federal applicants but leaves New York requesting clarity on its own state issuers.",
+          "coins": "stablecoins",
+          "timeUTC": "2026-11-22 01:19 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/senators-want-state-licensed-firms-to-keep-issuing-stablecoins-after-jan-18/"
+        }
+      ],
+      "Market developments": [
+        {
+          "headline": "Bitcoin reclaims $61,000; takers buying heavily on Binance perpetuals",
+          "what": "Bitcoin recovered from weakness, reclaiming $61,000 during the day. During the move above $61,000 on Sunday, Binance perpetuals posted nearly ten times as much net buying as the exchange's spot market, showing leveraged traders were aggressive.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-22 09:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/"
+        },
+        {
+          "headline": "Trump to host second memecoin dinner with TRUMP token down 99% from peak",
+          "what": "Former president Trump is hosting a second memecoin-themed dinner with participants including boxer Floyd Mayweather, Shark Tank investor Kevin O'Leary, and NBA champion Tristan Thompson. His own TRUMP token has fallen 99% from its peak.",
+          "coins": "TRUMP memecoin",
+          "timeUTC": "2026-11-22 02:38 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "XRP Ledger trial settled 213,000 paid AI requests in 6,324 transactions",
+          "what": "t54 Labs reported that the XRP Ledger beta trial for AI agent payments settled over 213,000 paid requests in 6,324 transactions, with 0.36 drops per paid request error rate. Two November checks show a merchant receiving RLUSD (Ripple's USD stablecoin).",
+          "coins": "XRP, RLUSD",
+          "timeUTC": "2026-11-22 02:31 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-ledger-trial-settled-213000-paid-ai-requests-in-6324-transactions/"
+        },
+        {
+          "headline": "More tampered Ledger wallets found beyond Berlin; investigation ongoing",
+          "what": "Ledger is investigating new reports of tampered hardware wallets in Berlin and the UAE. The company's investigation continues into the scope of devices affected.",
+          "coins": "various (affects all hardware-secured coins)",
+          "timeUTC": "2026-11-22 00:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Core PCE (inflation), Prelim GDP, Initial Jobless Claims on Wednesday 2026-11-25 at 13:30 UTC",
+      "typicalReaction": "High-impact US economic data can trigger broad crypto swings. Stronger-than-expected GDP or inflation could weaken crypto on concerns about Fed policy; weaker data could help risk assets. Bitcoin and Ethereum typically follow macro risk sentiment on major US data releases."
+    },
+    {
+      "event": "Australia CPI on Wednesday 2026-11-25 at 00:30 UTC",
+      "typicalReaction": "Medium impact; Australian CPI influences risk appetite in Asia-Pacific but has limited direct effect on crypto unless it surprises significantly and shifts expectations about central banks globally."
+    },
+    {
+      "event": "Germany CPI Flash and US ISM Manufacturing on Friday 2026-11-27 and Tuesday 2026-12-01",
+      "typicalReaction": "Medium impact. Manufacturing weakness or deflationary signals could support crypto; inflation surprises could trigger selling. Eurozone data influences euro and global risk sentiment."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The difference between a futures price and the spot price. In crypto, basis shows how much traders are willing to pay for leveraged exposure above the cash market price."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of coins or tokens that rose on the day versus those that fell. 66.7% breadth means two-thirds of Binance perpetuals went up, showing broad-based market strength."
+    },
+    {
+      "term": "Bridge",
+      "definition": "A digital tunnel that lets traders move crypto from one blockchain to another. For example, a bridge lets you move Bitcoin-based tokens to Ethereum or other chains. Bridges rely on code to lock and unlock funds, and exploits happen when hackers find bugs in that code."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A score from 0 (Extreme Fear) to 100 (Extreme Greed) that measures trader emotion and sentiment. Extreme Fear (0–25) means traders are very scared; a reading of 11 suggests strong pessimism and panic selling risk."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders holding opposite sides of a perpetual futures contract. High funding (above 0.1% per 8 hours, or 10%+ annualized) means longs are paying shorts, signaling longs may be over-leveraged; negative funding means shorts pay longs. Funding helps keep the futures price aligned with spot."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of traders betting prices will rise (long) versus those betting prices will fall (short). A ratio of 2.19 means 2.19 longs for every short, indicating strong bullish positioning."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The price used to calculate profits, losses, and liquidations on a perpetual futures contract. It's usually the mid-point of bid and ask prices and prevents traders from exploiting temporary price spikes to trigger liquidations."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total value of all open leveraged positions on a futures exchange at a given moment. High OI means many traders are using leverage; a sudden drop in OI often signals liquidations."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "How much open interest grew or shrank during the day. Growth often signals traders are adding leverage (bullish if prices rise with it); sharp drops signal forced liquidations."
+    },
+    {
+      "term": "Perpetual futures or perpetual swap",
+      "definition": "A leveraged contract that trades forever without an expiration date, unlike regular futures. Traders can go long (bet on higher prices) or short (bet on lower prices) with their own money multiplied by leverage—meaning both bigger wins and bigger losses."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders (aggressive buying) to market sell orders (aggressive selling) on a venue. Above 1.0 means more buyers are willing to buy at the ask; below 1.0 means more sellers are willing to sell at the bid, suggesting selling pressure."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "The long/short ratio among the largest leveraged traders on an exchange, not all traders. It shows what the biggest money is betting on and can be a leading indicator."
+    },
+    {
+      "term": "Venue",
+      "definition": "A crypto exchange platform (Binance, Bybit, OKX, etc.) where futures are traded. Venues can have slightly different prices and funding rates."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total dollar value of contracts traded on an exchange during the day. High volume usually means strong momentum and deep liquidity; low volume suggests thin order books and wider bid-ask spreads."
+    }
+  ],
+  "_source": "cli"
+}

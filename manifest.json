@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-22T00:10:41.163Z",
-  "count": 158,
+  "generatedAt": "2026-11-23T00:07:10.580Z",
+  "count": 159,
   "counts": {
-    "total": 158,
-    "market": 71,
+    "total": 159,
+    "market": 72,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-21",
+  "latest": "2026-11-22",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-11-22",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 1.7529022578377993,
+        "ETH": 2.292772099759037
+      },
+      "marketSummary": "Bitcoin and Ethereum both rose 1.7–2.3% with slightly easing fear, but multiple bridge hacks and exchange deposit halts dominated the day.",
+      "oneLine": "Bitcoin and Ethereum both rose 1.7–2.3% with slightly easing fear, but multiple bridge hacks and exchange deposit halts dominated the day.",
+      "newsCount": 13,
+      "topMover": {
+        "symbol": "EVAAUSDT",
+        "chgPct": -63.917701334489266
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-22/summary_2026-11-22.html",
+        "pdf": "reports/2026-11-22/summary_2026-11-22.pdf",
+        "md": "reports/2026-11-22/summary_2026-11-22.md"
+      }
+    },
     {
       "date": "2026-11-21",
       "kind": "market",

@@ -1,0 +1,217 @@
+{
+  "oneLine": "Bitcoin ve Ethereum'un her ikisi de %1,7–%2,3 oranında yükselişe geçerken korku hafifçe azaldı, ancak günü birden fazla köprü saldırısı ve borsaların para yatırma işlemini durdurması belirledi.",
+  "caveman": "Bitcoin ve Ethereum bugün %1,7 ile %2,3 arasında yükseldi—ikisi için de iyi bir gün. Bazı daha küçük paralar çok düştü: EVAA adında biri %64 kayıp yaşarken, BULLA adında bir diğeri %60 kazandı. Daha büyük sorun, blokzincirler arasında kripto taşımak için kullanılan dijital tünelleri çalıştıran birkaç şirketin saldırıya uğramasıydı. Chainflip adında bir sistem 12 milyon dolar kaybetti, Fusionist 2 milyon dolar veya daha fazla kaybetti ve başka köprü şirketlerinin de sorunları vardı. Güney Kore'deki bazı borsalar bu saldırılar yüzünden insanların kripto hareket ettirmesini durdurmak zorunda kaldı. Bitcoin ve Ethereum yükseldi ve tüccarlar biraz daha az korkmuş olsa da, tüm güvenlik sorunları nedeniyle yine de endişeli bir gün oldu.",
+  "priceVolumeSummary": "Bitcoin beş büyük platformda sıkı bir şekilde 61.240–61.250 dolar arasında işlem gördü; Ethereum 1.723–1.724 dolar civarında kaldı. Binance 12,0 milyar dolar Bitcoin işlem hacmi ve 6,1 milyar dolar Ethereum hacmi ile başı çekti—diğer büyük platformların hacminin yaklaşık iki katı.",
+  "positioningSummary": "Tüccarlar karışık sinyaller gösterdiler. Alıcı/satıcı oranı (satıcıların alıcılardan daha agresif olması: BTC için 0,991, ETH için 1,011) ihtiyatı işaret etmişse de, en büyük tüccarlar güçlü uzun bahisler tuttu (BTC için 1,78 en üst pozisyon oranı, ETH için 1,71). Hesap bazında uzun/kısa oranları yükselişçi idi (BTC 2,19, ETH 1,87); bu, çoğu tüccarın daha yüksek fiyatlara bahis oynadığı anlamına gelir. Finansman oranları bölünmüş: Bitcoin finansmanı Bybit'te çok yüksek (%10,95 yıllık), aşırı alım koşullarını işaret ederken, diğer platformlarda düşük veya negatif (Bitget'te -%4,16). Pazar genişliği pozitif idi: Binance süreli işlemlerinin %66,7'si gün içinde yükseldi. Korku & Açgözlülük endeksi 11'de kaldı (Aşırı Korku), bir önceki gün 12'den zar zor iyileşti. Açık pozisyon hacmi ağır kaldı (Binance'da tek başına BTC için 5,7 milyar dolar, ETH için 4,0 milyar dolar).",
+  "stocksSummary": "Pazar günü ABD hisse senetleri (NYSE/Nasdaq) veya Asya borsaları için nakit seansları yoktu. Emtia vadeli işlemleri (CME) işlem gördü: altın %1,42 yükseldi, gümüş %2,07 arttı; ham petrol düştü (WTI %1,20 düştü, Brent %1,11 düştü). Bazı Güney Kore ve Hong Kong'da listelenen yarıiletken hisse senetleri güç gösterdi (SK Hynix +%4,6, CSOP SK Hynix 2x +%9,3)—resmi bir pazar seansı değil, hafta sonu perakende aktivitesini yansıtmaktadır.",
+  "movers": [
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "Haberlerde açık bir neden bulunamadı. %64'lük çöküş aşırıydı ancak hiçbir duyuruya veya olaya bağlı değildi.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "Haberlerde açık bir neden bulunamadı. %60'lık rallinin karşılık gelen hiçbir duyurusu veya olayı yoktu.",
+      "hasCause": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "explanation": "Haberlerde açık bir neden bulunamadı. %51'lik çöküş hiçbir bildirilen olaya veya habere bağlı değildi.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Chainflip 12 milyon dolarlık saldırıyı doğruladı; saldırganı %10 ödül ile çağırıyor",
+        "what": "Zincirler arası işlem protokolü Chainflip, 122,9 BTC ve ETH'ye denk gelen 12 milyon doların çalınmasını açıkladı. Protokol, saldırganı kalan %90'ını 23 Kasım'a kadar geri vermesi için %10 ödül (1,2 milyon dolar) ile çağırdı; geri dönüşü beyaz şapka kurtarması olarak ele aldı ve kanun müdürlüğü şikayetlerini geri çekmeyi vaat etti.",
+        "coins": "BTC, ETH, stablecoins",
+        "timeUTC": "2026-11-22 04:52 UTC",
+        "source": "The Block, Cointelegraph",
+        "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829"
+      },
+      {
+        "headline": "Aynı gün içinde birden fazla köprü açılması: Fusionist 3,7 milyon dolar drenaj, CYBER beklenmeyen basım",
+        "what": "Fusionist'in ACE köprüsü 2 milyon dolar büyüklüğünde bir saldırıya uğradı ve tüccarlar köprüyü boşalttıkça 3,7 milyon dolarlık bir drenaja dönüştü. Ayrıca Cyber token, Solana'da beklenmeyen basım ve Ethereum köprüsü sandığından çıkan tokenleri bildirdi. Güney Kore borsaları Upbit ve Bithumb, şüpheli bir güvenlik olayı nedeniyle CYBER para yatırma ve çekme işlemlerini askıya aldı.",
+        "coins": "CYBER, various",
+        "timeUTC": "2026-11-22 00:03–16:30 UTC",
+        "source": "The Block, CryptoSlate, Cointelegraph",
+        "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
+      },
+      {
+        "headline": "Bitcoin'in kuantum bilgisayarı güvenlik açığı köprülere ve saklama hizmetlerine kadar uzanıyor",
+        "what": "CoinDesk güvenlik araştırmacıları, kuantum bilgisayarların Bitcoin'in temel ağına ve ayrıca köprülere, saklama hizmetlerine ve milyonlarca parayı tehdit ettiğini uyarıyor. Güvenliği yükseltmek ve paraları daha güvenli protokollere taşımak yıllar alabilir; bu geçiş sırasında ekosistemde gizli bir riski ortaya çıkartıyor.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-22 10:20 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Fusionist ACE köprüsü: 2 milyon dolar exploit 3,7 milyon dolar drenaja yol açıyor",
+          "what": "Bir tüccar exploit sonrasında yaklaşık 50 doları neredeyse 17.700 dolara çevirdi. Olay panikte satış dalgasını tetikledi ve tam bir köprü drenajına dönüştü.",
+          "coins": "various",
+          "timeUTC": "2026-11-22 00:03 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838"
+        },
+        {
+          "headline": "Bithumb CYBER para yatırma ve çekme işlemlerini askıya aldı; şüpheli güvenlik sorunu nedeni",
+          "what": "Güney Kore borsası Bithumb, şüpheli bir güvenlik olayı nedeniyle CYBER token'inin para yatırma ve çekme işlemlerini askıya aldı; işlem kendisi açık kaldı.",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-22 00:12 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bithumb-halts-cyber-deposits-and-withdrawals-while-trading-stays-open/"
+        },
+        {
+          "headline": "CYBER köprüsü saldırısı: Solana'da beklenmeyen basım, Ethereum köprüsü sandığından çıkan fonlar",
+          "what": "Cyber token, Solana blokzincirinde beklenmeyen basım ve Ethereum köprüsü sandığından çıkan tokenleri bildirdi; bu, bir araştırma başlattı. Güney Kore borsaları Upbit ve Bithumb bir önlem olarak transferleri dondurdu.",
+          "coins": "CYBER",
+          "timeUTC": "2026-11-22 16:30 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit"
+        },
+        {
+          "headline": "Kraken'de Bitcoin ani düşüş 17.000 dolara; borsa tüm işlemleri onaylıyor",
+          "what": "Kraken kısa süre Bitcoin fiyatını 17.000 dolar (gerçek pazar fiyatı 61.000+ dolar) olarak gösterdi; bu, tasfiyeyi tetikledi. Borsa, güvenlik ihlali veya tehlikeye atılmış hesaplara ilişkin hiçbir kanıt bulmadığını ve tüm işlemleri gerçek işlem fiyatlarında onayladığını söyledi.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-22 14:39 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "İngiltere kripto borsalarını kendi platformlarında piyasa oluşturmaktan yasaklıyor",
+          "what": "İngiltere düzenleyicileri kuralları değiştirerek spot Bitcoin borsalarının ana aracılık izninden muaf olmalarını sağlıyor; borsalar yeni düzenlemeler uyarınca kendi platformlarında spot kripto için piyasa oluşturmaktan yasaklanıyor.",
+          "coins": "BTC, spot crypto",
+          "timeUTC": "2026-11-22 05:45 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/uk-to-ban-crypto-exchanges-from-making-markets-on-their-own-platforms-as-bitcoin-rules-change/"
+        },
+        {
+          "headline": "Senatörler devlet tarafından lisanslanan stablecoin ihraççılarının 18 Ocak tarihinden sonra da devam etmesini istiyor",
+          "what": "ABD Senatörleri, 18 Ocak tarihinden sonra devlet tarafından lisanslanan firmaların stablecoin ihraç etmeye devam etmesini talep ediyor. Hazine'nin önerisi uygun federal başvuru sahipleri için muafiyetleri tanıyor ancak New York kendi devlet ihraççıları hakkında açıklık talep ediyor.",
+          "coins": "stablecoins",
+          "timeUTC": "2026-11-22 01:19 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/senators-want-state-licensed-firms-to-keep-issuing-stablecoins-after-jan-18/"
+        }
+      ],
+      "Market developments": [
+        {
+          "headline": "Bitcoin 61.000 doları geri aldı; Binance süreli işlemlerinde alıcılar ağır satın alıyor",
+          "what": "Bitcoin zayıflıktan kurtuldu; gün içinde 61.000 doları geri aldı. Pazar günü 61.000 doların üzerindeki hareketin sırasında Binance süreli işlemler, borsanın spot piyasasının neredeyse on katı kadar net satın almayı kaydetti; bu, kaldıraçlı tüccarların agresif olduğunu gösteriyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-22 09:43 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/"
+        },
+        {
+          "headline": "Trump ikinci memecoin akşam yemeğini yapacak; TRUMP token zirvenin %99 altında",
+          "what": "Eski başkan Trump, boksör Floyd Mayweather, Shark Tank yatırımcısı Kevin O'Leary ve NBA şampiyonu Tristan Thompson gibi katılımcılarla memecoin temalı ikinci bir akşam yemeği düzenleniyor. Kendi TRUMP token'i zirvesin altında %99 düştü.",
+          "coins": "TRUMP memecoin",
+          "timeUTC": "2026-11-22 02:38 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "XRP Defter deneme 213.000 ödenen AI isteğini 6.324 işlemde halletmeyi tamamladı",
+          "what": "t54 Labs, XRP Defter beta denemesinin AI ajan ödemeleri için 213.000 ödenen isteği 6.324 işlemde hallettiğini bildirdi; hata oranı ödenen istek başına 0,36 damla. İki Kasım kontrolü bir tüccarın RLUSD (Ripple'ın USD stablecoin'i) almasını gösteriyor.",
+          "coins": "XRP, RLUSD",
+          "timeUTC": "2026-11-22 02:31 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/xrp-ledger-trial-settled-213000-paid-ai-requests-in-6324-transactions/"
+        },
+        {
+          "headline": "Berlin'in ötesinde daha fazla değiştirilmiş Ledger cüzdanları bulundu; araştırma devam ediyor",
+          "what": "Ledger, Berlin ve BAE'de değiştirilmiş donanım cüzdanlarına ilişkin yeni bildirimleri araştırıyor. Şirketin etkilenen cihazların kapsamına ilişkin araştırması devam ediyor.",
+          "coins": "various (affects all hardware-secured coins)",
+          "timeUTC": "2026-11-22 00:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Core PCE (inflation), Prelim GDP, Initial Jobless Claims on Wednesday 2026-11-25 at 13:30 UTC",
+      "typicalReaction": "Yüksek etkili ABD ekonomik verileri geniş kapsamlı kripto dalgalanmaları tetikleyebilir. Beklenenden güçlü GSYİH veya enflasyon, Fed politikası endişeleri nedeniyle kripto zayıflıktan bahis yapabilir; zayıf veri risk varlıklarına yardımcı olabilir. Bitcoin ve Ethereum genellikle ana ABD veri açıklamalarında makro risk duygusuna uyar."
+    },
+    {
+      "event": "Australia CPI on Wednesday 2026-11-25 at 00:30 UTC",
+      "typicalReaction": "Orta etki; Avustralya CPI, Asya-Pasifik'te risk iştahını etkiler ancak önemli ölçüde şaşmadıkça ve global merkez bankaları beklentilerini değiştirmedikçe kripto üzerinde doğrudan sınırlı etkisi vardır."
+    },
+    {
+      "event": "Germany CPI Flash and US ISM Manufacturing on Friday 2026-11-27 and Tuesday 2026-12-01",
+      "typicalReaction": "Orta etki. Üretim zayıflığı veya deflasyonist sinyaller kripto destekleyebilir; enflasyon şaşkınlığı satışı tetikleyebilir. Avro alanı verileri euro ve global risk duygulanımını etkiler."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "Vadeli işlem fiyatı ile spot fiyat arasındaki fark. Kriptoda, basis tüccarların nakit piyasası fiyatının üzerindeki kaldıraçlı açılım için ödemeye istekli olduğunu gösterir."
+    },
+    {
+      "term": "Breadth",
+      "definition": "Gün içinde yükselenler ve düşenlere karşı toplam coinlerin veya token'lerin yüzdesi. %66,7 genişlik, Binance süreli işlemlerinin üçte ikisinin yükseldiği ve geniş tabanlı pazar gücünü gösterdiği anlamına gelir."
+    },
+    {
+      "term": "Bridge",
+      "definition": "Tüccarların kripto'yu bir blokzincirden diğerine taşımasını sağlayan dijital bir tünel. Örneğin, bir köprü Bitcoin tabanlı tokenleri Ethereum veya diğer zincirlere taşımanıza izin verir. Köprüler fonları kilitlemek ve açmak için koda dayanır; saldırılar bu koddaki hataları bulduğunda oluşur."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında tüccar duygularını ve duyarlılığını ölçen bir puan. Aşırı Korku (0–25) tüccarların çok korkmuş olduğu anlamına gelir; 11 okuma güçlü karamsarlığı ve panik satışı riskini gösterir."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Vadeli işlem sözleşmesinin karşıt taraflarında pozisyon tutan tüccarlar arasında periyodik bir ödeme. Yüksek finansman (%0,1'in üzerinde 8 saatte veya %10+ yıllık) uzun pozisyonları kısa satanların ödediği ve uzunlar aşırı kaldıraçlı olabilir; negatif finansman kısa satanların uzunlara ödediği anlamına gelir. Finansman, vadeli işlem fiyatını spot fiyatla uyumlu tutmaya yardımcı olur."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "Fiyatların yükselişe (long) karşı düşüşe (short) bahis yapan tüccarların oranı. 2,19 oranı, her kısa satana karşı 2,19 uzun pozisyon anlamına gelir; bu güçlü yükselişçi konumlandırmayı gösterir."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Vadeli işlem sözleşmesinde kar, kayıp ve tasfiyeyi hesaplamak için kullanılan fiyat. Genellikle alış ve satış fiyatlarının orta noktasıdır ve tüccarların ani fiyat dalgalanmalarını tasfiye tetiklemek için kullanmasını engeller."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "Belirli bir anda bir vadeli işlem borsasında açık olan tüm kaldıraçlı pozisyonların toplam değeri. Yüksek OI birçok tüccarın kaldıraç kullandığı anlamına gelir; OI'deki ani düşüş sıklıkla tasfiyeyi işaret eder."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "Gün içinde açık pozisyon hacminin ne kadar arttığı veya azaldığı. Büyüme sıklıkla tüccarların kaldıraç eklediğini gösterir (fiyatlarla yükselişse yükselişçi); keskin düşüşler zorunlu tasfiyeyi işaret eder."
+    },
+    {
+      "term": "Perpetual futures or perpetual swap",
+      "definition": "Normal vadeli işlemlerin aksine son kullanma tarihi olmaksızın sonsuza dek işlem gören kaldıraçlı bir sözleşme. Tüccarlar kendi paraları kaldıraç tarafından çarpılarak uzun (daha yüksek fiyatlara bahis) veya kısa (daha düşük fiyatlara bahis) gidebilirler—her iki durumda da daha büyük kazanç ve daha büyük kayıplar anlamına gelir."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "Bir platformdaki pazar alış siparişlerinin (agresif satın alma) pazar satış siparişlerine (agresif satış) oranı. 1,0'in üzerinde daha fazla alıcının istenen fiyattan satın almaya istekli olduğu; 1,0'in altında daha fazla satıcının istenen fiyattan satmaya istekli olduğu, satış baskısını gösterir."
+    },
+    {
+      "term": "Top-position ratio",
+      "definition": "Bir borsadaki tüm tüccarlar değil, yalnızca en büyük kaldıraçlı tüccarlar arasındaki uzun/kısa oranı. En büyük paranın ne bahis oynadığını gösterir ve önde gelen bir gösterge olabilir."
+    },
+    {
+      "term": "Venue",
+      "definition": "Vadeli işlemlerin işlem gördüğü kripto borsa platformu (Binance, Bybit, OKX, vb.). Platformlar biraz farklı fiyatlar ve finansman oranlarına sahip olabilir."
+    },
+    {
+      "term": "Volume",
+      "definition": "Gün içinde bir borsada işlem gören kontratların toplam dolar değeri. Yüksek işlem hacmi genellikle güçlü momentum ve derin likiditeyi gösterir; düşük hacim ince sipariş defterlerini ve daha geniş alış-satış farkını gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "034b8efeb9562ce1"
+}
