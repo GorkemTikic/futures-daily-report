@@ -1,0 +1,228 @@
+{
+  "oneLine": "英伟达CEO复职引发历史性科技股上涨，推升加密货币短期涨幅，监管机构批准比特币作为银行抵押品，机构平台推出24/7代币化股票交易。",
+  "caveman": "周一，一家叫英伟达的超大计算机公司的老板回来工作了，他之前请了一段假。这让世界各地的投资者都很兴奋，因为大家看好科技和人工智能。比特币在几个小时内涨了4000美元（从6万美元涨到6.4万美元），那些赌比特币会跌的人亏钱了，因为电脑自动平了他们的仓位。美国政府还说，银行现在可以把比特币和以太坊当成真钱来保管，这对加密货币是好消息。同时，一个新平台开放了，让人们可以24小时、一周7天地用区块链买卖真实公司的股票，比如苹果或特斯拉。不过到了一天结束的时候，比特币的大涨幅大部分都消退了，所以这股兴奋劲没有持续一整天。这是个好坏参半的一天——价格波动和各种新闻显示市场既充满希望但也很紧张。",
+  "priceVolumeSummary": "比特币在各交易所价格基本一致，收盘价接近61240美元；币安的交易量遥遥领先，达到198亿美元，远超其他四家交易所。以太坊在各交易所的价格也很一致，在1710美元附近（下跌0.78%），币安仍然领先，成交量达110亿美元。",
+  "positioningSummary": "比特币的年化资金费率在各交易所从2.5%到11%，差异很大，说明交易者对价格走势看法不一。大户们（大额头寸比为1.68）在押注价格上升。买方的积极性略高于卖方（吃单买卖比为1.04），币安71%的加密货币市场收盘上涨，显示总体看涨情绪。以太坊的情况完全相反：所有交易所的资金费率都是负的（-3.8%到-7.6%），这意味着押注价格下跌的交易者在赚钱——这是个看跌信号，尽管股票市场今天反弹了。",
+  "stocksSummary": "亚洲半导体和科技股因英伟达CEO复职而大涨：首尔的SK Hynix和Samsung Electronics分别上升11.4%和9.5%，中国的Unitree Robotics跳涨21%，香港的Zhipu AI涨了19.1%。这波上涨延伸到美国交易时段，纳斯达克上升6.2%，半导体ETF SOXL上升22.6%，英伟达本身上升21.8%。商品期货涨跌互现：黄金+1.3%，WTI原油-3.0%，铜+0.4%。",
+  "movers": [
+    {
+      "symbol": "CYSUSDT",
+      "explanation": "没有发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "没有发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "explanation": "没有发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "英伟达CEO黄仁勋复职；引发历史性1万亿美元科技股和加密货币上涨",
+        "what": "英伟达董事会宣布在CEO黄仁勋缺席11天后复职，这创造了英伟达历史上单日市值增幅最大的记录。比特币盘中从最低60367美元跳升至最高64217美元（涨幅7%），短短几小时内引发了5亿美元的空头平仓。纳斯达克上涨6.2%，半导体股票跳涨22%，全球股市因风险偏好回升而反弹。",
+        "coins": "BTC, ETH, tech correlation",
+        "timeUTC": "2026-11-23 ~14:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/23/jensen-huang-returns-as-nvidia-ceo-as-shares-jump-27"
+      },
+      {
+        "headline": "CFTC批准比特币和以太坊作为银行运营准备金的合格资产",
+        "what": "美国金融监管机构（CFTC）发布指导意见，允许比特币、以太坊和支付稳定币计入交易所和衍生品平台必须维持的12个月运营成本准备金。比特币和以太坊打八折（20%的贴水），稳定币打九八折（2%的贴水）。这项监管认可降低了机构加密资产托管的成本，也减少了交易平台的资本要求。",
+        "coins": "BTC, ETH, stablecoins",
+        "timeUTC": "2026-11-23 00:00 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves"
+      },
+      {
+        "headline": "OKXICE推出24/7代币化证券交易平台，113项资产已确认参与",
+        "what": "OKX和洲际交易所（纽交所母公司）开放了OKXICE，一个基于区块链的平台，可以24小时、每周7天交易传统股票和资产的代币版本，不受传统交易时间限制。主要托管商（Circle、BitGo）、券商（Coinbase、Robinhood）和资产管理公司（Fidelity、Strive）已确认参与美国证监会创新豁免计划。",
+        "coins": "tokenized securities, institutional adoption",
+        "timeUTC": "2026-11-23 ~12:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Kalshi在纽约预测市场纠纷中获得临时胜利",
+          "what": "纽约法官拒绝发布紧急命令阻止预测市场平台Kalshi运营。案件涉及该平台的事件合约是否违反州赌博法。这一裁决允许Kalshi在等待1月加快审理期间继续运营。",
+          "coins": "prediction markets",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now"
+        },
+        {
+          "headline": "CFTC预测市场规则推进至白宫审查",
+          "what": "CFTC提出的预测市场规则提案正在推进到白宫进行最终审查，该机构声称对事件合约和预测平台拥有联邦监管权。这是在州联邦管辖权纠纷持续的情况下进行的。",
+          "coins": "prediction markets, regulation",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-23-cftc-prediction-market-rules-advance-white-house-review-amid-state-federal-jurisdiction-fight-445384"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "方舟投资公司取消两项计划中的加密货币ETF",
+          "what": "凯西·伍德领导的方舟投资公司宣布取消两项计划中的加密货币交易所交易基金，理由是应用缓慢和基金表现不佳。竞争对手CoinDesk 20加密ETF（代码KRYP）在上市近10个月后仅持有181万美元资产，突出了零售需求疲软。",
+          "coins": "BTC, ETH, ETF market",
+          "timeUTC": "2026-11-23 ~20:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs"
+        },
+        {
+          "headline": "比特矿公司增持7819个以太坊；现在控制约5%的流通以太坊供应",
+          "what": "公开交易的加密货币公司Bitmine购买了额外的7819个以太坊，使其总持有量达到609万个以太坊（占所有流通以太坊的4.98%）。公司董事长汤姆·李辩称，以太坊的年供应增长（0.90%）与比特币一样受限（0.82%），支持长期以太坊持有者的\"硬资产\"论点。",
+          "coins": "ETH, institutional buying",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-23-bitmine-adds-7819-eth-tom-lee-makes-hard-money-case-444948"
+        },
+        {
+          "headline": "American Bitcoin公司以比特币资产抵押获得1.5亿美元贷款",
+          "what": "由埃里克·特朗普支持的矿业公司American Bitcoin以其比特币储备作为抵押品获得了1.5亿美元贷款，这让公司可以获得现金而无需出售储备或发行新股。然而，比特币价格下跌可能会迫使公司提供额外抵押品来维持该贷款。",
+          "coins": "BTC, treasury loans",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-bitcoin"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Cross River Bank推出比特币抵押贷款计划",
+          "what": "美国银行Cross River Bank通过借贷方LendingUSA开始提供10000美元到250000美元的比特币抵押贷款，让借款人可以获得现金而无需出售比特币。",
+          "coins": "BTC, lending",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "美国司法部寻求追回10月币安黑客事件中被盗的11.7亿美元USDC",
+          "what": "美国司法部申请追回10月29日币安黑客事件中被盗的约11.7亿美元USDC稳定币。一旦美国当局追回被盗资金，USDC发行方Circle可以发行替代代币来恢复客户余额。",
+          "coins": "USDC, BTC, security",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398"
+        },
+        {
+          "headline": "朝鲜将币安黑客事件中被盗的2.47亿美元通过混币器转移",
+          "what": "区块链调查员Elliptic发现，币安黑客事件中被盗的2.47亿美元比特币几乎全部被朝鲜黑客通过'混币器'（用于隐匿交易来源的服务）转移。混币操作由名叫Kruw的实体在每天固定时间协调进行，暗示可能会转交给中国的洗钱网络。",
+          "coins": "BTC, security, sanctions",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Sky稳定币单日面临20亿美元以上出金；7700万美元债务偿还引发担忧",
+          "what": "Sky的USDS稳定币经历了类似挤兑的事件，出金超过20亿美元，短几小时内耗尽了该协议以太坊储备的三分之二。Sky联合创始人正考虑大量出售SKY代币来偿还7700万美元债务，因为独立的stUSDS借贷池已经没有可用的提现资金了。",
+          "coins": "USDS, SKY, stablecoins, DeFi",
+          "timeUTC": "2026-11-23 ~18:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-23-sky-cofounder-weighs-sky-sale-repay-77-million-stusds-pool-runs-dry-445373"
+        },
+        {
+          "headline": "Base协议将量子安全列为2027年优先事项",
+          "what": "Base（基于以太坊的区块链）宣布其下一个主要升级（Everest）将包含量子抗性安全措施，以保护钱包免受未来量子计算威胁。但这次升级之外还需要进行进一步的更改。",
+          "coins": "BASE, Ethereum, infrastructure",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-20",
+    "summary": "美国现货比特币ETF在11月20日周五（报告日前最后一个完整交易日）录得1.245亿美元净出金，以太坊ETF出金1320万美元。这延续了以太坊ETF连续八周的出金趋势，反映了尽管11月23日加密货币盘中上涨，机构持续的卖出压力。",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/eth/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "US inflation data: Core PCE Price Index, Prelim GDP, Initial Jobless Claims (Nov 25, 13:30 UTC)",
+      "typicalReaction": "硬数据经济报告可能引发风险偏好上升（如果数据好于预期）或风险厌恶卖出（如果数据弱于预期），影响股票和加密货币市场。高通胀可能会削弱对风险资产的需求；弱GDP或失业人数增加可能会缓解美联储加息的担忧。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "抵押品（贴水）",
+      "definition": "如果投资失败要用来赔损的资产。'贴水'是对资产价值的折扣——比如100美元的比特币可能只算80美元的抵押品（打八折，即20%贴水），这是为了应对价格波动。"
+    },
+    {
+      "term": "DeFi（去中心化金融）",
+      "definition": "建立在区块链上的金融服务（借贷、交易、衍生品等），没有传统银行或中间商。通常风险比传统银行高，但潜在回报也更高。"
+    },
+    {
+      "term": "ETF（交易所交易基金）",
+      "definition": "跟踪资产价格（如比特币或以太坊）并像普通股票一样在股票交易所交易的基金。对零售和机构投资者来说，这是拥有加密货币但不用管理私钥的简单方式。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "做多（看涨）头寸的交易者支付给做空（看跌）头寸的交易者的利率，或反之。正费率意味着做多支付给做空，说明市场认为价格会上升。负费率意味着做空支付给做多，说明有向下的价格压力。"
+    },
+    {
+      "term": "平仓/爆仓",
+      "definition": "交易者的头寸因账户无足够资金支付亏损而被交易所自动平掉。在价格剧烈波动时可能突然发生，常常引发更多卖出和其他附近头寸的亏损。"
+    },
+    {
+      "term": "多空比",
+      "definition": "押注价格上升的交易者（做多）与押注价格下降的交易者（做空）的比例。比例大于1表示看涨情绪较多；小于1表示看跌情绪较多。极端比例可能预示价格反转。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "交易所用来计算投资损益的价格。通常是多个交易所价格的加权平均，旨在防止操纵和突然的不公平平仓。"
+    },
+    {
+      "term": "市场广度（上涨比例）",
+      "definition": "交易所上一天内上涨的币种占比。高广度（比如70%以上）表示上升动能在很多币种中很普遍；低广度（比如30%）表示尽管大币种价格上升，但大多数币种在下跌。"
+    },
+    {
+      "term": "混币器/混币服务",
+      "definition": "把多笔比特币交易混在一起，让人更难追踪谁给谁转账。常被犯罪分子用来隐匿被盗或洗钱资金的来源，但也被想要财务隐私的人使用。"
+    },
+    {
+      "term": "未平仓头寸（OI）",
+      "definition": "交易所某个币种上所有未平仓头寸（做多和做空）的总价值。高未平仓头寸表示很多交易者在交易；低未平仓头寸表示只有少数人在交易。上升的OI通常表示资金流入；下降的OI表示资金流出。"
+    },
+    {
+      "term": "未平仓头寸变化",
+      "definition": "一天内未平仓头寸总额的增减。价格上升时OI上升表示新资金进入；价格上升时OI下降可能意味着现有交易者在平仓获利（可能是动能减弱的信号）。"
+    },
+    {
+      "term": "永续期货",
+      "definition": "一种交易者可以在没有到期日的情况下押注资产价格的赌注。与有到期日的普通期货不同，永续期货只要交易者持续为头寸融资（支付资金费率），就可以无限期持有。"
+    },
+    {
+      "term": "稳定币",
+      "definition": "设计用来保持稳定价格（通常是1美元）的加密货币，通常由真实美元或其他资产储备支持。用于快速支付结算和在波动时期降低风险。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "积极买单（愿意出价）与积极卖单（愿意降价）的比例。比例大于1表示更多买家愿意推高价格；小于1表示更多卖家急于出手。衡量市场的即时攻击力。"
+    },
+    {
+      "term": "代币化证券",
+      "definition": "真实股票、债券或其他金融资产转换成基于区块链的代币。可以24/7交易，而不是只在股票市场时间交易，而且可以立即结算，而不需要花几天。"
+    },
+    {
+      "term": "大户（大户头寸比）",
+      "definition": "交易所上最大和杠杆最高的交易者中做多头寸与做空头寸的比例。大户大量做多时可能是看涨信号；大量做空时可能表示他们预期下跌。"
+    },
+    {
+      "term": "资金库/加密资产储备",
+      "definition": "公司在资产负债表上拥有和持有的加密货币资产。类似于传统公司持有美元、黄金或债券的方式。比特币和以太坊储备在加密原生公司和科技公司中很常见。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "a8bb247925de11dc"
+}

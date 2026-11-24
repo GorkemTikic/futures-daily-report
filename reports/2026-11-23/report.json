@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-23",
+  "kind": "market",
+  "dateLong": "Monday, 23 November 2026",
+  "coversUTC": "2026-11-23 00:00–23:59 UTC",
+  "oneLine": "Nvidia's CEO reinstatement sparked a historic tech rally that lifted crypto intraday, regulators approved Bitcoin as bank collateral, and institutional platforms launched 24/7 tokenized stock trading.",
+  "newsCount": 13,
+  "macro": {
+    "BTC": 0.019596347893964163,
+    "ETH": -0.7937382868482011
+  },
+  "topMover": {
+    "symbol": "CYSUSDT",
+    "chgPct": 45.649003403014085
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "24 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

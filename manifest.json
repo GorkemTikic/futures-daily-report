@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-23T00:07:10.580Z",
-  "count": 159,
+  "generatedAt": "2026-11-24T00:14:13.108Z",
+  "count": 160,
   "counts": {
-    "total": 159,
-    "market": 72,
+    "total": 160,
+    "market": 73,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-22",
+  "latest": "2026-11-23",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-11-23",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.019596347893964163,
+        "ETH": -0.7937382868482011
+      },
+      "marketSummary": "Nvidia's CEO reinstatement sparked a historic tech rally that lifted crypto intraday, regulators approved Bitcoin as bank collateral, and institutional platforms launched 24/7 tokenized stock trading.",
+      "oneLine": "Nvidia's CEO reinstatement sparked a historic tech rally that lifted crypto intraday, regulators approved Bitcoin as bank collateral, and institutional platforms launched 24/7 tokenized stock trading.",
+      "newsCount": 13,
+      "topMover": {
+        "symbol": "CYSUSDT",
+        "chgPct": 45.649003403014085
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-23/summary_2026-11-23.html",
+        "pdf": "reports/2026-11-23/summary_2026-11-23.pdf",
+        "md": "reports/2026-11-23/summary_2026-11-23.md"
+      }
+    },
     {
       "date": "2026-11-22",
       "kind": "market",

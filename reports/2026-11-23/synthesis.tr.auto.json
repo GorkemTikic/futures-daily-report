@@ -1,0 +1,228 @@
+{
+  "oneLine": "Nvidia CEO'sunun göreve dönüşü tarihî bir teknoloji yükselişini tetikledi ve kripto fiyatlarını gün içinde yükseltti, düzenleyiciler Bitcoin'i banka teminatı olarak onayladı ve kurumsal platformlar 24/7 tokenize hisse ticareti başlattı.",
+  "caveman": "Pazartesi günü dev bilgisayar şirketi Nvidia'nın başkanı biraz önce işe geri döndü ve bu haber yatırımcıları heyecanlandırdı. Bitcoin kısa saatlerde 60 bin dolardan 64 bin dolara çıktı ve bu para kaybeden insanlar vardı. Hükümet bankacılara Bitcoin ve Ethereum'u reel para gibi sayabileceklerini söyledi. Yeni bir platform açıldı ve insanlar Apple gibi şirket hisselerini 24/7 satın alıp satabiliyor blockchain üzerinden. Ama gün sonunda Bitcoin çoğu kazancını kaybetti. Karışık bir gündü—haber ve fiyat dalgalanmaları pazarın umutlu ama tedirgin olduğunu gösterdi.",
+  "priceVolumeSummary": "Bitcoin borsaları gün sonu 61.240 dolar civarında dar aralıkta tuttu; Binance 19,8 milyar dolarla hacimde açık ara öncüydü. Ethereum da yaklaşık 1.710 dolar civarında geniş fiyat uyumluluğu gösterdi (%0,78 düşüş), Binance yine 11,0 milyar dolarla başı çekti.",
+  "positioningSummary": "Bitcoin finansman oranları borsa genelinde %2,5 ile %11 arasında değişerek tüccarların karışık görüşlü olduğunu gösterdi. En büyük tüccarlar fiyatların yükselmesine bahis yapıyordu (topPositionRatio 1,68). Alıcılar satıcılardan biraz daha aktifti (taker alış/satış 1,04) ve Binance'teki kripto pazarlarının %71'i yükselerek güçlü boğa hissiyatını yansıttı. Ethereum ise ters hikaye anlattı: tüm borsaların negatif finansman oranları vardı (-%3,8 ile -%7,6), bu fiyat düşüşüne bahis yapanların ödeme aldığı anlamına gelir—ayı sinyalidir.",
+  "stocksSummary": "Asya yarı iletken ve teknoloji hisseleri Nvidia CEO olayının dalgalanmasında güçlü yükseldi: SK Hynix %11,4, Samsung %9,5, Unitree Robotics %21, Zhipu AI %19,1 arttı. Ralli ABD seansına uzandı; Nasdaq %6,2, SOXL %22,6, Nvidia %21,8 yükseldi. Emtia vadeli kontratları: altın +%1,3, WTI petrol -%3,0, bakır +%0,4.",
+  "movers": [
+    {
+      "symbol": "CYSUSDT",
+      "explanation": "Halk tarafından bilinen açık bir neden yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "Halk tarafından bilinen açık bir neden yok.",
+      "hasCause": false
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "explanation": "Halk tarafından bilinen açık bir neden yok.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Nvidia CEO'su Jensen Huang göreve döndü; kripto ve borsaları sarsacak tarihî teknoloji rallisini tetikledi",
+        "what": "Nvidia yönetim kurulu CEO Jensen Huang'ın 11 günlük yokluğundan sonra göreve geri dönüşünü duyurdu ve bu Nvidia tarihinin en büyük tek günlük pazar değeri kazancını tetikledi. Bitcoin gün içinde 60.367 dolar düşükten 64.217 dolar yükseğe fırladı (%7 swing), saatler içinde 500 milyon dolarlık kısa pozisyon tasfiyesini patlattı. Nasdaq %6,2 sıçradı, yarı iletken hisseleri %22 yükseldi ve küresel hisse senetleri risk iştahının dönüşüyle ralli yaptı.",
+        "coins": "BTC, ETH, teknoloji korelasyonu",
+        "timeUTC": "2026-11-23 ~14:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/23/jensen-huang-returns-as-nvidia-ceo-as-shares-jump-27"
+      },
+      {
+        "headline": "CFTC, Bitcoin ve Ethereum'u banka işletme rezervleri için uygun varlık olarak onayladı",
+        "what": "ABD finansal düzenleyicileri (CFTC), Bitcoin, Ethereum ve ödeme stablecoin'lerinin borsalar ve türev mekanlarının tuması gereken 12 aylık işletme maliyeti rezervlerine doğru sayılmasına izin veren rehberlik yayınladı. Bitcoin ve Ether %20 indirim, stablecoin'ler %2 indirim aldı. Bu düzenleyici onay, kurumlar için kripto saklama maliyetini düşürüyor ve ticaret mekanları için sermaye yükümlülüklerini azaltıyor.",
+        "coins": "BTC, ETH, stablecoin'ler",
+        "timeUTC": "2026-11-23 00:00 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves"
+      },
+      {
+        "headline": "OKXICE, 113 varlıkla 24/7 tokenize menkul kıymet ticareti başlattı",
+        "what": "OKX ve Intercontinental Exchange (NYSE ana şirketi) OKXICE'yi açtı—geleneksel hisse senetleri ve varlıkları blockchain tokeni olarak 24/7 ticareti yapabilen yeni platform. Pazar saatleriyle sınırlı değil. Major gözetim şirketleri (Circle, BitGo), aracı kurumlar (Coinbase, Robinhood) ve varlık yöneticileri (Fidelity, Strive) SEC İnovasyon İstisna programına katılım teyit etti.",
+        "coins": "tokenize menkul kıymetler, kurumsal benimseme",
+        "timeUTC": "2026-11-23 ~12:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Kalshi, New York tahmin pazar meselesi konusunda geçici zafer kazandı",
+          "what": "New York hakim, tahmin pazar platformu Kalshi'nin işletmeye devam etmesini engellemek için acil emir vermesini reddetti. Davada Kalshi'nin olay sözleşmelerinin eyalet kumar yasalarını ihlal edip etmediği konusunda tartışma var. Karar, tam davaya geçilene kadar Kalshi'nin açık kalmasına izin veriyor; ocak ayında hızlandırılmış duruşma planlanıyor.",
+          "coins": "tahmin pazarları",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now"
+        },
+        {
+          "headline": "CFTC'nin tahmin pazar kuralları Beyaz Saray incelemesine ilerliyor",
+          "what": "CFTC'nin tahmin pazarları için önerilen kurallar Beyaz Saray'a nihai inceleme için ilerliyor. CFTC, olay sözleşmeleri ve tahmin mekanları üzerinde federal gözetim iddia ediyor. Bu devlet ve federal yetki arasındaki tartışmalara devam ediyor.",
+          "coins": "tahmin pazarları, düzenleme",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-23-cftc-prediction-market-rules-advance-white-house-review-amid-state-federal-jurisdiction-fight-445384"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ark Invest, planladığı iki kripto ETF'sini iptal ediyor",
+          "what": "Cathie Wood'un ARK Investments, planladığı iki kripto ETF'sini iptal edeceğini duyurdu. Sebep: zayıf benimseme ve kötü performans. Rakip CoinDesk 20 Crypto ETF (KRYP), yaklaşık 10 ay sonra sadece 1,81 milyon dolar varlık tutuyor; bu zayıf perakende talebini gösteriyor.",
+          "coins": "BTC, ETH, ETF pazarı",
+          "timeUTC": "2026-11-23 ~20:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs"
+        },
+        {
+          "headline": "Bitmine, 7.819 ETH satın alıyor; dolaşımdaki Ethereum'un %5'ini kontrol ediyor",
+          "what": "Halka açık kripto şirketi Bitmine, ek 7.819 Ethereum satın aldı ve toplam holdinglerini 6,09 milyon ETH'ye yükseltti (dolaşımdaki ETH'nin %4,98'i). Şirket başkanı Tom Lee, Ethereum'un yıllık arz büyümesinin (%0,90) Bitcoin'inki (%0,82) kadar sıkı olduğunu ve uzun vadeli Ethereum sahipleri için 'sert para' tezini destekliyor.",
+          "coins": "ETH, kurumsal alışveriş",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-23-bitmine-adds-7819-eth-tom-lee-makes-hard-money-case-444948"
+        },
+        {
+          "headline": "American Bitcoin, Bitcoin hazinesine karşı 150 milyon dolar kredi temin etti",
+          "what": "Eric Trump tarafından desteklenen madencilik şirketi American Bitcoin, Bitcoin hazinesini teminat kullanarak 150 milyon dolar kredi temin etti. Bu, rezervleri satmadan veya yeni hisse çıkarmadan nakit erişim sağlıyor. Ancak Bitcoin fiyatlarının düşmesi, krediyi tutturmak için ek teminat göndermeyi zorlayabilir.",
+          "coins": "BTC, hazine kredileri",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-bitcoin"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Cross River Bank, Bitcoin teminatı kredi programı başlattı",
+          "what": "ABD bankası Cross River Bank, kredi kuruluşu LendingUSA aracılığıyla Bitcoin teminatı krediler sunmaya başladı. Tutarlar 10.000 ile 250.000 dolar arasında. Borçlular Bitcoin'lerini satmadan nakit alabiliyor.",
+          "coins": "BTC, kredi",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "DOJ, Ekim Binance hack'ından çalınan 1,17 milyar USDC için geri kazanım arıyor",
+          "what": "ABD Adalet Bakanlığı, 29 Ekim Binance hack'ından çalınan 1,17 milyar USDC stablecoin'in geri kazanımı için başvuruda bulundu. USDC yayıncısı Circle, ABD yetkilileri tarafından para geri kazanıldıktan sonra müşteri bakiyelerini restore etmek için yedek token'lar çıkarabiliyor.",
+          "coins": "USDC, BTC, güvenlik",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398"
+        },
+        {
+          "headline": "Kuzey Kore, Binance hack'ından çalınan 247 milyonu madeni para mikserleri aracılığıyla hareket ettiriyor",
+          "what": "Blockchain araştırmacısı Elliptic, Binance hack'ından çalınan 247 milyon Bitcoin'in neredeyse tamamının 'madeni para mikserleri' (işlem orijinlerini gizlemek için tasarlanmış hizmetler) aracılığıyla hareket ettirildiğini tespit etti. Kuzey Koreli hackerler tarafından Kruw adlı bir oluşum tarafından sabit günlük saatlerde koordine edilen hareket, olası Çin merkezli para aklama ağlarına devredilmeyi gösteriyor.",
+          "coins": "BTC, güvenlik, yaptırımlar",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Sky stablecoin, tek günde 2 milyardan fazla çıkış yaşıyor; 77 milyon borç endişeleri",
+          "what": "Sky'ın USDS stablecoin'i banka kaçışı benzeri bir olay yaşadı; 2 milyardan fazla çıkış saatlerde protokolün Ethereum rezervinin 2/3'ünü boşalttı. Sky kurucu ortağı, ayrı stUSDS ödünç verme havuzunun mevcut fonları bitmiş olduğu anda 77 milyon borcu geri ödemek için büyük SKY token satışı düşünüyor.",
+          "coins": "USDS, SKY, stablecoin'ler, DeFi",
+          "timeUTC": "2026-11-23 ~18:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-23-sky-cofounder-weighs-sky-sale-repay-77-million-stusds-pool-runs-dry-445373"
+        },
+        {
+          "headline": "Base protokolü, kuantum güvenliğini 2027 önceliği yapıyor",
+          "what": "Base (Ethereum tabanlı blockchain), gelecekteki kuantum bilgisayarı tehditlerine karşı cüzdanları korumak için kuantum-dirençli güvenlik içerecek sonraki büyük yükseltmesini (Everest) duyurdu. Ancak bu tek yükseltmenin ötesinde başka değişiklikler gerekli olacak.",
+          "coins": "BASE, Ethereum, altyapı",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-20",
+    "summary": "ABD spot Bitcoin ETF'si Cuma 20 Kasım'da 124,5 milyon dolarlık net çıkış kaydetti, Ethereum ETF'si ise 13,2 milyon dolarlık çıkış gördü (rapor tarihinden önceki son tam işlem günü). Ethereum ETF'leri sekiz haftalık kayıp serisine devam ediyor ve 23 Kasım'daki kripto gün içi kazanımlara rağmen kurumsal satış baskısı sürüyor.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/eth/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "US inflation data: Core PCE Price Index, Prelim GDP, Initial Jobless Claims (Nov 25, 13:30 UTC)",
+      "typicalReaction": "Önemli ekonomik veriler risk iştahını tetikleyebiliyor (beklenenden güçlü = alışveriş, zayıf = satış). Hisse ve kripto pazarları bu haber sonrası hareket ediyor. Yüksek enflasyon riskli varlıklara ilgi azaltabilir; zayıf GDP veya işsizlik talepleri Fed oran artışı endişelerini hafifletebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Teminat (indirim oranı)",
+      "definition": "Bahis ters giderse kayıpları karşılamak için rehin tutulan varlık. 'İndirim' varlığın değerine uygulanan iskonto—örneğin 100 dolar Bitcoin sadece 80 dolar teminat sayılabilir (%20 indirim) fiyat oynaklığını karşılamak için."
+    },
+    {
+      "term": "DeFi (merkezi olmayan finans)",
+      "definition": "Blockchain üzerinde inşa edilen finansal hizmetler (kredi, borçlanma, ticaret, türevler) geleneksel banka olmadan. Tipik bankacılıktan daha yüksek risk ama daha yüksek potansiyel getiri."
+    },
+    {
+      "term": "ETF (borsa işlem gören fon)",
+      "definition": "Bir varlığın (Bitcoin veya Ethereum gibi) fiyatını takip eden ve normal hisse gibi borsa da işlem gören fon. Perakende ve kurumsal yatırımcıların şifreleme anahtarlarını yönetmeden kripto sahibi olmasının kolay yolu."
+    },
+    {
+      "term": "Finansman oranı",
+      "definition": "Uzun (boğa) pozisyonları tutan tüccarların kısa (ayı) pozisyonları tutan tüccarlara veya tam tersine ödediği faiz oranı. Pozitif oran = uzunlar kısalara ödüyor, pazar fiyatın yükselmesini beklediği demek. Negatif oran = kısalar uzunlara ödüyor, aşağı yönlü baskı demek."
+    },
+    {
+      "term": "Tasfiye",
+      "definition": "Bir tüccarın bahsi borsa tarafından otomatik olarak kapatılıyor çünkü hesapları kayıpları karşılayacak parayı tükenmiş. Fiyat dalgalanmaları sırasında aniden gerçekleşebiliyor; başka tüccarlar için de zincirleme kayıplara yol açabiliyor."
+    },
+    {
+      "term": "Uzun/kısa oranı",
+      "definition": "Fiyatların yükselmesine bahis yapan (uzunlar) tüccarların fiyatların düşmesine bahis yapan (kısalar) tüccarlara oranı. 1'den fazla = boğa duygusu; 1'den az = ayı duygusu. Aşırı oranlar potansiyel fiyat kurtarması uyarabilir."
+    },
+    {
+      "term": "Işaretleme fiyatı",
+      "definition": "Bir borsanın bahislerdeki karı ve zararı hesaplamak için kullandığı fiyat. Genellikle birden fazla borsadaki fiyatların ağırlıklı ortalaması; manipülasyonu önlemek ve haksız tasfiyeyi engel almak için tasarlanmış."
+    },
+    {
+      "term": "Pazar genişliği (yukarıda % oranı)",
+      "definition": "Bir borsada bir gün boyunca yükselen kripto sayısının yüzdesi. Yüksek genişlik (örneğin %70+) gücün birçok coin arasında geniş olması; düşük genişlik (örneğin %30) en büyük coinler yükselse bile çoğunun düşmesi demek."
+    },
+    {
+      "term": "Mikser (coinjoin)",
+      "definition": "Para kimden kime gitti olduğunu izlemeyi zorlaştırmak için birden fazla Bitcoin işlemini karıştıran hizmet. Suçlular tarafından çalınan veya beyaz paraklı fonların kaynağını gizmek için yaygın; aynı zamanda gizlilik isteyen insanlar da kullanıyor."
+    },
+    {
+      "term": "Açık faiz (OI)",
+      "definition": "Belirli bir coin için bir borsadaki tüm açık bahislerin (uzun ve kısa) toplam değeri. Yüksek OI = birçok tüccar bahis yapıyor; düşük OI = azı yapıyor. Yükselen OI genellikle yeni para gelişi demek; düşen OI para ayrılması demek."
+    },
+    {
+      "term": "Açık faiz değişimi",
+      "definition": "Bir gün boyunca toplam açık faizin ne kadar arttığı veya azaldığı. Fiyat rallisinde yükselen OI = yeni para giriş; düşen OI = tüccarlar kazananları kapatıyor (zayıflaşan momentum işareti)."
+    },
+    {
+      "term": "Vadeli kontrat (perp)",
+      "definition": "Tüccarların bir varlığın fiyatına sona erme tarihi olmayan bahis yapabildiği bahis türü. Normal vadeli kontratlardan farklı olarak sona erer; perplar tüccar finansman oranı ödemeyi sürdürse sonsuza kadar tutulabilir."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "Sabit bir fiyat tutması için tasarlanmış kripto (genellikle 1 dolar), gerçek dolar veya rezervdeki diğer varlıklarla desteklenen. Hızlı ödeme tutulması ve oynak dönemlerde riski azalmak için kullanılıyor."
+    },
+    {
+      "term": "Alıcı/satıcı oranı",
+      "definition": "Agresif alış siparişlerinin (istenen fiyatı ödeyenler) agresif satış siparişlerine (daha düşük fiyatı kabul edenler) oranı. 1'den fazla = fiyatı kaldırmaya istekli daha fazla alıcı; 1'den az = umutsuz satıcı. Anlık pazar agresivitesini ölçüyor."
+    },
+    {
+      "term": "Tokenize menkul kıymetler",
+      "definition": "Gerçek hisse senetleri, tahviller veya diğer finansal varlıklar blockchain tokeni olarak dönüştürülmüş. Sadece borsa saatleri yerine 24/7 işlem gören ve günler değil anında tutulabilen varlıklar."
+    },
+    {
+      "term": "En iyiler (topPositionRatio)",
+      "definition": "Bir borsada en büyük ve en yüksek kaldıraçlı tüccarlar arasında uzun bahislerin kısa bahislere oranı. Büyük tüccarlar ağır uzun = boğa sinyali; ağır kısa = düşüş bekledikleri demek."
+    },
+    {
+      "term": "Hazine (kripto holdingleri)",
+      "definition": "Bir şirketin balance sheet'inde varlık olarak sahip olunan kripto. Geleneksel şirketlerin ABD doları, altın veya tahvil tuttuğu gibi. Bitcoin ve Ethereum hazineleri kripto-yerli ve teknoloji şirketleri için ortak."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "a8bb247925de11dc"
+}

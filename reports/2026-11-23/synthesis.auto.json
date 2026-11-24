@@ -1,0 +1,227 @@
+{
+  "oneLine": "Nvidia's CEO reinstatement sparked a historic tech rally that lifted crypto intraday, regulators approved Bitcoin as bank collateral, and institutional platforms launched 24/7 tokenized stock trading.",
+  "caveman": "On Monday, the leader of a giant computer company called Nvidia came back to work after being away, which made investors around the world very excited about technology and artificial intelligence. Bitcoin jumped up $4,000 in just a few hours (from about $60,000 to $64,000), and people who had bet against Bitcoin lost money when computers automatically closed their bets. The US government also said that banks can now count Bitcoin and Ethereum as real money they keep on hand, which is good news for crypto. At the same time, a new platform opened so people can buy and sell real company stocks (like Apple or Tesla) 24 hours a day, 7 days a week, using blockchain. By the end of the day, most of Bitcoin's big jump had faded, so the excitement didn't last all day. It was a mixed day — the price swings and news showed the market is hopeful but nervous.",
+  "priceVolumeSummary": "Bitcoin venues agreed tightly on price near $61,240 at day's close; Binance led volume by a wide margin at $19.8 billion, well ahead of the other four exchanges. Ethereum also showed broad price agreement around $1,710 (down 0.78%), with Binance again leading at $11.0 billion.",
+  "positioningSummary": "Bitcoin funding rates ranged from 2.5% to 11% annualized across venues—a wide spread showing mixed conviction about whether prices would rise or fall. The largest traders (topPositionRatio of 1.68) were betting on prices going up. Buyers were slightly more aggressive than sellers (taker buy/sell 1.04), and 71% of all Binance crypto markets closed up on the day, suggesting broad bullish sentiment. Ethereum told the opposite story: all venues showed negative funding rates (-3.8% to -7.6%), meaning traders betting on price declines were getting paid—a bearish signal despite the day's equity rally.",
+  "stocksSummary": "Asian semiconductor and tech stocks surged on ripple effects from Nvidia's CEO reinstatement: Seoul's SK Hynix and Samsung Electronics rose 11.4% and 9.5% respectively, China's Unitree Robotics jumped 21%, and Hong Kong's Zhipu AI climbed 19.1%. The rally extended into the US session, with Nasdaq up 6.2%, semiconductor ETF SOXL up 22.6%, and Nvidia itself up 21.8%. Commodity perps were mixed: gold +1.3%, WTI crude oil -3.0%, copper +0.4%.",
+  "movers": [
+    {
+      "symbol": "CYSUSDT",
+      "explanation": "No clear public cause found.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "No clear public cause found.",
+      "hasCause": false
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "explanation": "No clear public cause found.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Nvidia CEO Jensen Huang reinstated; triggers historic $1 trillion tech rally across crypto and stocks",
+        "what": "Nvidia's board announced the reinstatement of CEO Jensen Huang after his 11-day absence, sparking the largest single-day market-value gain in Nvidia history. Bitcoin jumped intraday from $60,367 low to $64,217 high (7% swing), triggering $500 million in short-position liquidations within hours. Nasdaq surged 6.2%, semiconductor stocks jumped 22%, and global equities rallied as risk appetite returned.",
+        "coins": "BTC, ETH, tech correlation",
+        "timeUTC": "2026-11-23 ~14:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/23/jensen-huang-returns-as-nvidia-ceo-as-shares-jump-27"
+      },
+      {
+        "headline": "CFTC approves Bitcoin and Ethereum as qualifying assets for bank operating reserves",
+        "what": "US financial regulators (CFTC) issued guidance allowing Bitcoin, Ethereum, and payment stablecoins to count toward the 12-month operating-cost reserves that exchanges and derivative venues are required to maintain. Bitcoin and Ether received a 20% haircut; stablecoins a 2% haircut. This regulatory validation lowers the cost of crypto custody for institutions and reduces capital requirements for trading venues.",
+        "coins": "BTC, ETH, stablecoins",
+        "timeUTC": "2026-11-23 00:00 UTC",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves"
+      },
+      {
+        "headline": "OKXICE launches 24/7 tokenized securities venue with 113 confirmed assets",
+        "what": "OKX and the Intercontinental Exchange (NYSE parent) opened OKXICE, a blockchain-based platform for trading traditional stocks and assets as tokens, available 24 hours a day, 7 days a week—unrestricted by traditional market hours. Major custodians (Circle, BitGo), brokers (Coinbase, Robinhood), and asset managers (Fidelity, Strive) confirmed participation in the SEC Innovation Exemption program.",
+        "coins": "tokenized securities, institutional adoption",
+        "timeUTC": "2026-11-23 ~12:00 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Kalshi secures temporary win in New York prediction market dispute",
+          "what": "A New York judge declined to issue an emergency order blocking the prediction market platform Kalshi during a legal battle over whether the platform's event contracts violate state gambling laws. The ruling allows Kalshi to continue operating while the full case proceeds to an expedited January hearing.",
+          "coins": "prediction markets",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now"
+        },
+        {
+          "headline": "CFTC prediction market rules advance to White House review",
+          "what": "The CFTC's proposed set of rules for prediction markets is moving to the White House for final review, as the agency asserts federal oversight of event contracts and prediction venues. This follows ongoing state-federal jurisdiction disputes.",
+          "coins": "prediction markets, regulation",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-23-cftc-prediction-market-rules-advance-white-house-review-amid-state-federal-jurisdiction-fight-445384"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Ark Invest cancels two planned cryptocurrency ETFs",
+          "what": "Cathie Wood's ARK Investments announced it is cancelling two planned cryptocurrency-focused exchange-traded funds, citing sluggish adoption and poor fund performance. A competing CoinDesk 20 Crypto ETF (ticker KRYP) holds only $1.81 million in assets nearly 10 months after launch, underscoring weak retail demand.",
+          "coins": "BTC, ETH, ETF market",
+          "timeUTC": "2026-11-23 ~20:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs"
+        },
+        {
+          "headline": "Bitmine adds 7,819 ETH; now controls ~5% of circulating Ethereum supply",
+          "what": "Public cryptocurrency company Bitmine purchased an additional 7,819 Ethereum, lifting its total holdings to 6.09 million ETH (4.98% of all circulating ETH). Tom Lee, the company's chairman, made the case that Ethereum's annual supply growth (0.90%) is as restrictive as Bitcoin's (0.82%), supporting a 'hard money' thesis for long-term Ethereum holders.",
+          "coins": "ETH, institutional buying",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-23-bitmine-adds-7819-eth-tom-lee-makes-hard-money-case-444948"
+        },
+        {
+          "headline": "American Bitcoin secures $150 million loan against bitcoin treasury",
+          "what": "Eric Trump-backed mining company American Bitcoin secured a $150 million loan using its Bitcoin treasury as collateral, allowing the company to access cash without selling reserves or issuing new shares. However, falling Bitcoin prices could force the company to pledge additional collateral to maintain the loan.",
+          "coins": "BTC, treasury loans",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-bitcoin"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Cross River Bank launches Bitcoin-backed lending program",
+          "what": "US bank Cross River Bank began offering Bitcoin-collateralized loans ranging from $10,000 to $250,000 through lender LendingUSA, allowing borrowers to access cash without selling their Bitcoin holdings.",
+          "coins": "BTC, lending",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "DOJ seeks $1.17 billion in stolen USDC from October Binance hack",
+          "what": "The US Department of Justice filed for recovery of approximately $1.17 billion in USDC stablecoins stolen in the October 29 Binance hack. Circle (the issuer of USDC) can issue replacement tokens to restore customer balances once stolen funds are recovered by US authorities.",
+          "coins": "USDC, BTC, security",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398"
+        },
+        {
+          "headline": "North Korea moving $247 million from Binance hack through coin mixers",
+          "what": "Blockchain investigator Elliptic identified that nearly all of the $247 million in Bitcoin stolen in the Binance hack has been routed through 'coin mixers' (services designed to obscure transaction origins) by North Korean hackers. The mixing was coordinated by an entity called Kruw during fixed daily hours, suggesting potential handoffs to China-based money laundering networks.",
+          "coins": "BTC, security, sanctions",
+          "timeUTC": "2026-11-23 ~16:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "Sky stablecoin faces $2 billion+ outflows in single day; $77 million debt repayment concerns",
+          "what": "Sky's USDS stablecoin experienced a bank-run-like event with over $2 billion in outflows, draining two-thirds of the protocol's Ethereum reserve in hours. Sky co-founder is considering a large SKY token sale to repay $77 million in debt, as the separate stUSDS lending pool ran out of available withdrawal funds.",
+          "coins": "USDS, SKY, stablecoins, DeFi",
+          "timeUTC": "2026-11-23 ~18:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-23-sky-cofounder-weighs-sky-sale-repay-77-million-stusds-pool-runs-dry-445373"
+        },
+        {
+          "headline": "Base protocol makes quantum security a 2027 priority",
+          "what": "Base (the Ethereum-based blockchain) announced that its next major upgrade (Everest) will include quantum-resistant security measures to protect wallets from future quantum computing threats. However, further changes will be needed beyond this single upgrade.",
+          "coins": "BASE, Ethereum, infrastructure",
+          "timeUTC": "2026-11-23 ~19:00 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-20",
+    "summary": "US spot Bitcoin ETF recorded a $124.5 million net outflow, while Ethereum ETF saw a $13.2 million outflow on Friday Nov 20 (the latest complete trading day before the report date). This continues an eight-week losing streak for Ethereum ETFs and reflects ongoing institutional selling pressure despite intraday crypto gains on Nov 23.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/eth/ and https://sosovalue.com/assets/etf/us-eth-spot"
+  },
+  "calendarNotes": [
+    {
+      "event": "US inflation data: Core PCE Price Index, Prelim GDP, Initial Jobless Claims (Nov 25, 13:30 UTC)",
+      "typicalReaction": "Hard-data economic reports can trigger risk-on (if stronger than expected) or risk-off selling (if weaker), affecting both stock and crypto markets. High inflation could weaken appetite for risky assets; weak GDP or jobless claims could ease Fed rate-hike concerns."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Collateral (haircut)",
+      "definition": "Asset pledged to cover losses if a bet goes wrong. A 'haircut' is a discount applied to the asset's value—for example, $100 of Bitcoin might only count as $80 of collateral (20% haircut) to account for price volatility."
+    },
+    {
+      "term": "DeFi (decentralized finance)",
+      "definition": "Financial services (lending, borrowing, trading, derivatives) built on blockchain without a traditional bank or middleman. Typically higher risk but also higher potential returns than traditional banking."
+    },
+    {
+      "term": "ETF (exchange-traded fund)",
+      "definition": "Fund that tracks the price of an asset (like Bitcoin or Ethereum) and trades on a stock exchange like a regular stock. Easy way for retail and institutional investors to own crypto without managing private encryption keys."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "Interest rate that traders holding long (bullish) positions pay to traders holding short (bearish) positions, or vice versa. A positive rate means longs pay shorts, suggesting the market thinks price will go up. A negative rate means shorts pay longs, suggesting downward price pressure."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "When a trader's bet is automatically closed by the exchange because their account runs out of money to cover losses. Can happen suddenly during price swings, often triggering more selling and losses for other nearby traders."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "Ratio of traders betting prices will go up (longs) to traders betting prices will go down (shorts). Above 1 means more bullish sentiment; below 1 means more bearish. Extreme ratios can warn of a potential price reversal."
+    },
+    {
+      "term": "Mark price",
+      "definition": "Price an exchange uses to calculate profits and losses on bets. Usually a weighted average of prices across multiple exchanges, designed to prevent manipulation and sudden unfair liquidations."
+    },
+    {
+      "term": "Market breadth (upPct)",
+      "definition": "Percentage of coins on an exchange that went up during a day. High breadth (say, 70%+) suggests strength is broad across many coins; low breadth (say, 30%) suggests most coins are declining despite price of biggest coins."
+    },
+    {
+      "term": "Mixer (coinjoin)",
+      "definition": "Service that combines multiple Bitcoin transactions to make it harder to trace who sent money to whom. Commonly used by criminals to hide the source of stolen or laundered funds, but also used by people wanting financial privacy."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "Total value of all open bets (long and short) on an exchange for a given coin. High open interest means many traders are betting; low open interest means few are. Rising OI usually means money is flowing in; falling OI means money is leaving."
+    },
+    {
+      "term": "Open interest change",
+      "definition": "How much the total open interest increased or decreased during a day. A rising OI during a price rally suggests new money entering; falling OI during a rally could mean existing traders are closing winners (potential sign of weakening momentum)."
+    },
+    {
+      "term": "Perpetual future (perp)",
+      "definition": "A type of bet where traders can bet on an asset's price without an expiration date. Unlike normal futures that expire, perps can be held indefinitely as long as the trader keeps funding the position (paying the funding rate)."
+    },
+    {
+      "term": "Stablecoin",
+      "definition": "Cryptocurrency designed to hold a steady price (usually $1), often backed by real dollars or other assets in reserve. Used for fast payment settlement and reducing risk during volatile periods."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "Ratio of aggressive buy orders (willing to pay the asking price) to aggressive sell orders (willing to accept lower prices). Above 1 means more buyers are willing to lift the price; below 1 means more sellers are desperate. Measures immediate market aggression."
+    },
+    {
+      "term": "Tokenized securities",
+      "definition": "Real stocks, bonds, or other financial assets converted into blockchain-based tokens. Can be traded 24/7 instead of only during stock market hours, and settles instantly instead of taking days."
+    },
+    {
+      "term": "Toppers (top traders, topPositionRatio)",
+      "definition": "Ratio of long bets to short bets among the largest and most-leveraged traders on an exchange. When big traders are heavily long, it can be bullish; when heavily short, it can signal they expect a downturn."
+    },
+    {
+      "term": "Treasury (crypto holdings)",
+      "definition": "Cryptocurrency owned and held on a company's balance sheet as an asset. Similar to how a traditional company holds US dollars, gold, or bonds. Bitcoin and Ethereum treasuries are common for crypto-native and tech companies."
+    }
+  ],
+  "_source": "cli"
+}
