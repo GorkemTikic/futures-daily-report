@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-24T00:14:13.108Z",
-  "count": 160,
+  "generatedAt": "2026-11-25T00:11:12.984Z",
+  "count": 161,
   "counts": {
-    "total": 160,
-    "market": 73,
+    "total": 161,
+    "market": 74,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-23",
+  "latest": "2026-11-24",
   "reports": [
+    {
+      "date": "2026-11-24",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -2.3561013046815065,
+        "ETH": -1.8013697428369206
+      },
+      "marketSummary": "Bitcoin and Ethereum fell 2.3-2.4% on November 24 amid US tariff concerns, record Bitcoin ETF outflows, and surge in liquidations, with only 17.9% of altcoins gaining as extreme fear gripped markets.",
+      "oneLine": "Bitcoin and Ethereum fell 2.3-2.4% on November 24 amid US tariff concerns, record Bitcoin ETF outflows, and surge in liquidations, with only 17.9% of altcoins gaining as extreme fear gripped markets.",
+      "newsCount": 14,
+      "topMover": {
+        "symbol": "GUAUSDT",
+        "chgPct": 49.38039804731507
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-24/summary_2026-11-24.html",
+        "pdf": "reports/2026-11-24/summary_2026-11-24.pdf",
+        "md": "reports/2026-11-24/summary_2026-11-24.md"
+      }
+    },
     {
       "date": "2026-11-23",
       "kind": "market",

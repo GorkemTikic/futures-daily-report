@@ -1,0 +1,217 @@
+{
+  "oneLine": "Bitcoin and Ethereum fell 2.3-2.4% on November 24 amid US tariff concerns, record Bitcoin ETF outflows, and surge in liquidations, with only 17.9% of altcoins gaining as extreme fear gripped markets.",
+  "caveman": "Bitcoin and Ethereum each fell about 2% on November 24. Three main things happened: First, a newspaper said the US government might add taxes on goods from China and other countries soon, which scared people. Second, more people pulled money out of Bitcoin investment funds than ever before in a month. Third, when prices dropped, people who borrowed money to buy Bitcoin got forced to sell their coins automatically, which made prices fall faster. Almost no other cryptocurrencies went up—only 1 out of 6. It was a worrying day.",
+  "priceVolumeSummary": "Bitcoin fell 2.35% from $61,240 to $59,801, with all five major exchanges (Binance, Bybit, OKX, Bitget, Gate) staying within 2% of each other. Ethereum fell 1.78% from $1,710 to $1,679. Binance led volume with $14.2 billion in Bitcoin and $7.4 billion in Ethereum spot and perp trading combined.",
+  "positioningSummary": "Funding rates stayed solidly positive (Bitcoin 7.98% annualized, Ethereum 10.47%), signaling traders expected prices to rise—but the market fell sharply anyway, triggering forced selling. Account-level long/short ratios were extremely bullish (Bitcoin 2.77-to-1 long, Ethereum 2.34-to-1), but top traders were more balanced (Bitcoin 1.57-to-1, Ethereum 1.70-to-1), suggesting big money was already de-risking. Taker buy/sell ratios stayed near neutral (Bitcoin 1.04x, Ethereum 1.05x), showing no sustained conviction either way. Market breadth collapsed: only 17.9% of Binance perps gained, with 146 up versus 670 down—the clearest sign of a broad forced liquidation across all leveraged positions, not selective profit-taking.",
+  "stocksSummary": "Asian markets crashed, especially semiconductors facing tariff concerns: South Korea's SK Hynix fell 8.1%, Samsung 7.4%. Hong Kong tech stocks including Zhipu AI plunged 17%, with 2x leveraged chip ETFs down 14-16%. China's Unitree Robotics fell 5.1%. US equities weakened but less severely (S&P 500 -0.5%, Nasdaq -1.4%), but semiconductor ETFs cratered: SOXL down 24.2% due to tariff jitters and demand concerns, while inverse bets (SOXS) surged 22.8%.",
+  "movers": [
+    {
+      "symbol": "GUAUSDT",
+      "explanation": "No clear public cause found in news or exchange announcements on 2026-11-24.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "explanation": "No clear public cause found in news or exchange announcements on 2026-11-24.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "No clear public cause found in news or exchange announcements on 2026-11-24.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Trump admin may unveil tariffs on China, Japan, Korea and others as soon as this week—reported by WSJ; markets tumble on trade war fears",
+        "what": "Wall Street Journal reported that the Trump Administration could announce tariff hikes against China, Japan, South Korea and over a dozen other countries as soon as late November 2026. No actual tariff rates or effective dates were confirmed, but the report alone triggered immediate market sell-off: Bitcoin fell 1%, Nasdaq 100 futures dropped 2.4%, S&P 500 futures fell 1.5%. Tariff concerns specifically targeted semiconductors, causing severe declines in Korean and Chinese chip stocks.",
+        "coins": "Bitcoin, Ethereum, all altcoins",
+        "timeUTC": "2026-11-24 09:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto"
+      },
+      {
+        "headline": "Bitcoin spot ETF outflows surge to record $4.71 billion in November, the worst month on record",
+        "what": "Bitcoin spot ETF outflows for November 2026 reached $4.71 billion cumulatively through 2026-11-24, breaking the previous monthly record. BlackRock led the outflows, with Ethereum ETF also recording net withdrawals. The massive exodus reflects institutional exit after Bitcoin fell from $60,000+ to near $59,800 intraday, closing the cumulative outflow window for the month.",
+        "coins": "Bitcoin, Ethereum",
+        "timeUTC": "2026-11-24 09:30 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion"
+      },
+      {
+        "headline": "South Korea ends 2017 ICO ban, opens path for token issuers under IPO-style disclosure rules",
+        "what": "South Korea's Financial Services Commission released a draft Digital Asset Act that would lift the nine-year ban on domestic Initial Coin Offerings (ICOs) that began in 2017. Token issuers would be required to disclose how they plan to spend investor funds and face criminal penalties for misleading buyers. The move aims to boost jobs and retain crypto investment onshore after years of projects moving offshore to avoid the ban.",
+        "coins": "All altcoins, Korean projects",
+        "timeUTC": "2026-11-24 10:30 UTC",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/383905/south-korea-moves-lift-ico-ban-after-nearly-decade"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Utah dismisses criminal charges against prediction market Kalshi, but promises to refile if it resumes operations in state",
+          "what": "Utah's attorney general moved to dismiss criminal charges against Kalshi, the crypto-based prediction market, following the company's decision to halt trading in the state. The state warned that charges could be refiled if Kalshi returns, while separate civil litigation remains unresolved. This represents a partial regulatory win for prediction markets after earlier bans.",
+          "coins": "Polymarket / Kalshi",
+          "timeUTC": "2026-11-24 09:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/24/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there"
+        },
+        {
+          "headline": "SEC staff grants Molecule no-action relief for scientific research tokens without enforcement action threat",
+          "what": "SEC staff issued a no-action letter stating it will not recommend enforcement against Molecule for its utility tokens that allow supporters to fund and participate in scientific research. The tokens operate outside traditional securities regulation under the relief provided.",
+          "coins": "Molecule (MOLECULE)",
+          "timeUTC": "2026-11-24 15:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-24-sec-staff-gives-molecule-no-action-relief-scientific-research-tokens-446067"
+        },
+        {
+          "headline": "Hong Kong proposes new approval requirement for banks holding customer crypto assets",
+          "what": "Hong Kong authorities proposed that standalone custodians would generally need a full license, while banks would need registration alongside existing custody standards before they can hold customer cryptocurrency. This tightens custody oversight for one of crypto's largest regional hubs.",
+          "coins": "All crypto",
+          "timeUTC": "2026-11-24 13:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hong-kong-wants-banks-to-secure-new-approval-before-holding-customers-crypto/"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "BTCS, an Ethereum treasury firm, sells $43.8 million in ETH to slash Aave loan exposure and prevent liquidation",
+          "what": "Nasdaq-listed Ethereum treasury company BTCS sold 27,300 ETH during the Friday sell-off, netting $43.8 million. The move was designed to reduce decentralized finance debt on Aave and cut collateral liquidation risk as ETH prices fell below key support levels. CEO noted 'we do not take this lightly.'",
+          "coins": "Ethereum (ETH)",
+          "timeUTC": "2026-11-24 15:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-24-ethereum-treasury-firm-btcs-sells-43-8-million-eth-cut-aave-debt-ceo-says-we-do-not-take-this-lightly-445562"
+        },
+        {
+          "headline": "Anchorage Digital launches new asset-management subsidiary called 61st Parallel Asset Management",
+          "what": "Crypto custody technology firm Anchorage Digital announced a new separate asset-management subsidiary, 61st Parallel Asset Management, as it expands beyond custody into active portfolio management services.",
+          "coins": "All crypto (platform news)",
+          "timeUTC": "2026-11-24 15:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/24/anchorage-digital-to-unveil-new-asset-management-subsidiary"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Payward's Kraken launches credit card products with Bitcoin cashback, including secured card backed by USDC collateral",
+          "what": "Kraken announced early 2027 launch of two US credit card products including a standard card offering Bitcoin cashback and a secured card using USDC stablecoins as collateral. Waitlist now open. The products expand crypto onboarding into mainstream financial services.",
+          "coins": "Bitcoin, USDC",
+          "timeUTC": "2026-11-24 12:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498"
+        },
+        {
+          "headline": "Robinhood co-leads $5 million seed round for onchain trading platform Rialto, which has processed $600M in spot volume",
+          "what": "Rialto, a web3 trading platform, raised $5 million in seed funding co-led by Robinhood Ventures. Since public launch in July 2026, Rialto has processed over $600 million in spot trading volume via its app and Swap API, demonstrating market demand for onchain trading infrastructure.",
+          "coins": "Platform infrastructure",
+          "timeUTC": "2026-11-24 14:00 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-11-24-robinhood-onchain-trading-platform-rialto-funding-446030"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Coldcard Bitcoin hardware wallet reveals 5-year security flaw: software random-number generator shipped in place of hardware one, bypassing 15 security reviews",
+          "what": "Coinkite disclosed that Coldcard shipped an insecure software-based random-number generator instead of its intended hardware version for over five years. The flaw went undetected through at least 15 independent security audits, exposing private key generation to potential compromise. Coinkite has not yet decided on customer compensation policy.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-24 15:00 UTC",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/383930/coldcard-bitcoin-exploit-how-hidden-flaw-survived-years-audits"
+        },
+        {
+          "headline": "Crypto trader Ansem's wallet drained of $2.57 million in memecoins after suspected breach of Bullpen trading terminal; creator denies involvement",
+          "what": "A wallet linked to popular Solana/memecoin trader Ansem was drained of approximately $2.57 million in tokens (87 million ANSEM tokens sold and other assets moved). Ansem claims his account on Bullpen (the trading terminal he co-founded) was hacked after his wallet's private key was imported there. On-chain analysts question details; Bullpen confirmed the security breach. Ansem announced a full security review.",
+          "coins": "ANSEM, various Solana tokens",
+          "timeUTC": "2026-11-24 09:00 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered"
+        },
+        {
+          "headline": "US Department of Justice moves to seize $1.1 billion in USDC from Binance hack proceeds through Circle replacement token mechanism",
+          "what": "The DOJ filed a motion to seize $1.1 billion in USDC that was allegedly moved by Binance hackers (November 2024 theft). If the court orders forfeiture, Circle would issue new replacement tokens and send the blocked balances to the government, circumventing the need to access hacker wallets directly.",
+          "coins": "USDC",
+          "timeUTC": "2026-11-24 15:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/us-moves-to-seize-1-1-billion-from-binance-hackers-without-accessing-their-wallets/"
+        },
+        {
+          "headline": "Europol traces $28.5 million in crypto payments behind illegal streaming services; Binance, Coinbase and Chainalysis assist investigation",
+          "what": "Law enforcement from 11 countries working with Binance, Coinbase and Chainalysis traced over €26 million ($28.5 million) in cryptocurrency transactions tied to illegal IPTV streaming services. The operation identified payment flows and helped disrupt illegal streaming operations across Europe.",
+          "coins": "Various (payment tracing)",
+          "timeUTC": "2026-11-24 15:30 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-24-europol-operation-binance-coinbase-chainalysis-traces-28-5-million-crypto-illegal-streaming-services-446019"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-24",
+    "summary": "November 2026 Bitcoin spot ETF cumulative outflows reached record $4.71 billion through November 24, the largest monthly outflow in ETF history. Ethereum ETF also recorded net withdrawals over the same period.",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion"
+  },
+  "calendarNotes": [
+    {
+      "event": "Australia CPI November 2026 (Wed 25 Nov, 00:30 UTC)",
+      "typicalReaction": "High-impact macro data release. Crypto typically shows modest reaction to Australian economic data, but as part of broad risk-off sentiment could reinforce weakness if data surprises to downside."
+    },
+    {
+      "event": "US Core PCE Price Index m/m (Wed 25 Nov, 13:30 UTC)",
+      "typicalReaction": "High-impact inflation measure watched by Federal Reserve. Expected 0.3%. If higher, could strengthen US dollar and weigh on risk assets including crypto. If lower, could ease recession concerns."
+    },
+    {
+      "event": "US Preliminary GDP q/q (Wed 25 Nov, 13:30 UTC)",
+      "typicalReaction": "High-impact economic growth measure. Expected 3.5% vs. 3.4% prior. GDP beats could ease recession concerns; misses could reinforce them and weigh on equities/crypto."
+    },
+    {
+      "event": "US Personal Income and Outlays / Initial Jobless Claims (Wed 25 Nov, 13:30 UTC)",
+      "typicalReaction": "Labor market and consumer spending data. These affect Fed policy expectations and equity volatility, which often drive crypto positioning. Jobless claims rising could signal economic softening; rising personal income could support growth narrative."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The price difference between a futures contract and the spot price. A positive basis means futures trade above spot; utc-day basis resets daily at 00:00 UTC."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of coins in the market that advanced (went up) versus declined (went down) on a given day. Very low breadth (like 17.9%) signals a broad market decline, not selective weakness."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders holding long and short positions in perpetual futures. Positive rates mean long traders pay short traders (traders expect prices to rise). Rates are expressed as a raw percentage (e.g., 0.0001) per 8-hour period or as an annualized percentage."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The proportion of traders holding long (betting prices will rise) versus short (betting prices will fall) positions. A 2.5-to-1 ratio means 2.5 longs for every 1 short—very bullish positioning."
+    },
+    {
+      "term": "Liquidation",
+      "definition": "Automatic forced closure of a leveraged trading position when collateral falls below a broker's threshold, triggering a sale at market prices. Liquidations in a falling market cause additional selling pressure."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used to calculate margin and trigger liquidations on perpetual futures, typically derived from multiple exchanges to prevent manipulation."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total number of open (unsettled) contracts or coins in perpetual futures markets at a point in time, valued in either coins or USD. Rising OI signals new money entering; falling OI signals liquidations or position closures."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders filled (takers) to market sell orders filled. Above 1.0 means more aggressive buying; below 1.0 means more aggressive selling."
+    },
+    {
+      "term": "Top trader position ratio",
+      "definition": "The long-to-short ratio among the largest traders on an exchange. Often more balanced than the account-wide ratio because big money is typically less one-sided than retail."
+    },
+    {
+      "term": "Volume (USD)",
+      "definition": "The total notional value of contracts or coins traded (bought and sold) in a 24-hour period, measured in US dollars. High volume on a down day suggests forced selling; low volume suggests lack of conviction."
+    }
+  ],
+  "_source": "cli"
+}
