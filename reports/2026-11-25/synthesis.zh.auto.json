@@ -1,0 +1,228 @@
+{
+  "oneLine": "11月25日星期三，比特币和以太坊各上涨约1%，但整个加密货币市场下跌1.86%，股指也出现下滑。美国核心通胀数据（3.3% vs 3.2%预期）高于预期，加上贸易关税问题的担忧，市场陷入极度恐慌。",
+  "caveman": "11月25日，比特币上涨1%，以太坊上涨0.7%，但大多数其他加密货币下跌了。人们担心的主要原因是美国政府公布的通胀数据显示物价上升速度超过预期。另外，美国总统还在讨论对其他国家的商品征收贸易税（称为关税）。这些担忧也拖累了股票市场下跌（标普500指数小幅下降）。市场情绪转变为极度恐惧和担忧，恐惧指数跌至13（满分100）。这对大多数投资者来说是令人担忧的一天。",
+  "priceVolumeSummary": "比特币收盘价为$60,429.90（币安上涨1.05%），以太坊为$1,691.79（上涨0.74%）。五大主要交易所（币安、Bybit、OKX、Bitget、Gate.io）的报价相差在1%以内。币安交易量领先，比特币交易量达$17.19亿，以太坊为$9.13亿。各主要交易所比特币累计交易量超过$45亿。",
+  "positioningSummary": "比特币显示持续看涨的持仓：所有交易者的多空比为2.57:1，大户交易者为1.86:1。融资利率适中，每8小时0.0776基点（年化8.73%），表明看涨动能得到控制。以太坊持仓结构相似，所有交易者比例为2.15:1，大户为1.78:1，融资利率更低，每8小时0.033基点（年化3.59%）。吃单买卖比两者都略显看涨（比特币1.0021，以太坊1.0065），表明买方有轻微进取。市场广度强劲，币安永续期货中76.3%的交易品种当日上升，表明尽管市值下降，但参与面很广。不过，未平仓头寸水平（比特币$5.85万亿，以太坊$3.93万亿）无法与前一日数据进行对比。",
+  "stocksSummary": "亚洲半导体股领跌，整体市场走弱：韩国SK海力士下跌3.42%，三星电子下跌3.73%，这可能反映了关税和需求担忧。香港AI公司智谱AI下跌5.22%，而芯片企业中际旭创上涨4.22%。美股期货涨跌不一（FLNC +18.05%, ASTS +13.02% 对比 CRML −9.95%），而油品大幅上涨——WTI原油+2.86%，布伦特油+2.47%——这可能反映地缘或供应因素。现货黄金上涨0.97%，属于典型的避险买盘。",
+  "movers": [
+    {
+      "symbol": "MANTRAUSDT",
+      "explanation": "MANTRA飙升93.7%，从$0.001638的低点升至$0.00372的高点，收盘价为$0.003208，成交量达$293百万。市场新闻中未发现明确公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "explanation": "BIGTIME上涨58.6%，从$0.00407升至$0.007236，收盘价为$0.00647，成交量达$612百万。未发现新闻公告或明确利好因素。",
+      "hasCause": false
+    },
+    {
+      "symbol": "SSVUSDT",
+      "explanation": "SSV代币上涨50.4%，从$1.522升至$2.345，收盘价为$2.313。市场上未发现明确公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "比特币和加密货币市场因美国通胀数据高于预期及关税担忧而下跌",
+        "what": "美联储首选的通胀指标核心PCE同比上升3.3%，超过3.2%的预期，创三年来最高水平。新的贸易关税提案宣布结合通胀数据超预期，共同触发了广泛的风险套现抛售。比特币从$60,400日内跌至$57,500附近，以太坊下跌1–2%，更广泛的加密货币市值下跌1.86%。标普500指数下跌0.29%，纳斯达克下跌0.66%。",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "2026-11-25 13:30",
+        "source": "Cointelegraph, CoinDesk",
+        "url": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops"
+      },
+      {
+        "headline": "司法部宣布有史以来最大规模的加密货币诈骗资金打击行动",
+        "what": "继美国总统特朗普的打击诈骗指令后，司法部宣布了其有史以来最大规模的打击行动，旨在没收数十亿美元的加密货币诈骗所得。此举标志着对加密货币行业的监管执法力度加强，以及潜在的资产追回努力。",
+        "coins": "General (ecosystem-wide)",
+        "timeUTC": "2026-11-25",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711"
+      },
+      {
+        "headline": "比特币矿工遭算力劫持攻击，超过1000个站点受影响",
+        "what": "矿池运营商Braiins警告称，攻击者正在利用不安全的Stratum V1协议连接和互联网路由劫持（BGP劫持）来重定向矿工的计算能力并窃取奖励。这次攻击在一秒内影响了超过1000个挖矿站点，暴露了未加密挖矿基础设施中的漏洞。",
+        "coins": "BTC",
+        "timeUTC": "2026-11-25",
+        "source": "Braiins, The Block, Cointelegraph, Decrypt",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "沃伦参议员和范·霍伦参议员推动废除美国证券交易委员会的《加密货币监管》和创新豁免",
+          "what": "美国参议员伊丽莎白·沃伦和克里斯托弗·范·霍伦向美证会主席阿特金斯致信，要求该机构撤销其《加密货币监管》框架和创新豁免，声称这些措施的保护措施不足。这一行动表明国会对美证会加密货币政策的持续怀疑。",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756"
+        },
+        {
+          "headline": "乌克兰通过加密货币税收和监管法案，目标年收入$332百万",
+          "what": "乌克兰议会通过了全面的加密货币市场法律，建立了税收和监管框架，预计每年为国家预算增加约$332百万收入。该法律代表了东欧在加密货币监管方面的重大进展。",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk, The Block",
+          "url": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million"
+        },
+        {
+          "headline": "法国参议院阻止拟议的加密货币税和钱包追踪清单",
+          "what": "法国政府反对并阻止了会创建加密货币财富税和强制钱包列表的新措施，理由是现有的欧盟数据共享规则和加密货币的非法定货币地位。这一阻止导致法国2027年预算中没有新的加密货币税收。",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk"
+        },
+        {
+          "headline": "瑞士批准57个司法管辖区从2028年开始自动分享加密货币税收数据",
+          "what": "瑞士宣布批准从2028年起与57个外国司法管辖区交换加密货币税收信息，作为全球打击逃税努力的一部分。该框架代表了跨境加密货币透明度的扩大。",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "富达为现货Chainlink ETF提交纳斯达克上市申请",
+          "what": "富达投资公司已向美证会提交申请，拟推出现货Chainlink（LINK）交易基金，计划在纳斯达克上市，以扩大机构投资者对去中心化预言机网络代币的获取。该申请表明机构对单一资产加密货币产品的持续认可。",
+          "coins": "LINK",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735"
+        },
+        {
+          "headline": "富兰克林邓普顿加密货币指数ETF将于12月1日起加入Hyperliquid HYPE代币",
+          "what": "富兰克林邓普顿的加密货币指数ETF（代码：EZPZ）将于2026年12月1日起加入Hyperliquid的HYPE治理代币，与比特币、以太坊和其他主要持仓一并保持。这一加入反映了市场对去中心化交易所协议的日益认可。",
+          "coins": "HYPE, BTC, ETH",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aave Labs公开推出储蓄应用，余额超过$63百万",
+          "what": "Aave Labs公开发布其储蓄应用，支持美国、英国和欧洲经济区的银行转账，以及跨八个区块链网络的稳定币存款。该应用已积累超过$63百万的用户余额，将Aave的零售业务扩展到借贷之外。",
+          "coins": "AAVE, stablecoins",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+        },
+        {
+          "headline": "意大利联合信用银行推出六年期比特币证券，具有本金保护",
+          "what": "意大利最大的银行之一联合信用银行推出了一款六年期比特币结构证券，具有100%的本金保护，收益上限为65%，为其约800万零售客户提供比特币投资。该产品代表传统金融对加密资产敞口的整合。",
+          "coins": "BTC",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "韩国交易所Bithumb在10月数据泄露调查后警告钓鱼诈骗",
+          "what": "韩国第二大加密货币交易所Bithumb在对10月数据泄露事件进行深入调查后，向客户警告可能的钓鱼攻击。调查证实客户记录（姓名、电子邮件、电话号码）被盗。Bithumb表示交易系统未被攻破，但被盗数据可能被用于未来的社会工程攻击。",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "英伟达就加密货币挖矿收入披露达成$290百万和解协议",
+          "what": "英伟达同意以$290百万的现金和解拟议方案，以解决一起股东诉讼。该诉讼指控这家芯片制造商误导投资者关于其2017-18年游戏GPU收入中有多少来自加密货币矿工。和解协议结束了自2018年以来的诉讼，但未承认任何不当行为。",
+          "coins": "BTC, GPU-related",
+          "timeUTC": "2026-11-25",
+          "source": "Decrypt, The Block, Cointelegraph",
+          "url": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit"
+        },
+        {
+          "headline": "美国联邦通信委员会授权SpaceX部署100万颗卫星的Starmind星座用于轨道AI数据中心",
+          "what": "美国联邦通信委员会批准了SpaceX的Starmind太阳能卫星星座计划，以在轨道上处理人工智能数据，降低对因AI计算需求而承压的地面电网的依赖。这一部署最终可能承载区块链和加密基础设施。",
+          "coins": "General (crypto infrastructure)",
+          "timeUTC": "2026-11-25",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-24",
+    "summary": "美国现货比特币ETF在11月24日（最新可用的每日数据）录得$231.4百万的净流出，延续连续每日提现的趋势。比特币ETF在11月份共计录得$4.71亿净流出，是这些产品推出以来最大的月度流出。以太坊ETF在11月24日录得$64.1百万的净流出，其中贝莱德的iShares以太坊信托（ETHA）录得$90.5百万的流出，部分被富达以太坊基金（FETH）的$5.6百万流入所抵消。这些流出反映了机构投资者在通胀担忧和美联储鹰派态度下的广泛风险规避情绪。",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Core PCE Price Index (m/m) released at 13:30 UTC: came in at 0.3% month-over-month (matching forecast), but year-over-year core PCE accelerated to 3.3% (beating 3.2% forecast), highest in three years",
+      "typicalReaction": "核心通胀数据超预期通常会引发风险规避抛售，因为这表明通胀更加持久，美联储在12月及以后更可能加息。结合关税担忧，这推动了加密货币和股票的急剧下跌，尽管比特币和以太坊盘中小幅上升。"
+    },
+    {
+      "event": "US Preliminary GDP growth (q/q): forecast 3.5%, previous 3.4% (actual not yet released in data as of report time)",
+      "typicalReaction": "强劲的GDP增长伴随高通胀通常会支持利率上升；增速放缓会缓解通胀压力，对加密货币有利。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "基点",
+      "definition": "百分之一的一百倍之一（0.01%）；用于描述非常小的百分比变化，通常用于利率或融资利率。一基点 = 0.01%。"
+    },
+    {
+      "term": "涨跌面",
+      "definition": "交易所上某日上涨的币种或代币的百分比；涨跌面高于60%被视为看涨（大多数币种上升），低于40%被视为看跌（大多数币种下降）。"
+    },
+    {
+      "term": "核心PCE",
+      "definition": "美联储首选的通胀指标；它追踪消费者支付的价格的月度和年度变化，不包括波动较大的食品和能源部门。"
+    },
+    {
+      "term": "恐惧贪婪指数",
+      "definition": "一个情绪指标，范围从0（极度恐惧）到100（极度贪婪），通过比特币价格动量、波动率、交易量和社交媒体情绪等数据来捕捉市场情绪；13被认为是极度恐惧。"
+    },
+    {
+      "term": "融资利率",
+      "definition": "永续期货合约中持有多头和空头头寸的交易者之间的定期支付；正融资利率意味着多头交易者向空头交易者支付（看涨信号），负融资利率意味着空头向多头支付（看跌信号）。利率通常以小数表示（例如0.0776%），大多数交易所每8小时收费一次。"
+    },
+    {
+      "term": "多头头寸 / 多头交易者",
+      "definition": "购买合约押注价格上升的交易者；如果价格上升他们获利，如果价格下降他们亏损。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有多头头寸（押注价格上升）的交易者与持有空头头寸（押注价格下降）的交易者的比例；比率高于1.0意味着更多交易者看涨（多头多于空头）。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "永续期货交易所用来计算利润、损失和清算的价格；它通常是多个交易所交易的加权平均值，以防止操纵。"
+    },
+    {
+      "term": "未平仓头寸（OI）",
+      "definition": "给定交易对的未平仓期货合约总数（以币或美元等值衡量）；它反映了该衍生品市场中锁定的总金额，可以显示交易者是在增加还是减少杠杆。"
+    },
+    {
+      "term": "永续期货 / 永续合约",
+      "definition": "没有到期日期的期货合约，允许交易者使用杠杆（借款）对加密价格进行押注；它们不同于在规定日期到期的常规期货。"
+    },
+    {
+      "term": "空头头寸 / 空头交易者",
+      "definition": "出售合约（通常通过借用资产）押注价格下跌的交易者；如果价格下跌他们获利，如果价格上升他们亏损。"
+    },
+    {
+      "term": "吃单买卖比",
+      "definition": "市价买单成交（积极买入）与市价卖单成交（积极卖出）的比例；比率高于1.0意味着更多交易者在积极买入而非卖出。"
+    },
+    {
+      "term": "大户多空比",
+      "definition": "交易所上最大交易者（通常是名义规模最大的20个账户）之间的多空头寸比例；它可以显示大资金在哪里定位。"
+    },
+    {
+      "term": "交易量",
+      "definition": "交易所在一段时间内交易的资产总价值（以美元或基础货币衡量）；更高的交易量通常表示更多的确定性和流动性。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "a5cfd726e5a9c870"
+}

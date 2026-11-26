@@ -1,0 +1,227 @@
+{
+  "oneLine": "Bitcoin and Ethereum both gained about 1% on Wednesday November 25, but the broader crypto market fell 1.86% and stock indices declined as hotter-than-expected US core inflation (3.3% vs 3.2% forecast) and tariff concerns sent markets into extreme fear.",
+  "caveman": "On November 25, Bitcoin went up 1%, Ethereum went up 0.7%, but most other cryptocurrencies went down. The main reason people got worried was that the US government released inflation data showing prices going up faster than people expected. Also, the president was talking about adding trade taxes (called tariffs) on other countries. These concerns made the stock market go down too (the S&P 500 fell a little). The feeling in the market switched to extreme fear and worry, with the fear index hitting 13 out of 100. It was a worrying day for most investors.",
+  "priceVolumeSummary": "Bitcoin closed at $60,429.90 (up 1.05% on Binance), with Ethereum at $1,691.79 (up 0.74%). All five major venues (Binance, Bybit, OKX, Bitget, Gate) reported prices within 1% of each other. Binance led trading volume at $17.19 billion for Bitcoin and $9.13 billion for Ethereum, with cumulative volume across all majors exceeding $45 billion for Bitcoin.",
+  "positioningSummary": "Bitcoin showed consistent bullish positioning: long-to-short ratio of 2.57:1 across all traders and 1.86:1 among the largest traders. Funding was moderate at 0.0776 basis points per 8-hour interval (8.73% annualized), suggesting controlled bullish momentum. Ethereum showed similar structure at 2.15:1 for all traders and 1.78:1 for the largest traders, with lower funding at 0.033 basis points per 8-hour (3.59% annualized). Taker buy/sell ratios were slightly bullish for both (1.0021 for Bitcoin, 1.0065 for Ethereum), indicating marginal buyer aggression. Market breadth was notably strong with 76.3% of Binance perpetual futures trading higher on the day, suggesting broad participation despite market-cap decline. However, open-interest levels (Bitcoin $5.85 trillion, Ethereum $3.93 trillion) could not be compared to prior-day figures from available data.",
+  "stocksSummary": "Asian semiconductor stocks led declines amid broader market weakness: South Korea's SK Hynix fell 3.42% and Samsung Electronics declined 3.73%, likely reflecting tariff and demand concerns. Hong Kong's AI-focused Zhipu AI fell 5.22% while semiconductor company Zhongji Innolight rose 4.22%. US stock perps showed mixed strength (FLNC +18.05%, ASTS +13.02% against CRML −9.95%), while oil commodities rallied sharply—WTI crude +2.86% and Brent +2.47%—possibly reflecting geopolitical or supply factors. Gold spot gained 0.97% as a typical flight-to-safety move.",
+  "movers": [
+    {
+      "symbol": "MANTRAUSDT",
+      "explanation": "MANTRA surged 93.7% from a low of $0.001638 to a high of $0.00372, closing at $0.003208 on volume of $293 million. No clear public cause identified in market news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "explanation": "BIGTIME rallied 58.6% from $0.00407 to $0.007236, closing at $0.00647 with $612 million in volume. No news announcement or catalyst found.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SSVUSDT",
+      "explanation": "SSV token jumped 50.4% from $1.522 to $2.345, closing at $2.313. No clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin and crypto markets sell off on hotter-than-expected US inflation and tariff concerns",
+        "what": "The US Federal Reserve's preferred inflation gauge (Core PCE) came in at 3.3% year-over-year, beating the forecast of 3.2%, marking the highest level in three years. Announcement of new trade tariff proposals combined with the inflation surprise to trigger broad risk-off selling. Bitcoin fell from $60,400 toward $57,500 intraday, Ethereum dropped 1–2%, and the broader crypto market cap fell 1.86%. The S&P 500 declined 0.29% and the Nasdaq fell 0.66%.",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "2026-11-25 13:30",
+        "source": "Cointelegraph, CoinDesk",
+        "url": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops"
+      },
+      {
+        "headline": "Justice Department announces largest-ever crackdown on crypto fraud proceeds",
+        "what": "Following President Trump's directive to crack down on fraud, the US Justice Department announced what it called its largest-ever crackdown aimed at seizing billions in cryptocurrency fraud proceeds. The move signals intensified regulatory enforcement and potential asset recovery efforts across the crypto industry.",
+        "coins": "General (ecosystem-wide)",
+        "timeUTC": "2026-11-25",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711"
+      },
+      {
+        "headline": "Bitcoin miners hit by hashrate hijacking attacks affecting over 1,000 sites",
+        "what": "Mining pool operator Braiins warned that attackers are exploiting unsecured Stratum V1 protocol connections and internet route hijacking (BGP hijacking) to redirect miners' computing power and steal rewards. The attack impacted over 1,000 mining sites in a single second, exposing a vulnerability in unencrypted mining infrastructure.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-25",
+        "source": "Braiins, The Block, Cointelegraph, Decrypt",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Senators Warren and Van Hollen push to scrap SEC's Regulation Crypto and innovation exemption",
+          "what": "US Senators Elizabeth Warren and Christopher Van Hollen sent letters to SEC Chair Atkins demanding the agency rescind both its Regulation Crypto framework and the innovation exemption, arguing they were inadequate safeguards. The push signals ongoing Congressional skepticism of SEC crypto policy.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756"
+        },
+        {
+          "headline": "Ukraine passes crypto tax and regulation bill targeting $332 million in annual revenue",
+          "what": "Ukraine's parliament passed a comprehensive crypto market law establishing tax and regulatory framework, projected to generate approximately $332 million in annual state budget revenue. The law represents significant adoption of crypto regulation in Eastern Europe.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk, The Block",
+          "url": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million"
+        },
+        {
+          "headline": "French Senate blocks proposed crypto tax and wallet tracking list",
+          "what": "The French government opposed and blocked new measures that would have created a crypto wealth tax and mandatory wallet list, citing existing EU data-sharing rules and crypto's non-legal-tender status. The blocking left France's 2027 budget without new crypto taxation.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk"
+        },
+        {
+          "headline": "Switzerland clears 57 jurisdictions for automatic crypto tax data sharing starting 2028",
+          "what": "Switzerland announced approval to exchange cryptocurrency tax information with 57 foreign jurisdictions beginning in 2028 as part of a global effort to combat tax evasion. The framework represents expanded cross-border crypto transparency.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Fidelity files for spot Chainlink ETF with Nasdaq listing",
+          "what": "Fidelity Investments has filed with the SEC to launch a spot Chainlink (LINK) exchange-traded fund with planned listing on Nasdaq, expanding institutional access to the decentralized oracle network token. The filing signals continued institutional adoption of single-asset crypto products.",
+          "coins": "LINK",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735"
+        },
+        {
+          "headline": "Franklin Templeton crypto index ETF to add Hyperliquid HYPE token effective December 1",
+          "what": "Franklin Templeton's Crypto Index ETF (ticker: EZPZ) will add Hyperliquid's HYPE governance token effective December 1, 2026, alongside Bitcoin, Ethereum and other major holdings. The addition reflects growing recognition of decentralized exchange protocols.",
+          "coins": "HYPE, BTC, ETH",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aave Labs publicly launches savings app as balances exceed $63 million",
+          "what": "Aave Labs publicly released its savings application supporting bank transfers in the US, UK, and EEA, plus stablecoin deposits across eight blockchain networks. The app had accumulated over $63 million in user balances, expanding Aave's retail reach beyond lending.",
+          "coins": "AAVE, stablecoins",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+        },
+        {
+          "headline": "Italy's UniCredit launches six-year Bitcoin certificate with capital protection",
+          "what": "UniCredit, one of Italy's largest banks, launched a six-year Bitcoin structured certificate with 100% capital protection and gains capped at 65%, bringing Bitcoin investing to its roughly 8 million retail customers. The product represents traditional finance integration of crypto exposure.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "South Korean exchange Bithumb warns of phishing scams following October breach probe",
+          "what": "South Korea's second-largest crypto exchange Bithumb warned customers of potential phishing attacks after a deeper investigation into an October breach confirmed that customer records (names, emails, phone numbers) were stolen. Bithumb said trading systems were not compromised and the stolen data could be used in future social engineering attacks.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Nvidia agrees to $290 million settlement over crypto mining revenue disclosures",
+          "what": "Nvidia agreed to a $290 million proposed cash settlement to resolve a shareholder lawsuit alleging the chipmaker misled investors about how much of its 2017–18 gaming GPU revenue came from cryptocurrency miners. The settlement closes litigation dating to 2018 without admission of wrongdoing.",
+          "coins": "BTC, GPU-related",
+          "timeUTC": "2026-11-25",
+          "source": "Decrypt, The Block, Cointelegraph",
+          "url": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit"
+        },
+        {
+          "headline": "FCC authorizes SpaceX to deploy Starmind constellation of 1 million satellites for orbital AI data centers",
+          "what": "The US Federal Communications Commission approved SpaceX's Starmind constellation of solar-powered satellites to process artificial intelligence data in orbit, reducing dependence on ground-based power grids strained by AI computing demand. The deployment could eventually host blockchain and crypto infrastructure.",
+          "coins": "General (crypto infrastructure)",
+          "timeUTC": "2026-11-25",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-24",
+    "summary": "US spot Bitcoin ETFs recorded $231.4 million in net outflows on November 24 (latest available daily data), extending a streak of consecutive daily withdrawals. Bitcoin ETFs had accumulated $4.71 billion in net outflows through November, the largest monthly outflow since these products launched. Ethereum ETFs saw $64.1 million in net outflows on November 24, with BlackRock's iShares Ethereum Trust (ETHA) recording $90.5 million in outflows offset partially by Fidelity Ethereum Fund (FETH) inflows of $5.6 million. The outflows reflect broader institutional risk-off sentiment amid inflation concerns and Federal Reserve hawkishness.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Core PCE Price Index (m/m) released at 13:30 UTC: came in at 0.3% month-over-month (matching forecast), but year-over-year core PCE accelerated to 3.3% (beating 3.2% forecast), highest in three years",
+      "typicalReaction": "Beat on core inflation typically triggers risk-off selling as it signals stickier inflation and more probable Federal Reserve rate hikes in December and beyond; combined with tariff concerns, this drove sharp crypto and stock selloff despite intraday BTC/ETH gaining slightly"
+    },
+    {
+      "event": "US Preliminary GDP growth (q/q): forecast 3.5%, previous 3.4% (actual not yet released in data as of report time)",
+      "typicalReaction": "Strong GDP growth alongside elevated inflation typically supports higher rates; slower growth would ease inflation pressure and be risk-on for crypto"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis points",
+      "definition": "One hundredth of one percent (0.01%); used to describe very small percentage changes, often in interest rates or funding rates. One basis point = 0.01%."
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of coins or tokens on an exchange that traded higher on the day; breadth above 60% is considered bullish (most coins moving up) and below 40% is bearish (most coins moving down)."
+    },
+    {
+      "term": "Core PCE",
+      "definition": "The Federal Reserve's preferred measure of inflation; it tracks the month-to-month and year-to-year change in prices paid by consumers, excluding the more volatile food and energy sectors."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A sentiment measure ranging from 0 (Extreme Fear) to 100 (Extreme Greed) that attempts to capture market emotion using data like Bitcoin price momentum, volatility, trading volume, and social media sentiment; 13 is considered extremely fearful."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders holding long and short positions on perpetual futures contracts; positive funding means long traders pay short traders (bullish signal), negative means shorts pay longs (bearish signal). Rates are typically expressed as a decimal (e.g., 0.0776%) and charged every 8 hours on most exchanges."
+    },
+    {
+      "term": "Long position / Long trader",
+      "definition": "A trader who has bought a contract betting the price will rise; they profit if price goes up and lose if it goes down."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "The ratio of traders holding long positions (betting on price increases) to traders holding short positions (betting on price decreases); a ratio above 1.0 means more traders are bullish (more longs than shorts)."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The price used by perpetual futures exchanges to calculate profits, losses, and liquidations; it is typically a weighted average of trades across multiple exchanges to prevent manipulation."
+    },
+    {
+      "term": "Open interest (OI)",
+      "definition": "The total number of open futures contracts (measured in coins or USD equivalent) for a given trading pair; it reflects the total money locked in that derivatives market and can signal whether traders are increasing or decreasing leverage."
+    },
+    {
+      "term": "Perpetual futures / Perpetuals / Perps",
+      "definition": "Futures contracts with no expiration date that allow traders to bet on crypto prices using leverage (borrowed money); they differ from regular futures which expire on set dates."
+    },
+    {
+      "term": "Short position / Short trader",
+      "definition": "A trader who has sold a contract (often by borrowing the asset) betting the price will fall; they profit if price goes down and lose if it goes up."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders filled (aggressive buying) to market sell orders filled (aggressive selling); a ratio above 1.0 means more traders are aggressively buying than selling."
+    },
+    {
+      "term": "Top trader long/short ratio",
+      "definition": "The long-to-short positioning ratio specifically among the largest traders on the exchange (usually the top 20 accounts by notional size); it can signal where big money is positioning."
+    },
+    {
+      "term": "Trading volume",
+      "definition": "The total value of assets traded on an exchange over a time period (measured in USD or the base currency); higher volume typically indicates more conviction and liquidity."
+    }
+  ],
+  "_source": "cli"
+}

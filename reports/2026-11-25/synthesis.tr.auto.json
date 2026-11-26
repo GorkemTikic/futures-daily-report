@@ -1,0 +1,228 @@
+{
+  "oneLine": "25 Kasım Çarşamba günü Bitcoin ve Ethereum yaklaşık %1 kazandı, fakat daha geniş kripto piyasası %1,86 düştü ve borsa endeksleri geriledi. Bunun nedeni beklentileri aşan ABD çekirdek enflasyon verisi (%3,3'e karşılık %3,2 tahmin) ve gümrük vergisi kaygılarının piyasaları aşırı korku durumuna getirmesiydi.",
+  "caveman": "25 Kasım'da Bitcoin %1 arttı, Ethereum %0,7 arttı ama diğer kripto paralar düştü. İnsanları endişelendiren şey ABD hükümetinin enflasyon verisini açıklaması oldu — fiyatların beklentiden daha hızlı yükseliyor demekti. Ayrıca cumhubaşkanı diğer ülkelerin ürünlerine vergi koymaktan söz ediyordu (buna gümrük vergisi deniyor). Bu kaygılar borsa piyasasını da aşağı çekti (S&P 500 biraz düştü). Piyasadaki his korku ve endişeye döndü, korku endeksi 100'de 13'e indi. Çoğu yatırımcı için kötü bir gün oldu.",
+  "priceVolumeSummary": "Bitcoin Binance'de $60,429.90'da kapandı (%1,05 kazanç), Ethereum ise $1,691.79'da (%0,74 kazanç). Beş büyük borsa (Binance, Bybit, OKX, Bitget, Gate) fiyatları birbirinden %1 içinde tuttu. Binance Bitcoin'de $17,19 milyar, Ethereum'da $9,13 milyar işlem hacmi öncü oldu, tüm borsaların toplam hacmi Bitcoin için $45 milyarı geçti.",
+  "positioningSummary": "Bitcoin tutarlı yükseliş eğilimi gösterdi: tüm işlemciler arasında uzun/kısa oranı 2.57:1, en büyük işlemciler arasında 1.86:1. Finansman oranı orta düzeyde 0.0776 puan/8 saatlik dönem (%8.73 yıllıklandırılmış) olup kontrollü yükseliş eğilimini gösteriyor. Ethereum benzer yapı gösterdi, tüm işlemciler için 2.15:1 oranla, en büyük işlemciler için 1.78:1 oranla, daha düşük finansman 0.033 puan/8 saatlik (%3.59 yıllıklandırılmış). Alıcı satın alma/satış oranları her ikisi için hafif yükseliş eğilimi gösterip Bitcoin için 1.0021, Ethereum için 1.0065 marjinal alıcı agresivliğini işaret ediyor. Piyasa katılımı oldukça güçlü olup Binance vadeli işlemlerin %76.3'ü gün içinde yükselişte işlem gördü, bu piyasa değerindeki düşüşe rağmen geniş katılımı gösteriyor. Ancak açık pozisyon hacmi seviyeleri (Bitcoin $5.85 trilyon, Ethereum $3.93 trilyon) önceki gün verileriyle karşılaştırılamadı.",
+  "stocksSummary": "Asya yarı iletken hisseleri geniş piyasa zayıflığı ortamında başı çekti: Güney Kore'nin SK Hynix %3,42 düştü ve Samsung Electronics %3,73 geriledi, bu gümrük vergisi ve talep kaygılarını yansıtıyor. Hong Kong'da yapay zeka odaklı Zhipu AI %5,22 düştü, yarı iletken şirketi Zhongji Innolight ise %4,22 yükseldi. ABD hisse senedi vadeli işlemleri karışık güç gösterdi (FLNC +18.05%, ASTS +13.02%, CRML −9.95%'a karşı), petrol emtialar ise keskin yükselişe geçti—WTI ham %2,86 ve Brent %2,47 kazanç—bu coğrafi siyaset veya arz faktörlerini yansıtabilir. Altın spot %0,97 kazandı, bu tipik güvenli liman hareketiydi.",
+  "movers": [
+    {
+      "symbol": "MANTRAUSDT",
+      "explanation": "MANTRA %93,7 yükselerek $0.001638'den $0.00372'ye çıktı, kapanış $0.003208'de 293 milyon dolarlık işlem hacmiyle gerçekleşti. Piyasa haberlerinde açık bir neden bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "explanation": "BIGTIME %58,6 yükselerek $0.00407'den $0.007236'ya ulaştı, kapanış $0.00647'de 612 milyon dolarlık hacimle gerçekleşti. Haber açıklaması veya tetikleyici bulunamadı.",
+      "hasCause": false
+    },
+    {
+      "symbol": "SSVUSDT",
+      "explanation": "SSV tokeni %50,4 yükselerek $1.522'den $2.345'e ulaştı, kapanış $2.313'de gerçekleşti. Piyasa haberlerinde açık bir neden bulunamadı.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin ve kripto piyasaları beklentileri aşan ABD enflasyon ve gümrük vergisi kaygılarından satılıyor",
+        "what": "ABD Federal Rezervinin tercih ettiği enflasyon göstergesi (Çekirdek PCE) yıllık %3,3 ile geldi, %3,2 tahminini aştı ve üç yılın en yüksek seviyesini işaret etti. Yeni ticari gümrük vergisi önerileri açıklaması ve enflasyon sürprizinin birleşmesi geniş risk kontrolü satışlarını tetikledi. Bitcoin $60,400'dan gün içi $57,500'a düştü, Ethereum %1-2 geriledi ve daha geniş kripto piyasa değeri %1,86 düştü. S&P 500 %0,29 ve Nasdaq %0,66 geriledi.",
+        "coins": "BTC, ETH, broad market",
+        "timeUTC": "2026-11-25 13:30",
+        "source": "Cointelegraph, CoinDesk",
+        "url": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops"
+      },
+      {
+        "headline": "Adalet Bakanlığı kripto dolandırıcılık gelirlerine karşı tarihin en büyük operasyonunu açıklamıştı",
+        "what": "Trump'ın dolandırıcılığa karşı operasyonlar başlatma talimatının ardından ABD Adalet Bakanlığı, kripto endüstrisinde milyarlarca dolar tutarındaki dolandırıcılık gelirlerini ele geçirmeyi amaçlayan tarihin en büyük operasyonunu açıklamıştır. Bu hamle yasal takip ve varlık geri kazanım çabalarının yoğunlaşmasını işaret ediyor.",
+        "coins": "General (ecosystem-wide)",
+        "timeUTC": "2026-11-25",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711"
+      },
+      {
+        "headline": "Bitcoin madencileri 1.000'den fazla siteyi etkileyen hash oranı ele geçirme saldırılarına maruz kaldı",
+        "what": "Madencilik havuzu işletmecisi Braiins, saldırganların güvensiz Stratum V1 protokol bağlantılarını ve internet rota ele geçirme işlemini (BGP ele geçirme) istismar ederek madencilerin bilgi işlem gücünü yönlendirdiklerini ve ödülleri çaldıklarını uyarmıştır. Saldırı bir saniyede 1.000'den fazla madencilik sitesini etkilemiş ve şifreli olmayan madencilik altyapısında bir güvenlik açığını ortaya çıkarmıştır.",
+        "coins": "BTC",
+        "timeUTC": "2026-11-25",
+        "source": "Braiins, The Block, Cointelegraph, Decrypt",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723"
+      }
+    ],
+    "groups": {
+      "Regulation and policy": [
+        {
+          "headline": "Warren ve Van Hollen senatörleri SEC'in Kripto Düzenlemesini ve inovasyon muafiyetini iptal etmek için çalışıyor",
+          "what": "ABD Senatörleri Elizabeth Warren ve Christopher Van Hollen, SEC Başkanı Atkins'e, ajansın hem Kripto Düzenlemesi çerçevesini hem de inovasyon muafiyetini iptal etmesini talep ederek mektup gönderdiler, bunların yetersiz koruma olduğunu savunarak. Bu baskı Kongrenin SEC kripto politikasına yönelik devam eden şüphesini gösteriyor.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756"
+        },
+        {
+          "headline": "Ukrayna 332 milyon dolarlık yıllık gelir hedefleyen kripto vergi ve düzenleme yasasını geçtirilmiştir",
+          "what": "Ukrayna parlamentosu, vergiler ve düzenleme çerçevesi oluşturan kapsamlı bir kripto piyasası yasasını geçirdi, yıllık devlet bütçesi geliri olarak yaklaşık 332 milyon dolar oluşturması bekleniyor. Bu yasa Doğu Avrupa'da kripto düzenlemesinin önemli kabulünü temsil ediyor.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk, The Block",
+          "url": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million"
+        },
+        {
+          "headline": "Fransa Senatosu önerilen kripto vergisi ve cüzdan takip listesini engelledi",
+          "what": "Fransız hükümet, kripto servet vergisi ve zorunlu cüzdan listesi oluşturacak yeni tedbirleri engelledi, mevcut AB veri paylaşma kurallarını ve kripto'nun yasal ihraç durumunu gerekçe göstererek. Engelleme Fransa'nın 2027 bütçesini yeni kripto vergilendirilmesinden mahrum bıraktı.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk"
+        },
+        {
+          "headline": "İsviçre 2028'den itibaren 57 ülke ile kripto vergi verisi otomatik paylaşımını onayladı",
+          "what": "İsviçre, 2028'den itibaren vergi kaçakçılığına karşı mücadelede küresel bir çabanın parçası olarak 57 yabancı ülke ile kripto vergi bilgisi alışverişini onaylamıştır. Çerçeve, sınır ötesi kripto şeffaflığının genişletilmesini temsil ediyor.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Fidelity spot Chainlink ETF'i için Nasdaq'a tasdik başvurusunda bulundu",
+          "what": "Fidelity Investments, Nasdaq'ta işlem görmesi planlanan bir spot Chainlink (LINK) borsada işlem gören fonu başlatmak için SEC'e başvurdu, merkezi olmayan oracle ağ tokeni için kurumsal erişimi genişletiyor. Başvuru tek varlık kripto ürünlerinin kurumsal benimsenmesinin devam ettiğini gösteriyor.",
+          "coins": "LINK",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735"
+        },
+        {
+          "headline": "Franklin Templeton kripto endeksi ETF'i 1 Aralık'ta Hyperliquid HYPE tokeni eklenecek",
+          "what": "Franklin Templeton'ın Kripto Endeksi ETF'i (ticker: EZPZ), 1 Aralık 2026'da Hyperliquid'ın HYPE yönetim tokeni ve Bitcoin, Ethereum ile diğer ana holdinglerle birlikte eklenecek. İlave, merkezi olmayan borsa protokollerinin artan kabulünü yansıtıyor.",
+          "coins": "HYPE, BTC, ETH",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Aave Labs tasarruf uygulamasını kamu olarak başlattı ve bakiye 63 milyon doları aştı",
+          "what": "Aave Labs, ABD, Birleşik Krallık ve EEA'da banka transferlerini ve sekiz blockchain ağında stablecoin mevduatlarını destekleyen tasarruf uygulamasını kamuya açıkça yayınladı. Uygulama 63 milyonu aşan kullanıcı bakiyesi biriktirmiş ve Aave'nin perakende ürünlerini kredi vermenin ötesine genişletmiştir.",
+          "coins": "AAVE, stablecoins",
+          "timeUTC": "2026-11-25",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+        },
+        {
+          "headline": "İtalya'nın UniCredit sermaye koruması ile altı yıllık Bitcoin sertifikası başlattı",
+          "what": "İtalya'nın en büyük bankalarından biri olan UniCredit, %100 sermaye koruması ve kazançları %65'te sınırlı altı yıllık Bitcoin yapılandırılmış sertifikası başlattı ve Bitcoin yatırımını kabaca 8 milyon perakende müşterisine getirmiştir. Ürün, geleneksel finansın kripto riskine maruziyetini gösteriyor.",
+          "coins": "BTC",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Güney Kore borsası Bithumb Ekim ihlali soruşturmasının ardından kimlik avı dolandırıcılıklarına karşı uyarı yapıyor",
+          "what": "Güney Kore'nin ikinci en büyük kripto borsası Bithumb, Ekim ayında bir ihlalinin derinlemesine soruşturmasından sonra müşterileri potansiyel kimlik avı saldırılarından uyarmıştır, müşteri kayıtlarının (adlar, e-postalar, telefon numaraları) çalındığı doğrulanmıştır. Bithumb, işlem sistemlerinin tehlikeye düşmediğini ve çalınan verilerin gelecekteki sosyal mühendislik saldırılarında kullanılabileceğini söyledi.",
+          "coins": "General",
+          "timeUTC": "2026-11-25",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe"
+        }
+      ],
+      "Traditional markets": [
+        {
+          "headline": "Nvidia kripto madenciliği gelir açıklamalarının üzerine 290 milyon dolar uzlaşmaya vardı",
+          "what": "Nvidia, hissedarlarını 2017–18 oyun GPU gelirinin ne kadarının kripto madencilerinden geldiği konusunda yanıltıkladığını iddia eden bir dava anlaşmasını çözmek için 290 milyon dolarlık önerilen nakit uzlaşmaya vardı. Uzlaşma, 2018'den beri davanın sonuçlandırılmasını hiçbir yanlış davranışın kabulü olmaksızın kapatıyor.",
+          "coins": "BTC, GPU-related",
+          "timeUTC": "2026-11-25",
+          "source": "Decrypt, The Block, Cointelegraph",
+          "url": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit"
+        },
+        {
+          "headline": "FCC SpaceX'i orbital yapay zeka veri merkezleri için 1 milyon uydu Starmind takımyıldızını yerleştirmek için yetkilendirdi",
+          "what": "ABD Federal İletişim Komisyonu, SpaceX'in yapay zeka verisini yörüngede işlemek için güneş enerjili uyduların Starmind takımyıldızını onaylamıştır, yapay zeka bilgi işlem talebinden bunalan yerden güç ağlarına bağımlılığı azaltıyor. Dağıtım sonuç olarak blockchain ve kripto altyapısını barındırabilecektir.",
+          "coins": "General (crypto infrastructure)",
+          "timeUTC": "2026-11-25",
+          "source": "Decrypt, Cointelegraph",
+          "url": "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-24",
+    "summary": "ABD spot Bitcoin ETF'leri 24 Kasım'da (mevcut günlük veriler) 231,4 milyon dolar net çıkış kaydetti, birbirini takip eden günlük geri çekilişlerin serisini uzatarak. Bitcoin ETF'leri bu ürünler başlatıldığından beri, Kasım ayı içinde 4,71 milyar dolarlık net çıkış biriktirdi, bu ay içinde en büyük aylık çıkış. Ethereum ETF'leri 24 Kasım'da 64,1 milyon dolar net çıkış gördü, BlackRock'un iShares Ethereum Trust'ı (ETHA) 90,5 milyon dolarlık çıkış kaydederken Fidelity Ethereum Fund (FETH) 5,6 milyon dolarlık girişle kısmen dengeledi. Çıkışlar enflasyon kaygıları ve Federal Rezerv hawkishliği ortamında daha geniş kurumsal risk kontrolü duygusunu yansıtıyor.",
+    "source": "Farside Investors, SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "US Core PCE Price Index (m/m) released at 13:30 UTC: came in at 0.3% month-over-month (matching forecast), but year-over-year core PCE accelerated to 3.3% (beating 3.2% forecast), highest in three years",
+      "typicalReaction": "Çekirdek enflasyonda yenilgi tipik olarak Federal Rezervin Aralık'ta ve sonrasında faiz artırması olasılığını ve daha yapışkan enflasyon sinyalini gösterirken risk kontrolü satışlarını tetikler; gümrük vergisi endişeleriyle birleştiğinde, bu gün içi BTC/ETH hafif kazanca rağmen keskin kripto ve hisse senedi satışını tetikledi"
+    },
+    {
+      "event": "US Preliminary GDP growth (q/q): forecast 3.5%, previous 3.4% (actual not yet released in data as of report time)",
+      "typicalReaction": "Yüksek GSYİH büyümesi yüksek enflasyonla birleştiğinde tipik olarak daha yüksek oranları desteklerken; daha yavaş büyüme enflasyon baskısını rahatlatar ve kripto için risk alma ortamını oluştururdu"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Temel puan (Basis points)",
+      "definition": "Bir yüzdenin yüzde biri (%0,01); çok küçük yüzde değişiklikleri, genellikle faiz oranları veya finansman oranlarında açıklamak için kullanılır. Bir temel puan = %0,01."
+    },
+    {
+      "term": "Pazar genişliği (Breadth)",
+      "definition": "Bir borsada günde daha yüksek işlem gören madeni paraların veya jetonların yüzdesi; genişlik %60'ın üzerinde bullish olarak kabul edilir (çoğu madeni paraların yükselmesi) ve %40'ın altında bearish (çoğu madeni paraların düşmesi)."
+    },
+    {
+      "term": "Çekirdek PCE (Core PCE)",
+      "definition": "Federal Rezervinin tercih ettiği enflasyon ölçüsü; tüketiciler tarafından ödenen fiyatlardaki aylık ve yıllık değişimi izler, daha değişken gıda ve enerji sektörlerini hariç tutarak."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi (Fear & Greed Index)",
+      "definition": "0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında değişen piyasa duygusunu yakalamaya çalışan bir duyarlılık ölçüsü, Bitcoin fiyat dinamiğini, oynaklığı, işlem hacmini ve sosyal medya duygusunu kullanarak; 13 aşırı korkulu olarak kabul edilir."
+    },
+    {
+      "term": "Finansman oranı (Funding rate)",
+      "definition": "Vadeli işlem sözleşmelerinde uzun ve kısa pozisyonlar tutan tüccarlar arasında düzenli ödemeler; pozitif finansman uzun tüccarlar kısa tüccarlara ödeme anlamında (bullish sinyal), negatif ise kısaların uzunlara ödeme anlamında (bearish sinyal). Oranlar tipik olarak ondalık olarak ifade edilir (örn. %0,0776) ve çoğu borsada her 8 saatte bir ücretlendirilir."
+    },
+    {
+      "term": "Uzun pozisyon / Uzun tüccar (Long position / Long trader)",
+      "definition": "Fiyatın yükseleceğini düşünerek sözleşme satın almış bir tüccar; fiyat yükselirse kar eder ve düşerse zarar eder."
+    },
+    {
+      "term": "Uzun/kısa oranı (Long/short ratio)",
+      "definition": "Uzun pozisyon tutan tüccarlar (fiyat artışına bahis) ile kısa pozisyon tutan tüccarlar (fiyat düşüşüne bahis) arasındaki oranı; oran 1,0'dan yüksek olması daha fazla tüccarın bullish olduğunu gösterir (uzunlardan daha fazla kısa)."
+    },
+    {
+      "term": "İşaret fiyatı (Mark price)",
+      "definition": "Vadeli işlem borsasının kar, zarar ve tasfiyeyi hesaplamak için kullandığı fiyat; tipik olarak işlem manipülasyonunu önlemek için birden fazla borsadaki ticaretin ağırlıklı ortalamasıdır."
+    },
+    {
+      "term": "Açık pozisyon hacmi (Open interest - OI)",
+      "definition": "Belirli bir ticaret çifti için açık vadeli işlem sözleşmelerinin toplam sayısı (madeni paralar veya USD eşdeğerinde ölçülür); o türev piyasasında kilitli toplam parayı yansıtır ve tüccarlar kaldıracını artırıp artırmadıklarını gösterebilir."
+    },
+    {
+      "term": "Vadeli işlemler / Perpetuals / Perps",
+      "definition": "Kripto fiyatlarında bahis yapmak için kaldıraç (ödünç alınan para) kullanan vade sonu olmayan vadeli işlem sözleşmeleri; düzenli faizleri farklılaştırırlar, belirtilen tarihlerde sona eren vadeli işlemler."
+    },
+    {
+      "term": "Kısa pozisyon / Kısa tüccar (Short position / Short trader)",
+      "definition": "Fiyatın düşeceğini düşünerek sözleşme satmış (genellikle varlığı ödünç alarak) bir tüccar; fiyat düşerse kar eder ve yükselirse zarar eder."
+    },
+    {
+      "term": "Alıcı satın alma/satış oranı (Taker buy/sell ratio)",
+      "definition": "Doldurulmuş pazar alış emirleri (saldırgan satın almalar) ile doldurulmuş pazar satış emirleri (saldırgan satışlar) arasındaki oranı; oran 1,0'dan yüksek olması daha fazla tüccarın satmaktan daha agresif şekilde satın aldığını gösterir."
+    },
+    {
+      "term": "En büyük tüccar uzun/kısa oranı (Top trader long/short ratio)",
+      "definition": "Özellikle borsadaki en büyük tüccarlar arasında (genellikle notional boyut olarak ilk 20 hesap) uzun/kısa pozisyonlanma oranı; büyük paranın nerede konumlandığını gösterebilir."
+    },
+    {
+      "term": "İşlem hacmi (Trading volume)",
+      "definition": "Bir zaman diliminde bir borsada işlem gören varlıkların toplam değeri (USD veya temel para cinsinden ölçülür); daha yüksek hacim tipik olarak daha fazla ikna ve likiditeyi gösterir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "a5cfd726e5a9c870"
+}

@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-25T00:11:12.984Z",
-  "count": 161,
+  "generatedAt": "2026-11-26T00:09:27.191Z",
+  "count": 162,
   "counts": {
-    "total": 161,
-    "market": 74,
+    "total": 162,
+    "market": 75,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-24",
+  "latest": "2026-11-25",
   "reports": [
+    {
+      "date": "2026-11-25",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 1.0730173596012953,
+        "ETH": 0.7765556422365257
+      },
+      "marketSummary": "Bitcoin and Ethereum both gained about 1% on Wednesday November 25, but the broader crypto market fell 1.86% and stock indices declined as hotter-than-expected US core inflation (3.3% vs 3.2% forecast) and tariff concerns sent markets into extreme fear.",
+      "oneLine": "Bitcoin and Ethereum both gained about 1% on Wednesday November 25, but the broader crypto market fell 1.86% and stock indices declined as hotter-than-expected US core inflation (3.3% vs 3.2% forecast) and tariff concerns sent markets into extreme fear.",
+      "newsCount": 14,
+      "topMover": {
+        "symbol": "MANTRAUSDT",
+        "chgPct": 93.71980676328504
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-25/summary_2026-11-25.html",
+        "pdf": "reports/2026-11-25/summary_2026-11-25.pdf",
+        "md": "reports/2026-11-25/summary_2026-11-25.md"
+      }
+    },
     {
       "date": "2026-11-24",
       "kind": "market",
