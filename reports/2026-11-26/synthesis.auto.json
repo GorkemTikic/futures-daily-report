@@ -1,0 +1,226 @@
+{
+  "oneLine": "Bitcoin held near $60,500 on reduced volume as U.S. stock markets shut for Thanksgiving; extreme fear persisted and spot Bitcoin ETF outflows hit monthly records.",
+  "caveman": "Bitcoin's price stayed almost the same today, just barely going up. Ethereum went down a little. In the United States, the stock market was completely closed because of Thanksgiving—a big holiday when people stop work and spend time with family. Because of this, fewer traders were buying and selling than usual. Right now, everyone is very scared about cryptocurrency—more scared than they've been in a long time. The fear level is at an extreme low point. A lot of people are taking money OUT of Bitcoin investment accounts, and this month is the worst month ever for pulling money out. Some small tokens went crazy—a few more than doubled in price, while others crashed down by about a third. This was a nervous, slow day.",
+  "priceVolumeSummary": "Bitcoin closed at $60,544 on Binance, nearly flat from the open at $60,430 (up 0.19%). All five major exchanges agreed on the price within normal range. Binance led volume at $8.1 billion, followed by OKX at $4.78 billion; Thanksgiving closure in the U.S. dampened overall trading compared to typical days.",
+  "positioningSummary": "Bitcoin funding rates stayed positive at 0.0001 annualized (10.79% per year on Binance), showing some bullish positioning despite the bearish day. Open interest stood at 98,190 coins on Binance. The top traders' long-to-short ratio was 1.838 (more bullish traders than bearish). Taker buy/sell ratio was 0.9958 (nearly even, with a slight edge toward selling pressure). Market breadth showed 59.6% of Binance perpetuals up on the day. Despite this, extreme fear gripped the market—the Fear & Greed Index was at 11, the most fearful level recorded recently.",
+  "stocksSummary": "Asian markets were open Thursday, November 26. Korean stocks fell: SK Hynix down 1.5%, Samsung Electronics down 1.0%, Hyundai Motor down 3.7%. Hong Kong saw Zhipu AI up 5.6% but GigaDevice down 3.7%. Chinese markets showed Unitree Robotics down 4.0% and CXMT down 3.6%. U.S. equity markets were closed for Thanksgiving. Commodity futures: gold down 0.2%, WTI crude up 1.2%, natural gas down 2.5%.",
+  "movers": [
+    {
+      "symbol": "INITUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "No clear public cause identified.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Bitcoin spot ETFs post worst month on record with $5.39B in net outflows",
+        "what": "Spot Bitcoin ETFs have already recorded $5.39 billion in net outflows through November, the worst monthly performance since these products launched. The selling pressure reflects ongoing bearish sentiment amid the sharp pullback from recent highs.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-26 15:40 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814"
+      },
+      {
+        "headline": "Major crypto trading firm Auros winding down operations",
+        "what": "Auros, a significant player in crypto trading that handled an estimated 4% of global exchange volume and raised $17 million after the FTX collapse, is shutting down. The closure signals ongoing industry consolidation amid market weakness.",
+        "coins": "general market",
+        "timeUTC": "2026-11-26 10:35 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/26/major-crypto-trading-firm-auros-is-winding-down-operations-sources"
+      },
+      {
+        "headline": "Standard Chartered's Zodia Custody suffers data breach exposing client information",
+        "what": "An unauthorized party accessed client and employee contact information at Standard Chartered's crypto custodian Zodia Custody. The firm said no unauthorized transactions occurred, but the breach raises questions about security controls at a major institutional custody provider.",
+        "coins": "institutional infrastructure",
+        "timeUTC": "2026-11-26 10:38 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11-26/standard-chartered-s-zodia-custody-suffers-data-breach-exposing-client-information"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Europe's first spot Bitcoin ETF launches in Switzerland",
+          "what": "BIT Asset Management's BBIT fund started trading on SIX Swiss Exchange with 350 BTC in assets under management and a 0.19% annual expense ratio, marking Europe's first spot Bitcoin ETF.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 14:50 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "Spain empowers anti-money laundering unit to freeze crypto accounts without court order",
+          "what": "Spain's financial intelligence unit Sepblac can now suspend crypto, bank, and payment accounts for up to five working days without requiring a court order initially. The power aims to combat illicit finance but raises concerns about due process.",
+          "coins": "general regulation",
+          "timeUTC": "2026-11-26 10:35 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge"
+        },
+        {
+          "headline": "Japan's financial regulator weighs tighter oversight of DeFi and self-custodial wallets",
+          "what": "Japan's FSA is exploring measures to curb illicit finance risks, including potential restrictions on access to decentralized finance and self-custody solutions. This reflects global trend toward stricter oversight of non-custodial crypto services.",
+          "coins": "DeFi, general",
+          "timeUTC": "2026-11-26 09:52 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets"
+        },
+        {
+          "headline": "Hong Kong banks now need approval before holding customer cryptocurrency",
+          "what": "Hong Kong's regulatory framework now requires banks to secure new approval before holding cryptocurrency on behalf of customers, adding another layer of compliance burden for institutions entering the digital-asset space.",
+          "coins": "general regulation",
+          "timeUTC": "2026-11-26 03:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hong-kong-wants-banks-to-secure-new-approval-before-holding-customers-crypto/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance completes withdrawal recovery four weeks after $6.3B hack",
+          "what": "Binance has concluded a phased withdrawal recovery that began on November 1 following a record cryptocurrency theft. The completion signals the exchange has restored service normalcy after the incident.",
+          "coins": "Bitcoin, Ethereum, all assets",
+          "timeUTC": "2026-11-26 09:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack"
+        },
+        {
+          "headline": "BNB Chain announces new layer-1 blockchain for trading, private finance, and AI",
+          "what": "BNB Chain has detailed plans for a new layer-1 network that will operate alongside BNB Smart Chain, retaining BNB as its native token. A public testnet is targeted for the first quarter of 2027.",
+          "coins": "BNB",
+          "timeUTC": "2026-11-26 07:36 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Bitcoin wallet vulnerability allows IP address doxing for under $1",
+          "what": "A Bitcoin Core contributor discovered that Bitcoin wallets' automatic resend behavior for stuck transactions can be exploited to link wallet addresses to the specific computer monitoring them, compromising privacy for less than 35 cents.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 11:16 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
+        },
+        {
+          "headline": "BitMart exchange shows $319.5 million shortfall with just $1.9M in liquid assets",
+          "what": "BitMart reportedly carries a significant shortfall of $319.5 million against its obligations, with minimal liquid reserves to cover the gap. The situation raises questions about the exchange's financial stability.",
+          "coins": "general exchange health",
+          "timeUTC": "2026-11-26 09:26 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express"
+        }
+      ],
+      "Market analysis": [
+        {
+          "headline": "Galaxy Research reverses Bitcoin bottom call, warns of losses below $58,525",
+          "what": "Galaxy Research, which called a Bitcoin bottom in June, has reversed that call. A daily close below $58,525 (the June 30 low) would now signal the start of a move toward materially lower lows, according to the firm.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 15:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-446786"
+        },
+        {
+          "headline": "JPMorgan signals Bitcoin capitulation with Strategy record-low valuation multiple",
+          "what": "JPMorgan analysts noted that the Grayscale Bitcoin Mini Trust's NAV (net asset value) multiple versus holdings has hit a record low, a metric they interpret as a sign of capitulation—potential exhaustion of selling pressure.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 15:18 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007"
+        },
+        {
+          "headline": "Bitcoin's rising dormant supply mirrors behavior seen in past bear-market bottoms",
+          "what": "More bitcoin is remaining untouched onchain at current price levels, a pattern historically associated with capitulation phases near bear-market bottoms. The behavior suggests long-term holders are holding rather than panic-selling.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 11:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) on Friday, December 4, 2026 at 13:30 UTC",
+      "typicalReaction": "High-impact U.S. jobs report typically triggers sharp moves in both stocks and crypto; a beat (more jobs) often weakens crypto (stronger economy reduces safe-haven demand), while a miss (fewer jobs) often strengthens it (recession fears reduce rate expectations)."
+    },
+    {
+      "event": "Germany CPI Flash and Eurozone CPI December reports (November 30 and December 1, 2026)",
+      "typicalReaction": "European inflation data can shift ECB rate expectations and affect risk appetite; higher-than-expected inflation could weigh on crypto demand while lower numbers might support appetite for risk assets."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Annualized",
+      "definition": "A yearly rate calculated from a shorter time period. If something returns 1% over 8 hours, the annualized rate shows what it would return in a full year at that pace (even if it won't actually do that)."
+    },
+    {
+      "term": "Basis",
+      "definition": "The underlying asset you're tracking—in crypto futures, usually a 24-hour period (UTC day) or a longer period."
+    },
+    {
+      "term": "Breadth (market breadth)",
+      "definition": "The percentage of all tradable cryptocurrencies that went up in price on a given day. 59.6% breadth means more coins rose than fell."
+    },
+    {
+      "term": "Exchange (venue)",
+      "definition": "A platform where you buy, sell, or trade cryptocurrency—like Binance, Bybit, OKX."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "A fund you can buy and sell like a stock, holding an underlying asset (like Bitcoin). A 'spot' ETF holds actual Bitcoin; it lets people gain exposure without directly owning or custodying crypto."
+    },
+    {
+      "term": "Fear & Greed Index",
+      "definition": "A score from 0 (Extreme Fear) to 100 (Extreme Greed) that measures overall market sentiment by analyzing several factors. 11 is very fearful—people are worried and risk-averse."
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders on a futures exchange. When the rate is positive, traders betting prices will rise pay traders betting on falls. High funding rates can signal overheated long positions."
+    },
+    {
+      "term": "Long/short ratio",
+      "definition": "A comparison of how many traders hold bullish positions (betting prices will rise) versus bearish positions (betting prices will fall). 1.838 means 1.838 longs for every short—more bullish traders."
+    },
+    {
+      "term": "Mark price",
+      "definition": "The price used by a futures exchange to calculate profits/losses and trigger liquidations, designed to prevent manipulation. Usually tracked the actual market price closely."
+    },
+    {
+      "term": "Net outflow",
+      "definition": "More money leaving a fund than entering it. Record outflows of $5.39B means more people withdrew Bitcoin from ETFs than bought into them."
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of all open futures contracts for an asset at a given moment. Higher open interest can mean more liquidity or more leverage in the market."
+    },
+    {
+      "term": "Perpetual (perp)",
+      "definition": "A futures contract with no expiration date. You can hold it indefinitely, paying a funding rate to stay in the trade."
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "A measure of aggressive buying versus aggressive selling. When traders place market orders to immediately buy, they are 'takers.' 0.9958 means slightly more market sells than buys (selling pressure)."
+    },
+    {
+      "term": "Top traders (top-position ratio)",
+      "definition": "The largest accounts on an exchange, often institutions or whales. Their long/short ratio shows what the most influential traders are betting on."
+    },
+    {
+      "term": "Volume (trading volume)",
+      "definition": "The total value of all trades that occurred—measured in dollars or the base asset. Higher volume means more money changed hands."
+    }
+  ],
+  "_source": "cli"
+}

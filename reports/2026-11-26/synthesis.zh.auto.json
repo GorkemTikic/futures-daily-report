@@ -1,0 +1,227 @@
+{
+  "oneLine": "比特币在美国股市因感恩节休市导致成交量下降的情况下在60500美元附近震荡；市场陷入极度恐慌，现货比特币ETF赎回创月度新高。",
+  "caveman": "比特币价格今天基本没动，只是略微上涨了一点。以太坊跌了一点。在美国，股票市场因为感恩节（一个人们停止工作、和家人一起度过的大假期）完全关闭了。因为这个原因，交易员买卖的比平时少得多。现在，每个人都对加密货币非常害怕——比他们很久以来都害怕。恐惧程度在极端低位。很多人从比特币投资账户里取出钱，这个月是有史以来取钱最多的一个月。一些小币种疯狂涨跌——有的翻了倍以上，有的跌了大约三分之一。这是紧张、交易清淡的一天。",
+  "priceVolumeSummary": "比特币在币安收盘价为60544美元，与开盘价60430美元基本持平（上涨0.19%）。五大交易所价格在正常范围内保持一致。币安成交量领先，达81亿美元，其次是OKX的47.8亿美元；美国因感恩节休市导致整体交易量较平时下降。",
+  "positioningSummary": "比特币资金费率保持正值0.0001（币安年化为10.79%），尽管今天行情看跌，但显示出一些看多的持仓。币安持仓量为98190个合约。大户多空比为1.838（看多交易者多于看空交易者）。主动买卖比为0.9958（几乎平衡，略偏向卖压）。市场广度显示币安永续合约中59.6%上涨。尽管如此，市场陷入极度恐慌——恐贪指数为11，是近期记录的最恐慌水平。",
+  "stocksSummary": "亚洲市场于11月26日周四开市。韩国股市下跌：SK海力士下跌1.5%，三星电子下跌1.0%，现代汽车下跌3.7%。香港方面，智谱AI上涨5.6%，但兆易创新下跌3.7%。中国市场方面，宇树科技下跌4.0%，中芯国际下跌3.6%。美国股市因感恩节休市。商品期货：黄金下跌0.2%，WTI原油上涨1.2%，天然气下跌2.5%。",
+  "movers": [
+    {
+      "symbol": "INITUSDT",
+      "explanation": "未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "未发现明确的公开原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "未发现明确的公开原因。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "现货比特币ETF创纪录月度赎回最多，净流出达53.9亿美元",
+        "what": "现货比特币ETF在11月已记录53.9亿美元的净流出，这是这些产品推出以来最差的月度表现。抛售压力反映了在从近期高位大幅回调中持续存在的看跌情绪。",
+        "coins": "比特币",
+        "timeUTC": "2026-11-26 15:40 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814"
+      },
+      {
+        "headline": "加密交易大鳄Auros宣布停止运营",
+        "what": "Auros是加密交易领域的重要参与者，处理全球交易所成交量的约4%，在FTX崩溃后融资1700万美元。如今其停止运营，标志着在市场疲软中行业整合仍在继续。",
+        "coins": "市场综合",
+        "timeUTC": "2026-11-26 10:35 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/26/major-crypto-trading-firm-auros-is-winding-down-operations-sources"
+      },
+      {
+        "headline": "渣打银行旗下Zodia托管遭数据泄露，客户信息被曝光",
+        "what": "未经授权的第三方访问了渣打银行加密托管服务商Zodia Custody的客户和员工联系信息。该公司表示未发生未授权交易，但此次泄露引发了对这家大型机构托管商安全控制的质疑。",
+        "coins": "机构基础设施",
+        "timeUTC": "2026-11-26 10:38 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11-26/standard-chartered-s-zodia-custody-suffers-data-breach-exposing-client-information"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "欧洲首只现货比特币ETF在瑞士上线",
+          "what": "BIT资产管理公司的BBIT基金在瑞士SIX交易所开始交易，管理资产350个比特币，年费率0.19%，标志着欧洲首只现货比特币ETF的诞生。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-26 14:50 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "西班牙授权反洗钱部门可在无需法庭令状情况下冻结加密账户",
+          "what": "西班牙财务情报部门Sepblac现在可以在无需初期法庭令状的情况下冻结加密、银行和支付账户长达五个工作日。这一权力旨在打击非法融资，但引发了对程序正当性的担忧。",
+          "coins": "监管政策",
+          "timeUTC": "2026-11-26 10:35 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge"
+        },
+        {
+          "headline": "日本金融监管机构考虑加强对DeFi和自托管钱包的监管",
+          "what": "日本金融厅正在探索遏制非法融资风险的措施，包括可能限制对去中心化金融和自托管解决方案的访问。这反映了全球对非托管加密服务加强监管的趋势。",
+          "coins": "DeFi、市场综合",
+          "timeUTC": "2026-11-26 09:52 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets"
+        },
+        {
+          "headline": "香港银行持有客户加密货币前需获得批准",
+          "what": "香港监管框架现要求银行在代客户持有加密货币前获得新批准，这为进入数字资产领域的机构增加了又一层合规负担。",
+          "coins": "监管政策",
+          "timeUTC": "2026-11-26 03:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hong-kong-wants-banks-to-secure-new-approval-before-holding-customers-crypto/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "币安在63亿美元黑客事件四周后完成提现恢复",
+          "what": "币安完成了11月1日开始的分阶段提现恢复计划，这是一次创纪录的加密货币盗窃事件。恢复完成标志着交易所在事件后已恢复正常服务。",
+          "coins": "比特币、以太坊、所有资产",
+          "timeUTC": "2026-11-26 09:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack"
+        },
+        {
+          "headline": "BNB链宣布推出用于交易、私人金融和AI的新一层区块链",
+          "what": "BNB链详细介绍了新一层网络的计划，该网络将与BNB Smart Chain并行运营，BNB保持为其原生代币。公开测试网预计在2027年第一季度推出。",
+          "coins": "BNB",
+          "timeUTC": "2026-11-26 07:36 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "比特币钱包漏洞可实现IP地址暴露，成本不足1美元",
+          "what": "一位比特币核心贡献者发现，比特币钱包的交易重发机制可被利用来将钱包地址与监控它们的特定计算机关联，从而以不足35美分的成本破坏隐私。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-26 11:16 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
+        },
+        {
+          "headline": "BitMart交易所显示3.195亿美元缺口，仅有190万美元液态资产",
+          "what": "据报道，BitMart对其债务存在3.195亿美元的重大缺口，液态储备极少。这种情况引发了对交易所财务稳定性的质疑。",
+          "coins": "交易所资产健康状况",
+          "timeUTC": "2026-11-26 09:26 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express"
+        }
+      ],
+      "Market analysis": [
+        {
+          "headline": "Galaxy Research反转比特币底部判断，警告低于58525美元将面临更大跌幅",
+          "what": "曾在6月判断比特币触底的Galaxy Research已改口。该公司表示，日线收盘低于58525美元（6月30日低点）将预示开始向更低的低位运动。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-26 15:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-446786"
+        },
+        {
+          "headline": "摩根大通信号比特币投降，策略性估值倍数创历史新低",
+          "what": "摩根大通分析师指出，灰度比特币微型信托的净资产值（NAV）倍数相对持仓创历史新低，他们将其视为投降信号——可能预示抛售压力耗尽。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-26 15:18 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007"
+        },
+        {
+          "headline": "比特币链上休眠供应上升镜像过往熊市底部表现",
+          "what": "在当前价位，更多比特币保持链上休眠，这种模式在历史上与熊市底部附近的投降阶段相关。这种行为表明长期持有者在坚守而非恐慌抛售。",
+          "coins": "比特币",
+          "timeUTC": "2026-11-26 11:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) on Friday, December 4, 2026 at 13:30 UTC",
+      "typicalReaction": "美国就业数据是高影响力报告，通常引发股票和加密货币的剧烈波动；数据好于预期（就业增加）通常会削弱加密货币（经济强劲降低避险需求），而差于预期（就业减少）通常会强化加密货币（经济衰退担忧降低利率预期）。"
+    },
+    {
+      "event": "Germany CPI Flash and Eurozone CPI December reports (November 30 and December 1, 2026)",
+      "typicalReaction": "欧洲通胀数据可能改变欧洲央行利率预期并影响风险偏好；高于预期的通胀可能压低加密货币需求，而低于预期的数据可能提升风险资产偏好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "年化",
+      "definition": "从较短时间周期计算的年度收益率。如果某资产在8小时内收益1%，年化收益率显示按这个速度在整年会获得多少收益（即使实际可能不会这样）。"
+    },
+    {
+      "term": "基期",
+      "definition": "你追踪的基础资产——在加密期货中，通常是24小时周期（UTC天）或更长周期。"
+    },
+    {
+      "term": "广度（市场广度）",
+      "definition": "在给定一天上涨的所有可交易加密货币的百分比。59.6%的广度意味着上涨的币种多于下跌的币种。"
+    },
+    {
+      "term": "交易所（平台）",
+      "definition": "你可以在其中买卖或交易加密货币的平台——如币安、Bybit、OKX。"
+    },
+    {
+      "term": "ETF（交易所交易基金）",
+      "definition": "一种可以像股票一样买卖的基金，持有基础资产（如比特币）。\"现货\"ETF持有实际比特币；让人们可以获得敞口而无需直接拥有或托管加密货币。"
+    },
+    {
+      "term": "恐贪指数",
+      "definition": "从0（极度恐慌）到100（极度贪婪）的分数，通过分析多个因素衡量整体市场情绪。11表示非常恐慌——人们担忧且风险厌恶。"
+    },
+    {
+      "term": "资金费率",
+      "definition": "期货交易所中交易者之间的定期支付。费率为正时，看多交易者向看空交易者支付。高资金费率可能预示多头持仓过热。"
+    },
+    {
+      "term": "多空比",
+      "definition": "持有看涨头寸（押注价格上升）的交易者数量与持有看跌头寸（押注价格下降）的交易者数量的比较。1.838意味着每个空头对应1.838个多头——看多交易者更多。"
+    },
+    {
+      "term": "标记价格",
+      "definition": "期货交易所用来计算盈亏和触发平仓的价格，旨在防止操纵。通常紧跟实际市场价格。"
+    },
+    {
+      "term": "净流出",
+      "definition": "离开基金的资金多于进入基金的资金。创纪录的53.9亿美元净流出意味着更多人从ETF中提取比特币而非买入。"
+    },
+    {
+      "term": "持仓量",
+      "definition": "某资产在给定时刻所有未平仓期货合约的总价值。更高的持仓量可能意味着更多流动性或市场中更多杠杆。"
+    },
+    {
+      "term": "永续合约",
+      "definition": "没有到期日期的期货合约。你可以无限期持有它，通过支付资金费率来保持交易。"
+    },
+    {
+      "term": "主动买卖比",
+      "definition": "积极买盘与积极卖盘的衡量。交易者下市价单立即买入时被称为\"主动买方\"。0.9958意味着市价卖单略多于买单（卖压）。"
+    },
+    {
+      "term": "大户（大户持仓比）",
+      "definition": "交易所中最大的账户，通常是机构或大户。他们的多空比显示最有影响力的交易者在下注什么。"
+    },
+    {
+      "term": "成交量",
+      "definition": "发生的所有交易的总价值——以美元或基础资产衡量。更高的成交量意味着更多资金流转。"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "11f9fa92ceb0c842"
+}

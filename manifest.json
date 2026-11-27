@@ -1,16 +1,55 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-26T00:09:27.191Z",
-  "count": 162,
+  "generatedAt": "2026-11-27T00:08:52.537Z",
+  "count": 163,
   "counts": {
-    "total": 162,
-    "market": 75,
+    "total": 163,
+    "market": 76,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-25",
+  "latest": "2026-11-26",
   "head": 500,
   "reports": [
+    {
+      "date": "2026-11-26",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": 0.21297721292756308,
+        "ETH": -0.1312297170285352
+      },
+      "marketSummary": "Bitcoin held near $60,500 on reduced volume as U.S. stock markets shut for Thanksgiving; extreme fear persisted and spot Bitcoin ETF outflows hit monthly records.",
+      "oneLine": "Bitcoin held near $60,500 on reduced volume as U.S. stock markets shut for Thanksgiving; extreme fear persisted and spot Bitcoin ETF outflows hit monthly records.",
+      "newsCount": 14,
+      "topMover": {
+        "symbol": "INITUSDT",
+        "chgPct": 67.00447796370493
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-26/summary_2026-11-26.html",
+        "pdf": "reports/2026-11-26/summary_2026-11-26.pdf",
+        "md": "reports/2026-11-26/summary_2026-11-26.md"
+      }
+    },
     {
       "date": "2026-11-25",
       "kind": "market",

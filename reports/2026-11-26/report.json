@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-26",
+  "kind": "market",
+  "dateLong": "Thursday, 26 November 2026",
+  "coversUTC": "2026-11-26 00:00–23:59 UTC",
+  "oneLine": "Bitcoin held near $60,500 on reduced volume as U.S. stock markets shut for Thanksgiving; extreme fear persisted and spot Bitcoin ETF outflows hit monthly records.",
+  "newsCount": 14,
+  "macro": {
+    "BTC": 0.21297721292756308,
+    "ETH": -0.1312297170285352
+  },
+  "topMover": {
+    "symbol": "INITUSDT",
+    "chgPct": 67.00447796370493
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "27 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}

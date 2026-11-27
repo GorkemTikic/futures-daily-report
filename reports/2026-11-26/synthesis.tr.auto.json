@@ -1,0 +1,227 @@
+{
+  "oneLine": "Bitcoin, Thanksgiving nedeniyle ABD borsalarının kapalı olmasından dolayı azalan işlem hacmi altında $60.500 civarında tutundu; aşırı korku devam etti ve spot Bitcoin ETF çıkışları aylık rekora ulaştı.",
+  "caveman": "Bugün Bitcoin fiyatı neredeyse değişmedi, sadece çok az arttı. Ethereum biraz düştü. Amerika'da borsa tamamen kapalıydı çünkü Thanksgiving vardı—insanların işi bırakıp ailesiyle zaman geçirdikleri büyük bir tatil. Bu yüzden normalden çok daha az insan alıp satıyor. Şu anda herkes kripto hakkında çok korkuyor—daha önce hiç olmadığı kadar korkuyor. Korku seviyesi rekor düzeyde düşük. Çok sayıda insan Bitcoin yatırım hesaplarından para çekiyor ve bu ay tüm zamanların en kötü ayı. Bazı küçük paralar çılgınca hareket etti—birkaçı fiyatı ikiye katladı, diğerleri yaklaşık üçte bir düştü. Bu sinirli ve yavaş bir gündü.",
+  "priceVolumeSummary": "Bitcoin, Binance'te $60.544'ten kapandı, açılış fiyatı olan $60.430'a göre neredeyse değişmez—%0,19 arttı. Beş ana borsa da fiyatta normal aralıklar içinde anlaştı. Binance'in başı, işlem hacmi $8,1 milyar ile başı çekti; bunu OKX $4,78 milyar ile takip etti. ABD'deki Thanksgiving tatili genel ticari aktiviteyi normal günlere kıyasla azalttı.",
+  "positioningSummary": "Bitcoin finansman oranları, aşağı yönlü günü göz önüne alındığında bazı yükseliş eğilimli pozisyonlanmayı gösteren pozitif $0,0001'de kaldı—yıllıklandırılmış olarak (%10,79 Binance'te). Açık pozisyon, Binance'te 98.190 coin durmaktaydı. En büyük tüccarların uzun/kısa oranı 1,838'di—düşüş eğilimli tüccarlardan daha fazla yükseliş eğilimli tüccar. Alıcı/satıcı oranı 0,9958'di (neredeyse eşit, satış baskısı biraz daha fazla). Pazar genişliği Binance perpetual vadeli işlemlerinin %59,6'sinin günü yukarıda kapattığını gösterdi. Buna rağmen, aşırı korku pazarı ele geçirmişti—Korku ve Açgözlülük Endeksi 11'di, son zamanlarda kaydedilen en korktulu seviye.",
+  "stocksSummary": "Asya piyasaları Perşembe, 26 Kasım'da açıktı. Koreli hisse senetleri düştü: SK Hynix %1,5 düştü, Samsung Electronics %1,0 düştü, Hyundai Motor %3,7 düştü. Hong Kong'da Zhipu AI %5,6 arttı ancak GigaDevice %3,7 düştü. Çin piyasaları Unitree Robotics'in %4,0 düşüşü ve CXMT'nin %3,6 düşüşü gösterdi. ABD hisse piyasaları Thanksgiving nedeniyle kapalıydı. Emtia vadeli işlemleri: altın %0,2 düştü, WTI ham petrol %1,2 arttı, doğal gaz %2,5 düştü.",
+  "movers": [
+    {
+      "symbol": "INITUSDT",
+      "explanation": "Açık bir halk nedeni tanımlanmamıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "explanation": "Açık bir halk nedeni tanımlanmamıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "explanation": "Açık bir halk nedeni tanımlanmamıştır.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Spot Bitcoin ETF'leri rekor ayda $5,39 milyar net çıkış ile en kötü performans gösteriyor",
+        "what": "Spot Bitcoin ETF'leri, Kasım ayı boyunca zaten $5,39 milyar net çıkış kaydetti—bu ürünlerin piyasaya çıkmasından bu yana en kötü aylık performans. Satış baskısı, son yüksekleri takip eden keskin gerilemede devam eden düşüş eğilimli duyarlılığı yansıtıyor.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-26 15:40 UTC",
+        "source": "The Block",
+        "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814"
+      },
+      {
+        "headline": "Büyük kripto ticaret firması Auros operasyonları kapatıyor",
+        "what": "Küresel borsa hacminin tahminen %4'ünü yöneten ve FTX çöküşünün ardından $17 milyon toplayan önemli bir kripto ticaret oyuncusu olan Auros kapanıyor. Kapanış, pazar zayıflığı ortasında devam eden endüstri birleşmesini gösteriyor.",
+        "coins": "genel piyasa",
+        "timeUTC": "2026-11-26 10:35 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/26/major-crypto-trading-firm-auros-is-winding-down-operations-sources"
+      },
+      {
+        "headline": "Standard Chartered'ın Zodia Custody, müşteri bilgilerini açığa çıkaran veri ihlalinden muzdarip",
+        "what": "Yetkisiz bir taraf, Standard Chartered'ın kripto saklama kurumu Zodia Custody'de müşteri ve çalışan iletişim bilgilerine erişti. Şirket, yetkisiz işlem olmadığını söyledi, ancak ihlal, önemli bir kurumsal saklama sağlayıcısında güvenlik kontrolleri hakkında soru işaretleri yaratıyor.",
+        "coins": "kurumsal altyapı",
+        "timeUTC": "2026-11-26 10:38 UTC",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11-26/standard-chartered-s-zodia-custody-suffers-data-breach-exposing-client-information"
+      }
+    ],
+    "groups": {
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Avrupa'nın ilk spot Bitcoin ETF'si İsviçre'de piyasaya çıkıyor",
+          "what": "BIT Asset Management'ın BBIT fonu, $350 milyonluk yönetim altındaki varlık ve %0,19 yıllık gider oranıyla SIX İsviçre Borsası'nda işlem görmeye başladı—Avrupa'nın ilk spot Bitcoin ETF'si.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 14:50 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "İspanya, kara para aklama birimi kripto hesaplarını mahkeme emri olmadan dondurmaya yetkiliyor",
+          "what": "İspanya'nın mali istihbarat birimi Sepblac, kripto, banka ve ödeme hesaplarını, ilk olarak mahkeme emri gerektirmeksizin beş iş gününe kadar askıya alabilir. Güç, yasadışı finansmanla mücadele etmeyi amaçlıyor ancak eşit işlem süreci hakkında endişeler yaratıyor.",
+          "coins": "genel düzenleme",
+          "timeUTC": "2026-11-26 10:35 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge"
+        },
+        {
+          "headline": "Japonya'nın mali düzenleyicisi DeFi ve kendi kendini saklama cüzdanlarının daha sıkı denetimini tartışıyor",
+          "what": "Japonya'nın FSA, merkezi olmayan finans ve kendi kendini saklama çözümlerine erişimin kısıtlanması da dahil olmak üzere, yasadışı finans risklerini azaltmak için önlemler araştırıyor. Bu, gözetim dışı kripto hizmetlerine yönelik küresel daha sıkı denetleme eğilimini yansıtıyor.",
+          "coins": "DeFi, genel",
+          "timeUTC": "2026-11-26 09:52 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets"
+        },
+        {
+          "headline": "Hong Kong bankaları müşteri kripto tutmadan önce onay alması gerekiyor",
+          "what": "Hong Kong'un düzenleyici çerçevesi, artık bankaların müşteri adına kripto tutmadan önce yeni onay almasını gerektiriyor—dijital varlık alanına giren kurumlar için başka bir uyum yükü katmanı ekliyor.",
+          "coins": "genel düzenleme",
+          "timeUTC": "2026-11-26 03:00 UTC",
+          "source": "CryptoSlate",
+          "url": "https://cryptoslate.com/hong-kong-wants-banks-to-secure-new-approval-before-holding-customers-crypto/"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Binance, $6,3 milyar soygun sonrasında dört hafta sonra para çekme kurtarmasını tamamlıyor",
+          "what": "Binance, 1 Kasım'da rekor kriptocurrency hırsızlığını takip eden aşamalı geri çekme kurtarmasını tamamladı. Tamamlanması, borsanın olaydan sonra hizmet normalliğini geri yüklediğini gösteriyor.",
+          "coins": "Bitcoin, Ethereum, tüm varlıklar",
+          "timeUTC": "2026-11-26 09:33 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack"
+        },
+        {
+          "headline": "BNB Chain, ticaret, özel finans ve AI için yeni katman-1 blok zinciri duyuruyor",
+          "what": "BNB Chain, BNB Smart Chain'in yanında çalışacak yeni bir katman-1 ağının ayrıntılarını verdi, BNB'yi yerel belirteci olarak tuttu. Genel test ağı 2027'nin ilk çeyreği için hedeflenmiş.",
+          "coins": "BNB",
+          "timeUTC": "2026-11-26 07:36 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai"
+        }
+      ],
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Bitcoin cüzdanı açığı, $1'den az için IP adresini açığa çıkarmaya izin veriyor",
+          "what": "Bir Bitcoin Core katılımcısı, Bitcoin cüzdanlarının sıkışmış işlemler için otomatik yeniden gönderme davranışının, cüzdan adreslerini onları izleyen belirli bilgisayarla bağlamak için kötüye kullanılabileceğini keşfetti—35 sent'ten az için gizliliği tehlikeye atıyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 11:16 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
+        },
+        {
+          "headline": "BitMart borsası, yalnızca $1,9 milyon likit varlık ile $319,5 milyon açık gösteriyor",
+          "what": "BitMart, açık pozisyonlarına karşı $319,5 milyonluk önemli bir açık gösterirken, boşluğu kapatmak için minimum likit rezervler tutuyor. Durum, borsanın mali istikrarı hakkında soru işaretleri yaratıyor.",
+          "coins": "genel borsa sağlığı",
+          "timeUTC": "2026-11-26 09:26 UTC",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express"
+        }
+      ],
+      "Market analysis": [
+        {
+          "headline": "Galaxy Research Bitcoin dip çağrısını geri çekiyor, $58.525'in altında kayıp hakkında uyarıyor",
+          "what": "Haziran'da Bitcoin diplini çağıran Galaxy Research bu çağrıyı geri çekti. Günlük kapanış $58.525'in altında (30 Haziran dibi) artık maddi olarak daha düşük diplere doğru hareketin başlangıcını gösterecekti—firma'ya göre.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 15:16 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-galaxy-walks-back-bitcoin-bottom-446786"
+        },
+        {
+          "headline": "JPMorgan, Strategy rekor düşük değerleme çarpanı ile Bitcoin teslimiyetini gösteriyor",
+          "what": "JPMorgan analistleri, Grayscale Bitcoin Mini Trust'ın NAV (net varlık değeri) çarpanının varlıklara karşı rekor dibe vurduğunu—satış baskısının olası tükenmişliğinin işareti olan bir metriki—not etti.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 15:18 UTC",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007"
+        },
+        {
+          "headline": "Bitcoin'in yükselen hareketsiz arz, geçmiş ayı pazar diblerinde görülen davranışı aynasını yansıtıyor",
+          "what": "Daha fazla Bitcoin, mevcut fiyat seviyelerinde zincirlerde dokunulmadan kalıyor—tarihsel olarak ayı pazar diblerinin yakınında teslimiyyet aşamaları ile ilişkili bir desen. Davranış, uzun vadeli sahibinin panic satış yerine tutunduğunu gösteriyor.",
+          "coins": "Bitcoin",
+          "timeUTC": "2026-11-26 11:30 UTC",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases"
+        }
+      ]
+    }
+  },
+  "etfFlows": null,
+  "calendarNotes": [
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) on Friday, December 4, 2026 at 13:30 UTC",
+      "typicalReaction": "Yüksek etkili ABD iş raporunun, hisse senedi ve kripto ikisinde de keskin hareketleri tetiklemesi tipiktir; bir başarı (daha fazla iş) genellikle kripto'yu zayıflatır (daha güçlü ekonomi güvenli liman talebini azaltır), oysa bir başarısızlık (daha az iş) genellikle onu güçlendirir (resesyon korkuları oran beklentilerini azaltır)."
+    },
+    {
+      "event": "Germany CPI Flash and Eurozone CPI December reports (November 30 and December 1, 2026)",
+      "typicalReaction": "Avrupa enflasyon verileri, ECB oran beklentilerini ve risk iştahını değiştirebilir; beklenenden daha yüksek enflasyon kripto talebini ağırlaştırabilirken, daha düşük sayılar riskli varlıklar için iştahı destekleyebilir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yıllıklandırılmış",
+      "definition": "Daha kısa bir süredeki oranlardan hesaplanan yıllık oran. Bir şey 8 saatte %1 getiri sağlarsa, yıllıklandırılmış oran o hızda tam bir yılda ne kadar getiri vereceğini gösterir (gerçekten bunu yapsa da)."
+    },
+    {
+      "term": "Temel / Basis",
+      "definition": "İzlediğiniz temel varlık—kripto vadeli işlemlerinde, genellikle 24 saatlik dönem (UTC günü) veya daha uzun bir dönem."
+    },
+    {
+      "term": "Pazar Genişliği",
+      "definition": "Belirli bir günde fiyatı artan tüm işlem gören kriptoparaların yüzdesi. %59,6 genişliği, daha fazla paranın düştüğünden daha fazla yükseldiği anlamına gelir."
+    },
+    {
+      "term": "Borsa / Exchange",
+      "definition": "Binance, Bybit, OKX gibi kripto alıp sattığınız veya ticaretini yaptığınız platform."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "Hisse senedi gibi alıp satabildiğiniz, temel bir varlık (Bitcoin gibi) tutan bir fon. 'Spot' ETF gerçek Bitcoin tutar; insanların kripto'ya doğrudan sahip olmadan veya saklama yapmadan maruz kalmasını sağlar."
+    },
+    {
+      "term": "Korku ve Açgözlülük Endeksi",
+      "definition": "Çeşitli faktörleri analiz ederek genel piyasa duyarlılığını ölçen 0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında bir puan. 11 çok korkulu—insanlar endişeli ve riske karşı isteksiz."
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Vadeli işlem borsasında tüccarlar arasında periyodik ödeme. Oran pozitif olduğunda, fiyatların yükselişine bahis yapanlar düşüşe bahis yapanları öderler. Yüksek finansman oranları aşırı ısınmış uzun pozisyonlar gösterebilir."
+    },
+    {
+      "term": "Uzun/Kısa Oranı",
+      "definition": "Fiyatların yükselişüne bahis yapanlar (yükseliş eğilimli) ile fiyatların düşüşüne bahis yapanları (düşüş eğilimli) karşılaştırması. 1,838 her kısa için 1,838 uzun anlamına gelir—daha fazla yükseliş eğilimli tüccar."
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Vadeli işlem borsası tarafından kar/zararları hesaplamak ve tasfiyeyi tetiklemek için kullanılan fiyat—manipülasyonu önlemeyi amaçlıyor. Genellikle gerçek piyasa fiyatını yakından takip eder."
+    },
+    {
+      "term": "Net Çıkış",
+      "definition": "Bir fonu terk eden para, içine giren paradan daha fazla. Bitcoin ETF'lerinden $5,39 milyarın rekor çıkışı, daha fazla insanın borsaya gelmekten ziyade ETF'lerden para çektiği anlamına gelir."
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Belirli bir anda bir varlık için açık tüm vadeli işlem sözleşmelerinin toplam değeri. Daha yüksek açık pozisyon daha fazla likiditeyi veya piyasada daha fazla kaldıraç anlamına gelebilir."
+    },
+    {
+      "term": "Perpetual / Perpetual Vadeli İşlem",
+      "definition": "Sona erme tarihi olmayan bir vadeli işlem sözleşmesi. Belirsiz bir süre tutabilir ve ticarette kalmak için finansman oranı ödersiniz."
+    },
+    {
+      "term": "Alıcı/Satıcı Oranı",
+      "definition": "Agresif alımı agresif satışa karşı ölçü. Tüccarlar hemen satın almak için pazar emirleri verdiğinde 'alıcı'dırlar. 0,9958 pazar satışlarından (satış baskısı) biraz daha fazla satın alma anlamına gelir."
+    },
+    {
+      "term": "Top Tüccarlar",
+      "definition": "Genellikle kurumlar veya büyük balık olan bir borsadaki en büyük hesaplar. Uzun/kısa oranları, en etkili tüccarların ne üzerine bahis yaptığını gösterir."
+    },
+    {
+      "term": "İşlem Hacmi / Volume",
+      "definition": "Meydana gelen tüm işlemlerin toplam değeri—dolar veya temel varlık cinsinden ölçülür. Daha yüksek hacim, daha fazla para değiştirilmesi anlamına gelir."
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "11f9fa92ceb0c842"
+}
