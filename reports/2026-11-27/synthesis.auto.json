@@ -1,0 +1,231 @@
+{
+  "oneLine": "Bitcoin and Ethereum both fell roughly 1–1.6% on November 27, while stocks and precious metals surged, as extreme fear gripped crypto markets while institutional flows turned deeply negative.",
+  "caveman": "Bitcoin dropped 1%, Ethereum dropped 1.6%. The whole crypto market is very scared right now. BUT the stock market was happy—the S&P 500 jumped 1.6% and tech stocks jumped 2.3%. Gold and silver both jumped too. Some very unusual things happened: one token called PORTAL exploded 230% for no clear reason, while two others crashed down 47% and 37%. Asian chip makers like Samsung and SK Hynix surged up 5–7% because they make chips for AI. Big professional traders are still buying crypto even though prices are falling, which is odd. This was a confusing day—stocks and gold strong, crypto weak and scared.",
+  "priceVolumeSummary": "Bitcoin closed at $59,893 (down 1.08%) and Ethereum at $1,661.5 (down 1.62%), with all major venues showing consistent pricing. Bitcoin led volume at $14 billion on Binance, with OKX and Bybit also substantial at $7.9B and $5.6B respectively.",
+  "positioningSummary": "Bitcoin funding rate remained elevated at 9.11% annualized on Binance, signaling sustained long bias despite price weakness. Open interest increased slightly to $5.9 billion on Binance. The long/short ratio favored longs at 2.49:1, with top traders showing even stronger long positioning at 1.95:1. Taker buy/sell ratio of 1.01 suggests marginal buying pressure. Across Binance perpetual markets, 72.4% of coins traded higher (593 up, 220 down), indicating broader positive momentum outside Bitcoin and Ethereum. The crypto fear-greed index hit extreme fear at 12 (up slightly from 11), reflecting deep market anxiety.",
+  "stocksSummary": "Asian semiconductor stocks led a broad rally with SK Hynix surging 6.69%, Samsung 5.56%, and LG 7.80%, likely reflecting strong demand for AI infrastructure chips. Hong Kong-listed AI and tech names surged even more dramatically: Zhipu AI jumped 17.45%, MiniMax 15.55%, and Innolight 13.62%. Chinese robotics leader Unitree Robotics climbed 14.11%. In commodities, gold futures surged 2.58%, silver 5.45%, and copper 3.37%, suggesting both safe-haven demand and economic growth expectations. US equities rallied strongly with the S&P 500 up 1.62% and Nasdaq Composite up 2.32%, driven by AI infrastructure enthusiasm. The US dollar ticked up 0.41%.",
+  "movers": [
+    {
+      "symbol": "PORTALUSDT",
+      "explanation": "PORTAL token exploded to $0.04131, up 230% on the day, with $561 million in volume. No clear public news catalyst has been identified for this extreme move.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA token crashed to $1.346, down 47.3% on heavy $294 million volume. The underlying cause for this severe decline is unclear from available news.",
+      "hasCause": false
+    },
+    {
+      "symbol": "INITUSDT",
+      "explanation": "INIT token fell to $0.0885, down 37.6% on $268 million volume. No clear news explanation for this sharp decline has been found.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance fully lifts withdrawal suspension four weeks after $6.4 billion hack",
+        "what": "Binance restored all withdrawals on November 26 after a four-week suspension following October's record $6.4 billion hack. The U.S. has helped freeze, seize or return $2.9 billion of the stolen funds. Binance confirmed all user assets remain fully backed at least 1:1.",
+        "coins": "All (Binance platform)",
+        "timeUTC": "2026-11-27 15:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
+      },
+      {
+        "headline": "Bitcoin Core privacy flaw could link wallet addresses to user IP addresses for under 35 cents",
+        "what": "Bitcoin Core contributor Abubakar Sadiq Ismail discovered a vulnerability that allows an observer to link a Bitcoin wallet address to the IP address of the node running it. The attack exploits Bitcoin's transaction rebroadcast mechanism and costs less than 35 cents to execute. In simulated testing, the correct node was identified in 30 out of 30 attempts.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-27 12:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
+      },
+      {
+        "headline": "Chainflip identifies affected users and launches recovery plan following $12.6 million hack",
+        "what": "Chainflip DEX has completed its loss accounting after a November 21 hack that stole $12.6 million (133.34 BTC, 520.22 ETH, and stablecoins). The exploit leveraged a libzmq library vulnerability. Chainflip is setting up a recovery fund for affected liquidity providers, swappers, and accounts and is asking FLIP token holders and financiers to contribute.",
+        "coins": "Bitcoin, Ethereum, USDC, USDT",
+        "timeUTC": "2026-11-27 23:50",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/chainflip-identifies-who-lost-money-in-12-6-million-hack-as-recovery-plan-takes-shape/"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Monero suffers 11% crash as KuCoin announces delisting on November 30",
+          "what": "KuCoin announced November 26 it will delist Monero (XMR) effective November 30, citing internal platform rules without specific reason. Monero fell over 11% on November 27, its biggest single-day drop since June. KuCoin's XMR/USDT pair represented about 47% of tracked spot volume, making the delisting a significant liquidity event.",
+          "coins": "Monero (XMR)",
+          "timeUTC": "2026-11-27 17:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "ECB's next chief favors tokenized bank deposits over stablecoins and Bitcoin",
+          "what": "Pablo Hernández de Cos, chosen to succeed Christine Lagarde as ECB president, expressed preference for central-bank-backed tokenized deposits over private digital currencies and stablecoins. He has previously warned against banks holding Bitcoin as an asset.",
+          "coins": "Bitcoin, general stablecoins",
+          "timeUTC": "2026-11-27 13:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin"
+        },
+        {
+          "headline": "China sets March 2027 rollout for blockchain identity regulations",
+          "what": "China issued new regulations governing blockchain-based digital identities, setting rules for cross-platform verification and data privacy with an implementation deadline of March 2027.",
+          "coins": "General (blockchain infrastructure)",
+          "timeUTC": "2026-11-27 04:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Franklin Templeton adds Hyperliquid (HYPE) to crypto index ETF",
+          "what": "Franklin Templeton added Hyperliquid's native token (HYPE) to its crypto index ETF as US spot HYPE investment products reached $266.5 million in assets under management.",
+          "coins": "Hyperliquid (HYPE)",
+          "timeUTC": "2026-11-27 11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Ethereum developers schedule Glamsterdam upgrade for Hoodi testnet on December 15",
+          "what": "Ethereum core developers confirmed the Glamsterdam upgrade will test on the Hoodi testnet on December 15 at 19:12 UTC. The upgrade implements enshrined proposer-builder separation, block-level access lists, and updated gas pricing. Mainnet deployment is expected mid-to-late January 2027. The upgrade was delayed from October after security audits flagged 200 compatibility issues affecting 15,000 smart contracts.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-11-27 14:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051"
+        },
+        {
+          "headline": "Kalshi prediction market pivots to small-business hedging as legal battles limit sports betting",
+          "what": "Kalshi is marketing its platform to small businesses as a way to hedge operational risks like tariffs and weather, as ongoing state and federal legal challenges threaten its ability to offer sports wagers. About 500 businesses have already used Kalshi for microinsurance.",
+          "coins": "General (platform/regulatory)",
+          "timeUTC": "2026-11-27 16:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "CryptoQuant: Bitcoin price recovery needs USDT supply to start growing again",
+          "what": "CryptoQuant analysts stated that Bitcoin requires a resumption of Tether (USDT) supply growth for a sustained price recovery, suggesting liquidity is a key factor in the current market downturn.",
+          "coins": "Bitcoin, Tether (USDT)",
+          "timeUTC": "2026-11-27 23:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-26",
+    "summary": "US spot Bitcoin ETF outflows totaled $329.7 million on November 25–26, with BlackRock's iShares Bitcoin Trust (IBIT) leading redemptions. Ethereum ETF outflows were $68.51 million over the same period, entirely from BlackRock's iShares Ethereum Trust (ETHA). Month-to-date November outflows stand at $5.39 billion for Bitcoin and $1.30 billion for Ethereum, the largest monthly redemptions since the spot ETF launches.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Germany CPI Flash November 2026 — Nov 30, 13:00 UTC",
+      "typicalReaction": "Medium impact on risk sentiment; stronger inflation could weigh on crypto as it suggests higher rates ahead"
+    },
+    {
+      "event": "Eurozone Flash CPI December 2026 — Dec 1, 10:00 UTC",
+      "typicalReaction": "Medium impact; a surprise could shift euro and broader risk appetite"
+    },
+    {
+      "event": "US ISM Manufacturing PMI December 2026 — Dec 1, 15:00 UTC",
+      "typicalReaction": "Medium impact on USD strength and risk sentiment"
+    },
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) December 2026 — Dec 4, 13:30 UTC",
+      "typicalReaction": "High impact; major driver of USD and equity volatility; can shift crypto risk appetite sharply"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Basis",
+      "definition": "The time period used to calculate price change and volume, typically UTC calendar day"
+    },
+    {
+      "term": "Breadth",
+      "definition": "The percentage of Binance perpetual contracts trading higher on the day; a measure of broad market momentum"
+    },
+    {
+      "term": "Exchange delisting",
+      "definition": "When a crypto platform stops offering trading for a particular token"
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "An investment fund that trades on an exchange like stocks; spot Bitcoin and Ethereum ETFs hold actual coins and track their price"
+    },
+    {
+      "term": "ETF flows",
+      "definition": "Net inflows (deposits) or outflows (withdrawals) into exchange-traded funds; negative flows mean investors are pulling money out"
+    },
+    {
+      "term": "Fear-Greed Index",
+      "definition": "A sentiment gauge from 0 (Extreme Fear) to 100 (Extreme Greed) measuring investor emotion; Extreme Fear means markets are panicked"
+    },
+    {
+      "term": "Funding rate",
+      "definition": "A periodic payment between traders holding long and short positions on perpetual futures, designed to keep prices close to spot price; positive rates mean longs pay shorts"
+    },
+    {
+      "term": "Funding rate annualized",
+      "definition": "The funding rate projected over a full year; a 9% annualized rate means longs are paying shorts about 9% per year"
+    },
+    {
+      "term": "IP address",
+      "definition": "A unique number that identifies a computer or device on a network; used for routing internet traffic"
+    },
+    {
+      "term": "Liquidity",
+      "definition": "The ease with which an asset can be bought or sold; high liquidity means you can trade large amounts without moving the price"
+    },
+    {
+      "term": "Liquidity providers",
+      "definition": "Users who deposit funds into decentralized exchanges or lending pools to earn fees; the first to suffer losses in exploits"
+    },
+    {
+      "term": "Long/Short ratio",
+      "definition": "The ratio of traders betting prices will go up (longs) to those betting prices will go down (shorts); above 1 means more bullish positioning"
+    },
+    {
+      "term": "Mark price",
+      "definition": "The reference price used in perpetual futures contracts; prevents price manipulation by smoothing spot price"
+    },
+    {
+      "term": "Open interest",
+      "definition": "The total value of all open leveraged positions on a contract; rising OI can indicate new traders entering, falling OI means positions are closing"
+    },
+    {
+      "term": "Redemption",
+      "definition": "When an investor sells their shares of an ETF back to the fund manager for cash"
+    },
+    {
+      "term": "Spot price",
+      "definition": "The current market price for immediate delivery of a coin, as opposed to futures contracts which settle later"
+    },
+    {
+      "term": "Taker buy/sell ratio",
+      "definition": "The ratio of market buy orders (takers) to sell orders; above 1 means more aggressive buying pressure"
+    },
+    {
+      "term": "Top trader long/short ratio",
+      "definition": "The ratio of long to short positions held by the largest traders on an exchange; indicates what institutional-sized traders believe will happen"
+    },
+    {
+      "term": "Tokenized",
+      "definition": "Converted into a digital token on a blockchain; e.g., tokenized stocks are stock ownership records on blockchain instead of traditional certificates"
+    },
+    {
+      "term": "Venue",
+      "definition": "A crypto exchange or trading platform where futures contracts are traded"
+    },
+    {
+      "term": "Volume",
+      "definition": "The total value of all trades on a contract during a time period; high volume suggests active trading"
+    }
+  ],
+  "_source": "cli"
+}

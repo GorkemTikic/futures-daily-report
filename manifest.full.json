@@ -1,15 +1,54 @@
 {
   "title": "Futures Daily Report",
-  "generatedAt": "2026-11-27T00:08:52.537Z",
-  "count": 163,
+  "generatedAt": "2026-11-28T00:10:29.908Z",
+  "count": 164,
   "counts": {
-    "total": 163,
-    "market": 76,
+    "total": 164,
+    "market": 77,
     "divergence": 87,
     "degraded": 0
   },
-  "latest": "2026-11-26",
+  "latest": "2026-11-27",
   "reports": [
+    {
+      "date": "2026-11-27",
+      "kind": "market",
+      "scanned": null,
+      "movedBig": null,
+      "dangerCount": null,
+      "widest": null,
+      "macro": {
+        "BTC": -1.0898503045437153,
+        "ETH": -1.6121583858286375
+      },
+      "marketSummary": "Bitcoin and Ethereum both fell roughly 1–1.6% on November 27, while stocks and precious metals surged, as extreme fear gripped crypto markets while institutional flows turned deeply negative.",
+      "oneLine": "Bitcoin and Ethereum both fell roughly 1–1.6% on November 27, while stocks and precious metals surged, as extreme fear gripped crypto markets while institutional flows turned deeply negative.",
+      "newsCount": 10,
+      "topMover": {
+        "symbol": "PORTALUSDT",
+        "chgPct": 230.23999999999995
+      },
+      "venues": [
+        "Binance",
+        "Bybit",
+        "OKX",
+        "Bitget",
+        "Gate"
+      ],
+      "languages": [
+        "en",
+        "tr",
+        "zh"
+      ],
+      "status": "ok",
+      "degradedReasons": [],
+      "flagged": [],
+      "files": {
+        "html": "reports/2026-11-27/summary_2026-11-27.html",
+        "pdf": "reports/2026-11-27/summary_2026-11-27.pdf",
+        "md": "reports/2026-11-27/summary_2026-11-27.md"
+      }
+    },
     {
       "date": "2026-11-26",
       "kind": "market",

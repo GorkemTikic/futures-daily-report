@@ -1,0 +1,232 @@
+{
+  "oneLine": "Bitcoin ve Ethereum 27 Kasım'da sırasıyla yaklaşık %1–1,6 oranında düşerken, hisse senetleri ve değerli metaller yükseldi. Kripto piyasaları aşırı korkuya kapıldı ve kurumsal akışlar derin negatife döndü.",
+  "caveman": "Bitcoin %1 düştü, Ethereum %1,6 düştü. Tüm kripto pazarı çok korkuyor. AMA hisse senedi pazarı sevinçli—S&P 500 %1,6 arttı ve teknoloji hisse senetleri %2,3 arttı. Altın ve gümüş de arttı. Bazı çok garip şeyler oldu: PORTAL adında bir token %230 patlayıp arttı—sebep yok; iki diğer token %47 ve %37 çakıldı. Samsung ve SK Hynix gibi Asyalı çip üreticileri %5–7 arttı—çünkü AI için çip yaparlar. Büyük profesyonel tüccarlar kripto satın almaya devam ediyor fiyatlar düşse de—garip. Garip bir gün—hisse senetleri ve altın güçlü, kripto zayıf ve korkmuş.",
+  "priceVolumeSummary": "Bitcoin 59.893 dolardan kapandı (%1,08 düşüş), Ethereum 1.661,5 dolardan (%1,62 düşüş) olup tüm ana borsalarda tutarlı fiyatlandırma gösterildi. Bitcoin Binance'de 14 milyar dolar ile hacmi başa geçti; OKX ve Bybit'in hacmi de sırasıyla 7,9 milyar ve 5,6 milyar dolar düzeyinde kaldı.",
+  "positioningSummary": "Bitcoin finansman oranı Binance'de %9,11 yıllıklandırılmış olarak yüksek kaldı—fiyat zayıflığına rağmen güçlü long yanlılığını işaret ediyor. Açık pozisyon hafifçe 5,9 milyar dolara yükseldi. Long/kısa oranı long'ları 2,49:1 oranında favörize etti; en büyük tüccarlar daha da güçlü long konumunu gösterdi (1,95:1). Taker alış/satış oranı 1,01—hafif alış baskısı gösteriyor. Binance kalıcı piyasalarında coin'lerin %72,4'ü daha yüksek işlem gördü (593 arttı, 220 düştü)—Bitcoin ve Ethereum dışında daha geniş pozitif momentum. Korku-açgözlülük endeksi aşırı korku alanında 12'ye ulaştı (11'den hafif yüksek)—derin piyasa endişesi.",
+  "stocksSummary": "Asya yarı iletken hisse senetleri SK Hynix'in %6,69 artması, Samsung'un %5,56, LG'nin %7,80 ile geniş bir ralliyi başa geçti—büyük olasılıkla AI altyapı çipleri için güçlü talep. Hong Kong'da listelenmiş AI ve teknoloji şirketleri daha dramatik şekilde yükseldi: Zhipu AI %17,45 sıçradı, MiniMax %15,55, Innolight %13,62. Çin robotik lideri Unitree Robotics %14,11 yükseldi. Emtialarda altın vadeli işlemleri %2,58 arttı, gümüş %5,45, bakır %3,37—hem güvenli liman talebini hem de ekonomik büyüme beklentilerini gösteriyor. ABD hisse senetleri güçlü yükseldi: S&P 500 %1,62 arttı, Nasdaq Bileşik %2,32 arttı—AI altyapı coşkusu ile yönlendirildi. ABD doları %0,41 arttı.",
+  "movers": [
+    {
+      "symbol": "PORTALUSDT",
+      "explanation": "PORTAL token 0,04131 dolara çıkarak günde %230 arttı ve 561 milyon dolar hacim gösterdi. Bu aşırı hareket için net bir kamuya açık haber katalizörü bulunmamıştır.",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA token yoğun 294 milyon dolar hacim ile 1,346 dolara çakıldı—%47,3 düşüş. Bu şiddetli düşüşün nedeni mevcut haberlerden belirlenemiyor.",
+      "hasCause": false
+    },
+    {
+      "symbol": "INITUSDT",
+      "explanation": "INIT token 268 milyon dolar hacim ile 0,0885 dolara düştü—%37,6 düşüş. Bu keskin düşüş için net bir haber açıklaması bulunamamıştır.",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "Binance, 6,4 milyar dolarlık hack'in dört hafta sonra çekilişleri tamamen açıyor",
+        "what": "Binance, Ekim ayı rekorluk 6,4 milyar dolarlık hack'in ardından dört haftalık çekilişleri dondurma sonrasında 26 Kasım'da tüm çekilişleri geri açtı. ABD çalıntı fonların 2,9 milyar dolarını dondurmaya, kamulaştırmaya veya geri döndürmeye yardımcı oldu. Binance tüm kullanıcı varlıklarının en az 1:1 oranında desteklendiğini doğruladı.",
+        "coins": "All (Binance platform)",
+        "timeUTC": "2026-11-27 15:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
+      },
+      {
+        "headline": "Bitcoin Core gizlilik kusuru cüzdan adreslerini kullanıcı IP adreslerine 35 sentten daha az bir bedelle bağlayabiliyor",
+        "what": "Bitcoin Core katkıcısı Abubakar Sadiq Ismail, bir gözlemcinin Bitcoin cüzdan adresini onu çalıştıran düğümün IP adresine bağlamasını sağlayan bir güvenlik açığını keşfetti. Saldırı Bitcoin'in işlem yeniden yayını mekanizmasından yararlanıyor ve yürütülmesi 35 sentten daha az maliyeti. Benzetimli testlerde doğru düğüm 30 denemeden 30'unda tanımlandı.",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-27 12:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
+      },
+      {
+        "headline": "Chainflip, 12,6 milyon dolarlık hack'in ardından etkilenen kullanıcıları belirliyor ve iyileştirme planını başlatıyor",
+        "what": "Chainflip DEX, 21 Kasım hack'inde 12,6 milyon dolar çalan (133,34 BTC, 520,22 ETH ve stablecoin'ler) kayıp muhasebesi tamamladı. İstismar libzmq kütüphanesi güvenlik açığından yararlandı. Chainflip, etkilenen likidite sağlayıcıları, swappers ve hesaplar için bir kurtarma fonu kuruyor ve FLIP token sahiplerine ile finansörlere katkı yapmasını istiyor.",
+        "coins": "Bitcoin, Ethereum, USDC, USDT",
+        "timeUTC": "2026-11-27 23:50",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/chainflip-identifies-who-lost-money-in-12-6-million-hack-as-recovery-plan-takes-shape/"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "Monero, KuCoin 30 Kasım'da listeden çıkarması ile %11 çakılıyor",
+          "what": "KuCoin, 26 Kasım'da 30 Kasım'da yürürlüğe girmek üzere Monero (XMR) listesini çıkarmayı duyurdu—belirli bir neden belirtmeden dahili platform kurallarına kaynağını alıyor. Monero 27 Kasım'da %11'den fazla düştü—Haziran'dan beri tek bir günde en büyük düşüş. KuCoin'in XMR/USDT çifti izlenen spot hacminin yaklaşık %47'sini temsil ediyordu—delisting önemli bir likidite olayı.",
+          "coins": "Monero (XMR)",
+          "timeUTC": "2026-11-27 17:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "ECB'nin sonraki şefi stablecoin'ler ve Bitcoin'in üzerine tokenleştirilmiş banka mevduatını tercih ediyor",
+          "what": "Christine Lagarde'ın yerini almak üzere seçilen Pablo Hernández de Cos, ECB başkanı, özel dijital para birimleri ve stablecoin'lere tercih ederek merkez bankası destekli tokenleştirilmiş mevduatı tercih ettiğini ifade etti. Daha önce bankaların Bitcoin'i bir varlık olarak tutmasına karşı uyarıda bulundu.",
+          "coins": "Bitcoin, general stablecoins",
+          "timeUTC": "2026-11-27 13:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin"
+        },
+        {
+          "headline": "Çin, blokzincir kimlik doğrulaması için Mart 2027'de rollout belirliyor",
+          "what": "Çin, blokzincir tabanlı dijital kimlikleri yöneten yeni düzenlemeler yayınladı—platformlar arası doğrulama ve veri gizliliği kuralları ile Mart 2027'de uygulama son tarihi.",
+          "coins": "General (blockchain infrastructure)",
+          "timeUTC": "2026-11-27 04:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "Franklin Templeton, Hyperliquid (HYPE) kripto endeks BYF'ne ekliyor",
+          "what": "Franklin Templeton, Hyperliquid'in yerel token'i (HYPE) kripto endeks BYF'ne ekledi. ABD spot HYPE yatırım ürünleri 266,5 milyon dolar yönetim altında varlık ulaştı.",
+          "coins": "Hyperliquid (HYPE)",
+          "timeUTC": "2026-11-27 11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "Ethereum geliştiricileri Glamsterdam yükseltmesi için Hoodi testnet'de 15 Aralık'ı planladı",
+          "what": "Ethereum çekirdek geliştiricileri, Glamsterdam yükseltmesinin 15 Aralık'ta 19:12 UTC'de Hoodi testnet'de test edileceğini doğruladı. Yükseltme, tahsisl yapılmış teklif-oluşturucu ayrımı, blok seviyesi erişim listeleri ve güncellenmiş gaz fiyatlandırması uygular. Mainnet dağıtımı Ocak 2027'nin orta-geç döneminde bekleniyor. Yükseltme Ekim'den ertelendi—güvenlik denetimler 15.000 akıllı sözleşmeyi etkileyen 200 uyumluluk sorunu işaretledi.",
+          "coins": "Ethereum",
+          "timeUTC": "2026-11-27 14:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051"
+        },
+        {
+          "headline": "Kalshi tahmin platformu yasal savaşlar spor bahislerini sınırladıkça küçük işletme korumasına dönerken",
+          "what": "Kalshi, platformu tariff ve hava durumu gibi operasyonel riskleri korumak için küçük işletmelere pazarlıyor—devam eden eyalet ve federal yasal zorluklar spor kumalarını teklif etme yeteneğini tehdit ediyor. Yaklaşık 500 işletme zaten Kalshi'yi mikro sigorta için kullanmış durumda.",
+          "coins": "General (platform/regulatory)",
+          "timeUTC": "2026-11-27 16:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "CryptoQuant: Bitcoin fiyat iyileşmesi USDT arzının yeniden artmaya başlamasını gerektiriyor",
+          "what": "CryptoQuant analisti, Bitcoin'in sürdürülebilir bir fiyat iyileşmesi için Tether (USDT) arzı büyümesinin yeniden başlamasını gerektirdiğini söyledi—likiditenin mevcut piyasa düşüşünde önemli bir faktör olduğunu gösteriyor.",
+          "coins": "Bitcoin, Tether (USDT)",
+          "timeUTC": "2026-11-27 23:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-26",
+    "summary": "ABD spot Bitcoin BYF'ler 25–26 Kasım'da 329,7 milyon dolar net çıkış gösterdi—BlackRock'ın iShares Bitcoin Trust (IBIT) geri alımları liderlik etti. Ethereum BYF çıkışları aynı dönemde 68,51 milyon dolar—tamamen BlackRock'ın iShares Ethereum Trust (ETHA)'den. Kasım ayı başından bugüne Bitcoin çıkışları 5,39 milyar dolar, Ethereum çıkışları 1,30 milyar dolar—spot BYF lanmanlarından beri en büyük aylık geri alımlar.",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Germany CPI Flash November 2026 — Nov 30, 13:00 UTC",
+      "typicalReaction": "Risk duyarlılığında orta düzey etki; daha güçlü enflasyon daha yüksek oranlar önerebilir—kripto için olumsuz olabilir"
+    },
+    {
+      "event": "Eurozone Flash CPI December 2026 — Dec 1, 10:00 UTC",
+      "typicalReaction": "Orta düzey etki; sürpriz avro ve daha geniş risk iştahını değiştirebilir"
+    },
+    {
+      "event": "US ISM Manufacturing PMI December 2026 — Dec 1, 15:00 UTC",
+      "typicalReaction": "ABD doları gücü ve risk duyarlılığında orta düzey etki"
+    },
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) December 2026 — Dec 4, 13:30 UTC",
+      "typicalReaction": "Yüksek etki; ABD doları ve öz volatilitesi için büyük itici; kripto risk iştahını keskin şekilde değiştirebilir"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Bazis",
+      "definition": "Fiyat değişimi ve hacmi hesaplamak için kullanılan zaman dilimi, tipik olarak UTC takvim günü"
+    },
+    {
+      "term": "Geniş Pazar Görünümü",
+      "definition": "Binance kalıcı sözleşmelerinin günde işlem gördüğü yükselen yüzdesi; geniş pazar momentumunun bir ölçüsü"
+    },
+    {
+      "term": "Borsadan Çıkarma",
+      "definition": "Kripto platformunun belirli bir token için işlem sunmayı durdurması"
+    },
+    {
+      "term": "BYF (Borsa Yatırım Fonu)",
+      "definition": "Hisse senetleri gibi bir borsada işlem gören yatırım fonu; spot Bitcoin ve Ethereum BYF'leri gerçek madeni paraları tutar ve fiyatlarını takip eder"
+    },
+    {
+      "term": "BYF Akışları",
+      "definition": "Borsa yatırım fonlarına net giriş (mevduat) veya çıkış (çekilişler); negatif akışlar yatırımcıların para çektiği anlamı"
+    },
+    {
+      "term": "Korku-Açgözlülük Endeksi",
+      "definition": "0 (Aşırı Korku) ile 100 (Aşırı Açgözlülük) arasında yatırımcı duygusunu ölçen duyarlılık göstergesi; Aşırı Korku piyasaların panik halinde olduğu anlamı"
+    },
+    {
+      "term": "Finansman Oranı",
+      "definition": "Kalıcı vadeli işlem sözleşmelerine uzun ve kısa pozisyon tutan tüccarlar arasında periyodik ödeme—fiyatları spot fiyatına yakın tutmak için tasarlanmıştır; pozitif oranlar uzun pozisyonları kısa pozisyonlara ödeme yaptıkları anlamı"
+    },
+    {
+      "term": "Finansman Oranı Yıllıklandırılmış",
+      "definition": "Finansman oranının tam bir yıl üzerinden projeksiyon yapıldığı; %9 yıllıklandırılmış oran uzun pozisyonların kısa pozisyonlara yılda yaklaşık %9 ödediği anlamı"
+    },
+    {
+      "term": "IP Adresi",
+      "definition": "Ağ üzerinde bilgisayar veya cihazı tanımlayan benzersiz numara; internet trafiğini yönlendirmek için kullanılır"
+    },
+    {
+      "term": "Likidite",
+      "definition": "Bir varlığın alınıp satılması kolay olma derecesi; yüksek likidite fiyatı hareket ettirmeden büyük miktarlar işlem yapabilmek anlamı"
+    },
+    {
+      "term": "Likidite Sağlayıcıları",
+      "definition": "Desentralize borsalara veya borç verme havuzlarına fon yatıran ve ücret kazanan kullanıcılar; istismarlar sırasında ilk kayıp yaşayıncı"
+    },
+    {
+      "term": "Long/Kısa Oranı",
+      "definition": "Fiyatların artacağına bahis yapan (long) tüccarlar ile fiyatların düşeceğine bahis yapanlar (kısa) arasındaki oran; 1'den yüksek daha fazla boğa konumlandırması anlamı"
+    },
+    {
+      "term": "İşaret Fiyatı",
+      "definition": "Kalıcı vadeli işlem sözleşmelerinde kullanılan referans fiyat; fiyat manipülasyonunu spot fiyatı yumuşatarak engeller"
+    },
+    {
+      "term": "Açık Pozisyon",
+      "definition": "Sözleşmede tüm açık kaldıraçlı pozisyonların toplam değeri; artan açık pozisyon yeni tüccarlar girileri, düşen açık pozisyon pozisyonlar kapandı anlamı"
+    },
+    {
+      "term": "Geri Alım",
+      "definition": "Yatırımcı BYF hisselerini para karşılığında fon müdürüne geri satması"
+    },
+    {
+      "term": "Spot Fiyat",
+      "definition": "Hemen teslim için kripto'nun mevcut pazar fiyatı—daha sonra uzlaştırılan vadeli işlem sözleşmelerine karşı"
+    },
+    {
+      "term": "Taker Alış/Satış Oranı",
+      "definition": "Pazar alış emirleri (taker'lar) ile satış emirleri arasındaki oran; 1'den yüksek daha agresif alış baskısı anlamı"
+    },
+    {
+      "term": "En Büyük Tüccar Long/Kısa Oranı",
+      "definition": "Borsadaki en büyük tüccarlar tarafından tutulan long'a kısa pozisyon oranı; kurumsal büyüklükte tüccarların ne olacağına inandıklarını gösterir"
+    },
+    {
+      "term": "Tokenleştirilmiş",
+      "definition": "Blokzincire dijital token'e dönüştürülmüş; ör. tokenleştirilmiş hisse senetleri hisse senedi mülkiyeti kayıtları geleneksel sertifikalar yerine blokzincirde"
+    },
+    {
+      "term": "Platform",
+      "definition": "Kalıcı sözleşmelerin işlem gördüğü kripto borsası veya işlem merkeziyetli olmayan platform"
+    },
+    {
+      "term": "İşlem Hacmi",
+      "definition": "Bir zaman diliminde sözleşmede yapılan tüm işlemlerin toplam değeri; yüksek hacim aktif işlem gösteriyor anlamı"
+    }
+  ],
+  "_source": "cli-tr",
+  "_from": "547edcd267ada0cc"
+}

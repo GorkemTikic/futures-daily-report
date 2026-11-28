@@ -1,0 +1,232 @@
+{
+  "oneLine": "比特币和以太坊在11月27日分别下跌约1—1.6%，而股票和贵金属大幅上涨，加密市场陷入极度恐慌，机构流向严重转负。",
+  "caveman": "比特币跌了1%，以太坊跌了1.6%。整个加密市场现在非常害怕。但股票市场很开心——标普500指数涨了1.6%，科技股涨了2.3%。金银都大幅上涨。发生了一些非常不寻常的事：一个叫PORTAL的币猛涨230%，没有明显原因，另外两个币分别暴跌47%和37%。三星和SK海力士这样的亚洲芯片商上涨5—7%，因为他们为AI制造芯片。大的职业交易员们虽然价格在下跌，但还在继续买加密币，这很奇怪。这是混乱的一天——股票和黄金很强，加密币很弱很害怕。",
+  "priceVolumeSummary": "比特币收盘价59,893美元（下跌1.08%），以太坊收盘价1,661.5美元（下跌1.62%），各大交易所报价一致。币安上比特币交易量领先，达140亿美元，OKX和Bybit的交易量也很大，分别为79亿美元和56亿美元。",
+  "positioningSummary": "比特币融资率保持在币安的9.11%年化水平，尽管价格走弱但仍显示多头偏好。未平仓合约小幅增加至币安的59亿美元。多空比例倾向于多头，达2.49:1，大交易员的多头持仓更强，达1.95:1。吃单买卖比率为1.01，表明存在轻微买盘压力。币安永续市场中，72.4%的币种上涨（593涨，220跌），表明比特币和以太坊之外的广泛市场动量为正。加密恐惧贪婪指数处于极度恐慌水平12（从11小幅上升），反映市场深度焦虑。",
+  "stocksSummary": "亚洲半导体股领跑广泛反弹，SK海力士飙升6.69%，三星上涨5.56%，LG上涨7.80%，可能反映了对AI基础设施芯片的强劲需求。香港上市的AI和科技公司表现更加戏剧化：智谱AI跳涨17.45%，MiniMax上涨15.55%，英诺光电上涨13.62%。中国机器人领先者宇树科技上涨14.11%。大宗商品方面，黄金期货涨2.58%，白银涨5.45%，铜涨3.37%，表明既有避险需求也有经济增长预期。美国股市强劲反弹，标普500指数涨1.62%，纳斯达克综合指数涨2.32%，受AI基础设施热情驱动。美元小幅上涨0.41%。",
+  "movers": [
+    {
+      "symbol": "PORTALUSDT",
+      "explanation": "PORTAL币飙升至0.04131美元，当日上涨230%，成交量达5.61亿美元。尚未发现明确的公开新闻催化剂解释这一极端走势。",
+      "hasCause": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "explanation": "EVAA币暴跌至1.346美元，下跌47.3%，成交量高达2.94亿美元。从现有新闻未能找到这次大幅下跌的根本原因。",
+      "hasCause": false
+    },
+    {
+      "symbol": "INITUSDT",
+      "explanation": "INIT币下跌至0.0885美元，下跌37.6%，成交量达2.68亿美元。尚未发现明确的新闻解释这次急剧下跌。",
+      "hasCause": false
+    }
+  ],
+  "news": {
+    "topThree": [
+      {
+        "headline": "币安在64亿美元黑客事件四周后完全解除提现限制",
+        "what": "币安于11月26日恢复了所有提现，这是10月创纪录的64亿美元黑客事件导致四周提现限制后的第一次完全解除。美国已帮助冻结、扣押或返还了被盗资金中的29亿美元。币安确认所有用户资产至少保证1:1的完全备付。",
+        "coins": "All (Binance platform)",
+        "timeUTC": "2026-11-27 15:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
+      },
+      {
+        "headline": "比特币核心隐私漏洞可能以不足35美分的成本将钱包地址关联到用户IP地址",
+        "what": "比特币核心贡献者Abubakar Sadiq Ismail发现了一个漏洞，允许观察者将比特币钱包地址关联到运行该节点的IP地址。该攻击利用比特币的交易重播机制，执行成本不足35美分。在模拟测试中，正确的节点在30次尝试中成功识别了30次。",
+        "coins": "Bitcoin",
+        "timeUTC": "2026-11-27 12:00",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds"
+      },
+      {
+        "headline": "Chainflip在1260万美元黑客事件后确认受影响用户并启动恢复计划",
+        "what": "Chainflip DEX在11月21日的黑客事件后完成了损失统计，该事件盗取了1260万美元（133.34 BTC、520.22 ETH和稳定币）。该漏洞利用了libzmq库的安全漏洞。Chainflip正在为受影响的流动性提供者、交易员和账户建立恢复基金，并要求FLIP代币持有者和融资方做出贡献。",
+        "coins": "Bitcoin, Ethereum, USDC, USDT",
+        "timeUTC": "2026-11-27 23:50",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/chainflip-identifies-who-lost-money-in-12-6-million-hack-as-recovery-plan-takes-shape/"
+      }
+    ],
+    "groups": {
+      "Hacks, exploits and outages": [
+        {
+          "headline": "门罗币因库币11月30日公告退市下跌11%",
+          "what": "库币于11月26日宣布将在11月30日下线门罗币(XMR)，理由是平台内部规则，未说明具体原因。门罗币在11月27日下跌超11%，这是自6月以来最大的单日跌幅。库币的XMR/USDT交易对约占追踪现货交易量的47%，使得该下线事件成为一个重大流动性事件。",
+          "coins": "Monero (XMR)",
+          "timeUTC": "2026-11-27 17:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
+        }
+      ],
+      "Regulation and policy": [
+        {
+          "headline": "欧洲央行下任行长倾向于代币化银行存款而非稳定币和比特币",
+          "what": "被选中接任克里斯蒂娜·拉加德的欧洲央行下任行长Pablo Hernández de Cos表示更倾向于央行支持的代币化存款，而不是私人数字货币和稳定币。他以前曾警告银行持有比特币作为资产。",
+          "coins": "Bitcoin, general stablecoins",
+          "timeUTC": "2026-11-27 13:30",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin"
+        },
+        {
+          "headline": "中国设定2027年3月为区块链身份认证规则推出时间",
+          "what": "中国发布了管理基于区块链的数字身份的新规则，制定了跨平台验证和数据隐私规则，实施期限为2027年3月。",
+          "coins": "General (blockchain infrastructure)",
+          "timeUTC": "2026-11-27 04:30",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations"
+        }
+      ],
+      "Institutional flows and ETFs": [
+        {
+          "headline": "富兰克林邓普顿将Hyperliquid (HYPE)加入加密指数ETF",
+          "what": "富兰克林邓普顿将Hyperliquid的原生代币(HYPE)加入其加密指数ETF，美国现货HYPE投资产品的资产管理规模达到2.665亿美元。",
+          "coins": "Hyperliquid (HYPE)",
+          "timeUTC": "2026-11-27 11:00",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf"
+        }
+      ],
+      "Exchange and platform changes": [
+        {
+          "headline": "以太坊开发者确认Glamsterdam升级将于12月15日在Hoodi测试网上线",
+          "what": "以太坊核心开发者确认Glamsterdam升级将于12月15日19:12 UTC在Hoodi测试网测试。该升级实现了固有的提议者-建造者分离、区块级访问列表和更新的燃料价格。主网部署预计在2027年1月中旬至下旬。该升级原定于10月进行，但安全审计发现了影响15,000份智能合约的200个兼容性问题后被延迟。",
+          "coins": "Ethereum",
+          "timeUTC": "2026-11-27 14:30",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ethereum-devs-schedule-glamsterdam-upgrade-hoodi-447051"
+        },
+        {
+          "headline": "Kalshi在法律诉讼限制体育博彩时向小型企业转向",
+          "what": "Kalshi正在向小企业营销其平台，作为对冲运营风险（如关税和天气）的方式，因为正在进行的州和联邦法律诉讼威胁其提供体育赌注的能力。约500家企业已使用Kalshi进行微保险。",
+          "coins": "General (platform/regulatory)",
+          "timeUTC": "2026-11-27 16:00",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports"
+        }
+      ],
+      "Unconfirmed and watch items": [
+        {
+          "headline": "CryptoQuant：比特币价格恢复需要系绳币供应量重新增长",
+          "what": "CryptoQuant分析师表示，比特币需要系绳币(USDT)供应量恢复增长才能实现持续价格恢复，这表明流动性是当前市场低迷的关键因素。",
+          "coins": "Bitcoin, Tether (USDT)",
+          "timeUTC": "2026-11-27 23:00",
+          "source": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560"
+        }
+      ]
+    }
+  },
+  "etfFlows": {
+    "date": "2026-11-26",
+    "summary": "美国现货比特币ETF在11月25—26日的净赎回达3.297亿美元，贝莱德的iShares比特币信托(IBIT)领导赎回。以太坊ETF在同期的净赎回为6,851万美元，完全来自贝莱德的iShares以太坊信托(ETHA)。11月迄今累计赎回达比特币53.9亿美元、以太坊13亿美元，是现货ETF推出以来最大的月度赎回。",
+    "source": "Farside Investors / SoSoValue",
+    "url": "https://farside.co.uk/btc/"
+  },
+  "calendarNotes": [
+    {
+      "event": "Germany CPI Flash November 2026 — Nov 30, 13:00 UTC",
+      "typicalReaction": "中等影响程度；更强的通胀可能预示利率上升，对加密市场不利"
+    },
+    {
+      "event": "Eurozone Flash CPI December 2026 — Dec 1, 10:00 UTC",
+      "typicalReaction": "中等影响程度；意外数据可能改变欧元和广泛的风险胃口"
+    },
+    {
+      "event": "US ISM Manufacturing PMI December 2026 — Dec 1, 15:00 UTC",
+      "typicalReaction": "中等影响程度，对美元强度和风险情绪有影响"
+    },
+    {
+      "event": "US Employment Situation (Non-Farm Payrolls) December 2026 — Dec 4, 13:30 UTC",
+      "typicalReaction": "高影响程度；美元和股市波动的主要驱动因素，可能大幅改变加密市场的风险胃口"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "时间基准",
+      "definition": "用于计算价格变化和成交量的时间周期，通常为UTC日历日"
+    },
+    {
+      "term": "涨跌面",
+      "definition": "币安永续合约中当日上涨的币种比例，衡量广泛市场动量"
+    },
+    {
+      "term": "交易所下线",
+      "definition": "加密交易平台停止提供某个代币的交易"
+    },
+    {
+      "term": "ETF（交易所交易基金）",
+      "definition": "在交易所上市交易的投资基金，如股票；现货比特币和以太坊ETF持有实际币种并追踪其价格"
+    },
+    {
+      "term": "ETF资金流向",
+      "definition": "交易所交易基金的净流入（存款）或净流出（提取）；负流向意味着投资者在撤出资金"
+    },
+    {
+      "term": "恐惧贪婪指数",
+      "definition": "一项情绪指标，范围从0（极度恐慌）到100（极度贪心），衡量投资者情绪；极度恐慌意味着市场陷入恐慌"
+    },
+    {
+      "term": "融资率",
+      "definition": "永续期货中多头和空头交易者之间的周期性支付，旨在维持价格接近现货价格；正利率意味着多头向空头支付"
+    },
+    {
+      "term": "融资率年化",
+      "definition": "融资率在全年基础上推算；9%的年化利率意味着多头大约每年支付空头9%"
+    },
+    {
+      "term": "IP地址",
+      "definition": "识别网络上计算机或设备的唯一编号；用于路由互联网流量"
+    },
+    {
+      "term": "流动性",
+      "definition": "资产易于买卖的程度；高流动性意味着可以交易大量资产而不影响价格"
+    },
+    {
+      "term": "流动性提供者",
+      "definition": "向去中心化交易所或借贷池存入资金以赚取费用的用户；在安全漏洞中首先遭受损失"
+    },
+    {
+      "term": "多空比例",
+      "definition": "押注价格上升(多头)的交易者与押注价格下降(空头)的交易者的比例；高于1表示更多看涨头寸"
+    },
+    {
+      "term": "标记价格",
+      "definition": "永续期货合约中使用的参考价格；通过平滑现货价格来防止价格操纵"
+    },
+    {
+      "term": "未平仓头寸",
+      "definition": "合约中所有开放杠杆头寸的总价值；未平仓头寸增加可能表示新交易者进入，减少意味着头寸平仓"
+    },
+    {
+      "term": "赎回",
+      "definition": "投资者将ETF股份卖回基金管理公司以换取现金"
+    },
+    {
+      "term": "现货价格",
+      "definition": "当前市场价格，用于立即交割币种，与更晚结算的期货合约相对"
+    },
+    {
+      "term": "吃单买卖比率",
+      "definition": "市场买入订单(吃单)与卖出订单的比例；高于1表示更强的买盘压力"
+    },
+    {
+      "term": "头部交易者多空比",
+      "definition": "交易所最大交易者持有的多头与空头头寸比例；表明机构级交易者的预期"
+    },
+    {
+      "term": "代币化",
+      "definition": "转换为区块链上的数字代币；例如，代币化股票是区块链上的股票所有权记录，而不是传统证书"
+    },
+    {
+      "term": "交易场所",
+      "definition": "加密交易所或交易平台，交易期货合约"
+    },
+    {
+      "term": "成交量",
+      "definition": "某个时间段内合约上所有交易的总价值；高成交量表明交易活跃"
+    }
+  ],
+  "_source": "cli-zh",
+  "_from": "547edcd267ada0cc"
+}

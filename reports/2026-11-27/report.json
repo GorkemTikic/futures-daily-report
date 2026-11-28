@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-27",
+  "kind": "market",
+  "dateLong": "Friday, 27 November 2026",
+  "coversUTC": "2026-11-27 00:00–23:59 UTC",
+  "oneLine": "Bitcoin and Ethereum both fell roughly 1–1.6% on November 27, while stocks and precious metals surged, as extreme fear gripped crypto markets while institutional flows turned deeply negative.",
+  "newsCount": 10,
+  "macro": {
+    "BTC": -1.0898503045437153,
+    "ETH": -1.6121583858286375
+  },
+  "topMover": {
+    "symbol": "PORTALUSDT",
+    "chgPct": 230.23999999999995
+  },
+  "venues": [
+    "Binance",
+    "Bybit",
+    "OKX",
+    "Bitget",
+    "Gate"
+  ],
+  "generatedAtUTC": "28 Nov 00:00 UTC",
+  "languages": [
+    "en",
+    "tr",
+    "zh"
+  ],
+  "status": "ok",
+  "degradedReasons": []
+}
